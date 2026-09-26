@@ -498,9 +498,10 @@ function init(){
   $('#modePractice').classList.toggle('primary',!state.review);
   $('#modeReview').classList.toggle('primary',state.review);
 
-  document.querySelectorAll('.control').forEach(x=>x.addEventListener('input',()=>{state.page=1;saveViewState();render()}));
+  document.querySelectorAll('.control').forEach(x=>x.addEventListener('input',()=>{if(x.id==='sort'&&x.value){state.shuffled=false;$('#shuffle').classList.remove('active')}state.page=1;saveViewState();render()}));
   document.querySelectorAll('.chip[data-filter]').forEach(b=>b.onclick=()=>{document.querySelectorAll('.chip[data-filter]').forEach(x=>x.classList.remove('active'));b.classList.add('active');state.filter=b.dataset.filter;state.page=1;saveViewState();render()});
-  $('#shuffle').onclick=()=>{state.shuffled=!state.shuffled;state.page=1;saveViewState();render()};
+  $('#shuffle').classList.toggle('active',state.shuffled);
+  $('#shuffle').onclick=()=>{state.shuffled=!state.shuffled;if(state.shuffled)$('#sort').value='';$('#shuffle').classList.toggle('active',state.shuffled);state.page=1;saveViewState();render()};
   $('#reset').onclick=()=>{if(confirm('Clear all saved answers, wrong/right history and stars?')){Object.keys(saved).forEach(k=>delete saved[k]);save();render()}};
   $('#modePractice').onclick=()=>{state.review=false;$('#modePractice').classList.add('primary');$('#modeReview').classList.remove('primary');saveViewState();render()};
   $('#modeReview').onclick=()=>{state.review=true;$('#modeReview').classList.add('primary');$('#modePractice').classList.remove('primary');saveViewState();render()};
@@ -510,8 +511,8 @@ function filtered(){
  let qs=QUESTIONS.slice(); const s=$('#search').value.trim().toLowerCase(),m=$('#module').value,t=$('#topic').value,b=$('#bank').value,sort=$('#sort').value;
  if(s)qs=qs.filter(q=>(q.stem+' '+Object.values(q.options).join(' ')+' '+q.topic).toLowerCase().includes(s)); if(m)qs=qs.filter(q=>q.module===m); if(t)qs=qs.filter(q=>q.topic===t); if(b)qs=qs.filter(q=>q.bank===b);
  if(state.filter==='hy')qs=qs.filter(q=>q.high_yield); if(state.filter==='formative')qs=qs.filter(q=>q.bank==='Coordinator Formative Quiz 1'); if(state.filter==='unanswered')qs=qs.filter(q=>!saved[q.id]?.answered); if(state.filter==='wrong')qs=qs.filter(q=>saved[q.id]?.correct===false); if(state.filter==='starred')qs=qs.filter(q=>saved[q.id]?.starred);
- if(state.shuffled)qs.sort((a,b)=>hash(a.id)-hash(b.id));
- else if(sort==='repeated')qs.sort((a,b)=>(Number(b.high_yield)-Number(a.high_yield))||((b.repeat_count||0)-(a.repeat_count||0))||hash(a.id)-hash(b.id));
+ if(sort==='repeated')qs.sort((a,b)=>(Number(b.high_yield)-Number(a.high_yield))||((b.repeat_count||0)-(a.repeat_count||0))||hash(a.id)-hash(b.id));
+ else if(state.shuffled)qs.sort((a,b)=>hash(a.id)-hash(b.id));
  return qs;
 }
 function hash(s){let h=0;for(let i=0;i<s.length;i++)h=(h*31+s.charCodeAt(i))|0;return Math.abs(h%100000)}

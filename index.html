@@ -38,7 +38,7 @@
         <button id="authSignIn" type="button">Sign in</button>
         <button id="authSignUp" type="button" class="secondary">Create account</button>
       </div>
-      <div class="authmeta">Optional: sign in to sync your quiz progress across devices. No card details. Creating an account may send one confirmation email; there are no marketing emails.</div>
+      <div class="authmeta">Optional: sign in to sync your quiz progress across devices. No card details and no confirmation email.</div>
     </div>
     <div id="authSignedIn" style="display:none">
       <div class="authrow">
@@ -196,15 +196,15 @@ async function signUp(){
   const password=document.getElementById('authPassword').value;
   if(!email||password.length<6){setAuthStatus('Enter your email and a password of at least 6 characters.',true);return}
   setAuthStatus('Creating account…');
-  const res=await fetch(SUPA_URL+'/auth/v1/signup',{method:'POST',headers:{apikey:SUPA_KEY,'Content-Type':'application/json'},body:JSON.stringify({email,password})});
-  const data=await res.json();
-  if(!res.ok){setAuthStatus(data.msg||data.message||'Could not create account.',true);return}
-  if(data.access_token&&data.user){
-    await completeSignIn(data);
-    setAuthStatus('Account created — progress sync is on.');
-  }else{
-    setAuthStatus('Account created. Check your email once to confirm it, then return here and sign in. If the confirmation link ends on a localhost page, the confirmation can still be complete.');
-  }
+  const res=await fetch(SUPA_URL+'/functions/v1/create-student-account',{
+    method:'POST',
+    headers:{apikey:SUPA_KEY,'Content-Type':'application/json','x-med25-signup':'1'},
+    body:JSON.stringify({email,password})
+  });
+  const data=await res.json().catch(()=>({}));
+  if(!res.ok){setAuthStatus(data.error||'Could not create account.',true);return}
+  setAuthStatus('Account created — signing you in…');
+  await signIn();
 }
 async function signOutUser(){
   try{if(authSession?.access_token)await supaFetch('/auth/v1/logout',{method:'POST'});}catch{}

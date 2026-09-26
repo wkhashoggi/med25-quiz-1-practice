@@ -38,7 +38,7 @@
         <button id="authSignIn" type="button">Sign in</button>
         <button id="authSignUp" type="button" class="secondary">Create account</button>
       </div>
-      <div class="authmeta">Optional: sign in to sync your quiz progress across devices. No card details. No marketing emails.</div>
+      <div class="authmeta">Optional: sign in to sync your quiz progress across devices. No card details. Creating an account may send one confirmation email; there are no marketing emails.</div>
     </div>
     <div id="authSignedIn" style="display:none">
       <div class="authrow">
@@ -203,7 +203,7 @@ async function signUp(){
     await completeSignIn(data);
     setAuthStatus('Account created — progress sync is on.');
   }else{
-    setAuthStatus('Account created. Check your email once to confirm it, then come back and sign in.');
+    setAuthStatus('Account created. Check your email once to confirm it, then return here and sign in. If the confirmation link ends on a localhost page, the confirmation can still be complete.');
   }
 }
 async function signOutUser(){

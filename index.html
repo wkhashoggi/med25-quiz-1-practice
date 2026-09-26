@@ -50,6 +50,22 @@
   .updateNoticeClose{width:60px;height:60px;font-size:40px}
 }
 
+.analyticsBack{position:fixed;inset:0;background:rgba(15,23,42,.72);z-index:10000;display:none;align-items:flex-start;justify-content:center;padding:28px;overflow:auto}
+.analyticsBack.show{display:flex}
+.analyticsPanel{width:min(1120px,96vw);background:#f8fafc;border-radius:22px;box-shadow:0 30px 90px rgba(0,0,0,.3);overflow:hidden}
+.analyticsHead{display:flex;justify-content:space-between;gap:12px;align-items:center;padding:20px 22px;background:#fff;border-bottom:1px solid var(--line)}
+.analyticsHead h2{margin:0;font-size:22px}.analyticsHead p{margin:3px 0 0;color:var(--muted);font-size:12px}
+.analyticsBody{padding:20px}
+.analyticsMetrics{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.analyticsMetric{background:#fff;border:1px solid var(--line);border-radius:15px;padding:14px}.analyticsMetric b{display:block;font-size:26px}.analyticsMetric span{font-size:12px;color:var(--muted)}
+.analyticsGrid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:14px}
+.analyticsTableWrap{overflow:auto;max-height:420px}
+.analyticsTable{width:100%;border-collapse:collapse;font-size:12px}.analyticsTable th,.analyticsTable td{padding:9px 8px;border-bottom:1px solid #eef2f6;text-align:left;white-space:nowrap}.analyticsTable th{position:sticky;top:0;background:#fff;color:#475467}
+.analyticsNote{font-size:12px;color:#667085;margin:0 0 14px}
+.analyticsError{padding:18px;background:#fff;border:1px solid #fecaca;color:#991b1b;border-radius:14px}
+@media(max-width:800px){.analyticsMetrics{grid-template-columns:1fr 1fr}.analyticsGrid{grid-template-columns:1fr}.analyticsBack{padding:10px}.analyticsPanel{width:100%}}
+@media(max-width:460px){.analyticsMetrics{grid-template-columns:1fr}}
+
 </style>
 </head>
 <body>
@@ -82,6 +98,7 @@
     <div id="authSignedIn" style="display:none">
       <div class="authrow">
         <div><b id="authIdentity">Signed in</b><div class="authmeta" id="syncState">Progress synced</div></div>
+        <button id="adminAnalyticsBtn" type="button" style="display:none">Analytics</button>
         <button id="authSignOut" type="button" class="secondary">Sign out</button>
       </div>
     </div>
@@ -125,6 +142,17 @@
 </div>
 
 <div class="modalback" id="sourceModal"><div class="slidemodal"><div class="slidehead"><div><b id="slideTitle">Lecture slide</b><span class="small" id="slideNum"></span></div><button class="closemodal" id="closeSource">Close</button></div><div class="slidebody"><img id="slideImg" alt="Matched MED25 lecture slide"></div><div class="slidefoot"><span class="small" id="slideNote">Matched against the current MED25 lecture deck.</span><a class="driveLink" id="driveLink" target="_blank" rel="noopener">Open original lecture in Drive ↗</a></div></div></div>
+
+<div class="analyticsBack" id="analyticsBack" aria-hidden="true">
+  <section class="analyticsPanel" role="dialog" aria-modal="true" aria-labelledby="analyticsTitle">
+    <div class="analyticsHead">
+      <div><h2 id="analyticsTitle">MED25 Analytics</h2><p>Private admin dashboard</p></div>
+      <button class="closemodal" id="closeAnalytics" type="button">Close</button>
+    </div>
+    <div class="analyticsBody" id="analyticsBody"><div class="small">Loading analytics…</div></div>
+  </section>
+</div>
+
 <div class="footer-note">Guest progress is saved on this device. Signed-in students can securely sync their own progress across devices.</div>
 </div>
 <script>
@@ -176,6 +204,81 @@ const GUEST_PROGRESS_KEY='cb-bank-progress';
 const AUTH_SESSION_KEY='med25-auth-session';
 const SUPA_URL='https://cocjhgipbfyinrlhzonw.supabase.co';
 const SUPA_KEY='sb_publishable_xYn1SQHACZgerAatoCMqDw_Qs4w0rlW';
+const ADMIN_EMAILS=['waleed.khashoggi@icloud.com','waleed.k.khashoggi@gmail.com'];
+const ANALYTICS_VISITOR_KEY='med25-analytics-visitor-v1';
+const ANALYTICS_SESSION_KEY='med25-analytics-session-v1';
+
+function randomUuid(){
+  if(window.crypto?.randomUUID)return crypto.randomUUID();
+  return '10000000-1000-4000-8000-100000000000'.replace(/[018]/g,ch=>(Number(ch)^crypto.getRandomValues(new Uint8Array(1))[0]&15>>Number(ch)/4).toString(16));
+}
+function persistentId(storage,key){
+  try{let v=storage.getItem(key);if(!v){v=randomUuid();storage.setItem(key,v)}return v}catch{return randomUuid()}
+}
+const analyticsVisitorId=persistentId(localStorage,ANALYTICS_VISITOR_KEY);
+const analyticsSessionId=persistentId(sessionStorage,ANALYTICS_SESSION_KEY);
+
+async function trackEvent(eventName,details={}){
+  try{
+    const payload={
+      visitor_id:analyticsVisitorId,
+      session_id:analyticsSessionId,
+      user_id:currentUser?.id||null,
+      event_name:eventName,
+      question_id:details.question_id||null,
+      topic:details.topic||null,
+      metadata:details.metadata||{}
+    };
+    const res=await supaFetch('/rest/v1/analytics_events',{
+      method:'POST',
+      headers:{Prefer:'return=minimal'},
+      body:JSON.stringify(payload)
+    });
+    if(!res.ok)console.debug('Analytics event not recorded:',eventName,res.status);
+  }catch(e){console.debug('Analytics unavailable:',e)}
+}
+function isAdmin(){return !!currentUser?.email&&ADMIN_EMAILS.includes(currentUser.email.trim().toLowerCase())}
+function fmtAdminDate(v){if(!v)return '—';try{return new Date(v).toLocaleString('en-GB',{timeZone:'Asia/Riyadh',day:'2-digit',month:'short',year:'numeric',hour:'2-digit',minute:'2-digit'})}catch{return v}}
+function closeAnalytics(){const back=document.getElementById('analyticsBack');back?.classList.remove('show');back?.setAttribute('aria-hidden','true')}
+async function loadAdminAnalytics(){
+  const body=document.getElementById('analyticsBody');
+  if(!body)return;
+  body.innerHTML='<div class="small">Loading analytics…</div>';
+  if(!authSession?.access_token||!isAdmin()){body.innerHTML='<div class="analyticsError">Admin access required.</div>';return}
+  try{
+    let res=await fetch(SUPA_URL+'/functions/v1/admin-analytics',{headers:{apikey:SUPA_KEY,Authorization:'Bearer '+authSession.access_token}});
+    if(res.status===401&&await refreshSession())res=await fetch(SUPA_URL+'/functions/v1/admin-analytics',{headers:{apikey:SUPA_KEY,Authorization:'Bearer '+authSession.access_token}});
+    const data=await res.json().catch(()=>({}));
+    if(!res.ok)throw new Error(data.error||'Could not load analytics');
+    const a=data.analytics||{};
+    const emails=Array.isArray(a.registered_emails)?a.registered_emails:[];
+    const topics=Array.isArray(a.top_topics)?a.top_topics:[];
+    const daily=Array.isArray(a.daily)?a.daily:[];
+    const started=a.analytics_started_at?fmtAdminDate(a.analytics_started_at):'Just enabled';
+    body.innerHTML=`
+      <p class="analyticsNote">Visitor tracking started <b>${esc(started)}</b>. Visits before analytics was enabled cannot be reconstructed. Registered-account totals include all existing accounts.</p>
+      <div class="analyticsMetrics">
+        <div class="analyticsMetric"><b>${a.total_visitors??0}</b><span>unique tracked visitors</span></div>
+        <div class="analyticsMetric"><b>${a.total_sessions??0}</b><span>tracked sessions</span></div>
+        <div class="analyticsMetric"><b>${a.registered_users??0}</b><span>registered accounts</span></div>
+        <div class="analyticsMetric"><b>${a.visitors_today??0}</b><span>unique visitors today</span></div>
+        <div class="analyticsMetric"><b>${a.questions_answered??0}</b><span>answers submitted</span></div>
+        <div class="analyticsMetric"><b>${a.answers_today??0}</b><span>answers today</span></div>
+        <div class="analyticsMetric"><b>${a.source_opens??0}</b><span>lecture sources opened</span></div>
+        <div class="analyticsMetric"><b>${a.active_signed_in_users??0}</b><span>signed-in users seen</span></div>
+      </div>
+      <div class="analyticsGrid">
+        <div class="box"><h3>Last 14 days</h3><div class="analyticsTableWrap"><table class="analyticsTable"><thead><tr><th>Date</th><th>Visitors</th><th>Sessions</th><th>Answers</th></tr></thead><tbody>${daily.map(d=>`<tr><td>${esc(String(d.date||''))}</td><td>${d.visitors??0}</td><td>${d.sessions??0}</td><td>${d.answers??0}</td></tr>`).join('')||'<tr><td colspan="4">No tracked activity yet.</td></tr>'}</tbody></table></div></div>
+        <div class="box"><h3>Most answered topics</h3><div class="analyticsTableWrap"><table class="analyticsTable"><thead><tr><th>Topic</th><th>Answers</th></tr></thead><tbody>${topics.map(t=>`<tr><td>${esc(t.topic||'')}</td><td>${t.answers??0}</td></tr>`).join('')||'<tr><td colspan="2">No answers tracked yet.</td></tr>'}</tbody></table></div></div>
+      </div>
+      <div class="box" style="margin-top:14px"><h3>Registered emails</h3><div class="analyticsTableWrap"><table class="analyticsTable"><thead><tr><th>Email</th><th>Created</th><th>Last sign-in</th></tr></thead><tbody>${emails.map(u=>`<tr><td>${esc(u.email||'')}</td><td>${esc(fmtAdminDate(u.created_at))}</td><td>${esc(fmtAdminDate(u.last_sign_in_at))}</td></tr>`).join('')||'<tr><td colspan="3">No registered accounts.</td></tr>'}</tbody></table></div></div>`;
+  }catch(e){body.innerHTML='<div class="analyticsError">'+esc(e.message||String(e))+'</div>'}
+}
+async function openAdminAnalytics(){
+  const back=document.getElementById('analyticsBack');if(!back)return;
+  back.classList.add('show');back.setAttribute('aria-hidden','false');
+  await loadAdminAnalytics();
+}
 let saved=JSON.parse(localStorage.getItem(GUEST_PROGRESS_KEY)||'{}');
 function regradeSavedProgress(){
   const byId=new Map(QUESTIONS.map(q=>[q.id,q]));
@@ -269,6 +372,8 @@ function updateAuthUI(){
   inn.style.display=currentUser?'block':'none';
   const ident=document.getElementById('authIdentity');
   if(ident&&currentUser)ident.textContent=currentUser.email||'Signed in';
+  const adminBtn=document.getElementById('adminAnalyticsBtn');
+  if(adminBtn)adminBtn.style.display=currentUser&&isAdmin()?'inline-block':'none';
 }
 async function completeSignIn(data){
   if(!data?.access_token||!data?.user)throw new Error('No active session returned.');
@@ -284,6 +389,7 @@ async function signIn(){
   const data=await res.json();
   if(!res.ok){setAuthStatus(data.error_description||data.msg||data.message||'Could not sign in.',true);return}
   await completeSignIn(data);
+  trackEvent('sign_in',{metadata:{method:'password'}});
 }
 async function signUp(){
   const email=document.getElementById('authEmail').value.trim();
@@ -298,6 +404,7 @@ async function signUp(){
   const data=await res.json().catch(()=>({}));
   if(!res.ok){setAuthStatus(data.error||'Could not create account.',true);return}
   setAuthStatus('Account created — signing you in…');
+  trackEvent('sign_up');
   await signIn();
 }
 async function signOutUser(){
@@ -311,6 +418,7 @@ async function setupAuth(){
   document.getElementById('authSignIn').onclick=signIn;
   document.getElementById('authSignUp').onclick=signUp;
   document.getElementById('authSignOut').onclick=signOutUser;
+  document.getElementById('adminAnalyticsBtn').onclick=openAdminAnalytics;
   const raw=localStorage.getItem(AUTH_SESSION_KEY);
   if(!raw){updateAuthUI();return}
   try{
@@ -347,18 +455,23 @@ function render(){const all=filtered(), list=$('#list'); if(!all.length){list.in
 function card(q){const p=saved[q.id]||{}, answered=p.answered||state.review, selected=p.selected, correct=q.answer; const opts=Object.entries(q.options).map(([k,v])=>{let cls='option'; if(answered&&correct&&correct!=='TEXT'&&k===correct)cls+=' correct'; else if(answered&&selected===k&&k!==correct)cls+=' wrong'; else if(selected===k)cls+=' selected'; return `<button class="${cls}" data-id="${q.id}" data-opt="${k}"><span class="letter">${k}</span><span>${esc(v)}</span></button>`}).join('');
 const answerLabel=q.answer_basis==='ai-corrected'?'AI-corrected answer':(q.answer_basis==='ai'?'AI-derived answer':(q.answer_basis==='lecture'?'Lecture-matched answer':'Bank answer')); const fb=answered?`<div class="feedback show ${selected&&correct&&correct!=='TEXT'&&selected!==correct?'wrong':'correct'}"><b>${correct?`${answerLabel}: ${correct==='TEXT'?esc(q.answer_text):(correct+(q.answer_text?' — '+esc(q.answer_text):''))}`:(q.answer_basis==='lecture'?'No unambiguous lecture-matched answer':'No recoverable bank answer')}</b>${selected&&correct&&correct!=='TEXT'?`<br>${selected===correct?'Correct.':'Your choice: '+selected}`:''}</div>`:'';
 return `<article class="qcard" id="${q.id}"><span class="reviewmark" data-star="${q.id}" title="Star for review">${p.starred?'★':'☆'}</span><div class="qtop"><div class="meta"><span class="pill ${q.module==='Formative'?'formative':''}">${q.module}</span><span class="pill">${esc(q.topic)}</span>${q.high_yield?`<span class="pill hy">Repeated concept ×${q.repeat_count}</span>`:''}${q.bank==='Coordinator Formative Quiz 1'?`<span class="pill formative">Coordinator formative</span>`:''}</div><span class="qnum">${esc(q.bank)} · ${q.page?'p.'+q.page+' · ':''}Q${q.number}</span></div><div class="stem">${esc(q.stem)}</div><div class="options">${opts||'<div class="small">This bank entry did not contain recoverable option text.</div>'}</div>${fb}<div class="explain ${answered?'show':''}"><b>Why:</b> ${esc(q.explanation)}</div><div class="actions">${!answered?`<button class="btn" data-reveal="${q.id}">Reveal answer</button>`:''}<button class="btn sourcebtn" data-source="${q.id}">Open source lecture ↗</button><button class="btn" data-copy="${q.id}">Copy question</button></div><div class="source-note">Question bank: ${esc(q.source_file)}${q.page?' · page '+q.page:''}. Lecture source: ${esc(q.lecture_source?.title||'')} · slide ${q.lecture_source?.slide||'—'}. ${q.answer_basis==='ai-corrected'?`AI-corrected after independent medical review; original bank key: ${esc(q.original_bank_answer||'—')}.`:(q.answer_basis==='lecture'?(q.answer?'Answer matched to current MED25 lecture; the formative PDF has no printed key.':'Formative item is ambiguous as written; no answer forced.'):(q.answer_basis==='ai'?'AI-derived because the formative PDF has no printed key and the exact point was not directly resolved by the lecture.':(q.answer?'Answer preserved from bank key.':'Answer key not recoverable from source text.')))}</div></article>`}
-function showSource(id){const q=QUESTIONS.find(x=>x.id===id);if(!q||!q.lecture_source)return;const url=COHORT_SOURCE_OVERRIDES[q.lecture_source.key]||q.lecture_source.drive_url||COHORT_DRIVE_ROOT;window.open(url,'_blank','noopener,noreferrer');}
+function showSource(id){const q=QUESTIONS.find(x=>x.id===id);if(!q||!q.lecture_source)return;trackEvent('source_open',{question_id:q.id,topic:q.topic});const url=COHORT_SOURCE_OVERRIDES[q.lecture_source.key]||q.lecture_source.drive_url||COHORT_DRIVE_ROOT;window.open(url,'_blank','noopener,noreferrer');}
 function closeSource(){document.getElementById('sourceModal').classList.remove('show');document.getElementById('slideImg').src='';}
 document.getElementById('closeSource').onclick=closeSource;document.getElementById('sourceModal').onclick=e=>{if(e.target.id==='sourceModal')closeSource()};document.addEventListener('keydown',e=>{if(e.key==='Escape')closeSource()});
+document.getElementById('closeAnalytics').onclick=closeAnalytics;document.getElementById('analyticsBack').onclick=e=>{if(e.target.id==='analyticsBack')closeAnalytics()};document.addEventListener('keydown',e=>{if(e.key==='Escape')closeAnalytics()});
 function bindCards(){document.querySelectorAll('.option').forEach(btn=>btn.onclick=()=>answer(btn.dataset.id,btn.dataset.opt));document.querySelectorAll('[data-reveal]').forEach(btn=>btn.onclick=()=>reveal(btn.dataset.reveal));document.querySelectorAll('[data-star]').forEach(btn=>btn.onclick=()=>star(btn.dataset.star));document.querySelectorAll('[data-copy]').forEach(btn=>btn.onclick=()=>copyQ(btn.dataset.copy));document.querySelectorAll('[data-source]').forEach(btn=>btn.onclick=()=>showSource(btn.dataset.source));}
-function answer(id,opt){if(state.review)return;const q=QUESTIONS.find(x=>x.id===id);saved[id]={...(saved[id]||{}),answered:true,selected:opt,correct:(q.answer&&q.answer!=='TEXT')?opt===q.answer:null};save();render()}
-function reveal(id){saved[id]={...(saved[id]||{}),answered:true,selected:saved[id]?.selected||null,correct:saved[id]?.correct??null};save();render()}
+function answer(id,opt){if(state.review)return;const q=QUESTIONS.find(x=>x.id===id);const firstAttempt=!saved[id]?.answered;const grade=(q.answer&&q.answer!=='TEXT')?opt===q.answer:null;saved[id]={...(saved[id]||{}),answered:true,selected:opt,correct:grade};save();trackEvent('question_answer',{question_id:id,topic:q.topic,metadata:{correct:grade,first_attempt:firstAttempt}});render()}
+function reveal(id){const q=QUESTIONS.find(x=>x.id===id);const firstReveal=!saved[id]?.answered;saved[id]={...(saved[id]||{}),answered:true,selected:saved[id]?.selected||null,correct:saved[id]?.correct??null};save();trackEvent('answer_reveal',{question_id:id,topic:q?.topic||null,metadata:{first_reveal:firstReveal}});render()}
 function star(id){saved[id]={...(saved[id]||{}),starred:!saved[id]?.starred};save();render()}
 function copyQ(id){const q=QUESTIONS.find(x=>x.id===id);const txt=q.stem+'\n'+Object.entries(q.options).map(([k,v])=>k+'. '+v).join('\n');navigator.clipboard?.writeText(txt)}
 function updateStats(){const done=QUESTIONS.filter(q=>saved[q.id]?.answered).length, right=QUESTIONS.filter(q=>saved[q.id]?.correct===true).length, wrong=QUESTIONS.filter(q=>saved[q.id]?.correct===false).length, hy=QUESTIONS.filter(q=>q.high_yield).length;$('#stats').innerHTML=`<div class="stat"><b>${QUESTIONS.length}</b><span>practice questions</span></div><div class="stat"><b>${hy}</b><span>very high-yield / repeated</span></div><div class="stat"><b>${done}</b><span>attempted</span></div><div class="stat"><b>${done?Math.round(right/Math.max(1,right+wrong)*100):0}%</b><span>accuracy on graded</span></div>`;$('#progress').style.width=(100*done/QUESTIONS.length)+'%'}
 function renderTopicStats(){const c={};QUESTIONS.forEach(q=>c[q.topic]=(c[q.topic]||0)+1);$('#topicStats').innerHTML=Object.entries(c).sort((a,b)=>b[1]-a[1]).slice(0,14).map(([k,v])=>`<div class="topicrow"><button onclick="document.querySelector('#topic').value=${JSON.stringify(k)};state.page=1;render()">${esc(k)}</button><b>${v}</b></div>`).join('')}
-init();
-setupAuth();
-setupUpdateNotice();
+async function boot(){
+  init();
+  await setupAuth();
+  setupUpdateNotice();
+  trackEvent('page_view',{metadata:{signed_in:!!currentUser}});
+}
+boot();
 </script>
 </body></html>

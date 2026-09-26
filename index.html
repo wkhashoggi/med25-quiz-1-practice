@@ -558,7 +558,7 @@ function balancedHighYieldOrder(items){
       const q=arr.splice(pick,1)[0];
       ordered.push(q);
       recentTopics.push(q.topic);
-      if(recentTopics.length>3)recentTopics.shift();
+      if(recentTopics.length>10)recentTopics.shift();
     }
   }
   return ordered;

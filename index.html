@@ -543,20 +543,23 @@ function highYieldPriority(q){
   return score;
 }
 function balancedHighYieldOrder(items){
-  const remaining=items.slice().sort((a,b)=>highYieldPriority(b)-highYieldPriority(a)||hash(a.id)-hash(b.id));
-  const ordered=[],recentTopics=[],recentBanks=[];
-  while(remaining.length){
-    let pick=-1;
-    for(let i=0;i<remaining.length;i++){
-      const q=remaining[i];
-      if(!recentTopics.includes(q.topic)&&recentBanks[recentBanks.length-1]!==q.bank){pick=i;break}
+  const preferred=['Coordinator Formative Quiz 1','Physiology Important','CVS Previous Years','IBLS Previous Years'];
+  const buckets={};
+  items.forEach(q=>{(buckets[q.bank]??=[]).push(q)});
+  Object.values(buckets).forEach(arr=>arr.sort((a,b)=>highYieldPriority(b)-highYieldPriority(a)||hash(a.id)-hash(b.id)));
+  const bankOrder=[...preferred.filter(b=>buckets[b]?.length),...Object.keys(buckets).filter(b=>!preferred.includes(b))];
+  const ordered=[],recentTopics=[];
+  while(bankOrder.some(b=>buckets[b]?.length)){
+    for(const bank of bankOrder){
+      const arr=buckets[bank];
+      if(!arr?.length)continue;
+      let pick=arr.findIndex(q=>!recentTopics.includes(q.topic));
+      if(pick<0)pick=0;
+      const q=arr.splice(pick,1)[0];
+      ordered.push(q);
+      recentTopics.push(q.topic);
+      if(recentTopics.length>3)recentTopics.shift();
     }
-    if(pick<0){for(let i=0;i<remaining.length;i++){if(!recentTopics.includes(remaining[i].topic)){pick=i;break}}}
-    if(pick<0)pick=0;
-    const q=remaining.splice(pick,1)[0];
-    ordered.push(q);
-    recentTopics.push(q.topic);if(recentTopics.length>3)recentTopics.shift();
-    recentBanks.push(q.bank);if(recentBanks.length>1)recentBanks.shift();
   }
   return ordered;
 }

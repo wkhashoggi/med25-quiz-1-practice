@@ -216,6 +216,8 @@ const state={
   page:Number.isInteger(restoredView.page)&&restoredView.page>0?restoredView.page:1,
   pageSize:20
 };
+let unansweredSnapshot=null;
+function resetUnansweredSnapshot(){unansweredSnapshot=null}
 function saveViewState(){
   try{
     sessionStorage.setItem(VIEW_STATE_KEY,JSON.stringify({
@@ -417,6 +419,7 @@ async function loadCloudProgress(){
     saved={...guest,...userLocal};
   }
   regradeSavedProgress();
+  resetUnansweredSnapshot();
   localStorage.setItem(progressKey(),JSON.stringify(saved));
   render();updateStats();renderWeakTopics();
   await cloudSave();
@@ -465,7 +468,7 @@ async function signUp(){
 }
 async function signOutUser(){
   try{if(authSession?.access_token)await supaFetch('/auth/v1/logout',{method:'POST'});}catch{}
-  persistSession(null);currentUser=null;
+  persistSession(null);currentUser=null;resetUnansweredSnapshot();
   saved=JSON.parse(localStorage.getItem(GUEST_PROGRESS_KEY)||'{}');
   updateAuthUI();setAuthStatus('Signed out. Guest progress remains on this device.');
   render();updateStats();renderWeakTopics();
@@ -501,11 +504,11 @@ function init(){
   $('#modePractice').classList.toggle('primary',!state.review);
   $('#modeReview').classList.toggle('primary',state.review);
 
-  document.querySelectorAll('.control').forEach(x=>x.addEventListener('input',()=>{if(x.id==='sort'&&x.value){state.shuffled=false;$('#shuffle').classList.remove('active')}state.page=1;saveViewState();render()}));
-  document.querySelectorAll('.chip[data-filter]').forEach(b=>b.onclick=()=>{document.querySelectorAll('.chip[data-filter]').forEach(x=>x.classList.remove('active'));b.classList.add('active');state.filter=b.dataset.filter;if(state.filter==='smart'){state.shuffled=false;$('#shuffle').classList.remove('active');$('#sort').value=''}state.page=1;saveViewState();render()});
+  document.querySelectorAll('.control').forEach(x=>x.addEventListener('input',()=>{resetUnansweredSnapshot();if(x.id==='sort'&&x.value){state.shuffled=false;$('#shuffle').classList.remove('active')}state.page=1;saveViewState();render()}));
+  document.querySelectorAll('.chip[data-filter]').forEach(b=>b.onclick=()=>{resetUnansweredSnapshot();document.querySelectorAll('.chip[data-filter]').forEach(x=>x.classList.remove('active'));b.classList.add('active');state.filter=b.dataset.filter;if(state.filter==='smart'){state.shuffled=false;$('#shuffle').classList.remove('active');$('#sort').value=''}state.page=1;saveViewState();render()});
   $('#shuffle').classList.toggle('active',state.shuffled);
-  $('#shuffle').onclick=()=>{state.shuffled=!state.shuffled;if(state.shuffled)$('#sort').value='';$('#shuffle').classList.toggle('active',state.shuffled);state.page=1;saveViewState();render()};
-  $('#reset').onclick=()=>{if(confirm('Clear all saved answers, wrong/right history and stars?')){Object.keys(saved).forEach(k=>delete saved[k]);save();render()}};
+  $('#shuffle').onclick=()=>{resetUnansweredSnapshot();state.shuffled=!state.shuffled;if(state.shuffled)$('#sort').value='';$('#shuffle').classList.toggle('active',state.shuffled);state.page=1;saveViewState();render()};
+  $('#reset').onclick=()=>{if(confirm('Clear all saved answers, wrong/right history and stars?')){resetUnansweredSnapshot();Object.keys(saved).forEach(k=>delete saved[k]);save();render()}};
   $('#modePractice').onclick=()=>{state.review=false;$('#modePractice').classList.add('primary');$('#modeReview').classList.remove('primary');saveViewState();render()};
   $('#modeReview').onclick=()=>{state.review=true;$('#modeReview').classList.add('primary');$('#modePractice').classList.remove('primary');saveViewState();render()};
   render(); updateStats(); renderWeakTopics(); renderTopicStats();
@@ -584,7 +587,10 @@ function filtered(){
  if(s)qs=qs.filter(q=>(q.stem+' '+Object.values(q.options).join(' ')+' '+q.topic).toLowerCase().includes(s)); if(m)qs=qs.filter(q=>q.module===m); if(t)qs=qs.filter(q=>q.topic===t); if(b)qs=qs.filter(q=>q.bank===b);
  if(state.filter==='hy')qs=repeatedSortOrder(qs.filter(q=>q.high_yield));
  if(state.filter==='formative')qs=qs.filter(q=>q.bank==='Coordinator Formative Quiz 1');
- if(state.filter==='unanswered')qs=qs.filter(q=>!saved[q.id]?.answered);
+ if(state.filter==='unanswered'){
+   if(!unansweredSnapshot)unansweredSnapshot=new Set(qs.filter(q=>!saved[q.id]?.answered).map(q=>q.id));
+   qs=qs.filter(q=>unansweredSnapshot.has(q.id));
+ }
  if(state.filter==='wrong')qs=qs.filter(q=>saved[q.id]?.correct===false);
  if(state.filter==='starred')qs=qs.filter(q=>saved[q.id]?.starred);
  if(state.filter==='smart'){

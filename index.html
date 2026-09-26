@@ -563,6 +563,14 @@ function balancedHighYieldOrder(items){
   }
   return ordered;
 }
+function repeatedSortOrder(items){
+  return items.slice().sort((a,b)=>
+    ((b.repeat_count||0)-(a.repeat_count||0))||
+    (Number(b.high_yield)-Number(a.high_yield))||
+    ((b.topic_repeat_count||0)-(a.topic_repeat_count||0))||
+    hash(a.id)-hash(b.id)
+  );
+}
 function highYieldBadge(q){
   if(!q.high_yield)return '';
   if((q.repeat_count||0)>=3)return '<span class="pill hy">Repeated concept ×'+q.repeat_count+'</span>';
@@ -574,7 +582,7 @@ function highYieldBadge(q){
 function filtered(){
  let qs=QUESTIONS.slice(); const s=$('#search').value.trim().toLowerCase(),m=$('#module').value,t=$('#topic').value,b=$('#bank').value,sort=$('#sort').value;
  if(s)qs=qs.filter(q=>(q.stem+' '+Object.values(q.options).join(' ')+' '+q.topic).toLowerCase().includes(s)); if(m)qs=qs.filter(q=>q.module===m); if(t)qs=qs.filter(q=>q.topic===t); if(b)qs=qs.filter(q=>q.bank===b);
- if(state.filter==='hy')qs=balancedHighYieldOrder(qs.filter(q=>q.high_yield));
+ if(state.filter==='hy')qs=repeatedSortOrder(qs.filter(q=>q.high_yield));
  if(state.filter==='formative')qs=qs.filter(q=>q.bank==='Coordinator Formative Quiz 1');
  if(state.filter==='unanswered')qs=qs.filter(q=>!saved[q.id]?.answered);
  if(state.filter==='wrong')qs=qs.filter(q=>saved[q.id]?.correct===false);
@@ -590,7 +598,7 @@ function filtered(){
    smart.sort((a,b)=>smartReviewScore(b,perf)-smartReviewScore(a,perf)||highYieldPriority(b)-highYieldPriority(a)||hash(a.id)-hash(b.id));
    return smart;
  }
- if(sort==='repeated')qs=balancedHighYieldOrder(qs);
+ if(sort==='repeated')qs=repeatedSortOrder(qs);
  else if(state.shuffled)qs.sort((a,b)=>hash(a.id)-hash(b.id));
  return qs;
 }

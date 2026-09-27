@@ -46,3 +46,20 @@
 #flashStatsPanel.flashStatsPanel{grid-template-columns:repeat(4,1fr)}
 @media(max-width:800px){.ankiOptionsGrid{grid-template-columns:1fr 1fr}}
 @media(max-width:520px){.ankiOptionsGrid{grid-template-columns:1fr}.ankiOptionFoot{align-items:flex-start;flex-direction:column}.ankiCongrats{font-size:22px}}
+
+
+/* Live crowd-sourced question success */
+.liveStatsToggle{display:inline-flex;align-items:center;gap:4px;margin-left:auto;padding:3px;border:1px solid #d0d5dd;background:#f8fafc;border-radius:999px}
+.liveStatsToggle>span{font-size:10px;font-weight:800;color:#667085;padding:0 6px;white-space:nowrap}
+.liveStatsToggle button{border:0;background:transparent;border-radius:999px;padding:6px 9px;font-size:10px;font-weight:800;color:#667085;cursor:pointer}
+.liveStatsToggle button.active{background:#172033;color:#fff}
+.liveSuccessRate{margin:-2px 0 12px}
+.liveSuccessInner,.liveSuccessEmpty{border:1px solid #e4e7ec;background:#f8fafc;border-radius:11px;padding:9px 10px}
+.liveSuccessEmpty{font-size:10px;color:#98a2b3}
+.liveSuccessTop{display:flex;justify-content:space-between;gap:10px;align-items:center}
+.liveSuccessTop b{font-size:11px;color:#344054}.liveSuccessTop span{font-size:9px;color:#98a2b3}
+.liveSuccessBar{height:5px;border-radius:999px;overflow:hidden;display:flex;background:#eaecf0;margin:7px 0 6px}
+.liveSuccessBar span{height:100%;display:block}.liveCorrect{background:#12b76a}.liveWrong{background:#f04438}
+.liveSuccessCounts{display:flex;gap:10px;flex-wrap:wrap;font-size:9px;color:#667085}.liveSuccessCounts span:first-child{color:#067647}.liveSuccessCounts span:nth-child(2){color:#b42318}.liveSuccessCounts span:last-child{margin-left:auto;color:#98a2b3}
+.liveSuccessInner.strong .liveSuccessTop b{color:#067647}.liveSuccessInner.medium .liveSuccessTop b{color:#b54708}.liveSuccessInner.hard .liveSuccessTop b{color:#b42318}
+@media(max-width:620px){.liveStatsToggle{margin-left:0}.liveSuccessTop{align-items:flex-start;flex-direction:column;gap:2px}.liveSuccessCounts span:last-child{margin-left:0;width:100%}}

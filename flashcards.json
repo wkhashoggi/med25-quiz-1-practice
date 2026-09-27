@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-27T09:42:17.994Z",
+  "generated_at": "2026-09-27T09:44:11.247Z",
   "source_root": {
     "id": "1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
     "url": "https://drive.google.com/drive/folders/1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
@@ -2704,6 +2704,1840 @@
             "Hemolytic Anemia"
           ],
           "source_url": "https://drive.google.com/file/d/1jODBvDorJgQ42QRYX75ODeTVk6Lr3lLe/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "id": "drive_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6",
+      "subject": "Pathology",
+      "title": "Vasculitis and Vascular & Cardiac Tumours",
+      "source_file_id": "1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6",
+      "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk",
+      "source_modified_time": "2026-09-21T12:45:38.072Z",
+      "archived": false,
+      "cards": [
+        {
+          "id": "1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6-c01",
+          "front": "What is vasculitis?",
+          "back": "Inflammation and damage of blood-vessel walls.",
+          "tags": [
+            "Pathology",
+            "Vasculitis and Vascular & Cardiac Tumours"
+          ],
+          "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk"
+        },
+        {
+          "id": "1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6-c02",
+          "front": "How are vasculitides commonly classified?",
+          "back": "By the predominant size of vessel involved: large, medium, or small.",
+          "tags": [
+            "Pathology",
+            "Vasculitis and Vascular & Cardiac Tumours"
+          ],
+          "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk"
+        },
+        {
+          "id": "1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6-c03",
+          "front": "What vessels are classically affected in giant-cell arteritis?",
+          "back": "Large and medium arteries, especially branches of the carotid artery.",
+          "tags": [
+            "Pathology",
+            "Vasculitis and Vascular & Cardiac Tumours"
+          ],
+          "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk"
+        },
+        {
+          "id": "1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6-c04",
+          "front": "Why is giant-cell arteritis an emergency when vision symptoms occur?",
+          "back": "Ophthalmic artery involvement can cause irreversible blindness.",
+          "tags": [
+            "Pathology",
+            "Vasculitis and Vascular & Cardiac Tumours"
+          ],
+          "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk"
+        },
+        {
+          "id": "1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6-c05",
+          "front": "What is Takayasu arteritis known for clinically?",
+          "back": "Granulomatous large-vessel vasculitis causing weak/absent upper-extremity pulses.",
+          "tags": [
+            "Pathology",
+            "Vasculitis and Vascular & Cardiac Tumours"
+          ],
+          "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk"
+        },
+        {
+          "id": "1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6-c06",
+          "front": "What is polyarteritis nodosa?",
+          "back": "Necrotizing vasculitis of medium/small muscular arteries, typically sparing pulmonary arteries.",
+          "tags": [
+            "Pathology",
+            "Vasculitis and Vascular & Cardiac Tumours"
+          ],
+          "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk"
+        },
+        {
+          "id": "1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6-c07",
+          "front": "Which vasculitis is strongly associated with asthma and eosinophilia?",
+          "back": "Eosinophilic granulomatosis with polyangiitis.",
+          "tags": [
+            "Pathology",
+            "Vasculitis and Vascular & Cardiac Tumours"
+          ],
+          "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk"
+        },
+        {
+          "id": "1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6-c08",
+          "front": "What is granulomatosis with polyangiitis characterized by?",
+          "back": "Necrotizing granulomatous inflammation of respiratory tract plus small-vessel vasculitis and glomerulonephritis.",
+          "tags": [
+            "Pathology",
+            "Vasculitis and Vascular & Cardiac Tumours"
+          ],
+          "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk"
+        },
+        {
+          "id": "1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6-c09",
+          "front": "What is a hemangioma?",
+          "back": "A benign vascular tumor composed of blood-filled vascular channels.",
+          "tags": [
+            "Pathology",
+            "Vasculitis and Vascular & Cardiac Tumours"
+          ],
+          "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk"
+        },
+        {
+          "id": "1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6-c10",
+          "front": "What is angiosarcoma?",
+          "back": "A malignant endothelial vascular tumor.",
+          "tags": [
+            "Pathology",
+            "Vasculitis and Vascular & Cardiac Tumours"
+          ],
+          "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk"
+        },
+        {
+          "id": "1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6-c11",
+          "front": "What is the most common primary cardiac tumor in adults?",
+          "back": "Atrial myxoma.",
+          "tags": [
+            "Pathology",
+            "Vasculitis and Vascular & Cardiac Tumours"
+          ],
+          "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk"
+        },
+        {
+          "id": "1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6-c12",
+          "front": "Where are cardiac myxomas commonly located?",
+          "back": "Usually in the left atrium, often attached near the fossa ovalis.",
+          "tags": [
+            "Pathology",
+            "Vasculitis and Vascular & Cardiac Tumours"
+          ],
+          "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "id": "drive_1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0",
+      "subject": "Pathology",
+      "title": "Myocarditis and Pericardial Diseases",
+      "source_file_id": "1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0",
+      "source_url": "https://drive.google.com/file/d/1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0/view?usp=drivesdk",
+      "source_modified_time": "2026-09-21T12:45:18.396Z",
+      "archived": false,
+      "cards": [
+        {
+          "id": "1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0-c01",
+          "front": "What is myocarditis?",
+          "back": "Inflammation of myocardium with associated myocyte injury.",
+          "tags": [
+            "Pathology",
+            "Myocarditis and Pericardial Diseases"
+          ],
+          "source_url": "https://drive.google.com/file/d/1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0/view?usp=drivesdk"
+        },
+        {
+          "id": "1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0-c02",
+          "front": "What is a common cause of myocarditis?",
+          "back": "Viral infection is a common cause; immune-mediated and toxic causes also occur.",
+          "tags": [
+            "Pathology",
+            "Myocarditis and Pericardial Diseases"
+          ],
+          "source_url": "https://drive.google.com/file/d/1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0/view?usp=drivesdk"
+        },
+        {
+          "id": "1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0-c03",
+          "front": "What symptoms can myocarditis cause?",
+          "back": "Chest pain, arrhythmias, heart failure, or sudden cardiac death.",
+          "tags": [
+            "Pathology",
+            "Myocarditis and Pericardial Diseases"
+          ],
+          "source_url": "https://drive.google.com/file/d/1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0/view?usp=drivesdk"
+        },
+        {
+          "id": "1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0-c04",
+          "front": "What can severe myocarditis progress to?",
+          "back": "Dilated cardiomyopathy and chronic heart failure.",
+          "tags": [
+            "Pathology",
+            "Myocarditis and Pericardial Diseases"
+          ],
+          "source_url": "https://drive.google.com/file/d/1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0/view?usp=drivesdk"
+        },
+        {
+          "id": "1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0-c05",
+          "front": "What is pericarditis?",
+          "back": "Inflammation of the pericardial sac.",
+          "tags": [
+            "Pathology",
+            "Myocarditis and Pericardial Diseases"
+          ],
+          "source_url": "https://drive.google.com/file/d/1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0/view?usp=drivesdk"
+        },
+        {
+          "id": "1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0-c06",
+          "front": "What is the classic pain pattern in acute pericarditis?",
+          "back": "Sharp pleuritic pain improved by sitting up and leaning forward.",
+          "tags": [
+            "Pathology",
+            "Myocarditis and Pericardial Diseases"
+          ],
+          "source_url": "https://drive.google.com/file/d/1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0/view?usp=drivesdk"
+        },
+        {
+          "id": "1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0-c07",
+          "front": "What physical finding is classic in acute pericarditis?",
+          "back": "Pericardial friction rub.",
+          "tags": [
+            "Pathology",
+            "Myocarditis and Pericardial Diseases"
+          ],
+          "source_url": "https://drive.google.com/file/d/1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0/view?usp=drivesdk"
+        },
+        {
+          "id": "1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0-c08",
+          "front": "What is a pericardial effusion?",
+          "back": "Accumulation of fluid in the pericardial cavity.",
+          "tags": [
+            "Pathology",
+            "Myocarditis and Pericardial Diseases"
+          ],
+          "source_url": "https://drive.google.com/file/d/1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0/view?usp=drivesdk"
+        },
+        {
+          "id": "1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0-c09",
+          "front": "What is cardiac tamponade?",
+          "back": "Hemodynamic compromise from pericardial pressure restricting cardiac filling.",
+          "tags": [
+            "Pathology",
+            "Myocarditis and Pericardial Diseases"
+          ],
+          "source_url": "https://drive.google.com/file/d/1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0/view?usp=drivesdk"
+        },
+        {
+          "id": "1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0-c10",
+          "front": "Why can rapidly accumulating pericardial fluid be dangerous even at modest volume?",
+          "back": "The stiff pericardium cannot stretch quickly, so pressure rises sharply.",
+          "tags": [
+            "Pathology",
+            "Myocarditis and Pericardial Diseases"
+          ],
+          "source_url": "https://drive.google.com/file/d/1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0/view?usp=drivesdk"
+        },
+        {
+          "id": "1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0-c11",
+          "front": "What is constrictive pericarditis?",
+          "back": "Fibrotic/calcified pericardium restricts diastolic ventricular filling.",
+          "tags": [
+            "Pathology",
+            "Myocarditis and Pericardial Diseases"
+          ],
+          "source_url": "https://drive.google.com/file/d/1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0/view?usp=drivesdk"
+        },
+        {
+          "id": "1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0-c12",
+          "front": "What is the key hemodynamic problem in tamponade?",
+          "back": "Impaired ventricular filling reduces stroke volume and cardiac output.",
+          "tags": [
+            "Pathology",
+            "Myocarditis and Pericardial Diseases"
+          ],
+          "source_url": "https://drive.google.com/file/d/1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "id": "drive_12RXyb80ciEfihQ-258N_uk1EwrjTTI83",
+      "subject": "Pathology",
+      "title": "Ischemic Heart Disease I",
+      "source_file_id": "12RXyb80ciEfihQ-258N_uk1EwrjTTI83",
+      "source_url": "https://drive.google.com/file/d/12RXyb80ciEfihQ-258N_uk1EwrjTTI83/view?usp=drivesdk",
+      "source_modified_time": "2026-09-19T22:28:21.691Z",
+      "archived": false,
+      "cards": [
+        {
+          "id": "12RXyb80ciEfihQ-258N_uk1EwrjTTI83-c01",
+          "front": "What is ischemic heart disease?",
+          "back": "Myocardial dysfunction caused by an imbalance between coronary blood supply and oxygen demand.",
+          "tags": [
+            "Pathology",
+            "Ischemic Heart Disease I"
+          ],
+          "source_url": "https://drive.google.com/file/d/12RXyb80ciEfihQ-258N_uk1EwrjTTI83/view?usp=drivesdk"
+        },
+        {
+          "id": "12RXyb80ciEfihQ-258N_uk1EwrjTTI83-c02",
+          "front": "What is the most common underlying cause of IHD?",
+          "back": "Coronary atherosclerosis.",
+          "tags": [
+            "Pathology",
+            "Ischemic Heart Disease I"
+          ],
+          "source_url": "https://drive.google.com/file/d/12RXyb80ciEfihQ-258N_uk1EwrjTTI83/view?usp=drivesdk"
+        },
+        {
+          "id": "12RXyb80ciEfihQ-258N_uk1EwrjTTI83-c03",
+          "front": "What usually causes stable angina?",
+          "back": "Fixed atherosclerotic narrowing that limits flow during increased demand.",
+          "tags": [
+            "Pathology",
+            "Ischemic Heart Disease I"
+          ],
+          "source_url": "https://drive.google.com/file/d/12RXyb80ciEfihQ-258N_uk1EwrjTTI83/view?usp=drivesdk"
+        },
+        {
+          "id": "12RXyb80ciEfihQ-258N_uk1EwrjTTI83-c04",
+          "front": "What usually causes unstable angina?",
+          "back": "Plaque disruption with non-occlusive thrombosis and reduced coronary flow.",
+          "tags": [
+            "Pathology",
+            "Ischemic Heart Disease I"
+          ],
+          "source_url": "https://drive.google.com/file/d/12RXyb80ciEfihQ-258N_uk1EwrjTTI83/view?usp=drivesdk"
+        },
+        {
+          "id": "12RXyb80ciEfihQ-258N_uk1EwrjTTI83-c05",
+          "front": "What is myocardial infarction?",
+          "back": "Ischemic necrosis of myocardium from prolonged severe reduction in coronary blood flow.",
+          "tags": [
+            "Pathology",
+            "Ischemic Heart Disease I"
+          ],
+          "source_url": "https://drive.google.com/file/d/12RXyb80ciEfihQ-258N_uk1EwrjTTI83/view?usp=drivesdk"
+        },
+        {
+          "id": "12RXyb80ciEfihQ-258N_uk1EwrjTTI83-c06",
+          "front": "What most commonly triggers an acute MI?",
+          "back": "Rupture or erosion of an atherosclerotic plaque with superimposed thrombosis.",
+          "tags": [
+            "Pathology",
+            "Ischemic Heart Disease I"
+          ],
+          "source_url": "https://drive.google.com/file/d/12RXyb80ciEfihQ-258N_uk1EwrjTTI83/view?usp=drivesdk"
+        },
+        {
+          "id": "12RXyb80ciEfihQ-258N_uk1EwrjTTI83-c07",
+          "front": "What is the main difference between angina and MI histologically?",
+          "back": "Angina causes reversible ischemia; MI causes irreversible myocyte necrosis.",
+          "tags": [
+            "Pathology",
+            "Ischemic Heart Disease I"
+          ],
+          "source_url": "https://drive.google.com/file/d/12RXyb80ciEfihQ-258N_uk1EwrjTTI83/view?usp=drivesdk"
+        },
+        {
+          "id": "12RXyb80ciEfihQ-258N_uk1EwrjTTI83-c08",
+          "front": "Why is subendocardial myocardium especially vulnerable to ischemia?",
+          "back": "It has high wall stress and the least favorable perfusion during systole.",
+          "tags": [
+            "Pathology",
+            "Ischemic Heart Disease I"
+          ],
+          "source_url": "https://drive.google.com/file/d/12RXyb80ciEfihQ-258N_uk1EwrjTTI83/view?usp=drivesdk"
+        },
+        {
+          "id": "12RXyb80ciEfihQ-258N_uk1EwrjTTI83-c09",
+          "front": "What is sudden cardiac death often caused by in IHD?",
+          "back": "A fatal ventricular arrhythmia triggered by ischemia.",
+          "tags": [
+            "Pathology",
+            "Ischemic Heart Disease I"
+          ],
+          "source_url": "https://drive.google.com/file/d/12RXyb80ciEfihQ-258N_uk1EwrjTTI83/view?usp=drivesdk"
+        },
+        {
+          "id": "12RXyb80ciEfihQ-258N_uk1EwrjTTI83-c10",
+          "front": "What is chronic ischemic heart disease?",
+          "back": "Progressive heart failure from repeated ischemic injury and myocardial loss.",
+          "tags": [
+            "Pathology",
+            "Ischemic Heart Disease I"
+          ],
+          "source_url": "https://drive.google.com/file/d/12RXyb80ciEfihQ-258N_uk1EwrjTTI83/view?usp=drivesdk"
+        },
+        {
+          "id": "12RXyb80ciEfihQ-258N_uk1EwrjTTI83-c11",
+          "front": "What determines infarct size?",
+          "back": "Site/severity of occlusion, duration, collateral flow, demand, and reperfusion.",
+          "tags": [
+            "Pathology",
+            "Ischemic Heart Disease I"
+          ],
+          "source_url": "https://drive.google.com/file/d/12RXyb80ciEfihQ-258N_uk1EwrjTTI83/view?usp=drivesdk"
+        },
+        {
+          "id": "12RXyb80ciEfihQ-258N_uk1EwrjTTI83-c12",
+          "front": "Why does early reperfusion matter in acute MI?",
+          "back": "It can salvage reversibly injured myocardium before necrosis becomes complete.",
+          "tags": [
+            "Pathology",
+            "Ischemic Heart Disease I"
+          ],
+          "source_url": "https://drive.google.com/file/d/12RXyb80ciEfihQ-258N_uk1EwrjTTI83/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "id": "drive_1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31",
+      "subject": "Pathology",
+      "title": "Ischemic Heart Disease II",
+      "source_file_id": "1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31",
+      "source_url": "https://drive.google.com/file/d/1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31/view?usp=drivesdk",
+      "source_modified_time": "2026-09-19T22:27:57.943Z",
+      "archived": false,
+      "cards": [
+        {
+          "id": "1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31-c01",
+          "front": "When do irreversible myocyte injury and necrosis begin after severe ischemia?",
+          "back": "They begin after roughly 20–40 minutes of severe ischemia, then progress with time.",
+          "tags": [
+            "Pathology",
+            "Ischemic Heart Disease II"
+          ],
+          "source_url": "https://drive.google.com/file/d/1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31/view?usp=drivesdk"
+        },
+        {
+          "id": "1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31-c02",
+          "front": "What is the earliest major histologic pattern of MI necrosis?",
+          "back": "Coagulative necrosis.",
+          "tags": [
+            "Pathology",
+            "Ischemic Heart Disease II"
+          ],
+          "source_url": "https://drive.google.com/file/d/1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31/view?usp=drivesdk"
+        },
+        {
+          "id": "1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31-c03",
+          "front": "Which inflammatory cells dominate early after MI?",
+          "back": "Neutrophils.",
+          "tags": [
+            "Pathology",
+            "Ischemic Heart Disease II"
+          ],
+          "source_url": "https://drive.google.com/file/d/1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31/view?usp=drivesdk"
+        },
+        {
+          "id": "1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31-c04",
+          "front": "Which cells remove necrotic myocardium several days after MI?",
+          "back": "Macrophages.",
+          "tags": [
+            "Pathology",
+            "Ischemic Heart Disease II"
+          ],
+          "source_url": "https://drive.google.com/file/d/1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31/view?usp=drivesdk"
+        },
+        {
+          "id": "1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31-c05",
+          "front": "Why is the myocardium mechanically weakest several days after MI?",
+          "back": "Macrophages remove dead tissue before strong collagen scar has formed.",
+          "tags": [
+            "Pathology",
+            "Ischemic Heart Disease II"
+          ],
+          "source_url": "https://drive.google.com/file/d/1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31/view?usp=drivesdk"
+        },
+        {
+          "id": "1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31-c06",
+          "front": "What major complication can occur from papillary muscle rupture?",
+          "back": "Acute severe mitral regurgitation.",
+          "tags": [
+            "Pathology",
+            "Ischemic Heart Disease II"
+          ],
+          "source_url": "https://drive.google.com/file/d/1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31/view?usp=drivesdk"
+        },
+        {
+          "id": "1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31-c07",
+          "front": "What can free-wall rupture after MI cause?",
+          "back": "Hemopericardium and cardiac tamponade.",
+          "tags": [
+            "Pathology",
+            "Ischemic Heart Disease II"
+          ],
+          "source_url": "https://drive.google.com/file/d/1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31/view?usp=drivesdk"
+        },
+        {
+          "id": "1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31-c08",
+          "front": "What can interventricular septal rupture cause?",
+          "back": "An acute ventricular septal defect with left-to-right shunt.",
+          "tags": [
+            "Pathology",
+            "Ischemic Heart Disease II"
+          ],
+          "source_url": "https://drive.google.com/file/d/1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31/view?usp=drivesdk"
+        },
+        {
+          "id": "1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31-c09",
+          "front": "What is a ventricular aneurysm after MI?",
+          "back": "A late scarred bulge of infarcted ventricular wall that can cause HF, arrhythmia, or mural thrombus.",
+          "tags": [
+            "Pathology",
+            "Ischemic Heart Disease II"
+          ],
+          "source_url": "https://drive.google.com/file/d/1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31/view?usp=drivesdk"
+        },
+        {
+          "id": "1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31-c10",
+          "front": "What is reperfusion injury?",
+          "back": "Additional injury after restored blood flow, involving oxidative stress, calcium overload, and inflammation.",
+          "tags": [
+            "Pathology",
+            "Ischemic Heart Disease II"
+          ],
+          "source_url": "https://drive.google.com/file/d/1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31/view?usp=drivesdk"
+        },
+        {
+          "id": "1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31-c11",
+          "front": "What is contraction-band necrosis associated with?",
+          "back": "Reperfusion and intense calcium influx into damaged myocytes.",
+          "tags": [
+            "Pathology",
+            "Ischemic Heart Disease II"
+          ],
+          "source_url": "https://drive.google.com/file/d/1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31/view?usp=drivesdk"
+        },
+        {
+          "id": "1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31-c12",
+          "front": "What eventually replaces a healed transmural MI?",
+          "back": "Dense collagenous scar.",
+          "tags": [
+            "Pathology",
+            "Ischemic Heart Disease II"
+          ],
+          "source_url": "https://drive.google.com/file/d/1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "id": "drive_10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh",
+      "subject": "Pathology",
+      "title": "Lymphadenopathy",
+      "source_file_id": "10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh",
+      "source_url": "https://drive.google.com/file/d/10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh/view?usp=drivesdk",
+      "source_modified_time": "2026-09-19T22:26:46.149Z",
+      "archived": false,
+      "cards": [
+        {
+          "id": "10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh-c01",
+          "front": "What is lymphadenopathy?",
+          "back": "Abnormal enlargement or altered consistency of lymph nodes.",
+          "tags": [
+            "Pathology",
+            "Lymphadenopathy"
+          ],
+          "source_url": "https://drive.google.com/file/d/10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh/view?usp=drivesdk"
+        },
+        {
+          "id": "10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh-c02",
+          "front": "What is reactive lymphadenitis?",
+          "back": "Benign lymph-node enlargement caused by immune response to infection or inflammation.",
+          "tags": [
+            "Pathology",
+            "Lymphadenopathy"
+          ],
+          "source_url": "https://drive.google.com/file/d/10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh/view?usp=drivesdk"
+        },
+        {
+          "id": "10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh-c03",
+          "front": "What does follicular hyperplasia reflect?",
+          "back": "B-cell stimulation with enlarged reactive germinal centers.",
+          "tags": [
+            "Pathology",
+            "Lymphadenopathy"
+          ],
+          "source_url": "https://drive.google.com/file/d/10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh/view?usp=drivesdk"
+        },
+        {
+          "id": "10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh-c04",
+          "front": "What does paracortical hyperplasia reflect?",
+          "back": "T-cell-zone expansion, often in viral infections or drug reactions.",
+          "tags": [
+            "Pathology",
+            "Lymphadenopathy"
+          ],
+          "source_url": "https://drive.google.com/file/d/10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh/view?usp=drivesdk"
+        },
+        {
+          "id": "10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh-c05",
+          "front": "What is sinus histiocytosis?",
+          "back": "Expansion of lymph-node sinuses by macrophages, often draining cancer or inflammation.",
+          "tags": [
+            "Pathology",
+            "Lymphadenopathy"
+          ],
+          "source_url": "https://drive.google.com/file/d/10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh/view?usp=drivesdk"
+        },
+        {
+          "id": "10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh-c06",
+          "front": "What features make a lymph node more suspicious for malignancy?",
+          "back": "Hard, fixed, non-tender, persistent enlargement or generalized unexplained lymphadenopathy.",
+          "tags": [
+            "Pathology",
+            "Lymphadenopathy"
+          ],
+          "source_url": "https://drive.google.com/file/d/10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh/view?usp=drivesdk"
+        },
+        {
+          "id": "10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh-c07",
+          "front": "What are Reed-Sternberg cells classically associated with?",
+          "back": "Hodgkin lymphoma.",
+          "tags": [
+            "Pathology",
+            "Lymphadenopathy"
+          ],
+          "source_url": "https://drive.google.com/file/d/10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh/view?usp=drivesdk"
+        },
+        {
+          "id": "10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh-c08",
+          "front": "What is a classic Reed-Sternberg appearance?",
+          "back": "Large binucleate/bilobed cell with prominent eosinophilic nucleoli ('owl eyes').",
+          "tags": [
+            "Pathology",
+            "Lymphadenopathy"
+          ],
+          "source_url": "https://drive.google.com/file/d/10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh/view?usp=drivesdk"
+        },
+        {
+          "id": "10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh-c09",
+          "front": "What is the basic distinction between Hodgkin and non-Hodgkin lymphoma spread?",
+          "back": "Hodgkin often spreads contiguously; NHL more often shows noncontiguous/extranodal involvement.",
+          "tags": [
+            "Pathology",
+            "Lymphadenopathy"
+          ],
+          "source_url": "https://drive.google.com/file/d/10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh/view?usp=drivesdk"
+        },
+        {
+          "id": "10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh-c10",
+          "front": "Why is node architecture important in lymphoma diagnosis?",
+          "back": "Malignant lymphoid proliferations often efface normal architecture.",
+          "tags": [
+            "Pathology",
+            "Lymphadenopathy"
+          ],
+          "source_url": "https://drive.google.com/file/d/10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh/view?usp=drivesdk"
+        },
+        {
+          "id": "10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh-c11",
+          "front": "What is granulomatous lymphadenitis?",
+          "back": "Lymph-node inflammation characterized by granuloma formation.",
+          "tags": [
+            "Pathology",
+            "Lymphadenopathy"
+          ],
+          "source_url": "https://drive.google.com/file/d/10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh/view?usp=drivesdk"
+        },
+        {
+          "id": "10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh-c12",
+          "front": "What is a common benign cause of tender lymph nodes?",
+          "back": "Acute infection/inflammation.",
+          "tags": [
+            "Pathology",
+            "Lymphadenopathy"
+          ],
+          "source_url": "https://drive.google.com/file/d/10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "id": "drive_1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR",
+      "subject": "Pathology",
+      "title": "Atherosclerosis",
+      "source_file_id": "1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR",
+      "source_url": "https://drive.google.com/file/d/1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR/view?usp=drivesdk",
+      "source_modified_time": "2026-09-19T22:25:53.003Z",
+      "archived": false,
+      "cards": [
+        {
+          "id": "1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR-c01",
+          "front": "What is atherosclerosis?",
+          "back": "Intimal plaques with lipid cores and fibrous caps in large and medium arteries.",
+          "tags": [
+            "Pathology",
+            "Atherosclerosis"
+          ],
+          "source_url": "https://drive.google.com/file/d/1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR/view?usp=drivesdk"
+        },
+        {
+          "id": "1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR-c02",
+          "front": "What is the initiating concept in atherogenesis?",
+          "back": "Endothelial injury/dysfunction leading to lipid entry, inflammation, and smooth-muscle responses.",
+          "tags": [
+            "Pathology",
+            "Atherosclerosis"
+          ],
+          "source_url": "https://drive.google.com/file/d/1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR/view?usp=drivesdk"
+        },
+        {
+          "id": "1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR-c03",
+          "front": "Which lipoprotein is most strongly implicated in atheroma formation?",
+          "back": "LDL, especially oxidized/modified LDL in the arterial intima.",
+          "tags": [
+            "Pathology",
+            "Atherosclerosis"
+          ],
+          "source_url": "https://drive.google.com/file/d/1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR/view?usp=drivesdk"
+        },
+        {
+          "id": "1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR-c04",
+          "front": "What are foam cells?",
+          "back": "Lipid-laden macrophages (and some smooth-muscle cells) within atherosclerotic lesions.",
+          "tags": [
+            "Pathology",
+            "Atherosclerosis"
+          ],
+          "source_url": "https://drive.google.com/file/d/1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR/view?usp=drivesdk"
+        },
+        {
+          "id": "1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR-c05",
+          "front": "What is a fatty streak?",
+          "back": "An early intimal lesion composed mainly of foam cells.",
+          "tags": [
+            "Pathology",
+            "Atherosclerosis"
+          ],
+          "source_url": "https://drive.google.com/file/d/1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR/view?usp=drivesdk"
+        },
+        {
+          "id": "1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR-c06",
+          "front": "What forms the fibrous cap of an atherosclerotic plaque?",
+          "back": "Smooth-muscle cells and extracellular matrix, especially collagen.",
+          "tags": [
+            "Pathology",
+            "Atherosclerosis"
+          ],
+          "source_url": "https://drive.google.com/file/d/1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR/view?usp=drivesdk"
+        },
+        {
+          "id": "1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR-c07",
+          "front": "What makes a plaque vulnerable to rupture?",
+          "back": "Thin fibrous cap, large lipid core, and active inflammation.",
+          "tags": [
+            "Pathology",
+            "Atherosclerosis"
+          ],
+          "source_url": "https://drive.google.com/file/d/1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR/view?usp=drivesdk"
+        },
+        {
+          "id": "1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR-c08",
+          "front": "Why is plaque rupture dangerous?",
+          "back": "It exposes thrombogenic material and can trigger acute occlusive thrombosis.",
+          "tags": [
+            "Pathology",
+            "Atherosclerosis"
+          ],
+          "source_url": "https://drive.google.com/file/d/1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR/view?usp=drivesdk"
+        },
+        {
+          "id": "1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR-c09",
+          "front": "What are major modifiable atherosclerosis risk factors?",
+          "back": "Hyperlipidemia, hypertension, smoking, and diabetes.",
+          "tags": [
+            "Pathology",
+            "Atherosclerosis"
+          ],
+          "source_url": "https://drive.google.com/file/d/1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR/view?usp=drivesdk"
+        },
+        {
+          "id": "1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR-c10",
+          "front": "What vascular complication can chronic atherosclerosis promote besides thrombosis?",
+          "back": "Aneurysm due to weakening/atrophy of the underlying media.",
+          "tags": [
+            "Pathology",
+            "Atherosclerosis"
+          ],
+          "source_url": "https://drive.google.com/file/d/1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR/view?usp=drivesdk"
+        },
+        {
+          "id": "1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR-c11",
+          "front": "Which arteries are commonly affected by atherosclerosis?",
+          "back": "Abdominal aorta, coronary, popliteal, internal carotid, and circle of Willis vessels.",
+          "tags": [
+            "Pathology",
+            "Atherosclerosis"
+          ],
+          "source_url": "https://drive.google.com/file/d/1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR/view?usp=drivesdk"
+        },
+        {
+          "id": "1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR-c12",
+          "front": "How does a stable plaque usually cause symptoms?",
+          "back": "Progressive stenosis limits flow, especially during increased tissue demand.",
+          "tags": [
+            "Pathology",
+            "Atherosclerosis"
+          ],
+          "source_url": "https://drive.google.com/file/d/1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "id": "drive_1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9",
+      "subject": "Microbiology",
+      "title": "Sepsis",
+      "source_file_id": "1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9",
+      "source_url": "https://drive.google.com/file/d/1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9/view?usp=drivesdk",
+      "source_modified_time": "2026-09-12T12:22:55.033Z",
+      "archived": false,
+      "cards": [
+        {
+          "id": "1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9-c01",
+          "front": "What is sepsis?",
+          "back": "Life-threatening organ dysfunction caused by a dysregulated host response to infection.",
+          "tags": [
+            "Microbiology",
+            "Sepsis"
+          ],
+          "source_url": "https://drive.google.com/file/d/1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9/view?usp=drivesdk"
+        },
+        {
+          "id": "1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9-c02",
+          "front": "What is septic shock?",
+          "back": "Sepsis with profound circulatory/metabolic abnormalities, typically requiring vasopressors despite fluids and associated with elevated lactate.",
+          "tags": [
+            "Microbiology",
+            "Sepsis"
+          ],
+          "source_url": "https://drive.google.com/file/d/1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9/view?usp=drivesdk"
+        },
+        {
+          "id": "1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9-c03",
+          "front": "What happens to systemic vascular resistance early in septic shock?",
+          "back": "It commonly decreases because of widespread vasodilation.",
+          "tags": [
+            "Microbiology",
+            "Sepsis"
+          ],
+          "source_url": "https://drive.google.com/file/d/1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9/view?usp=drivesdk"
+        },
+        {
+          "id": "1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9-c04",
+          "front": "Why can tissue hypoperfusion occur despite high cardiac output in early sepsis?",
+          "back": "Maldistributed microvascular flow and vasodilation impair effective oxygen delivery.",
+          "tags": [
+            "Microbiology",
+            "Sepsis"
+          ],
+          "source_url": "https://drive.google.com/file/d/1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9/view?usp=drivesdk"
+        },
+        {
+          "id": "1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9-c05",
+          "front": "What is a major role of bacterial endotoxin in sepsis?",
+          "back": "It activates innate immune pathways and promotes cytokine release.",
+          "tags": [
+            "Microbiology",
+            "Sepsis"
+          ],
+          "source_url": "https://drive.google.com/file/d/1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9/view?usp=drivesdk"
+        },
+        {
+          "id": "1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9-c06",
+          "front": "Which inflammatory mediators are prominent in sepsis?",
+          "back": "TNF, IL-1, IL-6 and other cytokines/mediators.",
+          "tags": [
+            "Microbiology",
+            "Sepsis"
+          ],
+          "source_url": "https://drive.google.com/file/d/1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9/view?usp=drivesdk"
+        },
+        {
+          "id": "1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9-c07",
+          "front": "Why can DIC occur in severe sepsis?",
+          "back": "Inflammation activates coagulation and suppresses anticoagulant/fibrinolytic pathways.",
+          "tags": [
+            "Microbiology",
+            "Sepsis"
+          ],
+          "source_url": "https://drive.google.com/file/d/1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9/view?usp=drivesdk"
+        },
+        {
+          "id": "1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9-c08",
+          "front": "What is a common metabolic marker of poor perfusion in sepsis?",
+          "back": "Elevated serum lactate.",
+          "tags": [
+            "Microbiology",
+            "Sepsis"
+          ],
+          "source_url": "https://drive.google.com/file/d/1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9/view?usp=drivesdk"
+        },
+        {
+          "id": "1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9-c09",
+          "front": "Why are blood cultures ideally obtained before antibiotics?",
+          "back": "To identify the pathogen without delaying urgent antimicrobial therapy.",
+          "tags": [
+            "Microbiology",
+            "Sepsis"
+          ],
+          "source_url": "https://drive.google.com/file/d/1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9/view?usp=drivesdk"
+        },
+        {
+          "id": "1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9-c10",
+          "front": "What is a key early treatment principle in suspected sepsis?",
+          "back": "Prompt antimicrobials plus source control and hemodynamic support.",
+          "tags": [
+            "Microbiology",
+            "Sepsis"
+          ],
+          "source_url": "https://drive.google.com/file/d/1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9/view?usp=drivesdk"
+        },
+        {
+          "id": "1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9-c11",
+          "front": "What is source control?",
+          "back": "Removing/draining the infectious focus, such as abscess drainage or infected-device removal.",
+          "tags": [
+            "Microbiology",
+            "Sepsis"
+          ],
+          "source_url": "https://drive.google.com/file/d/1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9/view?usp=drivesdk"
+        },
+        {
+          "id": "1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9-c12",
+          "front": "Why can multiple organs fail in sepsis?",
+          "back": "Systemic inflammation, endothelial dysfunction, microthrombi, and hypoperfusion damage organs.",
+          "tags": [
+            "Microbiology",
+            "Sepsis"
+          ],
+          "source_url": "https://drive.google.com/file/d/1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "id": "drive_1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV",
+      "subject": "Microbiology",
+      "title": "Autoimmune Diseases",
+      "source_file_id": "1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV",
+      "source_url": "https://drive.google.com/file/d/1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV/view?usp=drivesdk",
+      "source_modified_time": "2026-09-12T12:22:19.058Z",
+      "archived": false,
+      "cards": [
+        {
+          "id": "1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV-c01",
+          "front": "What is autoimmunity?",
+          "back": "An immune response directed against self-antigens because self-tolerance fails.",
+          "tags": [
+            "Microbiology",
+            "Autoimmune Diseases"
+          ],
+          "source_url": "https://drive.google.com/file/d/1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV/view?usp=drivesdk"
+        },
+        {
+          "id": "1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV-c02",
+          "front": "What is central tolerance?",
+          "back": "Elimination or editing of strongly self-reactive lymphocytes during development.",
+          "tags": [
+            "Microbiology",
+            "Autoimmune Diseases"
+          ],
+          "source_url": "https://drive.google.com/file/d/1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV/view?usp=drivesdk"
+        },
+        {
+          "id": "1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV-c03",
+          "front": "What is peripheral tolerance?",
+          "back": "Mechanisms that suppress or inactivate self-reactive lymphocytes that escape central tolerance.",
+          "tags": [
+            "Microbiology",
+            "Autoimmune Diseases"
+          ],
+          "source_url": "https://drive.google.com/file/d/1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV/view?usp=drivesdk"
+        },
+        {
+          "id": "1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV-c04",
+          "front": "What are regulatory T cells important for?",
+          "back": "Suppressing autoreactive immune responses and maintaining peripheral tolerance.",
+          "tags": [
+            "Microbiology",
+            "Autoimmune Diseases"
+          ],
+          "source_url": "https://drive.google.com/file/d/1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV/view?usp=drivesdk"
+        },
+        {
+          "id": "1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV-c05",
+          "front": "How can molecular mimicry promote autoimmunity?",
+          "back": "Microbial antigens resemble self-antigens, causing cross-reactive immune responses.",
+          "tags": [
+            "Microbiology",
+            "Autoimmune Diseases"
+          ],
+          "source_url": "https://drive.google.com/file/d/1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV/view?usp=drivesdk"
+        },
+        {
+          "id": "1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV-c06",
+          "front": "What is SLE?",
+          "back": "A systemic autoimmune disease with autoantibodies and immune-complex-mediated tissue injury.",
+          "tags": [
+            "Microbiology",
+            "Autoimmune Diseases"
+          ],
+          "source_url": "https://drive.google.com/file/d/1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV/view?usp=drivesdk"
+        },
+        {
+          "id": "1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV-c07",
+          "front": "What antibody is highly specific for SLE?",
+          "back": "Anti-Smith antibody.",
+          "tags": [
+            "Microbiology",
+            "Autoimmune Diseases"
+          ],
+          "source_url": "https://drive.google.com/file/d/1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV/view?usp=drivesdk"
+        },
+        {
+          "id": "1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV-c08",
+          "front": "What antibodies can be seen in SLE and correlate with disease activity/nephritis?",
+          "back": "Anti-double-stranded DNA antibodies.",
+          "tags": [
+            "Microbiology",
+            "Autoimmune Diseases"
+          ],
+          "source_url": "https://drive.google.com/file/d/1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV/view?usp=drivesdk"
+        },
+        {
+          "id": "1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV-c09",
+          "front": "What is rheumatoid arthritis primarily directed against?",
+          "back": "It is a systemic autoimmune inflammatory disease targeting synovial joints among other tissues.",
+          "tags": [
+            "Microbiology",
+            "Autoimmune Diseases"
+          ],
+          "source_url": "https://drive.google.com/file/d/1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV/view?usp=drivesdk"
+        },
+        {
+          "id": "1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV-c10",
+          "front": "What is type III hypersensitivity's role in many autoimmune diseases?",
+          "back": "Immune complexes deposit in tissues and activate complement/inflammation.",
+          "tags": [
+            "Microbiology",
+            "Autoimmune Diseases"
+          ],
+          "source_url": "https://drive.google.com/file/d/1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV/view?usp=drivesdk"
+        },
+        {
+          "id": "1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV-c11",
+          "front": "What is an organ-specific autoimmune disease example?",
+          "back": "Type 1 diabetes mellitus, Hashimoto thyroiditis, or Graves disease.",
+          "tags": [
+            "Microbiology",
+            "Autoimmune Diseases"
+          ],
+          "source_url": "https://drive.google.com/file/d/1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV/view?usp=drivesdk"
+        },
+        {
+          "id": "1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV-c12",
+          "front": "Why are autoimmune diseases often chronic?",
+          "back": "Persistent self-antigens continually stimulate autoreactive immune responses.",
+          "tags": [
+            "Microbiology",
+            "Autoimmune Diseases"
+          ],
+          "source_url": "https://drive.google.com/file/d/1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "id": "drive_1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp",
+      "subject": "Microbiology",
+      "title": "Immunodeficiency",
+      "source_file_id": "1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp",
+      "source_url": "https://drive.google.com/file/d/1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp/view?usp=drivesdk",
+      "source_modified_time": "2026-09-12T12:21:16.488Z",
+      "archived": false,
+      "cards": [
+        {
+          "id": "1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp-c01",
+          "front": "What is primary immunodeficiency?",
+          "back": "An inherited or developmental defect of immune function.",
+          "tags": [
+            "Microbiology",
+            "Immunodeficiency"
+          ],
+          "source_url": "https://drive.google.com/file/d/1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp/view?usp=drivesdk"
+        },
+        {
+          "id": "1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp-c02",
+          "front": "What is secondary immunodeficiency?",
+          "back": "Acquired immune dysfunction from conditions such as HIV, malnutrition, cancer, or immunosuppressive therapy.",
+          "tags": [
+            "Microbiology",
+            "Immunodeficiency"
+          ],
+          "source_url": "https://drive.google.com/file/d/1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp/view?usp=drivesdk"
+        },
+        {
+          "id": "1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp-c03",
+          "front": "What infections suggest a B-cell/antibody defect?",
+          "back": "Recurrent infections with encapsulated pyogenic bacteria, especially after maternal IgG wanes.",
+          "tags": [
+            "Microbiology",
+            "Immunodeficiency"
+          ],
+          "source_url": "https://drive.google.com/file/d/1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp/view?usp=drivesdk"
+        },
+        {
+          "id": "1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp-c04",
+          "front": "What infections suggest a T-cell defect?",
+          "back": "Severe or recurrent viral, fungal, and opportunistic infections.",
+          "tags": [
+            "Microbiology",
+            "Immunodeficiency"
+          ],
+          "source_url": "https://drive.google.com/file/d/1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp/view?usp=drivesdk"
+        },
+        {
+          "id": "1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp-c05",
+          "front": "What is SCID?",
+          "back": "Severe combined immunodeficiency affecting both cellular and humoral immunity.",
+          "tags": [
+            "Microbiology",
+            "Immunodeficiency"
+          ],
+          "source_url": "https://drive.google.com/file/d/1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp/view?usp=drivesdk"
+        },
+        {
+          "id": "1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp-c06",
+          "front": "What is X-linked agammaglobulinemia caused by?",
+          "back": "BTK mutation causing failure of B-cell maturation.",
+          "tags": [
+            "Microbiology",
+            "Immunodeficiency"
+          ],
+          "source_url": "https://drive.google.com/file/d/1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp/view?usp=drivesdk"
+        },
+        {
+          "id": "1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp-c07",
+          "front": "What is CVID characterized by?",
+          "back": "Low immunoglobulins with impaired antibody responses, often presenting later than XLA.",
+          "tags": [
+            "Microbiology",
+            "Immunodeficiency"
+          ],
+          "source_url": "https://drive.google.com/file/d/1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp/view?usp=drivesdk"
+        },
+        {
+          "id": "1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp-c08",
+          "front": "What is selective IgA deficiency?",
+          "back": "Low/absent IgA with generally normal other immunoglobulins; may cause mucosal infections.",
+          "tags": [
+            "Microbiology",
+            "Immunodeficiency"
+          ],
+          "source_url": "https://drive.google.com/file/d/1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp/view?usp=drivesdk"
+        },
+        {
+          "id": "1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp-c09",
+          "front": "What is DiGeorge syndrome's immune defect?",
+          "back": "Thymic hypoplasia/aplasia causing T-cell deficiency.",
+          "tags": [
+            "Microbiology",
+            "Immunodeficiency"
+          ],
+          "source_url": "https://drive.google.com/file/d/1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp/view?usp=drivesdk"
+        },
+        {
+          "id": "1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp-c10",
+          "front": "What immune defect occurs in chronic granulomatous disease?",
+          "back": "Defective NADPH oxidase impairs respiratory burst in phagocytes.",
+          "tags": [
+            "Microbiology",
+            "Immunodeficiency"
+          ],
+          "source_url": "https://drive.google.com/file/d/1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp/view?usp=drivesdk"
+        },
+        {
+          "id": "1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp-c11",
+          "front": "Which organisms are especially problematic in CGD?",
+          "back": "Catalase-positive organisms.",
+          "tags": [
+            "Microbiology",
+            "Immunodeficiency"
+          ],
+          "source_url": "https://drive.google.com/file/d/1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp/view?usp=drivesdk"
+        },
+        {
+          "id": "1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp-c12",
+          "front": "What complement deficiency predisposes to Neisseria infection?",
+          "back": "Deficiency of terminal complement components C5–C9.",
+          "tags": [
+            "Microbiology",
+            "Immunodeficiency"
+          ],
+          "source_url": "https://drive.google.com/file/d/1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "id": "drive_1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ",
+      "subject": "Microbiology",
+      "title": "Lymphatic Filariasis",
+      "source_file_id": "1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ",
+      "source_url": "https://drive.google.com/file/d/1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ/view?usp=drivesdk",
+      "source_modified_time": "2026-09-12T12:20:59.437Z",
+      "archived": false,
+      "cards": [
+        {
+          "id": "1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ-c01",
+          "front": "What organisms commonly cause lymphatic filariasis?",
+          "back": "Wuchereria bancrofti, Brugia malayi, and Brugia timori.",
+          "tags": [
+            "Microbiology",
+            "Lymphatic Filariasis"
+          ],
+          "source_url": "https://drive.google.com/file/d/1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ/view?usp=drivesdk"
+        },
+        {
+          "id": "1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ-c02",
+          "front": "How is lymphatic filariasis transmitted?",
+          "back": "By mosquito vectors.",
+          "tags": [
+            "Microbiology",
+            "Lymphatic Filariasis"
+          ],
+          "source_url": "https://drive.google.com/file/d/1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ/view?usp=drivesdk"
+        },
+        {
+          "id": "1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ-c03",
+          "front": "Where do adult filarial worms live?",
+          "back": "Lymphatic vessels and lymph nodes.",
+          "tags": [
+            "Microbiology",
+            "Lymphatic Filariasis"
+          ],
+          "source_url": "https://drive.google.com/file/d/1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ/view?usp=drivesdk"
+        },
+        {
+          "id": "1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ-c04",
+          "front": "What are microfilariae?",
+          "back": "Larval forms that circulate in blood and can be taken up by mosquitoes.",
+          "tags": [
+            "Microbiology",
+            "Lymphatic Filariasis"
+          ],
+          "source_url": "https://drive.google.com/file/d/1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ/view?usp=drivesdk"
+        },
+        {
+          "id": "1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ-c05",
+          "front": "Why may blood collection timing matter in filariasis?",
+          "back": "Some species show nocturnal periodicity of microfilariae.",
+          "tags": [
+            "Microbiology",
+            "Lymphatic Filariasis"
+          ],
+          "source_url": "https://drive.google.com/file/d/1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ/view?usp=drivesdk"
+        },
+        {
+          "id": "1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ-c06",
+          "front": "What chronic complication can lymphatic obstruction cause?",
+          "back": "Lymphedema and elephantiasis.",
+          "tags": [
+            "Microbiology",
+            "Lymphatic Filariasis"
+          ],
+          "source_url": "https://drive.google.com/file/d/1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ/view?usp=drivesdk"
+        },
+        {
+          "id": "1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ-c07",
+          "front": "What male genital complication is classic with Wuchereria bancrofti?",
+          "back": "Hydrocele.",
+          "tags": [
+            "Microbiology",
+            "Lymphatic Filariasis"
+          ],
+          "source_url": "https://drive.google.com/file/d/1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ/view?usp=drivesdk"
+        },
+        {
+          "id": "1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ-c08",
+          "front": "What causes much of the chronic tissue damage in lymphatic filariasis?",
+          "back": "Inflammation and lymphatic dysfunction around adult worms and recurrent infection.",
+          "tags": [
+            "Microbiology",
+            "Lymphatic Filariasis"
+          ],
+          "source_url": "https://drive.google.com/file/d/1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ/view?usp=drivesdk"
+        },
+        {
+          "id": "1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ-c09",
+          "front": "What is a common diagnostic approach?",
+          "back": "Detection of microfilariae in blood or circulating filarial antigen, depending on species/testing availability.",
+          "tags": [
+            "Microbiology",
+            "Lymphatic Filariasis"
+          ],
+          "source_url": "https://drive.google.com/file/d/1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ/view?usp=drivesdk"
+        },
+        {
+          "id": "1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ-c10",
+          "front": "What does eosinophilia suggest in helminth infection?",
+          "back": "A Th2/eosinophil response to tissue-invasive parasites.",
+          "tags": [
+            "Microbiology",
+            "Lymphatic Filariasis"
+          ],
+          "source_url": "https://drive.google.com/file/d/1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ/view?usp=drivesdk"
+        },
+        {
+          "id": "1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ-c11",
+          "front": "Which immune response is prominent against helminths?",
+          "back": "Th2 immunity with IgE, mast cells, and eosinophils.",
+          "tags": [
+            "Microbiology",
+            "Lymphatic Filariasis"
+          ],
+          "source_url": "https://drive.google.com/file/d/1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ/view?usp=drivesdk"
+        },
+        {
+          "id": "1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ-c12",
+          "front": "Why can chronic filariasis produce massive swelling?",
+          "back": "Long-standing lymphatic obstruction and fibrosis impair lymph drainage.",
+          "tags": [
+            "Microbiology",
+            "Lymphatic Filariasis"
+          ],
+          "source_url": "https://drive.google.com/file/d/1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "id": "drive_1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp",
+      "subject": "Microbiology",
+      "title": "Hypersensitivity Part II",
+      "source_file_id": "1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp",
+      "source_url": "https://drive.google.com/file/d/1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp/view?usp=drivesdk",
+      "source_modified_time": "2026-09-12T12:20:40.971Z",
+      "archived": false,
+      "cards": [
+        {
+          "id": "1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp-c01",
+          "front": "What defines type III hypersensitivity?",
+          "back": "Tissue injury caused by deposition of antigen-antibody immune complexes.",
+          "tags": [
+            "Microbiology",
+            "Hypersensitivity Part II"
+          ],
+          "source_url": "https://drive.google.com/file/d/1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp/view?usp=drivesdk"
+        },
+        {
+          "id": "1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp-c02",
+          "front": "What activates inflammation after immune-complex deposition?",
+          "back": "Complement activation and recruitment of neutrophils.",
+          "tags": [
+            "Microbiology",
+            "Hypersensitivity Part II"
+          ],
+          "source_url": "https://drive.google.com/file/d/1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp/view?usp=drivesdk"
+        },
+        {
+          "id": "1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp-c03",
+          "front": "What is a classic systemic type III reaction?",
+          "back": "Serum sickness.",
+          "tags": [
+            "Microbiology",
+            "Hypersensitivity Part II"
+          ],
+          "source_url": "https://drive.google.com/file/d/1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp/view?usp=drivesdk"
+        },
+        {
+          "id": "1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp-c04",
+          "front": "What is a classic localized type III reaction?",
+          "back": "Arthus reaction.",
+          "tags": [
+            "Microbiology",
+            "Hypersensitivity Part II"
+          ],
+          "source_url": "https://drive.google.com/file/d/1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp/view?usp=drivesdk"
+        },
+        {
+          "id": "1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp-c05",
+          "front": "What autoimmune disease commonly involves type III mechanisms?",
+          "back": "Systemic lupus erythematosus.",
+          "tags": [
+            "Microbiology",
+            "Hypersensitivity Part II"
+          ],
+          "source_url": "https://drive.google.com/file/d/1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp/view?usp=drivesdk"
+        },
+        {
+          "id": "1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp-c06",
+          "front": "What defines type IV hypersensitivity?",
+          "back": "T-cell-mediated delayed hypersensitivity rather than antibody-mediated injury.",
+          "tags": [
+            "Microbiology",
+            "Hypersensitivity Part II"
+          ],
+          "source_url": "https://drive.google.com/file/d/1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp/view?usp=drivesdk"
+        },
+        {
+          "id": "1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp-c07",
+          "front": "Which cells mediate delayed type IV reactions?",
+          "back": "Sensitized T lymphocytes, especially Th1/Th17 cells and sometimes CD8⁺ T cells.",
+          "tags": [
+            "Microbiology",
+            "Hypersensitivity Part II"
+          ],
+          "source_url": "https://drive.google.com/file/d/1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp/view?usp=drivesdk"
+        },
+        {
+          "id": "1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp-c08",
+          "front": "Why is type IV called delayed hypersensitivity?",
+          "back": "The reaction typically develops over 24–72 hours rather than minutes.",
+          "tags": [
+            "Microbiology",
+            "Hypersensitivity Part II"
+          ],
+          "source_url": "https://drive.google.com/file/d/1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp/view?usp=drivesdk"
+        },
+        {
+          "id": "1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp-c09",
+          "front": "What is a classic type IV test reaction?",
+          "back": "Tuberculin skin test.",
+          "tags": [
+            "Microbiology",
+            "Hypersensitivity Part II"
+          ],
+          "source_url": "https://drive.google.com/file/d/1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp/view?usp=drivesdk"
+        },
+        {
+          "id": "1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp-c10",
+          "front": "What is contact dermatitis an example of?",
+          "back": "Type IV hypersensitivity.",
+          "tags": [
+            "Microbiology",
+            "Hypersensitivity Part II"
+          ],
+          "source_url": "https://drive.google.com/file/d/1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp/view?usp=drivesdk"
+        },
+        {
+          "id": "1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp-c11",
+          "front": "How can CD8⁺ T cells cause type IV injury?",
+          "back": "They directly kill antigen-bearing target cells.",
+          "tags": [
+            "Microbiology",
+            "Hypersensitivity Part II"
+          ],
+          "source_url": "https://drive.google.com/file/d/1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp/view?usp=drivesdk"
+        },
+        {
+          "id": "1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp-c12",
+          "front": "What is the key contrast between type III and type IV hypersensitivity?",
+          "back": "Type III is immune-complex/complement mediated; type IV is T-cell mediated.",
+          "tags": [
+            "Microbiology",
+            "Hypersensitivity Part II"
+          ],
+          "source_url": "https://drive.google.com/file/d/1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "id": "drive_1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d",
+      "subject": "Microbiology",
+      "title": "Hypersensitivity Part I",
+      "source_file_id": "1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d",
+      "source_url": "https://drive.google.com/file/d/1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d/view?usp=drivesdk",
+      "source_modified_time": "2026-09-12T12:20:20.981Z",
+      "archived": false,
+      "cards": [
+        {
+          "id": "1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d-c01",
+          "front": "What is type I hypersensitivity?",
+          "back": "Immediate IgE-mediated mast-cell hypersensitivity.",
+          "tags": [
+            "Microbiology",
+            "Hypersensitivity Part I"
+          ],
+          "source_url": "https://drive.google.com/file/d/1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d/view?usp=drivesdk"
+        },
+        {
+          "id": "1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d-c02",
+          "front": "What happens during sensitization in type I hypersensitivity?",
+          "back": "Th2 responses drive IgE production; IgE binds FcεRI on mast cells.",
+          "tags": [
+            "Microbiology",
+            "Hypersensitivity Part I"
+          ],
+          "source_url": "https://drive.google.com/file/d/1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d/view?usp=drivesdk"
+        },
+        {
+          "id": "1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d-c03",
+          "front": "What triggers mast-cell degranulation in type I hypersensitivity?",
+          "back": "Allergen cross-linking of mast-cell-bound IgE.",
+          "tags": [
+            "Microbiology",
+            "Hypersensitivity Part I"
+          ],
+          "source_url": "https://drive.google.com/file/d/1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d/view?usp=drivesdk"
+        },
+        {
+          "id": "1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d-c04",
+          "front": "What mediator causes rapid vasodilation and increased vascular permeability in type I reactions?",
+          "back": "Histamine.",
+          "tags": [
+            "Microbiology",
+            "Hypersensitivity Part I"
+          ],
+          "source_url": "https://drive.google.com/file/d/1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d/view?usp=drivesdk"
+        },
+        {
+          "id": "1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d-c05",
+          "front": "What is anaphylaxis?",
+          "back": "A severe systemic immediate hypersensitivity reaction that can cause airway compromise and shock.",
+          "tags": [
+            "Microbiology",
+            "Hypersensitivity Part I"
+          ],
+          "source_url": "https://drive.google.com/file/d/1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d/view?usp=drivesdk"
+        },
+        {
+          "id": "1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d-c06",
+          "front": "What is the first-line emergency treatment for anaphylaxis?",
+          "back": "Intramuscular epinephrine.",
+          "tags": [
+            "Microbiology",
+            "Hypersensitivity Part I"
+          ],
+          "source_url": "https://drive.google.com/file/d/1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d/view?usp=drivesdk"
+        },
+        {
+          "id": "1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d-c07",
+          "front": "What is type II hypersensitivity?",
+          "back": "Antibody-mediated injury against cell-surface or extracellular-matrix antigens.",
+          "tags": [
+            "Microbiology",
+            "Hypersensitivity Part I"
+          ],
+          "source_url": "https://drive.google.com/file/d/1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d/view?usp=drivesdk"
+        },
+        {
+          "id": "1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d-c08",
+          "front": "Which immunoglobulins usually mediate type II hypersensitivity?",
+          "back": "IgG or IgM.",
+          "tags": [
+            "Microbiology",
+            "Hypersensitivity Part I"
+          ],
+          "source_url": "https://drive.google.com/file/d/1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d/view?usp=drivesdk"
+        },
+        {
+          "id": "1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d-c09",
+          "front": "How can type II antibodies damage cells?",
+          "back": "Opsonization/phagocytosis, complement activation, inflammation, or receptor dysfunction.",
+          "tags": [
+            "Microbiology",
+            "Hypersensitivity Part I"
+          ],
+          "source_url": "https://drive.google.com/file/d/1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d/view?usp=drivesdk"
+        },
+        {
+          "id": "1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d-c10",
+          "front": "What is an example of type II cytotoxic disease?",
+          "back": "Autoimmune hemolytic anemia.",
+          "tags": [
+            "Microbiology",
+            "Hypersensitivity Part I"
+          ],
+          "source_url": "https://drive.google.com/file/d/1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d/view?usp=drivesdk"
+        },
+        {
+          "id": "1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d-c11",
+          "front": "How can type II antibodies cause disease without destroying cells?",
+          "back": "They can stimulate or block receptors, as in Graves disease or myasthenia gravis.",
+          "tags": [
+            "Microbiology",
+            "Hypersensitivity Part I"
+          ],
+          "source_url": "https://drive.google.com/file/d/1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d/view?usp=drivesdk"
+        },
+        {
+          "id": "1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d-c12",
+          "front": "What is the key difference between type I and type II hypersensitivity?",
+          "back": "Type I is IgE/mast-cell immediate allergy; type II uses IgG/IgM against specific tissue targets.",
+          "tags": [
+            "Microbiology",
+            "Hypersensitivity Part I"
+          ],
+          "source_url": "https://drive.google.com/file/d/1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "id": "drive_14vfFkvXZlceusubx4H2RN-ttsGLXdkbj",
+      "subject": "Microbiology",
+      "title": "Babesiosis and Malaria II",
+      "source_file_id": "14vfFkvXZlceusubx4H2RN-ttsGLXdkbj",
+      "source_url": "https://drive.google.com/file/d/14vfFkvXZlceusubx4H2RN-ttsGLXdkbj/view?usp=drivesdk",
+      "source_modified_time": "2026-09-12T12:18:45.217Z",
+      "archived": false,
+      "cards": [
+        {
+          "id": "14vfFkvXZlceusubx4H2RN-ttsGLXdkbj-c01",
+          "front": "What is Babesia?",
+          "back": "An intraerythrocytic protozoan parasite transmitted mainly by Ixodes ticks.",
+          "tags": [
+            "Microbiology",
+            "Babesiosis and Malaria II"
+          ],
+          "source_url": "https://drive.google.com/file/d/14vfFkvXZlceusubx4H2RN-ttsGLXdkbj/view?usp=drivesdk"
+        },
+        {
+          "id": "14vfFkvXZlceusubx4H2RN-ttsGLXdkbj-c02",
+          "front": "What blood-smear finding is classic for babesiosis?",
+          "back": "Maltese-cross tetrads may be seen in RBCs.",
+          "tags": [
+            "Microbiology",
+            "Babesiosis and Malaria II"
+          ],
+          "source_url": "https://drive.google.com/file/d/14vfFkvXZlceusubx4H2RN-ttsGLXdkbj/view?usp=drivesdk"
+        },
+        {
+          "id": "14vfFkvXZlceusubx4H2RN-ttsGLXdkbj-c03",
+          "front": "How does babesiosis differ from malaria epidemiologically?",
+          "back": "Babesia is tick-borne; malaria is transmitted by Anopheles mosquitoes.",
+          "tags": [
+            "Microbiology",
+            "Babesiosis and Malaria II"
+          ],
+          "source_url": "https://drive.google.com/file/d/14vfFkvXZlceusubx4H2RN-ttsGLXdkbj/view?usp=drivesdk"
+        },
+        {
+          "id": "14vfFkvXZlceusubx4H2RN-ttsGLXdkbj-c04",
+          "front": "Which patients are at higher risk for severe babesiosis?",
+          "back": "Asplenic, older, or immunocompromised patients.",
+          "tags": [
+            "Microbiology",
+            "Babesiosis and Malaria II"
+          ],
+          "source_url": "https://drive.google.com/file/d/14vfFkvXZlceusubx4H2RN-ttsGLXdkbj/view?usp=drivesdk"
+        },
+        {
+          "id": "14vfFkvXZlceusubx4H2RN-ttsGLXdkbj-c05",
+          "front": "What major hematologic effect can babesiosis cause?",
+          "back": "Hemolytic anemia.",
+          "tags": [
+            "Microbiology",
+            "Babesiosis and Malaria II"
+          ],
+          "source_url": "https://drive.google.com/file/d/14vfFkvXZlceusubx4H2RN-ttsGLXdkbj/view?usp=drivesdk"
+        },
+        {
+          "id": "14vfFkvXZlceusubx4H2RN-ttsGLXdkbj-c06",
+          "front": "Which malaria species have dormant liver hypnozoites?",
+          "back": "Plasmodium vivax and Plasmodium ovale.",
+          "tags": [
+            "Microbiology",
+            "Babesiosis and Malaria II"
+          ],
+          "source_url": "https://drive.google.com/file/d/14vfFkvXZlceusubx4H2RN-ttsGLXdkbj/view?usp=drivesdk"
+        },
+        {
+          "id": "14vfFkvXZlceusubx4H2RN-ttsGLXdkbj-c07",
+          "front": "Why can P. vivax and P. ovale relapse?",
+          "back": "Dormant hypnozoites can reactivate from the liver.",
+          "tags": [
+            "Microbiology",
+            "Babesiosis and Malaria II"
+          ],
+          "source_url": "https://drive.google.com/file/d/14vfFkvXZlceusubx4H2RN-ttsGLXdkbj/view?usp=drivesdk"
+        },
+        {
+          "id": "14vfFkvXZlceusubx4H2RN-ttsGLXdkbj-c08",
+          "front": "Which malaria species is most associated with severe/cerebral malaria?",
+          "back": "Plasmodium falciparum.",
+          "tags": [
+            "Microbiology",
+            "Babesiosis and Malaria II"
+          ],
+          "source_url": "https://drive.google.com/file/d/14vfFkvXZlceusubx4H2RN-ttsGLXdkbj/view?usp=drivesdk"
+        },
+        {
+          "id": "14vfFkvXZlceusubx4H2RN-ttsGLXdkbj-c09",
+          "front": "Why is falciparum malaria especially severe?",
+          "back": "Infected RBCs adhere to endothelium and sequester in microvasculature.",
+          "tags": [
+            "Microbiology",
+            "Babesiosis and Malaria II"
+          ],
+          "source_url": "https://drive.google.com/file/d/14vfFkvXZlceusubx4H2RN-ttsGLXdkbj/view?usp=drivesdk"
+        },
+        {
+          "id": "14vfFkvXZlceusubx4H2RN-ttsGLXdkbj-c10",
+          "front": "What is the definitive host of Plasmodium?",
+          "back": "The female Anopheles mosquito, where sexual reproduction occurs.",
+          "tags": [
+            "Microbiology",
+            "Babesiosis and Malaria II"
+          ],
+          "source_url": "https://drive.google.com/file/d/14vfFkvXZlceusubx4H2RN-ttsGLXdkbj/view?usp=drivesdk"
+        },
+        {
+          "id": "14vfFkvXZlceusubx4H2RN-ttsGLXdkbj-c11",
+          "front": "What stage infects humans from the mosquito?",
+          "back": "Sporozoites.",
+          "tags": [
+            "Microbiology",
+            "Babesiosis and Malaria II"
+          ],
+          "source_url": "https://drive.google.com/file/d/14vfFkvXZlceusubx4H2RN-ttsGLXdkbj/view?usp=drivesdk"
+        },
+        {
+          "id": "14vfFkvXZlceusubx4H2RN-ttsGLXdkbj-c12",
+          "front": "What stage infects mosquitoes from humans?",
+          "back": "Gametocytes.",
+          "tags": [
+            "Microbiology",
+            "Babesiosis and Malaria II"
+          ],
+          "source_url": "https://drive.google.com/file/d/14vfFkvXZlceusubx4H2RN-ttsGLXdkbj/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "id": "drive_11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI",
+      "subject": "Microbiology",
+      "title": "Malaria I",
+      "source_file_id": "11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI",
+      "source_url": "https://drive.google.com/file/d/11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI/view?usp=drivesdk",
+      "source_modified_time": "2026-09-12T12:18:21.789Z",
+      "archived": false,
+      "cards": [
+        {
+          "id": "11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI-c01",
+          "front": "How is malaria transmitted?",
+          "back": "By the bite of an infected female Anopheles mosquito.",
+          "tags": [
+            "Microbiology",
+            "Malaria I"
+          ],
+          "source_url": "https://drive.google.com/file/d/11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI/view?usp=drivesdk"
+        },
+        {
+          "id": "11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI-c02",
+          "front": "What is the first human stage after mosquito inoculation?",
+          "back": "Sporozoites enter blood and invade hepatocytes.",
+          "tags": [
+            "Microbiology",
+            "Malaria I"
+          ],
+          "source_url": "https://drive.google.com/file/d/11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI/view?usp=drivesdk"
+        },
+        {
+          "id": "11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI-c03",
+          "front": "What happens during the hepatic stage of malaria?",
+          "back": "Sporozoites develop into schizonts that release merozoites into blood.",
+          "tags": [
+            "Microbiology",
+            "Malaria I"
+          ],
+          "source_url": "https://drive.google.com/file/d/11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI/view?usp=drivesdk"
+        },
+        {
+          "id": "11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI-c04",
+          "front": "What happens during the erythrocytic stage?",
+          "back": "Merozoites invade RBCs and develop through ring/trophozoite and schizont stages.",
+          "tags": [
+            "Microbiology",
+            "Malaria I"
+          ],
+          "source_url": "https://drive.google.com/file/d/11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI/view?usp=drivesdk"
+        },
+        {
+          "id": "11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI-c05",
+          "front": "What causes periodic fever in malaria?",
+          "back": "Synchronous rupture of infected RBCs and release of merozoites/inflammatory products.",
+          "tags": [
+            "Microbiology",
+            "Malaria I"
+          ],
+          "source_url": "https://drive.google.com/file/d/11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI/view?usp=drivesdk"
+        },
+        {
+          "id": "11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI-c06",
+          "front": "Which malaria species can infect RBCs of all ages?",
+          "back": "Plasmodium falciparum.",
+          "tags": [
+            "Microbiology",
+            "Malaria I"
+          ],
+          "source_url": "https://drive.google.com/file/d/11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI/view?usp=drivesdk"
+        },
+        {
+          "id": "11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI-c07",
+          "front": "Why can falciparum parasitemia become very high?",
+          "back": "It can invade RBCs of all ages rather than a restricted subset.",
+          "tags": [
+            "Microbiology",
+            "Malaria I"
+          ],
+          "source_url": "https://drive.google.com/file/d/11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI/view?usp=drivesdk"
+        },
+        {
+          "id": "11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI-c08",
+          "front": "Which species prefers reticulocytes?",
+          "back": "P. vivax and P. ovale.",
+          "tags": [
+            "Microbiology",
+            "Malaria I"
+          ],
+          "source_url": "https://drive.google.com/file/d/11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI/view?usp=drivesdk"
+        },
+        {
+          "id": "11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI-c09",
+          "front": "Which species prefers older RBCs?",
+          "back": "P. malariae.",
+          "tags": [
+            "Microbiology",
+            "Malaria I"
+          ],
+          "source_url": "https://drive.google.com/file/d/11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI/view?usp=drivesdk"
+        },
+        {
+          "id": "11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI-c10",
+          "front": "What is the characteristic RBC morphology in falciparum malaria?",
+          "back": "Multiple delicate ring forms may occur; crescent/banana-shaped gametocytes are characteristic.",
+          "tags": [
+            "Microbiology",
+            "Malaria I"
+          ],
+          "source_url": "https://drive.google.com/file/d/11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI/view?usp=drivesdk"
+        },
+        {
+          "id": "11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI-c11",
+          "front": "What is the main diagnostic test for malaria?",
+          "back": "Microscopic examination of thick and thin peripheral blood smears.",
+          "tags": [
+            "Microbiology",
+            "Malaria I"
+          ],
+          "source_url": "https://drive.google.com/file/d/11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI/view?usp=drivesdk"
+        },
+        {
+          "id": "11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI-c12",
+          "front": "Why are both thick and thin smears useful?",
+          "back": "Thick smear increases sensitivity; thin smear helps species identification and parasitemia estimation.",
+          "tags": [
+            "Microbiology",
+            "Malaria I"
+          ],
+          "source_url": "https://drive.google.com/file/d/11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI/view?usp=drivesdk"
         }
       ]
     }

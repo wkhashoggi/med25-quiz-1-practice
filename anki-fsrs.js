@@ -95,6 +95,7 @@ function ankiDeserializeCard(r,now=new Date()){
     last_review:new Date(last)
   };
 }
+function ankiHash(s){let h=7;for(let i=0;i<String(s).length;i++)h=(h*31+String(s).charCodeAt(i))|0;return Math.abs(h)}
 function ankiDueMs(r){
   if(!r)return Infinity;
   if(r.fsrs_card)return Number(r.fsrs_card.due)||Date.parse(r.fsrs_card.due)||Infinity;
@@ -171,8 +172,8 @@ function ankiQueue(deckIds){
     else if((state===1||state===3)&&due<=now+LOOKAHEAD_MS)soonLearning.push(card);
   }
   dueLearning.sort((a,b)=>ankiDueMs(cardReview(a.id))-ankiDueMs(cardReview(b.id)));
-  dueReview.sort((a,b)=>ankiDueMs(cardReview(a.id))-ankiDueMs(cardReview(b.id))||hubHash(a.id)-hubHash(b.id));
-  fresh.sort((a,b)=>hubHash(a.id)-hubHash(b.id));
+  dueReview.sort((a,b)=>ankiDueMs(cardReview(a.id))-ankiDueMs(cardReview(b.id))||ankiHash(a.id)-ankiHash(b.id));
+  fresh.sort((a,b)=>ankiHash(a.id)-ankiHash(b.id));
   soonLearning.sort((a,b)=>ankiDueMs(cardReview(a.id))-ankiDueMs(cardReview(b.id)));
   const reviews=dueReview.slice(0,limits.reviewsLeft);
   const cfg=ankiConfig();

@@ -10,6 +10,25 @@ const DAY_MS=86400000;
 const LOOKAHEAD_MS=20*60*1000;
 let FSRS=null,fsrsReady=false,fsrsLoadError=null;
 
+function ankiMidnightForRiyadhDate(date){
+  const p=ankiRiyadhDateParts(date);
+  return new Date(Date.UTC(p.year,p.month-1,p.day,0,0,0)-3*60*60*1000);
+}
+function ankiMigrateReviewDatesToDaily(){
+  const root=flashReview||{};
+  Object.keys(root).forEach(k=>{
+    if(k.startsWith('__'))return;
+    const r=root[k];
+    if(!r||typeof r!=='object'||!r.due)return;
+    const due=new Date(Number(r.due)||Date.parse(r.due));
+    if(Number.isNaN(due.getTime()))return;
+    const snapped=ankiMidnightForRiyadhDate(due).getTime();
+    r.due=snapped;
+    if(r.fsrs_card)r.fsrs_card.due=snapped;
+    r.scheduler='fsrs';
+    r.scheduler_version='daily-v1';
+  });
+}
 function ankiTodayKey(){
   try{
     const parts=new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Riyadh',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date());
@@ -258,7 +277,7 @@ function ankiRenderOptions(){
   '<div class="ankiOptionsGrid">'+
   '<label><span>Desired retention</span><input id="ankiRetention" type="number" min="70" max="97" step="1" value="'+Math.round((Number(c.desiredRetention)||.9)*100)+'"><small>90% is Anki’s default balance.</small></label>'+
   '<label><span>New cards/day</span><input id="ankiNewLimit" type="number" min="0" max="999" value="'+(Number(c.newPerDay)||20)+'"><small>Today: '+d.newIntroduced+' introduced</small></label>'+
-  '<label><span>Maximum reviews/day</span><input id="ankiReviewLimit" type="number" min="1" max="9999" value="'+(Number(c.reviewsPerDay)||200)+'"><small>Today: '+d.reviewCards+' review cards</small></label>'+
+  '<label><span>Due reviews</span><input value="All due" disabled><small>Due cards are never skipped by a daily cap.</small></label>'+
   '<label><span>Maximum interval</span><input id="ankiMaxInterval" type="number" min="30" max="36500" value="'+(Number(c.maximumInterval)||36500)+'"><small>days</small></label>'+
   '</div>'+
   '<div class="ankiOptionNote"><b>Daily adaptive scheduling:</b> Complete one morning session. Ratings change the next review day using FSRS memory strength and difficulty; no card repeats later the same day.</div>'+
@@ -267,7 +286,7 @@ function ankiRenderOptions(){
   document.getElementById('ankiSaveOptions').onclick=()=>{
     c.desiredRetention=Math.min(.97,Math.max(.70,Number(document.getElementById('ankiRetention').value)/100||.90));
     c.newPerDay=Math.max(0,Number(document.getElementById('ankiNewLimit').value)||0);
-    c.reviewsPerDay=Math.max(1,Number(document.getElementById('ankiReviewLimit').value)||200);
+    c.reviewsPerDay=9999;
     c.maximumInterval=Math.min(36500,Math.max(30,Number(document.getElementById('ankiMaxInterval').value)||36500));
     saveFlashReview();ankiRenderOptions();renderFlashDecks();renderFlashHeroStats();
   };
@@ -453,7 +472,7 @@ async function ankiInitFSRS(){
     fsrsReady=!!(FSRS?.fsrs&&FSRS?.createEmptyCard&&FSRS?.Rating);
   }catch(e){fsrsLoadError=e;console.error('Could not load FSRS library',e)}
   try{
-    ankiConfig();ankiDaily();ankiInjectOptions();
+    ankiConfig();ankiDaily();ankiMigrateReviewDatesToDaily();ankiInjectOptions();
     dueCardsForDecks=ankiQueue;
     deckCounts=ankiDeckCounts;
     renderFlashDecks=ankiRenderDecks;

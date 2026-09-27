@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-27T09:47:16.196Z",
+  "generated_at": "2026-09-27T10:00:00.000Z",
   "source_root": {
     "id": "1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
     "url": "https://drive.google.com/drive/folders/1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
@@ -272,7 +272,8 @@
           "source_url": "https://docs.google.com/presentation/d/1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
         }
       ],
-      "needs_source_validation": true
+      "needs_source_validation": false,
+      "source_validation_date": "2026-09-27"
     },
     {
       "id": "drive_1akREae-VDZN_QNeQlrnBruB1ML_EVnFr",
@@ -457,7 +458,8 @@
           "source_url": "https://drive.google.com/file/d/1akREae-VDZN_QNeQlrnBruB1ML_EVnFr/view?usp=drivesdk"
         }
       ],
-      "needs_source_validation": true
+      "needs_source_validation": false,
+      "source_validation_date": "2026-09-27"
     },
     {
       "id": "drive_1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b",
@@ -641,7 +643,8 @@
           "source_url": "https://drive.google.com/file/d/1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b/view?usp=drivesdk"
         }
       ],
-      "needs_source_validation": true
+      "needs_source_validation": false,
+      "source_validation_date": "2026-09-27"
     },
     {
       "id": "drive_1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo",
@@ -854,7 +857,8 @@
           "source_url": "https://drive.google.com/file/d/1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo/view?usp=drivesdk"
         }
       ],
-      "needs_source_validation": true
+      "needs_source_validation": false,
+      "source_validation_date": "2026-09-27"
     },
     {
       "id": "drive_16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x",
@@ -1007,7 +1011,8 @@
           "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk"
         }
       ],
-      "needs_source_validation": true
+      "needs_source_validation": false,
+      "source_validation_date": "2026-09-27"
     },
     {
       "id": "drive_1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX",
@@ -1535,7 +1540,8 @@
           "source_url": "https://docs.google.com/presentation/d/13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
         }
       ],
-      "needs_source_validation": true
+      "needs_source_validation": false,
+      "source_validation_date": "2026-09-27"
     },
     {
       "id": "drive_1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2",
@@ -1667,7 +1673,8 @@
           "source_url": "https://drive.google.com/file/d/1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2/view?usp=drivesdk"
         }
       ],
-      "needs_source_validation": true
+      "needs_source_validation": false,
+      "source_validation_date": "2026-09-27"
     },
     {
       "id": "drive_1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS",

@@ -1,0 +1,85 @@
+{
+  "version": 1,
+  "generated_at": "2026-09-27T09:21:04.677Z",
+  "source_root": {
+    "id": "1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
+    "url": "https://drive.google.com/drive/folders/1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
+    "label": "MED25 Circulation & Breathing"
+  },
+  "source_policy": {
+    "population": "Male",
+    "include": "Official/doctor lecture slides only",
+    "exclude": [
+      "Test bank",
+      "Practice AI",
+      "AI practices",
+      "Summary",
+      "Edited slides",
+      "Existing Flashcards folders",
+      "Lab",
+      "Tutorial",
+      "PBL",
+      "Practical",
+      "Recordings"
+    ],
+    "generation": "Lecture-derived concise medical flashcards; emphasize core mechanisms, relationships, clinical application, and exam-relevant understanding rather than trivia."
+  },
+  "source_folders": [
+    {
+      "subject": "Physiology",
+      "id": "1TjCFnpHLfcgQqeYqeAlsfQPkktZSXcBR",
+      "url": "https://drive.google.com/drive/folders/1TjCFnpHLfcgQqeYqeAlsfQPkktZSXcBR"
+    },
+    {
+      "subject": "Biochemistry",
+      "id": "1oB6DaHR3rE7qufg6MLnCzKAIulFqp_Hj",
+      "url": "https://drive.google.com/drive/folders/1oB6DaHR3rE7qufg6MLnCzKAIulFqp_Hj"
+    },
+    {
+      "subject": "Hematology",
+      "id": "10rFglwMxTkcunUw3SGcZ5q5Jr9dw23lY",
+      "url": "https://drive.google.com/drive/folders/10rFglwMxTkcunUw3SGcZ5q5Jr9dw23lY"
+    },
+    {
+      "subject": "Pathology",
+      "id": "1Nf7rdufD5i_WI3kHZ3XSKA3qN5LMF-RG",
+      "url": "https://drive.google.com/drive/folders/1Nf7rdufD5i_WI3kHZ3XSKA3qN5LMF-RG"
+    },
+    {
+      "subject": "Microbiology",
+      "id": "1SGmICzqr21m7lF9uIa7pujB2pT478Sch",
+      "url": "https://drive.google.com/drive/folders/1SGmICzqr21m7lF9uIa7pujB2pT478Sch"
+    },
+    {
+      "subject": "Pharmacology",
+      "id": "1qq1_bUu_oCFpRawmfwilTFc75L0ZbAGY",
+      "url": "https://drive.google.com/drive/folders/1qq1_bUu_oCFpRawmfwilTFc75L0ZbAGY"
+    },
+    {
+      "subject": "Anatomy",
+      "id": "1lhDW08GOZCiAfxY0ekLV-n4twVmSrjeA",
+      "url": "https://drive.google.com/drive/folders/1lhDW08GOZCiAfxY0ekLV-n4twVmSrjeA"
+    },
+    {
+      "subject": "Histology",
+      "id": "1ouXpR9s8tpUVqOcw9XWuJD_HgVcVb-CM",
+      "url": "https://drive.google.com/drive/folders/1ouXpR9s8tpUVqOcw9XWuJD_HgVcVb-CM"
+    },
+    {
+      "subject": "Embryology",
+      "id": "1dwGFqiqn8hF1dX-t4fc2XPF7YHewzwV4",
+      "url": "https://drive.google.com/drive/folders/1dwGFqiqn8hF1dX-t4fc2XPF7YHewzwV4"
+    },
+    {
+      "subject": "Clinical",
+      "id": "1FjmNZVP_Fyrq_aQgnEdl8D17HINqtHeD",
+      "url": "https://drive.google.com/drive/folders/1FjmNZVP_Fyrq_aQgnEdl8D17HINqtHeD"
+    },
+    {
+      "subject": "Radiology",
+      "id": "1UrOY8EPf_trfLxyJu0eaqoJA4sgOhgVR",
+      "url": "https://drive.google.com/drive/folders/1UrOY8EPf_trfLxyJu0eaqoJA4sgOhgVR"
+    }
+  ],
+  "decks": []
+}

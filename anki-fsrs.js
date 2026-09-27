@@ -24,14 +24,20 @@ function ankiConfig(){
       desiredRetention:0.90,
       newPerDay:20,
       reviewsPerDay:200,
-      learningSteps:['1m','10m'],
-      relearningSteps:['10m'],
+      learningSteps:['5m'],
+      relearningSteps:['5m'],
+      initialIntervals:{again:5*60*1000,hard:DAY_MS,good:3*DAY_MS,easy:5*DAY_MS},
       maximumInterval:36500,
       fuzz:true,
-      version:'fsrs'
+      version:'fsrs-custom-learning-v1'
     };
   }
-  return root[ANKI_CONFIG_KEY];
+  const c=root[ANKI_CONFIG_KEY];
+  c.learningSteps=['5m'];
+  c.relearningSteps=['5m'];
+  c.initialIntervals={again:5*60*1000,hard:DAY_MS,good:3*DAY_MS,easy:5*DAY_MS};
+  c.version='fsrs-custom-learning-v1';
+  return c;
 }
 function ankiDaily(){
   const root=flashReview||{},key=ankiTodayKey();
@@ -129,7 +135,23 @@ function ankiRating(grade){
   const R=FSRS.Rating;
   return grade==='again'?R.Again:grade==='hard'?R.Hard:grade==='good'?R.Good:R.Easy;
 }
+function ankiCustomLearningDelay(grade){
+  const c=ankiConfig(),m=c.initialIntervals||{};
+  return Number(m[grade])||({again:5*60*1000,hard:DAY_MS,good:3*DAY_MS,easy:5*DAY_MS}[grade]);
+}
+function ankiUsesCustomLearning(r,grade){
+  if(!r)return true;
+  const st=ankiState(r);
+  if(st===1||st===3)return true;
+  return st===2&&grade==='again';
+}
+function ankiCustomLearningPreview(grade){
+  const ms=ankiCustomLearningDelay(grade);
+  return {result:null,label:ankiFormatDelay(ms),days:ms>=DAY_MS?Math.round(ms/DAY_MS):0,custom:true};
+}
 function ankiPreview(card,grade,now=new Date()){
+  const current=cardReview(card.id);
+  if(ankiUsesCustomLearning(current,grade))return ankiCustomLearningPreview(grade);
   if(!fsrsReady||!FSRS)return null;
   try{
     const scheduler=FSRS.fsrs(fsrsParams());
@@ -227,8 +249,8 @@ function ankiRenderOptions(){
   '<label><span>Maximum reviews/day</span><input id="ankiReviewLimit" type="number" min="1" max="9999" value="'+(Number(c.reviewsPerDay)||200)+'"><small>Today: '+d.reviewCards+' review cards</small></label>'+
   '<label><span>Maximum interval</span><input id="ankiMaxInterval" type="number" min="30" max="36500" value="'+(Number(c.maximumInterval)||36500)+'"><small>days</small></label>'+
   '</div>'+
-  '<div class="ankiOptionNote"><b>Answer buttons:</b> Again = forgot it. Hard = recalled with major hesitation. Good = recalled correctly. Easy = effortless recall. Do not use Hard when you actually forgot the answer.</div>'+
-  '<div class="ankiOptionFoot"><span>Scheduler: FSRS · 1m 10m learning · 10m relearning · interval fuzzing on</span><button class="ankiBtn primary" id="ankiSaveOptions">Save</button></div>';
+  '<div class="ankiOptionNote"><b>Initial learning schedule:</b> Again 5m · Hard 1d · Good 3d · Easy 5d. Once a card reaches normal review, FSRS takes over the longer-term spacing. Again on a failed review returns it in 5 minutes.</div>'+
+  '<div class="ankiOptionFoot"><span>Scheduler: custom 5m / 1d / 3d / 5d learning · FSRS long-term reviews · interval fuzzing on</span><button class="ankiBtn primary" id="ankiSaveOptions">Save</button></div>';
   document.getElementById('ankiCloseOptions').onclick=()=>host.classList.add('hidden');
   document.getElementById('ankiSaveOptions').onclick=()=>{
     c.desiredRetention=Math.min(.97,Math.max(.70,Number(document.getElementById('ankiRetention').value)/100||.90));
@@ -313,7 +335,7 @@ function ankiRenderStudyCard(){
   const now=new Date();
   ['again','hard','good','easy'].forEach(g=>{
     const p=ankiPreview(card,g,now),id='flash'+g[0].toUpperCase()+g.slice(1)+'Interval',el=document.getElementById(id);
-    if(el)el.textContent=p?.label||flashIntervalPreview(card,g).label;
+    if(el)el.textContent=p?.label||(ankiUsesCustomLearning(cardReview(card.id),g)?ankiCustomLearningPreview(g).label:flashIntervalPreview(card,g).label);
   });
   flashSession.cardStartedAt=Date.now();
 }
@@ -322,8 +344,22 @@ function ankiGrade(grade){
   if(!fsrsReady||!FSRS){console.warn('FSRS not ready; using legacy scheduler');return legacyGrade(grade)}
   const now=new Date(),before=cardReview(card.id),wasNew=!before;
   try{
-    const scheduler=FSRS.fsrs(fsrsParams()),input=ankiDeserializeCard(before,now),rating=ankiRating(grade),result=scheduler.next? scheduler.next(input,now,rating) : scheduler.repeat(input,now)[rating];
-    const next=result.card||result,serialized=ankiSerializeCard(next),daily=ankiDaily(),elapsedSec=Math.min(60,Math.max(0,Math.round((Date.now()-(flashSession.cardStartedAt||Date.now()))/1000)));
+    const scheduler=FSRS.fsrs(fsrsParams()),input=ankiDeserializeCard(before,now),rating=ankiRating(grade);
+    const rawResult=scheduler.next? scheduler.next(input,now,rating) : scheduler.repeat(input,now)[rating];
+    const next=rawResult.card||rawResult;
+    let serialized=ankiSerializeCard(next);
+    const custom=ankiUsesCustomLearning(before,grade);
+    if(custom){
+      const delay=ankiCustomLearningDelay(grade);
+      serialized.due=now.getTime()+delay;
+      serialized.scheduled_days=delay>=DAY_MS?Math.round(delay/DAY_MS):0;
+      if(grade==='again'){
+        serialized.state=before&&ankiState(before)===2?3:(before&&ankiState(before)===3?3:1);
+      }else{
+        serialized.state=2;
+      }
+    }
+    const daily=ankiDaily(),elapsedSec=Math.min(60,Math.max(0,Math.round((Date.now()-(flashSession.cardStartedAt||Date.now()))/1000)));
     if(wasNew)daily.newIntroduced++;
     else if(ankiState(before)===2)daily.reviewCards++;
     daily.totalAnswers++;daily[grade]=(daily[grade]||0)+1;daily.seconds+=elapsedSec;
@@ -336,11 +372,11 @@ function ankiGrade(grade){
       last_reviewed:now.getTime(),
       last_grade:grade,
       scheduler:'fsrs',
-      scheduler_version:'6',
+      scheduler_version:'custom-learning-v1',
       desired_retention:ankiConfig().desiredRetention
     };
     const log=ankiReviewLog();
-    log.push({card_id:card.id,ts:now.getTime(),grade,rating,scheduled_days:serialized.scheduled_days,stability:serialized.stability,difficulty:serialized.difficulty,elapsed_seconds:elapsedSec});
+    log.push({card_id:card.id,ts:now.getTime(),grade,rating,scheduled_days:serialized.scheduled_days,stability:serialized.stability,difficulty:serialized.difficulty,elapsed_seconds:elapsedSec,custom_learning:custom});
     if(log.length>20000)log.splice(0,log.length-20000);
     saveFlashReview();
     flashSession.index++;

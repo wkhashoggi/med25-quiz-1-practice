@@ -118,7 +118,40 @@ function homeFlashMetrics(){
   const decks=(flashLibrary.decks||[]).filter(d=>!d.archived),started=decks.filter(d=>(d.cards||[]).some(c=>cardReview(c.id))).length;
   return {seen,total:cards.length,due,decks:decks.length,started};
 }
-function homeWeakTopics(){if(typeof topicPerformance!=='function')return [];return Object.values(topicPerformance()).filter(x=>x.graded>0).sort((a,b)=>a.accuracy-b.accuracy||b.graded-a.graded).slice(0,7)}
+function weakKey(s){return String(s||'').toLowerCase().replace(/&/g,' and ').replace(/\b(lecture|part|physiology|pathology|pharmacology|histology|anatomy|the|of|and|in|to)\b/g,' ').replace(/[^a-z0-9]+/g,' ').replace(/\s+/g,' ').trim()}
+function weakSimilarity(a,b){
+  const aa=new Set(weakKey(a).split(' ').filter(Boolean)),bb=new Set(weakKey(b).split(' ').filter(Boolean));
+  if(!aa.size||!bb.size)return 0;
+  let hit=0;aa.forEach(x=>{if(bb.has(x))hit++});
+  return hit/Math.max(aa.size,bb.size);
+}
+function homeWeakTopics(){
+  const rows=[];
+  function bucket(label){
+    const key=weakKey(label);
+    let hit=rows.find(x=>x.key===key);
+    if(!hit){
+      let best=null,bestScore=0;
+      for(const x of rows){const sc=weakSimilarity(label,x.topic);if(sc>bestScore){best=x;bestScore=sc}}
+      if(bestScore>=0.67)hit=best;
+    }
+    if(!hit){hit={key,topic:label,graded:0,correct:0,pastGraded:0,pastCorrect:0,aiGraded:0,aiCorrect:0};rows.push(hit)}
+    return hit;
+  }
+  QUESTIONS.forEach(q=>{
+    const p=saved[q.id];if(p?.correct!==true&&p?.correct!==false)return;
+    const x=bucket(q.topic);x.graded++;x.pastGraded++;if(p.correct){x.correct++;x.pastCorrect++}
+  });
+  const ap=aiProgress();
+  aiAllQuestions().forEach(q=>{
+    const p=ap[q.id];if(p?.correct!==true&&p?.correct!==false)return;
+    const label=q.lecture_title||q.concept||q.subject||'AI Questions';
+    const x=bucket(label);x.graded++;x.aiGraded++;if(p.correct){x.correct++;x.aiCorrect++}
+  });
+  rows.forEach(x=>x.accuracy=x.graded?x.correct/x.graded:0);
+  const eligible=rows.filter(x=>x.graded>=2);
+  return (eligible.length?eligible:rows).sort((a,b)=>a.accuracy-b.accuracy||b.graded-a.graded||a.topic.localeCompare(b.topic)).slice(0,8);
+}
 function homeSubjectRows(){
   const p=aiProgress(),sets=(aiLibrary.lecture_sets||[]).filter(s=>!s.archived),map={};
   sets.forEach(s=>{const x=map[s.subject]||(map[s.subject]={subject:s.subject,aiTotal:0,aiDone:0,aiRight:0,aiGraded:0,cards:0,seen:0});(s.questions||[]).forEach(q=>{x.aiTotal++;if(p[q.id]?.answered)x.aiDone++;if(p[q.id]?.correct===true){x.aiRight++;x.aiGraded++}else if(p[q.id]?.correct===false)x.aiGraded++})});
@@ -134,7 +167,7 @@ function renderHome(){
     '<div class="hubCard hubMetric"><b>'+fl.due+'</b><span>flashcards due now · '+fl.seen+'/'+fl.total+' seen</span><div class="hubBar"><span style="width:'+(fl.total?fl.seen/fl.total*100:0)+'%"></span></div></div>'+
     '<div class="hubCard hubMetric"><b>'+fl.started+'/'+fl.decks+'</b><span>lecture decks started</span><div class="hubBar"><span style="width:'+(fl.decks?fl.started/fl.decks*100:0)+'%"></span></div></div>';
   const weak=document.getElementById('homeWeak');
-  if(weak){const rows=homeWeakTopics();weak.innerHTML=rows.length?'<div class="hubRows">'+rows.map(x=>'<div class="hubRow"><div class="hubRowMain"><b>'+esc(x.topic)+'</b><span>'+x.correct+'/'+x.graded+' correct'+(x.revealed?' · '+x.revealed+' revealed':'')+'</span></div><div class="hubRowScore">'+Math.round(x.accuracy*100)+'%</div></div>').join('')+'</div>':'<p>No graded past-paper data yet.</p>'}
+  if(weak){const rows=homeWeakTopics();weak.innerHTML=rows.length?'<div class="hubRows">'+rows.map(x=>'<div class="hubRow"><div class="hubRowMain"><b>'+esc(x.topic)+'</b><span>'+(x.pastGraded?'Past papers '+x.pastCorrect+'/'+x.pastGraded:'')+(x.pastGraded&&x.aiGraded?' · ':'')+(x.aiGraded?'AI '+x.aiCorrect+'/'+x.aiGraded:'')+' · '+x.correct+'/'+x.graded+' combined</span></div><div class="hubRowScore">'+Math.round(x.accuracy*100)+'%</div></div>').join('')+'</div>':'<p>Answer some Past Paper or AI questions and your weakest topics will appear here.</p>'}
   const subjects=document.getElementById('homeSubjects');
   if(subjects)subjects.innerHTML='<div class="hubRows">'+homeSubjectRows().map(x=>{const aiPct=x.aiGraded?Math.round(x.aiRight/x.aiGraded*100):0,flashPct=x.cards?Math.round(x.seen/x.cards*100):0;return '<div class="hubRow"><div class="hubRowMain"><b>'+esc(x.subject)+'</b><span>AI '+x.aiDone+'/'+x.aiTotal+' · Flashcards '+x.seen+'/'+x.cards+'</span><div class="hubBar"><span style="width:'+Math.round((aiPct+flashPct)/2)+'%"></span></div></div><div class="hubRowScore">'+aiPct+'% AI</div></div>'}).join('')+'</div>';
   const sync=document.getElementById('homeSync');if(sync)sync.textContent='Drive libraries: '+(aiLibrary.lecture_sets||[]).filter(s=>!s.archived).length+' AI lecture sets · '+(flashLibrary.decks||[]).filter(d=>!d.archived).length+' flashcard decks';
@@ -171,6 +204,15 @@ function hubSetupNavigation(){
 switchStudySection=hubSwitch;
 setupStudyNavigation=hubSetupNavigation;
 window.hubGo=hubGo;
+
+function removeLegacyAnalysisBoxes(){
+  const weakBox=document.getElementById('weakTopicStats')?.closest('.box');
+  const repeatedBox=document.getElementById('topicStats')?.closest('.box');
+  if(weakBox)weakBox.remove();
+  if(repeatedBox)repeatedBox.remove();
+  try{renderTopicStats=function(){}}catch{}
+}
+removeLegacyAnalysisBoxes();
 
 /* One dhikr only at the bottom of each question page. */
 const hubOriginalDhikrBox=typeof dhikrBox==='function'?dhikrBox:null;

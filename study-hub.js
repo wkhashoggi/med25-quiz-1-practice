@@ -3,10 +3,14 @@
 'use strict';
 const HUB_SECTION_KEY='med25-main-section-v1';
 const AI_LIBRARY_URL='ai_questions.json';
+const STUDY_GUIDE_CATALOG_URL='study-guide-lectures.json';
+const STUDY_GUIDE_MAP_URL='question-study-guide-map.json';
 let aiLibrary={lecture_sets:[],generated_at:null};
+let studyGuideCatalog={subjects:[]};
+let studyGuideQuestionMap={past:{},ai:{}};
 let aiState={subject:'',lecture:'',search:'',filter:'all',page:1,pageSize:20,shuffle:false};
-let aiAdvanced={status:'all',subject:'',lectures:new Set(),topic:''};
-let pastAdvanced={status:'all',subject:'',lectures:new Set(),topic:''};
+let aiAdvanced={status:'all',subject:'',lectures:new Set()};
+let pastAdvanced={status:'all',subject:'',lectures:new Set()};
 
 function aiProgress(){
   if(!saved.__ai_questions__||typeof saved.__ai_questions__!=='object')saved.__ai_questions__={};
@@ -30,9 +34,9 @@ function aiFiltered(){
     if(aiAdvanced.status==='wrong'&&p[q.id]?.correct!==false)return false;
     if(aiAdvanced.status==='starred'&&!p[q.id]?.starred)return false;
     if(aiAdvanced.status==='revealed'&&!p[q.id]?.revealed)return false;
-    if(aiAdvanced.subject&&q.subject!==aiAdvanced.subject)return false;
-    if(aiAdvanced.lectures.size&& !aiAdvanced.lectures.has(q.set_id))return false;
-    if(aiAdvanced.topic&&String(q.concept||'')!==aiAdvanced.topic)return false;
+    const guide=sgQuestionLecture('ai',q);
+    if(aiAdvanced.subject&&guide.subject!==aiAdvanced.subject)return false;
+    if(aiAdvanced.lectures.size&&!aiAdvanced.lectures.has(guide.lecture_id))return false;
     return true;
   });
   if(aiState.shuffle)qs=qs.slice().sort((a,b)=>hubHash(a.id)-hubHash(b.id));
@@ -103,9 +107,21 @@ function populateAIFilters(){
   if(sets.some(s=>s.id===aiState.lecture))lecture.value=aiState.lecture;else aiState.lecture='';
 }
 async function initAIQuestions(){
-  try{const res=await fetch(AI_LIBRARY_URL+'?v='+Date.now(),{cache:'no-store'});if(!res.ok)throw new Error('HTTP '+res.status);aiLibrary=await res.json();if(!Array.isArray(aiLibrary.lecture_sets))aiLibrary.lecture_sets=[]}
-  catch(e){console.error('AI question library unavailable',e);aiLibrary={lecture_sets:[],generated_at:null}}
-  populateAIFilters();setupAdvancedQuestionFilters();renderAI();renderHome();
+  try{
+    const [aiRes,guideRes,mapRes]=await Promise.all([
+      fetch(AI_LIBRARY_URL+'?v='+Date.now(),{cache:'no-store'}),
+      fetch(STUDY_GUIDE_CATALOG_URL+'?v=1',{cache:'force-cache'}),
+      fetch(STUDY_GUIDE_MAP_URL+'?v=1',{cache:'force-cache'})
+    ]);
+    if(!aiRes.ok)throw new Error('AI HTTP '+aiRes.status);
+    aiLibrary=await aiRes.json();if(!Array.isArray(aiLibrary.lecture_sets))aiLibrary.lecture_sets=[];
+    if(guideRes.ok)studyGuideCatalog=await guideRes.json();
+    if(mapRes.ok)studyGuideQuestionMap=await mapRes.json();
+  }catch(e){console.error('Study libraries unavailable',e);if(!Array.isArray(aiLibrary.lecture_sets))aiLibrary={lecture_sets:[],generated_at:null}}
+  qaPastLectureCache.clear();
+  const legacyTopic=document.getElementById('topic');if(legacyTopic)legacyTopic.value='';
+  aiState.subject='';aiState.lecture='';
+  populateAIFilters();setupAdvancedQuestionFilters();renderAI();render();renderHome();
 }
 function setupAIControls(){
   const search=document.getElementById('aiSearch'),subject=document.getElementById('aiSubject'),lecture=document.getElementById('aiLecture');
@@ -116,34 +132,50 @@ function setupAIControls(){
   const sh=document.getElementById('aiShuffle');if(sh)sh.onclick=()=>{aiState.shuffle=!aiState.shuffle;sh.classList.toggle('active',aiState.shuffle);aiState.page=1;renderAI()};
 }
 
+
 function qaNorm(v){
-  return String(v||'').toLowerCase().replace(/&/g,' and ').replace(/\b(lecture|slides?|student|third|year|dr|the|of|and|for|with)\b/g,' ').replace(/[^a-z0-9]+/g,' ').replace(/\s+/g,' ').trim();
+  return String(v||'').toLowerCase().replace(/haem/g,'heme').replace(/&/g,' and ').replace(/\b(lecture|slides?|student|third|year|dr|the|of|and|for|with|part)\b/g,' ').replace(/[^a-z0-9]+/g,' ').replace(/\s+/g,' ').trim();
 }
 function qaOverlap(a,b){
-  const A=new Set(qaNorm(a).split(' ').filter(Boolean)),B=new Set(qaNorm(b).split(' ').filter(Boolean));
+  const A=new Set(qaNorm(a).split(' ').filter(x=>x.length>2)),B=new Set(qaNorm(b).split(' ').filter(x=>x.length>2));
   if(!A.size||!B.size)return 0;
   let hit=0;A.forEach(x=>{if(B.has(x))hit++});
   return hit/Math.max(1,Math.min(A.size,B.size));
 }
 function qaLectureCatalog(){
-  return (aiLibrary.lecture_sets||[]).filter(x=>!x.archived).map(x=>({id:x.id,subject:x.subject,title:x.title,source_file_id:x.source_file_id||'',source_url:x.source_url||''}));
+  return (studyGuideCatalog.subjects||[]).flatMap(s=>(s.lectures||[]).map(l=>({...l,subject:s.name||l.subject})));
+}
+function qaSubjects(){
+  return (studyGuideCatalog.subjects||[]).map(s=>s.name).filter(Boolean);
+}
+function qaSubjectLectures(subject){
+  const s=(studyGuideCatalog.subjects||[]).find(x=>x.name===subject);
+  return (s?.lectures||[]).slice();
 }
 const qaPastLectureCache=new Map();
-function qaPastLecture(q){
-  if(qaPastLectureCache.has(q.id))return qaPastLectureCache.get(q.id);
-  const title=q.lecture_source?.title||'',url=q.lecture_source?.drive_url||'',cat=qaLectureCatalog();
-  let hit=cat.find(x=>x.source_file_id&&url.includes(x.source_file_id));
-  if(!hit){
-    const nt=qaNorm(title);
-    hit=cat.find(x=>qaNorm(x.title)===nt);
+const qaAILectureCache=new Map();
+const SG_SUBJECT_MAP={Physiology:'Physiology',Biochemistry:'Biochemistry',Pathology:'Pathology',Pharmacology:'Pharmacology',Microbiology:'Microbiology',Hematology:'Hematology',Anatomy:'Anatomy & Histology',Histology:'Anatomy & Histology'};
+function sgFallback(kind,q){
+  const cache=kind==='past'?qaPastLectureCache:qaAILectureCache;
+  if(cache.has(q.id))return cache.get(q.id);
+  const catalog=qaLectureCatalog();
+  const source=kind==='past'?(q.lecture_source?.title||''):(q.lecture_title||'');
+  const hinted=kind==='ai'?SG_SUBJECT_MAP[q.subject]:null;
+  const candidates=hinted?catalog.filter(x=>x.subject===hinted):catalog;
+  const query=[source,q.topic,(q.concepts||[]).join(' '),q.concept,q.stem,q.answer_text,q.explanation,Object.values(q.options||{}).join(' ')].join(' ');
+  let best=null,bestScore=-1;
+  for(const l of candidates){
+    let score=8*qaOverlap(source,l.title)+5*qaOverlap(query,l.title)+3*qaOverlap(query,l.objectives||'');
+    const ns=qaNorm(source),nt=qaNorm(l.title);
+    if(ns&&nt&&(ns.includes(nt)||nt.includes(ns)))score+=7;
+    if(score>bestScore){bestScore=score;best=l}
   }
-  if(!hit&&title){
-    let best=null,score=0;
-    for(const x of cat){const sc=qaOverlap(title,x.title);if(sc>score){best=x;score=sc}}
-    if(score>=.55)hit=best;
-  }
-  const out=hit||{id:'past:'+qaNorm(title),subject:'Other',title:title||'Unmatched lecture'};
-  qaPastLectureCache.set(q.id,out);return out;
+  const out=best?{lecture_id:best.id,subject:best.subject,title:best.title,method:'objectives-runtime'}:{lecture_id:'',subject:hinted||'Other',title:source||'Unmapped lecture',method:'unmapped'};
+  cache.set(q.id,out);return out;
+}
+function sgQuestionLecture(kind,q){
+  const mapped=studyGuideQuestionMap?.[kind]?.[q.id];
+  return mapped&&mapped.lecture_id?mapped:sgFallback(kind,q);
 }
 function qaStatusPass(p,status){
   if(status==='all')return true;
@@ -154,133 +186,93 @@ function qaStatusPass(p,status){
   if(status==='revealed')return !!p?.revealed||(!!p?.answered&&!p?.selected&&p?.correct==null);
   return true;
 }
+function qaIds(prefix,name){return prefix+'Guide'+name}
 function qaLectureDropdownHtml(prefix){
-  return '<div class="qaMulti" id="'+prefix+'LectureMulti">'+
-    '<button class="qaMultiBtn" id="'+prefix+'LectureBtn" type="button" disabled>Select subject first</button>'+
-    '<div class="qaMultiPanel hidden" id="'+prefix+'LecturePanel"></div>'+
+  return '<div class="qaMulti" id="'+qaIds(prefix,'LectureMulti')+'">'+
+    '<button class="qaMultiBtn" id="'+qaIds(prefix,'LectureBtn')+'" type="button" disabled>Select subject first</button>'+
+    '<div class="qaMultiPanel hidden" id="'+qaIds(prefix,'LecturePanel')+'"></div>'+
   '</div>';
 }
 function qaFilterBarHtml(prefix){
-  return '<div class="qaFilterBar" id="'+prefix+'AdvancedFilters">'+
-    '<label class="qaField"><span>Answer status</span><select id="'+prefix+'Status"><option value="all">All</option><option value="unanswered">Unanswered</option><option value="correct">Correct</option><option value="wrong">Wrong</option><option value="starred">Starred</option><option value="revealed">Revealed answer</option></select></label>'+
-    '<label class="qaField"><span>Subject</span><select id="'+prefix+'Subject"><option value="">All subjects</option></select></label>'+
-    '<div class="qaField"><span>Lecture</span>'+qaLectureDropdownHtml(prefix)+'</div>'+
-    '<label class="qaField"><span>Topic</span><select id="'+prefix+'Topic" disabled><option value="">Select subject first</option></select></label>'+
-    '<button class="qaClearBtn" id="'+prefix+'Clear" type="button">Clear filters</button>'+
+  return '<div class="qaFilterBar qaFilterBarSimple" id="'+qaIds(prefix,'Filters')+'">'+
+    '<label class="qaField"><span>Answer status</span><select id="'+qaIds(prefix,'Status')+'"><option value="all">All</option><option value="unanswered">Unanswered</option><option value="correct">Correct</option><option value="wrong">Wrong</option><option value="starred">Starred</option><option value="revealed">Revealed answer</option></select></label>'+
+    '<label class="qaField"><span>Subject</span><select id="'+qaIds(prefix,'Subject')+'"><option value="">All subjects</option></select></label>'+
+    '<div class="qaField"><span>Lecture(s)</span>'+qaLectureDropdownHtml(prefix)+'</div>'+
+    '<button class="qaClearBtn" id="'+qaIds(prefix,'Clear')+'" type="button">Clear filters</button>'+
   '</div>';
 }
-function qaSubjects(){
-  return [...new Set(qaLectureCatalog().map(x=>x.subject).filter(Boolean))].sort((a,b)=>a.localeCompare(b));
-}
-function qaSubjectLectures(subject){
-  return qaLectureCatalog().filter(x=>x.subject===subject).sort((a,b)=>a.title.localeCompare(b.title));
-}
-function qaPastTopics(subject,lectures){
-  const out=new Set();
-  QUESTIONS.forEach(q=>{
-    const li=qaPastLecture(q);
-    if(subject&&li.subject!==subject)return;
-    if(lectures.size&&!lectures.has(li.id))return;
-    if(q.topic)out.add(q.topic);
-  });
-  return [...out].sort((a,b)=>a.localeCompare(b));
-}
-function qaAITopics(subject,lectures){
-  const out=new Set();
-  aiAllQuestions().forEach(q=>{
-    if(subject&&q.subject!==subject)return;
-    if(lectures.size&&!lectures.has(q.set_id))return;
-    if(q.concept)out.add(String(q.concept));
-  });
-  return [...out].sort((a,b)=>a.localeCompare(b));
-}
 function qaRenderLecturePicker(prefix,model){
-  const btn=document.getElementById(prefix+'LectureBtn'),panel=document.getElementById(prefix+'LecturePanel');
+  const btn=document.getElementById(qaIds(prefix,'LectureBtn')),panel=document.getElementById(qaIds(prefix,'LecturePanel'));
   if(!btn||!panel)return;
   if(!model.subject){
     btn.disabled=true;btn.textContent='Select subject first';panel.classList.add('hidden');panel.innerHTML='';return;
   }
   const lectures=qaSubjectLectures(model.subject);
   btn.disabled=false;
-  btn.textContent=model.lectures.size?(model.lectures.size===1?(lectures.find(x=>model.lectures.has(x.id))?.title||'1 lecture'):(model.lectures.size+' lectures selected')):('All '+model.subject+' lectures');
-  panel.innerHTML='<div class="qaMultiHead"><b>'+model.subject+' lectures</b><button type="button" data-qa-clear-lectures="'+prefix+'">Clear</button></div>'+
+  if(model.lectures.size===1){
+    const one=lectures.find(x=>model.lectures.has(x.id));btn.textContent=one?.title||'1 lecture selected';
+  }else if(model.lectures.size>1)btn.textContent=model.lectures.size+' lectures selected';
+  else btn.textContent='All '+model.subject+' lectures';
+  panel.innerHTML='<div class="qaMultiHead"><b>'+esc(model.subject)+' lectures</b><button type="button" data-qa-clear-lectures="'+prefix+'">Clear</button></div>'+
     lectures.map(x=>'<label class="qaCheck"><input type="checkbox" value="'+esc(x.id)+'" '+(model.lectures.has(x.id)?'checked':'')+'><span>'+esc(x.title)+'</span></label>').join('');
   panel.querySelectorAll('input[type="checkbox"]').forEach(cb=>cb.onchange=()=>{
-    if(cb.checked)model.lectures.add(cb.value);else model.lectures.delete(cb.value);
-    model.topic='';
-    qaRenderLecturePicker(prefix,model);qaRenderTopicPicker(prefix,model);qaApply(prefix);
+    cb.checked?model.lectures.add(cb.value):model.lectures.delete(cb.value);
+    qaRenderLecturePicker(prefix,model);qaApply(prefix);
   });
   panel.querySelector('[data-qa-clear-lectures]')?.addEventListener('click',e=>{
-    e.stopPropagation();model.lectures.clear();model.topic='';qaRenderLecturePicker(prefix,model);qaRenderTopicPicker(prefix,model);qaApply(prefix);
+    e.stopPropagation();model.lectures.clear();qaRenderLecturePicker(prefix,model);qaApply(prefix);
   });
 }
-function qaRenderTopicPicker(prefix,model){
-  const sel=document.getElementById(prefix+'Topic');if(!sel)return;
-  if(!model.subject){
-    sel.disabled=true;sel.innerHTML='<option value="">Select subject first</option>';return;
-  }
-  const topics=prefix==='past'?qaPastTopics(model.subject,model.lectures):qaAITopics(model.subject,model.lectures);
-  sel.disabled=false;
-  sel.innerHTML='<option value="">All topics</option>'+topics.map(x=>'<option value="'+esc(x)+'">'+esc(x)+'</option>').join('');
-  if(topics.includes(model.topic))sel.value=model.topic;else model.topic='';
-}
 function qaApply(prefix){
-  if(prefix==='past'){
-    state.page=1;resetUnansweredSnapshot();render();
-  }else{
-    aiState.page=1;renderAI();
-  }
+  if(prefix==='past'){state.page=1;resetUnansweredSnapshot();render()}
+  else{aiState.page=1;renderAI()}
 }
 function qaResetLegacyStatus(prefix){
   if(prefix==='past'){
     state.filter='all';
     document.querySelectorAll('#questionSection .chip[data-filter]').forEach(x=>x.classList.toggle('active',x.dataset.filter==='all'));
-  }else{
-    aiState.filter='all';
-    document.querySelectorAll('#aiSection [data-ai-filter]').forEach(x=>x.classList.toggle('active',x.dataset.aiFilter==='all'));
-  }
+  }else aiState.filter='all';
 }
 function qaSetupOne(prefix,model,host){
   if(!host)return;
-  const existing=document.getElementById(prefix+'AdvancedFilters');
-  if(existing){
-    const subject=document.getElementById(prefix+'Subject');
-    if(subject){
-      const current=model.subject;
-      subject.innerHTML='<option value="">All subjects</option>'+qaSubjects().map(x=>'<option value="'+esc(x)+'">'+esc(x)+'</option>').join('');
-      subject.value=current;
-    }
-    qaRenderLecturePicker(prefix,model);qaRenderTopicPicker(prefix,model);
-    return;
-  }
+  const old=document.getElementById(qaIds(prefix,'Filters'));if(old)old.remove();
   host.insertAdjacentHTML('afterend',qaFilterBarHtml(prefix));
-  const subject=document.getElementById(prefix+'Subject'),status=document.getElementById(prefix+'Status'),topic=document.getElementById(prefix+'Topic'),btn=document.getElementById(prefix+'LectureBtn'),panel=document.getElementById(prefix+'LecturePanel'),clear=document.getElementById(prefix+'Clear');
+  const subject=document.getElementById(qaIds(prefix,'Subject')),status=document.getElementById(qaIds(prefix,'Status')),btn=document.getElementById(qaIds(prefix,'LectureBtn')),panel=document.getElementById(qaIds(prefix,'LecturePanel')),clear=document.getElementById(qaIds(prefix,'Clear'));
   subject.innerHTML='<option value="">All subjects</option>'+qaSubjects().map(x=>'<option value="'+esc(x)+'">'+esc(x)+'</option>').join('');
+  subject.value=model.subject||'';status.value=model.status||'all';
   status.onchange=()=>{model.status=status.value;qaResetLegacyStatus(prefix);qaApply(prefix)};
-  subject.onchange=()=>{model.subject=subject.value;model.lectures.clear();model.topic='';qaRenderLecturePicker(prefix,model);qaRenderTopicPicker(prefix,model);qaApply(prefix)};
-  topic.onchange=()=>{model.topic=topic.value;qaApply(prefix)};
+  subject.onchange=()=>{model.subject=subject.value;model.lectures.clear();qaRenderLecturePicker(prefix,model);qaApply(prefix)};
   btn.onclick=e=>{e.stopPropagation();if(!btn.disabled)panel.classList.toggle('hidden')};
   panel.onclick=e=>e.stopPropagation();
   clear.onclick=()=>{
-    model.status='all';model.subject='';model.lectures.clear();model.topic='';
-    status.value='all';subject.value='';qaRenderLecturePicker(prefix,model);qaRenderTopicPicker(prefix,model);qaResetLegacyStatus(prefix);qaApply(prefix);
+    model.status='all';model.subject='';model.lectures.clear();status.value='all';subject.value='';qaRenderLecturePicker(prefix,model);qaResetLegacyStatus(prefix);qaApply(prefix);
   };
-  qaRenderLecturePicker(prefix,model);qaRenderTopicPicker(prefix,model);
+  qaRenderLecturePicker(prefix,model);
 }
 function setupAdvancedQuestionFilters(){
-  qaPastLectureCache.clear();
+  qaPastLectureCache.clear();qaAILectureCache.clear();
+  const legacyTopic=document.getElementById('topic');if(legacyTopic){legacyTopic.value='';legacyTopic.style.display='none'}
+  const oldAISub=document.getElementById('aiSubject'),oldAILec=document.getElementById('aiLecture');if(oldAISub)oldAISub.style.display='none';if(oldAILec)oldAILec.style.display='none';
+  document.querySelectorAll('#questionSection .chip[data-filter="unanswered"],#questionSection .chip[data-filter="wrong"],#questionSection .chip[data-filter="starred"]').forEach(x=>x.remove());
+  document.querySelectorAll('#aiSection [data-ai-filter]').forEach(x=>x.remove());
   qaSetupOne('past',pastAdvanced,document.querySelector('#questionSection .toolbar'));
   qaSetupOne('ai',aiAdvanced,document.querySelector('#aiSection .aiToolbar'));
-  if(!window.__med25QaFilterGlobalBound){
-    window.__med25QaFilterGlobalBound=true;
+  if(!window.__med25GuideFiltersBound){
+    window.__med25GuideFiltersBound=true;
     document.addEventListener('click',()=>document.querySelectorAll('.qaMultiPanel').forEach(x=>x.classList.add('hidden')));
   }
-  document.querySelectorAll('#questionSection .chip[data-filter]').forEach(b=>{if(!b.dataset.qaBound){b.dataset.qaBound='1';b.addEventListener('click',()=>{
-    pastAdvanced.status='all';const s=document.getElementById('pastStatus');if(s)s.value='all';
-  })}});
-  document.querySelectorAll('#aiSection [data-ai-filter]').forEach(b=>{if(!b.dataset.qaBound){b.dataset.qaBound='1';b.addEventListener('click',()=>{
-    aiAdvanced.status='all';const s=document.getElementById('aiStatus');if(s)s.value='all';
-  })}});
+}
+function sgLabelVisible(root,kind){
+  if(!root)return;
+  root.querySelectorAll(kind==='past'?'.qcard[id]':'.aiCard[id]').forEach(card=>{
+    const id=card.id,q=kind==='past'?QUESTIONS.find(x=>x.id===id):aiAllQuestions().find(x=>x.id===id);
+    if(!q)return;
+    const g=sgQuestionLecture(kind,q),meta=card.querySelector(kind==='past'?'.qtop .meta':'.aiMeta');
+    if(!meta||meta.querySelector('.sgLecturePill'))return;
+    const pill=document.createElement('span');pill.className=kind==='past'?'pill sgLecturePill':'aiPill sgLecturePill';
+    pill.textContent=g.subject+' · '+g.title;pill.title='Mapped from the official 2026–2027 study-guide learning objectives';
+    meta.appendChild(pill);
+  });
 }
 
 function homePastMetrics(){
@@ -384,11 +376,10 @@ const qaBasePastFiltered=filtered;
 filtered=function(){
   let qs=qaBasePastFiltered.apply(this,arguments);
   return qs.filter(q=>{
-    const p=saved[q.id]||{},li=qaPastLecture(q);
+    const p=saved[q.id]||{},g=sgQuestionLecture('past',q);
     if(!qaStatusPass(p,pastAdvanced.status))return false;
-    if(pastAdvanced.subject&&li.subject!==pastAdvanced.subject)return false;
-    if(pastAdvanced.lectures.size&&!pastAdvanced.lectures.has(li.id))return false;
-    if(pastAdvanced.topic&&q.topic!==pastAdvanced.topic)return false;
+    if(pastAdvanced.subject&&g.subject!==pastAdvanced.subject)return false;
+    if(pastAdvanced.lectures.size&&!pastAdvanced.lectures.has(g.lecture_id))return false;
     return true;
   });
 };
@@ -420,12 +411,14 @@ function hubBottomDhikr(host,pageNumber,pageSize){
 const hubBasePastRender=render;
 render=function(){
   const out=hubBasePastRender.apply(this,arguments);
+  sgLabelVisible(document.getElementById('list'),'past');
   hubBottomDhikr(document.getElementById('list'),state.page,state.pageSize);
   return out;
 };
 const hubBaseAIRender=renderAI;
 renderAI=function(){
   const out=hubBaseAIRender.apply(this,arguments);
+  sgLabelVisible(document.getElementById('aiQuestionList'),'ai');
   hubBottomDhikr(document.getElementById('aiQuestionList'),aiState.page,aiState.pageSize);
   return out;
 };
@@ -433,234 +426,6 @@ const baseSave=save;
 save=function(){const r=baseSave.apply(this,arguments);try{renderHome()}catch{}return r};
 const baseFlashSave=saveFlashReview;
 saveFlashReview=function(){const r=baseFlashSave.apply(this,arguments);try{renderHome()}catch{}return r};
-
-/* Advanced stacked question filters: status + Subject → Lecture → Topic + custom multi-select */
-const QF_KEY='med25-question-filter-state-v2';
-let qfState={
-  past:{status:'all',subject:'',lecture:'',customMode:'include',customSubjects:new Set(),customLectures:new Set(),customActive:false},
-  ai:{status:'all',topic:'',customMode:'include',customSubjects:new Set(),customLectures:new Set(),customActive:false}
-};
-let pastStatusSnapshot=null,aiStatusSnapshot=null,pastStatusPage=state.page,aiStatusPage=aiState.page;
-
-function qfLoad(){
-  try{
-    const raw=JSON.parse(localStorage.getItem(QF_KEY)||'{}');
-    ['past','ai'].forEach(k=>{
-      if(!raw[k])return;
-      Object.assign(qfState[k],raw[k]);
-      qfState[k].customSubjects=new Set(raw[k].customSubjects||[]);
-      qfState[k].customLectures=new Set(raw[k].customLectures||[]);
-    });
-  }catch{}
-}
-function qfSave(){
-  try{
-    const out={};
-    ['past','ai'].forEach(k=>out[k]={...qfState[k],customSubjects:[...qfState[k].customSubjects],customLectures:[...qfState[k].customLectures]});
-    localStorage.setItem(QF_KEY,JSON.stringify(out));
-  }catch{}
-}
-function qfNorm(s){return String(s||'').toLowerCase().replace(/&/g,' and ').replace(/[^a-z0-9]+/g,' ').replace(/\s+/g,' ').trim()}
-function qfSubjectMap(){
-  const map={};
-  try{(flashLibrary.decks||[]).filter(d=>!d.archived).forEach(d=>{if(d.title&&d.subject)map[qfNorm(d.title)]=d.subject})}catch{}
-  try{(aiLibrary.lecture_sets||[]).filter(x=>!x.archived).forEach(x=>{if(x.title&&x.subject)map[qfNorm(x.title)]=x.subject})}catch{}
-  return map;
-}
-function qfPastLecture(q){return q?.lecture_source?.title||'Unmapped lecture'}
-function qfPastSubject(q){
-  const title=qfPastLecture(q),map=qfSubjectMap(),exact=map[qfNorm(title)];
-  if(exact)return exact;
-  const n=qfNorm(title);
-  for(const [k,v] of Object.entries(map)){if(k&&n&&(k.includes(n)||n.includes(k)))return v}
-  return q.module==='CVS'?'CVS / Other':q.module==='IBLS'?'IBLS / Other':q.module==='Formative'?'Formative / Other':'Other';
-}
-function qfAIlecture(q){return q.lecture_title||'Unmapped lecture'}
-function qfStatusPass(progress,status){
-  if(status==='all')return true;
-  if(status==='unanswered')return !progress?.answered;
-  if(status==='correct')return progress?.correct===true;
-  if(status==='wrong')return progress?.correct===false;
-  if(status==='starred')return !!progress?.starred;
-  if(status==='revealed')return !!progress?.revealed;
-  return true;
-}
-function qfCustomPass(subject,lecture,cfg){
-  if(!cfg.customActive)return true;
-  const has=cfg.customSubjects.size||cfg.customLectures.size;
-  if(!has)return true;
-  const selected=cfg.customSubjects.has(subject)||cfg.customLectures.has(lecture);
-  return cfg.customMode==='exclude'?!selected:selected;
-}
-function qfStatusOptions(includeRevealed=true){
-  return '<option value="all">Status: All</option><option value="unanswered">Status: Unanswered</option><option value="correct">Status: Correct</option><option value="wrong">Status: Wrong</option><option value="starred">Status: Starred</option>'+(includeRevealed?'<option value="revealed">Status: Revealed answer</option>':'');
-}
-function qfUnique(arr){return [...new Set(arr.filter(Boolean))].sort((a,b)=>a.localeCompare(b))}
-function qfSetOptions(select,placeholder,items,value){
-  if(!select)return;
-  select.innerHTML='<option value="">'+placeholder+'</option>'+items.map(x=>'<option value="'+esc(x)+'">'+esc(x)+'</option>').join('');
-  select.value=items.includes(value)?value:'';
-}
-function qfPastBase(){
-  let qs=QUESTIONS.slice();
-  const m=document.getElementById('module')?.value||'',b=document.getElementById('bank')?.value||'';
-  if(m)qs=qs.filter(q=>q.module===m);
-  if(b)qs=qs.filter(q=>q.bank===b);
-  return qs;
-}
-function qfRefreshPastCascade(changed){
-  const cfg=qfState.past,subject=document.getElementById('pastSubject'),lecture=document.getElementById('pastLecture'),topic=document.getElementById('topic');
-  if(!subject||!lecture||!topic)return;
-  let qs=qfPastBase();
-  const subjects=qfUnique(qs.map(q=>qfPastSubject(q)));
-  if(changed==='module'||changed==='bank'){if(cfg.subject&&!subjects.includes(cfg.subject)){cfg.subject='';cfg.lecture=''}}
-  qfSetOptions(subject,'All subjects',subjects,cfg.subject);
-  if(cfg.subject)qs=qs.filter(q=>qfPastSubject(q)===cfg.subject);
-  const lectures=qfUnique(qs.map(q=>qfPastLecture(q)));
-  if(changed==='subject'&&cfg.lecture&&!lectures.includes(cfg.lecture))cfg.lecture='';
-  qfSetOptions(lecture,'All lectures',lectures,cfg.lecture);
-  if(cfg.lecture)qs=qs.filter(q=>qfPastLecture(q)===cfg.lecture);
-  const topics=qfUnique(qs.map(q=>q.topic));
-  const current=topic.value;
-  qfSetOptions(topic,'All topics',topics,topics.includes(current)?current:'');
-}
-function qfRefreshAICascade(changed){
-  const cfg=qfState.ai,subject=document.getElementById('aiSubject'),lecture=document.getElementById('aiLecture'),topic=document.getElementById('aiTopic');
-  if(!subject||!lecture||!topic)return;
-  let qs=aiAllQuestions();
-  const subjects=qfUnique(qs.map(q=>q.subject));
-  if(changed==='reload'&&!subjects.includes(aiState.subject))aiState.subject='';
-  qfSetOptions(subject,'All subjects',subjects,aiState.subject);
-  if(aiState.subject)qs=qs.filter(q=>q.subject===aiState.subject);
-  const sets=qfUnique(qs.map(q=>q.set_id));
-  const lectureData=(aiLibrary.lecture_sets||[]).filter(x=>sets.includes(x.id)).sort((a,b)=>(a.title||'').localeCompare(b.title||''));
-  lecture.innerHTML='<option value="">All lectures</option>'+lectureData.map(x=>'<option value="'+esc(x.id)+'">'+esc(x.title)+'</option>').join('');
-  if(!lectureData.some(x=>x.id===aiState.lecture))aiState.lecture='';
-  lecture.value=aiState.lecture;
-  if(aiState.lecture)qs=qs.filter(q=>q.set_id===aiState.lecture);
-  const topics=qfUnique(qs.map(q=>q.concept));
-  if(cfg.topic&&!topics.includes(cfg.topic))cfg.topic='';
-  qfSetOptions(topic,'All topics',topics,cfg.topic);
-}
-function qfCustomPanel(scope){
-  const cfg=qfState[scope],isPast=scope==='past';
-  let subjects=[],lectures=[];
-  if(isPast){
-    subjects=qfUnique(QUESTIONS.map(q=>qfPastSubject(q)));
-    lectures=qfUnique(QUESTIONS.map(q=>qfPastLecture(q)));
-  }else{
-    subjects=qfUnique(aiAllQuestions().map(q=>q.subject));
-    lectures=qfUnique(aiAllQuestions().map(q=>qfAIlecture(q)));
-  }
-  const checked=(set,v)=>set.has(v)?' checked':'';
-  return '<div class="qfCustomHead"><div><b>Custom filter</b><span>Select multiple subjects and/or lectures.</span></div><button type="button" class="qfClose" data-qf-close="'+scope+'">×</button></div>'+
-    '<div class="qfMode"><label><input type="radio" name="'+scope+'CustomMode" value="include" '+(cfg.customMode!=='exclude'?'checked':'')+'> Include only selected</label><label><input type="radio" name="'+scope+'CustomMode" value="exclude" '+(cfg.customMode==='exclude'?'checked':'')+'> Exclude selected</label></div>'+
-    '<div class="qfMultiGrid"><div><div class="qfListTitle">Subjects</div><div class="qfCheckList">'+subjects.map(v=>'<label><input type="checkbox" data-qf-scope="'+scope+'" data-qf-kind="subject" value="'+esc(v)+'"'+checked(cfg.customSubjects,v)+'> <span>'+esc(v)+'</span></label>').join('')+'</div></div>'+
-    '<div><div class="qfListTitle">Lectures</div><div class="qfCheckList">'+lectures.map(v=>'<label><input type="checkbox" data-qf-scope="'+scope+'" data-qf-kind="lecture" value="'+esc(v)+'"'+checked(cfg.customLectures,v)+'> <span>'+esc(v)+'</span></label>').join('')+'</div></div></div>'+
-    '<div class="qfCustomFoot"><button type="button" class="qfBtn" data-qf-clear="'+scope+'">Clear</button><button type="button" class="qfBtn primary" data-qf-apply="'+scope+'">Apply filter</button></div>';
-}
-function qfUpdateButton(scope){
-  const cfg=qfState[scope],btn=document.getElementById(scope+'CustomFilterBtn');if(!btn)return;
-  const n=cfg.customSubjects.size+cfg.customLectures.size;
-  btn.textContent='Custom filter'+(cfg.customActive&&n?' · '+n:'');
-  btn.classList.toggle('active',cfg.customActive&&n>0);
-}
-function qfBindPanel(scope){
-  const panel=document.getElementById(scope+'CustomPanel');if(!panel)return;
-  panel.querySelector('[data-qf-close]')?.addEventListener('click',()=>panel.classList.add('hidden'));
-  panel.querySelectorAll('input[type="radio"]').forEach(r=>r.addEventListener('change',()=>{qfState[scope].customMode=r.value}));
-  panel.querySelectorAll('input[type="checkbox"]').forEach(c=>c.addEventListener('change',()=>{
-    const set=c.dataset.qfKind==='subject'?qfState[scope].customSubjects:qfState[scope].customLectures;
-    c.checked?set.add(c.value):set.delete(c.value);
-  }));
-  panel.querySelector('[data-qf-clear]')?.addEventListener('click',()=>{
-    const cfg=qfState[scope];cfg.customSubjects.clear();cfg.customLectures.clear();cfg.customActive=false;qfSave();qfRenderCustom(scope);qfApply(scope);
-  });
-  panel.querySelector('[data-qf-apply]')?.addEventListener('click',()=>{
-    const cfg=qfState[scope];cfg.customActive=!!(cfg.customSubjects.size||cfg.customLectures.size);qfSave();qfUpdateButton(scope);panel.classList.add('hidden');qfApply(scope);
-  });
-}
-function qfRenderCustom(scope){
-  const panel=document.getElementById(scope+'CustomPanel');if(!panel)return;
-  panel.innerHTML=qfCustomPanel(scope);qfBindPanel(scope);qfUpdateButton(scope);
-}
-function qfApply(scope){
-  if(scope==='past'){pastStatusSnapshot=null;state.page=1;render()}
-  else{aiStatusSnapshot=null;aiState.page=1;renderAI()}
-}
-function qfInstallPast(){
-  const controls=document.querySelector('#questionSection .toolbar .controls'),chips=document.querySelector('#questionSection .toolbar .chips');
-  if(!controls||document.getElementById('pastStatus'))return;
-  const module=document.getElementById('module');
-  const subject=document.createElement('select');subject.id='pastSubject';subject.className='control';subject.innerHTML='<option value="">All subjects</option>';
-  const lecture=document.createElement('select');lecture.id='pastLecture';lecture.className='control';lecture.innerHTML='<option value="">All lectures</option>';
-  const status=document.createElement('select');status.id='pastStatus';status.className='control';status.innerHTML=qfStatusOptions(true);status.value=qfState.past.status;
-  module.insertAdjacentElement('afterend',subject);subject.insertAdjacentElement('afterend',lecture);
-  document.getElementById('sort').insertAdjacentElement('afterend',status);
-  const custom=document.createElement('button');custom.type='button';custom.id='pastCustomFilterBtn';custom.className='chip qfCustomTrigger';custom.textContent='Custom filter';
-  chips.prepend(custom);
-  const panel=document.createElement('div');panel.id='pastCustomPanel';panel.className='qfCustomPanel hidden';document.querySelector('#questionSection .toolbar').appendChild(panel);
-  ['unanswered','wrong','starred'].forEach(v=>chips.querySelector('[data-filter="'+v+'"]')?.remove());
-  if(['unanswered','wrong','starred'].includes(state.filter)){state.filter='all';chips.querySelectorAll('[data-filter]').forEach(x=>x.classList.toggle('active',x.dataset.filter==='all'))}
-  subject.onchange=()=>{qfState.past.subject=subject.value;qfState.past.lecture='';qfRefreshPastCascade('subject');qfSave();qfApply('past')};
-  lecture.onchange=()=>{qfState.past.lecture=lecture.value;qfRefreshPastCascade('lecture');qfSave();qfApply('past')};
-  status.onchange=()=>{qfState.past.status=status.value;pastStatusSnapshot=null;qfSave();qfApply('past')};
-  module.addEventListener('change',()=>{qfRefreshPastCascade('module')});
-  document.getElementById('bank').addEventListener('change',()=>{qfRefreshPastCascade('bank')});
-  custom.onclick=()=>{qfRenderCustom('past');panel.classList.toggle('hidden')};
-  qfRefreshPastCascade('reload');qfRenderCustom('past');
-}
-function qfInstallAI(){
-  const controls=document.querySelector('#aiSection .aiControls'),chips=document.querySelector('#aiSection .aiChips');
-  if(!controls||document.getElementById('aiStatus'))return;
-  const topic=document.createElement('select');topic.id='aiTopic';topic.className='aiControl';topic.innerHTML='<option value="">All topics</option>';
-  const status=document.createElement('select');status.id='aiStatus';status.className='aiControl';status.innerHTML=qfStatusOptions(false);status.value=qfState.ai.status;
-  document.getElementById('aiLecture').insertAdjacentElement('afterend',topic);topic.insertAdjacentElement('afterend',status);
-  const custom=document.createElement('button');custom.type='button';custom.id='aiCustomFilterBtn';custom.className='aiChip qfCustomTrigger';custom.textContent='Custom filter';chips.prepend(custom);
-  ['all','unanswered','wrong','starred'].forEach(v=>chips.querySelector('[data-ai-filter="'+v+'"]')?.remove());
-  aiState.filter='all';
-  topic.onchange=()=>{qfState.ai.topic=topic.value;qfSave();qfApply('ai')};
-  status.onchange=()=>{qfState.ai.status=status.value;aiStatusSnapshot=null;qfSave();qfApply('ai')};
-  const subject=document.getElementById('aiSubject'),lecture=document.getElementById('aiLecture');
-  subject.onchange=()=>{aiState.subject=subject.value;aiState.lecture='';qfRefreshAICascade('subject');aiState.page=1;renderAI()};
-  lecture.onchange=()=>{aiState.lecture=lecture.value;qfRefreshAICascade('lecture');aiState.page=1;renderAI()};
-  const panel=document.createElement('div');panel.id='aiCustomPanel';panel.className='qfCustomPanel hidden';document.querySelector('#aiSection .aiToolbar').appendChild(panel);
-  custom.onclick=()=>{qfRenderCustom('ai');panel.classList.toggle('hidden')};
-  qfRefreshAICascade('reload');qfRenderCustom('ai');
-}
-function setupAdvancedQuestionFilters(){
-  qfInstallPast();qfInstallAI();
-  qfRefreshPastCascade('reload');qfRefreshAICascade('reload');
-  qfRenderCustom('past');qfRenderCustom('ai');
-}
-qfLoad();
-
-const qfBaseFiltered=filtered;
-filtered=function(){
-  let qs=qfBaseFiltered();
-  const cfg=qfState.past;
-  if(cfg.subject)qs=qs.filter(q=>qfPastSubject(q)===cfg.subject);
-  if(cfg.lecture)qs=qs.filter(q=>qfPastLecture(q)===cfg.lecture);
-  qs=qs.filter(q=>qfCustomPass(qfPastSubject(q),qfPastLecture(q),cfg));
-  if(cfg.status==='unanswered'){
-    if(pastStatusPage!==state.page){pastStatusSnapshot=null;pastStatusPage=state.page}
-    if(!pastStatusSnapshot)pastStatusSnapshot=new Set(qs.filter(q=>!saved[q.id]?.answered).map(q=>q.id));
-    qs=qs.filter(q=>pastStatusSnapshot.has(q.id));
-  }else qs=qs.filter(q=>qfStatusPass(saved[q.id],cfg.status));
-  return qs;
-};
-const qfBaseAIFiltered=aiFiltered;
-aiFiltered=function(){
-  let qs=qfBaseAIFiltered(),cfg=qfState.ai,p=aiProgress();
-  if(cfg.topic)qs=qs.filter(q=>q.concept===cfg.topic);
-  qs=qs.filter(q=>qfCustomPass(q.subject,qfAIlecture(q),cfg));
-  if(cfg.status==='unanswered'){
-    if(aiStatusPage!==aiState.page){aiStatusSnapshot=null;aiStatusPage=aiState.page}
-    if(!aiStatusSnapshot)aiStatusSnapshot=new Set(qs.filter(q=>!p[q.id]?.answered).map(q=>q.id));
-    qs=qs.filter(q=>aiStatusSnapshot.has(q.id));
-  }else qs=qs.filter(q=>qfStatusPass(p[q.id],cfg.status));
-  return qs;
-};
 
 setupAIControls();
 initAIQuestions();

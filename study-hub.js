@@ -378,7 +378,7 @@ function lectureDashboardRows(){
       id:l.id,subject:l.subject,title:l.title,
       pastTotal:0,pastDone:0,pastCorrect:0,pastGraded:0,
       aiTotal:0,aiDone:0,aiCorrect:0,aiGraded:0,
-      lastStudied:0,manualStudied:lectureStudied(l.id)
+      lastStudied:lectureDateValue(lectureStudyProgress()[l.id]?.updated_at),manualStudied:lectureStudied(l.id)
     });
   }
   QUESTIONS.forEach(q=>{

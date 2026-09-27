@@ -356,6 +356,21 @@ function lectureLastStudiedLabel(ts){
   if(diff<7*day)return Math.floor(diff/day)+'d ago';
   try{return new Date(ts).toLocaleDateString('en-GB',{day:'2-digit',month:'short'})}catch{return '—'}
 }
+
+function lectureStudyProgress(){
+  if(!saved.__lecture_study__||typeof saved.__lecture_study__!=='object')saved.__lecture_study__={};
+  return saved.__lecture_study__;
+}
+function lectureStudied(id){
+  return !!lectureStudyProgress()[id]?.studied;
+}
+function toggleLectureStudied(id){
+  const map=lectureStudyProgress(),current=!!map[id]?.studied;
+  map[id]={...(map[id]||{}),studied:!current,updated_at:new Date().toISOString()};
+  save();
+  renderLectureDashboard();
+}
+
 function lectureDashboardRows(){
   const lectures=qaLectureCatalog(),rows=new Map();
   for(const l of lectures){
@@ -363,8 +378,7 @@ function lectureDashboardRows(){
       id:l.id,subject:l.subject,title:l.title,
       pastTotal:0,pastDone:0,pastCorrect:0,pastGraded:0,
       aiTotal:0,aiDone:0,aiCorrect:0,aiGraded:0,
-      cards:0,cardsSeen:0,cardsDue:0,
-      lastStudied:0,suspended:false,deckIds:[]
+      lastStudied:0,manualStudied:lectureStudied(l.id)
     });
   }
   QUESTIONS.forEach(q=>{
@@ -386,43 +400,31 @@ function lectureDashboardRows(){
     else if(p?.correct===false)r.aiGraded++;
     r.lastStudied=Math.max(r.lastStudied,lectureDateValue(p?.locked_at||p?.answered_at));
   });
-  const now=Date.now();
-  (flashLibrary.decks||[]).filter(d=>!d.archived).forEach(d=>{
-    const g=lectureGuideDeck(d),r=g&&rows.get(g.id);if(!r)return;
-    r.deckIds.push(d.id);
-    const suspended=typeof ankiDeckSuspended==='function'?ankiDeckSuspended(d.id):false;
-    if(suspended)r.suspended=true;
-    (d.cards||[]).forEach(c=>{
-      r.cards++;
-      const cr=cardReview(c.id);
-      if(cr){
-        r.cardsSeen++;
-        if(Number(cr.due||cr.fsrs_card?.due||0)<=now&&!suspended)r.cardsDue++;
-        r.lastStudied=Math.max(r.lastStudied,lectureDateValue(cr.last_reviewed||cr.fsrs_card?.last_review));
-      }
-    });
-  });
   const out=[...rows.values()];
   out.forEach(r=>{
     const qTotal=r.pastTotal+r.aiTotal,qDone=r.pastDone+r.aiDone,qGraded=r.pastGraded+r.aiGraded,qCorrect=r.pastCorrect+r.aiCorrect;
+    r.questionTotal=qTotal;
+    r.questionDone=qDone;
     r.questionCoverage=qTotal?Math.round(qDone/qTotal*100):0;
+    r.questionsComplete=qTotal>0&&qDone===qTotal;
     r.accuracy=qGraded?Math.round(qCorrect/qGraded*100):null;
-    r.flashCoverage=r.cards?Math.round(r.cardsSeen/r.cards*100):0;
-    const components=[];
-    if(qTotal)components.push(qDone/qTotal);
-    if(r.cards)components.push(r.cardsSeen/r.cards);
-    r.completion=components.length?Math.round(components.reduce((a,b)=>a+b,0)/components.length*100):0;
-    const started=qDone>0||r.cardsSeen>0;
-    if(r.suspended&&r.cards>0)r.status='suspended';
-    else if(!started)r.status='not-started';
-    else if(r.cardsDue>0||(qGraded>=3&&r.accuracy<70))r.status='needs-review';
-    else if(r.questionCoverage>=70&&(r.accuracy===null||r.accuracy>=80)&&(!r.cards||r.flashCoverage>=60))r.status='strong';
-    else r.status='learning';
+    r.studyComplete=r.manualStudied;
+    r.completion=Math.round(((r.manualStudied?1:0)+(r.questionsComplete?1:0))/2*100);
+    const anyQuestions=qDone>0;
+    if(r.questionsComplete&&r.manualStudied)r.status='complete';
+    else if(r.questionsComplete)r.status='questions-complete';
+    else if(r.manualStudied)r.status='studied';
+    else if(anyQuestions)r.status='practicing';
+    else r.status='not-started';
   });
   return out;
 }
 function lectureStatusLabel(s){
-  return s==='not-started'?'Not started':s==='needs-review'?'Needs review':s==='strong'?'Strong':s==='suspended'?'Suspended':'Learning';
+  return s==='not-started'?'Not started':
+    s==='practicing'?'Practicing':
+    s==='studied'?'Studied':
+    s==='questions-complete'?'Questions complete':
+    s==='complete'?'Complete':'Learning';
 }
 function lectureDashFiltered(){
   const q=(lectureDashState.search||'').toLowerCase().trim();
@@ -432,7 +434,7 @@ function lectureDashFiltered(){
     if(q&&!((r.title+' '+r.subject).toLowerCase().includes(q)))return false;
     return true;
   }).sort((a,b)=>{
-    const order={'needs-review':0,'learning':1,'not-started':2,'strong':3,'suspended':4};
+    const order={'practicing':0,'studied':1,'questions-complete':2,'not-started':3,'complete':4};
     return (order[a.status]-order[b.status])||a.subject.localeCompare(b.subject)||a.title.localeCompare(b.title);
   });
 }
@@ -453,36 +455,43 @@ function renderLectureDashboard(){
   if(!host)return;
   setupLectureDashboardControls();
   const all=lectureDashboardRows(),rows=lectureDashFiltered();
-  const counts={strong:0,learning:0,'needs-review':0,'not-started':0,suspended:0};
+  const counts={complete:0,studied:0,practicing:0,'questions-complete':0,'not-started':0};
   all.forEach(r=>counts[r.status]=(counts[r.status]||0)+1);
   if(summary)summary.innerHTML=
     '<span><b>'+all.length+'</b> official lectures</span>'+
-    '<span><b>'+counts.strong+'</b> strong</span>'+
-    '<span><b>'+counts.learning+'</b> learning</span>'+
-    '<span><b>'+counts['needs-review']+'</b> need review</span>'+
-    '<span><b>'+counts['not-started']+'</b> not started</span>'+
-    (counts.suspended?'<span><b>'+counts.suspended+'</b> suspended</span>':'');
+    '<span><b>'+counts.complete+'</b> fully complete</span>'+
+    '<span><b>'+all.filter(r=>r.manualStudied).length+'</b> studied by you</span>'+
+    '<span><b>'+all.filter(r=>r.questionsComplete).length+'</b> question-complete</span>'+
+    '<span><b>'+counts.practicing+'</b> practicing</span>'+
+    '<span><b>'+counts['not-started']+'</b> not started</span>';
   if(!rows.length){host.innerHTML='<div class="lectureDashEmpty">No lectures match these filters.</div>';return}
-  const head='<div class="lectureDashRow lectureDashColumns"><div>Lecture</div><div>Past papers</div><div>AI</div><div>Flashcards</div><div>Attempted</div><div>Accuracy</div><div>Due</div><div>Last studied</div><div>Status</div></div>';
+  const head='<div class="lectureDashRow lectureDashColumns">'+
+    '<div>Lecture</div><div>Your study</div><div>Questions</div><div>Past papers</div><div>AI</div><div>Question progress</div><div>Accuracy</div><div>Last activity</div><div>Status</div></div>';
   host.innerHTML=head+rows.map(r=>
     '<div class="lectureDashRow">'+
       '<div class="lectureDashLecture"><b>'+esc(r.title)+'</b><span>'+esc(r.subject)+'</span></div>'+
+      '<div class="lectureDashCheckCell"><button class="lectureManualCheck '+(r.manualStudied?'checked':'')+'" type="button" data-lecture-study="'+esc(r.id)+'" title="'+(r.manualStudied?'Mark lecture as not studied':'Mark lecture as studied')+'"><span>✓</span></button><small>'+ (r.manualStudied?'Studied':'Mark studied') +'</small></div>'+
+      '<div class="lectureDashCheckCell"><div class="lectureAutoCheck '+(r.questionsComplete?'checked':'')+'" title="'+(r.questionsComplete?'All mapped Past Paper and AI questions answered':'Complete every mapped Past Paper and AI question to earn this check')+'"><span>✓</span></div><small>'+(r.questionsComplete?'Complete':r.questionDone+'/'+r.questionTotal)+'</small></div>'+
       '<div class="lectureDashCell"><b>'+r.pastDone+'/'+r.pastTotal+'</b><span>answered</span></div>'+
       '<div class="lectureDashCell"><b>'+r.aiDone+'/'+r.aiTotal+'</b><span>answered</span></div>'+
-      '<div class="lectureDashCell"><b>'+r.cardsSeen+'/'+r.cards+'</b><span>seen</span></div>'+
       '<div class="lectureDashProgress"><b>'+r.questionCoverage+'%</b><div class="lectureMiniBar"><span style="width:'+r.questionCoverage+'%"></span></div></div>'+
       '<div class="lectureDashCell"><b>'+(r.accuracy===null?'—':r.accuracy+'%')+'</b><span>'+(r.pastGraded+r.aiGraded)+' graded</span></div>'+
-      '<div class="lectureDashCell '+(r.cardsDue?'due':'')+'"><b>'+r.cardsDue+'</b><span>cards</span></div>'+
       '<div class="lectureDashCell"><b>'+lectureLastStudiedLabel(r.lastStudied)+'</b></div>'+
       '<div><span class="lectureStatus '+r.status+'">'+lectureStatusLabel(r.status)+'</span></div>'+
     '</div>'
   ).join('');
+  host.querySelectorAll('[data-lecture-study]').forEach(btn=>btn.onclick=e=>{
+    e.stopPropagation();
+    toggleLectureStudied(btn.dataset.lectureStudy);
+  });
 }
-
 function homeSubjectRows(){
-  const p=aiProgress(),sets=(aiLibrary.lecture_sets||[]).filter(s=>!s.archived),map={};
-  sets.forEach(s=>{const x=map[s.subject]||(map[s.subject]={subject:s.subject,aiTotal:0,aiDone:0,aiRight:0,aiGraded:0,cards:0,seen:0});(s.questions||[]).forEach(q=>{x.aiTotal++;if(p[q.id]?.answered)x.aiDone++;if(p[q.id]?.correct===true){x.aiRight++;x.aiGraded++}else if(p[q.id]?.correct===false)x.aiGraded++})});
-  (flashLibrary.decks||[]).filter(d=>!d.archived).forEach(d=>{const x=map[d.subject]||(map[d.subject]={subject:d.subject,aiTotal:0,aiDone:0,aiRight:0,aiGraded:0,cards:0,seen:0});(d.cards||[]).forEach(c=>{x.cards++;if(cardReview(c.id))x.seen++})});
+  const rows=lectureDashboardRows(),map={};
+  rows.forEach(r=>{
+    const x=map[r.subject]||(map[r.subject]={subject:r.subject,lectures:0,studied:0,questionComplete:0,questions:0,done:0,right:0,graded:0});
+    x.lectures++;if(r.manualStudied)x.studied++;if(r.questionsComplete)x.questionComplete++;
+    x.questions+=r.questionTotal;x.done+=r.questionDone;x.right+=r.pastCorrect+r.aiCorrect;x.graded+=r.pastGraded+r.aiGraded;
+  });
   return Object.values(map).sort((a,b)=>a.subject.localeCompare(b.subject));
 }
 function renderHome(){
@@ -496,7 +505,7 @@ function renderHome(){
   const weak=document.getElementById('homeWeak');
   if(weak){const rows=homeWeakTopics();weak.innerHTML=rows.length?'<div class="hubRows">'+rows.map(x=>'<div class="hubRow"><div class="hubRowMain"><b>'+esc(x.topic)+'</b><span>'+(x.pastGraded?'Past papers '+x.pastCorrect+'/'+x.pastGraded:'')+(x.pastGraded&&x.aiGraded?' · ':'')+(x.aiGraded?'AI '+x.aiCorrect+'/'+x.aiGraded:'')+' · '+x.correct+'/'+x.graded+' combined</span></div><div class="hubRowScore">'+Math.round(x.accuracy*100)+'%</div></div>').join('')+'</div>':'<p>Answer some Past Paper or AI questions and your weakest topics will appear here.</p>'}
   const subjects=document.getElementById('homeSubjects');
-  if(subjects)subjects.innerHTML='<div class="hubRows">'+homeSubjectRows().map(x=>{const aiPct=x.aiGraded?Math.round(x.aiRight/x.aiGraded*100):0,flashPct=x.cards?Math.round(x.seen/x.cards*100):0;return '<div class="hubRow"><div class="hubRowMain"><b>'+esc(x.subject)+'</b><span>AI '+x.aiDone+'/'+x.aiTotal+' · Flashcards '+x.seen+'/'+x.cards+'</span><div class="hubBar"><span style="width:'+Math.round((aiPct+flashPct)/2)+'%"></span></div></div><div class="hubRowScore">'+aiPct+'% AI</div></div>'}).join('')+'</div>';
+  if(subjects)subjects.innerHTML='<div class="hubRows">'+homeSubjectRows().map(x=>{const qPct=x.questions?Math.round(x.done/x.questions*100):0;return '<div class="hubRow"><div class="hubRowMain"><b>'+esc(x.subject)+'</b><span>Studied '+x.studied+'/'+x.lectures+' lectures · Questions '+x.done+'/'+x.questions+'</span><div class="hubBar"><span style="width:'+qPct+'%"></span></div></div><div class="hubRowScore">'+x.questionComplete+'/'+x.lectures+' complete</div></div>'}).join('')+'</div>';
   renderLectureDashboard();
   const sync=document.getElementById('homeSync');if(sync)sync.textContent='Drive libraries: '+(aiLibrary.lecture_sets||[]).filter(s=>!s.archived).length+' AI lecture sets · '+(flashLibrary.decks||[]).filter(d=>!d.archived).length+' flashcard decks';
 }

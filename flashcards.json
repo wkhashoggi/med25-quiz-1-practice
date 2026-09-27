@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-27T09:21:04.677Z",
+  "generated_at": "2026-09-27T09:24:31.913Z",
   "source_root": {
     "id": "1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
     "url": "https://drive.google.com/drive/folders/1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
@@ -81,5 +81,929 @@
       "url": "https://drive.google.com/drive/folders/1UrOY8EPf_trfLxyJu0eaqoJA4sgOhgVR"
     }
   ],
-  "decks": []
+  "decks": [
+    {
+      "id": "drive_1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV",
+      "subject": "Physiology",
+      "title": "Physiology of RBCs",
+      "source_file_id": "1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV",
+      "source_url": "https://docs.google.com/presentation/d/1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
+      "source_modified_time": "2026-09-03T14:28:00.000Z",
+      "archived": false,
+      "cards": [
+        {
+          "id": "1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV-c01",
+          "front": "Why are RBCs biconcave?",
+          "back": "To increase membrane surface area for efficient gas exchange.",
+          "tags": [
+            "RBC",
+            "Morphology"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV-c02",
+          "front": "Why must the RBC membrane be flexible?",
+          "back": "So RBCs can deform and pass through narrow capillaries without rupturing.",
+          "tags": [
+            "RBC",
+            "Membrane"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV-c03",
+          "front": "What is the normal RBC lifespan?",
+          "back": "About 120 days (±7 days).",
+          "tags": [
+            "RBC",
+            "Basics"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV-c04",
+          "front": "How is most CO₂ transported in blood?",
+          "back": "About 70% as bicarbonate; ~20% binds hemoglobin as carbamino-Hb.",
+          "tags": [
+            "RBC",
+            "CO2 transport"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV-c05",
+          "front": "Why is carbonic anhydrase important in RBCs?",
+          "back": "It rapidly supports CO₂ conversion to bicarbonate for CO₂ transport.",
+          "tags": [
+            "RBC",
+            "CO2 transport"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV-c06",
+          "front": "Why is G6PD important in RBCs?",
+          "back": "It generates NADPH via the HMP shunt, helping maintain normal RBC fragility.",
+          "tags": [
+            "RBC",
+            "G6PD"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV-c07",
+          "front": "What is the main physiological trigger for erythropoiesis?",
+          "back": "Tissue hypoxia.",
+          "tags": [
+            "RBC",
+            "Erythropoiesis"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV-c08",
+          "front": "How does hypoxia increase RBC production?",
+          "back": "Hypoxia → ↑EPO → stimulation of erythropoiesis in bone marrow.",
+          "tags": [
+            "RBC",
+            "Erythropoiesis"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV-c09",
+          "front": "Where is most erythropoietin produced?",
+          "back": "Kidney ~90%; liver ~10%.",
+          "tags": [
+            "RBC",
+            "EPO"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV-c10",
+          "front": "Where does adult erythropoiesis mainly occur?",
+          "back": "Red marrow of flat bones plus proximal parts of long bones.",
+          "tags": [
+            "RBC",
+            "Bone marrow"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV-c11",
+          "front": "What supplies globin vs heme synthesis?",
+          "back": "High-value protein supplies globin; iron is required for heme.",
+          "tags": [
+            "RBC",
+            "Erythropoiesis"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV-c12",
+          "front": "Why are vitamin B12 and folate needed for RBC production?",
+          "back": "They are required for normal maturation of RBC precursors.",
+          "tags": [
+            "RBC",
+            "Erythropoiesis"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV-c13",
+          "front": "What happens to old RBCs after ~120 days?",
+          "back": "Macrophages—especially in spleen/lymphoid tissue—break them into heme and globin.",
+          "tags": [
+            "RBC",
+            "Turnover"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV-c14",
+          "front": "What happens to heme after RBC breakdown?",
+          "back": "Heme → iron + biliverdin; biliverdin → bilirubin for biliary excretion.",
+          "tags": [
+            "RBC",
+            "Turnover"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV-c15",
+          "front": "What does hematocrit measure?",
+          "back": "The percentage of whole-blood volume occupied by RBCs.",
+          "tags": [
+            "RBC",
+            "Hematocrit"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV-c16",
+          "front": "What lowers vs raises hematocrit?",
+          "back": "Anemia/overhydration/pregnancy lower it; polycythemia/dehydration raise it.",
+          "tags": [
+            "RBC",
+            "Hematocrit"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV-c17",
+          "front": "What causes RBC sedimentation in ESR?",
+          "back": "Rouleaux formation.",
+          "tags": [
+            "RBC",
+            "ESR"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV-c18",
+          "front": "Is ESR diagnostic of a specific disease?",
+          "back": "No. It is nonspecific and mainly useful as a prognostic/follow-up test.",
+          "tags": [
+            "RBC",
+            "ESR"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        }
+      ]
+    },
+    {
+      "id": "drive_1akREae-VDZN_QNeQlrnBruB1ML_EVnFr",
+      "subject": "Biochemistry",
+      "title": "Heme Synthesis",
+      "source_file_id": "1akREae-VDZN_QNeQlrnBruB1ML_EVnFr",
+      "source_url": "https://drive.google.com/file/d/1akREae-VDZN_QNeQlrnBruB1ML_EVnFr/view?usp=drivesdk",
+      "source_modified_time": "2026-08-31T22:58:24.107Z",
+      "archived": false,
+      "cards": [
+        {
+          "id": "1akREae-VDZN_QNeQlrnBruB1ML_EVnFr-c01",
+          "front": "What is heme structurally?",
+          "back": "An iron-containing porphyrin made of four pyrrole rings linked by methenyl bridges.",
+          "tags": [
+            "Heme synthesis"
+          ],
+          "source_url": "https://drive.google.com/file/d/1akREae-VDZN_QNeQlrnBruB1ML_EVnFr/view?usp=drivesdk"
+        },
+        {
+          "id": "1akREae-VDZN_QNeQlrnBruB1ML_EVnFr-c02",
+          "front": "Which organs are major sites of heme synthesis?",
+          "back": "Liver and erythroid bone marrow.",
+          "tags": [
+            "Heme synthesis"
+          ],
+          "source_url": "https://drive.google.com/file/d/1akREae-VDZN_QNeQlrnBruB1ML_EVnFr/view?usp=drivesdk"
+        },
+        {
+          "id": "1akREae-VDZN_QNeQlrnBruB1ML_EVnFr-c03",
+          "front": "Where do the steps of heme synthesis occur?",
+          "back": "First step + last 3 steps in mitochondria; intermediate steps in cytosol.",
+          "tags": [
+            "Heme synthesis"
+          ],
+          "source_url": "https://drive.google.com/file/d/1akREae-VDZN_QNeQlrnBruB1ML_EVnFr/view?usp=drivesdk"
+        },
+        {
+          "id": "1akREae-VDZN_QNeQlrnBruB1ML_EVnFr-c04",
+          "front": "What is the rate-limiting step of heme synthesis?",
+          "back": "ALA synthase forming δ-ALA from glycine + succinyl-CoA.",
+          "tags": [
+            "Heme synthesis",
+            "ALA synthase"
+          ],
+          "source_url": "https://drive.google.com/file/d/1akREae-VDZN_QNeQlrnBruB1ML_EVnFr/view?usp=drivesdk"
+        },
+        {
+          "id": "1akREae-VDZN_QNeQlrnBruB1ML_EVnFr-c05",
+          "front": "Which cofactor does ALA synthase require?",
+          "back": "Pyridoxal phosphate (vitamin B6).",
+          "tags": [
+            "Heme synthesis",
+            "ALA synthase"
+          ],
+          "source_url": "https://drive.google.com/file/d/1akREae-VDZN_QNeQlrnBruB1ML_EVnFr/view?usp=drivesdk"
+        },
+        {
+          "id": "1akREae-VDZN_QNeQlrnBruB1ML_EVnFr-c06",
+          "front": "What converts ALA to porphobilinogen?",
+          "back": "ALA dehydratase (PBG synthase); it is inhibited by lead.",
+          "tags": [
+            "Heme synthesis",
+            "Lead"
+          ],
+          "source_url": "https://drive.google.com/file/d/1akREae-VDZN_QNeQlrnBruB1ML_EVnFr/view?usp=drivesdk"
+        },
+        {
+          "id": "1akREae-VDZN_QNeQlrnBruB1ML_EVnFr-c07",
+          "front": "What is the first pyrrole-containing intermediate?",
+          "back": "Porphobilinogen (PBG).",
+          "tags": [
+            "Heme synthesis"
+          ],
+          "source_url": "https://drive.google.com/file/d/1akREae-VDZN_QNeQlrnBruB1ML_EVnFr/view?usp=drivesdk"
+        },
+        {
+          "id": "1akREae-VDZN_QNeQlrnBruB1ML_EVnFr-c08",
+          "front": "What does PBG deaminase make?",
+          "back": "Four PBG molecules → hydroxymethylbilane.",
+          "tags": [
+            "Heme synthesis",
+            "Porphyria"
+          ],
+          "source_url": "https://drive.google.com/file/d/1akREae-VDZN_QNeQlrnBruB1ML_EVnFr/view?usp=drivesdk"
+        },
+        {
+          "id": "1akREae-VDZN_QNeQlrnBruB1ML_EVnFr-c09",
+          "front": "What happens without uroporphyrinogen III synthase?",
+          "back": "Hydroxymethylbilane converts nonenzymatically to uroporphyrinogen I.",
+          "tags": [
+            "Heme synthesis"
+          ],
+          "source_url": "https://drive.google.com/file/d/1akREae-VDZN_QNeQlrnBruB1ML_EVnFr/view?usp=drivesdk"
+        },
+        {
+          "id": "1akREae-VDZN_QNeQlrnBruB1ML_EVnFr-c10",
+          "front": "Which heme-synthesis enzymes are inhibited by lead?",
+          "back": "ALA dehydratase, coproporphyrinogen oxidase, and ferrochelatase.",
+          "tags": [
+            "Heme synthesis",
+            "Lead"
+          ],
+          "source_url": "https://drive.google.com/file/d/1akREae-VDZN_QNeQlrnBruB1ML_EVnFr/view?usp=drivesdk"
+        },
+        {
+          "id": "1akREae-VDZN_QNeQlrnBruB1ML_EVnFr-c11",
+          "front": "What does ferrochelatase do?",
+          "back": "Inserts iron into protoporphyrin IX to form heme.",
+          "tags": [
+            "Heme synthesis",
+            "Ferrochelatase"
+          ],
+          "source_url": "https://drive.google.com/file/d/1akREae-VDZN_QNeQlrnBruB1ML_EVnFr/view?usp=drivesdk"
+        },
+        {
+          "id": "1akREae-VDZN_QNeQlrnBruB1ML_EVnFr-c12",
+          "front": "How does heme regulate its own synthesis in liver?",
+          "back": "Heme/hemin inhibits hepatic ALA synthase.",
+          "tags": [
+            "Heme synthesis",
+            "Regulation"
+          ],
+          "source_url": "https://drive.google.com/file/d/1akREae-VDZN_QNeQlrnBruB1ML_EVnFr/view?usp=drivesdk"
+        },
+        {
+          "id": "1akREae-VDZN_QNeQlrnBruB1ML_EVnFr-c13",
+          "front": "Why can phenobarbital or griseofulvin increase ALA synthase?",
+          "back": "They induce CYP450, consume heme, lower hepatic heme, and release ALA synthase from inhibition.",
+          "tags": [
+            "Heme synthesis",
+            "Regulation"
+          ],
+          "source_url": "https://drive.google.com/file/d/1akREae-VDZN_QNeQlrnBruB1ML_EVnFr/view?usp=drivesdk"
+        },
+        {
+          "id": "1akREae-VDZN_QNeQlrnBruB1ML_EVnFr-c14",
+          "front": "Why do early-pathway porphyrias cause neurovisceral symptoms?",
+          "back": "ALA and PBG accumulate; they are neurotoxic.",
+          "tags": [
+            "Porphyria"
+          ],
+          "source_url": "https://drive.google.com/file/d/1akREae-VDZN_QNeQlrnBruB1ML_EVnFr/view?usp=drivesdk"
+        },
+        {
+          "id": "1akREae-VDZN_QNeQlrnBruB1ML_EVnFr-c15",
+          "front": "Why do later-pathway porphyrias cause photosensitivity?",
+          "back": "Porphyrins accumulate, absorb light, form free radicals, and damage skin.",
+          "tags": [
+            "Porphyria"
+          ],
+          "source_url": "https://drive.google.com/file/d/1akREae-VDZN_QNeQlrnBruB1ML_EVnFr/view?usp=drivesdk"
+        },
+        {
+          "id": "1akREae-VDZN_QNeQlrnBruB1ML_EVnFr-c16",
+          "front": "Best test during an acute porphyria attack?",
+          "back": "Urinary PBG measurement.",
+          "tags": [
+            "Porphyria",
+            "Diagnosis"
+          ],
+          "source_url": "https://drive.google.com/file/d/1akREae-VDZN_QNeQlrnBruB1ML_EVnFr/view?usp=drivesdk"
+        },
+        {
+          "id": "1akREae-VDZN_QNeQlrnBruB1ML_EVnFr-c17",
+          "front": "How does IV hemin help acute porphyria?",
+          "back": "It suppresses ALA synthase activity.",
+          "tags": [
+            "Porphyria",
+            "Treatment"
+          ],
+          "source_url": "https://drive.google.com/file/d/1akREae-VDZN_QNeQlrnBruB1ML_EVnFr/view?usp=drivesdk"
+        },
+        {
+          "id": "1akREae-VDZN_QNeQlrnBruB1ML_EVnFr-c18",
+          "front": "Preferred test for lead poisoning?",
+          "back": "Blood lead level because lead concentrates in erythrocytes.",
+          "tags": [
+            "Lead",
+            "Diagnosis"
+          ],
+          "source_url": "https://drive.google.com/file/d/1akREae-VDZN_QNeQlrnBruB1ML_EVnFr/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "id": "drive_1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b",
+      "subject": "Biochemistry",
+      "title": "Plasma Lipoprotein Metabolism",
+      "source_file_id": "1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b",
+      "source_url": "https://drive.google.com/file/d/1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b/view?usp=drivesdk",
+      "source_modified_time": "2026-09-13T09:31:23.215Z",
+      "archived": false,
+      "cards": [
+        {
+          "id": "1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b-c01",
+          "front": "What is in a lipoprotein core vs shell?",
+          "back": "Core: TAG + cholesteryl esters. Shell: apoproteins + phospholipids + free cholesterol.",
+          "tags": [
+            "Lipoproteins"
+          ],
+          "source_url": "https://drive.google.com/file/d/1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b/view?usp=drivesdk"
+        },
+        {
+          "id": "1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b-c02",
+          "front": "How do size and density change from CM to HDL?",
+          "back": "Size decreases while density increases: CM → VLDL → IDL → LDL → HDL.",
+          "tags": [
+            "Lipoproteins"
+          ],
+          "source_url": "https://drive.google.com/file/d/1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b/view?usp=drivesdk"
+        },
+        {
+          "id": "1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b-c03",
+          "front": "Main job of chylomicrons?",
+          "back": "Deliver dietary TAG to tissues and dietary cholesterol to the liver.",
+          "tags": [
+            "Chylomicrons"
+          ],
+          "source_url": "https://drive.google.com/file/d/1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b/view?usp=drivesdk"
+        },
+        {
+          "id": "1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b-c04",
+          "front": "Which apoprotein is unique to nascent chylomicrons?",
+          "back": "ApoB-48.",
+          "tags": [
+            "Chylomicrons",
+            "Apolipoproteins"
+          ],
+          "source_url": "https://drive.google.com/file/d/1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b/view?usp=drivesdk"
+        },
+        {
+          "id": "1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b-c05",
+          "front": "What do nascent chylomicrons acquire from HDL?",
+          "back": "ApoC-II and ApoE.",
+          "tags": [
+            "Chylomicrons",
+            "HDL"
+          ],
+          "source_url": "https://drive.google.com/file/d/1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b/view?usp=drivesdk"
+        },
+        {
+          "id": "1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b-c06",
+          "front": "What activates lipoprotein lipase?",
+          "back": "ApoC-II; LPL is also stimulated by insulin.",
+          "tags": [
+            "LPL"
+          ],
+          "source_url": "https://drive.google.com/file/d/1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b/view?usp=drivesdk"
+        },
+        {
+          "id": "1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b-c07",
+          "front": "What does LPL do to chylomicrons/VLDL?",
+          "back": "Hydrolyzes their TAG to fatty acids and glycerol.",
+          "tags": [
+            "LPL"
+          ],
+          "source_url": "https://drive.google.com/file/d/1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b/view?usp=drivesdk"
+        },
+        {
+          "id": "1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b-c08",
+          "front": "How are chylomicron remnants cleared?",
+          "back": "Liver receptors recognize ApoE and internalize remnants by endocytosis.",
+          "tags": [
+            "Chylomicrons",
+            "ApoE"
+          ],
+          "source_url": "https://drive.google.com/file/d/1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b/view?usp=drivesdk"
+        },
+        {
+          "id": "1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b-c09",
+          "front": "Main job of VLDL?",
+          "back": "Carry endogenous TAG from liver to extrahepatic tissues.",
+          "tags": [
+            "VLDL"
+          ],
+          "source_url": "https://drive.google.com/file/d/1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b/view?usp=drivesdk"
+        },
+        {
+          "id": "1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b-c10",
+          "front": "What is the VLDL → LDL sequence?",
+          "back": "VLDL loses TAG → IDL → further delipidation → LDL.",
+          "tags": [
+            "VLDL",
+            "IDL",
+            "LDL"
+          ],
+          "source_url": "https://drive.google.com/file/d/1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b/view?usp=drivesdk"
+        },
+        {
+          "id": "1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b-c11",
+          "front": "What is the only apoprotein on LDL?",
+          "back": "ApoB-100.",
+          "tags": [
+            "LDL",
+            "Apolipoproteins"
+          ],
+          "source_url": "https://drive.google.com/file/d/1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b/view?usp=drivesdk"
+        },
+        {
+          "id": "1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b-c12",
+          "front": "What does the LDL receptor recognize?",
+          "back": "ApoB-100 and ApoE.",
+          "tags": [
+            "LDL",
+            "Receptor"
+          ],
+          "source_url": "https://drive.google.com/file/d/1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b/view?usp=drivesdk"
+        },
+        {
+          "id": "1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b-c13",
+          "front": "What happens to excess intracellular cholesterol?",
+          "back": "ACAT re-esterifies it for intracellular storage.",
+          "tags": [
+            "Cholesterol",
+            "ACAT"
+          ],
+          "source_url": "https://drive.google.com/file/d/1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b/view?usp=drivesdk"
+        },
+        {
+          "id": "1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b-c14",
+          "front": "Two key roles of HDL in lipoprotein metabolism?",
+          "back": "Reservoir of ApoC-II/ApoE and mediator of reverse cholesterol transport.",
+          "tags": [
+            "HDL"
+          ],
+          "source_url": "https://drive.google.com/file/d/1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b/view?usp=drivesdk"
+        },
+        {
+          "id": "1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b-c15",
+          "front": "What activates LCAT?",
+          "back": "ApoA-I on nascent HDL.",
+          "tags": [
+            "HDL",
+            "LCAT"
+          ],
+          "source_url": "https://drive.google.com/file/d/1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b/view?usp=drivesdk"
+        },
+        {
+          "id": "1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b-c16",
+          "front": "What does LCAT do?",
+          "back": "Esterifies free cholesterol on HDL, promoting HDL maturation.",
+          "tags": [
+            "HDL",
+            "LCAT"
+          ],
+          "source_url": "https://drive.google.com/file/d/1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b/view?usp=drivesdk"
+        },
+        {
+          "id": "1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b-c17",
+          "front": "How does HDL mature?",
+          "back": "Nascent discoid HDL accumulates cholesteryl ester → HDL3 → HDL2.",
+          "tags": [
+            "HDL"
+          ],
+          "source_url": "https://drive.google.com/file/d/1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b/view?usp=drivesdk"
+        },
+        {
+          "id": "1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b-c18",
+          "front": "What does CETP exchange?",
+          "back": "Cholesteryl esters and triglycerides between HDL and TAG-rich lipoproteins.",
+          "tags": [
+            "CETP"
+          ],
+          "source_url": "https://drive.google.com/file/d/1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "id": "drive_1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo",
+      "subject": "Biochemistry",
+      "title": "Disorders of Plasma Lipoproteins",
+      "source_file_id": "1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo",
+      "source_url": "https://drive.google.com/file/d/1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo/view?usp=drivesdk",
+      "source_modified_time": "2026-09-13T09:02:52.957Z",
+      "archived": false,
+      "cards": [
+        {
+          "id": "1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo-c01",
+          "front": "Primary vs secondary hyperlipoproteinemia?",
+          "back": "Primary is inherited; secondary results from another disease, condition, or drug.",
+          "tags": [
+            "Dyslipidemia"
+          ],
+          "source_url": "https://drive.google.com/file/d/1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo/view?usp=drivesdk"
+        },
+        {
+          "id": "1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo-c02",
+          "front": "Hypercholesterolemia classically presents with what major risk?",
+          "back": "Coronary heart disease via atherosclerosis.",
+          "tags": [
+            "Dyslipidemia"
+          ],
+          "source_url": "https://drive.google.com/file/d/1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo/view?usp=drivesdk"
+        },
+        {
+          "id": "1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo-c03",
+          "front": "Severe hypertriglyceridemia can present with what acute complication?",
+          "back": "Acute pancreatitis.",
+          "tags": [
+            "Dyslipidemia",
+            "Triglycerides"
+          ],
+          "source_url": "https://drive.google.com/file/d/1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo/view?usp=drivesdk"
+        },
+        {
+          "id": "1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo-c04",
+          "front": "Common secondary causes of hyperlipoproteinemia?",
+          "back": "DM, hypothyroidism, nephrotic syndrome, CKD, obesity, alcohol, obstructive liver disease, drugs.",
+          "tags": [
+            "Dyslipidemia"
+          ],
+          "source_url": "https://drive.google.com/file/d/1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo/view?usp=drivesdk"
+        },
+        {
+          "id": "1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo-c05",
+          "front": "How do trans fats affect LDL and HDL?",
+          "back": "Increase LDL and decrease HDL.",
+          "tags": [
+            "Diet",
+            "Dyslipidemia"
+          ],
+          "source_url": "https://drive.google.com/file/d/1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo/view?usp=drivesdk"
+        },
+        {
+          "id": "1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo-c06",
+          "front": "Fredrickson type I: what is elevated?",
+          "back": "Chylomicrons → very high triglycerides; creamy top layer.",
+          "tags": [
+            "Fredrickson",
+            "Type I"
+          ],
+          "source_url": "https://drive.google.com/file/d/1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo/view?usp=drivesdk"
+        },
+        {
+          "id": "1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo-c07",
+          "front": "Fredrickson type IIa: what is elevated?",
+          "back": "LDL → high cholesterol; serum remains clear.",
+          "tags": [
+            "Fredrickson",
+            "Type IIa"
+          ],
+          "source_url": "https://drive.google.com/file/d/1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo/view?usp=drivesdk"
+        },
+        {
+          "id": "1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo-c08",
+          "front": "Fredrickson type IIb: what is elevated?",
+          "back": "LDL + VLDL → high cholesterol + triglycerides.",
+          "tags": [
+            "Fredrickson",
+            "Type IIb"
+          ],
+          "source_url": "https://drive.google.com/file/d/1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo/view?usp=drivesdk"
+        },
+        {
+          "id": "1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo-c09",
+          "front": "Fredrickson type III: what is elevated?",
+          "back": "IDL → high cholesterol + triglycerides; dysbetalipoproteinemia.",
+          "tags": [
+            "Fredrickson",
+            "Type III"
+          ],
+          "source_url": "https://drive.google.com/file/d/1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo/view?usp=drivesdk"
+        },
+        {
+          "id": "1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo-c10",
+          "front": "Fredrickson type IV: what is elevated?",
+          "back": "VLDL → high triglycerides.",
+          "tags": [
+            "Fredrickson",
+            "Type IV"
+          ],
+          "source_url": "https://drive.google.com/file/d/1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo/view?usp=drivesdk"
+        },
+        {
+          "id": "1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo-c11",
+          "front": "Fredrickson type V: what is elevated?",
+          "back": "VLDL + chylomicrons → very high TG + increased cholesterol.",
+          "tags": [
+            "Fredrickson",
+            "Type V"
+          ],
+          "source_url": "https://drive.google.com/file/d/1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo/view?usp=drivesdk"
+        },
+        {
+          "id": "1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo-c12",
+          "front": "Cause of familial hyperchylomicronemia (type I)?",
+          "back": "LPL deficiency or ApoC-II deficiency.",
+          "tags": [
+            "Fredrickson",
+            "Type I"
+          ],
+          "source_url": "https://drive.google.com/file/d/1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo/view?usp=drivesdk"
+        },
+        {
+          "id": "1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo-c13",
+          "front": "Major defects causing familial hypercholesterolemia?",
+          "back": "LDL receptor loss-of-function, ApoB loss-of-function, or PCSK9 gain-of-function.",
+          "tags": [
+            "Familial hypercholesterolemia"
+          ],
+          "source_url": "https://drive.google.com/file/d/1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo/view?usp=drivesdk"
+        },
+        {
+          "id": "1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo-c14",
+          "front": "Why can Lp(a) promote thrombosis?",
+          "back": "Apo(a) resembles plasminogen and can inhibit fibrinolysis.",
+          "tags": [
+            "Lp(a)"
+          ],
+          "source_url": "https://drive.google.com/file/d/1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo/view?usp=drivesdk"
+        },
+        {
+          "id": "1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo-c15",
+          "front": "What lipid pattern is strongly atherogenic?",
+          "back": "High LDL, low HDL, and hypertriglyceridemia.",
+          "tags": [
+            "Atherosclerosis",
+            "Dyslipidemia"
+          ],
+          "source_url": "https://drive.google.com/file/d/1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo/view?usp=drivesdk"
+        },
+        {
+          "id": "1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo-c16",
+          "front": "When should LDL be measured directly rather than Friedewald-calculated?",
+          "back": "When triglycerides are ≥400 mg/dL.",
+          "tags": [
+            "Lipid profile"
+          ],
+          "source_url": "https://drive.google.com/file/d/1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo/view?usp=drivesdk"
+        },
+        {
+          "id": "1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo-c17",
+          "front": "What is non-HDL cholesterol?",
+          "back": "Total cholesterol − HDL cholesterol.",
+          "tags": [
+            "Lipid profile"
+          ],
+          "source_url": "https://drive.google.com/file/d/1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo/view?usp=drivesdk"
+        },
+        {
+          "id": "1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo-c18",
+          "front": "What is remnant cholesterol?",
+          "back": "Total cholesterol − HDL − LDL.",
+          "tags": [
+            "Lipid profile"
+          ],
+          "source_url": "https://drive.google.com/file/d/1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo/view?usp=drivesdk"
+        },
+        {
+          "id": "1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo-c19",
+          "front": "Core defect in abetalipoproteinemia?",
+          "back": "Impaired assembly of VLDL and chylomicrons → absent LDL/ApoB and fat malabsorption.",
+          "tags": [
+            "Hypolipoproteinemia"
+          ],
+          "source_url": "https://drive.google.com/file/d/1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo/view?usp=drivesdk"
+        },
+        {
+          "id": "1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo-c20",
+          "front": "Why is vitamin E deficiency dangerous in abetalipoproteinemia?",
+          "back": "It can cause progressive neurologic degeneration.",
+          "tags": [
+            "Hypolipoproteinemia",
+            "Vitamin E"
+          ],
+          "source_url": "https://drive.google.com/file/d/1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo/view?usp=drivesdk"
+        },
+        {
+          "id": "1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo-c21",
+          "front": "What characterizes Tangier disease?",
+          "back": "Very low dysfunctional ApoA-I and markedly low HDL; orange tonsils and neuropathy may occur.",
+          "tags": [
+            "Tangier disease",
+            "HDL"
+          ],
+          "source_url": "https://drive.google.com/file/d/1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "id": "drive_16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x",
+      "subject": "Physiology",
+      "title": "Heart as a Pump",
+      "source_file_id": "16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x",
+      "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk",
+      "source_modified_time": "2026-09-13T14:50:50.000Z",
+      "archived": false,
+      "cards": [
+        {
+          "id": "16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x-c01",
+          "front": "What mainly controls cardiac myocyte contraction strength?",
+          "back": "Extracellular Ca²⁺ influx; more Ca²⁺ has a positive inotropic effect.",
+          "tags": [
+            "Cardiac physiology",
+            "Contractility"
+          ],
+          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk"
+        },
+        {
+          "id": "16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x-c02",
+          "front": "Why do Ca²⁺ channel blockers reduce cardiac contractility?",
+          "back": "They reduce Ca²⁺ influx needed for excitation–contraction coupling.",
+          "tags": [
+            "Cardiac physiology",
+            "Contractility"
+          ],
+          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk"
+        },
+        {
+          "id": "16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x-c03",
+          "front": "What is preload in the intact heart?",
+          "back": "The resting initial fiber length, approximated by end-diastolic volume (EDV).",
+          "tags": [
+            "Preload"
+          ],
+          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk"
+        },
+        {
+          "id": "16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x-c04",
+          "front": "State the Frank–Starling law.",
+          "back": "Within limits, greater initial cardiac muscle length → greater force of contraction.",
+          "tags": [
+            "Frank-Starling"
+          ],
+          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk"
+        },
+        {
+          "id": "16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x-c05",
+          "front": "How does sympathetic venoconstriction affect preload?",
+          "back": "It increases venous return → increases EDV/preload.",
+          "tags": [
+            "Preload",
+            "Venous return"
+          ],
+          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk"
+        },
+        {
+          "id": "16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x-c06",
+          "front": "Major factors that increase venous return?",
+          "back": "Muscle pump, respiratory pump, cardiac suction, sympathetic venoconstriction, blood volume, stretchability.",
+          "tags": [
+            "Venous return"
+          ],
+          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk"
+        },
+        {
+          "id": "16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x-c07",
+          "front": "What is heterometric autoregulation?",
+          "back": "Increased contractile force caused by increased EDV (Frank–Starling mechanism).",
+          "tags": [
+            "Autoregulation"
+          ],
+          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk"
+        },
+        {
+          "id": "16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x-c08",
+          "front": "What is homeometric autoregulation?",
+          "back": "Increased contractile force secondary to increased aortic pressure without relying on increased fiber length.",
+          "tags": [
+            "Autoregulation"
+          ],
+          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk"
+        },
+        {
+          "id": "16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x-c09",
+          "front": "Why does Frank–Starling help equalize RV and LV output?",
+          "back": "More output from one side increases venous return/preload to the other side, raising its stroke volume.",
+          "tags": [
+            "Frank-Starling"
+          ],
+          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk"
+        },
+        {
+          "id": "16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x-c10",
+          "front": "How does exercise raise cardiac output through preload?",
+          "back": "Muscle pump + sympathetic venoconstriction increase venous return and EDV → ↑SV.",
+          "tags": [
+            "Exercise",
+            "Preload"
+          ],
+          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk"
+        },
+        {
+          "id": "16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x-c11",
+          "front": "What is afterload in this lecture?",
+          "back": "Mean aortic pressure.",
+          "tags": [
+            "Afterload"
+          ],
+          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk"
+        },
+        {
+          "id": "16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x-c12",
+          "front": "How do SNS and epinephrine increase contractility?",
+          "back": "They increase Ca²⁺ influx and cross-bridge cycling at a given EDV.",
+          "tags": [
+            "Contractility",
+            "SNS"
+          ],
+          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk"
+        },
+        {
+          "id": "16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x-c13",
+          "front": "At the same EDV, what shows increased contractility?",
+          "back": "Lower ESV and therefore higher stroke volume.",
+          "tags": [
+            "Contractility"
+          ],
+          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk"
+        },
+        {
+          "id": "16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x-c14",
+          "front": "Typical example from the lecture: EDV 135 mL, ESV 65 mL gives what SV?",
+          "back": "70 mL.",
+          "tags": [
+            "Stroke volume"
+          ],
+          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk"
+        },
+        {
+          "id": "16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x-c15",
+          "front": "With sympathetic stimulation: EDV 135 mL, ESV 35 mL gives what SV?",
+          "back": "100 mL.",
+          "tags": [
+            "Stroke volume",
+            "SNS"
+          ],
+          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk"
+        }
+      ]
+    }
+  ],
+  "bootstrap_note": "Seeded from current official lecture files; hourly Drive sync will add/update additional decks."
 }

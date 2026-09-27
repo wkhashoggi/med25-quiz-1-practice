@@ -56,7 +56,7 @@ function bindAI(){
 function answerAI(id,opt){
   const q=aiAllQuestions().find(x=>x.id===id),p=aiProgress();if(!q||p[id]?.answered)return;
   p[id]={...(p[id]||{}),answered:true,selected:opt,correct:opt===q.answer,locked_at:new Date().toISOString()};
-  aiSave();renderAI();
+  aiSave();trackEvent('question_answer',{question_id:id,topic:q.concept||q.lecture_title||q.subject,metadata:{correct:opt===q.answer,first_attempt:true,source:'ai_generated'}});renderAI();
 }
 function starAI(id){const p=aiProgress();p[id]={...(p[id]||{}),starred:!p[id]?.starred};aiSave();renderAI()}
 function openAISource(id){const q=aiAllQuestions().find(x=>x.id===id);if(q?.source_url)window.open(q.source_url,'_blank','noopener,noreferrer')}

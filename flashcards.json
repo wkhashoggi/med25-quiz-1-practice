@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-27T10:00:00.000Z",
+  "generated_at": "2026-09-27T12:15:32.495Z",
   "source_root": {
     "id": "1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
     "url": "https://drive.google.com/drive/folders/1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
@@ -1819,8 +1819,8 @@
       "cards": [
         {
           "id": "1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK-c01",
-          "front": "Which WBC is usually most abundant in peripheral blood?",
-          "back": "Neutrophils.",
+          "front": "Most abundant peripheral WBC?",
+          "back": "Neutrophils, about 60–70%.",
           "tags": [
             "Physiology",
             "Physiology of White Blood Cells"
@@ -1829,8 +1829,8 @@
         },
         {
           "id": "1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK-c02",
-          "front": "What is the main function of neutrophils?",
-          "back": "Rapid phagocytosis and killing of bacteria, especially in acute inflammation.",
+          "front": "Main neutrophil function?",
+          "back": "Phagocytosis and first-line defense against bacteria.",
           "tags": [
             "Physiology",
             "Physiology of White Blood Cells"
@@ -1839,8 +1839,8 @@
         },
         {
           "id": "1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK-c03",
-          "front": "What is the main function of eosinophils?",
-          "back": "Defense against parasites and participation in allergic reactions.",
+          "front": "Main eosinophil associations?",
+          "back": "Parasitic infestation and allergy.",
           "tags": [
             "Physiology",
             "Physiology of White Blood Cells"
@@ -1849,8 +1849,8 @@
         },
         {
           "id": "1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK-c04",
-          "front": "What is the main function of basophils?",
-          "back": "Release histamine and other mediators in immediate hypersensitivity.",
+          "front": "Basophil mediators?",
+          "back": "Histamine, heparin, bradykinin, and serotonin.",
           "tags": [
             "Physiology",
             "Physiology of White Blood Cells"
@@ -1859,7 +1859,7 @@
         },
         {
           "id": "1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK-c05",
-          "front": "What do monocytes become in tissues?",
+          "front": "Monocytes become what in tissues?",
           "back": "Macrophages.",
           "tags": [
             "Physiology",
@@ -1869,8 +1869,8 @@
         },
         {
           "id": "1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK-c06",
-          "front": "What is diapedesis?",
-          "back": "Movement of leukocytes through vessel walls into tissues.",
+          "front": "Diapedesis?",
+          "back": "Leukocytes squeezing through capillary walls into tissues.",
           "tags": [
             "Physiology",
             "Physiology of White Blood Cells"
@@ -1879,8 +1879,8 @@
         },
         {
           "id": "1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK-c07",
-          "front": "What is chemotaxis?",
-          "back": "Directed leukocyte movement toward a chemical attractant.",
+          "front": "Chemotaxis?",
+          "back": "Directed movement toward infection by chemical attractants.",
           "tags": [
             "Physiology",
             "Physiology of White Blood Cells"
@@ -1889,8 +1889,8 @@
         },
         {
           "id": "1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK-c08",
-          "front": "What is opsonization?",
-          "back": "Coating a target to enhance phagocytosis, commonly by IgG or C3b.",
+          "front": "Opsonization?",
+          "back": "Coating targets with antibodies or complement to facilitate phagocytosis.",
           "tags": [
             "Physiology",
             "Physiology of White Blood Cells"
@@ -1899,8 +1899,8 @@
         },
         {
           "id": "1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK-c09",
-          "front": "Which leukocytes mediate adaptive humoral immunity?",
-          "back": "B lymphocytes and plasma cells.",
+          "front": "Humoral immunity leukocyte?",
+          "back": "B lymphocytes.",
           "tags": [
             "Physiology",
             "Physiology of White Blood Cells"
@@ -1909,7 +1909,7 @@
         },
         {
           "id": "1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK-c10",
-          "front": "Which leukocytes mediate adaptive cellular immunity?",
+          "front": "Cellular immunity leukocyte in this lecture?",
           "back": "T lymphocytes.",
           "tags": [
             "Physiology",
@@ -1919,8 +1919,8 @@
         },
         {
           "id": "1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK-c11",
-          "front": "What is leukocytosis?",
-          "back": "An increase in total circulating white blood cell count.",
+          "front": "Leukocytosis threshold?",
+          "back": "Above 11,000 WBC/mm³.",
           "tags": [
             "Physiology",
             "Physiology of White Blood Cells"
@@ -1929,8 +1929,88 @@
         },
         {
           "id": "1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK-c12",
-          "front": "Why can neutrophilia accompany acute bacterial infection?",
-          "back": "Bone marrow release and mobilization of neutrophils increase in response to inflammatory signals.",
+          "front": "Pyogenic infection pattern?",
+          "back": "Neutrophilia.",
+          "tags": [
+            "Physiology",
+            "Physiology of White Blood Cells"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK-c13",
+          "front": "Normal total WBC count?",
+          "back": "About 4,000–11,000/µL.",
+          "tags": [
+            "Physiology",
+            "Physiology of White Blood Cells"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK-c14",
+          "front": "Largest and strongest phagocytic WBC?",
+          "back": "Monocyte.",
+          "tags": [
+            "Physiology",
+            "Physiology of White Blood Cells"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK-c15",
+          "front": "Parasitic infestation pattern?",
+          "back": "Eosinophilia.",
+          "tags": [
+            "Physiology",
+            "Physiology of White Blood Cells"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK-c16",
+          "front": "Allergic disease pattern?",
+          "back": "Basophilia.",
+          "tags": [
+            "Physiology",
+            "Physiology of White Blood Cells"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK-c17",
+          "front": "Tuberculosis pattern in this lecture?",
+          "back": "Lymphocytosis.",
+          "tags": [
+            "Physiology",
+            "Physiology of White Blood Cells"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK-c18",
+          "front": "Malaria pattern in this lecture?",
+          "back": "Monocytosis.",
+          "tags": [
+            "Physiology",
+            "Physiology of White Blood Cells"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK-c19",
+          "front": "Recruitment/phagocytosis sequence?",
+          "back": "Margination → diapedesis → chemotaxis → amoeboid movement → opsonization → phagocytosis.",
+          "tags": [
+            "Physiology",
+            "Physiology of White Blood Cells"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK-c20",
+          "front": "Leukopenia threshold?",
+          "back": "Below 4,000 WBC/mm³.",
           "tags": [
             "Physiology",
             "Physiology of White Blood Cells"
@@ -1938,7 +2018,7 @@
           "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
         }
       ],
-      "needs_source_validation": true
+      "needs_source_validation": false
     },
     {
       "id": "drive_1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn",

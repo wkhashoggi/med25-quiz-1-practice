@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-27T12:02:31.433Z",
+  "generated_at": "2026-09-27T12:15:32.495Z",
   "source_root": {
     "id": "1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
     "url": "https://drive.google.com/drive/folders/1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
@@ -1577,136 +1577,233 @@
       "title": "Physiology of White Blood Cells",
       "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
       "source_modified_time": "2026-09-03T16:22:50.000Z",
-      "source_validation": "pending_lecture_validation",
+      "source_validation": "lecture_validated",
       "archived": false,
       "questions": [
         {
           "id": "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_01",
-          "stem": "Which WBC is usually most abundant in peripheral blood?",
+          "stem": "Most abundant peripheral WBC?",
           "options": {
-            "A": "Neutrophils.",
-            "B": "Macrophages.",
-            "C": "T lymphocytes.",
-            "D": "B lymphocytes and plasma cells."
+            "A": "Neutrophils, about 60–70%.",
+            "B": "Histamine, heparin, bradykinin, and serotonin.",
+            "C": "Coating targets with antibodies or complement to facilitate phagocytosis.",
+            "D": "Neutrophilia."
           },
           "answer": "A",
-          "explanation": "Neutrophils.",
+          "explanation": "Neutrophils, about 60–70%.",
           "concept": "Physiology of White Blood Cells",
-          "difficulty": "application",
-          "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
-          "source_card_id": "1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK-c01"
+          "difficulty": "core",
+          "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
         },
         {
           "id": "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_02",
-          "stem": "What is the main function of neutrophils?",
+          "stem": "Main neutrophil function?",
           "options": {
-            "A": "Coating a target to enhance phagocytosis, commonly by IgG or C3b.",
-            "B": "Release histamine and other mediators in immediate hypersensitivity.",
-            "C": "Defense against parasites and participation in allergic reactions.",
-            "D": "Rapid phagocytosis and killing of bacteria, especially in acute inflammation."
+            "A": "Macrophages.",
+            "B": "B lymphocytes.",
+            "C": "About 4,000–11,000/µL.",
+            "D": "Phagocytosis and first-line defense against bacteria."
           },
           "answer": "D",
-          "explanation": "Rapid phagocytosis and killing of bacteria, especially in acute inflammation.",
+          "explanation": "Phagocytosis and first-line defense against bacteria.",
           "concept": "Physiology of White Blood Cells",
           "difficulty": "core",
-          "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
-          "source_card_id": "1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK-c02"
+          "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
         },
         {
           "id": "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_03",
-          "stem": "What is the main function of eosinophils?",
+          "stem": "Main eosinophil associations?",
           "options": {
-            "A": "Release histamine and other mediators in immediate hypersensitivity.",
-            "B": "Movement of leukocytes through vessel walls into tissues.",
-            "C": "Defense against parasites and participation in allergic reactions.",
-            "D": "Coating a target to enhance phagocytosis, commonly by IgG or C3b."
+            "A": "T lymphocytes.",
+            "B": "Monocyte.",
+            "C": "Parasitic infestation and allergy.",
+            "D": "Leukocytes squeezing through capillary walls into tissues."
           },
           "answer": "C",
-          "explanation": "Defense against parasites and participation in allergic reactions.",
+          "explanation": "Parasitic infestation and allergy.",
           "concept": "Physiology of White Blood Cells",
-          "difficulty": "understanding",
-          "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
-          "source_card_id": "1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK-c03"
+          "difficulty": "core",
+          "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
         },
         {
           "id": "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_04",
-          "stem": "What is the main function of basophils?",
+          "stem": "Basophil mediators?",
           "options": {
-            "A": "Coating a target to enhance phagocytosis, commonly by IgG or C3b.",
-            "B": "Release histamine and other mediators in immediate hypersensitivity.",
-            "C": "Bone marrow release and mobilization of neutrophils increase in response to inflammatory signals.",
-            "D": "Defense against parasites and participation in allergic reactions."
+            "A": "Eosinophilia.",
+            "B": "Histamine, heparin, bradykinin, and serotonin.",
+            "C": "Directed movement toward infection by chemical attractants.",
+            "D": "Above 11,000 WBC/mm³."
           },
           "answer": "B",
-          "explanation": "Release histamine and other mediators in immediate hypersensitivity.",
+          "explanation": "Histamine, heparin, bradykinin, and serotonin.",
           "concept": "Physiology of White Blood Cells",
           "difficulty": "application",
-          "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
-          "source_card_id": "1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK-c04"
+          "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
         },
         {
           "id": "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_05",
-          "stem": "What do monocytes become in tissues?",
+          "stem": "Monocytes become what in tissues?",
           "options": {
             "A": "Macrophages.",
-            "B": "Neutrophils.",
-            "C": "T lymphocytes.",
-            "D": "B lymphocytes and plasma cells."
+            "B": "Coating targets with antibodies or complement to facilitate phagocytosis.",
+            "C": "Neutrophilia.",
+            "D": "Basophilia."
           },
           "answer": "A",
           "explanation": "Macrophages.",
           "concept": "Physiology of White Blood Cells",
           "difficulty": "core",
-          "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
-          "source_card_id": "1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK-c05"
+          "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
         },
         {
           "id": "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_06",
-          "stem": "What is diapedesis?",
+          "stem": "Diapedesis?",
           "options": {
-            "A": "Directed leukocyte movement toward a chemical attractant.",
-            "B": "An increase in total circulating white blood cell count.",
-            "C": "Coating a target to enhance phagocytosis, commonly by IgG or C3b.",
-            "D": "Movement of leukocytes through vessel walls into tissues."
+            "A": "B lymphocytes.",
+            "B": "About 4,000–11,000/µL.",
+            "C": "Lymphocytosis.",
+            "D": "Leukocytes squeezing through capillary walls into tissues."
           },
           "answer": "D",
-          "explanation": "Movement of leukocytes through vessel walls into tissues.",
+          "explanation": "Leukocytes squeezing through capillary walls into tissues.",
           "concept": "Physiology of White Blood Cells",
-          "difficulty": "understanding",
-          "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
-          "source_card_id": "1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK-c06"
+          "difficulty": "core",
+          "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
         },
         {
           "id": "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_07",
-          "stem": "What is chemotaxis?",
+          "stem": "Chemotaxis?",
           "options": {
-            "A": "An increase in total circulating white blood cell count.",
-            "B": "Coating a target to enhance phagocytosis, commonly by IgG or C3b.",
-            "C": "Directed leukocyte movement toward a chemical attractant.",
-            "D": "Movement of leukocytes through vessel walls into tissues."
+            "A": "Monocyte.",
+            "B": "Monocytosis.",
+            "C": "Directed movement toward infection by chemical attractants.",
+            "D": "T lymphocytes."
           },
           "answer": "C",
-          "explanation": "Directed leukocyte movement toward a chemical attractant.",
+          "explanation": "Directed movement toward infection by chemical attractants.",
           "concept": "Physiology of White Blood Cells",
-          "difficulty": "application",
-          "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
-          "source_card_id": "1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK-c07"
+          "difficulty": "core",
+          "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
         },
         {
           "id": "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_08",
-          "stem": "What is opsonization?",
+          "stem": "Opsonization?",
           "options": {
-            "A": "Release histamine and other mediators in immediate hypersensitivity.",
-            "B": "Coating a target to enhance phagocytosis, commonly by IgG or C3b.",
-            "C": "Rapid phagocytosis and killing of bacteria, especially in acute inflammation.",
-            "D": "Defense against parasites and participation in allergic reactions."
+            "A": "Margination → diapedesis → chemotaxis → amoeboid movement → opsonization → phagocytosis.",
+            "B": "Coating targets with antibodies or complement to facilitate phagocytosis.",
+            "C": "Above 11,000 WBC/mm³.",
+            "D": "Eosinophilia."
           },
           "answer": "B",
-          "explanation": "Coating a target to enhance phagocytosis, commonly by IgG or C3b.",
+          "explanation": "Coating targets with antibodies or complement to facilitate phagocytosis.",
+          "concept": "Physiology of White Blood Cells",
+          "difficulty": "application",
+          "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_09",
+          "stem": "Humoral immunity leukocyte?",
+          "options": {
+            "A": "B lymphocytes.",
+            "B": "Neutrophilia.",
+            "C": "Basophilia.",
+            "D": "Below 4,000 WBC/mm³."
+          },
+          "answer": "A",
+          "explanation": "B lymphocytes.",
           "concept": "Physiology of White Blood Cells",
           "difficulty": "core",
-          "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
-          "source_card_id": "1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK-c08"
+          "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_10",
+          "stem": "Cellular immunity leukocyte in this lecture?",
+          "options": {
+            "A": "About 4,000–11,000/µL.",
+            "B": "Lymphocytosis.",
+            "C": "Neutrophils, about 60–70%.",
+            "D": "T lymphocytes."
+          },
+          "answer": "D",
+          "explanation": "T lymphocytes.",
+          "concept": "Physiology of White Blood Cells",
+          "difficulty": "core",
+          "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_11",
+          "stem": "Leukocytosis threshold?",
+          "options": {
+            "A": "Monocytosis.",
+            "B": "Phagocytosis and first-line defense against bacteria.",
+            "C": "Above 11,000 WBC/mm³.",
+            "D": "Monocyte."
+          },
+          "answer": "C",
+          "explanation": "Above 11,000 WBC/mm³.",
+          "concept": "Physiology of White Blood Cells",
+          "difficulty": "core",
+          "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_12",
+          "stem": "Pyogenic infection pattern?",
+          "options": {
+            "A": "Parasitic infestation and allergy.",
+            "B": "Neutrophilia.",
+            "C": "Eosinophilia.",
+            "D": "Margination → diapedesis → chemotaxis → amoeboid movement → opsonization → phagocytosis."
+          },
+          "answer": "B",
+          "explanation": "Neutrophilia.",
+          "concept": "Physiology of White Blood Cells",
+          "difficulty": "application",
+          "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_13",
+          "stem": "Normal total WBC count?",
+          "options": {
+            "A": "About 4,000–11,000/µL.",
+            "B": "Basophilia.",
+            "C": "Below 4,000 WBC/mm³.",
+            "D": "Histamine, heparin, bradykinin, and serotonin."
+          },
+          "answer": "A",
+          "explanation": "About 4,000–11,000/µL.",
+          "concept": "Physiology of White Blood Cells",
+          "difficulty": "core",
+          "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_14",
+          "stem": "Largest and strongest phagocytic WBC?",
+          "options": {
+            "A": "Lymphocytosis.",
+            "B": "Neutrophils, about 60–70%.",
+            "C": "Macrophages.",
+            "D": "Monocyte."
+          },
+          "answer": "D",
+          "explanation": "Monocyte.",
+          "concept": "Physiology of White Blood Cells",
+          "difficulty": "core",
+          "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_15",
+          "stem": "Parasitic infestation pattern?",
+          "options": {
+            "A": "Phagocytosis and first-line defense against bacteria.",
+            "B": "Leukocytes squeezing through capillary walls into tissues.",
+            "C": "Eosinophilia.",
+            "D": "Monocytosis."
+          },
+          "answer": "C",
+          "explanation": "Eosinophilia.",
+          "concept": "Physiology of White Blood Cells",
+          "difficulty": "core",
+          "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
         }
       ]
     },

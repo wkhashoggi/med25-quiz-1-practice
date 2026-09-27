@@ -35,3 +35,14 @@
 .ankiAnswer{font-size:18px;line-height:1.55}
 @media(max-width:900px){.hubMetric{grid-column:span 6}.hubHalf{grid-column:span 12}.aiLayout{grid-template-columns:1fr}.aiSidebar{grid-template-columns:1fr 1fr}.aiToolbar{top:56px}}
 @media(max-width:560px){.studyTabs{overflow-x:auto}.studyTab{flex:0 0 auto;min-width:122px}.hubMetric{grid-column:span 6}.hubMetric b{font-size:22px}.aiSidebar{grid-template-columns:1fr}.aiControls{display:grid;grid-template-columns:1fr 1fr}.aiSearch{grid-column:span 2;min-width:0}.aiControl{min-width:0;width:100%;box-sizing:border-box}.aiToolbar{position:static}.aiStem{font-size:15px}}
+
+
+/* Anki-style FSRS options and completion state */
+.ankiOptionsPanel{background:#fff;border:1px solid #d0d5dd;border-radius:14px;padding:16px;margin:10px 0 16px;box-shadow:0 5px 18px rgba(16,24,40,.05)}
+.ankiOptionsHead,.ankiOptionFoot{display:flex;justify-content:space-between;gap:12px;align-items:center}.ankiOptionsHead b{display:block;font-size:14px}.ankiOptionsHead span,.ankiOptionFoot span{font-size:10px;color:#667085}
+.ankiOptionsGrid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:14px 0}.ankiOptionsGrid label{display:block;background:#f8fafc;border:1px solid #eaecf0;border-radius:11px;padding:10px}.ankiOptionsGrid label>span{display:block;font-size:10px;font-weight:800;color:#475467;margin-bottom:6px}.ankiOptionsGrid input{width:100%;box-sizing:border-box;border:1px solid #d0d5dd;border-radius:8px;padding:8px;background:#fff;font:inherit;font-size:12px}.ankiOptionsGrid small{display:block;color:#98a2b3;font-size:9px;margin-top:5px;line-height:1.35}
+.ankiOptionNote{background:#fff7ed;border:1px solid #fed7aa;color:#9a3412;border-radius:10px;padding:10px 11px;font-size:10px;line-height:1.5;margin-bottom:12px}
+.ankiCongrats{text-align:center;font-size:26px;font-weight:800;color:#344054;padding:50px 20px}.ankiCongrats small{display:block;font-size:13px;font-weight:500;color:#667085;line-height:1.6;margin:12px auto 0;max-width:520px}
+#flashStatsPanel.flashStatsPanel{grid-template-columns:repeat(4,1fr)}
+@media(max-width:800px){.ankiOptionsGrid{grid-template-columns:1fr 1fr}}
+@media(max-width:520px){.ankiOptionsGrid{grid-template-columns:1fr}.ankiOptionFoot{align-items:flex-start;flex-direction:column}.ankiCongrats{font-size:22px}}

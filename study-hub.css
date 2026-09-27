@@ -1,0 +1,37 @@
+
+/* MED25 four-section study hub */
+.studyTabs{position:sticky;top:0;z-index:40}
+.studyTab{min-width:0}
+.hubSection{margin-top:18px}
+.hubGrid{display:grid;grid-template-columns:repeat(12,1fr);gap:16px}
+.hubCard{background:#fff;border:1px solid var(--line);border-radius:18px;padding:18px;box-shadow:0 5px 18px rgba(16,24,40,.045)}
+.hubCard h2,.hubCard h3{margin:0;color:#101828}.hubCard h2{font-size:20px}.hubCard h3{font-size:15px}.hubCard p{color:#667085;font-size:12px;line-height:1.55}
+.hubIntro{grid-column:span 12;background:linear-gradient(135deg,#172033,#29364d);color:#fff;border:0}.hubIntro h2{color:#fff;font-size:24px}.hubIntro p{color:#d0d5dd;margin-bottom:0}
+.hubMetric{grid-column:span 3}.hubMetric b{display:block;font-size:26px;color:#101828}.hubMetric span{display:block;color:#667085;font-size:11px;margin-top:4px}
+.hubHalf{grid-column:span 6}.hubFull{grid-column:span 12}
+.hubRows{display:grid;gap:0}.hubRow{display:flex;justify-content:space-between;gap:12px;align-items:center;padding:10px 0;border-bottom:1px solid #f2f4f7}.hubRow:last-child{border:0}
+.hubRowMain{min-width:0}.hubRowMain b{display:block;font-size:12px;color:#344054}.hubRowMain span{display:block;font-size:10px;color:#98a2b3;margin-top:2px}.hubRowScore{font-size:12px;font-weight:800;white-space:nowrap}
+.hubBar{height:6px;background:#eef2f6;border-radius:999px;overflow:hidden;margin-top:7px}.hubBar span{display:block;height:100%;background:#667085;border-radius:999px}
+.hubStatus{display:inline-block;border-radius:999px;padding:5px 8px;background:#f2f4f7;color:#475467;font-size:10px;font-weight:800}
+.hubActions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.hubBtn{border:1px solid #d0d5dd;background:#fff;border-radius:10px;padding:9px 11px;font-size:11px;font-weight:750;cursor:pointer}.hubBtn.primary{background:#1d4ed8;border-color:#1d4ed8;color:#fff}
+.hubNote{font-size:10px;color:#98a2b3;margin-top:8px}
+.aiSection{margin-top:18px}
+.aiToolbar{background:#fff;border:1px solid var(--line);border-radius:16px;padding:12px;position:sticky;top:62px;z-index:20;box-shadow:0 4px 15px rgba(16,24,40,.04)}
+.aiControls{display:flex;gap:8px;flex-wrap:wrap}.aiControl{border:1px solid #d0d5dd;border-radius:10px;padding:9px 10px;background:#fff;font:inherit;font-size:12px;min-width:150px}.aiSearch{flex:1;min-width:220px}
+.aiChips{display:flex;gap:7px;flex-wrap:wrap;margin-top:9px}.aiChip{border:1px solid #d0d5dd;background:#fff;border-radius:999px;padding:7px 10px;font-size:10px;font-weight:750;cursor:pointer}.aiChip.active{border-color:#2563eb;background:#eff6ff;color:#1d4ed8}
+.aiLayout{display:grid;grid-template-columns:minmax(0,1fr) 270px;gap:16px;margin-top:16px}.aiList{display:grid;gap:14px}.aiSidebar{display:grid;gap:14px;align-content:start}
+.aiCard{background:#fff;border:1px solid var(--line);border-radius:16px;padding:16px;box-shadow:0 4px 15px rgba(16,24,40,.04);position:relative}.aiTop{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}.aiMeta{display:flex;gap:6px;flex-wrap:wrap}.aiPill{font-size:10px;padding:4px 7px;border-radius:999px;background:#f2f4f7;color:#475467;font-weight:700}.aiPill.source{background:#ecfdf3;color:#067647}.aiPill.pending{background:#fff7ed;color:#c2410c}
+.aiStem{font-size:16px;font-weight:750;color:#101828;margin:13px 0}.aiOptions{display:grid;gap:8px}.aiOption{border:1px solid #d0d5dd;background:#fff;border-radius:11px;padding:10px 11px;text-align:left;font-size:13px;cursor:pointer;display:flex;gap:9px}.aiOption:hover{border-color:#93c5fd;background:#f8fbff}.aiOption:disabled{opacity:1;cursor:default}.aiOption.correct{background:#ecfdf3;border-color:#6ce9a6}.aiOption.wrong{background:#fef3f2;border-color:#fda29b}.aiOption.selected{background:#eff6ff;border-color:#93c5fd}.aiLetter{font-weight:850;min-width:20px}
+.aiFeedback{margin-top:11px;padding:11px 12px;border-radius:11px;font-size:12px;line-height:1.5}.aiFeedback.good{background:#ecfdf3;color:#065f46}.aiFeedback.bad{background:#fef3f2;color:#912018}
+.aiActions{display:flex;gap:7px;flex-wrap:wrap;margin-top:11px}.aiBtn{border:1px solid #d0d5dd;background:#fff;border-radius:9px;padding:7px 9px;font-size:10px;font-weight:700;cursor:pointer}.aiStar{position:absolute;right:14px;top:14px;border:0;background:none;font-size:18px;cursor:pointer;color:#f59e0b}
+.aiBox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:15px;box-shadow:0 4px 15px rgba(16,24,40,.04)}.aiBox h3{margin:0 0 9px;font-size:13px}.aiBox p{font-size:11px;color:#667085;margin:0}
+.aiStatGrid{display:grid;grid-template-columns:1fr 1fr;gap:8px}.aiStat{background:#f8fafc;border:1px solid #eaecf0;border-radius:10px;padding:10px}.aiStat b{display:block;font-size:18px}.aiStat span{font-size:9px;color:#667085}
+.aiPager{display:flex;justify-content:space-between;align-items:center;gap:8px;background:#fff;border:1px solid var(--line);border-radius:13px;padding:10px 12px}.aiPager span{font-size:10px;color:#667085}
+.ankiShell{border-radius:14px}
+.ankiBar{background:#f7f7f7}
+.ankiCardWrap{max-width:900px;margin:0 auto;width:100%}
+.ankiCard{min-height:280px}
+.ankiCard .front{font-size:22px}
+.ankiAnswer{font-size:18px;line-height:1.55}
+@media(max-width:900px){.hubMetric{grid-column:span 6}.hubHalf{grid-column:span 12}.aiLayout{grid-template-columns:1fr}.aiSidebar{grid-template-columns:1fr 1fr}.aiToolbar{top:56px}}
+@media(max-width:560px){.studyTabs{overflow-x:auto}.studyTab{flex:0 0 auto;min-width:122px}.hubMetric{grid-column:span 6}.hubMetric b{font-size:22px}.aiSidebar{grid-template-columns:1fr}.aiControls{display:grid;grid-template-columns:1fr 1fr}.aiSearch{grid-column:span 2;min-width:0}.aiControl{min-width:0;width:100%;box-sizing:border-box}.aiToolbar{position:static}.aiStem{font-size:15px}}

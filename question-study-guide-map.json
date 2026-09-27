@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-27T13:13:42.482Z",
+  "generated_at": "2026-09-27T17:01:17.472Z",
   "study_guide_file_id": "1QwRNlO6-zuOQugxyjrhXykOW-YjVtal4",
   "past": {
     "ibls-previous-years-p4-q3-1": {
@@ -2237,39 +2237,44 @@
       "method": "source-title"
     },
     "ibls-previous-years-p103-q32-395": {
-      "lecture_id": "pharmacology__drugs-affecting-hemostasis",
-      "subject": "Pharmacology",
-      "title": "Drugs affecting hemostasis",
-      "confidence": 0.407,
-      "method": "objectives"
+      "lecture_id": "physiology__physiology-of-hemostasis",
+      "subject": "Physiology",
+      "title": "Physiology of Hemostasis",
+      "confidence": 1,
+      "method": "manual-objective-audit",
+      "audit_reason": "Coagulation pathway/bleeding-disorder physiology objective"
     },
     "ibls-previous-years-p103-q42-396": {
       "lecture_id": "pharmacology__drugs-affecting-hemostasis",
       "subject": "Pharmacology",
       "title": "Drugs affecting hemostasis",
-      "confidence": 0.404,
-      "method": "objectives"
+      "confidence": 1,
+      "method": "manual-objective-audit",
+      "audit_reason": "Anticoagulant/thrombolytic drug mechanism objective"
     },
     "ibls-previous-years-p104-q44-397": {
-      "lecture_id": "physiology__physiology-of-hemostasis",
-      "subject": "Physiology",
-      "title": "Physiology of Hemostasis",
-      "confidence": 0.397,
-      "method": "objectives"
+      "lecture_id": "pharmacology__drugs-affecting-hemostasis",
+      "subject": "Pharmacology",
+      "title": "Drugs affecting hemostasis",
+      "confidence": 1,
+      "method": "manual-objective-audit",
+      "audit_reason": "Anticoagulant/thrombolytic drug mechanism objective"
     },
     "ibls-previous-years-p104-q46-399": {
       "lecture_id": "pharmacology__drugs-affecting-hemostasis",
       "subject": "Pharmacology",
       "title": "Drugs affecting hemostasis",
-      "confidence": 0.382,
-      "method": "objectives"
+      "confidence": 1,
+      "method": "manual-objective-audit",
+      "audit_reason": "Anticoagulant/thrombolytic drug mechanism objective"
     },
     "ibls-previous-years-p105-q63-401": {
-      "lecture_id": "pharmacology__drugs-affecting-hemostasis",
-      "subject": "Pharmacology",
-      "title": "Drugs affecting hemostasis",
-      "confidence": 0.404,
-      "method": "objectives"
+      "lecture_id": "physiology__physiology-of-hemostasis",
+      "subject": "Physiology",
+      "title": "Physiology of Hemostasis",
+      "confidence": 1,
+      "method": "manual-objective-audit",
+      "audit_reason": "Coagulation pathway/bleeding-disorder physiology objective"
     },
     "ibls-previous-years-p105-q65-403": {
       "lecture_id": "pharmacology__antiplatelet-drugs",
@@ -2412,11 +2417,12 @@
       "method": "source-title"
     },
     "cvs-previous-years-p9-q25-18": {
-      "lecture_id": "pharmacology__drugs-used-in-heart-failure",
-      "subject": "Pharmacology",
-      "title": "Drugs used in Heart failure",
-      "confidence": 0.43,
-      "method": "objectives"
+      "lecture_id": "physiology__cardiac-contractility",
+      "subject": "Physiology",
+      "title": "Cardiac contractility",
+      "confidence": 1,
+      "method": "manual-objective-audit",
+      "audit_reason": "Heart as a Pump question matched to physiology objectives"
     },
     "cvs-previous-years-p10-q27-19": {
       "lecture_id": "biochemistry__disorders-of-plasma-lipoproteins",
@@ -2433,11 +2439,12 @@
       "method": "source-title"
     },
     "cvs-previous-years-p11-q29-21": {
-      "lecture_id": "pharmacology__drugs-used-in-heart-failure",
-      "subject": "Pharmacology",
-      "title": "Drugs used in Heart failure",
-      "confidence": 0.438,
-      "method": "objectives"
+      "lecture_id": "physiology__cardiac-contractility",
+      "subject": "Physiology",
+      "title": "Cardiac contractility",
+      "confidence": 1,
+      "method": "manual-objective-audit",
+      "audit_reason": "Heart as a Pump question matched to physiology objectives"
     },
     "cvs-previous-years-p11-q30-22": {
       "lecture_id": "physiology__cardiac-automaticity-excitability-cardiac-conductivity",
@@ -2482,11 +2489,12 @@
       "method": "source-title"
     },
     "cvs-previous-years-p13-q2-28": {
-      "lecture_id": "pharmacology__drugs-used-in-heart-failure",
-      "subject": "Pharmacology",
-      "title": "Drugs used in Heart failure",
-      "confidence": 0.464,
-      "method": "objectives"
+      "lecture_id": "physiology__cardiac-output-and-its-control",
+      "subject": "Physiology",
+      "title": "Cardiac output and its control",
+      "confidence": 1,
+      "method": "manual-objective-audit",
+      "audit_reason": "Venous return/heart-rate/cardiac-output control matches cardiac output objectives"
     },
     "cvs-previous-years-p13-q3-29": {
       "lecture_id": "biochemistry__plasma-lipoproteins",
@@ -2930,18 +2938,20 @@
       "method": "source-title"
     },
     "cvs-previous-years-p33-q4-117": {
-      "lecture_id": "pharmacology__drugs-used-in-heart-failure",
-      "subject": "Pharmacology",
-      "title": "Drugs used in Heart failure",
-      "confidence": 0.449,
-      "method": "objectives"
+      "lecture_id": "physiology__physiology-of-microcirculation-and-cardiac-edema",
+      "subject": "Physiology",
+      "title": "Physiology of microcirculation and cardiac edema",
+      "confidence": 1,
+      "method": "manual-objective-audit",
+      "audit_reason": "Capillary hydrostatic pressure is a microcirculation/Starling-forces objective"
     },
     "cvs-previous-years-p33-q5-118": {
-      "lecture_id": "pharmacology__drugs-used-in-heart-failure",
-      "subject": "Pharmacology",
-      "title": "Drugs used in Heart failure",
-      "confidence": 0.5,
-      "method": "objectives"
+      "lecture_id": "physiology__cardiac-contractility",
+      "subject": "Physiology",
+      "title": "Cardiac contractility",
+      "confidence": 1,
+      "method": "manual-objective-audit",
+      "audit_reason": "Heart as a Pump question matched to physiology objectives"
     },
     "cvs-previous-years-p34-q6-119": {
       "lecture_id": "anatomy-histology__histology-of-the-lymphatic-system",
@@ -3063,11 +3073,12 @@
       "method": "source-title"
     },
     "cvs-previous-years-p43-q2-156": {
-      "lecture_id": "pharmacology__drugs-used-in-heart-failure",
-      "subject": "Pharmacology",
-      "title": "Drugs used in Heart failure",
-      "confidence": 0.445,
-      "method": "objectives"
+      "lecture_id": "physiology__cardiac-contractility",
+      "subject": "Physiology",
+      "title": "Cardiac contractility",
+      "confidence": 1,
+      "method": "manual-objective-audit",
+      "audit_reason": "Heart as a Pump question matched to physiology objectives"
     },
     "cvs-previous-years-p43-q3-157": {
       "lecture_id": "physiology__cardiac-output-and-its-control",
@@ -3077,11 +3088,12 @@
       "method": "source-title"
     },
     "cvs-previous-years-p43-q4-158": {
-      "lecture_id": "pharmacology__drugs-used-in-heart-failure",
-      "subject": "Pharmacology",
-      "title": "Drugs used in Heart failure",
-      "confidence": 0.437,
-      "method": "objectives"
+      "lecture_id": "physiology__regulation-of-abp-intermediate-and-long-term-regulation",
+      "subject": "Physiology",
+      "title": "Regulation of ABP (Intermediate and long-term Regulation)",
+      "confidence": 1,
+      "method": "manual-objective-audit",
+      "audit_reason": "Volume/ADH/ANP regulation is in long-term ABP objectives"
     },
     "cvs-previous-years-p44-q5-159": {
       "lecture_id": "physiology__regulation-of-abp-cv-centers-short-term-regulation",
@@ -3133,11 +3145,12 @@
       "method": "source-title"
     },
     "cvs-previous-years-p46-q13-167": {
-      "lecture_id": "pharmacology__drugs-used-in-heart-failure",
-      "subject": "Pharmacology",
-      "title": "Drugs used in Heart failure",
-      "confidence": 0.451,
-      "method": "objectives"
+      "lecture_id": "physiology__cardiac-output-and-its-control",
+      "subject": "Physiology",
+      "title": "Cardiac output and its control",
+      "confidence": 1,
+      "method": "manual-objective-audit",
+      "audit_reason": "Venous return/heart-rate/cardiac-output control matches cardiac output objectives"
     },
     "cvs-previous-years-p46-q14-168": {
       "lecture_id": "physiology__regulation-of-abp-intermediate-and-long-term-regulation",
@@ -3175,11 +3188,12 @@
       "method": "source-title"
     },
     "cvs-previous-years-p47-q20-174": {
-      "lecture_id": "pharmacology__drugs-used-in-heart-failure",
-      "subject": "Pharmacology",
-      "title": "Drugs used in Heart failure",
-      "confidence": 0.451,
-      "method": "objectives"
+      "lecture_id": "physiology__cardiac-output-and-its-control",
+      "subject": "Physiology",
+      "title": "Cardiac output and its control",
+      "confidence": 1,
+      "method": "manual-objective-audit",
+      "audit_reason": "Venous return/heart-rate/cardiac-output control matches cardiac output objectives"
     },
     "cvs-previous-years-p48-q22-176": {
       "lecture_id": "physiology__cardiac-automaticity-excitability-cardiac-conductivity",
@@ -3203,18 +3217,20 @@
       "method": "source-title"
     },
     "cvs-previous-years-p49-q25-179": {
-      "lecture_id": "pharmacology__drugs-used-in-heart-failure",
-      "subject": "Pharmacology",
-      "title": "Drugs used in Heart failure",
-      "confidence": 0.464,
-      "method": "objectives"
+      "lecture_id": "physiology__cardiac-contractility",
+      "subject": "Physiology",
+      "title": "Cardiac contractility",
+      "confidence": 1,
+      "method": "manual-objective-audit",
+      "audit_reason": "Heart as a Pump question matched to physiology objectives"
     },
     "cvs-previous-years-p49-q26-180": {
-      "lecture_id": "pharmacology__drugs-used-in-heart-failure",
-      "subject": "Pharmacology",
-      "title": "Drugs used in Heart failure",
-      "confidence": 0.43,
-      "method": "objectives"
+      "lecture_id": "physiology__cardiac-contractility",
+      "subject": "Physiology",
+      "title": "Cardiac contractility",
+      "confidence": 1,
+      "method": "manual-objective-audit",
+      "audit_reason": "Heart as a Pump question matched to physiology objectives"
     },
     "cvs-previous-years-p49-q27-181": {
       "lecture_id": "physiology__cardiac-output-and-its-control",
@@ -3399,11 +3415,12 @@
       "method": "source-title"
     },
     "cvs-previous-years-p58-q20-219": {
-      "lecture_id": "pharmacology__drugs-used-in-heart-failure",
-      "subject": "Pharmacology",
-      "title": "Drugs used in Heart failure",
-      "confidence": 0.448,
-      "method": "objectives"
+      "lecture_id": "physiology__cardiac-contractility",
+      "subject": "Physiology",
+      "title": "Cardiac contractility",
+      "confidence": 1,
+      "method": "manual-objective-audit",
+      "audit_reason": "Heart as a Pump question matched to physiology objectives"
     },
     "cvs-previous-years-p58-q17-220": {
       "lecture_id": "physiology__cardiac-contractility",
@@ -3665,11 +3682,12 @@
       "method": "source-title"
     },
     "cvs-previous-years-p73-q32-273": {
-      "lecture_id": "pharmacology__drugs-used-in-heart-failure",
-      "subject": "Pharmacology",
-      "title": "Drugs used in Heart failure",
-      "confidence": 0.646,
-      "method": "objectives"
+      "lecture_id": "physiology__cardiac-output-and-its-control",
+      "subject": "Physiology",
+      "title": "Cardiac output and its control",
+      "confidence": 1,
+      "method": "manual-objective-audit",
+      "audit_reason": "Venous return/heart-rate/cardiac-output control matches cardiac output objectives"
     },
     "cvs-previous-years-p73-q34-275": {
       "lecture_id": "physiology__cardiac-output-and-its-control",
@@ -3700,11 +3718,12 @@
       "method": "source-title"
     },
     "cvs-previous-years-p74-q38-279": {
-      "lecture_id": "pharmacology__drugs-used-in-heart-failure",
-      "subject": "Pharmacology",
-      "title": "Drugs used in Heart failure",
-      "confidence": 0.448,
-      "method": "objectives"
+      "lecture_id": "physiology__cardiac-contractility",
+      "subject": "Physiology",
+      "title": "Cardiac contractility",
+      "confidence": 1,
+      "method": "manual-objective-audit",
+      "audit_reason": "Heart as a Pump question matched to physiology objectives"
     },
     "cvs-previous-years-p76-q1-281": {
       "lecture_id": "biochemistry__disorders-of-plasma-lipoproteins",
@@ -3749,11 +3768,12 @@
       "method": "source-title"
     },
     "cvs-previous-years-p78-q12-291": {
-      "lecture_id": "pharmacology__drugs-used-in-heart-failure",
-      "subject": "Pharmacology",
-      "title": "Drugs used in Heart failure",
-      "confidence": 0.429,
-      "method": "objectives"
+      "lecture_id": "physiology__cardiac-contractility",
+      "subject": "Physiology",
+      "title": "Cardiac contractility",
+      "confidence": 1,
+      "method": "manual-objective-audit",
+      "audit_reason": "Heart as a Pump question matched to physiology objectives"
     },
     "cvs-previous-years-p78-q13-292": {
       "lecture_id": "physiology__regulation-of-abp-cv-centers-short-term-regulation",
@@ -3784,11 +3804,12 @@
       "method": "source-title"
     },
     "cvs-previous-years-p80-q18-297": {
-      "lecture_id": "pharmacology__drugs-used-in-heart-failure",
-      "subject": "Pharmacology",
-      "title": "Drugs used in Heart failure",
-      "confidence": 0.45,
-      "method": "objectives"
+      "lecture_id": "physiology__cardiac-output-and-its-control",
+      "subject": "Physiology",
+      "title": "Cardiac output and its control",
+      "confidence": 1,
+      "method": "manual-objective-audit",
+      "audit_reason": "Venous return/heart-rate/cardiac-output control matches cardiac output objectives"
     },
     "cvs-previous-years-p80-q19-298": {
       "lecture_id": "biochemistry__disorders-of-plasma-lipoproteins",
@@ -3882,11 +3903,12 @@
       "method": "source-title"
     },
     "cvs-previous-years-p86-q54-318": {
-      "lecture_id": "physiology__physiology-of-hemostasis",
-      "subject": "Physiology",
-      "title": "Physiology of Hemostasis",
-      "confidence": 0.412,
-      "method": "objectives"
+      "lecture_id": "pharmacology__antiplatelet-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiplatelet drugs",
+      "confidence": 1,
+      "method": "manual-objective-audit",
+      "audit_reason": "Antiplatelet drug mechanism objective"
     },
     "cvs-previous-years-p86-q57-321": {
       "lecture_id": "biochemistry__plasma-lipoproteins",
@@ -4484,25 +4506,28 @@
       "method": "source-title"
     },
     "cvs-previous-years-p127-q16-438": {
-      "lecture_id": "pharmacology__drugs-used-in-heart-failure",
-      "subject": "Pharmacology",
-      "title": "Drugs used in Heart failure",
-      "confidence": 0.532,
-      "method": "objectives"
+      "lecture_id": "physiology__cardiac-automaticity-excitability-cardiac-conductivity",
+      "subject": "Physiology",
+      "title": "Cardiac automaticity, excitability, cardiac conductivity",
+      "confidence": 1,
+      "method": "manual-objective-audit",
+      "audit_reason": "SAN autonomic effects belong to cardiac automaticity/conductivity"
     },
     "cvs-previous-years-p127-q17-439": {
-      "lecture_id": "pharmacology__drugs-used-in-heart-failure",
-      "subject": "Pharmacology",
-      "title": "Drugs used in Heart failure",
-      "confidence": 0.524,
-      "method": "objectives"
+      "lecture_id": "physiology__cardiac-contractility",
+      "subject": "Physiology",
+      "title": "Cardiac contractility",
+      "confidence": 1,
+      "method": "manual-objective-audit",
+      "audit_reason": "Heart as a Pump question matched to physiology objectives"
     },
     "cvs-previous-years-p127-q18-440": {
-      "lecture_id": "pharmacology__drugs-used-in-heart-failure",
-      "subject": "Pharmacology",
-      "title": "Drugs used in Heart failure",
-      "confidence": 0.45,
-      "method": "objectives"
+      "lecture_id": "physiology__cardiac-contractility",
+      "subject": "Physiology",
+      "title": "Cardiac contractility",
+      "confidence": 1,
+      "method": "manual-objective-audit",
+      "audit_reason": "Heart as a Pump question matched to physiology objectives"
     },
     "cvs-previous-years-p128-q19-441": {
       "lecture_id": "physiology__cardiac-automaticity-excitability-cardiac-conductivity",
@@ -4512,18 +4537,20 @@
       "method": "source-title"
     },
     "cvs-previous-years-p128-q20-442": {
-      "lecture_id": "pharmacology__drugs-used-in-heart-failure",
-      "subject": "Pharmacology",
-      "title": "Drugs used in Heart failure",
-      "confidence": 0.43,
-      "method": "objectives"
+      "lecture_id": "physiology__cardiac-contractility",
+      "subject": "Physiology",
+      "title": "Cardiac contractility",
+      "confidence": 1,
+      "method": "manual-objective-audit",
+      "audit_reason": "Heart as a Pump question matched to physiology objectives"
     },
     "cvs-previous-years-p128-q26-443": {
-      "lecture_id": "pharmacology__drugs-used-in-heart-failure",
-      "subject": "Pharmacology",
-      "title": "Drugs used in Heart failure",
-      "confidence": 0.505,
-      "method": "objectives"
+      "lecture_id": "physiology__cardiac-contractility",
+      "subject": "Physiology",
+      "title": "Cardiac contractility",
+      "confidence": 1,
+      "method": "manual-objective-audit",
+      "audit_reason": "Heart as a Pump question matched to physiology objectives"
     },
     "cvs-previous-years-p128-q27-444": {
       "lecture_id": "microbiology__autoimmune-diseases",
@@ -4631,11 +4658,12 @@
       "method": "source-title"
     },
     "cvs-previous-years-p135-q1-462": {
-      "lecture_id": "pharmacology__drugs-used-in-heart-failure",
-      "subject": "Pharmacology",
-      "title": "Drugs used in Heart failure",
-      "confidence": 0.449,
-      "method": "objectives"
+      "lecture_id": "physiology__physiology-of-microcirculation-and-cardiac-edema",
+      "subject": "Physiology",
+      "title": "Physiology of microcirculation and cardiac edema",
+      "confidence": 1,
+      "method": "manual-objective-audit",
+      "audit_reason": "Capillary hydrostatic pressure is a microcirculation/Starling-forces objective"
     },
     "cvs-previous-years-p135-q3-464": {
       "lecture_id": "physiology__regulation-of-abp-cv-centers-short-term-regulation",
@@ -5240,11 +5268,12 @@
       "method": "objectives"
     },
     "phys-ibls-q16-16": {
-      "lecture_id": "pharmacology__drugs-affecting-hemostasis",
-      "subject": "Pharmacology",
-      "title": "Drugs affecting hemostasis",
-      "confidence": 0.761,
-      "method": "objectives"
+      "lecture_id": "physiology__physiology-of-hemostasis",
+      "subject": "Physiology",
+      "title": "Physiology of Hemostasis",
+      "confidence": 1,
+      "method": "manual-objective-audit",
+      "audit_reason": "Coagulation pathway/bleeding-disorder physiology objective"
     },
     "phys-ibls-q17-17": {
       "lecture_id": "physiology__physiology-of-hemostasis",
@@ -5331,11 +5360,12 @@
       "method": "source-title"
     },
     "phys-cvs-q10-30": {
-      "lecture_id": "pharmacology__drugs-used-in-heart-failure",
-      "subject": "Pharmacology",
-      "title": "Drugs used in Heart failure",
-      "confidence": 0.445,
-      "method": "objectives"
+      "lecture_id": "physiology__cardiac-contractility",
+      "subject": "Physiology",
+      "title": "Cardiac contractility",
+      "confidence": 1,
+      "method": "manual-objective-audit",
+      "audit_reason": "Heart as a Pump question matched to physiology objectives"
     },
     "phys-cvs-q11-31": {
       "lecture_id": "physiology__cardiac-contractility",
@@ -5345,11 +5375,12 @@
       "method": "source-title"
     },
     "phys-cvs-q12-32": {
-      "lecture_id": "pharmacology__drugs-used-in-heart-failure",
-      "subject": "Pharmacology",
-      "title": "Drugs used in Heart failure",
-      "confidence": 0.464,
-      "method": "objectives"
+      "lecture_id": "physiology__cardiac-contractility",
+      "subject": "Physiology",
+      "title": "Cardiac contractility",
+      "confidence": 1,
+      "method": "manual-objective-audit",
+      "audit_reason": "Heart as a Pump question matched to physiology objectives"
     },
     "phys-cvs-q13-33": {
       "lecture_id": "physiology__cardiac-output-and-its-control",
@@ -5366,18 +5397,20 @@
       "method": "source-title"
     },
     "phys-cvs-q15-35": {
-      "lecture_id": "pharmacology__drugs-used-in-heart-failure",
-      "subject": "Pharmacology",
-      "title": "Drugs used in Heart failure",
-      "confidence": 0.448,
-      "method": "objectives"
+      "lecture_id": "physiology__cardiac-output-and-its-control",
+      "subject": "Physiology",
+      "title": "Cardiac output and its control",
+      "confidence": 1,
+      "method": "manual-objective-audit",
+      "audit_reason": "Venous return/heart-rate/cardiac-output control matches cardiac output objectives"
     },
     "phys-cvs-q16-36": {
-      "lecture_id": "pharmacology__drugs-used-in-heart-failure",
-      "subject": "Pharmacology",
-      "title": "Drugs used in Heart failure",
-      "confidence": 0.448,
-      "method": "objectives"
+      "lecture_id": "physiology__cardiac-output-and-its-control",
+      "subject": "Physiology",
+      "title": "Cardiac output and its control",
+      "confidence": 1,
+      "method": "manual-objective-audit",
+      "audit_reason": "Venous return/heart-rate/cardiac-output control matches cardiac output objectives"
     },
     "phys-cvs-q17-37": {
       "lecture_id": "physiology__physiological-organization-of-cvs",

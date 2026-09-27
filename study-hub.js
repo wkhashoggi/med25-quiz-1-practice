@@ -171,6 +171,30 @@ function hubSetupNavigation(){
 switchStudySection=hubSwitch;
 setupStudyNavigation=hubSetupNavigation;
 window.hubGo=hubGo;
+
+/* One dhikr only at the bottom of each question page. */
+const hubOriginalDhikrBox=typeof dhikrBox==='function'?dhikrBox:null;
+if(hubOriginalDhikrBox)dhikrBox=function(){return ''};
+function hubBottomDhikr(host,pageNumber,pageSize){
+  if(!host||!hubOriginalDhikrBox)return;
+  host.querySelectorAll('.dhikrbox').forEach(x=>x.remove());
+  const last=host.lastElementChild;
+  if(!last)return;
+  const n=Math.max(1,Number(pageNumber)||1)*Math.max(1,Number(pageSize)||20);
+  last.insertAdjacentHTML('beforebegin',hubOriginalDhikrBox(n));
+}
+const hubBasePastRender=render;
+render=function(){
+  const out=hubBasePastRender.apply(this,arguments);
+  hubBottomDhikr(document.getElementById('list'),state.page,state.pageSize);
+  return out;
+};
+const hubBaseAIRender=renderAI;
+renderAI=function(){
+  const out=hubBaseAIRender.apply(this,arguments);
+  hubBottomDhikr(document.getElementById('aiQuestionList'),aiState.page,aiState.pageSize);
+  return out;
+};
 const baseSave=save;
 save=function(){const r=baseSave.apply(this,arguments);try{renderHome()}catch{}return r};
 const baseFlashSave=saveFlashReview;

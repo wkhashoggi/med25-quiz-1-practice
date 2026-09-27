@@ -3,9 +3,8 @@
 'use strict';
 
 const LIVE_STATS_PREF='med25-show-live-success-v1';
-const LIVE_STATS_REFRESH_MS=300000;
-const LIVE_STATS_CACHE_KEY='med25-live-success-cache-v1';
-const LIVE_STATS_CACHE_TTL=120000;
+const LIVE_STATS_CACHE_KEY='med25-live-success-cache-v2';
+const LIVE_STATS_CACHE_TTL=24*60*60*1000;
 let liveQuestionStats={};
 let liveStatsLoading=false;
 
@@ -69,7 +68,7 @@ function syncLiveStatsToggles(){
 }
 function readStatsCache(){
   try{
-    const c=JSON.parse(sessionStorage.getItem(LIVE_STATS_CACHE_KEY)||'null');
+    const c=JSON.parse(localStorage.getItem(LIVE_STATS_CACHE_KEY)||'null');
     if(c&&Date.now()-Number(c.saved_at||0)<LIVE_STATS_CACHE_TTL&&c.stats&&typeof c.stats==='object'){
       liveQuestionStats=c.stats;
       return true;
@@ -78,7 +77,7 @@ function readStatsCache(){
   return false;
 }
 function writeStatsCache(){
-  try{sessionStorage.setItem(LIVE_STATS_CACHE_KEY,JSON.stringify({saved_at:Date.now(),stats:liveQuestionStats}))}catch{}
+  try{localStorage.setItem(LIVE_STATS_CACHE_KEY,JSON.stringify({saved_at:Date.now(),stats:liveQuestionStats}))}catch{}
 }
 async function loadQuestionSuccessStats(force=false){
   if(liveStatsLoading)return;
@@ -98,48 +97,20 @@ async function loadQuestionSuccessStats(force=false){
     liveStatsLoading=false;
   }
 }
-async function refreshOneQuestionStat(id){
-  if(!id)return;
-  try{
-    const res=await supaFetch('/rest/v1/question_success_stats?question_id=eq.'+encodeURIComponent(id)+'&select=question_id,correct_count,wrong_count,response_count,success_rate');
-    if(!res.ok)return;
-    const rows=await res.json();
-    if(rows[0])liveQuestionStats[id]=rows[0];
-    writeStatsCache();
-    const card=document.getElementById(id);
-    if(card)applyLiveQuestionStats(card.parentElement||document);
-  }catch(e){console.debug('Question success refresh unavailable',e)}
-}
-function scheduleStatsRefresh(id){
-  setTimeout(()=>refreshOneQuestionStat(id),1200);
-}
 function observeQuestionLists(){
-  const past=document.getElementById('list');
-  const ai=document.getElementById('aiQuestionList');
-  if(past){
-    const pastObs=new MutationObserver(()=>requestAnimationFrame(()=>applyLiveQuestionStats(past)));
-    pastObs.observe(past,{childList:true,subtree:false});
-  }
-  if(ai){
-    const aiObs=new MutationObserver(()=>requestAnimationFrame(()=>applyLiveQuestionStats(ai)));
-    aiObs.observe(ai,{childList:true,subtree:false});
-  }
-}
-function bindRefreshAfterAnswers(){
-  document.addEventListener('click',e=>{
-    const past=e.target.closest('.option[data-id]');
-    const ai=e.target.closest('[data-ai-answer]');
-    const id=past?.dataset.id||ai?.dataset.aiAnswer;
-    if(id)scheduleStatsRefresh(id);
-  },true);
+  const attach=(host)=>{
+    if(!host)return;
+    const obs=new MutationObserver(()=>requestAnimationFrame(()=>applyLiveQuestionStats(host)));
+    obs.observe(host,{childList:true,subtree:false});
+  };
+  attach(document.getElementById('list'));
+  attach(document.getElementById('aiQuestionList'));
 }
 window.loadQuestionSuccessStats=loadQuestionSuccessStats;
 window.applyLiveQuestionStats=applyLiveQuestionStats;
 
 installLiveStatsToggles();
 observeQuestionLists();
-bindRefreshAfterAnswers();
 loadQuestionSuccessStats(false);
-setInterval(()=>loadQuestionSuccessStats(true),LIVE_STATS_REFRESH_MS);
 setTimeout(()=>{installLiveStatsToggles();applyLiveQuestionStats()},1000);
 })();

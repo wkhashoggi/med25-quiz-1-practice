@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-27T09:24:31.913Z",
+  "generated_at": "2026-09-27T09:42:17.994Z",
   "source_root": {
     "id": "1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
     "url": "https://drive.google.com/drive/folders/1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
@@ -1001,6 +1001,1709 @@
             "SNS"
           ],
           "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "id": "drive_1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX",
+      "subject": "Physiology",
+      "title": "Intermediate and Long-Term Regulation of Arterial Blood Pressure",
+      "source_file_id": "1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX",
+      "source_url": "https://drive.google.com/file/d/1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX/view?usp=drivesdk",
+      "source_modified_time": "2026-09-22T21:08:55.644Z",
+      "archived": false,
+      "cards": [
+        {
+          "id": "1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX-c01",
+          "front": "What mainly controls long-term arterial pressure?",
+          "back": "Renal control of body fluid volume and sodium balance.",
+          "tags": [
+            "Physiology",
+            "Intermediate and Long-Term Regulation of Arterial Blood Pressure"
+          ],
+          "source_url": "https://drive.google.com/file/d/1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX/view?usp=drivesdk"
+        },
+        {
+          "id": "1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX-c02",
+          "front": "How does increased arterial pressure affect the kidneys?",
+          "back": "It increases pressure diuresis and pressure natriuresis, lowering blood volume and pressure.",
+          "tags": [
+            "Physiology",
+            "Intermediate and Long-Term Regulation of Arterial Blood Pressure"
+          ],
+          "source_url": "https://drive.google.com/file/d/1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX/view?usp=drivesdk"
+        },
+        {
+          "id": "1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX-c03",
+          "front": "What is pressure natriuresis?",
+          "back": "Increased renal sodium excretion caused by a rise in arterial pressure.",
+          "tags": [
+            "Physiology",
+            "Intermediate and Long-Term Regulation of Arterial Blood Pressure"
+          ],
+          "source_url": "https://drive.google.com/file/d/1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX/view?usp=drivesdk"
+        },
+        {
+          "id": "1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX-c04",
+          "front": "What is pressure diuresis?",
+          "back": "Increased renal water excretion caused by a rise in arterial pressure.",
+          "tags": [
+            "Physiology",
+            "Intermediate and Long-Term Regulation of Arterial Blood Pressure"
+          ],
+          "source_url": "https://drive.google.com/file/d/1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX/view?usp=drivesdk"
+        },
+        {
+          "id": "1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX-c05",
+          "front": "How does the renin-angiotensin system raise arterial pressure?",
+          "back": "Angiotensin II causes vasoconstriction and promotes renal sodium/water retention.",
+          "tags": [
+            "Physiology",
+            "Intermediate and Long-Term Regulation of Arterial Blood Pressure"
+          ],
+          "source_url": "https://drive.google.com/file/d/1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX/view?usp=drivesdk"
+        },
+        {
+          "id": "1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX-c06",
+          "front": "What triggers renin release?",
+          "back": "Reduced renal perfusion, low NaCl delivery to macula densa, and β1 sympathetic stimulation.",
+          "tags": [
+            "Physiology",
+            "Intermediate and Long-Term Regulation of Arterial Blood Pressure"
+          ],
+          "source_url": "https://drive.google.com/file/d/1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX/view?usp=drivesdk"
+        },
+        {
+          "id": "1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX-c07",
+          "front": "What does angiotensin II do to aldosterone?",
+          "back": "It stimulates aldosterone secretion, increasing distal sodium reabsorption.",
+          "tags": [
+            "Physiology",
+            "Intermediate and Long-Term Regulation of Arterial Blood Pressure"
+          ],
+          "source_url": "https://drive.google.com/file/d/1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX/view?usp=drivesdk"
+        },
+        {
+          "id": "1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX-c08",
+          "front": "How does aldosterone raise blood pressure?",
+          "back": "It increases renal sodium retention; water follows, increasing extracellular fluid and blood volume.",
+          "tags": [
+            "Physiology",
+            "Intermediate and Long-Term Regulation of Arterial Blood Pressure"
+          ],
+          "source_url": "https://drive.google.com/file/d/1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX/view?usp=drivesdk"
+        },
+        {
+          "id": "1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX-c09",
+          "front": "What is the role of ADH in blood-pressure regulation?",
+          "back": "It increases water reabsorption and, at high levels, can cause vasoconstriction.",
+          "tags": [
+            "Physiology",
+            "Intermediate and Long-Term Regulation of Arterial Blood Pressure"
+          ],
+          "source_url": "https://drive.google.com/file/d/1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX/view?usp=drivesdk"
+        },
+        {
+          "id": "1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX-c10",
+          "front": "What is the thirst mechanism's effect on blood pressure?",
+          "back": "It increases water intake, helping restore extracellular fluid and blood volume.",
+          "tags": [
+            "Physiology",
+            "Intermediate and Long-Term Regulation of Arterial Blood Pressure"
+          ],
+          "source_url": "https://drive.google.com/file/d/1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX/view?usp=drivesdk"
+        },
+        {
+          "id": "1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX-c11",
+          "front": "How does ANP oppose volume expansion?",
+          "back": "It promotes natriuresis and diuresis and inhibits renin/aldosterone effects.",
+          "tags": [
+            "Physiology",
+            "Intermediate and Long-Term Regulation of Arterial Blood Pressure"
+          ],
+          "source_url": "https://drive.google.com/file/d/1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX/view?usp=drivesdk"
+        },
+        {
+          "id": "1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX-c12",
+          "front": "Why are kidneys essential in chronic hypertension?",
+          "back": "Sustained hypertension requires a renal-fluid balance shift that permits pressure to remain elevated.",
+          "tags": [
+            "Physiology",
+            "Intermediate and Long-Term Regulation of Arterial Blood Pressure"
+          ],
+          "source_url": "https://drive.google.com/file/d/1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "id": "drive_1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9",
+      "subject": "Physiology",
+      "title": "Short-Term Regulation of Arterial Blood Pressure",
+      "source_file_id": "1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9",
+      "source_url": "https://drive.google.com/file/d/1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9/view?usp=drivesdk",
+      "source_modified_time": "2026-09-21T03:43:50.562Z",
+      "archived": false,
+      "cards": [
+        {
+          "id": "1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9-c01",
+          "front": "Where are the main arterial baroreceptors?",
+          "back": "Carotid sinus and aortic arch.",
+          "tags": [
+            "Physiology",
+            "Short-Term Regulation of Arterial Blood Pressure"
+          ],
+          "source_url": "https://drive.google.com/file/d/1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9/view?usp=drivesdk"
+        },
+        {
+          "id": "1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9-c02",
+          "front": "What happens to baroreceptor firing when blood pressure rises?",
+          "back": "Stretch increases firing to the medulla.",
+          "tags": [
+            "Physiology",
+            "Short-Term Regulation of Arterial Blood Pressure"
+          ],
+          "source_url": "https://drive.google.com/file/d/1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9/view?usp=drivesdk"
+        },
+        {
+          "id": "1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9-c03",
+          "front": "How does the baroreflex respond to high blood pressure?",
+          "back": "It decreases sympathetic and increases parasympathetic output, lowering heart rate, contractility, and vascular tone.",
+          "tags": [
+            "Physiology",
+            "Short-Term Regulation of Arterial Blood Pressure"
+          ],
+          "source_url": "https://drive.google.com/file/d/1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9/view?usp=drivesdk"
+        },
+        {
+          "id": "1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9-c04",
+          "front": "How does the baroreflex respond to a sudden fall in blood pressure?",
+          "back": "It increases sympathetic activity, causing tachycardia, increased contractility, and vasoconstriction.",
+          "tags": [
+            "Physiology",
+            "Short-Term Regulation of Arterial Blood Pressure"
+          ],
+          "source_url": "https://drive.google.com/file/d/1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9/view?usp=drivesdk"
+        },
+        {
+          "id": "1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9-c05",
+          "front": "Which cranial nerve carries carotid sinus afferents?",
+          "back": "Glossopharyngeal nerve (CN IX).",
+          "tags": [
+            "Physiology",
+            "Short-Term Regulation of Arterial Blood Pressure"
+          ],
+          "source_url": "https://drive.google.com/file/d/1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9/view?usp=drivesdk"
+        },
+        {
+          "id": "1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9-c06",
+          "front": "Which cranial nerve carries aortic arch baroreceptor afferents?",
+          "back": "Vagus nerve (CN X).",
+          "tags": [
+            "Physiology",
+            "Short-Term Regulation of Arterial Blood Pressure"
+          ],
+          "source_url": "https://drive.google.com/file/d/1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9/view?usp=drivesdk"
+        },
+        {
+          "id": "1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9-c07",
+          "front": "What is the main limitation of baroreceptors in chronic hypertension?",
+          "back": "They reset to the higher pressure and are mainly short-term regulators.",
+          "tags": [
+            "Physiology",
+            "Short-Term Regulation of Arterial Blood Pressure"
+          ],
+          "source_url": "https://drive.google.com/file/d/1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9/view?usp=drivesdk"
+        },
+        {
+          "id": "1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9-c08",
+          "front": "What do chemoreceptors respond to?",
+          "back": "Low O₂, high CO₂, and increased H⁺, especially when arterial pressure is low.",
+          "tags": [
+            "Physiology",
+            "Short-Term Regulation of Arterial Blood Pressure"
+          ],
+          "source_url": "https://drive.google.com/file/d/1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9/view?usp=drivesdk"
+        },
+        {
+          "id": "1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9-c09",
+          "front": "Where are peripheral chemoreceptors located?",
+          "back": "Carotid and aortic bodies.",
+          "tags": [
+            "Physiology",
+            "Short-Term Regulation of Arterial Blood Pressure"
+          ],
+          "source_url": "https://drive.google.com/file/d/1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9/view?usp=drivesdk"
+        },
+        {
+          "id": "1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9-c10",
+          "front": "What is the CNS ischemic response?",
+          "back": "A powerful sympathetic vasoconstrictor response to severe cerebral ischemia.",
+          "tags": [
+            "Physiology",
+            "Short-Term Regulation of Arterial Blood Pressure"
+          ],
+          "source_url": "https://drive.google.com/file/d/1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9/view?usp=drivesdk"
+        },
+        {
+          "id": "1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9-c11",
+          "front": "What is the Cushing response?",
+          "back": "Raised intracranial pressure causes cerebral ischemia → sympathetic hypertension, often with reflex bradycardia.",
+          "tags": [
+            "Physiology",
+            "Short-Term Regulation of Arterial Blood Pressure"
+          ],
+          "source_url": "https://drive.google.com/file/d/1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9/view?usp=drivesdk"
+        },
+        {
+          "id": "1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9-c12",
+          "front": "Which variable is rapidly altered to raise MAP during acute hypotension?",
+          "back": "Both cardiac output and total peripheral resistance are increased by sympathetic activation.",
+          "tags": [
+            "Physiology",
+            "Short-Term Regulation of Arterial Blood Pressure"
+          ],
+          "source_url": "https://drive.google.com/file/d/1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "id": "drive_1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg",
+      "subject": "Physiology",
+      "title": "Physiological Organization of the Cardiovascular System",
+      "source_file_id": "1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg",
+      "source_url": "https://docs.google.com/presentation/d/1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
+      "source_modified_time": "2026-09-19T21:11:44.192Z",
+      "archived": false,
+      "cards": [
+        {
+          "id": "1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg-c01",
+          "front": "What are the two major circulations?",
+          "back": "Systemic and pulmonary circulation.",
+          "tags": [
+            "Physiology",
+            "Physiological Organization of the Cardiovascular System"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg-c02",
+          "front": "Which side of the heart pumps into systemic circulation?",
+          "back": "The left ventricle.",
+          "tags": [
+            "Physiology",
+            "Physiological Organization of the Cardiovascular System"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg-c03",
+          "front": "Which side of the heart pumps into pulmonary circulation?",
+          "back": "The right ventricle.",
+          "tags": [
+            "Physiology",
+            "Physiological Organization of the Cardiovascular System"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg-c04",
+          "front": "Why is pulmonary arterial pressure lower than systemic arterial pressure?",
+          "back": "Pulmonary vascular resistance is much lower.",
+          "tags": [
+            "Physiology",
+            "Physiological Organization of the Cardiovascular System"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg-c05",
+          "front": "What is cardiac output?",
+          "back": "Heart rate × stroke volume.",
+          "tags": [
+            "Physiology",
+            "Physiological Organization of the Cardiovascular System"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg-c06",
+          "front": "What is stroke volume?",
+          "back": "End-diastolic volume − end-systolic volume.",
+          "tags": [
+            "Physiology",
+            "Physiological Organization of the Cardiovascular System"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg-c07",
+          "front": "What is ejection fraction?",
+          "back": "Stroke volume ÷ end-diastolic volume × 100%.",
+          "tags": [
+            "Physiology",
+            "Physiological Organization of the Cardiovascular System"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg-c08",
+          "front": "What is mean arterial pressure approximately equal to?",
+          "back": "Cardiac output × total peripheral resistance.",
+          "tags": [
+            "Physiology",
+            "Physiological Organization of the Cardiovascular System"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg-c09",
+          "front": "Where is most blood volume stored at rest?",
+          "back": "Systemic veins and venules; they act as capacitance vessels.",
+          "tags": [
+            "Physiology",
+            "Physiological Organization of the Cardiovascular System"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg-c10",
+          "front": "Which vessels are the main resistance vessels?",
+          "back": "Arterioles.",
+          "tags": [
+            "Physiology",
+            "Physiological Organization of the Cardiovascular System"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg-c11",
+          "front": "Why is blood velocity lowest in capillaries?",
+          "back": "Capillaries have the greatest total cross-sectional area.",
+          "tags": [
+            "Physiology",
+            "Physiological Organization of the Cardiovascular System"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg-c12",
+          "front": "What is the main function of capillaries?",
+          "back": "Exchange of gases, nutrients, fluid, and wastes between blood and tissues.",
+          "tags": [
+            "Physiology",
+            "Physiological Organization of the Cardiovascular System"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        }
+      ]
+    },
+    {
+      "id": "drive_13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0",
+      "subject": "Physiology",
+      "title": "Coronary Circulation",
+      "source_file_id": "13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0",
+      "source_url": "https://docs.google.com/presentation/d/13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
+      "source_modified_time": "2026-09-15T06:52:31.809Z",
+      "archived": false,
+      "cards": [
+        {
+          "id": "13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0-c01",
+          "front": "When does most left coronary blood flow occur?",
+          "back": "During diastole.",
+          "tags": [
+            "Physiology",
+            "Coronary Circulation"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0-c02",
+          "front": "Why is left coronary flow reduced during systole?",
+          "back": "Contracting myocardium compresses intramyocardial vessels.",
+          "tags": [
+            "Physiology",
+            "Coronary Circulation"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0-c03",
+          "front": "What is the main local regulator of coronary blood flow?",
+          "back": "Myocardial metabolic demand, especially local vasodilator metabolites such as adenosine.",
+          "tags": [
+            "Physiology",
+            "Coronary Circulation"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0-c04",
+          "front": "How much oxygen does the myocardium normally extract from coronary blood?",
+          "back": "A high fraction at rest, so increased demand is met mainly by increasing coronary flow.",
+          "tags": [
+            "Physiology",
+            "Coronary Circulation"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0-c05",
+          "front": "What strongly increases coronary blood flow during exercise?",
+          "back": "Increased myocardial metabolism and local vasodilation.",
+          "tags": [
+            "Physiology",
+            "Coronary Circulation"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0-c06",
+          "front": "What does coronary perfusion pressure mainly depend on?",
+          "back": "Aortic diastolic pressure minus ventricular pressure.",
+          "tags": [
+            "Physiology",
+            "Coronary Circulation"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0-c07",
+          "front": "Why can tachycardia reduce coronary perfusion?",
+          "back": "It shortens diastole, the main period of left coronary flow.",
+          "tags": [
+            "Physiology",
+            "Coronary Circulation"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0-c08",
+          "front": "Which coronary artery commonly supplies the AV node in right-dominant circulation?",
+          "back": "Right coronary artery.",
+          "tags": [
+            "Physiology",
+            "Coronary Circulation"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0-c09",
+          "front": "What is coronary flow reserve?",
+          "back": "The ability of coronary circulation to increase flow above resting levels.",
+          "tags": [
+            "Physiology",
+            "Coronary Circulation"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0-c10",
+          "front": "What causes functional hyperemia in the heart?",
+          "back": "Increased cardiac work raises metabolites, producing coronary vasodilation.",
+          "tags": [
+            "Physiology",
+            "Coronary Circulation"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0-c11",
+          "front": "Why is subendocardium especially vulnerable to ischemia?",
+          "back": "It experiences greatest systolic compression and high oxygen demand.",
+          "tags": [
+            "Physiology",
+            "Coronary Circulation"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0-c12",
+          "front": "What is autoregulation of coronary flow?",
+          "back": "Maintenance of relatively stable flow across a range of perfusion pressures via local vascular adjustments.",
+          "tags": [
+            "Physiology",
+            "Coronary Circulation"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        }
+      ]
+    },
+    {
+      "id": "drive_1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2",
+      "subject": "Physiology",
+      "title": "Cardiac Excitability and Automaticity",
+      "source_file_id": "1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2",
+      "source_url": "https://drive.google.com/file/d/1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2/view?usp=drivesdk",
+      "source_modified_time": "2026-09-13T14:50:48.000Z",
+      "archived": false,
+      "cards": [
+        {
+          "id": "1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2-c01",
+          "front": "What gives SA nodal cells automaticity?",
+          "back": "Their membrane potential slowly depolarizes spontaneously during phase 4.",
+          "tags": [
+            "Physiology",
+            "Cardiac Excitability and Automaticity"
+          ],
+          "source_url": "https://drive.google.com/file/d/1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2/view?usp=drivesdk"
+        },
+        {
+          "id": "1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2-c02",
+          "front": "What ion current contributes to pacemaker phase 4 depolarization?",
+          "back": "The funny current (If), with inward Na⁺ current, plus Ca²⁺ entry.",
+          "tags": [
+            "Physiology",
+            "Cardiac Excitability and Automaticity"
+          ],
+          "source_url": "https://drive.google.com/file/d/1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2/view?usp=drivesdk"
+        },
+        {
+          "id": "1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2-c03",
+          "front": "What causes the upstroke of the SA-node action potential?",
+          "back": "Ca²⁺ influx through L-type calcium channels.",
+          "tags": [
+            "Physiology",
+            "Cardiac Excitability and Automaticity"
+          ],
+          "source_url": "https://drive.google.com/file/d/1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2/view?usp=drivesdk"
+        },
+        {
+          "id": "1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2-c04",
+          "front": "What causes repolarization in SA nodal cells?",
+          "back": "K⁺ efflux.",
+          "tags": [
+            "Physiology",
+            "Cardiac Excitability and Automaticity"
+          ],
+          "source_url": "https://drive.google.com/file/d/1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2/view?usp=drivesdk"
+        },
+        {
+          "id": "1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2-c05",
+          "front": "What causes phase 0 in ventricular myocytes?",
+          "back": "Rapid Na⁺ influx through fast sodium channels.",
+          "tags": [
+            "Physiology",
+            "Cardiac Excitability and Automaticity"
+          ],
+          "source_url": "https://drive.google.com/file/d/1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2/view?usp=drivesdk"
+        },
+        {
+          "id": "1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2-c06",
+          "front": "What causes the plateau phase of ventricular action potential?",
+          "back": "Balance between L-type Ca²⁺ influx and K⁺ efflux.",
+          "tags": [
+            "Physiology",
+            "Cardiac Excitability and Automaticity"
+          ],
+          "source_url": "https://drive.google.com/file/d/1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2/view?usp=drivesdk"
+        },
+        {
+          "id": "1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2-c07",
+          "front": "Why is the cardiac refractory period long?",
+          "back": "The plateau prolongs the action potential, preventing tetanic contraction.",
+          "tags": [
+            "Physiology",
+            "Cardiac Excitability and Automaticity"
+          ],
+          "source_url": "https://drive.google.com/file/d/1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2/view?usp=drivesdk"
+        },
+        {
+          "id": "1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2-c08",
+          "front": "What is the normal dominant pacemaker?",
+          "back": "SA node, because it has the fastest spontaneous firing rate.",
+          "tags": [
+            "Physiology",
+            "Cardiac Excitability and Automaticity"
+          ],
+          "source_url": "https://drive.google.com/file/d/1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2/view?usp=drivesdk"
+        },
+        {
+          "id": "1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2-c09",
+          "front": "What happens to SA-node firing with sympathetic stimulation?",
+          "back": "β1 stimulation steepens phase 4 depolarization, increasing heart rate.",
+          "tags": [
+            "Physiology",
+            "Cardiac Excitability and Automaticity"
+          ],
+          "source_url": "https://drive.google.com/file/d/1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2/view?usp=drivesdk"
+        },
+        {
+          "id": "1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2-c10",
+          "front": "What happens to SA-node firing with vagal stimulation?",
+          "back": "ACh increases K⁺ conductance and reduces cAMP, slowing pacemaker depolarization.",
+          "tags": [
+            "Physiology",
+            "Cardiac Excitability and Automaticity"
+          ],
+          "source_url": "https://drive.google.com/file/d/1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2/view?usp=drivesdk"
+        },
+        {
+          "id": "1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2-c11",
+          "front": "Why is AV nodal conduction slow?",
+          "back": "Small fibers and Ca²⁺-dependent depolarization create slow conduction.",
+          "tags": [
+            "Physiology",
+            "Cardiac Excitability and Automaticity"
+          ],
+          "source_url": "https://drive.google.com/file/d/1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2/view?usp=drivesdk"
+        },
+        {
+          "id": "1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2-c12",
+          "front": "What is the physiological purpose of AV nodal delay?",
+          "back": "It allows atrial contraction to complete ventricular filling before ventricular systole.",
+          "tags": [
+            "Physiology",
+            "Cardiac Excitability and Automaticity"
+          ],
+          "source_url": "https://drive.google.com/file/d/1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "id": "drive_1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS",
+      "subject": "Physiology",
+      "title": "Hemostasis Disorders and Anticoagulants",
+      "source_file_id": "1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS",
+      "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk",
+      "source_modified_time": "2026-09-03T16:22:54.000Z",
+      "archived": false,
+      "cards": [
+        {
+          "id": "1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS-c01",
+          "front": "What does PT mainly assess?",
+          "back": "Extrinsic and common coagulation pathways.",
+          "tags": [
+            "Physiology",
+            "Hemostasis Disorders and Anticoagulants"
+          ],
+          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk"
+        },
+        {
+          "id": "1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS-c02",
+          "front": "Which factor is especially reflected by PT?",
+          "back": "Factor VII, plus common-pathway factors X, V, II, and fibrinogen.",
+          "tags": [
+            "Physiology",
+            "Hemostasis Disorders and Anticoagulants"
+          ],
+          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk"
+        },
+        {
+          "id": "1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS-c03",
+          "front": "What does aPTT mainly assess?",
+          "back": "Intrinsic and common coagulation pathways.",
+          "tags": [
+            "Physiology",
+            "Hemostasis Disorders and Anticoagulants"
+          ],
+          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk"
+        },
+        {
+          "id": "1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS-c04",
+          "front": "Which factors are assessed by aPTT but not PT?",
+          "back": "Factors XII, XI, IX, and VIII.",
+          "tags": [
+            "Physiology",
+            "Hemostasis Disorders and Anticoagulants"
+          ],
+          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk"
+        },
+        {
+          "id": "1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS-c05",
+          "front": "What pattern is typical of hemophilia A?",
+          "back": "Prolonged aPTT with normal PT and normal platelet count.",
+          "tags": [
+            "Physiology",
+            "Hemostasis Disorders and Anticoagulants"
+          ],
+          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk"
+        },
+        {
+          "id": "1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS-c06",
+          "front": "What is hemophilia A caused by?",
+          "back": "Factor VIII deficiency.",
+          "tags": [
+            "Physiology",
+            "Hemostasis Disorders and Anticoagulants"
+          ],
+          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk"
+        },
+        {
+          "id": "1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS-c07",
+          "front": "What is hemophilia B caused by?",
+          "back": "Factor IX deficiency.",
+          "tags": [
+            "Physiology",
+            "Hemostasis Disorders and Anticoagulants"
+          ],
+          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk"
+        },
+        {
+          "id": "1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS-c08",
+          "front": "What is the typical lab pattern in vitamin K deficiency?",
+          "back": "PT rises first because factor VII has the shortest half-life.",
+          "tags": [
+            "Physiology",
+            "Hemostasis Disorders and Anticoagulants"
+          ],
+          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk"
+        },
+        {
+          "id": "1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS-c09",
+          "front": "What is DIC?",
+          "back": "Systemic coagulation activation causing microthrombi, consumption of platelets/factors, and bleeding.",
+          "tags": [
+            "Physiology",
+            "Hemostasis Disorders and Anticoagulants"
+          ],
+          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk"
+        },
+        {
+          "id": "1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS-c10",
+          "front": "What happens to fibrinogen and D-dimer in DIC?",
+          "back": "Fibrinogen decreases; D-dimer increases.",
+          "tags": [
+            "Physiology",
+            "Hemostasis Disorders and Anticoagulants"
+          ],
+          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk"
+        },
+        {
+          "id": "1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS-c11",
+          "front": "How does heparin produce anticoagulation?",
+          "back": "It potentiates antithrombin, especially inhibiting thrombin and factor Xa.",
+          "tags": [
+            "Physiology",
+            "Hemostasis Disorders and Anticoagulants"
+          ],
+          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk"
+        },
+        {
+          "id": "1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS-c12",
+          "front": "How does warfarin produce anticoagulation?",
+          "back": "It inhibits vitamin K epoxide reductase, reducing synthesis of factors II, VII, IX, X and proteins C/S.",
+          "tags": [
+            "Physiology",
+            "Hemostasis Disorders and Anticoagulants"
+          ],
+          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "id": "drive_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK",
+      "subject": "Physiology",
+      "title": "Physiology of White Blood Cells",
+      "source_file_id": "1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK",
+      "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
+      "source_modified_time": "2026-09-03T16:22:50.000Z",
+      "archived": false,
+      "cards": [
+        {
+          "id": "1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK-c01",
+          "front": "Which WBC is usually most abundant in peripheral blood?",
+          "back": "Neutrophils.",
+          "tags": [
+            "Physiology",
+            "Physiology of White Blood Cells"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK-c02",
+          "front": "What is the main function of neutrophils?",
+          "back": "Rapid phagocytosis and killing of bacteria, especially in acute inflammation.",
+          "tags": [
+            "Physiology",
+            "Physiology of White Blood Cells"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK-c03",
+          "front": "What is the main function of eosinophils?",
+          "back": "Defense against parasites and participation in allergic reactions.",
+          "tags": [
+            "Physiology",
+            "Physiology of White Blood Cells"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK-c04",
+          "front": "What is the main function of basophils?",
+          "back": "Release histamine and other mediators in immediate hypersensitivity.",
+          "tags": [
+            "Physiology",
+            "Physiology of White Blood Cells"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK-c05",
+          "front": "What do monocytes become in tissues?",
+          "back": "Macrophages.",
+          "tags": [
+            "Physiology",
+            "Physiology of White Blood Cells"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK-c06",
+          "front": "What is diapedesis?",
+          "back": "Movement of leukocytes through vessel walls into tissues.",
+          "tags": [
+            "Physiology",
+            "Physiology of White Blood Cells"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK-c07",
+          "front": "What is chemotaxis?",
+          "back": "Directed leukocyte movement toward a chemical attractant.",
+          "tags": [
+            "Physiology",
+            "Physiology of White Blood Cells"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK-c08",
+          "front": "What is opsonization?",
+          "back": "Coating a target to enhance phagocytosis, commonly by IgG or C3b.",
+          "tags": [
+            "Physiology",
+            "Physiology of White Blood Cells"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK-c09",
+          "front": "Which leukocytes mediate adaptive humoral immunity?",
+          "back": "B lymphocytes and plasma cells.",
+          "tags": [
+            "Physiology",
+            "Physiology of White Blood Cells"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK-c10",
+          "front": "Which leukocytes mediate adaptive cellular immunity?",
+          "back": "T lymphocytes.",
+          "tags": [
+            "Physiology",
+            "Physiology of White Blood Cells"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK-c11",
+          "front": "What is leukocytosis?",
+          "back": "An increase in total circulating white blood cell count.",
+          "tags": [
+            "Physiology",
+            "Physiology of White Blood Cells"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK-c12",
+          "front": "Why can neutrophilia accompany acute bacterial infection?",
+          "back": "Bone marrow release and mobilization of neutrophils increase in response to inflammatory signals.",
+          "tags": [
+            "Physiology",
+            "Physiology of White Blood Cells"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        }
+      ]
+    },
+    {
+      "id": "drive_1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn",
+      "subject": "Physiology",
+      "title": "Hemostasis I",
+      "source_file_id": "1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn",
+      "source_url": "https://docs.google.com/presentation/d/1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
+      "source_modified_time": "2026-09-03T16:22:46.000Z",
+      "archived": false,
+      "cards": [
+        {
+          "id": "1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn-c01",
+          "front": "What are the main stages of hemostasis?",
+          "back": "Vasoconstriction, platelet plug formation, coagulation, and clot stabilization/removal.",
+          "tags": [
+            "Physiology",
+            "Hemostasis I"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn-c02",
+          "front": "What initiates platelet adhesion at damaged endothelium?",
+          "back": "Exposure of subendothelial collagen and von Willebrand factor.",
+          "tags": [
+            "Physiology",
+            "Hemostasis I"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn-c03",
+          "front": "Which platelet receptor binds vWF?",
+          "back": "GPIb.",
+          "tags": [
+            "Physiology",
+            "Hemostasis I"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn-c04",
+          "front": "Which platelet receptor mediates aggregation via fibrinogen?",
+          "back": "GPIIb/IIIa.",
+          "tags": [
+            "Physiology",
+            "Hemostasis I"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn-c05",
+          "front": "What do activated platelets release to recruit more platelets?",
+          "back": "ADP and thromboxane A₂, among other mediators.",
+          "tags": [
+            "Physiology",
+            "Hemostasis I"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn-c06",
+          "front": "What is the role of thromboxane A₂?",
+          "back": "Promotes platelet aggregation and vasoconstriction.",
+          "tags": [
+            "Physiology",
+            "Hemostasis I"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn-c07",
+          "front": "What begins the extrinsic coagulation pathway?",
+          "back": "Tissue factor exposure activates factor VII.",
+          "tags": [
+            "Physiology",
+            "Hemostasis I"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn-c08",
+          "front": "What is the key convergence point of coagulation pathways?",
+          "back": "Activation of factor X to Xa.",
+          "tags": [
+            "Physiology",
+            "Hemostasis I"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn-c09",
+          "front": "What does factor Xa do in the prothrombinase complex?",
+          "back": "Converts prothrombin (II) to thrombin (IIa).",
+          "tags": [
+            "Physiology",
+            "Hemostasis I"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn-c10",
+          "front": "What does thrombin do to fibrinogen?",
+          "back": "Converts fibrinogen to fibrin.",
+          "tags": [
+            "Physiology",
+            "Hemostasis I"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn-c11",
+          "front": "What is the role of factor XIII?",
+          "back": "Cross-links fibrin, stabilizing the clot.",
+          "tags": [
+            "Physiology",
+            "Hemostasis I"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn-c12",
+          "front": "How is fibrin removed after healing?",
+          "back": "Plasmin degrades fibrin during fibrinolysis.",
+          "tags": [
+            "Physiology",
+            "Hemostasis I"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        }
+      ]
+    },
+    {
+      "id": "drive_14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn",
+      "subject": "Physiology",
+      "title": "Anemias and Polycythemia",
+      "source_file_id": "14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn",
+      "source_url": "https://docs.google.com/presentation/d/14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
+      "source_modified_time": "2026-09-03T14:27:58.000Z",
+      "archived": false,
+      "cards": [
+        {
+          "id": "14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn-c01",
+          "front": "What is anemia physiologically?",
+          "back": "Reduced oxygen-carrying capacity of blood, usually from low hemoglobin.",
+          "tags": [
+            "Physiology",
+            "Anemias and Polycythemia"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn-c02",
+          "front": "How does anemia affect blood viscosity?",
+          "back": "It lowers viscosity.",
+          "tags": [
+            "Physiology",
+            "Anemias and Polycythemia"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn-c03",
+          "front": "Why can cardiac output increase in anemia?",
+          "back": "Lower viscosity reduces resistance and tissue hypoxia promotes vasodilation and sympathetic compensation.",
+          "tags": [
+            "Physiology",
+            "Anemias and Polycythemia"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn-c04",
+          "front": "What is microcytic anemia commonly associated with?",
+          "back": "Iron deficiency or impaired hemoglobin synthesis.",
+          "tags": [
+            "Physiology",
+            "Anemias and Polycythemia"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn-c05",
+          "front": "What is macrocytic/megaloblastic anemia commonly associated with?",
+          "back": "Vitamin B12 or folate deficiency.",
+          "tags": [
+            "Physiology",
+            "Anemias and Polycythemia"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn-c06",
+          "front": "What is hemolytic anemia?",
+          "back": "Anemia due to premature destruction of RBCs.",
+          "tags": [
+            "Physiology",
+            "Anemias and Polycythemia"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn-c07",
+          "front": "What is polycythemia?",
+          "back": "An abnormal increase in RBC mass/hematocrit.",
+          "tags": [
+            "Physiology",
+            "Anemias and Polycythemia"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn-c08",
+          "front": "What is primary polycythemia?",
+          "back": "Polycythemia vera: autonomous marrow RBC production, usually with low EPO.",
+          "tags": [
+            "Physiology",
+            "Anemias and Polycythemia"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn-c09",
+          "front": "What is secondary polycythemia?",
+          "back": "Increased RBC production driven by elevated EPO, commonly from hypoxia.",
+          "tags": [
+            "Physiology",
+            "Anemias and Polycythemia"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn-c10",
+          "front": "How does polycythemia affect blood viscosity?",
+          "back": "It increases viscosity, which can slow blood flow and raise vascular resistance.",
+          "tags": [
+            "Physiology",
+            "Anemias and Polycythemia"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn-c11",
+          "front": "Why does high altitude cause secondary polycythemia?",
+          "back": "Chronic hypoxemia stimulates renal EPO production.",
+          "tags": [
+            "Physiology",
+            "Anemias and Polycythemia"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn-c12",
+          "front": "What happens to EPO in polycythemia vera vs hypoxic polycythemia?",
+          "back": "Low in polycythemia vera; high in hypoxia-driven secondary polycythemia.",
+          "tags": [
+            "Physiology",
+            "Anemias and Polycythemia"
+          ],
+          "source_url": "https://docs.google.com/presentation/d/14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        }
+      ]
+    },
+    {
+      "id": "drive_1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov",
+      "subject": "Biochemistry",
+      "title": "Cholesterol Metabolism",
+      "source_file_id": "1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov",
+      "source_url": "https://drive.google.com/file/d/1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov/view?usp=drivesdk",
+      "source_modified_time": "2026-09-07T18:33:38.568Z",
+      "archived": false,
+      "cards": [
+        {
+          "id": "1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov-c01",
+          "front": "What is the rate-limiting enzyme of cholesterol synthesis?",
+          "back": "HMG-CoA reductase.",
+          "tags": [
+            "Biochemistry",
+            "Cholesterol Metabolism"
+          ],
+          "source_url": "https://drive.google.com/file/d/1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov/view?usp=drivesdk"
+        },
+        {
+          "id": "1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov-c02",
+          "front": "Where does cholesterol synthesis mainly occur?",
+          "back": "Especially liver; synthesis occurs in the cytosol and smooth ER.",
+          "tags": [
+            "Biochemistry",
+            "Cholesterol Metabolism"
+          ],
+          "source_url": "https://drive.google.com/file/d/1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov/view?usp=drivesdk"
+        },
+        {
+          "id": "1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov-c03",
+          "front": "What does HMG-CoA reductase convert?",
+          "back": "HMG-CoA to mevalonate.",
+          "tags": [
+            "Biochemistry",
+            "Cholesterol Metabolism"
+          ],
+          "source_url": "https://drive.google.com/file/d/1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov/view?usp=drivesdk"
+        },
+        {
+          "id": "1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov-c04",
+          "front": "How does high intracellular cholesterol affect HMG-CoA reductase?",
+          "back": "It suppresses cholesterol synthesis by downregulating the enzyme.",
+          "tags": [
+            "Biochemistry",
+            "Cholesterol Metabolism"
+          ],
+          "source_url": "https://drive.google.com/file/d/1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov/view?usp=drivesdk"
+        },
+        {
+          "id": "1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov-c05",
+          "front": "How does insulin affect HMG-CoA reductase?",
+          "back": "It promotes the active dephosphorylated state and favors cholesterol synthesis.",
+          "tags": [
+            "Biochemistry",
+            "Cholesterol Metabolism"
+          ],
+          "source_url": "https://drive.google.com/file/d/1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov/view?usp=drivesdk"
+        },
+        {
+          "id": "1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov-c06",
+          "front": "How does glucagon affect HMG-CoA reductase?",
+          "back": "It favors phosphorylation and inhibition of the enzyme.",
+          "tags": [
+            "Biochemistry",
+            "Cholesterol Metabolism"
+          ],
+          "source_url": "https://drive.google.com/file/d/1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov/view?usp=drivesdk"
+        },
+        {
+          "id": "1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov-c07",
+          "front": "What drugs directly inhibit HMG-CoA reductase?",
+          "back": "Statins.",
+          "tags": [
+            "Biochemistry",
+            "Cholesterol Metabolism"
+          ],
+          "source_url": "https://drive.google.com/file/d/1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov/view?usp=drivesdk"
+        },
+        {
+          "id": "1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov-c08",
+          "front": "What are major uses of cholesterol in the body?",
+          "back": "Membranes, steroid hormones, bile acids, and vitamin D.",
+          "tags": [
+            "Biochemistry",
+            "Cholesterol Metabolism"
+          ],
+          "source_url": "https://drive.google.com/file/d/1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov/view?usp=drivesdk"
+        },
+        {
+          "id": "1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov-c09",
+          "front": "What is the main route of cholesterol elimination?",
+          "back": "Conversion to bile acids and secretion of cholesterol/bile acids in bile.",
+          "tags": [
+            "Biochemistry",
+            "Cholesterol Metabolism"
+          ],
+          "source_url": "https://drive.google.com/file/d/1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov/view?usp=drivesdk"
+        },
+        {
+          "id": "1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov-c10",
+          "front": "What is the rate-limiting enzyme of bile acid synthesis?",
+          "back": "Cholesterol 7α-hydroxylase.",
+          "tags": [
+            "Biochemistry",
+            "Cholesterol Metabolism"
+          ],
+          "source_url": "https://drive.google.com/file/d/1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov/view?usp=drivesdk"
+        },
+        {
+          "id": "1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov-c11",
+          "front": "How does LDL deliver cholesterol to cells?",
+          "back": "ApoB-100 binds LDL receptors, leading to receptor-mediated endocytosis.",
+          "tags": [
+            "Biochemistry",
+            "Cholesterol Metabolism"
+          ],
+          "source_url": "https://drive.google.com/file/d/1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov/view?usp=drivesdk"
+        },
+        {
+          "id": "1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov-c12",
+          "front": "How does cellular cholesterol affect LDL receptors?",
+          "back": "High intracellular cholesterol reduces LDL-receptor expression.",
+          "tags": [
+            "Biochemistry",
+            "Cholesterol Metabolism"
+          ],
+          "source_url": "https://drive.google.com/file/d/1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "id": "drive_1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs",
+      "subject": "Biochemistry",
+      "title": "Heme Catabolism and Bilirubin",
+      "source_file_id": "1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs",
+      "source_url": "https://drive.google.com/file/d/1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs/view?usp=drivesdk",
+      "source_modified_time": "2026-08-31T22:58:35.111Z",
+      "archived": false,
+      "cards": [
+        {
+          "id": "1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs-c01",
+          "front": "Where are senescent RBCs mainly removed?",
+          "back": "Reticuloendothelial macrophages, especially spleen, liver, and bone marrow.",
+          "tags": [
+            "Biochemistry",
+            "Heme Catabolism and Bilirubin"
+          ],
+          "source_url": "https://drive.google.com/file/d/1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs/view?usp=drivesdk"
+        },
+        {
+          "id": "1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs-c02",
+          "front": "What enzyme opens the heme ring?",
+          "back": "Heme oxygenase.",
+          "tags": [
+            "Biochemistry",
+            "Heme Catabolism and Bilirubin"
+          ],
+          "source_url": "https://drive.google.com/file/d/1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs/view?usp=drivesdk"
+        },
+        {
+          "id": "1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs-c03",
+          "front": "What is the first colored product of heme breakdown?",
+          "back": "Biliverdin.",
+          "tags": [
+            "Biochemistry",
+            "Heme Catabolism and Bilirubin"
+          ],
+          "source_url": "https://drive.google.com/file/d/1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs/view?usp=drivesdk"
+        },
+        {
+          "id": "1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs-c04",
+          "front": "What converts biliverdin to bilirubin?",
+          "back": "Biliverdin reductase.",
+          "tags": [
+            "Biochemistry",
+            "Heme Catabolism and Bilirubin"
+          ],
+          "source_url": "https://drive.google.com/file/d/1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs/view?usp=drivesdk"
+        },
+        {
+          "id": "1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs-c05",
+          "front": "How is unconjugated bilirubin transported in plasma?",
+          "back": "Bound to albumin.",
+          "tags": [
+            "Biochemistry",
+            "Heme Catabolism and Bilirubin"
+          ],
+          "source_url": "https://drive.google.com/file/d/1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs/view?usp=drivesdk"
+        },
+        {
+          "id": "1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs-c06",
+          "front": "Why is unconjugated bilirubin not excreted in urine?",
+          "back": "It is water-insoluble and albumin-bound.",
+          "tags": [
+            "Biochemistry",
+            "Heme Catabolism and Bilirubin"
+          ],
+          "source_url": "https://drive.google.com/file/d/1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs/view?usp=drivesdk"
+        },
+        {
+          "id": "1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs-c07",
+          "front": "What enzyme conjugates bilirubin in the liver?",
+          "back": "UDP-glucuronyl transferase.",
+          "tags": [
+            "Biochemistry",
+            "Heme Catabolism and Bilirubin"
+          ],
+          "source_url": "https://drive.google.com/file/d/1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs/view?usp=drivesdk"
+        },
+        {
+          "id": "1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs-c08",
+          "front": "What happens to conjugated bilirubin after secretion into bile?",
+          "back": "Gut bacteria convert it to urobilinogen.",
+          "tags": [
+            "Biochemistry",
+            "Heme Catabolism and Bilirubin"
+          ],
+          "source_url": "https://drive.google.com/file/d/1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs/view?usp=drivesdk"
+        },
+        {
+          "id": "1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs-c09",
+          "front": "What gives stool its brown color?",
+          "back": "Stercobilin, derived from urobilinogen.",
+          "tags": [
+            "Biochemistry",
+            "Heme Catabolism and Bilirubin"
+          ],
+          "source_url": "https://drive.google.com/file/d/1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs/view?usp=drivesdk"
+        },
+        {
+          "id": "1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs-c10",
+          "front": "What gives urine its yellow color?",
+          "back": "Urobilin, derived from urobilinogen.",
+          "tags": [
+            "Biochemistry",
+            "Heme Catabolism and Bilirubin"
+          ],
+          "source_url": "https://drive.google.com/file/d/1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs/view?usp=drivesdk"
+        },
+        {
+          "id": "1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs-c11",
+          "front": "What pattern is typical of hemolysis?",
+          "back": "Predominantly increased unconjugated bilirubin.",
+          "tags": [
+            "Biochemistry",
+            "Heme Catabolism and Bilirubin"
+          ],
+          "source_url": "https://drive.google.com/file/d/1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs/view?usp=drivesdk"
+        },
+        {
+          "id": "1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs-c12",
+          "front": "Why can conjugated bilirubin appear in urine?",
+          "back": "It is water-soluble and can be filtered when elevated in blood.",
+          "tags": [
+            "Biochemistry",
+            "Heme Catabolism and Bilirubin"
+          ],
+          "source_url": "https://drive.google.com/file/d/1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "id": "drive_1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj",
+      "subject": "Biochemistry",
+      "title": "Plasma Proteins",
+      "source_file_id": "1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj",
+      "source_url": "https://drive.google.com/file/d/1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj/view?usp=drivesdk",
+      "source_modified_time": "2026-08-31T14:53:32.272Z",
+      "archived": false,
+      "cards": [
+        {
+          "id": "1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj-c01",
+          "front": "What is the most abundant plasma protein?",
+          "back": "Albumin.",
+          "tags": [
+            "Biochemistry",
+            "Plasma Proteins"
+          ],
+          "source_url": "https://drive.google.com/file/d/1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj/view?usp=drivesdk"
+        },
+        {
+          "id": "1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj-c02",
+          "front": "Where is albumin synthesized?",
+          "back": "Liver.",
+          "tags": [
+            "Biochemistry",
+            "Plasma Proteins"
+          ],
+          "source_url": "https://drive.google.com/file/d/1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj/view?usp=drivesdk"
+        },
+        {
+          "id": "1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj-c03",
+          "front": "What is albumin's major hemodynamic function?",
+          "back": "Maintains plasma colloid oncotic pressure.",
+          "tags": [
+            "Biochemistry",
+            "Plasma Proteins"
+          ],
+          "source_url": "https://drive.google.com/file/d/1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj/view?usp=drivesdk"
+        },
+        {
+          "id": "1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj-c04",
+          "front": "What happens to fluid balance when albumin falls markedly?",
+          "back": "Plasma oncotic pressure falls, favoring edema.",
+          "tags": [
+            "Biochemistry",
+            "Plasma Proteins"
+          ],
+          "source_url": "https://drive.google.com/file/d/1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj/view?usp=drivesdk"
+        },
+        {
+          "id": "1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj-c05",
+          "front": "What substances can albumin transport?",
+          "back": "Fatty acids, bilirubin, hormones, calcium, and many drugs.",
+          "tags": [
+            "Biochemistry",
+            "Plasma Proteins"
+          ],
+          "source_url": "https://drive.google.com/file/d/1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj/view?usp=drivesdk"
+        },
+        {
+          "id": "1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj-c06",
+          "front": "Which plasma protein fraction contains most antibodies?",
+          "back": "Gamma globulins.",
+          "tags": [
+            "Biochemistry",
+            "Plasma Proteins"
+          ],
+          "source_url": "https://drive.google.com/file/d/1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj/view?usp=drivesdk"
+        },
+        {
+          "id": "1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj-c07",
+          "front": "Where are immunoglobulins produced?",
+          "back": "Plasma cells, not hepatocytes.",
+          "tags": [
+            "Biochemistry",
+            "Plasma Proteins"
+          ],
+          "source_url": "https://drive.google.com/file/d/1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj/view?usp=drivesdk"
+        },
+        {
+          "id": "1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj-c08",
+          "front": "What is an acute-phase protein?",
+          "back": "A plasma protein whose concentration changes significantly during inflammation.",
+          "tags": [
+            "Biochemistry",
+            "Plasma Proteins"
+          ],
+          "source_url": "https://drive.google.com/file/d/1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj/view?usp=drivesdk"
+        },
+        {
+          "id": "1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj-c09",
+          "front": "Give a positive acute-phase protein example.",
+          "back": "C-reactive protein or fibrinogen.",
+          "tags": [
+            "Biochemistry",
+            "Plasma Proteins"
+          ],
+          "source_url": "https://drive.google.com/file/d/1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj/view?usp=drivesdk"
+        },
+        {
+          "id": "1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj-c10",
+          "front": "What happens to albumin during inflammation?",
+          "back": "It behaves as a negative acute-phase protein and may decrease.",
+          "tags": [
+            "Biochemistry",
+            "Plasma Proteins"
+          ],
+          "source_url": "https://drive.google.com/file/d/1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj/view?usp=drivesdk"
+        },
+        {
+          "id": "1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj-c11",
+          "front": "What is the main role of fibrinogen?",
+          "back": "It is converted to fibrin during coagulation.",
+          "tags": [
+            "Biochemistry",
+            "Plasma Proteins"
+          ],
+          "source_url": "https://drive.google.com/file/d/1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj/view?usp=drivesdk"
+        },
+        {
+          "id": "1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj-c12",
+          "front": "How can high fibrinogen affect ESR?",
+          "back": "It promotes rouleaux formation, increasing ESR.",
+          "tags": [
+            "Biochemistry",
+            "Plasma Proteins"
+          ],
+          "source_url": "https://drive.google.com/file/d/1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "id": "drive_1jODBvDorJgQ42QRYX75ODeTVk6Lr3lLe",
+      "subject": "Hematology",
+      "title": "Hemolytic Anemia",
+      "source_file_id": "1jODBvDorJgQ42QRYX75ODeTVk6Lr3lLe",
+      "source_url": "https://drive.google.com/file/d/1jODBvDorJgQ42QRYX75ODeTVk6Lr3lLe/view?usp=drivesdk",
+      "source_modified_time": "2026-08-31T09:14:16.907Z",
+      "archived": false,
+      "cards": [
+        {
+          "id": "1jODBvDorJgQ42QRYX75ODeTVk6Lr3lLe-c01",
+          "front": "What defines hemolytic anemia?",
+          "back": "Premature RBC destruction that exceeds marrow replacement.",
+          "tags": [
+            "Hematology",
+            "Hemolytic Anemia"
+          ],
+          "source_url": "https://drive.google.com/file/d/1jODBvDorJgQ42QRYX75ODeTVk6Lr3lLe/view?usp=drivesdk"
+        },
+        {
+          "id": "1jODBvDorJgQ42QRYX75ODeTVk6Lr3lLe-c02",
+          "front": "What marrow response is expected in hemolysis?",
+          "back": "Reticulocytosis, if marrow function and substrates are adequate.",
+          "tags": [
+            "Hematology",
+            "Hemolytic Anemia"
+          ],
+          "source_url": "https://drive.google.com/file/d/1jODBvDorJgQ42QRYX75ODeTVk6Lr3lLe/view?usp=drivesdk"
+        },
+        {
+          "id": "1jODBvDorJgQ42QRYX75ODeTVk6Lr3lLe-c03",
+          "front": "What happens to unconjugated bilirubin in hemolysis?",
+          "back": "It increases.",
+          "tags": [
+            "Hematology",
+            "Hemolytic Anemia"
+          ],
+          "source_url": "https://drive.google.com/file/d/1jODBvDorJgQ42QRYX75ODeTVk6Lr3lLe/view?usp=drivesdk"
+        },
+        {
+          "id": "1jODBvDorJgQ42QRYX75ODeTVk6Lr3lLe-c04",
+          "front": "What happens to LDH in hemolysis?",
+          "back": "It increases.",
+          "tags": [
+            "Hematology",
+            "Hemolytic Anemia"
+          ],
+          "source_url": "https://drive.google.com/file/d/1jODBvDorJgQ42QRYX75ODeTVk6Lr3lLe/view?usp=drivesdk"
+        },
+        {
+          "id": "1jODBvDorJgQ42QRYX75ODeTVk6Lr3lLe-c05",
+          "front": "What happens to haptoglobin in intravascular hemolysis?",
+          "back": "It decreases because it binds free hemoglobin.",
+          "tags": [
+            "Hematology",
+            "Hemolytic Anemia"
+          ],
+          "source_url": "https://drive.google.com/file/d/1jODBvDorJgQ42QRYX75ODeTVk6Lr3lLe/view?usp=drivesdk"
+        },
+        {
+          "id": "1jODBvDorJgQ42QRYX75ODeTVk6Lr3lLe-c06",
+          "front": "What is intravascular hemolysis?",
+          "back": "RBC destruction within the circulation, releasing hemoglobin into plasma.",
+          "tags": [
+            "Hematology",
+            "Hemolytic Anemia"
+          ],
+          "source_url": "https://drive.google.com/file/d/1jODBvDorJgQ42QRYX75ODeTVk6Lr3lLe/view?usp=drivesdk"
+        },
+        {
+          "id": "1jODBvDorJgQ42QRYX75ODeTVk6Lr3lLe-c07",
+          "front": "What is extravascular hemolysis?",
+          "back": "RBC removal by macrophages, mainly in spleen and liver.",
+          "tags": [
+            "Hematology",
+            "Hemolytic Anemia"
+          ],
+          "source_url": "https://drive.google.com/file/d/1jODBvDorJgQ42QRYX75ODeTVk6Lr3lLe/view?usp=drivesdk"
+        },
+        {
+          "id": "1jODBvDorJgQ42QRYX75ODeTVk6Lr3lLe-c08",
+          "front": "What is a key feature of hereditary spherocytosis?",
+          "back": "Spherocytes with membrane-cytoskeleton defects and splenic destruction.",
+          "tags": [
+            "Hematology",
+            "Hemolytic Anemia"
+          ],
+          "source_url": "https://drive.google.com/file/d/1jODBvDorJgQ42QRYX75ODeTVk6Lr3lLe/view?usp=drivesdk"
+        },
+        {
+          "id": "1jODBvDorJgQ42QRYX75ODeTVk6Lr3lLe-c09",
+          "front": "Why can G6PD deficiency cause episodic hemolysis?",
+          "back": "Oxidative stress cannot be adequately neutralized because NADPH generation is impaired.",
+          "tags": [
+            "Hematology",
+            "Hemolytic Anemia"
+          ],
+          "source_url": "https://drive.google.com/file/d/1jODBvDorJgQ42QRYX75ODeTVk6Lr3lLe/view?usp=drivesdk"
+        },
+        {
+          "id": "1jODBvDorJgQ42QRYX75ODeTVk6Lr3lLe-c10",
+          "front": "What is the mechanism of sickle-cell hemolysis?",
+          "back": "Deoxygenated HbS polymerizes, deforming RBCs and causing hemolysis/vaso-occlusion.",
+          "tags": [
+            "Hematology",
+            "Hemolytic Anemia"
+          ],
+          "source_url": "https://drive.google.com/file/d/1jODBvDorJgQ42QRYX75ODeTVk6Lr3lLe/view?usp=drivesdk"
+        },
+        {
+          "id": "1jODBvDorJgQ42QRYX75ODeTVk6Lr3lLe-c11",
+          "front": "What does a positive direct Coombs test suggest?",
+          "back": "Immune-mediated hemolytic anemia with antibody/complement bound to RBCs.",
+          "tags": [
+            "Hematology",
+            "Hemolytic Anemia"
+          ],
+          "source_url": "https://drive.google.com/file/d/1jODBvDorJgQ42QRYX75ODeTVk6Lr3lLe/view?usp=drivesdk"
+        },
+        {
+          "id": "1jODBvDorJgQ42QRYX75ODeTVk6Lr3lLe-c12",
+          "front": "What can chronic hemolysis cause in the gallbladder?",
+          "back": "Pigment gallstones due to increased bilirubin turnover.",
+          "tags": [
+            "Hematology",
+            "Hemolytic Anemia"
+          ],
+          "source_url": "https://drive.google.com/file/d/1jODBvDorJgQ42QRYX75ODeTVk6Lr3lLe/view?usp=drivesdk"
         }
       ]
     }

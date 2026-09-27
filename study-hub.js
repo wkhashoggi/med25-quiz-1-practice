@@ -5,6 +5,8 @@ const HUB_SECTION_KEY='med25-main-section-v1';
 const AI_LIBRARY_URL='ai_questions.json';
 let aiLibrary={lecture_sets:[],generated_at:null};
 let aiState={subject:'',lecture:'',search:'',filter:'all',page:1,pageSize:20,shuffle:false};
+let aiAdvanced={status:'all',subject:'',lectures:new Set(),topic:''};
+let pastAdvanced={status:'all',subject:'',lectures:new Set(),topic:''};
 
 function aiProgress(){
   if(!saved.__ai_questions__||typeof saved.__ai_questions__!=='object')saved.__ai_questions__={};
@@ -23,6 +25,14 @@ function aiFiltered(){
     if(aiState.filter==='unanswered'&&p[q.id]?.answered)return false;
     if(aiState.filter==='wrong'&&p[q.id]?.correct!==false)return false;
     if(aiState.filter==='starred'&&!p[q.id]?.starred)return false;
+    if(aiAdvanced.status==='unanswered'&&p[q.id]?.answered)return false;
+    if(aiAdvanced.status==='correct'&&p[q.id]?.correct!==true)return false;
+    if(aiAdvanced.status==='wrong'&&p[q.id]?.correct!==false)return false;
+    if(aiAdvanced.status==='starred'&&!p[q.id]?.starred)return false;
+    if(aiAdvanced.status==='revealed'&&!p[q.id]?.revealed)return false;
+    if(aiAdvanced.subject&&q.subject!==aiAdvanced.subject)return false;
+    if(aiAdvanced.lectures.size&& !aiAdvanced.lectures.has(q.set_id))return false;
+    if(aiAdvanced.topic&&String(q.concept||'')!==aiAdvanced.topic)return false;
     return true;
   });
   if(aiState.shuffle)qs=qs.slice().sort((a,b)=>hubHash(a.id)-hubHash(b.id));
@@ -105,6 +115,160 @@ function setupAIControls(){
   document.querySelectorAll('[data-ai-filter]').forEach(b=>b.onclick=()=>{aiState.filter=b.dataset.aiFilter;aiState.page=1;document.querySelectorAll('[data-ai-filter]').forEach(x=>x.classList.toggle('active',x===b));renderAI()});
   const sh=document.getElementById('aiShuffle');if(sh)sh.onclick=()=>{aiState.shuffle=!aiState.shuffle;sh.classList.toggle('active',aiState.shuffle);aiState.page=1;renderAI()};
 }
+
+function qaNorm(v){
+  return String(v||'').toLowerCase().replace(/&/g,' and ').replace(/\b(lecture|slides?|student|third|year|dr|the|of|and|for|with)\b/g,' ').replace(/[^a-z0-9]+/g,' ').replace(/\s+/g,' ').trim();
+}
+function qaOverlap(a,b){
+  const A=new Set(qaNorm(a).split(' ').filter(Boolean)),B=new Set(qaNorm(b).split(' ').filter(Boolean));
+  if(!A.size||!B.size)return 0;
+  let hit=0;A.forEach(x=>{if(B.has(x))hit++});
+  return hit/Math.max(1,Math.min(A.size,B.size));
+}
+function qaLectureCatalog(){
+  return (aiLibrary.lecture_sets||[]).filter(x=>!x.archived).map(x=>({id:x.id,subject:x.subject,title:x.title,source_file_id:x.source_file_id||'',source_url:x.source_url||''}));
+}
+const qaPastLectureCache=new Map();
+function qaPastLecture(q){
+  if(qaPastLectureCache.has(q.id))return qaPastLectureCache.get(q.id);
+  const title=q.lecture_source?.title||'',url=q.lecture_source?.drive_url||'',cat=qaLectureCatalog();
+  let hit=cat.find(x=>x.source_file_id&&url.includes(x.source_file_id));
+  if(!hit){
+    const nt=qaNorm(title);
+    hit=cat.find(x=>qaNorm(x.title)===nt);
+  }
+  if(!hit&&title){
+    let best=null,score=0;
+    for(const x of cat){const sc=qaOverlap(title,x.title);if(sc>score){best=x;score=sc}}
+    if(score>=.55)hit=best;
+  }
+  const out=hit||{id:'past:'+qaNorm(title),subject:'Other',title:title||'Unmatched lecture'};
+  qaPastLectureCache.set(q.id,out);return out;
+}
+function qaStatusPass(p,status){
+  if(status==='all')return true;
+  if(status==='unanswered')return !p?.answered;
+  if(status==='correct')return p?.correct===true;
+  if(status==='wrong')return p?.correct===false;
+  if(status==='starred')return !!p?.starred;
+  if(status==='revealed')return !!p?.revealed||(!!p?.answered&&!p?.selected&&p?.correct==null);
+  return true;
+}
+function qaLectureDropdownHtml(prefix){
+  return '<div class="qaMulti" id="'+prefix+'LectureMulti">'+
+    '<button class="qaMultiBtn" id="'+prefix+'LectureBtn" type="button" disabled>Select subject first</button>'+
+    '<div class="qaMultiPanel hidden" id="'+prefix+'LecturePanel"></div>'+
+  '</div>';
+}
+function qaFilterBarHtml(prefix){
+  return '<div class="qaFilterBar" id="'+prefix+'AdvancedFilters">'+
+    '<label class="qaField"><span>Answer status</span><select id="'+prefix+'Status"><option value="all">All</option><option value="unanswered">Unanswered</option><option value="correct">Correct</option><option value="wrong">Wrong</option><option value="starred">Starred</option><option value="revealed">Revealed answer</option></select></label>'+
+    '<label class="qaField"><span>Subject</span><select id="'+prefix+'Subject"><option value="">All subjects</option></select></label>'+
+    '<div class="qaField"><span>Lecture</span>'+qaLectureDropdownHtml(prefix)+'</div>'+
+    '<label class="qaField"><span>Topic</span><select id="'+prefix+'Topic" disabled><option value="">Select subject first</option></select></label>'+
+    '<button class="qaClearBtn" id="'+prefix+'Clear" type="button">Clear filters</button>'+
+  '</div>';
+}
+function qaSubjects(){
+  return [...new Set(qaLectureCatalog().map(x=>x.subject).filter(Boolean))].sort((a,b)=>a.localeCompare(b));
+}
+function qaSubjectLectures(subject){
+  return qaLectureCatalog().filter(x=>x.subject===subject).sort((a,b)=>a.title.localeCompare(b.title));
+}
+function qaPastTopics(subject,lectures){
+  const out=new Set();
+  QUESTIONS.forEach(q=>{
+    const li=qaPastLecture(q);
+    if(subject&&li.subject!==subject)return;
+    if(lectures.size&&!lectures.has(li.id))return;
+    if(q.topic)out.add(q.topic);
+  });
+  return [...out].sort((a,b)=>a.localeCompare(b));
+}
+function qaAITopics(subject,lectures){
+  const out=new Set();
+  aiAllQuestions().forEach(q=>{
+    if(subject&&q.subject!==subject)return;
+    if(lectures.size&&!lectures.has(q.set_id))return;
+    if(q.concept)out.add(String(q.concept));
+  });
+  return [...out].sort((a,b)=>a.localeCompare(b));
+}
+function qaRenderLecturePicker(prefix,model){
+  const btn=document.getElementById(prefix+'LectureBtn'),panel=document.getElementById(prefix+'LecturePanel');
+  if(!btn||!panel)return;
+  if(!model.subject){
+    btn.disabled=true;btn.textContent='Select subject first';panel.classList.add('hidden');panel.innerHTML='';return;
+  }
+  const lectures=qaSubjectLectures(model.subject);
+  btn.disabled=false;
+  btn.textContent=model.lectures.size?(model.lectures.size===1?(lectures.find(x=>model.lectures.has(x.id))?.title||'1 lecture'):(model.lectures.size+' lectures selected')):('All '+model.subject+' lectures');
+  panel.innerHTML='<div class="qaMultiHead"><b>'+model.subject+' lectures</b><button type="button" data-qa-clear-lectures="'+prefix+'">Clear</button></div>'+
+    lectures.map(x=>'<label class="qaCheck"><input type="checkbox" value="'+esc(x.id)+'" '+(model.lectures.has(x.id)?'checked':'')+'><span>'+esc(x.title)+'</span></label>').join('');
+  panel.querySelectorAll('input[type="checkbox"]').forEach(cb=>cb.onchange=()=>{
+    if(cb.checked)model.lectures.add(cb.value);else model.lectures.delete(cb.value);
+    model.topic='';
+    qaRenderLecturePicker(prefix,model);qaRenderTopicPicker(prefix,model);qaApply(prefix);
+  });
+  panel.querySelector('[data-qa-clear-lectures]')?.addEventListener('click',e=>{
+    e.stopPropagation();model.lectures.clear();model.topic='';qaRenderLecturePicker(prefix,model);qaRenderTopicPicker(prefix,model);qaApply(prefix);
+  });
+}
+function qaRenderTopicPicker(prefix,model){
+  const sel=document.getElementById(prefix+'Topic');if(!sel)return;
+  if(!model.subject){
+    sel.disabled=true;sel.innerHTML='<option value="">Select subject first</option>';return;
+  }
+  const topics=prefix==='past'?qaPastTopics(model.subject,model.lectures):qaAITopics(model.subject,model.lectures);
+  sel.disabled=false;
+  sel.innerHTML='<option value="">All topics</option>'+topics.map(x=>'<option value="'+esc(x)+'">'+esc(x)+'</option>').join('');
+  if(topics.includes(model.topic))sel.value=model.topic;else model.topic='';
+}
+function qaApply(prefix){
+  if(prefix==='past'){
+    state.page=1;resetUnansweredSnapshot();render();
+  }else{
+    aiState.page=1;renderAI();
+  }
+}
+function qaResetLegacyStatus(prefix){
+  if(prefix==='past'){
+    state.filter='all';
+    document.querySelectorAll('#questionSection .chip[data-filter]').forEach(x=>x.classList.toggle('active',x.dataset.filter==='all'));
+  }else{
+    aiState.filter='all';
+    document.querySelectorAll('#aiSection [data-ai-filter]').forEach(x=>x.classList.toggle('active',x.dataset.aiFilter==='all'));
+  }
+}
+function qaSetupOne(prefix,model,host){
+  if(!host||document.getElementById(prefix+'AdvancedFilters'))return;
+  host.insertAdjacentHTML('afterend',qaFilterBarHtml(prefix));
+  const subject=document.getElementById(prefix+'Subject'),status=document.getElementById(prefix+'Status'),topic=document.getElementById(prefix+'Topic'),btn=document.getElementById(prefix+'LectureBtn'),panel=document.getElementById(prefix+'LecturePanel'),clear=document.getElementById(prefix+'Clear');
+  subject.innerHTML='<option value="">All subjects</option>'+qaSubjects().map(x=>'<option value="'+esc(x)+'">'+esc(x)+'</option>').join('');
+  status.onchange=()=>{model.status=status.value;qaResetLegacyStatus(prefix);qaApply(prefix)};
+  subject.onchange=()=>{model.subject=subject.value;model.lectures.clear();model.topic='';qaRenderLecturePicker(prefix,model);qaRenderTopicPicker(prefix,model);qaApply(prefix)};
+  topic.onchange=()=>{model.topic=topic.value;qaApply(prefix)};
+  btn.onclick=e=>{e.stopPropagation();if(!btn.disabled)panel.classList.toggle('hidden')};
+  panel.onclick=e=>e.stopPropagation();
+  clear.onclick=()=>{
+    model.status='all';model.subject='';model.lectures.clear();model.topic='';
+    status.value='all';subject.value='';qaRenderLecturePicker(prefix,model);qaRenderTopicPicker(prefix,model);qaResetLegacyStatus(prefix);qaApply(prefix);
+  };
+  qaRenderLecturePicker(prefix,model);qaRenderTopicPicker(prefix,model);
+}
+function setupAdvancedQuestionFilters(){
+  qaPastLectureCache.clear();
+  qaSetupOne('past',pastAdvanced,document.querySelector('#questionSection .toolbar'));
+  qaSetupOne('ai',aiAdvanced,document.querySelector('#aiSection .aiToolbar'));
+  document.addEventListener('click',()=>document.querySelectorAll('.qaMultiPanel').forEach(x=>x.classList.add('hidden')));
+  document.querySelectorAll('#questionSection .chip[data-filter]').forEach(b=>b.addEventListener('click',()=>{
+    pastAdvanced.status='all';const s=document.getElementById('pastStatus');if(s)s.value='all';
+  }));
+  document.querySelectorAll('#aiSection [data-ai-filter]').forEach(b=>b.addEventListener('click',()=>{
+    aiAdvanced.status='all';const s=document.getElementById('aiStatus');if(s)s.value='all';
+  }));
+}
+
 function homePastMetrics(){
   const done=QUESTIONS.filter(q=>saved[q.id]?.answered).length,graded=QUESTIONS.filter(q=>saved[q.id]?.correct===true||saved[q.id]?.correct===false),right=graded.filter(q=>saved[q.id]?.correct===true).length;
   return {done,total:QUESTIONS.length,accuracy:graded.length?Math.round(right/graded.length*100):0};
@@ -201,6 +365,20 @@ function hubSetupNavigation(){
   const mode=localStorage.getItem(HUB_SECTION_KEY)||'home';
   hubSwitch(['home','questions','ai','flashcards'].includes(mode)?mode:'home');
 }
+
+const qaBasePastFiltered=filtered;
+filtered=function(){
+  let qs=qaBasePastFiltered.apply(this,arguments);
+  return qs.filter(q=>{
+    const p=saved[q.id]||{},li=qaPastLecture(q);
+    if(!qaStatusPass(p,pastAdvanced.status))return false;
+    if(pastAdvanced.subject&&li.subject!==pastAdvanced.subject)return false;
+    if(pastAdvanced.lectures.size&&!pastAdvanced.lectures.has(li.id))return false;
+    if(pastAdvanced.topic&&q.topic!==pastAdvanced.topic)return false;
+    return true;
+  });
+};
+
 switchStudySection=hubSwitch;
 setupStudyNavigation=hubSetupNavigation;
 window.hubGo=hubGo;
@@ -472,5 +650,5 @@ aiFiltered=function(){
 
 setupAIControls();
 initAIQuestions();
-setTimeout(()=>{try{renderHome();renderAIStats()}catch{}},1000);
+setTimeout(()=>{try{setupAdvancedQuestionFilters();renderHome();renderAIStats()}catch{}},1000);
 })();

@@ -179,28 +179,41 @@ function ankiRemainingLimits(){
     reviewsLeft:Math.max(0,(Number(cfg.reviewsPerDay)||200)-Number(d.reviewCards||0))
   };
 }
+function ankiSuspendedDecks(){
+  const root=flashReview||{};
+  if(!root.__suspended_decks__||typeof root.__suspended_decks__!=='object')root.__suspended_decks__={};
+  return root.__suspended_decks__;
+}
+function ankiDeckSuspended(id){
+  return !!ankiSuspendedDecks()[id];
+}
+function ankiActiveDecks(){
+  return (flashLibrary.decks||[]).filter(d=>!d.archived&&!ankiDeckSuspended(d.id));
+}
+function ankiToggleDeckSuspended(id){
+  const map=ankiSuspendedDecks();
+  if(map[id])delete map[id];else map[id]=true;
+  saveFlashReview();
+  ankiRenderDecks();
+  ankiRenderStats();
+}
 function ankiSelectedCards(deckIds){
   const ids=new Set(deckIds);
-  return (flashLibrary.decks||[]).filter(d=>ids.has(d.id)&&!d.archived).flatMap(d=>(d.cards||[]).map(c=>({...c,deck_id:d.id,deck_title:d.title,subject:d.subject,source_url:d.source_url||c.source_url||''})));
+  return (flashLibrary.decks||[])
+    .filter(d=>ids.has(d.id)&&!d.archived&&!ankiDeckSuspended(d.id))
+    .flatMap(d=>(d.cards||[]).map(c=>({...c,deck_id:d.id,deck_title:d.title,subject:d.subject,source_url:d.source_url||c.source_url||''})));
 }
 function ankiQueue(deckIds){
-  const now=Date.now(),limits=ankiRemainingLimits(),dueLearning=[],dueReview=[],soonLearning=[],fresh=[];
+  const now=Date.now(),limits=ankiRemainingLimits(),due=[],fresh=[];
   for(const card of ankiSelectedCards(deckIds)){
-    const r=cardReview(card.id),state=ankiState(r),due=ankiDueMs(r);
-    if(!r){fresh.push(card);continue}
-    if((state===1||state===3)&&due<=now)dueLearning.push(card);
-    else if(state===2&&due<=now)dueReview.push(card);
-    else if((state===1||state===3)&&due<=now+LOOKAHEAD_MS)soonLearning.push(card);
+    const r=cardReview(card.id);
+    if(!r)fresh.push(card);
+    else if(ankiDueMs(r)<=now)due.push(card);
   }
-  dueLearning.sort((a,b)=>ankiDueMs(cardReview(a.id))-ankiDueMs(cardReview(b.id)));
-  dueReview.sort((a,b)=>ankiDueMs(cardReview(a.id))-ankiDueMs(cardReview(b.id))||ankiHash(a.id)-ankiHash(b.id));
+  due.sort((a,b)=>ankiDueMs(cardReview(a.id))-ankiDueMs(cardReview(b.id))||ankiHash(a.id)-ankiHash(b.id));
   fresh.sort((a,b)=>ankiHash(a.id)-ankiHash(b.id));
-  soonLearning.sort((a,b)=>ankiDueMs(cardReview(a.id))-ankiDueMs(cardReview(b.id)));
-  const reviews=dueReview.slice(0,limits.reviewsLeft);
-  const cfg=ankiConfig();
-  const capacity=Math.max(0,(Number(cfg.reviewsPerDay)||200)-Number(ankiDaily().reviewCards||0)-reviews.length);
-  const newLimit=Math.min(limits.newLeft,capacity);
-  return [...dueLearning,...reviews,...fresh.slice(0,newLimit),...soonLearning];
+  const newLimit=Math.max(0,limits.newLeft);
+  return [...due,...fresh.slice(0,newLimit)];
 }
 function ankiDeckCounts(deck){
   const now=Date.now();let n=0,l=0,d=0;

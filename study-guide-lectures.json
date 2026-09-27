@@ -1,0 +1,681 @@
+{
+  "version": 1,
+  "source_title": "Study Guide- Circulation and Breathing module- 2026-2027.pdf",
+  "source_file_id": "1QwRNlO6-zuOQugxyjrhXykOW-YjVtal4",
+  "source_url": "https://drive.google.com/file/d/1QwRNlO6-zuOQugxyjrhXykOW-YjVtal4/view?usp=drivesdk",
+  "subjects": [
+    {
+      "name": "Anatomy & Histology",
+      "lectures": [
+        {
+          "id": "anatomy-histology__anatomy-of-mediastinum-pericardium",
+          "subject": "Anatomy & Histology",
+          "title": "Anatomy of Mediastinum & Pericardium",
+          "objectives": "1. List the subdivisions of the mediastinum, boundaries and contents of each. 2. Discuss of the mediastinal Vessels. 3. Explain the mediastinal nerves. 4. Discuss the mediastinal viscera. 5. Describe the types of the pericardium and pericardial sinuses. 6. Describe the innervation and arterial supply of the pericardium."
+        },
+        {
+          "id": "anatomy-histology__histology-of-the-myocardium",
+          "subject": "Anatomy & Histology",
+          "title": "Histology of the Myocardium",
+          "objectives": "1. Describe the histological structure of the Myocardium including its conducting system. 2. Relate structure of Purkinji cells to its function. 3. Name the specialized tissue in the atrial tissue and mention its role. 4. Differentiate between cardiac muscle and Purkinji cells. 5. Mention the different types of cell junctions."
+        },
+        {
+          "id": "anatomy-histology__external-features-of-the-heart-and-its-great-vessels",
+          "subject": "Anatomy & Histology",
+          "title": "External Features of the Heart and its Great Vessels",
+          "objectives": "1. Describe the External features of the chambers, apex, and surfaces of the heart. 2. Describe the grooves (sulci) and borders of the heart. 3. Mention the surface markings of the heart's borders 4. Mention the surface marking of the sulci and grooves of the heart. 5. Discuss the blood supply of the heart (Coronary arteries and venous drainage)."
+        },
+        {
+          "id": "anatomy-histology__internal-features-of-the-heart",
+          "subject": "Anatomy & Histology",
+          "title": "Internal Features of the Heart",
+          "objectives": "1. Differentiate between the internal features of the smooth and rough parts of each heart's atria. 2. Differentiate between the internal features of the heart's ventricles. 3. Describe the components of the heart valves (tricuspid, mitral, aortic, and pulmonary valves) and their surface markings. 4. Mention the anatomy of the parts of the conductive system of the heart. 5. Mention the surface marking of the heart valves. 6. Locate the valves' auscultation sites."
+        },
+        {
+          "id": "anatomy-histology__normal-development-of-heart-it-s-great-vessels",
+          "subject": "Anatomy & Histology",
+          "title": "Normal Development of Heart & it’s Great Vessels",
+          "objectives": "1. Describe the process of angiogenesis. 2. Discuss the developmental process of the primitive heart tube. 3. Describe the process of the folding and rotation of the heart tube. 4. Describe the development of the sinus venosum and its fate. 5. Describe the development and fate of the primitive atrium. 6. Discuss the development of the different septa of the heart. 7. Describe the development and the fate of different parts of the bulbus cordis. 8. Discuss the developmental process of the cardiac valves (tricuspid, mitral, aortic, and pulmonary valves)."
+        },
+        {
+          "id": "anatomy-histology__congenital-anomalies-of-the-heart-it-s-great-vessels",
+          "subject": "Anatomy & Histology",
+          "title": "Congenital anomalies of the heart & it’s great Vessels",
+          "objectives": "1. Mention the main causes of the congenital anomalies of the heart. 2. Describe the developmental aspects of the atrial septal defect (ASD). 3. Discuss the developmental process of the ventricular septal defect (VSD). 4. Describe the anomalies of the bulbar (aortico-pulmonary) septum and its clinical importance. 5. Explain the congenital anomalies of the valves and great vessels of the heart. 6. Explain the incidence and complication of the congenital heart diseases."
+        },
+        {
+          "id": "anatomy-histology__radiological-anatomy-of-the-heart-and-its-great-vessels",
+          "subject": "Anatomy & Histology",
+          "title": "Radiological Anatomy of the heart and its great vessels",
+          "objectives": "1. Describe the different types of the radiological investigations of the heart and its great vessles. 2. Relate the normal anatomical findings of each radiological investigation. 3. Differentiate between the various radiological findings of the herat and its great vessles in each radiological investigation."
+        },
+        {
+          "id": "anatomy-histology__anatomy-of-the-nose-and-paranasal-sinuses",
+          "subject": "Anatomy & Histology",
+          "title": "Anatomy of the nose and paranasal sinuses",
+          "objectives": "1. Describe the external and internal features of the nose. 2. Enumerate the paranasal sinuses and mention the anatomical relations and drainage of each. 3. Mention the features of nasopharynx and parts of the eustachian tube."
+        },
+        {
+          "id": "anatomy-histology__anatomy-of-the-larynx",
+          "subject": "Anatomy & Histology",
+          "title": "Anatomy of the larynx",
+          "objectives": "1. Describe the features of the laryngeal cartilages and articulation of each. 2. Mention the parts of the laryngeal cavity, ligaments and membranes. 3. Discuss the anatomy of laryngeal muscles, innervation and blood supply."
+        },
+        {
+          "id": "anatomy-histology__anatomy-of-the-pleura-and-lungs",
+          "subject": "Anatomy & Histology",
+          "title": "Anatomy of the pleura and lungs",
+          "objectives": "1. Explain the folds, surface anatomy, innervation and clinical importance of the pleura. 2. Describe the surfaces, borders, hilum, and surface anatomy of each lung. 3. Mention the bronchopulmonary segments of each lung and its clinical importance."
+        },
+        {
+          "id": "anatomy-histology__anatomical-relations-of-the-lungs",
+          "subject": "Anatomy & Histology",
+          "title": "Anatomical relations of the lungs",
+          "objectives": "1. Explain the folds, surface anatomy, innervation and clinical importance of the pleura. 2. Describe the surfaces, borders, hilum, and surface anatomy of each lung. 3. Mention the bronchopulmonary segments of each lung and their clinical importance."
+        },
+        {
+          "id": "anatomy-histology__development-of-the-respiratory-system",
+          "subject": "Anatomy & Histology",
+          "title": "Development of the respiratory system",
+          "objectives": "1. Describe the formation of the lung bud. 2. Explain the sequence of the larynx development. 3. Discuss the developmental stages of the trachea, bronchi, and lungs."
+        },
+        {
+          "id": "anatomy-histology__histology-of-the-respiratory-system",
+          "subject": "Anatomy & Histology",
+          "title": "Histology of the respiratory system",
+          "objectives": "1. Describe the histological structure of the different parts of the respiratory system. 2. Relate the histological structure of each part with its function."
+        },
+        {
+          "id": "anatomy-histology__anatomy-of-thoracic-wall",
+          "subject": "Anatomy & Histology",
+          "title": "Anatomy of thoracic Wall",
+          "objectives": "1. Describe the structures of the thoracic wall including the stern, ribs and vertebrae. 2. Explain the structures of the intercostal spaces including the intercostal muscles, blood vessels, and nerves. 3. Mention the clinical importance of the intercostal spaces."
+        },
+        {
+          "id": "anatomy-histology__haematopoiesis",
+          "subject": "Anatomy & Histology",
+          "title": "Haematopoiesis",
+          "objectives": "1. Describe the process of hematopoiesis. 2. Differentiate between the different types of hematopoietic cells."
+        },
+        {
+          "id": "anatomy-histology__histology-of-the-mucosal-immune-system",
+          "subject": "Anatomy & Histology",
+          "title": "Histology of the mucosal immune system",
+          "objectives": "1. Enumerate the components of mucosal immune system. 2. Describe the histological features of the different components of mucosal immune system."
+        },
+        {
+          "id": "anatomy-histology__histology-of-the-lymphatic-system",
+          "subject": "Anatomy & Histology",
+          "title": "Histology of the Lymphatic system",
+          "objectives": "1. Describe the histological feature of the spleen. 2. Explain the histological structures of the lymph nodes. 3. Discuss the histology of the thymus gland."
+        }
+      ]
+    },
+    {
+      "name": "Physiology",
+      "lectures": [
+        {
+          "id": "physiology__physiology-of-red-blood-cells",
+          "subject": "Physiology",
+          "title": "Physiology of Red blood cells",
+          "objectives": "1. Describe the structure, functions, and life cycle of red blood cells (RBCs). 2. Explain the physiological mechanisms of erythropoiesis, including the role of erythropoietin and factors regulating RBC production. 3. Explain the role of RBCs in oxygen and carbon dioxide transport, including the physiological basis of hemoglobin function"
+        },
+        {
+          "id": "physiology__anemia-and-polycythemia",
+          "subject": "Physiology",
+          "title": "Anemia and polycythemia",
+          "objectives": "1. Define and classify anemia and polycythemia based on their underlying physiological mechanisms. 2. Explain the effects of anemia and polycythemia on tissue oxygenation and cardiovascular function"
+        },
+        {
+          "id": "physiology__white-bood-cells-wbcs",
+          "subject": "Physiology",
+          "title": "White bood cells (WBCs)",
+          "objectives": "1. Describe the types, structure, and functions of white blood cells. 2. Explain the role of white blood cells in inflammation, immune defense, and protection against infection."
+        },
+        {
+          "id": "physiology__physiology-of-blood-platelets",
+          "subject": "Physiology",
+          "title": "Physiology of blood platelets",
+          "objectives": "1. Outline the platelet receptors, contents & their role in hemostasis. 2. Explain the process of platelet adhesion, activation, and aggregation 3. Describe the effects of thrombocytopenia."
+        },
+        {
+          "id": "physiology__physiology-of-hemostasis",
+          "subject": "Physiology",
+          "title": "Physiology of Hemostasis",
+          "objectives": "1. Describe the main stages of hemostasis, including vascular spasm, platelet plug formation, and coagulation. 2. Explain the mechanisms of clot formation. 3. Discuss the mechanism of fibrinolysis."
+        },
+        {
+          "id": "physiology__physiological-organization-of-cvs",
+          "subject": "Physiology",
+          "title": "Physiological organization of CVS",
+          "objectives": "1. Explain the basic components of the cardiovascular system (CVS) and describe the specific function of each component. 2. Describe the physiological anatomy and histological structure of the heart and blood vessels. 3. Distinguish between systemic circulation and pulmonary circulation in terms of their pathways, functions, and hemodynamic characteristics. 4. Differentiate arteries, veins, and capillaries based on their structural features and functional roles. 5. Explain the role of arterioles in regulating peripheral resistance and blood flow."
+        },
+        {
+          "id": "physiology__cardiac-automaticity-excitability-cardiac-conductivity",
+          "subject": "Physiology",
+          "title": "Cardiac automaticity, excitability, cardiac conductivity",
+          "objectives": "1. Define the functional properties of cardiac muscle (Auto-rhythmicity, Excitability, Conductivity, and Contractility). 2. Differentiate between contractile, conductive, and pacemaker tissues of the cardiac muscle. 3. Discuss the factors affecting cardiac auto-rhythmicity. 4. Demonstrate the normal conduction pathway of the cardiac impulse through the heart. 5. Describe the phases of the pacemaker potential. 6. Describe the phases of myocardial (contractile) action potential. 7. List factors affecting excitability. 8. Analyse the significance of the absolute and relative refractory periods in maintaining normal cardiac function."
+        },
+        {
+          "id": "physiology__cardiac-contractility",
+          "subject": "Physiology",
+          "title": "Cardiac contractility",
+          "objectives": "1. Explain the molecular physiology of the excitation–contraction coupling, relating the phases of the cardiac action potential to myocardial contraction. 2. Classify the factors affecting cardiac contractility, including intrinsic and autonomic influences. 3. Describe the effect of preload and afterload on cardiac contractility. 4. Explain the effect of increased initial myocardial fiber length on the force of contraction, with reference to Frank–Starling’s law of the heart. 5. Relay cardiac contractility to clinical scenarios, including heart failure, myocardial infarction. 6. Review methods used to assess cardiac contractility (e.g., echocardiography, catheterization)."
+        },
+        {
+          "id": "physiology__cardiac-output-and-its-control",
+          "subject": "Physiology",
+          "title": "Cardiac output and its control",
+          "objectives": "1. Define cardiac output and stroke volume. 2. Describe the changes in cardiac output under various physiological and pathological conditions. 3. Identify the determinants of cardiac output. 4. Explain the effects of changes in heart rate on cardiac output. 5. Analyse the effects of preload, afterload, contractility, and heart rate on cardiac output. 6. Discuss how changes in cardiac output and pumping ability can implicate various medical conditions like heart failure and shock, arrhythmias, and valve diseases. 7. Explore the methods and tools used to measure cardiac output, such as echocardiography, thermodilution, and impedance cardiography."
+        },
+        {
+          "id": "physiology__cardiac-cycle",
+          "subject": "Physiology",
+          "title": "Cardiac cycle",
+          "objectives": "1. Describe the sequential events of the cardiac cycle during a complete heartbeat. 2. Explain the changes in atrial and ventricular pressures and volumes throughout the phases of the cardiac cycle. 3. Correlate valve opening and closure with pressure–volume changes in the cardiac chambers. 4. Identify the four heart sounds (S₁–S₄) and relate each sound to its underlying mechanical cause and corresponding events in the cardiac cycle. 5. Correlate action potential of the ventricles and refractory period with the ECG tracing."
+        },
+        {
+          "id": "physiology__regulation-of-abp-cv-centers-short-term-regulation",
+          "subject": "Physiology",
+          "title": "Regulation of ABP (CV centers & short-term regulation)",
+          "objectives": "1. Define Systolic and Diastolic pressures, MAP and pulse pressure (PP) 2. Describe the cardiovascular centers & their role in control of ABP 3. Describe the role of the baroreceptors under increased and decreased ABP by affecting heart rate, stroke volume, and peripheral resistance 4. How Chemoreceptors respond to blood pressure changes via in detecting changes in blood oxygen, carbon dioxide, and pH 5. Discuss the Role of the Sympathetic Nervous System (SNS) in short-term regulation of ABP. 6. Discuss the role of CNS ischemic response."
+        },
+        {
+          "id": "physiology__regulation-of-abp-intermediate-and-long-term-regulation",
+          "subject": "Physiology",
+          "title": "Regulation of ABP (Intermediate and long-term Regulation)",
+          "objectives": "1. Understand the importance of kidney and blood volume regulation in maintaining long-term ABP. 2. Describe the role of the renin-angiotensin-aldosterone system (RAAS). 3. List the hormones sharing in long-term regulation of the ABP 4. Explain the function of antidiuretic hormone (ADH), 5. natriuretic peptides (e.g., ANP, BNP) on long-term blood pressure regulation 6. Describe the role of the capillary shift phenomenon and the stress relaxation phenomenon in regulation of ABP."
+        },
+        {
+          "id": "physiology__normal-ecg",
+          "subject": "Physiology",
+          "title": "Normal ECG",
+          "objectives": "1. Define what an ECG is and its importance in cardiology. 2. Describe the key components of a normal ECG 3. Discuss the physiological significance of PR interval, QRS duration, ST segment, and QT interval. 4. Determine the heart rate, rhythm, regularity and the electric axis of the heart 5. Step-by-step approach to interpreting ECGs 6. Correlate both the cardiac cycle, action potential, refractory periods to normal ECG. 7. Practice with examples of abnormal ECGs to develop diagnostic skills."
+        },
+        {
+          "id": "physiology__abnormal-ecg-and-cardiac-arrhythmias",
+          "subject": "Physiology",
+          "title": "Abnormal ECG and cardiac arrhythmias",
+          "objectives": "1. Define rhythmicity of the heart. 2. Describe the phases and ionic basis of pacemaker (automaticity/slow response) 3. Highlight the differences between non-pacemaker (e.g., ventricular) and pacemaker (e.g., SA node) cells 4. List factors affecting rhythmicity 5. Describe ECG changes in, major arrhythmias and different types of heart block. 6. Describe the ECG changes in myocardial infarction and ventricular hypertrophy 7. Describe the ECG changes in electrolyte disturbances (K+ & Na+)"
+        },
+        {
+          "id": "physiology__physiology-approch-to-circulatory-shock",
+          "subject": "Physiology",
+          "title": "Physiology approch to circulatory shock",
+          "objectives": "1. Define circulatory shock and explain the physiological basis of inadequate tissue perfusion. 2. Classify the major types of shock: hypovolemic, cardiogenic, distributive, and obstructive. 3. Explain the physiological mechanisms underlying each major type of circulatory shock. 4. Describe the compensatory responses to shock, including sympathetic activation, RAAS, and ADH. 5. Explain the progression of shock from compensated to decompensated and irreversible stages."
+        },
+        {
+          "id": "physiology__physiology-of-microcirculation-and-cardiac-edema",
+          "subject": "Physiology",
+          "title": "Physiology of microcirculation and cardiac edema",
+          "objectives": "1. Understand the role of capillaries in the exchange between blood and tissues. 2. Discuss the Starling forces governing fluid movement across capillary walls. 3. Understand the regulation of blood flow within capillary beds and the role of pre-capillary sphincters. 4. List the disturbed Starling forces in cases of edema 5. Explain the relationship between heart failure and the development of cardiac edema 6. Understand how left-sided and right-sided heart failure can lead to pulmonary and peripheral edema, respectively. 7. Learn to differentiate between cardiac, renal, and hepatic causes of edema."
+        },
+        {
+          "id": "physiology__physiology-of-coronary-circulation",
+          "subject": "Physiology",
+          "title": "Physiology of coronary circulation",
+          "objectives": "1. Understand the major coronary arteries and their branches and regions of the heart supplied by different branches. 2. Recognize variations in coronary artery anatomy, such as right vs. left dominance. 3. Understand how coronary blood flow is regulated by metabolic, neural, and hormonal factors. 4. Define coronary artery disease (CAD) and list its risk factors 5. Define atherosclerosis, myocardial ischemia, angina, and myocardial infarction. 6. Learn about diagnostic methods like angiography, coronary CT, and stress tests to assess coronary circulation."
+        },
+        {
+          "id": "physiology__physiology-of-vascular-endothelium",
+          "subject": "Physiology",
+          "title": "Physiology of vascular endothelium",
+          "objectives": "1. Explore the primary functions of the vascular endothelial cells 2. Discuss the endothelium's role in maintaining homeostasis, including the balance of coagulation and fibrinolysis 3. Understand the role of endothelial cells in angiogenesis 4. Discuss the role of nitric oxide (NO) in maintenance of vascular health 5. Analyze the pathophysiological changes associated with endothelial dysfunction (e.g., hypertension, atherosclerosis, Thrombosis, diabetes). 6. Discuss factors that cause endothelial dysfunction 7. Explore potential therapeutic strategies targeting endothelial dysfunction."
+        },
+        {
+          "id": "physiology__mechanics-of-breathing",
+          "subject": "Physiology",
+          "title": "Mechanics of breathing",
+          "objectives": "1. Define internal and external respiration. 2. Describe the functional structure of the respiratory system and its major divisions. 3. Differentiate between the conducting zone and respiratory zone and explain their functions. 4. Define anatomical, physiological, and pathological dead space and distinguish between them. 5. Explain the atmospheric, alveolar, and intrapleural pressures and their roles in ventilation. 6. Describe the basic mechanics of breathing and identify the respiratory muscles involved in inspiration and expiration. 7."
+        },
+        {
+          "id": "physiology__pressure-volume-relationship-and-lung-compliance",
+          "subject": "Physiology",
+          "title": "Pressure-volume relationship and lung compliance",
+          "objectives": "1. Explain the significance of intrapleural pressure in maintaining lung expansion and normal ventilation. 2. Describe lung compliance and elastic recoil and their roles in the mechanics of breathing. 3. Explain the importance of pulmonary surfactant in reducing alveolar surface tension and maintaining normal respiration. 4. Explain how common lung diseases alter lung compliance and respiratory volumes"
+        },
+        {
+          "id": "physiology__gas-diffusion-and-plumonary-blood-flow",
+          "subject": "Physiology",
+          "title": "Gas diffusion and plumonary blood flow",
+          "objectives": "1. Describe gas laws & gas diffusion across the respiratory membrane. 2. Outline factors affecting gas diffusion across the respiratory membrane. 3. Know the regional pulmonary blood distribution. 4. Describe the ventilation perfusion (V/P) ratio and the regulation of pulmonary blood flow 5. Distinguish the significance of low capillary blood pressure"
+        },
+        {
+          "id": "physiology__transport-of-oxygen-in-blood",
+          "subject": "Physiology",
+          "title": "Transport of oxygen in blood",
+          "objectives": "1. Describe the transport of O2 dissolved in physical solution and in chemical combination. 2. Identify the oxygen binding and oxyhaemoglobin dissociation curve and its significance. 3. Outline factors affecting oxygen building and oxyhaemoglobin dissociation curve. 4. Describe the myoglobin curve."
+        },
+        {
+          "id": "physiology__transport-of-carbon-dioxide-in-blood",
+          "subject": "Physiology",
+          "title": "Transport of carbon dioxide in blood",
+          "objectives": "1. Describe the different forms of CO₂ transport in blood, including dissolved CO₂, bicarbonate, and carbamino compounds. 2. Explain the role of red blood cells and carbonic anhydrase in the conversion and transport of CO₂ as bicarbonate. 3. Explain the chloride shift and its role in CO₂ transport between tissues and the lungs. 4. Describe the unloading of CO₂ in the lungs and its relationship to oxygen loading, including the Haldane effect. 5. Explain the Bohr effect and its role in facilitating oxygen unloading in metabolically active tissues"
+        },
+        {
+          "id": "physiology__neural-control-of-breathing",
+          "subject": "Physiology",
+          "title": "Neural control of breathing",
+          "objectives": "1. Explain the involuntary neural control of breathing by the medullary respiratory centers. 2. Describe the voluntary control of breathing mediated by the cerebral cortex. 3. Explain how sensory feedback from various receptors modifies the activity of the medullary respiratory centers and regulates breathing."
+        },
+        {
+          "id": "physiology__chemical-control-of-breathing",
+          "subject": "Physiology",
+          "title": "Chemical control of breathing",
+          "objectives": "1. Explain the role of central and peripheral chemoreceptors in the chemical regulation of breathing. 2. Describe the effects of changes in arterial CO₂, O₂, and H⁺ on ventilation."
+        },
+        {
+          "id": "physiology__hypoxia-and-cyanosis",
+          "subject": "Physiology",
+          "title": "Hypoxia and cyanosis",
+          "objectives": "1. Define hypoxia and differentiate between its major types. 2. Explain the physiological mechanisms and causes of different types of hypoxia. 3. Describe the development of cyanosis."
+        }
+      ]
+    },
+    {
+      "name": "Biochemistry",
+      "lectures": [
+        {
+          "id": "biochemistry__plasma-proteins",
+          "subject": "Biochemistry",
+          "title": "Plasma proteins",
+          "objectives": "1. Identify the separation and identification of plasma proteins 2. Discuss the role of each type of plasma proteins in health and disease. 3. Explain the importance of the variations in total plasma protein concentrations."
+        },
+        {
+          "id": "biochemistry__haem-synthesis",
+          "subject": "Biochemistry",
+          "title": "Haem synthesis",
+          "objectives": "1. Describe the haem synthetic pathway and the key regulatory step. 2. Discuss the effect of lead poisoning on haem synthesis. 3. Explain the effect of porphyria on haem synthesis."
+        },
+        {
+          "id": "biochemistry__heme-catabolism",
+          "subject": "Biochemistry",
+          "title": "Heme catabolism",
+          "objectives": "1. Describe the haem synthetic pathway and the key regulatory step. 2. Discuss the effect of lead poisoning on haem synthesis. 3. Explain the effect of porphyria on haem synthesis."
+        },
+        {
+          "id": "biochemistry__cholesterol-metabolism",
+          "subject": "Biochemistry",
+          "title": "Cholesterol Metabolism",
+          "objectives": "1. Describe the structure, sources, and functions of cholesterol. 2. Explain cholesterol synthesis and its regulation. 3. Discuss cholesterol uptake, metabolism, and degradation."
+        },
+        {
+          "id": "biochemistry__plasma-lipoproteins",
+          "subject": "Biochemistry",
+          "title": "Plasma Lipoproteins",
+          "objectives": "1. Describe the general structure and composition of a typical plasma lipoprotein. 2. Classify human plasma lipoproteins on the basis of their sources, particle size, physical properties, composition, transport function. 3. Discuss the Lipoprotein Metabolism Pathways."
+        },
+        {
+          "id": "biochemistry__disorders-of-plasma-lipoproteins",
+          "subject": "Biochemistry",
+          "title": "Disorders of plasma lipoproteins",
+          "objectives": "1. Recognize the six different types of hyperlipoproteinemia and understand their relationship to atherosclerosis and coronary disease. 2. Discuss the Fredrickson classification system of hyperlipoproteinemia’s based on lipoprotein patterns. 3. Describe how to diagnose plasma lipoproteins disorders (types of lipid profile). 3. Give examples of both genetic and acquired factors that lead to hyperlipoproteinemia 4. Give examples of hypolipoproteinemia and their clinical significance."
+        },
+        {
+          "id": "biochemistry__diagnostic-cardiac-markers",
+          "subject": "Biochemistry",
+          "title": "Diagnostic cardiac markers",
+          "objectives": "1. Evaluate the diagnostic value of the cardiac enzymes. 2. Determine the use of CK-MB in the diagnosis of myocardial infarction. 3. Summarise the newer enzymes for the early diagnosis of MI."
+        },
+        {
+          "id": "biochemistry__metabolic-functions-of-the-lung-and-pulmonary-surfactant",
+          "subject": "Biochemistry",
+          "title": "Metabolic functions of the lung and Pulmonary Surfactant",
+          "objectives": "1. Outline the key metabolic functions of the lung. 2. Describe the structure, composition, synthesis, secretion, and biological functions of pulmonary surfactant, including the roles of its lipid and protein components. 3. Discuss the clinical relevance of surfactant in neonatal and adult respiratory conditions. 4. Describe diagnostic methods for assessing fetal lung maturity."
+        },
+        {
+          "id": "biochemistry__acid-base-homeostasis-and-the-role-of-the-respiratory-system",
+          "subject": "Biochemistry",
+          "title": "Acid-base homeostasis and the role of the respiratory system",
+          "objectives": "1. Identify the major sources of hydrogen ions (H⁺) in the body, distinguishing between (Volatile and non-volatile) 2. Describe the interrelationship between the body's key buffering systems 3. Classify the major types of acid–base disorders 4. Explain the pathophysiological mechanisms underlying respiratory acidosis and alkalosis and the role of the lungs in the compensation and regulation of metabolic acid–base disorders."
+        }
+      ]
+    },
+    {
+      "name": "Pathology",
+      "lectures": [
+        {
+          "id": "pathology__atherosclerosis-aneurysm",
+          "subject": "Pathology",
+          "title": "Atherosclerosis & Aneurysm",
+          "objectives": "1. Outline the epidemiology of atherosclerosis, including both major and minor risk factors contributing to its development. 2. Describe the hypothesis explaining the pathogenesis of atherosclerosis, incorporating key mechanisms involved. 3. Discuss the morphology of atherosclerotic plaques and their progression over time. 4. Identify and explain the complications of atherosclerosis, including clinical manifestations linked to pathological findings. 5. Explain the causes of aneurysms, with a focus on the role of atherosclerosis in their development. 6. Describe the pathogenesis of abdominal aortic aneurysms (AAAs) and their clinical implications."
+        },
+        {
+          "id": "pathology__pathology-of-hypertension",
+          "subject": "Pathology",
+          "title": "Pathology of Hypertension",
+          "objectives": "1. Explain the pathogenesis of systemic hypertension and differentiate between its types (primary and secondary). 2. Define and classify systemic hypertension, including its severity levels and clinical classifications. 3. Differentiate between the types of hypertensive arteriolosclerosis (hyaline and hyperplastic arteriolosclerosis). 4. Describe the effects of systemic hypertension on the heart, particularly in relation to hypertensive heart disease. 5. Outline the impact of hypertension on blood vessels and its related complications. 6. Define cor pulmonale and explain its causes and effects on the cardiovascular system."
+        },
+        {
+          "id": "pathology__vasculitis",
+          "subject": "Pathology",
+          "title": "Vasculitis",
+          "objectives": "1. Classify vasculitis and further subclassify immune-mediated vasculitis. 2. Describe the pathogenesis, morphology, and clinical features of giant-cell (temporal) arteritis. 3. Describe the pathogenesis, morphology, and clinical features of polyarteritis nodosa. 4. Describe the pathogenesis, morphology, and clinical features of Granulomatosis with Polyangiitis (Wegener). 5. Describe the pathogenesis, morphology, and clinical features of Microscopic Polyangiitis and Eosinophilic Granulomatosis with Polyangiitis (Churg-Strauss). 6. List the key features of thromboangiitis obliterans (Buerger disease) and its association with smoking."
+        },
+        {
+          "id": "pathology__ischemic-heart-disease-1",
+          "subject": "Pathology",
+          "title": "Ischemic Heart Disease – 1",
+          "objectives": "1. Enumerate the different types of ischemic heart diseases (IHD). 2. Explain the possible mechanisms implicated in the pathogenesis of ischemic heart diseases. 3. Differentiate between the various types of angina. 4. Discuss the major risk factors contributing to ischemic heart diseases."
+        },
+        {
+          "id": "pathology__ischemic-heart-disease-2",
+          "subject": "Pathology",
+          "title": "Ischemic Heart Disease – 2",
+          "objectives": "1. Explain the pathogenesis of myocardial infarction (MI) and describe its location, size, and morphology. 2. Correlate the complications of myocardial infarction with the underlying tissue pathology. 3. Define chronic ischemic heart disease and explain its pathogenesis. 4. Define sudden cardiac death and list the causes of sudden cardiac death. 5. Describe the complications of myocardial infarction in relation to its pathophysiology. 6. Outline the morphological changes in chronic ischemic heart disease and their clinical implications."
+        },
+        {
+          "id": "pathology__valvular-heart-diseases",
+          "subject": "Pathology",
+          "title": "Valvular Heart Diseases",
+          "objectives": "1. Provide an overview of congenital valvular disease. 2. Explain the pathogenesis, morphology, and clinical features of acute rheumatic fever. 3. Describe the pathogenesis, morphology, and clinical features of chronic rheumatic fever. 4. Discuss the epidemiology, definition, and pathogenesis of rheumatic fever. 5. Outline the morphology, clinical features, outcomes, and complications of acute rheumatic heart disease (RHD) and chronic valvular deformities. 6. Explore the pathogenesis, morphology, and clinical features of calcific aortic stenosis, as well as myxomatous cardiac valve disease and the types and complications of prosthetic cardiac valves."
+        },
+        {
+          "id": "pathology__infective-endocarditis",
+          "subject": "Pathology",
+          "title": "Infective Endocarditis",
+          "objectives": "1. Describe the pathogenesis, morphology, and clinical features of infective endocarditis. 2. Discuss the classification, high-risk groups, causative organisms, and complications of infective endocarditis. 3. Explain the etiology, pathogenesis, and clinical features of non-bacterial thrombotic endocarditis. 4. Review the pathogenesis, morphology, and clinical features of Libman-Sacks endocarditis."
+        },
+        {
+          "id": "pathology__pathology-of-heart-failure",
+          "subject": "Pathology",
+          "title": "Pathology of Heart Failure",
+          "objectives": "1. Define heart failure and differentiate between systolic and diastolic dysfunction. 2. Explain the compensatory mechanisms in heart failure and their consequences. 3. Describe the morphology and clinical features of left-sided heart failure. 4. Describe the morphology and clinical features of right-sided heart failure."
+        },
+        {
+          "id": "pathology__myocarditis-and-pericardial-diseases",
+          "subject": "Pathology",
+          "title": "Myocarditis and pericardial diseases",
+          "objectives": "1. List the causes of myocarditis, with a focus on viral etiology. 2. Describe the pathogenesis and morphology of myocarditis. 3. Discuss the clinical spectrum of myocarditis and its potential outcomes. 4. Define pericarditis and list its causes and clinical features. 5. Describe the morphology of pericarditis and its complications (tamponade, constrictive pericarditis)."
+        },
+        {
+          "id": "pathology__cardiomyopathies",
+          "subject": "Pathology",
+          "title": "Cardiomyopathies",
+          "objectives": "1. Classify the three major functional/pathologic patterns of cardiomyopathy: Dilated, Hypertrophic, and Restrictive. 2. Describe the etiology, pathogenesis, morphology, and clinical features of dilated cardiomyopathy. 3. Describe the etiology, pathogenesis, morphology, and clinical features of hypertrophic cardiomyopathy. 4. Describe the etiology, pathogenesis, morphology, and clinical features of restrictive cardiomyopathy."
+        },
+        {
+          "id": "pathology__cardiac-and-vascular-tumours",
+          "subject": "Pathology",
+          "title": "Cardiac and vascular tumours",
+          "objectives": "1. Classify vascular tumours into benign, intermediate, and malignant neoplasms. 2. Outline the pathogenesis, morphology, and clinical features of haemangiomas and Kaposi sarcoma. 3. Classify cardiac tumours, focusing on primary sources and metastatic tumours. 4. Describe the morphology and clinical impact of cardiac myxomas."
+        },
+        {
+          "id": "pathology__upper-respiratory-tract-neoplasms",
+          "subject": "Pathology",
+          "title": "Upper respiratory tract Neoplasms",
+          "objectives": "1. List the risk factors and clinical presentation of laryngeal carcinoma. 2. Discuss the prognostic significance of tumour location in laryngeal carcinoma. 3. Describe the epidemiology, aetiology, morphology, and clinical features of nasopharyngeal carcinoma"
+        },
+        {
+          "id": "pathology__atelactasis-acute-lung-injury",
+          "subject": "Pathology",
+          "title": "Atelactasis & acute lung injury",
+          "objectives": "1. Discuss Atelectasis in relation to causative factors, morphology and fate. 2. Define Acute Lung Injury and Acute Respiratory Distress Syndrome as syndromes of diffuse alveolar damage causing non-cardiogenic pulmonary oedema and respiratory failure. 3. List the common clinical settings/triggers of acute respiratory distress syndrome (ARDS) 4. Describe the pathogenesis of ARDS, focusing on the role of inflammation and diffuse alveolar damage. 5. Discuss the morphology of ARDS, including the presence of hyaline membranes."
+        },
+        {
+          "id": "pathology__pathology-of-bronchial-asthma",
+          "subject": "Pathology",
+          "title": "Pathology of bronchial Asthma",
+          "objectives": "1. Define bronchial asthma 2. List the clinical disorders associated with bronchial asthma. 3. Discuss the pathogenesis of bronchial asthma 4. Identify morphological changes of bronchial asthma in the lungs"
+        },
+        {
+          "id": "pathology__obstructive-airway-diseases",
+          "subject": "Pathology",
+          "title": "Obstructive airway diseases",
+          "objectives": "1. Tabulate the difference between versus restrictive pulmonary diseases. 2. Understand the pathophysiology of chronic obstructive pulmonary diseases and the role of smoking. 3. Discuss the pathogenesis, morphology and complications of emphysema. 4. Discuss the pathogenesis, morphology and complications of chronic bronchitis. 5. Discuss the pathogenesis, morphology and complications of bronchiectasis."
+        },
+        {
+          "id": "pathology__restrictive-airway-diseases",
+          "subject": "Pathology",
+          "title": "Restrictive airway diseases",
+          "objectives": "1. Classify interstitial lung diseases in light of etiological factors. 2. Understand the detailed pathology, morphology and clinical presentation of idiopathic pulmonary fibrosis. 3. Describe the pathogenesis and morphology of pneumoconiosis (coal worker's, silicosis, asbestosis). 4. Describe the pathogenesis, morphology, and clinical features of sarcoidosis."
+        },
+        {
+          "id": "pathology__pulmonary-vessel-diseases",
+          "subject": "Pathology",
+          "title": "Pulmonary vessel diseases",
+          "objectives": "1. Describe the source, pathogenesis, and consequences of pulmonary embolism. 2. Describe the morphology of a pulmonary infarct. 3. Define pulmonary hypertension and list its major causes. 4. Explain the morphology of pulmonary hypertension and its effect on the heart (cor pulmonale). 5. Explain the pathogenesis and morphology of Goodpasture syndrome."
+        },
+        {
+          "id": "pathology__pulmonary-infection",
+          "subject": "Pathology",
+          "title": "Pulmonary infection",
+          "objectives": "1. List the predisposing factors for pulmonary infection. 2. Discuss the morphology, anatomical distribution and complications of acute bacterial pneumonia (lobar vs. bronchopneumonia). 3. Identify the most common organisms in community-acquired and hospital-acquired pneumonias. 4. Identify the common causes of chronic pneumonias (Actinomyces, Nocardiosis, Tuberculosis, Histoplasmosis, Coccidioidomycosis, and Blastomycosis). 5. Describe the features of pneumonia in the immunocompromised host (e.g., Pneumocystis, CMV, Aspergillus)."
+        },
+        {
+          "id": "pathology__pulmonary-neoplasia",
+          "subject": "Pathology",
+          "title": "Pulmonary Neoplasia",
+          "objectives": "1. Classify lung neoplasms (carcinoma, carcinoid). 2. Discuss the Epidemiology, aetiology, pathogenesis and molecular basis of lung cancer. 3. Identify types and morphology of the four major lung carcinomas (Adenocarcinoma, Squamous Cell, Small Cell, Large Cell). 4. Describe the molecular basis for targeted therapy in lung adenocarcinoma (EGFR, KRAS, ALK). 5. Discuss pulmonary paraneoplastic syndromes. 6. Describe the etiology, pathogenesis, and morphology of malignant mesothelioma."
+        },
+        {
+          "id": "pathology__lymphadenopathy",
+          "subject": "Pathology",
+          "title": "Lymphadenopathy",
+          "objectives": "1. Identify causes of reactive lymphadenitis (acute and chronic). 2. Classify lymphoma into Hodgkin and non-Hodgkin subtypes. 3. Describe the key morphological, clinical behavior, genetic features and prognosis of common Non-Hodgkin lymphomas (Follicular, DLBCL, Burkitt, Mantle, CLL/SLL)."
+        }
+      ]
+    },
+    {
+      "name": "Pharmacology",
+      "lectures": [
+        {
+          "id": "pharmacology__drugs-used-in-the-treatment-of-bronchial-asthma",
+          "subject": "Pharmacology",
+          "title": "Drugs used in the treatment of bronchial asthma",
+          "objectives": "1. List the mediators of airway inflammation involved in asthma 2. List the major classes of drugs used in asthma (acute asthma, in between attacks and status asthmaticus). 3. Describe the pharmacological actions of drugs used in the treatment of asthma. 4. Differentiate between short-acting symptomatic treatment and long-acting preventive therapies. 5. Design therapeutic strategies for both acute and chronic obstructive lung disease."
+        },
+        {
+          "id": "pharmacology__anti-lipidemic-drugs",
+          "subject": "Pharmacology",
+          "title": "Anti-lipidemic drugs",
+          "objectives": "1. List the 5 main classes of drugs used to treat hyperlipidemia. 2. Describe their mechanism of action. 3. List their major adverse effects. 4. On the basis of a set of baseline serum lipid values, propose a rational drug treatment regimen. 5. Describe how monoclonal antibodies are used in hyperlipidemia. 6. Discuss the merits of combined drug therapy and list 3 rational drug combinations."
+        },
+        {
+          "id": "pharmacology__drugs-used-in-treatment-of-pulmonary-embolism",
+          "subject": "Pharmacology",
+          "title": "Drugs used in treatment of pulmonary Embolism",
+          "objectives": "1. State the drugs that can be used to regulate clotting. 2. Describe the pharmacological action of oral and parenteral anticoagulants 3. Differentiate between parenteral and oral anticoagulants 4. Compare heparin and low molecular weight heparin, LMWH (enoxaparin) 5. Explain the mechanism of action drugs used to treat disorders of excessive bleeding"
+        },
+        {
+          "id": "pharmacology__drug-therapy-of-respiratory-infections",
+          "subject": "Pharmacology",
+          "title": "Drug therapy of respiratory infections",
+          "objectives": "1. Describe the factors in choosing appropriate antibiotic agents. 2. Select an appropriate empiric antibiotic regimen for a given patient with community acquired pneumonia (CAP). 3. List the classes of antibiotics; describe their mechanisms of action, spectrum, therapeutic uses, pharmacokinetics and adverse effects."
+        },
+        {
+          "id": "pharmacology__antiplatelet-drugs",
+          "subject": "Pharmacology",
+          "title": "Antiplatelet drugs",
+          "objectives": "1. Compare and contrast the pharmacokinetics, clinical uses of the major antiplatelet drugs. 2. Outline major toxicities of antiplatelet drug. 3. Compare and contrast the pharmacokinetics, clinical uses of thrombolytic drugs (fibrinolysis). 4. Outline major toxicities of thrombolytic drugs. 5. Outline contraindications of thrombolytic drugs. 6. List 3 drugs used to treat disorders of excessive bleeding."
+        },
+        {
+          "id": "pharmacology__drug-therapy-of-cough-and-copd-1",
+          "subject": "Pharmacology",
+          "title": "Drug therapy of cough and COPD 1",
+          "objectives": "1. Classify medications for chronic and acute exacerbations of obstructive pulmonary diseases. 2. Discuss the clinical pharmacology of bronchodilators, inhaled steroids, expectorants, and mucolytics. 3. Explain the role of alternative therapies and prevention strategies."
+        },
+        {
+          "id": "pharmacology__drug-therapy-of-cough-and-copd-2",
+          "subject": "Pharmacology",
+          "title": "Drug therapy of cough and COPD 2",
+          "objectives": "1. Classify medications for chronic and acute exacerbations of obstructive pulmonary diseases. 2. Discuss the clinical pharmacology of bronchodilators, inhaled steroids, expectorants, and mucolytics. 3. Explain the role of alternative therapies and prevention strategies."
+        },
+        {
+          "id": "pharmacology__antihypertensive-drugs-1",
+          "subject": "Pharmacology",
+          "title": "Antihypertensive drugs -1",
+          "objectives": "1. Review different classes of drugs used in hypertension. 2. Understand their mechanism of action. 3. Know the differences between the types of diuretics. 4. Contrast between different types of beta blockers. 5. List major side effects of antihypertensive drugs. 6. Predict the use of each class in a special disease state."
+        },
+        {
+          "id": "pharmacology__antihypertensive-drugs-2",
+          "subject": "Pharmacology",
+          "title": "Antihypertensive drugs -2",
+          "objectives": "1. Review different classes of drugs used in hypertension. 2. Understand their mechanism of action. 3. Know the differences between the types of Ca++ channel blockers. 4. List various indications of ACEIs. 5. Outline different vasodilators used for HTN and their major side effects. 6. Outline management of hypertensive emergencies."
+        },
+        {
+          "id": "pharmacology__anti-anginal-drugs",
+          "subject": "Pharmacology",
+          "title": "Anti-anginal drugs",
+          "objectives": "1. Review and contrast different classes of drugs used in angina. 2. Understand their mechanisms of action. 3. Know their pharmacokinetics. 4. List the indications of different anti-anginal drugs. 5. List their major adverse effects. 6. Explain the outcomes (benefits and adverse effects) of combining nitrate with a beta-blocker or a calcium channel blocker."
+        },
+        {
+          "id": "pharmacology__drugs-used-in-heart-failure",
+          "subject": "Pharmacology",
+          "title": "Drugs used in Heart failure",
+          "objectives": "1. Understand the compensatory mechanisms of heart failure. 2. Describe the strategies for treating heart failure. 3. List the major drug groups used in the treatment of acute heart failure and chronic failure. 4. List positive inotropic drugs other than digitalis that have been used in heart failure. 5. Know the pharmacokinetics of drugs used in heart failure. 6. Explain the beneficial effects of diuretics, vasodilators, ACE inhibitors, and other drugs that lack positive inotropic effects in heart failure: mechanisms of action and adverse effects. 7."
+        },
+        {
+          "id": "pharmacology__antiarrhythmic-drugs",
+          "subject": "Pharmacology",
+          "title": "Antiarrhythmic drugs",
+          "objectives": "1. Outline Classes of antidysrhythmic drugs according to Vaughn Williams classification. 2. Understand their mechanisms of action. 3. Explain their pharmacokinetics. 4. Outline their clinical uses. 5. List their major adverse effects. 6. List major contraindications of their use."
+        },
+        {
+          "id": "pharmacology__treatment-of-anemia",
+          "subject": "Pharmacology",
+          "title": "Treatment of anemia",
+          "objectives": "1. Describe the management of iron deficiency anemia. 2. Describe the management of megaloblastic anemia. 3. Name the major hematopoietic growth factors"
+        },
+        {
+          "id": "pharmacology__treatment-of-hematological-malignancy",
+          "subject": "Pharmacology",
+          "title": "Treatment of hematological malignancy",
+          "objectives": "1. Classify the major anticancer drugs used in haematological malignancies according to their mechanisms of action. 2. Describe the clinical uses, mechanisms of action, and major adverse effects of commonly used agents. 3. Apply the principles of rational drug selection for the treatment of leukaemia, lymphoma, and multiple myeloma."
+        },
+        {
+          "id": "pharmacology__drugs-affecting-hemostasis",
+          "subject": "Pharmacology",
+          "title": "Drugs affecting hemostasis",
+          "objectives": "1. Classify the major drugs affecting hemostasis (anticoagulants, antiplatelets, thrombolytics, and hemostatic agents). 2. Explain the mechanisms of action, clinical uses, and major adverse effects of drugs affecting hemostasis. 3. Compare the indications and contraindications of different agents used to prevent or treat thrombotic and bleeding disorders."
+        },
+        {
+          "id": "pharmacology__immunosuppressant-immunomodulators",
+          "subject": "Pharmacology",
+          "title": "Immunosuppressant & immunomodulators",
+          "objectives": "1. Describe the innate and adaptive immunity. 2. Classify immunosuppressant drugs according to their mechanisms of action. 3. Identify clinical uses of immunosuppressant drugs."
+        },
+        {
+          "id": "pharmacology__pharmacotherapy-of-hypersensitivity",
+          "subject": "Pharmacology",
+          "title": "Pharmacotherapy of Hypersensitivity",
+          "objectives": "1. Describe the mechanism of hypersensitivity reactions and its pharmacological basis. 2. Discuss the mechanisms of action, clinical uses, and major adverse effects of antihistamines and corticosteroids in the treatment of hypersensitivity reactions. 3. Explain the role and clinical uses of adrenergic agonists, particularly epinephrine, in the management of hypersensitivity reactions."
+        },
+        {
+          "id": "pharmacology__treatment-of-tb",
+          "subject": "Pharmacology",
+          "title": "Treatment of TB",
+          "objectives": "1. List first- and second-line drugs used in treatment of tuberculosis. 2. Describe the pharmacological effect of 1st line therapy. 3. Identify limitations for use of second-line drugs. 4. Design a Strategy for treatment of TB. 5. Explain the advantages of combination therapy"
+        },
+        {
+          "id": "pharmacology__treatment-of-malaria",
+          "subject": "Pharmacology",
+          "title": "Treatment of Malaria",
+          "objectives": "1. Outline the sites of action of antimalarial drugs. 2. Describe the mechanism of action, pharmacokinetics & adverse reactions of antimalarial drugs."
+        }
+      ]
+    },
+    {
+      "name": "Microbiology",
+      "lectures": [
+        {
+          "id": "microbiology__malaria",
+          "subject": "Microbiology",
+          "title": "Malaria",
+          "objectives": "1. State the geographical distribution of each of the Malaria parasites studied. 2. Briefly describe the malarial life-cycle. 3. Describe the pathogenesis pathway associated with various Malaria species."
+        },
+        {
+          "id": "microbiology__malaria-babesiosis",
+          "subject": "Microbiology",
+          "title": "Malaria & Babesiosis",
+          "objectives": "1. Differentiate between benign and malignant malaria both clinically and laboratory. 2. Discuss the clinical significance of the disease process, diagnosis and treatment."
+        },
+        {
+          "id": "microbiology__visceral-leishmaniasis",
+          "subject": "Microbiology",
+          "title": "Visceral leishmaniasis",
+          "objectives": "1. Correlate life cycle to Pathogenesis of the disease. 2. Discuss the clinical significance of the disease process, diagnosis and treatment."
+        },
+        {
+          "id": "microbiology__lymphatic-filariasis",
+          "subject": "Microbiology",
+          "title": "Lymphatic filariasis",
+          "objectives": "1. Correlate life cycle to Pathogenesis of the disease. 2. Discuss the clinical significance of the disease process, diagnosis and treatment."
+        },
+        {
+          "id": "microbiology__verminous-pneumonia-parasitic-larvae-invading-lung",
+          "subject": "Microbiology",
+          "title": "Verminous pneumonia (Parasitic larvae invading lung)",
+          "objectives": "1. Specify the parasites involved in lung tissue migration during its life cycle. 2. State the effect of each parasite on lung physical condition. 3. Differentiate between the mentioned parasites"
+        },
+        {
+          "id": "microbiology__cystic-parasitic-diseases-of-the-lung",
+          "subject": "Microbiology",
+          "title": "Cystic parasitic diseases of the lung",
+          "objectives": "1. Identify the major parasites that can form cysts within lung tissue, including Echinococcus granulosus, Paragonimus westermani, and Entamoeba histolytica. 2. Describe the pathological effects of each parasite on the lungs. 3. Differentiate between the pulmonary manifestations and pathological features of these parasitic infections."
+        },
+        {
+          "id": "microbiology__upper-respiratory-tract-infections",
+          "subject": "Microbiology",
+          "title": "Upper respiratory tract infections",
+          "objectives": "1. Discuss causative microorganisms (pathogens) as bacterial, viral and fungal. 2. List the types of infection whether primary or secondary. 3. Describe the specimen’s collection for laboratory investigations and for selection (choice) of appropriate antimicrobial therapy. 4. Discuss prophylaxis and treatment"
+        },
+        {
+          "id": "microbiology__lower-respiratory-tract-infections",
+          "subject": "Microbiology",
+          "title": "Lower respiratory tract infections",
+          "objectives": "1. Identify the major bacterial, viral, and fungal pathogens causing respiratory tract infections. 2. Classify respiratory tract infections as primary or secondary, and community-acquired or nosocomial, with consideration of different age groups and immunocompromised patients. 3. Describe appropriate specimen collection and laboratory investigations for diagnosis and selection of antimicrobial therapy. 4. Discuss the principles of prophylaxis and antimicrobial treatment of respiratory tract infections."
+        },
+        {
+          "id": "microbiology__lung-immunology-innate-acquired-immune-responses-in-respiratory-infections",
+          "subject": "Microbiology",
+          "title": "Lung immunology:Innate & acquired immune responses in respiratory infections",
+          "objectives": "1. Outline the structural and immunological features of the respiratory tract that contribute to host defense, including mucosal immunity in the lungs. 2. Explain pathogen recognition and innate immune responses in the lungs, including pattern recognition receptors (e.g., Toll-like receptors) and key cells such as alveolar macrophages, neutrophils, dendritic cells, and NK cells. 3. Describe the adaptive immune responses in the lungs, including antigen presentation, T-cell activation (including the roles of CD4+ T helper cells, CD8+ cytotoxic T cells), and B-cell mediated antibody responses (specially IgA and IgG) in in respiratory tract infection (RTI). 4. Differentiate between innate and adaptive immune responses in terms of timing, specificity, and immunological memory in respiratory infections. 5. Relate immune mechanisms to the pathophysiology and clinical outcomes of common respiratory infections (e.g., influenza, tuberculosis, pneumonia, COVID-19). 6. Discuss how vaccines enhance protective immunity in the respiratory tract against respiratory infections."
+        },
+        {
+          "id": "microbiology__immune-dysregulation-in-sepsis",
+          "subject": "Microbiology",
+          "title": "Immune dysregulation in sepsis",
+          "objectives": "1. Define sepsis and describe its immunological basis. 2. Explain the mechanisms of innate and adaptive immune dysregulation during sepsis. 3. Differentiate between hyperinflammatory and immunosuppressive phases of sepsis. 4. Discuss the roles of cytokines, pattern recognition receptors, and immune cells in sepsis pathogenesis. 5. Interpret laboratory biomarkers used to assess immune dysfunction in septic patients."
+        },
+        {
+          "id": "microbiology__hypersensitivity-reactions-1",
+          "subject": "Microbiology",
+          "title": "Hypersensitivity Reactions – 1",
+          "objectives": "1. Define hypersensitivity and classify the four types according to the Gell and Coombs classification. 2. Describe the immunological mechanisms underlying Type I (immediate) hypersensitivity, including sensitization and the effector phase. 3. Explain the roles of IgE, mast cells, basophils, eosinophils, Th2 lymphocytes, and inflammatory mediators in Type I hypersensitivity. 4. Differentiate between the early and late phases of Type I hypersensitivity reactions. 5. Identify the clinical manifestations of Type I hypersensitivity, including anaphylaxis, allergic rhinitis, asthma, urticaria, and food allergy. 6. Describe the immunological mechanisms of Type II (antibody-mediated) hypersensitivity, including complement activation, opsonization, phagocytosis, antibody-dependent cellular cytotoxicity (ADCC), and receptor dysfunction. 7. Recognize common diseases caused by Type II hypersensitivity, including autoimmune hemolytic anemia, hemolytic disease of the newborn, Goodpasture syndrome, Graves disease, and myasthenia gravis. 8. Outline the basic principles of diagnosis, prevention, and treatment of Type I and Type II hypersensitivity disorders."
+        },
+        {
+          "id": "microbiology__hypersensitivity-reactions-2",
+          "subject": "Microbiology",
+          "title": "Hypersensitivity Reactions – 2",
+          "objectives": "1. Describe the immunological mechanisms responsible for Type III (immune complex-mediated) hypersensitivity. 2. Explain how immune complex formation, complement activation, and neutrophil recruitment contribute to tissue injury. 3. Identify the clinical features and examples of Type III hypersensitivity, including serum sickness, Arthus reaction, systemic lupus erythematosus (SLE), and post-streptococcal glomerulonephritis. 4. Describe the cellular and molecular mechanisms of Type IV (T cell-mediated or delayed-type) hypersensitivity. 5. Explain the roles of CD4⁺ T cells, CD8⁺ T cells, macrophages, and cytokines in delayed hypersensitivity reactions. 6. Differentiate between delayed-type hypersensitivity and T cell-mediated cytotoxicity. 7. Recognize common clinical conditions associated with Type IV hypersensitivity, including the tuberculin skin test, contact dermatitis, granulomatous inflammation, and type 1 diabetes mellitus. 8. Compare and contrast Type III and Type IV hypersensitivity based on immune mechanisms, mediators, time course, and representative diseases."
+        },
+        {
+          "id": "microbiology__immunodeficiency-disorders",
+          "subject": "Microbiology",
+          "title": "Immunodeficiency Disorders",
+          "objectives": "1. Classify immunodeficiency disorders into primary and secondary immunodeficiencies. 2. Describe the immunological defects underlying major immunodeficiency disorders. 3. Recognize the clinical manifestations associated with different types of immunodeficiency. 4. Interpret laboratory tests used in the diagnosis of immunodeficiency disorders. 5. Compare the management and therapeutic approaches for selected immunodeficiency disorders."
+        },
+        {
+          "id": "microbiology__autoimmune-diseases",
+          "subject": "Microbiology",
+          "title": "Autoimmune Diseases",
+          "objectives": "1. Explain how loss of self-tolerance leads to immune-mediated damage of cardiovascular and respiratory tissues through mechanisms such as molecular mimicry, autoantibody formation, and immune complex deposition. 2. Describe the pathogenesis, clinical features, and complications of Acute Rheumatic Fever (ARF) and Rheumatic Heart Disease (RHD) as examples of autoimmune disease affecting the heart. 3. Describe the cardiovascular and respiratory manifestations of Systemic Lupus Erythematosus (SLE), including pleuritis and pericarditis. 4. Identify the common laboratory markers used in the diagnosis of ARF and SLE, including ASO titers, ANA, and anti-dsDNA antibodies. 5. Outline the basic principles of management of autoimmune diseases, including the roles of NSAIDs, corticosteroids, and immunosuppressive therapies."
+        }
+      ]
+    },
+    {
+      "name": "Hematology",
+      "lectures": [
+        {
+          "id": "hematology__hemolytic-anemia",
+          "subject": "Hematology",
+          "title": "Hemolytic anemia",
+          "objectives": "1. Classify Hemolytic anemia. 2. Determine mode of inheritance of different types of congenital hemolytic anemia. 3. Describe laboratory investigations and the differential diagnosis of hemolytic anemia. G.Key Module Dates Date Event 30 August 2026 Start of module 27 September 2026 Quiz 1 (5th week) 8 October 2026 Community awareness day Group A-Male (6th week) 11 October 2026 Community awareness day Group A-Female (7th week) 12 October 2026 Community awareness day Group B-Male (7th week) 13 October 2026 Community awareness day Group B-Female (7th week) 22 October 2026 Quiz 2 (7th week) 6 January 2027 Final Exam (MCQs theory and practical) Wishing you a successful learning experience throughout the course."
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-09-27T13:10:54.811Z",
+  "lecture_count": 106
+}

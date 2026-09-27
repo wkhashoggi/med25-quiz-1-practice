@@ -440,15 +440,20 @@ function lectureDashFiltered(){
 }
 function setupLectureDashboardControls(){
   const subject=document.getElementById('lectureDashSubject'),status=document.getElementById('lectureDashStatus'),search=document.getElementById('lectureDashSearch');
-  if(!subject||subject.dataset.bound)return;
-  subject.dataset.bound='1';
-  subject.innerHTML='<option value="">All subjects</option>'+qaSubjects().map(x=>'<option value="'+esc(x)+'">'+esc(x)+'</option>').join('');
-  subject.value=lectureDashState.subject;
+  if(!subject||!status||!search)return;
+  const subjects=qaSubjects();
+  const currentSubject=lectureDashState.subject;
+  subject.innerHTML='<option value="">All subjects</option>'+subjects.map(x=>'<option value="'+esc(x)+'">'+esc(x)+'</option>').join('');
+  subject.value=subjects.includes(currentSubject)?currentSubject:'';
+  if(currentSubject&&!subjects.includes(currentSubject))lectureDashState.subject='';
   status.value=lectureDashState.status;
   search.value=lectureDashState.search;
-  subject.onchange=()=>{lectureDashState.subject=subject.value;renderLectureDashboard()};
-  status.onchange=()=>{lectureDashState.status=status.value;renderLectureDashboard()};
-  search.oninput=()=>{lectureDashState.search=search.value;renderLectureDashboard()};
+  if(!subject.dataset.bound){
+    subject.dataset.bound='1';
+    subject.onchange=()=>{lectureDashState.subject=subject.value;renderLectureDashboard()};
+    status.onchange=()=>{lectureDashState.status=status.value;renderLectureDashboard()};
+    search.oninput=()=>{lectureDashState.search=search.value;renderLectureDashboard()};
+  }
 }
 function renderLectureDashboard(){
   const host=document.getElementById('lectureDashboard'),summary=document.getElementById('lectureDashboardSummary');

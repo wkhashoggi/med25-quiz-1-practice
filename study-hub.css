@@ -111,3 +111,17 @@
 
 #topic{display:none!important}
 .sgLecturePill{white-space:normal;line-height:1.25;background:#eef4ff!important;color:#3538cd!important;border-color:#c7d7fe!important}
+
+
+/* Daily flashcard routine + deck suspension */
+.ankiDeckRow:not(.ankiDeckHead){grid-template-columns:minmax(0,1fr) 70px 70px 70px 92px}
+.ankiSuspendBtn{border:1px solid #d0d5dd;background:#fff;color:#475467;border-radius:9px;padding:7px 9px;font-size:10px;font-weight:800;cursor:pointer}
+.ankiSuspendBtn:hover{background:#f8fafc}
+.ankiDeckSuspended{opacity:.58;background:#f9fafb}
+.ankiDeckSuspended:hover{background:#f9fafb}
+.ankiDeckSuspended .ankiDeckTitle b{text-decoration:line-through;text-decoration-thickness:1px}
+.ankiDeckSuspended .ankiSuspendBtn{opacity:1;color:#175cd3;border-color:#b2ccff}
+@media(max-width:720px){
+  .ankiDeckRow:not(.ankiDeckHead){grid-template-columns:minmax(0,1fr) 44px 44px 44px}
+  .ankiDeckRow:not(.ankiDeckHead) .ankiSuspendBtn{grid-column:1/-1;justify-self:end;margin-top:2px}
+}

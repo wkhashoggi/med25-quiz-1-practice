@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-27T09:44:11.247Z",
+  "generated_at": "2026-09-27T09:46:14.004Z",
   "source_root": {
     "id": "1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
     "url": "https://drive.google.com/drive/folders/1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
@@ -4540,7 +4540,1977 @@
           "source_url": "https://drive.google.com/file/d/11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI/view?usp=drivesdk"
         }
       ]
+    },
+    {
+      "id": "drive_1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8",
+      "subject": "Pharmacology",
+      "title": "Antianginal Drugs",
+      "source_file_id": "1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8",
+      "source_url": "https://drive.google.com/file/d/1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8/view?usp=drivesdk",
+      "source_modified_time": "2026-09-20T05:50:07.352Z",
+      "archived": false,
+      "cards": [
+        {
+          "id": "1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8-c01",
+          "front": "What is the main goal of antianginal therapy?",
+          "back": "Reduce myocardial O₂ demand and/or improve coronary O₂ supply.",
+          "tags": [
+            "Pharmacology",
+            "Antianginal Drugs"
+          ],
+          "source_url": "https://drive.google.com/file/d/1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8/view?usp=drivesdk"
+        },
+        {
+          "id": "1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8-c02",
+          "front": "How do nitrates relieve angina?",
+          "back": "Venodilation lowers preload and ventricular wall stress, reducing myocardial O₂ demand.",
+          "tags": [
+            "Pharmacology",
+            "Antianginal Drugs"
+          ],
+          "source_url": "https://drive.google.com/file/d/1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8/view?usp=drivesdk"
+        },
+        {
+          "id": "1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8-c03",
+          "front": "What intracellular mediator causes nitrate-induced smooth-muscle relaxation?",
+          "back": "Nitric oxide increases cGMP.",
+          "tags": [
+            "Pharmacology",
+            "Antianginal Drugs"
+          ],
+          "source_url": "https://drive.google.com/file/d/1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8/view?usp=drivesdk"
+        },
+        {
+          "id": "1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8-c04",
+          "front": "What common adverse effect occurs with nitrates?",
+          "back": "Headache from vasodilation.",
+          "tags": [
+            "Pharmacology",
+            "Antianginal Drugs"
+          ],
+          "source_url": "https://drive.google.com/file/d/1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8/view?usp=drivesdk"
+        },
+        {
+          "id": "1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8-c05",
+          "front": "Why must nitrates not be combined with PDE-5 inhibitors?",
+          "back": "The combination can cause profound hypotension through excessive cGMP.",
+          "tags": [
+            "Pharmacology",
+            "Antianginal Drugs"
+          ],
+          "source_url": "https://drive.google.com/file/d/1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8/view?usp=drivesdk"
+        },
+        {
+          "id": "1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8-c06",
+          "front": "How do beta blockers reduce anginal symptoms?",
+          "back": "They lower heart rate and contractility, reducing O₂ demand and prolonging diastole.",
+          "tags": [
+            "Pharmacology",
+            "Antianginal Drugs"
+          ],
+          "source_url": "https://drive.google.com/file/d/1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8/view?usp=drivesdk"
+        },
+        {
+          "id": "1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8-c07",
+          "front": "Why are beta blockers useful in chronic stable angina?",
+          "back": "They blunt exercise-induced increases in heart rate and contractility.",
+          "tags": [
+            "Pharmacology",
+            "Antianginal Drugs"
+          ],
+          "source_url": "https://drive.google.com/file/d/1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8/view?usp=drivesdk"
+        },
+        {
+          "id": "1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8-c08",
+          "front": "How do non-dihydropyridine calcium-channel blockers help angina?",
+          "back": "They reduce heart rate/contractility and dilate coronary/systemic arteries.",
+          "tags": [
+            "Pharmacology",
+            "Antianginal Drugs"
+          ],
+          "source_url": "https://drive.google.com/file/d/1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8/view?usp=drivesdk"
+        },
+        {
+          "id": "1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8-c09",
+          "front": "How do dihydropyridine calcium-channel blockers help angina?",
+          "back": "They predominantly cause arterial vasodilation, lowering afterload and improving coronary flow.",
+          "tags": [
+            "Pharmacology",
+            "Antianginal Drugs"
+          ],
+          "source_url": "https://drive.google.com/file/d/1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8/view?usp=drivesdk"
+        },
+        {
+          "id": "1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8-c10",
+          "front": "What is the main concern with combining a beta blocker and verapamil?",
+          "back": "Excessive bradycardia, AV block, and depressed contractility.",
+          "tags": [
+            "Pharmacology",
+            "Antianginal Drugs"
+          ],
+          "source_url": "https://drive.google.com/file/d/1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8/view?usp=drivesdk"
+        },
+        {
+          "id": "1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8-c11",
+          "front": "How does ranolazine help chronic angina?",
+          "back": "It inhibits late Na⁺ current, reducing diastolic wall tension and O₂ demand with little effect on HR/BP.",
+          "tags": [
+            "Pharmacology",
+            "Antianginal Drugs"
+          ],
+          "source_url": "https://drive.google.com/file/d/1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8/view?usp=drivesdk"
+        },
+        {
+          "id": "1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8-c12",
+          "front": "Which antianginal class is especially useful for vasospastic angina?",
+          "back": "Calcium-channel blockers; nitrates also relieve spasm.",
+          "tags": [
+            "Pharmacology",
+            "Antianginal Drugs"
+          ],
+          "source_url": "https://drive.google.com/file/d/1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "id": "drive_1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc",
+      "subject": "Pharmacology",
+      "title": "Antihyperlipidemic Drugs",
+      "source_file_id": "1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc",
+      "source_url": "https://drive.google.com/file/d/1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc/view?usp=drivesdk",
+      "source_modified_time": "2026-09-13T18:59:30.717Z",
+      "archived": false,
+      "cards": [
+        {
+          "id": "1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc-c01",
+          "front": "What enzyme do statins inhibit?",
+          "back": "HMG-CoA reductase.",
+          "tags": [
+            "Pharmacology",
+            "Antihyperlipidemic Drugs"
+          ],
+          "source_url": "https://drive.google.com/file/d/1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc/view?usp=drivesdk"
+        },
+        {
+          "id": "1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc-c02",
+          "front": "How do statins lower plasma LDL?",
+          "back": "Reduced hepatic cholesterol increases LDL-receptor expression and LDL clearance.",
+          "tags": [
+            "Pharmacology",
+            "Antihyperlipidemic Drugs"
+          ],
+          "source_url": "https://drive.google.com/file/d/1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc/view?usp=drivesdk"
+        },
+        {
+          "id": "1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc-c03",
+          "front": "What major lipid effect do statins produce?",
+          "back": "Large reduction in LDL cholesterol.",
+          "tags": [
+            "Pharmacology",
+            "Antihyperlipidemic Drugs"
+          ],
+          "source_url": "https://drive.google.com/file/d/1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc/view?usp=drivesdk"
+        },
+        {
+          "id": "1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc-c04",
+          "front": "What important adverse effects should be remembered with statins?",
+          "back": "Myopathy and elevated liver enzymes; severe rhabdomyolysis is rare.",
+          "tags": [
+            "Pharmacology",
+            "Antihyperlipidemic Drugs"
+          ],
+          "source_url": "https://drive.google.com/file/d/1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc/view?usp=drivesdk"
+        },
+        {
+          "id": "1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc-c05",
+          "front": "How does ezetimibe lower cholesterol?",
+          "back": "It inhibits intestinal cholesterol absorption via NPC1L1.",
+          "tags": [
+            "Pharmacology",
+            "Antihyperlipidemic Drugs"
+          ],
+          "source_url": "https://drive.google.com/file/d/1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc/view?usp=drivesdk"
+        },
+        {
+          "id": "1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc-c06",
+          "front": "How do bile-acid sequestrants lower LDL?",
+          "back": "They bind bile acids in the gut, forcing hepatic cholesterol use and increasing LDL receptors.",
+          "tags": [
+            "Pharmacology",
+            "Antihyperlipidemic Drugs"
+          ],
+          "source_url": "https://drive.google.com/file/d/1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc/view?usp=drivesdk"
+        },
+        {
+          "id": "1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc-c07",
+          "front": "What lipid abnormality are fibrates especially useful for?",
+          "back": "Hypertriglyceridemia.",
+          "tags": [
+            "Pharmacology",
+            "Antihyperlipidemic Drugs"
+          ],
+          "source_url": "https://drive.google.com/file/d/1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc/view?usp=drivesdk"
+        },
+        {
+          "id": "1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc-c08",
+          "front": "How do fibrates work?",
+          "back": "They activate PPAR-α, increasing lipoprotein lipase activity and fatty-acid oxidation.",
+          "tags": [
+            "Pharmacology",
+            "Antihyperlipidemic Drugs"
+          ],
+          "source_url": "https://drive.google.com/file/d/1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc/view?usp=drivesdk"
+        },
+        {
+          "id": "1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc-c09",
+          "front": "What is a notable fibrate adverse effect?",
+          "back": "Gallstones and myopathy risk, especially with some statin combinations.",
+          "tags": [
+            "Pharmacology",
+            "Antihyperlipidemic Drugs"
+          ],
+          "source_url": "https://drive.google.com/file/d/1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc/view?usp=drivesdk"
+        },
+        {
+          "id": "1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc-c10",
+          "front": "How do PCSK9 inhibitors lower LDL?",
+          "back": "They prevent LDL-receptor degradation, increasing receptor recycling and LDL clearance.",
+          "tags": [
+            "Pharmacology",
+            "Antihyperlipidemic Drugs"
+          ],
+          "source_url": "https://drive.google.com/file/d/1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc/view?usp=drivesdk"
+        },
+        {
+          "id": "1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc-c11",
+          "front": "What is niacin's main lipid effect?",
+          "back": "It lowers VLDL/TG and can raise HDL, though its use is limited by adverse effects.",
+          "tags": [
+            "Pharmacology",
+            "Antihyperlipidemic Drugs"
+          ],
+          "source_url": "https://drive.google.com/file/d/1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc/view?usp=drivesdk"
+        },
+        {
+          "id": "1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc-c12",
+          "front": "Why is severe hypertriglyceridemia treated aggressively?",
+          "back": "Very high triglycerides increase acute pancreatitis risk.",
+          "tags": [
+            "Pharmacology",
+            "Antihyperlipidemic Drugs"
+          ],
+          "source_url": "https://drive.google.com/file/d/1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "id": "drive_1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92",
+      "subject": "Pharmacology",
+      "title": "Immune Suppressants and Immune Modulators",
+      "source_file_id": "1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92",
+      "source_url": "https://drive.google.com/file/d/1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92/view?usp=drivesdk",
+      "source_modified_time": "2026-09-07T05:19:18.674Z",
+      "archived": false,
+      "cards": [
+        {
+          "id": "1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92-c01",
+          "front": "What is the major mechanism of glucocorticoid immunosuppression?",
+          "back": "Broad suppression of inflammatory gene transcription and cytokine production.",
+          "tags": [
+            "Pharmacology",
+            "Immune Suppressants and Immune Modulators"
+          ],
+          "source_url": "https://drive.google.com/file/d/1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92/view?usp=drivesdk"
+        },
+        {
+          "id": "1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92-c02",
+          "front": "What do calcineurin inhibitors suppress?",
+          "back": "IL-2 transcription and T-cell activation.",
+          "tags": [
+            "Pharmacology",
+            "Immune Suppressants and Immune Modulators"
+          ],
+          "source_url": "https://drive.google.com/file/d/1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92/view?usp=drivesdk"
+        },
+        {
+          "id": "1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92-c03",
+          "front": "Name two calcineurin inhibitors.",
+          "back": "Cyclosporine and tacrolimus.",
+          "tags": [
+            "Pharmacology",
+            "Immune Suppressants and Immune Modulators"
+          ],
+          "source_url": "https://drive.google.com/file/d/1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92/view?usp=drivesdk"
+        },
+        {
+          "id": "1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92-c04",
+          "front": "What major toxicity is shared by cyclosporine and tacrolimus?",
+          "back": "Nephrotoxicity.",
+          "tags": [
+            "Pharmacology",
+            "Immune Suppressants and Immune Modulators"
+          ],
+          "source_url": "https://drive.google.com/file/d/1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92/view?usp=drivesdk"
+        },
+        {
+          "id": "1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92-c05",
+          "front": "How does sirolimus suppress T cells?",
+          "back": "It inhibits mTOR, blocking response to IL-2 and T-cell proliferation.",
+          "tags": [
+            "Pharmacology",
+            "Immune Suppressants and Immune Modulators"
+          ],
+          "source_url": "https://drive.google.com/file/d/1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92/view?usp=drivesdk"
+        },
+        {
+          "id": "1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92-c06",
+          "front": "How does mycophenolate suppress lymphocytes?",
+          "back": "It inhibits IMP dehydrogenase and de novo guanine synthesis, especially affecting lymphocytes.",
+          "tags": [
+            "Pharmacology",
+            "Immune Suppressants and Immune Modulators"
+          ],
+          "source_url": "https://drive.google.com/file/d/1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92/view?usp=drivesdk"
+        },
+        {
+          "id": "1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92-c07",
+          "front": "How does azathioprine work?",
+          "back": "It is converted to 6-mercaptopurine metabolites that inhibit purine synthesis.",
+          "tags": [
+            "Pharmacology",
+            "Immune Suppressants and Immune Modulators"
+          ],
+          "source_url": "https://drive.google.com/file/d/1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92/view?usp=drivesdk"
+        },
+        {
+          "id": "1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92-c08",
+          "front": "What is methotrexate's immunomodulatory target?",
+          "back": "It inhibits folate-dependent nucleotide metabolism and has anti-inflammatory effects at low doses.",
+          "tags": [
+            "Pharmacology",
+            "Immune Suppressants and Immune Modulators"
+          ],
+          "source_url": "https://drive.google.com/file/d/1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92/view?usp=drivesdk"
+        },
+        {
+          "id": "1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92-c09",
+          "front": "What is a major use of biologic anti-TNF therapy?",
+          "back": "Inflammatory autoimmune diseases such as rheumatoid arthritis and inflammatory bowel disease.",
+          "tags": [
+            "Pharmacology",
+            "Immune Suppressants and Immune Modulators"
+          ],
+          "source_url": "https://drive.google.com/file/d/1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92/view?usp=drivesdk"
+        },
+        {
+          "id": "1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92-c10",
+          "front": "What infection risk must be considered before anti-TNF therapy?",
+          "back": "Reactivation of latent tuberculosis.",
+          "tags": [
+            "Pharmacology",
+            "Immune Suppressants and Immune Modulators"
+          ],
+          "source_url": "https://drive.google.com/file/d/1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92/view?usp=drivesdk"
+        },
+        {
+          "id": "1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92-c11",
+          "front": "What does rituximab target?",
+          "back": "CD20 on B cells.",
+          "tags": [
+            "Pharmacology",
+            "Immune Suppressants and Immune Modulators"
+          ],
+          "source_url": "https://drive.google.com/file/d/1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92/view?usp=drivesdk"
+        },
+        {
+          "id": "1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92-c12",
+          "front": "What is a general consequence of immunosuppressive therapy?",
+          "back": "Increased susceptibility to infection and some malignancies.",
+          "tags": [
+            "Pharmacology",
+            "Immune Suppressants and Immune Modulators"
+          ],
+          "source_url": "https://drive.google.com/file/d/1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "id": "drive_1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG",
+      "subject": "Pharmacology",
+      "title": "Pharmacology of Hypersensitivity",
+      "source_file_id": "1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG",
+      "source_url": "https://drive.google.com/file/d/1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG/view?usp=drivesdk",
+      "source_modified_time": "2026-09-06T08:14:49.847Z",
+      "archived": false,
+      "cards": [
+        {
+          "id": "1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG-c01",
+          "front": "What is first-line treatment for anaphylaxis?",
+          "back": "Intramuscular epinephrine.",
+          "tags": [
+            "Pharmacology",
+            "Pharmacology of Hypersensitivity"
+          ],
+          "source_url": "https://drive.google.com/file/d/1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG/view?usp=drivesdk"
+        },
+        {
+          "id": "1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG-c02",
+          "front": "Why is epinephrine effective in anaphylaxis?",
+          "back": "α1 vasoconstriction raises BP/reduces edema; β1 supports heart; β2 bronchodilates and reduces mediator release.",
+          "tags": [
+            "Pharmacology",
+            "Pharmacology of Hypersensitivity"
+          ],
+          "source_url": "https://drive.google.com/file/d/1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG/view?usp=drivesdk"
+        },
+        {
+          "id": "1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG-c03",
+          "front": "What receptor do H1 antihistamines block?",
+          "back": "Histamine H1 receptors.",
+          "tags": [
+            "Pharmacology",
+            "Pharmacology of Hypersensitivity"
+          ],
+          "source_url": "https://drive.google.com/file/d/1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG/view?usp=drivesdk"
+        },
+        {
+          "id": "1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG-c04",
+          "front": "What symptoms are H1 antihistamines best at treating?",
+          "back": "Histamine-mediated itching, sneezing, urticaria, and rhinorrhea.",
+          "tags": [
+            "Pharmacology",
+            "Pharmacology of Hypersensitivity"
+          ],
+          "source_url": "https://drive.google.com/file/d/1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG/view?usp=drivesdk"
+        },
+        {
+          "id": "1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG-c05",
+          "front": "Why are antihistamines not a substitute for epinephrine in anaphylaxis?",
+          "back": "They do not rapidly reverse airway edema, bronchospasm, or shock.",
+          "tags": [
+            "Pharmacology",
+            "Pharmacology of Hypersensitivity"
+          ],
+          "source_url": "https://drive.google.com/file/d/1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG/view?usp=drivesdk"
+        },
+        {
+          "id": "1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG-c06",
+          "front": "What distinguishes first-generation H1 blockers?",
+          "back": "They enter the CNS and commonly cause sedation and anticholinergic effects.",
+          "tags": [
+            "Pharmacology",
+            "Pharmacology of Hypersensitivity"
+          ],
+          "source_url": "https://drive.google.com/file/d/1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG/view?usp=drivesdk"
+        },
+        {
+          "id": "1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG-c07",
+          "front": "What distinguishes second-generation H1 blockers?",
+          "back": "Less CNS penetration and therefore less sedation.",
+          "tags": [
+            "Pharmacology",
+            "Pharmacology of Hypersensitivity"
+          ],
+          "source_url": "https://drive.google.com/file/d/1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG/view?usp=drivesdk"
+        },
+        {
+          "id": "1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG-c08",
+          "front": "How do corticosteroids help allergic disease?",
+          "back": "They suppress inflammatory gene expression and late-phase inflammation.",
+          "tags": [
+            "Pharmacology",
+            "Pharmacology of Hypersensitivity"
+          ],
+          "source_url": "https://drive.google.com/file/d/1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG/view?usp=drivesdk"
+        },
+        {
+          "id": "1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG-c09",
+          "front": "Do corticosteroids act rapidly enough to replace epinephrine in anaphylaxis?",
+          "back": "No; their onset is too slow for immediate lifesaving treatment.",
+          "tags": [
+            "Pharmacology",
+            "Pharmacology of Hypersensitivity"
+          ],
+          "source_url": "https://drive.google.com/file/d/1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG/view?usp=drivesdk"
+        },
+        {
+          "id": "1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG-c10",
+          "front": "What do leukotriene receptor antagonists block?",
+          "back": "Cysteinyl leukotriene effects involved in bronchoconstriction and inflammation.",
+          "tags": [
+            "Pharmacology",
+            "Pharmacology of Hypersensitivity"
+          ],
+          "source_url": "https://drive.google.com/file/d/1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG/view?usp=drivesdk"
+        },
+        {
+          "id": "1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG-c11",
+          "front": "What is omalizumab's target?",
+          "back": "Free IgE, reducing IgE-mediated mast-cell activation.",
+          "tags": [
+            "Pharmacology",
+            "Pharmacology of Hypersensitivity"
+          ],
+          "source_url": "https://drive.google.com/file/d/1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG/view?usp=drivesdk"
+        },
+        {
+          "id": "1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG-c12",
+          "front": "What is the pharmacologic priority in severe acute hypersensitivity?",
+          "back": "Stabilize airway, breathing, and circulation; give IM epinephrine promptly.",
+          "tags": [
+            "Pharmacology",
+            "Pharmacology of Hypersensitivity"
+          ],
+          "source_url": "https://drive.google.com/file/d/1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "id": "drive_11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP",
+      "subject": "Pharmacology",
+      "title": "Drugs Affecting Hemostasis and Coagulation",
+      "source_file_id": "11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP",
+      "source_url": "https://drive.google.com/file/d/11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP/view?usp=drivesdk",
+      "source_modified_time": "2026-09-05T13:09:45.149Z",
+      "archived": false,
+      "cards": [
+        {
+          "id": "11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP-c01",
+          "front": "How does unfractionated heparin act?",
+          "back": "It accelerates antithrombin inhibition of thrombin and factor Xa.",
+          "tags": [
+            "Pharmacology",
+            "Drugs Affecting Hemostasis and Coagulation"
+          ],
+          "source_url": "https://drive.google.com/file/d/11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP/view?usp=drivesdk"
+        },
+        {
+          "id": "11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP-c02",
+          "front": "Which test commonly monitors unfractionated heparin?",
+          "back": "aPTT.",
+          "tags": [
+            "Pharmacology",
+            "Drugs Affecting Hemostasis and Coagulation"
+          ],
+          "source_url": "https://drive.google.com/file/d/11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP/view?usp=drivesdk"
+        },
+        {
+          "id": "11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP-c03",
+          "front": "How do low-molecular-weight heparins differ from UFH?",
+          "back": "They inhibit factor Xa more selectively and have more predictable pharmacokinetics.",
+          "tags": [
+            "Pharmacology",
+            "Drugs Affecting Hemostasis and Coagulation"
+          ],
+          "source_url": "https://drive.google.com/file/d/11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP/view?usp=drivesdk"
+        },
+        {
+          "id": "11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP-c04",
+          "front": "What antidote reverses heparin?",
+          "back": "Protamine sulfate.",
+          "tags": [
+            "Pharmacology",
+            "Drugs Affecting Hemostasis and Coagulation"
+          ],
+          "source_url": "https://drive.google.com/file/d/11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP/view?usp=drivesdk"
+        },
+        {
+          "id": "11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP-c05",
+          "front": "How does warfarin work?",
+          "back": "It inhibits vitamin K epoxide reductase, reducing activation of factors II, VII, IX, X and proteins C/S.",
+          "tags": [
+            "Pharmacology",
+            "Drugs Affecting Hemostasis and Coagulation"
+          ],
+          "source_url": "https://drive.google.com/file/d/11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP/view?usp=drivesdk"
+        },
+        {
+          "id": "11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP-c06",
+          "front": "Which test monitors warfarin?",
+          "back": "PT/INR.",
+          "tags": [
+            "Pharmacology",
+            "Drugs Affecting Hemostasis and Coagulation"
+          ],
+          "source_url": "https://drive.google.com/file/d/11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP/view?usp=drivesdk"
+        },
+        {
+          "id": "11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP-c07",
+          "front": "Why can warfarin initially be prothrombotic?",
+          "back": "Protein C falls rapidly before several procoagulant factors, creating transient hypercoagulability.",
+          "tags": [
+            "Pharmacology",
+            "Drugs Affecting Hemostasis and Coagulation"
+          ],
+          "source_url": "https://drive.google.com/file/d/11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP/view?usp=drivesdk"
+        },
+        {
+          "id": "11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP-c08",
+          "front": "What are direct factor Xa inhibitors examples?",
+          "back": "Apixaban and rivaroxaban.",
+          "tags": [
+            "Pharmacology",
+            "Drugs Affecting Hemostasis and Coagulation"
+          ],
+          "source_url": "https://drive.google.com/file/d/11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP/view?usp=drivesdk"
+        },
+        {
+          "id": "11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP-c09",
+          "front": "What is a direct thrombin inhibitor example?",
+          "back": "Dabigatran.",
+          "tags": [
+            "Pharmacology",
+            "Drugs Affecting Hemostasis and Coagulation"
+          ],
+          "source_url": "https://drive.google.com/file/d/11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP/view?usp=drivesdk"
+        },
+        {
+          "id": "11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP-c10",
+          "front": "How do thrombolytics work?",
+          "back": "They increase plasmin generation and promote fibrin clot breakdown.",
+          "tags": [
+            "Pharmacology",
+            "Drugs Affecting Hemostasis and Coagulation"
+          ],
+          "source_url": "https://drive.google.com/file/d/11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP/view?usp=drivesdk"
+        },
+        {
+          "id": "11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP-c11",
+          "front": "What major risk is shared by anticoagulants and thrombolytics?",
+          "back": "Bleeding.",
+          "tags": [
+            "Pharmacology",
+            "Drugs Affecting Hemostasis and Coagulation"
+          ],
+          "source_url": "https://drive.google.com/file/d/11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP/view?usp=drivesdk"
+        },
+        {
+          "id": "11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP-c12",
+          "front": "What is vitamin K used for pharmacologically?",
+          "back": "To reverse or treat vitamin K antagonist effect/deficiency when clinically appropriate.",
+          "tags": [
+            "Pharmacology",
+            "Drugs Affecting Hemostasis and Coagulation"
+          ],
+          "source_url": "https://drive.google.com/file/d/11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "id": "drive_1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY",
+      "subject": "Pharmacology",
+      "title": "Treatment of Anemia",
+      "source_file_id": "1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY",
+      "source_url": "https://drive.google.com/file/d/1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY/view?usp=drivesdk",
+      "source_modified_time": "2026-09-02T12:56:38.863Z",
+      "archived": false,
+      "cards": [
+        {
+          "id": "1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY-c01",
+          "front": "What is first-line replacement for uncomplicated iron-deficiency anemia?",
+          "back": "Oral iron, if tolerated and absorption is adequate.",
+          "tags": [
+            "Pharmacology",
+            "Treatment of Anemia"
+          ],
+          "source_url": "https://drive.google.com/file/d/1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY/view?usp=drivesdk"
+        },
+        {
+          "id": "1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY-c02",
+          "front": "Where is oral iron best absorbed?",
+          "back": "Duodenum and proximal jejunum.",
+          "tags": [
+            "Pharmacology",
+            "Treatment of Anemia"
+          ],
+          "source_url": "https://drive.google.com/file/d/1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY/view?usp=drivesdk"
+        },
+        {
+          "id": "1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY-c03",
+          "front": "What common adverse effects occur with oral iron?",
+          "back": "GI upset, constipation, abdominal discomfort, and dark stools.",
+          "tags": [
+            "Pharmacology",
+            "Treatment of Anemia"
+          ],
+          "source_url": "https://drive.google.com/file/d/1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY/view?usp=drivesdk"
+        },
+        {
+          "id": "1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY-c04",
+          "front": "When may IV iron be preferred?",
+          "back": "Severe deficiency needing rapid replacement, malabsorption, ongoing losses, or intolerance of oral iron.",
+          "tags": [
+            "Pharmacology",
+            "Treatment of Anemia"
+          ],
+          "source_url": "https://drive.google.com/file/d/1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY/view?usp=drivesdk"
+        },
+        {
+          "id": "1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY-c05",
+          "front": "What treats folate-deficiency megaloblastic anemia?",
+          "back": "Folic acid replacement.",
+          "tags": [
+            "Pharmacology",
+            "Treatment of Anemia"
+          ],
+          "source_url": "https://drive.google.com/file/d/1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY/view?usp=drivesdk"
+        },
+        {
+          "id": "1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY-c06",
+          "front": "Why must vitamin B12 deficiency be excluded before giving folate alone?",
+          "back": "Folate can improve anemia while neurologic B12 injury progresses.",
+          "tags": [
+            "Pharmacology",
+            "Treatment of Anemia"
+          ],
+          "source_url": "https://drive.google.com/file/d/1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY/view?usp=drivesdk"
+        },
+        {
+          "id": "1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY-c07",
+          "front": "How is vitamin B12 deficiency treated?",
+          "back": "Vitamin B12 replacement, orally at adequate dose or parenterally when needed.",
+          "tags": [
+            "Pharmacology",
+            "Treatment of Anemia"
+          ],
+          "source_url": "https://drive.google.com/file/d/1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY/view?usp=drivesdk"
+        },
+        {
+          "id": "1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY-c08",
+          "front": "What does erythropoietin therapy stimulate?",
+          "back": "Erythroid progenitor proliferation and RBC production.",
+          "tags": [
+            "Pharmacology",
+            "Treatment of Anemia"
+          ],
+          "source_url": "https://drive.google.com/file/d/1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY/view?usp=drivesdk"
+        },
+        {
+          "id": "1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY-c09",
+          "front": "A common indication for erythropoiesis-stimulating agents?",
+          "back": "Anemia of chronic kidney disease.",
+          "tags": [
+            "Pharmacology",
+            "Treatment of Anemia"
+          ],
+          "source_url": "https://drive.google.com/file/d/1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY/view?usp=drivesdk"
+        },
+        {
+          "id": "1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY-c10",
+          "front": "What substrate should be adequate for EPO therapy to work well?",
+          "back": "Iron stores.",
+          "tags": [
+            "Pharmacology",
+            "Treatment of Anemia"
+          ],
+          "source_url": "https://drive.google.com/file/d/1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY/view?usp=drivesdk"
+        },
+        {
+          "id": "1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY-c11",
+          "front": "What major risks occur with excessive erythropoiesis-stimulating therapy?",
+          "back": "Hypertension and thromboembolic/cardiovascular events.",
+          "tags": [
+            "Pharmacology",
+            "Treatment of Anemia"
+          ],
+          "source_url": "https://drive.google.com/file/d/1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY/view?usp=drivesdk"
+        },
+        {
+          "id": "1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY-c12",
+          "front": "What determines anemia treatment?",
+          "back": "Correct the underlying cause and replace the specific missing substrate or stimulus.",
+          "tags": [
+            "Pharmacology",
+            "Treatment of Anemia"
+          ],
+          "source_url": "https://drive.google.com/file/d/1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "id": "drive_1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D",
+      "subject": "Pharmacology",
+      "title": "Pulmonary Embolism Management",
+      "source_file_id": "1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D",
+      "source_url": "https://drive.google.com/file/d/1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D/view?usp=drivesdk",
+      "source_modified_time": "2026-09-02T06:36:50.937Z",
+      "archived": false,
+      "cards": [
+        {
+          "id": "1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D-c01",
+          "front": "What is the main pharmacologic treatment for most acute pulmonary emboli?",
+          "back": "Anticoagulation.",
+          "tags": [
+            "Pharmacology",
+            "Pulmonary Embolism Management"
+          ],
+          "source_url": "https://drive.google.com/file/d/1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D/view?usp=drivesdk"
+        },
+        {
+          "id": "1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D-c02",
+          "front": "Why is anticoagulation used in PE?",
+          "back": "It prevents clot extension and new thrombosis while endogenous fibrinolysis resolves the embolus.",
+          "tags": [
+            "Pharmacology",
+            "Pulmonary Embolism Management"
+          ],
+          "source_url": "https://drive.google.com/file/d/1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D/view?usp=drivesdk"
+        },
+        {
+          "id": "1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D-c03",
+          "front": "Which parenteral anticoagulants may be used initially in PE?",
+          "back": "LMWH, unfractionated heparin, or fondaparinux depending on the clinical setting.",
+          "tags": [
+            "Pharmacology",
+            "Pulmonary Embolism Management"
+          ],
+          "source_url": "https://drive.google.com/file/d/1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D/view?usp=drivesdk"
+        },
+        {
+          "id": "1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D-c04",
+          "front": "Why might UFH be chosen in an unstable PE patient?",
+          "back": "Rapid onset/offset and reversibility are useful when procedures or thrombolysis may be needed.",
+          "tags": [
+            "Pharmacology",
+            "Pulmonary Embolism Management"
+          ],
+          "source_url": "https://drive.google.com/file/d/1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D/view?usp=drivesdk"
+        },
+        {
+          "id": "1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D-c05",
+          "front": "Which oral drugs are commonly used for ongoing PE anticoagulation?",
+          "back": "Direct oral anticoagulants or warfarin, depending on patient factors.",
+          "tags": [
+            "Pharmacology",
+            "Pulmonary Embolism Management"
+          ],
+          "source_url": "https://drive.google.com/file/d/1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D/view?usp=drivesdk"
+        },
+        {
+          "id": "1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D-c06",
+          "front": "When is systemic thrombolysis considered in PE?",
+          "back": "Primarily in high-risk PE with hemodynamic instability, if bleeding risk permits.",
+          "tags": [
+            "Pharmacology",
+            "Pulmonary Embolism Management"
+          ],
+          "source_url": "https://drive.google.com/file/d/1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D/view?usp=drivesdk"
+        },
+        {
+          "id": "1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D-c07",
+          "front": "What is the major danger of thrombolysis?",
+          "back": "Major bleeding, especially intracranial hemorrhage.",
+          "tags": [
+            "Pharmacology",
+            "Pulmonary Embolism Management"
+          ],
+          "source_url": "https://drive.google.com/file/d/1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D/view?usp=drivesdk"
+        },
+        {
+          "id": "1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D-c08",
+          "front": "What is a key alternative when thrombolysis is contraindicated or fails in severe PE?",
+          "back": "Catheter-based therapy or surgical embolectomy in selected patients.",
+          "tags": [
+            "Pharmacology",
+            "Pulmonary Embolism Management"
+          ],
+          "source_url": "https://drive.google.com/file/d/1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D/view?usp=drivesdk"
+        },
+        {
+          "id": "1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D-c09",
+          "front": "What is the role of an IVC filter?",
+          "back": "Selected patients with acute VTE who cannot receive anticoagulation, or rare recurrent events despite adequate therapy.",
+          "tags": [
+            "Pharmacology",
+            "Pulmonary Embolism Management"
+          ],
+          "source_url": "https://drive.google.com/file/d/1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D/view?usp=drivesdk"
+        },
+        {
+          "id": "1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D-c10",
+          "front": "What determines duration of anticoagulation after PE?",
+          "back": "Whether PE was provoked/unprovoked, recurrence risk, bleeding risk, and persistent risk factors.",
+          "tags": [
+            "Pharmacology",
+            "Pulmonary Embolism Management"
+          ],
+          "source_url": "https://drive.google.com/file/d/1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D/view?usp=drivesdk"
+        },
+        {
+          "id": "1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D-c11",
+          "front": "Why should hemodynamic status be assessed immediately in PE?",
+          "back": "It separates high-risk unstable PE from lower-risk presentations and guides reperfusion decisions.",
+          "tags": [
+            "Pharmacology",
+            "Pulmonary Embolism Management"
+          ],
+          "source_url": "https://drive.google.com/file/d/1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D/view?usp=drivesdk"
+        },
+        {
+          "id": "1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D-c12",
+          "front": "What supportive treatment may be needed in severe PE?",
+          "back": "Oxygen and careful circulatory/vasopressor support when shock is present.",
+          "tags": [
+            "Pharmacology",
+            "Pulmonary Embolism Management"
+          ],
+          "source_url": "https://drive.google.com/file/d/1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "id": "drive_1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO",
+      "subject": "Pharmacology",
+      "title": "Antiplatelet Drugs",
+      "source_file_id": "1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO",
+      "source_url": "https://drive.google.com/file/d/1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO/view?usp=drivesdk",
+      "source_modified_time": "2026-08-31T18:13:50.814Z",
+      "archived": false,
+      "cards": [
+        {
+          "id": "1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO-c01",
+          "front": "How does aspirin inhibit platelets?",
+          "back": "It irreversibly inhibits COX-1, reducing thromboxane A₂ synthesis.",
+          "tags": [
+            "Pharmacology",
+            "Antiplatelet Drugs"
+          ],
+          "source_url": "https://drive.google.com/file/d/1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO/view?usp=drivesdk"
+        },
+        {
+          "id": "1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO-c02",
+          "front": "Why does aspirin's platelet effect last for the platelet lifespan?",
+          "back": "Platelets cannot synthesize new COX because they lack nuclei.",
+          "tags": [
+            "Pharmacology",
+            "Antiplatelet Drugs"
+          ],
+          "source_url": "https://drive.google.com/file/d/1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO/view?usp=drivesdk"
+        },
+        {
+          "id": "1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO-c03",
+          "front": "What do P2Y12 inhibitors block?",
+          "back": "ADP-mediated platelet activation through the P2Y12 receptor.",
+          "tags": [
+            "Pharmacology",
+            "Antiplatelet Drugs"
+          ],
+          "source_url": "https://drive.google.com/file/d/1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO/view?usp=drivesdk"
+        },
+        {
+          "id": "1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO-c04",
+          "front": "Name common oral P2Y12 inhibitors.",
+          "back": "Clopidogrel, prasugrel, and ticagrelor.",
+          "tags": [
+            "Pharmacology",
+            "Antiplatelet Drugs"
+          ],
+          "source_url": "https://drive.google.com/file/d/1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO/view?usp=drivesdk"
+        },
+        {
+          "id": "1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO-c05",
+          "front": "What is clopidogrel?",
+          "back": "A prodrug P2Y12 inhibitor requiring hepatic activation.",
+          "tags": [
+            "Pharmacology",
+            "Antiplatelet Drugs"
+          ],
+          "source_url": "https://drive.google.com/file/d/1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO/view?usp=drivesdk"
+        },
+        {
+          "id": "1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO-c06",
+          "front": "What is the final common receptor for platelet aggregation?",
+          "back": "GPIIb/IIIa, which binds fibrinogen.",
+          "tags": [
+            "Pharmacology",
+            "Antiplatelet Drugs"
+          ],
+          "source_url": "https://drive.google.com/file/d/1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO/view?usp=drivesdk"
+        },
+        {
+          "id": "1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO-c07",
+          "front": "What do GPIIb/IIIa inhibitors do?",
+          "back": "Block the final common pathway of platelet aggregation.",
+          "tags": [
+            "Pharmacology",
+            "Antiplatelet Drugs"
+          ],
+          "source_url": "https://drive.google.com/file/d/1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO/view?usp=drivesdk"
+        },
+        {
+          "id": "1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO-c08",
+          "front": "Why are antiplatelet drugs especially useful in arterial thrombosis?",
+          "back": "Arterial thrombi are platelet-rich because of high shear stress.",
+          "tags": [
+            "Pharmacology",
+            "Antiplatelet Drugs"
+          ],
+          "source_url": "https://drive.google.com/file/d/1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO/view?usp=drivesdk"
+        },
+        {
+          "id": "1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO-c09",
+          "front": "What is dual antiplatelet therapy commonly composed of?",
+          "back": "Aspirin plus a P2Y12 inhibitor.",
+          "tags": [
+            "Pharmacology",
+            "Antiplatelet Drugs"
+          ],
+          "source_url": "https://drive.google.com/file/d/1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO/view?usp=drivesdk"
+        },
+        {
+          "id": "1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO-c10",
+          "front": "What is the major adverse effect of antiplatelet therapy?",
+          "back": "Bleeding.",
+          "tags": [
+            "Pharmacology",
+            "Antiplatelet Drugs"
+          ],
+          "source_url": "https://drive.google.com/file/d/1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO/view?usp=drivesdk"
+        },
+        {
+          "id": "1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO-c11",
+          "front": "How does dipyridamole reduce platelet activation?",
+          "back": "It increases platelet cAMP/cGMP signaling partly through phosphodiesterase inhibition and adenosine effects.",
+          "tags": [
+            "Pharmacology",
+            "Antiplatelet Drugs"
+          ],
+          "source_url": "https://drive.google.com/file/d/1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO/view?usp=drivesdk"
+        },
+        {
+          "id": "1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO-c12",
+          "front": "How does cilostazol work?",
+          "back": "PDE3 inhibition increases cAMP, inhibiting platelets and causing vasodilation.",
+          "tags": [
+            "Pharmacology",
+            "Antiplatelet Drugs"
+          ],
+          "source_url": "https://drive.google.com/file/d/1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "id": "drive_1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ",
+      "subject": "Anatomy",
+      "title": "CVS Radiology",
+      "source_file_id": "1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ",
+      "source_url": "https://drive.google.com/file/d/1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ/view?usp=drivesdk",
+      "source_modified_time": "2026-09-13T06:08:53.063Z",
+      "archived": false,
+      "cards": [
+        {
+          "id": "1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ-c01",
+          "front": "What is the standard chest radiograph view used to assess heart size in ambulatory adults?",
+          "back": "Posteroanterior (PA) view.",
+          "tags": [
+            "Anatomy",
+            "CVS Radiology"
+          ],
+          "source_url": "https://drive.google.com/file/d/1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ/view?usp=drivesdk"
+        },
+        {
+          "id": "1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ-c02",
+          "front": "Why can an AP chest radiograph exaggerate heart size?",
+          "back": "The heart is farther from the detector and is magnified.",
+          "tags": [
+            "Anatomy",
+            "CVS Radiology"
+          ],
+          "source_url": "https://drive.google.com/file/d/1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ/view?usp=drivesdk"
+        },
+        {
+          "id": "1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ-c03",
+          "front": "What is cardiomegaly on a PA chest X-ray commonly assessed by?",
+          "back": "A cardiothoracic ratio greater than about 50%.",
+          "tags": [
+            "Anatomy",
+            "CVS Radiology"
+          ],
+          "source_url": "https://drive.google.com/file/d/1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ/view?usp=drivesdk"
+        },
+        {
+          "id": "1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ-c04",
+          "front": "Which chamber contributes most to the left lower cardiac border on PA CXR?",
+          "back": "Left ventricle.",
+          "tags": [
+            "Anatomy",
+            "CVS Radiology"
+          ],
+          "source_url": "https://drive.google.com/file/d/1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ/view?usp=drivesdk"
+        },
+        {
+          "id": "1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ-c05",
+          "front": "Which chamber forms most of the right cardiac border?",
+          "back": "Right atrium.",
+          "tags": [
+            "Anatomy",
+            "CVS Radiology"
+          ],
+          "source_url": "https://drive.google.com/file/d/1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ/view?usp=drivesdk"
+        },
+        {
+          "id": "1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ-c06",
+          "front": "What structure forms the upper right mediastinal contour?",
+          "back": "Superior vena cava.",
+          "tags": [
+            "Anatomy",
+            "CVS Radiology"
+          ],
+          "source_url": "https://drive.google.com/file/d/1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ/view?usp=drivesdk"
+        },
+        {
+          "id": "1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ-c07",
+          "front": "What structure contributes to the left upper mediastinal contour?",
+          "back": "Aortic arch/knob.",
+          "tags": [
+            "Anatomy",
+            "CVS Radiology"
+          ],
+          "source_url": "https://drive.google.com/file/d/1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ/view?usp=drivesdk"
+        },
+        {
+          "id": "1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ-c08",
+          "front": "What does pulmonary vascular congestion suggest?",
+          "back": "Elevated pulmonary venous pressure, commonly from left-sided heart failure.",
+          "tags": [
+            "Anatomy",
+            "CVS Radiology"
+          ],
+          "source_url": "https://drive.google.com/file/d/1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ/view?usp=drivesdk"
+        },
+        {
+          "id": "1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ-c09",
+          "front": "What can a widened mediastinum suggest in the right clinical context?",
+          "back": "Aortic pathology such as aneurysm/dissection, among other causes.",
+          "tags": [
+            "Anatomy",
+            "CVS Radiology"
+          ],
+          "source_url": "https://drive.google.com/file/d/1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ/view?usp=drivesdk"
+        },
+        {
+          "id": "1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ-c10",
+          "front": "What imaging modality gives rapid cross-sectional assessment of great vessels?",
+          "back": "CT, particularly CT angiography for vascular anatomy.",
+          "tags": [
+            "Anatomy",
+            "CVS Radiology"
+          ],
+          "source_url": "https://drive.google.com/file/d/1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ/view?usp=drivesdk"
+        },
+        {
+          "id": "1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ-c11",
+          "front": "What imaging modality is first-line for dynamic valve and ventricular function?",
+          "back": "Echocardiography.",
+          "tags": [
+            "Anatomy",
+            "CVS Radiology"
+          ],
+          "source_url": "https://drive.google.com/file/d/1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ/view?usp=drivesdk"
+        },
+        {
+          "id": "1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ-c12",
+          "front": "What is cardiac MRI particularly useful for?",
+          "back": "Detailed anatomy, ventricular function, tissue characterization, and congenital/cardiomyopathy assessment.",
+          "tags": [
+            "Anatomy",
+            "CVS Radiology"
+          ],
+          "source_url": "https://drive.google.com/file/d/1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "id": "drive_1N29pF27p1UfkP79gdlrUFW-5WiTtgnEC",
+      "subject": "Anatomy",
+      "title": "Mediastinum and Pericardium",
+      "source_file_id": "1N29pF27p1UfkP79gdlrUFW-5WiTtgnEC",
+      "source_url": "https://drive.google.com/file/d/1N29pF27p1UfkP79gdlrUFW-5WiTtgnEC/view?usp=drivesdk",
+      "source_modified_time": "2026-09-13T06:08:17.365Z",
+      "archived": false,
+      "cards": [
+        {
+          "id": "1N29pF27p1UfkP79gdlrUFW-5WiTtgnEC-c01",
+          "front": "What divides the superior and inferior mediastinum?",
+          "back": "A transverse plane from the sternal angle to the T4/T5 intervertebral level.",
+          "tags": [
+            "Anatomy",
+            "Mediastinum and Pericardium"
+          ],
+          "source_url": "https://drive.google.com/file/d/1N29pF27p1UfkP79gdlrUFW-5WiTtgnEC/view?usp=drivesdk"
+        },
+        {
+          "id": "1N29pF27p1UfkP79gdlrUFW-5WiTtgnEC-c02",
+          "front": "What subdivisions make up the inferior mediastinum?",
+          "back": "Anterior, middle, and posterior mediastina.",
+          "tags": [
+            "Anatomy",
+            "Mediastinum and Pericardium"
+          ],
+          "source_url": "https://drive.google.com/file/d/1N29pF27p1UfkP79gdlrUFW-5WiTtgnEC/view?usp=drivesdk"
+        },
+        {
+          "id": "1N29pF27p1UfkP79gdlrUFW-5WiTtgnEC-c03",
+          "front": "Where is the heart located within the mediastinum?",
+          "back": "Middle mediastinum.",
+          "tags": [
+            "Anatomy",
+            "Mediastinum and Pericardium"
+          ],
+          "source_url": "https://drive.google.com/file/d/1N29pF27p1UfkP79gdlrUFW-5WiTtgnEC/view?usp=drivesdk"
+        },
+        {
+          "id": "1N29pF27p1UfkP79gdlrUFW-5WiTtgnEC-c04",
+          "front": "What are the layers of the pericardium?",
+          "back": "Fibrous pericardium and serous pericardium; serous has parietal and visceral layers.",
+          "tags": [
+            "Anatomy",
+            "Mediastinum and Pericardium"
+          ],
+          "source_url": "https://drive.google.com/file/d/1N29pF27p1UfkP79gdlrUFW-5WiTtgnEC/view?usp=drivesdk"
+        },
+        {
+          "id": "1N29pF27p1UfkP79gdlrUFW-5WiTtgnEC-c05",
+          "front": "What is the visceral layer of serous pericardium called?",
+          "back": "Epicardium.",
+          "tags": [
+            "Anatomy",
+            "Mediastinum and Pericardium"
+          ],
+          "source_url": "https://drive.google.com/file/d/1N29pF27p1UfkP79gdlrUFW-5WiTtgnEC/view?usp=drivesdk"
+        },
+        {
+          "id": "1N29pF27p1UfkP79gdlrUFW-5WiTtgnEC-c06",
+          "front": "Where is the pericardial cavity?",
+          "back": "Between parietal and visceral serous pericardium.",
+          "tags": [
+            "Anatomy",
+            "Mediastinum and Pericardium"
+          ],
+          "source_url": "https://drive.google.com/file/d/1N29pF27p1UfkP79gdlrUFW-5WiTtgnEC/view?usp=drivesdk"
+        },
+        {
+          "id": "1N29pF27p1UfkP79gdlrUFW-5WiTtgnEC-c07",
+          "front": "What is the transverse pericardial sinus located between?",
+          "back": "Arterial outflow (aorta/pulmonary trunk) and venous inflow structures.",
+          "tags": [
+            "Anatomy",
+            "Mediastinum and Pericardium"
+          ],
+          "source_url": "https://drive.google.com/file/d/1N29pF27p1UfkP79gdlrUFW-5WiTtgnEC/view?usp=drivesdk"
+        },
+        {
+          "id": "1N29pF27p1UfkP79gdlrUFW-5WiTtgnEC-c08",
+          "front": "What is the oblique pericardial sinus?",
+          "back": "A blind recess posterior to the left atrium between pulmonary veins/IVC reflections.",
+          "tags": [
+            "Anatomy",
+            "Mediastinum and Pericardium"
+          ],
+          "source_url": "https://drive.google.com/file/d/1N29pF27p1UfkP79gdlrUFW-5WiTtgnEC/view?usp=drivesdk"
+        },
+        {
+          "id": "1N29pF27p1UfkP79gdlrUFW-5WiTtgnEC-c09",
+          "front": "What nerve provides sensory innervation to fibrous and parietal pericardium?",
+          "back": "Phrenic nerve (C3–C5).",
+          "tags": [
+            "Anatomy",
+            "Mediastinum and Pericardium"
+          ],
+          "source_url": "https://drive.google.com/file/d/1N29pF27p1UfkP79gdlrUFW-5WiTtgnEC/view?usp=drivesdk"
+        },
+        {
+          "id": "1N29pF27p1UfkP79gdlrUFW-5WiTtgnEC-c10",
+          "front": "Where can pericardial pain be referred?",
+          "back": "Shoulder/supraclavicular region via C3–C5 dermatomes.",
+          "tags": [
+            "Anatomy",
+            "Mediastinum and Pericardium"
+          ],
+          "source_url": "https://drive.google.com/file/d/1N29pF27p1UfkP79gdlrUFW-5WiTtgnEC/view?usp=drivesdk"
+        },
+        {
+          "id": "1N29pF27p1UfkP79gdlrUFW-5WiTtgnEC-c11",
+          "front": "What anchors fibrous pericardium inferiorly?",
+          "back": "Central tendon of the diaphragm.",
+          "tags": [
+            "Anatomy",
+            "Mediastinum and Pericardium"
+          ],
+          "source_url": "https://drive.google.com/file/d/1N29pF27p1UfkP79gdlrUFW-5WiTtgnEC/view?usp=drivesdk"
+        },
+        {
+          "id": "1N29pF27p1UfkP79gdlrUFW-5WiTtgnEC-c12",
+          "front": "Why is rapid pericardial fluid accumulation dangerous?",
+          "back": "It can compress the heart and impair diastolic filling, causing tamponade.",
+          "tags": [
+            "Anatomy",
+            "Mediastinum and Pericardium"
+          ],
+          "source_url": "https://drive.google.com/file/d/1N29pF27p1UfkP79gdlrUFW-5WiTtgnEC/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "id": "drive_1wsoTpxTw6_QhMHqxYdLuxwHOvwXokQV5",
+      "subject": "Anatomy",
+      "title": "External Features of the Heart",
+      "source_file_id": "1wsoTpxTw6_QhMHqxYdLuxwHOvwXokQV5",
+      "source_url": "https://drive.google.com/file/d/1wsoTpxTw6_QhMHqxYdLuxwHOvwXokQV5/view?usp=drivesdk",
+      "source_modified_time": "2026-09-13T06:05:03.175Z",
+      "archived": false,
+      "cards": [
+        {
+          "id": "1wsoTpxTw6_QhMHqxYdLuxwHOvwXokQV5-c01",
+          "front": "Which chamber forms most of the anterior (sternocostal) surface of the heart?",
+          "back": "Right ventricle.",
+          "tags": [
+            "Anatomy",
+            "External Features of the Heart"
+          ],
+          "source_url": "https://drive.google.com/file/d/1wsoTpxTw6_QhMHqxYdLuxwHOvwXokQV5/view?usp=drivesdk"
+        },
+        {
+          "id": "1wsoTpxTw6_QhMHqxYdLuxwHOvwXokQV5-c02",
+          "front": "Which chamber forms most of the base/posterior surface?",
+          "back": "Left atrium.",
+          "tags": [
+            "Anatomy",
+            "External Features of the Heart"
+          ],
+          "source_url": "https://drive.google.com/file/d/1wsoTpxTw6_QhMHqxYdLuxwHOvwXokQV5/view?usp=drivesdk"
+        },
+        {
+          "id": "1wsoTpxTw6_QhMHqxYdLuxwHOvwXokQV5-c03",
+          "front": "Which chamber forms the apex?",
+          "back": "Left ventricle.",
+          "tags": [
+            "Anatomy",
+            "External Features of the Heart"
+          ],
+          "source_url": "https://drive.google.com/file/d/1wsoTpxTw6_QhMHqxYdLuxwHOvwXokQV5/view?usp=drivesdk"
+        },
+        {
+          "id": "1wsoTpxTw6_QhMHqxYdLuxwHOvwXokQV5-c04",
+          "front": "Where is the apex beat normally found?",
+          "back": "Left 5th intercostal space near the midclavicular line.",
+          "tags": [
+            "Anatomy",
+            "External Features of the Heart"
+          ],
+          "source_url": "https://drive.google.com/file/d/1wsoTpxTw6_QhMHqxYdLuxwHOvwXokQV5/view?usp=drivesdk"
+        },
+        {
+          "id": "1wsoTpxTw6_QhMHqxYdLuxwHOvwXokQV5-c05",
+          "front": "Which chamber forms most of the right border of the heart?",
+          "back": "Right atrium.",
+          "tags": [
+            "Anatomy",
+            "External Features of the Heart"
+          ],
+          "source_url": "https://drive.google.com/file/d/1wsoTpxTw6_QhMHqxYdLuxwHOvwXokQV5/view?usp=drivesdk"
+        },
+        {
+          "id": "1wsoTpxTw6_QhMHqxYdLuxwHOvwXokQV5-c06",
+          "front": "Which chamber forms most of the left border?",
+          "back": "Left ventricle, with contribution from the left auricle.",
+          "tags": [
+            "Anatomy",
+            "External Features of the Heart"
+          ],
+          "source_url": "https://drive.google.com/file/d/1wsoTpxTw6_QhMHqxYdLuxwHOvwXokQV5/view?usp=drivesdk"
+        },
+        {
+          "id": "1wsoTpxTw6_QhMHqxYdLuxwHOvwXokQV5-c07",
+          "front": "What separates atria from ventricles externally?",
+          "back": "Coronary (atrioventricular) sulcus.",
+          "tags": [
+            "Anatomy",
+            "External Features of the Heart"
+          ],
+          "source_url": "https://drive.google.com/file/d/1wsoTpxTw6_QhMHqxYdLuxwHOvwXokQV5/view?usp=drivesdk"
+        },
+        {
+          "id": "1wsoTpxTw6_QhMHqxYdLuxwHOvwXokQV5-c08",
+          "front": "What do interventricular grooves mark?",
+          "back": "External position of the interventricular septum.",
+          "tags": [
+            "Anatomy",
+            "External Features of the Heart"
+          ],
+          "source_url": "https://drive.google.com/file/d/1wsoTpxTw6_QhMHqxYdLuxwHOvwXokQV5/view?usp=drivesdk"
+        },
+        {
+          "id": "1wsoTpxTw6_QhMHqxYdLuxwHOvwXokQV5-c09",
+          "front": "Which coronary artery runs in the anterior interventricular groove?",
+          "back": "Anterior interventricular (LAD) artery.",
+          "tags": [
+            "Anatomy",
+            "External Features of the Heart"
+          ],
+          "source_url": "https://drive.google.com/file/d/1wsoTpxTw6_QhMHqxYdLuxwHOvwXokQV5/view?usp=drivesdk"
+        },
+        {
+          "id": "1wsoTpxTw6_QhMHqxYdLuxwHOvwXokQV5-c10",
+          "front": "Which major vein accompanies the LAD?",
+          "back": "Great cardiac vein.",
+          "tags": [
+            "Anatomy",
+            "External Features of the Heart"
+          ],
+          "source_url": "https://drive.google.com/file/d/1wsoTpxTw6_QhMHqxYdLuxwHOvwXokQV5/view?usp=drivesdk"
+        },
+        {
+          "id": "1wsoTpxTw6_QhMHqxYdLuxwHOvwXokQV5-c11",
+          "front": "Which artery often runs in the posterior interventricular groove?",
+          "back": "Posterior interventricular artery, commonly from the RCA in right dominance.",
+          "tags": [
+            "Anatomy",
+            "External Features of the Heart"
+          ],
+          "source_url": "https://drive.google.com/file/d/1wsoTpxTw6_QhMHqxYdLuxwHOvwXokQV5/view?usp=drivesdk"
+        },
+        {
+          "id": "1wsoTpxTw6_QhMHqxYdLuxwHOvwXokQV5-c12",
+          "front": "What does coronary dominance refer to?",
+          "back": "Which coronary artery gives rise to the posterior interventricular artery.",
+          "tags": [
+            "Anatomy",
+            "External Features of the Heart"
+          ],
+          "source_url": "https://drive.google.com/file/d/1wsoTpxTw6_QhMHqxYdLuxwHOvwXokQV5/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "id": "drive_1NCRD8jp124VR1jxrnCxtoTaJRJMtkx4w",
+      "subject": "Anatomy",
+      "title": "Internal Features of the Heart",
+      "source_file_id": "1NCRD8jp124VR1jxrnCxtoTaJRJMtkx4w",
+      "source_url": "https://drive.google.com/file/d/1NCRD8jp124VR1jxrnCxtoTaJRJMtkx4w/view?usp=drivesdk",
+      "source_modified_time": "2026-09-13T06:04:22.463Z",
+      "archived": false,
+      "cards": [
+        {
+          "id": "1NCRD8jp124VR1jxrnCxtoTaJRJMtkx4w-c01",
+          "front": "What structures characterize the right atrium internally?",
+          "back": "Pectinate muscles anteriorly, smooth sinus venarum posteriorly, and fossa ovalis on septum.",
+          "tags": [
+            "Anatomy",
+            "Internal Features of the Heart"
+          ],
+          "source_url": "https://drive.google.com/file/d/1NCRD8jp124VR1jxrnCxtoTaJRJMtkx4w/view?usp=drivesdk"
+        },
+        {
+          "id": "1NCRD8jp124VR1jxrnCxtoTaJRJMtkx4w-c02",
+          "front": "What separates smooth and rough parts of the right atrium internally?",
+          "back": "Crista terminalis.",
+          "tags": [
+            "Anatomy",
+            "Internal Features of the Heart"
+          ],
+          "source_url": "https://drive.google.com/file/d/1NCRD8jp124VR1jxrnCxtoTaJRJMtkx4w/view?usp=drivesdk"
+        },
+        {
+          "id": "1NCRD8jp124VR1jxrnCxtoTaJRJMtkx4w-c03",
+          "front": "What is the fossa ovalis?",
+          "back": "A depression in the interatrial septum marking the fetal foramen ovale.",
+          "tags": [
+            "Anatomy",
+            "Internal Features of the Heart"
+          ],
+          "source_url": "https://drive.google.com/file/d/1NCRD8jp124VR1jxrnCxtoTaJRJMtkx4w/view?usp=drivesdk"
+        },
+        {
+          "id": "1NCRD8jp124VR1jxrnCxtoTaJRJMtkx4w-c04",
+          "front": "What valve lies between right atrium and right ventricle?",
+          "back": "Tricuspid valve.",
+          "tags": [
+            "Anatomy",
+            "Internal Features of the Heart"
+          ],
+          "source_url": "https://drive.google.com/file/d/1NCRD8jp124VR1jxrnCxtoTaJRJMtkx4w/view?usp=drivesdk"
+        },
+        {
+          "id": "1NCRD8jp124VR1jxrnCxtoTaJRJMtkx4w-c05",
+          "front": "What are chordae tendineae attached to?",
+          "back": "AV valve cusps and papillary muscles.",
+          "tags": [
+            "Anatomy",
+            "Internal Features of the Heart"
+          ],
+          "source_url": "https://drive.google.com/file/d/1NCRD8jp124VR1jxrnCxtoTaJRJMtkx4w/view?usp=drivesdk"
+        },
+        {
+          "id": "1NCRD8jp124VR1jxrnCxtoTaJRJMtkx4w-c06",
+          "front": "What is the purpose of papillary muscles?",
+          "back": "They tense chordae during systole and prevent AV valve prolapse.",
+          "tags": [
+            "Anatomy",
+            "Internal Features of the Heart"
+          ],
+          "source_url": "https://drive.google.com/file/d/1NCRD8jp124VR1jxrnCxtoTaJRJMtkx4w/view?usp=drivesdk"
+        },
+        {
+          "id": "1NCRD8jp124VR1jxrnCxtoTaJRJMtkx4w-c07",
+          "front": "What muscular structure is characteristic of the right ventricle?",
+          "back": "Trabeculae carneae; the moderator band is also distinctive.",
+          "tags": [
+            "Anatomy",
+            "Internal Features of the Heart"
+          ],
+          "source_url": "https://drive.google.com/file/d/1NCRD8jp124VR1jxrnCxtoTaJRJMtkx4w/view?usp=drivesdk"
+        },
+        {
+          "id": "1NCRD8jp124VR1jxrnCxtoTaJRJMtkx4w-c08",
+          "front": "What does the moderator band carry?",
+          "back": "Part of the right bundle branch to the anterior papillary muscle/right ventricular wall.",
+          "tags": [
+            "Anatomy",
+            "Internal Features of the Heart"
+          ],
+          "source_url": "https://drive.google.com/file/d/1NCRD8jp124VR1jxrnCxtoTaJRJMtkx4w/view?usp=drivesdk"
+        },
+        {
+          "id": "1NCRD8jp124VR1jxrnCxtoTaJRJMtkx4w-c09",
+          "front": "What valve lies between left atrium and left ventricle?",
+          "back": "Mitral (bicuspid) valve.",
+          "tags": [
+            "Anatomy",
+            "Internal Features of the Heart"
+          ],
+          "source_url": "https://drive.google.com/file/d/1NCRD8jp124VR1jxrnCxtoTaJRJMtkx4w/view?usp=drivesdk"
+        },
+        {
+          "id": "1NCRD8jp124VR1jxrnCxtoTaJRJMtkx4w-c10",
+          "front": "Why is the left ventricular wall thicker than the right?",
+          "back": "It pumps against much higher systemic vascular resistance.",
+          "tags": [
+            "Anatomy",
+            "Internal Features of the Heart"
+          ],
+          "source_url": "https://drive.google.com/file/d/1NCRD8jp124VR1jxrnCxtoTaJRJMtkx4w/view?usp=drivesdk"
+        },
+        {
+          "id": "1NCRD8jp124VR1jxrnCxtoTaJRJMtkx4w-c11",
+          "front": "What are the semilunar valves?",
+          "back": "Aortic and pulmonary valves.",
+          "tags": [
+            "Anatomy",
+            "Internal Features of the Heart"
+          ],
+          "source_url": "https://drive.google.com/file/d/1NCRD8jp124VR1jxrnCxtoTaJRJMtkx4w/view?usp=drivesdk"
+        },
+        {
+          "id": "1NCRD8jp124VR1jxrnCxtoTaJRJMtkx4w-c12",
+          "front": "Where are the coronary artery openings located?",
+          "back": "In the aortic sinuses just above the aortic valve cusps.",
+          "tags": [
+            "Anatomy",
+            "Internal Features of the Heart"
+          ],
+          "source_url": "https://drive.google.com/file/d/1NCRD8jp124VR1jxrnCxtoTaJRJMtkx4w/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "id": "drive_1tktL6El76XzdSl3H9meqCkgYArLLaty7",
+      "subject": "Histology",
+      "title": "Histology of the Lymphatic System",
+      "source_file_id": "1tktL6El76XzdSl3H9meqCkgYArLLaty7",
+      "source_url": "https://drive.google.com/file/d/1tktL6El76XzdSl3H9meqCkgYArLLaty7/view?usp=drivesdk",
+      "source_modified_time": "2026-09-21T06:00:26.929Z",
+      "archived": false,
+      "cards": [
+        {
+          "id": "1tktL6El76XzdSl3H9meqCkgYArLLaty7-c01",
+          "front": "What is the basic structural framework of many lymphoid organs?",
+          "back": "Reticular connective tissue supporting lymphocytes and antigen-presenting cells.",
+          "tags": [
+            "Histology",
+            "Histology of the Lymphatic System"
+          ],
+          "source_url": "https://drive.google.com/file/d/1tktL6El76XzdSl3H9meqCkgYArLLaty7/view?usp=drivesdk"
+        },
+        {
+          "id": "1tktL6El76XzdSl3H9meqCkgYArLLaty7-c02",
+          "front": "What are primary lymphoid organs?",
+          "back": "Sites of lymphocyte development/maturation: bone marrow and thymus.",
+          "tags": [
+            "Histology",
+            "Histology of the Lymphatic System"
+          ],
+          "source_url": "https://drive.google.com/file/d/1tktL6El76XzdSl3H9meqCkgYArLLaty7/view?usp=drivesdk"
+        },
+        {
+          "id": "1tktL6El76XzdSl3H9meqCkgYArLLaty7-c03",
+          "front": "What are secondary lymphoid organs?",
+          "back": "Sites where mature lymphocytes encounter antigen, such as lymph nodes, spleen, and MALT.",
+          "tags": [
+            "Histology",
+            "Histology of the Lymphatic System"
+          ],
+          "source_url": "https://drive.google.com/file/d/1tktL6El76XzdSl3H9meqCkgYArLLaty7/view?usp=drivesdk"
+        },
+        {
+          "id": "1tktL6El76XzdSl3H9meqCkgYArLLaty7-c04",
+          "front": "What is the outer region of a lymph node called?",
+          "back": "Cortex.",
+          "tags": [
+            "Histology",
+            "Histology of the Lymphatic System"
+          ],
+          "source_url": "https://drive.google.com/file/d/1tktL6El76XzdSl3H9meqCkgYArLLaty7/view?usp=drivesdk"
+        },
+        {
+          "id": "1tktL6El76XzdSl3H9meqCkgYArLLaty7-c05",
+          "front": "Where are B-cell follicles mainly located in a lymph node?",
+          "back": "Cortex.",
+          "tags": [
+            "Histology",
+            "Histology of the Lymphatic System"
+          ],
+          "source_url": "https://drive.google.com/file/d/1tktL6El76XzdSl3H9meqCkgYArLLaty7/view?usp=drivesdk"
+        },
+        {
+          "id": "1tktL6El76XzdSl3H9meqCkgYArLLaty7-c06",
+          "front": "What is a germinal center?",
+          "back": "A site of activated B-cell proliferation, selection, and differentiation within a secondary follicle.",
+          "tags": [
+            "Histology",
+            "Histology of the Lymphatic System"
+          ],
+          "source_url": "https://drive.google.com/file/d/1tktL6El76XzdSl3H9meqCkgYArLLaty7/view?usp=drivesdk"
+        },
+        {
+          "id": "1tktL6El76XzdSl3H9meqCkgYArLLaty7-c07",
+          "front": "Where are T cells concentrated in a lymph node?",
+          "back": "Paracortex.",
+          "tags": [
+            "Histology",
+            "Histology of the Lymphatic System"
+          ],
+          "source_url": "https://drive.google.com/file/d/1tktL6El76XzdSl3H9meqCkgYArLLaty7/view?usp=drivesdk"
+        },
+        {
+          "id": "1tktL6El76XzdSl3H9meqCkgYArLLaty7-c08",
+          "front": "What is found in the lymph-node medulla?",
+          "back": "Medullary cords containing plasma cells/lymphocytes and medullary sinuses.",
+          "tags": [
+            "Histology",
+            "Histology of the Lymphatic System"
+          ],
+          "source_url": "https://drive.google.com/file/d/1tktL6El76XzdSl3H9meqCkgYArLLaty7/view?usp=drivesdk"
+        },
+        {
+          "id": "1tktL6El76XzdSl3H9meqCkgYArLLaty7-c09",
+          "front": "Where do afferent lymphatics enter a lymph node?",
+          "back": "Through the convex surface.",
+          "tags": [
+            "Histology",
+            "Histology of the Lymphatic System"
+          ],
+          "source_url": "https://drive.google.com/file/d/1tktL6El76XzdSl3H9meqCkgYArLLaty7/view?usp=drivesdk"
+        },
+        {
+          "id": "1tktL6El76XzdSl3H9meqCkgYArLLaty7-c10",
+          "front": "Where does the efferent lymphatic leave a lymph node?",
+          "back": "At the hilum.",
+          "tags": [
+            "Histology",
+            "Histology of the Lymphatic System"
+          ],
+          "source_url": "https://drive.google.com/file/d/1tktL6El76XzdSl3H9meqCkgYArLLaty7/view?usp=drivesdk"
+        },
+        {
+          "id": "1tktL6El76XzdSl3H9meqCkgYArLLaty7-c11",
+          "front": "What is a key histologic feature of thymus?",
+          "back": "Lobules with dark cortex and lighter medulla; no lymphoid follicles.",
+          "tags": [
+            "Histology",
+            "Histology of the Lymphatic System"
+          ],
+          "source_url": "https://drive.google.com/file/d/1tktL6El76XzdSl3H9meqCkgYArLLaty7/view?usp=drivesdk"
+        },
+        {
+          "id": "1tktL6El76XzdSl3H9meqCkgYArLLaty7-c12",
+          "front": "What are Hassall corpuscles?",
+          "back": "Concentric eosinophilic epithelial-reticular structures in the thymic medulla.",
+          "tags": [
+            "Histology",
+            "Histology of the Lymphatic System"
+          ],
+          "source_url": "https://drive.google.com/file/d/1tktL6El76XzdSl3H9meqCkgYArLLaty7/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "id": "drive_1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC",
+      "subject": "Histology",
+      "title": "Histology of Mucosal Lymphatic Tissue",
+      "source_file_id": "1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC",
+      "source_url": "https://drive.google.com/file/d/1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC/view?usp=drivesdk",
+      "source_modified_time": "2026-09-21T06:00:20.950Z",
+      "archived": false,
+      "cards": [
+        {
+          "id": "1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC-c01",
+          "front": "What does MALT stand for?",
+          "back": "Mucosa-associated lymphoid tissue.",
+          "tags": [
+            "Histology",
+            "Histology of Mucosal Lymphatic Tissue"
+          ],
+          "source_url": "https://drive.google.com/file/d/1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC/view?usp=drivesdk"
+        },
+        {
+          "id": "1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC-c02",
+          "front": "What is the purpose of MALT?",
+          "back": "Local immune surveillance and response at mucosal surfaces.",
+          "tags": [
+            "Histology",
+            "Histology of Mucosal Lymphatic Tissue"
+          ],
+          "source_url": "https://drive.google.com/file/d/1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC/view?usp=drivesdk"
+        },
+        {
+          "id": "1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC-c03",
+          "front": "Give major examples of organized MALT.",
+          "back": "Tonsils, Peyer patches, and appendix.",
+          "tags": [
+            "Histology",
+            "Histology of Mucosal Lymphatic Tissue"
+          ],
+          "source_url": "https://drive.google.com/file/d/1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC/view?usp=drivesdk"
+        },
+        {
+          "id": "1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC-c04",
+          "front": "Where are Peyer patches found?",
+          "back": "Primarily in the ileum.",
+          "tags": [
+            "Histology",
+            "Histology of Mucosal Lymphatic Tissue"
+          ],
+          "source_url": "https://drive.google.com/file/d/1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC/view?usp=drivesdk"
+        },
+        {
+          "id": "1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC-c05",
+          "front": "What are M cells?",
+          "back": "Specialized epithelial cells that sample luminal antigens and deliver them to underlying immune cells.",
+          "tags": [
+            "Histology",
+            "Histology of Mucosal Lymphatic Tissue"
+          ],
+          "source_url": "https://drive.google.com/file/d/1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC/view?usp=drivesdk"
+        },
+        {
+          "id": "1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC-c06",
+          "front": "Which immunoglobulin is especially important in mucosal immunity?",
+          "back": "Secretory IgA.",
+          "tags": [
+            "Histology",
+            "Histology of Mucosal Lymphatic Tissue"
+          ],
+          "source_url": "https://drive.google.com/file/d/1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC/view?usp=drivesdk"
+        },
+        {
+          "id": "1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC-c07",
+          "front": "What is GALT?",
+          "back": "Gut-associated lymphoid tissue, a major component of MALT.",
+          "tags": [
+            "Histology",
+            "Histology of Mucosal Lymphatic Tissue"
+          ],
+          "source_url": "https://drive.google.com/file/d/1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC/view?usp=drivesdk"
+        },
+        {
+          "id": "1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC-c08",
+          "front": "What distinguishes a lymphoid nodule from diffuse lymphoid tissue?",
+          "back": "A nodule is a localized dense collection, often with a germinal center when activated.",
+          "tags": [
+            "Histology",
+            "Histology of Mucosal Lymphatic Tissue"
+          ],
+          "source_url": "https://drive.google.com/file/d/1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC/view?usp=drivesdk"
+        },
+        {
+          "id": "1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC-c09",
+          "front": "What tonsillar feature increases antigen exposure?",
+          "back": "Epithelial invaginations called crypts, especially prominent in palatine tonsils.",
+          "tags": [
+            "Histology",
+            "Histology of Mucosal Lymphatic Tissue"
+          ],
+          "source_url": "https://drive.google.com/file/d/1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC/view?usp=drivesdk"
+        },
+        {
+          "id": "1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC-c10",
+          "front": "Which tonsil is lined mainly by stratified squamous epithelium?",
+          "back": "Palatine tonsil.",
+          "tags": [
+            "Histology",
+            "Histology of Mucosal Lymphatic Tissue"
+          ],
+          "source_url": "https://drive.google.com/file/d/1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC/view?usp=drivesdk"
+        },
+        {
+          "id": "1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC-c11",
+          "front": "Which tonsil is lined mainly by respiratory epithelium?",
+          "back": "Pharyngeal tonsil.",
+          "tags": [
+            "Histology",
+            "Histology of Mucosal Lymphatic Tissue"
+          ],
+          "source_url": "https://drive.google.com/file/d/1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC/view?usp=drivesdk"
+        },
+        {
+          "id": "1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC-c12",
+          "front": "Why is MALT strategically located beneath epithelia?",
+          "back": "Mucosal surfaces are major entry sites for pathogens and foreign antigens.",
+          "tags": [
+            "Histology",
+            "Histology of Mucosal Lymphatic Tissue"
+          ],
+          "source_url": "https://drive.google.com/file/d/1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "id": "drive_1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM",
+      "subject": "Histology",
+      "title": "Histology of Myocardium",
+      "source_file_id": "1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM",
+      "source_url": "https://drive.google.com/file/d/1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM/view?usp=drivesdk",
+      "source_modified_time": "2026-09-19T10:43:49.877Z",
+      "archived": false,
+      "cards": [
+        {
+          "id": "1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM-c01",
+          "front": "What type of muscle forms the myocardium?",
+          "back": "Cardiac muscle.",
+          "tags": [
+            "Histology",
+            "Histology of Myocardium"
+          ],
+          "source_url": "https://drive.google.com/file/d/1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM/view?usp=drivesdk"
+        },
+        {
+          "id": "1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM-c02",
+          "front": "How are cardiac muscle cells arranged?",
+          "back": "Branched striated cells connected end-to-end by intercalated discs.",
+          "tags": [
+            "Histology",
+            "Histology of Myocardium"
+          ],
+          "source_url": "https://drive.google.com/file/d/1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM/view?usp=drivesdk"
+        },
+        {
+          "id": "1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM-c03",
+          "front": "How many nuclei do cardiomyocytes usually have?",
+          "back": "One central nucleus, sometimes two.",
+          "tags": [
+            "Histology",
+            "Histology of Myocardium"
+          ],
+          "source_url": "https://drive.google.com/file/d/1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM/view?usp=drivesdk"
+        },
+        {
+          "id": "1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM-c04",
+          "front": "What are intercalated discs?",
+          "back": "Specialized junctional complexes connecting adjacent cardiomyocytes mechanically and electrically.",
+          "tags": [
+            "Histology",
+            "Histology of Myocardium"
+          ],
+          "source_url": "https://drive.google.com/file/d/1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM/view?usp=drivesdk"
+        },
+        {
+          "id": "1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM-c05",
+          "front": "Which junction in intercalated discs allows electrical coupling?",
+          "back": "Gap junctions.",
+          "tags": [
+            "Histology",
+            "Histology of Myocardium"
+          ],
+          "source_url": "https://drive.google.com/file/d/1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM/view?usp=drivesdk"
+        },
+        {
+          "id": "1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM-c06",
+          "front": "Which junctions provide strong mechanical attachment between cardiomyocytes?",
+          "back": "Desmosomes and fascia adherens.",
+          "tags": [
+            "Histology",
+            "Histology of Myocardium"
+          ],
+          "source_url": "https://drive.google.com/file/d/1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM/view?usp=drivesdk"
+        },
+        {
+          "id": "1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM-c07",
+          "front": "Why are cardiomyocytes rich in mitochondria?",
+          "back": "They require continuous aerobic ATP production for rhythmic contraction.",
+          "tags": [
+            "Histology",
+            "Histology of Myocardium"
+          ],
+          "source_url": "https://drive.google.com/file/d/1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM/view?usp=drivesdk"
+        },
+        {
+          "id": "1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM-c08",
+          "front": "What surrounds individual cardiac muscle fibers?",
+          "back": "A delicate endomysium rich in capillaries.",
+          "tags": [
+            "Histology",
+            "Histology of Myocardium"
+          ],
+          "source_url": "https://drive.google.com/file/d/1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM/view?usp=drivesdk"
+        },
+        {
+          "id": "1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM-c09",
+          "front": "What are Purkinje fibers?",
+          "back": "Specialized conducting cardiomyocytes located mainly in the subendocardium.",
+          "tags": [
+            "Histology",
+            "Histology of Myocardium"
+          ],
+          "source_url": "https://drive.google.com/file/d/1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM/view?usp=drivesdk"
+        },
+        {
+          "id": "1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM-c10",
+          "front": "How do Purkinje fibers look histologically compared with working myocytes?",
+          "back": "Larger, paler cells with fewer peripheral myofibrils and more glycogen.",
+          "tags": [
+            "Histology",
+            "Histology of Myocardium"
+          ],
+          "source_url": "https://drive.google.com/file/d/1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM/view?usp=drivesdk"
+        },
+        {
+          "id": "1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM-c11",
+          "front": "What layer lines the chambers of the heart?",
+          "back": "Endocardium.",
+          "tags": [
+            "Histology",
+            "Histology of Myocardium"
+          ],
+          "source_url": "https://drive.google.com/file/d/1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM/view?usp=drivesdk"
+        },
+        {
+          "id": "1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM-c12",
+          "front": "What layer covers the external heart surface?",
+          "back": "Epicardium, the visceral layer of serous pericardium.",
+          "tags": [
+            "Histology",
+            "Histology of Myocardium"
+          ],
+          "source_url": "https://drive.google.com/file/d/1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM/view?usp=drivesdk"
+        }
+      ]
     }
   ],
-  "bootstrap_note": "Seeded from current official lecture files; hourly Drive sync will add/update additional decks."
+  "bootstrap_note": "Seeded from current official lecture files; hourly Drive sync will add/update additional decks.",
+  "sync_summary": {
+    "official_lecture_files": 47,
+    "decks_present": 47,
+    "last_full_seed": "2026-09-27T09:46:14.004Z"
+  }
 }

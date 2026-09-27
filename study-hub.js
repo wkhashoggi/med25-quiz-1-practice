@@ -57,7 +57,7 @@ function aiCard(q){
   const validationText=q.source_validation==='lecture_validated'?'Lecture validated':(q.source_validation==='lecture_validated_seed'?'Lecture-linked seed':'Validation pending');
   return '<article class="aiCard" id="'+q.id+'">'+
     '<button class="aiStar" data-ai-star="'+q.id+'" title="Star">'+(p.starred?'★':'☆')+'</button>'+
-    '<div class="aiTop"><div class="aiMeta"><span class="aiPill">'+esc(q.subject)+'</span><span class="aiPill">'+esc(q.lecture_title)+'</span><span class="aiPill">'+esc(q.difficulty||'core')+'</span><span class="aiPill '+validation+'">'+validationText+'</span></div></div>'+
+    '<div class="aiTop"><div class="aiMeta"><span class="aiPill">'+esc(q.difficulty||'core')+'</span><span class="aiPill '+validation+'">'+validationText+'</span></div></div>'+
     '<div class="aiStem">'+esc(q.stem)+'</div><div class="aiOptions">'+opts+'</div>'+feedback+
     '<div class="aiActions">'+(q.source_url?'<button class="aiBtn" data-ai-source="'+q.id+'">Open source lecture ↗</button>':'')+'<button class="aiBtn" data-ai-copy="'+q.id+'">Copy question</button></div></article>';
 }

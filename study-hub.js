@@ -95,7 +95,7 @@ function populateAIFilters(){
 async function initAIQuestions(){
   try{const res=await fetch(AI_LIBRARY_URL+'?v='+Date.now(),{cache:'no-store'});if(!res.ok)throw new Error('HTTP '+res.status);aiLibrary=await res.json();if(!Array.isArray(aiLibrary.lecture_sets))aiLibrary.lecture_sets=[]}
   catch(e){console.error('AI question library unavailable',e);aiLibrary={lecture_sets:[],generated_at:null}}
-  populateAIFilters();renderAI();renderHome();
+  populateAIFilters();setupAdvancedQuestionFilters();renderAI();renderHome();
 }
 function setupAIControls(){
   const search=document.getElementById('aiSearch'),subject=document.getElementById('aiSubject'),lecture=document.getElementById('aiLecture');
@@ -241,6 +241,235 @@ const baseSave=save;
 save=function(){const r=baseSave.apply(this,arguments);try{renderHome()}catch{}return r};
 const baseFlashSave=saveFlashReview;
 saveFlashReview=function(){const r=baseFlashSave.apply(this,arguments);try{renderHome()}catch{}return r};
+
+/* Advanced stacked question filters: status + Subject → Lecture → Topic + custom multi-select */
+const QF_KEY='med25-question-filter-state-v2';
+let qfState={
+  past:{status:'all',subject:'',lecture:'',customMode:'include',customSubjects:new Set(),customLectures:new Set(),customActive:false},
+  ai:{status:'all',topic:'',customMode:'include',customSubjects:new Set(),customLectures:new Set(),customActive:false}
+};
+let pastStatusSnapshot=null,aiStatusSnapshot=null,pastStatusPage=state.page,aiStatusPage=aiState.page;
+
+function qfLoad(){
+  try{
+    const raw=JSON.parse(localStorage.getItem(QF_KEY)||'{}');
+    ['past','ai'].forEach(k=>{
+      if(!raw[k])return;
+      Object.assign(qfState[k],raw[k]);
+      qfState[k].customSubjects=new Set(raw[k].customSubjects||[]);
+      qfState[k].customLectures=new Set(raw[k].customLectures||[]);
+    });
+  }catch{}
+}
+function qfSave(){
+  try{
+    const out={};
+    ['past','ai'].forEach(k=>out[k]={...qfState[k],customSubjects:[...qfState[k].customSubjects],customLectures:[...qfState[k].customLectures]});
+    localStorage.setItem(QF_KEY,JSON.stringify(out));
+  }catch{}
+}
+function qfNorm(s){return String(s||'').toLowerCase().replace(/&/g,' and ').replace(/[^a-z0-9]+/g,' ').replace(/\s+/g,' ').trim()}
+function qfSubjectMap(){
+  const map={};
+  try{(flashLibrary.decks||[]).filter(d=>!d.archived).forEach(d=>{if(d.title&&d.subject)map[qfNorm(d.title)]=d.subject})}catch{}
+  try{(aiLibrary.lecture_sets||[]).filter(x=>!x.archived).forEach(x=>{if(x.title&&x.subject)map[qfNorm(x.title)]=x.subject})}catch{}
+  return map;
+}
+function qfPastLecture(q){return q?.lecture_source?.title||'Unmapped lecture'}
+function qfPastSubject(q){
+  const title=qfPastLecture(q),map=qfSubjectMap(),exact=map[qfNorm(title)];
+  if(exact)return exact;
+  const n=qfNorm(title);
+  for(const [k,v] of Object.entries(map)){if(k&&n&&(k.includes(n)||n.includes(k)))return v}
+  return q.module==='CVS'?'CVS / Other':q.module==='IBLS'?'IBLS / Other':q.module==='Formative'?'Formative / Other':'Other';
+}
+function qfAIlecture(q){return q.lecture_title||'Unmapped lecture'}
+function qfStatusPass(progress,status){
+  if(status==='all')return true;
+  if(status==='unanswered')return !progress?.answered;
+  if(status==='correct')return progress?.correct===true;
+  if(status==='wrong')return progress?.correct===false;
+  if(status==='starred')return !!progress?.starred;
+  if(status==='revealed')return !!progress?.revealed;
+  return true;
+}
+function qfCustomPass(subject,lecture,cfg){
+  if(!cfg.customActive)return true;
+  const has=cfg.customSubjects.size||cfg.customLectures.size;
+  if(!has)return true;
+  const selected=cfg.customSubjects.has(subject)||cfg.customLectures.has(lecture);
+  return cfg.customMode==='exclude'?!selected:selected;
+}
+function qfStatusOptions(includeRevealed=true){
+  return '<option value="all">Status: All</option><option value="unanswered">Status: Unanswered</option><option value="correct">Status: Correct</option><option value="wrong">Status: Wrong</option><option value="starred">Status: Starred</option>'+(includeRevealed?'<option value="revealed">Status: Revealed answer</option>':'');
+}
+function qfUnique(arr){return [...new Set(arr.filter(Boolean))].sort((a,b)=>a.localeCompare(b))}
+function qfSetOptions(select,placeholder,items,value){
+  if(!select)return;
+  select.innerHTML='<option value="">'+placeholder+'</option>'+items.map(x=>'<option value="'+esc(x)+'">'+esc(x)+'</option>').join('');
+  select.value=items.includes(value)?value:'';
+}
+function qfPastBase(){
+  let qs=QUESTIONS.slice();
+  const m=document.getElementById('module')?.value||'',b=document.getElementById('bank')?.value||'';
+  if(m)qs=qs.filter(q=>q.module===m);
+  if(b)qs=qs.filter(q=>q.bank===b);
+  return qs;
+}
+function qfRefreshPastCascade(changed){
+  const cfg=qfState.past,subject=document.getElementById('pastSubject'),lecture=document.getElementById('pastLecture'),topic=document.getElementById('topic');
+  if(!subject||!lecture||!topic)return;
+  let qs=qfPastBase();
+  const subjects=qfUnique(qs.map(q=>qfPastSubject(q)));
+  if(changed==='module'||changed==='bank'){if(cfg.subject&&!subjects.includes(cfg.subject)){cfg.subject='';cfg.lecture=''}}
+  qfSetOptions(subject,'All subjects',subjects,cfg.subject);
+  if(cfg.subject)qs=qs.filter(q=>qfPastSubject(q)===cfg.subject);
+  const lectures=qfUnique(qs.map(q=>qfPastLecture(q)));
+  if(changed==='subject'&&cfg.lecture&&!lectures.includes(cfg.lecture))cfg.lecture='';
+  qfSetOptions(lecture,'All lectures',lectures,cfg.lecture);
+  if(cfg.lecture)qs=qs.filter(q=>qfPastLecture(q)===cfg.lecture);
+  const topics=qfUnique(qs.map(q=>q.topic));
+  const current=topic.value;
+  qfSetOptions(topic,'All topics',topics,topics.includes(current)?current:'');
+}
+function qfRefreshAICascade(changed){
+  const cfg=qfState.ai,subject=document.getElementById('aiSubject'),lecture=document.getElementById('aiLecture'),topic=document.getElementById('aiTopic');
+  if(!subject||!lecture||!topic)return;
+  let qs=aiAllQuestions();
+  const subjects=qfUnique(qs.map(q=>q.subject));
+  if(changed==='reload'&&!subjects.includes(aiState.subject))aiState.subject='';
+  qfSetOptions(subject,'All subjects',subjects,aiState.subject);
+  if(aiState.subject)qs=qs.filter(q=>q.subject===aiState.subject);
+  const sets=qfUnique(qs.map(q=>q.set_id));
+  const lectureData=(aiLibrary.lecture_sets||[]).filter(x=>sets.includes(x.id)).sort((a,b)=>(a.title||'').localeCompare(b.title||''));
+  lecture.innerHTML='<option value="">All lectures</option>'+lectureData.map(x=>'<option value="'+esc(x.id)+'">'+esc(x.title)+'</option>').join('');
+  if(!lectureData.some(x=>x.id===aiState.lecture))aiState.lecture='';
+  lecture.value=aiState.lecture;
+  if(aiState.lecture)qs=qs.filter(q=>q.set_id===aiState.lecture);
+  const topics=qfUnique(qs.map(q=>q.concept));
+  if(cfg.topic&&!topics.includes(cfg.topic))cfg.topic='';
+  qfSetOptions(topic,'All topics',topics,cfg.topic);
+}
+function qfCustomPanel(scope){
+  const cfg=qfState[scope],isPast=scope==='past';
+  let subjects=[],lectures=[];
+  if(isPast){
+    subjects=qfUnique(QUESTIONS.map(q=>qfPastSubject(q)));
+    lectures=qfUnique(QUESTIONS.map(q=>qfPastLecture(q)));
+  }else{
+    subjects=qfUnique(aiAllQuestions().map(q=>q.subject));
+    lectures=qfUnique(aiAllQuestions().map(q=>qfAIlecture(q)));
+  }
+  const checked=(set,v)=>set.has(v)?' checked':'';
+  return '<div class="qfCustomHead"><div><b>Custom filter</b><span>Select multiple subjects and/or lectures.</span></div><button type="button" class="qfClose" data-qf-close="'+scope+'">×</button></div>'+
+    '<div class="qfMode"><label><input type="radio" name="'+scope+'CustomMode" value="include" '+(cfg.customMode!=='exclude'?'checked':'')+'> Include only selected</label><label><input type="radio" name="'+scope+'CustomMode" value="exclude" '+(cfg.customMode==='exclude'?'checked':'')+'> Exclude selected</label></div>'+
+    '<div class="qfMultiGrid"><div><div class="qfListTitle">Subjects</div><div class="qfCheckList">'+subjects.map(v=>'<label><input type="checkbox" data-qf-scope="'+scope+'" data-qf-kind="subject" value="'+esc(v)+'"'+checked(cfg.customSubjects,v)+'> <span>'+esc(v)+'</span></label>').join('')+'</div></div>'+
+    '<div><div class="qfListTitle">Lectures</div><div class="qfCheckList">'+lectures.map(v=>'<label><input type="checkbox" data-qf-scope="'+scope+'" data-qf-kind="lecture" value="'+esc(v)+'"'+checked(cfg.customLectures,v)+'> <span>'+esc(v)+'</span></label>').join('')+'</div></div></div>'+
+    '<div class="qfCustomFoot"><button type="button" class="qfBtn" data-qf-clear="'+scope+'">Clear</button><button type="button" class="qfBtn primary" data-qf-apply="'+scope+'">Apply filter</button></div>';
+}
+function qfUpdateButton(scope){
+  const cfg=qfState[scope],btn=document.getElementById(scope+'CustomFilterBtn');if(!btn)return;
+  const n=cfg.customSubjects.size+cfg.customLectures.size;
+  btn.textContent='Custom filter'+(cfg.customActive&&n?' · '+n:'');
+  btn.classList.toggle('active',cfg.customActive&&n>0);
+}
+function qfBindPanel(scope){
+  const panel=document.getElementById(scope+'CustomPanel');if(!panel)return;
+  panel.querySelector('[data-qf-close]')?.addEventListener('click',()=>panel.classList.add('hidden'));
+  panel.querySelectorAll('input[type="radio"]').forEach(r=>r.addEventListener('change',()=>{qfState[scope].customMode=r.value}));
+  panel.querySelectorAll('input[type="checkbox"]').forEach(c=>c.addEventListener('change',()=>{
+    const set=c.dataset.qfKind==='subject'?qfState[scope].customSubjects:qfState[scope].customLectures;
+    c.checked?set.add(c.value):set.delete(c.value);
+  }));
+  panel.querySelector('[data-qf-clear]')?.addEventListener('click',()=>{
+    const cfg=qfState[scope];cfg.customSubjects.clear();cfg.customLectures.clear();cfg.customActive=false;qfSave();qfRenderCustom(scope);qfApply(scope);
+  });
+  panel.querySelector('[data-qf-apply]')?.addEventListener('click',()=>{
+    const cfg=qfState[scope];cfg.customActive=!!(cfg.customSubjects.size||cfg.customLectures.size);qfSave();qfUpdateButton(scope);panel.classList.add('hidden');qfApply(scope);
+  });
+}
+function qfRenderCustom(scope){
+  const panel=document.getElementById(scope+'CustomPanel');if(!panel)return;
+  panel.innerHTML=qfCustomPanel(scope);qfBindPanel(scope);qfUpdateButton(scope);
+}
+function qfApply(scope){
+  if(scope==='past'){pastStatusSnapshot=null;state.page=1;render()}
+  else{aiStatusSnapshot=null;aiState.page=1;renderAI()}
+}
+function qfInstallPast(){
+  const controls=document.querySelector('#questionSection .toolbar .controls'),chips=document.querySelector('#questionSection .toolbar .chips');
+  if(!controls||document.getElementById('pastStatus'))return;
+  const module=document.getElementById('module');
+  const subject=document.createElement('select');subject.id='pastSubject';subject.className='control';subject.innerHTML='<option value="">All subjects</option>';
+  const lecture=document.createElement('select');lecture.id='pastLecture';lecture.className='control';lecture.innerHTML='<option value="">All lectures</option>';
+  const status=document.createElement('select');status.id='pastStatus';status.className='control';status.innerHTML=qfStatusOptions(true);status.value=qfState.past.status;
+  module.insertAdjacentElement('afterend',subject);subject.insertAdjacentElement('afterend',lecture);
+  document.getElementById('sort').insertAdjacentElement('afterend',status);
+  const custom=document.createElement('button');custom.type='button';custom.id='pastCustomFilterBtn';custom.className='chip qfCustomTrigger';custom.textContent='Custom filter';
+  chips.prepend(custom);
+  const panel=document.createElement('div');panel.id='pastCustomPanel';panel.className='qfCustomPanel hidden';document.querySelector('#questionSection .toolbar').appendChild(panel);
+  ['unanswered','wrong','starred'].forEach(v=>chips.querySelector('[data-filter="'+v+'"]')?.remove());
+  if(['unanswered','wrong','starred'].includes(state.filter)){state.filter='all';chips.querySelectorAll('[data-filter]').forEach(x=>x.classList.toggle('active',x.dataset.filter==='all'))}
+  subject.onchange=()=>{qfState.past.subject=subject.value;qfState.past.lecture='';qfRefreshPastCascade('subject');qfSave();qfApply('past')};
+  lecture.onchange=()=>{qfState.past.lecture=lecture.value;qfRefreshPastCascade('lecture');qfSave();qfApply('past')};
+  status.onchange=()=>{qfState.past.status=status.value;pastStatusSnapshot=null;qfSave();qfApply('past')};
+  module.addEventListener('change',()=>{qfRefreshPastCascade('module')});
+  document.getElementById('bank').addEventListener('change',()=>{qfRefreshPastCascade('bank')});
+  custom.onclick=()=>{qfRenderCustom('past');panel.classList.toggle('hidden')};
+  qfRefreshPastCascade('reload');qfRenderCustom('past');
+}
+function qfInstallAI(){
+  const controls=document.querySelector('#aiSection .aiControls'),chips=document.querySelector('#aiSection .aiChips');
+  if(!controls||document.getElementById('aiStatus'))return;
+  const topic=document.createElement('select');topic.id='aiTopic';topic.className='aiControl';topic.innerHTML='<option value="">All topics</option>';
+  const status=document.createElement('select');status.id='aiStatus';status.className='aiControl';status.innerHTML=qfStatusOptions(false);status.value=qfState.ai.status;
+  document.getElementById('aiLecture').insertAdjacentElement('afterend',topic);topic.insertAdjacentElement('afterend',status);
+  const custom=document.createElement('button');custom.type='button';custom.id='aiCustomFilterBtn';custom.className='aiChip qfCustomTrigger';custom.textContent='Custom filter';chips.prepend(custom);
+  ['all','unanswered','wrong','starred'].forEach(v=>chips.querySelector('[data-ai-filter="'+v+'"]')?.remove());
+  aiState.filter='all';
+  topic.onchange=()=>{qfState.ai.topic=topic.value;qfSave();qfApply('ai')};
+  status.onchange=()=>{qfState.ai.status=status.value;aiStatusSnapshot=null;qfSave();qfApply('ai')};
+  const subject=document.getElementById('aiSubject'),lecture=document.getElementById('aiLecture');
+  subject.onchange=()=>{aiState.subject=subject.value;aiState.lecture='';qfRefreshAICascade('subject');aiState.page=1;renderAI()};
+  lecture.onchange=()=>{aiState.lecture=lecture.value;qfRefreshAICascade('lecture');aiState.page=1;renderAI()};
+  const panel=document.createElement('div');panel.id='aiCustomPanel';panel.className='qfCustomPanel hidden';document.querySelector('#aiSection .aiToolbar').appendChild(panel);
+  custom.onclick=()=>{qfRenderCustom('ai');panel.classList.toggle('hidden')};
+  qfRefreshAICascade('reload');qfRenderCustom('ai');
+}
+function setupAdvancedQuestionFilters(){
+  qfInstallPast();qfInstallAI();
+  qfRefreshPastCascade('reload');qfRefreshAICascade('reload');
+  qfRenderCustom('past');qfRenderCustom('ai');
+}
+qfLoad();
+
+const qfBaseFiltered=filtered;
+filtered=function(){
+  let qs=qfBaseFiltered();
+  const cfg=qfState.past;
+  if(cfg.subject)qs=qs.filter(q=>qfPastSubject(q)===cfg.subject);
+  if(cfg.lecture)qs=qs.filter(q=>qfPastLecture(q)===cfg.lecture);
+  qs=qs.filter(q=>qfCustomPass(qfPastSubject(q),qfPastLecture(q),cfg));
+  if(cfg.status==='unanswered'){
+    if(pastStatusPage!==state.page){pastStatusSnapshot=null;pastStatusPage=state.page}
+    if(!pastStatusSnapshot)pastStatusSnapshot=new Set(qs.filter(q=>!saved[q.id]?.answered).map(q=>q.id));
+    qs=qs.filter(q=>pastStatusSnapshot.has(q.id));
+  }else qs=qs.filter(q=>qfStatusPass(saved[q.id],cfg.status));
+  return qs;
+};
+const qfBaseAIFiltered=aiFiltered;
+aiFiltered=function(){
+  let qs=qfBaseAIFiltered(),cfg=qfState.ai,p=aiProgress();
+  if(cfg.topic)qs=qs.filter(q=>q.concept===cfg.topic);
+  qs=qs.filter(q=>qfCustomPass(q.subject,qfAIlecture(q),cfg));
+  if(cfg.status==='unanswered'){
+    if(aiStatusPage!==aiState.page){aiStatusSnapshot=null;aiStatusPage=aiState.page}
+    if(!aiStatusSnapshot)aiStatusSnapshot=new Set(qs.filter(q=>!p[q.id]?.answered).map(q=>q.id));
+    qs=qs.filter(q=>aiStatusSnapshot.has(q.id));
+  }else qs=qs.filter(q=>qfStatusPass(p[q.id],cfg.status));
+  return qs;
+};
+
 setupAIControls();
 initAIQuestions();
 setTimeout(()=>{try{renderHome();renderAIStats()}catch{}},1000);

@@ -277,33 +277,71 @@ function ankiToggleOptions(){
   host.classList.toggle('hidden');if(!host.classList.contains('hidden'))ankiRenderOptions();
 }
 function ankiRenderStats(){
-  const cards=allFlashCards(),now=Date.now(),d=ankiDaily(),cfg=ankiConfig();
+  const activeDecks=ankiActiveDecks();
+  const activeIds=new Set(activeDecks.map(d=>d.id));
+  const cards=(flashLibrary.decks||[]).filter(d=>activeIds.has(d.id)).flatMap(d=>d.cards||[]);
+  const now=Date.now(),daily=ankiDaily(),cfg=ankiConfig();
+  const suspended=(flashLibrary.decks||[]).filter(d=>!d.archived&&ankiDeckSuspended(d.id)).length;
   const newCount=cards.filter(c=>!cardReview(c.id)).length;
-  const dueCount=cards.filter(c=>{const r=cardReview(c.id);return r&&ankiState(r)===2&&ankiDueMs(r)<=now}).length;
-  const learning=cards.filter(c=>{const r=cardReview(c.id);const s=ankiState(r);return r&&(s===1||s===3)&&ankiDueMs(r)<=now}).length;
+  const dueCount=cards.filter(c=>{const r=cardReview(c.id);return r&&ankiDueMs(r)<=now}).length;
   const reviewed=cards.filter(c=>cardReview(c.id)).length;
   const mature=cards.filter(c=>ankiScheduledDays(cardReview(c.id))>=21).length;
   const host=document.getElementById('flashHeroStats');
-  if(host)host.innerHTML='<div class="stat"><b>'+((flashLibrary.decks||[]).filter(x=>!x.archived).length)+'</b><span>lecture decks</span></div><div class="stat"><b>'+cards.length+'</b><span>flashcards</span></div><div class="stat"><b>'+dueCount+'</b><span>review due</span></div><div class="stat"><b>'+mature+'</b><span>mature cards</span></div>';
+  if(host)host.innerHTML=
+    '<div class="stat"><b>'+activeDecks.length+'</b><span>active lecture decks</span></div>'+
+    '<div class="stat"><b>'+cards.length+'</b><span>active flashcards</span></div>'+
+    '<div class="stat"><b>'+dueCount+'</b><span>due this morning</span></div>'+
+    '<div class="stat"><b>'+suspended+'</b><span>suspended decks</span></div>';
   const stats=document.getElementById('flashStatsPanel');
-  if(stats)stats.innerHTML='<div class="flashStatBox"><b>'+newCount+'</b><span>New</span></div><div class="flashStatBox"><b>'+learning+'</b><span>Learning due</span></div><div class="flashStatBox"><b>'+dueCount+'</b><span>Review due</span></div><div class="flashStatBox"><b>'+reviewed+'</b><span>Seen</span></div><div class="flashStatBox"><b>'+mature+'</b><span>Mature ≥21d</span></div><div class="flashStatBox"><b>'+Math.round((cfg.desiredRetention||.9)*100)+'%</b><span>Target retention</span></div><div class="flashStatBox"><b>'+d.totalAnswers+'</b><span>Answers today</span></div><div class="flashStatBox"><b>'+d.again+'</b><span>Again today</span></div>';
+  if(stats)stats.innerHTML=
+    '<div class="flashStatBox"><b>'+newCount+'</b><span>New</span></div>'+
+    '<div class="flashStatBox"><b>'+dueCount+'</b><span>Due today</span></div>'+
+    '<div class="flashStatBox"><b>'+reviewed+'</b><span>Seen</span></div>'+
+    '<div class="flashStatBox"><b>'+mature+'</b><span>Mature ≥21d</span></div>'+
+    '<div class="flashStatBox"><b>'+Math.round((cfg.desiredRetention||.9)*100)+'%</b><span>Target retention</span></div>'+
+    '<div class="flashStatBox"><b>'+daily.totalAnswers+'</b><span>Answered today</span></div>'+
+    '<div class="flashStatBox"><b>'+daily.again+'</b><span>Again today</span></div>'+
+    '<div class="flashStatBox"><b>'+suspended+'</b><span>Suspended</span></div>';
 }
 function ankiRenderDecks(){
   const host=document.getElementById('flashDeckList');if(!host)return;
   const query=(document.getElementById('flashSearch')?.value||'').trim().toLowerCase();
   const decks=(flashLibrary.decks||[]).filter(d=>!d.archived&&(!query||((d.title||'')+' '+(d.subject||'')).toLowerCase().includes(query)));
-  const meta=document.getElementById('flashSyncMeta');
+  const active=ankiActiveDecks(),meta=document.getElementById('flashSyncMeta');
   if(meta){
     const lim=ankiRemainingLimits();
-    meta.textContent=(flashLibrary.decks||[]).length?((flashLibrary.decks||[]).filter(d=>!d.archived).length+' decks · '+allFlashCards().length+' cards · FSRS '+Math.round(ankiConfig().desiredRetention*100)+'% retention · '+lim.newLeft+' new left today'):'Drive sync is initializing.';
+    const suspended=decks.filter(d=>ankiDeckSuspended(d.id)).length;
+    meta.textContent=(flashLibrary.decks||[]).length
+      ? active.length+' active decks · '+suspended+' suspended · FSRS once-daily review · '+lim.newLeft+' new left today'
+      : 'Drive sync is initializing.';
   }
-  if(!decks.length){host.innerHTML='<div class="ankiEmpty"><b>No matching decks.</b>Try another search.</div>';return}
+  if(!decks.length){
+    host.innerHTML='<div class="ankiEmpty"><b>No matching decks.</b>Try another search.</div>';
+    return;
+  }
   const groups={};for(const d of decks)(groups[d.subject||'Other']??=[]).push(d);
-  host.innerHTML=Object.keys(groups).sort().map(subject=>'<div class="flashSubject">'+esc(subject)+'</div>'+groups[subject].sort((a,b)=>(a.title||'').localeCompare(b.title||'')).map(d=>{
-    const x=ankiDeckCounts(d);
-    return '<div class="ankiDeckRow" data-flash-deck="'+esc(d.id)+'"><div class="ankiDeckTitle"><b>'+esc(d.title||'Untitled lecture')+'</b><span>'+(d.cards||[]).length+' cards'+(d.source_modified_time?' · lecture updated '+prettyFlashDate(d.source_modified_time):'')+'</span></div><div class="ankiCount ankiNew">'+x.new+'</div><div class="ankiCount ankiLearn">'+x.learn+'</div><div class="ankiCount ankiDue">'+x.due+'</div></div>';
-  }).join('')).join('');
-  host.querySelectorAll('[data-flash-deck]').forEach(row=>row.onclick=()=>startFlashStudy([row.dataset.flashDeck]));
+  host.innerHTML=Object.keys(groups).sort().map(subject=>
+    '<div class="flashSubject">'+esc(subject)+'</div>'+
+    groups[subject].sort((a,b)=>(a.title||'').localeCompare(b.title||'')).map(d=>{
+      const x=ankiDeckCounts(d),suspended=ankiDeckSuspended(d.id);
+      return '<div class="ankiDeckRow '+(suspended?'ankiDeckSuspended':'')+'" data-flash-deck="'+esc(d.id)+'">'+
+        '<div class="ankiDeckTitle"><b>'+esc(d.title||'Untitled lecture')+'</b><span>'+(d.cards||[]).length+' cards'+(suspended?' · Suspended':'')+(d.source_modified_time?' · lecture updated '+prettyFlashDate(d.source_modified_time):'')+'</span></div>'+
+        '<div class="ankiCount ankiNew">'+(suspended?'—':x.new)+'</div>'+
+        '<div class="ankiCount ankiLearn">'+(suspended?'—':x.learn)+'</div>'+
+        '<div class="ankiCount ankiDue">'+(suspended?'—':x.due)+'</div>'+
+        '<button class="ankiSuspendBtn" type="button" data-anki-suspend="'+esc(d.id)+'">'+(suspended?'Unsuspend':'Suspend')+'</button>'+
+      '</div>';
+    }).join('')
+  ).join('');
+  host.querySelectorAll('[data-flash-deck]').forEach(row=>row.onclick=e=>{
+    if(e.target.closest('[data-anki-suspend]'))return;
+    if(ankiDeckSuspended(row.dataset.flashDeck))return;
+    startFlashStudy([row.dataset.flashDeck]);
+  });
+  host.querySelectorAll('[data-anki-suspend]').forEach(btn=>btn.onclick=e=>{
+    e.stopPropagation();
+    ankiToggleDeckSuspended(btn.dataset.ankiSuspend);
+  });
 }
 function ankiStart(deckIds){
   const queue=ankiQueue(deckIds);
@@ -321,7 +359,7 @@ function ankiShowCongrats(deckIds=flashSession.deckIds||[]){
   document.getElementById('flashDeckBrowser').classList.add('hidden');
   document.getElementById('flashStudy').classList.remove('hidden');
   document.getElementById('flashStudyDeck').textContent=flashSession.currentDeckLabel;
-  document.getElementById('flashFront').innerHTML='<div class="ankiCongrats">Congratulations!<small>You have finished this deck for now. Come back tomorrow and the scheduler will show you what is due.</small></div>';
+  document.getElementById('flashFront').innerHTML='<div class="ankiCongrats">Morning review complete.<small>You are done for today. Come back tomorrow morning and FSRS will show only the cards due for that day.</small></div>';
   const ans=document.getElementById('flashAnswer');ans.textContent='';ans.classList.remove('show');
   document.getElementById('flashDivider').classList.remove('show');
   document.getElementById('flashRatings').classList.remove('show');
@@ -423,7 +461,7 @@ async function ankiInitFSRS(){
     startFlashStudy=ankiStart;
     renderFlashStudyCard=ankiRenderStudyCard;
     gradeFlashCard=ankiGrade;
-    const study=document.getElementById('flashStudyAll');if(study)study.onclick=()=>startFlashStudy((flashLibrary.decks||[]).filter(d=>!d.archived).map(d=>d.id));
+    const study=document.getElementById('flashStudyAll');if(study)study.onclick=()=>startFlashStudy(ankiActiveDecks().map(d=>d.id));
     renderFlashDecks();renderFlashHeroStats();
     if(!fsrsReady){
       const meta=document.getElementById('flashSyncMeta');

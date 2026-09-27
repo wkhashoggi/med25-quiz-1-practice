@@ -19,24 +19,16 @@ function ankiTodayKey(){
 }
 function ankiConfig(){
   const root=flashReview||{};
-  if(!root[ANKI_CONFIG_KEY]||typeof root[ANKI_CONFIG_KEY]!=='object'){
-    root[ANKI_CONFIG_KEY]={
-      desiredRetention:0.90,
-      newPerDay:20,
-      reviewsPerDay:200,
-      learningSteps:['5m'],
-      relearningSteps:['5m'],
-      initialIntervals:{again:5*60*1000,hard:DAY_MS,good:3*DAY_MS,easy:5*DAY_MS},
-      maximumInterval:36500,
-      fuzz:true,
-      version:'fsrs-custom-learning-v1'
-    };
-  }
+  if(!root[ANKI_CONFIG_KEY]||typeof root[ANKI_CONFIG_KEY]!=='object')root[ANKI_CONFIG_KEY]={};
   const c=root[ANKI_CONFIG_KEY];
-  c.learningSteps=['5m'];
-  c.relearningSteps=['5m'];
-  c.initialIntervals={again:5*60*1000,hard:DAY_MS,good:3*DAY_MS,easy:5*DAY_MS};
-  c.version='fsrs-custom-learning-v1';
+  if(!Number.isFinite(Number(c.desiredRetention)))c.desiredRetention=0.90;
+  if(!Number.isFinite(Number(c.newPerDay)))c.newPerDay=20;
+  if(!Number.isFinite(Number(c.maximumInterval)))c.maximumInterval=36500;
+  c.reviewsPerDay=9999;
+  c.learningSteps=[];
+  c.relearningSteps=[];
+  c.fuzz=true;
+  c.version='fsrs-daily-v1';
   return c;
 }
 function ankiDaily(){
@@ -57,9 +49,9 @@ function fsrsParams(){
     request_retention:Math.min(.97,Math.max(.70,Number(c.desiredRetention)||.90)),
     maximum_interval:Math.min(36500,Math.max(30,Number(c.maximumInterval)||36500)),
     enable_fuzz:c.fuzz!==false,
-    enable_short_term:true,
-    learning_steps:Array.isArray(c.learningSteps)?c.learningSteps:['1m','10m'],
-    relearning_steps:Array.isArray(c.relearningSteps)?c.relearningSteps:['10m']
+    enable_short_term:false,
+    learning_steps:[],
+    relearning_steps:[]
   };
 }
 function ankiSerializeCard(c){
@@ -135,23 +127,30 @@ function ankiRating(grade){
   const R=FSRS.Rating;
   return grade==='again'?R.Again:grade==='hard'?R.Hard:grade==='good'?R.Good:R.Easy;
 }
-function ankiCustomLearningDelay(grade){
-  const c=ankiConfig(),m=c.initialIntervals||{};
-  return Number(m[grade])||({again:5*60*1000,hard:DAY_MS,good:3*DAY_MS,easy:5*DAY_MS}[grade]);
+function ankiRiyadhDateParts(date=new Date()){
+  const parts=new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Riyadh',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(date);
+  const get=t=>Number(parts.find(x=>x.type===t)?.value||0);
+  return {year:get('year'),month:get('month'),day:get('day')};
 }
-function ankiUsesCustomLearning(r,grade){
-  if(!r)return true;
-  const st=ankiState(r);
-  if(st===1||st===3)return true;
-  return st===2&&grade==='again';
+function ankiDueForFutureMorning(days,now=new Date()){
+  const p=ankiRiyadhDateParts(now);
+  const d=Math.max(1,Math.round(Number(days)||1));
+  return new Date(Date.UTC(p.year,p.month-1,p.day+d,0,0,0)-3*60*60*1000);
 }
-function ankiCustomLearningPreview(grade){
-  const ms=ankiCustomLearningDelay(grade);
-  return {result:null,label:ankiFormatDelay(ms),days:ms>=DAY_MS?Math.round(ms/DAY_MS):0,custom:true};
+function ankiDailyizeCard(card,now=new Date()){
+  const serialized=ankiSerializeCard(card);
+  let days=Math.round(Number(serialized.scheduled_days)||0);
+  if(days<1){
+    const rawDue=Number(serialized.due)||now.getTime();
+    days=Math.max(1,Math.round((rawDue-now.getTime())/DAY_MS));
+  }
+  days=Math.max(1,days);
+  serialized.scheduled_days=days;
+  serialized.due=ankiDueForFutureMorning(days,now).getTime();
+  if(serialized.state===0||serialized.state===1||serialized.state===3)serialized.state=2;
+  return serialized;
 }
 function ankiPreview(card,grade,now=new Date()){
-  const current=cardReview(card.id);
-  if(ankiUsesCustomLearning(current,grade))return ankiCustomLearningPreview(grade);
   if(!fsrsReady||!FSRS)return null;
   try{
     const scheduler=FSRS.fsrs(fsrsParams());
@@ -159,8 +158,8 @@ function ankiPreview(card,grade,now=new Date()){
     const all=scheduler.repeat(c,now);
     const result=all[ankiRating(grade)];
     if(!result?.card)return null;
-    const due=result.card.due instanceof Date?result.card.due:new Date(result.card.due);
-    return {result,label:ankiFormatDelay(due.getTime()-now.getTime()),days:Number(result.card.scheduled_days||0)};
+    const next=ankiDailyizeCard(result.card,now);
+    return {result:{...result,card:next},label:next.scheduled_days+'d',days:next.scheduled_days,daily:true};
   }catch(e){console.error('FSRS preview failed',e);return null}
 }
 function ankiRetrievability(r,now=new Date()){
@@ -228,7 +227,7 @@ function ankiInjectOptions(){
   const bar=document.querySelector('#flashcardsSection .ankiBar > div:last-child');
   if(bar&&!document.getElementById('ankiOptionsBtn')){
     const b=document.createElement('button');b.id='ankiOptionsBtn';b.className='ankiBtn';b.type='button';b.textContent='Options';b.onclick=ankiToggleOptions;bar.prepend(b);
-    const study=document.getElementById('flashStudyAll');if(study)study.textContent='Study Now';
+    const study=document.getElementById('flashStudyAll');if(study)study.textContent='Morning Review';
   }
   if(!document.getElementById('ankiOptionsPanel')){
     const stats=document.getElementById('flashStatsPanel');
@@ -249,8 +248,8 @@ function ankiRenderOptions(){
   '<label><span>Maximum reviews/day</span><input id="ankiReviewLimit" type="number" min="1" max="9999" value="'+(Number(c.reviewsPerDay)||200)+'"><small>Today: '+d.reviewCards+' review cards</small></label>'+
   '<label><span>Maximum interval</span><input id="ankiMaxInterval" type="number" min="30" max="36500" value="'+(Number(c.maximumInterval)||36500)+'"><small>days</small></label>'+
   '</div>'+
-  '<div class="ankiOptionNote"><b>Initial learning schedule:</b> Again 5m · Hard 1d · Good 3d · Easy 5d. Once a card reaches normal review, FSRS takes over the longer-term spacing. Again on a failed review returns it in 5 minutes.</div>'+
-  '<div class="ankiOptionFoot"><span>Scheduler: custom 5m / 1d / 3d / 5d learning · FSRS long-term reviews · interval fuzzing on</span><button class="ankiBtn primary" id="ankiSaveOptions">Save</button></div>';
+  '<div class="ankiOptionNote"><b>Daily adaptive scheduling:</b> Complete one morning session. Ratings change the next review day using FSRS memory strength and difficulty; no card repeats later the same day.</div>'+
+  '<div class="ankiOptionFoot"><span>Scheduler: FSRS adaptive · daily-only review windows · interval fuzzing on</span><button class="ankiBtn primary" id="ankiSaveOptions">Save</button></div>';
   document.getElementById('ankiCloseOptions').onclick=()=>host.classList.add('hidden');
   document.getElementById('ankiSaveOptions').onclick=()=>{
     c.desiredRetention=Math.min(.97,Math.max(.70,Number(document.getElementById('ankiRetention').value)/100||.90));
@@ -335,34 +334,32 @@ function ankiRenderStudyCard(){
   const now=new Date();
   ['again','hard','good','easy'].forEach(g=>{
     const p=ankiPreview(card,g,now),id='flash'+g[0].toUpperCase()+g.slice(1)+'Interval',el=document.getElementById(id);
-    if(el)el.textContent=p?.label||(ankiUsesCustomLearning(cardReview(card.id),g)?ankiCustomLearningPreview(g).label:flashIntervalPreview(card,g).label);
+    if(el)el.textContent=p?.label||'1d';
   });
   flashSession.cardStartedAt=Date.now();
 }
 function ankiGrade(grade){
-  const card=currentFlashCard();if(!card||!flashSession.revealed)return;
-  if(!fsrsReady||!FSRS){console.warn('FSRS not ready; using legacy scheduler');return legacyGrade(grade)}
-  const now=new Date(),before=cardReview(card.id),wasNew=!before;
+  const card=currentFlashCard();
+  if(!card||!flashSession.revealed)return;
+  if(!fsrsReady||!FSRS){
+    console.warn('FSRS not ready; using legacy scheduler');
+    return legacyGrade(grade);
+  }
+  const now=new Date();
+  const before=cardReview(card.id);
+  const wasNew=!before;
   try{
-    const scheduler=FSRS.fsrs(fsrsParams()),input=ankiDeserializeCard(before,now),rating=ankiRating(grade);
-    const rawResult=scheduler.next? scheduler.next(input,now,rating) : scheduler.repeat(input,now)[rating];
-    const next=rawResult.card||rawResult;
-    let serialized=ankiSerializeCard(next);
-    const custom=ankiUsesCustomLearning(before,grade);
-    if(custom){
-      const delay=ankiCustomLearningDelay(grade);
-      serialized.due=now.getTime()+delay;
-      serialized.scheduled_days=delay>=DAY_MS?Math.round(delay/DAY_MS):0;
-      if(grade==='again'){
-        serialized.state=before&&ankiState(before)===2?3:(before&&ankiState(before)===3?3:1);
-      }else{
-        serialized.state=2;
-      }
-    }
-    const daily=ankiDaily(),elapsedSec=Math.min(60,Math.max(0,Math.round((Date.now()-(flashSession.cardStartedAt||Date.now()))/1000)));
-    if(wasNew)daily.newIntroduced++;
-    else if(ankiState(before)===2)daily.reviewCards++;
-    daily.totalAnswers++;daily[grade]=(daily[grade]||0)+1;daily.seconds+=elapsedSec;
+    const scheduler=FSRS.fsrs(fsrsParams());
+    const input=ankiDeserializeCard(before,now);
+    const rating=ankiRating(grade);
+    const rawResult=scheduler.next?scheduler.next(input,now,rating):scheduler.repeat(input,now)[rating];
+    const serialized=ankiDailyizeCard(rawResult.card||rawResult,now);
+    const daily=ankiDaily();
+    const elapsedSec=Math.min(60,Math.max(0,Math.round((Date.now()-(flashSession.cardStartedAt||Date.now()))/1000)));
+    if(wasNew){daily.newIntroduced+=1}else{daily.reviewCards+=1}
+    daily.totalAnswers+=1;
+    daily[grade]=(daily[grade]||0)+1;
+    daily.seconds+=elapsedSec;
     flashReview[card.id]={
       fsrs_card:serialized,
       due:serialized.due,
@@ -372,20 +369,31 @@ function ankiGrade(grade){
       last_reviewed:now.getTime(),
       last_grade:grade,
       scheduler:'fsrs',
-      scheduler_version:'custom-learning-v1',
+      scheduler_version:'daily-v1',
       desired_retention:ankiConfig().desiredRetention
     };
     const log=ankiReviewLog();
-    log.push({card_id:card.id,ts:now.getTime(),grade,rating,scheduled_days:serialized.scheduled_days,stability:serialized.stability,difficulty:serialized.difficulty,elapsed_seconds:elapsedSec,custom_learning:custom});
+    log.push({
+      card_id:card.id,
+      ts:now.getTime(),
+      grade,
+      rating,
+      scheduled_days:serialized.scheduled_days,
+      stability:serialized.stability,
+      difficulty:serialized.difficulty,
+      elapsed_seconds:elapsedSec,
+      daily_only:true
+    });
     if(log.length>20000)log.splice(0,log.length-20000);
     saveFlashReview();
-    flashSession.index++;
-    if((serialized.state===1||serialized.state===3)&&serialized.due<=Date.now()+LOOKAHEAD_MS){
-      const already=flashSession.queue.slice(flashSession.index).some(c=>c.id===card.id);
-      if(!already)flashSession.queue.push(card);
-    }
-    ankiRenderStats();ankiRenderDecks();ankiRenderStudyCard();
-  }catch(e){console.error('FSRS grade failed',e);legacyGrade(grade)}
+    flashSession.index+=1;
+    ankiRenderStats();
+    ankiRenderDecks();
+    ankiRenderStudyCard();
+  }catch(e){
+    console.error('FSRS grade failed',e);
+    legacyGrade(grade);
+  }
 }
 let legacyGrade=gradeFlashCard;
 async function ankiInitFSRS(){

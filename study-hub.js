@@ -322,6 +322,163 @@ function homeWeakTopics(){
   const eligible=rows.filter(x=>x.graded>=2);
   return (eligible.length?eligible:rows).sort((a,b)=>a.accuracy-b.accuracy||b.graded-a.graded||a.topic.localeCompare(b.topic)).slice(0,8);
 }
+
+let lectureDashState={subject:'',status:'',search:''};
+const lectureDeckMapCache=new Map();
+
+function lectureGuideDeck(deck){
+  if(!deck)return null;
+  if(lectureDeckMapCache.has(deck.id))return lectureDeckMapCache.get(deck.id);
+  const cat=qaLectureCatalog();
+  const hinted=SG_SUBJECT_MAP[deck.subject]||deck.subject||'';
+  const candidates=hinted?cat.filter(x=>x.subject===hinted):cat;
+  const source=[deck.title,deck.subject,(deck.cards||[]).slice(0,8).map(c=>(c.front||'')+' '+(c.back||'')).join(' ')].join(' ');
+  let best=null,bestScore=-1;
+  for(const l of candidates){
+    let score=8*qaOverlap(deck.title,l.title)+3*qaOverlap(source,l.title)+2*qaOverlap(source,l.objectives||'');
+    const a=qaNorm(deck.title),b=qaNorm(l.title);
+    if(a&&b&&(a.includes(b)||b.includes(a)))score+=8;
+    if(score>bestScore){bestScore=score;best=l}
+  }
+  lectureDeckMapCache.set(deck.id,best||null);
+  return best||null;
+}
+function lectureDateValue(v){
+  if(!v)return 0;
+  const n=Number(v);if(Number.isFinite(n)&&n>0)return n;
+  const d=Date.parse(v);return Number.isFinite(d)?d:0;
+}
+function lectureLastStudiedLabel(ts){
+  if(!ts)return 'Never';
+  const diff=Math.max(0,Date.now()-ts),day=86400000;
+  if(diff<day)return 'Today';
+  if(diff<2*day)return 'Yesterday';
+  if(diff<7*day)return Math.floor(diff/day)+'d ago';
+  try{return new Date(ts).toLocaleDateString('en-GB',{day:'2-digit',month:'short'})}catch{return '—'}
+}
+function lectureDashboardRows(){
+  const lectures=qaLectureCatalog(),rows=new Map();
+  for(const l of lectures){
+    rows.set(l.id,{
+      id:l.id,subject:l.subject,title:l.title,
+      pastTotal:0,pastDone:0,pastCorrect:0,pastGraded:0,
+      aiTotal:0,aiDone:0,aiCorrect:0,aiGraded:0,
+      cards:0,cardsSeen:0,cardsDue:0,
+      lastStudied:0,suspended:false,deckIds:[]
+    });
+  }
+  QUESTIONS.forEach(q=>{
+    const g=sgQuestionLecture('past',q),r=rows.get(g.lecture_id);if(!r)return;
+    r.pastTotal++;
+    const p=saved[q.id];
+    if(p?.answered)r.pastDone++;
+    if(p?.correct===true){r.pastCorrect++;r.pastGraded++}
+    else if(p?.correct===false)r.pastGraded++;
+    r.lastStudied=Math.max(r.lastStudied,lectureDateValue(p?.locked_at||p?.answered_at));
+  });
+  const ap=aiProgress();
+  aiAllQuestions().forEach(q=>{
+    const g=sgQuestionLecture('ai',q),r=rows.get(g.lecture_id);if(!r)return;
+    r.aiTotal++;
+    const p=ap[q.id];
+    if(p?.answered)r.aiDone++;
+    if(p?.correct===true){r.aiCorrect++;r.aiGraded++}
+    else if(p?.correct===false)r.aiGraded++;
+    r.lastStudied=Math.max(r.lastStudied,lectureDateValue(p?.locked_at||p?.answered_at));
+  });
+  const now=Date.now();
+  (flashLibrary.decks||[]).filter(d=>!d.archived).forEach(d=>{
+    const g=lectureGuideDeck(d),r=g&&rows.get(g.id);if(!r)return;
+    r.deckIds.push(d.id);
+    const suspended=typeof ankiDeckSuspended==='function'?ankiDeckSuspended(d.id):false;
+    if(suspended)r.suspended=true;
+    (d.cards||[]).forEach(c=>{
+      r.cards++;
+      const cr=cardReview(c.id);
+      if(cr){
+        r.cardsSeen++;
+        if(Number(cr.due||cr.fsrs_card?.due||0)<=now&&!suspended)r.cardsDue++;
+        r.lastStudied=Math.max(r.lastStudied,lectureDateValue(cr.last_reviewed||cr.fsrs_card?.last_review));
+      }
+    });
+  });
+  const out=[...rows.values()];
+  out.forEach(r=>{
+    const qTotal=r.pastTotal+r.aiTotal,qDone=r.pastDone+r.aiDone,qGraded=r.pastGraded+r.aiGraded,qCorrect=r.pastCorrect+r.aiCorrect;
+    r.questionCoverage=qTotal?Math.round(qDone/qTotal*100):0;
+    r.accuracy=qGraded?Math.round(qCorrect/qGraded*100):null;
+    r.flashCoverage=r.cards?Math.round(r.cardsSeen/r.cards*100):0;
+    const components=[];
+    if(qTotal)components.push(qDone/qTotal);
+    if(r.cards)components.push(r.cardsSeen/r.cards);
+    r.completion=components.length?Math.round(components.reduce((a,b)=>a+b,0)/components.length*100):0;
+    const started=qDone>0||r.cardsSeen>0;
+    if(r.suspended&&r.cards>0)r.status='suspended';
+    else if(!started)r.status='not-started';
+    else if(r.cardsDue>0||(qGraded>=3&&r.accuracy<70))r.status='needs-review';
+    else if(r.questionCoverage>=70&&(r.accuracy===null||r.accuracy>=80)&&(!r.cards||r.flashCoverage>=60))r.status='strong';
+    else r.status='learning';
+  });
+  return out;
+}
+function lectureStatusLabel(s){
+  return s==='not-started'?'Not started':s==='needs-review'?'Needs review':s==='strong'?'Strong':s==='suspended'?'Suspended':'Learning';
+}
+function lectureDashFiltered(){
+  const q=(lectureDashState.search||'').toLowerCase().trim();
+  return lectureDashboardRows().filter(r=>{
+    if(lectureDashState.subject&&r.subject!==lectureDashState.subject)return false;
+    if(lectureDashState.status&&r.status!==lectureDashState.status)return false;
+    if(q&&!((r.title+' '+r.subject).toLowerCase().includes(q)))return false;
+    return true;
+  }).sort((a,b)=>{
+    const order={'needs-review':0,'learning':1,'not-started':2,'strong':3,'suspended':4};
+    return (order[a.status]-order[b.status])||a.subject.localeCompare(b.subject)||a.title.localeCompare(b.title);
+  });
+}
+function setupLectureDashboardControls(){
+  const subject=document.getElementById('lectureDashSubject'),status=document.getElementById('lectureDashStatus'),search=document.getElementById('lectureDashSearch');
+  if(!subject||subject.dataset.bound)return;
+  subject.dataset.bound='1';
+  subject.innerHTML='<option value="">All subjects</option>'+qaSubjects().map(x=>'<option value="'+esc(x)+'">'+esc(x)+'</option>').join('');
+  subject.value=lectureDashState.subject;
+  status.value=lectureDashState.status;
+  search.value=lectureDashState.search;
+  subject.onchange=()=>{lectureDashState.subject=subject.value;renderLectureDashboard()};
+  status.onchange=()=>{lectureDashState.status=status.value;renderLectureDashboard()};
+  search.oninput=()=>{lectureDashState.search=search.value;renderLectureDashboard()};
+}
+function renderLectureDashboard(){
+  const host=document.getElementById('lectureDashboard'),summary=document.getElementById('lectureDashboardSummary');
+  if(!host)return;
+  setupLectureDashboardControls();
+  const all=lectureDashboardRows(),rows=lectureDashFiltered();
+  const counts={strong:0,learning:0,'needs-review':0,'not-started':0,suspended:0};
+  all.forEach(r=>counts[r.status]=(counts[r.status]||0)+1);
+  if(summary)summary.innerHTML=
+    '<span><b>'+all.length+'</b> official lectures</span>'+
+    '<span><b>'+counts.strong+'</b> strong</span>'+
+    '<span><b>'+counts.learning+'</b> learning</span>'+
+    '<span><b>'+counts['needs-review']+'</b> need review</span>'+
+    '<span><b>'+counts['not-started']+'</b> not started</span>'+
+    (counts.suspended?'<span><b>'+counts.suspended+'</b> suspended</span>':'');
+  if(!rows.length){host.innerHTML='<div class="lectureDashEmpty">No lectures match these filters.</div>';return}
+  const head='<div class="lectureDashRow lectureDashColumns"><div>Lecture</div><div>Past papers</div><div>AI</div><div>Flashcards</div><div>Attempted</div><div>Accuracy</div><div>Due</div><div>Last studied</div><div>Status</div></div>';
+  host.innerHTML=head+rows.map(r=>
+    '<div class="lectureDashRow">'+
+      '<div class="lectureDashLecture"><b>'+esc(r.title)+'</b><span>'+esc(r.subject)+'</span></div>'+
+      '<div class="lectureDashCell"><b>'+r.pastDone+'/'+r.pastTotal+'</b><span>answered</span></div>'+
+      '<div class="lectureDashCell"><b>'+r.aiDone+'/'+r.aiTotal+'</b><span>answered</span></div>'+
+      '<div class="lectureDashCell"><b>'+r.cardsSeen+'/'+r.cards+'</b><span>seen</span></div>'+
+      '<div class="lectureDashProgress"><b>'+r.questionCoverage+'%</b><div class="lectureMiniBar"><span style="width:'+r.questionCoverage+'%"></span></div></div>'+
+      '<div class="lectureDashCell"><b>'+(r.accuracy===null?'—':r.accuracy+'%')+'</b><span>'+(r.pastGraded+r.aiGraded)+' graded</span></div>'+
+      '<div class="lectureDashCell '+(r.cardsDue?'due':'')+'"><b>'+r.cardsDue+'</b><span>cards</span></div>'+
+      '<div class="lectureDashCell"><b>'+lectureLastStudiedLabel(r.lastStudied)+'</b></div>'+
+      '<div><span class="lectureStatus '+r.status+'">'+lectureStatusLabel(r.status)+'</span></div>'+
+    '</div>'
+  ).join('');
+}
+
 function homeSubjectRows(){
   const p=aiProgress(),sets=(aiLibrary.lecture_sets||[]).filter(s=>!s.archived),map={};
   sets.forEach(s=>{const x=map[s.subject]||(map[s.subject]={subject:s.subject,aiTotal:0,aiDone:0,aiRight:0,aiGraded:0,cards:0,seen:0});(s.questions||[]).forEach(q=>{x.aiTotal++;if(p[q.id]?.answered)x.aiDone++;if(p[q.id]?.correct===true){x.aiRight++;x.aiGraded++}else if(p[q.id]?.correct===false)x.aiGraded++})});
@@ -340,6 +497,7 @@ function renderHome(){
   if(weak){const rows=homeWeakTopics();weak.innerHTML=rows.length?'<div class="hubRows">'+rows.map(x=>'<div class="hubRow"><div class="hubRowMain"><b>'+esc(x.topic)+'</b><span>'+(x.pastGraded?'Past papers '+x.pastCorrect+'/'+x.pastGraded:'')+(x.pastGraded&&x.aiGraded?' · ':'')+(x.aiGraded?'AI '+x.aiCorrect+'/'+x.aiGraded:'')+' · '+x.correct+'/'+x.graded+' combined</span></div><div class="hubRowScore">'+Math.round(x.accuracy*100)+'%</div></div>').join('')+'</div>':'<p>Answer some Past Paper or AI questions and your weakest topics will appear here.</p>'}
   const subjects=document.getElementById('homeSubjects');
   if(subjects)subjects.innerHTML='<div class="hubRows">'+homeSubjectRows().map(x=>{const aiPct=x.aiGraded?Math.round(x.aiRight/x.aiGraded*100):0,flashPct=x.cards?Math.round(x.seen/x.cards*100):0;return '<div class="hubRow"><div class="hubRowMain"><b>'+esc(x.subject)+'</b><span>AI '+x.aiDone+'/'+x.aiTotal+' · Flashcards '+x.seen+'/'+x.cards+'</span><div class="hubBar"><span style="width:'+Math.round((aiPct+flashPct)/2)+'%"></span></div></div><div class="hubRowScore">'+aiPct+'% AI</div></div>'}).join('')+'</div>';
+  renderLectureDashboard();
   const sync=document.getElementById('homeSync');if(sync)sync.textContent='Drive libraries: '+(aiLibrary.lecture_sets||[]).filter(s=>!s.archived).length+' AI lecture sets · '+(flashLibrary.decks||[]).filter(d=>!d.archived).length+' flashcard decks';
 }
 function hubGo(mode){switchStudySection(mode)}

@@ -63,3 +63,28 @@
 .liveSuccessCounts{display:flex;gap:10px;flex-wrap:wrap;font-size:9px;color:#667085}.liveSuccessCounts span:first-child{color:#067647}.liveSuccessCounts span:nth-child(2){color:#b42318}.liveSuccessCounts span:last-child{margin-left:auto;color:#98a2b3}
 .liveSuccessInner.strong .liveSuccessTop b{color:#067647}.liveSuccessInner.medium .liveSuccessTop b{color:#b54708}.liveSuccessInner.hard .liveSuccessTop b{color:#b42318}
 @media(max-width:620px){.liveStatsToggle{margin-left:0}.liveSuccessTop{align-items:flex-start;flex-direction:column;gap:2px}.liveSuccessCounts span:last-child{margin-left:0;width:100%}}
+
+
+/* Stacked question filters + custom multi-select */
+.qfCustomTrigger.active{background:#172033!important;color:#fff!important;border-color:#172033!important}
+.qfCustomPanel{margin-top:10px;border:1px solid #d0d5dd;background:#fff;border-radius:14px;padding:14px;box-shadow:0 8px 24px rgba(16,24,40,.07)}
+.qfCustomPanel.hidden{display:none}
+.qfCustomHead{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:10px}
+.qfCustomHead b{display:block;font-size:13px;color:#101828}.qfCustomHead span{display:block;font-size:10px;color:#667085;margin-top:2px}
+.qfClose{border:0;background:#f2f4f7;border-radius:8px;width:32px;height:32px;font-size:18px;line-height:1;cursor:pointer;color:#475467}
+.qfMode{display:flex;gap:14px;flex-wrap:wrap;padding:9px 10px;background:#f8fafc;border:1px solid #eaecf0;border-radius:10px;margin-bottom:11px}
+.qfMode label{display:flex;align-items:center;gap:6px;font-size:11px;font-weight:700;color:#475467;cursor:pointer}
+.qfMultiGrid{display:grid;grid-template-columns:1fr 1.4fr;gap:12px}
+.qfListTitle{font-size:10px;text-transform:uppercase;letter-spacing:.04em;font-weight:800;color:#667085;margin-bottom:6px}
+.qfCheckList{max-height:230px;overflow:auto;border:1px solid #eaecf0;border-radius:10px;padding:6px;background:#fcfcfd}
+.qfCheckList label{display:flex;align-items:flex-start;gap:7px;padding:7px 6px;border-radius:7px;font-size:11px;color:#344054;cursor:pointer;line-height:1.35}
+.qfCheckList label:hover{background:#f2f4f7}.qfCheckList input{margin-top:1px;flex:0 0 auto}
+.qfCustomFoot{display:flex;justify-content:flex-end;gap:8px;margin-top:11px}
+.qfBtn{border:1px solid #d0d5dd;background:#fff;color:#344054;border-radius:9px;padding:8px 11px;font-size:11px;font-weight:750;cursor:pointer}
+.qfBtn.primary{background:#1d4ed8;border-color:#1d4ed8;color:#fff}
+#pastStatus,#pastSubject,#pastLecture,#aiStatus,#aiTopic{min-width:150px}
+@media(max-width:700px){
+  .qfMultiGrid{grid-template-columns:1fr}
+  .qfCheckList{max-height:180px}
+  #pastStatus,#pastSubject,#pastLecture,#aiStatus,#aiTopic{min-width:0}
+}

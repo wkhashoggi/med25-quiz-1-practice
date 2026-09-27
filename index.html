@@ -66,6 +66,50 @@
 @media(max-width:800px){.analyticsMetrics{grid-template-columns:1fr 1fr}.analyticsGrid{grid-template-columns:1fr}.analyticsBack{padding:10px}.analyticsPanel{width:100%}}
 @media(max-width:460px){.analyticsMetrics{grid-template-columns:1fr}}
 
+
+/* Study hub + Anki-style flashcards */
+.studyTabs{display:flex;gap:8px;margin:0 0 14px;background:#fff;border:1px solid var(--line);padding:6px;border-radius:14px;box-shadow:0 4px 15px rgba(16,24,40,.04)}
+.studyTab{flex:1;border:0;background:transparent;border-radius:10px;padding:11px 14px;font-weight:800;color:#475467;cursor:pointer}
+.studyTab.active{background:#172033;color:#fff}
+.flashcardsSection{margin-top:18px}
+.ankiShell{background:#e9edf2;border:1px solid #d5dbe4;border-radius:18px;overflow:hidden;box-shadow:0 8px 24px rgba(16,24,40,.08)}
+.ankiBar{display:flex;align-items:center;justify-content:space-between;gap:12px;background:#fafafa;border-bottom:1px solid #cfd6df;padding:13px 16px}
+.ankiBar h2{font-size:18px;margin:0;color:#222}.ankiBar .small{color:#6b7280}
+.ankiBtn{border:1px solid #b8c0cb;background:linear-gradient(#fff,#eceff3);border-radius:7px;padding:8px 11px;color:#222;cursor:pointer;font-weight:650;font-size:12px}
+.ankiBtn:hover{background:#fff}
+.ankiBtn.primary{background:#2f6ea8;color:#fff;border-color:#275f92}
+.ankiBrowser{background:#fff}
+.ankiSearchRow{padding:12px 14px;border-bottom:1px solid #e4e7ec;display:flex;gap:10px;align-items:center}
+.ankiSearch{flex:1;border:1px solid #cfd6df;border-radius:7px;padding:9px 10px;background:#fff;font-size:13px}
+.ankiDeckHead,.ankiDeckRow{display:grid;grid-template-columns:minmax(0,1fr) 70px 70px 70px;gap:8px;align-items:center;padding:9px 14px}
+.ankiDeckHead{background:#f3f4f6;border-bottom:1px solid #d9dee6;color:#6b7280;font-size:11px;font-weight:800;text-transform:uppercase}
+.ankiDeckRow{border-bottom:1px solid #eceff3;cursor:pointer;transition:.1s}
+.ankiDeckRow:hover{background:#f7fbff}
+.ankiDeckTitle{min-width:0}.ankiDeckTitle b{display:block;color:#1f2937;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.ankiDeckTitle span{display:block;color:#7c8593;font-size:11px;margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ankiCount{text-align:center;font-variant-numeric:tabular-nums;font-weight:800;font-size:13px}.ankiNew{color:#2563eb}.ankiLearn{color:#dc2626}.ankiDue{color:#15803d}
+.ankiEmpty{padding:46px 20px;text-align:center;color:#6b7280}.ankiEmpty b{display:block;color:#344054;font-size:17px;margin-bottom:7px}
+.ankiStudy{background:#eef1f5;min-height:570px;display:flex;flex-direction:column}
+.ankiStudyTop{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 16px;background:#fafafa;border-bottom:1px solid #cfd6df}
+.ankiStudyTop .deckName{font-weight:800;color:#252b35}.ankiStudyTop .counts{display:flex;gap:8px;font-size:12px;font-weight:800}
+.ankiCardWrap{flex:1;display:flex;align-items:center;justify-content:center;padding:34px 18px}
+.ankiCard{width:min(760px,96%);min-height:330px;background:#fff;border:1px solid #cfd6df;border-radius:8px;box-shadow:0 7px 24px rgba(16,24,40,.09);display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:38px;cursor:pointer}
+.ankiCard .front{font-size:24px;line-height:1.45;font-weight:650;color:#111827}
+.ankiDivider{width:100%;height:1px;background:#d7dce4;margin:28px 0;display:none}
+.ankiAnswer{display:none;font-size:20px;line-height:1.5;color:#273244}.ankiAnswer.show,.ankiDivider.show{display:block}
+.ankiSource{margin-top:20px;font-size:11px;color:#8a94a3}.ankiSource a{color:#2f6ea8;text-decoration:none;font-weight:700}
+.ankiBottom{padding:14px 16px;background:#fafafa;border-top:1px solid #cfd6df}
+.ankiShowAnswer{display:block;margin:auto;min-width:180px;padding:10px 18px}
+.ankiRatings{display:none;grid-template-columns:repeat(4,minmax(0,1fr));gap:9px;max-width:720px;margin:auto}
+.ankiRatings.show{display:grid}.ankiRate{border:1px solid #b8c0cb;background:linear-gradient(#fff,#eceff3);border-radius:7px;padding:9px 8px;cursor:pointer;color:#1f2937;font-weight:750}
+.ankiRate small{display:block;color:#7c8593;font-weight:600;margin-top:3px}.ankiRate.again{border-bottom:3px solid #dc2626}.ankiRate.hard{border-bottom:3px solid #f59e0b}.ankiRate.good{border-bottom:3px solid #16a34a}.ankiRate.easy{border-bottom:3px solid #2563eb}
+.flashHeroStats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:22px}
+.flashHeroStats .stat{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.18)}
+.flashSyncNote{padding:11px 14px;background:#f8fafc;border-bottom:1px solid #e4e7ec;color:#667085;font-size:12px}
+.flashSubject{padding:8px 14px;background:#f8fafc;border-bottom:1px solid #e4e7ec;font-size:11px;font-weight:850;color:#475467;text-transform:uppercase;letter-spacing:.4px}
+.flashStatsPanel{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;padding:14px;background:#fff;border-bottom:1px solid #e4e7ec}
+.flashStatBox{border:1px solid #e4e7ec;border-radius:10px;padding:11px}.flashStatBox b{display:block;font-size:20px}.flashStatBox span{font-size:11px;color:#667085}
+@media(max-width:650px){.ankiDeckHead,.ankiDeckRow{grid-template-columns:minmax(0,1fr) 46px 46px 46px;padding-left:10px;padding-right:10px}.ankiCard{padding:28px 20px;min-height:300px}.ankiCard .front{font-size:21px}.ankiAnswer{font-size:18px}.ankiRatings{grid-template-columns:1fr 1fr}.flashHeroStats{grid-template-columns:1fr 1fr}.flashStatsPanel{grid-template-columns:1fr 1fr}.studyTabs{position:sticky;top:0;z-index:8}}
+
 </style>
 </head>
 <body>
@@ -80,10 +124,11 @@
 </div>
 
 <div class="shell">
+<div class="studyTabs" id="studyTabs"><button class="studyTab active" id="tabQuestions" type="button">Past Papers / Practice Questions</button><button class="studyTab" id="tabFlashcards" type="button">Flashcards</button></div>
 <section class="hero">
-  <h1>MED25 Quiz 1 Practice</h1>
+  <h1 id="heroTitle">MED25 Quiz 1 Practice</h1>
   <div class="arabic-credit" dir="rtl">هذا الموقع من إعداد وليد خاشقجي، وبالتوفيق لكم جميعًا 🤍</div>
-  <p>Previous-year questions plus the coordinator’s Formative Quiz 1, organized for MED25 Quiz 1 practice. Previous-year bank answers are preserved; formative answers are matched to the current MED25 lectures when possible, with any outside-knowledge answer clearly labeled AI-derived.</p>
+  <p id="heroDescription">Previous-year questions plus the coordinator’s Formative Quiz 1, organized for MED25 Quiz 1 practice. Previous-year bank answers are preserved; formative answers are matched to the current MED25 lectures when possible, with any outside-knowledge answer clearly labeled AI-derived.</p>
 
   <div class="authbox" id="authBox">
     <div id="authSignedOut">
@@ -93,7 +138,7 @@
         <button id="authSignIn" type="button">Sign in</button>
         <button id="authSignUp" type="button" class="secondary">Create account</button>
       </div>
-      <div class="authmeta">Optional: sign in to sync your quiz progress across devices. No card details and no confirmation email.</div>
+      <div class="authmeta">Optional: sign in to sync your practice-question and flashcard progress across devices. No card details and no confirmation email.</div>
     </div>
     <div id="authSignedIn" style="display:none">
       <div class="authrow">
@@ -106,9 +151,11 @@
   </div>
 
   <div class="stats" id="stats"></div>
-  <div class="progressbar"><div id="progress"></div></div>
+  <div class="progressbar" id="questionProgressBar"><div id="progress"></div></div>
+  <div class="flashHeroStats hidden" id="flashHeroStats"></div>
 </section>
 
+<div id="questionSection">
 <div class="toolbar">
   <div class="controls">
     <input id="search" class="control" placeholder="Search questions, e.g. hypnozoite, HMG-CoA, Frank-Starling…" />
@@ -159,6 +206,46 @@
 </div>
 
 <div class="footer-note">Guest progress is saved on this device. Signed-in students can securely sync their own progress across devices.</div>
+</div>
+
+<section id="flashcardsSection" class="flashcardsSection hidden">
+  <div class="ankiShell">
+    <div class="ankiBar">
+      <div><h2>Decks</h2><div class="small" id="flashSyncMeta">Loading lecture decks…</div></div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap"><button class="ankiBtn" id="flashStatsToggle" type="button">Stats</button><button class="ankiBtn primary" id="flashStudyAll" type="button">Study all due</button></div>
+    </div>
+    <div class="flashStatsPanel hidden" id="flashStatsPanel"></div>
+    <div id="flashDeckBrowser" class="ankiBrowser">
+      <div class="ankiSearchRow"><input id="flashSearch" class="ankiSearch" placeholder="Search decks…" /></div>
+      <div class="ankiDeckHead"><span>Deck</span><span style="text-align:center">New</span><span style="text-align:center">Learn</span><span style="text-align:center">Due</span></div>
+      <div id="flashDeckList"><div class="ankiEmpty"><b>Loading flashcards…</b>Checking the Drive-synced deck library.</div></div>
+    </div>
+    <div id="flashStudy" class="ankiStudy hidden">
+      <div class="ankiStudyTop">
+        <button class="ankiBtn" id="flashBack" type="button">← Decks</button>
+        <div class="deckName" id="flashStudyDeck">Deck</div>
+        <div class="counts"><span class="ankiNew" id="flashRemainNew">0</span><span class="ankiLearn" id="flashRemainLearn">0</span><span class="ankiDue" id="flashRemainDue">0</span></div>
+      </div>
+      <div class="ankiCardWrap">
+        <div class="ankiCard" id="flashCard" tabindex="0">
+          <div class="front" id="flashFront">Select a deck to begin.</div>
+          <div class="ankiDivider" id="flashDivider"></div>
+          <div class="ankiAnswer" id="flashAnswer"></div>
+          <div class="ankiSource" id="flashSource"></div>
+        </div>
+      </div>
+      <div class="ankiBottom">
+        <button class="ankiBtn primary ankiShowAnswer" id="flashShowAnswer" type="button">Show Answer</button>
+        <div class="ankiRatings" id="flashRatings">
+          <button class="ankiRate again" data-grade="again" type="button">Again<small id="flashAgainInterval">10m</small></button>
+          <button class="ankiRate hard" data-grade="hard" type="button">Hard<small id="flashHardInterval">1d</small></button>
+          <button class="ankiRate good" data-grade="good" type="button">Good<small id="flashGoodInterval">3d</small></button>
+          <button class="ankiRate easy" data-grade="easy" type="button">Easy<small id="flashEasyInterval">4d</small></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 </div>
 <script>
 
@@ -342,6 +429,7 @@ function regradeSavedProgress(){
   let changed=false;
   for(const id of Object.keys(saved)){
     const q=byId.get(id);
+    if(id==='__flashcards__')continue;
     if(!q){delete saved[id];changed=true;continue}
     const p=saved[id];
     if(p?.answered&&p.selected&&q.answer&&q.answer!=='TEXT'){
@@ -421,7 +509,8 @@ async function loadCloudProgress(){
   regradeSavedProgress();
   resetUnansweredSnapshot();
   localStorage.setItem(progressKey(),JSON.stringify(saved));
-  render();updateStats();renderWeakTopics();
+  refreshFlashReviewFromSaved();
+  render();updateStats();renderWeakTopics();renderFlashDecks();renderFlashHeroStats();
   await cloudSave();
 }
 function updateAuthUI(){
@@ -470,6 +559,7 @@ async function signOutUser(){
   try{if(authSession?.access_token)await supaFetch('/auth/v1/logout',{method:'POST'});}catch{}
   persistSession(null);currentUser=null;resetUnansweredSnapshot();
   saved=JSON.parse(localStorage.getItem(GUEST_PROGRESS_KEY)||'{}');
+  refreshFlashReviewFromSaved();
   updateAuthUI();setAuthStatus('Signed out. Guest progress remains on this device.');
   render();updateStats();renderWeakTopics();
 }
@@ -636,8 +726,222 @@ function renderWeakTopics(){
   }).join('');
 }
 function renderTopicStats(){const c={};QUESTIONS.forEach(q=>c[q.topic]=(c[q.topic]||0)+1);$('#topicStats').innerHTML=Object.entries(c).sort((a,b)=>b[1]-a[1]).slice(0,14).map(([k,v])=>`<div class="topicrow"><button onclick="selectTopicFromMap(${JSON.stringify(k)})">${esc(k)}</button><b>${v}</b></div>`).join('')}
+
+const FLASHCARD_LIBRARY_URL='flashcards.json';
+const FLASHCARD_LOCAL_KEY='med25-flashcard-review-v1';
+const STUDY_SECTION_KEY='med25-active-study-section-v1';
+let flashLibrary={decks:[],generated_at:null,source_policy:null};
+let flashReview={};
+let flashSession={deckIds:[],queue:[],index:0,revealed:false,currentDeckLabel:'',started:false};
+
+function refreshFlashReviewFromSaved(){
+  let local={};
+  try{local=JSON.parse(localStorage.getItem(FLASHCARD_LOCAL_KEY)||'{}')||{}}catch{}
+  flashReview={...local,...((saved&&saved.__flashcards__)||{})};
+  try{localStorage.setItem(FLASHCARD_LOCAL_KEY,JSON.stringify(flashReview))}catch{}
+}
+function saveFlashReview(){
+  try{localStorage.setItem(FLASHCARD_LOCAL_KEY,JSON.stringify(flashReview))}catch{}
+  if(saved){
+    saved.__flashcards__=flashReview;
+    save();
+  }
+  renderFlashHeroStats();
+  renderFlashDecks();
+}
+function allFlashCards(){return (flashLibrary.decks||[]).flatMap(d=>(d.cards||[]).map(card=>({...card,deck_id:d.id,deck_title:d.title,subject:d.subject,source_url:d.source_url||card.source_url||''})))}
+function cardReview(cardId){return flashReview[cardId]||null}
+function flashBucket(card,now=Date.now()){
+  const r=cardReview(card.id);
+  if(!r)return 'new';
+  if((r.reps||0)<2)return Number(r.due||0)<=now?'learn':'learn';
+  return Number(r.due||0)<=now?'due':'scheduled';
+}
+function deckCounts(deck){
+  const now=Date.now();let n=0,l=0,d=0;
+  for(const card of (deck.cards||[])){
+    const b=flashBucket(card,now);
+    if(b==='new')n++;
+    else if(b==='learn'&&Number(cardReview(card.id)?.due||0)<=now)l++;
+    else if(b==='due')d++;
+  }
+  return {new:n,learn:l,due:d};
+}
+function dueCardsForDecks(deckIds){
+  const ids=new Set(deckIds),now=Date.now(),due=[],learning=[],fresh=[];
+  for(const d of (flashLibrary.decks||[])){
+    if(!ids.has(d.id))continue;
+    for(const c of (d.cards||[])){
+      const card={...c,deck_id:d.id,deck_title:d.title,subject:d.subject,source_url:d.source_url||c.source_url||''};
+      const r=cardReview(card.id);
+      if(!r)fresh.push(card);
+      else if(Number(r.due||0)<=now&&((r.reps||0)<2))learning.push(card);
+      else if(Number(r.due||0)<=now)due.push(card);
+    }
+  }
+  due.sort((a,b)=>(cardReview(a.id)?.due||0)-(cardReview(b.id)?.due||0));
+  learning.sort((a,b)=>(cardReview(a.id)?.due||0)-(cardReview(b.id)?.due||0));
+  return [...due,...learning,...fresh];
+}
+function prettyFlashDate(v){
+  if(!v)return 'Not synced yet';
+  try{return new Date(v).toLocaleString('en-GB',{timeZone:'Asia/Riyadh',day:'2-digit',month:'short',hour:'2-digit',minute:'2-digit'})}catch{return v}
+}
+function flashIntervalPreview(card,grade){
+  const r=cardReview(card.id)||{interval:0,ease:2.5,reps:0};
+  const iv=Number(r.interval||0),ease=Number(r.ease||2.5),reps=Number(r.reps||0);
+  if(grade==='again')return {days:0,label:'10m'};
+  if(grade==='hard'){const days=Math.max(1,Math.round(iv?iv*1.2:1));return {days,label:days+'d'}}
+  if(grade==='good'){const days=reps===0?1:(reps===1?3:Math.max(1,Math.round(iv*ease)));return {days,label:days+'d'}}
+  const days=reps===0?4:Math.max(2,Math.round((iv||1)*ease*1.3));return {days,label:days+'d'};
+}
+function renderFlashHeroStats(){
+  const cards=allFlashCards(),now=Date.now();
+  const newCount=cards.filter(c=>!cardReview(c.id)).length;
+  const dueCount=cards.filter(c=>cardReview(c.id)&&Number(cardReview(c.id).due||0)<=now).length;
+  const reviewed=cards.filter(c=>cardReview(c.id)).length;
+  const mature=cards.filter(c=>(cardReview(c.id)?.interval||0)>=21).length;
+  const host=document.getElementById('flashHeroStats');if(!host)return;
+  host.innerHTML=`<div class="stat"><b>${(flashLibrary.decks||[]).length}</b><span>lecture decks</span></div><div class="stat"><b>${cards.length}</b><span>flashcards</span></div><div class="stat"><b>${dueCount}</b><span>due now</span></div><div class="stat"><b>${mature}</b><span>mature cards</span></div>`;
+  const stats=document.getElementById('flashStatsPanel');
+  if(stats)stats.innerHTML=`<div class="flashStatBox"><b>${newCount}</b><span>New</span></div><div class="flashStatBox"><b>${dueCount}</b><span>Due now</span></div><div class="flashStatBox"><b>${reviewed}</b><span>Seen at least once</span></div><div class="flashStatBox"><b>${mature}</b><span>Interval ≥ 21 days</span></div>`;
+}
+function renderFlashDecks(){
+  const host=document.getElementById('flashDeckList');if(!host)return;
+  const query=(document.getElementById('flashSearch')?.value||'').trim().toLowerCase();
+  const decks=(flashLibrary.decks||[]).filter(d=>!query||((d.title||'')+' '+(d.subject||'')).toLowerCase().includes(query));
+  const meta=document.getElementById('flashSyncMeta');
+  if(meta){
+    const total=allFlashCards().length;
+    meta.textContent=(flashLibrary.decks||[]).length?`${(flashLibrary.decks||[]).length} decks · ${total} cards · Drive sync ${prettyFlashDate(flashLibrary.generated_at)}`:'Drive sync is initializing from the official lecture folders.';
+  }
+  if(!decks.length){
+    host.innerHTML=`<div class="ankiEmpty"><b>${(flashLibrary.decks||[]).length?'No matching decks.':'Flashcard sync is initializing.'}</b>${(flashLibrary.decks||[]).length?'Try another search.':'Official MED25 lecture files are the source. New lecture decks will appear here automatically after sync.'}</div>`;return;
+  }
+  const groups={};for(const d of decks)(groups[d.subject||'Other']??=[]).push(d);
+  host.innerHTML=Object.keys(groups).sort().map(subject=>`<div class="flashSubject">${esc(subject)}</div>`+groups[subject].sort((a,b)=>(a.title||'').localeCompare(b.title||'')).map(d=>{
+    const x=deckCounts(d);
+    return `<div class="ankiDeckRow" data-flash-deck="${esc(d.id)}"><div class="ankiDeckTitle"><b>${esc(d.title||'Untitled lecture')}</b><span>${(d.cards||[]).length} cards${d.source_modified_time?' · lecture updated '+prettyFlashDate(d.source_modified_time):''}</span></div><div class="ankiCount ankiNew">${x.new}</div><div class="ankiCount ankiLearn">${x.learn}</div><div class="ankiCount ankiDue">${x.due}</div></div>`;
+  }).join('')).join('');
+  host.querySelectorAll('[data-flash-deck]').forEach(row=>row.onclick=()=>startFlashStudy([row.dataset.flashDeck]));
+}
+function startFlashStudy(deckIds){
+  const queue=dueCardsForDecks(deckIds);
+  if(!queue.length){alert('Nothing is due in this deck right now.');return}
+  const decks=(flashLibrary.decks||[]).filter(d=>deckIds.includes(d.id));
+  flashSession={deckIds:[...deckIds],queue,index:0,revealed:false,currentDeckLabel:deckIds.length===1?(decks[0]?.title||'Deck'):'All due cards',started:true};
+  document.getElementById('flashDeckBrowser').classList.add('hidden');
+  document.getElementById('flashStudy').classList.remove('hidden');
+  renderFlashStudyCard();
+}
+function leaveFlashStudy(){
+  flashSession={deckIds:[],queue:[],index:0,revealed:false,currentDeckLabel:'',started:false};
+  document.getElementById('flashStudy').classList.add('hidden');
+  document.getElementById('flashDeckBrowser').classList.remove('hidden');
+  renderFlashDecks();renderFlashHeroStats();
+}
+function currentFlashCard(){return flashSession.queue[flashSession.index]||null}
+function revealFlashAnswer(){
+  const card=currentFlashCard();if(!card||flashSession.revealed)return;
+  flashSession.revealed=true;
+  document.getElementById('flashDivider').classList.add('show');
+  document.getElementById('flashAnswer').classList.add('show');
+  document.getElementById('flashShowAnswer').style.display='none';
+  document.getElementById('flashRatings').classList.add('show');
+}
+function renderFlashStudyCard(){
+  const card=currentFlashCard();
+  if(!card){leaveFlashStudy();return}
+  flashSession.revealed=false;
+  document.getElementById('flashStudyDeck').textContent=flashSession.currentDeckLabel;
+  document.getElementById('flashFront').textContent=card.front||'';
+  const ans=document.getElementById('flashAnswer');ans.textContent=card.back||'';ans.classList.remove('show');
+  document.getElementById('flashDivider').classList.remove('show');
+  document.getElementById('flashShowAnswer').style.display='block';
+  document.getElementById('flashRatings').classList.remove('show');
+  const src=document.getElementById('flashSource');
+  const sourceUrl=card.source_url||'';
+  src.innerHTML=`${card.tags?.length?'Tags: '+card.tags.map(esc).join(' · ')+'<br>':''}${sourceUrl?`<a href="${esc(sourceUrl)}" target="_blank" rel="noopener">Open source lecture in Drive ↗</a>`:''}`;
+  const counts={new:0,learn:0,due:0},now=Date.now();
+  for(let i=flashSession.index;i<flashSession.queue.length;i++){
+    const cc=flashSession.queue[i],r=cardReview(cc.id);
+    if(!r)counts.new++;else if((r.reps||0)<2&&Number(r.due||0)<=now)counts.learn++;else if(Number(r.due||0)<=now)counts.due++;
+  }
+  document.getElementById('flashRemainNew').textContent=counts.new;
+  document.getElementById('flashRemainLearn').textContent=counts.learn;
+  document.getElementById('flashRemainDue').textContent=counts.due;
+  document.getElementById('flashAgainInterval').textContent=flashIntervalPreview(card,'again').label;
+  document.getElementById('flashHardInterval').textContent=flashIntervalPreview(card,'hard').label;
+  document.getElementById('flashGoodInterval').textContent=flashIntervalPreview(card,'good').label;
+  document.getElementById('flashEasyInterval').textContent=flashIntervalPreview(card,'easy').label;
+}
+function gradeFlashCard(grade){
+  const card=currentFlashCard();if(!card||!flashSession.revealed)return;
+  const now=Date.now(),old=cardReview(card.id)||{interval:0,ease:2.5,reps:0,lapses:0};
+  let interval=Number(old.interval||0),ease=Number(old.ease||2.5),reps=Number(old.reps||0),lapses=Number(old.lapses||0),due;
+  if(grade==='again'){interval=0;ease=Math.max(1.3,ease-.2);lapses++;due=now+10*60*1000}
+  else if(grade==='hard'){interval=Math.max(1,Math.round(interval?interval*1.2:1));ease=Math.max(1.3,ease-.15);reps++;due=now+interval*86400000}
+  else if(grade==='good'){interval=reps===0?1:(reps===1?3:Math.max(1,Math.round(interval*ease)));reps++;due=now+interval*86400000}
+  else {interval=reps===0?4:Math.max(2,Math.round((interval||1)*ease*1.3));ease=Math.min(3.2,ease+.15);reps++;due=now+interval*86400000}
+  flashReview[card.id]={interval,ease,reps,lapses,due,last_reviewed:now,last_grade:grade};
+  saveFlashReview();
+  flashSession.index++;
+  renderFlashStudyCard();
+}
+function switchStudySection(mode){
+  const flash=mode==='flashcards';
+  document.getElementById('questionSection')?.classList.toggle('hidden',flash);
+  document.getElementById('flashcardsSection')?.classList.toggle('hidden',!flash);
+  document.getElementById('tabQuestions')?.classList.toggle('active',!flash);
+  document.getElementById('tabFlashcards')?.classList.toggle('active',flash);
+  document.getElementById('stats')?.classList.toggle('hidden',flash);
+  document.getElementById('questionProgressBar')?.classList.toggle('hidden',flash);
+  document.getElementById('flashHeroStats')?.classList.toggle('hidden',!flash);
+  const h=document.getElementById('heroTitle'),p=document.getElementById('heroDescription');
+  if(h)h.textContent=flash?'MED25 Flashcards':'MED25 Quiz 1 Practice';
+  if(p)p.textContent=flash?'Lecture-derived flashcards with Anki-style spaced repetition. Decks are kept separate from past papers and practice questions, and the library syncs from the official MED25 lecture Drive.':'Previous-year questions plus the coordinator’s Formative Quiz 1, organized for MED25 Quiz 1 practice. Previous-year bank answers are preserved; formative answers are matched to the current MED25 lectures when possible, with any outside-knowledge answer clearly labeled AI-derived.';
+  try{localStorage.setItem(STUDY_SECTION_KEY,mode)}catch{}
+  if(flash){renderFlashDecks();renderFlashHeroStats()}
+}
+function setupStudyNavigation(){
+  document.getElementById('tabQuestions').onclick=()=>switchStudySection('questions');
+  document.getElementById('tabFlashcards').onclick=()=>switchStudySection('flashcards');
+  const savedMode=localStorage.getItem(STUDY_SECTION_KEY)==='flashcards'?'flashcards':'questions';
+  switchStudySection(savedMode);
+}
+async function initFlashcards(){
+  refreshFlashReviewFromSaved();
+  try{
+    const res=await fetch(FLASHCARD_LIBRARY_URL+'?v='+Date.now(),{cache:'no-store'});
+    if(!res.ok)throw new Error('HTTP '+res.status);
+    const data=await res.json();
+    flashLibrary={...data,decks:Array.isArray(data.decks)?data.decks:[]};
+  }catch(e){
+    console.error('Flashcard library unavailable',e);
+    flashLibrary={decks:[],generated_at:null};
+    const meta=document.getElementById('flashSyncMeta');if(meta)meta.textContent='Flashcard library could not be loaded.';
+  }
+  renderFlashDecks();renderFlashHeroStats();
+  document.getElementById('flashSearch').addEventListener('input',renderFlashDecks);
+  document.getElementById('flashBack').onclick=leaveFlashStudy;
+  document.getElementById('flashShowAnswer').onclick=revealFlashAnswer;
+  document.getElementById('flashCard').onclick=()=>{if(!flashSession.revealed)revealFlashAnswer()};
+  document.getElementById('flashRatings').querySelectorAll('[data-grade]').forEach(b=>b.onclick=()=>gradeFlashCard(b.dataset.grade));
+  document.getElementById('flashStudyAll').onclick=()=>startFlashStudy((flashLibrary.decks||[]).map(d=>d.id));
+  document.getElementById('flashStatsToggle').onclick=()=>document.getElementById('flashStatsPanel').classList.toggle('hidden');
+  document.addEventListener('keydown',e=>{
+    if(document.getElementById('flashcardsSection')?.classList.contains('hidden')||document.getElementById('flashStudy')?.classList.contains('hidden'))return;
+    if(e.code==='Space'){e.preventDefault();if(!flashSession.revealed)revealFlashAnswer();return}
+    if(!flashSession.revealed)return;
+    const map={'Digit1':'again','Digit2':'hard','Digit3':'good','Digit4':'easy'};
+    if(map[e.code]){e.preventDefault();gradeFlashCard(map[e.code])}
+  });
+}
+
 async function boot(){
   init();
+  await initFlashcards();
+  setupStudyNavigation();
   await setupAuth();
   setupUpdateNotice();
   restoreScrollPosition();

@@ -241,7 +241,18 @@ function qaResetLegacyStatus(prefix){
   }
 }
 function qaSetupOne(prefix,model,host){
-  if(!host||document.getElementById(prefix+'AdvancedFilters'))return;
+  if(!host)return;
+  const existing=document.getElementById(prefix+'AdvancedFilters');
+  if(existing){
+    const subject=document.getElementById(prefix+'Subject');
+    if(subject){
+      const current=model.subject;
+      subject.innerHTML='<option value="">All subjects</option>'+qaSubjects().map(x=>'<option value="'+esc(x)+'">'+esc(x)+'</option>').join('');
+      subject.value=current;
+    }
+    qaRenderLecturePicker(prefix,model);qaRenderTopicPicker(prefix,model);
+    return;
+  }
   host.insertAdjacentHTML('afterend',qaFilterBarHtml(prefix));
   const subject=document.getElementById(prefix+'Subject'),status=document.getElementById(prefix+'Status'),topic=document.getElementById(prefix+'Topic'),btn=document.getElementById(prefix+'LectureBtn'),panel=document.getElementById(prefix+'LecturePanel'),clear=document.getElementById(prefix+'Clear');
   subject.innerHTML='<option value="">All subjects</option>'+qaSubjects().map(x=>'<option value="'+esc(x)+'">'+esc(x)+'</option>').join('');
@@ -260,13 +271,16 @@ function setupAdvancedQuestionFilters(){
   qaPastLectureCache.clear();
   qaSetupOne('past',pastAdvanced,document.querySelector('#questionSection .toolbar'));
   qaSetupOne('ai',aiAdvanced,document.querySelector('#aiSection .aiToolbar'));
-  document.addEventListener('click',()=>document.querySelectorAll('.qaMultiPanel').forEach(x=>x.classList.add('hidden')));
-  document.querySelectorAll('#questionSection .chip[data-filter]').forEach(b=>b.addEventListener('click',()=>{
+  if(!window.__med25QaFilterGlobalBound){
+    window.__med25QaFilterGlobalBound=true;
+    document.addEventListener('click',()=>document.querySelectorAll('.qaMultiPanel').forEach(x=>x.classList.add('hidden')));
+  }
+  document.querySelectorAll('#questionSection .chip[data-filter]').forEach(b=>{if(!b.dataset.qaBound){b.dataset.qaBound='1';b.addEventListener('click',()=>{
     pastAdvanced.status='all';const s=document.getElementById('pastStatus');if(s)s.value='all';
-  }));
-  document.querySelectorAll('#aiSection [data-ai-filter]').forEach(b=>b.addEventListener('click',()=>{
+  })}});
+  document.querySelectorAll('#aiSection [data-ai-filter]').forEach(b=>{if(!b.dataset.qaBound){b.dataset.qaBound='1';b.addEventListener('click',()=>{
     aiAdvanced.status='all';const s=document.getElementById('aiStatus');if(s)s.value='all';
-  }));
+  })}});
 }
 
 function homePastMetrics(){

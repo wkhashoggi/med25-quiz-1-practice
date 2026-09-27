@@ -111,7 +111,7 @@ async function initAIQuestions(){
     const [aiRes,guideRes,mapRes]=await Promise.all([
       fetch(AI_LIBRARY_URL+'?v='+Date.now(),{cache:'no-store'}),
       fetch(STUDY_GUIDE_CATALOG_URL+'?v=1',{cache:'force-cache'}),
-      fetch(STUDY_GUIDE_MAP_URL+'?v=1',{cache:'force-cache'})
+      fetch(STUDY_GUIDE_MAP_URL+'?v=2',{cache:'force-cache'})
     ]);
     if(!aiRes.ok)throw new Error('AI HTTP '+aiRes.status);
     aiLibrary=await aiRes.json();if(!Array.isArray(aiLibrary.lecture_sets))aiLibrary.lecture_sets=[];

@@ -538,12 +538,27 @@ function ankiShowCongrats(deckIds=flashSession.deckIds||[]){
   ['flashRemainNew','flashRemainLearn','flashRemainDue'].forEach(id=>{const e=document.getElementById(id);if(e)e.textContent='0'});
   const show=document.getElementById('flashShowAnswer');show.style.display='block';show.textContent='Back to Decks';show.onclick=leaveFlashStudy;
 }
+function ankiCardImageHtml(card,side){
+  const direct=card?.[side+'_image_url']||'';
+  const shared=card?.image_url||'';
+  const sideRule=String(card?.image_side||'front').toLowerCase();
+  const url=direct||((shared&&(sideRule===side||sideRule==='both'))?shared:'');
+  if(!url)return '';
+  const safe=String(url).trim();
+  if(!(safe.startsWith('flashcard-media/')||safe.startsWith('./flashcard-media/')||safe.startsWith('/flashcard-media/')))return '';
+  const alt=esc(card?.[side+'_image_alt']||card?.image_alt||'Lecture visual');
+  const cap=card?.[side+'_image_caption']||card?.image_caption||'';
+  return '<figure class="ankiCardImage"><img src="'+esc(safe)+'" alt="'+alt+'" loading="lazy" decoding="async">'+(cap?'<figcaption>'+esc(cap)+'</figcaption>':'')+'</figure>';
+}
 function ankiRenderStudyCard(){
   const card=currentFlashCard();if(!card){ankiShowCongrats(flashSession.deckIds);return}
   flashSession.revealed=false;
   document.getElementById('flashStudyDeck').textContent=flashSession.currentDeckLabel;
-  document.getElementById('flashFront').textContent=card.front||'';
-  const ans=document.getElementById('flashAnswer');ans.textContent=card.back||'';ans.classList.remove('show');
+  const front=document.getElementById('flashFront');
+  front.innerHTML='<div class="ankiCardText">'+esc(card.front||'')+'</div>'+ankiCardImageHtml(card,'front');
+  const ans=document.getElementById('flashAnswer');
+  ans.innerHTML='<div class="ankiCardText">'+esc(card.back||'')+'</div>'+ankiCardImageHtml(card,'back');
+  ans.classList.remove('show');
   document.getElementById('flashDivider').classList.remove('show');
   const show=document.getElementById('flashShowAnswer');show.style.display='block';show.textContent='Show Answer';show.onclick=revealFlashAnswer;
   document.getElementById('flashRatings').classList.remove('show');

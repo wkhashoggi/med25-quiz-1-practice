@@ -671,9 +671,16 @@ function med25MarkHomeDirty(renderIfVisible=false){
   });
 }
 const baseSave=save;
-save=function(){const r=baseSave.apply(this,arguments);med25MarkHomeDirty(false);return r};
+save=function(){const r=baseSave.apply(this,arguments);med25MarkHomeDirty(true);return r};
 const baseFlashSave=saveFlashReview;
-saveFlashReview=function(){const r=baseFlashSave.apply(this,arguments);med25MarkHomeDirty(false);return r};
+saveFlashReview=function(){const r=baseFlashSave.apply(this,arguments);med25MarkHomeDirty(true);return r};
+
+const med25BaseLoadCloudProgress=loadCloudProgress;
+loadCloudProgress=async function(){
+  const out=await med25BaseLoadCloudProgress.apply(this,arguments);
+  med25MarkHomeDirty(true);
+  return out;
+};
 
 /* 2026-09-28 responsive usability layer */
 function responsiveFilterCount(mode){

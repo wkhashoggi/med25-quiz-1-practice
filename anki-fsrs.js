@@ -26,7 +26,7 @@ function ankiMigrateReviewDatesToDaily(){
     r.due=snapped;
     if(r.fsrs_card)r.fsrs_card.due=snapped;
     r.scheduler='fsrs';
-    r.scheduler_version='daily-v1';
+    r.scheduler_version='daily-v2';
   });
 }
 function ankiTodayKey(){

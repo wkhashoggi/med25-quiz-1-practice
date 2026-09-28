@@ -915,7 +915,7 @@ async function initFlashcards(){
     const res=await fetch(FLASHCARD_LIBRARY_URL+'?v='+Date.now(),{cache:'no-store'});
     if(!res.ok)throw new Error('HTTP '+res.status);
     const data=await res.json();
-    flashLibrary={...data,decks:Array.isArray(data.decks)?data.decks:[]};
+    flashLibrary={...data,decks:Array.isArray(data.decks)?data.decks.filter(d=>!d.archived&&d.eligibility_status==='allowed'):[]};
   }catch(e){
     console.error('Flashcard library unavailable',e);
     flashLibrary={decks:[],generated_at:null};

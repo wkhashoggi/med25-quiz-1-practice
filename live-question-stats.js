@@ -55,10 +55,16 @@ function toggleHtml(){
   return '<div class="liveStatsToggle" role="group" aria-label="Show live success rate"><span>Show success rate</span><button type="button" data-live-stats-choice="yes">Yes</button><button type="button" data-live-stats-choice="no">No</button></div>';
 }
 function installLiveStatsToggles(){
-  const past=document.querySelector('#questionSection .toolbar .chips');
-  if(past&&!past.querySelector('.liveStatsToggle'))past.insertAdjacentHTML('beforeend',toggleHtml());
-  const ai=document.querySelector('#aiSection .aiChips');
-  if(ai&&!ai.querySelector('.liveStatsToggle'))ai.insertAdjacentHTML('beforeend',toggleHtml());
+  const place=(sectionId,displayId,fallbackSelector)=>{
+    const section=document.getElementById(sectionId);if(!section)return;
+    const target=document.getElementById(displayId)||section.querySelector(fallbackSelector);
+    if(!target)return;
+    let toggle=section.querySelector('.liveStatsToggle');
+    if(!toggle){target.insertAdjacentHTML('beforeend',toggleHtml());toggle=section.querySelector('.liveStatsToggle')}
+    else if(toggle.parentElement!==target)target.appendChild(toggle);
+  };
+  place('questionSection','pastGuideDisplay','.chips');
+  place('aiSection','aiGuideDisplay','.aiChips');
   document.querySelectorAll('[data-live-stats-choice]').forEach(b=>b.onclick=()=>setLiveStatsShown(b.dataset.liveStatsChoice==='yes'));
   syncLiveStatsToggles();
 }

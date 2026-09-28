@@ -901,9 +901,16 @@ function med25ScrollToNextCard(card,kind){
 function med25EnhanceQuestionCards(){
   const pastCards=Array.from(document.querySelectorAll('#list .qcard'));
   pastCards.forEach((card,i)=>{
+    const q=QUESTIONS.find(x=>x.id===card.id);
     const qnum=card.querySelector('.qnum');
     if(qnum&&!qnum.dataset.original){qnum.dataset.original=qnum.textContent;qnum.title=qnum.textContent}
     if(qnum)qnum.textContent='Question '+(((state.page-1)*state.pageSize)+i+1);
+    if(q&&Object.keys(q.options||{}).length<2){
+      const opts=card.querySelector('.options');
+      if(opts)opts.innerHTML='<div class="answerOnlyPrompt"><b>Recall item</b><span>The original bank preserved the question and correct answer, but not enough distractors for a valid MCQ. Try to answer it from memory, then use Reveal answer.</span></div>';
+      const meta=card.querySelector('.meta');
+      if(meta&&!meta.querySelector('.answerOnlyPill'))meta.insertAdjacentHTML('beforeend','<span class="pill answerOnlyPill">Answer-only source</span>');
+    }
     if(card.querySelector('.feedback.show')&&!card.querySelector('.questionNextBtn')){
       const btn=document.createElement('button');btn.type='button';btn.className='questionNextBtn';btn.textContent='Next question →';btn.onclick=()=>med25ScrollToNextCard(card,'past');card.appendChild(btn);
     }

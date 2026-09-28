@@ -1022,3 +1022,97 @@ body{background:var(--med-bg)!important;color:var(--med-text)!important;font-fea
   .ankiInfoFoot>span{display:none}
   .ankiInfoFoot .ankiBtn{width:100%;min-height:48px}
 }
+
+/* 2026-09-28 Home-first login placement */
+.homeTop{
+  grid-template-columns:minmax(0,.95fr) minmax(0,1.45fr)!important;
+  align-items:stretch!important
+}
+.homeWelcome{grid-column:1/-1!important;padding-bottom:2px!important}
+.homeAuthArea{
+  min-width:0;padding:20px 20px 18px;
+  border:1px solid var(--med-line);border-radius:18px;
+  background:var(--med-card);box-shadow:var(--med-shadow)
+}
+.homeAuthIntro{margin:5px 0 14px}
+.homeAuthIntro h3{
+  margin:0;font-size:17px;line-height:1.2;letter-spacing:-.25px;color:var(--med-text)
+}
+.homeAuthIntro p{
+  margin:5px 0 0;font-size:11px;line-height:1.5;color:var(--med-muted)
+}
+.homeAuthBox.authbox{
+  margin:0!important;padding:0!important;
+  background:transparent!important;border:0!important;border-radius:0!important;
+  color:var(--med-text)!important;box-shadow:none!important
+}
+.homeAuthBox .authrow{gap:9px!important}
+.homeAuthBox input{
+  min-height:46px!important;
+  border:1px solid var(--med-line)!important;
+  background:var(--med-card)!important;color:var(--med-text)!important;
+  border-radius:11px!important;padding:11px 12px!important;font-size:14px!important
+}
+.homeAuthBox input:focus{
+  outline:3px solid color-mix(in srgb,var(--med-blue) 13%,transparent)!important;
+  border-color:var(--med-blue)!important
+}
+.homeAuthBox button:not(.mobileAuthToggle){
+  min-height:46px!important;
+  border:1px solid var(--med-blue)!important;
+  background:var(--med-blue)!important;color:#fff!important;
+  border-radius:11px!important;padding:10px 14px!important;
+  font-size:12px!important;font-weight:850!important
+}
+.homeAuthBox button.secondary:not(.mobileAuthToggle){
+  background:var(--med-card)!important;color:var(--med-blue)!important;
+  border-color:color-mix(in srgb,var(--med-blue) 36%,var(--med-line))!important
+}
+.homeAuthBox .authmeta{
+  margin-top:8px!important;color:var(--med-muted)!important;
+  font-size:10.5px!important;line-height:1.45!important
+}
+.homeAuthBox .authstatus{
+  margin-top:7px!important;color:var(--med-text)!important;font-size:11px!important
+}
+.homeAuthBox #authSignedIn .authrow{
+  display:grid!important;grid-template-columns:minmax(0,1fr) auto auto!important;
+  align-items:center!important
+}
+.homeAuthBox #authIdentity{color:var(--med-text)!important}
+.homeAuthBox #syncState{color:var(--med-success)!important}
+
+@media(max-width:1000px){
+  .homeTop{grid-template-columns:1fr 1fr!important}
+  .homeWelcome{grid-column:1/-1!important}
+}
+@media(max-width:700px){
+  .homeTop{display:grid!important;grid-template-columns:1fr!important;gap:10px!important}
+  .homeWelcome{grid-column:auto!important;order:1}
+  .homeAuthArea{order:2;padding:17px 15px 15px;border-radius:16px}
+  .homeContinue{order:3}
+  .homeAuthIntro h3{font-size:16px}
+  .homeAuthIntro p{font-size:11px}
+
+  .homeAuthBox .mobileAuthToggle{
+    color:var(--med-text)!important;
+    background:var(--med-soft)!important;
+    border:1px solid var(--med-line)!important;
+    margin-bottom:9px!important
+  }
+  .homeAuthBox .mobileAuthToggle b{color:var(--med-text)!important}
+  .homeAuthBox .mobileAuthToggle small{color:var(--med-muted)!important}
+  .homeAuthBox .mobileAuthIcon{
+    background:var(--med-blue-soft)!important;color:var(--med-blue)!important
+  }
+  .homeAuthBox:not(.mobileAuthCollapsed) #authSignedOut .authrow{
+    display:grid!important;grid-template-columns:1fr!important;gap:8px!important
+  }
+  .homeAuthBox:not(.mobileAuthCollapsed) #authSignedOut input,
+  .homeAuthBox:not(.mobileAuthCollapsed) #authSignedOut button{
+    width:100%!important;min-height:50px!important;font-size:16px!important
+  }
+  .homeAuthBox #authSignedIn .authrow{
+    grid-template-columns:1fr!important;gap:8px!important
+  }
+}

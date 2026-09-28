@@ -988,7 +988,7 @@ function med25SyncMobileAuthLabel(){
   const box=document.getElementById('authBox'),toggle=document.getElementById('mobileAuthToggle');
   if(!box||!toggle)return;
   const signedIn=document.getElementById('authSignedIn');
-  const isSignedIn=signedIn&&getComputedStyle(signedIn).display!=='none';
+  const isSignedIn=!!(signedIn&&signedIn.style.display!=='none');
   const ident=(document.getElementById('authIdentity')?.textContent||'').trim();
   const expanded=!box.classList.contains('mobileAuthCollapsed');
   if(expanded){

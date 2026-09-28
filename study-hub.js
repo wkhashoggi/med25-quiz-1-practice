@@ -426,9 +426,14 @@ function lectureStudied(id){
 }
 function toggleLectureStudied(id){
   const map=lectureStudyProgress(),current=!!map[id]?.studied;
-  map[id]={...(map[id]||{}),studied:!current,updated_at:new Date().toISOString()};
+  const studied=!current;
+  map[id]={...(map[id]||{}),studied,updated_at:new Date().toISOString()};
   save();
   renderLectureDashboard();
+  try{
+    const lecture=qaLectureCatalog().find(x=>x.id===id);
+    trackEvent('lecture_study',{metadata:{lecture_id:id,lecture_title:lecture?.title||'',subject:lecture?.subject||'',studied}});
+  }catch{}
 }
 
 function lectureDashboardRows(){
@@ -810,20 +815,28 @@ function responsiveRefresh(){
   responsiveUpdateFilterLabels();
   responsiveUpdatePager();
 }
+let med25ResponsiveFrame=0;
+function med25ScheduleResponsiveRefresh(){
+  if(med25ResponsiveFrame)return;
+  med25ResponsiveFrame=requestAnimationFrame(()=>{
+    med25ResponsiveFrame=0;
+    try{responsiveRefresh()}catch{}
+  });
+}
 const responsiveBasePastRender=render;
 render=function(){
   const out=responsiveBasePastRender.apply(this,arguments);
-  requestAnimationFrame(responsiveRefresh);
+  med25ScheduleResponsiveRefresh();
   return out;
 };
 const responsiveBaseAIRender=renderAI;
 renderAI=function(){
   const out=responsiveBaseAIRender.apply(this,arguments);
-  requestAnimationFrame(responsiveRefresh);
+  med25ScheduleResponsiveRefresh();
   return out;
 };
-document.querySelectorAll('#studyTabs .studyTab').forEach(btn=>btn.addEventListener('click',()=>requestAnimationFrame(responsiveRefresh)));
-window.addEventListener('resize',()=>requestAnimationFrame(responsiveRefresh),{passive:true});
+document.querySelectorAll('#studyTabs .studyTab').forEach(btn=>btn.addEventListener('click',()=>med25ScheduleResponsiveRefresh()));
+window.addEventListener('resize',()=>med25ScheduleResponsiveRefresh(),{passive:true});
 setTimeout(responsiveRefresh,60);
 setTimeout(responsiveRefresh,1200);
 
@@ -1021,11 +1034,16 @@ renderHome=function(){
   return out;
 };
 const med25BaseHubSwitch=hubSwitch;
+let med25LastTrackedSection='';
 hubSwitch=function(mode){
   const out=med25BaseHubSwitch.apply(this,arguments);
   document.body.classList.toggle('homeMode',mode==='home');
   if(mode==='home')med25HomeDirty=false;
-  requestAnimationFrame(()=>{try{responsiveRefresh()}catch{}});
+  if(mode!==med25LastTrackedSection){
+    med25LastTrackedSection=mode;
+    try{trackEvent('section_view',{metadata:{section:mode}})}catch{}
+  }
+  med25ScheduleResponsiveRefresh();
   return out;
 };
 switchStudySection=hubSwitch;
@@ -1046,6 +1064,68 @@ renderAI=function(){
 
 /* 2026-09-28 compact mobile account shell */
 let med25AnalyticsBusy=false;
+function med25AnalyticsRows(items,key,label){
+  return (Array.isArray(items)?items:[]).map(x=>'<tr><td>'+esc(String(x[key]||'—'))+'</td><td>'+Number(x[label]||0).toLocaleString()+'</td></tr>').join('');
+}
+async function med25LoadSitewideAnalytics(){
+  const body=document.getElementById('analyticsBody');
+  if(!body)return;
+  body.innerHTML='<div class="analyticsLoading"><span></span><b>Loading site-wide analytics…</b></div>';
+  if(!authSession?.access_token||!isAdmin()){body.innerHTML='<div class="analyticsError">Admin access required.</div>';return}
+  try{
+    let res=await fetch(SUPA_URL+'/functions/v1/admin-analytics',{headers:{apikey:SUPA_KEY,Authorization:'Bearer '+authSession.access_token}});
+    if(res.status===401&&await refreshSession())res=await fetch(SUPA_URL+'/functions/v1/admin-analytics',{headers:{apikey:SUPA_KEY,Authorization:'Bearer '+authSession.access_token}});
+    const data=await res.json().catch(()=>({}));
+    if(!res.ok)throw new Error(data.error||'Could not load analytics');
+    const a=data.analytics||{};
+    const emails=Array.isArray(a.registered_emails)?a.registered_emails:[];
+    const topics=Array.isArray(a.top_topics)?a.top_topics:[];
+    const daily=Array.isArray(a.daily)?a.daily:[];
+    const sections=Array.isArray(a.section_usage)?a.section_usage:[];
+    const ratings=Array.isArray(a.flashcard_ratings)?a.flashcard_ratings:[];
+    const started=a.analytics_started_at?fmtAdminDate(a.analytics_started_at):'Just enabled';
+    const sitewide=a.sitewide_tracking_started_at?fmtAdminDate(a.sitewide_tracking_started_at):'starting with this update';
+    const sectionNames={home:'Home',questions:'Past Papers',ai:'AI Questions',flashcards:'Flashcards'};
+    const sectionRows=sections.map(x=>'<tr><td>'+esc(sectionNames[x.section]||x.section||'Unknown')+'</td><td>'+Number(x.views||0).toLocaleString()+'</td></tr>').join('');
+    const ratingRows=ratings.map(x=>'<tr><td>'+esc((x.rating||'Unknown').replace(/^./,c=>c.toUpperCase()))+'</td><td>'+Number(x.reviews||0).toLocaleString()+'</td></tr>').join('');
+    body.innerHTML=
+      '<p class="analyticsNote"><b>Whole-site dashboard.</b> Visitor analytics began '+esc(started)+'. Feature-by-feature tracking (Home, AI, Flashcards and lecture checklist) is '+esc(sitewide)+', so older activity is naturally weighted toward Past Papers.</p>'+
+      '<div class="analyticsSectionTitle"><b>Overview</b><span>Entire MED25 Study Hub</span></div>'+
+      '<div class="analyticsMetrics">'+
+        '<div class="analyticsMetric"><b>'+Number(a.total_visitors||0).toLocaleString()+'</b><span>unique visitors</span></div>'+
+        '<div class="analyticsMetric"><b>'+Number(a.total_sessions||0).toLocaleString()+'</b><span>sessions</span></div>'+
+        '<div class="analyticsMetric"><b>'+Number(a.registered_users||0).toLocaleString()+'</b><span>registered accounts</span></div>'+
+        '<div class="analyticsMetric"><b>'+Number(a.visitors_today||0).toLocaleString()+'</b><span>visitors today</span></div>'+
+        '<div class="analyticsMetric"><b>'+Number(a.interactions_today||0).toLocaleString()+'</b><span>events today</span></div>'+
+        '<div class="analyticsMetric"><b>'+Number(a.active_signed_in_users||0).toLocaleString()+'</b><span>signed-in users seen</span></div>'+
+      '</div>'+
+      '<div class="analyticsSectionTitle"><b>Study activity</b><span>Across every study mode</span></div>'+
+      '<div class="analyticsMetrics analyticsStudyMetrics">'+
+        '<div class="analyticsMetric"><b>'+Number(a.past_questions_answered||0).toLocaleString()+'</b><span>Past Paper answers</span></div>'+
+        '<div class="analyticsMetric"><b>'+Number(a.ai_questions_answered||0).toLocaleString()+'</b><span>AI Question answers</span></div>'+
+        '<div class="analyticsMetric"><b>'+Number(a.flashcard_reviews||0).toLocaleString()+'</b><span>flashcard reviews</span></div>'+
+        '<div class="analyticsMetric"><b>'+Number(a.lecture_study_actions||0).toLocaleString()+'</b><span>lecture checklist actions</span></div>'+
+        '<div class="analyticsMetric"><b>'+Number(a.source_opens||0).toLocaleString()+'</b><span>source lectures opened</span></div>'+
+        '<div class="analyticsMetric"><b>'+Number(a.answer_reveals||0).toLocaleString()+'</b><span>answers revealed</span></div>'+
+      '</div>'+
+      '<div class="analyticsGrid">'+
+        '<div class="box"><h3>Sections opened</h3><p class="small">Which parts of the site students are using.</p><div class="analyticsTableWrap"><table class="analyticsTable"><thead><tr><th>Section</th><th>Views</th></tr></thead><tbody>'+(sectionRows||'<tr><td colspan="2">Site-wide tracking has just started.</td></tr>')+'</tbody></table></div></div>'+
+        '<div class="box"><h3>Flashcard ratings</h3><p class="small">Again / Hard / Good / Easy across morning reviews.</p><div class="analyticsTableWrap"><table class="analyticsTable"><thead><tr><th>Rating</th><th>Reviews</th></tr></thead><tbody>'+(ratingRows||'<tr><td colspan="2">No flashcard reviews tracked yet.</td></tr>')+'</tbody></table></div></div>'+
+      '</div>'+
+      '<div class="box analyticsWideBox"><h3>Last 14 days</h3><div class="analyticsTableWrap"><table class="analyticsTable"><thead><tr><th>Date</th><th>Visitors</th><th>Sessions</th><th>Answers</th><th>Flashcards</th><th>Lecture actions</th></tr></thead><tbody>'+
+        (daily.map(d=>'<tr><td>'+esc(String(d.date||''))+'</td><td>'+Number(d.visitors||0).toLocaleString()+'</td><td>'+Number(d.sessions||0).toLocaleString()+'</td><td>'+Number(d.answers||0).toLocaleString()+'</td><td>'+Number(d.flashcards||0).toLocaleString()+'</td><td>'+Number(d.lecture_actions||0).toLocaleString()+'</td></tr>').join('')||'<tr><td colspan="6">No tracked activity yet.</td></tr>')+
+      '</tbody></table></div></div>'+
+      '<div class="analyticsGrid">'+
+        '<div class="box"><h3>Most answered topics</h3><div class="analyticsTableWrap"><table class="analyticsTable"><thead><tr><th>Topic</th><th>Answers</th></tr></thead><tbody>'+
+          (topics.map(t=>'<tr><td>'+esc(t.topic||'')+'</td><td>'+Number(t.answers||0).toLocaleString()+'</td></tr>').join('')||'<tr><td colspan="2">No answers tracked yet.</td></tr>')+
+        '</tbody></table></div></div>'+
+        '<div class="box"><h3>Registered accounts</h3><div class="analyticsTableWrap"><table class="analyticsTable"><thead><tr><th>Email</th><th>Created</th><th>Last sign-in</th></tr></thead><tbody>'+
+          (emails.map(u=>'<tr><td>'+esc(u.email||'')+'</td><td>'+esc(fmtAdminDate(u.created_at))+'</td><td>'+esc(fmtAdminDate(u.last_sign_in_at))+'</td></tr>').join('')||'<tr><td colspan="3">No registered accounts.</td></tr>')+
+        '</tbody></table></div></div>'+
+      '</div>';
+  }catch(e){body.innerHTML='<div class="analyticsError">'+esc(e.message||String(e))+'</div>'}
+}
+loadAdminAnalytics=med25LoadSitewideAnalytics;
 async function med25OpenAdminAnalytics(){
   med25MoveGlobalOverlays();
   const back=document.getElementById('analyticsBack');
@@ -1127,7 +1207,11 @@ function med25SetupProductUI(){
   const mode=localStorage.getItem(HUB_SECTION_KEY)||'home';
   document.body.classList.toggle('homeMode',mode==='home');
   if(mode==='home')med25RenderHomePolish();
-  med25EnhanceQuestionCards();responsiveRefresh();
+  if(mode!==med25LastTrackedSection){
+    med25LastTrackedSection=mode;
+    try{trackEvent('section_view',{metadata:{section:mode}})}catch{}
+  }
+  med25EnhanceQuestionCards();med25ScheduleResponsiveRefresh();
 }
 setTimeout(med25SetupProductUI,80);
 

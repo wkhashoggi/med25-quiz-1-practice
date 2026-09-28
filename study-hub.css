@@ -444,3 +444,103 @@ body{background:var(--med-bg)!important;color:var(--med-text)!important;font-fea
 .answerOnlyPrompt{display:flex;flex-direction:column;gap:4px;padding:14px;border:1px dashed color-mix(in srgb,var(--med-blue) 35%,var(--med-line));border-radius:13px;background:var(--med-blue-soft);color:var(--med-text)}
 .answerOnlyPrompt b{font-size:12px;color:var(--med-blue)}.answerOnlyPrompt span{font-size:11px;line-height:1.5;color:var(--med-muted)}
 .answerOnlyPill{background:var(--med-blue-soft)!important;color:var(--med-blue)!important;border:1px solid color-mix(in srgb,var(--med-blue) 24%,var(--med-line))!important}
+
+/* 2026-09-28 mobile question-page polish v2 */
+.shell{width:min(100%,1240px)}
+@media(max-width:700px){
+  body{overflow-x:hidden}
+  .shell{
+    width:100%!important;max-width:none!important;margin:0!important;
+    padding:8px 10px calc(210px + env(safe-area-inset-bottom))!important
+  }
+
+  /* Compact question-page header */
+  .hero{padding:13px 14px!important;border-radius:14px!important}
+  .hero h1{font-size:21px!important;line-height:1.1!important;margin-bottom:3px!important}
+  .hero #heroDescription{display:none!important}
+  .arabic-credit{font-size:10px!important;line-height:1.35!important;margin:3px 0 7px!important}
+  #stats{display:none!important}
+  .progressbar{height:5px!important;margin-top:8px!important}
+
+  .authbox{padding:9px!important;margin-top:8px!important;border-radius:11px!important}
+  #authSignedIn .authrow{
+    display:grid!important;grid-template-columns:minmax(0,1fr) minmax(0,1fr)!important;
+    gap:7px!important
+  }
+  #authSignedIn .authrow>div{grid-column:1/-1;min-width:0}
+  #authIdentity{
+    display:block;font-size:13px!important;line-height:1.2;
+    white-space:nowrap;overflow:hidden;text-overflow:ellipsis
+  }
+  #authSignedIn .authmeta{margin-top:2px!important;font-size:9px!important}
+  #authSignedIn .authrow button{
+    width:100%;min-width:0;min-height:34px!important;padding:7px 9px!important;
+    font-size:10px!important;border-radius:9px!important
+  }
+  #authStatus:empty{display:none}
+
+  /* Make Study Mode a compact segmented row */
+  #questionSection .sidebar{gap:8px!important}
+  #questionSection .sidebar .box{
+    display:grid!important;grid-template-columns:auto minmax(0,1fr)!important;
+    align-items:center!important;gap:10px!important;
+    padding:9px 10px!important;margin:0!important
+  }
+  #questionSection .sidebar .box h3{
+    margin:0!important;font-size:11px!important;white-space:nowrap
+  }
+  #questionSection .sidebar .box .modebar{
+    margin:0!important;gap:6px!important
+  }
+  #questionSection .sidebar .box .modebar button{
+    min-height:38px!important;padding:7px 9px!important;font-size:11px!important;border-radius:9px!important
+  }
+  #questionSection .sidebar .box p{display:none!important}
+
+  /* Fixed bottom pager replaces duplicate in-page pagers on phones */
+  #list>.box:first-child,#list>.box:last-child{display:none!important}
+  #aiQuestionList>.aiPager{display:none!important}
+
+  /* Cleaner card headers and live stats */
+  .aiTop{padding-right:46px!important;min-height:24px}
+  .aiStar{right:8px!important;top:8px!important}
+  .aiPill.source,.aiPill.pending{display:none!important}
+  .liveSuccessRate{margin:-1px 0 10px!important}
+  .liveSuccessInner,.liveSuccessEmpty{padding:8px 9px!important;border-radius:10px!important}
+  .liveSuccessTop{
+    flex-direction:row!important;align-items:center!important;gap:8px!important
+  }
+  .liveSuccessTop b{font-size:10px!important}
+  .liveSuccessTop span{font-size:8px!important}
+  .liveSuccessCounts{gap:8px!important;font-size:8px!important}
+  .liveSuccessCounts span:last-child{display:none!important}
+  .liveSuccessBar{margin:6px 0 5px!important;height:4px!important}
+
+  /* Bigger bottom study controls */
+  .appNav{
+    padding:8px 10px calc(8px + env(safe-area-inset-bottom))!important;
+    border-radius:18px 18px 0 0!important
+  }
+  .studyTab{
+    min-height:62px!important;padding:7px 4px!important;gap:4px!important;
+    font-size:10.5px!important;font-weight:800!important
+  }
+  .navIcon{font-size:22px!important}
+  .med25MobilePager{
+    bottom:calc(78px + env(safe-area-inset-bottom))!important;
+    gap:9px!important;padding:9px 10px!important
+  }
+  .med25MobilePager button{
+    min-height:56px!important;border-radius:14px!important;
+    padding:11px 15px!important;font-size:14px!important
+  }
+  .med25MobilePager .mobilePrev{
+    flex:0 0 58px!important;width:58px!important;font-size:17px!important
+  }
+  .med25MobilePager .mobileNext{font-size:15px!important}
+  .med25MobilePager span{
+    min-width:88px!important;font-size:11px!important;line-height:1.25!important
+  }
+
+  .ankiBottom{bottom:78px!important}
+}

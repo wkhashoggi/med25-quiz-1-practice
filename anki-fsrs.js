@@ -263,6 +263,14 @@ function ankiSessionCounts(){
 }
 function ankiInjectOptions(){
   const bar=document.querySelector('#flashcardsSection .ankiBar > div:last-child');
+  if(bar&&!document.getElementById('ankiInfoBtn')){
+    const info=document.createElement('button');
+    info.id='ankiInfoBtn';info.className='ankiInfoBtn';info.type='button';
+    info.innerHTML='<span aria-hidden="true">i</span><b>How it works</b>';
+    info.setAttribute('aria-label','How MED25 flashcards work');
+    info.onclick=ankiOpenInfo;
+    bar.prepend(info);
+  }
   if(bar&&!document.getElementById('ankiOptionsBtn')){
     const b=document.createElement('button');b.id='ankiOptionsBtn';b.className='ankiBtn';b.type='button';b.textContent='Options';b.onclick=ankiToggleOptions;bar.prepend(b);
     const study=document.getElementById('flashStudyAll');if(study)study.textContent='Morning Review';
@@ -300,6 +308,80 @@ function ankiRenderOptions(){
 function ankiToggleOptions(){
   const host=document.getElementById('ankiOptionsPanel');if(!host)return;
   host.classList.toggle('hidden');if(!host.classList.contains('hidden'))ankiRenderOptions();
+}
+function ankiInfoMarkup(){
+  return '<div class="ankiInfoBackdrop" id="ankiInfoBackdrop" aria-hidden="true">'+
+    '<section class="ankiInfoSheet" role="dialog" aria-modal="true" aria-labelledby="ankiInfoTitle">'+
+      '<div class="ankiInfoHead">'+
+        '<div><span class="ankiInfoIcon">i</span><div><h3 id="ankiInfoTitle">How MED25 Flashcards Work</h3><p>This is a daily memory system, not a cram deck.</p></div></div>'+
+        '<button class="ankiInfoClose" id="ankiInfoClose" type="button" aria-label="Close">×</button>'+
+      '</div>'+
+      '<div class="ankiInfoBody">'+
+        '<section class="ankiInfoRoutine">'+
+          '<span class="ankiInfoStep">1</span><div><b>Open Morning Review every day</b><p>Do every card that is due, plus up to 20 new cards from your active decks. When the queue is finished, you are done until tomorrow.</p></div>'+
+        '</section>'+
+        '<section class="ankiInfoRoutine">'+
+          '<span class="ankiInfoStep">2</span><div><b>Rate how well you actually remembered it</b><p>Your rating changes when that card comes back. The system targets about <strong>92% long-term recall</strong>, so easy cards appear less often and difficult cards return sooner.</p></div>'+
+        '</section>'+
+        '<div class="ankiInfoRatings">'+
+          '<article class="ankiInfoRating again"><div><kbd>1</kbd><b>Again</b></div><p>You did not know it. It returns once near the end of today\'s session and is also scheduled for tomorrow.</p></article>'+
+          '<article class="ankiInfoRating hard"><div><kbd>2</kbd><b>Hard</b></div><p>You barely got it. FSRS gives it a shorter future interval, but it does not interrupt you again later today.</p></article>'+
+          '<article class="ankiInfoRating good"><div><kbd>3</kbd><b>Good</b></div><p>You recalled it normally. FSRS schedules the next review based on that card\'s memory strength and difficulty.</p></article>'+
+          '<article class="ankiInfoRating easy"><div><kbd>4</kbd><b>Easy</b></div><p>You knew it immediately. The card is pushed farther into the future so you do not waste time over-reviewing it.</p></article>'+
+        '</div>'+
+        '<section class="ankiInfoExample">'+
+          '<div class="ankiInfoExampleHead"><b>Example</b><span>The exact intervals adapt per card.</span></div>'+
+          '<div class="ankiInfoTimeline">'+
+            '<span><b>Mon</b><small>Learn card</small></span><i>→</i>'+
+            '<span><b>Tue</b><small>Due again</small></span><i>→</i>'+
+            '<span><b>Fri</b><small>Good recall</small></span><i>→</i>'+
+            '<span><b>Next week</b><small>Longer gap</small></span>'+
+          '</div>'+
+        '</section>'+
+        '<div class="ankiInfoRules">'+
+          '<b>The rule that makes this work</b>'+
+          '<p><strong>Come back every morning and clear what is due.</strong> Do not repeatedly grind the whole deck. The growing gaps between reviews are the point: recalling a fact just before you would forget it is what builds durable long-term memory.</p>'+
+        '</div>'+
+        '<div class="ankiInfoTip"><span>✓</span><p>If you miss a day, do the overdue cards the next time you open the site. You do not need to “make up” extra sessions.</p></div>'+
+      '</div>'+
+      '<div class="ankiInfoFoot">'+
+        '<span><kbd>Space</kbd> reveal / Good · <kbd>1</kbd> Again · <kbd>2</kbd> Hard · <kbd>3</kbd> Good · <kbd>4</kbd> Easy</span>'+
+        '<button class="ankiBtn primary" id="ankiInfoGotIt" type="button">Got it</button>'+
+      '</div>'+
+    '</section>'+
+  '</div>';
+}
+function ankiEnsureInfo(){
+  if(document.getElementById('ankiInfoBackdrop'))return;
+  document.body.insertAdjacentHTML('beforeend',ankiInfoMarkup());
+  const back=document.getElementById('ankiInfoBackdrop');
+  const close=()=>ankiCloseInfo();
+  document.getElementById('ankiInfoClose').onclick=close;
+  document.getElementById('ankiInfoGotIt').onclick=close;
+  back.addEventListener('click',e=>{if(e.target===back)close()});
+}
+function ankiOpenInfo(){
+  ankiEnsureInfo();
+  const back=document.getElementById('ankiInfoBackdrop');if(!back)return;
+  back.classList.add('show');back.setAttribute('aria-hidden','false');
+  document.body.classList.add('ankiInfoOpen');
+  document.getElementById('ankiInfoClose')?.focus();
+}
+function ankiCloseInfo(){
+  const back=document.getElementById('ankiInfoBackdrop');if(!back)return;
+  back.classList.remove('show');back.setAttribute('aria-hidden','true');
+  document.body.classList.remove('ankiInfoOpen');
+  document.getElementById('ankiInfoBtn')?.focus();
+}
+function ankiSetupInfoKeyboard(){
+  if(window.__med25AnkiInfoBound)return;
+  window.__med25AnkiInfoBound=true;
+  document.addEventListener('keydown',e=>{
+    const back=document.getElementById('ankiInfoBackdrop');
+    if(e.key==='Escape'&&back?.classList.contains('show')){
+      e.preventDefault();ankiCloseInfo();
+    }
+  });
 }
 function ankiInjectKeyboardGuide(){
   const study=document.getElementById('flashStudy');if(!study)return;
@@ -567,7 +649,7 @@ async function ankiInitFSRS(){
     fsrsReady=!!(FSRS?.fsrs&&FSRS?.createEmptyCard&&FSRS?.Rating);
   }catch(e){fsrsLoadError=e;console.error('Could not load FSRS library',e)}
   try{
-    ankiConfig();ankiDaily();ankiMigrateReviewDatesToDaily();ankiInjectOptions();ankiInjectKeyboardGuide();ankiSetupKeyboard();
+    ankiConfig();ankiDaily();ankiMigrateReviewDatesToDaily();ankiInjectOptions();ankiInjectKeyboardGuide();ankiSetupKeyboard();ankiSetupInfoKeyboard();
     dueCardsForDecks=ankiQueue;
     deckCounts=ankiDeckCounts;
     renderFlashDecks=ankiRenderDecks;

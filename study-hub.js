@@ -955,8 +955,54 @@ renderAI=function(){
   return out;
 };
 
+
+/* 2026-09-28 compact mobile account shell */
+function med25SetupCompactMobileAuth(){
+  const box=document.getElementById('authBox');
+  if(!box)return;
+  let toggle=document.getElementById('mobileAuthToggle');
+  if(!toggle){
+    toggle=document.createElement('button');
+    toggle.id='mobileAuthToggle';
+    toggle.type='button';
+    toggle.className='mobileAuthToggle';
+    box.insertBefore(toggle,box.firstChild);
+    box.classList.add('mobileAuthCollapsed');
+    toggle.onclick=()=>{
+      const collapsed=box.classList.toggle('mobileAuthCollapsed');
+      toggle.setAttribute('aria-expanded',collapsed?'false':'true');
+      med25SyncMobileAuthLabel();
+    };
+  }
+  const signedIn=document.getElementById('authSignedIn');
+  if(signedIn&&!signedIn.dataset.mobileObserved){
+    signedIn.dataset.mobileObserved='1';
+    new MutationObserver(()=>{
+      box.classList.add('mobileAuthCollapsed');
+      med25SyncMobileAuthLabel();
+    }).observe(signedIn,{attributes:true,attributeFilter:['style','class']});
+  }
+  med25SyncMobileAuthLabel();
+}
+function med25SyncMobileAuthLabel(){
+  const box=document.getElementById('authBox'),toggle=document.getElementById('mobileAuthToggle');
+  if(!box||!toggle)return;
+  const signedIn=document.getElementById('authSignedIn');
+  const isSignedIn=signedIn&&getComputedStyle(signedIn).display!=='none';
+  const ident=(document.getElementById('authIdentity')?.textContent||'').trim();
+  const expanded=!box.classList.contains('mobileAuthCollapsed');
+  if(expanded){
+    toggle.innerHTML='<span class="mobileAuthIcon">⌃</span><span><b>Account & sync</b><small>Tap to collapse</small></span>';
+  }else if(isSignedIn){
+    toggle.innerHTML='<span class="mobileAuthIcon">✓</span><span><b>'+esc(ident||'Progress synced')+'</b><small>Progress synced · tap for account</small></span>';
+  }else{
+    toggle.innerHTML='<span class="mobileAuthIcon">↻</span><span><b>Sync your progress</b><small>Optional · sign in across devices</small></span>';
+  }
+  toggle.setAttribute('aria-expanded',expanded?'true':'false');
+}
+
 function med25SetupProductUI(){
-  med25SetupTheme();med25EnsureFlashFocus();setupResponsiveFilters();
+  med25SetupTheme();med25EnsureFlashFocus();med25SetupCompactMobileAuth();setupResponsiveFilters();
   const mode=localStorage.getItem(HUB_SECTION_KEY)||'home';
   document.body.classList.toggle('homeMode',mode==='home');
   med25RenderHomePolish();med25EnhanceQuestionCards();responsiveRefresh();

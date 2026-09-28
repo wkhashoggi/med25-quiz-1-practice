@@ -1241,3 +1241,21 @@ body{background:var(--med-bg)!important;color:var(--med-text)!important;font-fea
 @media(max-width:380px){
   .analyticsMetrics,.analyticsStudyMetrics{grid-template-columns:1fr!important}
 }
+
+/* 2026-09-28 flashcard lecture-image support */
+.ankiCardText{max-width:100%;overflow-wrap:anywhere}
+.ankiCardImage{
+  margin:16px auto 2px;width:min(100%,620px);display:grid;gap:7px;justify-items:center
+}
+.ankiCardImage img{
+  display:block;max-width:100%;max-height:440px;width:auto;height:auto;
+  object-fit:contain;border-radius:14px;border:1px solid var(--med-line);
+  background:var(--med-card);box-shadow:0 6px 18px rgba(15,23,42,.08)
+}
+.ankiCardImage figcaption{
+  font-size:10px;line-height:1.4;color:var(--med-muted);text-align:center
+}
+@media(max-width:700px){
+  .ankiCardImage{margin-top:13px;width:100%}
+  .ankiCardImage img{max-height:46vh;border-radius:12px}
+}

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-28T08:24:53.928Z",
+  "generated_at": "2026-09-28T11:26:00.000Z",
   "source_root": {
     "id": "1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
     "url": "https://drive.google.com/drive/folders/1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
@@ -6739,13 +6739,401 @@
       "needs_source_validation": true,
       "eligibility_status": "allowed",
       "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
+    },
+    {
+      "id": "drive_11ZztQA_d1F4x9wB69Olsoc-d823jwFqm",
+      "subject": "Pharmacology",
+      "title": "Antihypertensive Drugs",
+      "source_file_id": "11ZztQA_d1F4x9wB69Olsoc-d823jwFqm",
+      "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk",
+      "source_modified_time": "2026-09-27T17:46:58.917Z",
+      "archived": false,
+      "cards": [
+        {
+          "id": "11ZztQA_d1F4x9wB69Olsoc-d823jwFqm-c01",
+          "front": "How do baroreceptors provide rapid blood-pressure control?",
+          "back": "They sense arterial-pressure changes and alter autonomic activity, changing heart rate, contractility, and vascular tone.",
+          "tags": [
+            "Hypertension",
+            "BP regulation"
+          ],
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk"
+        },
+        {
+          "id": "11ZztQA_d1F4x9wB69Olsoc-d823jwFqm-c02",
+          "front": "How does the RAAS raise blood pressure long term?",
+          "back": "Angiotensin II causes vasoconstriction (↑ peripheral resistance), while aldosterone retains Na⁺/water (↑ blood volume → ↑ stroke volume and cardiac output).",
+          "tags": [
+            "Hypertension",
+            "RAAS"
+          ],
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk"
+        },
+        {
+          "id": "11ZztQA_d1F4x9wB69Olsoc-d823jwFqm-c03",
+          "front": "Which lifestyle measure generally produces the greatest blood-pressure reduction?",
+          "back": "Weight loss toward a healthy body weight.",
+          "tags": [
+            "Hypertension",
+            "Lifestyle"
+          ],
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk"
+        },
+        {
+          "id": "11ZztQA_d1F4x9wB69Olsoc-d823jwFqm-c04",
+          "front": "Which drug classes are first-line options for uncomplicated hypertension?",
+          "back": "ACE inhibitor or ARB, thiazide-type diuretic, and calcium-channel blocker.",
+          "tags": [
+            "Hypertension",
+            "First-line therapy"
+          ],
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk"
+        },
+        {
+          "id": "11ZztQA_d1F4x9wB69Olsoc-d823jwFqm-c05",
+          "front": "Why are ACE inhibitors or ARBs preferred in diabetes with albuminuria or CKD?",
+          "back": "They provide nephroprotection in addition to lowering blood pressure.",
+          "tags": [
+            "Hypertension",
+            "RAAS blockers"
+          ],
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk"
+        },
+        {
+          "id": "11ZztQA_d1F4x9wB69Olsoc-d823jwFqm-c06",
+          "front": "A patient develops a persistent dry cough on lisinopril. What is the preferred switch?",
+          "back": "Switch to an ARB such as losartan; ARBs do not increase bradykinin and therefore avoid the classic ACE-inhibitor cough.",
+          "tags": [
+            "Hypertension",
+            "RAAS blockers"
+          ],
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk"
+        },
+        {
+          "id": "11ZztQA_d1F4x9wB69Olsoc-d823jwFqm-c07",
+          "front": "What adverse effects are shared by ACE inhibitors and ARBs?",
+          "back": "Hyperkalemia and increased creatinine; both require potassium and renal-function monitoring.",
+          "tags": [
+            "Hypertension",
+            "RAAS blockers"
+          ],
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk"
+        },
+        {
+          "id": "11ZztQA_d1F4x9wB69Olsoc-d823jwFqm-c08",
+          "front": "When should ACE inhibitors and ARBs be avoided?",
+          "back": "Pregnancy and bilateral renal artery stenosis.",
+          "tags": [
+            "Hypertension",
+            "RAAS blockers"
+          ],
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk"
+        },
+        {
+          "id": "11ZztQA_d1F4x9wB69Olsoc-d823jwFqm-c09",
+          "front": "Where do thiazide diuretics act?",
+          "back": "At the distal convoluted tubule, inhibiting the Na⁺/Cl⁻ cotransporter.",
+          "tags": [
+            "Hypertension",
+            "Diuretics"
+          ],
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk"
+        },
+        {
+          "id": "11ZztQA_d1F4x9wB69Olsoc-d823jwFqm-c10",
+          "front": "What are the high-yield electrolyte/metabolic effects of thiazides?",
+          "back": "↓Na⁺, ↓K⁺, ↑uric acid, ↑glucose, and ↑Ca²⁺.",
+          "tags": [
+            "Hypertension",
+            "Diuretics"
+          ],
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk"
+        },
+        {
+          "id": "11ZztQA_d1F4x9wB69Olsoc-d823jwFqm-c11",
+          "front": "Why do thiazides remain effective for chronic hypertension after the initial volume effect?",
+          "back": "Long term they reduce vascular smooth-muscle reactivity, causing arteriolar relaxation and decreased peripheral resistance.",
+          "tags": [
+            "Hypertension",
+            "Diuretics"
+          ],
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk"
+        },
+        {
+          "id": "11ZztQA_d1F4x9wB69Olsoc-d823jwFqm-c12",
+          "front": "Where do loop diuretics act and what transporter do they inhibit?",
+          "back": "Thick ascending limb of the loop of Henle; they inhibit NKCC2.",
+          "tags": [
+            "Hypertension",
+            "Diuretics"
+          ],
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk"
+        },
+        {
+          "id": "11ZztQA_d1F4x9wB69Olsoc-d823jwFqm-c13",
+          "front": "What are major adverse effects of loop diuretics?",
+          "back": "Hypokalemia, hypocalcemia, ototoxicity, dehydration, and volume depletion.",
+          "tags": [
+            "Hypertension",
+            "Diuretics"
+          ],
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk"
+        },
+        {
+          "id": "11ZztQA_d1F4x9wB69Olsoc-d823jwFqm-c14",
+          "front": "When are loop diuretics particularly useful in hypertension?",
+          "back": "When volume control is needed, especially symptomatic heart failure or advanced CKD (particularly GFR <30 mL/min).",
+          "tags": [
+            "Hypertension",
+            "Diuretics"
+          ],
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk"
+        },
+        {
+          "id": "11ZztQA_d1F4x9wB69Olsoc-d823jwFqm-c15",
+          "front": "What is the role of spironolactone in hypertension?",
+          "back": "It antagonizes the aldosterone receptor and is a common add-on for resistant hypertension; it is also useful in primary hyperaldosteronism and HFrEF.",
+          "tags": [
+            "Hypertension",
+            "Resistant HTN"
+          ],
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk"
+        },
+        {
+          "id": "11ZztQA_d1F4x9wB69Olsoc-d823jwFqm-c16",
+          "front": "What important adverse effects are associated with spironolactone?",
+          "back": "Hyperkalemia and gynecomastia.",
+          "tags": [
+            "Hypertension",
+            "Resistant HTN"
+          ],
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk"
+        },
+        {
+          "id": "11ZztQA_d1F4x9wB69Olsoc-d823jwFqm-c17",
+          "front": "Which potassium-sparing drugs block ENaC and when may they be useful?",
+          "back": "Amiloride and triamterene; they can be added when thiazides cause or worsen hypokalemia. ENaC blockade is also useful in Liddle syndrome.",
+          "tags": [
+            "Hypertension",
+            "Diuretics"
+          ],
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk"
+        },
+        {
+          "id": "11ZztQA_d1F4x9wB69Olsoc-d823jwFqm-c18",
+          "front": "Which antihypertensive combinations are commonly complementary?",
+          "back": "ACE inhibitor/ARB + DHP calcium-channel blocker, or ACE inhibitor/ARB + thiazide-type diuretic.",
+          "tags": [
+            "Hypertension",
+            "Combination therapy"
+          ],
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk"
+        },
+        {
+          "id": "11ZztQA_d1F4x9wB69Olsoc-d823jwFqm-c19",
+          "front": "Why should an ACE inhibitor and ARB not be combined routinely?",
+          "back": "Dual RAAS blockade increases renal dysfunction and hyperkalemia without routine added benefit.",
+          "tags": [
+            "Hypertension",
+            "Combination therapy"
+          ],
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk"
+        },
+        {
+          "id": "11ZztQA_d1F4x9wB69Olsoc-d823jwFqm-c20",
+          "front": "Why is a β-blocker plus verapamil or diltiazem used cautiously?",
+          "back": "The combination can cause severe bradycardia, AV block, and myocardial depression.",
+          "tags": [
+            "Hypertension",
+            "Combination therapy"
+          ],
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk"
+        },
+        {
+          "id": "11ZztQA_d1F4x9wB69Olsoc-d823jwFqm-c21",
+          "front": "When do β-blockers become preferred antihypertensive agents?",
+          "back": "When there is a compelling indication such as ischemic heart disease, heart failure, atrial fibrillation, thoracic aortic disease, thyrotoxicosis, migraine, or essential tremor.",
+          "tags": [
+            "Hypertension",
+            "Beta blockers"
+          ],
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk"
+        },
+        {
+          "id": "11ZztQA_d1F4x9wB69Olsoc-d823jwFqm-c22",
+          "front": "Which β-blockers are cardioselective vs nonselective?",
+          "back": "Cardioselective: atenolol, bisoprolol, metoprolol succinate. Nonselective: nadolol, propranolol.",
+          "tags": [
+            "Hypertension",
+            "Beta blockers"
+          ],
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk"
+        },
+        {
+          "id": "11ZztQA_d1F4x9wB69Olsoc-d823jwFqm-c23",
+          "front": "Which antihypertensives may be useful in BPH or pheochromocytoma?",
+          "back": "α₁ blockers such as prazosin or doxazosin; they may help BPH symptoms and are used in hypertension due to pheochromocytoma.",
+          "tags": [
+            "Hypertension",
+            "Alpha blockers"
+          ],
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk"
+        },
+        {
+          "id": "11ZztQA_d1F4x9wB69Olsoc-d823jwFqm-c24",
+          "front": "Which antihypertensive drugs are commonly used in pregnancy?",
+          "back": "Labetalol, nifedipine, methyldopa, and hydralazine (especially for acute severe hypertension).",
+          "tags": [
+            "Hypertension",
+            "Pregnancy"
+          ],
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk"
+        },
+        {
+          "id": "11ZztQA_d1F4x9wB69Olsoc-d823jwFqm-c25",
+          "front": "Which antihypertensive classes are contraindicated in pregnancy?",
+          "back": "ACE inhibitors, ARBs, and direct renin inhibitors because RAAS blockade can cause fetal toxicity, especially renal injury and oligohydramnios.",
+          "tags": [
+            "Hypertension",
+            "Pregnancy"
+          ],
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk"
+        },
+        {
+          "id": "11ZztQA_d1F4x9wB69Olsoc-d823jwFqm-c26",
+          "front": "How is initial drug therapy approached in stage 2 hypertension?",
+          "back": "If BP is >20/10 mmHg above target, start two first-line drugs from different classes; a single-pill combination is preferred when possible.",
+          "tags": [
+            "Hypertension",
+            "Initial therapy"
+          ],
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk"
+        },
+        {
+          "id": "11ZztQA_d1F4x9wB69Olsoc-d823jwFqm-c27",
+          "front": "For Black adults without heart failure or CKD, which classes should initial therapy include?",
+          "back": "A thiazide-type diuretic or calcium-channel blocker.",
+          "tags": [
+            "Hypertension",
+            "Initial therapy"
+          ],
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk"
+        },
+        {
+          "id": "11ZztQA_d1F4x9wB69Olsoc-d823jwFqm-c28",
+          "front": "What distinguishes hypertensive emergency from severe asymptomatic hypertension?",
+          "back": "Acute target-organ damage. Hypertensive emergency requires monitored care and titratable IV therapy; severe asymptomatic hypertension is generally lowered gradually with oral therapy.",
+          "tags": [
+            "Hypertension",
+            "Hypertensive emergency"
+          ],
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk"
+        },
+        {
+          "id": "11ZztQA_d1F4x9wB69Olsoc-d823jwFqm-c29",
+          "front": "What is the usual initial BP-reduction goal in hypertensive emergency?",
+          "back": "Reduce mean arterial pressure by about 20–25% initially, then lower BP gradually, except where condition-specific targets apply.",
+          "tags": [
+            "Hypertension",
+            "Hypertensive emergency"
+          ],
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk"
+        },
+        {
+          "id": "11ZztQA_d1F4x9wB69Olsoc-d823jwFqm-c30",
+          "front": "What is the preferred next drug after true resistant hypertension persists on an ARB/ACEI, amlodipine, and chlorthalidone?",
+          "back": "Spironolactone, if renal function and potassium permit.",
+          "tags": [
+            "Hypertension",
+            "Resistant HTN"
+          ],
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk"
+        },
+        {
+          "id": "11ZztQA_d1F4x9wB69Olsoc-d823jwFqm-c31",
+          "front": "How soon should a patient generally be reviewed after starting antihypertensive medication?",
+          "back": "About 1 month to assess adherence, BP response, adverse effects, and relevant labs.",
+          "tags": [
+            "Hypertension",
+            "Follow-up"
+          ],
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk"
+        },
+        {
+          "id": "11ZztQA_d1F4x9wB69Olsoc-d823jwFqm-c32",
+          "front": "In CKD, when should creatinine and potassium be checked after starting an ACE inhibitor or ARB?",
+          "back": "Within 2–4 weeks.",
+          "tags": [
+            "Hypertension",
+            "Monitoring"
+          ],
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk"
+        },
+        {
+          "id": "11ZztQA_d1F4x9wB69Olsoc-d823jwFqm-c33",
+          "front": "What is therapeutic inertia in hypertension?",
+          "back": "Failure to appropriately intensify treatment when blood pressure remains above target.",
+          "tags": [
+            "Hypertension",
+            "Follow-up"
+          ],
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk"
+        },
+        {
+          "id": "11ZztQA_d1F4x9wB69Olsoc-d823jwFqm-c34",
+          "front": "What adverse effect suggests hydralazine-induced lupus?",
+          "back": "Arthralgia and fever with positive antinuclear antibodies after prolonged hydralazine use.",
+          "tags": [
+            "Hypertension",
+            "Adverse effects"
+          ],
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk"
+        },
+        {
+          "id": "11ZztQA_d1F4x9wB69Olsoc-d823jwFqm-c35",
+          "front": "Which vasodilator is classically associated with excessive hair growth?",
+          "back": "Minoxidil.",
+          "tags": [
+            "Hypertension",
+            "Adverse effects"
+          ],
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk"
+        },
+        {
+          "id": "11ZztQA_d1F4x9wB69Olsoc-d823jwFqm-c36",
+          "front": "Why should verapamil generally be avoided in HFrEF?",
+          "back": "Its negative inotropic effect can worsen systolic heart failure.",
+          "tags": [
+            "Hypertension",
+            "CCBs"
+          ],
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk"
+        },
+        {
+          "id": "11ZztQA_d1F4x9wB69Olsoc-d823jwFqm-c37",
+          "front": "Why can amlodipine cause ankle edema without pulmonary congestion?",
+          "back": "Preferential arteriolar dilation raises capillary hydrostatic pressure, producing peripheral edema.",
+          "tags": [
+            "Hypertension",
+            "CCBs"
+          ],
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk"
+        }
+      ],
+      "needs_source_validation": false,
+      "source_validation_date": "2026-09-28",
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
     }
   ],
   "bootstrap_note": "Seeded from current official lecture files; hourly Drive sync will add/update additional decks.",
   "sync_summary": {
     "official_lecture_files": 47,
     "decks_present": 47,
-    "last_full_seed": "2026-09-27T09:46:14.004Z"
+    "last_full_seed": "2026-09-27T09:46:14.004Z",
+    "last_run": "2026-09-28T11:26:00.000Z",
+    "added_or_updated_lecture_decks": 1,
+    "archived_lecture_decks": 0
   },
   "validation_backlog": 47,
   "generation_policy": {

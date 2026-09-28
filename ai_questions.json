@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-28T08:24:53.923Z",
+  "generated_at": "2026-09-28T11:26:00.000Z",
   "source_root": {
     "id": "1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
     "url": "https://drive.google.com/drive/folders/1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
@@ -7209,6 +7209,411 @@
           "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM/view?usp=drivesdk",
           "source_card_id": "1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM-c08",
+          "style_profile": "KAU-past-paper-inspired"
+        }
+      ],
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
+    },
+    {
+      "id": "ai_set_11ZztQA_d1F4x9wB69Olsoc-d823jwFqm",
+      "source_file_id": "11ZztQA_d1F4x9wB69Olsoc-d823jwFqm",
+      "subject": "Pharmacology",
+      "title": "Antihypertensive Drugs",
+      "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk",
+      "source_modified_time": "2026-09-27T17:46:58.917Z",
+      "source_validation": "lecture_validated",
+      "archived": false,
+      "questions": [
+        {
+          "id": "ai_11ZztQA_d1F4x9wB69Olsoc-d823jwFqm_01",
+          "stem": "A 55-year-old man with diabetes, hypertension, and persistent albuminuria requires antihypertensive therapy. Which class is preferred because of its renal protective benefit?",
+          "options": {
+            "A": "Alpha₁ blocker",
+            "B": "ACE inhibitor or ARB",
+            "C": "Central α₂ agonist",
+            "D": "Direct vasodilator"
+          },
+          "answer": "B",
+          "explanation": "ACE inhibitors or ARBs are preferred in diabetes with albuminuria because they provide nephroprotection.",
+          "concept": "RAAS blockers",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk",
+          "source_card_id": null,
+          "style_profile": "KAU-past-paper-inspired"
+        },
+        {
+          "id": "ai_11ZztQA_d1F4x9wB69Olsoc-d823jwFqm_02",
+          "stem": "A patient develops a persistent dry cough several weeks after starting lisinopril. Which drug is the most appropriate substitute?",
+          "options": {
+            "A": "Losartan",
+            "B": "Verapamil",
+            "C": "Propranolol",
+            "D": "Hydralazine"
+          },
+          "answer": "A",
+          "explanation": "An ARB such as losartan provides RAAS blockade without the bradykinin-mediated cough typical of ACE inhibitors.",
+          "concept": "RAAS blockers",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk",
+          "source_card_id": null,
+          "style_profile": "KAU-past-paper-inspired"
+        },
+        {
+          "id": "ai_11ZztQA_d1F4x9wB69Olsoc-d823jwFqm_03",
+          "stem": "Which adverse effect is shared by both ACE inhibitors and ARBs?",
+          "options": {
+            "A": "Hypokalemia",
+            "B": "Hyperkalemia",
+            "C": "Hypocalcemia",
+            "D": "Hyperuricemia"
+          },
+          "answer": "B",
+          "explanation": "Both ACE inhibitors and ARBs can cause hyperkalemia and increased creatinine.",
+          "concept": "RAAS blockers",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk",
+          "source_card_id": null,
+          "style_profile": "KAU-past-paper-inspired"
+        },
+        {
+          "id": "ai_11ZztQA_d1F4x9wB69Olsoc-d823jwFqm_04",
+          "stem": "A patient taking hydrochlorothiazide develops an acutely painful red first metatarsophalangeal joint. Which laboratory abnormality is most likely?",
+          "options": {
+            "A": "Hypouricemia",
+            "B": "Hyperuricemia",
+            "C": "Hypocalcemia",
+            "D": "Hyperkalemia"
+          },
+          "answer": "B",
+          "explanation": "Thiazides increase uric acid and can precipitate gout.",
+          "concept": "Thiazides",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk",
+          "source_card_id": null,
+          "style_profile": "KAU-past-paper-inspired"
+        },
+        {
+          "id": "ai_11ZztQA_d1F4x9wB69Olsoc-d823jwFqm_05",
+          "stem": "Which nephron site and transporter are correctly matched with thiazide diuretics?",
+          "options": {
+            "A": "TAL — NKCC2",
+            "B": "DCT — Na⁺/Cl⁻ cotransporter",
+            "C": "Collecting duct — ENaC activation",
+            "D": "PCT — Na⁺/H⁺ exchanger"
+          },
+          "answer": "B",
+          "explanation": "Thiazides inhibit the Na⁺/Cl⁻ cotransporter in the distal convoluted tubule.",
+          "concept": "Thiazides",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk",
+          "source_card_id": null,
+          "style_profile": "KAU-past-paper-inspired"
+        },
+        {
+          "id": "ai_11ZztQA_d1F4x9wB69Olsoc-d823jwFqm_06",
+          "stem": "Which change best explains the sustained antihypertensive effect of thiazides during long-term therapy?",
+          "options": {
+            "A": "Persistent marked reduction in cardiac output",
+            "B": "Reduced vascular smooth-muscle reactivity and peripheral resistance",
+            "C": "Increased aldosterone release",
+            "D": "Increased sympathetic tone"
+          },
+          "answer": "B",
+          "explanation": "Long-term thiazide therapy lowers peripheral resistance through reduced vascular smooth-muscle reactivity and vasodilation.",
+          "concept": "Thiazides",
+          "difficulty": "understanding",
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk",
+          "source_card_id": null,
+          "style_profile": "KAU-past-paper-inspired"
+        },
+        {
+          "id": "ai_11ZztQA_d1F4x9wB69Olsoc-d823jwFqm_07",
+          "stem": "A patient with advanced CKD and symptomatic volume overload requires a diuretic. Which is most appropriate?",
+          "options": {
+            "A": "Chlorthalidone",
+            "B": "Furosemide",
+            "C": "Amiloride",
+            "D": "Spironolactone"
+          },
+          "answer": "B",
+          "explanation": "Loop diuretics are particularly useful for volume control in symptomatic heart failure and advanced CKD, especially when GFR is below 30 mL/min.",
+          "concept": "Loop diuretics",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk",
+          "source_card_id": null,
+          "style_profile": "KAU-past-paper-inspired"
+        },
+        {
+          "id": "ai_11ZztQA_d1F4x9wB69Olsoc-d823jwFqm_08",
+          "stem": "Which adverse-effect profile is most characteristic of loop diuretics?",
+          "options": {
+            "A": "Hyperkalemia and gynecomastia",
+            "B": "Hypokalemia, hypocalcemia, and ototoxicity",
+            "C": "Hypercalcemia and hyperuricemia only",
+            "D": "Dry cough and angioedema"
+          },
+          "answer": "B",
+          "explanation": "Loop diuretics can cause hypokalemia, hypocalcemia, ototoxicity, and dehydration.",
+          "concept": "Loop diuretics",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk",
+          "source_card_id": null,
+          "style_profile": "KAU-past-paper-inspired"
+        },
+        {
+          "id": "ai_11ZztQA_d1F4x9wB69Olsoc-d823jwFqm_09",
+          "stem": "A patient remains hypertensive despite maximally tolerated losartan, amlodipine, and chlorthalidone. Adherence is confirmed and potassium and renal function are acceptable. Which drug is the preferred next add-on?",
+          "options": {
+            "A": "Spironolactone",
+            "B": "Verapamil",
+            "C": "Prazosin",
+            "D": "Clonidine"
+          },
+          "answer": "A",
+          "explanation": "Spironolactone is a common preferred add-on for confirmed resistant hypertension when potassium and renal function permit.",
+          "concept": "Resistant HTN",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk",
+          "source_card_id": null,
+          "style_profile": "KAU-past-paper-inspired"
+        },
+        {
+          "id": "ai_11ZztQA_d1F4x9wB69Olsoc-d823jwFqm_10",
+          "stem": "A hypertensive patient has muscle weakness, hypokalemia, metabolic alkalosis, and primary hyperaldosteronism. Which drug directly antagonizes the relevant hormone receptor?",
+          "options": {
+            "A": "Amiloride",
+            "B": "Spironolactone",
+            "C": "Amlodipine",
+            "D": "Lisinopril"
+          },
+          "answer": "B",
+          "explanation": "Spironolactone blocks the aldosterone receptor and is useful in primary hyperaldosteronism.",
+          "concept": "MRA",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk",
+          "source_card_id": null,
+          "style_profile": "KAU-past-paper-inspired"
+        },
+        {
+          "id": "ai_11ZztQA_d1F4x9wB69Olsoc-d823jwFqm_11",
+          "stem": "Which combination should generally be avoided because it increases renal dysfunction and hyperkalemia without routine added benefit?",
+          "options": {
+            "A": "ACE inhibitor + ARB",
+            "B": "ARB + DHP CCB",
+            "C": "ACE inhibitor + thiazide",
+            "D": "DHP CCB + thiazide"
+          },
+          "answer": "A",
+          "explanation": "Routine dual RAAS blockade with an ACE inhibitor plus an ARB increases renal and potassium adverse effects.",
+          "concept": "Combination therapy",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk",
+          "source_card_id": null,
+          "style_profile": "KAU-past-paper-inspired"
+        },
+        {
+          "id": "ai_11ZztQA_d1F4x9wB69Olsoc-d823jwFqm_12",
+          "stem": "A patient receiving a beta blocker is considered for verapamil. What is the major concern with this combination?",
+          "options": {
+            "A": "Severe hypokalemia",
+            "B": "Bradycardia and AV block",
+            "C": "Bradykinin-mediated cough",
+            "D": "Reflex tachycardia"
+          },
+          "answer": "B",
+          "explanation": "β-blockers combined with verapamil or diltiazem can cause severe bradycardia, AV block, and myocardial depression.",
+          "concept": "Combination therapy",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk",
+          "source_card_id": null,
+          "style_profile": "KAU-past-paper-inspired"
+        },
+        {
+          "id": "ai_11ZztQA_d1F4x9wB69Olsoc-d823jwFqm_13",
+          "stem": "Which patient has the clearest compelling indication for a beta blocker as part of antihypertensive therapy?",
+          "options": {
+            "A": "Uncomplicated hypertension only",
+            "B": "Hypertension with ischemic heart disease",
+            "C": "Hypertension with recurrent gout",
+            "D": "Hypertension with isolated hypercalciuria"
+          },
+          "answer": "B",
+          "explanation": "Beta blockers become preferred when a compelling indication such as ischemic heart disease is present.",
+          "concept": "Beta blockers",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk",
+          "source_card_id": null,
+          "style_profile": "KAU-past-paper-inspired"
+        },
+        {
+          "id": "ai_11ZztQA_d1F4x9wB69Olsoc-d823jwFqm_14",
+          "stem": "A 30-year-old pregnant woman has persistent hypertension. Which medication is appropriate?",
+          "options": {
+            "A": "Lisinopril",
+            "B": "Losartan",
+            "C": "Extended-release nifedipine",
+            "D": "Aliskiren"
+          },
+          "answer": "C",
+          "explanation": "Nifedipine is pregnancy-compatible, whereas ACE inhibitors, ARBs, and direct renin inhibitors are avoided because of fetal toxicity.",
+          "concept": "Pregnancy",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk",
+          "source_card_id": null,
+          "style_profile": "KAU-past-paper-inspired"
+        },
+        {
+          "id": "ai_11ZztQA_d1F4x9wB69Olsoc-d823jwFqm_15",
+          "stem": "A patient has BP 230/130 mmHg with confusion, papilledema, and acute kidney injury. What is the best initial approach?",
+          "options": {
+            "A": "Gradual outpatient oral therapy",
+            "B": "Immediate normalization to 120/80 mmHg",
+            "C": "Monitored care with titratable IV antihypertensive therapy",
+            "D": "No treatment until a repeat clinic visit"
+          },
+          "answer": "C",
+          "explanation": "Acute target-organ damage defines hypertensive emergency and requires monitored treatment with short-acting titratable IV therapy.",
+          "concept": "Hypertensive emergency",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk",
+          "source_card_id": null,
+          "style_profile": "KAU-past-paper-inspired"
+        },
+        {
+          "id": "ai_11ZztQA_d1F4x9wB69Olsoc-d823jwFqm_16",
+          "stem": "Which finding is the key distinction between hypertensive emergency and severe asymptomatic hypertension?",
+          "options": {
+            "A": "Systolic BP above 180 mmHg",
+            "B": "Diastolic BP above 120 mmHg",
+            "C": "Acute target-organ damage",
+            "D": "Presence of headache"
+          },
+          "answer": "C",
+          "explanation": "The defining distinction is acute target-organ damage, not the BP number alone.",
+          "concept": "Hypertensive emergency",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk",
+          "source_card_id": null,
+          "style_profile": "KAU-past-paper-inspired"
+        },
+        {
+          "id": "ai_11ZztQA_d1F4x9wB69Olsoc-d823jwFqm_17",
+          "stem": "A patient with stage 2 hypertension has an average BP more than 20/10 mmHg above target. Which initial strategy is recommended in the lecture?",
+          "options": {
+            "A": "Lifestyle therapy alone",
+            "B": "One second-line agent",
+            "C": "Two first-line agents from different classes",
+            "D": "ACE inhibitor plus ARB"
+          },
+          "answer": "C",
+          "explanation": "When BP is more than 20/10 mmHg above target, two complementary first-line agents are recommended.",
+          "concept": "Initial therapy",
+          "difficulty": "understanding",
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk",
+          "source_card_id": null,
+          "style_profile": "KAU-past-paper-inspired"
+        },
+        {
+          "id": "ai_11ZztQA_d1F4x9wB69Olsoc-d823jwFqm_18",
+          "stem": "A Black adult with hypertension has no heart failure or chronic kidney disease. Which class should be included in initial therapy?",
+          "options": {
+            "A": "Alpha₁ blocker",
+            "B": "Thiazide-type diuretic or calcium-channel blocker",
+            "C": "Direct renin inhibitor",
+            "D": "Central alpha₂ agonist"
+          },
+          "answer": "B",
+          "explanation": "The lecture recommends a thiazide-type diuretic or calcium-channel blocker for initial therapy in this setting.",
+          "concept": "Initial therapy",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk",
+          "source_card_id": null,
+          "style_profile": "KAU-past-paper-inspired"
+        },
+        {
+          "id": "ai_11ZztQA_d1F4x9wB69Olsoc-d823jwFqm_19",
+          "stem": "A patient with HFrEF is considered for verapamil to treat hypertension. Why should it generally be avoided?",
+          "options": {
+            "A": "It causes severe hyperkalemia",
+            "B": "It has a negative inotropic effect",
+            "C": "It increases bradykinin",
+            "D": "It causes marked sodium retention"
+          },
+          "answer": "B",
+          "explanation": "Verapamil is a non-DHP calcium-channel blocker with negative inotropic effects and is generally avoided in HFrEF.",
+          "concept": "CCBs",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk",
+          "source_card_id": null,
+          "style_profile": "KAU-past-paper-inspired"
+        },
+        {
+          "id": "ai_11ZztQA_d1F4x9wB69Olsoc-d823jwFqm_20",
+          "stem": "A 66-year-old woman develops bilateral ankle edema after starting amlodipine. She has no dyspnea or pulmonary crackles. What is the most likely mechanism?",
+          "options": {
+            "A": "Preferential arteriolar dilation",
+            "B": "Aldosterone-mediated sodium retention",
+            "C": "Reduced venous return from bradycardia",
+            "D": "Direct renal failure"
+          },
+          "answer": "A",
+          "explanation": "DHP calcium-channel blockers such as amlodipine cause preferential arteriolar dilation, which can produce peripheral edema.",
+          "concept": "CCBs",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk",
+          "source_card_id": null,
+          "style_profile": "KAU-past-paper-inspired"
+        },
+        {
+          "id": "ai_11ZztQA_d1F4x9wB69Olsoc-d823jwFqm_21",
+          "stem": "A patient on long-term hydralazine develops fever, arthralgia, and positive antinuclear antibodies. Which diagnosis is most likely?",
+          "options": {
+            "A": "Gout",
+            "B": "Drug-induced lupus",
+            "C": "Angioedema",
+            "D": "Serum sickness"
+          },
+          "answer": "B",
+          "explanation": "Hydralazine can cause a drug-induced lupus syndrome.",
+          "concept": "Adverse effects",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk",
+          "source_card_id": null,
+          "style_profile": "KAU-past-paper-inspired"
+        },
+        {
+          "id": "ai_11ZztQA_d1F4x9wB69Olsoc-d823jwFqm_22",
+          "stem": "A patient develops excessive hair growth after a direct arteriolar vasodilator is added. Which drug is responsible?",
+          "options": {
+            "A": "Hydralazine",
+            "B": "Minoxidil",
+            "C": "Methyldopa",
+            "D": "Diltiazem"
+          },
+          "answer": "B",
+          "explanation": "Minoxidil is classically associated with hypertrichosis.",
+          "concept": "Adverse effects",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk",
+          "source_card_id": null,
+          "style_profile": "KAU-past-paper-inspired"
+        },
+        {
+          "id": "ai_11ZztQA_d1F4x9wB69Olsoc-d823jwFqm_23",
+          "stem": "A patient with CKD is started on an ACE inhibitor. When should creatinine and potassium be checked?",
+          "options": {
+            "A": "Within 24 hours in every patient",
+            "B": "Within 2–4 weeks",
+            "C": "After 6 months",
+            "D": "Only if symptoms develop"
+          },
+          "answer": "B",
+          "explanation": "The lecture recommends checking creatinine and potassium within 2–4 weeks in CKD after starting an ACE inhibitor or ARB.",
+          "concept": "Monitoring",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk",
+          "source_card_id": null,
           "style_profile": "KAU-past-paper-inspired"
         }
       ],

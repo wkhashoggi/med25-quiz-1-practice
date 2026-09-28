@@ -1,0 +1,96 @@
+{
+  "version": 1,
+  "updated_at": "2026-09-28T08:25:23.024Z",
+  "study_guide": {
+    "title": "Study Guide- Circulation and Breathing module- 2026-2027.pdf",
+    "drive_file_id": "1QwRNlO6-zuOQugxyjrhXykOW-YjVtal4"
+  },
+  "drive_root": {
+    "title": "MED25 Circulation & Breathing",
+    "folder_id": "1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H"
+  },
+  "test_bank_reference": {
+    "folder_id": "1haM0X8qSt7Ww7ng6Z9nijToACDI9jprth-",
+    "purpose": "Style reference only. Never use test-bank content as the factual source for AI-generated questions or flashcards."
+  },
+  "eligibility": {
+    "default": "deny",
+    "allowed_teaching_methods": [
+      "Interactive lecture",
+      "Flipped class",
+      "Online lecture"
+    ],
+    "excluded_teaching_methods": [
+      "SPP",
+      "Student-Prepared Presentation",
+      "Practical",
+      "CBD",
+      "PBL",
+      "Covered in PBL",
+      "Online Tutorial",
+      "Tutorial"
+    ],
+    "rules": [
+      "A Drive file must be matched to an official Study Guide topic before generation.",
+      "The matched Study Guide teaching method must be one of the three allowed methods.",
+      "If the match or teaching method is uncertain, do not publish the deck/question set.",
+      "Department folder location alone never makes a file eligible."
+    ]
+  },
+  "ai_questions": {
+    "objective_first": true,
+    "source_of_truth": "Eligible lecture slides + that lecture's official Study Guide learning objectives",
+    "style_reference": "Existing MED25 past papers and coordinator formative on the website",
+    "format": "4-option single-best-answer",
+    "requirements": [
+      "One unambiguously best answer.",
+      "Plausible same-domain distractors aimed at common confusions.",
+      "Concise KAU/MED25-style stems; avoid unnecessarily long USMLE-style vignettes.",
+      "Mix high-yield recall, mechanisms/relationships and short clinical/application questions when the lecture supports them.",
+      "Collectively cover the official objectives before adding lower-yield slide details.",
+      "Never invent content or use knowledge outside the lecture to make a question harder.",
+      "Never recycle unrelated flashcard answers as distractors."
+    ]
+  },
+  "flashcards": {
+    "objective_first": true,
+    "source_of_truth": "Eligible lecture slides + that lecture's official Study Guide learning objectives",
+    "requirements": [
+      "One retrieval target per card.",
+      "Prioritize mechanisms, comparisons, discriminations and exam-relevant facts over trivia.",
+      "Keep cards concise enough for daily spaced-repetition review.",
+      "Collectively cover the official objectives."
+    ],
+    "images": {
+      "enabled": true,
+      "use_when": "A lecture visual materially improves recall or interpretation, especially anatomy, histology, ECGs, graphs, pathways, tables and image-based recognition.",
+      "sides": [
+        "front",
+        "back",
+        "both"
+      ],
+      "storage": "Use persistent repository assets under flashcard-media/. Never publish expiring thumbnail URLs.",
+      "rule": "Use lecture-derived visuals only when useful; do not add decorative images."
+    }
+  },
+  "publishing": {
+    "ai_library": "ai_questions.json",
+    "flashcard_library": "flashcards.json",
+    "required_flag": "eligibility_status=allowed",
+    "excluded_content_behavior": "archive and hide",
+    "preserve_ids_when_regenerating": true
+  },
+  "daily_refresh": {
+    "local_time": "13:00",
+    "timezone": "Asia/Riyadh",
+    "actions": [
+      "Scan the official Drive for new or modified lecture files.",
+      "Match each candidate to the Study Guide topic and teaching method.",
+      "Ignore non-eligible methods.",
+      "For new/modified eligible lectures, generate or refresh AI questions and flashcards using the official objectives.",
+      "Add useful lecture images to flashcards when appropriate.",
+      "Validate JSON, question quality and eligibility before publishing.",
+      "Deploy the updated website only when content changed."
+    ]
+  }
+}

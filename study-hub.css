@@ -440,3 +440,7 @@ body{background:var(--med-bg)!important;color:var(--med-text)!important;font-fea
   .mobileThemeToggle{display:grid;place-items:center;position:fixed;top:12px;right:12px;z-index:145;width:40px;height:40px;border:1px solid var(--med-line);border-radius:12px;background:color-mix(in srgb,var(--med-card) 94%,transparent);color:var(--med-text);font-size:17px;box-shadow:0 6px 20px rgba(15,23,42,.08);backdrop-filter:blur(12px)}
 }
 :root[data-theme="dark"] .updateNotice,:root[data-theme="dark"] .analyticsHead,:root[data-theme="dark"] .flashStatsPanel,:root[data-theme="dark"] .ankiOptionsPanel{background:var(--med-card)!important;color:var(--med-text)!important;border-color:var(--med-line)!important}
+
+.answerOnlyPrompt{display:flex;flex-direction:column;gap:4px;padding:14px;border:1px dashed color-mix(in srgb,var(--med-blue) 35%,var(--med-line));border-radius:13px;background:var(--med-blue-soft);color:var(--med-text)}
+.answerOnlyPrompt b{font-size:12px;color:var(--med-blue)}.answerOnlyPrompt span{font-size:11px;line-height:1.5;color:var(--med-muted)}
+.answerOnlyPill{background:var(--med-blue-soft)!important;color:var(--med-blue)!important;border:1px solid color-mix(in srgb,var(--med-blue) 24%,var(--med-line))!important}

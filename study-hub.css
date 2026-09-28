@@ -169,3 +169,167 @@
 .lectureManualCheck.checked{color:#175cd3;border-color:#175cd3;background:#fff}
 .lectureAutoCheck{border:2px solid #d0d5dd;background:#f9fafb;color:transparent}
 .lectureAutoCheck.checked{border-color:#1570ef;background:#1570ef;color:#fff;box-shadow:inset 0 0 0 1px rgba(255,255,255,.14)}
+
+/* 2026-09-28 responsive usability pass */
+.qcard,.aiCard{content-visibility:auto;contain-intrinsic-size:640px}
+.option,.aiOption,.btn,.aiBtn,.chip,.aiChip,.studyTab,.hubBtn,.ankiBtn,.ankiRate,.lectureManualCheck,.mobileFilterToggle,.med25MobilePager button{touch-action:manipulation;-webkit-tap-highlight-color:transparent}
+.mobileFilterToggle,.med25MobilePager{display:none}
+@media(min-width:701px){
+  #questionSection .toolbar{top:58px}
+}
+@media(max-width:900px){
+  .hubGrid{gap:12px}
+  .qcard,.aiCard{box-shadow:0 3px 12px rgba(16,24,40,.035)}
+  .option,.aiOption{min-height:48px}
+}
+@media(max-width:700px){
+  html{-webkit-text-size-adjust:100%}
+  body{overscroll-behavior-y:none}
+  .shell{padding:10px 10px calc(96px + env(safe-area-inset-bottom))}
+  .studyTabs{
+    position:sticky;top:0;z-index:70;
+    margin:0 0 10px;padding:5px;gap:5px;border-radius:13px;
+    overflow-x:auto;scroll-snap-type:x proximity;overscroll-behavior-x:contain;
+    -webkit-overflow-scrolling:touch;scrollbar-width:none
+  }
+  .studyTabs::-webkit-scrollbar,.chips::-webkit-scrollbar,.aiChips::-webkit-scrollbar,.stats::-webkit-scrollbar,.flashHeroStats::-webkit-scrollbar{display:none}
+  .studyTab{flex:0 0 auto;min-width:112px;min-height:44px;padding:10px 13px;font-size:12px;scroll-snap-align:start}
+  .hero{padding:16px;border-radius:18px}
+  .hero h1{font-size:clamp(24px,7vw,30px);letter-spacing:-.5px;margin-bottom:4px}
+  .hero p{font-size:12px;line-height:1.45}
+  .arabic-credit{font-size:12px;margin:3px 0 8px}
+  .authbox{padding:12px;margin-top:12px}
+  .authbox .authmeta,.authbox .authstatus{font-size:11px}
+  #stats,.flashHeroStats{display:flex;gap:8px;overflow-x:auto;scroll-snap-type:x proximity;margin-top:14px;padding-bottom:2px}
+  #stats .stat,.flashHeroStats .stat{flex:0 0 148px;min-width:148px;padding:10px 11px;border-radius:13px;scroll-snap-align:start}
+  #stats .stat b,.flashHeroStats .stat b{font-size:19px}
+  #stats .stat span,.flashHeroStats .stat span{font-size:10px}
+  .toolbar,.aiToolbar{
+    position:static!important;top:auto!important;z-index:auto;
+    margin:10px 0 0;padding:10px;background:#fff;border:1px solid var(--line);
+    border-radius:14px;box-shadow:none;backdrop-filter:none
+  }
+  .controls{display:grid;grid-template-columns:1fr;gap:8px}
+  .controls #search,.aiSearch{min-height:46px;font-size:16px;padding:11px 12px}
+  #questionSection.mobileFiltersCollapsed .controls .control:not(#search){display:none}
+  #questionSection.mobileFiltersCollapsed #pastGuideFilters{display:none}
+  #aiSection.mobileFiltersCollapsed #aiGuideFilters{display:none}
+  .chips,.aiChips{
+    display:flex;flex-wrap:nowrap;gap:7px;overflow-x:auto;overscroll-behavior-x:contain;
+    -webkit-overflow-scrolling:touch;margin-top:9px;padding-bottom:2px
+  }
+  .chip,.aiChip,.mobileFilterToggle{
+    flex:0 0 auto;min-height:42px;border:1px solid #d0d5dd;background:#fff;border-radius:999px;
+    padding:9px 12px;font-size:12px;font-weight:750;white-space:nowrap
+  }
+  .mobileFilterToggle{display:inline-flex;align-items:center;gap:6px;color:#344054;cursor:pointer}
+  .mobileFilterToggle[aria-expanded="true"]{background:#172033;border-color:#172033;color:#fff}
+  .mobileFilterToggle b{font-size:10px;font-weight:850}
+  .qaFilterBar{
+    grid-template-columns:1fr!important;margin:8px 0 0;padding:12px;background:#fff;
+    border:1px solid var(--line);border-radius:14px
+  }
+  .qaClearBtn{grid-column:auto!important}
+  .qaField select,.qaMultiBtn,.qaClearBtn{min-height:46px;font-size:16px}
+  .qaMultiPanel{position:fixed;left:10px;right:10px;top:auto;bottom:calc(82px + env(safe-area-inset-bottom));width:auto;max-height:54vh;border-radius:16px}
+  .panel,.aiLayout{margin-top:12px;gap:12px}
+  .sidebar{order:-1}
+  .sidebar .box{padding:12px;border-radius:14px;box-shadow:none}
+  .sidebar .box p{margin-bottom:0;font-size:11px}
+  .modebar button{min-height:44px;font-size:13px}
+  .qcard,.aiCard{padding:15px 13px;border-radius:16px;box-shadow:none}
+  .qtop,.aiTop{gap:8px}
+  .qnum{font-size:10px;line-height:1.3;text-align:right}
+  .pill,.aiPill{font-size:9px;padding:4px 7px}
+  .stem,.aiStem{font-size:16px;line-height:1.5;margin:12px 0}
+  .options,.aiOptions{gap:9px}
+  .option,.aiOption{
+    min-height:54px;padding:14px 13px;border-radius:13px;font-size:15px;line-height:1.4;
+    align-items:flex-start
+  }
+  .option .letter,.aiLetter{min-width:24px;font-size:14px}
+  .feedback,.explain,.aiFeedback{font-size:13px;line-height:1.5}
+  .actions,.aiActions{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+  .actions .btn,.aiActions .aiBtn{min-height:44px;font-size:12px;padding:9px 10px}
+  .reviewmark,.aiStar{font-size:22px;min-width:42px;min-height:42px;display:inline-flex;align-items:center;justify-content:center}
+  .aiStar{right:7px;top:7px}
+  .aiSidebar{grid-template-columns:1fr}
+  .aiBox{box-shadow:none}
+  .aiPager{padding:9px 10px}
+  .aiPager .aiBtn{min-height:42px;font-size:11px}
+  .aiPager span{font-size:9px;text-align:center}
+  .source-note{font-size:10px;line-height:1.45}
+  .hubSection{margin-top:12px}
+  .hubGrid{gap:10px}
+  .hubCard{padding:14px;border-radius:15px;box-shadow:none}
+  .hubIntro h2{font-size:21px}
+  .hubMetric{grid-column:span 6}
+  .hubMetric b{font-size:21px}
+  .hubMetric span{font-size:10px}
+  .hubActions{display:grid;grid-template-columns:1fr}
+  .hubBtn{min-height:44px;font-size:12px}
+  .lectureDashHead{padding:14px 14px 12px;gap:12px}
+  .lectureDashFilters{display:grid;grid-template-columns:1fr}
+  .lectureDashFilters select,.lectureDashFilters input{width:100%;min-height:46px;font-size:16px}
+  .lectureDashSummary{display:grid;grid-template-columns:1fr 1fr;gap:8px 12px;padding:11px 14px}
+  .lectureDashboard{overflow:visible;padding:2px 0 8px}
+  .lectureDashColumns{display:none}
+  .lectureDashRow:not(.lectureDashColumns){
+    min-width:0;grid-template-columns:1fr 1fr;gap:10px 12px;
+    margin:10px 10px 0;padding:14px;border:1px solid #e4e7ec;border-radius:14px;background:#fff
+  }
+  .lectureDashLecture{grid-column:1/-1;padding-bottom:2px}
+  .lectureDashLecture b{font-size:13px;white-space:normal;overflow:visible}
+  .lectureDashLecture span{font-size:10px}
+  .lectureDashCheckCell{align-items:flex-start}
+  .lectureManualCheck,.lectureAutoCheck{width:34px;height:34px;border-radius:9px}
+  .lectureDashRow:not(.lectureDashColumns)>div:nth-child(4)::before,
+  .lectureDashRow:not(.lectureDashColumns)>div:nth-child(5)::before,
+  .lectureDashRow:not(.lectureDashColumns)>div:nth-child(6)::before,
+  .lectureDashRow:not(.lectureDashColumns)>div:nth-child(8)::before{
+    display:block;font-size:8px;text-transform:uppercase;letter-spacing:.04em;
+    color:#98a2b3;font-weight:800;margin-bottom:3px
+  }
+  .lectureDashRow:not(.lectureDashColumns)>div:nth-child(4)::before{content:"Past papers"}
+  .lectureDashRow:not(.lectureDashColumns)>div:nth-child(5)::before{content:"AI questions"}
+  .lectureDashRow:not(.lectureDashColumns)>div:nth-child(6)::before{content:"Question progress"}
+  .lectureDashRow:not(.lectureDashColumns)>div:nth-child(8)::before{content:"Last activity"}
+  .lectureDashRow:not(.lectureDashColumns)>div:nth-child(6){grid-column:1/-1}
+  .lectureDashRow:not(.lectureDashColumns)>div:nth-child(9){grid-column:1/-1}
+  .lectureStatus{font-size:9px;padding:6px 9px}
+  .ankiShell{border-radius:14px}
+  .ankiBar{padding:11px 12px}
+  .ankiBar h2{font-size:17px}
+  .ankiSearchRow{padding:10px}
+  .ankiSearch{min-height:46px;font-size:16px}
+  .ankiDeckRow{min-height:58px}
+  .ankiCardWrap{padding:18px 8px}
+  .ankiCard{width:100%;min-height:260px;padding:24px 18px;border-radius:12px}
+  .ankiCard .front{font-size:20px}
+  .ankiAnswer{font-size:17px}
+  .ankiBottom{position:sticky;bottom:0;z-index:35;padding:12px 12px calc(12px + env(safe-area-inset-bottom))}
+  .ankiShowAnswer{min-height:50px;width:min(100%,360px);font-size:14px}
+  .ankiRatings{gap:8px}
+  .ankiRate{min-height:54px;font-size:13px}
+  .med25MobilePager{
+    position:fixed;left:0;right:0;bottom:0;z-index:100;
+    align-items:center;gap:8px;padding:8px 10px calc(8px + env(safe-area-inset-bottom));
+    background:rgba(255,255,255,.96);border-top:1px solid #e4e7ec;
+    box-shadow:0 -8px 24px rgba(16,24,40,.08);backdrop-filter:blur(12px)
+  }
+  .med25MobilePager.show{display:flex}
+  .med25MobilePager button{
+    min-height:48px;border:1px solid #d0d5dd;background:#fff;color:#344054;
+    border-radius:12px;padding:10px 13px;font-size:13px;font-weight:800;cursor:pointer
+  }
+  .med25MobilePager button:disabled{opacity:.38}
+  .med25MobilePager .mobileNext{flex:1;background:#1d4ed8;border-color:#1d4ed8;color:#fff}
+  .med25MobilePager .mobilePrev{flex:0 0 auto}
+  .med25MobilePager span{min-width:74px;text-align:center;font-size:10px;line-height:1.25;color:#667085;font-weight:750}
+}
+@media(max-width:390px){
+  .studyTab{min-width:104px}
+  .hubMetric{grid-column:span 12}
+  .actions,.aiActions{grid-template-columns:1fr}
+  .lectureDashSummary{grid-template-columns:1fr}
+}

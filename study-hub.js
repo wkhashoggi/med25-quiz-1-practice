@@ -220,6 +220,10 @@ function qaWrapMovedControl(el,label){
 function qaOrganizeUnifiedControls(prefix){
   const root=document.getElementById(qaIds(prefix,'Filters'));if(!root)return;
   const order=document.getElementById(qaIds(prefix,'Order'));
+  const display=document.getElementById(qaIds(prefix,'Display'));
+  const section=document.getElementById(prefix==='past'?'questionSection':'aiSection');
+  const live=section?.querySelector('.liveStatsToggle');
+  if(live&&display&&live.parentElement!==display)display.appendChild(live);
   if(prefix==='past'){
     const quick=document.getElementById(qaIds(prefix,'Quick'));
     const tools=document.getElementById(qaIds(prefix,'Tools'));

@@ -17,7 +17,7 @@ function aiProgress(){
   return saved.__ai_questions__;
 }
 function aiAllQuestions(){
-  return (aiLibrary.lecture_sets||[]).filter(s=>!s.archived).flatMap(set=>(set.questions||[]).map(q=>({...q,set_id:set.id,subject:set.subject,lecture_title:set.title,source_url:set.source_url||q.source_url||'',source_validation:set.source_validation||'pending_lecture_validation'})));
+  return (aiLibrary.lecture_sets||[]).filter(s=>!s.archived&&s.eligibility_status==='allowed').flatMap(set=>(set.questions||[]).map(q=>({...q,set_id:set.id,subject:set.subject,lecture_title:set.title,source_url:set.source_url||q.source_url||'',source_validation:set.source_validation||'pending_lecture_validation'})));
 }
 function aiSave(){save();renderAIStats();med25MarkHomeDirty()}
 function aiFiltered(){
@@ -103,10 +103,10 @@ function renderAIStats(){
 function prettyHubDate(v){if(!v)return 'not synced yet';try{return new Date(v).toLocaleString('en-GB',{timeZone:'Asia/Riyadh',day:'2-digit',month:'short',hour:'2-digit',minute:'2-digit'})}catch{return v}}
 function populateAIFilters(){
   const subject=document.getElementById('aiSubject'),lecture=document.getElementById('aiLecture');if(!subject||!lecture)return;
-  const subjects=[...new Set((aiLibrary.lecture_sets||[]).filter(s=>!s.archived).map(s=>s.subject))].sort();
+  const subjects=[...new Set((aiLibrary.lecture_sets||[]).filter(s=>!s.archived&&s.eligibility_status==='allowed').map(s=>s.subject))].sort();
   subject.innerHTML='<option value="">All subjects</option>'+subjects.map(s=>'<option>'+esc(s)+'</option>').join('');
   subject.value=aiState.subject;
-  const sets=(aiLibrary.lecture_sets||[]).filter(s=>!s.archived&&(!aiState.subject||s.subject===aiState.subject));
+  const sets=(aiLibrary.lecture_sets||[]).filter(s=>!s.archived&&s.eligibility_status==='allowed'&&(!aiState.subject||s.subject===aiState.subject));
   lecture.innerHTML='<option value="">All lectures</option>'+sets.map(s=>'<option value="'+esc(s.id)+'">'+esc(s.title)+'</option>').join('');
   if(sets.some(s=>s.id===aiState.lecture))lecture.value=aiState.lecture;else aiState.lecture='';
 }
@@ -582,7 +582,7 @@ function renderHome(){
   const subjects=document.getElementById('homeSubjects');
   if(subjects)subjects.innerHTML='<div class="hubRows">'+homeSubjectRows().map(x=>{const qPct=x.questions?Math.round(x.done/x.questions*100):0;return '<div class="hubRow"><div class="hubRowMain"><b>'+esc(x.subject)+'</b><span>Studied '+x.studied+'/'+x.lectures+' lectures · Questions '+x.done+'/'+x.questions+'</span><div class="hubBar"><span style="width:'+qPct+'%"></span></div></div><div class="hubRowScore">'+x.questionComplete+'/'+x.lectures+' complete</div></div>'}).join('')+'</div>';
   renderLectureDashboard();
-  const sync=document.getElementById('homeSync');if(sync)sync.textContent='Drive libraries: '+(aiLibrary.lecture_sets||[]).filter(s=>!s.archived).length+' AI lecture sets · '+(flashLibrary.decks||[]).filter(d=>!d.archived).length+' flashcard decks';
+  const sync=document.getElementById('homeSync');if(sync)sync.textContent='Drive libraries: '+(aiLibrary.lecture_sets||[]).filter(s=>!s.archived&&s.eligibility_status==='allowed').length+' eligible AI lecture sets · '+(flashLibrary.decks||[]).filter(d=>!d.archived&&d.eligibility_status==='allowed').length+' eligible flashcard decks';
 }
 function hubGo(mode){switchStudySection(mode)}
 function hubSwitch(mode){

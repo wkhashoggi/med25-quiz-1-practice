@@ -429,3 +429,14 @@ body{background:var(--med-bg)!important;color:var(--med-text)!important;font-fea
   .lectureDashboard{padding:4px 0 10px!important}.lectureDashRow:not(.lectureDashColumns){background:var(--med-card)!important;border-color:var(--med-line)!important}
 }
 @media(max-width:390px){.hubMetric{grid-column:span 12!important}.homeOverallTop{align-items:flex-start;flex-direction:column}.homeOverallTop span{text-align:left}}
+
+
+/* Mobile theme access + finishing details */
+.mobileThemeToggle{display:none}
+.flashFocusBtn:disabled{opacity:.55;cursor:default}
+.homeContextAction{cursor:pointer;text-decoration-style:dotted;text-underline-offset:3px}
+@media(max-width:700px){
+  .appNav{overflow:visible!important}
+  .mobileThemeToggle{display:grid;place-items:center;position:fixed;top:12px;right:12px;z-index:145;width:40px;height:40px;border:1px solid var(--med-line);border-radius:12px;background:color-mix(in srgb,var(--med-card) 94%,transparent);color:var(--med-text);font-size:17px;box-shadow:0 6px 20px rgba(15,23,42,.08);backdrop-filter:blur(12px)}
+}
+:root[data-theme="dark"] .updateNotice,:root[data-theme="dark"] .analyticsHead,:root[data-theme="dark"] .flashStatsPanel,:root[data-theme="dark"] .ankiOptionsPanel{background:var(--med-card)!important;color:var(--med-text)!important;border-color:var(--med-line)!important}

@@ -40,14 +40,19 @@ function ankiConfig(){
   const root=flashReview||{};
   if(!root[ANKI_CONFIG_KEY]||typeof root[ANKI_CONFIG_KEY]!=='object')root[ANKI_CONFIG_KEY]={};
   const c=root[ANKI_CONFIG_KEY];
-  if(!Number.isFinite(Number(c.desiredRetention)))c.desiredRetention=0.90;
+  if(!Number.isFinite(Number(c.desiredRetention)))c.desiredRetention=0.92;
+  if(!c.morningV2Migrated){
+    if(Math.abs(Number(c.desiredRetention||0)-0.90)<0.0001)c.desiredRetention=0.92;
+    c.morningV2Migrated=true;
+  }
   if(!Number.isFinite(Number(c.newPerDay)))c.newPerDay=20;
   if(!Number.isFinite(Number(c.maximumInterval)))c.maximumInterval=36500;
   c.reviewsPerDay=9999;
   c.learningSteps=[];
   c.relearningSteps=[];
   c.fuzz=true;
-  c.version='fsrs-daily-v1';
+  c.sameSessionAgain=true;
+  c.version='fsrs-daily-v2';
   return c;
 }
 function ankiDaily(){
@@ -249,7 +254,8 @@ function ankiSessionCounts(){
   const counts={new:0,learn:0,due:0};
   remaining.forEach(c=>{
     const r=cardReview(c.id),s=ankiState(r);
-    if(!r)counts.new++;
+    if(c.__same_session_retry)counts.learn++;
+    else if(!r)counts.new++;
     else if(s===1||s===3)counts.learn++;
     else if(s===2&&ankiDueMs(r)<=now)counts.due++;
   });
@@ -275,16 +281,16 @@ function ankiRenderOptions(){
   const c=ankiConfig(),d=ankiDaily();
   host.innerHTML='<div class="ankiOptionsHead"><div><b>Deck Options</b><span>FSRS scheduling for long-term retention</span></div><button class="ankiBtn" id="ankiCloseOptions">Close</button></div>'+
   '<div class="ankiOptionsGrid">'+
-  '<label><span>Desired retention</span><input id="ankiRetention" type="number" min="70" max="97" step="1" value="'+Math.round((Number(c.desiredRetention)||.9)*100)+'"><small>90% is Anki’s default balance.</small></label>'+
+  '<label><span>Desired retention</span><input id="ankiRetention" type="number" min="70" max="97" step="1" value="'+Math.round((Number(c.desiredRetention)||.92)*100)+'"><small>92% is the MED25 morning-review target.</small></label>'+
   '<label><span>New cards/day</span><input id="ankiNewLimit" type="number" min="0" max="999" value="'+(Number(c.newPerDay)||20)+'"><small>Today: '+d.newIntroduced+' introduced</small></label>'+
   '<label><span>Due reviews</span><input value="All due" disabled><small>Due cards are never skipped by a daily cap.</small></label>'+
   '<label><span>Maximum interval</span><input id="ankiMaxInterval" type="number" min="30" max="36500" value="'+(Number(c.maximumInterval)||36500)+'"><small>days</small></label>'+
   '</div>'+
-  '<div class="ankiOptionNote"><b>Daily adaptive scheduling:</b> Complete one morning session. Ratings change the next review day using FSRS memory strength and difficulty; no card repeats later the same day.</div>'+
+  '<div class="ankiOptionNote"><b>Morning adaptive scheduling:</b> Complete one session each morning. FSRS schedules future review days. If you press Again, that card returns once near the end of the same session, then remains due again the next morning.</div>'+
   '<div class="ankiOptionFoot"><span>Scheduler: FSRS adaptive · daily-only review windows · interval fuzzing on</span><button class="ankiBtn primary" id="ankiSaveOptions">Save</button></div>';
   document.getElementById('ankiCloseOptions').onclick=()=>host.classList.add('hidden');
   document.getElementById('ankiSaveOptions').onclick=()=>{
-    c.desiredRetention=Math.min(.97,Math.max(.70,Number(document.getElementById('ankiRetention').value)/100||.90));
+    c.desiredRetention=Math.min(.97,Math.max(.70,Number(document.getElementById('ankiRetention').value)/100||.92));
     c.newPerDay=Math.max(0,Number(document.getElementById('ankiNewLimit').value)||0);
     c.reviewsPerDay=9999;
     c.maximumInterval=Math.min(36500,Math.max(30,Number(document.getElementById('ankiMaxInterval').value)||36500));
@@ -294,6 +300,65 @@ function ankiRenderOptions(){
 function ankiToggleOptions(){
   const host=document.getElementById('ankiOptionsPanel');if(!host)return;
   host.classList.toggle('hidden');if(!host.classList.contains('hidden'))ankiRenderOptions();
+}
+function ankiInjectKeyboardGuide(){
+  const study=document.getElementById('flashStudy');if(!study)return;
+  if(!document.getElementById('ankiKeyboardGuide')){
+    const top=study.querySelector('.ankiStudyTop');
+    if(top){
+      top.insertAdjacentHTML('afterend',
+        '<div class="ankiKeyboardGuide" id="ankiKeyboardGuide" aria-label="Keyboard shortcuts">'+
+          '<span class="ankiShortcutLead">Keyboard</span>'+
+          '<span><kbd>Space</kbd><kbd>Enter</kbd> Show answer / Good</span>'+
+          '<span><kbd>1</kbd> Again</span>'+
+          '<span><kbd>2</kbd> Hard</span>'+
+          '<span><kbd>3</kbd> Good</span>'+
+          '<span><kbd>4</kbd> Easy</span>'+
+          '<span><kbd>S</kbd> Decks</span>'+
+        '</div>');
+    }
+  }
+  const titles={again:'1 · Again',hard:'2 · Hard',good:'3 · Good',easy:'4 · Easy'};
+  document.querySelectorAll('#flashRatings [data-grade]').forEach(btn=>{
+    btn.title=titles[btn.dataset.grade]||'';
+  });
+  const show=document.getElementById('flashShowAnswer');
+  if(show)show.title='Space / Enter · Show answer; after reveal = Good';
+  const back=document.getElementById('flashBack');
+  if(back)back.title='S · Back to decks';
+}
+function ankiStudyIsVisible(){
+  const section=document.getElementById('flashcardsSection'),study=document.getElementById('flashStudy');
+  return !!(section&&study&&!section.classList.contains('hidden')&&!study.classList.contains('hidden'));
+}
+function ankiSetupKeyboard(){
+  if(window.__med25AnkiKeyboardBound)return;
+  window.__med25AnkiKeyboardBound=true;
+  document.addEventListener('keydown',e=>{
+    if(e.defaultPrevented||e.metaKey||e.ctrlKey||e.altKey)return;
+    const target=e.target,tag=String(target?.tagName||'').toLowerCase();
+    if(target?.isContentEditable||tag==='input'||tag==='textarea'||tag==='select')return;
+    if(!ankiStudyIsVisible())return;
+
+    const key=e.key;
+    if(key===' '||key==='Enter'){
+      e.preventDefault();
+      const card=currentFlashCard();
+      if(!card)return;
+      if(!flashSession.revealed)revealFlashAnswer();
+      else ankiGrade('good');
+      return;
+    }
+    if(flashSession.revealed&&['1','2','3','4'].includes(key)){
+      e.preventDefault();
+      ankiGrade(key==='1'?'again':key==='2'?'hard':key==='3'?'good':'easy');
+      return;
+    }
+    if(key.toLowerCase()==='s'){
+      e.preventDefault();
+      leaveFlashStudy();
+    }
+  });
 }
 function ankiRenderStats(){
   const activeDecks=ankiActiveDecks();
@@ -396,21 +461,43 @@ function ankiRenderStudyCard(){
   const show=document.getElementById('flashShowAnswer');show.style.display='block';show.textContent='Show Answer';show.onclick=revealFlashAnswer;
   document.getElementById('flashRatings').classList.remove('show');
   const src=document.getElementById('flashSource'),r=cardReview(card.id),ret=ankiRetrievability(r);
-  src.innerHTML=(card.tags?.length?'Tags: '+card.tags.map(esc).join(' · ')+'<br>':'')+(r?.fsrs_card?('Stability '+Number(r.fsrs_card.stability||0).toFixed(1)+'d · Difficulty '+Number(r.fsrs_card.difficulty||0).toFixed(1)+(ret!==null?' · Recall '+Math.round(ret*100)+'%':'')+'<br>'):'')+(card.source_url?'<a href="'+esc(card.source_url)+'" target="_blank" rel="noopener">Open source lecture in Drive ↗</a>':'');
+  const retryNote=card.__same_session_retry?'<div class="ankiRetryNote">Again retry · this card is already scheduled for tomorrow.</div>':'';
+  src.innerHTML=retryNote+(card.tags?.length?'Tags: '+card.tags.map(esc).join(' · ')+'<br>':'')+(r?.fsrs_card?('Stability '+Number(r.fsrs_card.stability||0).toFixed(1)+'d · Difficulty '+Number(r.fsrs_card.difficulty||0).toFixed(1)+(ret!==null?' · Recall '+Math.round(ret*100)+'%':'')+'<br>'):'')+(card.source_url?'<a href="'+esc(card.source_url)+'" target="_blank" rel="noopener">Open source lecture in Drive ↗</a>':'');
   const counts=ankiSessionCounts();
   document.getElementById('flashRemainNew').textContent=counts.new;
   document.getElementById('flashRemainLearn').textContent=counts.learn;
   document.getElementById('flashRemainDue').textContent=counts.due;
   const now=new Date();
   ['again','hard','good','easy'].forEach(g=>{
-    const p=ankiPreview(card,g,now),id='flash'+g[0].toUpperCase()+g.slice(1)+'Interval',el=document.getElementById(id);
-    if(el)el.textContent=p?.label||'1d';
+    const id='flash'+g[0].toUpperCase()+g.slice(1)+'Interval',el=document.getElementById(id);
+    if(!el)return;
+    if(card.__same_session_retry)el.textContent='1d';
+    else{
+      const p=ankiPreview(card,g,now);
+      el.textContent=p?.label||'1d';
+    }
   });
   flashSession.cardStartedAt=Date.now();
 }
 function ankiGrade(grade){
   const card=currentFlashCard();
   if(!card||!flashSession.revealed)return;
+
+  if(card.__same_session_retry){
+    const now=Date.now(),daily=ankiDaily();
+    const elapsedSec=Math.min(60,Math.max(0,Math.round((now-(flashSession.cardStartedAt||now))/1000)));
+    daily.totalAnswers+=1;
+    daily[grade]=(daily[grade]||0)+1;
+    daily.seconds+=elapsedSec;
+    const log=ankiReviewLog();
+    log.push({card_id:card.id,ts:now,grade,retry_confirmation:true,same_session_retry:true,scheduled_days:1,elapsed_seconds:elapsedSec,daily_only:true});
+    if(log.length>20000)log.splice(0,log.length-20000);
+    saveFlashReview();
+    flashSession.index+=1;
+    ankiRenderStats();ankiRenderStudyCard();
+    return;
+  }
+
   if(!fsrsReady||!FSRS){
     console.warn('FSRS not ready; using legacy scheduler');
     return legacyGrade(grade);
@@ -439,9 +526,12 @@ function ankiGrade(grade){
       last_reviewed:now.getTime(),
       last_grade:grade,
       scheduler:'fsrs',
-      scheduler_version:'daily-v1',
+      scheduler_version:'daily-v2',
       desired_retention:ankiConfig().desiredRetention
     };
+    if(grade==='again'&&ankiConfig().sameSessionAgain!==false){
+      flashSession.queue.push({...card,__same_session_retry:true});
+    }
     const log=ankiReviewLog();
     log.push({
       card_id:card.id,
@@ -472,7 +562,7 @@ async function ankiInitFSRS(){
     fsrsReady=!!(FSRS?.fsrs&&FSRS?.createEmptyCard&&FSRS?.Rating);
   }catch(e){fsrsLoadError=e;console.error('Could not load FSRS library',e)}
   try{
-    ankiConfig();ankiDaily();ankiMigrateReviewDatesToDaily();ankiInjectOptions();
+    ankiConfig();ankiDaily();ankiMigrateReviewDatesToDaily();ankiInjectOptions();ankiInjectKeyboardGuide();ankiSetupKeyboard();
     dueCardsForDecks=ankiQueue;
     deckCounts=ankiDeckCounts;
     renderFlashDecks=ankiRenderDecks;

@@ -656,3 +656,62 @@ body{background:var(--med-bg)!important;color:var(--med-text)!important;font-fea
     min-height:46px!important;font-size:13px!important;padding:10px 13px!important
   }
 }
+
+/* 2026-09-28 AI mobile parity + overflow fix */
+@media(max-width:700px){
+  /* AI must occupy exactly the same mobile column as Past Papers */
+  #aiSection,
+  #aiSection .aiToolbar,
+  #aiSection .aiLayout,
+  #aiSection .aiList,
+  #aiSection #aiQuestionList,
+  #aiSection .aiCard{
+    width:100%!important;
+    max-width:100%!important;
+    min-width:0!important;
+  }
+  #aiSection .aiLayout,
+  #aiSection .aiList,
+  #aiSection #aiQuestionList{overflow:visible!important}
+  #aiSection .aiCard{overflow:hidden!important}
+  #aiSection .aiMeta,
+  #aiSection .meta,
+  #aiSection .aiStem,
+  #aiSection .stem,
+  #aiSection .aiOptions,
+  #aiSection .options,
+  #aiSection .aiOption,
+  #aiSection .option{min-width:0!important;max-width:100%!important}
+  #aiSection .aiOption>span:last-child,
+  #aiSection .option>span:last-child,
+  #aiSection .sgLecturePill,
+  #aiSection .aiStem{
+    min-width:0!important;
+    overflow-wrap:anywhere!important;
+    word-break:normal!important;
+  }
+  #aiSection .aiList.list{display:flex!important;flex-direction:column!important}
+  #aiSection .qcard.aiCard{position:relative!important}
+  #aiSection .qtop.aiTop{
+    display:flex!important;
+    align-items:flex-start!important;
+    justify-content:space-between!important;
+    gap:10px!important;
+    padding-right:42px!important
+  }
+  #aiSection .reviewmark.aiStar{
+    position:absolute!important;
+    right:12px!important;
+    top:12px!important;
+    float:none!important
+  }
+  #aiSection .examQuestionNumber{
+    flex:0 0 auto!important;
+    white-space:nowrap!important
+  }
+  #aiSection .aiActions.actions{
+    display:grid!important;
+    grid-template-columns:1fr 1fr!important;
+    gap:8px!important
+  }
+}

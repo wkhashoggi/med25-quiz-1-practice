@@ -193,12 +193,67 @@ function qaLectureDropdownHtml(prefix){
   '</div>';
 }
 function qaFilterBarHtml(prefix){
-  return '<div class="qaFilterBar qaFilterBarSimple" id="'+qaIds(prefix,'Filters')+'">'+
-    '<label class="qaField"><span>Answer status</span><select id="'+qaIds(prefix,'Status')+'"><option value="all">All</option><option value="unanswered">Unanswered</option><option value="correct">Correct</option><option value="wrong">Wrong</option><option value="starred">Starred</option><option value="revealed">Revealed answer</option></select></label>'+
-    '<label class="qaField"><span>Subject</span><select id="'+qaIds(prefix,'Subject')+'"><option value="">All subjects</option></select></label>'+
-    '<div class="qaField"><span>Lecture(s)</span>'+qaLectureDropdownHtml(prefix)+'</div>'+
-    '<button class="qaClearBtn" id="'+qaIds(prefix,'Clear')+'" type="button">Clear filters</button>'+
+  return '<div class="qaFilterBar qaUnifiedFilters" id="'+qaIds(prefix,'Filters')+'">'+
+    '<div class="qaUnifiedHead"><div><b>Filters</b><span>Choose exactly what you want to practice.</span></div><button class="qaClearBtn" id="'+qaIds(prefix,'Clear')+'" type="button">Clear filters</button></div>'+
+    (prefix==='past'?'<div class="qaFilterSection qaFilterWide"><span class="qaFilterLabel">Question set</span><div class="qaFilterChoices" id="'+qaIds(prefix,'Quick')+'"></div></div>':'')+
+    '<div class="qaUnifiedGrid">'+
+      '<label class="qaField"><span>Answer status</span><select id="'+qaIds(prefix,'Status')+'"><option value="all">All</option><option value="unanswered">Unanswered</option><option value="correct">Correct</option><option value="wrong">Wrong</option><option value="starred">Starred</option><option value="revealed">Revealed answer</option></select></label>'+
+      '<label class="qaField"><span>Subject</span><select id="'+qaIds(prefix,'Subject')+'"><option value="">All subjects</option></select></label>'+
+      '<div class="qaField"><span>Lecture(s)</span>'+qaLectureDropdownHtml(prefix)+'</div>'+
+      '<div id="'+qaIds(prefix,'Legacy')+'" class="qaLegacyFilters"></div>'+
+    '</div>'+
+    '<div class="qaFilterFooter">'+
+      '<div class="qaFilterSection"><span class="qaFilterLabel">Order</span><div class="qaFilterChoices" id="'+qaIds(prefix,'Order')+'"></div></div>'+
+      '<div class="qaFilterSection"><span class="qaFilterLabel">Display</span><div class="qaFilterChoices" id="'+qaIds(prefix,'Display')+'"></div></div>'+
+      (prefix==='past'?'<div class="qaFilterSection qaFilterTools"><span class="qaFilterLabel">Progress</span><div class="qaFilterChoices" id="'+qaIds(prefix,'Tools')+'"></div></div>':'')+
+    '</div>'+
   '</div>';
+}
+function qaWrapMovedControl(el,label){
+  if(!el)return null;
+  const wrap=document.createElement('label');
+  wrap.className='qaField qaMovedField';
+  const span=document.createElement('span');span.textContent=label;
+  wrap.appendChild(span);wrap.appendChild(el);
+  return wrap;
+}
+function qaOrganizeUnifiedControls(prefix){
+  const root=document.getElementById(qaIds(prefix,'Filters'));if(!root)return;
+  const order=document.getElementById(qaIds(prefix,'Order'));
+  if(prefix==='past'){
+    const quick=document.getElementById(qaIds(prefix,'Quick'));
+    const tools=document.getElementById(qaIds(prefix,'Tools'));
+    const legacy=document.getElementById(qaIds(prefix,'Legacy'));
+    document.querySelectorAll('#questionSection .chips > .chip').forEach(btn=>{
+      if(btn.dataset.mobileFilterToggle)return;
+      if(btn.id==='shuffle'){if(order&&btn.parentElement!==order)order.appendChild(btn);return}
+      if(btn.id==='reset'){if(tools&&btn.parentElement!==tools)tools.appendChild(btn);return}
+      if(quick&&btn.parentElement!==quick)quick.appendChild(btn);
+    });
+    [['module','Module'],['bank','Question bank'],['sort','Sort by']].forEach(([id,label])=>{
+      const el=document.getElementById(id);if(!el||el.closest('.qaMovedField'))return;
+      const wrap=qaWrapMovedControl(el,label);if(wrap)legacy.appendChild(wrap);
+    });
+  }else{
+    const shuffle=document.getElementById('aiShuffle');
+    if(shuffle&&order&&shuffle.parentElement!==order)order.appendChild(shuffle);
+  }
+}
+function qaClearUnified(prefix,model){
+  model.status='all';model.subject='';model.lectures.clear();
+  const status=document.getElementById(qaIds(prefix,'Status')),subject=document.getElementById(qaIds(prefix,'Subject'));
+  if(status)status.value='all';if(subject)subject.value='';
+  if(prefix==='past'){
+    state.filter='all';state.shuffled=false;
+    ['module','bank','sort'].forEach(id=>{const el=document.getElementById(id);if(el)el.value=''});
+    document.querySelectorAll('#questionSection .chip[data-filter]').forEach(x=>x.classList.toggle('active',x.dataset.filter==='all'));
+    document.getElementById('shuffle')?.classList.remove('active');
+    resetUnansweredSnapshot();
+  }else{
+    aiState.filter='all';aiState.shuffle=false;
+    document.getElementById('aiShuffle')?.classList.remove('active');
+  }
+  qaRenderLecturePicker(prefix,model);qaApply(prefix);responsiveUpdateFilterLabels();
 }
 function qaRenderLecturePicker(prefix,model){
   const btn=document.getElementById(qaIds(prefix,'LectureBtn')),panel=document.getElementById(qaIds(prefix,'LecturePanel'));
@@ -234,19 +289,21 @@ function qaResetLegacyStatus(prefix){
 }
 function qaSetupOne(prefix,model,host){
   if(!host)return;
-  const old=document.getElementById(qaIds(prefix,'Filters'));if(old)old.remove();
-  host.insertAdjacentHTML('afterend',qaFilterBarHtml(prefix));
+  let root=document.getElementById(qaIds(prefix,'Filters'));
+  if(!root){
+    host.insertAdjacentHTML('afterend',qaFilterBarHtml(prefix));
+    root=document.getElementById(qaIds(prefix,'Filters'));
+  }
   const subject=document.getElementById(qaIds(prefix,'Subject')),status=document.getElementById(qaIds(prefix,'Status')),btn=document.getElementById(qaIds(prefix,'LectureBtn')),panel=document.getElementById(qaIds(prefix,'LecturePanel')),clear=document.getElementById(qaIds(prefix,'Clear'));
   subject.innerHTML='<option value="">All subjects</option>'+qaSubjects().map(x=>'<option value="'+esc(x)+'">'+esc(x)+'</option>').join('');
   subject.value=model.subject||'';status.value=model.status||'all';
-  status.onchange=()=>{model.status=status.value;qaResetLegacyStatus(prefix);qaApply(prefix)};
-  subject.onchange=()=>{model.subject=subject.value;model.lectures.clear();qaRenderLecturePicker(prefix,model);qaApply(prefix)};
+  status.onchange=()=>{model.status=status.value;qaResetLegacyStatus(prefix);qaApply(prefix);responsiveUpdateFilterLabels()};
+  subject.onchange=()=>{model.subject=subject.value;model.lectures.clear();qaRenderLecturePicker(prefix,model);qaApply(prefix);responsiveUpdateFilterLabels()};
   btn.onclick=e=>{e.stopPropagation();if(!btn.disabled)panel.classList.toggle('hidden')};
   panel.onclick=e=>e.stopPropagation();
-  clear.onclick=()=>{
-    model.status='all';model.subject='';model.lectures.clear();status.value='all';subject.value='';qaRenderLecturePicker(prefix,model);qaResetLegacyStatus(prefix);qaApply(prefix);
-  };
+  clear.onclick=()=>qaClearUnified(prefix,model);
   qaRenderLecturePicker(prefix,model);
+  qaOrganizeUnifiedControls(prefix);
 }
 function setupAdvancedQuestionFilters(){
   qaPastLectureCache.clear();qaAILectureCache.clear();
@@ -605,12 +662,15 @@ function responsiveFilterCount(mode){
     if(pastAdvanced.status&&pastAdvanced.status!=='all')n++;
     if(pastAdvanced.subject)n++;
     if(pastAdvanced.lectures&&pastAdvanced.lectures.size)n++;
+    if(state.filter&&state.filter!=='all')n++;
+    if(state.shuffled)n++;
     const module=document.getElementById('module'),bank=document.getElementById('bank'),sort=document.getElementById('sort');
     if(module?.value)n++;if(bank?.value)n++;if(sort?.value)n++;
   }else if(mode==='ai'){
     if(aiAdvanced.status&&aiAdvanced.status!=='all')n++;
     if(aiAdvanced.subject)n++;
     if(aiAdvanced.lectures&&aiAdvanced.lectures.size)n++;
+    if(aiState.shuffle)n++;
   }
   return n;
 }
@@ -718,6 +778,8 @@ function responsiveUpdatePager(){
 }
 function responsiveRefresh(){
   setupResponsiveFilters();
+  qaOrganizeUnifiedControls('past');
+  qaOrganizeUnifiedControls('ai');
   responsiveUpdateFilterLabels();
   responsiveUpdatePager();
 }

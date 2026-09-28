@@ -581,7 +581,7 @@ function ankiGrade(grade){
     if(log.length>20000)log.splice(0,log.length-20000);
     saveFlashReview();
     flashSession.index+=1;
-    ankiRenderStats();ankiRenderStudyCard();
+    ankiRenderStudyCard();
     return;
   }
 
@@ -634,8 +634,6 @@ function ankiGrade(grade){
     if(log.length>20000)log.splice(0,log.length-20000);
     saveFlashReview();
     flashSession.index+=1;
-    ankiRenderStats();
-    ankiRenderDecks();
     ankiRenderStudyCard();
   }catch(e){
     console.error('FSRS grade failed',e);

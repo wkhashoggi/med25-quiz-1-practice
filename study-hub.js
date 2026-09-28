@@ -742,6 +742,7 @@ setTimeout(responsiveRefresh,1200);
 
 /* 2026-09-28 MED25 Cobalt product redesign */
 const MED25_THEME_KEY='med25-theme';
+const MED25_EXAM_DATE_KEY='med25-exam-date';
 let med25ContinueTarget={mode:'questions',lectureId:'',subject:'',questionId:''};
 
 function med25ApplyTheme(theme,persist){
@@ -844,6 +845,21 @@ function med25RenderHomePolish(){
   if(greeting){
     const h=new Date().getHours();
     greeting.textContent=(h<12?'Good morning':h<18?'Good afternoon':'Good evening')+' 👋';
+  }
+  const context=document.getElementById('homeContext');
+  if(context){
+    const raw=localStorage.getItem(MED25_EXAM_DATE_KEY)||'';
+    const exam=raw?new Date(raw+'T09:00:00'):null;
+    const days=exam&&Number.isFinite(exam.getTime())?Math.ceil((exam.getTime()-Date.now())/86400000):null;
+    context.textContent=days!==null&&days>=0?('Next exam · '+(days===0?'today':days+' day'+(days===1?'':'s')+' away')):'Quiz 1 · Revision dashboard · tap to set next exam date';
+    context.classList.add('homeContextAction');
+    context.title='Tap to set or update your next exam date';
+    context.onclick=()=>{
+      const next=prompt('Next exam date (YYYY-MM-DD)',raw);
+      if(next===null)return;
+      if(/^\\d{4}-\\d{2}-\\d{2}$/.test(next)){localStorage.setItem(MED25_EXAM_DATE_KEY,next);med25RenderHomePolish()}
+      else if(next===''){localStorage.removeItem(MED25_EXAM_DATE_KEY);med25RenderHomePolish()}
+    };
   }
   const rows=lectureDashboardRows(),complete=rows.filter(r=>r.status==='complete').length;
   const overall=rows.length?Math.round(rows.reduce((sum,r)=>sum+r.completion,0)/rows.length):0;

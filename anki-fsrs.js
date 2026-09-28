@@ -319,11 +319,16 @@ function ankiInjectKeyboardGuide(){
     }
   }
   const titles={again:'1 · Again',hard:'2 · Hard',good:'3 · Good',easy:'4 · Easy'};
+  const keys={again:'1',hard:'2',good:'3',easy:'4'};
   document.querySelectorAll('#flashRatings [data-grade]').forEach(btn=>{
     btn.title=titles[btn.dataset.grade]||'';
+    if(!btn.querySelector('.ankiRateKey')){
+      const k=document.createElement('kbd');k.className='ankiRateKey';k.textContent=keys[btn.dataset.grade]||'';
+      btn.insertBefore(k,btn.firstChild);
+    }
   });
   const show=document.getElementById('flashShowAnswer');
-  if(show)show.title='Space / Enter · Show answer; after reveal = Good';
+  if(show){show.title='Space / Enter · Show answer; after reveal = Good';show.dataset.keyhint='Space'}
   const back=document.getElementById('flashBack');
   if(back)back.title='S · Back to decks';
 }

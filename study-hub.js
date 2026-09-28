@@ -1020,7 +1020,14 @@ renderAI=function(){
 
 
 /* 2026-09-28 compact mobile account shell */
+function med25MoveAuthToHome(){
+  const box=document.getElementById('authBox'),slot=document.getElementById('homeAuthSlot');
+  if(!box||!slot)return;
+  if(box.parentElement!==slot)slot.appendChild(box);
+  box.classList.add('homeAuthBox');
+}
 function med25SetupCompactMobileAuth(){
+  med25MoveAuthToHome();
   const box=document.getElementById('authBox');
   if(!box)return;
   let toggle=document.getElementById('mobileAuthToggle');
@@ -1030,7 +1037,6 @@ function med25SetupCompactMobileAuth(){
     toggle.type='button';
     toggle.className='mobileAuthToggle';
     box.insertBefore(toggle,box.firstChild);
-    box.classList.add('mobileAuthCollapsed');
     toggle.onclick=()=>{
       const collapsed=box.classList.toggle('mobileAuthCollapsed');
       toggle.setAttribute('aria-expanded',collapsed?'false':'true');
@@ -1038,14 +1044,16 @@ function med25SetupCompactMobileAuth(){
     };
   }
   const signedIn=document.getElementById('authSignedIn');
+  const syncState=()=>{
+    const isSignedIn=!!(signedIn&&signedIn.style.display!=='none');
+    box.classList.toggle('mobileAuthCollapsed',isSignedIn);
+    med25SyncMobileAuthLabel();
+  };
   if(signedIn&&!signedIn.dataset.mobileObserved){
     signedIn.dataset.mobileObserved='1';
-    new MutationObserver(()=>{
-      box.classList.add('mobileAuthCollapsed');
-      med25SyncMobileAuthLabel();
-    }).observe(signedIn,{attributes:true,attributeFilter:['style','class']});
+    new MutationObserver(syncState).observe(signedIn,{attributes:true,attributeFilter:['style','class']});
   }
-  med25SyncMobileAuthLabel();
+  syncState();
 }
 function med25SyncMobileAuthLabel(){
   const box=document.getElementById('authBox'),toggle=document.getElementById('mobileAuthToggle');
@@ -1065,7 +1073,7 @@ function med25SyncMobileAuthLabel(){
 }
 
 function med25SetupProductUI(){
-  med25SetupTheme();med25EnsureFlashFocus();med25SetupCompactMobileAuth();setupResponsiveFilters();
+  med25SetupTheme();med25EnsureFlashFocus();med25MoveAuthToHome();med25SetupCompactMobileAuth();setupResponsiveFilters();
   const mode=localStorage.getItem(HUB_SECTION_KEY)||'home';
   document.body.classList.toggle('homeMode',mode==='home');
   med25RenderHomePolish();med25EnhanceQuestionCards();responsiveRefresh();

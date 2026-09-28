@@ -5,7 +5,7 @@ try{
   if(!res.ok)throw new Error('Could not load the MED25 app (HTTP '+res.status+').');
   let html=await res.text();
 
-  html=html.replace('</head>','<link rel="stylesheet" href="study-hub.css?v=7"></head>');
+  html=html.replace('</head>','<link rel="stylesheet" href="study-hub.css?v=8"></head>');
 
   const oldTabs='<div class="studyTabs" id="studyTabs"><button class="studyTab active" id="tabQuestions" type="button">Past Papers / Practice Questions</button><button class="studyTab" id="tabFlashcards" type="button">Flashcards</button></div>';
   const newTabs='<div class="studyTabs" id="studyTabs"><button class="studyTab active" id="tabHome" type="button">Home</button><button class="studyTab" id="tabQuestions" type="button">Past Papers</button><button class="studyTab" id="tabAI" type="button">AI Questions</button><button class="studyTab" id="tabFlashcards" type="button">Flashcards</button></div>';
@@ -26,7 +26,7 @@ try{
   const close=html.lastIndexOf('</script>');
   if(close<0)throw new Error('Main application script not found.');
   const insert=close+9;
-  const extra='<script src="study-hub.js?v=12"></'+'script>\n<script src="anki-fsrs.js?v=3"></'+'script>\n<script src="live-question-stats.js?v=3"></'+'script>';
+  const extra='<script src="study-hub.js?v=13"></'+'script>\n<script src="anki-fsrs.js?v=3"></'+'script>\n<script src="live-question-stats.js?v=3"></'+'script>';
   html=html.slice(0,insert)+'\n'+extra+html.slice(insert);
 
   document.open();document.write(html);document.close();

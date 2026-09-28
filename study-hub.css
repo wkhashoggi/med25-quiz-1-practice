@@ -882,3 +882,34 @@ body{background:var(--med-bg)!important;color:var(--med-text)!important;font-fea
     width:max-content;max-width:100%;
   }
 }
+
+/* 2026-09-28 Anki keyboard + morning retry UI */
+.ankiKeyboardGuide{
+  display:flex;align-items:center;justify-content:center;gap:8px;flex-wrap:wrap;
+  padding:9px 14px;border-bottom:1px solid var(--med-line);background:var(--med-soft);
+  color:var(--med-muted);font-size:10px;font-weight:700
+}
+.ankiKeyboardGuide>span{display:inline-flex;align-items:center;gap:5px}
+.ankiShortcutLead{font-weight:900!important;color:var(--med-text)!important;margin-right:2px}
+.ankiKeyboardGuide kbd,.ankiRateKey{
+  display:inline-flex;align-items:center;justify-content:center;
+  min-width:24px;height:22px;padding:0 6px;border:1px solid var(--med-line);
+  border-bottom-width:2px;border-radius:6px;background:var(--med-card);color:var(--med-text);
+  font:800 10px/1 ui-monospace,SFMono-Regular,Menlo,monospace;box-shadow:0 1px 0 rgba(15,23,42,.05)
+}
+.ankiRate{position:relative}.ankiRateKey{position:absolute;top:6px;right:6px;min-width:22px;height:20px;font-size:9px}
+.ankiShowAnswer[data-keyhint]::after{
+  content:attr(data-keyhint);display:inline-flex;align-items:center;justify-content:center;
+  margin-left:9px;min-width:42px;height:22px;padding:0 7px;border-radius:6px;
+  background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.25);
+  font:800 9px/1 ui-monospace,SFMono-Regular,Menlo,monospace
+}
+.ankiRetryNote{
+  margin:0 0 9px;padding:8px 10px;border-radius:9px;
+  background:var(--med-amber-soft);color:var(--med-amber);font-size:10px;font-weight:800
+}
+@media(max-width:700px){
+  .ankiKeyboardGuide{display:none!important}
+  .ankiRateKey{display:none!important}
+  .ankiShowAnswer[data-keyhint]::after{display:none!important}
+}

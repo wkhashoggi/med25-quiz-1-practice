@@ -1038,9 +1038,30 @@ renderAI=function(){
 
 
 /* 2026-09-28 compact mobile account shell */
+let med25AnalyticsBusy=false;
+async function med25OpenAdminAnalytics(){
+  med25MoveGlobalOverlays();
+  const back=document.getElementById('analyticsBack');
+  const btn=document.getElementById('adminAnalyticsBtn');
+  if(!back)return;
+  back.classList.add('show');back.setAttribute('aria-hidden','false');
+  if(med25AnalyticsBusy)return;
+  med25AnalyticsBusy=true;
+  if(btn){btn.disabled=true;btn.textContent='Loading…'}
+  try{await loadAdminAnalytics()}
+  finally{
+    med25AnalyticsBusy=false;
+    if(btn){btn.disabled=false;btn.textContent='Analytics'}
+  }
+}
 function med25MoveGlobalOverlays(){
   const analytics=document.getElementById('analyticsBack');
   if(analytics&&analytics.parentElement!==document.body)document.body.appendChild(analytics);
+  const btn=document.getElementById('adminAnalyticsBtn');
+  if(btn&&!btn.dataset.med25AnalyticsBound){
+    btn.dataset.med25AnalyticsBound='1';
+    btn.onclick=med25OpenAdminAnalytics;
+  }
 }
 function med25MoveAuthToHome(){
   const box=document.getElementById('authBox'),slot=document.getElementById('homeAuthSlot');

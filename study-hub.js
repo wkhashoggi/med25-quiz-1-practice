@@ -72,7 +72,12 @@ function answerAI(id,opt){
   aiSave();trackEvent('question_answer',{question_id:id,topic:q.concept||q.lecture_title||q.subject,metadata:{correct:opt===q.answer,first_attempt:true,source:'ai_generated'}});renderAI();
 }
 function starAI(id){const p=aiProgress();p[id]={...(p[id]||{}),starred:!p[id]?.starred};aiSave();renderAI()}
-function openAISource(id){const q=aiAllQuestions().find(x=>x.id===id);if(q?.source_url)window.open(q.source_url,'_blank','noopener,noreferrer')}
+function openAISource(id){
+  const q=aiAllQuestions().find(x=>x.id===id);
+  if(!q?.source_url)return;
+  try{trackEvent('source_open',{question_id:id,topic:q.concept||q.lecture_title||q.subject,metadata:{source:'ai_generated',lecture_id:q.set_id||'',section:'ai'}})}catch{}
+  window.open(q.source_url,'_blank','noopener,noreferrer');
+}
 function copyAI(id){const q=aiAllQuestions().find(x=>x.id===id);if(!q)return;const txt=q.stem+'\n'+Object.entries(q.options||{}).map(([k,v])=>k+'. '+v).join('\n');navigator.clipboard?.writeText(txt)}
 function renderAI(){
   const host=document.getElementById('aiQuestionList');if(!host)return;

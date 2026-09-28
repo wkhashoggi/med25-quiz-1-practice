@@ -580,6 +580,7 @@ function ankiGrade(grade){
     log.push({card_id:card.id,ts:now,grade,retry_confirmation:true,same_session_retry:true,scheduled_days:1,elapsed_seconds:elapsedSec,daily_only:true});
     if(log.length>20000)log.splice(0,log.length-20000);
     saveFlashReview();
+    try{trackEvent('flashcard_review',{metadata:{grade,retry_confirmation:true,deck_ids:[...(flashSession.deckIds||[])]}})}catch{}
     flashSession.index+=1;
     ankiRenderStudyCard();
     return;
@@ -633,6 +634,7 @@ function ankiGrade(grade){
     });
     if(log.length>20000)log.splice(0,log.length-20000);
     saveFlashReview();
+    try{trackEvent('flashcard_review',{metadata:{grade,new_card:wasNew,scheduled_days:serialized.scheduled_days,deck_ids:[...(flashSession.deckIds||[])]}})}catch{}
     flashSession.index+=1;
     ankiRenderStudyCard();
   }catch(e){

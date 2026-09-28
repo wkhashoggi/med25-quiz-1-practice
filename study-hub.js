@@ -46,20 +46,19 @@ function hubHash(s){let h=7;for(let i=0;i<String(s).length;i++)h=(h*31+String(s)
 function aiCard(q){
   const p=aiProgress()[q.id]||{},answered=!!p.answered,selected=p.selected;
   const opts=Object.entries(q.options||{}).map(([k,v])=>{
-    let cls='aiOption';
+    let cls='option aiOption';
     if(answered&&k===q.answer)cls+=' correct';
     else if(answered&&selected===k&&k!==q.answer)cls+=' wrong';
     else if(selected===k)cls+=' selected';
-    return '<button class="'+cls+'" data-ai-answer="'+q.id+'" data-ai-opt="'+k+'" '+(answered?'disabled':'')+'><span class="aiLetter">'+k+'</span><span>'+esc(v)+'</span></button>';
+    return '<button class="'+cls+'" data-ai-answer="'+q.id+'" data-ai-opt="'+k+'" '+(answered?'disabled aria-disabled="true"':'')+'><span class="letter aiLetter">'+k+'</span><span>'+esc(v)+'</span></button>';
   }).join('');
-  const feedback=answered?'<div class="aiFeedback '+(p.correct?'good':'bad')+'"><b>'+(p.correct?'Correct.':'Correct answer: '+q.answer+'.')+'</b> '+esc(q.explanation||'')+'</div>':'';
-  const validation=q.source_validation==='lecture_validated'?'source':'pending';
-  const validationText=q.source_validation==='lecture_validated'?'Lecture validated':(q.source_validation==='lecture_validated_seed'?'Lecture-linked seed':'Validation pending');
-  return '<article class="aiCard" id="'+q.id+'">'+
-    '<button class="aiStar" data-ai-star="'+q.id+'" title="Star">'+(p.starred?'★':'☆')+'</button>'+
-    '<div class="aiTop"><div class="aiMeta"><span class="aiPill">'+esc(q.difficulty||'core')+'</span><span class="aiPill '+validation+'">'+validationText+'</span></div></div>'+
-    '<div class="aiStem">'+esc(q.stem)+'</div><div class="aiOptions">'+opts+'</div>'+feedback+
-    '<div class="aiActions">'+(q.source_url?'<button class="aiBtn" data-ai-source="'+q.id+'">Open source lecture ↗</button>':'')+'<button class="aiBtn" data-ai-copy="'+q.id+'">Copy question</button></div></article>';
+  const feedback=answered?'<div class="feedback show aiFeedback '+(p.correct?'correct good':'wrong bad')+'"><b>'+(p.correct?'Correct.':'Correct answer: '+q.answer+'.')+'</b> '+esc(q.explanation||'')+'</div>':'';
+  const lectureLabel=(q.subject?esc(q.subject)+' · ':'')+esc(q.lecture_title||'');
+  return '<article class="qcard aiCard" id="'+q.id+'">'+
+    '<span class="reviewmark aiStar" data-ai-star="'+q.id+'" title="Star for review">'+(p.starred?'★':'☆')+'</span>'+
+    '<div class="qtop aiTop"><div class="meta aiMeta"><span class="pill aiPill">'+esc(q.difficulty||'core')+'</span><span class="pill aiPill sgLecturePill">'+lectureLabel+'</span></div><span class="qnum examQuestionNumber">Question</span></div>'+
+    '<div class="stem aiStem">'+esc(q.stem)+'</div><div class="options aiOptions">'+opts+'</div>'+feedback+
+    '<div class="actions aiActions">'+(q.source_url?'<button class="btn aiBtn sourcebtn" data-ai-source="'+q.id+'">Open source lecture ↗</button>':'')+'<button class="btn aiBtn" data-ai-copy="'+q.id+'">Copy question</button></div></article>';
 }
 function bindAI(){
   document.querySelectorAll('[data-ai-answer]').forEach(b=>b.onclick=()=>answerAI(b.dataset.aiAnswer,b.dataset.aiOpt));
@@ -917,10 +916,8 @@ function med25EnhanceQuestionCards(){
   });
   const aiCards=Array.from(document.querySelectorAll('#aiQuestionList .aiCard'));
   aiCards.forEach((card,i)=>{
-    if(!card.querySelector('.examQuestionNumber')){
-      const n=document.createElement('div');n.className='examQuestionNumber';n.textContent='Question '+(((aiState.page-1)*aiState.pageSize)+i+1);
-      const top=card.querySelector('.aiTop');if(top)top.appendChild(n);
-    }
+    const n=card.querySelector('.examQuestionNumber');
+    if(n)n.textContent='Question '+(((aiState.page-1)*aiState.pageSize)+i+1);
     if(card.querySelector('.aiFeedback')&&!card.querySelector('.questionNextBtn')){
       const btn=document.createElement('button');btn.type='button';btn.className='questionNextBtn';btn.textContent='Next question →';btn.onclick=()=>med25ScrollToNextCard(card,'ai');card.appendChild(btn);
     }

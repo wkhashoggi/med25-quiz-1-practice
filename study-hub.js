@@ -19,7 +19,7 @@ function aiProgress(){
 function aiAllQuestions(){
   return (aiLibrary.lecture_sets||[]).filter(s=>!s.archived).flatMap(set=>(set.questions||[]).map(q=>({...q,set_id:set.id,subject:set.subject,lecture_title:set.title,source_url:set.source_url||q.source_url||'',source_validation:set.source_validation||'pending_lecture_validation'})));
 }
-function aiSave(){save();renderAIStats();renderHome()}
+function aiSave(){save();renderAIStats();med25MarkHomeDirty()}
 function aiFiltered(){
   const p=aiProgress(),query=(aiState.search||'').toLowerCase().trim();
   let qs=aiAllQuestions().filter(q=>{
@@ -120,7 +120,7 @@ async function initAIQuestions(){
   qaPastLectureCache.clear();
   const legacyTopic=document.getElementById('topic');if(legacyTopic)legacyTopic.value='';
   aiState.subject='';aiState.lecture='';
-  populateAIFilters();setupAdvancedQuestionFilters();renderAI();render();renderHome();
+  populateAIFilters();setupAdvancedQuestionFilters();if(!document.getElementById('aiSection')?.classList.contains('hidden'))renderAI();if(!document.getElementById('questionSection')?.classList.contains('hidden'))render();if(med25HomeVisible())renderHome();else med25MarkHomeDirty(false);
 }
 function setupAIControls(){
   const search=document.getElementById('aiSearch'),subject=document.getElementById('aiSubject'),lecture=document.getElementById('aiLecture');
@@ -654,10 +654,26 @@ renderAI=function(){
   hubBottomDhikr(document.getElementById('aiQuestionList'),aiState.page,aiState.pageSize);
   return out;
 };
+let med25HomeDirty=true;
+let med25HomeFrame=0;
+function med25HomeVisible(){
+  const home=document.getElementById('homeSection');
+  return !!(home&&!home.classList.contains('hidden'));
+}
+function med25MarkHomeDirty(renderIfVisible=false){
+  med25HomeDirty=true;
+  if(!renderIfVisible||!med25HomeVisible()||med25HomeFrame)return;
+  med25HomeFrame=requestAnimationFrame(()=>{
+    med25HomeFrame=0;
+    if(!med25HomeDirty||!med25HomeVisible())return;
+    med25HomeDirty=false;
+    try{renderHome()}catch(e){console.warn('Home refresh',e)}
+  });
+}
 const baseSave=save;
-save=function(){const r=baseSave.apply(this,arguments);try{renderHome()}catch{}return r};
+save=function(){const r=baseSave.apply(this,arguments);med25MarkHomeDirty(false);return r};
 const baseFlashSave=saveFlashReview;
-saveFlashReview=function(){const r=baseFlashSave.apply(this,arguments);try{renderHome()}catch{}return r};
+saveFlashReview=function(){const r=baseFlashSave.apply(this,arguments);med25MarkHomeDirty(false);return r};
 
 /* 2026-09-28 responsive usability layer */
 function responsiveFilterCount(mode){
@@ -993,6 +1009,7 @@ function med25EnhanceQuestionCards(){
 const med25BaseRenderHome=renderHome;
 renderHome=function(){
   const out=med25BaseRenderHome.apply(this,arguments);
+  med25HomeDirty=false;
   try{med25RenderHomePolish()}catch(e){console.warn('Home polish',e)}
   return out;
 };
@@ -1000,7 +1017,8 @@ const med25BaseHubSwitch=hubSwitch;
 hubSwitch=function(mode){
   const out=med25BaseHubSwitch.apply(this,arguments);
   document.body.classList.toggle('homeMode',mode==='home');
-  requestAnimationFrame(()=>{try{med25RenderHomePolish();responsiveRefresh()}catch{}});
+  if(mode==='home')med25HomeDirty=false;
+  requestAnimationFrame(()=>{try{responsiveRefresh()}catch{}});
   return out;
 };
 switchStudySection=hubSwitch;
@@ -1020,6 +1038,10 @@ renderAI=function(){
 
 
 /* 2026-09-28 compact mobile account shell */
+function med25MoveGlobalOverlays(){
+  const analytics=document.getElementById('analyticsBack');
+  if(analytics&&analytics.parentElement!==document.body)document.body.appendChild(analytics);
+}
 function med25MoveAuthToHome(){
   const box=document.getElementById('authBox'),slot=document.getElementById('homeAuthSlot');
   if(!box||!slot)return;
@@ -1046,7 +1068,7 @@ function med25SetupCompactMobileAuth(){
   const signedIn=document.getElementById('authSignedIn');
   const syncState=()=>{
     const isSignedIn=!!(signedIn&&signedIn.style.display!=='none');
-    box.classList.toggle('mobileAuthCollapsed',isSignedIn);
+    box.classList.toggle('mobileAuthCollapsed',isSignedIn&&!isAdmin());
     med25SyncMobileAuthLabel();
   };
   if(signedIn&&!signedIn.dataset.mobileObserved){
@@ -1073,16 +1095,16 @@ function med25SyncMobileAuthLabel(){
 }
 
 function med25SetupProductUI(){
-  med25SetupTheme();med25EnsureFlashFocus();med25MoveAuthToHome();med25SetupCompactMobileAuth();setupResponsiveFilters();
+  med25SetupTheme();med25EnsureFlashFocus();med25MoveGlobalOverlays();med25MoveAuthToHome();med25SetupCompactMobileAuth();setupResponsiveFilters();
   const mode=localStorage.getItem(HUB_SECTION_KEY)||'home';
   document.body.classList.toggle('homeMode',mode==='home');
-  med25RenderHomePolish();med25EnhanceQuestionCards();responsiveRefresh();
+  if(mode==='home')med25RenderHomePolish();
+  med25EnhanceQuestionCards();responsiveRefresh();
 }
 setTimeout(med25SetupProductUI,80);
-setTimeout(med25SetupProductUI,1250);
 
 
 setupAIControls();
 initAIQuestions();
-setTimeout(()=>{try{setupAdvancedQuestionFilters();renderHome();renderAIStats()}catch{}},1000);
+setTimeout(()=>{try{setupAdvancedQuestionFilters();if(med25HomeVisible())renderHome();renderAIStats()}catch{}},1000);
 })();

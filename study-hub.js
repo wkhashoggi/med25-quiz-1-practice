@@ -599,6 +599,146 @@ save=function(){const r=baseSave.apply(this,arguments);try{renderHome()}catch{}r
 const baseFlashSave=saveFlashReview;
 saveFlashReview=function(){const r=baseFlashSave.apply(this,arguments);try{renderHome()}catch{}return r};
 
+/* 2026-09-28 responsive usability layer */
+function responsiveFilterCount(mode){
+  let n=0;
+  if(mode==='past'){
+    if(pastAdvanced.status&&pastAdvanced.status!=='all')n++;
+    if(pastAdvanced.subject)n++;
+    if(pastAdvanced.lectures&&pastAdvanced.lectures.size)n++;
+    const module=document.getElementById('module'),bank=document.getElementById('bank'),sort=document.getElementById('sort');
+    if(module?.value)n++;if(bank?.value)n++;if(sort?.value)n++;
+  }else if(mode==='ai'){
+    if(aiAdvanced.status&&aiAdvanced.status!=='all')n++;
+    if(aiAdvanced.subject)n++;
+    if(aiAdvanced.lectures&&aiAdvanced.lectures.size)n++;
+  }
+  return n;
+}
+function setupResponsiveFilterToggle(sectionId,rowSelector,mode){
+  const section=document.getElementById(sectionId),row=section?.querySelector(rowSelector);
+  if(!section||!row)return;
+  let btn=row.querySelector('[data-mobile-filter-toggle="'+mode+'"]');
+  if(!btn){
+    btn=document.createElement('button');
+    btn.type='button';
+    btn.className='mobileFilterToggle';
+    btn.dataset.mobileFilterToggle=mode;
+    btn.setAttribute('aria-expanded','false');
+    section.classList.add('mobileFiltersCollapsed');
+    btn.onclick=()=>{
+      const collapsed=section.classList.toggle('mobileFiltersCollapsed');
+      btn.setAttribute('aria-expanded',collapsed?'false':'true');
+      responsiveUpdateFilterLabels();
+    };
+    row.appendChild(btn);
+  }
+}
+function responsiveUpdateFilterLabels(){
+  [['questionSection','past'],['aiSection','ai']].forEach(([sectionId,mode])=>{
+    const section=document.getElementById(sectionId);
+    const btn=section?.querySelector('[data-mobile-filter-toggle="'+mode+'"]');
+    if(!btn)return;
+    const collapsed=section.classList.contains('mobileFiltersCollapsed');
+    const count=responsiveFilterCount(mode);
+    btn.innerHTML=(collapsed?'Filters':'Hide filters')+(count?' <b>'+count+' active</b>':' <b>⌄</b>');
+    btn.setAttribute('aria-expanded',collapsed?'false':'true');
+  });
+}
+function setupResponsiveFilters(){
+  setupResponsiveFilterToggle('questionSection','.chips','past');
+  setupResponsiveFilterToggle('aiSection','.aiChips','ai');
+  responsiveUpdateFilterLabels();
+}
+function responsiveCurrentMode(){
+  if(!document.getElementById('questionSection')?.classList.contains('hidden'))return 'past';
+  if(!document.getElementById('aiSection')?.classList.contains('hidden'))return 'ai';
+  return '';
+}
+function responsivePagerData(){
+  const mode=responsiveCurrentMode();
+  if(mode==='past'){
+    const total=filtered().length,pages=Math.max(1,Math.ceil(total/state.pageSize));
+    if(state.page>pages)state.page=pages;
+    return {mode,page:state.page,pages,total};
+  }
+  if(mode==='ai'){
+    const total=aiFiltered().length,pages=Math.max(1,Math.ceil(total/aiState.pageSize));
+    if(aiState.page>pages)aiState.page=pages;
+    return {mode,page:aiState.page,pages,total};
+  }
+  return null;
+}
+function ensureResponsivePager(){
+  let nav=document.getElementById('med25MobilePager');
+  if(nav)return nav;
+  nav=document.createElement('div');
+  nav.id='med25MobilePager';
+  nav.className='med25MobilePager';
+  nav.innerHTML='<button class="mobilePrev" type="button" data-responsive-page="prev">←</button><span id="med25MobilePagerLabel">Page</span><button class="mobileNext" type="button" data-responsive-page="next">Next →</button>';
+  nav.querySelectorAll('[data-responsive-page]').forEach(btn=>btn.onclick=()=>responsivePageStep(btn.dataset.responsivePage));
+  document.body.appendChild(nav);
+  return nav;
+}
+function responsiveScrollToFirst(mode){
+  requestAnimationFrame(()=>{
+    const target=document.querySelector(mode==='past'?'#list .qcard':'#aiQuestionList .aiCard');
+    if(!target)return;
+    const tabs=document.getElementById('studyTabs');
+    const offset=(tabs?.offsetHeight||0)+10;
+    const top=target.getBoundingClientRect().top+window.scrollY-offset;
+    window.scrollTo({top:Math.max(0,top),behavior:'smooth'});
+  });
+}
+function responsivePageStep(direction){
+  const data=responsivePagerData();if(!data)return;
+  if(data.mode==='past'){
+    if(direction==='prev'&&state.page>1)state.page--;
+    if(direction==='next'&&state.page<data.pages)state.page++;
+    try{saveViewState()}catch{}
+    render();
+    responsiveScrollToFirst('past');
+  }else{
+    if(direction==='prev'&&aiState.page>1)aiState.page--;
+    if(direction==='next'&&aiState.page<data.pages)aiState.page++;
+    renderAI();
+    responsiveScrollToFirst('ai');
+  }
+}
+function responsiveUpdatePager(){
+  const nav=ensureResponsivePager(),data=responsivePagerData();
+  const show=!!data;
+  nav.classList.toggle('show',show);
+  if(!show)return;
+  const prev=nav.querySelector('[data-responsive-page="prev"]');
+  const next=nav.querySelector('[data-responsive-page="next"]');
+  const label=document.getElementById('med25MobilePagerLabel');
+  prev.disabled=data.page<=1;
+  next.disabled=data.page>=data.pages;
+  if(label)label.innerHTML='Page '+data.page+'/'+data.pages+'<br>'+data.total+' questions';
+}
+function responsiveRefresh(){
+  setupResponsiveFilters();
+  responsiveUpdateFilterLabels();
+  responsiveUpdatePager();
+}
+const responsiveBasePastRender=render;
+render=function(){
+  const out=responsiveBasePastRender.apply(this,arguments);
+  requestAnimationFrame(responsiveRefresh);
+  return out;
+};
+const responsiveBaseAIRender=renderAI;
+renderAI=function(){
+  const out=responsiveBaseAIRender.apply(this,arguments);
+  requestAnimationFrame(responsiveRefresh);
+  return out;
+};
+document.querySelectorAll('#studyTabs .studyTab').forEach(btn=>btn.addEventListener('click',()=>requestAnimationFrame(responsiveRefresh)));
+window.addEventListener('resize',()=>requestAnimationFrame(responsiveRefresh),{passive:true});
+setTimeout(responsiveRefresh,60);
+setTimeout(responsiveRefresh,1200);
+
 setupAIControls();
 initAIQuestions();
 setTimeout(()=>{try{setupAdvancedQuestionFilters();renderHome();renderAIStats()}catch{}},1000);

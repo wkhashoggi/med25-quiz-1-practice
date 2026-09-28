@@ -739,6 +739,209 @@ window.addEventListener('resize',()=>requestAnimationFrame(responsiveRefresh),{p
 setTimeout(responsiveRefresh,60);
 setTimeout(responsiveRefresh,1200);
 
+
+/* 2026-09-28 MED25 Cobalt product redesign */
+const MED25_THEME_KEY='med25-theme';
+let med25ContinueTarget={mode:'questions',lectureId:'',subject:'',questionId:''};
+
+function med25ApplyTheme(theme,persist){
+  const t=theme==='dark'?'dark':'light';
+  document.documentElement.dataset.theme=t;
+  if(persist!==false){try{localStorage.setItem(MED25_THEME_KEY,t)}catch{}}
+  document.querySelectorAll('#themeToggle,#mobileThemeToggle').forEach(btn=>{
+    btn.textContent=t==='dark'?'☀':'☾';
+    btn.title=t==='dark'?'Use light mode':'Use dark mode';
+    btn.setAttribute('aria-label',btn.title);
+  });
+}
+function med25SetupTheme(){
+  med25ApplyTheme(document.documentElement.dataset.theme||'light',false);
+  const bind=btn=>{
+    if(!btn||btn.dataset.bound)return;
+    btn.dataset.bound='1';
+    btn.onclick=()=>med25ApplyTheme(document.documentElement.dataset.theme==='dark'?'light':'dark',true);
+  };
+  bind(document.getElementById('themeToggle'));
+  if(!document.getElementById('mobileThemeToggle')){
+    const btn=document.createElement('button');
+    btn.type='button';btn.id='mobileThemeToggle';btn.className='mobileThemeToggle';btn.textContent='☾';
+    document.body.appendChild(btn);bind(btn);
+  }
+  med25ApplyTheme(document.documentElement.dataset.theme||'light',false);
+}
+
+function med25EnsureFlashFocus(){
+  const section=document.getElementById('flashcardsSection');
+  if(!section||document.getElementById('flashFocus'))return;
+  const shell=section.querySelector('.ankiShell');
+  if(!shell)return;
+  shell.insertAdjacentHTML('beforebegin','<section class="flashFocus" id="flashFocus"><div><div class="homeCardLabel">TODAY\'S REVIEW</div><h2><span id="flashFocusDue">0</span> cards due</h2><p id="flashFocusMeta">Your spaced-repetition queue is loading.</p></div><button class="flashFocusBtn" id="flashFocusStudy" type="button">Study due cards →</button></section>');
+}
+
+function med25LatestActivity(){
+  let best=null;
+  const consider=item=>{if(!best||item.ts>best.ts)best=item};
+  QUESTIONS.forEach(q=>{
+    const p=saved[q.id]||{},ts=Date.parse(p.locked_at||p.answered_at||'')||0;
+    if(!ts)return;
+    const g=sgQuestionLecture('past',q);
+    consider({mode:'questions',ts,questionId:q.id,lectureId:g.lecture_id,subject:g.subject,title:g.title||q.topic||'Past Papers'});
+  });
+  const ap=aiProgress();
+  aiAllQuestions().forEach(q=>{
+    const p=ap[q.id]||{},ts=Date.parse(p.locked_at||p.answered_at||'')||0;
+    if(!ts)return;
+    const g=sgQuestionLecture('ai',q);
+    consider({mode:'ai',ts,questionId:q.id,lectureId:g.lecture_id,subject:g.subject,title:g.title||q.lecture_title||'AI Questions'});
+  });
+  try{
+    for(const d of (flashLibrary.decks||[])){
+      for(const c of (d.cards||[])){
+        const r=cardReview(c.id),ts=Number(r&&r.last_reviewed||0);
+        if(ts)consider({mode:'flashcards',ts,deckId:d.id,subject:d.subject||'',title:d.title||'Flashcards'});
+      }
+    }
+  }catch{}
+  if(best)return best;
+  const rows=lectureDashboardRows();
+  const first=rows.find(r=>r.status!=='complete')||rows[0];
+  return first?{mode:'questions',ts:0,lectureId:first.id,subject:first.subject,title:first.title}:{mode:'questions',ts:0,title:'Past Papers'};
+}
+function med25ContinueProgress(target){
+  if(target&&target.lectureId){
+    const r=lectureDashboardRows().find(x=>x.id===target.lectureId);
+    if(r)return {pct:r.questionCoverage||0,meta:(r.questionDone||0)+'/'+(r.questionTotal||0)+' questions completed'};
+  }
+  if(target&&target.mode==='flashcards'){
+    const fl=homeFlashMetrics();
+    return {pct:fl.total?Math.round(fl.seen/fl.total*100):0,meta:fl.due+' cards due now'};
+  }
+  const pp=homePastMetrics();
+  return {pct:pp.total?Math.round(pp.done/pp.total*100):0,meta:pp.done+'/'+pp.total+' past-paper questions attempted'};
+}
+function med25Continue(){
+  const t=med25ContinueTarget||{mode:'questions'};
+  if(t.mode==='flashcards'){
+    hubSwitch('flashcards');
+    setTimeout(()=>document.getElementById('flashStudyAll')&&document.getElementById('flashStudyAll').click(),80);
+    return;
+  }
+  if(t.mode==='ai'){
+    aiAdvanced.status='all';aiAdvanced.subject=t.subject||'';aiAdvanced.lectures=new Set(t.lectureId?[t.lectureId]:[]);
+    aiState.page=1;hubSwitch('ai');setupAdvancedQuestionFilters();renderAI();
+    setTimeout(()=>responsiveScrollToFirst('ai'),100);
+  }else{
+    pastAdvanced.status='all';pastAdvanced.subject=t.subject||'';pastAdvanced.lectures=new Set(t.lectureId?[t.lectureId]:[]);
+    state.page=1;hubSwitch('questions');setupAdvancedQuestionFilters();render();
+    setTimeout(()=>responsiveScrollToFirst('past'),100);
+  }
+}
+window.med25Continue=med25Continue;
+
+function med25RenderHomePolish(){
+  med25EnsureFlashFocus();
+  const greeting=document.getElementById('homeGreeting');
+  if(greeting){
+    const h=new Date().getHours();
+    greeting.textContent=(h<12?'Good morning':h<18?'Good afternoon':'Good evening')+' 👋';
+  }
+  const rows=lectureDashboardRows(),complete=rows.filter(r=>r.status==='complete').length;
+  const overall=rows.length?Math.round(rows.reduce((sum,r)=>sum+r.completion,0)/rows.length):0;
+  const v=document.getElementById('homeOverallValue'),m=document.getElementById('homeOverallMeta'),bar=document.getElementById('homeOverallBar');
+  if(v)v.textContent=overall+'%';
+  if(m)m.textContent=complete+'/'+rows.length+' lectures fully complete';
+  if(bar)bar.style.width=overall+'%';
+
+  const pp=homePastMetrics(),ai=homeAIMetrics(),fl=homeFlashMetrics();
+  const totalQ=pp.total+ai.total,doneQ=pp.done+ai.done,left=Math.max(0,totalQ-doneQ),incomplete=Math.max(0,rows.length-complete);
+  const metrics=document.getElementById('homeMetrics');
+  if(metrics)metrics.innerHTML=
+    '<button class="hubCard hubMetric homeMetricButton" type="button" onclick="hubGo(\'flashcards\')"><span class="homeMetricIcon">▱</span><b>'+fl.due+'</b><span>flashcards due today</span><div class="hubBar"><span style="width:'+(fl.total?fl.seen/fl.total*100:0)+'%"></span></div></button>'+
+    '<button class="hubCard hubMetric homeMetricButton" type="button" onclick="hubGo(\'questions\')"><span class="homeMetricIcon">▤</span><b>'+left+'</b><span>questions remaining</span><div class="hubBar"><span style="width:'+(totalQ?doneQ/totalQ*100:0)+'%"></span></div></button>'+
+    '<button class="hubCard hubMetric homeMetricButton" type="button" onclick="document.querySelector(\'.lectureDashboardCard\')&&document.querySelector(\'.lectureDashboardCard\').scrollIntoView({behavior:\'smooth\'})"><span class="homeMetricIcon">✓</span><b>'+incomplete+'</b><span>lectures not fully complete</span><div class="hubBar"><span style="width:'+(rows.length?complete/rows.length*100:0)+'%"></span></div></button>';
+
+  med25ContinueTarget=med25LatestActivity();
+  const cp=med25ContinueProgress(med25ContinueTarget);
+  const kicker=document.getElementById('homeContinueEyebrow'),title=document.getElementById('homeContinueTitle'),meta=document.getElementById('homeContinueMeta'),cbar=document.getElementById('homeContinueBar'),btn=document.getElementById('homeContinueBtn');
+  if(kicker)kicker.textContent=med25ContinueTarget.mode==='flashcards'?'CONTINUE REVIEWING':'CONTINUE STUDYING';
+  if(title)title.textContent=med25ContinueTarget.title||'Continue studying';
+  if(meta)meta.textContent=(med25ContinueTarget.subject?med25ContinueTarget.subject+' · ':'')+cp.meta;
+  if(cbar)cbar.style.width=Math.max(4,Math.min(100,cp.pct||0))+'%';
+  if(btn){btn.textContent=med25ContinueTarget.mode==='flashcards'?'Review due cards →':'Continue →';btn.onclick=med25Continue}
+
+  const fd=document.getElementById('flashFocusDue'),fm=document.getElementById('flashFocusMeta'),fs=document.getElementById('flashFocusStudy');
+  if(fd)fd.textContent=fl.due;
+  if(fm)fm.textContent=fl.due?('You have '+fl.due+' reviews waiting. '+fl.seen+' of '+fl.total+' cards have been seen at least once.'):'You are caught up for now. New reviews will appear automatically when they are due.';
+  if(fs){fs.disabled=!fl.due;fs.textContent=fl.due?'Study due cards →':'All caught up ✓';fs.onclick=()=>document.getElementById('flashStudyAll')&&document.getElementById('flashStudyAll').click()}
+}
+
+function med25ScrollToNextCard(card,kind){
+  const list=Array.from(document.querySelectorAll(kind==='ai'?'.aiCard':'.qcard'));
+  const i=list.indexOf(card),next=list[i+1];
+  if(next){next.scrollIntoView({behavior:'smooth',block:'start'});return}
+  const pageBtn=document.querySelector(kind==='ai'?'[data-ai-page="next"]:not([disabled])':'[data-page="next"]:not([disabled])');
+  if(pageBtn)pageBtn.click();
+}
+function med25EnhanceQuestionCards(){
+  const pastCards=Array.from(document.querySelectorAll('#list .qcard'));
+  pastCards.forEach((card,i)=>{
+    const qnum=card.querySelector('.qnum');
+    if(qnum&&!qnum.dataset.original){qnum.dataset.original=qnum.textContent;qnum.title=qnum.textContent}
+    if(qnum)qnum.textContent='Question '+(((state.page-1)*state.pageSize)+i+1);
+    if(card.querySelector('.feedback.show')&&!card.querySelector('.questionNextBtn')){
+      const btn=document.createElement('button');btn.type='button';btn.className='questionNextBtn';btn.textContent='Next question →';btn.onclick=()=>med25ScrollToNextCard(card,'past');card.appendChild(btn);
+    }
+  });
+  const aiCards=Array.from(document.querySelectorAll('#aiQuestionList .aiCard'));
+  aiCards.forEach((card,i)=>{
+    if(!card.querySelector('.examQuestionNumber')){
+      const n=document.createElement('div');n.className='examQuestionNumber';n.textContent='Question '+(((aiState.page-1)*aiState.pageSize)+i+1);
+      const top=card.querySelector('.aiTop');if(top)top.appendChild(n);
+    }
+    if(card.querySelector('.aiFeedback')&&!card.querySelector('.questionNextBtn')){
+      const btn=document.createElement('button');btn.type='button';btn.className='questionNextBtn';btn.textContent='Next question →';btn.onclick=()=>med25ScrollToNextCard(card,'ai');card.appendChild(btn);
+    }
+  });
+}
+
+const med25BaseRenderHome=renderHome;
+renderHome=function(){
+  const out=med25BaseRenderHome.apply(this,arguments);
+  try{med25RenderHomePolish()}catch(e){console.warn('Home polish',e)}
+  return out;
+};
+const med25BaseHubSwitch=hubSwitch;
+hubSwitch=function(mode){
+  const out=med25BaseHubSwitch.apply(this,arguments);
+  document.body.classList.toggle('homeMode',mode==='home');
+  requestAnimationFrame(()=>{try{med25RenderHomePolish();responsiveRefresh()}catch{}});
+  return out;
+};
+switchStudySection=hubSwitch;
+
+const med25EnhancePastRender=render;
+render=function(){
+  const out=med25EnhancePastRender.apply(this,arguments);
+  requestAnimationFrame(()=>{try{med25EnhanceQuestionCards();responsiveUpdateFilterLabels();responsiveUpdatePager()}catch{}});
+  return out;
+};
+const med25EnhanceAIRender=renderAI;
+renderAI=function(){
+  const out=med25EnhanceAIRender.apply(this,arguments);
+  requestAnimationFrame(()=>{try{med25EnhanceQuestionCards();responsiveUpdateFilterLabels();responsiveUpdatePager()}catch{}});
+  return out;
+};
+
+function med25SetupProductUI(){
+  med25SetupTheme();med25EnsureFlashFocus();setupResponsiveFilters();
+  const mode=localStorage.getItem(HUB_SECTION_KEY)||'home';
+  document.body.classList.toggle('homeMode',mode==='home');
+  med25RenderHomePolish();med25EnhanceQuestionCards();responsiveRefresh();
+}
+setTimeout(med25SetupProductUI,80);
+setTimeout(med25SetupProductUI,1250);
+
+
 setupAIControls();
 initAIQuestions();
 setTimeout(()=>{try{setupAdvancedQuestionFilters();renderHome();renderAIStats()}catch{}},1000);

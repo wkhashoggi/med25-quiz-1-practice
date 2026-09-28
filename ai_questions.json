@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-27T12:51:44.966Z",
+  "generated_at": "2026-09-28T08:24:53.923Z",
   "source_root": {
     "id": "1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
     "url": "https://drive.google.com/drive/folders/1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
@@ -8,21 +8,31 @@
   },
   "source_policy": {
     "population": "Male",
-    "include": "Official/doctor lecture slides only",
+    "include": "Only official/doctor lecture material that matches an official Study Guide topic taught as Interactive lecture, Flipped class, or Online lecture.",
     "exclude": [
-      "Test bank",
+      "SPP",
+      "Student-Prepared Presentation",
+      "Practical",
+      "CBD",
+      "PBL",
+      "Covered in PBL",
+      "Online Tutorial",
+      "Tutorial",
+      "Test bank as content source",
       "Practice AI",
-      "AI practices",
       "Summary",
       "Edited slides",
-      "Existing Flashcards folders",
-      "Lab",
-      "Tutorial",
-      "PBL",
-      "Practical",
       "Recordings"
     ],
-    "generation": "Lecture-derived concise medical flashcards; emphasize core mechanisms, relationships, clinical application, and exam-relevant understanding rather than trivia."
+    "generation": "Lecture-derived concise medical flashcards; emphasize core mechanisms, relationships, clinical application, and exam-relevant understanding rather than trivia.",
+    "allowed_teaching_methods": [
+      "Interactive lecture",
+      "Flipped class",
+      "Online lecture"
+    ],
+    "default_eligibility": "deny",
+    "objectives_source": "Study Guide- Circulation and Breathing module- 2026-2027.pdf",
+    "style_reference": "MED25 Past Papers + coordinator formative on this website"
   },
   "generation_policy": {
     "target_per_lecture": "15–25 KAU-style 4-option SBA MCQs after lecture validation",
@@ -37,6 +47,15 @@
       "Keep question difficulty similar to the existing past-paper/formative bank rather than USMLE-length vignettes",
       "Do not copy past-paper questions verbatim; imitate style and level only",
       "Remain strictly grounded in the corresponding official lecture"
+    ],
+    "objective_alignment": "Every lecture set must cover the official lecture learning objectives; prioritize objectives and exam-relevant mechanisms rather than slide trivia.",
+    "quality_gate": [
+      "Exactly 4 options with one unambiguously best answer.",
+      "Question wording and length should resemble the MED25 test bank/formative rather than long USMLE vignettes.",
+      "Use plausible same-domain distractors based on common confusions; never recycle unrelated flashcard answers as distractors.",
+      "Mix direct high-yield recall with mechanism/relationship and short application questions when supported by the lecture objectives.",
+      "Do not ask facts outside the official lecture even if medically correct.",
+      "No SPP, practical, CBD, PBL, covered-in-PBL, tutorial, or other non-eligible teaching-method content."
     ]
   },
   "lecture_sets": [
@@ -186,7 +205,9 @@
           "source_card_id": "1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV-c08",
           "style_profile": "KAU-past-paper-inspired"
         }
-      ]
+      ],
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
     },
     {
       "id": "ai_set_1akREae-VDZN_QNeQlrnBruB1ML_EVnFr",
@@ -334,7 +355,9 @@
           "source_card_id": "1akREae-VDZN_QNeQlrnBruB1ML_EVnFr-c08",
           "style_profile": "KAU-past-paper-inspired"
         }
-      ]
+      ],
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
     },
     {
       "id": "ai_set_1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b",
@@ -482,7 +505,9 @@
           "source_card_id": "1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b-c08",
           "style_profile": "KAU-past-paper-inspired"
         }
-      ]
+      ],
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
     },
     {
       "id": "ai_set_1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo",
@@ -630,7 +655,9 @@
           "source_card_id": "1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo-c08",
           "style_profile": "KAU-past-paper-inspired"
         }
-      ]
+      ],
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
     },
     {
       "id": "ai_set_16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x",
@@ -778,7 +805,9 @@
           "source_card_id": "16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x-c08",
           "style_profile": "KAU-past-paper-inspired"
         }
-      ]
+      ],
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
     },
     {
       "id": "ai_set_1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX",
@@ -926,7 +955,9 @@
           "source_card_id": "1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX-c08",
           "style_profile": "KAU-past-paper-inspired"
         }
-      ]
+      ],
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
     },
     {
       "id": "ai_set_1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9",
@@ -1074,7 +1105,9 @@
           "source_card_id": "1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9-c08",
           "style_profile": "KAU-past-paper-inspired"
         }
-      ]
+      ],
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
     },
     {
       "id": "ai_set_1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg",
@@ -1222,7 +1255,9 @@
           "source_card_id": "1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg-c08",
           "style_profile": "KAU-past-paper-inspired"
         }
-      ]
+      ],
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
     },
     {
       "id": "ai_set_13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0",
@@ -1370,7 +1405,9 @@
           "source_card_id": "13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0-c08",
           "style_profile": "KAU-past-paper-inspired"
         }
-      ]
+      ],
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
     },
     {
       "id": "ai_set_1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2",
@@ -1518,7 +1555,9 @@
           "source_card_id": "1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2-c08",
           "style_profile": "KAU-past-paper-inspired"
         }
-      ]
+      ],
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
     },
     {
       "id": "ai_set_1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS",
@@ -1666,7 +1705,9 @@
           "source_card_id": "1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS-c08",
           "style_profile": "KAU-past-paper-inspired"
         }
-      ]
+      ],
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
     },
     {
       "id": "ai_set_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK",
@@ -1918,7 +1959,9 @@
           "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
           "style_profile": "KAU-past-paper-inspired"
         }
-      ]
+      ],
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
     },
     {
       "id": "ai_set_1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn",
@@ -2066,7 +2109,9 @@
           "source_card_id": "1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn-c08",
           "style_profile": "KAU-past-paper-inspired"
         }
-      ]
+      ],
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
     },
     {
       "id": "ai_set_14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn",
@@ -2214,7 +2259,9 @@
           "source_card_id": "14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn-c08",
           "style_profile": "KAU-past-paper-inspired"
         }
-      ]
+      ],
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
     },
     {
       "id": "ai_set_1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov",
@@ -2362,7 +2409,9 @@
           "source_card_id": "1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov-c08",
           "style_profile": "KAU-past-paper-inspired"
         }
-      ]
+      ],
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
     },
     {
       "id": "ai_set_1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs",
@@ -2510,7 +2559,9 @@
           "source_card_id": "1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs-c08",
           "style_profile": "KAU-past-paper-inspired"
         }
-      ]
+      ],
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
     },
     {
       "id": "ai_set_1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj",
@@ -2658,7 +2709,9 @@
           "source_card_id": "1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj-c08",
           "style_profile": "KAU-past-paper-inspired"
         }
-      ]
+      ],
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
     },
     {
       "id": "ai_set_1jODBvDorJgQ42QRYX75ODeTVk6Lr3lLe",
@@ -2806,7 +2859,9 @@
           "source_card_id": "1jODBvDorJgQ42QRYX75ODeTVk6Lr3lLe-c08",
           "style_profile": "KAU-past-paper-inspired"
         }
-      ]
+      ],
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
     },
     {
       "id": "ai_set_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6",
@@ -2954,7 +3009,9 @@
           "source_card_id": "1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6-c08",
           "style_profile": "KAU-past-paper-inspired"
         }
-      ]
+      ],
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
     },
     {
       "id": "ai_set_1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0",
@@ -3102,7 +3159,9 @@
           "source_card_id": "1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0-c08",
           "style_profile": "KAU-past-paper-inspired"
         }
-      ]
+      ],
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
     },
     {
       "id": "ai_set_12RXyb80ciEfihQ-258N_uk1EwrjTTI83",
@@ -3250,7 +3309,9 @@
           "source_card_id": "12RXyb80ciEfihQ-258N_uk1EwrjTTI83-c08",
           "style_profile": "KAU-past-paper-inspired"
         }
-      ]
+      ],
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
     },
     {
       "id": "ai_set_1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31",
@@ -3398,7 +3459,9 @@
           "source_card_id": "1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31-c08",
           "style_profile": "KAU-past-paper-inspired"
         }
-      ]
+      ],
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
     },
     {
       "id": "ai_set_10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh",
@@ -3546,7 +3609,9 @@
           "source_card_id": "10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh-c08",
           "style_profile": "KAU-past-paper-inspired"
         }
-      ]
+      ],
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
     },
     {
       "id": "ai_set_1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR",
@@ -3694,7 +3759,9 @@
           "source_card_id": "1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR-c08",
           "style_profile": "KAU-past-paper-inspired"
         }
-      ]
+      ],
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
     },
     {
       "id": "ai_set_1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9",
@@ -3842,7 +3909,9 @@
           "source_card_id": "1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9-c08",
           "style_profile": "KAU-past-paper-inspired"
         }
-      ]
+      ],
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
     },
     {
       "id": "ai_set_1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV",
@@ -3990,7 +4059,9 @@
           "source_card_id": "1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV-c08",
           "style_profile": "KAU-past-paper-inspired"
         }
-      ]
+      ],
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
     },
     {
       "id": "ai_set_1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp",
@@ -4138,7 +4209,9 @@
           "source_card_id": "1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp-c08",
           "style_profile": "KAU-past-paper-inspired"
         }
-      ]
+      ],
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
     },
     {
       "id": "ai_set_1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ",
@@ -4286,7 +4359,9 @@
           "source_card_id": "1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ-c08",
           "style_profile": "KAU-past-paper-inspired"
         }
-      ]
+      ],
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
     },
     {
       "id": "ai_set_1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp",
@@ -4434,7 +4509,9 @@
           "source_card_id": "1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp-c08",
           "style_profile": "KAU-past-paper-inspired"
         }
-      ]
+      ],
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
     },
     {
       "id": "ai_set_1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d",
@@ -4582,7 +4659,9 @@
           "source_card_id": "1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d-c08",
           "style_profile": "KAU-past-paper-inspired"
         }
-      ]
+      ],
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
     },
     {
       "id": "ai_set_14vfFkvXZlceusubx4H2RN-ttsGLXdkbj",
@@ -4730,7 +4809,9 @@
           "source_card_id": "14vfFkvXZlceusubx4H2RN-ttsGLXdkbj-c08",
           "style_profile": "KAU-past-paper-inspired"
         }
-      ]
+      ],
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
     },
     {
       "id": "ai_set_11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI",
@@ -4878,7 +4959,9 @@
           "source_card_id": "11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI-c08",
           "style_profile": "KAU-past-paper-inspired"
         }
-      ]
+      ],
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
     },
     {
       "id": "ai_set_1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8",
@@ -5026,7 +5109,9 @@
           "source_card_id": "1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8-c08",
           "style_profile": "KAU-past-paper-inspired"
         }
-      ]
+      ],
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
     },
     {
       "id": "ai_set_1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc",
@@ -5174,7 +5259,9 @@
           "source_card_id": "1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc-c08",
           "style_profile": "KAU-past-paper-inspired"
         }
-      ]
+      ],
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
     },
     {
       "id": "ai_set_1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92",
@@ -5322,7 +5409,9 @@
           "source_card_id": "1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92-c08",
           "style_profile": "KAU-past-paper-inspired"
         }
-      ]
+      ],
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
     },
     {
       "id": "ai_set_1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG",
@@ -5470,7 +5559,9 @@
           "source_card_id": "1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG-c08",
           "style_profile": "KAU-past-paper-inspired"
         }
-      ]
+      ],
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
     },
     {
       "id": "ai_set_11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP",
@@ -5618,7 +5709,9 @@
           "source_card_id": "11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP-c08",
           "style_profile": "KAU-past-paper-inspired"
         }
-      ]
+      ],
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
     },
     {
       "id": "ai_set_1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY",
@@ -5628,7 +5721,7 @@
       "source_url": "https://drive.google.com/file/d/1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY/view?usp=drivesdk",
       "source_modified_time": "2026-09-02T12:56:38.863Z",
       "source_validation": "pending_lecture_validation",
-      "archived": false,
+      "archived": true,
       "questions": [
         {
           "id": "ai_1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY_01",
@@ -5766,7 +5859,10 @@
           "source_card_id": "1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY-c08",
           "style_profile": "KAU-past-paper-inspired"
         }
-      ]
+      ],
+      "eligibility_status": "excluded",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
+      "exclusion_reason": "Excluded: Treatment of anemia is SPP2 in the official 2026-2027 module map."
     },
     {
       "id": "ai_set_1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D",
@@ -5914,7 +6010,9 @@
           "source_card_id": "1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D-c08",
           "style_profile": "KAU-past-paper-inspired"
         }
-      ]
+      ],
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
     },
     {
       "id": "ai_set_1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO",
@@ -6062,7 +6160,9 @@
           "source_card_id": "1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO-c08",
           "style_profile": "KAU-past-paper-inspired"
         }
-      ]
+      ],
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
     },
     {
       "id": "ai_set_1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ",
@@ -6072,7 +6172,7 @@
       "source_url": "https://drive.google.com/file/d/1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ/view?usp=drivesdk",
       "source_modified_time": "2026-09-13T06:08:53.063Z",
       "source_validation": "pending_lecture_validation",
-      "archived": false,
+      "archived": true,
       "questions": [
         {
           "id": "ai_1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ_01",
@@ -6210,7 +6310,10 @@
           "source_card_id": "1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ-c08",
           "style_profile": "KAU-past-paper-inspired"
         }
-      ]
+      ],
+      "eligibility_status": "excluded",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
+      "exclusion_reason": "Excluded: Radiological Anatomy of the heart and its great vessels is SPP5 in the official 2026-2027 module map."
     },
     {
       "id": "ai_set_1N29pF27p1UfkP79gdlrUFW-5WiTtgnEC",
@@ -6358,7 +6461,9 @@
           "source_card_id": "1N29pF27p1UfkP79gdlrUFW-5WiTtgnEC-c08",
           "style_profile": "KAU-past-paper-inspired"
         }
-      ]
+      ],
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
     },
     {
       "id": "ai_set_1wsoTpxTw6_QhMHqxYdLuxwHOvwXokQV5",
@@ -6506,7 +6611,9 @@
           "source_card_id": "1wsoTpxTw6_QhMHqxYdLuxwHOvwXokQV5-c08",
           "style_profile": "KAU-past-paper-inspired"
         }
-      ]
+      ],
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
     },
     {
       "id": "ai_set_1NCRD8jp124VR1jxrnCxtoTaJRJMtkx4w",
@@ -6654,7 +6761,9 @@
           "source_card_id": "1NCRD8jp124VR1jxrnCxtoTaJRJMtkx4w-c08",
           "style_profile": "KAU-past-paper-inspired"
         }
-      ]
+      ],
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
     },
     {
       "id": "ai_set_1tktL6El76XzdSl3H9meqCkgYArLLaty7",
@@ -6802,7 +6911,9 @@
           "source_card_id": "1tktL6El76XzdSl3H9meqCkgYArLLaty7-c08",
           "style_profile": "KAU-past-paper-inspired"
         }
-      ]
+      ],
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
     },
     {
       "id": "ai_set_1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC",
@@ -6950,7 +7061,9 @@
           "source_card_id": "1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC-c08",
           "style_profile": "KAU-past-paper-inspired"
         }
-      ]
+      ],
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
     },
     {
       "id": "ai_set_1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM",
@@ -7098,7 +7211,9 @@
           "source_card_id": "1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM-c08",
           "style_profile": "KAU-past-paper-inspired"
         }
-      ]
+      ],
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
     }
   ]
 }

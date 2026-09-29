@@ -227,6 +227,37 @@ function ankiSelectedCards(deckIds){
     .filter(d=>ids.has(d.id)&&!d.archived&&!ankiDeckSuspended(d.id))
     .flatMap(d=>(d.cards||[]).map(c=>({...c,deck_id:d.id,deck_title:d.title,subject:d.subject,source_url:d.source_url||c.source_url||''})));
 }
+let ankiShuffleNextSession=false;
+function ankiShuffleArray(items){
+  const out=[...items];
+  for(let i=out.length-1;i>0;i--){
+    const j=Math.floor(Math.random()*(i+1));
+    [out[i],out[j]]=[out[j],out[i]];
+  }
+  return out;
+}
+function ankiUpdateShuffleButton(message=''){
+  const btn=document.getElementById('ankiShuffleBtn');if(!btn)return;
+  const active=ankiShuffleNextSession;
+  btn.classList.toggle('active',active);
+  btn.setAttribute('aria-pressed',active?'true':'false');
+  btn.innerHTML=message||('<span aria-hidden="true">⇄</span><b>'+(active?'Shuffle on':'Shuffle')+'</b>');
+  btn.title=active?'Next flashcard session will be shuffled':'Shuffle the next session or the remaining cards';
+}
+function ankiShuffleCards(){
+  const study=document.getElementById('flashStudy');
+  const studying=!!(study&&!study.classList.contains('hidden')&&flashSession.started&&flashSession.queue?.length);
+  if(studying){
+    const before=flashSession.queue.slice(0,flashSession.index+1);
+    const remaining=ankiShuffleArray(flashSession.queue.slice(flashSession.index+1));
+    flashSession.queue=[...before,...remaining];
+    ankiUpdateShuffleButton('<span aria-hidden="true">✓</span><b>Shuffled</b>');
+    setTimeout(()=>ankiUpdateShuffleButton(),1100);
+    return;
+  }
+  ankiShuffleNextSession=!ankiShuffleNextSession;
+  ankiUpdateShuffleButton();
+}
 function ankiQueue(deckIds){
   const now=Date.now(),limits=ankiRemainingLimits(),due=[],fresh=[];
   for(const card of ankiSelectedCards(deckIds)){
@@ -270,6 +301,15 @@ function ankiInjectOptions(){
     info.setAttribute('aria-label','How MED25 flashcards work');
     info.onclick=ankiOpenInfo;
     bar.prepend(info);
+  }
+  if(bar&&!document.getElementById('ankiShuffleBtn')){
+    const sh=document.createElement('button');
+    sh.id='ankiShuffleBtn';sh.className='ankiBtn ankiShuffleBtn';sh.type='button';
+    sh.innerHTML='<span aria-hidden="true">⇄</span><b>Shuffle</b>';
+    sh.setAttribute('aria-pressed','false');
+    sh.onclick=ankiShuffleCards;
+    bar.prepend(sh);
+    ankiUpdateShuffleButton();
   }
   if(bar&&!document.getElementById('ankiOptionsBtn')){
     const b=document.createElement('button');b.id='ankiOptionsBtn';b.className='ankiBtn';b.type='button';b.textContent='Options';b.onclick=ankiToggleOptions;bar.prepend(b);
@@ -515,7 +555,12 @@ function ankiRenderDecks(){
   });
 }
 function ankiStart(deckIds){
-  const queue=ankiQueue(deckIds);
+  let queue=ankiQueue(deckIds);
+  if(ankiShuffleNextSession&&queue.length>1){
+    queue=ankiShuffleArray(queue);
+    ankiShuffleNextSession=false;
+    ankiUpdateShuffleButton();
+  }
   if(!queue.length){ankiShowCongrats(deckIds);return}
   const decks=(flashLibrary.decks||[]).filter(d=>deckIds.includes(d.id));
   flashSession={deckIds:[...deckIds],queue,index:0,revealed:false,currentDeckLabel:deckIds.length===1?(decks[0]?.title||'Deck'):'All decks',started:true};

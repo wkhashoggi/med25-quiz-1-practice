@@ -1,13 +1,9 @@
 {
   "version": 1,
-  "updated_at": "2026-09-28T08:25:23.024Z",
+  "updated_at": "2026-09-29T15:46:41.578Z",
   "study_guide": {
     "title": "Study Guide- Circulation and Breathing module- 2026-2027.pdf",
     "drive_file_id": "1QwRNlO6-zuOQugxyjrhXykOW-YjVtal4"
-  },
-  "drive_root": {
-    "title": "MED25 Circulation & Breathing",
-    "folder_id": "1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H"
   },
   "test_bank_reference": {
     "folder_id": "1haM0X8qSt7Ww7ng6Z9nijToACDI9jprth-",
@@ -84,13 +80,32 @@
     "local_time": "13:00",
     "timezone": "Asia/Riyadh",
     "actions": [
-      "Scan the official Drive for new or modified lecture files.",
+      "Scan both official Male and Female lecture folders plus the organized MED25 root for new or modified files.",
+      "Pool Male and Female sources by lecture concept; if either contains an eligible lecture, it is available for generation.",
       "Match each candidate to the Study Guide topic and teaching method.",
       "Ignore non-eligible methods.",
       "For new/modified eligible lectures, generate or refresh AI questions and flashcards using the official objectives.",
+      "Audit existing eligible AI sets for MED25/test-bank-like quality and rebuild weak flashcard-like question sets.",
       "Add useful lecture images to flashcards when appropriate.",
-      "Validate JSON, question quality and eligibility before publishing.",
+      "Validate JSON, mappings, question quality and eligibility before publishing.",
       "Deploy the updated website only when content changed."
     ]
+  },
+  "drive_sources": {
+    "pooled_official_sources": [
+      {
+        "label": "Male",
+        "folder_id": "1TjCFnpHLfcgQqeYqeAlsfQPkktZSXcBR"
+      },
+      {
+        "label": "Female",
+        "folder_id": "1qELICF1pFL6pQzzOsCpqlY_mMCJdoSWG"
+      }
+    ],
+    "organized_root": {
+      "label": "MED25 Circulation & Breathing",
+      "folder_id": "1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H"
+    },
+    "selection_rule": "Treat Male and Female as one pooled source. Use whichever eligible official lecture version is available/clearest/latest; never exclude a lecture merely because it is only in Female, and never publish duplicate sets for the same lecture concept."
   }
 }

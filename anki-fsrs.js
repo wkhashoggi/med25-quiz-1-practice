@@ -230,27 +230,49 @@ function ankiSelectedCards(deckIds){
 let ankiShuffleNextSession=false;
 function ankiShuffleArray(items){
   const out=[...items];
+  const randomIndex=max=>{
+    try{
+      if(globalThis.crypto?.getRandomValues){
+        const x=new Uint32Array(1);crypto.getRandomValues(x);
+        return x[0]%max;
+      }
+    }catch{}
+    return Math.floor(Math.random()*max);
+  };
   for(let i=out.length-1;i>0;i--){
-    const j=Math.floor(Math.random()*(i+1));
+    const j=randomIndex(i+1);
     [out[i],out[j]]=[out[j],out[i]];
   }
   return out;
 }
 function ankiUpdateShuffleButton(message=''){
-  const btn=document.getElementById('ankiShuffleBtn');if(!btn)return;
   const active=ankiShuffleNextSession;
-  btn.classList.toggle('active',active);
-  btn.setAttribute('aria-pressed',active?'true':'false');
-  btn.innerHTML=message||('<span aria-hidden="true">⇄</span><b>'+(active?'Shuffle on':'Shuffle')+'</b>');
-  btn.title=active?'Next flashcard session will be shuffled':'Shuffle the next session or the remaining cards';
+  for(const btn of [document.getElementById('ankiShuffleBtn'),document.getElementById('ankiStudyShuffleBtn')].filter(Boolean)){
+    btn.classList.toggle('active',active);
+    btn.setAttribute('aria-pressed',active?'true':'false');
+    const inStudy=btn.id==='ankiStudyShuffleBtn';
+    btn.innerHTML=message||('<span aria-hidden="true">⇄</span><b>'+(inStudy?'Shuffle':(active?'Shuffle on':'Shuffle'))+'</b>');
+    btn.title=inStudy?'Shuffle the cards remaining in this review':'Shuffle the next flashcard session';
+  }
 }
 function ankiShuffleCards(){
   const study=document.getElementById('flashStudy');
   const studying=!!(study&&!study.classList.contains('hidden')&&flashSession.started&&flashSession.queue?.length);
   if(studying){
-    const before=flashSession.queue.slice(0,flashSession.index+1);
-    const remaining=ankiShuffleArray(flashSession.queue.slice(flashSession.index+1));
-    flashSession.queue=[...before,...remaining];
+    const start=flashSession.revealed?flashSession.index+1:flashSession.index;
+    const tail=flashSession.queue.slice(start);
+    if(tail.length<2){
+      ankiUpdateShuffleButton('<span aria-hidden="true">•</span><b>Nothing to shuffle</b>');
+      setTimeout(()=>ankiUpdateShuffleButton(),1100);
+      return;
+    }
+    const currentId=!flashSession.revealed?tail[0]?.id:null;
+    let shuffled=ankiShuffleArray(tail);
+    if(currentId&&shuffled[0]?.id===currentId&&shuffled.length>1){
+      [shuffled[0],shuffled[1]]=[shuffled[1],shuffled[0]];
+    }
+    flashSession.queue=[...flashSession.queue.slice(0,start),...shuffled];
+    if(!flashSession.revealed)ankiRenderStudyCard();
     ankiUpdateShuffleButton('<span aria-hidden="true">✓</span><b>Shuffled</b>');
     setTimeout(()=>ankiUpdateShuffleButton(),1100);
     return;
@@ -500,7 +522,17 @@ function ankiToggleFlashFocus(){
 }
 function ankiInjectFocusButton(){
   const top=document.querySelector('#flashStudy .ankiStudyTop');
-  if(!top||document.getElementById('ankiFocusBtn'))return;
+  if(!top)return;
+  if(!document.getElementById('ankiStudyShuffleBtn')){
+    const sh=document.createElement('button');
+    sh.id='ankiStudyShuffleBtn';sh.type='button';sh.className='ankiBtn ankiStudyShuffleBtn';
+    sh.innerHTML='<span aria-hidden="true">⇄</span><b>Shuffle</b>';
+    sh.onclick=ankiShuffleCards;
+    const counts=top.querySelector('.counts');
+    if(counts)top.insertBefore(sh,counts);else top.appendChild(sh);
+  }
+  ankiUpdateShuffleButton();
+  if(document.getElementById('ankiFocusBtn'))return;
   const btn=document.createElement('button');
   btn.id='ankiFocusBtn';btn.type='button';btn.className='ankiBtn ankiFocusBtn';
   btn.setAttribute('aria-pressed','false');
@@ -631,7 +663,9 @@ function ankiRenderDecks(){
 function ankiStart(deckIds){
   let queue=ankiQueue(deckIds);
   if(ankiShuffleNextSession&&queue.length>1){
+    const firstId=queue[0]?.id;
     queue=ankiShuffleArray(queue);
+    if(queue[0]?.id===firstId&&queue.length>1)[queue[0],queue[1]]=[queue[1],queue[0]];
     ankiShuffleNextSession=false;
     ankiUpdateShuffleButton();
   }

@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "generated_at": "2026-09-28T11:26:00.000Z",
+  "generated_at": "2026-09-29T15:51:46.442Z",
   "source_root": {
     "id": "1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
     "url": "https://drive.google.com/drive/folders/1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
     "label": "MED25 Circulation & Breathing"
   },
   "source_policy": {
-    "population": "Male",
+    "population": "Male + Female pooled",
     "include": "Only official/doctor lecture material that matches an official Study Guide topic taught as Interactive lecture, Flipped class, or Online lecture.",
     "exclude": [
       "SPP",
@@ -32,7 +32,11 @@
     ],
     "default_eligibility": "deny",
     "objectives_source": "Study Guide- Circulation and Breathing module- 2026-2027.pdf",
-    "style_reference": "MED25 Past Papers + coordinator formative on this website"
+    "style_reference": "MED25 Past Papers + coordinator formative on this website",
+    "pooled_source_folders": [
+      "1TjCFnpHLfcgQqeYqeAlsfQPkktZSXcBR",
+      "1qELICF1pFL6pQzzOsCpqlY_mMCJdoSWG"
+    ]
   },
   "generation_policy": {
     "target_per_lecture": "15–25 KAU-style 4-option SBA MCQs after lecture validation",
@@ -961,153 +965,291 @@
     },
     {
       "id": "ai_set_1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9",
-      "source_file_id": "1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9",
+      "source_file_id": "1hUhRX6NQW4vC0QZctlopDFzZB_vh7U3h",
       "subject": "Physiology",
       "title": "Short-Term Regulation of Arterial Blood Pressure",
-      "source_url": "https://drive.google.com/file/d/1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9/view?usp=drivesdk",
-      "source_modified_time": "2026-09-21T03:43:50.562Z",
-      "source_validation": "pending_lecture_validation",
+      "source_url": "https://drive.google.com/file/d/1hUhRX6NQW4vC0QZctlopDFzZB_vh7U3h/view?usp=drivesdk",
+      "source_modified_time": "2026-09-22T12:28:03.587Z",
+      "source_validation": "lecture_validated",
       "archived": false,
       "questions": [
         {
           "id": "ai_1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9_01",
-          "stem": "Where are the main arterial baroreceptors?",
+          "stem": "A student has an arterial pressure of 120/80 mmHg. What is the approximate mean arterial pressure?",
           "options": {
-            "A": "Glossopharyngeal nerve (CN IX).",
-            "B": "Stretch increases firing to the medulla.",
-            "C": "Vagus nerve (CN X).",
-            "D": "Carotid sinus and aortic arch."
+            "A": "80 mmHg",
+            "B": "93 mmHg",
+            "C": "100 mmHg",
+            "D": "120 mmHg"
           },
-          "answer": "D",
-          "explanation": "Carotid sinus and aortic arch.",
-          "concept": "Short-Term Regulation of Arterial Blood Pressure",
+          "answer": "B",
+          "explanation": "MAP ≈ diastolic pressure + one-third of pulse pressure = 80 + 1/3(40) ≈ 93 mmHg.",
+          "concept": "ABP definitions",
           "difficulty": "application",
-          "source_url": "https://drive.google.com/file/d/1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9/view?usp=drivesdk",
-          "source_card_id": "1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9-c01",
-          "style_profile": "KAU-past-paper-inspired"
+          "style_profile": "MED25-test-bank/formative-inspired"
         },
         {
           "id": "ai_1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9_02",
-          "stem": "What happens to baroreceptor firing when blood pressure rises?",
+          "stem": "Which relationship best describes the major determinants of mean arterial blood pressure?",
           "options": {
-            "A": "Carotid sinus and aortic arch.",
-            "B": "Vagus nerve (CN X).",
-            "C": "Stretch increases firing to the medulla.",
-            "D": "Glossopharyngeal nerve (CN IX)."
+            "A": "ABP = heart rate × stroke volume",
+            "B": "ABP = cardiac output × peripheral resistance",
+            "C": "ABP = systolic pressure − diastolic pressure",
+            "D": "ABP = blood volume ÷ peripheral resistance"
           },
-          "answer": "C",
-          "explanation": "Stretch increases firing to the medulla.",
-          "concept": "Short-Term Regulation of Arterial Blood Pressure",
+          "answer": "B",
+          "explanation": "The lecture states that mean ABP is determined mainly by cardiac output multiplied by peripheral resistance.",
+          "concept": "Determinants of ABP",
           "difficulty": "core",
-          "source_url": "https://drive.google.com/file/d/1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9/view?usp=drivesdk",
-          "source_card_id": "1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9-c02",
-          "style_profile": "KAU-past-paper-inspired"
+          "style_profile": "MED25-test-bank/formative-inspired"
         },
         {
           "id": "ai_1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9_03",
-          "stem": "Which of the following best describes how the baroreflex respond to high blood pressure?",
+          "stem": "Stimulation of the medullary pressor area is expected to produce which combination?",
           "options": {
-            "A": "They reset to the higher pressure and are mainly short-term regulators.",
-            "B": "It decreases sympathetic and increases parasympathetic output, lowering heart rate, contractility, and vascular tone.",
-            "C": "It increases sympathetic activity, causing tachycardia, increased contractility, and vasoconstriction.",
-            "D": "Low O₂, high CO₂, and increased H⁺, especially when arterial pressure is low."
+            "A": "Bradycardia and arteriolar dilatation",
+            "B": "Tachycardia, increased contractility, and arteriolar vasoconstriction",
+            "C": "Reduced sympathetic discharge and increased vagal activity",
+            "D": "Venodilatation with reduced venous return"
           },
           "answer": "B",
-          "explanation": "It decreases sympathetic and increases parasympathetic output, lowering heart rate, contractility, and vascular tone.",
-          "concept": "Short-Term Regulation of Arterial Blood Pressure",
+          "explanation": "Pressor-area stimulation increases sympathetic discharge, producing positive chronotropy/inotropy and vasoconstriction.",
+          "concept": "Cardiovascular centers",
           "difficulty": "understanding",
-          "source_url": "https://drive.google.com/file/d/1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9/view?usp=drivesdk",
-          "source_card_id": "1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9-c03",
-          "style_profile": "KAU-past-paper-inspired"
+          "style_profile": "MED25-test-bank/formative-inspired"
         },
         {
           "id": "ai_1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9_04",
-          "stem": "Which of the following best describes how the baroreflex respond to a sudden fall in blood pressure?",
+          "stem": "Stimulation of the cardioinhibitory/depressor area would most directly cause:",
           "options": {
-            "A": "It increases sympathetic activity, causing tachycardia, increased contractility, and vasoconstriction.",
-            "B": "Low O₂, high CO₂, and increased H⁺, especially when arterial pressure is low.",
-            "C": "They reset to the higher pressure and are mainly short-term regulators.",
-            "D": "It decreases sympathetic and increases parasympathetic output, lowering heart rate, contractility, and vascular tone."
+            "A": "Increased vagal activity with reduced sympathetic activity",
+            "B": "Increased sympathetic activity with reduced vagal activity",
+            "C": "Arteriolar vasoconstriction and increased peripheral resistance",
+            "D": "Venoconstriction and increased venous return"
           },
           "answer": "A",
-          "explanation": "It increases sympathetic activity, causing tachycardia, increased contractility, and vasoconstriction.",
-          "concept": "Short-Term Regulation of Arterial Blood Pressure",
-          "difficulty": "application",
-          "source_url": "https://drive.google.com/file/d/1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9/view?usp=drivesdk",
-          "source_card_id": "1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9-c04",
-          "style_profile": "KAU-past-paper-inspired"
+          "explanation": "The depressor area increases parasympathetic vagal discharge and inhibits pressor/sympathetic activity.",
+          "concept": "Cardiovascular centers",
+          "difficulty": "understanding",
+          "style_profile": "MED25-test-bank/formative-inspired"
         },
         {
           "id": "ai_1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9_05",
-          "stem": "Which cranial nerve carries carotid sinus afferents?",
+          "stem": "A sudden rise in arterial pressure stretches the carotid sinus. What is the expected reflex response?",
           "options": {
-            "A": "Vagus nerve (CN X).",
-            "B": "Carotid sinus and aortic arch.",
-            "C": "Stretch increases firing to the medulla.",
-            "D": "Glossopharyngeal nerve (CN IX)."
+            "A": "Decreased baroreceptor firing with increased sympathetic output",
+            "B": "Increased baroreceptor firing with increased vagal and decreased sympathetic activity",
+            "C": "Activation of chemoreceptors with generalized vasoconstriction",
+            "D": "Inhibition of the depressor center with tachycardia"
           },
-          "answer": "D",
-          "explanation": "Glossopharyngeal nerve (CN IX).",
-          "concept": "Short-Term Regulation of Arterial Blood Pressure",
-          "difficulty": "core",
-          "source_url": "https://drive.google.com/file/d/1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9/view?usp=drivesdk",
-          "source_card_id": "1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9-c05",
-          "style_profile": "KAU-past-paper-inspired"
+          "answer": "B",
+          "explanation": "Higher arterial stretch increases baroreceptor firing, stimulating depressor pathways and inhibiting pressor pathways.",
+          "concept": "Baroreceptor reflex",
+          "difficulty": "application",
+          "style_profile": "MED25-test-bank/formative-inspired"
         },
         {
           "id": "ai_1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9_06",
-          "stem": "Which cranial nerve carries aortic arch baroreceptor afferents?",
+          "stem": "A sudden fall in arterial pressure is most likely to cause which short-term response?",
           "options": {
-            "A": "Carotid sinus and aortic arch.",
-            "B": "Stretch increases firing to the medulla.",
-            "C": "Vagus nerve (CN X).",
-            "D": "Glossopharyngeal nerve (CN IX)."
+            "A": "Increased baroreceptor firing and bradycardia",
+            "B": "Reduced sympathetic discharge and arteriolar dilatation",
+            "C": "Reduced baroreceptor firing with tachycardia and vasoconstriction",
+            "D": "Increased vagal discharge with reduced contractility"
           },
           "answer": "C",
-          "explanation": "Vagus nerve (CN X).",
-          "concept": "Short-Term Regulation of Arterial Blood Pressure",
-          "difficulty": "understanding",
-          "source_url": "https://drive.google.com/file/d/1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9/view?usp=drivesdk",
-          "source_card_id": "1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9-c06",
-          "style_profile": "KAU-past-paper-inspired"
+          "explanation": "A fall in ABP reduces baroreceptor discharge and increases pressor/sympathetic activity.",
+          "concept": "Baroreceptor reflex",
+          "difficulty": "application",
+          "style_profile": "MED25-test-bank/formative-inspired"
         },
         {
           "id": "ai_1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9_07",
-          "stem": "Which of the following best describes the main limitation of baroreceptors in chronic hypertension?",
+          "stem": "Afferent impulses from the carotid sinus baroreceptors travel mainly through which nerve?",
           "options": {
-            "A": "Stretch increases firing to the medulla.",
-            "B": "They reset to the higher pressure and are mainly short-term regulators.",
-            "C": "Low O₂, high CO₂, and increased H⁺, especially when arterial pressure is low.",
-            "D": "It increases sympathetic activity, causing tachycardia, increased contractility, and vasoconstriction."
+            "A": "Facial nerve (VII)",
+            "B": "Glossopharyngeal nerve (IX)",
+            "C": "Vagus nerve (X)",
+            "D": "Hypoglossal nerve (XII)"
           },
           "answer": "B",
-          "explanation": "They reset to the higher pressure and are mainly short-term regulators.",
-          "concept": "Short-Term Regulation of Arterial Blood Pressure",
-          "difficulty": "application",
-          "source_url": "https://drive.google.com/file/d/1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9/view?usp=drivesdk",
-          "source_card_id": "1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9-c07",
-          "style_profile": "KAU-past-paper-inspired"
+          "explanation": "Carotid sinus afferents travel through the glossopharyngeal nerve (CN IX).",
+          "concept": "Baroreceptor afferents",
+          "difficulty": "core",
+          "style_profile": "MED25-test-bank/formative-inspired"
         },
         {
           "id": "ai_1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9_08",
-          "stem": "Which of the following best describes chemoreceptors respond to?",
+          "stem": "Afferent impulses from aortic arch baroreceptors travel mainly through which nerve?",
           "options": {
-            "A": "Low O₂, high CO₂, and increased H⁺, especially when arterial pressure is low.",
-            "B": "They reset to the higher pressure and are mainly short-term regulators.",
-            "C": "It increases sympathetic activity, causing tachycardia, increased contractility, and vasoconstriction.",
-            "D": "Carotid sinus and aortic arch."
+            "A": "Glossopharyngeal nerve (IX)",
+            "B": "Accessory nerve (XI)",
+            "C": "Vagus nerve (X)",
+            "D": "Phrenic nerve"
+          },
+          "answer": "C",
+          "explanation": "Aortic arch baroreceptor afferents travel through the vagus nerve (CN X).",
+          "concept": "Baroreceptor afferents",
+          "difficulty": "core",
+          "style_profile": "MED25-test-bank/formative-inspired"
+        },
+        {
+          "id": "ai_1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9_09",
+          "stem": "Why are arterial baroreceptors poor regulators of chronic hypertension?",
+          "options": {
+            "A": "They respond only when MAP is above 180 mmHg",
+            "B": "They are present only in veins",
+            "C": "They reset to the sustained higher pressure",
+            "D": "They do not project to medullary cardiovascular centers"
+          },
+          "answer": "C",
+          "explanation": "Baroreceptors reset during sustained pressure changes, so their major role is short-term regulation.",
+          "concept": "Baroreceptor resetting",
+          "difficulty": "understanding",
+          "style_profile": "MED25-test-bank/formative-inspired"
+        },
+        {
+          "id": "ai_1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9_10",
+          "stem": "Peripheral chemoreceptor reflexes become particularly important when mean arterial pressure falls below approximately:",
+          "options": {
+            "A": "40 mmHg",
+            "B": "60 mmHg",
+            "C": "90 mmHg",
+            "D": "120 mmHg"
+          },
+          "answer": "B",
+          "explanation": "The lecture states that the chemoreceptor reflex becomes important when mean ABP falls below about 60 mmHg.",
+          "concept": "Chemoreceptor reflex",
+          "difficulty": "core",
+          "style_profile": "MED25-test-bank/formative-inspired"
+        },
+        {
+          "id": "ai_1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9_11",
+          "stem": "Which combination most strongly stimulates the peripheral chemoreceptor reflex during marked hypotension?",
+          "options": {
+            "A": "High PO₂, low PCO₂, low H⁺",
+            "B": "Low PO₂, high PCO₂, high H⁺",
+            "C": "High PO₂, high PCO₂, low H⁺",
+            "D": "Low PO₂, low PCO₂, low H⁺"
+          },
+          "answer": "B",
+          "explanation": "Low O₂, high CO₂ and increased H⁺ stimulate the carotid and aortic body chemoreceptors.",
+          "concept": "Chemoreceptor reflex",
+          "difficulty": "application",
+          "style_profile": "MED25-test-bank/formative-inspired"
+        },
+        {
+          "id": "ai_1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9_12",
+          "stem": "The major effect of resting sympathetic tone on arterioles is to maintain:",
+          "options": {
+            "A": "Normal peripheral resistance and diastolic pressure",
+            "B": "Normal ejection fraction only",
+            "C": "Vagal tone to ventricular myocardium",
+            "D": "Arterial oxygen content"
           },
           "answer": "A",
-          "explanation": "Low O₂, high CO₂, and increased H⁺, especially when arterial pressure is low.",
-          "concept": "Short-Term Regulation of Arterial Blood Pressure",
+          "explanation": "Tonic sympathetic vasoconstrictor activity in arterioles helps maintain peripheral resistance and normal diastolic pressure.",
+          "concept": "Sympathetic vascular tone",
+          "difficulty": "understanding",
+          "style_profile": "MED25-test-bank/formative-inspired"
+        },
+        {
+          "id": "ai_1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9_13",
+          "stem": "Increased sympathetic tone to veins raises arterial pressure mainly by:",
+          "options": {
+            "A": "Reducing venous return and stroke volume",
+            "B": "Increasing venous return, preload, and cardiac output",
+            "C": "Increasing arterial compliance",
+            "D": "Reducing heart rate through vagal activation"
+          },
+          "answer": "B",
+          "explanation": "Venoconstriction increases venous return, which increases preload, stroke volume and cardiac output.",
+          "concept": "Venous tone",
+          "difficulty": "application",
+          "style_profile": "MED25-test-bank/formative-inspired"
+        },
+        {
+          "id": "ai_1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9_14",
+          "stem": "Which change would most directly increase peripheral resistance in the same individual?",
+          "options": {
+            "A": "Increased arteriolar diameter",
+            "B": "Decreased blood viscosity",
+            "C": "Decreased arteriolar diameter",
+            "D": "Decreased vessel length"
+          },
+          "answer": "C",
+          "explanation": "Arteriolar diameter is the major variable determinant of peripheral resistance in the same person.",
+          "concept": "Peripheral resistance",
+          "difficulty": "application",
+          "style_profile": "MED25-test-bank/formative-inspired"
+        },
+        {
+          "id": "ai_1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9_15",
+          "stem": "If systolic pressure is 130 mmHg and diastolic pressure is 80 mmHg, the pulse pressure is:",
+          "options": {
+            "A": "40 mmHg",
+            "B": "50 mmHg",
+            "C": "80 mmHg",
+            "D": "105 mmHg"
+          },
+          "answer": "B",
+          "explanation": "Pulse pressure = systolic − diastolic pressure = 130 − 80 = 50 mmHg.",
+          "concept": "Pulse pressure",
+          "difficulty": "application",
+          "style_profile": "MED25-test-bank/formative-inspired"
+        },
+        {
+          "id": "ai_1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9_16",
+          "stem": "Which mechanism is characteristic of short-term arterial pressure regulation?",
+          "options": {
+            "A": "It begins within seconds and alters cardiac activity and vessel diameter",
+            "B": "It begins after several days and depends mainly on renal sodium excretion",
+            "C": "It acts only through capillary fluid shift",
+            "D": "It depends entirely on aldosterone release"
+          },
+          "answer": "A",
+          "explanation": "Short-term regulation starts within seconds and changes cardiac activity and vascular diameter.",
+          "concept": "Time course of ABP regulation",
+          "difficulty": "understanding",
+          "style_profile": "MED25-test-bank/formative-inspired"
+        },
+        {
+          "id": "ai_1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9_17",
+          "stem": "A patient is exposed to cold weather. According to the lecture, the expected effect on arterial pressure is mainly due to:",
+          "options": {
+            "A": "Cutaneous vasodilatation lowering peripheral resistance",
+            "B": "Cutaneous vasoconstriction increasing peripheral resistance",
+            "C": "Reduced sympathetic tone to arterioles",
+            "D": "Reduced blood viscosity"
+          },
+          "answer": "B",
+          "explanation": "Cold causes cutaneous vasoconstriction, which raises peripheral resistance and arterial pressure.",
+          "concept": "Physiological factors affecting ABP",
+          "difficulty": "application",
+          "style_profile": "MED25-test-bank/formative-inspired"
+        },
+        {
+          "id": "ai_1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9_18",
+          "stem": "Which statement best describes the resting autonomic control of heart rate?",
+          "options": {
+            "A": "Sympathetic tone normally exceeds vagal tone",
+            "B": "Vagal tone normally exceeds sympathetic tone",
+            "C": "There is no autonomic tone at rest",
+            "D": "Only ventricular vagal tone is present"
+          },
+          "answer": "B",
+          "explanation": "The lecture states that resting vagal tone to the heart is greater than sympathetic tone.",
+          "concept": "Autonomic tone",
           "difficulty": "core",
-          "source_url": "https://drive.google.com/file/d/1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9/view?usp=drivesdk",
-          "source_card_id": "1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9-c08",
-          "style_profile": "KAU-past-paper-inspired"
+          "style_profile": "MED25-test-bank/formative-inspired"
         }
       ],
       "eligibility_status": "allowed",
-      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
+      "source_alias_file_ids": [
+        "1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9"
+      ],
+      "source_population": "Female"
     },
     {
       "id": "ai_set_1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg",
@@ -7619,6 +7761,546 @@
       ],
       "eligibility_status": "allowed",
       "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
+    },
+    {
+      "id": "ai_set_1a2GYFwVaioCMtkK4FhARroF7kphyGDwS",
+      "source_file_id": "1a2GYFwVaioCMtkK4FhARroF7kphyGDwS",
+      "subject": "Physiology",
+      "title": "Cardiac Contractility",
+      "source_url": "https://drive.google.com/file/d/1a2GYFwVaioCMtkK4FhARroF7kphyGDwS/view?usp=drivesdk",
+      "source_modified_time": "2026-09-19T22:08:08.790Z",
+      "source_population": "Female",
+      "source_validation": "lecture_validated",
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
+      "archived": false,
+      "questions": [
+        {
+          "id": "ai_1a2GYFwVaioCMtkK4FhARroF7kphyGDwS_01",
+          "stem": "Which ion influx is most directly responsible for triggering cardiac muscle contraction?",
+          "options": {
+            "A": "Na⁺",
+            "B": "K⁺",
+            "C": "Ca²⁺",
+            "D": "Cl⁻"
+          },
+          "answer": "C",
+          "explanation": "The lecture emphasizes that cardiac contraction is controlled mainly by Ca²⁺ influx.",
+          "concept": "Excitation-contraction coupling",
+          "difficulty": "core",
+          "style_profile": "MED25-test-bank/formative-inspired"
+        },
+        {
+          "id": "ai_1a2GYFwVaioCMtkK4FhARroF7kphyGDwS_02",
+          "stem": "A calcium-channel blocker is expected to have which direct effect on myocardial performance?",
+          "options": {
+            "A": "Positive chronotropic effect",
+            "B": "Negative inotropic effect",
+            "C": "Increased preload",
+            "D": "Increased venous return"
+          },
+          "answer": "B",
+          "explanation": "Reducing Ca²⁺ influx reduces cardiac contractile force, producing a negative inotropic effect.",
+          "concept": "Calcium and contractility",
+          "difficulty": "application",
+          "style_profile": "MED25-test-bank/formative-inspired"
+        },
+        {
+          "id": "ai_1a2GYFwVaioCMtkK4FhARroF7kphyGDwS_03",
+          "stem": "In the intact heart, preload is best represented by:",
+          "options": {
+            "A": "Aortic pressure",
+            "B": "End-diastolic volume",
+            "C": "End-systolic volume",
+            "D": "Mean arterial pressure"
+          },
+          "answer": "B",
+          "explanation": "The lecture equates preload with the initial fiber length and uses EDV as its intact-heart analogue.",
+          "concept": "Preload",
+          "difficulty": "core",
+          "style_profile": "MED25-test-bank/formative-inspired"
+        },
+        {
+          "id": "ai_1a2GYFwVaioCMtkK4FhARroF7kphyGDwS_04",
+          "stem": "Within physiological limits, increasing preload causes:",
+          "options": {
+            "A": "A decrease in active force",
+            "B": "An increase in active force",
+            "C": "No change in force",
+            "D": "A decrease in venous return"
+          },
+          "answer": "B",
+          "explanation": "Frank-Starling behavior: greater initial myocardial fiber length produces greater force within limits.",
+          "concept": "Frank-Starling law",
+          "difficulty": "understanding",
+          "style_profile": "MED25-test-bank/formative-inspired"
+        },
+        {
+          "id": "ai_1a2GYFwVaioCMtkK4FhARroF7kphyGDwS_05",
+          "stem": "In the intact heart, afterload is most closely represented by:",
+          "options": {
+            "A": "Venous return",
+            "B": "Aortic pressure",
+            "C": "End-diastolic volume",
+            "D": "Heart rate"
+          },
+          "answer": "B",
+          "explanation": "The lecture identifies aortic pressure as the intact-heart analogue of afterload.",
+          "concept": "Afterload",
+          "difficulty": "core",
+          "style_profile": "MED25-test-bank/formative-inspired"
+        },
+        {
+          "id": "ai_1a2GYFwVaioCMtkK4FhARroF7kphyGDwS_06",
+          "stem": "An acute increase in afterload is expected to produce which immediate mechanical effect?",
+          "options": {
+            "A": "Increased velocity of shortening",
+            "B": "Reduced velocity of shortening",
+            "C": "Increased preload by definition",
+            "D": "Increased vagal tone"
+          },
+          "answer": "B",
+          "explanation": "Higher afterload reduces the velocity of myocardial shortening.",
+          "concept": "Afterload",
+          "difficulty": "understanding",
+          "style_profile": "MED25-test-bank/formative-inspired"
+        },
+        {
+          "id": "ai_1a2GYFwVaioCMtkK4FhARroF7kphyGDwS_07",
+          "stem": "Which group contains the three major factors affecting cardiac muscle performance listed in the lecture?",
+          "options": {
+            "A": "Preload, afterload, and inotropic state",
+            "B": "Heart rate, respiratory rate, and blood viscosity",
+            "C": "Preload, blood volume, and arterial oxygen content",
+            "D": "Afterload, venous compliance, and hematocrit"
+          },
+          "answer": "A",
+          "explanation": "The lecture lists resting muscle length (preload), arterial pressure (afterload), and inotropic state.",
+          "concept": "Determinants of performance",
+          "difficulty": "core",
+          "style_profile": "MED25-test-bank/formative-inspired"
+        },
+        {
+          "id": "ai_1a2GYFwVaioCMtkK4FhARroF7kphyGDwS_08",
+          "stem": "Sympathetic stimulation of ventricular myocardium produces:",
+          "options": {
+            "A": "Decreased contractility",
+            "B": "Increased contractility",
+            "C": "No effect on contractility",
+            "D": "Only a negative chronotropic effect"
+          },
+          "answer": "B",
+          "explanation": "Sympathetic stimulation increases ventricular contractility.",
+          "concept": "Autonomic effects",
+          "difficulty": "core",
+          "style_profile": "MED25-test-bank/formative-inspired"
+        },
+        {
+          "id": "ai_1a2GYFwVaioCMtkK4FhARroF7kphyGDwS_09",
+          "stem": "Parasympathetic stimulation has which effect on ventricular muscle according to the lecture?",
+          "options": {
+            "A": "Markedly increases contractility",
+            "B": "Markedly decreases contractility",
+            "C": "No significant direct effect",
+            "D": "Causes venoconstriction"
+          },
+          "answer": "C",
+          "explanation": "The autonomic-effects table lists no parasympathetic effect on ventricular muscle.",
+          "concept": "Autonomic effects",
+          "difficulty": "core",
+          "style_profile": "MED25-test-bank/formative-inspired"
+        },
+        {
+          "id": "ai_1a2GYFwVaioCMtkK4FhARroF7kphyGDwS_10",
+          "stem": "Sympathetic stimulation of veins can increase stroke volume primarily by:",
+          "options": {
+            "A": "Venodilatation and reduced preload",
+            "B": "Venoconstriction and increased venous return",
+            "C": "Reduced cardiac filling",
+            "D": "Increasing afterload only"
+          },
+          "answer": "B",
+          "explanation": "Venoconstriction increases venous return and preload, which can increase stroke volume.",
+          "concept": "Venous return and preload",
+          "difficulty": "application",
+          "style_profile": "MED25-test-bank/formative-inspired"
+        },
+        {
+          "id": "ai_1a2GYFwVaioCMtkK4FhARroF7kphyGDwS_11",
+          "stem": "The AV nodal delay is physiologically useful because it:",
+          "options": {
+            "A": "Allows ventricles to contract before the atria",
+            "B": "Allows atrial contraction and emptying before ventricular contraction",
+            "C": "Prevents Purkinje conduction",
+            "D": "Prolongs ventricular repolarization"
+          },
+          "answer": "B",
+          "explanation": "The roughly 100 ms AV nodal delay allows atrial depolarization and contraction to finish before ventricular contraction.",
+          "concept": "AV nodal delay",
+          "difficulty": "understanding",
+          "style_profile": "MED25-test-bank/formative-inspired"
+        },
+        {
+          "id": "ai_1a2GYFwVaioCMtkK4FhARroF7kphyGDwS_12",
+          "stem": "Rapid conduction through Purkinje fibers is important because it:",
+          "options": {
+            "A": "Prevents ventricular contraction",
+            "B": "Allows near-simultaneous activation of ventricular muscle",
+            "C": "Slows conduction to the ventricles",
+            "D": "Increases vagal tone"
+          },
+          "answer": "B",
+          "explanation": "Fast Purkinje conduction helps ventricular fibers contract almost simultaneously.",
+          "concept": "Purkinje conduction",
+          "difficulty": "understanding",
+          "style_profile": "MED25-test-bank/formative-inspired"
+        },
+        {
+          "id": "ai_1a2GYFwVaioCMtkK4FhARroF7kphyGDwS_13",
+          "stem": "Which change best illustrates the Frank-Starling mechanism?",
+          "options": {
+            "A": "Higher venous return → higher EDV → stronger contraction",
+            "B": "Higher aortic pressure → faster shortening",
+            "C": "Lower preload → stronger contraction",
+            "D": "Lower calcium influx → stronger contraction"
+          },
+          "answer": "A",
+          "explanation": "Greater venous return raises EDV/preload and, within limits, increases force of contraction.",
+          "concept": "Frank-Starling law",
+          "difficulty": "application",
+          "style_profile": "MED25-test-bank/formative-inspired"
+        },
+        {
+          "id": "ai_1a2GYFwVaioCMtkK4FhARroF7kphyGDwS_14",
+          "stem": "A marked rise in mean arterial pressure above about 160 mmHg would be expected to:",
+          "options": {
+            "A": "Increase shortening velocity and cardiac output",
+            "B": "Decrease ventricular shortening and cardiac output",
+            "C": "Have no effect on ventricular performance",
+            "D": "Increase vagal supply to ventricular muscle"
+          },
+          "answer": "B",
+          "explanation": "The lecture notes that very high aortic/arterial pressure increases afterload and can reduce ventricular force/shortening and cardiac output.",
+          "concept": "Afterload",
+          "difficulty": "application",
+          "style_profile": "MED25-test-bank/formative-inspired"
+        },
+        {
+          "id": "ai_1a2GYFwVaioCMtkK4FhARroF7kphyGDwS_15",
+          "stem": "Which statement correctly distinguishes preload from afterload?",
+          "options": {
+            "A": "Preload is aortic pressure; afterload is EDV",
+            "B": "Preload reflects initial myocardial fiber length; afterload is the load opposed during shortening",
+            "C": "Both terms refer only to autonomic tone",
+            "D": "Both are measures of heart rate"
+          },
+          "answer": "B",
+          "explanation": "Preload is initial/resting fiber length (EDV in the intact heart), whereas afterload is the opposing load, approximated by aortic pressure.",
+          "concept": "Preload vs afterload",
+          "difficulty": "understanding",
+          "style_profile": "MED25-test-bank/formative-inspired"
+        },
+        {
+          "id": "ai_1a2GYFwVaioCMtkK4FhARroF7kphyGDwS_16",
+          "stem": "Which intervention in the lecture directly lowers contractile function by reducing calcium entry?",
+          "options": {
+            "A": "Digitalis",
+            "B": "Calcium-channel blockade",
+            "C": "Sympathetic stimulation",
+            "D": "Increased extracellular calcium"
+          },
+          "answer": "B",
+          "explanation": "The lecture explicitly notes that calcium-channel blockers reduce contractile function.",
+          "concept": "Inotropic influences",
+          "difficulty": "application",
+          "style_profile": "MED25-test-bank/formative-inspired"
+        }
+      ]
+    },
+    {
+      "id": "ai_set_1rzreURT0TD2ajEGXKRIzad7b8VjudyNm",
+      "source_file_id": "1rzreURT0TD2ajEGXKRIzad7b8VjudyNm",
+      "subject": "Physiology",
+      "title": "Cardiac Output and Its Control",
+      "source_url": "https://drive.google.com/file/d/1rzreURT0TD2ajEGXKRIzad7b8VjudyNm/view?usp=drivesdk",
+      "source_modified_time": "2026-09-20T17:00:45.309Z",
+      "source_population": "Female",
+      "source_validation": "lecture_validated",
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
+      "archived": false,
+      "questions": [
+        {
+          "id": "ai_1rzreURT0TD2ajEGXKRIzad7b8VjudyNm_01",
+          "stem": "Cardiac output is calculated as:",
+          "options": {
+            "A": "Heart rate × end-diastolic volume",
+            "B": "Stroke volume × heart rate",
+            "C": "Stroke volume ÷ heart rate",
+            "D": "End-diastolic volume − heart rate"
+          },
+          "answer": "B",
+          "explanation": "Cardiac output equals stroke volume multiplied by heart rate.",
+          "concept": "Cardiac output",
+          "difficulty": "core",
+          "style_profile": "MED25-test-bank/formative-inspired"
+        },
+        {
+          "id": "ai_1rzreURT0TD2ajEGXKRIzad7b8VjudyNm_02",
+          "stem": "A person has a stroke volume of 70 mL and a heart rate of 72/min. The approximate cardiac output is:",
+          "options": {
+            "A": "0.5 L/min",
+            "B": "2.5 L/min",
+            "C": "5 L/min",
+            "D": "10 L/min"
+          },
+          "answer": "C",
+          "explanation": "70 mL × 72/min ≈ 5040 mL/min, or about 5 L/min.",
+          "concept": "Cardiac output",
+          "difficulty": "application",
+          "style_profile": "MED25-test-bank/formative-inspired"
+        },
+        {
+          "id": "ai_1rzreURT0TD2ajEGXKRIzad7b8VjudyNm_03",
+          "stem": "Ejection fraction is calculated as:",
+          "options": {
+            "A": "SV ÷ EDV",
+            "B": "EDV ÷ SV",
+            "C": "ESV ÷ EDV",
+            "D": "CO ÷ HR"
+          },
+          "answer": "A",
+          "explanation": "The lecture defines ejection fraction as stroke volume divided by end-diastolic volume.",
+          "concept": "Ejection fraction",
+          "difficulty": "core",
+          "style_profile": "MED25-test-bank/formative-inspired"
+        },
+        {
+          "id": "ai_1rzreURT0TD2ajEGXKRIzad7b8VjudyNm_04",
+          "stem": "Which value is closest to the normal ejection fraction given in the lecture?",
+          "options": {
+            "A": "25%",
+            "B": "40%",
+            "C": "55%",
+            "D": "80%"
+          },
+          "answer": "C",
+          "explanation": "The lecture gives a normal EF of approximately 0.55 or 55%.",
+          "concept": "Ejection fraction",
+          "difficulty": "core",
+          "style_profile": "MED25-test-bank/formative-inspired"
+        },
+        {
+          "id": "ai_1rzreURT0TD2ajEGXKRIzad7b8VjudyNm_05",
+          "stem": "Which ventricular volume is the best indicator of preload in the lecture?",
+          "options": {
+            "A": "End-systolic volume",
+            "B": "End-diastolic volume",
+            "C": "Stroke volume",
+            "D": "Residual volume"
+          },
+          "answer": "B",
+          "explanation": "EDV is identified as the preload of the heart and is mainly determined by venous return.",
+          "concept": "Preload",
+          "difficulty": "core",
+          "style_profile": "MED25-test-bank/formative-inspired"
+        },
+        {
+          "id": "ai_1rzreURT0TD2ajEGXKRIzad7b8VjudyNm_06",
+          "stem": "An increase in venous return is expected to increase cardiac output primarily by:",
+          "options": {
+            "A": "Reducing EDV",
+            "B": "Increasing EDV and stroke volume",
+            "C": "Increasing ESV",
+            "D": "Reducing contractility"
+          },
+          "answer": "B",
+          "explanation": "More venous return increases EDV/preload, strengthens contraction by Frank-Starling, and raises SV and CO.",
+          "concept": "Venous return",
+          "difficulty": "application",
+          "style_profile": "MED25-test-bank/formative-inspired"
+        },
+        {
+          "id": "ai_1rzreURT0TD2ajEGXKRIzad7b8VjudyNm_07",
+          "stem": "Stroke volume can be expressed as:",
+          "options": {
+            "A": "EDV + ESV",
+            "B": "EDV − ESV",
+            "C": "ESV − EDV",
+            "D": "CO − HR"
+          },
+          "answer": "B",
+          "explanation": "Stroke volume equals end-diastolic volume minus end-systolic volume.",
+          "concept": "Stroke volume",
+          "difficulty": "core",
+          "style_profile": "MED25-test-bank/formative-inspired"
+        },
+        {
+          "id": "ai_1rzreURT0TD2ajEGXKRIzad7b8VjudyNm_08",
+          "stem": "Which change is expected when myocardial contractility increases?",
+          "options": {
+            "A": "ESV increases and SV falls",
+            "B": "ESV decreases and SV rises",
+            "C": "EDV always falls to zero",
+            "D": "Heart rate necessarily decreases"
+          },
+          "answer": "B",
+          "explanation": "Greater contractility leaves less blood after systole, lowering ESV and increasing stroke volume.",
+          "concept": "Contractility",
+          "difficulty": "understanding",
+          "style_profile": "MED25-test-bank/formative-inspired"
+        },
+        {
+          "id": "ai_1rzreURT0TD2ajEGXKRIzad7b8VjudyNm_09",
+          "stem": "Which situation would reduce venous return according to the lecture?",
+          "options": {
+            "A": "Lying supine",
+            "B": "Sympathetic venoconstriction",
+            "C": "Standing upright",
+            "D": "Muscular exercise"
+          },
+          "answer": "C",
+          "explanation": "Standing causes pooling below the heart and reduces venous return.",
+          "concept": "Venous return",
+          "difficulty": "application",
+          "style_profile": "MED25-test-bank/formative-inspired"
+        },
+        {
+          "id": "ai_1rzreURT0TD2ajEGXKRIzad7b8VjudyNm_10",
+          "stem": "During inspiration, venous return normally:",
+          "options": {
+            "A": "Decreases",
+            "B": "Increases",
+            "C": "Becomes zero",
+            "D": "Is unaffected"
+          },
+          "answer": "B",
+          "explanation": "The respiratory pump increases venous return during inspiration.",
+          "concept": "Venous return",
+          "difficulty": "core",
+          "style_profile": "MED25-test-bank/formative-inspired"
+        },
+        {
+          "id": "ai_1rzreURT0TD2ajEGXKRIzad7b8VjudyNm_11",
+          "stem": "Which is an example of increased afterload?",
+          "options": {
+            "A": "Aortic stenosis",
+            "B": "Hemorrhage",
+            "C": "Venodilatation",
+            "D": "Reduced peripheral resistance"
+          },
+          "answer": "A",
+          "explanation": "Aortic stenosis increases the resistance the ventricle must overcome to eject blood.",
+          "concept": "Afterload",
+          "difficulty": "application",
+          "style_profile": "MED25-test-bank/formative-inspired"
+        },
+        {
+          "id": "ai_1rzreURT0TD2ajEGXKRIzad7b8VjudyNm_12",
+          "stem": "Sympathetic stimulation increases cardiac output by which combination?",
+          "options": {
+            "A": "Lower heart rate, lower contractility, venodilatation",
+            "B": "Higher heart rate, higher contractility, and increased venous return",
+            "C": "Higher vagal tone and reduced preload",
+            "D": "Reduced heart rate with increased ESV"
+          },
+          "answer": "B",
+          "explanation": "Sympathetic stimulation raises HR and contractility and causes venoconstriction that increases venous return.",
+          "concept": "Autonomic control",
+          "difficulty": "understanding",
+          "style_profile": "MED25-test-bank/formative-inspired"
+        },
+        {
+          "id": "ai_1rzreURT0TD2ajEGXKRIzad7b8VjudyNm_13",
+          "stem": "Vagal stimulation decreases cardiac output mainly through:",
+          "options": {
+            "A": "A strong negative inotropic effect on ventricular myocardium",
+            "B": "A negative chronotropic effect on heart rate",
+            "C": "Generalized venoconstriction",
+            "D": "Increased afterload"
+          },
+          "answer": "B",
+          "explanation": "The lecture emphasizes vagal slowing of HR and notes no direct vagal supply to ventricular muscle.",
+          "concept": "Vagal effects",
+          "difficulty": "understanding",
+          "style_profile": "MED25-test-bank/formative-inspired"
+        },
+        {
+          "id": "ai_1rzreURT0TD2ajEGXKRIzad7b8VjudyNm_14",
+          "stem": "Which condition has a negative inotropic effect according to the lecture?",
+          "options": {
+            "A": "Hypercalcemia",
+            "B": "Sympathetic stimulation",
+            "C": "Hypoxia and acidosis",
+            "D": "Increased preload"
+          },
+          "answer": "C",
+          "explanation": "Hypoxia and acidosis are listed as negative inotropic influences.",
+          "concept": "Chemical influences",
+          "difficulty": "core",
+          "style_profile": "MED25-test-bank/formative-inspired"
+        },
+        {
+          "id": "ai_1rzreURT0TD2ajEGXKRIzad7b8VjudyNm_15",
+          "stem": "A marked heart-rate increase above about 180/min may reduce cardiac output because it:",
+          "options": {
+            "A": "Greatly increases filling time",
+            "B": "Reduces ventricular filling and preload",
+            "C": "Always increases stroke volume",
+            "D": "Eliminates afterload"
+          },
+          "answer": "B",
+          "explanation": "Very high HR shortens filling time, reducing EDV/preload, contractility and cardiac output.",
+          "concept": "Heart rate and CO",
+          "difficulty": "application",
+          "style_profile": "MED25-test-bank/formative-inspired"
+        },
+        {
+          "id": "ai_1rzreURT0TD2ajEGXKRIzad7b8VjudyNm_16",
+          "stem": "Why can a trained athlete achieve a much higher maximal cardiac output than an untrained person?",
+          "options": {
+            "A": "The athlete must have a much higher maximal heart rate",
+            "B": "The athlete can generate a much larger stroke volume",
+            "C": "The athlete has no afterload",
+            "D": "The athlete has lower venous return during exercise"
+          },
+          "answer": "B",
+          "explanation": "The lecture attributes the higher maximal CO of trained athletes mainly to a much greater stroke volume.",
+          "concept": "Exercise physiology",
+          "difficulty": "application",
+          "style_profile": "MED25-test-bank/formative-inspired"
+        },
+        {
+          "id": "ai_1rzreURT0TD2ajEGXKRIzad7b8VjudyNm_17",
+          "stem": "Which change would be expected after acute hemorrhage?",
+          "options": {
+            "A": "Increased blood volume and venous return",
+            "B": "Decreased venous return and cardiac output",
+            "C": "Increased EDV and stroke volume",
+            "D": "Increased preload through hypervolemia"
+          },
+          "answer": "B",
+          "explanation": "Hemorrhage reduces blood volume, lowering venous return, preload and cardiac output.",
+          "concept": "Blood volume and CO",
+          "difficulty": "application",
+          "style_profile": "MED25-test-bank/formative-inspired"
+        },
+        {
+          "id": "ai_1rzreURT0TD2ajEGXKRIzad7b8VjudyNm_18",
+          "stem": "Which pair represents the two major determinants of cardiac output?",
+          "options": {
+            "A": "Stroke volume and heart rate",
+            "B": "EDV and ESV only",
+            "C": "Preload and blood viscosity",
+            "D": "Aortic pressure and respiratory rate"
+          },
+          "answer": "A",
+          "explanation": "The lecture identifies stroke volume and heart rate as the two major determinants of cardiac output.",
+          "concept": "Determinants of CO",
+          "difficulty": "core",
+          "style_profile": "MED25-test-bank/formative-inspired"
+        }
+      ]
     }
   ]
 }

@@ -1259,3 +1259,20 @@ body{background:var(--med-bg)!important;color:var(--med-text)!important;font-fea
   .ankiCardImage{margin-top:13px;width:100%}
   .ankiCardImage img{max-height:46vh;border-radius:12px}
 }
+
+/* 2026-09-29 flashcard shuffle control */
+.ankiShuffleBtn{display:inline-flex!important;align-items:center;gap:6px}
+.ankiShuffleBtn>span{font-size:14px;line-height:1}
+.ankiShuffleBtn.active{
+  background:var(--med-blue-soft)!important;
+  color:var(--med-blue)!important;
+  border-color:color-mix(in srgb,var(--med-blue) 35%,var(--med-line))!important
+}
+@media(max-width:700px){
+  .ankiShuffleBtn{
+    min-height:44px!important;
+    padding:8px 10px!important;
+  }
+  .ankiShuffleBtn b{font-size:11px}
+  .ankiShuffleBtn>span{font-size:16px}
+}

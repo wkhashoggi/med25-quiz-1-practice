@@ -1377,3 +1377,21 @@ body.ankiFocusMode .ankiRate{
   body.ankiFocusMode .ankiRatings{grid-template-columns:1fr 1fr!important;gap:8px!important}
   body.ankiFocusMode .ankiRate{min-height:58px!important;font-size:14px!important}
 }
+
+/* 2026-09-29 in-review flashcard shuffle fix */
+.ankiStudyShuffleBtn{
+  display:inline-flex!important;align-items:center;gap:6px;white-space:nowrap
+}
+.ankiStudyShuffleBtn>span{font-size:14px;line-height:1}
+.ankiStudyShuffleBtn.active{
+  background:var(--med-blue-soft)!important;color:var(--med-blue)!important;
+  border-color:color-mix(in srgb,var(--med-blue) 35%,var(--med-line))!important
+}
+body.ankiFocusMode .ankiStudyShuffleBtn{
+  display:inline-flex!important;min-height:40px!important
+}
+@media(max-width:700px){
+  .ankiStudyShuffleBtn{min-height:40px!important;padding:7px 9px!important}
+  .ankiStudyShuffleBtn b{display:none}
+  .ankiStudyShuffleBtn>span{font-size:18px}
+}

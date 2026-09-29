@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-28T11:26:00.000Z",
+  "generated_at": "2026-09-29T13:01:50+03:00",
   "source_root": {
     "id": "1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
     "url": "https://drive.google.com/drive/folders/1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
@@ -7124,6 +7124,201 @@
       "source_validation_date": "2026-09-28",
       "eligibility_status": "allowed",
       "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
+    },
+    {
+      "id": "drive_1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP",
+      "subject": "Pathology",
+      "title": "Pathology of Hypertension",
+      "source_file_id": "1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP",
+      "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view",
+      "source_modified_time": "2026-09-28T13:15:33.861Z",
+      "source_validation": "study_guide_and_lecture_verified",
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
+      "teaching_method": "Interactive lecture",
+      "archived": false,
+      "cards": [
+        {
+          "id": "1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP-c01",
+          "front": "How is systemic hypertension defined in this lecture?",
+          "back": "A sustained increase in resting blood pressure above generally accepted normal levels.",
+          "tags": [
+            "HTN",
+            "Definition"
+          ],
+          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view"
+        },
+        {
+          "id": "1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP-c02",
+          "front": "What proportion of hypertension is essential (primary)?",
+          "back": "About 90–95%; its cause is unknown.",
+          "tags": [
+            "HTN",
+            "Classification"
+          ],
+          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view"
+        },
+        {
+          "id": "1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP-c03",
+          "front": "What are the main secondary hypertension categories listed?",
+          "back": "Renal, endocrine, vascular, and neurogenic causes.",
+          "tags": [
+            "HTN",
+            "Classification"
+          ],
+          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view"
+        },
+        {
+          "id": "1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP-c04",
+          "front": "What vascular lesion is typical of benign hypertension?",
+          "back": "Hyaline arteriolosclerosis.",
+          "tags": [
+            "HTN",
+            "Benign"
+          ],
+          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view"
+        },
+        {
+          "id": "1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP-c05",
+          "front": "What vascular lesion is typical of malignant hypertension?",
+          "back": "Hyperplastic arteriolosclerosis.",
+          "tags": [
+            "HTN",
+            "Malignant"
+          ],
+          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view"
+        },
+        {
+          "id": "1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP-c06",
+          "front": "What clinical findings accompany malignant hypertension in the lecture?",
+          "back": "Rapidly rising BP with renal failure and retinal hemorrhage with papilledema.",
+          "tags": [
+            "HTN",
+            "Malignant"
+          ],
+          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view"
+        },
+        {
+          "id": "1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP-c07",
+          "front": "What four major mechanisms contribute to essential hypertension?",
+          "back": "Reduced renal sodium excretion, increased vascular resistance, genetic factors, and environmental factors.",
+          "tags": [
+            "HTN",
+            "Pathogenesis"
+          ],
+          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view"
+        },
+        {
+          "id": "1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP-c08",
+          "front": "How does reduced renal sodium excretion raise blood pressure?",
+          "back": "It increases fluid volume and cardiac output; a higher BP is then needed to excrete sodium.",
+          "tags": [
+            "HTN",
+            "Pathogenesis"
+          ],
+          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view"
+        },
+        {
+          "id": "1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP-c09",
+          "front": "How can chronic vasoconstriction sustain hypertension?",
+          "back": "It causes permanent arterial wall thickening and sustained elevation of systemic vascular resistance.",
+          "tags": [
+            "HTN",
+            "Pathogenesis"
+          ],
+          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view"
+        },
+        {
+          "id": "1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP-c10",
+          "front": "Which environmental factors can amplify hypertension risk?",
+          "back": "High salt intake, obesity, physical inactivity, stress, smoking, excess alcohol, and limited healthcare access.",
+          "tags": [
+            "HTN",
+            "Risk factors"
+          ],
+          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view"
+        },
+        {
+          "id": "1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP-c11",
+          "front": "What are the three major vascular effects of hypertension?",
+          "back": "Arteriolosclerosis, atherosclerosis, and aortic dissection.",
+          "tags": [
+            "HTN",
+            "Complications"
+          ],
+          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view"
+        },
+        {
+          "id": "1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP-c12",
+          "front": "What are the two histologic forms of arteriolosclerosis in hypertension?",
+          "back": "Hyaline and hyperplastic arteriolosclerosis.",
+          "tags": [
+            "HTN",
+            "Morphology"
+          ],
+          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view"
+        },
+        {
+          "id": "1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP-c13",
+          "front": "Describe hyaline arteriolosclerosis.",
+          "back": "Homogeneous pink hyaline thickening of arteriolar walls with loss of structural detail and luminal narrowing.",
+          "tags": [
+            "HTN",
+            "Morphology"
+          ],
+          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view"
+        },
+        {
+          "id": "1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP-c14",
+          "front": "What causes hyaline arteriolosclerosis according to the lecture?",
+          "back": "Plasma leakage across injured endothelium plus increased ECM production by smooth muscle cells from chronic hemodynamic stress.",
+          "tags": [
+            "HTN",
+            "Morphology"
+          ],
+          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view"
+        },
+        {
+          "id": "1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP-c15",
+          "front": "Describe hyperplastic arteriolosclerosis.",
+          "back": "Onion-skin concentric laminated arteriolar wall thickening with luminal narrowing; laminations contain SMCs and reduplicated basement membrane.",
+          "tags": [
+            "HTN",
+            "Morphology"
+          ],
+          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view"
+        },
+        {
+          "id": "1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP-c16",
+          "front": "What is the main cardiac structural effect of chronic hypertension?",
+          "back": "Left ventricular wall hypertrophy from increased workload, which can progress to heart failure.",
+          "tags": [
+            "HTN",
+            "Heart"
+          ],
+          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view"
+        },
+        {
+          "id": "1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP-c17",
+          "front": "How can hypertension cause renal failure?",
+          "back": "Hyaline or hyperplastic arteriolosclerosis can produce benign or malignant nephrosclerosis and renal failure.",
+          "tags": [
+            "HTN",
+            "Kidney"
+          ],
+          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view"
+        },
+        {
+          "id": "1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP-c18",
+          "front": "What retinal finding is especially associated with malignant hypertension?",
+          "back": "Retinal hemorrhage and exudate with papilledema.",
+          "tags": [
+            "HTN",
+            "Retina"
+          ],
+          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view"
+        }
+      ]
     }
   ],
   "bootstrap_note": "Seeded from current official lecture files; hourly Drive sync will add/update additional decks.",

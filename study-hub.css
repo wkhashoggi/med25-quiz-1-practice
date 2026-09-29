@@ -1276,3 +1276,104 @@ body{background:var(--med-bg)!important;color:var(--med-text)!important;font-fea
   .ankiShuffleBtn b{font-size:11px}
   .ankiShuffleBtn>span{font-size:16px}
 }
+
+/* 2026-09-29 flashcard full-screen focus mode */
+.ankiFocusBtn{
+  display:inline-flex!important;align-items:center;gap:6px;white-space:nowrap
+}
+.ankiFocusBtn>span{font-size:14px;line-height:1}
+.ankiFocusBtn.active{
+  background:var(--med-blue-soft)!important;color:var(--med-blue)!important;
+  border-color:color-mix(in srgb,var(--med-blue) 35%,var(--med-line))!important
+}
+body.ankiFocusMode{overflow:hidden!important;background:var(--med-bg)!important}
+body.ankiFocusMode .appNav,
+body.ankiFocusMode .hero,
+body.ankiFocusMode .mobileThemeToggle,
+body.ankiFocusMode .med25MobilePager{display:none!important}
+body.ankiFocusMode #flashcardsSection{
+  position:fixed!important;inset:0!important;z-index:300!important;
+  width:100vw!important;height:100dvh!important;margin:0!important;padding:0!important;
+  background:var(--med-bg)!important;overflow:hidden!important
+}
+body.ankiFocusMode #flashcardsSection .ankiShell{
+  width:100%!important;height:100dvh!important;max-width:none!important;
+  margin:0!important;border:0!important;border-radius:0!important;box-shadow:none!important;
+  display:flex!important;flex-direction:column!important;background:var(--med-bg)!important
+}
+body.ankiFocusMode #flashcardsSection .ankiBar,
+body.ankiFocusMode #flashcardsSection .flashFocus,
+body.ankiFocusMode #flashcardsSection .flashStatsPanel,
+body.ankiFocusMode #flashcardsSection .ankiOptionsPanel,
+body.ankiFocusMode #flashcardsSection .ankiBrowser{
+  display:none!important
+}
+body.ankiFocusMode #flashStudy{
+  display:flex!important;flex:1 1 auto!important;min-height:0!important;height:100dvh!important;
+  overflow:hidden!important;background:var(--med-bg)!important
+}
+body.ankiFocusMode .ankiStudyTop{
+  flex:0 0 auto!important;padding:10px 14px!important;min-height:58px!important;
+  background:color-mix(in srgb,var(--med-card) 96%,transparent)!important;
+  backdrop-filter:blur(14px)!important
+}
+body.ankiFocusMode .ankiStudyTop .deckName{
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0
+}
+body.ankiFocusMode .ankiKeyboardGuide{display:none!important}
+body.ankiFocusMode .ankiCardWrap{
+  flex:1 1 auto!important;min-height:0!important;overflow:auto!important;
+  padding:22px 18px!important;-webkit-overflow-scrolling:touch
+}
+body.ankiFocusMode .ankiCard{
+  width:min(900px,96%)!important;min-height:min(62vh,520px)!important;
+  padding:42px!important;border-radius:18px!important
+}
+body.ankiFocusMode .ankiCard .front{font-size:28px!important;line-height:1.5!important}
+body.ankiFocusMode .ankiAnswer{font-size:23px!important;line-height:1.55!important}
+body.ankiFocusMode .ankiSource{display:none!important}
+body.ankiFocusMode .ankiBottom{
+  position:sticky!important;bottom:0!important;z-index:320!important;
+  flex:0 0 auto!important;padding:14px 16px calc(14px + env(safe-area-inset-bottom))!important;
+  background:color-mix(in srgb,var(--med-card) 97%,transparent)!important;
+  backdrop-filter:blur(14px)!important
+}
+body.ankiFocusMode .ankiShowAnswer{
+  min-width:min(420px,90vw)!important;min-height:54px!important;font-size:15px!important
+}
+body.ankiFocusMode .ankiRatings{
+  width:min(840px,100%)!important;max-width:840px!important;gap:10px!important
+}
+body.ankiFocusMode .ankiRate{
+  min-height:62px!important;font-size:14px!important;border-radius:12px!important
+}
+@media(max-width:700px){
+  .ankiFocusBtn{min-height:42px!important;padding:8px 10px!important}
+  .ankiFocusBtn b{font-size:10px}
+  body.ankiFocusMode .ankiStudyTop{
+    padding:8px 10px!important;min-height:54px!important;gap:7px!important
+  }
+  body.ankiFocusMode .ankiStudyTop .deckName{
+    font-size:11px!important;max-width:34vw!important
+  }
+  body.ankiFocusMode .ankiStudyTop .counts{font-size:10px!important;gap:5px!important}
+  body.ankiFocusMode .ankiStudyTop #flashBack{min-height:40px!important;padding:7px 9px!important;font-size:10px!important}
+  body.ankiFocusMode .ankiFocusBtn{min-height:40px!important}
+  body.ankiFocusMode .ankiFocusBtn b{display:none}
+  body.ankiFocusMode .ankiFocusBtn>span{font-size:18px}
+  body.ankiFocusMode .ankiCardWrap{padding:12px 8px!important}
+  body.ankiFocusMode .ankiCard{
+    width:100%!important;min-height:58vh!important;padding:28px 20px!important;
+    border-radius:14px!important
+  }
+  body.ankiFocusMode .ankiCard .front{font-size:24px!important;line-height:1.48!important}
+  body.ankiFocusMode .ankiAnswer{font-size:20px!important;line-height:1.5!important}
+  body.ankiFocusMode .ankiBottom{
+    bottom:0!important;padding:10px 10px calc(10px + env(safe-area-inset-bottom))!important
+  }
+  body.ankiFocusMode .ankiShowAnswer{
+    width:100%!important;min-width:0!important;min-height:58px!important;font-size:16px!important
+  }
+  body.ankiFocusMode .ankiRatings{grid-template-columns:1fr 1fr!important;gap:8px!important}
+  body.ankiFocusMode .ankiRate{min-height:58px!important;font-size:14px!important}
+}

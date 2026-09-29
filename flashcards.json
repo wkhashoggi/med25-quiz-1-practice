@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "generated_at": "2026-09-28T11:26:00.000Z",
+  "generated_at": "2026-09-29T15:51:46.442Z",
   "source_root": {
     "id": "1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
     "url": "https://drive.google.com/drive/folders/1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
     "label": "MED25 Circulation & Breathing"
   },
   "source_policy": {
-    "population": "Male",
+    "population": "Male + Female pooled",
     "include": "Only official/doctor lecture material that matches an official Study Guide topic taught as Interactive lecture, Flipped class, or Online lecture.",
     "exclude": [
       "SPP",
@@ -31,7 +31,11 @@
       "Online lecture"
     ],
     "default_eligibility": "deny",
-    "objectives_source": "Study Guide- Circulation and Breathing module- 2026-2027.pdf"
+    "objectives_source": "Study Guide- Circulation and Breathing module- 2026-2027.pdf",
+    "pooled_source_folders": [
+      "1TjCFnpHLfcgQqeYqeAlsfQPkktZSXcBR",
+      "1qELICF1pFL6pQzzOsCpqlY_mMCJdoSWG"
+    ]
   },
   "source_folders": [
     {
@@ -1166,9 +1170,9 @@
       "id": "drive_1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9",
       "subject": "Physiology",
       "title": "Short-Term Regulation of Arterial Blood Pressure",
-      "source_file_id": "1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9",
-      "source_url": "https://drive.google.com/file/d/1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9/view?usp=drivesdk",
-      "source_modified_time": "2026-09-21T03:43:50.562Z",
+      "source_file_id": "1hUhRX6NQW4vC0QZctlopDFzZB_vh7U3h",
+      "source_url": "https://drive.google.com/file/d/1hUhRX6NQW4vC0QZctlopDFzZB_vh7U3h/view?usp=drivesdk",
+      "source_modified_time": "2026-09-22T12:28:03.587Z",
       "archived": false,
       "cards": [
         {
@@ -1179,122 +1183,227 @@
             "Physiology",
             "Short-Term Regulation of Arterial Blood Pressure"
           ],
-          "source_url": "https://drive.google.com/file/d/1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9/view?usp=drivesdk"
+          "source_url": "https://drive.google.com/file/d/1hUhRX6NQW4vC0QZctlopDFzZB_vh7U3h/view?usp=drivesdk"
         },
         {
           "id": "1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9-c02",
-          "front": "What happens to baroreceptor firing when blood pressure rises?",
-          "back": "Stretch increases firing to the medulla.",
+          "front": "What is systolic pressure?",
+          "back": "The maximum arterial pressure during ventricular systole; about 120 mmHg in the lecture example.",
           "tags": [
             "Physiology",
             "Short-Term Regulation of Arterial Blood Pressure"
           ],
-          "source_url": "https://drive.google.com/file/d/1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9/view?usp=drivesdk"
+          "source_url": "https://drive.google.com/file/d/1hUhRX6NQW4vC0QZctlopDFzZB_vh7U3h/view?usp=drivesdk"
         },
         {
           "id": "1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9-c03",
-          "front": "How does the baroreflex respond to high blood pressure?",
-          "back": "It decreases sympathetic and increases parasympathetic output, lowering heart rate, contractility, and vascular tone.",
+          "front": "What is diastolic pressure?",
+          "back": "The minimum arterial pressure during ventricular diastole; about 80 mmHg in the lecture example.",
           "tags": [
             "Physiology",
             "Short-Term Regulation of Arterial Blood Pressure"
           ],
-          "source_url": "https://drive.google.com/file/d/1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9/view?usp=drivesdk"
+          "source_url": "https://drive.google.com/file/d/1hUhRX6NQW4vC0QZctlopDFzZB_vh7U3h/view?usp=drivesdk"
         },
         {
           "id": "1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9-c04",
-          "front": "How does the baroreflex respond to a sudden fall in blood pressure?",
-          "back": "It increases sympathetic activity, causing tachycardia, increased contractility, and vasoconstriction.",
+          "front": "How is pulse pressure calculated?",
+          "back": "Pulse pressure = systolic pressure − diastolic pressure.",
           "tags": [
             "Physiology",
             "Short-Term Regulation of Arterial Blood Pressure"
           ],
-          "source_url": "https://drive.google.com/file/d/1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9/view?usp=drivesdk"
+          "source_url": "https://drive.google.com/file/d/1hUhRX6NQW4vC0QZctlopDFzZB_vh7U3h/view?usp=drivesdk"
         },
         {
           "id": "1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9-c05",
-          "front": "Which cranial nerve carries carotid sinus afferents?",
+          "front": "How is mean arterial pressure approximated at normal heart rates?",
+          "back": "MAP ≈ diastolic pressure + 1/3 of pulse pressure.",
+          "tags": [
+            "Physiology",
+            "Short-Term Regulation of Arterial Blood Pressure"
+          ],
+          "source_url": "https://drive.google.com/file/d/1hUhRX6NQW4vC0QZctlopDFzZB_vh7U3h/view?usp=drivesdk"
+        },
+        {
+          "id": "1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9-c06",
+          "front": "What is the main relationship determining mean ABP?",
+          "back": "Mean ABP = cardiac output × peripheral resistance.",
+          "tags": [
+            "Physiology",
+            "Short-Term Regulation of Arterial Blood Pressure"
+          ],
+          "source_url": "https://drive.google.com/file/d/1hUhRX6NQW4vC0QZctlopDFzZB_vh7U3h/view?usp=drivesdk"
+        },
+        {
+          "id": "1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9-c07",
+          "front": "What does stimulation of the pressor area do?",
+          "back": "Increases sympathetic and decreases vagal activity → tachycardia, increased contractility, vasoconstriction, increased CO and ABP.",
+          "tags": [
+            "Physiology",
+            "Short-Term Regulation of Arterial Blood Pressure"
+          ],
+          "source_url": "https://drive.google.com/file/d/1hUhRX6NQW4vC0QZctlopDFzZB_vh7U3h/view?usp=drivesdk"
+        },
+        {
+          "id": "1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9-c08",
+          "front": "What does stimulation of the depressor/cardioinhibitory area do?",
+          "back": "Increases vagal and decreases sympathetic activity → lower HR, lower contractility/CO, vasodilatation and lower ABP.",
+          "tags": [
+            "Physiology",
+            "Short-Term Regulation of Arterial Blood Pressure"
+          ],
+          "source_url": "https://drive.google.com/file/d/1hUhRX6NQW4vC0QZctlopDFzZB_vh7U3h/view?usp=drivesdk"
+        },
+        {
+          "id": "1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9-c09",
+          "front": "Why does sympathetic tone to arterioles matter at rest?",
+          "back": "It helps maintain normal peripheral resistance and diastolic blood pressure.",
+          "tags": [
+            "Physiology",
+            "Short-Term Regulation of Arterial Blood Pressure"
+          ],
+          "source_url": "https://drive.google.com/file/d/1hUhRX6NQW4vC0QZctlopDFzZB_vh7U3h/view?usp=drivesdk"
+        },
+        {
+          "id": "1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9-c10",
+          "front": "Why does sympathetic tone to veins matter?",
+          "back": "Venoconstriction increases venous return, preload, stroke volume and cardiac output.",
+          "tags": [
+            "Physiology",
+            "Short-Term Regulation of Arterial Blood Pressure"
+          ],
+          "source_url": "https://drive.google.com/file/d/1hUhRX6NQW4vC0QZctlopDFzZB_vh7U3h/view?usp=drivesdk"
+        },
+        {
+          "id": "1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9-c11",
+          "front": "What happens to baroreceptor firing when ABP rises?",
+          "back": "Arterial stretch increases baroreceptor firing to the medulla.",
+          "tags": [
+            "Physiology",
+            "Short-Term Regulation of Arterial Blood Pressure"
+          ],
+          "source_url": "https://drive.google.com/file/d/1hUhRX6NQW4vC0QZctlopDFzZB_vh7U3h/view?usp=drivesdk"
+        },
+        {
+          "id": "1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9-c12",
+          "front": "How does the baroreflex correct high ABP?",
+          "back": "↑ baroreceptor firing → ↑ depressor/vagal and ↓ pressor/sympathetic activity → ↓ HR, contractility and vascular tone.",
+          "tags": [
+            "Physiology",
+            "Short-Term Regulation of Arterial Blood Pressure"
+          ],
+          "source_url": "https://drive.google.com/file/d/1hUhRX6NQW4vC0QZctlopDFzZB_vh7U3h/view?usp=drivesdk"
+        },
+        {
+          "id": "1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9-c13",
+          "front": "How does the baroreflex correct a sudden fall in ABP?",
+          "back": "Reduced baroreceptor firing → increased sympathetic/pressor activity → tachycardia, increased contractility and vasoconstriction.",
+          "tags": [
+            "Physiology",
+            "Short-Term Regulation of Arterial Blood Pressure"
+          ],
+          "source_url": "https://drive.google.com/file/d/1hUhRX6NQW4vC0QZctlopDFzZB_vh7U3h/view?usp=drivesdk"
+        },
+        {
+          "id": "1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9-c14",
+          "front": "Which nerve carries carotid sinus baroreceptor afferents?",
           "back": "Glossopharyngeal nerve (CN IX).",
           "tags": [
             "Physiology",
             "Short-Term Regulation of Arterial Blood Pressure"
           ],
-          "source_url": "https://drive.google.com/file/d/1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9/view?usp=drivesdk"
+          "source_url": "https://drive.google.com/file/d/1hUhRX6NQW4vC0QZctlopDFzZB_vh7U3h/view?usp=drivesdk"
         },
         {
-          "id": "1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9-c06",
-          "front": "Which cranial nerve carries aortic arch baroreceptor afferents?",
+          "id": "1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9-c15",
+          "front": "Which nerve carries aortic arch baroreceptor afferents?",
           "back": "Vagus nerve (CN X).",
           "tags": [
             "Physiology",
             "Short-Term Regulation of Arterial Blood Pressure"
           ],
-          "source_url": "https://drive.google.com/file/d/1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9/view?usp=drivesdk"
+          "source_url": "https://drive.google.com/file/d/1hUhRX6NQW4vC0QZctlopDFzZB_vh7U3h/view?usp=drivesdk"
         },
         {
-          "id": "1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9-c07",
-          "front": "What is the main limitation of baroreceptors in chronic hypertension?",
-          "back": "They reset to the higher pressure and are mainly short-term regulators.",
+          "id": "1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9-c16",
+          "front": "Why are baroreceptors mainly short-term regulators?",
+          "back": "They reset during sustained/chronic pressure changes.",
           "tags": [
             "Physiology",
             "Short-Term Regulation of Arterial Blood Pressure"
           ],
-          "source_url": "https://drive.google.com/file/d/1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9/view?usp=drivesdk"
+          "source_url": "https://drive.google.com/file/d/1hUhRX6NQW4vC0QZctlopDFzZB_vh7U3h/view?usp=drivesdk"
         },
         {
-          "id": "1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9-c08",
-          "front": "What do chemoreceptors respond to?",
-          "back": "Low O₂, high CO₂, and increased H⁺, especially when arterial pressure is low.",
+          "id": "1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9-c17",
+          "front": "When does the peripheral chemoreceptor reflex become especially important?",
+          "back": "When mean ABP falls below about 60 mmHg.",
           "tags": [
             "Physiology",
             "Short-Term Regulation of Arterial Blood Pressure"
           ],
-          "source_url": "https://drive.google.com/file/d/1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9/view?usp=drivesdk"
+          "source_url": "https://drive.google.com/file/d/1hUhRX6NQW4vC0QZctlopDFzZB_vh7U3h/view?usp=drivesdk"
         },
         {
-          "id": "1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9-c09",
+          "id": "1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9-c18",
+          "front": "What stimulates peripheral chemoreceptors in marked hypotension?",
+          "back": "Low PO₂, high PCO₂ and increased H⁺.",
+          "tags": [
+            "Physiology",
+            "Short-Term Regulation of Arterial Blood Pressure"
+          ],
+          "source_url": "https://drive.google.com/file/d/1hUhRX6NQW4vC0QZctlopDFzZB_vh7U3h/view?usp=drivesdk"
+        },
+        {
+          "id": "1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9-c19",
           "front": "Where are peripheral chemoreceptors located?",
-          "back": "Carotid and aortic bodies.",
+          "back": "Carotid bodies and aortic bodies.",
           "tags": [
             "Physiology",
             "Short-Term Regulation of Arterial Blood Pressure"
           ],
-          "source_url": "https://drive.google.com/file/d/1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9/view?usp=drivesdk"
+          "source_url": "https://drive.google.com/file/d/1hUhRX6NQW4vC0QZctlopDFzZB_vh7U3h/view?usp=drivesdk"
         },
         {
-          "id": "1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9-c10",
-          "front": "What is the CNS ischemic response?",
-          "back": "A powerful sympathetic vasoconstrictor response to severe cerebral ischemia.",
+          "id": "1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9-c20",
+          "front": "What are the three major sources of peripheral resistance?",
+          "back": "Vessel diameter, blood viscosity, and vessel length; arteriolar diameter is the main variable determinant within one person.",
           "tags": [
             "Physiology",
             "Short-Term Regulation of Arterial Blood Pressure"
           ],
-          "source_url": "https://drive.google.com/file/d/1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9/view?usp=drivesdk"
+          "source_url": "https://drive.google.com/file/d/1hUhRX6NQW4vC0QZctlopDFzZB_vh7U3h/view?usp=drivesdk"
         },
         {
-          "id": "1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9-c11",
-          "front": "What is the Cushing response?",
-          "back": "Raised intracranial pressure causes cerebral ischemia → sympathetic hypertension, often with reflex bradycardia.",
+          "id": "1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9-c21",
+          "front": "How does cold weather affect ABP in the lecture?",
+          "back": "Cold causes cutaneous vasoconstriction, increasing peripheral resistance and ABP.",
           "tags": [
             "Physiology",
             "Short-Term Regulation of Arterial Blood Pressure"
           ],
-          "source_url": "https://drive.google.com/file/d/1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9/view?usp=drivesdk"
+          "source_url": "https://drive.google.com/file/d/1hUhRX6NQW4vC0QZctlopDFzZB_vh7U3h/view?usp=drivesdk"
         },
         {
-          "id": "1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9-c12",
-          "front": "Which variable is rapidly altered to raise MAP during acute hypotension?",
-          "back": "Both cardiac output and total peripheral resistance are increased by sympathetic activation.",
+          "id": "1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9-c22",
+          "front": "At rest, which autonomic tone predominates at the heart?",
+          "back": "Vagal tone predominates over sympathetic tone.",
           "tags": [
             "Physiology",
             "Short-Term Regulation of Arterial Blood Pressure"
           ],
-          "source_url": "https://drive.google.com/file/d/1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9/view?usp=drivesdk"
+          "source_url": "https://drive.google.com/file/d/1hUhRX6NQW4vC0QZctlopDFzZB_vh7U3h/view?usp=drivesdk"
         }
       ],
-      "needs_source_validation": true,
+      "needs_source_validation": false,
       "eligibility_status": "allowed",
-      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
+      "source_alias_file_ids": [
+        "1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9"
+      ],
+      "source_population": "Female",
+      "source_validation": "lecture_validated"
     },
     {
       "id": "drive_1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg",
@@ -7124,6 +7233,478 @@
       "source_validation_date": "2026-09-28",
       "eligibility_status": "allowed",
       "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
+    },
+    {
+      "id": "drive_1a2GYFwVaioCMtkK4FhARroF7kphyGDwS",
+      "source_file_id": "1a2GYFwVaioCMtkK4FhARroF7kphyGDwS",
+      "subject": "Physiology",
+      "title": "Cardiac Contractility",
+      "source_url": "https://drive.google.com/file/d/1a2GYFwVaioCMtkK4FhARroF7kphyGDwS/view?usp=drivesdk",
+      "source_modified_time": "2026-09-19T22:08:08.790Z",
+      "source_population": "Female",
+      "source_validation": "lecture_validated",
+      "needs_source_validation": false,
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
+      "archived": false,
+      "cards": [
+        {
+          "id": "1a2GYFwVaioCMtkK4FhARroF7kphyGDwS-c01",
+          "front": "What mainly controls contraction in cardiac cells?",
+          "back": "Ca²⁺ influx.",
+          "tags": [
+            "Physiology",
+            "Cardiac Contractility"
+          ],
+          "source_url": "https://drive.google.com/file/d/1a2GYFwVaioCMtkK4FhARroF7kphyGDwS/view?usp=drivesdk"
+        },
+        {
+          "id": "1a2GYFwVaioCMtkK4FhARroF7kphyGDwS-c02",
+          "front": "What is the direct effect of calcium-channel blockers on cardiac contractility?",
+          "back": "They reduce Ca²⁺ entry and have a negative inotropic effect.",
+          "tags": [
+            "Physiology",
+            "Cardiac Contractility"
+          ],
+          "source_url": "https://drive.google.com/file/d/1a2GYFwVaioCMtkK4FhARroF7kphyGDwS/view?usp=drivesdk"
+        },
+        {
+          "id": "1a2GYFwVaioCMtkK4FhARroF7kphyGDwS-c03",
+          "front": "What is preload?",
+          "back": "The resting/initial length of cardiac muscle before contraction.",
+          "tags": [
+            "Physiology",
+            "Cardiac Contractility"
+          ],
+          "source_url": "https://drive.google.com/file/d/1a2GYFwVaioCMtkK4FhARroF7kphyGDwS/view?usp=drivesdk"
+        },
+        {
+          "id": "1a2GYFwVaioCMtkK4FhARroF7kphyGDwS-c04",
+          "front": "What represents preload in the intact heart?",
+          "back": "End-diastolic volume (EDV).",
+          "tags": [
+            "Physiology",
+            "Cardiac Contractility"
+          ],
+          "source_url": "https://drive.google.com/file/d/1a2GYFwVaioCMtkK4FhARroF7kphyGDwS/view?usp=drivesdk"
+        },
+        {
+          "id": "1a2GYFwVaioCMtkK4FhARroF7kphyGDwS-c05",
+          "front": "State the Frank-Starling relationship.",
+          "back": "Within limits, greater initial myocardial fiber length (preload) produces greater force of contraction.",
+          "tags": [
+            "Physiology",
+            "Cardiac Contractility"
+          ],
+          "source_url": "https://drive.google.com/file/d/1a2GYFwVaioCMtkK4FhARroF7kphyGDwS/view?usp=drivesdk"
+        },
+        {
+          "id": "1a2GYFwVaioCMtkK4FhARroF7kphyGDwS-c06",
+          "front": "What is afterload?",
+          "back": "The load/resistance the contracting ventricle must overcome during ejection.",
+          "tags": [
+            "Physiology",
+            "Cardiac Contractility"
+          ],
+          "source_url": "https://drive.google.com/file/d/1a2GYFwVaioCMtkK4FhARroF7kphyGDwS/view?usp=drivesdk"
+        },
+        {
+          "id": "1a2GYFwVaioCMtkK4FhARroF7kphyGDwS-c07",
+          "front": "What represents afterload in the intact left ventricle?",
+          "back": "Aortic pressure.",
+          "tags": [
+            "Physiology",
+            "Cardiac Contractility"
+          ],
+          "source_url": "https://drive.google.com/file/d/1a2GYFwVaioCMtkK4FhARroF7kphyGDwS/view?usp=drivesdk"
+        },
+        {
+          "id": "1a2GYFwVaioCMtkK4FhARroF7kphyGDwS-c08",
+          "front": "How does increased afterload affect shortening velocity?",
+          "back": "It decreases the velocity of myocardial shortening.",
+          "tags": [
+            "Physiology",
+            "Cardiac Contractility"
+          ],
+          "source_url": "https://drive.google.com/file/d/1a2GYFwVaioCMtkK4FhARroF7kphyGDwS/view?usp=drivesdk"
+        },
+        {
+          "id": "1a2GYFwVaioCMtkK4FhARroF7kphyGDwS-c09",
+          "front": "What are the three major factors affecting cardiac muscle performance in the lecture?",
+          "back": "Preload, afterload, and the inotropic state (contractility).",
+          "tags": [
+            "Physiology",
+            "Cardiac Contractility"
+          ],
+          "source_url": "https://drive.google.com/file/d/1a2GYFwVaioCMtkK4FhARroF7kphyGDwS/view?usp=drivesdk"
+        },
+        {
+          "id": "1a2GYFwVaioCMtkK4FhARroF7kphyGDwS-c10",
+          "front": "How does sympathetic stimulation affect atrial contractility?",
+          "back": "It increases atrial contractility.",
+          "tags": [
+            "Physiology",
+            "Cardiac Contractility"
+          ],
+          "source_url": "https://drive.google.com/file/d/1a2GYFwVaioCMtkK4FhARroF7kphyGDwS/view?usp=drivesdk"
+        },
+        {
+          "id": "1a2GYFwVaioCMtkK4FhARroF7kphyGDwS-c11",
+          "front": "How does sympathetic stimulation affect ventricular contractility?",
+          "back": "It increases ventricular contractility.",
+          "tags": [
+            "Physiology",
+            "Cardiac Contractility"
+          ],
+          "source_url": "https://drive.google.com/file/d/1a2GYFwVaioCMtkK4FhARroF7kphyGDwS/view?usp=drivesdk"
+        },
+        {
+          "id": "1a2GYFwVaioCMtkK4FhARroF7kphyGDwS-c12",
+          "front": "How does parasympathetic stimulation affect atrial contractility?",
+          "back": "It decreases atrial contractility.",
+          "tags": [
+            "Physiology",
+            "Cardiac Contractility"
+          ],
+          "source_url": "https://drive.google.com/file/d/1a2GYFwVaioCMtkK4FhARroF7kphyGDwS/view?usp=drivesdk"
+        },
+        {
+          "id": "1a2GYFwVaioCMtkK4FhARroF7kphyGDwS-c13",
+          "front": "How does parasympathetic stimulation affect ventricular contractility?",
+          "back": "The lecture lists no significant direct effect.",
+          "tags": [
+            "Physiology",
+            "Cardiac Contractility"
+          ],
+          "source_url": "https://drive.google.com/file/d/1a2GYFwVaioCMtkK4FhARroF7kphyGDwS/view?usp=drivesdk"
+        },
+        {
+          "id": "1a2GYFwVaioCMtkK4FhARroF7kphyGDwS-c14",
+          "front": "How does sympathetic stimulation of veins affect preload?",
+          "back": "Venoconstriction increases venous return and preload.",
+          "tags": [
+            "Physiology",
+            "Cardiac Contractility"
+          ],
+          "source_url": "https://drive.google.com/file/d/1a2GYFwVaioCMtkK4FhARroF7kphyGDwS/view?usp=drivesdk"
+        },
+        {
+          "id": "1a2GYFwVaioCMtkK4FhARroF7kphyGDwS-c15",
+          "front": "What is the approximate AV nodal delay?",
+          "back": "About 100 ms.",
+          "tags": [
+            "Physiology",
+            "Cardiac Contractility"
+          ],
+          "source_url": "https://drive.google.com/file/d/1a2GYFwVaioCMtkK4FhARroF7kphyGDwS/view?usp=drivesdk"
+        },
+        {
+          "id": "1a2GYFwVaioCMtkK4FhARroF7kphyGDwS-c16",
+          "front": "Why is the AV nodal delay useful?",
+          "back": "It allows atrial depolarization/contraction and emptying before ventricular depolarization and contraction.",
+          "tags": [
+            "Physiology",
+            "Cardiac Contractility"
+          ],
+          "source_url": "https://drive.google.com/file/d/1a2GYFwVaioCMtkK4FhARroF7kphyGDwS/view?usp=drivesdk"
+        },
+        {
+          "id": "1a2GYFwVaioCMtkK4FhARroF7kphyGDwS-c17",
+          "front": "How fast do Purkinje fibers conduct in the lecture?",
+          "back": "About 4 m/s.",
+          "tags": [
+            "Physiology",
+            "Cardiac Contractility"
+          ],
+          "source_url": "https://drive.google.com/file/d/1a2GYFwVaioCMtkK4FhARroF7kphyGDwS/view?usp=drivesdk"
+        },
+        {
+          "id": "1a2GYFwVaioCMtkK4FhARroF7kphyGDwS-c18",
+          "front": "Why is rapid Purkinje conduction important?",
+          "back": "It activates ventricular muscle rapidly so ventricular fibers contract nearly simultaneously.",
+          "tags": [
+            "Physiology",
+            "Cardiac Contractility"
+          ],
+          "source_url": "https://drive.google.com/file/d/1a2GYFwVaioCMtkK4FhARroF7kphyGDwS/view?usp=drivesdk"
+        },
+        {
+          "id": "1a2GYFwVaioCMtkK4FhARroF7kphyGDwS-c19",
+          "front": "What happens when preload rises through increased venous return?",
+          "back": "EDV and initial fiber length rise, increasing contraction force and stroke volume within limits.",
+          "tags": [
+            "Physiology",
+            "Cardiac Contractility"
+          ],
+          "source_url": "https://drive.google.com/file/d/1a2GYFwVaioCMtkK4FhARroF7kphyGDwS/view?usp=drivesdk"
+        },
+        {
+          "id": "1a2GYFwVaioCMtkK4FhARroF7kphyGDwS-c20",
+          "front": "What happens to ventricular performance when afterload becomes very high?",
+          "back": "Shortening/force and cardiac output fall.",
+          "tags": [
+            "Physiology",
+            "Cardiac Contractility"
+          ],
+          "source_url": "https://drive.google.com/file/d/1a2GYFwVaioCMtkK4FhARroF7kphyGDwS/view?usp=drivesdk"
+        },
+        {
+          "id": "1a2GYFwVaioCMtkK4FhARroF7kphyGDwS-c21",
+          "front": "Which autonomic division decreases AV nodal delay?",
+          "back": "Sympathetic stimulation.",
+          "tags": [
+            "Physiology",
+            "Cardiac Contractility"
+          ],
+          "source_url": "https://drive.google.com/file/d/1a2GYFwVaioCMtkK4FhARroF7kphyGDwS/view?usp=drivesdk"
+        },
+        {
+          "id": "1a2GYFwVaioCMtkK4FhARroF7kphyGDwS-c22",
+          "front": "Which autonomic division increases AV nodal delay?",
+          "back": "Parasympathetic stimulation.",
+          "tags": [
+            "Physiology",
+            "Cardiac Contractility"
+          ],
+          "source_url": "https://drive.google.com/file/d/1a2GYFwVaioCMtkK4FhARroF7kphyGDwS/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "id": "drive_1rzreURT0TD2ajEGXKRIzad7b8VjudyNm",
+      "source_file_id": "1rzreURT0TD2ajEGXKRIzad7b8VjudyNm",
+      "subject": "Physiology",
+      "title": "Cardiac Output and Its Control",
+      "source_url": "https://drive.google.com/file/d/1rzreURT0TD2ajEGXKRIzad7b8VjudyNm/view?usp=drivesdk",
+      "source_modified_time": "2026-09-20T17:00:45.309Z",
+      "source_population": "Female",
+      "source_validation": "lecture_validated",
+      "needs_source_validation": false,
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
+      "archived": false,
+      "cards": [
+        {
+          "id": "1rzreURT0TD2ajEGXKRIzad7b8VjudyNm-c01",
+          "front": "What is stroke volume?",
+          "back": "The volume of blood pumped by each ventricle per beat; about 70 mL in the lecture example.",
+          "tags": [
+            "Physiology",
+            "Cardiac Output and Its Control"
+          ],
+          "source_url": "https://drive.google.com/file/d/1rzreURT0TD2ajEGXKRIzad7b8VjudyNm/view?usp=drivesdk"
+        },
+        {
+          "id": "1rzreURT0TD2ajEGXKRIzad7b8VjudyNm-c02",
+          "front": "What is cardiac output?",
+          "back": "The volume of blood pumped by each ventricle per minute.",
+          "tags": [
+            "Physiology",
+            "Cardiac Output and Its Control"
+          ],
+          "source_url": "https://drive.google.com/file/d/1rzreURT0TD2ajEGXKRIzad7b8VjudyNm/view?usp=drivesdk"
+        },
+        {
+          "id": "1rzreURT0TD2ajEGXKRIzad7b8VjudyNm-c03",
+          "front": "What is the cardiac output formula?",
+          "back": "CO = stroke volume × heart rate.",
+          "tags": [
+            "Physiology",
+            "Cardiac Output and Its Control"
+          ],
+          "source_url": "https://drive.google.com/file/d/1rzreURT0TD2ajEGXKRIzad7b8VjudyNm/view?usp=drivesdk"
+        },
+        {
+          "id": "1rzreURT0TD2ajEGXKRIzad7b8VjudyNm-c04",
+          "front": "What is a typical resting cardiac output in the lecture example?",
+          "back": "About 5 L/min (70 mL × 72 beats/min).",
+          "tags": [
+            "Physiology",
+            "Cardiac Output and Its Control"
+          ],
+          "source_url": "https://drive.google.com/file/d/1rzreURT0TD2ajEGXKRIzad7b8VjudyNm/view?usp=drivesdk"
+        },
+        {
+          "id": "1rzreURT0TD2ajEGXKRIzad7b8VjudyNm-c05",
+          "front": "What is ejection fraction?",
+          "back": "The fraction of EDV ejected as stroke volume.",
+          "tags": [
+            "Physiology",
+            "Cardiac Output and Its Control"
+          ],
+          "source_url": "https://drive.google.com/file/d/1rzreURT0TD2ajEGXKRIzad7b8VjudyNm/view?usp=drivesdk"
+        },
+        {
+          "id": "1rzreURT0TD2ajEGXKRIzad7b8VjudyNm-c06",
+          "front": "What is the ejection fraction formula?",
+          "back": "EF = stroke volume ÷ end-diastolic volume.",
+          "tags": [
+            "Physiology",
+            "Cardiac Output and Its Control"
+          ],
+          "source_url": "https://drive.google.com/file/d/1rzreURT0TD2ajEGXKRIzad7b8VjudyNm/view?usp=drivesdk"
+        },
+        {
+          "id": "1rzreURT0TD2ajEGXKRIzad7b8VjudyNm-c07",
+          "front": "What normal EF does the lecture give?",
+          "back": "About 55%.",
+          "tags": [
+            "Physiology",
+            "Cardiac Output and Its Control"
+          ],
+          "source_url": "https://drive.google.com/file/d/1rzreURT0TD2ajEGXKRIzad7b8VjudyNm/view?usp=drivesdk"
+        },
+        {
+          "id": "1rzreURT0TD2ajEGXKRIzad7b8VjudyNm-c08",
+          "front": "What is EDV?",
+          "back": "The volume in a ventricle at the end of diastole; about 130 mL in the lecture.",
+          "tags": [
+            "Physiology",
+            "Cardiac Output and Its Control"
+          ],
+          "source_url": "https://drive.google.com/file/d/1rzreURT0TD2ajEGXKRIzad7b8VjudyNm/view?usp=drivesdk"
+        },
+        {
+          "id": "1rzreURT0TD2ajEGXKRIzad7b8VjudyNm-c09",
+          "front": "What is ESV?",
+          "back": "The volume remaining in a ventricle at the end of systole; about 60 mL in the lecture.",
+          "tags": [
+            "Physiology",
+            "Cardiac Output and Its Control"
+          ],
+          "source_url": "https://drive.google.com/file/d/1rzreURT0TD2ajEGXKRIzad7b8VjudyNm/view?usp=drivesdk"
+        },
+        {
+          "id": "1rzreURT0TD2ajEGXKRIzad7b8VjudyNm-c10",
+          "front": "How is stroke volume related to EDV and ESV?",
+          "back": "SV = EDV − ESV.",
+          "tags": [
+            "Physiology",
+            "Cardiac Output and Its Control"
+          ],
+          "source_url": "https://drive.google.com/file/d/1rzreURT0TD2ajEGXKRIzad7b8VjudyNm/view?usp=drivesdk"
+        },
+        {
+          "id": "1rzreURT0TD2ajEGXKRIzad7b8VjudyNm-c11",
+          "front": "How is EDV related to cardiac output?",
+          "back": "EDV/preload is directly related to stroke volume and cardiac output.",
+          "tags": [
+            "Physiology",
+            "Cardiac Output and Its Control"
+          ],
+          "source_url": "https://drive.google.com/file/d/1rzreURT0TD2ajEGXKRIzad7b8VjudyNm/view?usp=drivesdk"
+        },
+        {
+          "id": "1rzreURT0TD2ajEGXKRIzad7b8VjudyNm-c12",
+          "front": "How is ESV related to stroke volume and cardiac output?",
+          "back": "ESV is inversely related: greater contractility lowers ESV and raises SV/CO.",
+          "tags": [
+            "Physiology",
+            "Cardiac Output and Its Control"
+          ],
+          "source_url": "https://drive.google.com/file/d/1rzreURT0TD2ajEGXKRIzad7b8VjudyNm/view?usp=drivesdk"
+        },
+        {
+          "id": "1rzreURT0TD2ajEGXKRIzad7b8VjudyNm-c13",
+          "front": "What mainly determines preload?",
+          "back": "Venous return.",
+          "tags": [
+            "Physiology",
+            "Cardiac Output and Its Control"
+          ],
+          "source_url": "https://drive.google.com/file/d/1rzreURT0TD2ajEGXKRIzad7b8VjudyNm/view?usp=drivesdk"
+        },
+        {
+          "id": "1rzreURT0TD2ajEGXKRIzad7b8VjudyNm-c14",
+          "front": "State the Frank-Starling effect on cardiac output.",
+          "back": "More venous return → more EDV/preload → stronger contraction → greater SV and CO, within limits.",
+          "tags": [
+            "Physiology",
+            "Cardiac Output and Its Control"
+          ],
+          "source_url": "https://drive.google.com/file/d/1rzreURT0TD2ajEGXKRIzad7b8VjudyNm/view?usp=drivesdk"
+        },
+        {
+          "id": "1rzreURT0TD2ajEGXKRIzad7b8VjudyNm-c15",
+          "front": "What is afterload?",
+          "back": "The resistance the ventricle must overcome to eject blood.",
+          "tags": [
+            "Physiology",
+            "Cardiac Output and Its Control"
+          ],
+          "source_url": "https://drive.google.com/file/d/1rzreURT0TD2ajEGXKRIzad7b8VjudyNm/view?usp=drivesdk"
+        },
+        {
+          "id": "1rzreURT0TD2ajEGXKRIzad7b8VjudyNm-c16",
+          "front": "Give three examples of afterload from the lecture.",
+          "back": "Aortic blood pressure, aortic valve stenosis, and peripheral resistance.",
+          "tags": [
+            "Physiology",
+            "Cardiac Output and Its Control"
+          ],
+          "source_url": "https://drive.google.com/file/d/1rzreURT0TD2ajEGXKRIzad7b8VjudyNm/view?usp=drivesdk"
+        },
+        {
+          "id": "1rzreURT0TD2ajEGXKRIzad7b8VjudyNm-c17",
+          "front": "How does hemorrhage affect venous return?",
+          "back": "It lowers blood volume and decreases venous return.",
+          "tags": [
+            "Physiology",
+            "Cardiac Output and Its Control"
+          ],
+          "source_url": "https://drive.google.com/file/d/1rzreURT0TD2ajEGXKRIzad7b8VjudyNm/view?usp=drivesdk"
+        },
+        {
+          "id": "1rzreURT0TD2ajEGXKRIzad7b8VjudyNm-c18",
+          "front": "How does sympathetic stimulation affect venous return?",
+          "back": "Venoconstriction increases venous return.",
+          "tags": [
+            "Physiology",
+            "Cardiac Output and Its Control"
+          ],
+          "source_url": "https://drive.google.com/file/d/1rzreURT0TD2ajEGXKRIzad7b8VjudyNm/view?usp=drivesdk"
+        },
+        {
+          "id": "1rzreURT0TD2ajEGXKRIzad7b8VjudyNm-c19",
+          "front": "How does standing affect venous return?",
+          "back": "Gravity decreases venous return from veins below the heart.",
+          "tags": [
+            "Physiology",
+            "Cardiac Output and Its Control"
+          ],
+          "source_url": "https://drive.google.com/file/d/1rzreURT0TD2ajEGXKRIzad7b8VjudyNm/view?usp=drivesdk"
+        },
+        {
+          "id": "1rzreURT0TD2ajEGXKRIzad7b8VjudyNm-c20",
+          "front": "How does inspiration affect venous return?",
+          "back": "The respiratory pump increases venous return during inspiration.",
+          "tags": [
+            "Physiology",
+            "Cardiac Output and Its Control"
+          ],
+          "source_url": "https://drive.google.com/file/d/1rzreURT0TD2ajEGXKRIzad7b8VjudyNm/view?usp=drivesdk"
+        },
+        {
+          "id": "1rzreURT0TD2ajEGXKRIzad7b8VjudyNm-c21",
+          "front": "How does very high HR (>180/min) affect cardiac output?",
+          "back": "It reduces ventricular filling/preload and can decrease cardiac output.",
+          "tags": [
+            "Physiology",
+            "Cardiac Output and Its Control"
+          ],
+          "source_url": "https://drive.google.com/file/d/1rzreURT0TD2ajEGXKRIzad7b8VjudyNm/view?usp=drivesdk"
+        },
+        {
+          "id": "1rzreURT0TD2ajEGXKRIzad7b8VjudyNm-c22",
+          "front": "Why can trained athletes reach higher maximal cardiac output?",
+          "back": "Mainly because they can generate a much larger stroke volume, not because of a much higher maximal HR.",
+          "tags": [
+            "Physiology",
+            "Cardiac Output and Its Control"
+          ],
+          "source_url": "https://drive.google.com/file/d/1rzreURT0TD2ajEGXKRIzad7b8VjudyNm/view?usp=drivesdk"
+        }
+      ]
     }
   ],
   "bootstrap_note": "Seeded from current official lecture files; hourly Drive sync will add/update additional decks.",

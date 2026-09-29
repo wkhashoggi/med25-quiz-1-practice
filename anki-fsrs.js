@@ -436,6 +436,7 @@ function ankiInjectKeyboardGuide(){
           '<span><kbd>2</kbd> Hard</span>'+
           '<span><kbd>3</kbd> Good</span>'+
           '<span><kbd>4</kbd> Easy</span>'+
+          '<span><kbd>F</kbd> Full screen</span>'+
           '<span><kbd>S</kbd> Decks</span>'+
         '</div>');
     }
@@ -457,6 +458,68 @@ function ankiInjectKeyboardGuide(){
 function ankiStudyIsVisible(){
   const section=document.getElementById('flashcardsSection'),study=document.getElementById('flashStudy');
   return !!(section&&study&&!section.classList.contains('hidden')&&!study.classList.contains('hidden'));
+}
+let ankiFocusMode=false;
+function ankiUpdateFocusButton(){
+  const btn=document.getElementById('ankiFocusBtn');if(!btn)return;
+  btn.classList.toggle('active',ankiFocusMode);
+  btn.setAttribute('aria-pressed',ankiFocusMode?'true':'false');
+  btn.innerHTML=ankiFocusMode?'<span aria-hidden="true">↙</span><b>Exit focus</b>':'<span aria-hidden="true">⛶</span><b>Full screen</b>';
+  btn.title=ankiFocusMode?'Exit flashcard focus mode (F)':'Enter flashcard full-screen focus mode (F)';
+}
+async function ankiEnterFlashFocus(){
+  if(!ankiStudyIsVisible())return;
+  ankiFocusMode=true;
+  document.body.classList.add('ankiFocusMode');
+  document.getElementById('flashStudy')?.classList.add('ankiFocusActive');
+  ankiUpdateFocusButton();
+  try{
+    const root=document.documentElement;
+    if(!document.fullscreenElement&&root.requestFullscreen){
+      await root.requestFullscreen({navigationUI:'hide'});
+    }else if(!document.fullscreenElement&&root.webkitRequestFullscreen){
+      root.webkitRequestFullscreen();
+    }
+  }catch{}
+}
+async function ankiExitFlashFocus(exitNative=true){
+  ankiFocusMode=false;
+  document.body.classList.remove('ankiFocusMode');
+  document.getElementById('flashStudy')?.classList.remove('ankiFocusActive');
+  ankiUpdateFocusButton();
+  if(exitNative){
+    try{
+      if(document.fullscreenElement&&document.exitFullscreen)await document.exitFullscreen();
+      else if(document.webkitFullscreenElement&&document.webkitExitFullscreen)document.webkitExitFullscreen();
+    }catch{}
+  }
+}
+function ankiToggleFlashFocus(){
+  if(ankiFocusMode)ankiExitFlashFocus(true);
+  else ankiEnterFlashFocus();
+}
+function ankiInjectFocusButton(){
+  const top=document.querySelector('#flashStudy .ankiStudyTop');
+  if(!top||document.getElementById('ankiFocusBtn'))return;
+  const btn=document.createElement('button');
+  btn.id='ankiFocusBtn';btn.type='button';btn.className='ankiBtn ankiFocusBtn';
+  btn.setAttribute('aria-pressed','false');
+  btn.onclick=ankiToggleFlashFocus;
+  const counts=top.querySelector('.counts');
+  if(counts)top.insertBefore(btn,counts);else top.appendChild(btn);
+  ankiUpdateFocusButton();
+
+  const back=document.getElementById('flashBack');
+  if(back&&!back.dataset.focusExitBound){
+    back.dataset.focusExitBound='1';
+    back.addEventListener('click',()=>ankiExitFlashFocus(false),{capture:true});
+  }
+  const onNativeExit=()=>{
+    const nativeActive=!!(document.fullscreenElement||document.webkitFullscreenElement);
+    if(!nativeActive&&ankiFocusMode)ankiExitFlashFocus(false);
+  };
+  document.addEventListener('fullscreenchange',onNativeExit);
+  document.addEventListener('webkitfullscreenchange',onNativeExit);
 }
 function ankiSetupKeyboard(){
   if(window.__med25AnkiKeyboardBound)return;
@@ -481,8 +544,19 @@ function ankiSetupKeyboard(){
       ankiGrade(key==='1'?'again':key==='2'?'hard':key==='3'?'good':'easy');
       return;
     }
+    if(key.toLowerCase()==='f'){
+      e.preventDefault();
+      ankiToggleFlashFocus();
+      return;
+    }
+    if(key==='Escape'&&ankiFocusMode&&!(document.fullscreenElement||document.webkitFullscreenElement)){
+      e.preventDefault();
+      ankiExitFlashFocus(false);
+      return;
+    }
     if(key.toLowerCase()==='s'){
       e.preventDefault();
+      ankiExitFlashFocus(false);
       leaveFlashStudy();
     }
   });
@@ -581,7 +655,7 @@ function ankiShowCongrats(deckIds=flashSession.deckIds||[]){
   document.getElementById('flashRatings').classList.remove('show');
   document.getElementById('flashSource').innerHTML='';
   ['flashRemainNew','flashRemainLearn','flashRemainDue'].forEach(id=>{const e=document.getElementById(id);if(e)e.textContent='0'});
-  const show=document.getElementById('flashShowAnswer');show.style.display='block';show.textContent='Back to Decks';show.onclick=leaveFlashStudy;
+  const show=document.getElementById('flashShowAnswer');show.style.display='block';show.textContent='Back to Decks';show.onclick=()=>{ankiExitFlashFocus(false);leaveFlashStudy()};
 }
 function ankiCardImageHtml(card,side){
   const direct=card?.[side+'_image_url']||'';
@@ -709,7 +783,7 @@ async function ankiInitFSRS(){
     fsrsReady=!!(FSRS?.fsrs&&FSRS?.createEmptyCard&&FSRS?.Rating);
   }catch(e){fsrsLoadError=e;console.error('Could not load FSRS library',e)}
   try{
-    ankiConfig();ankiDaily();ankiMigrateReviewDatesToDaily();ankiInjectOptions();ankiInjectKeyboardGuide();ankiSetupKeyboard();ankiSetupInfoKeyboard();
+    ankiConfig();ankiDaily();ankiMigrateReviewDatesToDaily();ankiInjectOptions();ankiInjectKeyboardGuide();ankiInjectFocusButton();ankiSetupKeyboard();ankiSetupInfoKeyboard();
     dueCardsForDecks=ankiQueue;
     deckCounts=ankiDeckCounts;
     renderFlashDecks=ankiRenderDecks;

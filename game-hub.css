@@ -245,3 +245,27 @@
   .navSvg{width:22px;height:22px}
   .quizStats{grid-template-columns:1fr}
 }
+
+/* 2026-09-30 mobile Quiz tap hardening */
+#tabQuiz{
+  position:relative!important;
+  pointer-events:auto!important;
+  touch-action:manipulation!important;
+  cursor:pointer!important;
+  z-index:3!important;
+  -webkit-tap-highlight-color:transparent!important
+}
+#tabQuiz>*{pointer-events:none!important}
+.quizSection{position:relative;z-index:1}
+@media(max-width:700px){
+  .appNavLinks{
+    display:grid!important;
+    grid-template-columns:repeat(5,minmax(0,1fr))!important;
+    overflow:visible!important
+  }
+  #tabQuiz{
+    min-width:0!important;
+    width:100%!important;
+    min-height:52px!important
+  }
+}

@@ -430,7 +430,7 @@ function gameRenderLeaderboard(){
     return '<div class="gameLeaderboardRow '+(isMe?'me':'')+'"><span class="gameRank">'+medal+'</span>'+gameAvatarMarkup(r,'small')+
       '<b>'+esc(r.username||'Student')+(isMe?' <small>you</small>':'')+'<em>Lv '+lv.level+' · '+lv.title+'</em></b>'+
       '<strong>'+gameLeaderboardValue(r,gameLeaderboardMode).toLocaleString()+' XP</strong></div>';
-  }).join('')+(rows.length>10?'<button type="button" id="gameLeaderboardExpand" class="gameLeaderboardExpand">'+(gameLeaderboardExpanded?'Show top 10 ↑':'Show all '+rows.length+' ↓')+'</button>':'');
+  }).join('')+(rows.length>10?'<button type="button" id="gameLeaderboardExpand" class="gameLeaderboardExpand">'+(gameLeaderboardExpanded?'Show top 10 ↑':'Show all ↓')+'</button>':'');
   document.getElementById('gameLeaderboardExpand')?.addEventListener('click',()=>{gameLeaderboardExpanded=!gameLeaderboardExpanded;gameRenderLeaderboard()});
 }
 

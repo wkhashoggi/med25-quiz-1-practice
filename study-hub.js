@@ -154,7 +154,11 @@ async function initAIQuestions(){
   const legacyModule=document.getElementById('module');if(legacyModule){legacyModule.value='';legacyModule.style.display='none'}
   aiState.subject='';aiState.lecture='';
   populateAIFilters();setupAdvancedQuestionFilters();if(!document.getElementById('aiSection')?.classList.contains('hidden'))renderAI();if(!document.getElementById('questionSection')?.classList.contains('hidden'))render();if(med25HomeVisible())renderHome();else med25MarkHomeDirty(false);
-  try{window.med25GameUpdateQuizBadge?.();window.med25GameRefreshQuiz?.()}catch{}
+  try{
+    window.med25GameUpdateQuizBadge?.();
+    window.med25GameRefreshQuiz?.();
+    window.med25GameRefreshMock?.();
+  }catch{}
 }
 function setupAIControls(){
   const search=document.getElementById('aiSearch'),subject=document.getElementById('aiSubject'),lecture=document.getElementById('aiLecture');
@@ -210,6 +214,9 @@ function sgQuestionLecture(kind,q){
   const mapped=studyGuideQuestionMap?.[kind]?.[q.id];
   return mapped&&mapped.lecture_id?mapped:sgFallback(kind,q);
 }
+window.med25GameBridge=window.med25GameBridge||{};
+window.med25GameBridge.questionLecture=(kind,q)=>sgQuestionLecture(kind,q);
+window.med25GameBridge.studyLibrariesReady=()=>!!(studyGuideCatalog?.subjects?.length);
 function qaStatusPass(p,status){
   if(status==='all')return true;
   if(status==='unanswered')return !p?.answered;

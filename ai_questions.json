@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-30T17:46:40.756Z",
+  "generated_at": "2026-09-30T17:59:19.589Z",
   "source_root": {
     "id": "1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
     "url": "https://drive.google.com/drive/folders/1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
@@ -3984,190 +3984,341 @@
       "title": "Cholesterol Metabolism",
       "source_url": "https://drive.google.com/file/d/1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov/view?usp=drivesdk",
       "source_modified_time": "2026-09-07T18:33:38.568Z",
-      "source_validation": "pending_lecture_validation",
+      "source_validation": "lecture_verified_quality_rebuilt",
       "archived": false,
       "questions": [
         {
           "id": "ai_1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov_01",
-          "stem": "Which of the following best describes the rate-limiting enzyme of cholesterol synthesis?",
+          "stem": "Which molecule is the starting substrate for cholesterol synthesis?",
           "options": {
-            "A": "HMG-CoA to mevalonate.",
-            "B": "Statins.",
-            "C": "It favors phosphorylation and inhibition of the enzyme.",
-            "D": "HMG-CoA reductase."
+            "A": "Acetyl-CoA",
+            "B": "Heme",
+            "C": "Glycerol",
+            "D": "Urea"
           },
-          "answer": "D",
-          "explanation": "HMG-CoA reductase.",
-          "concept": "Cholesterol Metabolism",
-          "difficulty": "application",
+          "answer": "A",
+          "explanation": "Cholesterol is synthesized from acetyl-CoA.",
+          "concept": "Synthesis",
+          "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov/view?usp=drivesdk",
-          "source_card_id": "1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov-c01",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov_02",
-          "stem": "Which of the following is the correct location for cholesterol synthesis mainly occur?",
+          "stem": "Which enzyme catalyzes the rate-limiting step of cholesterol synthesis?",
           "options": {
-            "A": "It suppresses cholesterol synthesis by downregulating the enzyme.",
-            "B": "It favors phosphorylation and inhibition of the enzyme.",
-            "C": "Especially liver; synthesis occurs in the cytosol and smooth ER.",
-            "D": "It promotes the active dephosphorylated state and favors cholesterol synthesis."
+            "A": "HMG-CoA synthase",
+            "B": "Squalene synthase",
+            "C": "ACAT",
+            "D": "HMG-CoA reductase"
           },
-          "answer": "C",
-          "explanation": "Especially liver; synthesis occurs in the cytosol and smooth ER.",
-          "concept": "Cholesterol Metabolism",
+          "answer": "D",
+          "explanation": "HMG-CoA reductase converts HMG-CoA to mevalonate.",
+          "concept": "Rate limiting",
           "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov/view?usp=drivesdk",
-          "source_card_id": "1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov-c02",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov_03",
-          "stem": "Which of the following best describes HMG-CoA reductase convert?",
+          "stem": "Where does cholesterol synthesis occur at the subcellular level?",
           "options": {
-            "A": "It favors phosphorylation and inhibition of the enzyme.",
-            "B": "HMG-CoA to mevalonate.",
-            "C": "HMG-CoA reductase.",
-            "D": "Statins."
+            "A": "Lysosome",
+            "B": "Nucleus",
+            "C": "Cytoplasm",
+            "D": "Mitochondrial matrix only"
           },
-          "answer": "B",
-          "explanation": "HMG-CoA to mevalonate.",
-          "concept": "Cholesterol Metabolism",
-          "difficulty": "understanding",
+          "answer": "C",
+          "explanation": "The lecture gives the cytoplasm as the subcellular site.",
+          "concept": "Site",
+          "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov/view?usp=drivesdk",
-          "source_card_id": "1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov-c03",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov_04",
-          "stem": "Which of the following best describes how high intracellular cholesterol affect HMG-CoA reductase?",
+          "stem": "Which cofactor is used in cholesterol reduction reactions?",
           "options": {
-            "A": "It suppresses cholesterol synthesis by downregulating the enzyme.",
-            "B": "It favors phosphorylation and inhibition of the enzyme.",
-            "C": "It promotes the active dephosphorylated state and favors cholesterol synthesis.",
-            "D": "Especially liver; synthesis occurs in the cytosol and smooth ER."
+            "A": "Vitamin B12",
+            "B": "NADPH",
+            "C": "FADH2",
+            "D": "Biotin"
           },
-          "answer": "A",
-          "explanation": "It suppresses cholesterol synthesis by downregulating the enzyme.",
-          "concept": "Cholesterol Metabolism",
-          "difficulty": "application",
+          "answer": "B",
+          "explanation": "NADPH is used as the reducing cofactor.",
+          "concept": "Cofactor",
+          "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov/view?usp=drivesdk",
-          "source_card_id": "1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov-c04",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov_05",
-          "stem": "Which of the following best describes how insulin affect HMG-CoA reductase?",
+          "stem": "Cytosolic HMG-CoA is converted to what by HMG-CoA reductase?",
           "options": {
-            "A": "Membranes, steroid hormones, bile acids, and vitamin D.",
-            "B": "It suppresses cholesterol synthesis by downregulating the enzyme.",
-            "C": "Especially liver; synthesis occurs in the cytosol and smooth ER.",
-            "D": "It promotes the active dephosphorylated state and favors cholesterol synthesis."
+            "A": "Mevalonate",
+            "B": "Acetoacetate",
+            "C": "Squalene",
+            "D": "Lanosterol"
           },
-          "answer": "D",
-          "explanation": "It promotes the active dephosphorylated state and favors cholesterol synthesis.",
-          "concept": "Cholesterol Metabolism",
+          "answer": "A",
+          "explanation": "The rate-limiting reaction forms mevalonate.",
+          "concept": "Pathway",
           "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov/view?usp=drivesdk",
-          "source_card_id": "1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov-c05",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov_06",
-          "stem": "Which of the following best describes how glucagon affect HMG-CoA reductase?",
+          "stem": "Two farnesyl pyrophosphate molecules condense to form what?",
           "options": {
-            "A": "It promotes the active dephosphorylated state and favors cholesterol synthesis.",
-            "B": "Especially liver; synthesis occurs in the cytosol and smooth ER.",
-            "C": "It favors phosphorylation and inhibition of the enzyme.",
-            "D": "It suppresses cholesterol synthesis by downregulating the enzyme."
+            "A": "Lanosterol",
+            "B": "Cholesterol",
+            "C": "Geranyl pyrophosphate",
+            "D": "Squalene"
           },
-          "answer": "C",
-          "explanation": "It favors phosphorylation and inhibition of the enzyme.",
-          "concept": "Cholesterol Metabolism",
-          "difficulty": "understanding",
+          "answer": "D",
+          "explanation": "Squalene synthase joins two FPP molecules to form squalene.",
+          "concept": "Pathway",
+          "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov/view?usp=drivesdk",
-          "source_card_id": "1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov-c06",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov_07",
-          "stem": "What drugs directly inhibit HMG-CoA reductase?",
+          "stem": "Squalene cyclization ultimately produces which 30-carbon sterol?",
           "options": {
-            "A": "It favors phosphorylation and inhibition of the enzyme.",
-            "B": "Statins.",
-            "C": "HMG-CoA reductase.",
-            "D": "HMG-CoA to mevalonate."
+            "A": "Mevalonate",
+            "B": "IPP",
+            "C": "Lanosterol",
+            "D": "Cholesterol"
           },
-          "answer": "B",
-          "explanation": "Statins.",
-          "concept": "Cholesterol Metabolism",
-          "difficulty": "application",
+          "answer": "C",
+          "explanation": "Squalene undergoes cyclization to lanosterol.",
+          "concept": "Pathway",
+          "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov/view?usp=drivesdk",
-          "source_card_id": "1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov-c07",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov_08",
-          "stem": "Which of the following best describes major uses of cholesterol in the body?",
+          "stem": "Which enzyme stores excess intracellular cholesterol as cholesterol esters?",
           "options": {
-            "A": "Membranes, steroid hormones, bile acids, and vitamin D.",
-            "B": "It promotes the active dephosphorylated state and favors cholesterol synthesis.",
-            "C": "It favors phosphorylation and inhibition of the enzyme.",
-            "D": "Especially liver; synthesis occurs in the cytosol and smooth ER."
-          },
-          "answer": "A",
-          "explanation": "Membranes, steroid hormones, bile acids, and vitamin D.",
-          "concept": "Cholesterol Metabolism",
-          "difficulty": "core",
-          "source_url": "https://drive.google.com/file/d/1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov/view?usp=drivesdk",
-          "source_card_id": "1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov-c08",
-          "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
-        },
-        {
-          "id": "ai_1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov_formcase01",
-          "stem": "A patient with high LDL cholesterol is started on a drug that directly blocks the rate-limiting enzyme of cholesterol synthesis. Which drug class produces this effect?",
-          "options": {
-            "A": "It favors phosphorylation and inhibition of the enzyme.",
-            "B": "Statins.",
-            "C": "HMG-CoA reductase.",
-            "D": "HMG-CoA to mevalonate."
+            "A": "CETP",
+            "B": "ACAT",
+            "C": "LCAT",
+            "D": "LPL"
           },
           "answer": "B",
-          "explanation": "Statins.",
-          "concept": "Cholesterol Metabolism — formative-style case",
+          "explanation": "ACAT esterifies excess intracellular free cholesterol.",
+          "concept": "Regulation",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov_09",
+          "stem": "When cholesterol enters a cell, what happens to LDL receptor synthesis?",
+          "options": {
+            "A": "It decreases",
+            "B": "It increases",
+            "C": "It is unchanged",
+            "D": "It becomes the rate-limiting step"
+          },
+          "answer": "A",
+          "explanation": "Cellular cholesterol decreases LDL-receptor synthesis.",
+          "concept": "Regulation",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov_10",
+          "stem": "What is the active covalent state of HMG-CoA reductase?",
+          "options": {
+            "A": "Phosphorylated",
+            "B": "Glycosylated",
+            "C": "Acetylated",
+            "D": "Dephosphorylated"
+          },
+          "answer": "D",
+          "explanation": "The dephosphorylated form is active.",
+          "concept": "Regulation",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov_11",
+          "stem": "Which hormone promotes activation of HMG-CoA reductase in the lecture?",
+          "options": {
+            "A": "Epinephrine",
+            "B": "Cortisol",
+            "C": "Insulin",
+            "D": "Glucagon"
+          },
+          "answer": "C",
+          "explanation": "Insulin stimulates phosphatase activity and activates HMGR.",
+          "concept": "Hormonal regulation",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov_12",
+          "stem": "Which enzyme phosphorylates and inactivates HMG-CoA reductase?",
+          "options": {
+            "A": "HMG-CoA synthase",
+            "B": "AMP-activated protein kinase",
+            "C": "Protein kinase A only",
+            "D": "ACAT"
+          },
+          "answer": "B",
+          "explanation": "AMPK catalyzes HMGR phosphorylation.",
+          "concept": "Regulation",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov_13",
+          "stem": "Statins such as lovastatin act as what at HMG-CoA reductase?",
+          "options": {
+            "A": "Competitive inhibitors",
+            "B": "Irreversible activators",
+            "C": "Allosteric activators",
+            "D": "Substrates"
+          },
+          "answer": "A",
+          "explanation": "The lecture describes lovastatin as a competitive HMGR inhibitor.",
+          "concept": "Drugs",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov_14",
+          "stem": "Which is a major fate by which intact cholesterol leaves the body?",
+          "options": {
+            "A": "Conversion to glucose",
+            "B": "Conversion to urea",
+            "C": "Renal filtration of free cholesterol",
+            "D": "Conversion to bile acids and bile salts"
+          },
+          "answer": "D",
+          "explanation": "Cholesterol is removed through bile acid/salt formation and biliary excretion.",
+          "concept": "Degradation",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov_15",
+          "stem": "Which three sterols are listed as the main fecal sterols?",
+          "options": {
+            "A": "Lanosterol, heme and bilirubin",
+            "B": "Squalene, bile acid and urea",
+            "C": "Cholesterol, cholestanol and coprostanol",
+            "D": "Cholesterol, cortisol and aldosterone"
+          },
+          "answer": "C",
+          "explanation": "The lecture lists cholesterol, cholestanol and coprostanol.",
+          "concept": "Degradation",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov_16",
+          "stem": "Cholesterol gallstones may form when biliary cholesterol exceeds the solubilizing capacity of what?",
+          "options": {
+            "A": "Hemoglobin and heme",
+            "B": "Bile salts and phospholipids",
+            "C": "Albumin and globulins",
+            "D": "Glucose and amino acids"
+          },
+          "answer": "B",
+          "explanation": "Excess cholesterol precipitates when bile salts and phospholipids cannot keep it dissolved.",
+          "concept": "Gallstones",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov_17",
+          "stem": "A cell receives abundant LDL-derived cholesterol. Which combined response is expected?",
+          "options": {
+            "A": "Reduced HMGR, increased ACAT, reduced LDL receptors",
+            "B": "Increased HMGR, reduced ACAT, increased LDL receptors",
+            "C": "Increased HMGR only",
+            "D": "No regulatory response"
+          },
+          "answer": "A",
+          "explanation": "Cellular cholesterol suppresses synthesis and uptake while promoting ester storage.",
+          "concept": "Application",
           "difficulty": "application",
           "source_url": "https://drive.google.com/file/d/1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov/view?usp=drivesdk",
-          "source_card_id": "1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov-c07",
-          "style_profile": "KAU-formative-case-inspired",
-          "quality_status": "hold",
-          "exam_ready": false,
-          "case_style": "formative_short_case",
-          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov_18",
+          "stem": "Which tissues are highlighted as especially active in cholesterol synthesis?",
+          "options": {
+            "A": "Spleen and bone only",
+            "B": "Brain only",
+            "C": "Kidney only",
+            "D": "Liver, intestine and reproductive organs"
+          },
+          "answer": "D",
+          "explanation": "All nucleated cells can synthesize cholesterol, especially liver, intestine and reproductive organs.",
+          "concept": "Site",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
         }
       ],
       "eligibility_status": "allowed",
       "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
-      "quality_status": "hold",
-      "quality_reviewed_at": "2026-09-30T15:36:28.081Z",
+      "quality_status": "pass",
+      "quality_reviewed_at": "2026-09-30T17:59:19.585Z",
       "quality_policy_version": 2,
-      "quality_reason": "Legacy AI set used other questions' correct answers as distractors; withheld until objective-led rebuild.",
-      "exam_ready": false
+      "quality_reason": "Rebuilt directly from official 2026–27 lecture content.",
+      "exam_ready": true
     },
     {
       "id": "ai_set_1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs",
@@ -4176,190 +4327,377 @@
       "title": "Heme Catabolism and Bilirubin",
       "source_url": "https://drive.google.com/file/d/1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs/view?usp=drivesdk",
       "source_modified_time": "2026-08-31T22:58:35.111Z",
-      "source_validation": "pending_lecture_validation",
+      "source_validation": "lecture_verified_quality_rebuilt",
       "archived": false,
       "questions": [
         {
           "id": "ai_1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs_01",
-          "stem": "Where are senescent RBCs mainly removed?",
+          "stem": "What is the end product of heme catabolism?",
           "options": {
-            "A": "It is water-insoluble and albumin-bound.",
-            "B": "Gut bacteria convert it to urobilinogen.",
-            "C": "UDP-glucuronyl transferase.",
-            "D": "Reticuloendothelial macrophages, especially spleen, liver, and bone marrow."
+            "A": "Bilirubin",
+            "B": "Cholesterol",
+            "C": "Urea",
+            "D": "Creatinine"
           },
-          "answer": "D",
-          "explanation": "Reticuloendothelial macrophages, especially spleen, liver, and bone marrow.",
-          "concept": "Heme Catabolism and Bilirubin",
-          "difficulty": "application",
+          "answer": "A",
+          "explanation": "Bilirubin is the end product of heme catabolism.",
+          "concept": "Overview",
+          "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs/view?usp=drivesdk",
-          "source_card_id": "1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs-c01",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs_02",
-          "stem": "What enzyme opens the heme ring?",
+          "stem": "What are the principal sites of heme catabolism?",
           "options": {
-            "A": "Biliverdin.",
-            "B": "Biliverdin reductase.",
-            "C": "Heme oxygenase.",
-            "D": "Bound to albumin."
+            "A": "Kidney and pancreas",
+            "B": "Heart and lung",
+            "C": "Bone and skin",
+            "D": "Spleen and liver"
           },
-          "answer": "C",
-          "explanation": "Heme oxygenase.",
-          "concept": "Heme Catabolism and Bilirubin",
+          "answer": "D",
+          "explanation": "Old RBCs are degraded mainly in the reticuloendothelial system of spleen and liver.",
+          "concept": "Sites",
           "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs/view?usp=drivesdk",
-          "source_card_id": "1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs-c02",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs_03",
-          "stem": "Which of the following best describes the first colored product of heme breakdown?",
+          "stem": "Heme oxygenase converts heme into what pigment?",
           "options": {
-            "A": "Bound to albumin.",
-            "B": "Biliverdin.",
-            "C": "Biliverdin reductase.",
-            "D": "Heme oxygenase."
+            "A": "Urobilinogen",
+            "B": "Stercobilin",
+            "C": "Biliverdin",
+            "D": "Bilirubin diglucuronide"
           },
-          "answer": "B",
-          "explanation": "Biliverdin.",
-          "concept": "Heme Catabolism and Bilirubin",
-          "difficulty": "understanding",
+          "answer": "C",
+          "explanation": "Heme oxygenase forms water-soluble green biliverdin.",
+          "concept": "Pathway",
+          "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs/view?usp=drivesdk",
-          "source_card_id": "1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs-c03",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs_04",
-          "stem": "What converts biliverdin to bilirubin?",
+          "stem": "Which products are released during conversion of heme to biliverdin?",
           "options": {
-            "A": "Biliverdin reductase.",
-            "B": "Biliverdin.",
-            "C": "Bound to albumin.",
-            "D": "Heme oxygenase."
+            "A": "Glucose and lactate",
+            "B": "Ferric iron and carbon monoxide",
+            "C": "Calcium and oxygen",
+            "D": "Ammonia and urea"
           },
-          "answer": "A",
-          "explanation": "Biliverdin reductase.",
-          "concept": "Heme Catabolism and Bilirubin",
-          "difficulty": "application",
+          "answer": "B",
+          "explanation": "Heme oxygenase releases ferric iron and carbon monoxide.",
+          "concept": "Pathway",
+          "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs/view?usp=drivesdk",
-          "source_card_id": "1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs-c04",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs_05",
-          "stem": "Which of the following best describes how unconjugated bilirubin transported in plasma?",
+          "stem": "Biliverdin is converted to bilirubin by which enzyme?",
           "options": {
-            "A": "It is water-insoluble and albumin-bound.",
-            "B": "Heme oxygenase.",
-            "C": "Biliverdin reductase.",
-            "D": "Bound to albumin."
+            "A": "Biliverdin reductase",
+            "B": "Heme oxygenase",
+            "C": "UDP glucuronyl transferase",
+            "D": "ACAT"
           },
-          "answer": "D",
-          "explanation": "Bound to albumin.",
-          "concept": "Heme Catabolism and Bilirubin",
+          "answer": "A",
+          "explanation": "Biliverdin reductase produces bilirubin.",
+          "concept": "Pathway",
           "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs/view?usp=drivesdk",
-          "source_card_id": "1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs-c05",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs_06",
-          "stem": "Which of the following best explains why is unconjugated bilirubin not excreted in urine?",
+          "stem": "How is unconjugated bilirubin transported in plasma?",
           "options": {
-            "A": "Gut bacteria convert it to urobilinogen.",
-            "B": "Biliverdin reductase.",
-            "C": "It is water-insoluble and albumin-bound.",
-            "D": "Bound to albumin."
+            "A": "Freely dissolved in water",
+            "B": "Bound to transferrin",
+            "C": "Inside platelets",
+            "D": "Bound to albumin"
           },
-          "answer": "C",
-          "explanation": "It is water-insoluble and albumin-bound.",
-          "concept": "Heme Catabolism and Bilirubin",
-          "difficulty": "understanding",
+          "answer": "D",
+          "explanation": "Unconjugated bilirubin is water insoluble and travels as a bilirubin-albumin complex.",
+          "concept": "Transport",
+          "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs/view?usp=drivesdk",
-          "source_card_id": "1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs-c06",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs_07",
-          "stem": "What enzyme conjugates bilirubin in the liver?",
+          "stem": "Which enzyme conjugates bilirubin in hepatocytes?",
           "options": {
-            "A": "Heme oxygenase.",
-            "B": "UDP-glucuronyl transferase.",
-            "C": "Biliverdin reductase.",
-            "D": "Bound to albumin."
+            "A": "Biliverdin reductase",
+            "B": "LCAT",
+            "C": "UDP glucuronyl transferase",
+            "D": "Heme oxygenase"
           },
-          "answer": "B",
-          "explanation": "UDP-glucuronyl transferase.",
-          "concept": "Heme Catabolism and Bilirubin",
-          "difficulty": "application",
+          "answer": "C",
+          "explanation": "UDP glucuronyl transferase forms bilirubin glucuronides.",
+          "concept": "Conjugation",
+          "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs/view?usp=drivesdk",
-          "source_card_id": "1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs-c07",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs_08",
-          "stem": "What happens to conjugated bilirubin after secretion into bile?",
+          "stem": "What is the rate-limiting step of bilirubin metabolism according to the lecture?",
           "options": {
-            "A": "Gut bacteria convert it to urobilinogen.",
-            "B": "It is water-insoluble and albumin-bound.",
-            "C": "Biliverdin reductase.",
-            "D": "Bound to albumin."
+            "A": "Intestinal oxidation",
+            "B": "Secretion of conjugated bilirubin into biliary canaliculi",
+            "C": "Heme breakdown",
+            "D": "Albumin binding"
           },
-          "answer": "A",
-          "explanation": "Gut bacteria convert it to urobilinogen.",
-          "concept": "Heme Catabolism and Bilirubin",
+          "answer": "B",
+          "explanation": "Active secretion of conjugated bilirubin is the rate-limiting step.",
+          "concept": "Secretion",
           "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs/view?usp=drivesdk",
-          "source_card_id": "1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs-c08",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
-          "id": "ai_1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs_formcase01",
-          "stem": "A patient has predominantly unconjugated hyperbilirubinemia. Urine testing shows no bilirubin. Which property best explains this finding?",
+          "id": "ai_1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs_09",
+          "stem": "Intestinal bacteria convert conjugated bilirubin into what?",
           "options": {
-            "A": "Gut bacteria convert it to urobilinogen.",
-            "B": "Biliverdin reductase.",
-            "C": "It is water-insoluble and albumin-bound.",
-            "D": "Bound to albumin."
+            "A": "Urobilinogen",
+            "B": "Biliverdin",
+            "C": "Heme",
+            "D": "Albumin"
+          },
+          "answer": "A",
+          "explanation": "Bacterial deconjugation and reduction forms urobilinogen.",
+          "concept": "Gut",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs_10",
+          "stem": "Which pigment gives feces their brown color?",
+          "options": {
+            "A": "Unconjugated bilirubin",
+            "B": "Biliverdin",
+            "C": "Heme",
+            "D": "Urobilin/stercobilin"
+          },
+          "answer": "D",
+          "explanation": "Most urobilinogen is oxidized to brown urobilin/stercobilin.",
+          "concept": "Gut",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs_11",
+          "stem": "Which bilirubin fraction can appear in urine?",
+          "options": {
+            "A": "Albumin-bound bilirubin only",
+            "B": "Neither fraction",
+            "C": "Conjugated bilirubin",
+            "D": "Unconjugated bilirubin"
           },
           "answer": "C",
-          "explanation": "It is water-insoluble and albumin-bound.",
-          "concept": "Heme Catabolism and Bilirubin — formative-style case",
+          "explanation": "Conjugated bilirubin is water soluble and can be excreted in urine.",
+          "concept": "Plasma bilirubin",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs_12",
+          "stem": "A patient has hemolysis with increased indirect bilirubin. Which urine finding is expected?",
+          "options": {
+            "A": "Bilirubinuria from unconjugated bilirubin",
+            "B": "Increased urobilinogen without bilirubinuria",
+            "C": "Conjugated bilirubin with absent urobilinogen",
+            "D": "No urobilinogen"
+          },
+          "answer": "B",
+          "explanation": "Hemolytic jaundice increases urobilinogen; unconjugated bilirubin is not excreted in urine.",
+          "concept": "Hemolytic jaundice",
           "difficulty": "application",
           "source_url": "https://drive.google.com/file/d/1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs/view?usp=drivesdk",
-          "source_card_id": "1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs-c06",
-          "style_profile": "KAU-formative-case-inspired",
-          "quality_status": "hold",
-          "exam_ready": false,
-          "case_style": "formative_short_case",
-          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs_13",
+          "stem": "A patient has complete biliary obstruction. Which pattern is expected?",
+          "options": {
+            "A": "Conjugated hyperbilirubinemia, dark urine, absent urine urobilinogen and pale stool",
+            "B": "Unconjugated hyperbilirubinemia with dark stool",
+            "C": "Normal bilirubin with dark stool",
+            "D": "No bilirubinuria with high urobilinogen"
+          },
+          "answer": "A",
+          "explanation": "Obstruction causes conjugated bilirubin reflux, bilirubinuria, absent urobilinogen and clay-colored stool.",
+          "concept": "Obstructive jaundice",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs_14",
+          "stem": "Hepatocyte dysfunction may produce which plasma bilirubin pattern?",
+          "options": {
+            "A": "Only unconjugated bilirubin in every case",
+            "B": "Only conjugated bilirubin in every case",
+            "C": "No bilirubin elevation",
+            "D": "Both conjugated and unconjugated bilirubin elevation"
+          },
+          "answer": "D",
+          "explanation": "Hepatic jaundice can impair uptake, conjugation and secretion, producing mixed hyperbilirubinemia.",
+          "concept": "Hepatic jaundice",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs_15",
+          "stem": "Physiological neonatal jaundice mainly reflects immaturity of what?",
+          "options": {
+            "A": "Albumin synthesis",
+            "B": "Intestinal urobilin oxidation",
+            "C": "Bilirubin-conjugating enzymes",
+            "D": "Heme oxygenase"
+          },
+          "answer": "C",
+          "explanation": "Immature bilirubin conjugation produces unconjugated hyperbilirubinemia.",
+          "concept": "Neonatal jaundice",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs_16",
+          "stem": "Why is severe neonatal unconjugated hyperbilirubinemia dangerous?",
+          "options": {
+            "A": "It blocks iron absorption",
+            "B": "It can cross the blood-brain barrier and cause kernicterus",
+            "C": "It causes cholesterol stones only",
+            "D": "It is rapidly excreted in urine"
+          },
+          "answer": "B",
+          "explanation": "Unconjugated bilirubin can enter the immature brain and cause kernicterus.",
+          "concept": "Neonatal jaundice",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs_17",
+          "stem": "Gilbert syndrome is associated with what abnormality?",
+          "options": {
+            "A": "Moderate reduction in UDP glucuronyl transferase activity",
+            "B": "Complete absence of bile secretion",
+            "C": "Excess conjugation",
+            "D": "Complete absence of heme oxygenase"
+          },
+          "answer": "A",
+          "explanation": "Gilbert syndrome causes mild intermittent unconjugated hyperbilirubinemia from reduced conjugation.",
+          "concept": "Genetic jaundice",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs_18",
+          "stem": "Crigler-Najjar type I is caused by what?",
+          "options": {
+            "A": "Mild reduction in bilirubin uptake only",
+            "B": "Reduced hepatic secretion of conjugated bilirubin",
+            "C": "Biliary obstruction",
+            "D": "Absence of UDP glucuronyl transferase"
+          },
+          "answer": "D",
+          "explanation": "Type I has absent UDP glucuronyl transferase and severe unconjugated hyperbilirubinemia.",
+          "concept": "Genetic jaundice",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs_19",
+          "stem": "Which syndrome results from decreased hepatic secretion of conjugated bilirubin?",
+          "options": {
+            "A": "Crigler-Najjar type I",
+            "B": "Physiological neonatal jaundice",
+            "C": "Dubin-Johnson syndrome",
+            "D": "Gilbert syndrome"
+          },
+          "answer": "C",
+          "explanation": "Dubin-Johnson causes mild conjugated hyperbilirubinemia and bilirubinuria.",
+          "concept": "Genetic jaundice",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs_20",
+          "stem": "At approximately what plasma bilirubin level does jaundice become clinically visible in this lecture?",
+          "options": {
+            "A": "Above 10 mg/dL only",
+            "B": "Above 3 mg/dL",
+            "C": "Above 0.5 mg/dL",
+            "D": "Above 1 mg/dL exactly"
+          },
+          "answer": "B",
+          "explanation": "Clinical jaundice appears when plasma bilirubin exceeds about 3 mg/dL.",
+          "concept": "Jaundice",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
         }
       ],
       "eligibility_status": "allowed",
       "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
-      "quality_status": "hold",
-      "quality_reviewed_at": "2026-09-30T15:36:28.081Z",
+      "quality_status": "pass",
+      "quality_reviewed_at": "2026-09-30T17:59:19.589Z",
       "quality_policy_version": 2,
-      "quality_reason": "Legacy AI set used other questions' correct answers as distractors; withheld until objective-led rebuild.",
-      "exam_ready": false
+      "quality_reason": "Rebuilt directly from official 2026–27 lecture content.",
+      "exam_ready": true
     },
     {
       "id": "ai_set_1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj",
@@ -5787,190 +6125,377 @@
       "title": "Lymphadenopathy",
       "source_url": "https://drive.google.com/file/d/10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh/view?usp=drivesdk",
       "source_modified_time": "2026-09-19T22:26:46.149Z",
-      "source_validation": "pending_lecture_validation",
+      "source_validation": "lecture_verified_quality_rebuilt",
       "archived": false,
       "questions": [
         {
           "id": "ai_10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh_01",
-          "stem": "Which of the following best describes lymphadenopathy?",
+          "stem": "Acute nonspecific lymphadenitis is commonly caused by what?",
           "options": {
-            "A": "Benign lymph-node enlargement caused by immune response to infection or inflammation.",
-            "B": "B-cell stimulation with enlarged reactive germinal centers.",
-            "C": "Expansion of lymph-node sinuses by macrophages, often draining cancer or inflammation.",
-            "D": "Abnormal enlargement or altered consistency of lymph nodes."
+            "A": "Local bacterial infection",
+            "B": "Only lymphoma",
+            "C": "Atherosclerosis",
+            "D": "Iron deficiency"
           },
-          "answer": "D",
-          "explanation": "Abnormal enlargement or altered consistency of lymph nodes.",
-          "concept": "Lymphadenopathy",
-          "difficulty": "application",
+          "answer": "A",
+          "explanation": "Acute nonspecific lymphadenitis commonly follows local bacterial infection.",
+          "concept": "Reactive nodes",
+          "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh/view?usp=drivesdk",
-          "source_card_id": "10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh-c01",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh_02",
-          "stem": "Which of the following best describes reactive lymphadenitis?",
+          "stem": "What gross appearance is typical of acute nonspecific lymphadenitis?",
           "options": {
-            "A": "Abnormal enlargement or altered consistency of lymph nodes.",
-            "B": "Hard, fixed, non-tender, persistent enlargement or generalized unexplained lymphadenopathy.",
-            "C": "Benign lymph-node enlargement caused by immune response to infection or inflammation.",
-            "D": "Expansion of lymph-node sinuses by macrophages, often draining cancer or inflammation."
+            "A": "Small calcified nodes",
+            "B": "Black pigmented nodes",
+            "C": "Normal-sized pale nodes",
+            "D": "Enlarged tender gray-red engorged nodes"
           },
-          "answer": "C",
-          "explanation": "Benign lymph-node enlargement caused by immune response to infection or inflammation.",
-          "concept": "Lymphadenopathy",
+          "answer": "D",
+          "explanation": "The lecture describes enlarged, tender, swollen gray-red engorged nodes.",
+          "concept": "Reactive nodes",
           "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh/view?usp=drivesdk",
-          "source_card_id": "10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh-c02",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh_03",
-          "stem": "Which of the following best describes follicular hyperplasia reflect?",
+          "stem": "Severe pyogenic lymphadenitis may cause what change in follicular centers?",
           "options": {
-            "A": "Abnormal enlargement or altered consistency of lymph nodes.",
-            "B": "B-cell stimulation with enlarged reactive germinal centers.",
-            "C": "Large binucleate/bilobed cell with prominent eosinophilic nucleoli ('owl eyes').",
-            "D": "T-cell-zone expansion, often in viral infections or drug reactions."
+            "A": "Calcification only",
+            "B": "Fibrosis without inflammation",
+            "C": "Necrosis",
+            "D": "Amyloid only"
           },
-          "answer": "B",
-          "explanation": "B-cell stimulation with enlarged reactive germinal centers.",
-          "concept": "Lymphadenopathy",
-          "difficulty": "understanding",
+          "answer": "C",
+          "explanation": "Follicular centers can undergo necrosis in severe pyogenic infection.",
+          "concept": "Reactive nodes",
+          "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh/view?usp=drivesdk",
-          "source_card_id": "10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh-c03",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh_04",
-          "stem": "Which of the following best describes paracortical hyperplasia reflect?",
+          "stem": "Which chronic reactive pattern represents B-cell activation?",
           "options": {
-            "A": "T-cell-zone expansion, often in viral infections or drug reactions.",
-            "B": "Expansion of lymph-node sinuses by macrophages, often draining cancer or inflammation.",
-            "C": "B-cell stimulation with enlarged reactive germinal centers.",
-            "D": "Large binucleate/bilobed cell with prominent eosinophilic nucleoli ('owl eyes')."
+            "A": "Medullary aplasia",
+            "B": "Follicular hyperplasia",
+            "C": "Paracortical hyperplasia",
+            "D": "Sinus histiocytosis"
           },
-          "answer": "A",
-          "explanation": "T-cell-zone expansion, often in viral infections or drug reactions.",
-          "concept": "Lymphadenopathy",
-          "difficulty": "application",
+          "answer": "B",
+          "explanation": "Follicular hyperplasia is a B-cell follicular reaction.",
+          "concept": "Patterns",
+          "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh/view?usp=drivesdk",
-          "source_card_id": "10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh-c04",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh_05",
-          "stem": "Which of the following best describes sinus histiocytosis?",
+          "stem": "Which cells clear apoptotic cells in reactive follicular centers?",
           "options": {
-            "A": "Benign lymph-node enlargement caused by immune response to infection or inflammation.",
-            "B": "T-cell-zone expansion, often in viral infections or drug reactions.",
-            "C": "Abnormal enlargement or altered consistency of lymph nodes.",
-            "D": "Expansion of lymph-node sinuses by macrophages, often draining cancer or inflammation."
+            "A": "Tingible-body macrophages",
+            "B": "Neutrophils only",
+            "C": "Megakaryocytes",
+            "D": "Erythrocytes"
           },
-          "answer": "D",
-          "explanation": "Expansion of lymph-node sinuses by macrophages, often draining cancer or inflammation.",
-          "concept": "Lymphadenopathy",
+          "answer": "A",
+          "explanation": "Tingible-body macrophages clear apoptotic cells.",
+          "concept": "Patterns",
           "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh/view?usp=drivesdk",
-          "source_card_id": "10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh-c05",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh_06",
-          "stem": "What features make a lymph node more suspicious for malignancy?",
+          "stem": "Paracortical hyperplasia primarily involves which lymphocyte region?",
           "options": {
-            "A": "Expansion of lymph-node sinuses by macrophages, often draining cancer or inflammation.",
-            "B": "Abnormal enlargement or altered consistency of lymph nodes.",
-            "C": "Hard, fixed, non-tender, persistent enlargement or generalized unexplained lymphadenopathy.",
-            "D": "Benign lymph-node enlargement caused by immune response to infection or inflammation."
+            "A": "B-cell follicle only",
+            "B": "Sinus macrophages only",
+            "C": "Plasma-cell medulla only",
+            "D": "T-cell region"
           },
-          "answer": "C",
-          "explanation": "Hard, fixed, non-tender, persistent enlargement or generalized unexplained lymphadenopathy.",
-          "concept": "Lymphadenopathy",
-          "difficulty": "understanding",
+          "answer": "D",
+          "explanation": "The paracortex is the T-cell region.",
+          "concept": "Patterns",
+          "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh/view?usp=drivesdk",
-          "source_card_id": "10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh-c06",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh_07",
-          "stem": "Which of the following best describes Reed-Sternberg cells classically associated with?",
+          "stem": "Sinus histiocytosis is often found in lymph nodes draining what?",
           "options": {
-            "A": "T-cell-zone expansion, often in viral infections or drug reactions.",
-            "B": "Hodgkin lymphoma.",
-            "C": "Abnormal enlargement or altered consistency of lymph nodes.",
-            "D": "B-cell stimulation with enlarged reactive germinal centers."
+            "A": "Bone fractures only",
+            "B": "Iron stores",
+            "C": "Cancers",
+            "D": "Normal muscle only"
           },
-          "answer": "B",
-          "explanation": "Hodgkin lymphoma.",
-          "concept": "Lymphadenopathy",
-          "difficulty": "application",
+          "answer": "C",
+          "explanation": "Sinus histiocytosis is often encountered in nodes draining cancers.",
+          "concept": "Patterns",
+          "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh/view?usp=drivesdk",
-          "source_card_id": "10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh-c07",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh_08",
-          "stem": "Which of the following best describes a classic Reed-Sternberg appearance?",
+          "stem": "Why are most lymphomas described as monoclonal?",
           "options": {
-            "A": "Large binucleate/bilobed cell with prominent eosinophilic nucleoli ('owl eyes').",
-            "B": "B-cell stimulation with enlarged reactive germinal centers.",
-            "C": "T-cell-zone expansion, often in viral infections or drug reactions.",
-            "D": "Benign lymph-node enlargement caused by immune response to infection or inflammation."
+            "A": "They contain only macrophages",
+            "B": "They arise from a single transformed precursor cell",
+            "C": "They arise from every lymphocyte simultaneously",
+            "D": "They are always reactive"
           },
-          "answer": "A",
-          "explanation": "Large binucleate/bilobed cell with prominent eosinophilic nucleoli ('owl eyes').",
-          "concept": "Lymphadenopathy",
+          "answer": "B",
+          "explanation": "Daughter tumor cells descend from one transformed precursor and share antigen-receptor rearrangements.",
+          "concept": "Pathogenesis",
           "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh/view?usp=drivesdk",
-          "source_card_id": "10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh-c08",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
-          "id": "ai_10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh_formcase01",
-          "stem": "A patient presents with an enlarged cervical lymph node. The physician begins by deciding whether the enlargement is reactive or neoplastic. Which description best defines lymphadenopathy?",
+          "id": "ai_10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh_09",
+          "stem": "Which virus is associated with adult T-cell leukemia/lymphoma?",
           "options": {
-            "A": "Benign lymph-node enlargement caused by immune response to infection or inflammation.",
-            "B": "B-cell stimulation with enlarged reactive germinal centers.",
-            "C": "Expansion of lymph-node sinuses by macrophages, often draining cancer or inflammation.",
-            "D": "Abnormal enlargement or altered consistency of lymph nodes."
+            "A": "HTLV-1",
+            "B": "Influenza",
+            "C": "HAV",
+            "D": "Rhinovirus"
+          },
+          "answer": "A",
+          "explanation": "HTLV-1 is listed as an association.",
+          "concept": "Risk factors",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh_10",
+          "stem": "Which virus is associated with Burkitt lymphoma and some Hodgkin/B-cell lymphomas?",
+          "options": {
+            "A": "HBV",
+            "B": "Rotavirus",
+            "C": "Rabies",
+            "D": "EBV"
           },
           "answer": "D",
-          "explanation": "Abnormal enlargement or altered consistency of lymph nodes.",
-          "concept": "Lymphadenopathy — formative-style case",
+          "explanation": "EBV is associated with several lymphomas including Burkitt and Hodgkin lymphoma.",
+          "concept": "Risk factors",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh_11",
+          "stem": "What is the most common malignancy in children according to the precursor lymphoid section?",
+          "options": {
+            "A": "Hodgkin lymphoma",
+            "B": "Multiple myeloma",
+            "C": "Acute lymphoblastic leukemia/lymphoma",
+            "D": "Follicular lymphoma"
+          },
+          "answer": "C",
+          "explanation": "ALL/LBL is identified as the most common childhood malignancy.",
+          "concept": "ALL",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh_12",
+          "stem": "Follicular lymphoma is strongly associated with which translocation and protein?",
+          "options": {
+            "A": "t(15;17) with PML-RARA",
+            "B": "t(14;18) with BCL2 overexpression",
+            "C": "t(8;14) with MYC",
+            "D": "t(9;22) with BCR-ABL"
+          },
+          "answer": "B",
+          "explanation": "Follicular lymphoma is associated with t(14;18) and anti-apoptotic BCL2.",
+          "concept": "Follicular lymphoma",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh_13",
+          "stem": "Which lymphoma is the most common adult non-Hodgkin lymphoma in the lecture?",
+          "options": {
+            "A": "Diffuse large B-cell lymphoma",
+            "B": "Burkitt lymphoma",
+            "C": "T-lymphoblastic lymphoma",
+            "D": "Nodular lymphocyte-predominant Hodgkin lymphoma"
+          },
+          "answer": "A",
+          "explanation": "DLBCL is described as the most common adult NHL.",
+          "concept": "DLBCL",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh_14",
+          "stem": "A rapidly growing lymphoma shows a starry-sky pattern and t(8;14). Which diagnosis fits?",
+          "options": {
+            "A": "Follicular lymphoma",
+            "B": "CLL/SLL",
+            "C": "Nodular sclerosis Hodgkin lymphoma",
+            "D": "Burkitt lymphoma"
+          },
+          "answer": "D",
+          "explanation": "Burkitt lymphoma has MYC t(8;14) and a starry-sky appearance.",
+          "concept": "Burkitt",
           "difficulty": "application",
           "source_url": "https://drive.google.com/file/d/10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh/view?usp=drivesdk",
-          "source_card_id": "10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh-c01",
-          "style_profile": "KAU-formative-case-inspired",
-          "quality_status": "hold",
-          "exam_ready": false,
-          "case_style": "formative_short_case",
-          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh_15",
+          "stem": "Endemic Burkitt lymphoma commonly involves which site?",
+          "options": {
+            "A": "Prostate",
+            "B": "Aortic valve",
+            "C": "Mandible",
+            "D": "Thyroid"
+          },
+          "answer": "C",
+          "explanation": "The endemic form commonly presents with jaw tumors.",
+          "concept": "Burkitt",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh_16",
+          "stem": "What is the hallmark tumor cell of Hodgkin lymphoma?",
+          "options": {
+            "A": "Megakaryocyte",
+            "B": "Reed-Sternberg cell",
+            "C": "Tingible-body macrophage",
+            "D": "Plasma cell"
+          },
+          "answer": "B",
+          "explanation": "Reed-Sternberg cells are the hallmark of Hodgkin lymphoma.",
+          "concept": "Hodgkin",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh_17",
+          "stem": "A large lymphoid cell has two nuclei with prominent nucleoli. Which classic description does this support?",
+          "options": {
+            "A": "Reed-Sternberg cell",
+            "B": "Small lymphocyte",
+            "C": "Histiocyte",
+            "D": "Neutrophil"
+          },
+          "answer": "A",
+          "explanation": "RS cells are bi- or multinucleated with very large prominent nucleoli.",
+          "concept": "Hodgkin",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh_18",
+          "stem": "Which Hodgkin subtype is the most common?",
+          "options": {
+            "A": "Mixed cellularity",
+            "B": "Lymphocyte depletion",
+            "C": "Nodular lymphocyte predominant",
+            "D": "Nodular sclerosis"
+          },
+          "answer": "D",
+          "explanation": "Nodular sclerosis is listed as the most common classic subtype.",
+          "concept": "Hodgkin",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh_19",
+          "stem": "How does Hodgkin lymphoma typically spread?",
+          "options": {
+            "A": "Only through blood",
+            "B": "It never spreads",
+            "C": "Contiguously to adjacent lymph-node groups",
+            "D": "Randomly to extranodal sites first"
+          },
+          "answer": "C",
+          "explanation": "Hodgkin lymphoma characteristically spreads contiguously.",
+          "concept": "Hodgkin",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh_20",
+          "stem": "Which symptoms constitute lymphoma B symptoms in the lecture?",
+          "options": {
+            "A": "Polyuria, thirst and edema",
+            "B": "Fever, night sweats and weight loss",
+            "C": "Cough, diarrhea and rash",
+            "D": "Headache, tremor and jaundice"
+          },
+          "answer": "B",
+          "explanation": "B symptoms are fever, night sweats and weight loss.",
+          "concept": "Clinical",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
         }
       ],
       "eligibility_status": "allowed",
       "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
-      "quality_status": "hold",
-      "quality_reviewed_at": "2026-09-30T15:36:28.081Z",
+      "quality_status": "pass",
+      "quality_reviewed_at": "2026-09-30T17:59:19.589Z",
       "quality_policy_version": 2,
-      "quality_reason": "Legacy AI set used other questions' correct answers as distractors; withheld until objective-led rebuild.",
-      "exam_ready": false
+      "quality_reason": "Rebuilt directly from official 2026–27 lecture content.",
+      "exam_ready": true
     },
     {
       "id": "ai_set_1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR",

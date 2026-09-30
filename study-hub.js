@@ -617,6 +617,7 @@ function renderLectureDashboard(){
     toggleLectureStudied(btn.dataset.lectureStudy);
   });
 }
+window.med25RenderLectureDashboard=()=>renderLectureDashboard();
 function homeSubjectRows(){
   const rows=lectureDashboardRows(),map={};
   rows.forEach(r=>{
@@ -643,6 +644,11 @@ function renderHome(){
 }
 function hubGo(mode){switchStudySection(mode)}
 function hubSwitch(mode){
+  document.getElementById('profileSection')?.classList.add('hidden');
+  document.getElementById('progressSection')?.classList.add('hidden');
+  document.getElementById('tabProfile')?.classList.remove('active');
+  document.getElementById('tabProgress')?.classList.remove('active');
+  try{localStorage.removeItem('med25-v2-view-v1')}catch{}
   const home=mode==='home',past=mode==='questions',ai=mode==='ai',flash=mode==='flashcards';
   document.getElementById('homeSection')?.classList.toggle('hidden',!home);
   document.getElementById('questionSection')?.classList.toggle('hidden',!past);
@@ -1037,7 +1043,7 @@ function med25RenderHomePolish(){
   if(metrics)metrics.innerHTML=
     '<button class="hubCard hubMetric homeMetricButton" type="button" onclick="hubGo(\'flashcards\')"><span class="homeMetricIcon">▱</span><b>'+fl.due+'</b><span>flashcards due today</span><div class="hubBar"><span style="width:'+(fl.total?fl.seen/fl.total*100:0)+'%"></span></div></button>'+
     '<button class="hubCard hubMetric homeMetricButton" type="button" onclick="hubGo(\'questions\')"><span class="homeMetricIcon">▤</span><b>'+left+'</b><span>questions remaining</span><div class="hubBar"><span style="width:'+(totalQ?doneQ/totalQ*100:0)+'%"></span></div></button>'+
-    '<button class="hubCard hubMetric homeMetricButton" type="button" onclick="document.querySelector(\'.lectureDashboardCard\')&&document.querySelector(\'.lectureDashboardCard\').scrollIntoView({behavior:\'smooth\'})"><span class="homeMetricIcon">✓</span><b>'+incomplete+'</b><span>lectures not fully complete</span><div class="hubBar"><span style="width:'+(rows.length?complete/rows.length*100:0)+'%"></span></div></button>';
+    '<button class="hubCard hubMetric homeMetricButton" type="button" onclick="window.med25V2OpenProgress?.()"><span class="homeMetricIcon">✓</span><b>'+incomplete+'</b><span>lectures not fully complete</span><div class="hubBar"><span style="width:'+(rows.length?complete/rows.length*100:0)+'%"></span></div></button>';
 
   med25ContinueTarget=med25LatestActivity();
   const cp=med25ContinueProgress(med25ContinueTarget);
@@ -1213,7 +1219,7 @@ function med25MoveGlobalOverlays(){
   }
 }
 function med25MoveAuthToHome(){
-  const box=document.getElementById('authBox'),slot=document.getElementById('homeAuthSlot');
+  const box=document.getElementById('authBox'),slot=document.getElementById('profileAuthSlot')||document.getElementById('homeAuthSlot');
   if(!box||!slot)return;
   if(box.parentElement!==slot)slot.appendChild(box);
   box.classList.add('homeAuthBox');

@@ -10,6 +10,10 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: med25-ui-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   browser-regression:
     runs-on: ubuntu-latest

@@ -7694,56 +7694,56 @@
       "subject": "Pharmacology",
       "title": "Anti-anginal drugs",
       "confidence": 1,
-      "method": "source-title"
+      "method": "official-parent-lecture"
     },
     "ai_1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8_02": {
       "lecture_id": "pharmacology__anti-anginal-drugs",
       "subject": "Pharmacology",
       "title": "Anti-anginal drugs",
       "confidence": 1,
-      "method": "source-title"
+      "method": "official-parent-lecture"
     },
     "ai_1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8_03": {
       "lecture_id": "pharmacology__anti-anginal-drugs",
       "subject": "Pharmacology",
       "title": "Anti-anginal drugs",
       "confidence": 1,
-      "method": "source-title"
+      "method": "official-parent-lecture"
     },
     "ai_1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8_04": {
       "lecture_id": "pharmacology__anti-anginal-drugs",
       "subject": "Pharmacology",
       "title": "Anti-anginal drugs",
       "confidence": 1,
-      "method": "source-title"
+      "method": "official-parent-lecture"
     },
     "ai_1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8_05": {
       "lecture_id": "pharmacology__anti-anginal-drugs",
       "subject": "Pharmacology",
       "title": "Anti-anginal drugs",
       "confidence": 1,
-      "method": "source-title"
+      "method": "official-parent-lecture"
     },
     "ai_1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8_06": {
       "lecture_id": "pharmacology__anti-anginal-drugs",
       "subject": "Pharmacology",
       "title": "Anti-anginal drugs",
       "confidence": 1,
-      "method": "source-title"
+      "method": "official-parent-lecture"
     },
     "ai_1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8_07": {
       "lecture_id": "pharmacology__anti-anginal-drugs",
       "subject": "Pharmacology",
       "title": "Anti-anginal drugs",
       "confidence": 1,
-      "method": "source-title"
+      "method": "official-parent-lecture"
     },
     "ai_1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8_08": {
       "lecture_id": "pharmacology__anti-anginal-drugs",
       "subject": "Pharmacology",
       "title": "Anti-anginal drugs",
       "confidence": 1,
-      "method": "source-title"
+      "method": "official-parent-lecture"
     },
     "ai_1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc_01": {
       "lecture_id": "pharmacology__anti-lipidemic-drugs",
@@ -9639,6 +9639,90 @@
       "lecture_id": "pathology__vasculitis",
       "subject": "Pathology",
       "title": "Vasculitis",
+      "confidence": 1,
+      "method": "official-parent-lecture"
+    },
+    "ai_1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8_09": {
+      "lecture_id": "pharmacology__anti-anginal-drugs",
+      "subject": "Pharmacology",
+      "title": "Anti-anginal drugs",
+      "confidence": 1,
+      "method": "official-parent-lecture"
+    },
+    "ai_1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8_10": {
+      "lecture_id": "pharmacology__anti-anginal-drugs",
+      "subject": "Pharmacology",
+      "title": "Anti-anginal drugs",
+      "confidence": 1,
+      "method": "official-parent-lecture"
+    },
+    "ai_1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8_11": {
+      "lecture_id": "pharmacology__anti-anginal-drugs",
+      "subject": "Pharmacology",
+      "title": "Anti-anginal drugs",
+      "confidence": 1,
+      "method": "official-parent-lecture"
+    },
+    "ai_1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8_12": {
+      "lecture_id": "pharmacology__anti-anginal-drugs",
+      "subject": "Pharmacology",
+      "title": "Anti-anginal drugs",
+      "confidence": 1,
+      "method": "official-parent-lecture"
+    },
+    "ai_1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8_13": {
+      "lecture_id": "pharmacology__anti-anginal-drugs",
+      "subject": "Pharmacology",
+      "title": "Anti-anginal drugs",
+      "confidence": 1,
+      "method": "official-parent-lecture"
+    },
+    "ai_1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8_14": {
+      "lecture_id": "pharmacology__anti-anginal-drugs",
+      "subject": "Pharmacology",
+      "title": "Anti-anginal drugs",
+      "confidence": 1,
+      "method": "official-parent-lecture"
+    },
+    "ai_1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8_15": {
+      "lecture_id": "pharmacology__anti-anginal-drugs",
+      "subject": "Pharmacology",
+      "title": "Anti-anginal drugs",
+      "confidence": 1,
+      "method": "official-parent-lecture"
+    },
+    "ai_1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8_16": {
+      "lecture_id": "pharmacology__anti-anginal-drugs",
+      "subject": "Pharmacology",
+      "title": "Anti-anginal drugs",
+      "confidence": 1,
+      "method": "official-parent-lecture"
+    },
+    "ai_1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8_17": {
+      "lecture_id": "pharmacology__anti-anginal-drugs",
+      "subject": "Pharmacology",
+      "title": "Anti-anginal drugs",
+      "confidence": 1,
+      "method": "official-parent-lecture"
+    },
+    "ai_1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8_18": {
+      "lecture_id": "pharmacology__anti-anginal-drugs",
+      "subject": "Pharmacology",
+      "title": "Anti-anginal drugs",
+      "confidence": 1,
+      "method": "official-parent-lecture"
+    },
+    "ai_1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8_19": {
+      "lecture_id": "pharmacology__anti-anginal-drugs",
+      "subject": "Pharmacology",
+      "title": "Anti-anginal drugs",
+      "confidence": 1,
+      "method": "official-parent-lecture"
+    },
+    "ai_1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8_20": {
+      "lecture_id": "pharmacology__anti-anginal-drugs",
+      "subject": "Pharmacology",
+      "title": "Anti-anginal drugs",
       "confidence": 1,
       "method": "official-parent-lecture"
     }

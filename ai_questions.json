@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-30T17:24:12.961Z",
+  "generated_at": "2026-09-30T17:42:35.652Z",
   "source_root": {
     "id": "1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
     "url": "https://drive.google.com/drive/folders/1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
@@ -6965,190 +6965,387 @@
       "title": "Antianginal Drugs",
       "source_url": "https://drive.google.com/file/d/1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8/view?usp=drivesdk",
       "source_modified_time": "2026-09-20T05:50:07.352Z",
-      "source_validation": "pending_lecture_validation",
+      "source_validation": "lecture_verified_quality_rebuilt",
       "archived": false,
       "questions": [
         {
           "id": "ai_1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8_01",
-          "stem": "Which of the following best describes the main goal of antianginal therapy?",
+          "stem": "A patient with stable exertional angina develops chest pain while climbing stairs. Which drug provides the most rapid relief?",
           "options": {
-            "A": "Venodilation lowers preload and ventricular wall stress, reducing myocardial O₂ demand.",
-            "B": "The combination can cause profound hypotension through excessive cGMP.",
-            "C": "They reduce heart rate/contractility and dilate coronary/systemic arteries.",
-            "D": "Reduce myocardial O₂ demand and/or improve coronary O₂ supply."
+            "A": "Sublingual nitroglycerin",
+            "B": "Oral isosorbide mononitrate",
+            "C": "Transdermal nitroglycerin",
+            "D": "Oral ranolazine"
           },
-          "answer": "D",
-          "explanation": "Reduce myocardial O₂ demand and/or improve coronary O₂ supply.",
-          "concept": "Antianginal Drugs",
+          "answer": "A",
+          "explanation": "Sublingual nitroglycerin acts rapidly and avoids first-pass metabolism.",
+          "concept": "Acute nitrate use",
           "difficulty": "application",
           "source_url": "https://drive.google.com/file/d/1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8/view?usp=drivesdk",
-          "source_card_id": "1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8-c01",
-          "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case"
         },
         {
           "id": "ai_1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8_02",
-          "stem": "Which of the following best describes how nitrates relieve angina?",
+          "stem": "A patient took sildenafil several hours ago and now has angina. What is the major danger of giving nitroglycerin?",
           "options": {
-            "A": "The combination can cause profound hypotension through excessive cGMP.",
-            "B": "They lower heart rate and contractility, reducing O₂ demand and prolonging diastole.",
-            "C": "Venodilation lowers preload and ventricular wall stress, reducing myocardial O₂ demand.",
-            "D": "Reduce myocardial O₂ demand and/or improve coronary O₂ supply."
+            "A": "Severe hypertension",
+            "B": "Acute bronchospasm",
+            "C": "AV nodal block",
+            "D": "Life-threatening hypotension"
           },
-          "answer": "C",
-          "explanation": "Venodilation lowers preload and ventricular wall stress, reducing myocardial O₂ demand.",
-          "concept": "Antianginal Drugs",
-          "difficulty": "core",
+          "answer": "D",
+          "explanation": "PDE-5 inhibition plus nitrate-derived NO causes excessive cGMP accumulation and profound vasodilation.",
+          "concept": "Nitrate interaction",
+          "difficulty": "application",
           "source_url": "https://drive.google.com/file/d/1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8/view?usp=drivesdk",
-          "source_card_id": "1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8-c02",
-          "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case"
         },
         {
           "id": "ai_1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8_03",
-          "stem": "What intracellular mediator causes nitrate-induced smooth-muscle relaxation?",
+          "stem": "A patient with an inferior MI is hypotensive with raised JVP and clear lungs. Why should nitrates generally be avoided?",
           "options": {
-            "A": "They blunt exercise-induced increases in heart rate and contractility.",
-            "B": "Nitric oxide increases cGMP.",
-            "C": "Headache from vasodilation.",
-            "D": "The combination can cause profound hypotension through excessive cGMP."
+            "A": "They increase afterload",
+            "B": "They cause coronary vasospasm",
+            "C": "The right ventricle is preload dependent",
+            "D": "They increase platelet aggregation"
           },
-          "answer": "B",
-          "explanation": "Nitric oxide increases cGMP.",
-          "concept": "Antianginal Drugs",
-          "difficulty": "understanding",
+          "answer": "C",
+          "explanation": "Suspected RV infarction is preload dependent; nitrate-induced venodilation can worsen hypotension.",
+          "concept": "Nitrate contraindication",
+          "difficulty": "application",
           "source_url": "https://drive.google.com/file/d/1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8/view?usp=drivesdk",
-          "source_card_id": "1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8-c03",
-          "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case"
         },
         {
           "id": "ai_1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8_04",
-          "stem": "What common adverse effect occurs with nitrates?",
+          "stem": "A woman has recurrent chest pain at rest at 4 AM with transient ST elevation. Which class is preferred for long-term control?",
           "options": {
-            "A": "Headache from vasodilation.",
-            "B": "Nitric oxide increases cGMP.",
-            "C": "Reduce myocardial O₂ demand and/or improve coronary O₂ supply.",
-            "D": "The combination can cause profound hypotension through excessive cGMP."
+            "A": "Loop diuretic",
+            "B": "Calcium-channel blocker",
+            "C": "Nonselective beta-blocker",
+            "D": "Digoxin"
           },
-          "answer": "A",
-          "explanation": "Headache from vasodilation.",
-          "concept": "Antianginal Drugs",
+          "answer": "B",
+          "explanation": "Vasospastic angina is treated first-line with a calcium-channel blocker; beta-blockers, especially nonselective ones, may worsen spasm.",
+          "concept": "Vasospastic angina",
           "difficulty": "application",
           "source_url": "https://drive.google.com/file/d/1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8/view?usp=drivesdk",
-          "source_card_id": "1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8-c04",
-          "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case"
         },
         {
           "id": "ai_1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8_05",
-          "stem": "Which of the following best explains why must nitrates not be combined with PDE-5 inhibitors?",
+          "stem": "A patient with chronic stable angina has HR 52/min and BP 102/64 mmHg but remains symptomatic. Which drug has minimal additional effect on HR or BP?",
           "options": {
-            "A": "Reduce myocardial O₂ demand and/or improve coronary O₂ supply.",
-            "B": "Venodilation lowers preload and ventricular wall stress, reducing myocardial O₂ demand.",
-            "C": "They blunt exercise-induced increases in heart rate and contractility.",
-            "D": "The combination can cause profound hypotension through excessive cGMP."
+            "A": "Ranolazine",
+            "B": "Metoprolol",
+            "C": "Verapamil",
+            "D": "Diltiazem"
           },
-          "answer": "D",
-          "explanation": "The combination can cause profound hypotension through excessive cGMP.",
-          "concept": "Antianginal Drugs",
-          "difficulty": "core",
+          "answer": "A",
+          "explanation": "Ranolazine can improve chronic angina with little effect on resting heart rate or blood pressure.",
+          "concept": "Ranolazine",
+          "difficulty": "application",
           "source_url": "https://drive.google.com/file/d/1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8/view?usp=drivesdk",
-          "source_card_id": "1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8-c05",
-          "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case"
         },
         {
           "id": "ai_1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8_06",
-          "stem": "Which of the following best describes how beta blockers reduce anginal symptoms?",
+          "stem": "A patient uses a transdermal nitroglycerin patch continuously and loses its antianginal effect. What is the best strategy?",
           "options": {
-            "A": "They blunt exercise-induced increases in heart rate and contractility.",
-            "B": "Venodilation lowers preload and ventricular wall stress, reducing myocardial O₂ demand.",
-            "C": "They lower heart rate and contractility, reducing O₂ demand and prolonging diastole.",
-            "D": "They reduce heart rate/contractility and dilate coronary/systemic arteries."
+            "A": "Increase the dose every day",
+            "B": "Add sildenafil",
+            "C": "Use continuous IV nitroglycerin",
+            "D": "Provide a daily nitrate-free interval"
           },
-          "answer": "C",
-          "explanation": "They lower heart rate and contractility, reducing O₂ demand and prolonging diastole.",
-          "concept": "Antianginal Drugs",
-          "difficulty": "understanding",
+          "answer": "D",
+          "explanation": "A daily nitrate-free interval helps prevent or reverse nitrate tolerance.",
+          "concept": "Nitrate tolerance",
+          "difficulty": "application",
           "source_url": "https://drive.google.com/file/d/1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8/view?usp=drivesdk",
-          "source_card_id": "1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8-c06",
-          "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case"
         },
         {
           "id": "ai_1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8_07",
-          "stem": "Which of the following best explains why are beta blockers useful in chronic stable angina?",
+          "stem": "A nitrate causes reflex tachycardia in a patient with stable angina. Which added drug can counter it while reducing myocardial oxygen demand?",
           "options": {
-            "A": "Reduce myocardial O₂ demand and/or improve coronary O₂ supply.",
-            "B": "They blunt exercise-induced increases in heart rate and contractility.",
-            "C": "They reduce heart rate/contractility and dilate coronary/systemic arteries.",
-            "D": "They lower heart rate and contractility, reducing O₂ demand and prolonging diastole."
+            "A": "Dobutamine",
+            "B": "Atropine",
+            "C": "Beta-blocker",
+            "D": "Hydralazine"
           },
-          "answer": "B",
-          "explanation": "They blunt exercise-induced increases in heart rate and contractility.",
-          "concept": "Antianginal Drugs",
+          "answer": "C",
+          "explanation": "Beta-blockade counters reflex tachycardia and lowers heart rate and contractility.",
+          "concept": "Combination therapy",
           "difficulty": "application",
           "source_url": "https://drive.google.com/file/d/1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8/view?usp=drivesdk",
-          "source_card_id": "1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8-c07",
-          "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case"
         },
         {
           "id": "ai_1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8_08",
-          "stem": "Which of the following best describes how non-dihydropyridine calcium-channel blockers help angina?",
+          "stem": "A patient taking metoprolol is started on verapamil and develops HR 38/min with AV block. What explains this?",
           "options": {
-            "A": "They reduce heart rate/contractility and dilate coronary/systemic arteries.",
-            "B": "They blunt exercise-induced increases in heart rate and contractility.",
-            "C": "They lower heart rate and contractility, reducing O₂ demand and prolonging diastole.",
-            "D": "Reduce myocardial O₂ demand and/or improve coronary O₂ supply."
+            "A": "Reflex sympathetic activation",
+            "B": "Additive SA/AV nodal suppression",
+            "C": "PDE-5 inhibition",
+            "D": "Nitrate tolerance"
           },
-          "answer": "A",
-          "explanation": "They reduce heart rate/contractility and dilate coronary/systemic arteries.",
-          "concept": "Antianginal Drugs",
-          "difficulty": "core",
-          "source_url": "https://drive.google.com/file/d/1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8/view?usp=drivesdk",
-          "source_card_id": "1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8-c08",
-          "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
-        },
-        {
-          "id": "ai_1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8_formcase01",
-          "stem": "A patient with exertional chest pain is started on pharmacological therapy to reduce myocardial oxygen demand. Which statement best describes the therapeutic goal in this patient?",
-          "options": {
-            "A": "Venodilation lowers preload and ventricular wall stress, reducing myocardial O₂ demand.",
-            "B": "The combination can cause profound hypotension through excessive cGMP.",
-            "C": "They reduce heart rate/contractility and dilate coronary/systemic arteries.",
-            "D": "Reduce myocardial O₂ demand and/or improve coronary O₂ supply."
-          },
-          "answer": "D",
-          "explanation": "Reduce myocardial O₂ demand and/or improve coronary O₂ supply.",
-          "concept": "Antianginal Drugs — formative-style case",
+          "answer": "B",
+          "explanation": "Beta-blockers and non-DHP calcium-channel blockers both suppress nodal activity and can cause marked bradycardia or AV block together.",
+          "concept": "Drug interaction",
           "difficulty": "application",
           "source_url": "https://drive.google.com/file/d/1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8/view?usp=drivesdk",
-          "source_card_id": "1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8-c01",
           "style_profile": "KAU-formative-case-inspired",
-          "quality_status": "hold",
-          "exam_ready": false,
-          "case_style": "formative_short_case",
-          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case"
+        },
+        {
+          "id": "ai_1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8_09",
+          "stem": "A patient with asthma and stable angina has a compelling indication for beta-blockade. Which approach is most appropriate?",
+          "options": {
+            "A": "Use a beta-1 selective blocker cautiously",
+            "B": "Use high-dose propranolol",
+            "C": "Use pindolol because of ISA",
+            "D": "Combine a nonselective beta-blocker with verapamil"
+          },
+          "answer": "A",
+          "explanation": "When beta-blockade is necessary in bronchospasm risk, an appropriate beta-1 selective agent is preferred cautiously.",
+          "concept": "Beta-blockers",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8/view?usp=drivesdk",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case"
+        },
+        {
+          "id": "ai_1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8_10",
+          "stem": "Which antianginal is mainly used for rapid symptom relief rather than reduction of post-MI mortality?",
+          "options": {
+            "A": "High-intensity statin",
+            "B": "Antiplatelet therapy when indicated",
+            "C": "Risk-factor management",
+            "D": "Sublingual nitroglycerin"
+          },
+          "answer": "D",
+          "explanation": "Nitrates relieve ischemic symptoms but do not reduce post-MI mortality.",
+          "concept": "Therapeutic goals",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8/view?usp=drivesdk",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case"
+        },
+        {
+          "id": "ai_1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8_11",
+          "stem": "What is the principal hemodynamic effect by which organic nitrates reduce myocardial oxygen demand?",
+          "options": {
+            "A": "Direct AV nodal blockade",
+            "B": "Increased systemic vascular resistance",
+            "C": "Venodilation causing reduced preload",
+            "D": "Marked increase in contractility"
+          },
+          "answer": "C",
+          "explanation": "Venodilation predominates, causing venous pooling, reduced preload and reduced LV wall tension.",
+          "concept": "Nitrate mechanism",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8_12",
+          "stem": "Organic nitrates generate nitric oxide, which activates which intracellular pathway in vascular smooth muscle?",
+          "options": {
+            "A": "Na/K ATPase inhibition",
+            "B": "Soluble guanylyl cyclase and cGMP",
+            "C": "Adenylyl cyclase and cAMP",
+            "D": "Phospholipase C and IP3"
+          },
+          "answer": "B",
+          "explanation": "NO activates soluble guanylyl cyclase, increasing cGMP and producing smooth-muscle relaxation.",
+          "concept": "Nitrate mechanism",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8_13",
+          "stem": "Which oral nitrate has minimal first-pass metabolism and excellent oral bioavailability?",
+          "options": {
+            "A": "Isosorbide mononitrate",
+            "B": "Nitroglycerin",
+            "C": "Amyl nitrite",
+            "D": "Isosorbide dinitrate"
+          },
+          "answer": "A",
+          "explanation": "The lecture identifies isosorbide mononitrate as having minimal first-pass metabolism and essentially complete oral bioavailability.",
+          "concept": "Nitrate pharmacokinetics",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8_14",
+          "stem": "Why is sublingual nitroglycerin useful during an acute stable-angina attack?",
+          "options": {
+            "A": "It permanently prevents coronary thrombosis",
+            "B": "It selectively blocks beta-1 receptors",
+            "C": "It has the longest nitrate half-life",
+            "D": "Rapid absorption while avoiding extensive first-pass metabolism"
+          },
+          "answer": "D",
+          "explanation": "The sublingual route gives rapid onset and bypasses extensive hepatic first-pass metabolism.",
+          "concept": "Nitrate pharmacokinetics",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8_15",
+          "stem": "Which adverse effect of nitrates results from meningeal vasodilation?",
+          "options": {
+            "A": "Bronchospasm",
+            "B": "Hyperglycemia",
+            "C": "Throbbing headache",
+            "D": "Constipation"
+          },
+          "answer": "C",
+          "explanation": "Head and meningeal vasodilation commonly causes flushing and a throbbing headache.",
+          "concept": "Nitrate adverse effects",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8_16",
+          "stem": "Which beta-blocker property makes it useful in chronic stable angina?",
+          "options": {
+            "A": "Increased renin release",
+            "B": "Reduced heart rate and contractility",
+            "C": "Direct coronary thrombolysis",
+            "D": "Increased myocardial contractility"
+          },
+          "answer": "B",
+          "explanation": "Beta-blockers lower myocardial oxygen demand by reducing HR, contractility and BP and also prolong diastolic coronary filling time.",
+          "concept": "Beta-blockers",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8_17",
+          "stem": "Which beta-blocker should generally be avoided as an antianginal because it has intrinsic sympathomimetic activity?",
+          "options": {
+            "A": "Pindolol",
+            "B": "Metoprolol",
+            "C": "Bisoprolol",
+            "D": "Atenolol"
+          },
+          "answer": "A",
+          "explanation": "The lecture specifically advises avoiding agents with intrinsic sympathomimetic activity such as pindolol for angina.",
+          "concept": "Beta-blockers",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8_18",
+          "stem": "Which effect is most characteristic of dihydropyridine calcium-channel blockers such as amlodipine?",
+          "options": {
+            "A": "Strong AV-node suppression",
+            "B": "Marked negative chronotropy in all patients",
+            "C": "Direct inhibition of late sodium current",
+            "D": "Predominant arteriolar vasodilation"
+          },
+          "answer": "D",
+          "explanation": "DHP calcium-channel blockers predominantly dilate arterioles and reduce afterload.",
+          "concept": "Calcium-channel blockers",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8_19",
+          "stem": "Which adverse effect is particularly associated with verapamil?",
+          "options": {
+            "A": "Severe hypoglycemia",
+            "B": "Dry cough",
+            "C": "Constipation",
+            "D": "Methemoglobinemia"
+          },
+          "answer": "C",
+          "explanation": "Verapamil is a non-DHP CCB; the lecture highlights constipation along with bradycardia and AV block.",
+          "concept": "Calcium-channel blockers",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8_20",
+          "stem": "What is ranolazine's main antianginal mechanism in this lecture?",
+          "options": {
+            "A": "Irreversible COX inhibition",
+            "B": "Inhibition of the late inward sodium current",
+            "C": "Beta-1 receptor blockade",
+            "D": "PDE-5 inhibition"
+          },
+          "answer": "B",
+          "explanation": "Ranolazine inhibits the late inward Na+ current, reducing intracellular Ca2+ overload, wall stress and myocardial oxygen demand.",
+          "concept": "Ranolazine",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
         }
       ],
       "eligibility_status": "allowed",
       "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
-      "quality_status": "hold",
-      "quality_reviewed_at": "2026-09-30T15:36:28.081Z",
+      "quality_status": "pass",
+      "quality_reviewed_at": "2026-09-30T17:42:35.650Z",
       "quality_policy_version": 2,
-      "quality_reason": "Legacy AI set used other questions' correct answers as distractors; withheld until objective-led rebuild.",
-      "exam_ready": false
+      "quality_reason": "Rebuilt from official 2026–27 lecture, including lecture-native clinical scenarios and objective-led direct SBAs.",
+      "exam_ready": true
     },
     {
       "id": "ai_set_1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc",

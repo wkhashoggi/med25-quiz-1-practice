@@ -9466,7 +9466,70 @@
       "title": "Antihypertensive drugs -2",
       "confidence": 1,
       "method": "manual-objective-split"
+    },
+    "ai_1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV_formcase01": {
+      "lecture_id": "physiology__physiology-of-red-blood-cells",
+      "subject": "Physiology",
+      "title": "Physiology of Red blood cells",
+      "confidence": 1,
+      "method": "parent-lecture-inheritance"
+    },
+    "ai_1hUhRX6NQW4vC0QZctlopDFzZB_vh7U3h_formcase01": {
+      "lecture_id": "physiology__regulation-of-abp-cv-centers-short-term-regulation",
+      "subject": "Physiology",
+      "title": "Regulation of ABP (CV centers & short-term regulation)",
+      "confidence": 1,
+      "method": "parent-lecture-inheritance"
+    },
+    "ai_11ZztQA_d1F4x9wB69Olsoc-d823jwFqm_formcase01": {
+      "lecture_id": "pharmacology__antihypertensive-drugs-2",
+      "subject": "Pharmacology",
+      "title": "Antihypertensive drugs -2",
+      "confidence": 1,
+      "method": "parent-lecture-inheritance"
+    },
+    "ai_1a2GYFwVaioCMtkK4FhARroF7kphyGDwS_formcase01": {
+      "lecture_id": "physiology__cardiac-contractility",
+      "subject": "Physiology",
+      "title": "Cardiac contractility",
+      "confidence": 1,
+      "method": "parent-lecture-inheritance"
+    },
+    "ai_1rzreURT0TD2ajEGXKRIzad7b8VjudyNm_formcase01": {
+      "lecture_id": "physiology__cardiac-output-and-its-control",
+      "subject": "Physiology",
+      "title": "Cardiac output and its control",
+      "confidence": 1,
+      "method": "parent-lecture-inheritance"
+    },
+    "ai_1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP_formcase01": {
+      "lecture_id": "pathology__pathology-of-hypertension",
+      "subject": "Pathology",
+      "title": "Pathology of Hypertension",
+      "confidence": 1,
+      "method": "parent-lecture-inheritance"
+    },
+    "ai_19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5_formcase01": {
+      "lecture_id": "physiology__cardiac-cycle",
+      "subject": "Physiology",
+      "title": "Cardiac cycle",
+      "confidence": 1,
+      "method": "parent-lecture-inheritance"
+    },
+    "ai_1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc_formcase01": {
+      "lecture_id": "pathology__valvular-heart-diseases",
+      "subject": "Pathology",
+      "title": "Valvular Heart Diseases",
+      "confidence": 1,
+      "method": "parent-lecture-inheritance"
+    },
+    "ai_1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf_formcase01": {
+      "lecture_id": "physiology__physiology-of-vascular-endothelium",
+      "subject": "Physiology",
+      "title": "Physiology of vascular endothelium",
+      "confidence": 1,
+      "method": "parent-lecture-inheritance"
     }
   },
-  "audit_note": "IBLS/CVS/Formative are provenance only. Past and AI questions are organized by official Study Guide subject and lecture. New combined antihypertensive content is split across official lecture 1/2 by objectives."
+  "audit_note": "IBLS/CVS/Formative are provenance only. Past and AI questions are organized by official Study Guide subject and lecture. New combined antihypertensive content is split across official lecture 1/2 by objectives. Visible formative-style AI cases inherit the already-audited parent lecture mapping."
 }

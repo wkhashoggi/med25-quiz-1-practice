@@ -28,7 +28,7 @@ try{
   const close=html.lastIndexOf('</script>');
   if(close<0)throw new Error('Main application script not found.');
   const insert=close+9;
-  const extra='<script src="study-hub.js?v=23"></'+'script>\n<script src="anki-fsrs.js?v=10"></'+'script>\n<script src="live-question-stats.js?v=4"></'+'script>';
+  const extra='<script src="study-hub.js?v=23"></'+'script>\n<script src="game-hub.js?v=1"></'+'script>\n<script src="anki-fsrs.js?v=10"></'+'script>\n<script src="live-question-stats.js?v=4"></'+'script>';
   html=html.slice(0,insert)+'\n'+extra+html.slice(insert);
 
   document.open();document.write(html);document.close();

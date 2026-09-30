@@ -88,7 +88,11 @@ function answerAI(id,opt){
   aiSave();
   trackEvent('question_answer',{question_id:id,topic:q.concept||q.lecture_title||q.subject,metadata:{correct:opt===q.answer,first_attempt:true,source:'ai_generated'}});
   try{
-    window.med25GameRecordAttempt?.('ai',id,p[id].correct);
+    if(typeof window.med25GameRecordAttempt==='function')window.med25GameRecordAttempt('ai',id,p[id].correct);
+    else{
+      window.med25PendingGameAttempts=window.med25PendingGameAttempts||[];
+      window.med25PendingGameAttempts.push({source:'ai',questionId:id,correct:p[id].correct});
+    }
     window.med25GameUpdateQuizBadge?.();
   }catch(e){console.warn('Game AI hook unavailable',e)}
   renderAI();

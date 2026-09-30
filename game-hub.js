@@ -177,7 +177,7 @@ function gameRenderProfile(){
     '<div class="gameProfileStats">'+
       '<span><b>'+Number(gameProfile.correct_first_attempts||0).toLocaleString()+'</b> correct</span>'+
       '<span><b>'+Number(gameProfile.wrong_first_attempts||0).toLocaleString()+'</b> wrong</span>'+
-      '<span><b>'+Number(gameProfile.weekly_xp||0).toLocaleString()+'</b> XP this week</span>'+
+      '<span><b>'+((String(gameProfile.week_start||'')===gameRiyadhPeriodStart('week'))?Number(gameProfile.weekly_xp||0):0).toLocaleString()+'</b> XP this week</span>'+
     '</div>'+
     '<label class="gameLeaderboardToggle"><span><b>Appear on leaderboard</b><small>On automatically for every registered account. You can turn this off anytime.</small></span><input id="gameLeaderboardVisible" type="checkbox" '+(gameProfile.leaderboard_visible?'checked':'')+'><i></i></label>'+
     '<div class="gameProfileStatus" id="gameProfileStatus"></div>';
@@ -378,7 +378,7 @@ async function gameRecordAttempt(source,questionId,correct){
     if(!res.ok)return;
     const rows=await res.json();
     if(rows.length){
-      gameScoreToast(correct?(GAME_SCORE[source]||5):GAME_SCORE.wrong);
+      gameScoreToast(Number(rows[0]?.points_delta ?? (correct?(GAME_SCORE[source]||5):GAME_SCORE.wrong)));
       await gameRefreshProfile();
       gameLoadLeaderboard(true);
     }
@@ -390,7 +390,7 @@ async function gameLoadLeaderboard(force=false){
   if(!host)return;
   if(!force&&Date.now()-gameLeaderboardLoadedAt<30000&&gameLeaderboard.length){gameRenderLeaderboard();return}
   try{
-    const res=await supaFetch('/rest/v1/leaderboard_entries?select=username,avatar_url,points,weekly_xp,monthly_xp,current_streak,best_streak&visible=eq.true&limit=500');
+    const res=await supaFetch('/rest/v1/leaderboard_entries?select=username,avatar_url,points,weekly_xp,monthly_xp,current_streak,best_streak,week_start,month_start&visible=eq.true&limit=500');
     if(!res.ok)throw new Error(await res.text());
     gameLeaderboard=await res.json();
     gameLeaderboardLoadedAt=Date.now();
@@ -401,12 +401,24 @@ async function gameLoadLeaderboard(force=false){
   }
 }
 
+function gameRiyadhPeriodStart(period){
+  const parts=new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Riyadh',year:'numeric',month:'2-digit',day:'2-digit',weekday:'short'}).formatToParts(new Date());
+  const get=t=>parts.find(x=>x.type===t)?.value;const y=Number(get('year')),m=Number(get('month')),d=Number(get('day'));
+  const today=new Date(Date.UTC(y,m-1,d));
+  if(period==='month')return y+'-'+String(m).padStart(2,'0')+'-01';
+  const dow=today.getUTCDay(),back=(dow+6)%7;today.setUTCDate(today.getUTCDate()-back);
+  return today.toISOString().slice(0,10);
+}
+function gameLeaderboardValue(r,mode){
+  if(mode==='weekly')return String(r.week_start||'')===gameRiyadhPeriodStart('week')?Number(r.weekly_xp||0):0;
+  if(mode==='monthly')return String(r.month_start||'')===gameRiyadhPeriodStart('month')?Number(r.monthly_xp||0):0;
+  return Number(r.points||0);
+}
 function gameRenderLeaderboard(){
   const host=document.getElementById('gameLeaderboardList'),meta=document.getElementById('gameLeaderboardMeta');
   if(!host)return;
-  const field=gameLeaderboardMode==='weekly'?'weekly_xp':gameLeaderboardMode==='monthly'?'monthly_xp':'points';
   const label=gameLeaderboardMode==='weekly'?'this week':gameLeaderboardMode==='monthly'?'this month':'all-time';
-  const rows=[...gameLeaderboard].sort((a,b)=>Number(b[field]||0)-Number(a[field]||0));
+  const rows=[...gameLeaderboard].sort((a,b)=>gameLeaderboardValue(b,gameLeaderboardMode)-gameLeaderboardValue(a,gameLeaderboardMode));
   if(meta)meta.textContent=rows.length+' MED25 accounts · ranked by XP '+label+' · streak bonuses included';
   if(!rows.length){host.innerHTML='<div class="gameEmpty">No ranked players yet. Be the first.</div>';return}
   host.innerHTML=rows.map((r,i)=>{
@@ -415,7 +427,7 @@ function gameRenderLeaderboard(){
     const lv=gameLevelInfo(r.points);
     return '<div class="gameLeaderboardRow '+(isMe?'me':'')+'"><span class="gameRank">'+medal+'</span>'+gameAvatarMarkup(r,'small')+
       '<b>'+esc(r.username||'Student')+(isMe?' <small>you</small>':'')+'<em>Lv '+lv.level+' · '+lv.title+'</em></b>'+
-      '<strong>'+Number(r[field]||0).toLocaleString()+' XP</strong></div>';
+      '<strong>'+gameLeaderboardValue(r,gameLeaderboardMode).toLocaleString()+' XP</strong></div>';
   }).join('');
 }
 

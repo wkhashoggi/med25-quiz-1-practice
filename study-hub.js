@@ -334,7 +334,7 @@ function qaSetupOne(prefix,model,host){
   const subject=document.getElementById(qaIds(prefix,'Subject')),status=document.getElementById(qaIds(prefix,'Status')),btn=document.getElementById(qaIds(prefix,'LectureBtn')),panel=document.getElementById(qaIds(prefix,'LecturePanel')),clear=document.getElementById(qaIds(prefix,'Clear'));
   subject.innerHTML='<option value="">All subjects</option>'+qaSubjects().map(x=>'<option value="'+esc(x)+'">'+esc(x)+'</option>').join('');
   subject.value=model.subject||'';status.value=model.status||'all';
-  status.onchange=()=>{model.status=status.value;qaResetLegacyStatus(prefix);qaApply(prefix);responsiveUpdateFilterLabels()};
+  status.onchange=()=>{if(prefix==='ai')aiClearUnansweredPins();model.status=status.value;qaResetLegacyStatus(prefix);qaApply(prefix);responsiveUpdateFilterLabels()};
   subject.onchange=()=>{model.subject=subject.value;model.lectures.clear();qaRenderLecturePicker(prefix,model);qaApply(prefix);responsiveUpdateFilterLabels()};
   btn.onclick=e=>{e.stopPropagation();if(!btn.disabled)panel.classList.toggle('hidden')};
   panel.onclick=e=>e.stopPropagation();
@@ -1003,7 +1003,7 @@ function med25RenderHomePolish(){
     const raw=localStorage.getItem(MED25_EXAM_DATE_KEY)||'';
     const exam=raw?new Date(raw+'T09:00:00'):null;
     const days=exam&&Number.isFinite(exam.getTime())?Math.ceil((exam.getTime()-Date.now())/86400000):null;
-    context.textContent=days!==null&&days>=0?('Next exam · '+(days===0?'today':days+' day'+(days===1?'':'s')+' away')):'Quiz 1 · Revision dashboard · tap to set next exam date';
+    context.textContent=days!==null&&days>=0?('Next exam · '+(days===0?'today':days+' day'+(days===1?'':'s')+' away')):'Circulation & Breathing · tap to set next exam date';
     context.classList.add('homeContextAction');
     context.title='Tap to set or update your next exam date';
     context.onclick=()=>{

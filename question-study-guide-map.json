@@ -6909,57 +6909,57 @@
       "lecture_id": "pathology__vasculitis",
       "subject": "Pathology",
       "title": "Vasculitis",
-      "confidence": 0.99,
-      "method": "objectives"
+      "confidence": 1,
+      "method": "official-parent-lecture"
     },
     "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_02": {
       "lecture_id": "pathology__vasculitis",
       "subject": "Pathology",
       "title": "Vasculitis",
-      "confidence": 0.99,
-      "method": "objectives"
+      "confidence": 1,
+      "method": "official-parent-lecture"
     },
     "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_03": {
       "lecture_id": "pathology__vasculitis",
       "subject": "Pathology",
       "title": "Vasculitis",
-      "confidence": 0.99,
-      "method": "objectives"
+      "confidence": 1,
+      "method": "official-parent-lecture"
     },
     "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_04": {
       "lecture_id": "pathology__vasculitis",
       "subject": "Pathology",
       "title": "Vasculitis",
-      "confidence": 0.99,
-      "method": "objectives"
+      "confidence": 1,
+      "method": "official-parent-lecture"
     },
     "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_05": {
       "lecture_id": "pathology__vasculitis",
       "subject": "Pathology",
       "title": "Vasculitis",
-      "confidence": 0.99,
-      "method": "objectives"
+      "confidence": 1,
+      "method": "official-parent-lecture"
     },
     "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_06": {
       "lecture_id": "pathology__vasculitis",
       "subject": "Pathology",
       "title": "Vasculitis",
-      "confidence": 0.99,
-      "method": "objectives"
+      "confidence": 1,
+      "method": "official-parent-lecture"
     },
     "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_07": {
       "lecture_id": "pathology__vasculitis",
       "subject": "Pathology",
       "title": "Vasculitis",
-      "confidence": 0.99,
-      "method": "objectives"
+      "confidence": 1,
+      "method": "official-parent-lecture"
     },
     "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_08": {
       "lecture_id": "pathology__vasculitis",
       "subject": "Pathology",
       "title": "Vasculitis",
-      "confidence": 0.99,
-      "method": "objectives"
+      "confidence": 1,
+      "method": "official-parent-lecture"
     },
     "ai_1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0_01": {
       "lecture_id": "pathology__myocarditis-and-pericardial-diseases",
@@ -9529,6 +9529,118 @@
       "title": "Physiology of vascular endothelium",
       "confidence": 1,
       "method": "parent-lecture-inheritance"
+    },
+    "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_09": {
+      "lecture_id": "pathology__vasculitis",
+      "subject": "Pathology",
+      "title": "Vasculitis",
+      "confidence": 1,
+      "method": "official-parent-lecture"
+    },
+    "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_10": {
+      "lecture_id": "pathology__vasculitis",
+      "subject": "Pathology",
+      "title": "Vasculitis",
+      "confidence": 1,
+      "method": "official-parent-lecture"
+    },
+    "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_11": {
+      "lecture_id": "pathology__vasculitis",
+      "subject": "Pathology",
+      "title": "Vasculitis",
+      "confidence": 1,
+      "method": "official-parent-lecture"
+    },
+    "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_12": {
+      "lecture_id": "pathology__vasculitis",
+      "subject": "Pathology",
+      "title": "Vasculitis",
+      "confidence": 1,
+      "method": "official-parent-lecture"
+    },
+    "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_13": {
+      "lecture_id": "pathology__vasculitis",
+      "subject": "Pathology",
+      "title": "Vasculitis",
+      "confidence": 1,
+      "method": "official-parent-lecture"
+    },
+    "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_14": {
+      "lecture_id": "pathology__vasculitis",
+      "subject": "Pathology",
+      "title": "Vasculitis",
+      "confidence": 1,
+      "method": "official-parent-lecture"
+    },
+    "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_15": {
+      "lecture_id": "pathology__vasculitis",
+      "subject": "Pathology",
+      "title": "Vasculitis",
+      "confidence": 1,
+      "method": "official-parent-lecture"
+    },
+    "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_16": {
+      "lecture_id": "pathology__vasculitis",
+      "subject": "Pathology",
+      "title": "Vasculitis",
+      "confidence": 1,
+      "method": "official-parent-lecture"
+    },
+    "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_17": {
+      "lecture_id": "pathology__vasculitis",
+      "subject": "Pathology",
+      "title": "Vasculitis",
+      "confidence": 1,
+      "method": "official-parent-lecture"
+    },
+    "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_18": {
+      "lecture_id": "pathology__vasculitis",
+      "subject": "Pathology",
+      "title": "Vasculitis",
+      "confidence": 1,
+      "method": "official-parent-lecture"
+    },
+    "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_19": {
+      "lecture_id": "pathology__vasculitis",
+      "subject": "Pathology",
+      "title": "Vasculitis",
+      "confidence": 1,
+      "method": "official-parent-lecture"
+    },
+    "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_20": {
+      "lecture_id": "pathology__vasculitis",
+      "subject": "Pathology",
+      "title": "Vasculitis",
+      "confidence": 1,
+      "method": "official-parent-lecture"
+    },
+    "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_21": {
+      "lecture_id": "pathology__vasculitis",
+      "subject": "Pathology",
+      "title": "Vasculitis",
+      "confidence": 1,
+      "method": "official-parent-lecture"
+    },
+    "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_22": {
+      "lecture_id": "pathology__vasculitis",
+      "subject": "Pathology",
+      "title": "Vasculitis",
+      "confidence": 1,
+      "method": "official-parent-lecture"
+    },
+    "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_23": {
+      "lecture_id": "pathology__vasculitis",
+      "subject": "Pathology",
+      "title": "Vasculitis",
+      "confidence": 1,
+      "method": "official-parent-lecture"
+    },
+    "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_24": {
+      "lecture_id": "pathology__vasculitis",
+      "subject": "Pathology",
+      "title": "Vasculitis",
+      "confidence": 1,
+      "method": "official-parent-lecture"
     }
   },
   "audit_note": "IBLS/CVS/Formative are provenance only. Past and AI questions are organized by official Study Guide subject and lecture. New combined antihypertensive content is split across official lecture 1/2 by objectives. Visible formative-style AI cases inherit the already-audited parent lecture mapping."

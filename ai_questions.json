@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-30T16:37:14.584Z",
+  "generated_at": "2026-09-30T17:24:12.961Z",
   "source_root": {
     "id": "1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
     "url": "https://drive.google.com/drive/folders/1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
@@ -4010,190 +4010,457 @@
       "title": "Vasculitis and Vascular & Cardiac Tumours",
       "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk",
       "source_modified_time": "2026-09-21T12:45:38.072Z",
-      "source_validation": "pending_lecture_validation",
+      "source_validation": "lecture_verified_quality_rebuilt",
       "archived": false,
       "questions": [
         {
           "id": "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_01",
-          "stem": "Which of the following best describes vasculitis?",
+          "stem": "Which mechanism is one of the two major pathogenic pathways of vasculitis?",
           "options": {
-            "A": "Large and medium arteries, especially branches of the carotid artery.",
-            "B": "Ophthalmic artery involvement can cause irreversible blindness.",
-            "C": "By the predominant size of vessel involved: large, medium, or small.",
-            "D": "Inflammation and damage of blood-vessel walls."
+            "A": "Immune-mediated inflammation",
+            "B": "Isolated medial calcification",
+            "C": "Atherosclerotic plaque rupture",
+            "D": "Congenital absence of elastic tissue"
           },
-          "answer": "D",
-          "explanation": "Inflammation and damage of blood-vessel walls.",
-          "concept": "Vasculitis and Vascular & Cardiac Tumours",
-          "difficulty": "application",
+          "answer": "A",
+          "explanation": "The lecture identifies immune-mediated inflammation and direct vascular invasion by infectious pathogens as the two major mechanisms.",
+          "concept": "Mechanisms",
+          "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk",
-          "source_card_id": "1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6-c01",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_02",
-          "stem": "Which of the following best describes are vasculitides commonly classified?",
+          "stem": "Which finding best supports an immune-complex mechanism of vasculitis?",
           "options": {
-            "A": "Necrotizing vasculitis of medium/small muscular arteries, typically sparing pulmonary arteries.",
-            "B": "Necrotizing granulomatous inflammation of respiratory tract plus small-vessel vasculitis and glomerulonephritis.",
-            "C": "By the predominant size of vessel involved: large, medium, or small.",
-            "D": "Granulomatous large-vessel vasculitis causing weak/absent upper-extremity pulses."
+            "A": "Direct fungal invasion of the vessel wall",
+            "B": "Mechanical endothelial trauma",
+            "C": "Isolated hyperlipidemia",
+            "D": "Autoantibody-associated immune complex deposition"
           },
-          "answer": "C",
-          "explanation": "By the predominant size of vessel involved: large, medium, or small.",
-          "concept": "Vasculitis and Vascular & Cardiac Tumours",
-          "difficulty": "core",
+          "answer": "D",
+          "explanation": "Immune complex deposition is an immune-mediated mechanism and is seen in disorders such as SLE.",
+          "concept": "Mechanisms",
+          "difficulty": "understanding",
           "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk",
-          "source_card_id": "1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6-c02",
-          "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_03",
-          "stem": "What vessels are classically affected in giant-cell arteritis?",
+          "stem": "Which organisms are specifically highlighted as causes of direct infectious invasion of vessel walls in immunocompromised patients?",
           "options": {
-            "A": "By the predominant size of vessel involved: large, medium, or small.",
-            "B": "Large and medium arteries, especially branches of the carotid artery.",
-            "C": "Ophthalmic artery involvement can cause irreversible blindness.",
-            "D": "Inflammation and damage of blood-vessel walls."
+            "A": "Candida and Cryptococcus",
+            "B": "Mycobacterium and Nocardia",
+            "C": "Aspergillus and Mucor",
+            "D": "Staphylococcus and Streptococcus"
           },
-          "answer": "B",
-          "explanation": "Large and medium arteries, especially branches of the carotid artery.",
-          "concept": "Vasculitis and Vascular & Cardiac Tumours",
-          "difficulty": "understanding",
+          "answer": "C",
+          "explanation": "The lecture specifically highlights Aspergillus and Mucor as causes of direct vascular invasion, especially in immunocompromised patients.",
+          "concept": "Infectious vasculitis",
+          "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk",
-          "source_card_id": "1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6-c03",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_04",
-          "stem": "Which of the following best explains why is giant-cell arteritis an emergency when vision symptoms occur?",
+          "stem": "Which pair is classified as large-vessel vasculitis in the lecture?",
           "options": {
-            "A": "Ophthalmic artery involvement can cause irreversible blindness.",
-            "B": "Large and medium arteries, especially branches of the carotid artery.",
-            "C": "Inflammation and damage of blood-vessel walls.",
-            "D": "By the predominant size of vessel involved: large, medium, or small."
+            "A": "EGPA and Buerger disease",
+            "B": "Giant-cell arteritis and Takayasu arteritis",
+            "C": "PAN and Kawasaki disease",
+            "D": "GPA and microscopic polyangiitis"
           },
-          "answer": "A",
-          "explanation": "Ophthalmic artery involvement can cause irreversible blindness.",
-          "concept": "Vasculitis and Vascular & Cardiac Tumours",
-          "difficulty": "application",
+          "answer": "B",
+          "explanation": "Large-vessel vasculitis includes giant-cell arteritis and Takayasu arteritis.",
+          "concept": "Classification",
+          "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk",
-          "source_card_id": "1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6-c04",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_05",
-          "stem": "Which of the following best describes Takayasu arteritis known for clinically?",
+          "stem": "A 68-year-old has a new temporal headache and visual symptoms. Which complication makes suspected giant-cell arteritis an emergency?",
           "options": {
-            "A": "By the predominant size of vessel involved: large, medium, or small.",
-            "B": "Necrotizing granulomatous inflammation of respiratory tract plus small-vessel vasculitis and glomerulonephritis.",
-            "C": "Necrotizing vasculitis of medium/small muscular arteries, typically sparing pulmonary arteries.",
-            "D": "Granulomatous large-vessel vasculitis causing weak/absent upper-extremity pulses."
+            "A": "Sudden permanent blindness",
+            "B": "Pulmonary hemorrhage",
+            "C": "Coronary aneurysm",
+            "D": "Nephrotic syndrome"
           },
-          "answer": "D",
-          "explanation": "Granulomatous large-vessel vasculitis causing weak/absent upper-extremity pulses.",
-          "concept": "Vasculitis and Vascular & Cardiac Tumours",
-          "difficulty": "core",
+          "answer": "A",
+          "explanation": "Ophthalmic artery involvement can cause sudden permanent blindness, requiring prompt diagnosis and treatment.",
+          "concept": "Giant-cell arteritis",
+          "difficulty": "application",
           "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk",
-          "source_card_id": "1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6-c05",
-          "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case"
         },
         {
           "id": "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_06",
-          "stem": "Which of the following best describes polyarteritis nodosa?",
+          "stem": "The classic lesion of giant-cell arteritis is centered on which structure?",
           "options": {
-            "A": "By the predominant size of vessel involved: large, medium, or small.",
-            "B": "Granulomatous large-vessel vasculitis causing weak/absent upper-extremity pulses.",
-            "C": "Necrotizing vasculitis of medium/small muscular arteries, typically sparing pulmonary arteries.",
-            "D": "Necrotizing granulomatous inflammation of respiratory tract plus small-vessel vasculitis and glomerulonephritis."
+            "A": "External elastic lamina",
+            "B": "Venous valve",
+            "C": "Endocardium",
+            "D": "Internal elastic lamina"
           },
-          "answer": "C",
-          "explanation": "Necrotizing vasculitis of medium/small muscular arteries, typically sparing pulmonary arteries.",
-          "concept": "Vasculitis and Vascular & Cardiac Tumours",
-          "difficulty": "understanding",
+          "answer": "D",
+          "explanation": "Classic giant-cell arteritis shows granulomatous inflammation in the inner half of the media centered on the internal elastic lamina, with fragmentation.",
+          "concept": "Giant-cell arteritis morphology",
+          "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk",
-          "source_card_id": "1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6-c06",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_07",
-          "stem": "Which vasculitis is strongly associated with asthma and eosinophilia?",
+          "stem": "Why can a temporal artery biopsy be negative despite true giant-cell arteritis?",
           "options": {
-            "A": "Necrotizing vasculitis of medium/small muscular arteries, typically sparing pulmonary arteries.",
-            "B": "Eosinophilic granulomatosis with polyangiitis.",
-            "C": "By the predominant size of vessel involved: large, medium, or small.",
-            "D": "Granulomatous large-vessel vasculitis causing weak/absent upper-extremity pulses."
+            "A": "Giant cells are never present",
+            "B": "The lesion is confined to capillaries",
+            "C": "The inflammation is segmental",
+            "D": "The disease affects veins only"
           },
-          "answer": "B",
-          "explanation": "Eosinophilic granulomatosis with polyangiitis.",
-          "concept": "Vasculitis and Vascular & Cardiac Tumours",
+          "answer": "C",
+          "explanation": "Giant-cell arteritis is segmental, so an uninvolved segment may be sampled; a negative biopsy does not exclude the diagnosis.",
+          "concept": "Giant-cell arteritis diagnosis",
           "difficulty": "application",
           "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk",
-          "source_card_id": "1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6-c07",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case"
         },
         {
           "id": "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_08",
-          "stem": "Which of the following best describes granulomatosis with polyangiitis characterized by?",
+          "stem": "Which statement about polyarteritis nodosa is correct?",
           "options": {
-            "A": "Necrotizing granulomatous inflammation of respiratory tract plus small-vessel vasculitis and glomerulonephritis.",
-            "B": "Necrotizing vasculitis of medium/small muscular arteries, typically sparing pulmonary arteries.",
-            "C": "Granulomatous large-vessel vasculitis causing weak/absent upper-extremity pulses.",
-            "D": "By the predominant size of vessel involved: large, medium, or small."
+            "A": "It affects capillaries only",
+            "B": "It typically spares the pulmonary circulation",
+            "C": "It is strongly PR3-ANCA positive",
+            "D": "It primarily causes glomerulonephritis"
           },
-          "answer": "A",
-          "explanation": "Necrotizing granulomatous inflammation of respiratory tract plus small-vessel vasculitis and glomerulonephritis.",
-          "concept": "Vasculitis and Vascular & Cardiac Tumours",
+          "answer": "B",
+          "explanation": "PAN is a necrotizing vasculitis of small–medium muscular arteries; pulmonary circulation and glomeruli are typically spared.",
+          "concept": "PAN",
           "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk",
-          "source_card_id": "1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6-c08",
-          "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
-          "id": "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_formcase01",
-          "stem": "An older patient develops a new headache followed by visual symptoms. Giant-cell arteritis is suspected. Why is immediate treatment particularly important?",
+          "id": "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_09",
+          "stem": "A patient has systemic PAN with renal ischemia and abdominal pain. Which infection is classically associated with a substantial subset of cases in the lecture?",
           "options": {
-            "A": "Ophthalmic artery involvement can cause irreversible blindness.",
-            "B": "Large and medium arteries, especially branches of the carotid artery.",
-            "C": "Inflammation and damage of blood-vessel walls.",
-            "D": "By the predominant size of vessel involved: large, medium, or small."
+            "A": "Hepatitis B virus",
+            "B": "Epstein-Barr virus",
+            "C": "Influenza virus",
+            "D": "Respiratory syncytial virus"
           },
           "answer": "A",
-          "explanation": "Ophthalmic artery involvement can cause irreversible blindness.",
-          "concept": "Vasculitis and Vascular & Cardiac Tumours — formative-style case",
+          "explanation": "The lecture states that HBV is associated with up to about one-third of PAN cases through immune-complex deposition.",
+          "concept": "PAN",
           "difficulty": "application",
           "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk",
-          "source_card_id": "1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6-c04",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case"
+        },
+        {
+          "id": "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_10",
+          "stem": "Which ANCA pattern is most characteristic of granulomatosis with polyangiitis (GPA) in the lecture?",
+          "options": {
+            "A": "MPO-ANCA",
+            "B": "ANA",
+            "C": "Anti-dsDNA",
+            "D": "PR3-ANCA"
+          },
+          "answer": "D",
+          "explanation": "The lecture table associates GPA with PR3-ANCA in about 95%.",
+          "concept": "Small-vessel vasculitis",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_11",
+          "stem": "A patient has asthma, allergic rhinitis, marked eosinophilia and eosinophil-rich necrotizing granulomatous vasculitis. What is the diagnosis?",
+          "options": {
+            "A": "Polyarteritis nodosa",
+            "B": "Giant-cell arteritis",
+            "C": "Eosinophilic granulomatosis with polyangiitis",
+            "D": "Microscopic polyangiitis"
+          },
+          "answer": "C",
+          "explanation": "The triad of asthma/allergic rhinitis, peripheral eosinophilia and eosinophil-rich necrotizing granulomatous vasculitis characterizes EGPA.",
+          "concept": "EGPA",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk",
           "style_profile": "KAU-formative-case-inspired",
-          "quality_status": "hold",
-          "exam_ready": false,
-          "case_style": "formative_short_case",
-          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case"
+        },
+        {
+          "id": "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_12",
+          "stem": "Which feature distinguishes microscopic polyangiitis from GPA in the lecture table?",
+          "options": {
+            "A": "Large-vessel involvement",
+            "B": "Absence of granulomas",
+            "C": "PR3-ANCA predominance",
+            "D": "Upper-airway granulomas"
+          },
+          "answer": "B",
+          "explanation": "MPA is a pauci-immune small-vessel vasculitis with no granulomas; GPA has necrotizing granulomas.",
+          "concept": "MPA",
+          "difficulty": "understanding",
+          "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_13",
+          "stem": "A 30-year-old heavy smoker develops Raynaud phenomenon, foot claudication and painful superficial nodular phlebitis. Which diagnosis best fits?",
+          "options": {
+            "A": "Thromboangiitis obliterans",
+            "B": "Giant-cell arteritis",
+            "C": "Kawasaki disease",
+            "D": "Microscopic polyangiitis"
+          },
+          "answer": "A",
+          "explanation": "Buerger disease is strongly associated with heavy tobacco use in young adults and affects small–medium arteries and veins of the extremities.",
+          "concept": "Buerger disease",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case"
+        },
+        {
+          "id": "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_14",
+          "stem": "What intervention is essential to prevent progression of thromboangiitis obliterans?",
+          "options": {
+            "A": "Long-term corticosteroids",
+            "B": "High-dose statin therapy",
+            "C": "Splenectomy",
+            "D": "Smoking cessation"
+          },
+          "answer": "D",
+          "explanation": "The lecture emphasizes smoking cessation as essential and potentially able to prevent progression or attacks.",
+          "concept": "Buerger disease",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_15",
+          "stem": "Which histologic description best fits a capillary hemangioma?",
+          "options": {
+            "A": "Sheets of atypical spindle endothelial cells",
+            "B": "Slit-like spaces between malignant spindle cells",
+            "C": "Thin-walled capillaries with scant stroma",
+            "D": "Large dilated vascular channels with abundant thrombosis"
+          },
+          "answer": "C",
+          "explanation": "Capillary hemangiomas are composed of thin-walled capillaries with scant stroma.",
+          "concept": "Capillary hemangioma",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_16",
+          "stem": "Compared with capillary hemangiomas, cavernous hemangiomas are more likely to:",
+          "options": {
+            "A": "Show only tiny capillary-sized channels",
+            "B": "Involve deep structures and fail to regress spontaneously",
+            "C": "Regress completely in most children by age seven",
+            "D": "Remain limited to superficial oral mucosa"
+          },
+          "answer": "B",
+          "explanation": "Cavernous hemangiomas are more infiltrative, often involve deep structures and do not spontaneously regress.",
+          "concept": "Cavernous hemangioma",
+          "difficulty": "understanding",
+          "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_17",
+          "stem": "Which virus is present in virtually all Kaposi sarcoma lesions?",
+          "options": {
+            "A": "HHV-8",
+            "B": "EBV",
+            "C": "HPV-16",
+            "D": "CMV"
+          },
+          "answer": "A",
+          "explanation": "Virtually all Kaposi sarcoma lesions are infected by HHV-8/KSHV.",
+          "concept": "Kaposi sarcoma",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_18",
+          "stem": "A solid-organ transplant recipient develops aggressive Kaposi sarcoma. Which management change may cause lesions to regress?",
+          "options": {
+            "A": "Increasing T-cell immunosuppression",
+            "B": "Starting corticosteroids at higher dose",
+            "C": "Adding tobacco exposure cessation only",
+            "D": "Reduction of immunosuppression"
+          },
+          "answer": "D",
+          "explanation": "Transplant-associated Kaposi sarcoma may regress when immunosuppression is reduced.",
+          "concept": "Kaposi sarcoma",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case"
+        },
+        {
+          "id": "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_19",
+          "stem": "Hepatic angiosarcoma is classically associated with exposure to which substance?",
+          "options": {
+            "A": "Asbestos",
+            "B": "Benzene",
+            "C": "Polyvinyl chloride",
+            "D": "Silica"
+          },
+          "answer": "C",
+          "explanation": "The lecture lists arsenic, polyvinyl chloride and Thorotrast as carcinogenic exposures associated with hepatic angiosarcoma.",
+          "concept": "Angiosarcoma",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_20",
+          "stem": "Several years after radical mastectomy, a patient develops a vascular malignancy in the chronically lymphedematous ipsilateral arm. Which tumor is most likely?",
+          "options": {
+            "A": "Kaposi sarcoma",
+            "B": "Angiosarcoma",
+            "C": "Capillary hemangioma",
+            "D": "Myxoma"
+          },
+          "answer": "B",
+          "explanation": "Angiosarcoma can arise in chronic lymphedema, classically in the ipsilateral upper extremity after radical mastectomy.",
+          "concept": "Angiosarcoma",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case"
+        },
+        {
+          "id": "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_21",
+          "stem": "What is the most common primary cardiac tumor in adults?",
+          "options": {
+            "A": "Myxoma",
+            "B": "Angiosarcoma",
+            "C": "Rhabdomyoma",
+            "D": "Fibroma"
+          },
+          "answer": "A",
+          "explanation": "The lecture identifies myxoma as the most common primary cardiac tumor in adults.",
+          "concept": "Cardiac tumors",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_22",
+          "stem": "Where do approximately 90% of cardiac myxomas arise according to the lecture?",
+          "options": {
+            "A": "Right ventricular outflow tract",
+            "B": "Left ventricular apex",
+            "C": "Interventricular septum",
+            "D": "Left atrium near the fossa ovalis"
+          },
+          "answer": "D",
+          "explanation": "About 90% of myxomas arise in the left atrium in the region of the fossa ovalis.",
+          "concept": "Myxoma",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_23",
+          "stem": "A left atrial myxoma produces symptoms despite being histologically benign. Which mechanism is supported by the lecture?",
+          "options": {
+            "A": "Metastasis to the liver",
+            "B": "Destruction of coronary arteries",
+            "C": "Physical obstruction or peripheral embolization",
+            "D": "Diffuse myocardial invasion in every case"
+          },
+          "answer": "C",
+          "explanation": "Myxomas can cause symptoms through physical obstruction, trauma to AV valves, or peripheral embolization.",
+          "concept": "Myxoma",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case"
+        },
+        {
+          "id": "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_24",
+          "stem": "Which route can allow a renal or hepatic malignancy to reach the heart?",
+          "options": {
+            "A": "Transplacental spread",
+            "B": "Venous extension",
+            "C": "Only retrograde arterial spread",
+            "D": "Only perineural invasion"
+          },
+          "answer": "B",
+          "explanation": "The lecture lists venous extension as a route for tumors of the kidney or liver to reach the heart/pericardium.",
+          "concept": "Cardiac metastasis",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
         }
       ],
       "eligibility_status": "allowed",
       "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
-      "quality_status": "hold",
-      "quality_reviewed_at": "2026-09-30T15:36:28.081Z",
+      "quality_status": "pass",
+      "quality_reviewed_at": "2026-09-30T17:24:12.956Z",
       "quality_policy_version": 2,
-      "quality_reason": "Legacy AI set used other questions' correct answers as distractors; withheld until objective-led rebuild.",
-      "exam_ready": false
+      "quality_reason": "Rebuilt directly from the official 2026–2027 lecture; objective-led questions with same-domain distractors and short application cases.",
+      "exam_ready": true
     },
     {
       "id": "ai_set_1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0",

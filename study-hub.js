@@ -104,7 +104,7 @@ function openAISource(id){
   try{trackEvent('source_open',{question_id:id,topic:q.concept||q.lecture_title||q.subject,metadata:{source:'ai_generated',lecture_id:q.set_id||'',section:'ai'}})}catch{}
   window.open(q.source_url,'_blank','noopener,noreferrer');
 }
-function copyAI(id){const q=aiAllQuestions().find(x=>x.id===id);if(!q)return;const txt=q.stem+'\n'+Object.entries(q.options||{}).map(([k,v])=>k+'. '+v).join('\n');navigator.clipboard?.writeText(txt)}
+function copyAI(id){const q=aiAllQuestions().find(x=>x.id===id);if(!q)return;const txt=q.stem+'\n'+Object.entries(q.options||{}).map(([k,v])=>k+'. '+v).join('\n');try{const p=navigator.clipboard?.writeText?.(txt);if(p&&typeof p.catch==='function')p.catch(()=>{})}catch{}}
 function renderAI(){
   const host=document.getElementById('aiQuestionList');if(!host)return;
   const all=aiFiltered();

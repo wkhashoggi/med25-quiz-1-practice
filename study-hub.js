@@ -19,6 +19,10 @@ function aiProgress(){
 function aiAllQuestions(){
   return (aiLibrary.lecture_sets||[]).filter(s=>!s.archived&&s.eligibility_status==='allowed').flatMap(set=>(set.questions||[]).map(q=>({...q,set_id:set.id,subject:set.subject,lecture_title:set.title,source_url:set.source_url||q.source_url||'',source_validation:set.source_validation||'pending_lecture_validation'})));
 }
+window.med25GameBridge=window.med25GameBridge||{};
+window.med25GameBridge.aiQuestions=()=>aiAllQuestions();
+window.med25GameBridge.aiProgress=()=>aiProgress();
+
 function aiSave(){save();renderAIStats();med25MarkHomeDirty()}
 function aiFiltered(){
   const p=aiProgress(),query=(aiState.search||'').toLowerCase().trim();
@@ -69,7 +73,13 @@ function bindAI(){
 function answerAI(id,opt){
   const q=aiAllQuestions().find(x=>x.id===id),p=aiProgress();if(!q||p[id]?.answered)return;
   p[id]={...(p[id]||{}),answered:true,selected:opt,correct:opt===q.answer,locked_at:new Date().toISOString()};
-  aiSave();trackEvent('question_answer',{question_id:id,topic:q.concept||q.lecture_title||q.subject,metadata:{correct:opt===q.answer,first_attempt:true,source:'ai_generated'}});renderAI();
+  aiSave();
+  trackEvent('question_answer',{question_id:id,topic:q.concept||q.lecture_title||q.subject,metadata:{correct:opt===q.answer,first_attempt:true,source:'ai_generated'}});
+  try{
+    window.med25GameRecordAttempt?.('ai',id,p[id].correct);
+    window.med25GameUpdateQuizBadge?.();
+  }catch(e){console.warn('Game AI hook unavailable',e)}
+  renderAI();
 }
 function starAI(id){const p=aiProgress();p[id]={...(p[id]||{}),starred:!p[id]?.starred};aiSave();renderAI()}
 function openAISource(id){
@@ -126,6 +136,7 @@ async function initAIQuestions(){
   const legacyTopic=document.getElementById('topic');if(legacyTopic)legacyTopic.value='';
   aiState.subject='';aiState.lecture='';
   populateAIFilters();setupAdvancedQuestionFilters();if(!document.getElementById('aiSection')?.classList.contains('hidden'))renderAI();if(!document.getElementById('questionSection')?.classList.contains('hidden'))render();if(med25HomeVisible())renderHome();else med25MarkHomeDirty(false);
+  try{window.med25GameUpdateQuizBadge?.();window.med25GameRefreshQuiz?.()}catch{}
 }
 function setupAIControls(){
   const search=document.getElementById('aiSearch'),subject=document.getElementById('aiSubject'),lecture=document.getElementById('aiLecture');

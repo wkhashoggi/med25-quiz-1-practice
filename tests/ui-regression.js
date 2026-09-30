@@ -358,6 +358,11 @@ async function testProfile(page, mobile) {
     const after=await page.locator('html').getAttribute('data-theme');
     if (before===after) throw new Error('Profile appearance toggle did not change theme');
     await page.locator('#v2MobileAppearance').click();
+
+    await click(page.locator('[data-v2-mobile="practice"]'),'Practice overlay from Profile');
+    await assertVisible(page,'#v2PracticeBack.show','Practice chooser over Profile');
+    await click(page.locator('#v2PracticeClose'),'close Practice chooser');
+    await assertVisible(page,'#profileSection:not(.hidden)','Profile preserved after closing Practice chooser');
   }
   await noPageOverflow(page, 'profile');
 }

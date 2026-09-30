@@ -179,10 +179,9 @@ function gameRenderProfile(){
       '<span><b>'+Number(gameProfile.wrong_first_attempts||0).toLocaleString()+'</b> wrong</span>'+
       '<span><b>'+Number(gameProfile.weekly_xp||0).toLocaleString()+'</b> XP this week</span>'+
     '</div>'+
-    '<label class="gameLeaderboardToggle"><span><b>Appear on leaderboard</b><small>On by default. Turn this off for private progress.</small></span><input id="gameLeaderboardVisible" type="checkbox" '+(gameProfile.leaderboard_visible?'checked':'')+'><i></i></label>'+
+    '<div class="gameLeaderboardAuto"><b>Leaderboard active</b><small>Every registered MED25 account is ranked automatically.</small></div>'+
     '<div class="gameProfileStatus" id="gameProfileStatus"></div>';
   document.getElementById('gameSaveProfile').onclick=gameSaveProfile;
-  document.getElementById('gameLeaderboardVisible').onchange=gameSaveProfile;
   document.getElementById('gameAvatarButton').onclick=()=>document.getElementById('gameAvatarInput')?.click();
   document.getElementById('gameAvatarInput').onchange=gameUploadAvatar;
   document.getElementById('gamePointsInfoBtn')?.addEventListener('click',gameOpenPointsInfo);
@@ -235,6 +234,10 @@ async function gameEnsureProfile(){
     rows=await create.json();
   }
   gameProfile=rows[0]||null;
+  if(gameProfile&&gameProfile.leaderboard_visible!==true){
+    const show=await supaFetch('/rest/v1/game_profiles?user_id=eq.'+encodeURIComponent(currentUser.id),{method:'PATCH',headers:{Prefer:'return=representation'},body:JSON.stringify({leaderboard_visible:true,updated_at:new Date().toISOString()})});
+    if(show.ok){const fixed=await show.json();if(fixed[0])gameProfile=fixed[0]}
+  }
   gameRenderProfile();
   return gameProfile;
 }
@@ -252,7 +255,7 @@ async function gameRefreshProfile(){
 async function gameSaveProfile(){
   if(!currentUser||!gameProfile)return;
   const username=(document.getElementById('gameUsernameInput')?.value||gameProfile.username||'').trim();
-  const visible=!!document.getElementById('gameLeaderboardVisible')?.checked;
+  const visible=true;
   if(!/^[A-Za-z0-9_.-]{3,24}$/.test(username)){
     gameSetProfileStatus('Use 3–24 letters, numbers, dots, underscores or hyphens.',true);return;
   }
@@ -260,7 +263,7 @@ async function gameSaveProfile(){
   const res=await supaFetch('/rest/v1/game_profiles?user_id=eq.'+encodeURIComponent(currentUser.id),{
     method:'PATCH',
     headers:{Prefer:'return=representation'},
-    body:JSON.stringify({username,leaderboard_visible:visible,updated_at:new Date().toISOString()})
+    body:JSON.stringify({username,leaderboard_visible:true,updated_at:new Date().toISOString()})
   });
   if(!res.ok){
     const txt=await res.text();
@@ -390,7 +393,7 @@ async function gameLoadLeaderboard(force=false){
   if(!host)return;
   if(!force&&Date.now()-gameLeaderboardLoadedAt<30000&&gameLeaderboard.length){gameRenderLeaderboard();return}
   try{
-    const res=await supaFetch('/rest/v1/leaderboard_entries?select=username,avatar_url,points,weekly_xp,monthly_xp,current_streak,best_streak&visible=eq.true&limit=50');
+    const res=await supaFetch('/rest/v1/leaderboard_entries?select=username,avatar_url,points,weekly_xp,monthly_xp,current_streak,best_streak&visible=eq.true&limit=500');
     if(!res.ok)throw new Error(await res.text());
     gameLeaderboard=await res.json();
     gameLeaderboardLoadedAt=Date.now();
@@ -407,9 +410,9 @@ function gameRenderLeaderboard(){
   const field=gameLeaderboardMode==='weekly'?'weekly_xp':gameLeaderboardMode==='monthly'?'monthly_xp':'points';
   const label=gameLeaderboardMode==='weekly'?'this week':gameLeaderboardMode==='monthly'?'this month':'all-time';
   const rows=[...gameLeaderboard].sort((a,b)=>Number(b[field]||0)-Number(a[field]||0));
-  if(meta)meta.textContent=(gameProfile&&!gameProfile.leaderboard_visible?'You are hidden · ':'')+'Ranked by XP '+label+' · streak bonuses included';
+  if(meta)meta.textContent=rows.length+' MED25 accounts · ranked by XP '+label+' · streak bonuses included';
   if(!rows.length){host.innerHTML='<div class="gameEmpty">No ranked players yet. Be the first.</div>';return}
-  host.innerHTML=rows.slice(0,10).map((r,i)=>{
+  host.innerHTML=rows.map((r,i)=>{
     const rank=i+1,medal=rank===1?'🥇':rank===2?'🥈':rank===3?'🥉':String(rank);
     const isMe=!!gameProfile&&String(r.username).toLowerCase()===String(gameProfile.username).toLowerCase();
     const lv=gameLevelInfo(r.points);

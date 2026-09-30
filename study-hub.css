@@ -1504,3 +1504,6 @@ body.ankiFocusMode .ankiStudyShuffleBtn{
   }
   .ankiInfoBtn>span{font-size:16px!important}
 }
+
+/* MED25 formative-style case stamp */
+.caseStamp{font-weight:900;letter-spacing:.08em;text-transform:uppercase;border:1px solid currentColor;padding:.22rem .48rem;border-radius:999px;font-size:.7rem;line-height:1;background:transparent}

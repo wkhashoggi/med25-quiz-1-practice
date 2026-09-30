@@ -68,7 +68,7 @@ function aiCard(q){
   const lectureLabel=(q.subject?esc(q.subject)+' · ':'')+esc(q.lecture_title||'');
   return '<article class="qcard aiCard" id="'+q.id+'">'+
     '<span class="reviewmark aiStar" data-ai-star="'+q.id+'" title="Star for review">'+(p.starred?'★':'☆')+'</span>'+
-    '<div class="qtop aiTop"><div class="meta aiMeta"><span class="pill aiPill">'+esc(q.difficulty||'core')+'</span><span class="pill aiPill sgLecturePill">'+lectureLabel+'</span></div><span class="qnum examQuestionNumber">Question</span></div>'+
+    '<div class="qtop aiTop"><div class="meta aiMeta">'+(q.case_style==='formative_short_case'?'<span class="pill caseStamp">CASE</span>':'')+'<span class="pill aiPill">'+esc(q.difficulty||'core')+'</span><span class="pill aiPill sgLecturePill">'+lectureLabel+'</span></div><span class="qnum examQuestionNumber">Question</span></div>'+
     '<div class="stem aiStem">'+esc(q.stem)+'</div><div class="options aiOptions">'+opts+'</div>'+feedback+
     '<div class="actions aiActions">'+(q.source_url?'<button class="btn aiBtn sourcebtn" data-ai-source="'+q.id+'">Open source lecture ↗</button>':'')+'<button class="btn aiBtn" data-ai-copy="'+q.id+'">Copy question</button></div></article>';
 }

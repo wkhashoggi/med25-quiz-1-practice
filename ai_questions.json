@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-30T17:45:32.231Z",
+  "generated_at": "2026-09-30T17:46:40.756Z",
   "source_root": {
     "id": "1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
     "url": "https://drive.google.com/drive/folders/1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
@@ -747,190 +747,343 @@
       "title": "Plasma Lipoprotein Metabolism",
       "source_url": "https://drive.google.com/file/d/1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b/view?usp=drivesdk",
       "source_modified_time": "2026-09-13T09:31:23.215Z",
-      "source_validation": "lecture_validated_seed",
+      "source_validation": "lecture_verified_quality_rebuilt",
       "archived": false,
       "questions": [
         {
           "id": "ai_1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b_01",
-          "stem": "Which of the following best describes in a lipoprotein core vs shell?",
+          "stem": "Which lipoprotein is the largest and least dense?",
           "options": {
-            "A": "Hydrolyzes their TAG to fatty acids and glycerol.",
-            "B": "Size decreases while density increases: CM → VLDL → IDL → LDL → HDL.",
-            "C": "Deliver dietary TAG to tissues and dietary cholesterol to the liver.",
-            "D": "Core: TAG + cholesteryl esters. Shell: apoproteins + phospholipids + free cholesterol."
+            "A": "Chylomicron",
+            "B": "HDL",
+            "C": "LDL",
+            "D": "IDL"
           },
-          "answer": "D",
-          "explanation": "Core: TAG + cholesteryl esters. Shell: apoproteins + phospholipids + free cholesterol.",
-          "concept": "Plasma Lipoprotein Metabolism",
-          "difficulty": "application",
+          "answer": "A",
+          "explanation": "Chylomicrons are the largest and least dense plasma lipoproteins.",
+          "concept": "Classification",
+          "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b/view?usp=drivesdk",
-          "source_card_id": "1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b-c01",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b_02",
-          "stem": "Which of the following best describes how size and density change from CM to HDL?",
+          "stem": "Which lipoprotein is the smallest and most dense?",
           "options": {
-            "A": "Hydrolyzes their TAG to fatty acids and glycerol.",
-            "B": "Deliver dietary TAG to tissues and dietary cholesterol to the liver.",
-            "C": "Size decreases while density increases: CM → VLDL → IDL → LDL → HDL.",
-            "D": "Core: TAG + cholesteryl esters. Shell: apoproteins + phospholipids + free cholesterol."
+            "A": "Chylomicron",
+            "B": "VLDL",
+            "C": "IDL",
+            "D": "HDL"
           },
-          "answer": "C",
-          "explanation": "Size decreases while density increases: CM → VLDL → IDL → LDL → HDL.",
-          "concept": "Plasma Lipoprotein Metabolism",
+          "answer": "D",
+          "explanation": "HDL is the smallest and most dense lipoprotein.",
+          "concept": "Classification",
           "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b/view?usp=drivesdk",
-          "source_card_id": "1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b-c02",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b_03",
-          "stem": "Which of the following is the main function of chylomicrons?",
+          "stem": "What forms the neutral lipid core of a typical lipoprotein?",
           "options": {
-            "A": "Size decreases while density increases: CM → VLDL → IDL → LDL → HDL.",
-            "B": "Deliver dietary TAG to tissues and dietary cholesterol to the liver.",
-            "C": "Hydrolyzes their TAG to fatty acids and glycerol.",
-            "D": "Core: TAG + cholesteryl esters. Shell: apoproteins + phospholipids + free cholesterol."
+            "A": "Free cholesterol only",
+            "B": "Albumin and fatty acids",
+            "C": "Triacylglycerol and cholesteryl esters",
+            "D": "Apolipoproteins and phospholipid"
           },
-          "answer": "B",
-          "explanation": "Deliver dietary TAG to tissues and dietary cholesterol to the liver.",
-          "concept": "Plasma Lipoprotein Metabolism",
-          "difficulty": "understanding",
+          "answer": "C",
+          "explanation": "The core contains neutral TAG and cholesterol esters.",
+          "concept": "Structure",
+          "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b/view?usp=drivesdk",
-          "source_card_id": "1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b-c03",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b_04",
-          "stem": "Which apoprotein is unique to nascent chylomicrons?",
+          "stem": "What is the main function of chylomicrons?",
           "options": {
-            "A": "ApoB-48.",
-            "B": "ApoC-II and ApoE.",
-            "C": "ApoC-II; LPL is also stimulated by insulin.",
-            "D": "Liver receptors recognize ApoE and internalize remnants by endocytosis."
+            "A": "Carry only free fatty acids",
+            "B": "Transport dietary TAG from intestine to tissues",
+            "C": "Transport endogenous TAG from liver",
+            "D": "Transport cholesterol from tissues to liver"
           },
-          "answer": "A",
-          "explanation": "ApoB-48.",
-          "concept": "Apolipoproteins",
-          "difficulty": "application",
+          "answer": "B",
+          "explanation": "Chylomicrons transport dietary lipid, mainly TAG, from intestine to tissues.",
+          "concept": "Function",
+          "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b/view?usp=drivesdk",
-          "source_card_id": "1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b-c04",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b_05",
-          "stem": "Which of the following best describes nascent chylomicrons acquire from HDL?",
+          "stem": "What is the main function of VLDL?",
           "options": {
-            "A": "ApoC-II; LPL is also stimulated by insulin.",
-            "B": "Liver receptors recognize ApoE and internalize remnants by endocytosis.",
-            "C": "ApoB-48.",
-            "D": "ApoC-II and ApoE."
+            "A": "Transport endogenous TAG from liver to peripheral tissues",
+            "B": "Carry dietary TAG from intestine",
+            "C": "Reverse cholesterol transport",
+            "D": "Carry only cholesterol to liver"
           },
-          "answer": "D",
-          "explanation": "ApoC-II and ApoE.",
-          "concept": "HDL",
+          "answer": "A",
+          "explanation": "VLDL exports liver-derived TAG.",
+          "concept": "Function",
           "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b/view?usp=drivesdk",
-          "source_card_id": "1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b-c05",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b_06",
-          "stem": "What activates lipoprotein lipase?",
+          "stem": "Which apoprotein is unique to nascent chylomicrons in the lecture?",
           "options": {
-            "A": "Size decreases while density increases: CM → VLDL → IDL → LDL → HDL.",
-            "B": "Deliver dietary TAG to tissues and dietary cholesterol to the liver.",
-            "C": "ApoC-II; LPL is also stimulated by insulin.",
-            "D": "Hydrolyzes their TAG to fatty acids and glycerol."
+            "A": "ApoB-100",
+            "B": "ApoA-I",
+            "C": "ApoD",
+            "D": "ApoB-48"
           },
-          "answer": "C",
-          "explanation": "ApoC-II; LPL is also stimulated by insulin.",
-          "concept": "Plasma Lipoprotein Metabolism",
-          "difficulty": "understanding",
+          "answer": "D",
+          "explanation": "Nascent chylomicrons contain apoB-48.",
+          "concept": "Apolipoproteins",
+          "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b/view?usp=drivesdk",
-          "source_card_id": "1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b-c06",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b_07",
-          "stem": "Which of the following best describes LPL do to chylomicrons/VLDL?",
+          "stem": "Nascent chylomicrons acquire which apoproteins from HDL?",
           "options": {
-            "A": "Deliver dietary TAG to tissues and dietary cholesterol to the liver.",
-            "B": "Hydrolyzes their TAG to fatty acids and glycerol.",
-            "C": "Core: TAG + cholesteryl esters. Shell: apoproteins + phospholipids + free cholesterol.",
-            "D": "Size decreases while density increases: CM → VLDL → IDL → LDL → HDL."
+            "A": "ApoB-48 and apoD",
+            "B": "ApoA-II only",
+            "C": "ApoC-II and apoE",
+            "D": "ApoB-100 and apoA-I"
           },
-          "answer": "B",
-          "explanation": "Hydrolyzes their TAG to fatty acids and glycerol.",
-          "concept": "Plasma Lipoprotein Metabolism",
-          "difficulty": "application",
+          "answer": "C",
+          "explanation": "They acquire apoC-II and apoE from circulating HDL.",
+          "concept": "Chylomicron metabolism",
+          "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b/view?usp=drivesdk",
-          "source_card_id": "1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b-c07",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b_08",
-          "stem": "Which of the following best describes are chylomicron remnants cleared?",
+          "stem": "Which apoprotein activates lipoprotein lipase?",
           "options": {
-            "A": "Liver receptors recognize ApoE and internalize remnants by endocytosis.",
-            "B": "ApoC-II and ApoE.",
-            "C": "ApoC-II; LPL is also stimulated by insulin.",
-            "D": "ApoB-48."
+            "A": "ApoB-48",
+            "B": "ApoC-II",
+            "C": "ApoB-100",
+            "D": "ApoE"
           },
-          "answer": "A",
-          "explanation": "Liver receptors recognize ApoE and internalize remnants by endocytosis.",
-          "concept": "ApoE",
+          "answer": "B",
+          "explanation": "ApoC-II activates LPL.",
+          "concept": "Apolipoproteins",
           "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b/view?usp=drivesdk",
-          "source_card_id": "1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b-c08",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
-          "id": "ai_1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b_formcase01",
-          "stem": "A patient has impaired clearance of triglyceride-rich lipoproteins because lipoprotein lipase is not properly activated. Which apoprotein is most directly involved?",
+          "id": "ai_1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b_09",
+          "stem": "A patient lacks effective LPL activity. Which normal reaction is directly impaired?",
           "options": {
-            "A": "Size decreases while density increases: CM → VLDL → IDL → LDL → HDL.",
-            "B": "Deliver dietary TAG to tissues and dietary cholesterol to the liver.",
-            "C": "ApoC-II; LPL is also stimulated by insulin.",
-            "D": "Hydrolyzes their TAG to fatty acids and glycerol."
+            "A": "Hydrolysis of TAG in chylomicrons and VLDL",
+            "B": "Esterification of cholesterol in HDL",
+            "C": "LDL receptor binding",
+            "D": "Bile acid synthesis"
           },
-          "answer": "C",
-          "explanation": "ApoC-II; LPL is also stimulated by insulin.",
-          "concept": "Plasma Lipoprotein Metabolism — formative-style case",
+          "answer": "A",
+          "explanation": "LPL releases fatty acids and glycerol from chylomicron and VLDL TAG.",
+          "concept": "LPL",
           "difficulty": "application",
           "source_url": "https://drive.google.com/file/d/1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b/view?usp=drivesdk",
-          "source_card_id": "1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b-c06",
           "style_profile": "KAU-formative-case-inspired",
-          "quality_status": "hold",
-          "exam_ready": false,
-          "case_style": "formative_short_case",
-          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case"
+        },
+        {
+          "id": "ai_1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b_10",
+          "stem": "Which apoprotein allows chylomicron remnants to be recognized by hepatic receptors?",
+          "options": {
+            "A": "ApoA-I",
+            "B": "ApoC-II",
+            "C": "ApoD",
+            "D": "ApoE"
+          },
+          "answer": "D",
+          "explanation": "Chylomicron remnants contain apoE, which is recognized by hepatic receptors.",
+          "concept": "Chylomicron remnants",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b_11",
+          "stem": "VLDL is progressively converted into which particles?",
+          "options": {
+            "A": "Chylomicron then LDL",
+            "B": "LDL then VLDL",
+            "C": "IDL then LDL",
+            "D": "HDL then chylomicron"
+          },
+          "answer": "C",
+          "explanation": "Delipidation converts VLDL to IDL and then LDL.",
+          "concept": "Endogenous pathway",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b_12",
+          "stem": "What is the only apolipoprotein of LDL?",
+          "options": {
+            "A": "ApoA-I",
+            "B": "ApoB-100",
+            "C": "ApoB-48",
+            "D": "ApoC-II"
+          },
+          "answer": "B",
+          "explanation": "LDL contains apoB-100.",
+          "concept": "LDL",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b_13",
+          "stem": "LDL receptors recognize which apoproteins?",
+          "options": {
+            "A": "ApoB-100 and apoE",
+            "B": "ApoB-48 and apoA-I",
+            "C": "ApoC-II only",
+            "D": "ApoD only"
+          },
+          "answer": "A",
+          "explanation": "The LDL receptor is described as an apoB-100/apoE receptor.",
+          "concept": "LDL receptor",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b_14",
+          "stem": "Excess intracellular cholesterol is re-esterified for storage by which enzyme?",
+          "options": {
+            "A": "LCAT",
+            "B": "LPL",
+            "C": "CETP",
+            "D": "ACAT"
+          },
+          "answer": "D",
+          "explanation": "ACAT esterifies excess intracellular cholesterol.",
+          "concept": "Cholesterol storage",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b_15",
+          "stem": "Which enzyme esterifies free cholesterol on HDL and is activated by apoA-I?",
+          "options": {
+            "A": "LPL",
+            "B": "HMG-CoA reductase",
+            "C": "LCAT",
+            "D": "ACAT"
+          },
+          "answer": "C",
+          "explanation": "LCAT binds nascent HDL and is activated by apoA-I.",
+          "concept": "HDL",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b_16",
+          "stem": "A patient has impaired reverse cholesterol transport. Which lipoprotein normally returns peripheral cholesterol to the liver?",
+          "options": {
+            "A": "IDL",
+            "B": "HDL",
+            "C": "VLDL",
+            "D": "Chylomicron"
+          },
+          "answer": "B",
+          "explanation": "HDL mediates reverse cholesterol transport.",
+          "concept": "HDL",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b/view?usp=drivesdk",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case"
+        },
+        {
+          "id": "ai_1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b_17",
+          "stem": "What is one major role of HDL besides reverse cholesterol transport?",
+          "options": {
+            "A": "Reservoir of apoC-II and apoE",
+            "B": "Main carrier of dietary TAG",
+            "C": "Only carrier of apoB-100",
+            "D": "Primary carrier of endogenous TAG"
+          },
+          "answer": "A",
+          "explanation": "HDL serves as a circulating reservoir of apoC-II and apoE.",
+          "concept": "HDL",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b_18",
+          "stem": "What does CETP exchange between circulating lipoproteins?",
+          "options": {
+            "A": "Only free fatty acids",
+            "B": "ApoB-48 for apoB-100",
+            "C": "Glucose for cholesterol",
+            "D": "Cholesteryl esters and triglycerides"
+          },
+          "answer": "D",
+          "explanation": "CETP facilitates exchange of cholesteryl esters and TAG.",
+          "concept": "CETP",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
         }
       ],
       "eligibility_status": "allowed",
       "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
-      "quality_status": "hold",
-      "quality_reviewed_at": "2026-09-30T15:36:28.081Z",
+      "quality_status": "pass",
+      "quality_reviewed_at": "2026-09-30T17:46:40.755Z",
       "quality_policy_version": 2,
-      "quality_reason": "Legacy AI set used other questions' correct answers as distractors; withheld until objective-led rebuild.",
-      "exam_ready": false
+      "quality_reason": "Rebuilt directly from official lecture content.",
+      "exam_ready": true
     },
     {
       "id": "ai_set_1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo",
@@ -939,190 +1092,347 @@
       "title": "Disorders of Plasma Lipoproteins",
       "source_url": "https://drive.google.com/file/d/1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo/view?usp=drivesdk",
       "source_modified_time": "2026-09-13T09:02:52.957Z",
-      "source_validation": "lecture_validated_seed",
+      "source_validation": "lecture_verified_quality_rebuilt",
       "archived": false,
       "questions": [
         {
           "id": "ai_1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo_01",
-          "stem": "Which of the following correctly distinguishes primary from secondary hyperlipoproteinemia?",
+          "stem": "Fredrickson type I hyperlipoproteinemia is characterized by elevation of what?",
           "options": {
-            "A": "DM, hypothyroidism, nephrotic syndrome, CKD, obesity, alcohol, obstructive liver disease, drugs.",
-            "B": "Coronary heart disease via atherosclerosis.",
-            "C": "Chylomicrons → very high triglycerides; creamy top layer.",
-            "D": "Primary is inherited; secondary results from another disease, condition, or drug."
+            "A": "Chylomicrons",
+            "B": "LDL",
+            "C": "IDL",
+            "D": "HDL"
           },
-          "answer": "D",
-          "explanation": "Primary is inherited; secondary results from another disease, condition, or drug.",
-          "concept": "Disorders of Plasma Lipoproteins",
-          "difficulty": "application",
+          "answer": "A",
+          "explanation": "Type I familial hyperchylomicronemia has elevated chylomicrons and very high triglycerides.",
+          "concept": "Fredrickson",
+          "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo/view?usp=drivesdk",
-          "source_card_id": "1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo-c01",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo_02",
-          "stem": "Hypercholesterolemia classically presents with what major risk?",
+          "stem": "Which Fredrickson type corresponds to familial hypercholesterolemia with elevated LDL?",
           "options": {
-            "A": "DM, hypothyroidism, nephrotic syndrome, CKD, obesity, alcohol, obstructive liver disease, drugs.",
-            "B": "LDL → high cholesterol; serum remains clear.",
-            "C": "Coronary heart disease via atherosclerosis.",
-            "D": "Primary is inherited; secondary results from another disease, condition, or drug."
+            "A": "I",
+            "B": "III",
+            "C": "IV",
+            "D": "IIa"
           },
-          "answer": "C",
-          "explanation": "Coronary heart disease via atherosclerosis.",
-          "concept": "Disorders of Plasma Lipoproteins",
+          "answer": "D",
+          "explanation": "Type IIa has elevated LDL and cholesterol.",
+          "concept": "Fredrickson",
           "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo/view?usp=drivesdk",
-          "source_card_id": "1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo-c02",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo_03",
-          "stem": "Which of the following is a recognized acute complication of Severe hypertriglyceridemia?",
+          "stem": "Which particles are elevated in type IIb?",
           "options": {
-            "A": "Coronary heart disease via atherosclerosis.",
-            "B": "Acute pancreatitis.",
-            "C": "Increase LDL and decrease HDL.",
-            "D": "LDL → high cholesterol; serum remains clear."
+            "A": "IDL only",
+            "B": "HDL and LDL",
+            "C": "LDL and VLDL",
+            "D": "Chylomicrons only"
           },
-          "answer": "B",
-          "explanation": "Acute pancreatitis.",
-          "concept": "Triglycerides",
-          "difficulty": "understanding",
+          "answer": "C",
+          "explanation": "Type IIb familial combined hyperlipidemia raises LDL and VLDL.",
+          "concept": "Fredrickson",
+          "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo/view?usp=drivesdk",
-          "source_card_id": "1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo-c03",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo_04",
-          "stem": "Which of the following is most characteristic of secondary causes of hyperlipoproteinemia?",
+          "stem": "Which lipoprotein is elevated in type III familial dysbetalipoproteinemia?",
           "options": {
-            "A": "DM, hypothyroidism, nephrotic syndrome, CKD, obesity, alcohol, obstructive liver disease, drugs.",
-            "B": "Primary is inherited; secondary results from another disease, condition, or drug.",
-            "C": "Coronary heart disease via atherosclerosis.",
-            "D": "Chylomicrons → very high triglycerides; creamy top layer."
+            "A": "LDL only",
+            "B": "IDL",
+            "C": "HDL",
+            "D": "Chylomicrons only"
           },
-          "answer": "A",
-          "explanation": "DM, hypothyroidism, nephrotic syndrome, CKD, obesity, alcohol, obstructive liver disease, drugs.",
-          "concept": "Disorders of Plasma Lipoproteins",
-          "difficulty": "application",
+          "answer": "B",
+          "explanation": "Type III is characterized by elevated IDL.",
+          "concept": "Fredrickson",
+          "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo/view?usp=drivesdk",
-          "source_card_id": "1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo-c04",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo_05",
-          "stem": "Which of the following best describes how trans fats affect LDL and HDL?",
+          "stem": "Familial hyperchylomicronemia can result from deficiency of which protein?",
           "options": {
-            "A": "LDL → high cholesterol; serum remains clear.",
-            "B": "Acute pancreatitis.",
-            "C": "LDL + VLDL → high cholesterol + triglycerides.",
-            "D": "Increase LDL and decrease HDL."
+            "A": "LPL or apoC-II",
+            "B": "ApoA-I only",
+            "C": "LDL receptor only",
+            "D": "CETP only"
           },
-          "answer": "D",
-          "explanation": "Increase LDL and decrease HDL.",
-          "concept": "Dyslipidemia",
+          "answer": "A",
+          "explanation": "The lecture attributes type I to LPL deficiency or apoC-II deficiency.",
+          "concept": "Genetic disorders",
           "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo/view?usp=drivesdk",
-          "source_card_id": "1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo-c05",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo_06",
-          "stem": "Fredrickson type I: what is elevated?",
+          "stem": "Familial hypercholesterolemia can result from which mutation?",
           "options": {
-            "A": "LDL → high cholesterol; serum remains clear.",
-            "B": "Coronary heart disease via atherosclerosis.",
-            "C": "Chylomicrons → very high triglycerides; creamy top layer.",
-            "D": "LDL + VLDL → high cholesterol + triglycerides."
+            "A": "PCSK9 loss of function only",
+            "B": "ApoA-I gain of function",
+            "C": "LPL gain of function",
+            "D": "LDL receptor loss of function"
           },
-          "answer": "C",
-          "explanation": "Chylomicrons → very high triglycerides; creamy top layer.",
-          "concept": "Type I",
-          "difficulty": "understanding",
+          "answer": "D",
+          "explanation": "The lecture lists LDL receptor loss-of-function, apoB loss-of-function and PCSK9 gain-of-function causes.",
+          "concept": "Familial hypercholesterolemia",
+          "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo/view?usp=drivesdk",
-          "source_card_id": "1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo-c06",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo_07",
-          "stem": "Fredrickson type IIa: what is elevated?",
+          "stem": "A patient has very high LDL due to increased PCSK9 activity. What type of mutation is described?",
           "options": {
-            "A": "LDL + VLDL → high cholesterol + triglycerides.",
-            "B": "LDL → high cholesterol; serum remains clear.",
-            "C": "Increase LDL and decrease HDL.",
-            "D": "Acute pancreatitis."
+            "A": "Silent mutation only",
+            "B": "Mitochondrial deletion",
+            "C": "Gain of function",
+            "D": "Loss of function"
           },
-          "answer": "B",
-          "explanation": "LDL → high cholesterol; serum remains clear.",
-          "concept": "Type IIa",
+          "answer": "C",
+          "explanation": "PCSK9 gain-of-function is listed as a cause of familial hypercholesterolemia.",
+          "concept": "Familial hypercholesterolemia",
           "difficulty": "application",
           "source_url": "https://drive.google.com/file/d/1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo/view?usp=drivesdk",
-          "source_card_id": "1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo-c07",
-          "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case"
         },
         {
           "id": "ai_1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo_08",
-          "stem": "Fredrickson type IIb: what is elevated?",
+          "stem": "Which combination is described as an atherogenic profile?",
           "options": {
-            "A": "LDL + VLDL → high cholesterol + triglycerides.",
-            "B": "Chylomicrons → very high triglycerides; creamy top layer.",
-            "C": "LDL → high cholesterol; serum remains clear.",
-            "D": "Increase LDL and decrease HDL."
-          },
-          "answer": "A",
-          "explanation": "LDL + VLDL → high cholesterol + triglycerides.",
-          "concept": "Type IIb",
-          "difficulty": "core",
-          "source_url": "https://drive.google.com/file/d/1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo/view?usp=drivesdk",
-          "source_card_id": "1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo-c08",
-          "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
-        },
-        {
-          "id": "ai_1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo_formcase01",
-          "stem": "A patient presents with severe epigastric pain and markedly elevated serum triglycerides. Which acute complication is most strongly associated with this lipid abnormality?",
-          "options": {
-            "A": "Coronary heart disease via atherosclerosis.",
-            "B": "Acute pancreatitis.",
-            "C": "Increase LDL and decrease HDL.",
-            "D": "LDL → high cholesterol; serum remains clear."
+            "A": "Low triglycerides alone",
+            "B": "High LDL, low HDL, hypertriglyceridemia",
+            "C": "Low LDL, high HDL, low triglycerides",
+            "D": "High HDL alone"
           },
           "answer": "B",
-          "explanation": "Acute pancreatitis.",
-          "concept": "Triglycerides — formative-style case",
+          "explanation": "The lecture lists elevated LDL, low HDL and hypertriglyceridemia as the common atherogenic profile.",
+          "concept": "Atherogenesis",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo_09",
+          "stem": "Why can high lipoprotein(a) promote thrombosis?",
+          "options": {
+            "A": "Apo(a) resembles plasminogen and can inhibit fibrinolysis",
+            "B": "It activates LPL",
+            "C": "It destroys platelets",
+            "D": "It blocks cholesterol synthesis"
+          },
+          "answer": "A",
+          "explanation": "Apo(a) has homology with plasminogen and can inhibit fibrinolysis.",
+          "concept": "Lp(a)",
           "difficulty": "application",
           "source_url": "https://drive.google.com/file/d/1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo/view?usp=drivesdk",
-          "source_card_id": "1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo-c03",
           "style_profile": "KAU-formative-case-inspired",
-          "quality_status": "hold",
-          "exam_ready": false,
-          "case_style": "formative_short_case",
-          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case"
+        },
+        {
+          "id": "ai_1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo_10",
+          "stem": "A lipid profile shows triglycerides of 500 mg/dL. According to the lecture, how should LDL be obtained?",
+          "options": {
+            "A": "Friedewald calculation",
+            "B": "It cannot be assessed",
+            "C": "Use HDL as LDL",
+            "D": "Direct measurement"
+          },
+          "answer": "D",
+          "explanation": "Friedewald calculation is used below 400 mg/dL; at or above 400, direct LDL measurement is used.",
+          "concept": "Lipid profile",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo/view?usp=drivesdk",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case"
+        },
+        {
+          "id": "ai_1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo_11",
+          "stem": "How is non-HDL cholesterol calculated?",
+          "options": {
+            "A": "Triglycerides minus LDL",
+            "B": "Total cholesterol minus triglycerides",
+            "C": "Total cholesterol minus HDL",
+            "D": "LDL minus HDL"
+          },
+          "answer": "C",
+          "explanation": "Non-HDL cholesterol equals total cholesterol minus HDL.",
+          "concept": "Lipid profile",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo_12",
+          "stem": "Which is a secondary cause of hyperlipoproteinemia listed in the lecture?",
+          "options": {
+            "A": "LDL receptor mutation",
+            "B": "Hypothyroidism",
+            "C": "Tangier disease",
+            "D": "ApoC-II deficiency"
+          },
+          "answer": "B",
+          "explanation": "Hypothyroidism is among the listed secondary causes.",
+          "concept": "Secondary hyperlipidemia",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo_13",
+          "stem": "Abetalipoproteinemia is characterized by undetectable levels of which components?",
+          "options": {
+            "A": "LDL and apoB",
+            "B": "HDL and apoA-I only",
+            "C": "VLDL only with normal apoB",
+            "D": "Lp(a) only"
+          },
+          "answer": "A",
+          "explanation": "ABL is an autosomal-recessive disorder with undetectable LDL and apoB and very low TG/cholesterol.",
+          "concept": "Abetalipoproteinemia",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo_14",
+          "stem": "A child with abetalipoproteinemia develops neurologic deterioration due to malabsorption. Deficiency of which vitamin is emphasized?",
+          "options": {
+            "A": "Vitamin C",
+            "B": "Vitamin B12",
+            "C": "Vitamin K only",
+            "D": "Vitamin E"
+          },
+          "answer": "D",
+          "explanation": "Fat malabsorption causes vitamin E deficiency, driving major neurologic manifestations.",
+          "concept": "Abetalipoproteinemia",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo/view?usp=drivesdk",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case"
+        },
+        {
+          "id": "ai_1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo_15",
+          "stem": "Which finding is characteristic of Tangier disease?",
+          "options": {
+            "A": "Absent triglycerides with blue sclera",
+            "B": "High HDL with neuropathy",
+            "C": "Very low HDL with orange tonsils",
+            "D": "Very high LDL with tendon xanthomas only"
+          },
+          "answer": "C",
+          "explanation": "Tangier disease features low/dysfunctional apoA-I, markedly low HDL, orange tonsils and neuropathy.",
+          "concept": "Tangier",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo/view?usp=drivesdk",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case"
+        },
+        {
+          "id": "ai_1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo_16",
+          "stem": "Familial hypobetalipoproteinemia is characterized by low levels of what?",
+          "options": {
+            "A": "Lp(a) only",
+            "B": "ApoB and LDL-C",
+            "C": "ApoA-I and HDL only",
+            "D": "Chylomicrons only"
+          },
+          "answer": "B",
+          "explanation": "FHBL is autosomal codominant with low apoB and LDL-C.",
+          "concept": "Hypobetalipoproteinemia",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo_17",
+          "stem": "Which dietary fat type in the lecture increases LDL and decreases HDL?",
+          "options": {
+            "A": "Trans fat",
+            "B": "Monounsaturated fat",
+            "C": "Omega-3-rich polyunsaturated fat",
+            "D": "None of these"
+          },
+          "answer": "A",
+          "explanation": "Trans fats are listed as increasing LDL and decreasing HDL.",
+          "concept": "Diet",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo_18",
+          "stem": "A patient with severe hypertriglyceridemia is at particular risk for which presentation mentioned in the lecture?",
+          "options": {
+            "A": "Appendicitis",
+            "B": "Hemarthrosis",
+            "C": "Aplastic crisis",
+            "D": "Acute pancreatitis"
+          },
+          "answer": "D",
+          "explanation": "Hypertriglyceridemia can present with acute pancreatitis.",
+          "concept": "Clinical",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo/view?usp=drivesdk",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case"
         }
       ],
       "eligibility_status": "allowed",
       "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
-      "quality_status": "hold",
-      "quality_reviewed_at": "2026-09-30T15:36:28.081Z",
+      "quality_status": "pass",
+      "quality_reviewed_at": "2026-09-30T17:46:40.755Z",
       "quality_policy_version": 2,
-      "quality_reason": "Legacy AI set used other questions' correct answers as distractors; withheld until objective-led rebuild.",
-      "exam_ready": false
+      "quality_reason": "Rebuilt directly from official lecture content.",
+      "exam_ready": true
     },
     {
       "id": "ai_set_16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x",
@@ -5669,190 +5979,382 @@
       "title": "Atherosclerosis",
       "source_url": "https://drive.google.com/file/d/1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR/view?usp=drivesdk",
       "source_modified_time": "2026-09-19T22:25:53.003Z",
-      "source_validation": "pending_lecture_validation",
+      "source_validation": "lecture_verified_quality_rebuilt",
       "archived": false,
       "questions": [
         {
           "id": "ai_1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR_01",
-          "stem": "Which of the following best describes atherosclerosis?",
+          "stem": "Which form of arteriolosclerosis is associated with diabetes and benign hypertension?",
           "options": {
-            "A": "Thin fibrous cap, large lipid core, and active inflammation.",
-            "B": "Lipid-laden macrophages (and some smooth-muscle cells) within atherosclerotic lesions.",
-            "C": "Endothelial injury/dysfunction leading to lipid entry, inflammation, and smooth-muscle responses.",
-            "D": "Intimal plaques with lipid cores and fibrous caps in large and medium arteries."
+            "A": "Hyaline arteriolosclerosis",
+            "B": "Hyperplastic arteriolosclerosis",
+            "C": "Mönckeberg sclerosis",
+            "D": "Fibromuscular intimal hyperplasia"
           },
-          "answer": "D",
-          "explanation": "Intimal plaques with lipid cores and fibrous caps in large and medium arteries.",
-          "concept": "Atherosclerosis",
-          "difficulty": "application",
+          "answer": "A",
+          "explanation": "Hyaline arteriolosclerosis is associated with diabetes and benign hypertension.",
+          "concept": "Arteriosclerosis",
+          "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR/view?usp=drivesdk",
-          "source_card_id": "1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR-c01",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR_02",
-          "stem": "Which of the following best describes the initiating concept in atherogenesis?",
+          "stem": "Hyperplastic arteriolosclerosis is classically associated with what?",
           "options": {
-            "A": "Smooth-muscle cells and extracellular matrix, especially collagen.",
-            "B": "Thin fibrous cap, large lipid core, and active inflammation.",
-            "C": "Endothelial injury/dysfunction leading to lipid entry, inflammation, and smooth-muscle responses.",
-            "D": "Lipid-laden macrophages (and some smooth-muscle cells) within atherosclerotic lesions."
+            "A": "Normal aging only",
+            "B": "Diabetes without hypertension",
+            "C": "Atherosclerosis only",
+            "D": "Severe malignant hypertension"
           },
-          "answer": "C",
-          "explanation": "Endothelial injury/dysfunction leading to lipid entry, inflammation, and smooth-muscle responses.",
-          "concept": "Atherosclerosis",
+          "answer": "D",
+          "explanation": "Hyperplastic arteriolosclerosis is linked to severe/malignant hypertension.",
+          "concept": "Arteriosclerosis",
           "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR/view?usp=drivesdk",
-          "source_card_id": "1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR-c02",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR_03",
-          "stem": "Which lipoprotein is most strongly implicated in atheroma formation?",
+          "stem": "Mönckeberg medial sclerosis is characterized by what?",
           "options": {
-            "A": "An early intimal lesion composed mainly of foam cells.",
-            "B": "LDL, especially oxidized/modified LDL in the arterial intima.",
-            "C": "Smooth-muscle cells and extracellular matrix, especially collagen.",
-            "D": "Thin fibrous cap, large lipid core, and active inflammation."
+            "A": "Granulomatous vasculitis",
+            "B": "Venous thrombosis",
+            "C": "Calcification of the media of muscular arteries",
+            "D": "Lipid plaques in the intima"
           },
-          "answer": "B",
-          "explanation": "LDL, especially oxidized/modified LDL in the arterial intima.",
-          "concept": "Atherosclerosis",
-          "difficulty": "understanding",
+          "answer": "C",
+          "explanation": "It is idiopathic medial calcification of muscular arteries, usually in people over 50.",
+          "concept": "Arteriosclerosis",
+          "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR/view?usp=drivesdk",
-          "source_card_id": "1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR-c03",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR_04",
-          "stem": "Which of the following best describes foam cells?",
+          "stem": "Atherosclerosis primarily affects which vessels?",
           "options": {
-            "A": "Lipid-laden macrophages (and some smooth-muscle cells) within atherosclerotic lesions.",
-            "B": "Endothelial injury/dysfunction leading to lipid entry, inflammation, and smooth-muscle responses.",
-            "C": "Smooth-muscle cells and extracellular matrix, especially collagen.",
-            "D": "Intimal plaques with lipid cores and fibrous caps in large and medium arteries."
+            "A": "Lymphatics",
+            "B": "Elastic and medium-sized muscular arteries",
+            "C": "Capillaries only",
+            "D": "Veins only"
           },
-          "answer": "A",
-          "explanation": "Lipid-laden macrophages (and some smooth-muscle cells) within atherosclerotic lesions.",
+          "answer": "B",
+          "explanation": "The lecture defines it as a disease of elastic and medium-sized muscular arteries.",
           "concept": "Atherosclerosis",
-          "difficulty": "application",
+          "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR/view?usp=drivesdk",
-          "source_card_id": "1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR-c04",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR_05",
-          "stem": "Which of the following best describes a fatty streak?",
+          "stem": "What is the hallmark lesion of atherosclerosis?",
           "options": {
-            "A": "Smooth-muscle cells and extracellular matrix, especially collagen.",
-            "B": "Intimal plaques with lipid cores and fibrous caps in large and medium arteries.",
-            "C": "Thin fibrous cap, large lipid core, and active inflammation.",
-            "D": "An early intimal lesion composed mainly of foam cells."
+            "A": "Atheroma",
+            "B": "Aschoff body",
+            "C": "Granuloma",
+            "D": "Fibrin thrombus without plaque"
           },
-          "answer": "D",
-          "explanation": "An early intimal lesion composed mainly of foam cells.",
-          "concept": "Atherosclerosis",
+          "answer": "A",
+          "explanation": "Atheromas are intimal fibrofatty plaques and the hallmark of atherosclerosis.",
+          "concept": "Morphology",
           "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR/view?usp=drivesdk",
-          "source_card_id": "1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR-c05",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR_06",
-          "stem": "What forms the fibrous cap of an atherosclerotic plaque?",
+          "stem": "Which is a major modifiable risk factor for atherosclerosis?",
           "options": {
-            "A": "Endothelial injury/dysfunction leading to lipid entry, inflammation, and smooth-muscle responses.",
-            "B": "LDL, especially oxidized/modified LDL in the arterial intima.",
-            "C": "Smooth-muscle cells and extracellular matrix, especially collagen.",
-            "D": "Lipid-laden macrophages (and some smooth-muscle cells) within atherosclerotic lesions."
+            "A": "Age",
+            "B": "Male sex",
+            "C": "Family history",
+            "D": "Cigarette smoking"
           },
-          "answer": "C",
-          "explanation": "Smooth-muscle cells and extracellular matrix, especially collagen.",
-          "concept": "Atherosclerosis",
-          "difficulty": "understanding",
+          "answer": "D",
+          "explanation": "Smoking is listed among the major modifiable risk factors.",
+          "concept": "Risk factors",
+          "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR/view?usp=drivesdk",
-          "source_card_id": "1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR-c06",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR_07",
-          "stem": "What makes a plaque vulnerable to rupture?",
+          "stem": "The favored model views atherosclerosis as what type of process?",
           "options": {
-            "A": "Smooth-muscle cells and extracellular matrix, especially collagen.",
-            "B": "Thin fibrous cap, large lipid core, and active inflammation.",
-            "C": "Intimal plaques with lipid cores and fibrous caps in large and medium arteries.",
-            "D": "Endothelial injury/dysfunction leading to lipid entry, inflammation, and smooth-muscle responses."
+            "A": "Acute bacterial infection",
+            "B": "Congenital absence of smooth muscle",
+            "C": "Chronic inflammatory response to endothelial injury",
+            "D": "Purely degenerative medial calcification"
           },
-          "answer": "B",
-          "explanation": "Thin fibrous cap, large lipid core, and active inflammation.",
-          "concept": "Atherosclerosis",
-          "difficulty": "application",
+          "answer": "C",
+          "explanation": "The lecture describes chronic inflammatory response of the arterial wall to endothelial injury.",
+          "concept": "Pathogenesis",
+          "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR/view?usp=drivesdk",
-          "source_card_id": "1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR-c07",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR_08",
-          "stem": "Which of the following best explains why is plaque rupture dangerous?",
+          "stem": "Which feature makes an atherosclerotic plaque vulnerable to rupture?",
           "options": {
-            "A": "It exposes thrombogenic material and can trigger acute occlusive thrombosis.",
-            "B": "Intimal plaques with lipid cores and fibrous caps in large and medium arteries.",
-            "C": "Smooth-muscle cells and extracellular matrix, especially collagen.",
-            "D": "Lipid-laden macrophages (and some smooth-muscle cells) within atherosclerotic lesions."
+            "A": "Only medial calcification",
+            "B": "Thin fibrous cap with a large lipid core and increased inflammation",
+            "C": "Thick collagenized cap with minimal inflammation",
+            "D": "No lipid core"
           },
-          "answer": "A",
-          "explanation": "It exposes thrombogenic material and can trigger acute occlusive thrombosis.",
-          "concept": "Atherosclerosis",
+          "answer": "B",
+          "explanation": "Vulnerable plaques have thin caps, large lipid cores and increased inflammation.",
+          "concept": "Plaque stability",
           "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR/view?usp=drivesdk",
-          "source_card_id": "1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR-c08",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
-          "id": "ai_1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR_formcase01",
-          "stem": "A middle-aged patient with several cardiovascular risk factors develops an intimal arterial plaque. Which process best describes the underlying disease?",
+          "id": "ai_1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR_09",
+          "stem": "Which feature characterizes a stable plaque?",
           "options": {
-            "A": "Thin fibrous cap, large lipid core, and active inflammation.",
-            "B": "Lipid-laden macrophages (and some smooth-muscle cells) within atherosclerotic lesions.",
-            "C": "Endothelial injury/dysfunction leading to lipid entry, inflammation, and smooth-muscle responses.",
-            "D": "Intimal plaques with lipid cores and fibrous caps in large and medium arteries."
+            "A": "Thick collagenized fibrous cap with minimal inflammation",
+            "B": "Thin cap and large lipid core",
+            "C": "Extensive acute inflammation",
+            "D": "Complete absence of collagen"
+          },
+          "answer": "A",
+          "explanation": "Stable plaques have thick collagenized caps, minimal inflammation and small/negligible cores.",
+          "concept": "Plaque stability",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR_10",
+          "stem": "What is identified as the most important complication of atherosclerosis?",
+          "options": {
+            "A": "Calcification",
+            "B": "Fatty streak formation",
+            "C": "Medial hypertrophy",
+            "D": "Thrombosis"
           },
           "answer": "D",
-          "explanation": "Intimal plaques with lipid cores and fibrous caps in large and medium arteries.",
-          "concept": "Atherosclerosis — formative-style case",
+          "explanation": "The lecture calls thrombosis the most important complication.",
+          "concept": "Complications",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR_11",
+          "stem": "A patient develops organ infarction after plaque debris enters the bloodstream. What complication occurred?",
+          "options": {
+            "A": "Vasculitis",
+            "B": "Hemangioma",
+            "C": "Atheroembolism",
+            "D": "Myxoma"
+          },
+          "answer": "C",
+          "explanation": "Plaque rupture/erosion can release cholesterol-rich debris causing atheroembolism and infarction.",
+          "concept": "Complications",
           "difficulty": "application",
           "source_url": "https://drive.google.com/file/d/1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR/view?usp=drivesdk",
-          "source_card_id": "1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR-c01",
           "style_profile": "KAU-formative-case-inspired",
-          "quality_status": "hold",
-          "exam_ready": false,
-          "case_style": "formative_short_case",
-          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case"
+        },
+        {
+          "id": "ai_1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR_12",
+          "stem": "A coronary artery is about 70% stenosed. Why can chest pain occur during exertion but not at rest?",
+          "options": {
+            "A": "The plaque disappears during rest",
+            "B": "Resting perfusion may be adequate but increased demand produces ischemia",
+            "C": "Coronary flow stops completely at rest",
+            "D": "Exertion lowers oxygen demand"
+          },
+          "answer": "B",
+          "explanation": "The lecture uses ~70% stenosis to explain stable angina: adequate rest flow but insufficient supply during increased demand.",
+          "concept": "Stenosis",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR/view?usp=drivesdk",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case"
+        },
+        {
+          "id": "ai_1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR_13",
+          "stem": "What are the two most important predisposing conditions for aortic aneurysm in the lecture?",
+          "options": {
+            "A": "Atherosclerosis and hypertension",
+            "B": "Asthma and diabetes",
+            "C": "Anemia and infection",
+            "D": "Hyperthyroidism and obesity"
+          },
+          "answer": "A",
+          "explanation": "Atherosclerosis and hypertension are highlighted as the two most important predispositions.",
+          "concept": "Aneurysm",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR_14",
+          "stem": "Atherosclerosis is particularly associated with which aortic aneurysm location?",
+          "options": {
+            "A": "Ascending aorta only",
+            "B": "Pulmonary artery",
+            "C": "Aortic valve",
+            "D": "Abdominal aorta"
+          },
+          "answer": "D",
+          "explanation": "Atherosclerosis is linked to abdominal aortic aneurysm.",
+          "concept": "Aneurysm",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR_15",
+          "stem": "A smoker older than 50 has a pulsatile abdominal mass. Which diagnosis best fits?",
+          "options": {
+            "A": "Giant-cell arteritis",
+            "B": "Mönckeberg sclerosis",
+            "C": "Abdominal aortic aneurysm",
+            "D": "Aortic dissection only"
+          },
+          "answer": "C",
+          "explanation": "AAA is common in older male smokers and may present as a pulsatile abdominal mass.",
+          "concept": "AAA",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR/view?usp=drivesdk",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case"
+        },
+        {
+          "id": "ai_1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR_16",
+          "stem": "Which is a possible consequence of an abdominal aortic aneurysm?",
+          "options": {
+            "A": "Mitral stenosis",
+            "B": "Rupture",
+            "C": "Only hypertension",
+            "D": "Only venous thrombosis"
+          },
+          "answer": "B",
+          "explanation": "The lecture lists obstruction, embolism, pressure effects, pulsatile mass and rupture.",
+          "concept": "AAA",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR_17",
+          "stem": "What is an aortic dissection?",
+          "options": {
+            "A": "Blood dissecting through laminar planes of the media",
+            "B": "A true aneurysm caused by intimal lipid only",
+            "C": "A venous rupture into the atrium",
+            "D": "Calcification of the aortic valve"
+          },
+          "answer": "A",
+          "explanation": "A dissection forms blood-filled channels within the aortic media and is not a true aneurysm.",
+          "concept": "Dissection",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR_18",
+          "stem": "A 55-year-old with hypertension develops sudden excruciating retrosternal pain. Which condition is emphasized by this presentation?",
+          "options": {
+            "A": "Stable angina",
+            "B": "Capillary hemangioma",
+            "C": "Hyaline arteriolosclerosis",
+            "D": "Aortic dissection"
+          },
+          "answer": "D",
+          "explanation": "Hypertension is a major risk factor in older adults and dissection can cause sudden severe retrosternal pain.",
+          "concept": "Dissection",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR/view?usp=drivesdk",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case"
+        },
+        {
+          "id": "ai_1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR_19",
+          "stem": "A young patient with aortic dissection is more likely to have which underlying abnormality?",
+          "options": {
+            "A": "Iron deficiency",
+            "B": "Isolated asthma",
+            "C": "Connective tissue disorder such as Marfan syndrome",
+            "D": "Type I hyperlipoproteinemia"
+          },
+          "answer": "C",
+          "explanation": "In younger patients, connective-tissue abnormalities such as Marfan syndrome are highlighted.",
+          "concept": "Dissection",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR/view?usp=drivesdk",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case"
+        },
+        {
+          "id": "ai_1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR_20",
+          "stem": "How can atherosclerosis promote aneurysm formation?",
+          "options": {
+            "A": "It only affects veins",
+            "B": "Pressure or ischemic atrophy of media weakens the vessel wall",
+            "C": "It strengthens the media",
+            "D": "It increases elastin synthesis"
+          },
+          "answer": "B",
+          "explanation": "Atherosclerosis can cause medial atrophy, weakening the wall and predisposing to aneurysm.",
+          "concept": "Aneurysm",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
         }
       ],
       "eligibility_status": "allowed",
       "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
-      "quality_status": "hold",
-      "quality_reviewed_at": "2026-09-30T15:36:28.081Z",
+      "quality_status": "pass",
+      "quality_reviewed_at": "2026-09-30T17:46:40.755Z",
       "quality_policy_version": 2,
-      "quality_reason": "Legacy AI set used other questions' correct answers as distractors; withheld until objective-led rebuild.",
-      "exam_ready": false
+      "quality_reason": "Rebuilt directly from official lecture content.",
+      "exam_ready": true
     },
     {
       "id": "ai_set_1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9",

@@ -3,6 +3,7 @@
 
 const GAME_SCORE={correct:5,wrong:-10};
 const QUIZ_PROGRESS_KEY='__quiz_retries__';
+const GAME_SECTION_KEY='med25-main-section-v1';
 let gameProfile=null;
 let gameProfileBusy=false;
 let gameLeaderboard=[];
@@ -42,7 +43,7 @@ function gameInstallNav(){
     btn.type='button';
     btn.innerHTML='<span class="navIcon"></span><span class="quizNavLabel">Quiz</span><small class="quizNavBadge" id="quizNavBadge">0</small>';
     if(ai?.nextSibling)links.insertBefore(btn,ai.nextSibling);else links.appendChild(btn);
-    btn.onclick=()=>hubSwitch('quiz');
+    btn.onclick=()=>gameSwitchQuiz();
   }
   gameNormalizeIcons();
 }
@@ -231,8 +232,9 @@ function gameHistoricalAttempts(){
     if(typeof p?.correct==='boolean')rows.push({user_id:currentUser.id,source:'past',question_id:q.id,correct:p.correct});
   }
   try{
-    const p=aiProgress();
-    for(const q of aiAllQuestions()){
+    const p=window.med25GameBridge?.aiProgress?.()||{};
+    const qs=window.med25GameBridge?.aiQuestions?.()||[];
+    for(const q of qs){
       if(typeof p[q.id]?.correct==='boolean')rows.push({user_id:currentUser.id,source:'ai',question_id:q.id,correct:p[q.id].correct});
     }
   }catch{}
@@ -334,8 +336,9 @@ function gameAllMistakes(){
     if(saved[q.id]?.correct===false)out.push({key:'past:'+q.id,source:'past',q});
   }
   try{
-    const p=aiProgress();
-    for(const q of aiAllQuestions()){
+    const p=window.med25GameBridge?.aiProgress?.()||{};
+    const qs=window.med25GameBridge?.aiQuestions?.()||[];
+    for(const q of qs){
       if(p[q.id]?.correct===false)out.push({key:'ai:'+q.id,source:'ai',q});
     }
   }catch{}
@@ -368,7 +371,7 @@ function gameResolveQuizKey(key){
     const q=QUESTIONS.find(x=>x.id===id);return q?{key,source,q}:null;
   }
   if(source==='ai'){
-    const q=aiAllQuestions().find(x=>x.id===id);return q?{key,source,q}:null;
+    const q=(window.med25GameBridge?.aiQuestions?.()||[]).find(x=>x.id===id);return q?{key,source,q}:null;
   }
   return null;
 }
@@ -492,24 +495,25 @@ function gameSwitchQuiz(){
   const h=document.getElementById('heroTitle'),p=document.getElementById('heroDescription');
   if(h)h.textContent='MED25 Mistake Quiz';
   if(p)p.textContent='Fresh retries of the Past Paper and AI questions you previously got wrong.';
-  try{localStorage.setItem(HUB_SECTION_KEY,'quiz')}catch{}
+  try{localStorage.setItem(GAME_SECTION_KEY,'quiz')}catch{}
   try{trackEvent('section_view',{metadata:{section:'quiz'}})}catch{}
   gameEnterQuiz();
 }
 
+function gameLeaveQuizUI(){
+  document.getElementById('quizSection')?.classList.add('hidden');
+  document.getElementById('tabQuiz')?.classList.remove('active');
+}
 function gamePatchNavigation(){
-  if(typeof hubSwitch!=='function')return;
-  const baseHubSwitch=hubSwitch;
-  hubSwitch=function(mode){
-    if(mode==='quiz')return gameSwitchQuiz();
-    document.getElementById('quizSection')?.classList.add('hidden');
-    document.getElementById('tabQuiz')?.classList.remove('active');
-    return baseHubSwitch.apply(this,arguments);
-  };
-  switchStudySection=hubSwitch;
-  hubGo=function(mode){hubSwitch(mode)};
-  window.hubGo=hubGo;
-  document.getElementById('tabQuiz').onclick=()=>hubSwitch('quiz');
+  const quizBtn=document.getElementById('tabQuiz');
+  if(quizBtn)quizBtn.onclick=()=>gameSwitchQuiz();
+  ['tabHome','tabQuestions','tabAI','tabFlashcards'].forEach(id=>{
+    const btn=document.getElementById(id);
+    if(btn&&!btn.dataset.gameQuizExitBound){
+      btn.dataset.gameQuizExitBound='1';
+      btn.addEventListener('click',gameLeaveQuizUI,{capture:true});
+    }
+  });
 }
 
 function gamePatchScoring(){
@@ -524,18 +528,7 @@ function gamePatchScoring(){
     };
     wrapped.__gameWrapped=true;answer=wrapped;
   }
-  if(typeof answerAI==='function'&&!answerAI.__gameWrapped){
-    const base=answerAI;
-    const wrapped=function(id,opt){
-      const p=aiProgress(),before=!!p[id]?.answered;
-      const out=base.apply(this,arguments);
-      const after=aiProgress()[id];
-      if(!before&&typeof after?.correct==='boolean')gameRecordAttempt('ai',id,after.correct);
-      gameUpdateQuizBadge();
-      return out;
-    };
-    wrapped.__gameWrapped=true;answerAI=wrapped;
-  }
+  // AI answers are reported through the study-hub bridge because answerAI lives in that module's private scope.
 }
 
 function gamePatchAuth(){
@@ -597,8 +590,17 @@ function gameInit(){
   gameLoadLeaderboard();
   setTimeout(gameSyncAuth,300);
   setTimeout(()=>{gameNormalizeIcons();gameUpdateQuizBadge()},1200);
-  const stored=localStorage.getItem(HUB_SECTION_KEY);
-  if(stored==='quiz')hubSwitch('quiz');
+  window.med25GameRecordAttempt=gameRecordAttempt;
+  window.med25GameUpdateQuizBadge=gameUpdateQuizBadge;
+  window.med25GameRefreshQuiz=()=>{
+    gameUpdateQuizBadge();
+    if(!document.getElementById('quizSection')?.classList.contains('hidden')){
+      gameBuildQuizQueue();
+      gameRenderQuiz();
+    }
+  };
+  const stored=localStorage.getItem(GAME_SECTION_KEY);
+  if(stored==='quiz')setTimeout(gameSwitchQuiz,0);
 }
 
 try{gameInit()}catch(e){console.error('MED25 game layer failed',e)}

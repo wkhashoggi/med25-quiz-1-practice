@@ -567,3 +567,12 @@ button:disabled,input:disabled,select:disabled{cursor:not-allowed!important}
   .v2ProfileCard,.v2AccountCard{padding:16px!important}
   #v2ProgressSlot .lectureDashboardCard{border-radius:16px!important}
 }
+
+.v2StandaloneBack{
+  flex:0 0 auto;min-height:40px;border:1px solid var(--v2-line);border-radius:10px;
+  background:var(--v2-surface);color:var(--v2-text);padding:8px 12px;font-size:12px;font-weight:750;cursor:pointer
+}
+@media(max-width:820px){
+  .v2StandaloneIntro{align-items:flex-start}
+  .v2StandaloneBack{min-height:38px;padding:7px 10px;font-size:11px}
+}

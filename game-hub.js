@@ -2,6 +2,7 @@
 'use strict';
 
 const GAME_SCORE={correct:5,wrong:-10};
+const GAME_SCOREABLE_SOURCES=new Set(['past','ai']);
 const QUIZ_PROGRESS_KEY='__quiz_retries__';
 const GAME_SECTION_KEY='med25-main-section-v1';
 let gameProfile=null;
@@ -43,7 +44,13 @@ function gameInstallNav(){
     btn.type='button';
     btn.innerHTML='<span class="navIcon"></span><span class="quizNavLabel">Quiz</span><small class="quizNavBadge" id="quizNavBadge">0</small>';
     if(ai?.nextSibling)links.insertBefore(btn,ai.nextSibling);else links.appendChild(btn);
-    btn.onclick=()=>gameSwitchQuiz();
+  }
+  const quizBtn=document.getElementById('tabQuiz');
+  if(quizBtn){
+    quizBtn.disabled=false;
+    quizBtn.removeAttribute('aria-disabled');
+    quizBtn.tabIndex=0;
+    quizBtn.onclick=()=>gameSwitchQuiz();
   }
   gameNormalizeIcons();
 }
@@ -272,6 +279,8 @@ function gameScoreToast(delta){
 
 async function gameRecordAttempt(source,questionId,correct){
   gameUpdateQuizBadge();
+  source=String(source||'').toLowerCase();
+  if(!GAME_SCOREABLE_SOURCES.has(source))return;
   if(!currentUser||!authSession?.access_token||typeof correct!=='boolean')return;
   try{
     await gameEnsureProfile();
@@ -481,11 +490,14 @@ function gameEnterQuiz(){
 }
 
 function gameSwitchQuiz(){
+  gameInstallQuizSection();
+  const quizSection=document.getElementById('quizSection');
+  if(!quizSection)return;
   document.getElementById('homeSection')?.classList.add('hidden');
   document.getElementById('questionSection')?.classList.add('hidden');
   document.getElementById('aiSection')?.classList.add('hidden');
   document.getElementById('flashcardsSection')?.classList.add('hidden');
-  document.getElementById('quizSection')?.classList.remove('hidden');
+  quizSection.classList.remove('hidden');
   ['tabHome','tabQuestions','tabAI','tabFlashcards'].forEach(id=>document.getElementById(id)?.classList.remove('active'));
   document.getElementById('tabQuiz')?.classList.add('active');
   document.getElementById('stats')?.classList.add('hidden');
@@ -504,9 +516,28 @@ function gameLeaveQuizUI(){
   document.getElementById('quizSection')?.classList.add('hidden');
   document.getElementById('tabQuiz')?.classList.remove('active');
 }
+function gameBindQuizNavigation(){
+  const nav=document.getElementById('studyTabs');
+  if(!nav||nav.dataset.gameQuizDelegated==='1')return;
+  nav.dataset.gameQuizDelegated='1';
+  nav.addEventListener('click',e=>{
+    const quiz=e.target?.closest?.('#tabQuiz');
+    if(!quiz)return;
+    e.preventDefault();
+    e.stopPropagation();
+    gameSwitchQuiz();
+  },true);
+}
 function gamePatchNavigation(){
+  gameInstallNav();
+  gameInstallQuizSection();
+  gameBindQuizNavigation();
   const quizBtn=document.getElementById('tabQuiz');
-  if(quizBtn)quizBtn.onclick=()=>gameSwitchQuiz();
+  if(quizBtn){
+    quizBtn.disabled=false;
+    quizBtn.removeAttribute('aria-disabled');
+    quizBtn.onclick=()=>gameSwitchQuiz();
+  }
   ['tabHome','tabQuestions','tabAI','tabFlashcards'].forEach(id=>{
     const btn=document.getElementById(id);
     if(btn&&!btn.dataset.gameQuizExitBound){
@@ -581,6 +612,7 @@ function gameInit(){
   gameInstallQuizSection();
   gameInstallHome();
   gamePatchNavigation();
+  gameBindQuizNavigation();
   gamePatchScoring();
   gamePatchAuth();
   gamePatchHome();

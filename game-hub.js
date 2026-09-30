@@ -10,6 +10,7 @@ let gameProfileBusy=false;
 let gameLeaderboard=[];
 let gameLeaderboardLoadedAt=0;
 let gameLeaderboardMode='weekly';
+let gameLeaderboardExpanded=false;
 let gameQuizState={queue:[],index:0,result:null,shuffle:false};
 let gameMockState={config:{minutes:30,includeAI:true,subjectCounts:{},lectureCounts:{}},exam:null,timer:null};
 
@@ -421,14 +422,16 @@ function gameRenderLeaderboard(){
   const rows=[...gameLeaderboard].sort((a,b)=>gameLeaderboardValue(b,gameLeaderboardMode)-gameLeaderboardValue(a,gameLeaderboardMode));
   if(meta)meta.textContent=rows.length+' MED25 accounts · ranked by XP '+label+' · streak bonuses included';
   if(!rows.length){host.innerHTML='<div class="gameEmpty">No ranked players yet. Be the first.</div>';return}
-  host.innerHTML=rows.map((r,i)=>{
+  const visibleRows=gameLeaderboardExpanded?rows:rows.slice(0,10);
+  host.innerHTML=visibleRows.map((r,i)=>{
     const rank=i+1,medal=rank===1?'🥇':rank===2?'🥈':rank===3?'🥉':String(rank);
     const isMe=!!gameProfile&&String(r.username).toLowerCase()===String(gameProfile.username).toLowerCase();
     const lv=gameLevelInfo(r.points);
     return '<div class="gameLeaderboardRow '+(isMe?'me':'')+'"><span class="gameRank">'+medal+'</span>'+gameAvatarMarkup(r,'small')+
       '<b>'+esc(r.username||'Student')+(isMe?' <small>you</small>':'')+'<em>Lv '+lv.level+' · '+lv.title+'</em></b>'+
       '<strong>'+gameLeaderboardValue(r,gameLeaderboardMode).toLocaleString()+' XP</strong></div>';
-  }).join('');
+  }).join('')+(rows.length>10?'<button type="button" id="gameLeaderboardExpand" class="gameLeaderboardExpand">'+(gameLeaderboardExpanded?'Show top 10 ↑':'Show all '+rows.length+' ↓')+'</button>':'');
+  document.getElementById('gameLeaderboardExpand')?.addEventListener('click',()=>{gameLeaderboardExpanded=!gameLeaderboardExpanded;gameRenderLeaderboard()});
 }
 
 function gameQuizProgress(){

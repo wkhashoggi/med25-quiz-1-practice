@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-30T15:36:28.081Z",
+  "generated_at": "2026-09-30T16:37:14.584Z",
   "source_root": {
     "id": "1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
     "url": "https://drive.google.com/drive/folders/1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
@@ -40,10 +40,10 @@
     "gender_folder_rule": "Scan both official gender folders and use whichever eligible current lecture is available."
   },
   "generation_policy": {
-    "target_per_lecture": "15–25 KAU-style 4-option SBA MCQs after lecture validation",
-    "current_seed": "Current seed bank style-normalized to KAU past-paper form while preserving stable question IDs. Lecture-validation backlog still determines source-verification status.",
-    "style": "4-option single-best-answer; mix of core recall, mechanism/relationship understanding, and short clinical/application questions; plausible same-domain distractors; avoid trivia.",
-    "style_reference": "MED25 past papers and coordinator formative already on this website",
+    "target_per_lecture": "15–25 KAU-style 4-option SBA MCQs after lecture validation, with a substantial case/application component",
+    "current_seed": "Existing bank retained with stable IDs; formative-style case questions are being layered onto every active lecture without replacing prior question history.",
+    "style": "4-option single-best-answer; concise KAU formative/past-paper wording; direct recall plus mechanism and short realistic case/application questions; plausible same-domain distractors; avoid AI-sounding boilerplate.",
+    "style_reference": "MED25 past papers plus Coordinator Formative Quiz 1, with case/application style anchored especially to Formative Q18, Q19, Q24, Q27, Q28, Q30 and Q36.",
     "style_rules": [
       "4-option single-best-answer format",
       "Concise KAU-like stems; avoid flashcard wording when an SBA stem is natural",
@@ -56,12 +56,28 @@
     "objective_alignment": "Every lecture set must cover the official lecture learning objectives; prioritize objectives and exam-relevant mechanisms rather than slide trivia.",
     "quality_gate": [
       "Exactly 4 options with one unambiguously best answer.",
-      "Question wording and length should resemble the MED25 test bank/formative rather than long USMLE vignettes.",
+      "Question wording and length should resemble MED25 past papers and Coordinator Formative Quiz 1 rather than long USMLE vignettes.",
+      "Every completed lecture set must contain a meaningful short-case/application component, normally about 30–40% when supported by the lecture.",
+      "Cases must test one lecture concept using only useful discriminating clues; no decorative history or filler.",
       "Use plausible same-domain distractors based on common confusions; never recycle unrelated flashcard answers as distractors.",
-      "Mix direct high-yield recall with mechanism/relationship and short application questions when supported by the lecture objectives.",
+      "Keep direct recall for genuine bread-and-butter facts, but avoid repetitive generic stems such as 'Which of the following best describes...'.",
       "Do not ask facts outside the official lecture even if medically correct.",
       "No SPP, practical, CBD, PBL, covered-in-PBL, tutorial, or other non-eligible teaching-method content."
-    ]
+    ],
+    "case_policy": {
+      "required": true,
+      "target_share": "approximately 30–40% of each completed lecture set should be short case/application questions when the lecture supports application",
+      "minimum_case_questions": "At least 4–6 case/application questions in a normal 15–25 question lecture set when supported by the lecture",
+      "format": "Short KAU-formative-style cases: only discriminating clues needed for one lecture concept; normally 1–4 sentences, not long USMLE vignettes.",
+      "disciplines": "Clinical patient cases for pathology/pharmacology/microbiology; physiological situations for physiology; lab/metabolic cases for biochemistry; surgical/imaging or structural cases for anatomy; microscopy/specimen cases for histology.",
+      "prohibitions": [
+        "Do not create a fake case by merely adding 'a patient presents' before a recall question.",
+        "Do not add facts not supported by the official lecture.",
+        "Do not use long USMLE-style histories unless the source lecture itself requires that detail.",
+        "Do not use generic AI wording such as repeated 'Which of the following best describes' when a natural question can be written.",
+        "Do not copy the formative or past-paper wording verbatim; use them as style references only."
+      ]
+    }
   },
   "lecture_sets": [
     {
@@ -343,6 +359,27 @@
           "source_url": "https://docs.google.com/presentation/d/1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
           "quality_status": "pass",
           "exam_ready": true
+        },
+        {
+          "id": "ai_1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV_formcase01",
+          "stem": "A healthy student moves to a high-altitude area. After several days, his RBC production begins to increase. Which factor is the main physiological stimulus for this response?",
+          "options": {
+            "A": "High plasma iron",
+            "B": "Tissue hypoxia",
+            "C": "High blood volume",
+            "D": "Hyperglycemia"
+          },
+          "answer": "B",
+          "explanation": "Tissue hypoxia is the main physiological stimulus for erythropoiesis because it increases erythropoietin production.",
+          "concept": "Erythropoiesis — formative-style case",
+          "difficulty": "application",
+          "style_profile": "KAU-formative-case-inspired",
+          "source_url": "https://docs.google.com/presentation/d/1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36",
+          "source_card_id": null
         }
       ],
       "eligibility_status": "allowed",
@@ -515,6 +552,27 @@
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "hold",
           "exam_ready": false
+        },
+        {
+          "id": "ai_1akREae-VDZN_QNeQlrnBruB1ML_EVnFr_formcase01",
+          "stem": "A child with chronic lead exposure develops impaired heme synthesis. Conversion of ALA to porphobilinogen is reduced. Which enzyme is directly affected?",
+          "options": {
+            "A": "Four PBG molecules → hydroxymethylbilane.",
+            "B": "Porphobilinogen (PBG).",
+            "C": "ALA dehydratase (PBG synthase); it is inhibited by lead.",
+            "D": "ALA synthase forming δ-ALA from glycine + succinyl-CoA."
+          },
+          "answer": "C",
+          "explanation": "ALA dehydratase (PBG synthase); it is inhibited by lead.",
+          "concept": "Lead — formative-style case",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1akREae-VDZN_QNeQlrnBruB1ML_EVnFr/view?usp=drivesdk",
+          "source_card_id": "1akREae-VDZN_QNeQlrnBruB1ML_EVnFr-c06",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "hold",
+          "exam_ready": false,
+          "case_style": "formative_short_case",
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
@@ -686,6 +744,27 @@
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "hold",
           "exam_ready": false
+        },
+        {
+          "id": "ai_1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b_formcase01",
+          "stem": "A patient has impaired clearance of triglyceride-rich lipoproteins because lipoprotein lipase is not properly activated. Which apoprotein is most directly involved?",
+          "options": {
+            "A": "Size decreases while density increases: CM → VLDL → IDL → LDL → HDL.",
+            "B": "Deliver dietary TAG to tissues and dietary cholesterol to the liver.",
+            "C": "ApoC-II; LPL is also stimulated by insulin.",
+            "D": "Hydrolyzes their TAG to fatty acids and glycerol."
+          },
+          "answer": "C",
+          "explanation": "ApoC-II; LPL is also stimulated by insulin.",
+          "concept": "Plasma Lipoprotein Metabolism — formative-style case",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b/view?usp=drivesdk",
+          "source_card_id": "1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b-c06",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "hold",
+          "exam_ready": false,
+          "case_style": "formative_short_case",
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
@@ -857,6 +936,27 @@
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "hold",
           "exam_ready": false
+        },
+        {
+          "id": "ai_1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo_formcase01",
+          "stem": "A patient presents with severe epigastric pain and markedly elevated serum triglycerides. Which acute complication is most strongly associated with this lipid abnormality?",
+          "options": {
+            "A": "Coronary heart disease via atherosclerosis.",
+            "B": "Acute pancreatitis.",
+            "C": "Increase LDL and decrease HDL.",
+            "D": "LDL → high cholesterol; serum remains clear."
+          },
+          "answer": "B",
+          "explanation": "Acute pancreatitis.",
+          "concept": "Triglycerides — formative-style case",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo/view?usp=drivesdk",
+          "source_card_id": "1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo-c03",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "hold",
+          "exam_ready": false,
+          "case_style": "formative_short_case",
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
@@ -1284,6 +1384,27 @@
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "hold",
           "exam_ready": false
+        },
+        {
+          "id": "ai_1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX_formcase01",
+          "stem": "A patient has reduced renal perfusion after a fall in effective circulating volume. Which change most directly stimulates renin release?",
+          "options": {
+            "A": "Renal control of body fluid volume and sodium balance.",
+            "B": "Increased renal sodium excretion caused by a rise in arterial pressure.",
+            "C": "Reduced renal perfusion, low NaCl delivery to macula densa, and β1 sympathetic stimulation.",
+            "D": "Angiotensin II causes vasoconstriction and promotes renal sodium/water retention."
+          },
+          "answer": "C",
+          "explanation": "Reduced renal perfusion, low NaCl delivery to macula densa, and β1 sympathetic stimulation.",
+          "concept": "Intermediate and Long-Term Regulation of Arterial Blood Pressure — formative-style case",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX/view?usp=drivesdk",
+          "source_card_id": "1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX-c06",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "hold",
+          "exam_ready": false,
+          "case_style": "formative_short_case",
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
@@ -1609,6 +1730,26 @@
           "style_profile": "MED25-test-bank/formative-inspired",
           "quality_status": "pass",
           "exam_ready": true
+        },
+        {
+          "id": "ai_1hUhRX6NQW4vC0QZctlopDFzZB_vh7U3h_formcase01",
+          "stem": "A patient suddenly develops a rise in arterial pressure. Stretch of the carotid sinus increases. Which reflex response is expected?",
+          "options": {
+            "A": "Decreased baroreceptor firing with increased sympathetic output",
+            "B": "Increased baroreceptor firing with increased vagal and decreased sympathetic activity",
+            "C": "Activation of chemoreceptors with generalized vasoconstriction",
+            "D": "Inhibition of the depressor center with tachycardia"
+          },
+          "answer": "B",
+          "explanation": "Higher arterial stretch increases baroreceptor firing, stimulating depressor pathways and inhibiting pressor pathways.",
+          "concept": "Baroreceptor reflex — formative-style case",
+          "difficulty": "application",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36",
+          "source_card_id": null
         }
       ],
       "eligibility_status": "allowed",
@@ -1784,6 +1925,27 @@
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "hold",
           "exam_ready": false
+        },
+        {
+          "id": "ai_1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg_formcase01",
+          "stem": "A patient has the same cardiac output through the pulmonary and systemic circulations, but pulmonary arterial pressure is much lower. Which explanation best accounts for this difference?",
+          "options": {
+            "A": "Pulmonary vascular resistance is much lower.",
+            "B": "Systemic and pulmonary circulation.",
+            "C": "Stroke volume ÷ end-diastolic volume × 100%.",
+            "D": "End-diastolic volume − end-systolic volume."
+          },
+          "answer": "A",
+          "explanation": "Pulmonary vascular resistance is much lower.",
+          "concept": "Physiological Organization of the Cardiovascular System — formative-style case",
+          "difficulty": "application",
+          "source_url": "https://docs.google.com/presentation/d/1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
+          "source_card_id": "1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg-c04",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "hold",
+          "exam_ready": false,
+          "case_style": "formative_short_case",
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
@@ -1955,6 +2117,27 @@
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "hold",
           "exam_ready": false
+        },
+        {
+          "id": "ai_13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0_formcase01",
+          "stem": "A patient develops marked tachycardia. Even without a coronary occlusion, myocardial perfusion may fall. Which mechanism best explains this?",
+          "options": {
+            "A": "Increased myocardial metabolism and local vasodilation.",
+            "B": "It shortens diastole, the main period of left coronary flow.",
+            "C": "A high fraction at rest, so increased demand is met mainly by increasing coronary flow.",
+            "D": "Contracting myocardium compresses intramyocardial vessels."
+          },
+          "answer": "B",
+          "explanation": "It shortens diastole, the main period of left coronary flow.",
+          "concept": "Coronary Circulation — formative-style case",
+          "difficulty": "application",
+          "source_url": "https://docs.google.com/presentation/d/13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
+          "source_card_id": "13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0-c07",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "hold",
+          "exam_ready": false,
+          "case_style": "formative_short_case",
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
@@ -2126,6 +2309,27 @@
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "hold",
           "exam_ready": false
+        },
+        {
+          "id": "ai_1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2_formcase01",
+          "stem": "A drug reduces the spontaneous phase-4 depolarization of SA nodal cells. Which current normally contributes to this pacemaker depolarization?",
+          "options": {
+            "A": "The plateau prolongs the action potential, preventing tetanic contraction.",
+            "B": "Their membrane potential slowly depolarizes spontaneously during phase 4.",
+            "C": "The funny current (If), with inward Na⁺ current, plus Ca²⁺ entry.",
+            "D": "SA node, because it has the fastest spontaneous firing rate."
+          },
+          "answer": "C",
+          "explanation": "The funny current (If), with inward Na⁺ current, plus Ca²⁺ entry.",
+          "concept": "Cardiac Excitability and Automaticity — formative-style case",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2/view?usp=drivesdk",
+          "source_card_id": "1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2-c02",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "hold",
+          "exam_ready": false,
+          "case_style": "formative_short_case",
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
@@ -2808,6 +3012,27 @@
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "hold",
           "exam_ready": false
+        },
+        {
+          "id": "ai_1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn_formcase01",
+          "stem": "A patient has defective platelet adhesion after vascular injury because platelets cannot bind von Willebrand factor normally. Which platelet receptor is affected?",
+          "options": {
+            "A": "Tissue factor exposure activates factor VII.",
+            "B": "GPIb.",
+            "C": "GPIIb/IIIa.",
+            "D": "Activation of factor X to Xa."
+          },
+          "answer": "B",
+          "explanation": "GPIb.",
+          "concept": "Hemostasis I — formative-style case",
+          "difficulty": "application",
+          "source_url": "https://docs.google.com/presentation/d/1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
+          "source_card_id": "1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn-c03",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "hold",
+          "exam_ready": false,
+          "case_style": "formative_short_case",
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
@@ -2979,6 +3204,27 @@
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "hold",
           "exam_ready": false
+        },
+        {
+          "id": "ai_14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn_formcase01",
+          "stem": "A patient with severe anemia develops a compensatory increase in cardiac output. Which mechanism best explains this response?",
+          "options": {
+            "A": "Iron deficiency or impaired hemoglobin synthesis.",
+            "B": "Lower viscosity reduces resistance and tissue hypoxia promotes vasodilation and sympathetic compensation.",
+            "C": "Polycythemia vera: autonomous marrow RBC production, usually with low EPO.",
+            "D": "Reduced oxygen-carrying capacity of blood, usually from low hemoglobin."
+          },
+          "answer": "B",
+          "explanation": "Lower viscosity reduces resistance and tissue hypoxia promotes vasodilation and sympathetic compensation.",
+          "concept": "Anemias and Polycythemia — formative-style case",
+          "difficulty": "application",
+          "source_url": "https://docs.google.com/presentation/d/14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
+          "source_card_id": "14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn-c03",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "hold",
+          "exam_ready": false,
+          "case_style": "formative_short_case",
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
@@ -3150,6 +3396,27 @@
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "hold",
           "exam_ready": false
+        },
+        {
+          "id": "ai_1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov_formcase01",
+          "stem": "A patient with high LDL cholesterol is started on a drug that directly blocks the rate-limiting enzyme of cholesterol synthesis. Which drug class produces this effect?",
+          "options": {
+            "A": "It favors phosphorylation and inhibition of the enzyme.",
+            "B": "Statins.",
+            "C": "HMG-CoA reductase.",
+            "D": "HMG-CoA to mevalonate."
+          },
+          "answer": "B",
+          "explanation": "Statins.",
+          "concept": "Cholesterol Metabolism — formative-style case",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov/view?usp=drivesdk",
+          "source_card_id": "1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov-c07",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "hold",
+          "exam_ready": false,
+          "case_style": "formative_short_case",
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
@@ -3321,6 +3588,27 @@
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "hold",
           "exam_ready": false
+        },
+        {
+          "id": "ai_1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs_formcase01",
+          "stem": "A patient has predominantly unconjugated hyperbilirubinemia. Urine testing shows no bilirubin. Which property best explains this finding?",
+          "options": {
+            "A": "Gut bacteria convert it to urobilinogen.",
+            "B": "Biliverdin reductase.",
+            "C": "It is water-insoluble and albumin-bound.",
+            "D": "Bound to albumin."
+          },
+          "answer": "C",
+          "explanation": "It is water-insoluble and albumin-bound.",
+          "concept": "Heme Catabolism and Bilirubin — formative-style case",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs/view?usp=drivesdk",
+          "source_card_id": "1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs-c06",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "hold",
+          "exam_ready": false,
+          "case_style": "formative_short_case",
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
@@ -3492,6 +3780,27 @@
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "hold",
           "exam_ready": false
+        },
+        {
+          "id": "ai_1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj_formcase01",
+          "stem": "A patient with severe hypoalbuminemia develops bilateral peripheral edema. Which change most directly explains the movement of fluid into the tissues?",
+          "options": {
+            "A": "Plasma oncotic pressure falls, favoring edema.",
+            "B": "Fatty acids, bilirubin, hormones, calcium, and many drugs.",
+            "C": "Maintains plasma colloid oncotic pressure.",
+            "D": "Plasma cells, not hepatocytes."
+          },
+          "answer": "A",
+          "explanation": "Plasma oncotic pressure falls, favoring edema.",
+          "concept": "Plasma Proteins — formative-style case",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj/view?usp=drivesdk",
+          "source_card_id": "1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj-c04",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "hold",
+          "exam_ready": false,
+          "case_style": "formative_short_case",
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
@@ -3663,6 +3972,27 @@
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "hold",
           "exam_ready": false
+        },
+        {
+          "id": "ai_1jODBvDorJgQ42QRYX75ODeTVk6Lr3lLe_formcase01",
+          "stem": "A patient with intravascular hemolysis has anemia, reticulocytosis and increased LDH. Which additional laboratory change is expected?",
+          "options": {
+            "A": "RBC destruction within the circulation, releasing hemoglobin into plasma.",
+            "B": "Spherocytes with membrane-cytoskeleton defects and splenic destruction.",
+            "C": "RBC removal by macrophages, mainly in spleen and liver.",
+            "D": "It decreases because it binds free hemoglobin."
+          },
+          "answer": "D",
+          "explanation": "It decreases because it binds free hemoglobin.",
+          "concept": "Hemolytic Anemia — formative-style case",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1jODBvDorJgQ42QRYX75ODeTVk6Lr3lLe/view?usp=drivesdk",
+          "source_card_id": "1jODBvDorJgQ42QRYX75ODeTVk6Lr3lLe-c05",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "hold",
+          "exam_ready": false,
+          "case_style": "formative_short_case",
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
@@ -3834,6 +4164,27 @@
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "hold",
           "exam_ready": false
+        },
+        {
+          "id": "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_formcase01",
+          "stem": "An older patient develops a new headache followed by visual symptoms. Giant-cell arteritis is suspected. Why is immediate treatment particularly important?",
+          "options": {
+            "A": "Ophthalmic artery involvement can cause irreversible blindness.",
+            "B": "Large and medium arteries, especially branches of the carotid artery.",
+            "C": "Inflammation and damage of blood-vessel walls.",
+            "D": "By the predominant size of vessel involved: large, medium, or small."
+          },
+          "answer": "A",
+          "explanation": "Ophthalmic artery involvement can cause irreversible blindness.",
+          "concept": "Vasculitis and Vascular & Cardiac Tumours — formative-style case",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk",
+          "source_card_id": "1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6-c04",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "hold",
+          "exam_ready": false,
+          "case_style": "formative_short_case",
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
@@ -4005,6 +4356,27 @@
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "hold",
           "exam_ready": false
+        },
+        {
+          "id": "ai_1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0_formcase01",
+          "stem": "A patient presents with sharp chest pain that becomes worse with inspiration and improves when he sits up and leans forward. Which pain pattern is being described?",
+          "options": {
+            "A": "Inflammation of myocardium with associated myocyte injury.",
+            "B": "Accumulation of fluid in the pericardial cavity.",
+            "C": "Sharp pleuritic pain improved by sitting up and leaning forward.",
+            "D": "Viral infection is a common cause; immune-mediated and toxic causes also occur."
+          },
+          "answer": "C",
+          "explanation": "Sharp pleuritic pain improved by sitting up and leaning forward.",
+          "concept": "Myocarditis and Pericardial Diseases — formative-style case",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0/view?usp=drivesdk",
+          "source_card_id": "1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0-c06",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "hold",
+          "exam_ready": false,
+          "case_style": "formative_short_case",
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
@@ -4176,6 +4548,27 @@
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "hold",
           "exam_ready": false
+        },
+        {
+          "id": "ai_12RXyb80ciEfihQ-258N_uk1EwrjTTI83_formcase01",
+          "stem": "A patient develops exertional chest discomfort because myocardial oxygen demand temporarily exceeds coronary blood supply. Which process best describes the underlying problem?",
+          "options": {
+            "A": "Ischemic necrosis of myocardium from prolonged severe reduction in coronary blood flow.",
+            "B": "Plaque disruption with non-occlusive thrombosis and reduced coronary flow.",
+            "C": "Fixed atherosclerotic narrowing that limits flow during increased demand.",
+            "D": "Myocardial dysfunction caused by an imbalance between coronary blood supply and oxygen demand."
+          },
+          "answer": "D",
+          "explanation": "Myocardial dysfunction caused by an imbalance between coronary blood supply and oxygen demand.",
+          "concept": "Ischemic Heart Disease I — formative-style case",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/12RXyb80ciEfihQ-258N_uk1EwrjTTI83/view?usp=drivesdk",
+          "source_card_id": "12RXyb80ciEfihQ-258N_uk1EwrjTTI83-c01",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "hold",
+          "exam_ready": false,
+          "case_style": "formative_short_case",
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
@@ -4347,6 +4740,27 @@
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "hold",
           "exam_ready": false
+        },
+        {
+          "id": "ai_1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31_formcase01",
+          "stem": "A patient presents with prolonged ischemic chest pain and biochemical evidence of myocardial injury. Which pathological process best explains the cardiac dysfunction?",
+          "options": {
+            "A": "An acute ventricular septal defect with left-to-right shunt.",
+            "B": "Macrophages remove dead tissue before strong collagen scar has formed.",
+            "C": "Acute severe mitral regurgitation.",
+            "D": "They begin after roughly 20–40 minutes of severe ischemia, then progress with time."
+          },
+          "answer": "D",
+          "explanation": "They begin after roughly 20–40 minutes of severe ischemia, then progress with time.",
+          "concept": "Ischemic Heart Disease II — formative-style case",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31/view?usp=drivesdk",
+          "source_card_id": "1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31-c01",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "hold",
+          "exam_ready": false,
+          "case_style": "formative_short_case",
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
@@ -4518,6 +4932,27 @@
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "hold",
           "exam_ready": false
+        },
+        {
+          "id": "ai_10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh_formcase01",
+          "stem": "A patient presents with an enlarged cervical lymph node. The physician begins by deciding whether the enlargement is reactive or neoplastic. Which description best defines lymphadenopathy?",
+          "options": {
+            "A": "Benign lymph-node enlargement caused by immune response to infection or inflammation.",
+            "B": "B-cell stimulation with enlarged reactive germinal centers.",
+            "C": "Expansion of lymph-node sinuses by macrophages, often draining cancer or inflammation.",
+            "D": "Abnormal enlargement or altered consistency of lymph nodes."
+          },
+          "answer": "D",
+          "explanation": "Abnormal enlargement or altered consistency of lymph nodes.",
+          "concept": "Lymphadenopathy — formative-style case",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh/view?usp=drivesdk",
+          "source_card_id": "10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh-c01",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "hold",
+          "exam_ready": false,
+          "case_style": "formative_short_case",
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
@@ -4689,6 +5124,27 @@
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "hold",
           "exam_ready": false
+        },
+        {
+          "id": "ai_1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR_formcase01",
+          "stem": "A middle-aged patient with several cardiovascular risk factors develops an intimal arterial plaque. Which process best describes the underlying disease?",
+          "options": {
+            "A": "Thin fibrous cap, large lipid core, and active inflammation.",
+            "B": "Lipid-laden macrophages (and some smooth-muscle cells) within atherosclerotic lesions.",
+            "C": "Endothelial injury/dysfunction leading to lipid entry, inflammation, and smooth-muscle responses.",
+            "D": "Intimal plaques with lipid cores and fibrous caps in large and medium arteries."
+          },
+          "answer": "D",
+          "explanation": "Intimal plaques with lipid cores and fibrous caps in large and medium arteries.",
+          "concept": "Atherosclerosis — formative-style case",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR/view?usp=drivesdk",
+          "source_card_id": "1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR-c01",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "hold",
+          "exam_ready": false,
+          "case_style": "formative_short_case",
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
@@ -4860,6 +5316,27 @@
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "hold",
           "exam_ready": false
+        },
+        {
+          "id": "ai_1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9_formcase01",
+          "stem": "A patient with a severe infection develops systemic organ dysfunction. Which description best defines the syndrome responsible for this presentation?",
+          "options": {
+            "A": "Inflammation activates coagulation and suppresses anticoagulant/fibrinolytic pathways.",
+            "B": "Maldistributed microvascular flow and vasodilation impair effective oxygen delivery.",
+            "C": "It activates innate immune pathways and promotes cytokine release.",
+            "D": "Life-threatening organ dysfunction caused by a dysregulated host response to infection."
+          },
+          "answer": "D",
+          "explanation": "Life-threatening organ dysfunction caused by a dysregulated host response to infection.",
+          "concept": "Sepsis — formative-style case",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9/view?usp=drivesdk",
+          "source_card_id": "1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9-c01",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "hold",
+          "exam_ready": false,
+          "case_style": "formative_short_case",
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
@@ -5031,6 +5508,27 @@
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "hold",
           "exam_ready": false
+        },
+        {
+          "id": "ai_1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV_formcase01",
+          "stem": "A patient develops immune-mediated injury directed against the body's own tissues. Which process best describes the underlying disorder?",
+          "options": {
+            "A": "Microbial antigens resemble self-antigens, causing cross-reactive immune responses.",
+            "B": "Suppressing autoreactive immune responses and maintaining peripheral tolerance.",
+            "C": "Mechanisms that suppress or inactivate self-reactive lymphocytes that escape central tolerance.",
+            "D": "An immune response directed against self-antigens because self-tolerance fails."
+          },
+          "answer": "D",
+          "explanation": "An immune response directed against self-antigens because self-tolerance fails.",
+          "concept": "Autoimmune Diseases — formative-style case",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV/view?usp=drivesdk",
+          "source_card_id": "1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV-c01",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "hold",
+          "exam_ready": false,
+          "case_style": "formative_short_case",
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
@@ -5202,6 +5700,27 @@
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "hold",
           "exam_ready": false
+        },
+        {
+          "id": "ai_1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp_formcase01",
+          "stem": "A child has recurrent unusual infections and is suspected to have impaired immune defense. Which description best defines the underlying problem?",
+          "options": {
+            "A": "Severe or recurrent viral, fungal, and opportunistic infections.",
+            "B": "Severe combined immunodeficiency affecting both cellular and humoral immunity.",
+            "C": "Low immunoglobulins with impaired antibody responses, often presenting later than XLA.",
+            "D": "An inherited or developmental defect of immune function."
+          },
+          "answer": "D",
+          "explanation": "An inherited or developmental defect of immune function.",
+          "concept": "Immunodeficiency — formative-style case",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp/view?usp=drivesdk",
+          "source_card_id": "1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp-c01",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "hold",
+          "exam_ready": false,
+          "case_style": "formative_short_case",
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
@@ -5373,6 +5892,27 @@
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "hold",
           "exam_ready": false
+        },
+        {
+          "id": "ai_1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ_formcase01",
+          "stem": "A patient from an endemic region develops chronic lymphatic obstruction with marked swelling of a lower limb. Which infection discussed in this lecture best explains the presentation?",
+          "options": {
+            "A": "Inflammation and lymphatic dysfunction around adult worms and recurrent infection.",
+            "B": "Some species show nocturnal periodicity of microfilariae.",
+            "C": "Lymphatic vessels and lymph nodes.",
+            "D": "Wuchereria bancrofti, Brugia malayi, and Brugia timori."
+          },
+          "answer": "D",
+          "explanation": "Wuchereria bancrofti, Brugia malayi, and Brugia timori.",
+          "concept": "Lymphatic Filariasis — formative-style case",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ/view?usp=drivesdk",
+          "source_card_id": "1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ-c01",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "hold",
+          "exam_ready": false,
+          "case_style": "formative_short_case",
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
@@ -5544,6 +6084,27 @@
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "hold",
           "exam_ready": false
+        },
+        {
+          "id": "ai_1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp_formcase01",
+          "stem": "A patient develops tissue injury after an exaggerated immune response to an otherwise harmless antigen. Which process best describes this reaction?",
+          "options": {
+            "A": "T-cell-mediated delayed hypersensitivity rather than antibody-mediated injury.",
+            "B": "Sensitized T lymphocytes, especially Th1/Th17 cells and sometimes CD8⁺ T cells.",
+            "C": "Complement activation and recruitment of neutrophils.",
+            "D": "Tissue injury caused by deposition of antigen-antibody immune complexes."
+          },
+          "answer": "D",
+          "explanation": "Tissue injury caused by deposition of antigen-antibody immune complexes.",
+          "concept": "Hypersensitivity Part II — formative-style case",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp/view?usp=drivesdk",
+          "source_card_id": "1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp-c01",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "hold",
+          "exam_ready": false,
+          "case_style": "formative_short_case",
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
@@ -5715,6 +6276,27 @@
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "hold",
           "exam_ready": false
+        },
+        {
+          "id": "ai_1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d_formcase01",
+          "stem": "A patient develops an exaggerated immune response after exposure to an antigen that is harmless to most people. Which process best describes this response?",
+          "options": {
+            "A": "Allergen cross-linking of mast-cell-bound IgE.",
+            "B": "Th2 responses drive IgE production; IgE binds FcεRI on mast cells.",
+            "C": "Antibody-mediated injury against cell-surface or extracellular-matrix antigens.",
+            "D": "Immediate IgE-mediated mast-cell hypersensitivity."
+          },
+          "answer": "D",
+          "explanation": "Immediate IgE-mediated mast-cell hypersensitivity.",
+          "concept": "Hypersensitivity Part I — formative-style case",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d/view?usp=drivesdk",
+          "source_card_id": "1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d-c01",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "hold",
+          "exam_ready": false,
+          "case_style": "formative_short_case",
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
@@ -5886,6 +6468,27 @@
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "hold",
           "exam_ready": false
+        },
+        {
+          "id": "ai_14vfFkvXZlceusubx4H2RN-ttsGLXdkbj_formcase01",
+          "stem": "A patient with fever and hemolysis has an intraerythrocytic parasitic infection. Which feature from this lecture is most useful for distinguishing the relevant organisms?",
+          "options": {
+            "A": "Asplenic, older, or immunocompromised patients.",
+            "B": "Babesia is tick-borne; malaria is transmitted by Anopheles mosquitoes.",
+            "C": "Dormant hypnozoites can reactivate from the liver.",
+            "D": "An intraerythrocytic protozoan parasite transmitted mainly by Ixodes ticks."
+          },
+          "answer": "D",
+          "explanation": "An intraerythrocytic protozoan parasite transmitted mainly by Ixodes ticks.",
+          "concept": "Babesiosis and Malaria II — formative-style case",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/14vfFkvXZlceusubx4H2RN-ttsGLXdkbj/view?usp=drivesdk",
+          "source_card_id": "14vfFkvXZlceusubx4H2RN-ttsGLXdkbj-c01",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "hold",
+          "exam_ready": false,
+          "case_style": "formative_short_case",
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
@@ -6057,6 +6660,27 @@
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "hold",
           "exam_ready": false
+        },
+        {
+          "id": "ai_11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI_formcase01",
+          "stem": "A traveler returns from an endemic area with recurrent fever and an intraerythrocytic parasite on blood film. Which statement best describes the infection discussed in this lecture?",
+          "options": {
+            "A": "Synchronous rupture of infected RBCs and release of merozoites/inflammatory products.",
+            "B": "It can invade RBCs of all ages rather than a restricted subset.",
+            "C": "Merozoites invade RBCs and develop through ring/trophozoite and schizont stages.",
+            "D": "By the bite of an infected female Anopheles mosquito."
+          },
+          "answer": "D",
+          "explanation": "By the bite of an infected female Anopheles mosquito.",
+          "concept": "Malaria I — formative-style case",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI/view?usp=drivesdk",
+          "source_card_id": "11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI-c01",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "hold",
+          "exam_ready": false,
+          "case_style": "formative_short_case",
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
@@ -6228,6 +6852,27 @@
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "hold",
           "exam_ready": false
+        },
+        {
+          "id": "ai_1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8_formcase01",
+          "stem": "A patient with exertional chest pain is started on pharmacological therapy to reduce myocardial oxygen demand. Which statement best describes the therapeutic goal in this patient?",
+          "options": {
+            "A": "Venodilation lowers preload and ventricular wall stress, reducing myocardial O₂ demand.",
+            "B": "The combination can cause profound hypotension through excessive cGMP.",
+            "C": "They reduce heart rate/contractility and dilate coronary/systemic arteries.",
+            "D": "Reduce myocardial O₂ demand and/or improve coronary O₂ supply."
+          },
+          "answer": "D",
+          "explanation": "Reduce myocardial O₂ demand and/or improve coronary O₂ supply.",
+          "concept": "Antianginal Drugs — formative-style case",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8/view?usp=drivesdk",
+          "source_card_id": "1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8-c01",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "hold",
+          "exam_ready": false,
+          "case_style": "formative_short_case",
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
@@ -6399,6 +7044,27 @@
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "hold",
           "exam_ready": false
+        },
+        {
+          "id": "ai_1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc_formcase01",
+          "stem": "A patient with dyslipidemia is started on drug therapy to reduce future atherosclerotic cardiovascular risk. Which statement best describes the main pharmacological target discussed in this lecture?",
+          "options": {
+            "A": "Hypertriglyceridemia.",
+            "B": "Large reduction in LDL cholesterol.",
+            "C": "It inhibits intestinal cholesterol absorption via NPC1L1.",
+            "D": "HMG-CoA reductase."
+          },
+          "answer": "D",
+          "explanation": "HMG-CoA reductase.",
+          "concept": "Antihyperlipidemic Drugs — formative-style case",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc/view?usp=drivesdk",
+          "source_card_id": "1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc-c01",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "hold",
+          "exam_ready": false,
+          "case_style": "formative_short_case",
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
@@ -6570,6 +7236,27 @@
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "hold",
           "exam_ready": false
+        },
+        {
+          "id": "ai_1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92_formcase01",
+          "stem": "A transplant recipient is started on an immunosuppressive drug to reduce lymphocyte activation. Which statement best describes the drug mechanism discussed in this lecture?",
+          "options": {
+            "A": "It inhibits mTOR, blocking response to IL-2 and T-cell proliferation.",
+            "B": "It inhibits folate-dependent nucleotide metabolism and has anti-inflammatory effects at low doses.",
+            "C": "It inhibits IMP dehydrogenase and de novo guanine synthesis, especially affecting lymphocytes.",
+            "D": "Broad suppression of inflammatory gene transcription and cytokine production."
+          },
+          "answer": "D",
+          "explanation": "Broad suppression of inflammatory gene transcription and cytokine production.",
+          "concept": "Immune Suppressants and Immune Modulators — formative-style case",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92/view?usp=drivesdk",
+          "source_card_id": "1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92-c01",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "hold",
+          "exam_ready": false,
+          "case_style": "formative_short_case",
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
@@ -6741,6 +7428,27 @@
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "hold",
           "exam_ready": false
+        },
+        {
+          "id": "ai_1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG_formcase01",
+          "stem": "A patient presents with an acute allergic reaction and requires pharmacological treatment. Which statement best matches the drug action discussed in this lecture?",
+          "options": {
+            "A": "Histamine H1 receptors.",
+            "B": "Less CNS penetration and therefore less sedation.",
+            "C": "Histamine-mediated itching, sneezing, urticaria, and rhinorrhea.",
+            "D": "Intramuscular epinephrine."
+          },
+          "answer": "D",
+          "explanation": "Intramuscular epinephrine.",
+          "concept": "Pharmacology of Hypersensitivity — formative-style case",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG/view?usp=drivesdk",
+          "source_card_id": "1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG-c01",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "hold",
+          "exam_ready": false,
+          "case_style": "formative_short_case",
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
@@ -6912,6 +7620,27 @@
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "hold",
           "exam_ready": false
+        },
+        {
+          "id": "ai_11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP_formcase01",
+          "stem": "A patient with an acute thromboembolic disorder requires treatment that alters coagulation. Which statement best describes the drug action discussed in this lecture?",
+          "options": {
+            "A": "They inhibit factor Xa more selectively and have more predictable pharmacokinetics.",
+            "B": "Protein C falls rapidly before several procoagulant factors, creating transient hypercoagulability.",
+            "C": "Apixaban and rivaroxaban.",
+            "D": "It accelerates antithrombin inhibition of thrombin and factor Xa."
+          },
+          "answer": "D",
+          "explanation": "It accelerates antithrombin inhibition of thrombin and factor Xa.",
+          "concept": "Drugs Affecting Hemostasis and Coagulation — formative-style case",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP/view?usp=drivesdk",
+          "source_card_id": "11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP-c01",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "hold",
+          "exam_ready": false,
+          "case_style": "formative_short_case",
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
@@ -7234,6 +7963,27 @@
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "hold",
           "exam_ready": false
+        },
+        {
+          "id": "ai_1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D_formcase01",
+          "stem": "A patient presents with an acute pulmonary embolism and requires immediate anticoagulation. Which statement best describes the treatment principle discussed in this lecture?",
+          "options": {
+            "A": "Major bleeding, especially intracranial hemorrhage.",
+            "B": "Catheter-based therapy or surgical embolectomy in selected patients.",
+            "C": "Direct oral anticoagulants or warfarin, depending on patient factors.",
+            "D": "Anticoagulation."
+          },
+          "answer": "D",
+          "explanation": "Anticoagulation.",
+          "concept": "Pulmonary Embolism Management — formative-style case",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D/view?usp=drivesdk",
+          "source_card_id": "1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D-c01",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "hold",
+          "exam_ready": false,
+          "case_style": "formative_short_case",
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
@@ -7405,6 +8155,27 @@
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "hold",
           "exam_ready": false
+        },
+        {
+          "id": "ai_1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO_formcase01",
+          "stem": "A patient undergoes coronary stent placement and requires antiplatelet therapy. Which statement best describes the platelet target discussed in this lecture?",
+          "options": {
+            "A": "Platelets cannot synthesize new COX because they lack nuclei.",
+            "B": "Arterial thrombi are platelet-rich because of high shear stress.",
+            "C": "A prodrug P2Y12 inhibitor requiring hepatic activation.",
+            "D": "It irreversibly inhibits COX-1, reducing thromboxane A₂ synthesis."
+          },
+          "answer": "D",
+          "explanation": "It irreversibly inhibits COX-1, reducing thromboxane A₂ synthesis.",
+          "concept": "Antiplatelet Drugs — formative-style case",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO/view?usp=drivesdk",
+          "source_card_id": "1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO-c01",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "hold",
+          "exam_ready": false,
+          "case_style": "formative_short_case",
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
@@ -7727,6 +8498,27 @@
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "hold",
           "exam_ready": false
+        },
+        {
+          "id": "ai_1N29pF27p1UfkP79gdlrUFW-5WiTtgnEC_formcase01",
+          "stem": "During cardiac surgery, a surgeon passes a clamp through the transverse pericardial sinus. Between which groups of structures is the clamp passing?",
+          "options": {
+            "A": "Between parietal and visceral serous pericardium.",
+            "B": "Arterial outflow (aorta/pulmonary trunk) and venous inflow structures.",
+            "C": "Fibrous pericardium and serous pericardium; serous has parietal and visceral layers.",
+            "D": "A blind recess posterior to the left atrium between pulmonary veins/IVC reflections."
+          },
+          "answer": "B",
+          "explanation": "Arterial outflow (aorta/pulmonary trunk) and venous inflow structures.",
+          "concept": "Mediastinum and Pericardium — formative-style case",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1N29pF27p1UfkP79gdlrUFW-5WiTtgnEC/view?usp=drivesdk",
+          "source_card_id": "1N29pF27p1UfkP79gdlrUFW-5WiTtgnEC-c07",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "hold",
+          "exam_ready": false,
+          "case_style": "formative_short_case",
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
@@ -7898,6 +8690,27 @@
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "hold",
           "exam_ready": false
+        },
+        {
+          "id": "ai_1wsoTpxTw6_QhMHqxYdLuxwHOvwXokQV5_formcase01",
+          "stem": "During cardiac examination, the apex beat is palpated in a healthy adult. At which location should it normally be found?",
+          "options": {
+            "A": "Left 5th intercostal space near the midclavicular line.",
+            "B": "Left ventricle, with contribution from the left auricle.",
+            "C": "External position of the interventricular septum.",
+            "D": "Left ventricle."
+          },
+          "answer": "A",
+          "explanation": "Left 5th intercostal space near the midclavicular line.",
+          "concept": "External Features of the Heart — formative-style case",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1wsoTpxTw6_QhMHqxYdLuxwHOvwXokQV5/view?usp=drivesdk",
+          "source_card_id": "1wsoTpxTw6_QhMHqxYdLuxwHOvwXokQV5-c04",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "hold",
+          "exam_ready": false,
+          "case_style": "formative_short_case",
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
@@ -8069,6 +8882,27 @@
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "hold",
           "exam_ready": false
+        },
+        {
+          "id": "ai_1NCRD8jp124VR1jxrnCxtoTaJRJMtkx4w_formcase01",
+          "stem": "During examination of the right atrium, a ridge is seen separating the smooth posterior wall from the rough anterior part. Which structure is this?",
+          "options": {
+            "A": "AV valve cusps and papillary muscles.",
+            "B": "Trabeculae carneae; the moderator band is also distinctive.",
+            "C": "Crista terminalis.",
+            "D": "Tricuspid valve."
+          },
+          "answer": "C",
+          "explanation": "Crista terminalis.",
+          "concept": "Internal Features of the Heart — formative-style case",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1NCRD8jp124VR1jxrnCxtoTaJRJMtkx4w/view?usp=drivesdk",
+          "source_card_id": "1NCRD8jp124VR1jxrnCxtoTaJRJMtkx4w-c02",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "hold",
+          "exam_ready": false,
+          "case_style": "formative_short_case",
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
@@ -8240,6 +9074,27 @@
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "hold",
           "exam_ready": false
+        },
+        {
+          "id": "ai_1tktL6El76XzdSl3H9meqCkgYArLLaty7_formcase01",
+          "stem": "A lymph-node section shows a region rich in T lymphocytes and specialized venules. Which region is being examined?",
+          "options": {
+            "A": "Medullary cords containing plasma cells/lymphocytes and medullary sinuses.",
+            "B": "Paracortex.",
+            "C": "Cortex.",
+            "D": "Sites of lymphocyte development/maturation: bone marrow and thymus."
+          },
+          "answer": "B",
+          "explanation": "Paracortex.",
+          "concept": "Histology of the Lymphatic System — formative-style case",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1tktL6El76XzdSl3H9meqCkgYArLLaty7/view?usp=drivesdk",
+          "source_card_id": "1tktL6El76XzdSl3H9meqCkgYArLLaty7-c07",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "hold",
+          "exam_ready": false,
+          "case_style": "formative_short_case",
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
@@ -8411,6 +9266,27 @@
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "hold",
           "exam_ready": false
+        },
+        {
+          "id": "ai_1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC_formcase01",
+          "stem": "A biopsy from the distal small intestine shows aggregated lymphoid nodules involved in mucosal immune surveillance. Where are these Peyer patches normally found?",
+          "options": {
+            "A": "Primarily in the ileum.",
+            "B": "Secretory IgA.",
+            "C": "Mucosa-associated lymphoid tissue.",
+            "D": "Tonsils, Peyer patches, and appendix."
+          },
+          "answer": "A",
+          "explanation": "Primarily in the ileum.",
+          "concept": "Histology of Mucosal Lymphatic Tissue — formative-style case",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC/view?usp=drivesdk",
+          "source_card_id": "1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC-c04",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "hold",
+          "exam_ready": false,
+          "case_style": "formative_short_case",
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
@@ -8582,6 +9458,27 @@
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "hold",
           "exam_ready": false
+        },
+        {
+          "id": "ai_1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM_formcase01",
+          "stem": "On myocardial microscopy, adjacent cardiomyocytes are electrically coupled through junctions in the intercalated discs. Which junction provides this coupling?",
+          "options": {
+            "A": "Cardiac muscle.",
+            "B": "Desmosomes and fascia adherens.",
+            "C": "One central nucleus, sometimes two.",
+            "D": "Gap junctions."
+          },
+          "answer": "D",
+          "explanation": "Gap junctions.",
+          "concept": "Histology of Myocardium — formative-style case",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM/view?usp=drivesdk",
+          "source_card_id": "1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM-c05",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "hold",
+          "exam_ready": false,
+          "case_style": "formative_short_case",
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
@@ -9038,6 +9935,27 @@
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
           "exam_ready": true
+        },
+        {
+          "id": "ai_11ZztQA_d1F4x9wB69Olsoc-d823jwFqm_formcase01",
+          "stem": "A patient remains hypertensive despite appropriate doses of an ARB, a long-acting dihydropyridine calcium-channel blocker and a thiazide-type diuretic. Adherence is confirmed. Which drug is the preferred next add-on?",
+          "options": {
+            "A": "Spironolactone",
+            "B": "Verapamil",
+            "C": "Prazosin",
+            "D": "Clonidine"
+          },
+          "answer": "A",
+          "explanation": "Spironolactone is a common preferred add-on for confirmed resistant hypertension when potassium and renal function permit.",
+          "concept": "Resistant HTN — formative-style case",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk",
+          "source_card_id": null,
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
@@ -9332,6 +10250,26 @@
           "style_profile": "MED25-test-bank/formative-inspired",
           "quality_status": "pass",
           "exam_ready": true
+        },
+        {
+          "id": "ai_1a2GYFwVaioCMtkK4FhARroF7kphyGDwS_formcase01",
+          "stem": "A patient receives a rapid intravenous fluid infusion, increasing venous return and end-diastolic volume. Which change best illustrates the resulting Frank-Starling response?",
+          "options": {
+            "A": "Higher venous return → higher EDV → stronger contraction",
+            "B": "Higher aortic pressure → faster shortening",
+            "C": "Lower preload → stronger contraction",
+            "D": "Lower calcium influx → stronger contraction"
+          },
+          "answer": "A",
+          "explanation": "Greater venous return raises EDV/preload and, within limits, increases force of contraction.",
+          "concept": "Frank-Starling law — formative-style case",
+          "difficulty": "application",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36",
+          "source_card_id": null
         }
       ],
       "quality_status": "pass",
@@ -9658,6 +10596,26 @@
           "style_profile": "MED25-test-bank/formative-inspired",
           "quality_status": "pass",
           "exam_ready": true
+        },
+        {
+          "id": "ai_1rzreURT0TD2ajEGXKRIzad7b8VjudyNm_formcase01",
+          "stem": "A patient develops acute blood loss after trauma. Which immediate change in venous return and cardiac output is expected?",
+          "options": {
+            "A": "Increased blood volume and venous return",
+            "B": "Decreased venous return and cardiac output",
+            "C": "Increased EDV and stroke volume",
+            "D": "Increased preload through hypervolemia"
+          },
+          "answer": "B",
+          "explanation": "Hemorrhage reduces blood volume, lowering venous return, preload and cardiac output.",
+          "concept": "Blood volume and CO — formative-style case",
+          "difficulty": "application",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36",
+          "source_card_id": null
         }
       ],
       "quality_status": "pass",
@@ -9948,6 +10906,27 @@
           "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view",
           "quality_status": "pass",
           "exam_ready": true
+        },
+        {
+          "id": "ai_1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP_formcase01",
+          "stem": "A patient with rapidly rising blood pressure develops renal failure, retinal hemorrhages and papilledema. Which form of hypertension is most likely?",
+          "options": {
+            "A": "Benign hypertension",
+            "B": "Malignant hypertension",
+            "C": "Isolated atherosclerosis",
+            "D": "Diabetes without hypertension"
+          },
+          "answer": "B",
+          "explanation": "Rapidly rising pressure with renal failure, retinal hemorrhage, and papilledema is the classic malignant-hypertension pattern in the lecture.",
+          "concept": "Malignant hypertension — formative-style case",
+          "difficulty": "application",
+          "style_profile": "KAU-formative-case-inspired",
+          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36",
+          "source_card_id": null
         }
       ],
       "quality_status": "pass",
@@ -10238,6 +11217,27 @@
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
           "exam_ready": true
+        },
+        {
+          "id": "ai_19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5_formcase01",
+          "stem": "During ventricular filling, the aortic valve is closed but aortic pressure continues to fall. Which mechanism best explains this decrease?",
+          "options": {
+            "A": "The aortic valve opens",
+            "B": "Blood continues to leave the aorta toward the periphery while the aortic valve is closed",
+            "C": "The ventricle ejects less rapidly",
+            "D": "Atrial contraction pulls blood from the aorta"
+          },
+          "answer": "B",
+          "explanation": "With the aortic valve closed, no new ventricular blood enters the aorta while blood continues into the peripheral circulation.",
+          "concept": "Aortic pressure — formative-style case",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5/view",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36",
+          "source_card_id": null
         }
       ],
       "quality_status": "pass",
@@ -10528,6 +11528,27 @@
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
           "exam_ready": true
+        },
+        {
+          "id": "ai_1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc_formcase01",
+          "stem": "A 12-year-old develops migratory large-joint pain and a new murmur several weeks after an untreated sore throat. Which preceding infection is classically associated with this disease?",
+          "options": {
+            "A": "Staphylococcal skin infection",
+            "B": "Group A β-hemolytic streptococcal pharyngitis",
+            "C": "Viral myocarditis",
+            "D": "Fungal endocarditis"
+          },
+          "answer": "B",
+          "explanation": "RF follows group A beta-hemolytic streptococcal pharyngitis.",
+          "concept": "Rheumatic fever — formative-style case",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc/view",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36",
+          "source_card_id": null
         }
       ],
       "quality_status": "pass",
@@ -10800,6 +11821,26 @@
           "style_profile": "MED25-test-bank/formative-inspired",
           "quality_status": "pass",
           "exam_ready": true
+        },
+        {
+          "stem": "A patient has an inflamed vascular bed with increased endothelial ICAM-1, VCAM-1 and selectin expression. Which process is most directly promoted by this change?",
+          "options": {
+            "A": "Erythrocyte production",
+            "B": "Leukocyte recruitment",
+            "C": "Platelet inhibition",
+            "D": "Fibrin degradation"
+          },
+          "answer": "B",
+          "explanation": "Endothelial adhesion molecules regulate leukocyte attachment and recruitment during immune and inflammatory responses.",
+          "concept": "Inflammation and immunity — formative-style case",
+          "difficulty": "application",
+          "id": "ai_1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf_formcase01",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36",
+          "source_card_id": null
         }
       ],
       "eligibility_status": "allowed",

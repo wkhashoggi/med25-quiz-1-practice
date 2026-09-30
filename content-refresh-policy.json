@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-29T16:12:21.013Z",
+  "updated_at": "2026-09-30T13:37:00.118Z",
   "study_guide": {
     "title": "Study Guide- Circulation and Breathing module- 2026-2027.pdf",
     "drive_file_id": "1QwRNlO6-zuOQugxyjrhXykOW-YjVtal4"
@@ -31,7 +31,12 @@
       "The matched Study Guide teaching method must be one of the three allowed methods.",
       "If the match or teaching method is uncertain, do not publish the deck/question set.",
       "Department folder location alone never makes a file eligible."
-    ]
+    ],
+    "source_population": [
+      "Male",
+      "Female"
+    ],
+    "gender_folder_rule": "Scan both Male and Female official lecture folders as parallel sources. A lecture may be published from either folder; never require a Male copy to exist."
   },
   "ai_questions": {
     "objective_first": true,

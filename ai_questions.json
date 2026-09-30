@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-30T13:38:45.949Z",
+  "generated_at": "2026-09-30T13:41:48.783Z",
   "source_root": {
     "id": "1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
     "url": "https://drive.google.com/drive/folders/1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
@@ -9384,6 +9384,251 @@
           "style_profile": "KAU-past-paper-inspired"
         }
       ]
+    },
+    {
+      "id": "ai_set_1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf",
+      "source_file_id": "1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf",
+      "subject": "Physiology",
+      "title": "Physiology of Vascular Endothelium",
+      "source_url": "https://drive.google.com/file/d/1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf/view?usp=drivesdk",
+      "source_modified_time": "2026-09-29T15:55:13.759Z",
+      "source_validation": "lecture_validated",
+      "archived": false,
+      "questions": [
+        {
+          "stem": "Which endothelial product inhibits platelet activation and aggregation while also promoting vasodilatation?",
+          "options": {
+            "A": "Endothelin-1",
+            "B": "Nitric oxide",
+            "C": "Von Willebrand factor",
+            "D": "Plasminogen activator inhibitor-1"
+          },
+          "answer": "B",
+          "explanation": "Healthy endothelium releases nitric oxide, which is both vasodilator and antiplatelet.",
+          "concept": "Antithrombotic and vasoactive function",
+          "difficulty": "understanding",
+          "id": "ai_1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf_01",
+          "style_profile": "MED25-test-bank/formative-inspired"
+        },
+        {
+          "stem": "Thrombomodulin contributes to the anticoagulant function of healthy endothelium mainly by:",
+          "options": {
+            "A": "Activating factor X",
+            "B": "Binding thrombin and promoting activation of protein C",
+            "C": "Increasing platelet adhesion",
+            "D": "Inhibiting tissue plasminogen activator"
+          },
+          "answer": "B",
+          "explanation": "Endothelial thrombomodulin binds thrombin and promotes protein C activation, supporting anticoagulation.",
+          "concept": "Anticoagulant function",
+          "difficulty": "understanding",
+          "id": "ai_1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf_02",
+          "style_profile": "MED25-test-bank/formative-inspired"
+        },
+        {
+          "stem": "A patient develops endothelial injury with exposure of subendothelial collagen. What is the most immediate hemostatic consequence?",
+          "options": {
+            "A": "Reduced platelet adhesion",
+            "B": "Increased platelet adhesion and aggregation",
+            "C": "Increased nitric oxide release",
+            "D": "Enhanced fibrinolysis"
+          },
+          "answer": "B",
+          "explanation": "Exposure of subendothelial collagen after endothelial injury promotes platelet adhesion and aggregation.",
+          "concept": "Prothrombotic endothelial dysfunction",
+          "difficulty": "application",
+          "id": "ai_1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf_03",
+          "style_profile": "MED25-test-bank/formative-inspired"
+        },
+        {
+          "stem": "Which endothelial mediator is most strongly associated with vasoconstriction?",
+          "options": {
+            "A": "Prostacyclin",
+            "B": "Nitric oxide",
+            "C": "Endothelin-1",
+            "D": "Endothelium-derived hyperpolarizing factor"
+          },
+          "answer": "C",
+          "explanation": "Endothelin-1 is a major vasoconstrictor released by endothelium, especially in unhealthy/dysfunctional states.",
+          "concept": "Vascular tone",
+          "difficulty": "core",
+          "id": "ai_1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf_04",
+          "style_profile": "MED25-test-bank/formative-inspired"
+        },
+        {
+          "stem": "Which pair consists mainly of endothelial vasodilator mediators?",
+          "options": {
+            "A": "Nitric oxide and prostacyclin",
+            "B": "Endothelin-1 and thromboxane A2",
+            "C": "Von Willebrand factor and PAI-1",
+            "D": "ICAM-1 and VCAM-1"
+          },
+          "answer": "A",
+          "explanation": "Nitric oxide and prostacyclin (PGI2) are important endothelial vasodilators.",
+          "concept": "Vascular tone",
+          "difficulty": "core",
+          "id": "ai_1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf_05",
+          "style_profile": "MED25-test-bank/formative-inspired"
+        },
+        {
+          "stem": "Vascular endothelial growth factor (VEGF) released from endothelial cells mainly promotes:",
+          "options": {
+            "A": "Fibrinolysis",
+            "B": "Angiogenesis",
+            "C": "Platelet adhesion",
+            "D": "Vasoconstriction"
+          },
+          "answer": "B",
+          "explanation": "VEGF promotes angiogenesis and formation of new blood vessels.",
+          "concept": "Angiogenesis",
+          "difficulty": "core",
+          "id": "ai_1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf_06",
+          "style_profile": "MED25-test-bank/formative-inspired"
+        },
+        {
+          "stem": "Which endothelial substances inhibit angiogenesis according to the lecture?",
+          "options": {
+            "A": "VEGF and nitric oxide",
+            "B": "Thrombospondin-1 and endostatin",
+            "C": "ICAM-1 and VCAM-1",
+            "D": "PAI-1 and von Willebrand factor"
+          },
+          "answer": "B",
+          "explanation": "The lecture identifies thrombospondin-1 and endostatin as anti-angiogenic endothelial factors.",
+          "concept": "Angiogenesis",
+          "difficulty": "core",
+          "id": "ai_1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf_07",
+          "style_profile": "MED25-test-bank/formative-inspired"
+        },
+        {
+          "stem": "Endothelial angiotensin-converting enzyme contributes to vascular regulation by converting:",
+          "options": {
+            "A": "Angiotensin II to angiotensin I",
+            "B": "Angiotensin I to angiotensin II",
+            "C": "Bradykinin to nitric oxide",
+            "D": "Prostacyclin to thromboxane A2"
+          },
+          "answer": "B",
+          "explanation": "Endothelial ACE converts angiotensin I to angiotensin II, particularly in pulmonary endothelium.",
+          "concept": "Metabolic function",
+          "difficulty": "core",
+          "id": "ai_1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf_08",
+          "style_profile": "MED25-test-bank/formative-inspired"
+        },
+        {
+          "stem": "During inflammation, increased endothelial expression of ICAM-1, VCAM-1 and selectins primarily promotes:",
+          "options": {
+            "A": "Erythrocyte production",
+            "B": "Leukocyte recruitment",
+            "C": "Platelet inhibition",
+            "D": "Fibrin degradation"
+          },
+          "answer": "B",
+          "explanation": "Endothelial adhesion molecules regulate leukocyte attachment and recruitment during immune and inflammatory responses.",
+          "concept": "Inflammation and immunity",
+          "difficulty": "understanding",
+          "id": "ai_1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf_09",
+          "style_profile": "MED25-test-bank/formative-inspired"
+        },
+        {
+          "stem": "An unhealthy endothelium releases more endothelin-1. What is the expected effect on local blood flow?",
+          "options": {
+            "A": "Increased flow due to vasodilatation",
+            "B": "Decreased flow due to vasoconstriction",
+            "C": "No change in vascular tone",
+            "D": "Increased flow due to reduced peripheral resistance"
+          },
+          "answer": "B",
+          "explanation": "Endothelin-1 causes vasoconstriction, reducing local blood flow.",
+          "concept": "Endothelial dysfunction",
+          "difficulty": "application",
+          "id": "ai_1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf_10",
+          "style_profile": "MED25-test-bank/formative-inspired"
+        },
+        {
+          "stem": "Which change best characterizes endothelial dysfunction?",
+          "options": {
+            "A": "Increased NO with reduced thrombosis",
+            "B": "Reduced vasodilatation with a prothrombotic and proinflammatory state",
+            "C": "Reduced adhesion molecule expression",
+            "D": "Increased fibrinolysis with reduced platelet activation"
+          },
+          "answer": "B",
+          "explanation": "Dysfunctional endothelium shows impaired vasodilatation, increased thrombosis/inflammation, and abnormal vascular wall proliferation.",
+          "concept": "Endothelial dysfunction",
+          "difficulty": "understanding",
+          "id": "ai_1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf_11",
+          "style_profile": "MED25-test-bank/formative-inspired"
+        },
+        {
+          "stem": "Which condition listed in the lecture can cause endothelial dysfunction?",
+          "options": {
+            "A": "Diabetes mellitus",
+            "B": "Low plasma cholesterol",
+            "C": "Reduced oxidative stress",
+            "D": "Isolated physiological bradycardia"
+          },
+          "answer": "A",
+          "explanation": "High blood glucose/diabetes is one of the lecture's listed causes of endothelial dysfunction.",
+          "concept": "Causes of endothelial dysfunction",
+          "difficulty": "core",
+          "id": "ai_1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf_12",
+          "style_profile": "MED25-test-bank/formative-inspired"
+        },
+        {
+          "stem": "Atherosclerosis promotes endothelial dysfunction in the lecture mainly in association with:",
+          "options": {
+            "A": "Low blood cholesterol",
+            "B": "High blood cholesterol",
+            "C": "Reduced vascular length",
+            "D": "Reduced platelet activity"
+          },
+          "answer": "B",
+          "explanation": "High blood cholesterol/atherosclerosis is listed as an important cause of endothelial dysfunction.",
+          "concept": "Causes of endothelial dysfunction",
+          "difficulty": "core",
+          "id": "ai_1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf_13",
+          "style_profile": "MED25-test-bank/formative-inspired"
+        },
+        {
+          "stem": "Healthy endothelium helps maintain blood fluidity through which combination?",
+          "options": {
+            "A": "Antiplatelet, anticoagulant and fibrinolytic actions",
+            "B": "Procoagulant, vasoconstrictor and platelet-activating actions",
+            "C": "Only fibrinolysis",
+            "D": "Only inhibition of leukocyte adhesion"
+          },
+          "answer": "A",
+          "explanation": "The lecture summarizes healthy endothelial maintenance of blood fluidity as antiplatelet + anticoagulant + fibrinolytic activity.",
+          "concept": "Homeostasis",
+          "difficulty": "understanding",
+          "id": "ai_1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf_14",
+          "style_profile": "MED25-test-bank/formative-inspired"
+        },
+        {
+          "stem": "Which outcome is most consistent with prolonged endothelial dysfunction?",
+          "options": {
+            "A": "Reduced atherosclerotic lesion formation",
+            "B": "Improved vasomotor tone and reduced thrombosis",
+            "C": "Atherosclerotic progression with increased risk of ischemic cardiovascular events",
+            "D": "Persistent vasodilatation with increased blood flow"
+          },
+          "answer": "C",
+          "explanation": "Endothelial dysfunction promotes impaired vasomotor tone, thrombosis, inflammation and arterial wall proliferation, contributing to atherosclerosis and ischemic events.",
+          "concept": "Consequences of endothelial dysfunction",
+          "difficulty": "application",
+          "id": "ai_1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf_15",
+          "style_profile": "MED25-test-bank/formative-inspired"
+        }
+      ],
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
+      "source_alias_file_ids": [
+        "15_xtBi8sn7hwfZYM1jlBer6dWU-D9lQI"
+      ],
+      "source_population": "Male",
+      "teaching_method": "Flipped class",
+      "study_guide_objectives": "1. Explore the primary functions of vascular endothelial cells. 2. Discuss the endothelium's role in maintaining homeostasis, including the balance of coagulation and fibrinolysis. 3. Understand the role of endothelial cells in angiogenesis. 4. Discuss the role of nitric oxide (NO) in maintenance of vascular health. 5. Analyze pathophysiological changes associated with endothelial dysfunction. 6. Discuss factors that cause endothelial dysfunction. 7. Explore potential therapeutic strategies targeting endothelial dysfunction."
     }
   ]
 }

@@ -195,15 +195,6 @@ function polishHomeLabels(){
   if(meta)meta.setAttribute('aria-live','polite');
 }
 
-function markCurrentRank(){
-  const list=document.getElementById('gameLeaderboardList');if(!list)return;
-  list.querySelectorAll('.v2MyRank').forEach(x=>x.remove());
-  const me=list.querySelector('.gameLeaderboardRow.me');
-  if(me&&Array.from(list.children).indexOf(me)>=10){
-    const note=document.createElement('div');note.className='v2MyRank';note.textContent='Your ranking is highlighted above.';
-    list.appendChild(note);
-  }
-}
 
 function observeLeaderboard(){
   const tryBind=()=>{

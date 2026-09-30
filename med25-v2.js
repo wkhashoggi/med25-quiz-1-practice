@@ -1,6 +1,10 @@
 (function(){
 'use strict';
 
+function cohortLogoSrc(){
+  return window.MED25_COHORT_LOGO_B64?'data:image/jpeg;base64,'+window.MED25_COHORT_LOGO_B64:'';
+}
+
 const V2_INFO={
   about:{
     title:'About MED25',
@@ -78,7 +82,7 @@ function installCohortIdentity(){
   if(welcome&&!welcome.querySelector('.v2CohortIdentity')){
     const row=document.createElement('div');
     row.className='v2CohortIdentity';
-    row.innerHTML='<img src="assets/med25-cohort-logo.jpg?v=1" alt="MED25 cohort logo"><div><span>MED25 COHORT</span><b>King Abdulaziz University · Faculty of Medicine</b></div>';
+    row.innerHTML='<img src="'+cohortLogoSrc()+'" alt="MED25 cohort logo"><div><span>MED25 COHORT</span><b>King Abdulaziz University · Faculty of Medicine</b></div>';
     welcome.insertBefore(row,welcome.firstChild);
   }
 }
@@ -88,7 +92,7 @@ function installFooter(){
   const footer=document.createElement('footer');
   footer.id='v2Footer';footer.className='v2Footer';
   footer.innerHTML=
-    '<div class="v2FooterBrand"><span class="v2FooterMark"><img src="assets/med25-cohort-logo.jpg?v=1" alt=""></span><span><b>MED25 Study Hub</b><span>Built for KAU Medicine students</span></span></div>'+
+    '<div class="v2FooterBrand"><span class="v2FooterMark"><img src="'+cohortLogoSrc()+'" alt=""></span><span><b>MED25 Study Hub</b><span>Built for KAU Medicine students</span></span></div>'+
     '<div class="v2FooterLinks">'+
       '<button type="button" data-v2-info="about">About</button>'+
       '<button type="button" data-v2-info="privacy">Privacy</button>'+
@@ -111,7 +115,7 @@ function openInfo(key){
   installInfoSheet();
   const data=V2_INFO[key]||V2_INFO.about,back=document.getElementById('v2InfoBack');
   document.getElementById('v2InfoTitle').textContent=data.title;
-  document.getElementById('v2InfoBody').innerHTML=(key==='about'?'<div class="v2AboutIdentity"><img src="assets/med25-cohort-logo.jpg?v=1" alt="MED25 cohort logo"><div><b>MED25 Cohort</b><span>King Abdulaziz University · Faculty of Medicine</span></div></div>':'')+data.body;
+  document.getElementById('v2InfoBody').innerHTML=(key==='about'?'<div class="v2AboutIdentity"><img src="'+cohortLogoSrc()+'" alt="MED25 cohort logo"><div><b>MED25 Cohort</b><span>King Abdulaziz University · Faculty of Medicine</span></div></div>':'')+data.body;
   back.classList.add('show');back.setAttribute('aria-hidden','false');
 }
 function closeInfo(){

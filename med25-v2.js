@@ -86,6 +86,16 @@ function installCohortIdentity(){
     welcome.insertBefore(row,welcome.firstChild);
   }
 }
+function installMobileAppearance(){
+  const slot=document.getElementById('homeAuthSlot');
+  if(!slot||document.getElementById('v2MobileAppearance'))return;
+  const btn=document.createElement('button');
+  btn.id='v2MobileAppearance';btn.className='v2MobileAppearance';btn.type='button';
+  btn.setAttribute('aria-label','Toggle light or dark appearance');
+  btn.innerHTML='<span aria-hidden="true">◐</span><span>Appearance</span>';
+  btn.onclick=()=>document.getElementById('themeToggle')?.click();
+  slot.appendChild(btn);
+}
 function installFooter(){
   const shell=document.querySelector('.shell');
   if(!shell||document.getElementById('v2Footer'))return;
@@ -236,7 +246,7 @@ function setupKeyboard(){
 function init(){
   document.documentElement.classList.add('med25-v2');
   document.title='MED25 Study Hub';
-  cleanNav();installCohortIdentity();installFooter();installInfoSheet();installPracticeSheet();installMobileNav();observeSections();observeLeaderboard();polishHomeLabels();setupKeyboard();syncMobileNav();
+  cleanNav();installCohortIdentity();installMobileAppearance();installFooter();installInfoSheet();installPracticeSheet();installMobileNav();observeSections();observeLeaderboard();polishHomeLabels();setupKeyboard();syncMobileNav();
   setTimeout(()=>{cleanNav();polishHomeLabels();syncMobileNav()},800);
 }
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',()=>setTimeout(init,0));else setTimeout(init,0);

@@ -475,3 +475,34 @@ button:disabled,input:disabled,select:disabled{cursor:not-allowed!important}
   .v2CohortIdentity img{width:42px;height:42px;flex-basis:42px}
   .v2CohortIdentity b{font-size:10.5px}
 }
+
+/* v2.2 visual QA fixes */
+.hubCard.homeContinue{
+  background:
+    radial-gradient(circle at 86% 15%,rgba(255,255,255,.18),transparent 28%),
+    linear-gradient(135deg,#1f4fc7 0%,#2449a7 48%,#172554 100%)!important;
+  border:0!important;color:#fff!important;box-shadow:0 18px 42px rgba(29,78,216,.20)!important
+}
+.hubCard.homeContinue .homeContinueEyebrow,
+.hubCard.homeContinue h2{color:#fff!important}
+.hubCard.homeContinue p{color:#dbe7ff!important}
+.gameLeaderboardTabs button{white-space:nowrap!important}
+.mobileThemeToggle{display:none!important}
+.v2MobileAppearance{display:none}
+@media(max-width:820px){
+  .homeAuthArea{position:relative!important}
+  .homeAuthIntro{padding-right:102px}
+  .v2MobileAppearance{
+    display:inline-flex;position:absolute;right:15px;top:15px;align-items:center;gap:6px;
+    min-height:36px;padding:7px 10px;border:1px solid var(--v2-line);border-radius:10px;
+    background:var(--v2-surface-2);color:var(--v2-text);font-size:10px;font-weight:750;cursor:pointer
+  }
+  .v2MobileAppearance span:first-child{font-size:15px;line-height:1}
+}
+@media(max-width:470px){
+  #homeMetrics{grid-template-columns:repeat(3,minmax(0,1fr))!important}
+  #homeMetrics .hubMetric{min-height:116px!important;padding:12px 10px!important}
+  #homeMetrics .hubMetric b{font-size:21px!important}
+  #homeMetrics .hubMetric>span:not(.homeMetricIcon){font-size:8.5px!important;line-height:1.25!important}
+  #homeMetrics .hubBar{margin-top:auto!important}
+}

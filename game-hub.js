@@ -293,9 +293,7 @@ async function gameLoadLeaderboard(force=false){
   if(!host)return;
   if(!force&&Date.now()-gameLeaderboardLoadedAt<30000&&gameLeaderboard.length){gameRenderLeaderboard();return}
   try{
-    const res=await supaFetch('/rest/v1/rpc/get_game_leaderboard',{
-      method:'POST',body:JSON.stringify({limit_count:50})
-    });
+    const res=await supaFetch('/rest/v1/leaderboard_entries?select=username,avatar_url,points&order=points.desc&limit=50');
     if(!res.ok)throw new Error(await res.text());
     gameLeaderboard=await res.json();
     gameLeaderboardLoadedAt=Date.now();

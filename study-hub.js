@@ -359,8 +359,10 @@ function sgLabelVisible(root,kind){
     if(!meta)return;
     if(kind==='past'){
       const hy=typeof highYieldBadge==='function'?highYieldBadge(q):'';
+      const examReady=typeof window.med25ExamReadyPast==='function'?window.med25ExamReadyPast(q):true;
+      const quality=examReady?'':'<span class="pill sourceIncompletePill" title="Authentic source-bank item, but its extracted choices are incomplete or duplicated. It is excluded from mock exams.">Source incomplete</span>';
       meta.innerHTML='<span class="pill sgSubjectPill">'+esc(g.subject||'Other')+'</span>'+
-        '<span class="pill sgLecturePill">'+esc(g.title||'Unmapped lecture')+'</span>'+hy;
+        '<span class="pill sgLecturePill">'+esc(g.title||'Unmapped lecture')+'</span>'+quality+hy;
       meta.title='Official 2026–2027 Study Guide subject and lecture. The original bank name remains shown as source provenance.';
     }else{
       meta.querySelectorAll('.sgLecturePill').forEach(x=>x.remove());
@@ -407,7 +409,8 @@ function homeWeakTopics(){
   }
   QUESTIONS.forEach(q=>{
     const p=saved[q.id];if(p?.correct!==true&&p?.correct!==false)return;
-    const x=bucket(q.topic);x.graded++;x.pastGraded++;if(p.correct){x.correct++;x.pastCorrect++}
+    let g={};try{g=sgQuestionLecture('past',q)||{}}catch{}
+    const x=bucket(g.title||q.lecture_source?.title||'Past Papers');x.graded++;x.pastGraded++;if(p.correct){x.correct++;x.pastCorrect++}
   });
   const ap=aiProgress();
   aiAllQuestions().forEach(q=>{

@@ -830,10 +830,7 @@ function gameMockSubmit(auto=false){
   }
   exam.submitted=true;exam.submittedAt=Date.now();exam.autoSubmitted=auto;
   clearInterval(gameMockState.timer);
-  const sc=gameMockScore();
-  const bonus=sc.pct>=90?100:sc.pct>=80?60:sc.pct>=70?40:0;
-  exam.bonusXp=bonus;
-  if(bonus>0)gameAwardBonus('mock:'+String(exam.startedAt),'mock',bonus);
+  exam.bonusXp=0;
   gameMockRenderResults();
   try{trackEvent('section_view',{metadata:{section:'mock_exam_finished',questions:exam.questions.length,score:gameMockScore().correct,auto_submit:auto}})}catch{}
 }
@@ -855,7 +852,7 @@ function gameMockRenderResults(){
       '<section class="mockResultHero"><div><span class="mockExamLabel">RESULT</span><h2>'+sc.pct+'%</h2><p>'+sc.correct+' correct · '+sc.wrong+' wrong · '+sc.unanswered+' unanswered'+(exam.autoSubmitted?' · time expired':'')+'</p></div>'+
       '<button id="mockBuildAnother" type="button">Build another exam</button></section>'+
       '<div class="mockResultStats"><div><b>'+sc.correct+'</b><span>Correct</span></div><div><b>'+sc.wrong+'</b><span>Wrong</span></div><div><b>'+sc.unanswered+'</b><span>Unanswered</span></div><div><b>'+sc.total+'</b><span>Total</span></div></div>'+
-      '<p class="mockNoPoints">'+(Number(exam.bonusXp||0)>0?('Mock performance bonus: +'+Number(exam.bonusXp)+' XP · awarded once for this exam.'):'Reach 70% to earn a Mock Exam XP bonus: 70% = +40 · 80% = +60 · 90% = +100 XP.')+'</p>'+
+      '<p class="mockNoPoints">Mock exams do not award XP. Individual Past Paper and AI practice questions award XP in their normal sections.</p>'+
       '<section class="mockReview"><div class="homeCardLabel">REVIEW</div>'+
       exam.questions.map((item,i)=>{
         const q=item.q,pick=exam.answers[item.key]||'',ok=pick===q.answer;
@@ -1056,6 +1053,8 @@ function gameInit(){
   setTimeout(gameSyncAuth,300);
   setTimeout(()=>{gameNormalizeIcons();gameUpdateQuizBadge()},1200);
   window.med25GameRecordAttempt=gameRecordAttempt;
+  const pending=Array.isArray(window.med25PendingGameAttempts)?window.med25PendingGameAttempts.splice(0):[];
+  pending.forEach(x=>gameRecordAttempt(x.source,x.questionId,x.correct));
   window.med25GameUpdateQuizBadge=gameUpdateQuizBadge;
   window.med25GameRefreshQuiz=()=>{
     gameUpdateQuizBadge();

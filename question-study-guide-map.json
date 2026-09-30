@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-27T17:01:17.472Z",
+  "generated_at": "2026-09-30T15:37:16.030Z",
   "study_guide_file_id": "1QwRNlO6-zuOQugxyjrhXykOW-YjVtal4",
   "past": {
     "ibls-previous-years-p4-q3-1": {
@@ -5853,56 +5853,56 @@
       "subject": "Physiology",
       "title": "Physiology of Red blood cells",
       "confidence": 1,
-      "method": "source-title"
+      "method": "manual-quality-audit"
     },
     "ai_1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV_02": {
       "lecture_id": "physiology__physiology-of-red-blood-cells",
       "subject": "Physiology",
       "title": "Physiology of Red blood cells",
       "confidence": 1,
-      "method": "source-title"
+      "method": "manual-quality-audit"
     },
     "ai_1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV_03": {
       "lecture_id": "physiology__physiology-of-red-blood-cells",
       "subject": "Physiology",
       "title": "Physiology of Red blood cells",
       "confidence": 1,
-      "method": "source-title"
+      "method": "manual-quality-audit"
     },
     "ai_1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV_04": {
       "lecture_id": "physiology__physiology-of-red-blood-cells",
       "subject": "Physiology",
       "title": "Physiology of Red blood cells",
       "confidence": 1,
-      "method": "source-title"
+      "method": "manual-quality-audit"
     },
     "ai_1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV_05": {
       "lecture_id": "physiology__physiology-of-red-blood-cells",
       "subject": "Physiology",
       "title": "Physiology of Red blood cells",
       "confidence": 1,
-      "method": "source-title"
+      "method": "manual-quality-audit"
     },
     "ai_1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV_06": {
       "lecture_id": "physiology__physiology-of-red-blood-cells",
       "subject": "Physiology",
       "title": "Physiology of Red blood cells",
       "confidence": 1,
-      "method": "source-title"
+      "method": "manual-quality-audit"
     },
     "ai_1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV_07": {
       "lecture_id": "physiology__physiology-of-red-blood-cells",
       "subject": "Physiology",
       "title": "Physiology of Red blood cells",
       "confidence": 1,
-      "method": "source-title"
+      "method": "manual-quality-audit"
     },
     "ai_1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV_08": {
       "lecture_id": "physiology__physiology-of-red-blood-cells",
       "subject": "Physiology",
       "title": "Physiology of Red blood cells",
       "confidence": 1,
-      "method": "source-title"
+      "method": "manual-quality-audit"
     },
     "ai_1akREae-VDZN_QNeQlrnBruB1ML_EVnFr_01": {
       "lecture_id": "biochemistry__haem-synthesis",
@@ -8836,6 +8836,637 @@
       "title": "Cardiac output and its control",
       "confidence": 1,
       "method": "source-title+objective-validated"
+    },
+    "ai_1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV_09": {
+      "lecture_id": "physiology__physiology-of-red-blood-cells",
+      "subject": "Physiology",
+      "title": "Physiology of Red blood cells",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV_10": {
+      "lecture_id": "physiology__physiology-of-red-blood-cells",
+      "subject": "Physiology",
+      "title": "Physiology of Red blood cells",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV_11": {
+      "lecture_id": "physiology__physiology-of-red-blood-cells",
+      "subject": "Physiology",
+      "title": "Physiology of Red blood cells",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV_12": {
+      "lecture_id": "physiology__physiology-of-red-blood-cells",
+      "subject": "Physiology",
+      "title": "Physiology of Red blood cells",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV_13": {
+      "lecture_id": "physiology__physiology-of-red-blood-cells",
+      "subject": "Physiology",
+      "title": "Physiology of Red blood cells",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV_14": {
+      "lecture_id": "physiology__physiology-of-red-blood-cells",
+      "subject": "Physiology",
+      "title": "Physiology of Red blood cells",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV_15": {
+      "lecture_id": "physiology__physiology-of-red-blood-cells",
+      "subject": "Physiology",
+      "title": "Physiology of Red blood cells",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP_01": {
+      "lecture_id": "pathology__pathology-of-hypertension",
+      "subject": "Pathology",
+      "title": "Pathology of Hypertension",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP_02": {
+      "lecture_id": "pathology__pathology-of-hypertension",
+      "subject": "Pathology",
+      "title": "Pathology of Hypertension",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP_03": {
+      "lecture_id": "pathology__pathology-of-hypertension",
+      "subject": "Pathology",
+      "title": "Pathology of Hypertension",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP_04": {
+      "lecture_id": "pathology__pathology-of-hypertension",
+      "subject": "Pathology",
+      "title": "Pathology of Hypertension",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP_05": {
+      "lecture_id": "pathology__pathology-of-hypertension",
+      "subject": "Pathology",
+      "title": "Pathology of Hypertension",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP_06": {
+      "lecture_id": "pathology__pathology-of-hypertension",
+      "subject": "Pathology",
+      "title": "Pathology of Hypertension",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP_07": {
+      "lecture_id": "pathology__pathology-of-hypertension",
+      "subject": "Pathology",
+      "title": "Pathology of Hypertension",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP_08": {
+      "lecture_id": "pathology__pathology-of-hypertension",
+      "subject": "Pathology",
+      "title": "Pathology of Hypertension",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP_09": {
+      "lecture_id": "pathology__pathology-of-hypertension",
+      "subject": "Pathology",
+      "title": "Pathology of Hypertension",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP_10": {
+      "lecture_id": "pathology__pathology-of-hypertension",
+      "subject": "Pathology",
+      "title": "Pathology of Hypertension",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP_11": {
+      "lecture_id": "pathology__pathology-of-hypertension",
+      "subject": "Pathology",
+      "title": "Pathology of Hypertension",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP_12": {
+      "lecture_id": "pathology__pathology-of-hypertension",
+      "subject": "Pathology",
+      "title": "Pathology of Hypertension",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP_13": {
+      "lecture_id": "pathology__pathology-of-hypertension",
+      "subject": "Pathology",
+      "title": "Pathology of Hypertension",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP_14": {
+      "lecture_id": "pathology__pathology-of-hypertension",
+      "subject": "Pathology",
+      "title": "Pathology of Hypertension",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP_15": {
+      "lecture_id": "pathology__pathology-of-hypertension",
+      "subject": "Pathology",
+      "title": "Pathology of Hypertension",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5_01": {
+      "lecture_id": "physiology__cardiac-cycle",
+      "subject": "Physiology",
+      "title": "Cardiac cycle",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5_02": {
+      "lecture_id": "physiology__cardiac-cycle",
+      "subject": "Physiology",
+      "title": "Cardiac cycle",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5_03": {
+      "lecture_id": "physiology__cardiac-cycle",
+      "subject": "Physiology",
+      "title": "Cardiac cycle",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5_04": {
+      "lecture_id": "physiology__cardiac-cycle",
+      "subject": "Physiology",
+      "title": "Cardiac cycle",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5_05": {
+      "lecture_id": "physiology__cardiac-cycle",
+      "subject": "Physiology",
+      "title": "Cardiac cycle",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5_06": {
+      "lecture_id": "physiology__cardiac-cycle",
+      "subject": "Physiology",
+      "title": "Cardiac cycle",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5_07": {
+      "lecture_id": "physiology__cardiac-cycle",
+      "subject": "Physiology",
+      "title": "Cardiac cycle",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5_08": {
+      "lecture_id": "physiology__cardiac-cycle",
+      "subject": "Physiology",
+      "title": "Cardiac cycle",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5_09": {
+      "lecture_id": "physiology__cardiac-cycle",
+      "subject": "Physiology",
+      "title": "Cardiac cycle",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5_10": {
+      "lecture_id": "physiology__cardiac-cycle",
+      "subject": "Physiology",
+      "title": "Cardiac cycle",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5_11": {
+      "lecture_id": "physiology__cardiac-cycle",
+      "subject": "Physiology",
+      "title": "Cardiac cycle",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5_12": {
+      "lecture_id": "physiology__cardiac-cycle",
+      "subject": "Physiology",
+      "title": "Cardiac cycle",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5_13": {
+      "lecture_id": "physiology__cardiac-cycle",
+      "subject": "Physiology",
+      "title": "Cardiac cycle",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5_14": {
+      "lecture_id": "physiology__cardiac-cycle",
+      "subject": "Physiology",
+      "title": "Cardiac cycle",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5_15": {
+      "lecture_id": "physiology__cardiac-cycle",
+      "subject": "Physiology",
+      "title": "Cardiac cycle",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc_01": {
+      "lecture_id": "pathology__valvular-heart-diseases",
+      "subject": "Pathology",
+      "title": "Valvular Heart Diseases",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc_02": {
+      "lecture_id": "pathology__valvular-heart-diseases",
+      "subject": "Pathology",
+      "title": "Valvular Heart Diseases",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc_03": {
+      "lecture_id": "pathology__valvular-heart-diseases",
+      "subject": "Pathology",
+      "title": "Valvular Heart Diseases",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc_04": {
+      "lecture_id": "pathology__valvular-heart-diseases",
+      "subject": "Pathology",
+      "title": "Valvular Heart Diseases",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc_05": {
+      "lecture_id": "pathology__valvular-heart-diseases",
+      "subject": "Pathology",
+      "title": "Valvular Heart Diseases",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc_06": {
+      "lecture_id": "pathology__valvular-heart-diseases",
+      "subject": "Pathology",
+      "title": "Valvular Heart Diseases",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc_07": {
+      "lecture_id": "pathology__valvular-heart-diseases",
+      "subject": "Pathology",
+      "title": "Valvular Heart Diseases",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc_08": {
+      "lecture_id": "pathology__valvular-heart-diseases",
+      "subject": "Pathology",
+      "title": "Valvular Heart Diseases",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc_09": {
+      "lecture_id": "pathology__valvular-heart-diseases",
+      "subject": "Pathology",
+      "title": "Valvular Heart Diseases",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc_10": {
+      "lecture_id": "pathology__valvular-heart-diseases",
+      "subject": "Pathology",
+      "title": "Valvular Heart Diseases",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc_11": {
+      "lecture_id": "pathology__valvular-heart-diseases",
+      "subject": "Pathology",
+      "title": "Valvular Heart Diseases",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc_12": {
+      "lecture_id": "pathology__valvular-heart-diseases",
+      "subject": "Pathology",
+      "title": "Valvular Heart Diseases",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc_13": {
+      "lecture_id": "pathology__valvular-heart-diseases",
+      "subject": "Pathology",
+      "title": "Valvular Heart Diseases",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc_14": {
+      "lecture_id": "pathology__valvular-heart-diseases",
+      "subject": "Pathology",
+      "title": "Valvular Heart Diseases",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc_15": {
+      "lecture_id": "pathology__valvular-heart-diseases",
+      "subject": "Pathology",
+      "title": "Valvular Heart Diseases",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf_01": {
+      "lecture_id": "physiology__physiology-of-vascular-endothelium",
+      "subject": "Physiology",
+      "title": "Physiology of vascular endothelium",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf_02": {
+      "lecture_id": "physiology__physiology-of-vascular-endothelium",
+      "subject": "Physiology",
+      "title": "Physiology of vascular endothelium",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf_03": {
+      "lecture_id": "physiology__physiology-of-vascular-endothelium",
+      "subject": "Physiology",
+      "title": "Physiology of vascular endothelium",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf_04": {
+      "lecture_id": "physiology__physiology-of-vascular-endothelium",
+      "subject": "Physiology",
+      "title": "Physiology of vascular endothelium",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf_05": {
+      "lecture_id": "physiology__physiology-of-vascular-endothelium",
+      "subject": "Physiology",
+      "title": "Physiology of vascular endothelium",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf_06": {
+      "lecture_id": "physiology__physiology-of-vascular-endothelium",
+      "subject": "Physiology",
+      "title": "Physiology of vascular endothelium",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf_07": {
+      "lecture_id": "physiology__physiology-of-vascular-endothelium",
+      "subject": "Physiology",
+      "title": "Physiology of vascular endothelium",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf_08": {
+      "lecture_id": "physiology__physiology-of-vascular-endothelium",
+      "subject": "Physiology",
+      "title": "Physiology of vascular endothelium",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf_09": {
+      "lecture_id": "physiology__physiology-of-vascular-endothelium",
+      "subject": "Physiology",
+      "title": "Physiology of vascular endothelium",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf_10": {
+      "lecture_id": "physiology__physiology-of-vascular-endothelium",
+      "subject": "Physiology",
+      "title": "Physiology of vascular endothelium",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf_11": {
+      "lecture_id": "physiology__physiology-of-vascular-endothelium",
+      "subject": "Physiology",
+      "title": "Physiology of vascular endothelium",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf_12": {
+      "lecture_id": "physiology__physiology-of-vascular-endothelium",
+      "subject": "Physiology",
+      "title": "Physiology of vascular endothelium",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf_13": {
+      "lecture_id": "physiology__physiology-of-vascular-endothelium",
+      "subject": "Physiology",
+      "title": "Physiology of vascular endothelium",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf_14": {
+      "lecture_id": "physiology__physiology-of-vascular-endothelium",
+      "subject": "Physiology",
+      "title": "Physiology of vascular endothelium",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf_15": {
+      "lecture_id": "physiology__physiology-of-vascular-endothelium",
+      "subject": "Physiology",
+      "title": "Physiology of vascular endothelium",
+      "confidence": 1,
+      "method": "manual-quality-audit"
+    },
+    "ai_11ZztQA_d1F4x9wB69Olsoc-d823jwFqm_01": {
+      "lecture_id": "pharmacology__antihypertensive-drugs-2",
+      "subject": "Pharmacology",
+      "title": "Antihypertensive drugs -2",
+      "confidence": 1,
+      "method": "manual-objective-split"
+    },
+    "ai_11ZztQA_d1F4x9wB69Olsoc-d823jwFqm_02": {
+      "lecture_id": "pharmacology__antihypertensive-drugs-2",
+      "subject": "Pharmacology",
+      "title": "Antihypertensive drugs -2",
+      "confidence": 1,
+      "method": "manual-objective-split"
+    },
+    "ai_11ZztQA_d1F4x9wB69Olsoc-d823jwFqm_03": {
+      "lecture_id": "pharmacology__antihypertensive-drugs-2",
+      "subject": "Pharmacology",
+      "title": "Antihypertensive drugs -2",
+      "confidence": 1,
+      "method": "manual-objective-split"
+    },
+    "ai_11ZztQA_d1F4x9wB69Olsoc-d823jwFqm_04": {
+      "lecture_id": "pharmacology__antihypertensive-drugs-1",
+      "subject": "Pharmacology",
+      "title": "Antihypertensive drugs -1",
+      "confidence": 1,
+      "method": "manual-objective-split"
+    },
+    "ai_11ZztQA_d1F4x9wB69Olsoc-d823jwFqm_05": {
+      "lecture_id": "pharmacology__antihypertensive-drugs-1",
+      "subject": "Pharmacology",
+      "title": "Antihypertensive drugs -1",
+      "confidence": 1,
+      "method": "manual-objective-split"
+    },
+    "ai_11ZztQA_d1F4x9wB69Olsoc-d823jwFqm_06": {
+      "lecture_id": "pharmacology__antihypertensive-drugs-1",
+      "subject": "Pharmacology",
+      "title": "Antihypertensive drugs -1",
+      "confidence": 1,
+      "method": "manual-objective-split"
+    },
+    "ai_11ZztQA_d1F4x9wB69Olsoc-d823jwFqm_07": {
+      "lecture_id": "pharmacology__antihypertensive-drugs-1",
+      "subject": "Pharmacology",
+      "title": "Antihypertensive drugs -1",
+      "confidence": 1,
+      "method": "manual-objective-split"
+    },
+    "ai_11ZztQA_d1F4x9wB69Olsoc-d823jwFqm_08": {
+      "lecture_id": "pharmacology__antihypertensive-drugs-1",
+      "subject": "Pharmacology",
+      "title": "Antihypertensive drugs -1",
+      "confidence": 1,
+      "method": "manual-objective-split"
+    },
+    "ai_11ZztQA_d1F4x9wB69Olsoc-d823jwFqm_09": {
+      "lecture_id": "pharmacology__antihypertensive-drugs-1",
+      "subject": "Pharmacology",
+      "title": "Antihypertensive drugs -1",
+      "confidence": 1,
+      "method": "manual-objective-split"
+    },
+    "ai_11ZztQA_d1F4x9wB69Olsoc-d823jwFqm_10": {
+      "lecture_id": "pharmacology__antihypertensive-drugs-1",
+      "subject": "Pharmacology",
+      "title": "Antihypertensive drugs -1",
+      "confidence": 1,
+      "method": "manual-objective-split"
+    },
+    "ai_11ZztQA_d1F4x9wB69Olsoc-d823jwFqm_11": {
+      "lecture_id": "pharmacology__antihypertensive-drugs-2",
+      "subject": "Pharmacology",
+      "title": "Antihypertensive drugs -2",
+      "confidence": 1,
+      "method": "manual-objective-split"
+    },
+    "ai_11ZztQA_d1F4x9wB69Olsoc-d823jwFqm_12": {
+      "lecture_id": "pharmacology__antihypertensive-drugs-2",
+      "subject": "Pharmacology",
+      "title": "Antihypertensive drugs -2",
+      "confidence": 1,
+      "method": "manual-objective-split"
+    },
+    "ai_11ZztQA_d1F4x9wB69Olsoc-d823jwFqm_13": {
+      "lecture_id": "pharmacology__antihypertensive-drugs-1",
+      "subject": "Pharmacology",
+      "title": "Antihypertensive drugs -1",
+      "confidence": 1,
+      "method": "manual-objective-split"
+    },
+    "ai_11ZztQA_d1F4x9wB69Olsoc-d823jwFqm_14": {
+      "lecture_id": "pharmacology__antihypertensive-drugs-2",
+      "subject": "Pharmacology",
+      "title": "Antihypertensive drugs -2",
+      "confidence": 1,
+      "method": "manual-objective-split"
+    },
+    "ai_11ZztQA_d1F4x9wB69Olsoc-d823jwFqm_15": {
+      "lecture_id": "pharmacology__antihypertensive-drugs-2",
+      "subject": "Pharmacology",
+      "title": "Antihypertensive drugs -2",
+      "confidence": 1,
+      "method": "manual-objective-split"
+    },
+    "ai_11ZztQA_d1F4x9wB69Olsoc-d823jwFqm_16": {
+      "lecture_id": "pharmacology__antihypertensive-drugs-2",
+      "subject": "Pharmacology",
+      "title": "Antihypertensive drugs -2",
+      "confidence": 1,
+      "method": "manual-objective-split"
+    },
+    "ai_11ZztQA_d1F4x9wB69Olsoc-d823jwFqm_17": {
+      "lecture_id": "pharmacology__antihypertensive-drugs-1",
+      "subject": "Pharmacology",
+      "title": "Antihypertensive drugs -1",
+      "confidence": 1,
+      "method": "manual-objective-split"
+    },
+    "ai_11ZztQA_d1F4x9wB69Olsoc-d823jwFqm_18": {
+      "lecture_id": "pharmacology__antihypertensive-drugs-2",
+      "subject": "Pharmacology",
+      "title": "Antihypertensive drugs -2",
+      "confidence": 1,
+      "method": "manual-objective-split"
+    },
+    "ai_11ZztQA_d1F4x9wB69Olsoc-d823jwFqm_19": {
+      "lecture_id": "pharmacology__antihypertensive-drugs-2",
+      "subject": "Pharmacology",
+      "title": "Antihypertensive drugs -2",
+      "confidence": 1,
+      "method": "manual-objective-split"
+    },
+    "ai_11ZztQA_d1F4x9wB69Olsoc-d823jwFqm_20": {
+      "lecture_id": "pharmacology__antihypertensive-drugs-2",
+      "subject": "Pharmacology",
+      "title": "Antihypertensive drugs -2",
+      "confidence": 1,
+      "method": "manual-objective-split"
+    },
+    "ai_11ZztQA_d1F4x9wB69Olsoc-d823jwFqm_21": {
+      "lecture_id": "pharmacology__antihypertensive-drugs-2",
+      "subject": "Pharmacology",
+      "title": "Antihypertensive drugs -2",
+      "confidence": 1,
+      "method": "manual-objective-split"
+    },
+    "ai_11ZztQA_d1F4x9wB69Olsoc-d823jwFqm_22": {
+      "lecture_id": "pharmacology__antihypertensive-drugs-2",
+      "subject": "Pharmacology",
+      "title": "Antihypertensive drugs -2",
+      "confidence": 1,
+      "method": "manual-objective-split"
+    },
+    "ai_11ZztQA_d1F4x9wB69Olsoc-d823jwFqm_23": {
+      "lecture_id": "pharmacology__antihypertensive-drugs-2",
+      "subject": "Pharmacology",
+      "title": "Antihypertensive drugs -2",
+      "confidence": 1,
+      "method": "manual-objective-split"
     }
-  }
+  },
+  "audit_note": "IBLS/CVS/Formative are provenance only. Past and AI questions are organized by official Study Guide subject and lecture. New combined antihypertensive content is split across official lecture 1/2 by objectives."
 }

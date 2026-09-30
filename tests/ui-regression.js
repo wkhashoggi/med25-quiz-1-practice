@@ -77,6 +77,16 @@ async function testHome(page, mobile) {
     const b = page.locator('[data-xp-board="' + mode + '"]');
     if (await visible(b)) await b.click();
   }
+  const refresh = page.locator('#gameLeaderboardRefresh');
+  if (await visible(refresh)) await refresh.click();
+
+  const continueVisual = await page.locator('.homeContinue').evaluate(el => {
+    const s=getComputedStyle(el);
+    return {backgroundImage:s.backgroundImage,color:s.color};
+  });
+  if (!continueVisual.backgroundImage || continueVisual.backgroundImage==='none') {
+    throw new Error('Continue card lost its branded background');
+  }
 
   const subject = page.locator('#lectureDashSubject');
   if (await visible(subject) && await subject.locator('option').count() > 1) {
@@ -127,6 +137,17 @@ async function testPast(page, mobile) {
 
   const search = page.locator('#search');
   if (await visible(search)) { await search.fill('anemia'); await search.fill(''); }
+  const pastNext=page.locator('[data-page="next"]:not([disabled])').first();
+  if (await visible(pastNext)) {
+    await pastNext.click();
+    const pastPrev=page.locator('[data-page="prev"]:not([disabled])').first();
+    if (await visible(pastPrev)) await pastPrev.click();
+  }
+  const pastSubject=page.locator('#pastGuideSubject');
+  if (await visible(pastSubject) && await pastSubject.locator('option').count()>1) {
+    await pastSubject.selectOption({index:1});
+    await pastSubject.selectOption('');
+  }
 
   const mobileFilter = page.locator('[data-mobile-filter-toggle="past"]');
   if (await visible(mobileFilter)) { await mobileFilter.click(); await mobileFilter.click(); }
@@ -176,6 +197,17 @@ async function testAI(page, mobile) {
 
   const search = page.locator('#aiSearch');
   if (await visible(search)) { await search.fill('heart'); await search.fill(''); }
+  const aiNext=page.locator('[data-ai-page="next"]:not([disabled])').first();
+  if (await visible(aiNext)) {
+    await aiNext.click();
+    const aiPrev=page.locator('[data-ai-page="prev"]:not([disabled])').first();
+    if (await visible(aiPrev)) await aiPrev.click();
+  }
+  const aiSubject=page.locator('#aiGuideSubject');
+  if (await visible(aiSubject) && await aiSubject.locator('option').count()>1) {
+    await aiSubject.selectOption({index:1});
+    await aiSubject.selectOption('');
+  }
   const mobileFilter = page.locator('[data-mobile-filter-toggle="ai"]');
   if (await visible(mobileFilter)) { await mobileFilter.click(); await mobileFilter.click(); }
 
@@ -223,6 +255,8 @@ async function testFlashcards(page, mobile) {
   const search=page.locator('#flashSearch');
   if (await visible(search)) { await search.fill('cardiac'); await search.fill(''); }
 
+  const suspend=page.locator('#flashDeckList .ankiSuspendBtn').first();
+  if (await visible(suspend)) { await suspend.click(); await suspend.click(); }
   const deck=page.locator('#flashDeckList .ankiDeckRow').first();
   if (await visible(deck)) await deck.evaluate(el=>el.click());
   if (!await visible(page.locator('#flashStudy'))) {
@@ -259,8 +293,22 @@ async function testMock(page, mobile) {
 
   const count=page.locator('[data-mock-subject-count]').first();
   await count.evaluate(el=>{el.value='2';el.dispatchEvent(new Event('change',{bubbles:true}));});
+  const clear=page.locator('#mockClearCounts');
+  if (await visible(clear)) {
+    await clear.click();
+    const zeroStart=page.locator('#mockStartBtn');
+    if (!await zeroStart.isDisabled()) throw new Error('Mock Start should disable after Clear all');
+  }
+  const subjectCount=page.locator('[data-mock-subject-count]').first();
+  await subjectCount.evaluate(el=>{el.value='1';el.dispatchEvent(new Event('change',{bubbles:true}));});
+  const firstDetails=page.locator('.mockSubjectCard details').first();
+  const summary=firstDetails.locator('summary');
+  if (await visible(summary)) await summary.click();
+  const lectureCount=page.locator('[data-mock-lecture-count]').first();
+  await lectureCount.waitFor({state:'visible',timeout:5000});
+  await lectureCount.evaluate(el=>{el.value='1';el.dispatchEvent(new Event('change',{bubbles:true}));});
   const start=page.locator('#mockStartBtn');
-  if (await start.isDisabled()) throw new Error('Mock Start remained disabled after selecting questions');
+  if (await start.isDisabled()) throw new Error('Mock Start remained disabled after subject + lecture selection');
   await start.click();
   await assertVisible(page, '.mockExamShell', 'Mock exam shell');
 
@@ -323,6 +371,13 @@ async function runOne(browser, device, iteration) {
     if (mobile) {
       await assertVisible(page,'#v2MobileNav','mobile bottom nav');
       if (await page.locator('#studyTabs').isVisible()) throw new Error('Desktop sidebar visible on ' + device.name);
+      if (await page.locator('.mobileThemeToggle').isVisible().catch(()=>false)) throw new Error('Legacy floating theme toggle is still visible on ' + device.name);
+      await assertVisible(page,'#v2MobileAppearance','mobile appearance control');
+      const before=await page.locator('html').getAttribute('data-theme');
+      await click(page.locator('#v2MobileAppearance'),'mobile appearance toggle');
+      const after=await page.locator('html').getAttribute('data-theme');
+      if (before===after) throw new Error('Mobile appearance toggle did not change theme');
+      await page.locator('#v2MobileAppearance').click();
     } else {
       await assertVisible(page,'#studyTabs','desktop sidebar');
       if (await page.locator('#v2MobileNav').isVisible()) throw new Error('Mobile nav visible on desktop');

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-30T10:15:00.000Z",
+  "generated_at": "2026-09-30T13:38:45.949Z",
   "source_root": {
     "id": "1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
     "url": "https://drive.google.com/drive/folders/1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
@@ -883,7 +883,7 @@
       "source_file_id": "16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x",
       "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk",
       "source_modified_time": "2026-09-13T14:50:50.000Z",
-      "archived": false,
+      "archived": true,
       "cards": [
         {
           "id": "16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x-c01",
@@ -1029,8 +1029,9 @@
       ],
       "needs_source_validation": false,
       "source_validation_date": "2026-09-27",
-      "eligibility_status": "allowed",
-      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
+      "eligibility_status": "excluded",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
+      "exclusion_reason": "Excluded: no matching Interactive Lecture, Flipped Class, or Online Lecture topic in the official Study Guide; current official cardiac physiology topics are handled in their mapped lecture sets."
     },
     {
       "id": "drive_1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX",
@@ -1816,7 +1817,7 @@
       "source_file_id": "1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS",
       "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk",
       "source_modified_time": "2026-09-03T16:22:54.000Z",
-      "archived": false,
+      "archived": true,
       "cards": [
         {
           "id": "1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS-c01",
@@ -1940,8 +1941,9 @@
         }
       ],
       "needs_source_validation": true,
-      "eligibility_status": "allowed",
-      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
+      "eligibility_status": "excluded",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
+      "exclusion_reason": "Excluded: no matching Interactive Lecture, Flipped Class, or Online Lecture topic in the official Study Guide."
     },
     {
       "id": "drive_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK",
@@ -1950,7 +1952,7 @@
       "source_file_id": "1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK",
       "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
       "source_modified_time": "2026-09-03T16:22:50.000Z",
-      "archived": false,
+      "archived": true,
       "cards": [
         {
           "id": "1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK-c01",
@@ -2154,8 +2156,9 @@
         }
       ],
       "needs_source_validation": false,
-      "eligibility_status": "allowed",
-      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
+      "eligibility_status": "excluded",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
+      "exclusion_reason": "Excluded: official Study Guide classifies Physiology of WBCs as CBD."
     },
     {
       "id": "drive_1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn",

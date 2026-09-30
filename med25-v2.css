@@ -550,6 +550,7 @@ button:disabled,input:disabled,select:disabled{cursor:not-allowed!important}
 }
 #profileAppearanceSlot{margin-top:12px}
 #profileAppearanceSlot .v2MobileAppearance{
+  position:static!important;right:auto!important;top:auto!important;
   width:100%;display:flex!important;align-items:center!important;justify-content:flex-start!important;gap:9px!important;
   min-height:42px!important;border:1px solid var(--v2-line)!important;border-radius:10px!important;
   background:var(--v2-surface-2)!important;color:var(--v2-text)!important;padding:9px 11px!important;font-size:12px!important

@@ -696,7 +696,7 @@ function gameMockRenderSetup(){
   host.innerHTML=
     '<div class="mockBuilder">'+
       '<section class="mockSetupTop">'+
-        '<div><div class="homeCardLabel">CUSTOM MOCK EXAM</div><h2>Build your exam.</h2><p>Choose the time, question source, official subjects, official lectures and exact question counts. IBLS/CVS/Formative are treated only as provenance, never as subjects. Answers stay hidden until you submit.</p></div>'+
+        '<div><div class="homeCardLabel">CUSTOM MOCK EXAM</div><h2>Build your exam exactly how you want.</h2><p>Set your own time, choose the question source, then choose exact question counts by subject and/or by a specific lecture or topic. IBLS/CVS/Formative are treated only as provenance, never as subjects. Answers stay hidden until you submit.</p><p class="mockNoPoints">Mock Exam is practice only: it does not award or deduct XP and does not affect the leaderboard.</p></div>'+
       '</section>'+
       '<section class="mockControls">'+
         '<label class="mockField"><span>Exam time</span><div class="mockTimeInput"><input id="mockMinutes" type="number" min="1" max="240" step="1" value="'+Number(gameMockState.config.minutes||30)+'"><b>minutes</b></div></label>'+
@@ -707,15 +707,15 @@ function gameMockRenderSetup(){
         '<div class="mockSummary"><b id="mockRequested">'+validation.total+'</b><span>questions selected</span><small>'+esc(sourceText)+'</small></div>'+
       '</section>'+
       '<section class="mockMap">'+
-        '<div class="mockMapHead"><div><div class="homeCardLabel">EXAM MAP</div><h3>Subjects & lectures</h3><p>Add a subject-wide pool, specific lecture questions, or both.</p></div><button id="mockClearCounts" type="button">Clear all</button></div>'+
+        '<div class="mockMapHead"><div><div class="homeCardLabel">EXAM MAP</div><h3>Subjects, lectures & topics</h3><p>Choose a mixed subject pool, exact questions from specific lectures/topics, or combine both.</p></div><button id="mockClearCounts" type="button">Clear all</button></div>'+
         '<div class="mockSubjectList">'+cat.map(sub=>{
           const subjectCount=Number(gameMockState.config.subjectCounts[sub.subject]||0);
           const lectureSelected=sub.lectures.reduce((sum,l)=>sum+Number(gameMockState.config.lectureCounts[l.id]||0),0);
           return '<article class="mockSubjectCard">'+
             '<div class="mockSubjectMain"><div><b>'+esc(sub.subject)+'</b><span>'+sub.total+' available · '+sub.past+' past'+(gameMockState.config.includeAI?' · '+sub.ai+' AI':'')+'</span></div>'+
-              '<label><span>Subject pool</span><input type="number" min="0" max="'+sub.total+'" value="'+subjectCount+'" data-mock-subject-count="'+esc(sub.subject)+'"></label>'+
+              '<label><span>Mixed questions from subject</span><input type="number" min="0" max="'+sub.total+'" value="'+subjectCount+'" data-mock-subject-count="'+esc(sub.subject)+'"></label>'+
             '</div>'+
-            '<details '+(lectureSelected?'open':'')+'><summary>Choose individual lectures <span>'+lectureSelected+' selected</span></summary>'+
+            '<details '+(lectureSelected?'open':'')+'><summary>Choose specific lectures / topics <span>'+lectureSelected+' selected</span></summary>'+
               '<div class="mockLectureList">'+sub.lectures.map(l=>
                 '<label class="mockLectureRow"><span><b>'+esc(l.title)+'</b><small>'+l.total+' available · '+l.past+' past'+(gameMockState.config.includeAI?' · '+l.ai+' AI':'')+'</small></span>'+
                 '<input type="number" min="0" max="'+l.total+'" value="'+Number(gameMockState.config.lectureCounts[l.id]||0)+'" data-mock-lecture-count="'+esc(l.id)+'"></label>'

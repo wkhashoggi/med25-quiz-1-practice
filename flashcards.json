@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-30T13:38:45.949Z",
+  "generated_at": "2026-09-30T13:41:48.783Z",
   "source_root": {
     "id": "1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
     "url": "https://drive.google.com/drive/folders/1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
@@ -8257,6 +8257,207 @@
           "source_url": "https://drive.google.com/file/d/1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc/view"
         }
       ]
+    },
+    {
+      "id": "drive_1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf",
+      "subject": "Physiology",
+      "title": "Physiology of Vascular Endothelium",
+      "source_file_id": "1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf",
+      "source_url": "https://drive.google.com/file/d/1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf/view?usp=drivesdk",
+      "source_modified_time": "2026-09-29T15:55:13.759Z",
+      "archived": false,
+      "cards": [
+        {
+          "id": "1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf-c01",
+          "front": "Name three major ways healthy endothelium keeps blood flowing freely.",
+          "back": "Antiplatelet + anticoagulant + fibrinolytic actions.",
+          "tags": [
+            "Physiology",
+            "Physiology of Vascular Endothelium"
+          ],
+          "source_url": "https://drive.google.com/file/d/1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf/view?usp=drivesdk"
+        },
+        {
+          "id": "1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf-c02",
+          "front": "What does endothelial thrombomodulin do?",
+          "back": "Binds thrombin and promotes activation of protein C, supporting anticoagulation.",
+          "tags": [
+            "Physiology",
+            "Physiology of Vascular Endothelium"
+          ],
+          "source_url": "https://drive.google.com/file/d/1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf/view?usp=drivesdk"
+        },
+        {
+          "id": "1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf-c03",
+          "front": "What is the role of protein S in endothelial anticoagulant activity?",
+          "back": "It acts as a cofactor for activated protein C.",
+          "tags": [
+            "Physiology",
+            "Physiology of Vascular Endothelium"
+          ],
+          "source_url": "https://drive.google.com/file/d/1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf/view?usp=drivesdk"
+        },
+        {
+          "id": "1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf-c04",
+          "front": "What is the effect of plasminogen activator inhibitor-1 (PAI-1)?",
+          "back": "It inhibits fibrinolysis and therefore favors a prothrombotic state.",
+          "tags": [
+            "Physiology",
+            "Physiology of Vascular Endothelium"
+          ],
+          "source_url": "https://drive.google.com/file/d/1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf/view?usp=drivesdk"
+        },
+        {
+          "id": "1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf-c05",
+          "front": "What does von Willebrand factor released by unhealthy/injured endothelium promote?",
+          "back": "Platelet adhesion.",
+          "tags": [
+            "Physiology",
+            "Physiology of Vascular Endothelium"
+          ],
+          "source_url": "https://drive.google.com/file/d/1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf/view?usp=drivesdk"
+        },
+        {
+          "id": "1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf-c06",
+          "front": "What happens when subendothelial collagen is exposed after endothelial injury?",
+          "back": "Platelet adhesion and aggregation increase.",
+          "tags": [
+            "Physiology",
+            "Physiology of Vascular Endothelium"
+          ],
+          "source_url": "https://drive.google.com/file/d/1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf/view?usp=drivesdk"
+        },
+        {
+          "id": "1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf-c07",
+          "front": "Which two major endothelial mediators cause vasodilatation?",
+          "back": "Nitric oxide (NO) and prostacyclin (PGI2).",
+          "tags": [
+            "Physiology",
+            "Physiology of Vascular Endothelium"
+          ],
+          "source_url": "https://drive.google.com/file/d/1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf/view?usp=drivesdk"
+        },
+        {
+          "id": "1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf-c08",
+          "front": "Which major endothelial mediator causes vasoconstriction?",
+          "back": "Endothelin-1 (ET-1).",
+          "tags": [
+            "Physiology",
+            "Physiology of Vascular Endothelium"
+          ],
+          "source_url": "https://drive.google.com/file/d/1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf/view?usp=drivesdk"
+        },
+        {
+          "id": "1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf-c09",
+          "front": "What is the main angiogenic factor highlighted in the lecture?",
+          "back": "VEGF - vascular endothelial growth factor.",
+          "tags": [
+            "Physiology",
+            "Physiology of Vascular Endothelium"
+          ],
+          "source_url": "https://drive.google.com/file/d/1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf/view?usp=drivesdk"
+        },
+        {
+          "id": "1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf-c10",
+          "front": "Which two factors inhibit angiogenesis in the lecture?",
+          "back": "Thrombospondin-1 and endostatin.",
+          "tags": [
+            "Physiology",
+            "Physiology of Vascular Endothelium"
+          ],
+          "source_url": "https://drive.google.com/file/d/1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf/view?usp=drivesdk"
+        },
+        {
+          "id": "1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf-c11",
+          "front": "What metabolic reaction does endothelial ACE perform?",
+          "back": "Converts angiotensin I to angiotensin II, especially in pulmonary endothelium.",
+          "tags": [
+            "Physiology",
+            "Physiology of Vascular Endothelium"
+          ],
+          "source_url": "https://drive.google.com/file/d/1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf/view?usp=drivesdk"
+        },
+        {
+          "id": "1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf-c12",
+          "front": "Which circulating mediators can endothelial cells degrade/inactivate?",
+          "back": "Bradykinin, serotonin, norepinephrine and prostaglandins.",
+          "tags": [
+            "Physiology",
+            "Physiology of Vascular Endothelium"
+          ],
+          "source_url": "https://drive.google.com/file/d/1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf/view?usp=drivesdk"
+        },
+        {
+          "id": "1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf-c13",
+          "front": "How does healthy endothelium affect local blood flow?",
+          "back": "It releases vasodilators such as NO and PGI2, increasing blood flow.",
+          "tags": [
+            "Physiology",
+            "Physiology of Vascular Endothelium"
+          ],
+          "source_url": "https://drive.google.com/file/d/1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf/view?usp=drivesdk"
+        },
+        {
+          "id": "1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf-c14",
+          "front": "How does unhealthy endothelium affect local blood flow?",
+          "back": "It releases vasoconstrictors such as endothelin-1, decreasing blood flow.",
+          "tags": [
+            "Physiology",
+            "Physiology of Vascular Endothelium"
+          ],
+          "source_url": "https://drive.google.com/file/d/1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf/view?usp=drivesdk"
+        },
+        {
+          "id": "1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf-c15",
+          "front": "Which endothelial adhesion molecules regulate leukocyte recruitment?",
+          "back": "ICAM-1, VCAM-1 and selectins.",
+          "tags": [
+            "Physiology",
+            "Physiology of Vascular Endothelium"
+          ],
+          "source_url": "https://drive.google.com/file/d/1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf/view?usp=drivesdk"
+        },
+        {
+          "id": "1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf-c16",
+          "front": "How does endothelium maintain vascular permeability?",
+          "back": "Through tight junctions and adherens junctions that regulate movement between endothelial cells.",
+          "tags": [
+            "Physiology",
+            "Physiology of Vascular Endothelium"
+          ],
+          "source_url": "https://drive.google.com/file/d/1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf/view?usp=drivesdk"
+        },
+        {
+          "id": "1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf-c17",
+          "front": "Name major causes of endothelial dysfunction from the lecture.",
+          "back": "Diabetes/high glucose, high cholesterol/atherosclerosis, hypertension, oxidative stress, metabolic syndrome, septic shock and some autoimmune diseases.",
+          "tags": [
+            "Physiology",
+            "Physiology of Vascular Endothelium"
+          ],
+          "source_url": "https://drive.google.com/file/d/1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf/view?usp=drivesdk"
+        },
+        {
+          "id": "1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf-c18",
+          "front": "What are the major consequences of endothelial dysfunction?",
+          "back": "Impaired vasomotor tone, thrombosis, inflammation and arterial-wall proliferation -> atherosclerosis and ischemic cardiovascular events.",
+          "tags": [
+            "Physiology",
+            "Physiology of Vascular Endothelium"
+          ],
+          "source_url": "https://drive.google.com/file/d/1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf/view?usp=drivesdk"
+        }
+      ],
+      "needs_source_validation": false,
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
+      "source_alias_file_ids": [
+        "15_xtBi8sn7hwfZYM1jlBer6dWU-D9lQI"
+      ],
+      "source_population": "Male",
+      "source_validation": "lecture_validated",
+      "teaching_method": "Flipped class",
+      "study_guide_objectives": "1. Explore the primary functions of vascular endothelial cells. 2. Discuss the endothelium's role in maintaining homeostasis, including the balance of coagulation and fibrinolysis. 3. Understand the role of endothelial cells in angiogenesis. 4. Discuss the role of nitric oxide (NO) in maintenance of vascular health. 5. Analyze pathophysiological changes associated with endothelial dysfunction. 6. Discuss factors that cause endothelial dysfunction. 7. Explore potential therapeutic strategies targeting endothelial dysfunction."
     }
   ],
   "bootstrap_note": "Seeded from current official lecture files; hourly Drive sync will add/update additional decks.",

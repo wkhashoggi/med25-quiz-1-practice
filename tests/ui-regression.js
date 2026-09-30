@@ -88,26 +88,6 @@ async function testHome(page, mobile) {
     throw new Error('Continue card lost its branded background');
   }
 
-  const subject = page.locator('#lectureDashSubject');
-  if (await visible(subject) && await subject.locator('option').count() > 1) {
-    await subject.selectOption({ index: 1 });
-    await subject.selectOption('');
-  }
-  const status = page.locator('#lectureDashStatus');
-  if (await visible(status)) {
-    await status.selectOption('not-started');
-    await status.selectOption('');
-  }
-  const search = page.locator('#lectureDashSearch');
-  if (await visible(search)) {
-    await search.fill('cardiac');
-    await search.fill('');
-  }
-  const manual = page.locator('[data-lecture-study]').first();
-  if (await visible(manual)) {
-    await manual.click();
-    await manual.click();
-  }
 
   const metric = page.locator('#homeMetrics .homeMetricButton');
   if (await metric.count() >= 2) {
@@ -329,12 +309,57 @@ async function testMock(page, mobile) {
   await noPageOverflow(page, 'mock');
 }
 
-async function testMobileProfile(page) {
-  await click(page.locator('[data-v2-mobile="profile"]'), 'mobile Profile');
-  await assertVisible(page, '#homeSection:not(.hidden)', 'Profile returns Home');
-  await assertVisible(page, '#homeAuthSlot', 'Account card');
+async function testProgress(page, mobile) {
+  await goHome(page,mobile);
+  if (mobile) await click(page.locator('#v2OpenTracker'), 'Open Lecture Tracker');
+  else await click(page.locator('#tabProgress'), 'desktop Lecture Tracker');
+  await assertVisible(page, '#progressSection:not(.hidden)', 'Lecture Tracker page');
+  if (await page.locator('#homeSection').isVisible()) throw new Error('Home remained visible behind Lecture Tracker');
+  await assertVisible(page, '.lectureDashboardCard', 'Lecture dashboard card');
+
+  const subject = page.locator('#lectureDashSubject');
+  if (await visible(subject) && await subject.locator('option').count() > 1) {
+    await subject.selectOption({ index: 1 });
+    await subject.selectOption('');
+  }
+  const status = page.locator('#lectureDashStatus');
+  if (await visible(status)) {
+    await status.selectOption('not-started');
+    await status.selectOption('');
+  }
+  const search = page.locator('#lectureDashSearch');
+  if (await visible(search)) {
+    await search.fill('cardiac');
+    await search.fill('');
+  }
+  const manual = page.locator('[data-lecture-study]').first();
+  if (await visible(manual)) {
+    await manual.click();
+    await manual.click();
+  }
+  await noPageOverflow(page, 'lecture tracker');
+}
+
+async function testProfile(page, mobile) {
+  if (mobile) await click(page.locator('[data-v2-mobile="profile"]'), 'mobile Profile');
+  else await click(page.locator('#tabProfile'), 'desktop Profile');
+  await assertVisible(page, '#profileSection:not(.hidden)', 'Profile page');
+  if (await page.locator('#homeSection').isVisible()) throw new Error('Home remained visible behind Profile');
+  await assertVisible(page, '#profileGameSlot', 'Profile XP card');
+  await assertVisible(page, '#profileAuthSlot', 'Profile account card');
+
   const t=page.locator('#mobileAuthToggle');
   if (await visible(t)) { await t.click(); await t.click(); }
+
+  if (mobile) {
+    await assertVisible(page,'#v2MobileAppearance','profile appearance control');
+    const before=await page.locator('html').getAttribute('data-theme');
+    await click(page.locator('#v2MobileAppearance'),'profile appearance toggle');
+    const after=await page.locator('html').getAttribute('data-theme');
+    if (before===after) throw new Error('Profile appearance toggle did not change theme');
+    await page.locator('#v2MobileAppearance').click();
+  }
+  await noPageOverflow(page, 'profile');
 }
 
 async function runOne(browser, device, iteration) {
@@ -372,12 +397,6 @@ async function runOne(browser, device, iteration) {
       await assertVisible(page,'#v2MobileNav','mobile bottom nav');
       if (await page.locator('#studyTabs').isVisible()) throw new Error('Desktop sidebar visible on ' + device.name);
       if (await page.locator('.mobileThemeToggle').isVisible().catch(()=>false)) throw new Error('Legacy floating theme toggle is still visible on ' + device.name);
-      await assertVisible(page,'#v2MobileAppearance','mobile appearance control');
-      const before=await page.locator('html').getAttribute('data-theme');
-      await click(page.locator('#v2MobileAppearance'),'mobile appearance toggle');
-      const after=await page.locator('html').getAttribute('data-theme');
-      if (before===after) throw new Error('Mobile appearance toggle did not change theme');
-      await page.locator('#v2MobileAppearance').click();
     } else {
       await assertVisible(page,'#studyTabs','desktop sidebar');
       if (await page.locator('#v2MobileNav').isVisible()) throw new Error('Mobile nav visible on desktop');
@@ -389,12 +408,13 @@ async function runOne(browser, device, iteration) {
     }
 
     await testHome(page,mobile);
+    await testProgress(page,mobile);
+    await testProfile(page,mobile);
     await testPast(page,mobile);
     await testAI(page,mobile);
     await testMistakeQuiz(page,mobile);
     await testFlashcards(page,mobile);
     await testMock(page,mobile);
-    if (mobile) await testMobileProfile(page);
     await testFooter(page);
 
     // Reset is intentionally tested last because it clears local progress.

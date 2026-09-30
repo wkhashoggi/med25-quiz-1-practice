@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-29T15:51:46.442Z",
+  "generated_at": "2026-09-30T10:15:00.000Z",
   "source_root": {
     "id": "1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
     "url": "https://drive.google.com/drive/folders/1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
@@ -70,148 +70,253 @@
       "title": "Physiology of RBCs",
       "source_url": "https://docs.google.com/presentation/d/1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
       "source_modified_time": "2026-09-03T14:28:00.000Z",
-      "source_validation": "lecture_validated_seed",
+      "source_validation": "lecture_verified_quality_rebuilt",
       "archived": false,
       "questions": [
         {
           "id": "ai_1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV_01",
-          "stem": "Which of the following best explains why are RBCs biconcave?",
+          "stem": "Which RBC feature most directly increases surface area for gas exchange?",
           "options": {
-            "A": "It rapidly supports CO₂ conversion to bicarbonate for CO₂ transport.",
-            "B": "About 70% as bicarbonate; ~20% binds hemoglobin as carbamino-Hb.",
-            "C": "So RBCs can deform and pass through narrow capillaries without rupturing.",
-            "D": "To increase membrane surface area for efficient gas exchange."
+            "A": "Biconcave shape",
+            "B": "Absence of a nucleus",
+            "C": "120-day lifespan",
+            "D": "Flexible membrane"
           },
-          "answer": "D",
-          "explanation": "To increase membrane surface area for efficient gas exchange.",
+          "answer": "A",
+          "explanation": "Biconcave shape",
           "concept": "Morphology",
-          "difficulty": "application",
-          "source_url": "https://docs.google.com/presentation/d/1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
-          "source_card_id": "1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV-c01",
-          "style_profile": "KAU-past-paper-inspired"
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://docs.google.com/presentation/d/1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
         },
         {
           "id": "ai_1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV_02",
-          "stem": "Which of the following best explains why must the RBC membrane be flexible?",
+          "stem": "Which RBC property is most important for passage through narrow capillaries?",
           "options": {
-            "A": "It rapidly supports CO₂ conversion to bicarbonate for CO₂ transport.",
-            "B": "About 70% as bicarbonate; ~20% binds hemoglobin as carbamino-Hb.",
-            "C": "So RBCs can deform and pass through narrow capillaries without rupturing.",
-            "D": "It generates NADPH via the HMP shunt, helping maintain normal RBC fragility."
+            "A": "Biconcave shape",
+            "B": "Flexible membrane",
+            "C": "Carbonic anhydrase activity",
+            "D": "High hemoglobin concentration"
           },
-          "answer": "C",
-          "explanation": "So RBCs can deform and pass through narrow capillaries without rupturing.",
+          "answer": "B",
+          "explanation": "Flexible membrane",
           "concept": "Membrane",
           "difficulty": "core",
-          "source_url": "https://docs.google.com/presentation/d/1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
-          "source_card_id": "1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV-c02",
-          "style_profile": "KAU-past-paper-inspired"
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://docs.google.com/presentation/d/1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
         },
         {
           "id": "ai_1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV_03",
-          "stem": "Which of the following best describes the normal RBC lifespan?",
+          "stem": "What is the approximate normal RBC lifespan?",
           "options": {
-            "A": "To increase membrane surface area for efficient gas exchange.",
-            "B": "About 120 days (±7 days).",
-            "C": "About 70% as bicarbonate; ~20% binds hemoglobin as carbamino-Hb.",
-            "D": "Tissue hypoxia."
+            "A": "30 days",
+            "B": "60 days",
+            "C": "120 ± 7 days",
+            "D": "180 days"
           },
-          "answer": "B",
-          "explanation": "About 120 days (±7 days).",
-          "concept": "Basics",
-          "difficulty": "understanding",
-          "source_url": "https://docs.google.com/presentation/d/1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
-          "source_card_id": "1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV-c03",
-          "style_profile": "KAU-past-paper-inspired"
+          "answer": "C",
+          "explanation": "120 ± 7 days",
+          "concept": "Life cycle",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://docs.google.com/presentation/d/1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
         },
         {
           "id": "ai_1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV_04",
-          "stem": "Which of the following best describes how most CO₂ transported in blood?",
+          "stem": "Most carbon dioxide in blood is transported as:",
           "options": {
-            "A": "About 70% as bicarbonate; ~20% binds hemoglobin as carbamino-Hb.",
-            "B": "It rapidly supports CO₂ conversion to bicarbonate for CO₂ transport.",
-            "C": "To increase membrane surface area for efficient gas exchange.",
-            "D": "So RBCs can deform and pass through narrow capillaries without rupturing."
+            "A": "Carbaminohemoglobin",
+            "B": "Dissolved CO₂",
+            "C": "Bicarbonate",
+            "D": "Carbon monoxide"
           },
-          "answer": "A",
-          "explanation": "About 70% as bicarbonate; ~20% binds hemoglobin as carbamino-Hb.",
+          "answer": "C",
+          "explanation": "Bicarbonate",
           "concept": "CO2 transport",
-          "difficulty": "application",
-          "source_url": "https://docs.google.com/presentation/d/1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
-          "source_card_id": "1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV-c04",
-          "style_profile": "KAU-past-paper-inspired"
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://docs.google.com/presentation/d/1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
         },
         {
           "id": "ai_1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV_05",
-          "stem": "Which of the following best explains why is carbonic anhydrase important in RBCs?",
+          "stem": "Which RBC enzyme is essential for rapid conversion involved in CO₂ transport?",
           "options": {
-            "A": "About 70% as bicarbonate; ~20% binds hemoglobin as carbamino-Hb.",
-            "B": "To increase membrane surface area for efficient gas exchange.",
-            "C": "So RBCs can deform and pass through narrow capillaries without rupturing.",
-            "D": "It rapidly supports CO₂ conversion to bicarbonate for CO₂ transport."
+            "A": "Carbonic anhydrase",
+            "B": "G6PD",
+            "C": "Erythropoietin",
+            "D": "Hemoglobin"
           },
-          "answer": "D",
-          "explanation": "It rapidly supports CO₂ conversion to bicarbonate for CO₂ transport.",
+          "answer": "A",
+          "explanation": "Carbonic anhydrase",
           "concept": "CO2 transport",
           "difficulty": "core",
-          "source_url": "https://docs.google.com/presentation/d/1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
-          "source_card_id": "1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV-c05",
-          "style_profile": "KAU-past-paper-inspired"
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://docs.google.com/presentation/d/1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
         },
         {
           "id": "ai_1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV_06",
-          "stem": "Which of the following best explains why is G6PD important in RBCs?",
+          "stem": "The HMP shunt in RBCs is important mainly because it generates:",
           "options": {
-            "A": "It rapidly supports CO₂ conversion to bicarbonate for CO₂ transport.",
-            "B": "About 70% as bicarbonate; ~20% binds hemoglobin as carbamino-Hb.",
-            "C": "It generates NADPH via the HMP shunt, helping maintain normal RBC fragility.",
-            "D": "So RBCs can deform and pass through narrow capillaries without rupturing."
+            "A": "ATP",
+            "B": "NADPH",
+            "C": "Erythropoietin",
+            "D": "Bilirubin"
           },
-          "answer": "C",
-          "explanation": "It generates NADPH via the HMP shunt, helping maintain normal RBC fragility.",
+          "answer": "B",
+          "explanation": "NADPH",
           "concept": "G6PD",
-          "difficulty": "understanding",
-          "source_url": "https://docs.google.com/presentation/d/1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
-          "source_card_id": "1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV-c06",
-          "style_profile": "KAU-past-paper-inspired"
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://docs.google.com/presentation/d/1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
         },
         {
           "id": "ai_1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV_07",
-          "stem": "Which of the following best describes the main physiological trigger for erythropoiesis?",
+          "stem": "What is the main physiological stimulus for erythropoiesis?",
           "options": {
-            "A": "To increase membrane surface area for efficient gas exchange.",
-            "B": "Tissue hypoxia.",
-            "C": "Hypoxia → ↑EPO → stimulation of erythropoiesis in bone marrow.",
-            "D": "About 120 days (±7 days)."
+            "A": "High plasma iron",
+            "B": "Tissue hypoxia",
+            "C": "High blood volume",
+            "D": "Hyperglycemia"
           },
           "answer": "B",
-          "explanation": "Tissue hypoxia.",
+          "explanation": "Tissue hypoxia",
           "concept": "Erythropoiesis",
-          "difficulty": "application",
-          "source_url": "https://docs.google.com/presentation/d/1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
-          "source_card_id": "1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV-c07",
-          "style_profile": "KAU-past-paper-inspired"
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://docs.google.com/presentation/d/1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
         },
         {
           "id": "ai_1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV_08",
-          "stem": "Which of the following best describes how hypoxia increase RBC production?",
+          "stem": "At high altitude, increased RBC production is best explained by which sequence?",
           "options": {
-            "A": "Hypoxia → ↑EPO → stimulation of erythropoiesis in bone marrow.",
-            "B": "Tissue hypoxia.",
-            "C": "To increase membrane surface area for efficient gas exchange.",
-            "D": "About 70% as bicarbonate; ~20% binds hemoglobin as carbamino-Hb."
+            "A": "Hypoxia → increased EPO → increased marrow erythropoiesis",
+            "B": "Hypoxia → decreased EPO → increased marrow erythropoiesis",
+            "C": "Hyperoxia → increased EPO → increased marrow erythropoiesis",
+            "D": "Hypoxia → increased bilirubin → increased marrow erythropoiesis"
           },
           "answer": "A",
-          "explanation": "Hypoxia → ↑EPO → stimulation of erythropoiesis in bone marrow.",
+          "explanation": "Hypoxia → increased EPO → increased marrow erythropoiesis",
           "concept": "Erythropoiesis",
+          "difficulty": "application",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://docs.google.com/presentation/d/1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "ai_1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV_09",
+          "stem": "Approximately what proportion of erythropoietin is produced by the kidneys?",
+          "options": {
+            "A": "10%",
+            "B": "50%",
+            "C": "70%",
+            "D": "90%"
+          },
+          "answer": "D",
+          "explanation": "90%",
+          "concept": "EPO",
           "difficulty": "core",
-          "source_url": "https://docs.google.com/presentation/d/1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
-          "source_card_id": "1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV-c08",
-          "style_profile": "KAU-past-paper-inspired"
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://docs.google.com/presentation/d/1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "ai_1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV_10",
+          "stem": "Which nutrient is directly required for heme synthesis?",
+          "options": {
+            "A": "Iron",
+            "B": "Folate",
+            "C": "Vitamin B12",
+            "D": "High-biological-value protein"
+          },
+          "answer": "A",
+          "explanation": "Iron",
+          "concept": "RBC production",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://docs.google.com/presentation/d/1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "ai_1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV_11",
+          "stem": "Vitamin B12 and folate are required mainly for:",
+          "options": {
+            "A": "Heme iron recycling",
+            "B": "RBC precursor maturation",
+            "C": "EPO secretion",
+            "D": "CO₂ hydration"
+          },
+          "answer": "B",
+          "explanation": "RBC precursor maturation",
+          "concept": "RBC production",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://docs.google.com/presentation/d/1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "ai_1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV_12",
+          "stem": "In adults, erythropoiesis occurs mainly in:",
+          "options": {
+            "A": "Yellow marrow only",
+            "B": "Red marrow of flat bones and proximal long bones",
+            "C": "Distal long bones only",
+            "D": "Spleen only"
+          },
+          "answer": "B",
+          "explanation": "Red marrow of flat bones and proximal long bones",
+          "concept": "Bone marrow",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://docs.google.com/presentation/d/1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "ai_1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV_13",
+          "stem": "What happens to iron released from heme during normal RBC destruction?",
+          "options": {
+            "A": "It is excreted in urine",
+            "B": "It is converted to bilirubin",
+            "C": "It is reutilized",
+            "D": "It is converted to globin"
+          },
+          "answer": "C",
+          "explanation": "It is reutilized",
+          "concept": "RBC turnover",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://docs.google.com/presentation/d/1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "ai_1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV_14",
+          "stem": "Which condition would be expected to increase hematocrit?",
+          "options": {
+            "A": "Overhydration",
+            "B": "Pregnancy",
+            "C": "Anemia",
+            "D": "Dehydration"
+          },
+          "answer": "D",
+          "explanation": "Dehydration",
+          "concept": "Hematocrit",
+          "difficulty": "application",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://docs.google.com/presentation/d/1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "ai_1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV_15",
+          "stem": "What happens to RBCs placed in a hypotonic solution?",
+          "options": {
+            "A": "They shrink",
+            "B": "They remain unchanged",
+            "C": "They swell and may hemolyze",
+            "D": "They immediately form rouleaux"
+          },
+          "answer": "C",
+          "explanation": "They swell and may hemolyze",
+          "concept": "Osmosis",
+          "difficulty": "application",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://docs.google.com/presentation/d/1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
         }
       ],
       "eligibility_status": "allowed",
-      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
+      "quality_rebuilt_at": "2026-09-29"
     },
     {
       "id": "ai_set_1akREae-VDZN_QNeQlrnBruB1ML_EVnFr",
@@ -670,148 +775,253 @@
       "title": "Heart as a Pump",
       "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk",
       "source_modified_time": "2026-09-13T14:50:50.000Z",
-      "source_validation": "lecture_validated_seed",
+      "source_validation": "lecture_verified_quality_rebuilt",
       "archived": false,
       "questions": [
         {
           "id": "ai_16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x_01",
-          "stem": "What mainly controls cardiac myocyte contraction strength?",
+          "stem": "Cardiac contraction is controlled mainly by influx of which extracellular ion?",
           "options": {
-            "A": "They reduce Ca²⁺ influx needed for excitation–contraction coupling.",
-            "B": "The resting initial fiber length, approximated by end-diastolic volume (EDV).",
-            "C": "Increased contractile force caused by increased EDV (Frank–Starling mechanism).",
-            "D": "Extracellular Ca²⁺ influx; more Ca²⁺ has a positive inotropic effect."
+            "A": "Na⁺",
+            "B": "K⁺",
+            "C": "Ca²⁺",
+            "D": "Cl⁻"
           },
-          "answer": "D",
-          "explanation": "Extracellular Ca²⁺ influx; more Ca²⁺ has a positive inotropic effect.",
-          "concept": "Contractility",
-          "difficulty": "application",
-          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk",
-          "source_card_id": "16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x-c01",
-          "style_profile": "KAU-past-paper-inspired"
+          "answer": "C",
+          "explanation": "Ca²⁺",
+          "concept": "Excitation-contraction",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk"
         },
         {
           "id": "ai_16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x_02",
-          "stem": "Which of the following best explains why do Ca²⁺ channel blockers reduce cardiac contractility?",
+          "stem": "Why do calcium-channel blockers reduce myocardial contractility?",
           "options": {
-            "A": "Within limits, greater initial cardiac muscle length → greater force of contraction.",
-            "B": "The resting initial fiber length, approximated by end-diastolic volume (EDV).",
-            "C": "They reduce Ca²⁺ influx needed for excitation–contraction coupling.",
-            "D": "Extracellular Ca²⁺ influx; more Ca²⁺ has a positive inotropic effect."
+            "A": "They reduce Ca²⁺ influx",
+            "B": "They increase preload",
+            "C": "They increase aortic pressure",
+            "D": "They increase venous return"
           },
-          "answer": "C",
-          "explanation": "They reduce Ca²⁺ influx needed for excitation–contraction coupling.",
+          "answer": "A",
+          "explanation": "They reduce Ca²⁺ influx",
           "concept": "Contractility",
           "difficulty": "core",
-          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk",
-          "source_card_id": "16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x-c02",
-          "style_profile": "KAU-past-paper-inspired"
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk"
         },
         {
           "id": "ai_16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x_03",
-          "stem": "Which of the following best describes preload in the intact heart?",
+          "stem": "In the intact heart, preload is most closely represented by:",
           "options": {
-            "A": "Increased contractile force secondary to increased aortic pressure without relying on increased fiber length.",
-            "B": "The resting initial fiber length, approximated by end-diastolic volume (EDV).",
-            "C": "Within limits, greater initial cardiac muscle length → greater force of contraction.",
-            "D": "Increased contractile force caused by increased EDV (Frank–Starling mechanism)."
+            "A": "End-systolic volume",
+            "B": "End-diastolic volume",
+            "C": "Mean aortic pressure",
+            "D": "Heart rate"
           },
           "answer": "B",
-          "explanation": "The resting initial fiber length, approximated by end-diastolic volume (EDV).",
-          "concept": "Heart as a Pump",
-          "difficulty": "understanding",
-          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk",
-          "source_card_id": "16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x-c03",
-          "style_profile": "KAU-past-paper-inspired"
+          "explanation": "End-diastolic volume",
+          "concept": "Preload",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk"
         },
         {
           "id": "ai_16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x_04",
-          "stem": "State the Frank–Starling law.?",
+          "stem": "According to Frank-Starling law, increasing initial myocardial fiber length within physiological limits causes:",
           "options": {
-            "A": "Within limits, greater initial cardiac muscle length → greater force of contraction.",
-            "B": "The resting initial fiber length, approximated by end-diastolic volume (EDV).",
-            "C": "Increased contractile force secondary to increased aortic pressure without relying on increased fiber length.",
-            "D": "Increased contractile force caused by increased EDV (Frank–Starling mechanism)."
+            "A": "Reduced force of contraction",
+            "B": "Increased force of contraction",
+            "C": "No change in force",
+            "D": "Loss of automaticity"
           },
-          "answer": "A",
-          "explanation": "Within limits, greater initial cardiac muscle length → greater force of contraction.",
-          "concept": "Heart as a Pump",
-          "difficulty": "application",
-          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk",
-          "source_card_id": "16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x-c04",
-          "style_profile": "KAU-past-paper-inspired"
+          "answer": "B",
+          "explanation": "Increased force of contraction",
+          "concept": "Frank-Starling",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk"
         },
         {
           "id": "ai_16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x_05",
-          "stem": "Which of the following best describes how sympathetic venoconstriction affect preload?",
+          "stem": "Sympathetic venoconstriction increases stroke volume initially by increasing:",
           "options": {
-            "A": "Increased contractile force caused by increased EDV (Frank–Starling mechanism).",
-            "B": "The resting initial fiber length, approximated by end-diastolic volume (EDV).",
-            "C": "They reduce Ca²⁺ influx needed for excitation–contraction coupling.",
-            "D": "It increases venous return → increases EDV/preload."
+            "A": "Afterload",
+            "B": "Venous return and EDV",
+            "C": "ESV",
+            "D": "Aortic pressure only"
           },
-          "answer": "D",
-          "explanation": "It increases venous return → increases EDV/preload.",
+          "answer": "B",
+          "explanation": "Venous return and EDV",
           "concept": "Venous return",
-          "difficulty": "core",
-          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk",
-          "source_card_id": "16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x-c05",
-          "style_profile": "KAU-past-paper-inspired"
+          "difficulty": "application",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk"
         },
         {
           "id": "ai_16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x_06",
-          "stem": "Major factors that increase venous return?",
+          "stem": "Contraction of limb muscles that promotes venous return is called the:",
           "options": {
-            "A": "Increased contractile force secondary to increased aortic pressure without relying on increased fiber length.",
-            "B": "The resting initial fiber length, approximated by end-diastolic volume (EDV).",
-            "C": "Muscle pump, respiratory pump, cardiac suction, sympathetic venoconstriction, blood volume, stretchability.",
-            "D": "Within limits, greater initial cardiac muscle length → greater force of contraction."
+            "A": "Respiratory pump",
+            "B": "Cardiac suction effect",
+            "C": "Skeletal muscle pump",
+            "D": "Homeometric response"
           },
           "answer": "C",
-          "explanation": "Muscle pump, respiratory pump, cardiac suction, sympathetic venoconstriction, blood volume, stretchability.",
-          "concept": "Heart as a Pump",
-          "difficulty": "understanding",
-          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk",
-          "source_card_id": "16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x-c06",
-          "style_profile": "KAU-past-paper-inspired"
+          "explanation": "Skeletal muscle pump",
+          "concept": "Venous return",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk"
         },
         {
           "id": "ai_16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x_07",
-          "stem": "Which of the following best describes heterometric autoregulation?",
+          "stem": "Increased force of contraction secondary to increased EDV is called:",
           "options": {
-            "A": "Within limits, greater initial cardiac muscle length → greater force of contraction.",
-            "B": "Increased contractile force caused by increased EDV (Frank–Starling mechanism).",
-            "C": "Increased contractile force secondary to increased aortic pressure without relying on increased fiber length.",
-            "D": "The resting initial fiber length, approximated by end-diastolic volume (EDV)."
+            "A": "Homeometric autoregulation",
+            "B": "Heterometric autoregulation",
+            "C": "Afterload adaptation",
+            "D": "Pacemaker shift"
           },
           "answer": "B",
-          "explanation": "Increased contractile force caused by increased EDV (Frank–Starling mechanism).",
-          "concept": "Heart as a Pump",
-          "difficulty": "application",
-          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk",
-          "source_card_id": "16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x-c07",
-          "style_profile": "KAU-past-paper-inspired"
+          "explanation": "Heterometric autoregulation",
+          "concept": "Autoregulation",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk"
         },
         {
           "id": "ai_16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x_08",
-          "stem": "Which of the following best describes homeometric autoregulation?",
+          "stem": "Increased force of contraction secondary to increased aortic pressure is called:",
           "options": {
-            "A": "Increased contractile force secondary to increased aortic pressure without relying on increased fiber length.",
-            "B": "Increased contractile force caused by increased EDV (Frank–Starling mechanism).",
-            "C": "Within limits, greater initial cardiac muscle length → greater force of contraction.",
-            "D": "The resting initial fiber length, approximated by end-diastolic volume (EDV)."
+            "A": "Heterometric autoregulation",
+            "B": "Homeometric autoregulation",
+            "C": "Skeletal muscle pump",
+            "D": "Respiratory pump"
+          },
+          "answer": "B",
+          "explanation": "Homeometric autoregulation",
+          "concept": "Autoregulation",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk"
+        },
+        {
+          "id": "ai_16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x_09",
+          "stem": "Afterload is represented most closely by:",
+          "options": {
+            "A": "EDV",
+            "B": "Venous pressure",
+            "C": "Mean aortic pressure",
+            "D": "ESV"
+          },
+          "answer": "C",
+          "explanation": "Mean aortic pressure",
+          "concept": "Afterload",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk"
+        },
+        {
+          "id": "ai_16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x_10",
+          "stem": "Sympathetic stimulation increases myocardial contractility mainly by:",
+          "options": {
+            "A": "Reducing Ca²⁺ influx",
+            "B": "Increasing Ca²⁺ availability",
+            "C": "Reducing venous return",
+            "D": "Increasing ESV"
+          },
+          "answer": "B",
+          "explanation": "Increasing Ca²⁺ availability",
+          "concept": "Contractility",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk"
+        },
+        {
+          "id": "ai_16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x_11",
+          "stem": "If EDV is unchanged but ESV falls, stroke volume will:",
+          "options": {
+            "A": "Decrease",
+            "B": "Increase",
+            "C": "Remain unchanged",
+            "D": "Become zero"
+          },
+          "answer": "B",
+          "explanation": "Increase",
+          "concept": "Stroke volume",
+          "difficulty": "application",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk"
+        },
+        {
+          "id": "ai_16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x_12",
+          "stem": "Frank-Starling mechanism helps equalize right and left ventricular outputs because increased filling causes:",
+          "options": {
+            "A": "Lower EDV and lower SV",
+            "B": "Higher EDV and higher SV",
+            "C": "Higher afterload and lower SV",
+            "D": "Lower contractility and higher ESV"
+          },
+          "answer": "B",
+          "explanation": "Higher EDV and higher SV",
+          "concept": "Frank-Starling",
+          "difficulty": "application",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk"
+        },
+        {
+          "id": "ai_16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x_13",
+          "stem": "During exercise, increased venous return increases stroke volume mainly by increasing:",
+          "options": {
+            "A": "EDV",
+            "B": "ESV",
+            "C": "Afterload",
+            "D": "Refractory period"
           },
           "answer": "A",
-          "explanation": "Increased contractile force secondary to increased aortic pressure without relying on increased fiber length.",
-          "concept": "Heart as a Pump",
+          "explanation": "EDV",
+          "concept": "Exercise",
+          "difficulty": "application",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk"
+        },
+        {
+          "id": "ai_16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x_14",
+          "stem": "Which pair contributes to increased venous return during exercise?",
+          "options": {
+            "A": "Sympathetic venoconstriction and skeletal muscle pump",
+            "B": "Reduced blood volume and venodilation",
+            "C": "Increased ESV and reduced muscle activity",
+            "D": "Reduced respiratory movements and venodilation"
+          },
+          "answer": "A",
+          "explanation": "Sympathetic venoconstriction and skeletal muscle pump",
+          "concept": "Venous return",
+          "difficulty": "application",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk"
+        },
+        {
+          "id": "ai_16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x_15",
+          "stem": "Cardiac contractility refers to myocardial contraction strength at a given:",
+          "options": {
+            "A": "EDV",
+            "B": "Heart rate",
+            "C": "Blood volume",
+            "D": "Aortic diameter"
+          },
+          "answer": "A",
+          "explanation": "EDV",
+          "concept": "Contractility",
           "difficulty": "core",
-          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk",
-          "source_card_id": "16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x-c08",
-          "style_profile": "KAU-past-paper-inspired"
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk"
         }
       ],
       "eligibility_status": "allowed",
-      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
+      "quality_rebuilt_at": "2026-09-29"
     },
     {
       "id": "ai_set_1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX",
@@ -1708,148 +1918,253 @@
       "title": "Hemostasis Disorders and Anticoagulants",
       "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk",
       "source_modified_time": "2026-09-03T16:22:54.000Z",
-      "source_validation": "pending_lecture_validation",
+      "source_validation": "lecture_verified_quality_rebuilt",
       "archived": false,
       "questions": [
         {
           "id": "ai_1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS_01",
-          "stem": "Which of the following best describes PT mainly assess?",
+          "stem": "Fibrinolysis primarily results in degradation of:",
           "options": {
-            "A": "Intrinsic and common coagulation pathways.",
-            "B": "Factors XII, XI, IX, and VIII.",
-            "C": "Factor VII, plus common-pathway factors X, V, II, and fibrinogen.",
-            "D": "Extrinsic and common coagulation pathways."
+            "A": "Platelet receptors",
+            "B": "Fibrin",
+            "C": "Factor VIII",
+            "D": "Antithrombin III"
           },
-          "answer": "D",
-          "explanation": "Extrinsic and common coagulation pathways.",
-          "concept": "Hemostasis Disorders and Anticoagulants",
-          "difficulty": "application",
-          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk",
-          "source_card_id": "1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS-c01",
-          "style_profile": "KAU-past-paper-inspired"
+          "answer": "B",
+          "explanation": "Fibrin",
+          "concept": "Fibrinolysis",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk"
         },
         {
           "id": "ai_1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS_02",
-          "stem": "Which factor is especially reflected by PT?",
+          "stem": "Plasminogen activators convert plasminogen into:",
           "options": {
-            "A": "Extrinsic and common coagulation pathways.",
-            "B": "Intrinsic and common coagulation pathways.",
-            "C": "Factor VII, plus common-pathway factors X, V, II, and fibrinogen.",
-            "D": "PT rises first because factor VII has the shortest half-life."
+            "A": "Fibrin",
+            "B": "Plasmin",
+            "C": "Thrombin",
+            "D": "Antithrombin III"
           },
-          "answer": "C",
-          "explanation": "Factor VII, plus common-pathway factors X, V, II, and fibrinogen.",
-          "concept": "Hemostasis Disorders and Anticoagulants",
+          "answer": "B",
+          "explanation": "Plasmin",
+          "concept": "Fibrinolysis",
           "difficulty": "core",
-          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk",
-          "source_card_id": "1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS-c02",
-          "style_profile": "KAU-past-paper-inspired"
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk"
         },
         {
           "id": "ai_1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS_03",
-          "stem": "Which of the following best describes aPTT mainly assess?",
+          "stem": "The main action of plasmin is to:",
           "options": {
-            "A": "Factor VII, plus common-pathway factors X, V, II, and fibrinogen.",
-            "B": "Intrinsic and common coagulation pathways.",
-            "C": "Extrinsic and common coagulation pathways.",
-            "D": "Factors XII, XI, IX, and VIII."
+            "A": "Activate platelets",
+            "B": "Degrade fibrin",
+            "C": "Produce factor VIII",
+            "D": "Inhibit heparin"
           },
           "answer": "B",
-          "explanation": "Intrinsic and common coagulation pathways.",
-          "concept": "Hemostasis Disorders and Anticoagulants",
-          "difficulty": "understanding",
-          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk",
-          "source_card_id": "1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS-c03",
-          "style_profile": "KAU-past-paper-inspired"
+          "explanation": "Degrade fibrin",
+          "concept": "Fibrinolysis",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk"
         },
         {
           "id": "ai_1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS_04",
-          "stem": "Which factors are assessed by aPTT but not PT?",
+          "stem": "The most common inherited bleeding disorder is:",
           "options": {
-            "A": "Factors XII, XI, IX, and VIII.",
-            "B": "Extrinsic and common coagulation pathways.",
-            "C": "Intrinsic and common coagulation pathways.",
-            "D": "Factor VIII deficiency."
+            "A": "Hemophilia",
+            "B": "von Willebrand disease",
+            "C": "Vitamin K deficiency",
+            "D": "Thrombocytopenia"
           },
-          "answer": "A",
-          "explanation": "Factors XII, XI, IX, and VIII.",
-          "concept": "Hemostasis Disorders and Anticoagulants",
-          "difficulty": "application",
-          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk",
-          "source_card_id": "1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS-c04",
-          "style_profile": "KAU-past-paper-inspired"
+          "answer": "B",
+          "explanation": "von Willebrand disease",
+          "concept": "vWD",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk"
         },
         {
           "id": "ai_1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS_05",
-          "stem": "What pattern is typical of hemophilia A?",
+          "stem": "Which bleeding pattern is most characteristic of von Willebrand disease in this lecture?",
           "options": {
-            "A": "Factor VII, plus common-pathway factors X, V, II, and fibrinogen.",
-            "B": "Extrinsic and common coagulation pathways.",
-            "C": "Intrinsic and common coagulation pathways.",
-            "D": "Prolonged aPTT with normal PT and normal platelet count."
+            "A": "Mucocutaneous bleeding",
+            "B": "Isolated deep muscle bleeding",
+            "C": "No bleeding despite injury",
+            "D": "Only postoperative thrombosis"
           },
-          "answer": "D",
-          "explanation": "Prolonged aPTT with normal PT and normal platelet count.",
-          "concept": "Hemostasis Disorders and Anticoagulants",
+          "answer": "A",
+          "explanation": "Mucocutaneous bleeding",
+          "concept": "vWD",
           "difficulty": "core",
-          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk",
-          "source_card_id": "1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS-c05",
-          "style_profile": "KAU-past-paper-inspired"
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk"
         },
         {
           "id": "ai_1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS_06",
-          "stem": "Which of the following best describes hemophilia A caused by?",
+          "stem": "The primary hemostatic defect in von Willebrand disease is impaired platelet:",
           "options": {
-            "A": "Factors XII, XI, IX, and VIII.",
-            "B": "Factor VII, plus common-pathway factors X, V, II, and fibrinogen.",
-            "C": "Factor VIII deficiency.",
-            "D": "Factor IX deficiency."
+            "A": "Production",
+            "B": "Adhesion",
+            "C": "Destruction",
+            "D": "Fibrinolysis"
           },
-          "answer": "C",
-          "explanation": "Factor VIII deficiency.",
-          "concept": "Hemostasis Disorders and Anticoagulants",
-          "difficulty": "understanding",
-          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk",
-          "source_card_id": "1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS-c06",
-          "style_profile": "KAU-past-paper-inspired"
+          "answer": "B",
+          "explanation": "Adhesion",
+          "concept": "vWD",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk"
         },
         {
           "id": "ai_1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS_07",
-          "stem": "Which of the following best describes hemophilia B caused by?",
+          "stem": "von Willebrand disease may also reduce the level of:",
           "options": {
-            "A": "Factor VII, plus common-pathway factors X, V, II, and fibrinogen.",
-            "B": "Factor IX deficiency.",
-            "C": "Factor VIII deficiency.",
-            "D": "Factors XII, XI, IX, and VIII."
+            "A": "Factor VIII",
+            "B": "Antithrombin III",
+            "C": "Plasmin",
+            "D": "Citrate"
           },
-          "answer": "B",
-          "explanation": "Factor IX deficiency.",
-          "concept": "Hemostasis Disorders and Anticoagulants",
-          "difficulty": "application",
-          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk",
-          "source_card_id": "1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS-c07",
-          "style_profile": "KAU-past-paper-inspired"
+          "answer": "A",
+          "explanation": "Factor VIII",
+          "concept": "vWD",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk"
         },
         {
           "id": "ai_1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS_08",
-          "stem": "Which of the following best describes the typical lab pattern in vitamin K deficiency?",
+          "stem": "Thrombocytopenia is defined in this lecture as a platelet count below:",
           "options": {
-            "A": "PT rises first because factor VII has the shortest half-life.",
-            "B": "Factor VII, plus common-pathway factors X, V, II, and fibrinogen.",
-            "C": "Prolonged aPTT with normal PT and normal platelet count.",
-            "D": "Factor VIII deficiency."
+            "A": "50,000/µL",
+            "B": "100,000/µL",
+            "C": "150,000/µL",
+            "D": "250,000/µL"
+          },
+          "answer": "C",
+          "explanation": "150,000/µL",
+          "concept": "Thrombocytopenia",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk"
+        },
+        {
+          "id": "ai_1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS_09",
+          "stem": "A patient has a normal platelet count but impaired platelet function. This is best classified as:",
+          "options": {
+            "A": "Thrombocytopenia",
+            "B": "Platelet dysfunction",
+            "C": "Hemophilia",
+            "D": "Vitamin K deficiency"
+          },
+          "answer": "B",
+          "explanation": "Platelet dysfunction",
+          "concept": "Platelet disorders",
+          "difficulty": "application",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk"
+        },
+        {
+          "id": "ai_1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS_10",
+          "stem": "Hemophilia is classically inherited as:",
+          "options": {
+            "A": "Autosomal dominant",
+            "B": "Autosomal recessive",
+            "C": "X-linked recessive",
+            "D": "X-linked dominant"
+          },
+          "answer": "C",
+          "explanation": "X-linked recessive",
+          "concept": "Hemophilia",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk"
+        },
+        {
+          "id": "ai_1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS_11",
+          "stem": "Hemophilia primarily impairs:",
+          "options": {
+            "A": "Primary hemostasis",
+            "B": "Secondary hemostasis",
+            "C": "Fibrinolysis only",
+            "D": "Platelet count"
+          },
+          "answer": "B",
+          "explanation": "Secondary hemostasis",
+          "concept": "Hemophilia",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk"
+        },
+        {
+          "id": "ai_1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS_12",
+          "stem": "Vitamin K deficiency causes bleeding mainly because it impairs production of:",
+          "options": {
+            "A": "Functional clotting factors",
+            "B": "Platelets",
+            "C": "Plasminogen activators",
+            "D": "von Willebrand factor"
           },
           "answer": "A",
-          "explanation": "PT rises first because factor VII has the shortest half-life.",
-          "concept": "Hemostasis Disorders and Anticoagulants",
+          "explanation": "Functional clotting factors",
+          "concept": "Vitamin K",
           "difficulty": "core",
-          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk",
-          "source_card_id": "1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS-c08",
-          "style_profile": "KAU-past-paper-inspired"
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk"
+        },
+        {
+          "id": "ai_1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS_13",
+          "stem": "Antithrombin III directly inactivates which clotting factors highlighted in the lecture?",
+          "options": {
+            "A": "IIa and Xa",
+            "B": "VIII and IX",
+            "C": "V and VII",
+            "D": "XI and XII"
+          },
+          "answer": "A",
+          "explanation": "IIa and Xa",
+          "concept": "Natural anticoagulants",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk"
+        },
+        {
+          "id": "ai_1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS_14",
+          "stem": "Heparin produces anticoagulation mainly by enhancing the activity of:",
+          "options": {
+            "A": "Plasmin",
+            "B": "Antithrombin III",
+            "C": "von Willebrand factor",
+            "D": "Vitamin K"
+          },
+          "answer": "B",
+          "explanation": "Antithrombin III",
+          "concept": "Heparin",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk"
+        },
+        {
+          "id": "ai_1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS_15",
+          "stem": "Which pairing correctly distinguishes an in-vivo from an in-vitro anticoagulant?",
+          "options": {
+            "A": "Warfarin—in vivo; citrate—in vitro",
+            "B": "Citrate—in vivo; warfarin—in vitro",
+            "C": "Heparin—in vitro only; citrate—in vivo only",
+            "D": "Plasmin—in vivo; factor VIII—in vitro"
+          },
+          "answer": "A",
+          "explanation": "Warfarin—in vivo; citrate—in vitro",
+          "concept": "Anticoagulants",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk"
         }
       ],
       "eligibility_status": "allowed",
-      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
+      "quality_rebuilt_at": "2026-09-29"
     },
     {
       "id": "ai_set_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK",
@@ -8299,6 +8614,771 @@
           "concept": "Determinants of CO",
           "difficulty": "core",
           "style_profile": "MED25-test-bank/formative-inspired"
+        }
+      ]
+    },
+    {
+      "id": "ai_set_1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP",
+      "source_file_id": "1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP",
+      "subject": "Pathology",
+      "title": "Pathology of Hypertension",
+      "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view",
+      "source_modified_time": "2026-09-28T13:15:33.861Z",
+      "source_validation": "study_guide_and_lecture_verified",
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
+      "teaching_method": "Interactive lecture",
+      "archived": false,
+      "questions": [
+        {
+          "id": "ai_1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP_01",
+          "stem": "Essential (primary) hypertension accounts for approximately what proportion of hypertension cases?",
+          "options": {
+            "A": "5–10%",
+            "B": "25–30%",
+            "C": "50–60%",
+            "D": "90–95%"
+          },
+          "answer": "D",
+          "explanation": "90–95%",
+          "concept": "Classification",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view"
+        },
+        {
+          "id": "ai_1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP_02",
+          "stem": "Which statement best describes essential hypertension?",
+          "options": {
+            "A": "It always results from renal disease",
+            "B": "Its cause is unknown and multiple mechanisms may contribute",
+            "C": "It is always malignant",
+            "D": "It is caused only by endocrine disease"
+          },
+          "answer": "B",
+          "explanation": "Its cause is unknown and multiple mechanisms may contribute",
+          "concept": "Pathogenesis",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view"
+        },
+        {
+          "id": "ai_1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP_03",
+          "stem": "Which vascular lesion is associated with benign hypertension?",
+          "options": {
+            "A": "Hyperplastic arteriolosclerosis",
+            "B": "Hyaline arteriolosclerosis",
+            "C": "Aortic dissection only",
+            "D": "Venous thrombosis"
+          },
+          "answer": "B",
+          "explanation": "Hyaline arteriolosclerosis",
+          "concept": "Vascular pathology",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view"
+        },
+        {
+          "id": "ai_1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP_04",
+          "stem": "Which vascular lesion is associated with malignant hypertension?",
+          "options": {
+            "A": "Hyaline arteriolosclerosis only",
+            "B": "Hyperplastic arteriolosclerosis",
+            "C": "Fatty streak formation only",
+            "D": "Venous sclerosis"
+          },
+          "answer": "B",
+          "explanation": "Hyperplastic arteriolosclerosis",
+          "concept": "Vascular pathology",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view"
+        },
+        {
+          "id": "ai_1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP_05",
+          "stem": "The characteristic morphology of hyperplastic arteriolosclerosis is:",
+          "options": {
+            "A": "Homogeneous pink hyaline thickening",
+            "B": "Onion-skin concentric laminated thickening",
+            "C": "Focal venous calcification",
+            "D": "Loss of all smooth muscle cells"
+          },
+          "answer": "B",
+          "explanation": "Onion-skin concentric laminated thickening",
+          "concept": "Morphology",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view"
+        },
+        {
+          "id": "ai_1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP_06",
+          "stem": "Reduced renal sodium excretion contributes to essential hypertension initially by increasing:",
+          "options": {
+            "A": "Fluid volume and cardiac output",
+            "B": "Plasmin activity",
+            "C": "Retinal drainage",
+            "D": "Venous compliance only"
+          },
+          "answer": "A",
+          "explanation": "Fluid volume and cardiac output",
+          "concept": "Pathogenesis",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view"
+        },
+        {
+          "id": "ai_1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP_07",
+          "stem": "Chronic vasoconstriction can sustain hypertension by causing:",
+          "options": {
+            "A": "Permanent thickening of arterial walls",
+            "B": "Reduced systemic vascular resistance",
+            "C": "Reduced extracellular matrix production",
+            "D": "Increased sodium excretion at baseline pressure"
+          },
+          "answer": "A",
+          "explanation": "Permanent thickening of arterial walls",
+          "concept": "Pathogenesis",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view"
+        },
+        {
+          "id": "ai_1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP_08",
+          "stem": "Which environmental factor is specifically associated with increased hypertension risk in the lecture?",
+          "options": {
+            "A": "Low sodium intake",
+            "B": "High salt intake",
+            "C": "Low body weight",
+            "D": "Regular physical activity"
+          },
+          "answer": "B",
+          "explanation": "High salt intake",
+          "concept": "Risk factors",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view"
+        },
+        {
+          "id": "ai_1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP_09",
+          "stem": "Hyaline arteriolosclerosis shows:",
+          "options": {
+            "A": "Homogeneous pink wall thickening with luminal narrowing",
+            "B": "Onion-skin laminations only",
+            "C": "Normal wall with dilated lumen",
+            "D": "Fibrin clot without wall change"
+          },
+          "answer": "A",
+          "explanation": "Homogeneous pink wall thickening with luminal narrowing",
+          "concept": "Morphology",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view"
+        },
+        {
+          "id": "ai_1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP_10",
+          "stem": "A patient with rapidly rising blood pressure, renal failure, retinal hemorrhage and papilledema most likely has:",
+          "options": {
+            "A": "Benign hypertension",
+            "B": "Malignant hypertension",
+            "C": "Isolated atherosclerosis",
+            "D": "Diabetes without hypertension"
+          },
+          "answer": "B",
+          "explanation": "Malignant hypertension",
+          "concept": "Malignant hypertension",
+          "difficulty": "application",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view"
+        },
+        {
+          "id": "ai_1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP_11",
+          "stem": "Hypertensive heart disease is characterized by hypertrophy of the:",
+          "options": {
+            "A": "Right atrial wall",
+            "B": "Left ventricular wall",
+            "C": "Right ventricular wall only",
+            "D": "Interatrial septum only"
+          },
+          "answer": "B",
+          "explanation": "Left ventricular wall",
+          "concept": "Cardiac complications",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view"
+        },
+        {
+          "id": "ai_1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP_12",
+          "stem": "Hypertensive renal disease may progress to renal failure through:",
+          "options": {
+            "A": "Hyaline or hyperplastic arteriolosclerosis",
+            "B": "Reduced platelet adhesion",
+            "C": "Coronary vasodilation",
+            "D": "Increased fibrinolysis"
+          },
+          "answer": "A",
+          "explanation": "Hyaline or hyperplastic arteriolosclerosis",
+          "concept": "Renal complications",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view"
+        },
+        {
+          "id": "ai_1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP_13",
+          "stem": "Cerebral hemorrhage in hypertension may result from rupture of a:",
+          "options": {
+            "A": "Microaneurysm",
+            "B": "Retinal vein",
+            "C": "Coronary plaque only",
+            "D": "Pulmonary venule"
+          },
+          "answer": "A",
+          "explanation": "Microaneurysm",
+          "concept": "Cerebral complications",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view"
+        },
+        {
+          "id": "ai_1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP_14",
+          "stem": "Papilledema is particularly associated with:",
+          "options": {
+            "A": "Mild benign hypertension",
+            "B": "Malignant hypertension",
+            "C": "Normal blood pressure",
+            "D": "Isolated hyperlipidemia"
+          },
+          "answer": "B",
+          "explanation": "Malignant hypertension",
+          "concept": "Retinopathy",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view"
+        },
+        {
+          "id": "ai_1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP_15",
+          "stem": "Which is a major vascular complication of hypertension listed in the lecture?",
+          "options": {
+            "A": "Aortic dissection",
+            "B": "Lymphatic obstruction",
+            "C": "Portal vein thrombosis",
+            "D": "Varicose veins"
+          },
+          "answer": "A",
+          "explanation": "Aortic dissection",
+          "concept": "Vascular complications",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view"
+        }
+      ]
+    },
+    {
+      "id": "ai_set_19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5",
+      "source_file_id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5",
+      "subject": "Physiology",
+      "title": "Cardiac Cycle",
+      "source_url": "https://drive.google.com/file/d/19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5/view",
+      "source_modified_time": "2026-09-30T05:31:08.969Z",
+      "source_validation": "study_guide_and_lecture_verified",
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
+      "teaching_method": "Interactive lecture",
+      "archived": false,
+      "questions": [
+        {
+          "id": "ai_19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5_01",
+          "stem": "Which event marks the beginning of ventricular systole?",
+          "options": {
+            "A": "Opening of AV valves",
+            "B": "Atrial contraction",
+            "C": "Isovolumetric ventricular contraction",
+            "D": "Semilunar valve closure"
+          },
+          "answer": "C",
+          "explanation": "Isovolumetric contraction begins ventricular systole.",
+          "concept": "Cardiac cycle",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5/view",
+          "style_profile": "KAU-past-paper-inspired"
+        },
+        {
+          "id": "ai_19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5_02",
+          "stem": "During isovolumetric contraction, ventricular volume remains constant because:",
+          "options": {
+            "A": "All cardiac valves are closed",
+            "B": "AV valves are open",
+            "C": "Semilunar valves are open",
+            "D": "Ventricular pressure is falling"
+          },
+          "answer": "A",
+          "explanation": "With all valves closed, pressure rises without a change in ventricular volume.",
+          "concept": "Isovolumetric contraction",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5/view",
+          "style_profile": "KAU-past-paper-inspired"
+        },
+        {
+          "id": "ai_19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5_03",
+          "stem": "The aortic valve opens when:",
+          "options": {
+            "A": "Atrial pressure exceeds ventricular pressure",
+            "B": "Left ventricular pressure exceeds aortic pressure",
+            "C": "Aortic pressure exceeds ventricular pressure",
+            "D": "Ventricular pressure falls below atrial pressure"
+          },
+          "answer": "B",
+          "explanation": "Ejection starts when ventricular pressure rises above aortic pressure.",
+          "concept": "Valve mechanics",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5/view",
+          "style_profile": "KAU-past-paper-inspired"
+        },
+        {
+          "id": "ai_19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5_04",
+          "stem": "Which change occurs during ventricular ejection?",
+          "options": {
+            "A": "Ventricular volume increases",
+            "B": "AV valves open",
+            "C": "Ventricular volume decreases",
+            "D": "All valves remain closed"
+          },
+          "answer": "C",
+          "explanation": "Blood leaves the ventricle during ejection, so ventricular volume falls.",
+          "concept": "Ejection",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5/view",
+          "style_profile": "KAU-past-paper-inspired"
+        },
+        {
+          "id": "ai_19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5_05",
+          "stem": "The second heart sound is produced by closure of the:",
+          "options": {
+            "A": "Mitral and tricuspid valves",
+            "B": "Aortic and pulmonary valves",
+            "C": "Mitral and aortic valves",
+            "D": "Tricuspid and pulmonary valves"
+          },
+          "answer": "B",
+          "explanation": "S2 is associated with semilunar valve closure.",
+          "concept": "Heart sounds",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5/view",
+          "style_profile": "KAU-past-paper-inspired"
+        },
+        {
+          "id": "ai_19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5_06",
+          "stem": "During isovolumetric relaxation, which combination is correct?",
+          "options": {
+            "A": "Pressure rises; volume rises",
+            "B": "Pressure falls; volume remains constant",
+            "C": "Pressure falls; volume falls",
+            "D": "Pressure remains constant; volume rises"
+          },
+          "answer": "B",
+          "explanation": "The ventricle relaxes with all valves closed, so pressure falls while volume is unchanged.",
+          "concept": "Isovolumetric relaxation",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5/view",
+          "style_profile": "KAU-past-paper-inspired"
+        },
+        {
+          "id": "ai_19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5_07",
+          "stem": "AV valves open at the end of isovolumetric relaxation when:",
+          "options": {
+            "A": "Ventricular pressure falls below atrial pressure",
+            "B": "Aortic pressure falls below ventricular pressure",
+            "C": "Atrial pressure falls below ventricular pressure",
+            "D": "Semilunar pressure exceeds atrial pressure"
+          },
+          "answer": "A",
+          "explanation": "An atrioventricular pressure gradient opens the AV valves.",
+          "concept": "Valve mechanics",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5/view",
+          "style_profile": "KAU-past-paper-inspired"
+        },
+        {
+          "id": "ai_19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5_08",
+          "stem": "During rapid ventricular filling, ventricular volume changes from:",
+          "options": {
+            "A": "EDV toward ESV",
+            "B": "ESV toward EDV",
+            "C": "Stroke volume toward ESV",
+            "D": "EDV toward stroke volume"
+          },
+          "answer": "B",
+          "explanation": "Ventricular filling increases volume from end-systolic toward end-diastolic volume.",
+          "concept": "Ventricular volume",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5/view",
+          "style_profile": "KAU-past-paper-inspired"
+        },
+        {
+          "id": "ai_19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5_09",
+          "stem": "Atrial systole contributes approximately what proportion of ventricular filling in this lecture?",
+          "options": {
+            "A": "5%",
+            "B": "20–25%",
+            "C": "50%",
+            "D": "75%"
+          },
+          "answer": "B",
+          "explanation": "Atrial contraction supplies about 20–25% of ventricular filling.",
+          "concept": "Atrial systole",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5/view",
+          "style_profile": "KAU-past-paper-inspired"
+        },
+        {
+          "id": "ai_19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5_10",
+          "stem": "A third heart sound is associated with:",
+          "options": {
+            "A": "Rapid ventricular filling",
+            "B": "AV valve closure",
+            "C": "Semilunar valve closure",
+            "D": "Isovolumetric contraction"
+          },
+          "answer": "A",
+          "explanation": "The lecture relates S3 to the rush of blood from atria into ventricles during filling.",
+          "concept": "Heart sounds",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5/view",
+          "style_profile": "KAU-past-paper-inspired"
+        },
+        {
+          "id": "ai_19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5_11",
+          "stem": "A fourth heart sound is produced during:",
+          "options": {
+            "A": "Rapid ejection",
+            "B": "Atrial contraction",
+            "C": "Semilunar valve closure",
+            "D": "Isovolumetric relaxation"
+          },
+          "answer": "B",
+          "explanation": "The lecture relates S4 to ventricular wall vibration during atrial contraction.",
+          "concept": "Heart sounds",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5/view",
+          "style_profile": "KAU-past-paper-inspired"
+        },
+        {
+          "id": "ai_19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5_12",
+          "stem": "Which best defines end-diastolic volume?",
+          "options": {
+            "A": "Ventricular volume at the end of systole",
+            "B": "Blood ejected per beat",
+            "C": "Ventricular volume at the end of diastole",
+            "D": "Percentage of EDV ejected"
+          },
+          "answer": "C",
+          "explanation": "EDV is the volume in the ventricle at the end of ventricular diastole.",
+          "concept": "Volumes",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5/view",
+          "style_profile": "KAU-past-paper-inspired"
+        },
+        {
+          "id": "ai_19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5_13",
+          "stem": "Stroke volume is calculated as:",
+          "options": {
+            "A": "EDV + ESV",
+            "B": "EDV − ESV",
+            "C": "ESV ÷ EDV",
+            "D": "SV ÷ EDV"
+          },
+          "answer": "B",
+          "explanation": "Stroke volume is the difference between EDV and ESV.",
+          "concept": "Volumes",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5/view",
+          "style_profile": "KAU-past-paper-inspired"
+        },
+        {
+          "id": "ai_19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5_14",
+          "stem": "Ejection fraction is calculated as:",
+          "options": {
+            "A": "ESV/EDV × 100",
+            "B": "SV/ESV × 100",
+            "C": "SV/EDV × 100",
+            "D": "EDV/SV × 100"
+          },
+          "answer": "C",
+          "explanation": "The lecture defines EF as stroke volume divided by EDV, multiplied by 100.",
+          "concept": "Volumes",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5/view",
+          "style_profile": "KAU-past-paper-inspired"
+        },
+        {
+          "id": "ai_19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5_15",
+          "stem": "Why does aortic pressure decrease during ventricular filling?",
+          "options": {
+            "A": "The aortic valve opens",
+            "B": "Blood continues to leave the aorta toward the periphery while the aortic valve is closed",
+            "C": "The ventricle ejects less rapidly",
+            "D": "Atrial contraction pulls blood from the aorta"
+          },
+          "answer": "B",
+          "explanation": "With the aortic valve closed, no new ventricular blood enters the aorta while blood continues into the peripheral circulation.",
+          "concept": "Aortic pressure",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5/view",
+          "style_profile": "KAU-past-paper-inspired"
+        }
+      ]
+    },
+    {
+      "id": "ai_set_1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc",
+      "source_file_id": "1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc",
+      "subject": "Pathology",
+      "title": "Valvular Heart Diseases",
+      "source_url": "https://drive.google.com/file/d/1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc/view",
+      "source_modified_time": "2026-09-30T05:57:42.832Z",
+      "source_validation": "study_guide_and_lecture_verified",
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
+      "teaching_method": "Interactive lecture",
+      "archived": false,
+      "questions": [
+        {
+          "id": "ai_1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc_01",
+          "stem": "Which valve is most commonly affected by valvular heart disease in this lecture?",
+          "options": {
+            "A": "Aortic",
+            "B": "Pulmonary",
+            "C": "Mitral",
+            "D": "Tricuspid"
+          },
+          "answer": "C",
+          "explanation": "The mitral valve is stated to be the most commonly affected.",
+          "concept": "General",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc/view",
+          "style_profile": "KAU-past-paper-inspired"
+        },
+        {
+          "id": "ai_1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc_02",
+          "stem": "Valvular stenosis primarily causes:",
+          "options": {
+            "A": "Backflow due to failure of closure",
+            "B": "Obstruction of forward flow",
+            "C": "Myocardial infection",
+            "D": "Pericardial fibrosis"
+          },
+          "answer": "B",
+          "explanation": "Stenosis means the valve cannot open adequately, obstructing forward flow.",
+          "concept": "Stenosis",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc/view",
+          "style_profile": "KAU-past-paper-inspired"
+        },
+        {
+          "id": "ai_1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc_03",
+          "stem": "Valvular regurgitation results from a valve that is unable to:",
+          "options": {
+            "A": "Open",
+            "B": "Close",
+            "C": "Calcify",
+            "D": "Produce a murmur"
+          },
+          "answer": "B",
+          "explanation": "Regurgitation is incompetence due to failure of valve closure, allowing backflow.",
+          "concept": "Regurgitation",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc/view",
+          "style_profile": "KAU-past-paper-inspired"
+        },
+        {
+          "id": "ai_1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc_04",
+          "stem": "The most common congenital valvular abnormality listed is:",
+          "options": {
+            "A": "Bicuspid aortic valve",
+            "B": "Mitral valve prolapse",
+            "C": "Rheumatic mitral stenosis",
+            "D": "Calcific tricuspid stenosis"
+          },
+          "answer": "A",
+          "explanation": "The lecture lists bicuspid aortic valve as the most common congenital valvular disease.",
+          "concept": "Congenital",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc/view",
+          "style_profile": "KAU-past-paper-inspired"
+        },
+        {
+          "id": "ai_1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc_05",
+          "stem": "Age-related calcific aortic stenosis is described as:",
+          "options": {
+            "A": "Immune-mediated destruction",
+            "B": "Dystrophic calcification due to wear and tear",
+            "C": "Myxoid degeneration",
+            "D": "Postinfectious vegetation formation"
+          },
+          "answer": "B",
+          "explanation": "Acquired aortic stenosis can result from age-related dystrophic calcification.",
+          "concept": "Aortic stenosis",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc/view",
+          "style_profile": "KAU-past-paper-inspired"
+        },
+        {
+          "id": "ai_1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc_06",
+          "stem": "A major cardiac consequence of aortic stenosis is:",
+          "options": {
+            "A": "Concentric left ventricular hypertrophy",
+            "B": "Right atrial atrophy",
+            "C": "Left ventricular thinning",
+            "D": "Isolated right ventricular dilation"
+          },
+          "answer": "A",
+          "explanation": "Outflow obstruction produces concentric LV hypertrophy and may progress to heart failure.",
+          "concept": "Aortic stenosis",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc/view",
+          "style_profile": "KAU-past-paper-inspired"
+        },
+        {
+          "id": "ai_1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc_07",
+          "stem": "Mitral valve prolapse in this lecture is caused by:",
+          "options": {
+            "A": "Fibrinoid necrosis",
+            "B": "Myxoid degeneration",
+            "C": "Dystrophic calcification",
+            "D": "Commissural fusion"
+          },
+          "answer": "B",
+          "explanation": "Myxoid degeneration makes the mitral leaflets enlarged and floppy.",
+          "concept": "Mitral valve prolapse",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc/view",
+          "style_profile": "KAU-past-paper-inspired"
+        },
+        {
+          "id": "ai_1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc_08",
+          "stem": "Mitral valve prolapse is associated with:",
+          "options": {
+            "A": "Marfan syndrome",
+            "B": "Group A streptococcal pharyngitis only",
+            "C": "Aortic dissection only",
+            "D": "Polyarteritis nodosa"
+          },
+          "answer": "A",
+          "explanation": "The lecture associates MVP with Marfan or Ehlers-Danlos syndrome.",
+          "concept": "Mitral valve prolapse",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc/view",
+          "style_profile": "KAU-past-paper-inspired"
+        },
+        {
+          "id": "ai_1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc_09",
+          "stem": "Acute rheumatic fever most commonly follows:",
+          "options": {
+            "A": "Staphylococcal skin infection",
+            "B": "Group A β-hemolytic streptococcal pharyngitis",
+            "C": "Viral myocarditis",
+            "D": "Fungal endocarditis"
+          },
+          "answer": "B",
+          "explanation": "RF follows group A beta-hemolytic streptococcal pharyngitis.",
+          "concept": "Rheumatic fever",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc/view",
+          "style_profile": "KAU-past-paper-inspired"
+        },
+        {
+          "id": "ai_1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc_10",
+          "stem": "The mechanism of rheumatic fever is best described as:",
+          "options": {
+            "A": "Type II hypersensitivity with molecular mimicry",
+            "B": "Direct bacterial invasion of valves",
+            "C": "Immune-complex deposition only",
+            "D": "Age-related calcification"
+          },
+          "answer": "A",
+          "explanation": "Antibodies against streptococcal M protein cross-react with self antigens.",
+          "concept": "Rheumatic fever",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc/view",
+          "style_profile": "KAU-past-paper-inspired"
+        },
+        {
+          "id": "ai_1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc_11",
+          "stem": "Which lesion is pathognomonic for rheumatic fever?",
+          "options": {
+            "A": "Aschoff body",
+            "B": "Calcific nodule",
+            "C": "Myxoid degeneration",
+            "D": "Atherosclerotic plaque"
+          },
+          "answer": "A",
+          "explanation": "Aschoff bodies are stated to be pathognomonic for rheumatic fever.",
+          "concept": "Morphology",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc/view",
+          "style_profile": "KAU-past-paper-inspired"
+        },
+        {
+          "id": "ai_1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc_12",
+          "stem": "Acute rheumatic pancarditis involves:",
+          "options": {
+            "A": "Endocardium only",
+            "B": "Myocardium and pericardium only",
+            "C": "Endocardium, myocardium, and pericardium",
+            "D": "Valves and coronary arteries only"
+          },
+          "answer": "C",
+          "explanation": "Acute RF can inflame all three layers of the heart.",
+          "concept": "Acute RHD",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc/view",
+          "style_profile": "KAU-past-paper-inspired"
+        },
+        {
+          "id": "ai_1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc_13",
+          "stem": "Chronic rheumatic heart disease classically produces which mitral valve appearance?",
+          "options": {
+            "A": "Fish-mouth stenosis",
+            "B": "Floppy valve prolapse",
+            "C": "Bicuspid opening",
+            "D": "Normal cusps with annular dilation"
+          },
+          "answer": "A",
+          "explanation": "Healing and scarring can cause classic fish-mouth mitral stenosis.",
+          "concept": "Chronic RHD",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc/view",
+          "style_profile": "KAU-past-paper-inspired"
+        },
+        {
+          "id": "ai_1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc_14",
+          "stem": "Which valve is always involved in chronic rheumatic heart disease according to the lecture?",
+          "options": {
+            "A": "Pulmonary",
+            "B": "Tricuspid",
+            "C": "Aortic",
+            "D": "Mitral"
+          },
+          "answer": "D",
+          "explanation": "The lecture states that chronic RHD always involves the mitral valve.",
+          "concept": "Chronic RHD",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc/view",
+          "style_profile": "KAU-past-paper-inspired"
+        },
+        {
+          "id": "ai_1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc_15",
+          "stem": "Which is a recognized complication of chronic rheumatic valvular disease?",
+          "options": {
+            "A": "Infective endocarditis",
+            "B": "Resolution without scarring in all cases",
+            "C": "Isolated pulmonary fibrosis",
+            "D": "Loss of all heart sounds"
+          },
+          "answer": "A",
+          "explanation": "Deformed rheumatic valves are susceptible to infective endocarditis.",
+          "concept": "Complications",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc/view",
+          "style_profile": "KAU-past-paper-inspired"
         }
       ]
     }

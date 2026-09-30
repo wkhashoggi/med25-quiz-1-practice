@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-30T17:59:19.589Z",
+  "generated_at": "2026-09-30T18:00:03.506Z",
   "source_root": {
     "id": "1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
     "url": "https://drive.google.com/drive/folders/1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
@@ -6888,190 +6888,341 @@
       "title": "Sepsis",
       "source_url": "https://drive.google.com/file/d/1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9/view?usp=drivesdk",
       "source_modified_time": "2026-09-12T12:22:55.033Z",
-      "source_validation": "pending_lecture_validation",
+      "source_validation": "lecture_verified_quality_rebuilt",
       "archived": false,
       "questions": [
         {
           "id": "ai_1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9_01",
-          "stem": "Which of the following best describes sepsis?",
+          "stem": "What is the Sepsis-3 definition of sepsis?",
           "options": {
-            "A": "Inflammation activates coagulation and suppresses anticoagulant/fibrinolytic pathways.",
-            "B": "Maldistributed microvascular flow and vasodilation impair effective oxygen delivery.",
-            "C": "It activates innate immune pathways and promotes cytokine release.",
-            "D": "Life-threatening organ dysfunction caused by a dysregulated host response to infection."
+            "A": "Life-threatening organ dysfunction caused by a dysregulated host response to infection",
+            "B": "Any fever caused by bacteria",
+            "C": "A cytokine storm without infection",
+            "D": "Hypotension alone"
           },
-          "answer": "D",
-          "explanation": "Life-threatening organ dysfunction caused by a dysregulated host response to infection.",
-          "concept": "Sepsis",
-          "difficulty": "application",
+          "answer": "A",
+          "explanation": "The lecture uses the Sepsis-3 definition emphasizing dysregulated host response and organ dysfunction.",
+          "concept": "Definition",
+          "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9/view?usp=drivesdk",
-          "source_card_id": "1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9-c01",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9_02",
-          "stem": "Which of the following best describes septic shock?",
+          "stem": "Which receptors detect PAMPs and DAMPs during the innate response to infection?",
           "options": {
-            "A": "Maldistributed microvascular flow and vasodilation impair effective oxygen delivery.",
-            "B": "Life-threatening organ dysfunction caused by a dysregulated host response to infection.",
-            "C": "Sepsis with profound circulatory/metabolic abnormalities, typically requiring vasopressors despite fluids and associated with elevated lactate.",
-            "D": "Inflammation activates coagulation and suppresses anticoagulant/fibrinolytic pathways."
+            "A": "LDL receptors",
+            "B": "Insulin receptors",
+            "C": "T-cell receptors only",
+            "D": "Pattern-recognition receptors"
           },
-          "answer": "C",
-          "explanation": "Sepsis with profound circulatory/metabolic abnormalities, typically requiring vasopressors despite fluids and associated with elevated lactate.",
-          "concept": "Sepsis",
+          "answer": "D",
+          "explanation": "PRRs detect infection- and damage-associated molecular patterns.",
+          "concept": "Recognition",
           "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9/view?usp=drivesdk",
-          "source_card_id": "1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9-c02",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9_03",
-          "stem": "What happens to systemic vascular resistance early in septic shock?",
+          "stem": "Which early cytokines increase fever and vascular permeability in sepsis?",
           "options": {
-            "A": "TNF, IL-1, IL-6 and other cytokines/mediators.",
-            "B": "It commonly decreases because of widespread vasodilation.",
-            "C": "Maldistributed microvascular flow and vasodilation impair effective oxygen delivery.",
-            "D": "It activates innate immune pathways and promotes cytokine release."
+            "A": "EPO and TPO",
+            "B": "IL-4 only",
+            "C": "TNF-alpha and IL-1 beta",
+            "D": "IL-10 and TGF-beta"
           },
-          "answer": "B",
-          "explanation": "It commonly decreases because of widespread vasodilation.",
-          "concept": "Sepsis",
-          "difficulty": "understanding",
+          "answer": "C",
+          "explanation": "TNF-alpha and IL-1 beta are early pro-inflammatory cytokines.",
+          "concept": "Hyperinflammation",
+          "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9/view?usp=drivesdk",
-          "source_card_id": "1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9-c03",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9_04",
-          "stem": "Which of the following best explains why can tissue hypoperfusion occur despite high cardiac output in early sepsis?",
+          "stem": "Which cytokine amplifies the acute-phase response in sepsis?",
           "options": {
-            "A": "Maldistributed microvascular flow and vasodilation impair effective oxygen delivery.",
-            "B": "Inflammation activates coagulation and suppresses anticoagulant/fibrinolytic pathways.",
-            "C": "It activates innate immune pathways and promotes cytokine release.",
-            "D": "It commonly decreases because of widespread vasodilation."
+            "A": "TGF-beta",
+            "B": "IL-6",
+            "C": "IL-10",
+            "D": "IL-4"
           },
-          "answer": "A",
-          "explanation": "Maldistributed microvascular flow and vasodilation impair effective oxygen delivery.",
-          "concept": "Sepsis",
-          "difficulty": "application",
+          "answer": "B",
+          "explanation": "IL-6 drives acute-phase markers such as CRP, fibrinogen and haptoglobin.",
+          "concept": "Hyperinflammation",
+          "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9/view?usp=drivesdk",
-          "source_card_id": "1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9-c04",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9_05",
-          "stem": "Which of the following best describes a major role of bacterial endotoxin in sepsis?",
+          "stem": "Which cytokine attracts neutrophils?",
           "options": {
-            "A": "Inflammation activates coagulation and suppresses anticoagulant/fibrinolytic pathways.",
-            "B": "TNF, IL-1, IL-6 and other cytokines/mediators.",
-            "C": "Maldistributed microvascular flow and vasodilation impair effective oxygen delivery.",
-            "D": "It activates innate immune pathways and promotes cytokine release."
+            "A": "IL-8",
+            "B": "IL-4",
+            "C": "TGF-beta",
+            "D": "EPO"
           },
-          "answer": "D",
-          "explanation": "It activates innate immune pathways and promotes cytokine release.",
-          "concept": "Sepsis",
+          "answer": "A",
+          "explanation": "IL-8 recruits neutrophils.",
+          "concept": "Hyperinflammation",
           "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9/view?usp=drivesdk",
-          "source_card_id": "1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9-c05",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9_06",
-          "stem": "Which inflammatory mediators are prominent in sepsis?",
+          "stem": "A cytokine storm can amplify inflammation, complement and coagulation to cause what major consequence?",
           "options": {
-            "A": "Inflammation activates coagulation and suppresses anticoagulant/fibrinolytic pathways.",
-            "B": "It commonly decreases because of widespread vasodilation.",
-            "C": "TNF, IL-1, IL-6 and other cytokines/mediators.",
-            "D": "It activates innate immune pathways and promotes cytokine release."
+            "A": "Isolated erythrocytosis",
+            "B": "Only antibody deficiency",
+            "C": "Hypercalcemia",
+            "D": "Tissue injury and multi-organ failure"
           },
-          "answer": "C",
-          "explanation": "TNF, IL-1, IL-6 and other cytokines/mediators.",
-          "concept": "Sepsis",
-          "difficulty": "understanding",
+          "answer": "D",
+          "explanation": "The self-amplifying response contributes to tissue injury and organ failure.",
+          "concept": "Hyperinflammation",
+          "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9/view?usp=drivesdk",
-          "source_card_id": "1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9-c06",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9_07",
-          "stem": "Which of the following best explains why can DIC occur in severe sepsis?",
+          "stem": "Which immune cells undergo major apoptotic depletion during sepsis-associated immunosuppression?",
           "options": {
-            "A": "Life-threatening organ dysfunction caused by a dysregulated host response to infection.",
-            "B": "Inflammation activates coagulation and suppresses anticoagulant/fibrinolytic pathways.",
-            "C": "It activates innate immune pathways and promotes cytokine release.",
-            "D": "Maldistributed microvascular flow and vasodilation impair effective oxygen delivery."
+            "A": "Only platelets",
+            "B": "Only eosinophils",
+            "C": "T cells, B cells and dendritic cells",
+            "D": "Only erythrocytes"
           },
-          "answer": "B",
-          "explanation": "Inflammation activates coagulation and suppresses anticoagulant/fibrinolytic pathways.",
-          "concept": "Sepsis",
-          "difficulty": "application",
+          "answer": "C",
+          "explanation": "The lecture highlights apoptosis of T cells, B cells and dendritic cells.",
+          "concept": "Immunosuppression",
+          "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9/view?usp=drivesdk",
-          "source_card_id": "1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9-c07",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9_08",
-          "stem": "Which of the following best describes a common metabolic marker of poor perfusion in sepsis?",
+          "stem": "Which anti-inflammatory cytokines are highlighted in the hypoinflammatory response?",
           "options": {
-            "A": "Elevated serum lactate.",
-            "B": "TNF, IL-1, IL-6 and other cytokines/mediators.",
-            "C": "It commonly decreases because of widespread vasodilation.",
-            "D": "It activates innate immune pathways and promotes cytokine release."
+            "A": "GM-CSF only",
+            "B": "IL-10, TGF-beta and IL-4",
+            "C": "TNF-alpha, IL-1 and IL-6",
+            "D": "IL-8 only"
           },
-          "answer": "A",
-          "explanation": "Elevated serum lactate.",
-          "concept": "Sepsis",
+          "answer": "B",
+          "explanation": "An anti-inflammatory cytokine surge includes IL-10, TGF-beta and IL-4.",
+          "concept": "Immunosuppression",
           "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9/view?usp=drivesdk",
-          "source_card_id": "1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9-c08",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
-          "id": "ai_1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9_formcase01",
-          "stem": "A patient with a severe infection develops systemic organ dysfunction. Which description best defines the syndrome responsible for this presentation?",
+          "id": "ai_1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9_09",
+          "stem": "Reduced expression of which molecule on monocytes is a marker of sepsis immune suppression?",
           "options": {
-            "A": "Inflammation activates coagulation and suppresses anticoagulant/fibrinolytic pathways.",
-            "B": "Maldistributed microvascular flow and vasodilation impair effective oxygen delivery.",
-            "C": "It activates innate immune pathways and promotes cytokine release.",
-            "D": "Life-threatening organ dysfunction caused by a dysregulated host response to infection."
+            "A": "HLA-DR",
+            "B": "CD20",
+            "C": "ApoB-100",
+            "D": "Factor VIII"
+          },
+          "answer": "A",
+          "explanation": "Epigenetic silencing can reduce monocyte HLA-DR.",
+          "concept": "Immunosuppression",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9_10",
+          "stem": "What happens to surviving macrophages and monocytes in sepsis immunoparalysis?",
+          "options": {
+            "A": "They become permanently hyperresponsive",
+            "B": "They become erythrocytes",
+            "C": "They lose all membranes",
+            "D": "They can become endotoxin-tolerant and hyporesponsive"
           },
           "answer": "D",
-          "explanation": "Life-threatening organ dysfunction caused by a dysregulated host response to infection.",
-          "concept": "Sepsis — formative-style case",
+          "explanation": "Surviving innate cells may become hypo-responsive with reduced antigen presentation.",
+          "concept": "Immunosuppression",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9_11",
+          "stem": "Which suppressor populations may expand during sepsis?",
+          "options": {
+            "A": "Megakaryocytes and platelets",
+            "B": "B cells only",
+            "C": "Regulatory T cells and myeloid-derived suppressor cells",
+            "D": "Only neutrophils and RBCs"
+          },
+          "answer": "C",
+          "explanation": "Tregs and MDSCs are highlighted suppressor populations.",
+          "concept": "Immunosuppression",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9_12",
+          "stem": "An ICU patient develops an unusual secondary infection 10–14 days into sepsis. Which mechanism best explains this?",
+          "options": {
+            "A": "Polycythemia",
+            "B": "Sepsis-associated immunoparalysis",
+            "C": "Isolated hyperinflammation only",
+            "D": "Increased HLA-DR"
+          },
+          "answer": "B",
+          "explanation": "Profound immune suppression increases secondary infection risk.",
+          "concept": "Application",
           "difficulty": "application",
           "source_url": "https://drive.google.com/file/d/1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9/view?usp=drivesdk",
-          "source_card_id": "1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9-c01",
-          "style_profile": "KAU-formative-case-inspired",
-          "quality_status": "hold",
-          "exam_ready": false,
-          "case_style": "formative_short_case",
-          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9_13",
+          "stem": "What is the updated relationship between hyperinflammation and immunosuppression in sepsis?",
+          "options": {
+            "A": "They frequently overlap or occur simultaneously",
+            "B": "They always occur as two separate sequential stages",
+            "C": "Only hyperinflammation occurs",
+            "D": "Only immunosuppression occurs"
+          },
+          "answer": "A",
+          "explanation": "The lecture explicitly rejects a simple sequential two-stage model.",
+          "concept": "Updated concept",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9_14",
+          "stem": "Hyperinflammation may be localized to an infected lung while systemic blood shows immune suppression. What does this illustrate?",
+          "options": {
+            "A": "Sepsis affects only one organ",
+            "B": "Immune suppression excludes inflammation",
+            "C": "Cytokines are never systemic",
+            "D": "Different immune states can coexist in different body compartments"
+          },
+          "answer": "D",
+          "explanation": "The updated concept allows simultaneous compartment-specific immune states.",
+          "concept": "Updated concept",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9_15",
+          "stem": "What does PICS stand for?",
+          "options": {
+            "A": "Post-inflammatory Cardiac Shock",
+            "B": "Persistent Immune Cytokine Secretion",
+            "C": "Persistent Inflammation, Immunosuppression, and Catabolism Syndrome",
+            "D": "Primary Infection and Coagulation Syndrome"
+          },
+          "answer": "C",
+          "explanation": "PICS describes prolonged low-grade inflammation, immune weakness and catabolism.",
+          "concept": "PICS",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9_16",
+          "stem": "Which endothelial consequence of sepsis can impair organ oxygen delivery?",
+          "options": {
+            "A": "Coronary dilation only",
+            "B": "Microvascular clotting or immunothrombosis",
+            "C": "Increased HDL synthesis",
+            "D": "Reduced platelet production only"
+          },
+          "answer": "B",
+          "explanation": "Endothelial injury and immunothrombosis impair microvascular oxygen delivery.",
+          "concept": "Organ dysfunction",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9_17",
+          "stem": "Which tools remain routine for clinical recognition according to the lecture?",
+          "options": {
+            "A": "Lactate, CRP, procalcitonin and SOFA score",
+            "B": "Transcriptomics only",
+            "C": "Monocyte HLA-DR only",
+            "D": "Genetic sequencing only"
+          },
+          "answer": "A",
+          "explanation": "Routine bedside tools include lactate, CRP, procalcitonin and SOFA.",
+          "concept": "Recognition",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9_18",
+          "stem": "Which research marker is shaping precision sepsis approaches but is not yet routine?",
+          "options": {
+            "A": "Hemoglobin",
+            "B": "Serum sodium",
+            "C": "Platelet count",
+            "D": "Monocyte HLA-DR"
+          },
+          "answer": "D",
+          "explanation": "Monocyte HLA-DR is listed among research tools rather than routine bedside tools.",
+          "concept": "Precision sepsis",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
         }
       ],
       "eligibility_status": "allowed",
       "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
-      "quality_status": "hold",
-      "quality_reviewed_at": "2026-09-30T15:36:28.081Z",
+      "quality_status": "pass",
+      "quality_reviewed_at": "2026-09-30T18:00:03.506Z",
       "quality_policy_version": 2,
-      "quality_reason": "Legacy AI set used other questions' correct answers as distractors; withheld until objective-led rebuild.",
-      "exam_ready": false
+      "quality_reason": "Rebuilt directly from official 2026–27 lecture content.",
+      "exam_ready": true
     },
     {
       "id": "ai_set_1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV",
@@ -8232,190 +8383,377 @@
       "title": "Malaria I",
       "source_url": "https://drive.google.com/file/d/11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI/view?usp=drivesdk",
       "source_modified_time": "2026-09-12T12:18:21.789Z",
-      "source_validation": "pending_lecture_validation",
+      "source_validation": "lecture_verified_quality_rebuilt",
       "archived": false,
       "questions": [
         {
           "id": "ai_11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI_01",
-          "stem": "Which of the following best describes how malaria transmitted?",
+          "stem": "Which mosquito transmits human malaria?",
           "options": {
-            "A": "Synchronous rupture of infected RBCs and release of merozoites/inflammatory products.",
-            "B": "It can invade RBCs of all ages rather than a restricted subset.",
-            "C": "Merozoites invade RBCs and develop through ring/trophozoite and schizont stages.",
-            "D": "By the bite of an infected female Anopheles mosquito."
+            "A": "Female Anopheles",
+            "B": "Male Anopheles",
+            "C": "Aedes male",
+            "D": "Ixodes tick"
           },
-          "answer": "D",
-          "explanation": "By the bite of an infected female Anopheles mosquito.",
-          "concept": "Malaria I",
-          "difficulty": "application",
+          "answer": "A",
+          "explanation": "Malaria is transmitted mainly by an infected female Anopheles mosquito.",
+          "concept": "Transmission",
+          "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI/view?usp=drivesdk",
-          "source_card_id": "11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI-c01",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI_02",
-          "stem": "Which of the following best describes the first human stage after mosquito inoculation?",
+          "stem": "What infective stage is injected into humans by the mosquito?",
           "options": {
-            "A": "Merozoites invade RBCs and develop through ring/trophozoite and schizont stages.",
-            "B": "P. vivax and P. ovale.",
-            "C": "Sporozoites enter blood and invade hepatocytes.",
-            "D": "Sporozoites develop into schizonts that release merozoites into blood."
+            "A": "Merozoite",
+            "B": "Trophozoite",
+            "C": "Schizont",
+            "D": "Sporozoite"
           },
-          "answer": "C",
-          "explanation": "Sporozoites enter blood and invade hepatocytes.",
-          "concept": "Malaria I",
+          "answer": "D",
+          "explanation": "Sporozoites are injected during the mosquito blood meal.",
+          "concept": "Life cycle",
           "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI/view?usp=drivesdk",
-          "source_card_id": "11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI-c02",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI_03",
-          "stem": "What happens during the hepatic stage of malaria?",
+          "stem": "Which species is called malignant or subtertian malaria?",
           "options": {
-            "A": "Merozoites invade RBCs and develop through ring/trophozoite and schizont stages.",
-            "B": "Sporozoites develop into schizonts that release merozoites into blood.",
-            "C": "Sporozoites enter blood and invade hepatocytes.",
-            "D": "Synchronous rupture of infected RBCs and release of merozoites/inflammatory products."
+            "A": "P. ovale",
+            "B": "P. malariae",
+            "C": "Plasmodium falciparum",
+            "D": "P. vivax"
           },
-          "answer": "B",
-          "explanation": "Sporozoites develop into schizonts that release merozoites into blood.",
-          "concept": "Malaria I",
-          "difficulty": "understanding",
+          "answer": "C",
+          "explanation": "P. falciparum is the malignant/subtertian species.",
+          "concept": "Species",
+          "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI/view?usp=drivesdk",
-          "source_card_id": "11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI-c03",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI_04",
-          "stem": "What happens during the erythrocytic stage?",
+          "stem": "Which species produces quartan malaria?",
           "options": {
-            "A": "Merozoites invade RBCs and develop through ring/trophozoite and schizont stages.",
-            "B": "Synchronous rupture of infected RBCs and release of merozoites/inflammatory products.",
-            "C": "It can invade RBCs of all ages rather than a restricted subset.",
-            "D": "By the bite of an infected female Anopheles mosquito."
+            "A": "P. ovale",
+            "B": "P. malariae",
+            "C": "P. falciparum",
+            "D": "P. vivax"
           },
-          "answer": "A",
-          "explanation": "Merozoites invade RBCs and develop through ring/trophozoite and schizont stages.",
-          "concept": "Malaria I",
-          "difficulty": "application",
+          "answer": "B",
+          "explanation": "P. malariae causes quartan malaria.",
+          "concept": "Species",
+          "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI/view?usp=drivesdk",
-          "source_card_id": "11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI-c04",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI_05",
-          "stem": "What causes periodic fever in malaria?",
+          "stem": "What reaction occurs during the liver phase?",
           "options": {
-            "A": "Merozoites invade RBCs and develop through ring/trophozoite and schizont stages.",
-            "B": "It can invade RBCs of all ages rather than a restricted subset.",
-            "C": "By the bite of an infected female Anopheles mosquito.",
-            "D": "Synchronous rupture of infected RBCs and release of merozoites/inflammatory products."
+            "A": "Little or no inflammatory reaction",
+            "B": "Massive intravascular hemolysis",
+            "C": "Cerebral capillary blockage",
+            "D": "Platelet aggregation"
           },
-          "answer": "D",
-          "explanation": "Synchronous rupture of infected RBCs and release of merozoites/inflammatory products.",
-          "concept": "Malaria I",
+          "answer": "A",
+          "explanation": "The exoerythrocytic liver phase produces little or no reaction.",
+          "concept": "Pathogenesis",
           "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI/view?usp=drivesdk",
-          "source_card_id": "11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI-c05",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI_06",
-          "stem": "Which malaria species can infect RBCs of all ages?",
+          "stem": "What triggers the malaria fever paroxysm?",
           "options": {
-            "A": "Sporozoites enter blood and invade hepatocytes.",
-            "B": "By the bite of an infected female Anopheles mosquito.",
-            "C": "Plasmodium falciparum.",
-            "D": "P. vivax and P. ovale."
+            "A": "Mosquito bite itself",
+            "B": "Liver enlargement alone",
+            "C": "Only antibody production",
+            "D": "Rupture of blood schizonts with release of merozoites, pigment and toxins"
           },
-          "answer": "C",
-          "explanation": "Plasmodium falciparum.",
-          "concept": "Malaria I",
-          "difficulty": "understanding",
+          "answer": "D",
+          "explanation": "Erythrocyte rupture releases inflammatory material and produces paroxysms.",
+          "concept": "Pathogenesis",
+          "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI/view?usp=drivesdk",
-          "source_card_id": "11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI-c06",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI_07",
-          "stem": "Which of the following best explains why can falciparum parasitemia become very high?",
+          "stem": "What type of anemia is described in malaria?",
           "options": {
-            "A": "By the bite of an infected female Anopheles mosquito.",
-            "B": "It can invade RBCs of all ages rather than a restricted subset.",
-            "C": "Merozoites invade RBCs and develop through ring/trophozoite and schizont stages.",
-            "D": "Synchronous rupture of infected RBCs and release of merozoites/inflammatory products."
+            "A": "Macrocytic",
+            "B": "Aplastic only",
+            "C": "Normocytic normochromic",
+            "D": "Microcytic hypochromic only"
           },
-          "answer": "B",
-          "explanation": "It can invade RBCs of all ages rather than a restricted subset.",
-          "concept": "Malaria I",
-          "difficulty": "application",
+          "answer": "C",
+          "explanation": "Malaria causes normocytic normochromic anemia through multiple mechanisms.",
+          "concept": "Anemia",
+          "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI/view?usp=drivesdk",
-          "source_card_id": "11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI-c07",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI_08",
-          "stem": "Which species prefers reticulocytes?",
+          "stem": "Which Plasmodium species can invade both young and old RBCs?",
           "options": {
-            "A": "P. vivax and P. ovale.",
-            "B": "Plasmodium falciparum.",
-            "C": "Sporozoites enter blood and invade hepatocytes.",
-            "D": "By the bite of an infected female Anopheles mosquito."
+            "A": "P. malariae",
+            "B": "P. falciparum",
+            "C": "P. vivax",
+            "D": "P. ovale"
           },
-          "answer": "A",
-          "explanation": "P. vivax and P. ovale.",
-          "concept": "Malaria I",
+          "answer": "B",
+          "explanation": "P. falciparum can invade RBCs of all ages, allowing high parasitemia.",
+          "concept": "Pathogenesis",
           "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI/view?usp=drivesdk",
-          "source_card_id": "11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI-c08",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
-          "id": "ai_11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI_formcase01",
-          "stem": "A traveler returns from an endemic area with recurrent fever and an intraerythrocytic parasite on blood film. Which statement best describes the infection discussed in this lecture?",
+          "id": "ai_11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI_09",
+          "stem": "Which species preferentially invade young RBCs?",
           "options": {
-            "A": "Synchronous rupture of infected RBCs and release of merozoites/inflammatory products.",
-            "B": "It can invade RBCs of all ages rather than a restricted subset.",
-            "C": "Merozoites invade RBCs and develop through ring/trophozoite and schizont stages.",
-            "D": "By the bite of an infected female Anopheles mosquito."
+            "A": "P. vivax and P. ovale",
+            "B": "P. falciparum only",
+            "C": "P. malariae only",
+            "D": "All species equally"
+          },
+          "answer": "A",
+          "explanation": "Vivax and ovale target young RBCs.",
+          "concept": "Pathogenesis",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI_10",
+          "stem": "Which species preferentially invades old RBCs?",
+          "options": {
+            "A": "P. falciparum",
+            "B": "P. vivax",
+            "C": "P. ovale",
+            "D": "P. malariae"
           },
           "answer": "D",
-          "explanation": "By the bite of an infected female Anopheles mosquito.",
-          "concept": "Malaria I — formative-style case",
+          "explanation": "P. malariae targets older RBCs.",
+          "concept": "Pathogenesis",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI_11",
+          "stem": "Cytoadherence is especially important in which species?",
+          "options": {
+            "A": "P. malariae",
+            "B": "P. vivax only",
+            "C": "P. falciparum",
+            "D": "P. ovale"
+          },
+          "answer": "C",
+          "explanation": "Falciparum-infected RBCs adhere to endothelium and obstruct microcirculation.",
+          "concept": "Cytoadherence",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI_12",
+          "stem": "Relapse due to dormant liver hypnozoites occurs with which species?",
+          "options": {
+            "A": "All species",
+            "B": "P. vivax and P. ovale",
+            "C": "P. falciparum and P. malariae",
+            "D": "P. falciparum only"
+          },
+          "answer": "B",
+          "explanation": "Vivax and ovale can relapse from liver hypnozoites.",
+          "concept": "Recurrence",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI_13",
+          "stem": "Recrudescence is described with which species?",
+          "options": {
+            "A": "P. falciparum and P. malariae",
+            "B": "P. vivax and P. ovale only",
+            "C": "P. ovale only",
+            "D": "No malaria species"
+          },
+          "answer": "A",
+          "explanation": "Recrudescence follows persistent low-level blood parasitemia in falciparum and malariae.",
+          "concept": "Recurrence",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI_14",
+          "stem": "Duffy-negative individuals have innate resistance to which species?",
+          "options": {
+            "A": "P. falciparum",
+            "B": "P. malariae",
+            "C": "P. ovale",
+            "D": "P. vivax"
+          },
+          "answer": "D",
+          "explanation": "Absence of the Duffy RBC surface factor confers resistance to P. vivax.",
+          "concept": "Innate resistance",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI_15",
+          "stem": "Chronic P. malariae infection is associated with which immune-complex complication?",
+          "options": {
+            "A": "Blackwater fever",
+            "B": "Rheumatic fever",
+            "C": "Nephrotic syndrome",
+            "D": "Cerebral malaria"
+          },
+          "answer": "C",
+          "explanation": "P. malariae is associated with immune-complex nephrotic syndrome.",
+          "concept": "Immune reaction",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI_16",
+          "stem": "A patient has fever every 48 hours. Which species pair fits benign tertian malaria?",
+          "options": {
+            "A": "P. falciparum only",
+            "B": "P. vivax and P. ovale",
+            "C": "P. malariae and P. falciparum",
+            "D": "P. malariae only"
+          },
+          "answer": "B",
+          "explanation": "Vivax and ovale classically produce 48-hour fever periodicity.",
+          "concept": "Clinical",
           "difficulty": "application",
           "source_url": "https://drive.google.com/file/d/11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI/view?usp=drivesdk",
-          "source_card_id": "11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI-c01",
-          "style_profile": "KAU-formative-case-inspired",
-          "quality_status": "hold",
-          "exam_ready": false,
-          "case_style": "formative_short_case",
-          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI_17",
+          "stem": "A patient has fever every 72 hours. Which species is most likely?",
+          "options": {
+            "A": "P. malariae",
+            "B": "P. vivax",
+            "C": "P. ovale",
+            "D": "P. falciparum"
+          },
+          "answer": "A",
+          "explanation": "P. malariae causes quartan 72-hour fever.",
+          "concept": "Clinical",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI_18",
+          "stem": "Which species causes irregular 36–48-hour or almost continuous fever in the lecture?",
+          "options": {
+            "A": "P. malariae",
+            "B": "P. vivax",
+            "C": "P. ovale",
+            "D": "P. falciparum"
+          },
+          "answer": "D",
+          "explanation": "Falciparum produces malignant/subtertian fever patterns.",
+          "concept": "Clinical",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI_19",
+          "stem": "What causes severe organ complications in falciparum malaria?",
+          "options": {
+            "A": "Low parasitemia",
+            "B": "Absence of RBC invasion",
+            "C": "Cytoadherence with capillary obstruction and tissue anoxia",
+            "D": "Dormant liver hypnozoites only"
+          },
+          "answer": "C",
+          "explanation": "Adherent infected RBCs obstruct capillaries, impairing microcirculation and causing tissue injury.",
+          "concept": "Complications",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI_20",
+          "stem": "A falciparum patient develops coma and convulsions. Which complication is described?",
+          "options": {
+            "A": "Hyperreactive splenomegaly only",
+            "B": "Cerebral malaria",
+            "C": "Quartan nephrosis",
+            "D": "Relapse"
+          },
+          "answer": "B",
+          "explanation": "Cerebral malaria produces severe CNS manifestations including convulsions and coma.",
+          "concept": "Complications",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
         }
       ],
       "eligibility_status": "allowed",
       "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
-      "quality_status": "hold",
-      "quality_reviewed_at": "2026-09-30T15:36:28.081Z",
+      "quality_status": "pass",
+      "quality_reviewed_at": "2026-09-30T18:00:03.506Z",
       "quality_policy_version": 2,
-      "quality_reason": "Legacy AI set used other questions' correct answers as distractors; withheld until objective-led rebuild.",
-      "exam_ready": false
+      "quality_reason": "Rebuilt directly from official 2026–27 lecture content.",
+      "exam_ready": true
     },
     {
       "id": "ai_set_1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8",

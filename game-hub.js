@@ -435,14 +435,23 @@ function gameRenderLeaderboard(){
   if(meta)meta.textContent=rows.length+' MED25 accounts · ranked by XP '+label+' · streak bonuses included';
   if(!rows.length){host.innerHTML='<div class="gameEmpty">No ranked players yet. Be the first.</div>';return}
   const visibleRows=gameLeaderboardExpanded?rows:rows.slice(0,10);
-  host.innerHTML=visibleRows.map((r,i)=>{
-    const rank=i+1,medal=rank===1?'🥇':rank===2?'🥈':rank===3?'🥉':String(rank);
+  const renderRow=(r,rank,extra='')=>{
+    const medal=rank===1?'🥇':rank===2?'🥈':rank===3?'🥉':String(rank);
     const isMe=!!gameProfile&&String(r.username).toLowerCase()===String(gameProfile.username).toLowerCase();
     const lv=gameLevelInfo(r.points);
-    return '<div class="gameLeaderboardRow '+(isMe?'me':'')+'"><span class="gameRank">'+medal+'</span>'+gameAvatarMarkup(r,'small')+
+    return '<div class="gameLeaderboardRow '+(isMe?'me ':'')+extra+'"><span class="gameRank">'+medal+'</span>'+gameAvatarMarkup(r,'small')+
       '<b>'+esc(r.username||'Student')+(isMe?' <small>you</small>':'')+'<em>Lv '+lv.level+' · '+lv.title+'</em></b>'+
       '<strong>'+gameLeaderboardValue(r,gameLeaderboardMode).toLocaleString()+' XP</strong></div>';
-  }).join('')+(rows.length>10?'<button type="button" id="gameLeaderboardExpand" class="gameLeaderboardExpand">'+(gameLeaderboardExpanded?'Show top 10 ↑':'Show all ↓')+'</button>':'');
+  };
+  let html=visibleRows.map((r,i)=>renderRow(r,i+1)).join('');
+  if(!gameLeaderboardExpanded&&gameProfile){
+    const myIndex=rows.findIndex(r=>String(r.username).toLowerCase()===String(gameProfile.username).toLowerCase());
+    if(myIndex>=10){
+      html+='<div class="gameLeaderboardYouDivider"><span>Your position</span></div>'+renderRow(rows[myIndex],myIndex+1,'outsideTop');
+    }
+  }
+  html+=(rows.length>10?'<button type="button" id="gameLeaderboardExpand" class="gameLeaderboardExpand">'+(gameLeaderboardExpanded?'Show top 10 ↑':'Show all ↓')+'</button>':'');
+  host.innerHTML=html;
   document.getElementById('gameLeaderboardExpand')?.addEventListener('click',()=>{gameLeaderboardExpanded=!gameLeaderboardExpanded;gameRenderLeaderboard()});
 }
 

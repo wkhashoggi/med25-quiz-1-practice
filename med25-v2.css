@@ -1,0 +1,434 @@
+/* MED25 v2 — professional product design layer */
+:root{
+  --v2-bg:#f6f7f9;--v2-surface:#ffffff;--v2-surface-2:#f9fafb;--v2-text:#111827;
+  --v2-muted:#667085;--v2-subtle:#98a2b3;--v2-line:#e4e7ec;--v2-line-strong:#d0d5dd;
+  --v2-accent:#2457d6;--v2-accent-hover:#1d4ed8;--v2-accent-soft:#eef4ff;
+  --v2-success:#079455;--v2-success-soft:#ecfdf3;--v2-danger:#d92d20;--v2-danger-soft:#fef3f2;
+  --v2-warning:#dc6803;--v2-warning-soft:#fff7ed;
+  --v2-shadow-sm:0 1px 2px rgba(16,24,40,.03),0 1px 3px rgba(16,24,40,.06);
+  --v2-shadow:0 8px 24px rgba(16,24,40,.07);
+  --v2-shadow-lg:0 20px 55px rgba(16,24,40,.13);
+  --v2-radius-sm:10px;--v2-radius:16px;--v2-radius-lg:22px;
+  --v2-sidebar:232px;
+  --med-blue:var(--v2-accent);--med-blue-soft:var(--v2-accent-soft);--med-text:var(--v2-text);
+  --med-muted:var(--v2-muted);--med-line:var(--v2-line);--med-card:var(--v2-surface);
+  --med-soft:var(--v2-surface-2);--med-success:var(--v2-success);--med-success-soft:var(--v2-success-soft);
+  --med-danger:var(--v2-danger);--med-danger-soft:var(--v2-danger-soft);--med-shadow:var(--v2-shadow-sm);
+}
+html[data-theme="dark"]{
+  --v2-bg:#0d1117;--v2-surface:#151b23;--v2-surface-2:#1b222c;--v2-text:#f2f4f7;
+  --v2-muted:#a6b0bf;--v2-subtle:#7d8998;--v2-line:#28323e;--v2-line-strong:#394554;
+  --v2-accent:#7aa2ff;--v2-accent-hover:#9ab8ff;--v2-accent-soft:#1a2947;
+  --v2-success:#47cd89;--v2-success-soft:#123225;--v2-danger:#f97066;--v2-danger-soft:#3a1c1d;
+  --v2-warning:#fdb022;--v2-warning-soft:#352812;
+  --v2-shadow-sm:0 1px 2px rgba(0,0,0,.16);--v2-shadow:0 10px 28px rgba(0,0,0,.22);--v2-shadow-lg:0 24px 64px rgba(0,0,0,.36);
+}
+*{box-sizing:border-box}
+html{background:var(--v2-bg);scroll-behavior:smooth}
+body{
+  margin:0;background:var(--v2-bg)!important;color:var(--v2-text)!important;
+  font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Inter","Segoe UI",sans-serif!important;
+  font-size:15px;line-height:1.5;letter-spacing:-.005em;
+}
+button,input,select,textarea{font:inherit}
+button{touch-action:manipulation}
+::selection{background:color-mix(in srgb,var(--v2-accent) 20%,transparent)}
+.shell{
+  width:auto!important;max-width:none!important;margin:0 0 0 calc(var(--v2-sidebar) + 42px)!important;
+  padding:30px 34px 70px!important;min-height:100vh;
+}
+.hidden{display:none!important}
+
+/* Desktop sidebar */
+.studyTabs.appNav{
+  position:fixed!important;z-index:90;left:18px;top:18px;bottom:18px;width:var(--v2-sidebar);
+  margin:0!important;padding:15px 12px!important;border:1px solid var(--v2-line)!important;
+  border-radius:22px!important;background:color-mix(in srgb,var(--v2-surface) 96%,transparent)!important;
+  box-shadow:var(--v2-shadow)!important;backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);
+  display:flex!important;flex-direction:column!important;gap:0!important;overflow:hidden!important;
+}
+.appBrand{
+  display:flex!important;align-items:center;gap:10px;padding:4px 7px 17px!important;margin:0 0 9px!important;
+  border-bottom:1px solid var(--v2-line);
+}
+.appBrandMark{
+  width:38px!important;height:38px!important;display:grid!important;place-items:center!important;flex:0 0 38px;
+  border-radius:12px!important;background:var(--v2-text)!important;color:var(--v2-surface)!important;
+  font-size:11px!important;font-weight:900!important;letter-spacing:-.04em!important;
+}
+.appBrandText b{display:block;font-size:15px!important;line-height:1.05;color:var(--v2-text)!important;letter-spacing:-.02em}
+.appBrandText small{display:block;margin-top:3px;font-size:11px!important;color:var(--v2-muted)!important}
+.appNavLinks{display:flex!important;flex-direction:column!important;gap:3px!important;min-height:0;overflow:auto;padding:2px!important}
+.v2NavSection{
+  padding:13px 10px 5px;color:var(--v2-subtle);font-size:10px;font-weight:800;letter-spacing:.095em;text-transform:uppercase;
+}
+.studyTab{
+  position:relative;flex:0 0 auto!important;width:100%!important;min-height:44px!important;
+  display:flex!important;align-items:center!important;justify-content:flex-start!important;gap:10px!important;
+  padding:9px 10px!important;border-radius:11px!important;background:transparent!important;border:0!important;
+  color:var(--v2-muted)!important;font-size:13px!important;font-weight:650!important;text-align:left!important;
+  transition:background .14s ease,color .14s ease,transform .14s ease;
+}
+.studyTab:hover{background:var(--v2-surface-2)!important;color:var(--v2-text)!important}
+.studyTab.active{background:var(--v2-accent-soft)!important;color:var(--v2-accent)!important}
+.studyTab.active:before{
+  content:"";position:absolute;left:0;top:10px;bottom:10px;width:3px;border-radius:999px;background:var(--v2-accent)
+}
+.navIcon{width:24px!important;height:24px!important;flex:0 0 24px!important}
+.navSvg{width:19px!important;height:19px!important;stroke-width:1.8!important}
+.appNavActions{margin-top:auto!important;padding:11px 5px 2px!important;border-top:1px solid var(--v2-line);display:flex!important;gap:8px}
+.themeToggle{
+  width:38px!important;height:38px!important;border:1px solid var(--v2-line)!important;border-radius:11px!important;
+  background:var(--v2-surface-2)!important;color:var(--v2-text)!important;cursor:pointer!important
+}
+.v2SidebarMeta{padding:9px 7px 0;color:var(--v2-subtle);font-size:10px;line-height:1.45}
+
+/* Page header */
+.hero{
+  position:relative!important;margin:0 0 18px!important;padding:6px 2px 20px!important;border:0!important;border-radius:0!important;
+  background:transparent!important;box-shadow:none!important;color:var(--v2-text)!important;overflow:visible!important;
+}
+.hero:before,.hero:after{display:none!important}
+.hero h1{
+  margin:0!important;color:var(--v2-text)!important;font-size:32px!important;line-height:1.12!important;
+  letter-spacing:-.035em!important;font-weight:760!important;
+}
+.hero>p{
+  margin:8px 0 0!important;max-width:790px!important;color:var(--v2-muted)!important;font-size:14px!important;line-height:1.55!important
+}
+.arabic-credit{display:none!important}
+.hero .stats{margin-top:18px!important;gap:9px!important}
+.hero .stat{
+  background:var(--v2-surface)!important;border:1px solid var(--v2-line)!important;border-radius:14px!important;
+  box-shadow:var(--v2-shadow-sm)!important;color:var(--v2-text)!important;padding:13px 15px!important
+}
+.hero .stat b{font-size:22px!important;color:var(--v2-text)!important}
+.hero .stat span{font-size:11px!important;color:var(--v2-muted)!important}
+.progressbar{height:5px!important;background:var(--v2-line)!important;border-radius:999px!important;margin-top:10px!important}
+.progressbar>div{background:var(--v2-accent)!important}
+
+/* Home — one clear focus */
+.hubSection{margin-top:0!important}
+.homeTop{
+  display:grid!important;grid-template-columns:minmax(0,1.25fr) minmax(310px,.75fr)!important;
+  grid-template-areas:"focus welcome" "focus account"!important;gap:14px!important;margin:0 0 14px!important;
+}
+.homeContinue{
+  grid-area:focus!important;min-height:275px;display:flex;flex-direction:column;justify-content:flex-end;
+  padding:28px!important;border:0!important;border-radius:var(--v2-radius-lg)!important;
+  background:
+    radial-gradient(circle at 86% 15%,rgba(255,255,255,.18),transparent 28%),
+    linear-gradient(135deg,#1f4fc7 0%,#2449a7 48%,#172554 100%)!important;
+  color:#fff!important;box-shadow:0 18px 42px rgba(29,78,216,.20)!important;
+}
+.homeContinueEyebrow{
+  margin-bottom:auto!important;color:#dbe7ff!important;font-size:11px!important;font-weight:800!important;letter-spacing:.09em!important
+}
+.homeContinue h2{max-width:680px!important;margin:18px 0 7px!important;color:#fff!important;font-size:28px!important;line-height:1.2!important;letter-spacing:-.03em!important}
+.homeContinue p{margin:0!important;color:#dbe7ff!important;font-size:13px!important}
+.homeContinueProgress{height:6px!important;background:rgba(255,255,255,.18)!important;margin:22px 0 14px!important}
+.homeContinueProgress span{background:#fff!important}
+.homeContinueBtn{
+  align-self:flex-start!important;min-height:44px!important;padding:10px 15px!important;border:0!important;border-radius:11px!important;
+  background:#fff!important;color:#173b85!important;font-size:13px!important;font-weight:800!important;box-shadow:none!important
+}
+.homeWelcome{
+  grid-area:welcome!important;padding:22px!important;border:1px solid var(--v2-line)!important;border-radius:var(--v2-radius-lg)!important;
+  background:var(--v2-surface)!important;box-shadow:var(--v2-shadow-sm)!important;color:var(--v2-text)!important
+}
+.homeWelcome .homeEyebrow{font-size:10px!important;letter-spacing:.085em!important;color:var(--v2-subtle)!important;font-weight:800!important}
+.homeWelcome h2{font-size:24px!important;line-height:1.2!important;margin:8px 0 5px!important;color:var(--v2-text)!important;letter-spacing:-.025em}
+.homeWelcome p{font-size:13px!important;color:var(--v2-muted)!important;margin:0!important}
+#homeSync{margin-top:12px!important;padding-top:12px!important;border-top:1px solid var(--v2-line)!important;font-size:10px!important;color:var(--v2-subtle)!important}
+.homeAuthArea{
+  grid-area:account!important;padding:18px!important;border:1px solid var(--v2-line)!important;border-radius:var(--v2-radius-lg)!important;
+  background:var(--v2-surface)!important;box-shadow:var(--v2-shadow-sm)!important
+}
+.homeAuthIntro h3{font-size:14px!important;margin:4px 0 4px!important}.homeAuthIntro p{font-size:11px!important;margin:0!important;color:var(--v2-muted)!important}
+.homeCardLabel{font-size:10px!important;letter-spacing:.085em!important;color:var(--v2-subtle)!important;font-weight:850!important}
+.authbox.homeAuthBox{
+  margin:12px 0 0!important;padding:12px 0 0!important;border:0!important;border-top:1px solid var(--v2-line)!important;
+  border-radius:0!important;background:transparent!important;color:var(--v2-text)!important;box-shadow:none!important
+}
+.authbox .authrow{gap:7px!important}
+.authbox input{
+  min-width:0!important;border:1px solid var(--v2-line-strong)!important;background:var(--v2-surface)!important;color:var(--v2-text)!important;
+  min-height:42px!important;border-radius:10px!important;font-size:13px!important
+}
+.authbox button{
+  min-height:42px!important;border:1px solid var(--v2-line-strong)!important;background:var(--v2-text)!important;color:var(--v2-surface)!important;
+  border-radius:10px!important;padding:9px 12px!important;font-size:12px!important
+}
+.authbox button.secondary{background:var(--v2-surface)!important;color:var(--v2-text)!important}
+.authbox .authmeta,.authbox .authstatus{font-size:10px!important;color:var(--v2-muted)!important}
+.mobileAuthToggle{background:var(--v2-surface-2)!important;border-color:var(--v2-line)!important;color:var(--v2-text)!important}
+
+/* Home dashboard */
+.hubGrid{gap:14px!important}
+.hubCard{
+  background:var(--v2-surface)!important;border:1px solid var(--v2-line)!important;border-radius:var(--v2-radius)!important;
+  box-shadow:var(--v2-shadow-sm)!important;padding:19px!important;color:var(--v2-text)!important
+}
+.homeOverall{grid-column:span 6!important;min-height:150px!important}
+.gameLeaderboardCard{grid-column:span 6!important}
+#homeMetrics{display:contents!important}
+.hubMetric{grid-column:span 4!important;min-height:128px!important}
+.homeMetricButton{text-align:left!important;transition:transform .14s ease,border-color .14s ease,box-shadow .14s ease!important}
+.homeMetricButton:hover{transform:translateY(-2px);border-color:color-mix(in srgb,var(--v2-accent) 22%,var(--v2-line))!important;box-shadow:var(--v2-shadow)!important}
+.homeMetricIcon{background:var(--v2-accent-soft)!important;color:var(--v2-accent)!important}
+.hubMetric b{font-size:28px!important;letter-spacing:-.035em!important;color:var(--v2-text)!important}
+.hubMetric>span:not(.homeMetricIcon){font-size:12px!important;color:var(--v2-muted)!important}
+.hubBar{height:5px!important;background:var(--v2-line)!important;margin-top:10px!important}
+.hubBar span,.homeOverallTrack span,.lectureMiniBar span{background:var(--v2-accent)!important}
+.homeOverallTop b{font-size:38px!important;letter-spacing:-.05em!important}.homeOverallTop span{font-size:12px!important;color:var(--v2-muted)!important}
+.homeOverallTrack{height:7px!important;background:var(--v2-line)!important}
+.homeInsightCard h3,.lectureDashboardCard h3,.gameLeaderboardCard h3{font-size:17px!important;letter-spacing:-.02em!important}
+.homeTextBtn{font-size:12px!important;color:var(--v2-accent)!important}
+.hubRow{padding:12px 0!important}.hubRowMain b{font-size:13px!important;color:var(--v2-text)!important}.hubRowMain span{font-size:11px!important}.hubRowScore{font-size:12px!important}
+.lectureDashHead{padding:20px!important}.lectureDashHead p{font-size:12px!important}
+.lectureDashFilters select,.lectureDashFilters input{min-height:40px!important;font-size:12px!important;border-color:var(--v2-line-strong)!important;background:var(--v2-surface)!important;color:var(--v2-text)!important}
+.lectureDashSummary{font-size:11px!important;background:var(--v2-surface-2)!important;border-color:var(--v2-line)!important}
+.lectureDashRow{padding-top:12px!important;padding-bottom:12px!important;border-color:var(--v2-line)!important}
+.lectureDashLecture b,.lectureDashCell b,.lectureDashProgress b{font-size:12px!important;color:var(--v2-text)!important}.lectureDashLecture span,.lectureDashCell span{font-size:10px!important}
+
+/* Leaderboard — top 3 feel intentional */
+.gameLeaderboardTabs{display:flex!important;gap:4px!important;padding:4px!important;border:1px solid var(--v2-line)!important;border-radius:11px!important;background:var(--v2-surface-2)!important;width:max-content!important;margin:10px 0 12px!important}
+.gameLeaderboardTabs button{
+  border:0!important;background:transparent!important;color:var(--v2-muted)!important;border-radius:8px!important;padding:7px 10px!important;font-size:11px!important;font-weight:750!important
+}
+.gameLeaderboardTabs button.active{background:var(--v2-surface)!important;color:var(--v2-text)!important;box-shadow:var(--v2-shadow-sm)!important}
+.gameLeaderboardMeta{font-size:10px!important;margin-bottom:12px!important}
+.gameLeaderboardList{grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:8px!important}
+.gameLeaderboardRow{
+  min-height:48px!important;padding:8px 10px!important;border:1px solid var(--v2-line)!important;border-radius:12px!important;background:var(--v2-surface)!important
+}
+.gameLeaderboardRow:nth-child(-n+3){
+  display:flex!important;flex-direction:column!important;justify-content:center!important;gap:5px!important;min-height:138px!important;text-align:center!important;background:var(--v2-surface-2)!important
+}
+.gameLeaderboardRow:nth-child(1){border-color:#e7c24f!important;background:linear-gradient(180deg,#fffdf3,var(--v2-surface))!important}
+html[data-theme="dark"] .gameLeaderboardRow:nth-child(1){background:linear-gradient(180deg,#332f1d,var(--v2-surface))!important}
+.gameLeaderboardRow:nth-child(-n+3) .gameRank{font-size:18px!important}
+.gameLeaderboardRow:nth-child(-n+3) .gameAvatar{width:38px!important;height:38px!important}
+.gameLeaderboardRow:nth-child(-n+3)>b{white-space:normal!important;text-align:center!important;font-size:11px!important}
+.gameLeaderboardRow:nth-child(-n+3)>strong{font-size:11px!important}
+.gameLeaderboardRow:nth-child(n+4){grid-column:1/-1!important;grid-template-columns:30px 34px minmax(0,1fr) auto!important}
+.gameLeaderboardRow>b{font-size:12px!important}.gameLeaderboardRow>b em{font-size:9px!important;color:var(--v2-subtle)!important}.gameLeaderboardRow strong{font-size:12px!important}
+.gameLeaderboardRow.me{border-color:color-mix(in srgb,var(--v2-accent) 42%,var(--v2-line))!important;background:var(--v2-accent-soft)!important}
+.v2MyRank{
+  grid-column:1/-1;padding:10px 12px;border:1px solid color-mix(in srgb,var(--v2-accent) 30%,var(--v2-line));
+  border-radius:11px;background:var(--v2-accent-soft);color:var(--v2-accent);font-size:11px;font-weight:750
+}
+
+/* Question areas */
+.toolbar,.aiToolbar{
+  top:18px!important;margin:0 0 14px!important;padding:14px!important;border:1px solid var(--v2-line)!important;border-radius:var(--v2-radius)!important;
+  background:color-mix(in srgb,var(--v2-surface) 94%,transparent)!important;box-shadow:var(--v2-shadow-sm)!important;backdrop-filter:blur(16px)
+}
+.controls,.aiControls{gap:9px!important}
+.control,.aiControl,.qaField select,.qaMultiBtn{
+  min-height:44px!important;border:1px solid var(--v2-line-strong)!important;border-radius:11px!important;
+  background:var(--v2-surface)!important;color:var(--v2-text)!important;font-size:13px!important;padding:10px 12px!important
+}
+.chips,.aiChips{gap:6px!important;margin-top:10px!important}
+.chip,.aiChip,.qaClearBtn,.aiBtn,.btn{
+  min-height:36px!important;border:1px solid var(--v2-line)!important;border-radius:10px!important;background:var(--v2-surface)!important;
+  color:var(--v2-muted)!important;font-size:11px!important;font-weight:700!important;padding:7px 10px!important
+}
+.chip.active,.aiChip.active{background:var(--v2-accent-soft)!important;border-color:color-mix(in srgb,var(--v2-accent) 28%,var(--v2-line))!important;color:var(--v2-accent)!important}
+.qaUnifiedHead b{font-size:13px!important}.qaUnifiedHead span,.qaFilterLabel,.qaField>span{font-size:10px!important}
+.qaMultiPanel{background:var(--v2-surface)!important;border-color:var(--v2-line)!important;box-shadow:var(--v2-shadow-lg)!important}
+.qaCheck span{font-size:12px!important;color:var(--v2-text)!important}
+.panel,.aiLayout{grid-template-columns:minmax(0,900px) minmax(230px,280px)!important;gap:16px!important;justify-content:center!important}
+.list,.aiList{gap:13px!important}
+.qcard,.aiCard{
+  padding:22px 24px!important;border:1px solid var(--v2-line)!important;border-radius:18px!important;background:var(--v2-surface)!important;
+  box-shadow:var(--v2-shadow-sm)!important;scroll-margin-top:96px!important
+}
+.qtop,.aiTop{margin-bottom:5px!important}
+.pill,.aiPill{font-size:10px!important;padding:5px 8px!important;border:1px solid var(--v2-line)!important;background:var(--v2-surface-2)!important;color:var(--v2-muted)!important}
+.sgLecturePill{background:var(--v2-accent-soft)!important;color:var(--v2-accent)!important;border-color:transparent!important}
+.qnum,.examQuestionNumber{font-size:11px!important;color:var(--v2-subtle)!important}
+.stem,.aiStem{
+  margin:17px 0 16px!important;font-size:19px!important;line-height:1.5!important;font-weight:680!important;letter-spacing:-.012em!important;color:var(--v2-text)!important
+}
+.options,.aiOptions{gap:9px!important}
+.option,.aiOption{
+  min-height:58px!important;padding:13px 14px!important;border:1px solid var(--v2-line-strong)!important;border-radius:13px!important;
+  background:var(--v2-surface)!important;color:var(--v2-text)!important;font-size:15px!important;line-height:1.45!important;gap:11px!important
+}
+.option:hover:not(:disabled),.aiOption:hover:not(:disabled){border-color:color-mix(in srgb,var(--v2-accent) 40%,var(--v2-line))!important;background:var(--v2-accent-soft)!important}
+.option .letter,.aiLetter{
+  width:28px!important;height:28px!important;min-width:28px!important;display:grid!important;place-items:center!important;
+  border-radius:8px!important;background:var(--v2-surface-2)!important;color:var(--v2-muted)!important;font-size:12px!important
+}
+.option.correct,.aiOption.correct{background:var(--v2-success-soft)!important;border-color:color-mix(in srgb,var(--v2-success) 45%,var(--v2-line))!important}
+.option.wrong,.aiOption.wrong{background:var(--v2-danger-soft)!important;border-color:color-mix(in srgb,var(--v2-danger) 45%,var(--v2-line))!important}
+.feedback,.aiFeedback{padding:14px 15px!important;border-radius:13px!important;font-size:13px!important;line-height:1.55!important}
+.explain{font-size:13px!important;line-height:1.55!important}
+.actions,.aiActions{margin-top:14px!important}
+.sourcebtn{background:var(--v2-accent-soft)!important;color:var(--v2-accent)!important;border-color:transparent!important}
+.questionNextBtn,.quizNextBtn{
+  min-height:48px!important;border:0!important;border-radius:12px!important;background:var(--v2-text)!important;color:var(--v2-surface)!important;
+  font-size:13px!important;font-weight:800!important
+}
+.sidebar,.aiSidebar{gap:12px!important}
+.box,.aiBox{
+  padding:16px!important;border:1px solid var(--v2-line)!important;border-radius:15px!important;background:var(--v2-surface)!important;box-shadow:var(--v2-shadow-sm)!important
+}
+.box h3,.aiBox h3{font-size:13px!important}.box p,.aiBox p,.small{font-size:11px!important;color:var(--v2-muted)!important}
+.aiPager{border-color:var(--v2-line)!important;background:var(--v2-surface)!important}.aiPager span{font-size:11px!important}
+
+/* Mistake quiz */
+.quizHero,.quizCard,.quizComplete{
+  border-color:var(--v2-line)!important;background:var(--v2-surface)!important;border-radius:var(--v2-radius-lg)!important;box-shadow:var(--v2-shadow-sm)!important
+}
+.quizHero{padding:24px!important}.quizHero h2{font-size:26px!important}.quizHero p{font-size:12px!important}
+.quizStat{border-color:var(--v2-line)!important;background:var(--v2-surface)!important}.quizStat span{font-size:10px!important}
+.quizCard{padding:24px!important}.quizCard h3{font-size:20px!important}
+.quizOption{font-size:15px!important;border-color:var(--v2-line-strong)!important;background:var(--v2-surface)!important;color:var(--v2-text)!important}
+
+/* Flashcards — modern, not old desktop app */
+.ankiShell{
+  border:1px solid var(--v2-line)!important;border-radius:var(--v2-radius-lg)!important;background:var(--v2-surface)!important;
+  box-shadow:var(--v2-shadow-sm)!important;overflow:hidden!important
+}
+.ankiBar,.ankiStudyTop,.ankiBottom{background:var(--v2-surface)!important;border-color:var(--v2-line)!important;padding:15px 18px!important}
+.ankiBar h2{font-size:19px!important;color:var(--v2-text)!important}
+.ankiBtn,.ankiRate{
+  min-height:40px!important;border:1px solid var(--v2-line-strong)!important;border-radius:10px!important;background:var(--v2-surface)!important;
+  color:var(--v2-text)!important;font-size:12px!important
+}
+.ankiBtn.primary{background:var(--v2-accent)!important;border-color:var(--v2-accent)!important;color:#fff!important}
+.ankiBrowser,.flashStatsPanel{background:var(--v2-surface)!important}
+.ankiSearchRow,.ankiDeckRow,.ankiDeckHead,.flashSyncNote,.flashSubject,.flashStatsPanel{border-color:var(--v2-line)!important}
+.ankiSearch{min-height:43px!important;border-radius:10px!important;border-color:var(--v2-line-strong)!important;background:var(--v2-surface)!important;color:var(--v2-text)!important}
+.ankiDeckHead{background:var(--v2-surface-2)!important;font-size:10px!important}
+.ankiDeckRow{padding-top:12px!important;padding-bottom:12px!important}.ankiDeckRow:hover{background:var(--v2-surface-2)!important}
+.ankiDeckTitle b{font-size:14px!important;color:var(--v2-text)!important}.ankiDeckTitle span{font-size:11px!important;color:var(--v2-muted)!important}
+.ankiStudy{background:var(--v2-bg)!important;min-height:620px!important}
+.ankiCard{
+  width:min(780px,96%)!important;min-height:360px!important;padding:44px!important;border:1px solid var(--v2-line)!important;border-radius:18px!important;
+  background:var(--v2-surface)!important;box-shadow:var(--v2-shadow)!important
+}
+.ankiCard .front{font-size:25px!important;color:var(--v2-text)!important}.ankiAnswer{font-size:19px!important;color:var(--v2-text)!important}
+.ankiDivider{background:var(--v2-line)!important}
+.flashStatBox{border-color:var(--v2-line)!important;background:var(--v2-surface-2)!important}.flashStatBox span{font-size:10px!important}
+
+/* Mock exam */
+.mockSection{margin-top:0!important}
+.mockBuilder,.mockExamShell,.mockResults{max-width:1080px!important;margin:0 auto!important}
+.mockSetupTop,.mockControls,.mockMap,.mockBuildFoot,.mockExamTop,.mockQuestionCard,.mockResultHero,.mockReviewCard{
+  border-color:var(--v2-line)!important;background:var(--v2-surface)!important;box-shadow:var(--v2-shadow-sm)!important
+}
+.mockSetupTop{padding:24px!important;border-radius:var(--v2-radius-lg)!important}
+.mockSetupTop h2{font-size:26px!important;color:var(--v2-text)!important}.mockSetupTop p{font-size:12px!important;color:var(--v2-muted)!important}
+.mockControls{border-radius:16px!important;padding:16px!important}
+.mockField>span{font-size:10px!important}.mockTimeInput input,.mockSubjectCard input{
+  border-color:var(--v2-line-strong)!important;background:var(--v2-surface)!important;color:var(--v2-text)!important
+}
+.mockSourceChoice{background:var(--v2-surface-2)!important;border-color:var(--v2-line)!important}
+.mockSourceChoice button{color:var(--v2-muted)!important}.mockSourceChoice button.active{background:var(--v2-surface)!important;color:var(--v2-text)!important;box-shadow:var(--v2-shadow-sm)!important}
+.mockMap{border-radius:var(--v2-radius-lg)!important}.mockMapHead{padding:20px!important}
+.mockMapHead h3{font-size:19px!important}.mockMapHead p{font-size:12px!important}
+.mockSubjectCard{border-color:var(--v2-line)!important;background:var(--v2-surface)!important;border-radius:14px!important}
+.mockSubjectMain b,.mockLectureRow b{color:var(--v2-text)!important}.mockSubjectMain span,.mockLectureRow small{font-size:10px!important;color:var(--v2-muted)!important}
+.mockLectureList{background:var(--v2-surface-2)!important}
+.mockStartBtn{background:var(--v2-text)!important;color:var(--v2-surface)!important;border-radius:12px!important;min-height:48px!important}
+.mockQuestionCard{border-radius:18px!important;padding:24px!important}.mockQuestionCard h3{font-size:20px!important;line-height:1.5!important}
+.mockOption{min-height:58px!important;border-color:var(--v2-line-strong)!important;background:var(--v2-surface)!important;color:var(--v2-text)!important;font-size:15px!important}
+.mockTimerBox{background:var(--v2-surface-2)!important;border-color:var(--v2-line)!important}
+.mockQuestionMap button{border-color:var(--v2-line)!important;background:var(--v2-surface)!important;color:var(--v2-muted)!important}
+.mockQuestionMap button.current{background:var(--v2-accent)!important;color:#fff!important;border-color:var(--v2-accent)!important}
+.mockQuestionMap button.answered{border-color:color-mix(in srgb,var(--v2-success) 40%,var(--v2-line))!important}
+.mockNoPoints{font-size:11px!important;color:var(--v2-muted)!important}
+
+/* Professional footer + legal sheets */
+.v2Footer{
+  margin:36px 0 0;padding:22px 2px 0;border-top:1px solid var(--v2-line);display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap
+}
+.v2FooterBrand{display:flex;align-items:center;gap:10px}.v2FooterMark{width:30px;height:30px;border-radius:9px;display:grid;place-items:center;background:var(--v2-text);color:var(--v2-surface);font-size:9px;font-weight:900}
+.v2FooterBrand b{display:block;font-size:12px}.v2FooterBrand span{display:block;font-size:10px;color:var(--v2-muted)}
+.v2FooterLinks{display:flex;gap:5px;flex-wrap:wrap}.v2FooterLinks button{
+  border:0;background:transparent;color:var(--v2-muted);font-size:11px;padding:7px 8px;border-radius:8px;cursor:pointer
+}
+.v2FooterLinks button:hover{background:var(--v2-surface-2);color:var(--v2-text)}
+.v2InfoBack,.v2PracticeBack{
+  position:fixed;inset:0;z-index:1000;background:rgba(15,23,42,.48);display:none;align-items:flex-end;justify-content:center;padding:18px
+}
+.v2InfoBack.show,.v2PracticeBack.show{display:flex}
+.v2InfoSheet,.v2PracticeSheet{
+  width:min(620px,100%);max-height:min(82vh,760px);overflow:auto;background:var(--v2-surface);color:var(--v2-text);
+  border:1px solid var(--v2-line);border-radius:22px;padding:22px;box-shadow:var(--v2-shadow-lg)
+}
+.v2InfoTop{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}.v2InfoTop h2{margin:0;font-size:22px}.v2InfoClose{
+  width:36px;height:36px;border:1px solid var(--v2-line);border-radius:10px;background:var(--v2-surface-2);color:var(--v2-text);font-size:20px;cursor:pointer
+}
+.v2InfoBody{font-size:13px;color:var(--v2-muted);line-height:1.65}.v2InfoBody h3{font-size:14px;color:var(--v2-text);margin:18px 0 5px}.v2InfoBody p{margin:5px 0}
+
+/* Mobile bottom navigation */
+#v2MobileNav{display:none}
+@media(max-width:820px){
+  .shell{margin:0!important;padding:18px 14px calc(112px + env(safe-area-inset-bottom))!important}
+  .studyTabs.appNav{display:none!important}
+  .hero{padding:2px 2px 16px!important;margin-bottom:10px!important}.hero h1{font-size:27px!important}.hero>p{font-size:13px!important}
+  #v2MobileNav{
+    display:grid;grid-template-columns:repeat(5,1fr);position:fixed;z-index:300;left:10px;right:10px;bottom:calc(10px + env(safe-area-inset-bottom));
+    padding:7px 6px;border:1px solid var(--v2-line);border-radius:18px;background:color-mix(in srgb,var(--v2-surface) 94%,transparent);
+    box-shadow:0 15px 45px rgba(16,24,40,.18);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px)
+  }
+  .v2MobileNavBtn{
+    min-width:0;min-height:53px;border:0;background:transparent;color:var(--v2-muted);border-radius:12px;display:grid;place-items:center;align-content:center;gap:2px;
+    font-size:9px;font-weight:750;padding:4px;cursor:pointer
+  }
+  .v2MobileNavBtn svg{width:21px;height:21px;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+  .v2MobileNavBtn.active{background:var(--v2-accent-soft);color:var(--v2-accent)}
+  .homeTop{grid-template-columns:1fr!important;grid-template-areas:"welcome" "focus" "account"!important;gap:10px!important}
+  .homeWelcome{padding:18px!important}.homeWelcome h2{font-size:22px!important}
+  .homeContinue{min-height:235px!important;padding:22px!important}.homeContinue h2{font-size:24px!important}
+  .homeAuthArea{padding:16px!important}
+  .hubGrid{gap:10px!important}.homeOverall,.gameLeaderboardCard,.hubMetric,.hubHalf,.hubFull{grid-column:1/-1!important}
+  #homeMetrics{display:grid!important;grid-template-columns:repeat(3,1fr)!important;grid-column:1/-1!important;gap:8px!important}
+  #homeMetrics .hubMetric{grid-column:auto!important;min-height:112px!important;padding:13px!important}
+  #homeMetrics .homeMetricIcon{width:32px!important;height:32px!important;font-size:16px!important}
+  #homeMetrics .hubMetric b{font-size:22px!important}#homeMetrics .hubMetric>span:not(.homeMetricIcon){font-size:9px!important;line-height:1.25!important}
+  .gameLeaderboardList{gap:6px!important}.gameLeaderboardRow:nth-child(-n+3){min-height:126px!important;padding:7px!important}.gameLeaderboardRow:nth-child(-n+3)>b{font-size:10px!important}
+  .panel,.aiLayout{grid-template-columns:1fr!important;gap:10px!important}.sidebar,.aiSidebar{order:-1!important;grid-template-columns:1fr!important}
+  .toolbar,.aiToolbar{position:static!important;margin-bottom:10px!important;padding:11px!important;border-radius:14px!important}
+  .qcard,.aiCard{padding:18px 15px!important;border-radius:16px!important}.stem,.aiStem{font-size:18px!important;line-height:1.5!important}
+  .option,.aiOption{min-height:62px!important;padding:14px 12px!important;font-size:16px!important}
+  .feedback,.aiFeedback{font-size:13px!important}
+  .aiPager{padding:9px!important}
+  .quizHero{padding:18px!important}.quizCard{padding:18px 14px!important}.quizOption{font-size:16px!important}
+  .ankiStudy{min-height:calc(100vh - 220px)!important}.ankiCardWrap{padding:20px 10px!important}.ankiCard{min-height:320px!important;padding:28px 20px!important}.ankiCard .front{font-size:22px!important}
+  .mockSetupTop,.mockControls,.mockMapHead,.mockQuestionCard{padding:17px!important}.mockQuestionCard h3{font-size:18px!important}.mockOption{font-size:16px!important}
+  .v2Footer{padding-bottom:10px}.v2FooterLinks{width:100%}
+}
+@media(max-width:470px){
+  .shell{padding-left:10px!important;padding-right:10px!important}
+  #homeMetrics{grid-template-columns:1fr!important}#homeMetrics .hubMetric{min-height:94px!important}
+  .gameLeaderboardList{grid-template-columns:repeat(3,minmax(0,1fr))!important}.gameLeaderboardRow:nth-child(-n+3){min-height:116px!important}
+  .gameLeaderboardRow:nth-child(-n+3) .gameAvatar{width:32px!important;height:32px!important}
+  .lectureDashHead{padding:16px!important}
+  .v2InfoBack,.v2PracticeBack{padding:10px}.v2InfoSheet,.v2PracticeSheet{border-radius:20px;padding:18px}
+}
+
+/* Practice chooser sheet */
+.v2PracticeTitle{font-size:11px;font-weight:850;letter-spacing:.09em;color:var(--v2-subtle);text-transform:uppercase;margin-bottom:10px}
+.v2PracticeOptions{display:grid;gap:8px}
+.v2PracticeOption{
+  width:100%;display:flex;align-items:center;gap:12px;text-align:left;border:1px solid var(--v2-line);border-radius:14px;background:var(--v2-surface);
+  color:var(--v2-text);padding:14px;cursor:pointer
+}
+.v2PracticeOption:hover{background:var(--v2-surface-2)}
+.v2PracticeIcon{width:38px;height:38px;flex:0 0 38px;border-radius:11px;background:var(--v2-accent-soft);color:var(--v2-accent);display:grid;place-items:center;font-size:16px;font-weight:900}
+.v2PracticeOption b{display:block;font-size:14px}.v2PracticeOption small{display:block;margin-top:2px;font-size:11px;color:var(--v2-muted);line-height:1.4}
+
+.gameLeaderboardYouDivider{
+  grid-column:1/-1;display:flex;align-items:center;gap:8px;margin:5px 0 0;color:var(--v2-subtle);font-size:9px;font-weight:800;letter-spacing:.07em;text-transform:uppercase
+}
+.gameLeaderboardYouDivider:before,.gameLeaderboardYouDivider:after{content:"";height:1px;background:var(--v2-line);flex:1}
+.gameLeaderboardRow.outsideTop{grid-column:1/-1!important}
+.gameLeaderboardExpand{
+  grid-column:1/-1!important;min-height:38px;border:1px solid var(--v2-line)!important;border-radius:10px!important;
+  background:var(--v2-surface-2)!important;color:var(--v2-muted)!important;font-size:11px!important;font-weight:750!important;cursor:pointer!important
+}

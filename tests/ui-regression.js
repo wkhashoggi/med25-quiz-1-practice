@@ -338,6 +338,8 @@ async function testProgress(page, mobile) {
     await manual.click();
   }
   await noPageOverflow(page, 'lecture tracker');
+  await click(page.locator('#v2TrackerBack'),'Lecture Tracker back to Home');
+  await assertVisible(page,'#homeSection:not(.hidden)','Home after Lecture Tracker');
 }
 
 async function testProfile(page, mobile) {

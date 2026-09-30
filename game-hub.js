@@ -379,7 +379,19 @@ async function gameRecordAttempt(source,questionId,correct){
     if(!res.ok)return;
     const rows=await res.json();
     if(rows.length){
-      gameScoreToast(Number(rows[0]?.points_delta ?? (correct?(GAME_SCORE[source]||5):GAME_SCORE.wrong)));
+      const delta=Number(rows[0]?.points_delta ?? (correct?(GAME_SCORE[source]||5):GAME_SCORE.wrong));
+      // Update the visible profile immediately; the server refresh below remains authoritative.
+      if(gameProfile&&Number.isFinite(delta)){
+        gameProfile={...gameProfile,
+          points:Number(gameProfile.points||0)+delta,
+          weekly_xp:Number(gameProfile.weekly_xp||0)+delta,
+          monthly_xp:Number(gameProfile.monthly_xp||0)+delta,
+          correct_first_attempts:Number(gameProfile.correct_first_attempts||0)+(correct?1:0),
+          wrong_first_attempts:Number(gameProfile.wrong_first_attempts||0)+(correct?0:1)
+        };
+        gameRenderProfile();
+      }
+      gameScoreToast(delta);
       await gameRefreshProfile();
       gameLoadLeaderboard(true);
     }

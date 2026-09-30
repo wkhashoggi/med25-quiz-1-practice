@@ -422,3 +422,13 @@ html[data-theme="dark"] .gameLeaderboardRow:nth-child(1){background:linear-gradi
 .v2PracticeOption:hover{background:var(--v2-surface-2)}
 .v2PracticeIcon{width:38px;height:38px;flex:0 0 38px;border-radius:11px;background:var(--v2-accent-soft);color:var(--v2-accent);display:grid;place-items:center;font-size:16px;font-weight:900}
 .v2PracticeOption b{display:block;font-size:14px}.v2PracticeOption small{display:block;margin-top:2px;font-size:11px;color:var(--v2-muted);line-height:1.4}
+
+.gameLeaderboardYouDivider{
+  grid-column:1/-1;display:flex;align-items:center;gap:8px;margin:5px 0 0;color:var(--v2-subtle);font-size:9px;font-weight:800;letter-spacing:.07em;text-transform:uppercase
+}
+.gameLeaderboardYouDivider:before,.gameLeaderboardYouDivider:after{content:"";height:1px;background:var(--v2-line);flex:1}
+.gameLeaderboardRow.outsideTop{grid-column:1/-1!important}
+.gameLeaderboardExpand{
+  grid-column:1/-1!important;min-height:38px;border:1px solid var(--v2-line)!important;border-radius:10px!important;
+  background:var(--v2-surface-2)!important;color:var(--v2-muted)!important;font-size:11px!important;font-weight:750!important;cursor:pointer!important
+}

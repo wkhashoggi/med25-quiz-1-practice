@@ -1,7 +1,7 @@
 (function(){
 'use strict';
 
-const GAME_SCORE={correct:5,wrong:-10};
+const GAME_SCORE={past:7,ai:5,wrong:1,recovery:8};
 const GAME_SCOREABLE_SOURCES=new Set(['past','ai']);
 const QUIZ_PROGRESS_KEY='__quiz_retries__';
 const GAME_SECTION_KEY='med25-main-section-v1';
@@ -9,6 +9,7 @@ let gameProfile=null;
 let gameProfileBusy=false;
 let gameLeaderboard=[];
 let gameLeaderboardLoadedAt=0;
+let gameLeaderboardMode='weekly';
 let gameQuizState={queue:[],index:0,result:null,shuffle:false};
 let gameMockState={config:{minutes:30,includeAI:true,subjectCounts:{},lectureCounts:{}},exam:null,timer:null};
 
@@ -111,12 +112,18 @@ function gameInstallHome(){
     card.id='gameLeaderboardCard';
     card.className='hubCard gameLeaderboardCard';
     card.innerHTML=
-      '<div class="homeCardHead"><div><div class="homeCardLabel">LEADERBOARD</div><h3>MED25 standings</h3></div><button class="homeTextBtn" id="gameLeaderboardRefresh" type="button">Refresh ↻</button></div>'+
-      '<div class="gameLeaderboardMeta" id="gameLeaderboardMeta">+5 correct · −10 wrong · first attempts only</div>'+
+      '<div class="homeCardHead"><div><div class="homeCardLabel">XP LEADERBOARD</div><h3>MED25 rankings</h3></div><button class="homeTextBtn" id="gameLeaderboardRefresh" type="button">Refresh ↻</button></div>'+
+      '<div class="gameLeaderboardTabs"><button type="button" data-xp-board="weekly" class="active">Weekly</button><button type="button" data-xp-board="monthly">Monthly</button><button type="button" data-xp-board="all">All-time</button></div>'+
+      '<div class="gameLeaderboardMeta" id="gameLeaderboardMeta">Loading XP rankings…</div>'+
       '<div id="gameLeaderboardList" class="gameLeaderboardList"><div class="gameEmpty">Loading leaderboard…</div></div>';
     const overall=document.querySelector('.homeOverall');
     if(overall?.nextSibling)grid.insertBefore(card,overall.nextSibling);else grid.appendChild(card);
     document.getElementById('gameLeaderboardRefresh').onclick=()=>gameLoadLeaderboard(true);
+    card.querySelectorAll('[data-xp-board]').forEach(btn=>btn.onclick=()=>{
+      gameLeaderboardMode=btn.dataset.xpBoard;
+      card.querySelectorAll('[data-xp-board]').forEach(x=>x.classList.toggle('active',x===btn));
+      gameRenderLeaderboard();
+    });
   }
 }
 
@@ -127,6 +134,25 @@ function gameAvatarMarkup(profile,size='normal'){
     return '<span class="gameAvatar '+size+'"><img src="'+esc(profile.avatar_url)+'" alt="" loading="lazy" decoding="async"></span>';
   }
   return '<span class="gameAvatar '+size+'"><span>'+esc(initials)+'</span></span>';
+}
+
+function gameLevelInfo(xp){
+  xp=Math.max(0,Number(xp||0));
+  let level=Math.min(50,Math.floor(Math.sqrt(xp/12))+1);
+  const floor=12*Math.pow(level-1,2),next=level>=50?floor:12*Math.pow(level,2);
+  const pct=level>=50?100:Math.max(0,Math.min(100,Math.round((xp-floor)/(next-floor)*100)));
+  const title=level>=50?'MED25 Legend':level>=40?'Professor':level>=30?'Consultant':level>=20?'Registrar':level>=10?'Resident':level>=5?'Clerk':'Med Student';
+  return {level,title,floor,next,pct};
+}
+function gameAchievementMarkup(p){
+  const badges=[];
+  const best=Number(p?.best_streak||0),correct=Number(p?.correct_first_attempts||0);
+  if(best>=10)badges.push(['🔥','Locked In','10-answer streak']);
+  if(best>=25)badges.push(['⚡','On Fire','25-answer streak']);
+  if(correct>=100)badges.push(['🧠','Century','100 correct answers']);
+  if(correct>=250)badges.push(['👑','Question Machine','250 correct answers']);
+  if(Number(p?.points||0)>=5000)badges.push(['🏆','XP Hunter','5,000 XP']);
+  return badges.length?'<div class="gameAchievements">'+badges.map(b=>'<span title="'+b[2]+'"><i>'+b[0]+'</i><b>'+b[1]+'</b></span>').join('')+'</div>':'';
 }
 
 function gameRenderProfile(){
@@ -145,12 +171,13 @@ function gameRenderProfile(){
       '<button class="gameAvatarButton" id="gameAvatarButton" type="button" aria-label="Change profile picture">'+gameAvatarMarkup(gameProfile,'large')+'<span>Change</span></button>'+
       '<input id="gameAvatarInput" type="file" accept="image/jpeg,image/png,image/webp" hidden>'+
       '<div class="gameIdentity"><span class="gameMiniLabel">USERNAME</span><div class="gameUsernameRow"><input id="gameUsernameInput" maxlength="24" value="'+esc(gameProfile.username||'')+'" aria-label="Username"><button id="gameSaveProfile" type="button">Save</button></div><small>3–24 characters: letters, numbers, . _ -</small></div>'+
-      '<div class="gamePoints"><div class="gamePointsLabel"><span>points</span><button class="gamePointsInfoBtn" id="gamePointsInfoBtn" type="button" aria-label="How MED25 points work" aria-haspopup="dialog">i</button></div><b>'+Number(gameProfile.points||0).toLocaleString()+'</b></div>'+
+      '<div class="gamePoints"><div class="gamePointsLabel"><span>XP</span><button class="gamePointsInfoBtn" id="gamePointsInfoBtn" type="button" aria-label="How MED25 XP works" aria-haspopup="dialog">i</button></div><b>'+Number(gameProfile.points||0).toLocaleString()+'</b></div>'+
     '</div>'+
+    (function(){const lv=gameLevelInfo(gameProfile.points);return '<div class="gameLevelBlock"><div class="gameLevelTop"><b>Level '+lv.level+' · '+lv.title+'</b><span>'+Number(gameProfile.current_streak||0)+'🔥 streak · best '+Number(gameProfile.best_streak||0)+'</span></div><div class="gameLevelBar"><i style="width:'+lv.pct+'%"></i></div><small>'+(lv.level>=50?'MAX LEVEL':Number(gameProfile.points||0).toLocaleString()+' / '+Math.round(lv.next).toLocaleString()+' XP')+'</small></div>'+gameAchievementMarkup(gameProfile);})()+
     '<div class="gameProfileStats">'+
       '<span><b>'+Number(gameProfile.correct_first_attempts||0).toLocaleString()+'</b> correct</span>'+
       '<span><b>'+Number(gameProfile.wrong_first_attempts||0).toLocaleString()+'</b> wrong</span>'+
-      '<span><b>+5 / −10</b> scoring</span>'+
+      '<span><b>'+Number(gameProfile.weekly_xp||0).toLocaleString()+'</b> XP this week</span>'+
     '</div>'+
     '<label class="gameLeaderboardToggle"><span><b>Appear on leaderboard</b><small>On by default. Turn this off for private progress.</small></span><input id="gameLeaderboardVisible" type="checkbox" '+(gameProfile.leaderboard_visible?'checked':'')+'><i></i></label>'+
     '<div class="gameProfileStatus" id="gameProfileStatus"></div>';
@@ -170,7 +197,7 @@ function gameOpenPointsInfo(){
     modal.setAttribute('role','dialog');
     modal.setAttribute('aria-modal','true');
     modal.setAttribute('aria-labelledby','gamePointsInfoTitle');
-    modal.innerHTML='<div class="gamePointsInfoBackdrop" data-close-points-info></div><div class="gamePointsInfoCard"><div class="gamePointsInfoHead"><div><span class="gameMiniLabel">MED25 XP</span><h3 id="gamePointsInfoTitle">How points work</h3></div><button class="gamePointsInfoClose" type="button" data-close-points-info aria-label="Close">×</button></div><p class="gamePointsInfoIntro">Earn points by answering real MED25 questions. Scoring rewards accuracy and prevents farming the same easy questions.</p><div class="gamePointsInfoRules"><div><b>+5</b><span>Correct answer</span></div><div><b>−10</b><span>Wrong answer</span></div></div><div class="gamePointsInfoNote"><b>First attempt only</b><span>Once a question has been scored, repeating it does not change your points. Both past-paper and AI questions count.</span></div><p class="gamePointsInfoFooter">Study smart. Improve. Climb the leaderboard. 🧠🔥</p></div>';
+    modal.innerHTML='<div class="gamePointsInfoBackdrop" data-close-points-info></div><div class="gamePointsInfoCard"><div class="gamePointsInfoHead"><div><span class="gameMiniLabel">MED25 XP</span><h3 id="gamePointsInfoTitle">How XP works</h3></div><button class="gamePointsInfoClose" type="button" data-close-points-info aria-label="Close">×</button></div><p class="gamePointsInfoIntro">Earn XP by studying, improving and staying accurate. Repeating an already-scored question cannot be farmed for XP.</p><div class="gamePointsInfoRules"><div><b>+7 XP</b><span>Correct Past Paper</span></div><div><b>+5 XP</b><span>Correct AI question</span></div><div><b>+1 XP</b><span>Wrong first attempt</span></div><div><b>+8 XP</b><span>Recover a previous mistake</span></div></div><div class="gamePointsInfoNote"><b>🔥 Correct-answer streak multipliers</b><span>5 = 1.1× · 10 = 1.25× · 20 = 1.5× · 30 = 2×. A wrong answer resets the streak.</span></div><div class="gamePointsInfoNote"><b>📝 Mock Exam bonuses</b><span>70%+ = +40 XP · 80%+ = +60 XP · 90%+ = +100 XP. Each completed mock can earn its bonus once.</span></div><div class="gamePointsInfoNote"><b>🏆 Rankings</b><span>Weekly, Monthly and All-Time leaderboards. Weekly and monthly XP reset by period; your total XP and level never reset.</span></div><p class="gamePointsInfoFooter">Study. Improve. Level up. 🧠🔥</p></div>';
     document.body.appendChild(modal);
     modal.querySelectorAll('[data-close-points-info]').forEach(el=>el.addEventListener('click',gameClosePointsInfo));
   }
@@ -316,10 +343,24 @@ function gameScoreToast(delta){
     t=document.createElement('div');t.id='gameScoreToast';t.className='gameScoreToast';document.body.appendChild(t);
   }
   t.className='gameScoreToast '+(delta>0?'plus':'minus');
-  t.textContent=(delta>0?'+':'')+delta+' points';
+  t.textContent=(delta>0?'+':'')+delta+' XP';
   requestAnimationFrame(()=>t.classList.add('show'));
   clearTimeout(gameScoreToast._timer);
   gameScoreToast._timer=setTimeout(()=>t.classList.remove('show'),1300);
+}
+
+async function gameAwardBonus(eventKey,eventType,xp){
+  if(!currentUser||!authSession?.access_token)return false;
+  try{
+    const res=await supaFetch('/rest/v1/game_xp_events?on_conflict=user_id,event_key',{
+      method:'POST',headers:{Prefer:'resolution=ignore-duplicates,return=representation'},
+      body:JSON.stringify({user_id:currentUser.id,event_key:eventKey,event_type:eventType,xp})
+    });
+    if(!res.ok)return false;
+    const rows=await res.json();
+    if(rows.length){gameScoreToast(xp);await gameRefreshProfile();gameLoadLeaderboard(true);return true}
+  }catch(e){console.warn('Bonus XP unavailable',e)}
+  return false;
 }
 
 async function gameRecordAttempt(source,questionId,correct){
@@ -337,7 +378,7 @@ async function gameRecordAttempt(source,questionId,correct){
     if(!res.ok)return;
     const rows=await res.json();
     if(rows.length){
-      gameScoreToast(correct?GAME_SCORE.correct:GAME_SCORE.wrong);
+      gameScoreToast(correct?(GAME_SCORE[source]||5):GAME_SCORE.wrong);
       await gameRefreshProfile();
       gameLoadLeaderboard(true);
     }
@@ -349,7 +390,7 @@ async function gameLoadLeaderboard(force=false){
   if(!host)return;
   if(!force&&Date.now()-gameLeaderboardLoadedAt<30000&&gameLeaderboard.length){gameRenderLeaderboard();return}
   try{
-    const res=await supaFetch('/rest/v1/leaderboard_entries?select=username,avatar_url,points&order=points.desc&limit=50');
+    const res=await supaFetch('/rest/v1/leaderboard_entries?select=username,avatar_url,points,weekly_xp,monthly_xp,current_streak,best_streak&visible=eq.true&limit=50');
     if(!res.ok)throw new Error(await res.text());
     gameLeaderboard=await res.json();
     gameLeaderboardLoadedAt=Date.now();
@@ -363,19 +404,18 @@ async function gameLoadLeaderboard(force=false){
 function gameRenderLeaderboard(){
   const host=document.getElementById('gameLeaderboardList'),meta=document.getElementById('gameLeaderboardMeta');
   if(!host)return;
-  if(meta)meta.textContent=(gameProfile&&!gameProfile.leaderboard_visible?'You are hidden · ':'')+'+5 correct · −10 wrong · first attempts only';
-  if(!gameLeaderboard.length){
-    host.innerHTML='<div class="gameEmpty">No ranked players yet. Be the first.</div>';return;
-  }
-  host.innerHTML=gameLeaderboard.slice(0,10).map((r,i)=>{
-    const rank=Number(r.rank||i+1);
-    const medal=rank===1?'🥇':rank===2?'🥈':rank===3?'🥉':String(rank);
+  const field=gameLeaderboardMode==='weekly'?'weekly_xp':gameLeaderboardMode==='monthly'?'monthly_xp':'points';
+  const label=gameLeaderboardMode==='weekly'?'this week':gameLeaderboardMode==='monthly'?'this month':'all-time';
+  const rows=[...gameLeaderboard].sort((a,b)=>Number(b[field]||0)-Number(a[field]||0));
+  if(meta)meta.textContent=(gameProfile&&!gameProfile.leaderboard_visible?'You are hidden · ':'')+'Ranked by XP '+label+' · streak bonuses included';
+  if(!rows.length){host.innerHTML='<div class="gameEmpty">No ranked players yet. Be the first.</div>';return}
+  host.innerHTML=rows.slice(0,10).map((r,i)=>{
+    const rank=i+1,medal=rank===1?'🥇':rank===2?'🥈':rank===3?'🥉':String(rank);
     const isMe=!!gameProfile&&String(r.username).toLowerCase()===String(gameProfile.username).toLowerCase();
-    return '<div class="gameLeaderboardRow '+(isMe?'me':'')+'">'+
-      '<span class="gameRank">'+medal+'</span>'+gameAvatarMarkup(r,'small')+
-      '<b>'+esc(r.username||'Student')+(isMe?' <small>you</small>':'')+'</b>'+
-      '<strong>'+Number(r.points||0).toLocaleString()+' pts</strong>'+
-    '</div>';
+    const lv=gameLevelInfo(r.points);
+    return '<div class="gameLeaderboardRow '+(isMe?'me':'')+'"><span class="gameRank">'+medal+'</span>'+gameAvatarMarkup(r,'small')+
+      '<b>'+esc(r.username||'Student')+(isMe?' <small>you</small>':'')+'<em>Lv '+lv.level+' · '+lv.title+'</em></b>'+
+      '<strong>'+Number(r[field]||0).toLocaleString()+' XP</strong></div>';
   }).join('');
 }
 
@@ -511,6 +551,7 @@ function gameAnswerQuiz(opt){
   save();
   try{trackEvent('question_answer',{question_id:item.q.id,topic:item.q.topic||item.q.concept||item.q.lecture_title||null,metadata:{correct,source:'mistake_quiz',retry:true}})}catch{}
   gameUpdateQuizBadge();
+  if(correct&&!old.recovered)gameAwardBonus('recovery:'+item.key,'recovery',GAME_SCORE.recovery);
   gameRenderQuiz();
 }
 
@@ -759,6 +800,9 @@ function gameMockSubmit(auto=false){
   }
   exam.submitted=true;exam.submittedAt=Date.now();exam.autoSubmitted=auto;
   clearInterval(gameMockState.timer);
+  const sc=gameMockScore();
+  const bonus=sc.pct>=90?100:sc.pct>=80?60:sc.pct>=70?40:0;
+  if(bonus)gameAwardBonus('mock:'+exam.endsAt,'mock',bonus);
   gameMockRenderResults();
   try{trackEvent('section_view',{metadata:{section:'mock_exam_finished',questions:exam.questions.length,score:gameMockScore().correct,auto_submit:auto}})}catch{}
 }
@@ -780,7 +824,7 @@ function gameMockRenderResults(){
       '<section class="mockResultHero"><div><span class="mockExamLabel">RESULT</span><h2>'+sc.pct+'%</h2><p>'+sc.correct+' correct · '+sc.wrong+' wrong · '+sc.unanswered+' unanswered'+(exam.autoSubmitted?' · time expired':'')+'</p></div>'+
       '<button id="mockBuildAnother" type="button">Build another exam</button></section>'+
       '<div class="mockResultStats"><div><b>'+sc.correct+'</b><span>Correct</span></div><div><b>'+sc.wrong+'</b><span>Wrong</span></div><div><b>'+sc.unanswered+'</b><span>Unanswered</span></div><div><b>'+sc.total+'</b><span>Total</span></div></div>'+
-      '<p class="mockNoPoints">Mock Exams do not change leaderboard points. Points only come from first attempts in the main Past Papers and AI Questions sections.</p>'+
+      '<p class="mockNoPoints">'+(sc.pct>=90?'🏆 +100 XP mock bonus':sc.pct>=80?'🔥 +60 XP mock bonus':sc.pct>=70?'✓ +40 XP mock bonus':'Reach 70% to earn a Mock Exam XP bonus')+'</p>'+
       '<section class="mockReview"><div class="homeCardLabel">REVIEW</div>'+
       exam.questions.map((item,i)=>{
         const q=item.q,pick=exam.answers[item.key]||'',ok=pick===q.answer;

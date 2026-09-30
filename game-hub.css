@@ -499,3 +499,15 @@
   .navIcon{width:23px;height:23px;flex-basis:23px}
   .navSvg{width:20px;height:20px}
 }
+
+
+/* Points info */
+.gamePointsLabel{display:flex;align-items:center;justify-content:flex-end;gap:6px}
+.gamePointsInfoBtn{width:24px;height:24px;border:1px solid var(--med-line);border-radius:50%;background:transparent;color:var(--med-muted);font:700 13px/1 system-ui;display:inline-flex;align-items:center;justify-content:center;cursor:pointer;padding:0;touch-action:manipulation}
+.gamePointsInfoBtn:hover,.gamePointsInfoBtn:focus-visible{color:var(--med-text);border-color:currentColor;outline:none}
+.gamePointsInfoModal{position:fixed;inset:0;z-index:10000;display:none;align-items:center;justify-content:center;padding:18px}
+.gamePointsInfoModal.open{display:flex}
+.gamePointsInfoBackdrop{position:absolute;inset:0;background:rgba(8,15,28,.58);backdrop-filter:blur(4px)}
+.gamePointsInfoCard{position:relative;width:min(520px,100%);max-height:calc(100% - 24px);overflow:auto;background:var(--med-card,#fff);color:var(--med-text);border:1px solid var(--med-line);border-radius:20px;padding:22px;box-shadow:0 18px 60px rgba(0,0,0,.22)}
+.gamePointsInfoHead{display:flex;align-items:flex-start;justify-content:space-between;gap:16px}.gamePointsInfoHead h3{margin:3px 0 0;font-size:22px}.gamePointsInfoClose{width:44px;height:44px;border:1px solid var(--med-line);border-radius:50%;background:transparent;color:var(--med-text);font-size:26px;line-height:1;cursor:pointer}.gamePointsInfoIntro{margin:16px 0;color:var(--med-muted);line-height:1.55}.gamePointsInfoRules{display:grid;grid-template-columns:1fr 1fr;gap:10px}.gamePointsInfoRules>div{border:1px solid var(--med-line);border-radius:14px;padding:14px}.gamePointsInfoRules b{display:block;font-size:24px}.gamePointsInfoRules span{display:block;margin-top:3px;font-size:13px;color:var(--med-muted)}.gamePointsInfoNote{margin-top:12px;padding:14px;border-radius:14px;background:var(--med-soft,#f5f7fa)}.gamePointsInfoNote b,.gamePointsInfoNote span{display:block}.gamePointsInfoNote span{margin-top:4px;color:var(--med-muted);font-size:13px;line-height:1.45}.gamePointsInfoFooter{margin:16px 0 0;font-weight:700}.gameModalOpen{overflow:hidden}
+@media(max-width:520px){.gamePointsInfoModal{align-items:flex-end;padding:10px}.gamePointsInfoCard{border-radius:20px 20px 14px 14px;padding:18px}.gamePointsInfoRules{grid-template-columns:1fr}.gamePointsInfoHead h3{font-size:20px}}

@@ -145,7 +145,7 @@ function gameRenderProfile(){
       '<button class="gameAvatarButton" id="gameAvatarButton" type="button" aria-label="Change profile picture">'+gameAvatarMarkup(gameProfile,'large')+'<span>Change</span></button>'+
       '<input id="gameAvatarInput" type="file" accept="image/jpeg,image/png,image/webp" hidden>'+
       '<div class="gameIdentity"><span class="gameMiniLabel">USERNAME</span><div class="gameUsernameRow"><input id="gameUsernameInput" maxlength="24" value="'+esc(gameProfile.username||'')+'" aria-label="Username"><button id="gameSaveProfile" type="button">Save</button></div><small>3–24 characters: letters, numbers, . _ -</small></div>'+
-      '<div class="gamePoints"><b>'+Number(gameProfile.points||0).toLocaleString()+'</b><span>points</span></div>'+
+      '<div class="gamePoints"><div class="gamePointsLabel"><span>points</span><button class="gamePointsInfoBtn" id="gamePointsInfoBtn" type="button" aria-label="How MED25 points work" aria-haspopup="dialog">i</button></div><b>'+Number(gameProfile.points||0).toLocaleString()+'</b></div>'+
     '</div>'+
     '<div class="gameProfileStats">'+
       '<span><b>'+Number(gameProfile.correct_first_attempts||0).toLocaleString()+'</b> correct</span>'+
@@ -158,7 +158,34 @@ function gameRenderProfile(){
   document.getElementById('gameLeaderboardVisible').onchange=gameSaveProfile;
   document.getElementById('gameAvatarButton').onclick=()=>document.getElementById('gameAvatarInput')?.click();
   document.getElementById('gameAvatarInput').onchange=gameUploadAvatar;
+  document.getElementById('gamePointsInfoBtn')?.addEventListener('click',gameOpenPointsInfo);
 }
+
+function gameOpenPointsInfo(){
+  let modal=document.getElementById('gamePointsInfoModal');
+  if(!modal){
+    modal=document.createElement('div');
+    modal.id='gamePointsInfoModal';
+    modal.className='gamePointsInfoModal';
+    modal.setAttribute('role','dialog');
+    modal.setAttribute('aria-modal','true');
+    modal.setAttribute('aria-labelledby','gamePointsInfoTitle');
+    modal.innerHTML='<div class="gamePointsInfoBackdrop" data-close-points-info></div><div class="gamePointsInfoCard"><div class="gamePointsInfoHead"><div><span class="gameMiniLabel">MED25 XP</span><h3 id="gamePointsInfoTitle">How points work</h3></div><button class="gamePointsInfoClose" type="button" data-close-points-info aria-label="Close">×</button></div><p class="gamePointsInfoIntro">Earn points by answering real MED25 questions. Scoring rewards accuracy and prevents farming the same easy questions.</p><div class="gamePointsInfoRules"><div><b>+5</b><span>Correct answer</span></div><div><b>−10</b><span>Wrong answer</span></div></div><div class="gamePointsInfoNote"><b>First attempt only</b><span>Once a question has been scored, repeating it does not change your points. Both past-paper and AI questions count.</span></div><p class="gamePointsInfoFooter">Study smart. Improve. Climb the leaderboard. 🧠🔥</p></div>';
+    document.body.appendChild(modal);
+    modal.querySelectorAll('[data-close-points-info]').forEach(el=>el.addEventListener('click',gameClosePointsInfo));
+  }
+  modal.classList.add('open');
+  document.body.classList.add('gameModalOpen');
+  modal.querySelector('.gamePointsInfoClose')?.focus();
+}
+
+function gameClosePointsInfo(){
+  document.getElementById('gamePointsInfoModal')?.classList.remove('open');
+  document.body.classList.remove('gameModalOpen');
+  document.getElementById('gamePointsInfoBtn')?.focus();
+}
+
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&document.getElementById('gamePointsInfoModal')?.classList.contains('open'))gameClosePointsInfo();});
 
 function gameSetProfileStatus(msg,error=false){
   const el=document.getElementById('gameProfileStatus');

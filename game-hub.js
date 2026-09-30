@@ -618,7 +618,7 @@ function gameMockQuestionRows(){
       : (!!q?.id&&!!q?.answer&&Object.keys(q.options||{}).length>=4&&Object.prototype.hasOwnProperty.call(q.options||{},q.answer));
     if(!ready)continue;
     let g={};
-    try{g=sgQuestionLecture('past',q)||{}}catch{}
+    try{g=window.med25GameBridge?.questionLecture?.('past',q)||{}}catch{}
     if(!g.lecture_id||!g.subject||!g.title)continue;
     const stemKey=gameMockStemKey(q);if(!stemKey||seenStems.has(stemKey))continue;
     seenStems.add(stemKey);
@@ -634,7 +634,7 @@ function gameMockQuestionRows(){
     for(const q of qs){
       if(!q?.id||!q?.answer||q.exam_ready===false||Object.keys(q.options||{}).length!==4||!Object.prototype.hasOwnProperty.call(q.options||{},q.answer))continue;
       let g={};
-      try{g=sgQuestionLecture('ai',q)||{}}catch{}
+      try{g=window.med25GameBridge?.questionLecture?.('ai',q)||{}}catch{}
       if(!g.lecture_id||!g.subject||!g.title)continue;
       const stemKey=gameMockStemKey(q);if(!stemKey||seenStems.has(stemKey))continue;
       seenStems.add(stemKey);
@@ -1071,6 +1071,11 @@ function gameInit(){
       gameBuildQuizQueue();
       gameRenderQuiz();
     }
+  };
+  window.med25GameRefreshMock=()=>{
+    const section=document.getElementById('mockSection');
+    if(!section||section.classList.contains('hidden')||gameMockState.exam)return;
+    gameMockRenderSetup();
   };
   const stored=localStorage.getItem(GAME_SECTION_KEY);
   if(stored==='quiz')setTimeout(gameSwitchQuiz,0);

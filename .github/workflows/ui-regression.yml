@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - ui-polish-logo-regression-20260930
+      - main
   workflow_dispatch:
 
 permissions:

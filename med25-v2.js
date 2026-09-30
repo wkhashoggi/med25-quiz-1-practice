@@ -73,13 +73,22 @@ function cleanNav(){
   }
 }
 
+function installCohortIdentity(){
+  const welcome=document.querySelector('.homeWelcome');
+  if(welcome&&!welcome.querySelector('.v2CohortIdentity')){
+    const row=document.createElement('div');
+    row.className='v2CohortIdentity';
+    row.innerHTML='<img src="assets/med25-cohort-logo.jpg?v=1" alt="MED25 cohort logo"><div><span>MED25 COHORT</span><b>King Abdulaziz University · Faculty of Medicine</b></div>';
+    welcome.insertBefore(row,welcome.firstChild);
+  }
+}
 function installFooter(){
   const shell=document.querySelector('.shell');
   if(!shell||document.getElementById('v2Footer'))return;
   const footer=document.createElement('footer');
   footer.id='v2Footer';footer.className='v2Footer';
   footer.innerHTML=
-    '<div class="v2FooterBrand"><span class="v2FooterMark">M25</span><span><b>MED25 Study Hub</b><span>Built for KAU Medicine students</span></span></div>'+
+    '<div class="v2FooterBrand"><span class="v2FooterMark"><img src="assets/med25-cohort-logo.jpg?v=1" alt=""></span><span><b>MED25 Study Hub</b><span>Built for KAU Medicine students</span></span></div>'+
     '<div class="v2FooterLinks">'+
       '<button type="button" data-v2-info="about">About</button>'+
       '<button type="button" data-v2-info="privacy">Privacy</button>'+
@@ -102,7 +111,7 @@ function openInfo(key){
   installInfoSheet();
   const data=V2_INFO[key]||V2_INFO.about,back=document.getElementById('v2InfoBack');
   document.getElementById('v2InfoTitle').textContent=data.title;
-  document.getElementById('v2InfoBody').innerHTML=data.body;
+  document.getElementById('v2InfoBody').innerHTML=(key==='about'?'<div class="v2AboutIdentity"><img src="assets/med25-cohort-logo.jpg?v=1" alt="MED25 cohort logo"><div><b>MED25 Cohort</b><span>King Abdulaziz University · Faculty of Medicine</span></div></div>':'')+data.body;
   back.classList.add('show');back.setAttribute('aria-hidden','false');
 }
 function closeInfo(){
@@ -177,7 +186,15 @@ function currentMode(){
 }
 function syncMobileNav(force){
   const mode=force||currentMode();
-  document.querySelectorAll('[data-v2-mobile]').forEach(b=>b.classList.toggle('active',b.dataset.v2Mobile===mode));
+  document.querySelectorAll('[data-v2-mobile]').forEach(b=>{
+    const active=b.dataset.v2Mobile===mode;
+    b.classList.toggle('active',active);
+    if(active)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current');
+  });
+  const desktopMap={home:'tabHome',flash:'tabFlashcards',mock:'tabMock'};
+  document.querySelectorAll('#studyTabs .studyTab').forEach(b=>b.removeAttribute('aria-current'));
+  const current=document.getElementById(desktopMap[mode]||'');
+  if(current)current.setAttribute('aria-current','page');
 }
 
 function observeSections(){
@@ -215,7 +232,7 @@ function setupKeyboard(){
 function init(){
   document.documentElement.classList.add('med25-v2');
   document.title='MED25 Study Hub';
-  cleanNav();installFooter();installInfoSheet();installPracticeSheet();installMobileNav();observeSections();observeLeaderboard();polishHomeLabels();setupKeyboard();syncMobileNav();
+  cleanNav();installCohortIdentity();installFooter();installInfoSheet();installPracticeSheet();installMobileNav();observeSections();observeLeaderboard();polishHomeLabels();setupKeyboard();syncMobileNav();
   setTimeout(()=>{cleanNav();polishHomeLabels();syncMobileNav()},800);
 }
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',()=>setTimeout(init,0));else setTimeout(init,0);

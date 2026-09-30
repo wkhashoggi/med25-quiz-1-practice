@@ -232,7 +232,7 @@ function installPracticeSheet(){
   back.onclick=e=>{if(e.target===back)closePractice()};
   document.getElementById('v2PracticeClose').onclick=closePractice;
   back.querySelectorAll('[data-v2-practice]').forEach(btn=>btn.onclick=()=>{
-    const mode=btn.dataset.v2Practice;closePractice();
+    const mode=btn.dataset.v2Practice;closePractice();hideV2Pages();
     if(mode==='past')clickId('tabQuestions');
     if(mode==='ai')clickId('tabAI');
     if(mode==='quiz'){
@@ -255,7 +255,7 @@ function installMobileNav(){
   nav.querySelectorAll('[data-v2-mobile]').forEach(btn=>btn.onclick=()=>{
     const key=btn.dataset.v2Mobile;
     if(key==='home'){hideV2Pages();clickId('tabHome')}
-    if(key==='practice'){hideV2Pages();openPractice()}
+    if(key==='practice'){openPractice()}
     if(key==='flash'){hideV2Pages();clickId('tabFlashcards')}
     if(key==='mock'){
       hideV2Pages();

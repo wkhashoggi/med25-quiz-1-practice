@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-30T17:42:35.652Z",
+  "generated_at": "2026-09-30T17:45:32.231Z",
   "source_root": {
     "id": "1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
     "url": "https://drive.google.com/drive/folders/1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
@@ -398,190 +398,347 @@
       "title": "Heme Synthesis",
       "source_url": "https://drive.google.com/file/d/1akREae-VDZN_QNeQlrnBruB1ML_EVnFr/view?usp=drivesdk",
       "source_modified_time": "2026-08-31T22:58:24.107Z",
-      "source_validation": "lecture_validated_seed",
+      "source_validation": "lecture_verified_quality_rebuilt",
       "archived": false,
       "questions": [
         {
           "id": "ai_1akREae-VDZN_QNeQlrnBruB1ML_EVnFr_01",
-          "stem": "Which of the following best describes heme structurally?",
+          "stem": "Where does the first step of heme synthesis occur?",
           "options": {
-            "A": "First step + last 3 steps in mitochondria; intermediate steps in cytosol.",
-            "B": "Liver and erythroid bone marrow.",
-            "C": "Porphobilinogen (PBG).",
-            "D": "An iron-containing porphyrin made of four pyrrole rings linked by methenyl bridges."
+            "A": "Mitochondria",
+            "B": "Cytosol",
+            "C": "Nucleus",
+            "D": "Lysosome"
           },
-          "answer": "D",
-          "explanation": "An iron-containing porphyrin made of four pyrrole rings linked by methenyl bridges.",
-          "concept": "Heme Synthesis",
-          "difficulty": "application",
+          "answer": "A",
+          "explanation": "The first step occurs in mitochondria; intermediate steps are cytosolic and the last three return to mitochondria.",
+          "concept": "Sites",
+          "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1akREae-VDZN_QNeQlrnBruB1ML_EVnFr/view?usp=drivesdk",
-          "source_card_id": "1akREae-VDZN_QNeQlrnBruB1ML_EVnFr-c01",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1akREae-VDZN_QNeQlrnBruB1ML_EVnFr_02",
-          "stem": "Which organs are major sites of heme synthesis?",
+          "stem": "Which enzyme catalyzes the rate-limiting step of heme synthesis?",
           "options": {
-            "A": "Porphobilinogen (PBG).",
-            "B": "An iron-containing porphyrin made of four pyrrole rings linked by methenyl bridges.",
-            "C": "Liver and erythroid bone marrow.",
-            "D": "First step + last 3 steps in mitochondria; intermediate steps in cytosol."
+            "A": "ALA dehydratase",
+            "B": "Ferrochelatase",
+            "C": "PBG deaminase",
+            "D": "ALA synthase"
           },
-          "answer": "C",
-          "explanation": "Liver and erythroid bone marrow.",
-          "concept": "Heme Synthesis",
+          "answer": "D",
+          "explanation": "ALA synthase catalyzes ALA formation and is the rate-limiting enzyme.",
+          "concept": "Regulation",
           "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1akREae-VDZN_QNeQlrnBruB1ML_EVnFr/view?usp=drivesdk",
-          "source_card_id": "1akREae-VDZN_QNeQlrnBruB1ML_EVnFr-c02",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1akREae-VDZN_QNeQlrnBruB1ML_EVnFr_03",
-          "stem": "Which of the following is the correct location for the steps of heme synthesis occur?",
+          "stem": "ALA synthase requires which cofactor?",
           "options": {
-            "A": "Porphobilinogen (PBG).",
-            "B": "First step + last 3 steps in mitochondria; intermediate steps in cytosol.",
-            "C": "Liver and erythroid bone marrow.",
-            "D": "An iron-containing porphyrin made of four pyrrole rings linked by methenyl bridges."
+            "A": "FAD",
+            "B": "Tetrahydrofolate",
+            "C": "Pyridoxal phosphate",
+            "D": "Biotin"
           },
-          "answer": "B",
-          "explanation": "First step + last 3 steps in mitochondria; intermediate steps in cytosol.",
-          "concept": "Heme Synthesis",
-          "difficulty": "understanding",
+          "answer": "C",
+          "explanation": "ALA synthase requires PLP.",
+          "concept": "Pathway",
+          "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1akREae-VDZN_QNeQlrnBruB1ML_EVnFr/view?usp=drivesdk",
-          "source_card_id": "1akREae-VDZN_QNeQlrnBruB1ML_EVnFr-c03",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1akREae-VDZN_QNeQlrnBruB1ML_EVnFr_04",
-          "stem": "Which of the following best describes the rate-limiting step of heme synthesis?",
+          "stem": "Two ALA molecules form porphobilinogen through which enzyme?",
           "options": {
-            "A": "ALA synthase forming δ-ALA from glycine + succinyl-CoA.",
-            "B": "Pyridoxal phosphate (vitamin B6).",
-            "C": "ALA dehydratase (PBG synthase); it is inhibited by lead.",
-            "D": "Four PBG molecules → hydroxymethylbilane."
+            "A": "Ferrochelatase",
+            "B": "ALA dehydratase",
+            "C": "ALA synthase",
+            "D": "Uroporphyrinogen decarboxylase"
           },
-          "answer": "A",
-          "explanation": "ALA synthase forming δ-ALA from glycine + succinyl-CoA.",
-          "concept": "ALA synthase",
-          "difficulty": "application",
+          "answer": "B",
+          "explanation": "ALA dehydratase/PBG synthase forms PBG and is inhibited by lead.",
+          "concept": "Pathway",
+          "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1akREae-VDZN_QNeQlrnBruB1ML_EVnFr/view?usp=drivesdk",
-          "source_card_id": "1akREae-VDZN_QNeQlrnBruB1ML_EVnFr-c04",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1akREae-VDZN_QNeQlrnBruB1ML_EVnFr_05",
-          "stem": "Which cofactor does ALA synthase require?",
+          "stem": "Which is the first heme-synthesis intermediate containing a pyrrole ring?",
           "options": {
-            "A": "ALA synthase forming δ-ALA from glycine + succinyl-CoA.",
-            "B": "Four PBG molecules → hydroxymethylbilane.",
-            "C": "Porphobilinogen (PBG).",
-            "D": "Pyridoxal phosphate (vitamin B6)."
+            "A": "Porphobilinogen",
+            "B": "ALA",
+            "C": "Succinyl-CoA",
+            "D": "Protoporphyrinogen IX"
           },
-          "answer": "D",
-          "explanation": "Pyridoxal phosphate (vitamin B6).",
-          "concept": "ALA synthase",
+          "answer": "A",
+          "explanation": "PBG is the first pyrrole-containing intermediate.",
+          "concept": "Pathway",
           "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1akREae-VDZN_QNeQlrnBruB1ML_EVnFr/view?usp=drivesdk",
-          "source_card_id": "1akREae-VDZN_QNeQlrnBruB1ML_EVnFr-c05",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1akREae-VDZN_QNeQlrnBruB1ML_EVnFr_06",
-          "stem": "What converts ALA to porphobilinogen?",
+          "stem": "Four PBG molecules form hydroxymethylbilane using which enzyme?",
           "options": {
-            "A": "Four PBG molecules → hydroxymethylbilane.",
-            "B": "Porphobilinogen (PBG).",
-            "C": "ALA dehydratase (PBG synthase); it is inhibited by lead.",
-            "D": "ALA synthase forming δ-ALA from glycine + succinyl-CoA."
+            "A": "Ferrochelatase",
+            "B": "ALA synthase",
+            "C": "Coproporphyrinogen oxidase",
+            "D": "PBG deaminase"
           },
-          "answer": "C",
-          "explanation": "ALA dehydratase (PBG synthase); it is inhibited by lead.",
-          "concept": "Lead",
-          "difficulty": "understanding",
+          "answer": "D",
+          "explanation": "Hydroxymethylbilane synthase is also called PBG deaminase.",
+          "concept": "Pathway",
+          "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1akREae-VDZN_QNeQlrnBruB1ML_EVnFr/view?usp=drivesdk",
-          "source_card_id": "1akREae-VDZN_QNeQlrnBruB1ML_EVnFr-c06",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1akREae-VDZN_QNeQlrnBruB1ML_EVnFr_07",
-          "stem": "Which of the following best describes the first pyrrole-containing intermediate?",
+          "stem": "Which enzyme incorporates iron into protoporphyrin IX?",
           "options": {
-            "A": "An iron-containing porphyrin made of four pyrrole rings linked by methenyl bridges.",
-            "B": "Porphobilinogen (PBG).",
-            "C": "Liver and erythroid bone marrow.",
-            "D": "First step + last 3 steps in mitochondria; intermediate steps in cytosol."
+            "A": "PBG deaminase",
+            "B": "LCAT",
+            "C": "Ferrochelatase",
+            "D": "ALA dehydratase"
           },
-          "answer": "B",
-          "explanation": "Porphobilinogen (PBG).",
-          "concept": "Heme Synthesis",
-          "difficulty": "application",
+          "answer": "C",
+          "explanation": "Ferrochelatase, or heme synthase, inserts iron and is inhibited by lead.",
+          "concept": "Pathway",
+          "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1akREae-VDZN_QNeQlrnBruB1ML_EVnFr/view?usp=drivesdk",
-          "source_card_id": "1akREae-VDZN_QNeQlrnBruB1ML_EVnFr-c07",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1akREae-VDZN_QNeQlrnBruB1ML_EVnFr_08",
-          "stem": "Which of the following best describes PBG deaminase make?",
+          "stem": "In liver, accumulated hemin has what effect on ALA synthase?",
           "options": {
-            "A": "Four PBG molecules → hydroxymethylbilane.",
-            "B": "Porphobilinogen (PBG).",
-            "C": "Pyridoxal phosphate (vitamin B6).",
-            "D": "ALA dehydratase (PBG synthase); it is inhibited by lead."
+            "A": "Moves it to cytosol",
+            "B": "Decreases its synthesis",
+            "C": "Activates it",
+            "D": "Has no effect"
+          },
+          "answer": "B",
+          "explanation": "Hemin provides negative feedback by decreasing liver ALA synthase synthesis.",
+          "concept": "Regulation",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1akREae-VDZN_QNeQlrnBruB1ML_EVnFr/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1akREae-VDZN_QNeQlrnBruB1ML_EVnFr_09",
+          "stem": "Phenobarbital can increase ALA synthase because it increases synthesis of which heme-containing system?",
+          "options": {
+            "A": "Cytochrome P450",
+            "B": "Hemoglobin",
+            "C": "Myoglobin",
+            "D": "Catalase only"
           },
           "answer": "A",
-          "explanation": "Four PBG molecules → hydroxymethylbilane.",
+          "explanation": "Increased CYP450 synthesis consumes hepatic heme, relieving inhibition of ALA synthase.",
+          "concept": "Regulation",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1akREae-VDZN_QNeQlrnBruB1ML_EVnFr/view?usp=drivesdk",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case"
+        },
+        {
+          "id": "ai_1akREae-VDZN_QNeQlrnBruB1ML_EVnFr_10",
+          "stem": "An early heme-pathway enzyme defect causes ALA and PBG accumulation. Which symptoms are emphasized?",
+          "options": {
+            "A": "Photosensitivity only",
+            "B": "Isolated jaundice",
+            "C": "Painless hematuria",
+            "D": "Abdominal and neuropsychiatric symptoms"
+          },
+          "answer": "D",
+          "explanation": "ALA and PBG are neurotoxic and cause abdominal and neurologic/psychiatric manifestations.",
+          "concept": "Porphyria",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1akREae-VDZN_QNeQlrnBruB1ML_EVnFr/view?usp=drivesdk",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case"
+        },
+        {
+          "id": "ai_1akREae-VDZN_QNeQlrnBruB1ML_EVnFr_11",
+          "stem": "A late heme-pathway defect causes porphyrin accumulation. What clinical feature is expected?",
+          "options": {
+            "A": "Bradycardia",
+            "B": "Hypoglycemia",
+            "C": "Photosensitivity",
+            "D": "Isolated neuropathy only"
+          },
+          "answer": "C",
+          "explanation": "Porphyrins absorb light and generate free radicals that injure skin.",
+          "concept": "Porphyria",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1akREae-VDZN_QNeQlrnBruB1ML_EVnFr/view?usp=drivesdk",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case"
+        },
+        {
+          "id": "ai_1akREae-VDZN_QNeQlrnBruB1ML_EVnFr_12",
+          "stem": "What is the most important test during an acute porphyria attack?",
+          "options": {
+            "A": "Bleeding time",
+            "B": "Urinary PBG",
+            "C": "Serum HDL",
+            "D": "Urinary glucose"
+          },
+          "answer": "B",
+          "explanation": "The lecture identifies urine PBG during the acute attack as the most important diagnostic test.",
           "concept": "Porphyria",
           "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1akREae-VDZN_QNeQlrnBruB1ML_EVnFr/view?usp=drivesdk",
-          "source_card_id": "1akREae-VDZN_QNeQlrnBruB1ML_EVnFr-c08",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
-          "id": "ai_1akREae-VDZN_QNeQlrnBruB1ML_EVnFr_formcase01",
-          "stem": "A child with chronic lead exposure develops impaired heme synthesis. Conversion of ALA to porphobilinogen is reduced. Which enzyme is directly affected?",
+          "id": "ai_1akREae-VDZN_QNeQlrnBruB1ML_EVnFr_13",
+          "stem": "Why is IV hemin useful during an acute porphyria attack?",
           "options": {
-            "A": "Four PBG molecules → hydroxymethylbilane.",
-            "B": "Porphobilinogen (PBG).",
-            "C": "ALA dehydratase (PBG synthase); it is inhibited by lead.",
-            "D": "ALA synthase forming δ-ALA from glycine + succinyl-CoA."
+            "A": "It decreases ALA synthase activity",
+            "B": "It activates ferrochelatase",
+            "C": "It increases PBG production",
+            "D": "It chelates lead"
           },
-          "answer": "C",
-          "explanation": "ALA dehydratase (PBG synthase); it is inhibited by lead.",
-          "concept": "Lead — formative-style case",
+          "answer": "A",
+          "explanation": "Hemin restores feedback inhibition of ALA synthase.",
+          "concept": "Porphyria",
           "difficulty": "application",
           "source_url": "https://drive.google.com/file/d/1akREae-VDZN_QNeQlrnBruB1ML_EVnFr/view?usp=drivesdk",
-          "source_card_id": "1akREae-VDZN_QNeQlrnBruB1ML_EVnFr-c06",
           "style_profile": "KAU-formative-case-inspired",
-          "quality_status": "hold",
-          "exam_ready": false,
-          "case_style": "formative_short_case",
-          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case"
+        },
+        {
+          "id": "ai_1akREae-VDZN_QNeQlrnBruB1ML_EVnFr_14",
+          "stem": "Lead inhibits which pair of heme-synthesis enzymes?",
+          "options": {
+            "A": "ALA synthase and PBG deaminase",
+            "B": "LCAT and ACAT",
+            "C": "HMG-CoA reductase and ferrochelatase",
+            "D": "ALA dehydratase and ferrochelatase"
+          },
+          "answer": "D",
+          "explanation": "Lead inhibits ALA dehydratase and ferrochelatase; the lecture also lists coproporphyrinogen oxidase.",
+          "concept": "Lead",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1akREae-VDZN_QNeQlrnBruB1ML_EVnFr/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1akREae-VDZN_QNeQlrnBruB1ML_EVnFr_15",
+          "stem": "A child with old-paint exposure has abdominal colic and neurologic symptoms. Which diagnostic method is preferred?",
+          "options": {
+            "A": "Serum bilirubin only",
+            "B": "Bone marrow biopsy",
+            "C": "Blood lead measurement",
+            "D": "Urine PBG only"
+          },
+          "answer": "C",
+          "explanation": "Blood lead measurement is preferred because lead is concentrated in erythrocytes.",
+          "concept": "Lead",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1akREae-VDZN_QNeQlrnBruB1ML_EVnFr/view?usp=drivesdk",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case"
+        },
+        {
+          "id": "ai_1akREae-VDZN_QNeQlrnBruB1ML_EVnFr_16",
+          "stem": "Which urinary metabolites rise in lead poisoning according to the lecture?",
+          "options": {
+            "A": "Urea and creatinine",
+            "B": "ALA and coproporphyrin III",
+            "C": "Heme and bilirubin only",
+            "D": "Cholesterol and PBG only"
+          },
+          "answer": "B",
+          "explanation": "Lead enzyme inhibition increases urinary ALA and coproporphyrin III.",
+          "concept": "Lead",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1akREae-VDZN_QNeQlrnBruB1ML_EVnFr/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1akREae-VDZN_QNeQlrnBruB1ML_EVnFr_17",
+          "stem": "A severe case of lead poisoning may be treated with which chelator?",
+          "options": {
+            "A": "Dimercaptosuccinic acid",
+            "B": "Hemin",
+            "C": "Beta-carotene",
+            "D": "Phenobarbital"
+          },
+          "answer": "A",
+          "explanation": "The lecture lists oral DMSA or IV sodium calcium edetate for severe cases.",
+          "concept": "Lead",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1akREae-VDZN_QNeQlrnBruB1ML_EVnFr/view?usp=drivesdk",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case"
+        },
+        {
+          "id": "ai_1akREae-VDZN_QNeQlrnBruB1ML_EVnFr_18",
+          "stem": "Which tissues are the major organs of heme synthesis?",
+          "options": {
+            "A": "Kidney and spleen",
+            "B": "Brain and skeletal muscle",
+            "C": "Pancreas and thyroid",
+            "D": "Liver and erythroid bone marrow"
+          },
+          "answer": "D",
+          "explanation": "The major sites are liver and erythroid bone marrow.",
+          "concept": "Sites",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1akREae-VDZN_QNeQlrnBruB1ML_EVnFr/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
         }
       ],
       "eligibility_status": "allowed",
       "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
-      "quality_status": "hold",
-      "quality_reviewed_at": "2026-09-30T15:36:28.081Z",
+      "quality_status": "pass",
+      "quality_reviewed_at": "2026-09-30T17:45:32.226Z",
       "quality_policy_version": 2,
-      "quality_reason": "Legacy AI set used other questions' correct answers as distractors; withheld until objective-led rebuild.",
-      "exam_ready": false
+      "quality_reason": "Rebuilt directly from official lecture content with objective-led SBAs and supported application questions.",
+      "exam_ready": true
     },
     {
       "id": "ai_set_1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b",
@@ -1963,190 +2120,307 @@
       "title": "Coronary Circulation",
       "source_url": "https://docs.google.com/presentation/d/13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
       "source_modified_time": "2026-09-15T06:52:31.809Z",
-      "source_validation": "lecture_validated_seed",
+      "source_validation": "lecture_verified_quality_rebuilt",
       "archived": false,
       "questions": [
         {
           "id": "ai_13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0_01",
-          "stem": "When does most left coronary blood flow occur?",
+          "stem": "At rest, normal coronary blood flow is approximately what fraction of cardiac output?",
           "options": {
-            "A": "Right coronary artery.",
-            "B": "It shortens diastole, the main period of left coronary flow.",
-            "C": "Aortic diastolic pressure minus ventricular pressure.",
-            "D": "During diastole."
+            "A": "5%",
+            "B": "1%",
+            "C": "15%",
+            "D": "25%"
           },
-          "answer": "D",
-          "explanation": "During diastole.",
-          "concept": "Coronary Circulation",
-          "difficulty": "application",
+          "answer": "A",
+          "explanation": "The lecture gives about 250 mL/min, approximately 5% of cardiac output.",
+          "concept": "CBF",
+          "difficulty": "core",
           "source_url": "https://docs.google.com/presentation/d/13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
-          "source_card_id": "13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0-c01",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0_02",
-          "stem": "Which of the following best explains why is left coronary flow reduced during systole?",
+          "stem": "What is the resting myocardial oxygen extraction ratio?",
           "options": {
-            "A": "Increased myocardial metabolism and local vasodilation.",
-            "B": "Aortic diastolic pressure minus ventricular pressure.",
-            "C": "Contracting myocardium compresses intramyocardial vessels.",
-            "D": "It shortens diastole, the main period of left coronary flow."
+            "A": "10–20%",
+            "B": "25%",
+            "C": "40–50%",
+            "D": "70–80%"
           },
-          "answer": "C",
-          "explanation": "Contracting myocardium compresses intramyocardial vessels.",
-          "concept": "Coronary Circulation",
+          "answer": "D",
+          "explanation": "Myocardium extracts about 70–80% of delivered oxygen at rest.",
+          "concept": "Oxygen extraction",
           "difficulty": "core",
           "source_url": "https://docs.google.com/presentation/d/13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
-          "source_card_id": "13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0-c02",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0_03",
-          "stem": "Which of the following best describes the main local regulator of coronary blood flow?",
+          "stem": "During exercise, coronary blood flow can increase approximately how much?",
           "options": {
-            "A": "It shortens diastole, the main period of left coronary flow.",
-            "B": "Myocardial metabolic demand, especially local vasodilator metabolites such as adenosine.",
-            "C": "A high fraction at rest, so increased demand is met mainly by increasing coronary flow.",
-            "D": "Increased myocardial metabolism and local vasodilation."
+            "A": "Twofold only",
+            "B": "Tenfold",
+            "C": "3–5 fold",
+            "D": "10%"
           },
-          "answer": "B",
-          "explanation": "Myocardial metabolic demand, especially local vasodilator metabolites such as adenosine.",
-          "concept": "Coronary Circulation",
-          "difficulty": "understanding",
+          "answer": "C",
+          "explanation": "The lecture states CBF rises 3–5 fold during exercise.",
+          "concept": "CBF",
+          "difficulty": "core",
           "source_url": "https://docs.google.com/presentation/d/13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
-          "source_card_id": "13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0-c03",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0_04",
-          "stem": "Which of the following best describes much oxygen does the myocardium normally extract from coronary blood?",
+          "stem": "Coronary autoregulation maintains flow nearly constant across which MAP range in the lecture?",
           "options": {
-            "A": "A high fraction at rest, so increased demand is met mainly by increasing coronary flow.",
-            "B": "Myocardial metabolic demand, especially local vasodilator metabolites such as adenosine.",
-            "C": "It shortens diastole, the main period of left coronary flow.",
-            "D": "Increased myocardial metabolism and local vasodilation."
+            "A": "0–40 mmHg",
+            "B": "60–180 mmHg",
+            "C": "20–60 mmHg",
+            "D": "100–240 mmHg"
           },
-          "answer": "A",
-          "explanation": "A high fraction at rest, so increased demand is met mainly by increasing coronary flow.",
-          "concept": "Coronary Circulation",
-          "difficulty": "application",
+          "answer": "B",
+          "explanation": "Myogenic autoregulation is described over MAP about 60–180 mmHg.",
+          "concept": "Autoregulation",
+          "difficulty": "core",
           "source_url": "https://docs.google.com/presentation/d/13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
-          "source_card_id": "13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0-c04",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0_05",
-          "stem": "What strongly increases coronary blood flow during exercise?",
+          "stem": "Which factor is described as the most effective coronary vasodilator?",
           "options": {
-            "A": "Myocardial metabolic demand, especially local vasodilator metabolites such as adenosine.",
-            "B": "Aortic diastolic pressure minus ventricular pressure.",
-            "C": "Contracting myocardium compresses intramyocardial vessels.",
-            "D": "Increased myocardial metabolism and local vasodilation."
+            "A": "Hypoxia",
+            "B": "Hyperoxia",
+            "C": "Acetylcholine blockade",
+            "D": "High calcium"
           },
-          "answer": "D",
-          "explanation": "Increased myocardial metabolism and local vasodilation.",
-          "concept": "Coronary Circulation",
+          "answer": "A",
+          "explanation": "Reduced oxygen is the most effective coronary vasodilator factor in the lecture.",
+          "concept": "Metabolic control",
           "difficulty": "core",
           "source_url": "https://docs.google.com/presentation/d/13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
-          "source_card_id": "13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0-c05",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0_06",
-          "stem": "Which of the following best describes coronary perfusion pressure mainly depend on?",
+          "stem": "Increased cardiac work raises coronary flow mainly through what local mechanism?",
           "options": {
-            "A": "Contracting myocardium compresses intramyocardial vessels.",
-            "B": "It shortens diastole, the main period of left coronary flow.",
-            "C": "Aortic diastolic pressure minus ventricular pressure.",
-            "D": "Increased myocardial metabolism and local vasodilation."
+            "A": "Direct alpha-1 stimulation",
+            "B": "Reduced metabolite production",
+            "C": "Coronary compression",
+            "D": "Release of vasodilator metabolites"
           },
-          "answer": "C",
-          "explanation": "Aortic diastolic pressure minus ventricular pressure.",
-          "concept": "Coronary Circulation",
-          "difficulty": "understanding",
+          "answer": "D",
+          "explanation": "Increased work releases metabolites such as CO2, H+, adenosine and K+, producing vasodilation.",
+          "concept": "Metabolic control",
+          "difficulty": "core",
           "source_url": "https://docs.google.com/presentation/d/13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
-          "source_card_id": "13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0-c06",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0_07",
-          "stem": "Which of the following best explains why can tachycardia reduce coronary perfusion?",
+          "stem": "What is the direct sympathetic effect on coronary vessels described in the lecture?",
           "options": {
-            "A": "Increased myocardial metabolism and local vasodilation.",
-            "B": "It shortens diastole, the main period of left coronary flow.",
-            "C": "A high fraction at rest, so increased demand is met mainly by increasing coronary flow.",
-            "D": "Contracting myocardium compresses intramyocardial vessels."
+            "A": "Muscarinic vasoconstriction",
+            "B": "No vascular effect",
+            "C": "Alpha-1 mediated vasoconstriction",
+            "D": "Beta-1 mediated vasoconstriction"
           },
-          "answer": "B",
-          "explanation": "It shortens diastole, the main period of left coronary flow.",
-          "concept": "Coronary Circulation",
-          "difficulty": "application",
+          "answer": "C",
+          "explanation": "Direct sympathetic action is alpha-1 predominant coronary vasoconstriction.",
+          "concept": "Neural control",
+          "difficulty": "core",
           "source_url": "https://docs.google.com/presentation/d/13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
-          "source_card_id": "13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0-c07",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0_08",
-          "stem": "Which coronary artery commonly supplies the AV node in right-dominant circulation?",
+          "stem": "Why can overall coronary flow rise during sympathetic stimulation despite a direct vasoconstrictor effect?",
           "options": {
-            "A": "Right coronary artery.",
-            "B": "During diastole.",
-            "C": "It shortens diastole, the main period of left coronary flow.",
-            "D": "Aortic diastolic pressure minus ventricular pressure."
-          },
-          "answer": "A",
-          "explanation": "Right coronary artery.",
-          "concept": "Coronary Circulation",
-          "difficulty": "core",
-          "source_url": "https://docs.google.com/presentation/d/13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
-          "source_card_id": "13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0-c08",
-          "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
-        },
-        {
-          "id": "ai_13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0_formcase01",
-          "stem": "A patient develops marked tachycardia. Even without a coronary occlusion, myocardial perfusion may fall. Which mechanism best explains this?",
-          "options": {
-            "A": "Increased myocardial metabolism and local vasodilation.",
-            "B": "It shortens diastole, the main period of left coronary flow.",
-            "C": "A high fraction at rest, so increased demand is met mainly by increasing coronary flow.",
-            "D": "Contracting myocardium compresses intramyocardial vessels."
+            "A": "Systole becomes longer",
+            "B": "Increased metabolism causes indirect vasodilation",
+            "C": "Vagal blockade stops the heart",
+            "D": "Oxygen extraction falls to zero"
           },
           "answer": "B",
-          "explanation": "It shortens diastole, the main period of left coronary flow.",
-          "concept": "Coronary Circulation — formative-style case",
+          "explanation": "Sympathetic stimulation increases cardiac work and metabolites, causing dominant indirect vasodilation.",
+          "concept": "Neural control",
           "difficulty": "application",
           "source_url": "https://docs.google.com/presentation/d/13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
-          "source_card_id": "13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0-c07",
           "style_profile": "KAU-formative-case-inspired",
-          "quality_status": "hold",
-          "exam_ready": false,
-          "case_style": "formative_short_case",
-          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case"
+        },
+        {
+          "id": "ai_13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0_09",
+          "stem": "When is left ventricular coronary blood flow highest?",
+          "options": {
+            "A": "Diastole",
+            "B": "Isovolumetric contraction",
+            "C": "Peak systole",
+            "D": "Atrial systole only"
+          },
+          "answer": "A",
+          "explanation": "Myocardial relaxation during diastole relieves coronary compression, so LV flow is greatest then.",
+          "concept": "Mechanical control",
+          "difficulty": "core",
+          "source_url": "https://docs.google.com/presentation/d/13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0_10",
+          "stem": "Why does coronary flow fall during ventricular systole?",
+          "options": {
+            "A": "Adenosine disappears completely",
+            "B": "Aortic pressure becomes zero",
+            "C": "Thebesian veins close",
+            "D": "Contracting myocardium compresses coronary vessels"
+          },
+          "answer": "D",
+          "explanation": "Mechanical compression of coronary vessels reduces flow during contraction.",
+          "concept": "Mechanical control",
+          "difficulty": "core",
+          "source_url": "https://docs.google.com/presentation/d/13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0_11",
+          "stem": "A patient develops marked tachycardia. Why can this compromise left ventricular perfusion?",
+          "options": {
+            "A": "It decreases oxygen demand",
+            "B": "It increases the resting period",
+            "C": "It shortens diastolic perfusion time",
+            "D": "It abolishes systolic compression"
+          },
+          "answer": "C",
+          "explanation": "LV coronary perfusion occurs mainly in diastole, which shortens with tachycardia.",
+          "concept": "Clinical application",
+          "difficulty": "application",
+          "source_url": "https://docs.google.com/presentation/d/13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case"
+        },
+        {
+          "id": "ai_13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0_12",
+          "stem": "Which coronary artery gives the anterior interventricular artery?",
+          "options": {
+            "A": "Circumflex vein",
+            "B": "Left coronary artery",
+            "C": "Right coronary artery",
+            "D": "Pulmonary artery"
+          },
+          "answer": "B",
+          "explanation": "The left coronary artery gives the LAD/anterior interventricular and circumflex branches.",
+          "concept": "Anatomy",
+          "difficulty": "core",
+          "source_url": "https://docs.google.com/presentation/d/13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0_13",
+          "stem": "Which branch is listed as arising from the right coronary artery?",
+          "options": {
+            "A": "Right marginal artery",
+            "B": "Left marginal artery",
+            "C": "Anterior interventricular artery",
+            "D": "Circumflex artery"
+          },
+          "answer": "A",
+          "explanation": "The right coronary gives the right marginal and posterior interventricular arteries in the lecture.",
+          "concept": "Anatomy",
+          "difficulty": "core",
+          "source_url": "https://docs.google.com/presentation/d/13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0_14",
+          "stem": "The coronary sinus drains directly into which chamber?",
+          "options": {
+            "A": "Left atrium",
+            "B": "Right ventricle",
+            "C": "Left ventricle",
+            "D": "Right atrium"
+          },
+          "answer": "D",
+          "explanation": "The coronary sinus drains into the right atrium.",
+          "concept": "Venous drainage",
+          "difficulty": "core",
+          "source_url": "https://docs.google.com/presentation/d/13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0_15",
+          "stem": "Thebesian veins drain myocardial blood into where?",
+          "options": {
+            "A": "The pulmonary artery",
+            "B": "The aorta",
+            "C": "The concerned cardiac chambers",
+            "D": "Only the coronary sinus"
+          },
+          "answer": "C",
+          "explanation": "Thebesian veins drain directly from myocardium into the relevant heart chambers.",
+          "concept": "Venous drainage",
+          "difficulty": "core",
+          "source_url": "https://docs.google.com/presentation/d/13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0_16",
+          "stem": "Adenosine is classified under which control of coronary blood flow in the lecture?",
+          "options": {
+            "A": "Venous drainage",
+            "B": "Humoral chemical control",
+            "C": "Mechanical control only",
+            "D": "Anatomic dominance"
+          },
+          "answer": "B",
+          "explanation": "Adenosine is listed as a humoral/chemical control factor.",
+          "concept": "Control",
+          "difficulty": "core",
+          "source_url": "https://docs.google.com/presentation/d/13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
         }
       ],
       "eligibility_status": "allowed",
       "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
-      "quality_status": "hold",
-      "quality_reviewed_at": "2026-09-30T15:36:28.081Z",
+      "quality_status": "pass",
+      "quality_reviewed_at": "2026-09-30T17:45:32.230Z",
       "quality_policy_version": 2,
-      "quality_reason": "Legacy AI set used other questions' correct answers as distractors; withheld until objective-led rebuild.",
-      "exam_ready": false
+      "quality_reason": "Rebuilt directly from official lecture content with objective-led SBAs and supported application questions.",
+      "exam_ready": true
     },
     {
       "id": "ai_set_1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2",
@@ -2155,190 +2429,348 @@
       "title": "Cardiac Excitability and Automaticity",
       "source_url": "https://drive.google.com/file/d/1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2/view?usp=drivesdk",
       "source_modified_time": "2026-09-13T14:50:48.000Z",
-      "source_validation": "lecture_validated_seed",
+      "source_validation": "lecture_verified_quality_rebuilt",
       "archived": false,
       "questions": [
         {
           "id": "ai_1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2_01",
-          "stem": "What gives SA nodal cells automaticity?",
+          "stem": "Which cardiac tissue normally has the fastest autorhythmic rate?",
           "options": {
-            "A": "The plateau prolongs the action potential, preventing tetanic contraction.",
-            "B": "The funny current (If), with inward Na⁺ current, plus Ca²⁺ entry.",
-            "C": "SA node, because it has the fastest spontaneous firing rate.",
-            "D": "Their membrane potential slowly depolarizes spontaneously during phase 4."
+            "A": "SA node",
+            "B": "AV node",
+            "C": "Purkinje fibers",
+            "D": "Ventricular myocardium"
           },
-          "answer": "D",
-          "explanation": "Their membrane potential slowly depolarizes spontaneously during phase 4.",
-          "concept": "Cardiac Excitability and Automaticity",
-          "difficulty": "application",
+          "answer": "A",
+          "explanation": "The SA node has the fastest spontaneous rate and normally sets the heart's pace.",
+          "concept": "Automaticity",
+          "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2/view?usp=drivesdk",
-          "source_card_id": "1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2-c01",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2_02",
-          "stem": "What ion current contributes to pacemaker phase 4 depolarization?",
+          "stem": "If the SA node fails, which structure is described as the next pacemaker at about 50 bpm?",
           "options": {
-            "A": "The plateau prolongs the action potential, preventing tetanic contraction.",
-            "B": "Their membrane potential slowly depolarizes spontaneously during phase 4.",
-            "C": "The funny current (If), with inward Na⁺ current, plus Ca²⁺ entry.",
-            "D": "SA node, because it has the fastest spontaneous firing rate."
+            "A": "Purkinje fibers",
+            "B": "Left ventricle",
+            "C": "Atrial muscle",
+            "D": "AV node"
           },
-          "answer": "C",
-          "explanation": "The funny current (If), with inward Na⁺ current, plus Ca²⁺ entry.",
-          "concept": "Cardiac Excitability and Automaticity",
-          "difficulty": "core",
+          "answer": "D",
+          "explanation": "The AV node is the next-fastest autorhythmic tissue.",
+          "concept": "Automaticity",
+          "difficulty": "application",
           "source_url": "https://drive.google.com/file/d/1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2/view?usp=drivesdk",
-          "source_card_id": "1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2-c02",
-          "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case"
         },
         {
           "id": "ai_1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2_03",
-          "stem": "What causes the upstroke of the SA-node action potential?",
+          "stem": "In complete heart block, the ventricles may assume a rate of about 30 bpm from which tissue?",
           "options": {
-            "A": "Balance between L-type Ca²⁺ influx and K⁺ efflux.",
-            "B": "Ca²⁺ influx through L-type calcium channels.",
-            "C": "K⁺ efflux.",
-            "D": "Rapid Na⁺ influx through fast sodium channels."
+            "A": "Atrial muscle",
+            "B": "Papillary muscles",
+            "C": "Purkinje fibers",
+            "D": "SA node"
           },
-          "answer": "B",
-          "explanation": "Ca²⁺ influx through L-type calcium channels.",
-          "concept": "Cardiac Excitability and Automaticity",
-          "difficulty": "understanding",
+          "answer": "C",
+          "explanation": "With atrioventricular conduction blocked, Purkinje tissue can drive a slow ventricular rhythm.",
+          "concept": "Heart block",
+          "difficulty": "application",
           "source_url": "https://drive.google.com/file/d/1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2/view?usp=drivesdk",
-          "source_card_id": "1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2-c03",
-          "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case"
         },
         {
           "id": "ai_1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2_04",
-          "stem": "What causes repolarization in SA nodal cells?",
+          "stem": "Do cardiac pacemaker cells have a stable resting membrane potential?",
           "options": {
-            "A": "K⁺ efflux.",
-            "B": "Ca²⁺ influx through L-type calcium channels.",
-            "C": "Balance between L-type Ca²⁺ influx and K⁺ efflux.",
-            "D": "Rapid Na⁺ influx through fast sodium channels."
+            "A": "Only in the AV node",
+            "B": "No; they spontaneously depolarize during phase 4",
+            "C": "Yes; it remains at -90 mV",
+            "D": "Only during exercise"
           },
-          "answer": "A",
-          "explanation": "K⁺ efflux.",
-          "concept": "Cardiac Excitability and Automaticity",
-          "difficulty": "application",
+          "answer": "B",
+          "explanation": "Autorhythmic cells display a drifting pacemaker potential rather than a stable resting potential.",
+          "concept": "Pacemaker AP",
+          "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2/view?usp=drivesdk",
-          "source_card_id": "1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2-c04",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2_05",
-          "stem": "What causes phase 0 in ventricular myocytes?",
+          "stem": "Which current contributes importantly to phase 4 depolarization in pacemaker cells?",
           "options": {
-            "A": "Balance between L-type Ca²⁺ influx and K⁺ efflux.",
-            "B": "SA node, because it has the fastest spontaneous firing rate.",
-            "C": "The funny current (If), with inward Na⁺ current, plus Ca²⁺ entry.",
-            "D": "Rapid Na⁺ influx through fast sodium channels."
+            "A": "Funny current, mainly Na+ influx",
+            "B": "Fast Na+ efflux",
+            "C": "Cl- influx only",
+            "D": "K+ influx only"
           },
-          "answer": "D",
-          "explanation": "Rapid Na⁺ influx through fast sodium channels.",
-          "concept": "Cardiac Excitability and Automaticity",
+          "answer": "A",
+          "explanation": "The lecture attributes phase 4 to funny current, decreased K+ efflux and transient Ca2+ influx.",
+          "concept": "Pacemaker AP",
           "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2/view?usp=drivesdk",
-          "source_card_id": "1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2-c05",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2_06",
-          "stem": "What causes the plateau phase of ventricular action potential?",
+          "stem": "Phase 0 of the nodal pacemaker action potential is mainly caused by what?",
           "options": {
-            "A": "SA node, because it has the fastest spontaneous firing rate.",
-            "B": "The funny current (If), with inward Na⁺ current, plus Ca²⁺ entry.",
-            "C": "Balance between L-type Ca²⁺ influx and K⁺ efflux.",
-            "D": "Rapid Na⁺ influx through fast sodium channels."
+            "A": "Fast Na+ influx",
+            "B": "K+ efflux",
+            "C": "Cl- influx",
+            "D": "L-type Ca2+ influx"
           },
-          "answer": "C",
-          "explanation": "Balance between L-type Ca²⁺ influx and K⁺ efflux.",
-          "concept": "Cardiac Excitability and Automaticity",
-          "difficulty": "understanding",
+          "answer": "D",
+          "explanation": "Nodal phase 0 is produced by calcium entry through L-type channels.",
+          "concept": "Pacemaker AP",
+          "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2/view?usp=drivesdk",
-          "source_card_id": "1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2-c06",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2_07",
-          "stem": "Which of the following best explains why is the cardiac refractory period long?",
+          "stem": "Phase 3 of the pacemaker action potential is mainly due to what?",
           "options": {
-            "A": "SA node, because it has the fastest spontaneous firing rate.",
-            "B": "The plateau prolongs the action potential, preventing tetanic contraction.",
-            "C": "Their membrane potential slowly depolarizes spontaneously during phase 4.",
-            "D": "The funny current (If), with inward Na⁺ current, plus Ca²⁺ entry."
+            "A": "Ca2+ influx",
+            "B": "Na/K pump only",
+            "C": "K+ outflow",
+            "D": "Na+ influx"
           },
-          "answer": "B",
-          "explanation": "The plateau prolongs the action potential, preventing tetanic contraction.",
-          "concept": "Cardiac Excitability and Automaticity",
-          "difficulty": "application",
+          "answer": "C",
+          "explanation": "Potassium efflux produces repolarization in phase 3.",
+          "concept": "Pacemaker AP",
+          "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2/view?usp=drivesdk",
-          "source_card_id": "1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2-c07",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2_08",
-          "stem": "Which of the following best describes the normal dominant pacemaker?",
+          "stem": "Why is the approximately 100 ms AV nodal delay important?",
           "options": {
-            "A": "SA node, because it has the fastest spontaneous firing rate.",
-            "B": "The funny current (If), with inward Na⁺ current, plus Ca²⁺ entry.",
-            "C": "The plateau prolongs the action potential, preventing tetanic contraction.",
-            "D": "Balance between L-type Ca²⁺ influx and K⁺ efflux."
+            "A": "It abolishes ventricular filling",
+            "B": "It allows atrial contraction to finish before ventricular contraction",
+            "C": "It prevents atrial depolarization",
+            "D": "It makes ventricles contract before atria"
           },
-          "answer": "A",
-          "explanation": "SA node, because it has the fastest spontaneous firing rate.",
-          "concept": "Cardiac Excitability and Automaticity",
-          "difficulty": "core",
-          "source_url": "https://drive.google.com/file/d/1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2/view?usp=drivesdk",
-          "source_card_id": "1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2-c08",
-          "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
-        },
-        {
-          "id": "ai_1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2_formcase01",
-          "stem": "A drug reduces the spontaneous phase-4 depolarization of SA nodal cells. Which current normally contributes to this pacemaker depolarization?",
-          "options": {
-            "A": "The plateau prolongs the action potential, preventing tetanic contraction.",
-            "B": "Their membrane potential slowly depolarizes spontaneously during phase 4.",
-            "C": "The funny current (If), with inward Na⁺ current, plus Ca²⁺ entry.",
-            "D": "SA node, because it has the fastest spontaneous firing rate."
-          },
-          "answer": "C",
-          "explanation": "The funny current (If), with inward Na⁺ current, plus Ca²⁺ entry.",
-          "concept": "Cardiac Excitability and Automaticity — formative-style case",
+          "answer": "B",
+          "explanation": "The AV delay coordinates sequential atrial then ventricular contraction.",
+          "concept": "Conduction",
           "difficulty": "application",
           "source_url": "https://drive.google.com/file/d/1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2/view?usp=drivesdk",
-          "source_card_id": "1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2-c02",
           "style_profile": "KAU-formative-case-inspired",
-          "quality_status": "hold",
-          "exam_ready": false,
-          "case_style": "formative_short_case",
-          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case"
+        },
+        {
+          "id": "ai_1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2_09",
+          "stem": "What is the approximate resting membrane potential of fast-response cardiac muscle cells in the lecture?",
+          "options": {
+            "A": "-90 mV",
+            "B": "+20 mV",
+            "C": "-40 mV",
+            "D": "0 mV"
+          },
+          "answer": "A",
+          "explanation": "The fast cardiac action-potential section gives an RMP of about -90 mV.",
+          "concept": "Fast AP",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2_10",
+          "stem": "Phase 0 of a fast cardiac action potential is caused primarily by what?",
+          "options": {
+            "A": "L-type Ca2+ influx only",
+            "B": "K+ efflux",
+            "C": "Funny current",
+            "D": "Voltage-gated Na+ influx"
+          },
+          "answer": "D",
+          "explanation": "Rapid sodium entry causes fast depolarization.",
+          "concept": "Fast AP",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2_11",
+          "stem": "Which ionic movements characterize phase 2, the plateau?",
+          "options": {
+            "A": "Only K+ influx",
+            "B": "Cl- efflux with Na+ efflux",
+            "C": "Slow Ca2+ influx with K+ efflux",
+            "D": "Only Na+ influx"
+          },
+          "answer": "C",
+          "explanation": "The plateau reflects opposing calcium influx and potassium efflux.",
+          "concept": "Fast AP",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2_12",
+          "stem": "The absolute refractory period extends from phase 0 until approximately when?",
+          "options": {
+            "A": "Only during phase 2",
+            "B": "Midway through phase 3",
+            "C": "End of phase 4",
+            "D": "End of phase 1"
+          },
+          "answer": "B",
+          "explanation": "The lecture places the ARP from phase 0 to midway through phase 3.",
+          "concept": "Refractory period",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2_13",
+          "stem": "During which period does the lecture warn ventricular fibrillation may occur?",
+          "options": {
+            "A": "Supernormal period in early phase 4",
+            "B": "Absolute refractory period",
+            "C": "AV nodal delay",
+            "D": "Plateau only"
+          },
+          "answer": "A",
+          "explanation": "The supernormal period is described in early phase 4 with risk of ventricular fibrillation.",
+          "concept": "Refractory period",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2_14",
+          "stem": "Sympathetic stimulation increases SA-node rate mainly by doing what to phase 4?",
+          "options": {
+            "A": "Flattening the prepotential",
+            "B": "Blocking L-type calcium permanently",
+            "C": "Increasing K+ efflux only",
+            "D": "Increasing funny-current permeability and steepening the prepotential"
+          },
+          "answer": "D",
+          "explanation": "Sympathetic input steepens phase 4, allowing threshold to be reached sooner.",
+          "concept": "Autonomic control",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2/view?usp=drivesdk",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case"
+        },
+        {
+          "id": "ai_1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2_15",
+          "stem": "Parasympathetic stimulation decreases SA-node rate mainly by what effect described in the lecture?",
+          "options": {
+            "A": "Increasing catecholamine release",
+            "B": "Blocking potassium channels",
+            "C": "Decreasing funny-current permeability and slope of the prepotential",
+            "D": "Increasing funny current"
+          },
+          "answer": "C",
+          "explanation": "Vagal stimulation reduces the phase-4 slope and slows pacemaker firing.",
+          "concept": "Autonomic control",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2/view?usp=drivesdk",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case"
+        },
+        {
+          "id": "ai_1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2_16",
+          "stem": "Which drug listed is a negative chronotrope?",
+          "options": {
+            "A": "Atropine",
+            "B": "Metoprolol",
+            "C": "Dobutamine",
+            "D": "Epinephrine"
+          },
+          "answer": "B",
+          "explanation": "Beta-blockers such as metoprolol reduce SA-node firing and heart rate.",
+          "concept": "Drugs",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2/view?usp=drivesdk",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2_17",
+          "stem": "Which calcium-channel blockers act strongly on the heart to slow SA/AV nodal activity?",
+          "options": {
+            "A": "Verapamil and diltiazem",
+            "B": "Amlodipine and nifedipine",
+            "C": "Felodipine and amlodipine",
+            "D": "All DHPs only"
+          },
+          "answer": "A",
+          "explanation": "Non-DHP CCBs verapamil and diltiazem reduce HR and AV conduction.",
+          "concept": "Drugs",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2/view?usp=drivesdk",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case"
+        },
+        {
+          "id": "ai_1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2_18",
+          "stem": "A well-trained athlete has a lower resting heart rate. Which change in the lecture helps explain this?",
+          "options": {
+            "A": "Reduced stroke volume",
+            "B": "Permanent AV block",
+            "C": "Hyperkalemia",
+            "D": "Improved stroke volume"
+          },
+          "answer": "D",
+          "explanation": "The lecture links athletic training to improved stroke volume and lower HR.",
+          "concept": "Rhythmicity",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2/view?usp=drivesdk",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case"
         }
       ],
       "eligibility_status": "allowed",
       "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
-      "quality_status": "hold",
-      "quality_reviewed_at": "2026-09-30T15:36:28.081Z",
+      "quality_status": "pass",
+      "quality_reviewed_at": "2026-09-30T17:45:32.231Z",
       "quality_policy_version": 2,
-      "quality_reason": "Legacy AI set used other questions' correct answers as distractors; withheld until objective-led rebuild.",
-      "exam_ready": false
+      "quality_reason": "Rebuilt directly from official lecture content with objective-led SBAs and supported application questions.",
+      "exam_ready": true
     },
     {
       "id": "ai_set_1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS",

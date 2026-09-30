@@ -9,6 +9,9 @@ let aiLibrary={lecture_sets:[],generated_at:null};
 let studyGuideCatalog={subjects:[]};
 let studyGuideQuestionMap={past:{},ai:{}};
 let aiState={subject:'',lecture:'',search:'',filter:'all',page:1,pageSize:20,shuffle:false};
+let aiUnansweredPagePins=new Set();
+function aiClearUnansweredPins(){aiUnansweredPagePins.clear()}
+function aiIsUnansweredMode(){return aiState.filter==='unanswered'||aiAdvanced.status==='unanswered'}
 let aiAdvanced={status:'all',subject:'',lectures:new Set()};
 let pastAdvanced={status:'all',subject:'',lectures:new Set()};
 
@@ -38,10 +41,10 @@ function aiFiltered(){
     if(aiState.subject&&q.subject!==aiState.subject)return false;
     if(aiState.lecture&&q.set_id!==aiState.lecture)return false;
     if(query&&!((q.stem||'')+' '+Object.values(q.options||{}).join(' ')+' '+q.lecture_title+' '+q.subject+' '+q.concept).toLowerCase().includes(query))return false;
-    if(aiState.filter==='unanswered'&&p[q.id]?.answered)return false;
+    if(aiState.filter==='unanswered'&&p[q.id]?.answered&&!aiUnansweredPagePins.has(q.id))return false;
     if(aiState.filter==='wrong'&&p[q.id]?.correct!==false)return false;
     if(aiState.filter==='starred'&&!p[q.id]?.starred)return false;
-    if(aiAdvanced.status==='unanswered'&&p[q.id]?.answered)return false;
+    if(aiAdvanced.status==='unanswered'&&p[q.id]?.answered&&!aiUnansweredPagePins.has(q.id))return false;
     if(aiAdvanced.status==='correct'&&p[q.id]?.correct!==true)return false;
     if(aiAdvanced.status==='wrong'&&p[q.id]?.correct!==false)return false;
     if(aiAdvanced.status==='starred'&&!p[q.id]?.starred)return false;
@@ -80,6 +83,7 @@ function bindAI(){
 }
 function answerAI(id,opt){
   const q=aiAllQuestions().find(x=>x.id===id),p=aiProgress();if(!q||p[id]?.answered)return;
+  if(aiIsUnansweredMode())aiUnansweredPagePins.add(id);
   p[id]={...(p[id]||{}),answered:true,selected:opt,correct:opt===q.answer,locked_at:new Date().toISOString()};
   aiSave();
   trackEvent('question_answer',{question_id:id,topic:q.concept||q.lecture_title||q.subject,metadata:{correct:opt===q.answer,first_attempt:true,source:'ai_generated'}});
@@ -106,6 +110,7 @@ function renderAI(){
   host.innerHTML=qs.length?pager+qs.map(aiCard).join('')+pager:'<div class="empty">No AI questions match these filters.</div>';
   bindAI();
   document.querySelectorAll('[data-ai-page]').forEach(b=>b.onclick=()=>{
+    aiClearUnansweredPins();
     if(b.dataset.aiPage==='prev'&&aiState.page>1)aiState.page--;
     if(b.dataset.aiPage==='next'&&aiState.page<pages)aiState.page++;
     renderAI();window.scrollTo({top:document.getElementById('aiSection').offsetTop,behavior:'smooth'});
@@ -149,10 +154,10 @@ async function initAIQuestions(){
 }
 function setupAIControls(){
   const search=document.getElementById('aiSearch'),subject=document.getElementById('aiSubject'),lecture=document.getElementById('aiLecture');
-  if(search)search.oninput=()=>{aiState.search=search.value;aiState.page=1;renderAI()};
-  if(subject)subject.onchange=()=>{aiState.subject=subject.value;aiState.lecture='';aiState.page=1;populateAIFilters();renderAI()};
-  if(lecture)lecture.onchange=()=>{aiState.lecture=lecture.value;aiState.page=1;renderAI()};
-  document.querySelectorAll('[data-ai-filter]').forEach(b=>b.onclick=()=>{aiState.filter=b.dataset.aiFilter;aiState.page=1;document.querySelectorAll('[data-ai-filter]').forEach(x=>x.classList.toggle('active',x===b));renderAI()});
+  if(search)search.oninput=()=>{aiClearUnansweredPins();aiState.search=search.value;aiState.page=1;renderAI()};
+  if(subject)subject.onchange=()=>{aiClearUnansweredPins();aiState.subject=subject.value;aiState.lecture='';aiState.page=1;populateAIFilters();renderAI()};
+  if(lecture)lecture.onchange=()=>{aiClearUnansweredPins();aiState.lecture=lecture.value;aiState.page=1;renderAI()};
+  document.querySelectorAll('[data-ai-filter]').forEach(b=>b.onclick=()=>{aiClearUnansweredPins();aiState.filter=b.dataset.aiFilter;aiState.page=1;document.querySelectorAll('[data-ai-filter]').forEach(x=>x.classList.toggle('active',x===b));renderAI()});
   const sh=document.getElementById('aiShuffle');if(sh)sh.onclick=()=>{aiState.shuffle=!aiState.shuffle;sh.classList.toggle('active',aiState.shuffle);aiState.page=1;renderAI()};
 }
 
@@ -423,7 +428,10 @@ function homeWeakTopics(){
   return (eligible.length?eligible:rows).sort((a,b)=>a.accuracy-b.accuracy||b.graded-a.graded||a.topic.localeCompare(b.topic)).slice(0,8);
 }
 
-let lectureDashState={subject:'',status:'',search:''};
+let lectureDashState={subject:'',status:'',quiz:'',search:''};
+const QUIZ2_LECTURE_TITLES=["Pathology of Hypertension","Physiology of vascular endothelium","Antihypertensive drugs 1","Cardiac cycle","Antihypertensive drugs 2","Vasculitis","Pathology of valvular Heart Diseases","Development of the heart and its great vessels","Normal ECG","Congenital anomalies and abnormal development of heart and its great vessels","Antiarrhythmic drugs","Endocarditis","Abnormal ECG and cardiac arrhythmias","Anatomy of Thoracic Wall","Anatomy of nose and paranasal sinuses","Pressure-volume relationship","Obstructive airway disease","Anatomical Relations of the lungs","Histology of the respiratory system","Drugs used for treatment of asthma","Drug therapy for cough and COPD","Development of respiratory system","Atelectasis and acute lung injury","Lower respiratory tract infections","Anatomy of the larynx","Restrictive airway disease","Upper respiratory tract neoplasm","Gas diffusion and blood flow","Drug therapy of respiratory infections","Cystic parasitic diseases of the lung","Lung immunology — innate and acquired immune responses in respiratory infections","Pulmonary infection","Transport of oxygen in blood","Pulmonary vessel disease","Transport of carbon dioxide in blood","Lung and pleural tumors","Treatment of TB","Verminous pneumonia (parasitic larvae invading lung)","Acid-base Homeostasis & the role of respiratory system","Metabolic functions of the lung and Pulmonary Surfactant","Neural control of breathing"];
+const QUIZ2_LECTURE_KEYS=new Set(QUIZ2_LECTURE_TITLES.map(qaNorm));
+function lectureQuizNumber(title){const k=qaNorm(title);if(QUIZ2_LECTURE_KEYS.has(k))return 2;for(const q of QUIZ2_LECTURE_KEYS){if(k&&q&&(k.includes(q)||q.includes(k)))return 2}return 1}
 const lectureDeckMapCache=new Map();
 
 function lectureGuideDeck(deck){
@@ -480,7 +488,7 @@ function lectureDashboardRows(){
   const lectures=qaLectureCatalog(),rows=new Map();
   for(const l of lectures){
     rows.set(l.id,{
-      id:l.id,subject:l.subject,title:l.title,
+      id:l.id,subject:l.subject,title:l.title,quiz:lectureQuizNumber(l.title),
       pastTotal:0,pastDone:0,pastCorrect:0,pastGraded:0,
       aiTotal:0,aiDone:0,aiCorrect:0,aiGraded:0,
       lastStudied:lectureDateValue(lectureStudyProgress()[l.id]?.updated_at),manualStudied:lectureStudied(l.id)
@@ -536,6 +544,7 @@ function lectureDashFiltered(){
   return lectureDashboardRows().filter(r=>{
     if(lectureDashState.subject&&r.subject!==lectureDashState.subject)return false;
     if(lectureDashState.status&&r.status!==lectureDashState.status)return false;
+    if(lectureDashState.quiz&&String(r.quiz)!==String(lectureDashState.quiz))return false;
     if(q&&!((r.title+' '+r.subject).toLowerCase().includes(q)))return false;
     return true;
   }).sort((a,b)=>{
@@ -544,19 +553,21 @@ function lectureDashFiltered(){
   });
 }
 function setupLectureDashboardControls(){
-  const subject=document.getElementById('lectureDashSubject'),status=document.getElementById('lectureDashStatus'),search=document.getElementById('lectureDashSearch');
-  if(!subject||!status||!search)return;
+  const subject=document.getElementById('lectureDashSubject'),status=document.getElementById('lectureDashStatus'),quiz=document.getElementById('lectureDashQuiz'),search=document.getElementById('lectureDashSearch');
+  if(!subject||!status||!quiz||!search)return;
   const subjects=qaSubjects();
   const currentSubject=lectureDashState.subject;
   subject.innerHTML='<option value="">All subjects</option>'+subjects.map(x=>'<option value="'+esc(x)+'">'+esc(x)+'</option>').join('');
   subject.value=subjects.includes(currentSubject)?currentSubject:'';
   if(currentSubject&&!subjects.includes(currentSubject))lectureDashState.subject='';
   status.value=lectureDashState.status;
+  quiz.value=lectureDashState.quiz;
   search.value=lectureDashState.search;
   if(!subject.dataset.bound){
     subject.dataset.bound='1';
     subject.onchange=()=>{lectureDashState.subject=subject.value;renderLectureDashboard()};
     status.onchange=()=>{lectureDashState.status=status.value;renderLectureDashboard()};
+    quiz.onchange=()=>{lectureDashState.quiz=quiz.value;renderLectureDashboard()};
     search.oninput=()=>{lectureDashState.search=search.value;renderLectureDashboard()};
   }
 }
@@ -579,7 +590,7 @@ function renderLectureDashboard(){
     '<div>Lecture</div><div>Your study</div><div>Questions</div><div>Past papers</div><div>AI</div><div>Question progress</div><div>Accuracy</div><div>Last activity</div><div>Status</div></div>';
   host.innerHTML=head+rows.map(r=>
     '<div class="lectureDashRow">'+
-      '<div class="lectureDashLecture"><b>'+esc(r.title)+'</b><span>'+esc(r.subject)+'</span></div>'+
+      '<div class="lectureDashLecture"><b>'+esc(r.title)+'</b><span>'+esc(r.subject)+' <i class="lectureQuizStamp quiz'+r.quiz+'">QUIZ '+r.quiz+'</i></span></div>'+
       '<div class="lectureDashCheckCell"><button class="lectureManualCheck '+(r.manualStudied?'checked':'')+'" type="button" data-lecture-study="'+esc(r.id)+'" title="'+(r.manualStudied?'Mark lecture as not studied':'Mark lecture as studied')+'"><span>✓</span></button><small>'+ (r.manualStudied?'Studied':'Mark studied') +'</small></div>'+
       '<div class="lectureDashCheckCell"><div class="lectureAutoCheck '+(r.questionsComplete?'checked':'')+'" title="'+(r.questionsComplete?'All mapped Past Paper and AI questions answered':'Complete every mapped Past Paper and AI question to earn this check')+'"><span>✓</span></div><small>'+(r.questionsComplete?'Complete':r.questionDone+'/'+r.questionTotal)+'</small></div>'+
       '<div class="lectureDashCell"><b>'+r.pastDone+'/'+r.pastTotal+'</b><span>answered</span></div>'+

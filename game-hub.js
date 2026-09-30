@@ -179,9 +179,10 @@ function gameRenderProfile(){
       '<span><b>'+Number(gameProfile.wrong_first_attempts||0).toLocaleString()+'</b> wrong</span>'+
       '<span><b>'+Number(gameProfile.weekly_xp||0).toLocaleString()+'</b> XP this week</span>'+
     '</div>'+
-    '<div class="gameLeaderboardAuto"><b>Leaderboard active</b><small>Every registered MED25 account is ranked automatically.</small></div>'+
+    '<label class="gameLeaderboardToggle"><span><b>Appear on leaderboard</b><small>On automatically for every registered account. You can turn this off anytime.</small></span><input id="gameLeaderboardVisible" type="checkbox" '+(gameProfile.leaderboard_visible?'checked':'')+'><i></i></label>'+
     '<div class="gameProfileStatus" id="gameProfileStatus"></div>';
   document.getElementById('gameSaveProfile').onclick=gameSaveProfile;
+  document.getElementById('gameLeaderboardVisible').onchange=gameSaveProfile;
   document.getElementById('gameAvatarButton').onclick=()=>document.getElementById('gameAvatarInput')?.click();
   document.getElementById('gameAvatarInput').onchange=gameUploadAvatar;
   document.getElementById('gamePointsInfoBtn')?.addEventListener('click',gameOpenPointsInfo);
@@ -196,7 +197,7 @@ function gameOpenPointsInfo(){
     modal.setAttribute('role','dialog');
     modal.setAttribute('aria-modal','true');
     modal.setAttribute('aria-labelledby','gamePointsInfoTitle');
-    modal.innerHTML='<div class="gamePointsInfoBackdrop" data-close-points-info></div><div class="gamePointsInfoCard"><div class="gamePointsInfoHead"><div><span class="gameMiniLabel">MED25 XP</span><h3 id="gamePointsInfoTitle">How XP works</h3></div><button class="gamePointsInfoClose" type="button" data-close-points-info aria-label="Close">×</button></div><p class="gamePointsInfoIntro">Earn XP by studying, improving and staying accurate. Repeating an already-scored question cannot be farmed for XP.</p><div class="gamePointsInfoRules"><div><b>+7 XP</b><span>Correct Past Paper</span></div><div><b>+5 XP</b><span>Correct AI question</span></div><div><b>+1 XP</b><span>Wrong first attempt</span></div><div><b>+8 XP</b><span>Recover a previous mistake</span></div></div><div class="gamePointsInfoNote"><b>🔥 Correct-answer streak multipliers</b><span>5 = 1.1× · 10 = 1.25× · 20 = 1.5× · 30 = 2×. A wrong answer resets the streak.</span></div><div class="gamePointsInfoNote"><b>📝 Mock Exam bonuses</b><span>70%+ = +40 XP · 80%+ = +60 XP · 90%+ = +100 XP. Each completed mock can earn its bonus once.</span></div><div class="gamePointsInfoNote"><b>🏆 Rankings</b><span>Weekly, Monthly and All-Time leaderboards. Weekly and monthly XP reset by period; your total XP and level never reset.</span></div><p class="gamePointsInfoFooter">Study. Improve. Level up. 🧠🔥</p></div>';
+    modal.innerHTML='<div class="gamePointsInfoBackdrop" data-close-points-info></div><div class="gamePointsInfoCard"><div class="gamePointsInfoHead"><div><span class="gameMiniLabel">MED25 XP</span><h3 id="gamePointsInfoTitle">How XP works</h3></div><button class="gamePointsInfoClose" type="button" data-close-points-info aria-label="Close">×</button></div><p class="gamePointsInfoIntro">Earn XP by studying, improving and staying accurate. Repeating an already-scored question cannot be farmed for XP.</p><div class="gamePointsInfoRules"><div><b>+7 XP</b><span>Correct Past Paper</span></div><div><b>+5 XP</b><span>Correct AI question</span></div><div><b>+1 XP</b><span>Wrong first attempt</span></div><div><b>+8 XP</b><span>Recover a previous mistake</span></div></div><div class="gamePointsInfoNote"><b>🔥 Correct-answer streak multipliers</b><span>5 = 1.1× · 10 = 1.25× · 20 = 1.5× · 30 = 2×. A wrong answer resets the streak.</span></div><div class="gamePointsInfoNote"><b>🏆 Rankings</b><span>Weekly, Monthly and All-Time leaderboards. Weekly and monthly XP reset by period; your total XP and level never reset.</span></div><p class="gamePointsInfoFooter">Study. Improve. Level up. 🧠🔥</p></div>';
     document.body.appendChild(modal);
     modal.querySelectorAll('[data-close-points-info]').forEach(el=>el.addEventListener('click',gameClosePointsInfo));
   }
@@ -234,10 +235,6 @@ async function gameEnsureProfile(){
     rows=await create.json();
   }
   gameProfile=rows[0]||null;
-  if(gameProfile&&gameProfile.leaderboard_visible!==true){
-    const show=await supaFetch('/rest/v1/game_profiles?user_id=eq.'+encodeURIComponent(currentUser.id),{method:'PATCH',headers:{Prefer:'return=representation'},body:JSON.stringify({leaderboard_visible:true,updated_at:new Date().toISOString()})});
-    if(show.ok){const fixed=await show.json();if(fixed[0])gameProfile=fixed[0]}
-  }
   gameRenderProfile();
   return gameProfile;
 }
@@ -255,7 +252,7 @@ async function gameRefreshProfile(){
 async function gameSaveProfile(){
   if(!currentUser||!gameProfile)return;
   const username=(document.getElementById('gameUsernameInput')?.value||gameProfile.username||'').trim();
-  const visible=true;
+  const visible=!!document.getElementById('gameLeaderboardVisible')?.checked;
   if(!/^[A-Za-z0-9_.-]{3,24}$/.test(username)){
     gameSetProfileStatus('Use 3–24 letters, numbers, dots, underscores or hyphens.',true);return;
   }
@@ -263,7 +260,7 @@ async function gameSaveProfile(){
   const res=await supaFetch('/rest/v1/game_profiles?user_id=eq.'+encodeURIComponent(currentUser.id),{
     method:'PATCH',
     headers:{Prefer:'return=representation'},
-    body:JSON.stringify({username,leaderboard_visible:true,updated_at:new Date().toISOString()})
+    body:JSON.stringify({username,leaderboard_visible:visible,updated_at:new Date().toISOString()})
   });
   if(!res.ok){
     const txt=await res.text();
@@ -804,8 +801,6 @@ function gameMockSubmit(auto=false){
   exam.submitted=true;exam.submittedAt=Date.now();exam.autoSubmitted=auto;
   clearInterval(gameMockState.timer);
   const sc=gameMockScore();
-  const bonus=sc.pct>=90?100:sc.pct>=80?60:sc.pct>=70?40:0;
-  if(bonus)gameAwardBonus('mock:'+exam.endsAt,'mock',bonus);
   gameMockRenderResults();
   try{trackEvent('section_view',{metadata:{section:'mock_exam_finished',questions:exam.questions.length,score:gameMockScore().correct,auto_submit:auto}})}catch{}
 }
@@ -827,7 +822,7 @@ function gameMockRenderResults(){
       '<section class="mockResultHero"><div><span class="mockExamLabel">RESULT</span><h2>'+sc.pct+'%</h2><p>'+sc.correct+' correct · '+sc.wrong+' wrong · '+sc.unanswered+' unanswered'+(exam.autoSubmitted?' · time expired':'')+'</p></div>'+
       '<button id="mockBuildAnother" type="button">Build another exam</button></section>'+
       '<div class="mockResultStats"><div><b>'+sc.correct+'</b><span>Correct</span></div><div><b>'+sc.wrong+'</b><span>Wrong</span></div><div><b>'+sc.unanswered+'</b><span>Unanswered</span></div><div><b>'+sc.total+'</b><span>Total</span></div></div>'+
-      '<p class="mockNoPoints">'+(sc.pct>=90?'🏆 +100 XP mock bonus':sc.pct>=80?'🔥 +60 XP mock bonus':sc.pct>=70?'✓ +40 XP mock bonus':'Reach 70% to earn a Mock Exam XP bonus')+'</p>'+
+      '<p class="mockNoPoints">Mock exams are for practice only and do not award bonus XP.</p>'+
       '<section class="mockReview"><div class="homeCardLabel">REVIEW</div>'+
       exam.questions.map((item,i)=>{
         const q=item.q,pick=exam.answers[item.key]||'',ok=pick===q.answer;

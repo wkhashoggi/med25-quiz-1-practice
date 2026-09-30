@@ -1507,3 +1507,6 @@ body.ankiFocusMode .ankiStudyShuffleBtn{
 
 /* MED25 formative-style case stamp */
 .caseStamp{font-weight:900;letter-spacing:.08em;text-transform:uppercase;border:1px solid currentColor;padding:.22rem .48rem;border-radius:999px;font-size:.7rem;line-height:1;background:transparent}
+
+/* Quiz scope stamps */
+.lectureQuizStamp{display:inline-flex;align-items:center;margin-left:.4rem;padding:.15rem .4rem;border:1px solid currentColor;border-radius:999px;font-style:normal;font-size:.62rem;font-weight:900;letter-spacing:.06em;line-height:1;white-space:nowrap}.lectureDashFilters #lectureDashQuiz{min-width:105px}

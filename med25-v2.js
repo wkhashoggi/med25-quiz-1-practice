@@ -8,7 +8,7 @@ const V2_INFO={
   },
   privacy:{
     title:'Privacy',
-    body:'<p>MED25 uses account information and study activity to provide cross-device progress sync, profiles, rankings and learning analytics.</p><h3>What is stored</h3><p>This can include your account email, display profile information, question attempts, XP events, lecture progress and flashcard review progress.</p><h3>Student data</h3><p>Individual student data is not offered to advertisers or sponsors. Public rankings use the profile information students choose to display.</p>'
+    body:'<p>MED25 uses account information and study activity to provide cross-device progress sync, profiles, rankings and learning analytics.</p><h3>What is stored</h3><p>This can include your account email, display profile information, question attempts, XP events, lecture progress and flashcard review progress.</p><h3>Student data</h3><p>Individual student data is not sold or shared with third parties for advertising. Public rankings use the profile information students choose to display.</p>'
   },
   terms:{
     title:'Study-use terms',

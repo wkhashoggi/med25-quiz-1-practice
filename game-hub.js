@@ -503,30 +503,42 @@ function gameQuizNext(){
 }
 
 
+function gameMockStemKey(q){
+  return String(q?.stem||'').toLowerCase().replace(/[^a-z0-9]+/g,' ').replace(/\s+/g,' ').trim();
+}
 function gameMockQuestionRows(){
-  const rows=[];
+  const rows=[],seenStems=new Set();
   for(const q of QUESTIONS){
-    if(!q?.id||!q?.answer||Object.keys(q.options||{}).length!==4)continue;
+    const ready=typeof window.med25ExamReadyPast==='function'
+      ? window.med25ExamReadyPast(q)
+      : (!!q?.id&&!!q?.answer&&Object.keys(q.options||{}).length>=4&&Object.prototype.hasOwnProperty.call(q.options||{},q.answer));
+    if(!ready)continue;
     let g={};
     try{g=sgQuestionLecture('past',q)||{}}catch{}
+    if(!g.lecture_id||!g.subject||!g.title)continue;
+    const stemKey=gameMockStemKey(q);if(!stemKey||seenStems.has(stemKey))continue;
+    seenStems.add(stemKey);
     rows.push({
       key:'past:'+q.id,source:'past',q,
-      subject:g.subject||q.module||'Other',
-      lectureId:g.lecture_id||('past:'+String(q.topic||'unmapped')),
-      lectureTitle:g.title||q.lecture_source?.title||q.topic||'Unmapped lecture'
+      subject:g.subject,
+      lectureId:g.lecture_id,
+      lectureTitle:g.title
     });
   }
   try{
     const qs=window.med25GameBridge?.aiQuestions?.()||[];
     for(const q of qs){
-      if(!q?.id||!q?.answer||Object.keys(q.options||{}).length!==4)continue;
+      if(!q?.id||!q?.answer||q.exam_ready===false||Object.keys(q.options||{}).length!==4||!Object.prototype.hasOwnProperty.call(q.options||{},q.answer))continue;
       let g={};
       try{g=sgQuestionLecture('ai',q)||{}}catch{}
+      if(!g.lecture_id||!g.subject||!g.title)continue;
+      const stemKey=gameMockStemKey(q);if(!stemKey||seenStems.has(stemKey))continue;
+      seenStems.add(stemKey);
       rows.push({
         key:'ai:'+q.id,source:'ai',q,
-        subject:g.subject||q.subject||'Other',
-        lectureId:g.lecture_id||q.set_id||('ai:'+String(q.lecture_title||'unmapped')),
-        lectureTitle:g.title||q.lecture_title||'Unmapped lecture'
+        subject:g.subject,
+        lectureId:g.lecture_id,
+        lectureTitle:g.title
       });
     }
   }catch{}
@@ -586,7 +598,7 @@ function gameMockRenderSetup(){
   host.innerHTML=
     '<div class="mockBuilder">'+
       '<section class="mockSetupTop">'+
-        '<div><div class="homeCardLabel">CUSTOM MOCK EXAM</div><h2>Build your exam.</h2><p>Choose the time, source bank, subjects, lectures and exact question counts. Answers stay hidden until you submit.</p></div>'+
+        '<div><div class="homeCardLabel">CUSTOM MOCK EXAM</div><h2>Build your exam.</h2><p>Choose the time, question source, official subjects, official lectures and exact question counts. IBLS/CVS/Formative are treated only as provenance, never as subjects. Answers stay hidden until you submit.</p></div>'+
       '</section>'+
       '<section class="mockControls">'+
         '<label class="mockField"><span>Exam time</span><div class="mockTimeInput"><input id="mockMinutes" type="number" min="1" max="240" step="1" value="'+Number(gameMockState.config.minutes||30)+'"><b>minutes</b></div></label>'+

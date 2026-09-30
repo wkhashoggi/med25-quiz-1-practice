@@ -7,7 +7,7 @@
     "label": "MED25 Circulation & Breathing"
   },
   "source_policy": {
-    "population": "Male + Female pooled",
+    "population": "Male + Female",
     "include": "Only official/doctor lecture material that matches an official Study Guide topic taught as Interactive lecture, Flipped class, or Online lecture.",
     "exclude": [
       "SPP",
@@ -35,7 +35,8 @@
     "pooled_source_folders": [
       "1TjCFnpHLfcgQqeYqeAlsfQPkktZSXcBR",
       "1qELICF1pFL6pQzzOsCpqlY_mMCJdoSWG"
-    ]
+    ],
+    "gender_folder_rule": "Scan both official gender folders and use whichever eligible current lecture is available."
   },
   "source_folders": [
     {

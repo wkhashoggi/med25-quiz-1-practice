@@ -221,8 +221,8 @@ function observeLeaderboard(){
   const tryBind=()=>{
     const list=document.getElementById('gameLeaderboardList');if(!list||list.dataset.v2Observed)return false;
     list.dataset.v2Observed='1';
-    new MutationObserver(()=>{polishHomeLabels();markCurrentRank()}).observe(list,{childList:true,subtree:true});
-    markCurrentRank();return true;
+    new MutationObserver(()=>polishHomeLabels()).observe(list,{childList:true,subtree:true});
+    polishHomeLabels();return true;
   };
   if(!tryBind())setTimeout(tryBind,600);
 }

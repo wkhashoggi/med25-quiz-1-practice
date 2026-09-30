@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-29T15:51:46.442Z",
+  "generated_at": "2026-09-30T10:15:00.000Z",
   "source_root": {
     "id": "1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
     "url": "https://drive.google.com/drive/folders/1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
@@ -7703,6 +7703,555 @@
             "Cardiac Output and Its Control"
           ],
           "source_url": "https://drive.google.com/file/d/1rzreURT0TD2ajEGXKRIzad7b8VjudyNm/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "id": "drive_1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP",
+      "subject": "Pathology",
+      "title": "Pathology of Hypertension",
+      "source_file_id": "1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP",
+      "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view",
+      "source_modified_time": "2026-09-28T13:15:33.861Z",
+      "source_validation": "study_guide_and_lecture_verified",
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
+      "teaching_method": "Interactive lecture",
+      "archived": false,
+      "cards": [
+        {
+          "id": "1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP-c01",
+          "front": "How is systemic hypertension defined in this lecture?",
+          "back": "A sustained increase in resting blood pressure above generally accepted normal levels.",
+          "tags": [
+            "HTN",
+            "Definition"
+          ],
+          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view"
+        },
+        {
+          "id": "1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP-c02",
+          "front": "What proportion of hypertension is essential (primary)?",
+          "back": "About 90–95%; its cause is unknown.",
+          "tags": [
+            "HTN",
+            "Classification"
+          ],
+          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view"
+        },
+        {
+          "id": "1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP-c03",
+          "front": "What are the main secondary hypertension categories listed?",
+          "back": "Renal, endocrine, vascular, and neurogenic causes.",
+          "tags": [
+            "HTN",
+            "Classification"
+          ],
+          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view"
+        },
+        {
+          "id": "1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP-c04",
+          "front": "What vascular lesion is typical of benign hypertension?",
+          "back": "Hyaline arteriolosclerosis.",
+          "tags": [
+            "HTN",
+            "Benign"
+          ],
+          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view"
+        },
+        {
+          "id": "1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP-c05",
+          "front": "What vascular lesion is typical of malignant hypertension?",
+          "back": "Hyperplastic arteriolosclerosis.",
+          "tags": [
+            "HTN",
+            "Malignant"
+          ],
+          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view"
+        },
+        {
+          "id": "1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP-c06",
+          "front": "What clinical findings accompany malignant hypertension in the lecture?",
+          "back": "Rapidly rising BP with renal failure and retinal hemorrhage with papilledema.",
+          "tags": [
+            "HTN",
+            "Malignant"
+          ],
+          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view"
+        },
+        {
+          "id": "1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP-c07",
+          "front": "What four major mechanisms contribute to essential hypertension?",
+          "back": "Reduced renal sodium excretion, increased vascular resistance, genetic factors, and environmental factors.",
+          "tags": [
+            "HTN",
+            "Pathogenesis"
+          ],
+          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view"
+        },
+        {
+          "id": "1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP-c08",
+          "front": "How does reduced renal sodium excretion raise blood pressure?",
+          "back": "It increases fluid volume and cardiac output; a higher BP is then needed to excrete sodium.",
+          "tags": [
+            "HTN",
+            "Pathogenesis"
+          ],
+          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view"
+        },
+        {
+          "id": "1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP-c09",
+          "front": "How can chronic vasoconstriction sustain hypertension?",
+          "back": "It causes permanent arterial wall thickening and sustained elevation of systemic vascular resistance.",
+          "tags": [
+            "HTN",
+            "Pathogenesis"
+          ],
+          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view"
+        },
+        {
+          "id": "1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP-c10",
+          "front": "Which environmental factors can amplify hypertension risk?",
+          "back": "High salt intake, obesity, physical inactivity, stress, smoking, excess alcohol, and limited healthcare access.",
+          "tags": [
+            "HTN",
+            "Risk factors"
+          ],
+          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view"
+        },
+        {
+          "id": "1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP-c11",
+          "front": "What are the three major vascular effects of hypertension?",
+          "back": "Arteriolosclerosis, atherosclerosis, and aortic dissection.",
+          "tags": [
+            "HTN",
+            "Complications"
+          ],
+          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view"
+        },
+        {
+          "id": "1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP-c12",
+          "front": "What are the two histologic forms of arteriolosclerosis in hypertension?",
+          "back": "Hyaline and hyperplastic arteriolosclerosis.",
+          "tags": [
+            "HTN",
+            "Morphology"
+          ],
+          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view"
+        },
+        {
+          "id": "1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP-c13",
+          "front": "Describe hyaline arteriolosclerosis.",
+          "back": "Homogeneous pink hyaline thickening of arteriolar walls with loss of structural detail and luminal narrowing.",
+          "tags": [
+            "HTN",
+            "Morphology"
+          ],
+          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view"
+        },
+        {
+          "id": "1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP-c14",
+          "front": "What causes hyaline arteriolosclerosis according to the lecture?",
+          "back": "Plasma leakage across injured endothelium plus increased ECM production by smooth muscle cells from chronic hemodynamic stress.",
+          "tags": [
+            "HTN",
+            "Morphology"
+          ],
+          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view"
+        },
+        {
+          "id": "1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP-c15",
+          "front": "Describe hyperplastic arteriolosclerosis.",
+          "back": "Onion-skin concentric laminated arteriolar wall thickening with luminal narrowing; laminations contain SMCs and reduplicated basement membrane.",
+          "tags": [
+            "HTN",
+            "Morphology"
+          ],
+          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view"
+        },
+        {
+          "id": "1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP-c16",
+          "front": "What is the main cardiac structural effect of chronic hypertension?",
+          "back": "Left ventricular wall hypertrophy from increased workload, which can progress to heart failure.",
+          "tags": [
+            "HTN",
+            "Heart"
+          ],
+          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view"
+        },
+        {
+          "id": "1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP-c17",
+          "front": "How can hypertension cause renal failure?",
+          "back": "Hyaline or hyperplastic arteriolosclerosis can produce benign or malignant nephrosclerosis and renal failure.",
+          "tags": [
+            "HTN",
+            "Kidney"
+          ],
+          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view"
+        },
+        {
+          "id": "1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP-c18",
+          "front": "What retinal finding is especially associated with malignant hypertension?",
+          "back": "Retinal hemorrhage and exudate with papilledema.",
+          "tags": [
+            "HTN",
+            "Retina"
+          ],
+          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view"
+        }
+      ]
+    },
+    {
+      "id": "drive_19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5",
+      "subject": "Physiology",
+      "title": "Cardiac Cycle",
+      "source_file_id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5",
+      "source_url": "https://drive.google.com/file/d/19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5/view",
+      "source_modified_time": "2026-09-30T05:31:08.969Z",
+      "source_validation": "study_guide_and_lecture_verified",
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
+      "teaching_method": "Interactive lecture",
+      "archived": false,
+      "cards": [
+        {
+          "id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5-c01",
+          "front": "What is the cardiac cycle?",
+          "back": "The combined mechanical, electrical, and valvular events occurring during one heartbeat.",
+          "tags": [
+            "Cardiac cycle"
+          ],
+          "source_url": "https://drive.google.com/file/d/19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5/view"
+        },
+        {
+          "id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5-c02",
+          "front": "What opens the AV valves after isovolumetric relaxation?",
+          "back": "Ventricular pressure falls below atrial pressure, creating an atrioventricular pressure gradient.",
+          "tags": [
+            "Valves"
+          ],
+          "source_url": "https://drive.google.com/file/d/19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5/view"
+        },
+        {
+          "id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5-c03",
+          "front": "How does ventricular volume change during filling?",
+          "back": "It rises from ESV toward EDV.",
+          "tags": [
+            "Volume"
+          ],
+          "source_url": "https://drive.google.com/file/d/19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5/view"
+        },
+        {
+          "id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5-c04",
+          "front": "What happens to aortic pressure during ventricular filling?",
+          "back": "It decreases as blood continues to leave the aorta toward the periphery while the aortic valve is closed.",
+          "tags": [
+            "Aortic pressure"
+          ],
+          "source_url": "https://drive.google.com/file/d/19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5/view"
+        },
+        {
+          "id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5-c05",
+          "front": "What causes S3 in this lecture?",
+          "back": "Ventricular wall vibration during rapid inflow of blood from atria to ventricles.",
+          "tags": [
+            "Heart sounds"
+          ],
+          "source_url": "https://drive.google.com/file/d/19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5/view"
+        },
+        {
+          "id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5-c06",
+          "front": "What is atrial systole's contribution to ventricular filling?",
+          "back": "About 20–25%; it completes ventricular filling.",
+          "tags": [
+            "Atrial systole"
+          ],
+          "source_url": "https://drive.google.com/file/d/19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5/view"
+        },
+        {
+          "id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5-c07",
+          "front": "What causes S4?",
+          "back": "Ventricular wall vibration during atrial contraction; it is associated with a stiff ventricle.",
+          "tags": [
+            "Heart sounds"
+          ],
+          "source_url": "https://drive.google.com/file/d/19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5/view"
+        },
+        {
+          "id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5-c08",
+          "front": "What defines isovolumetric contraction?",
+          "back": "Ventricular pressure rises while volume remains constant because all valves are closed.",
+          "tags": [
+            "Isovolumetric contraction"
+          ],
+          "source_url": "https://drive.google.com/file/d/19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5/view"
+        },
+        {
+          "id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5-c09",
+          "front": "What ends isovolumetric contraction?",
+          "back": "Ventricular pressure exceeds aortic/pulmonary pressure and the semilunar valves open.",
+          "tags": [
+            "Valves"
+          ],
+          "source_url": "https://drive.google.com/file/d/19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5/view"
+        },
+        {
+          "id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5-c10",
+          "front": "How does ventricular volume change during ejection?",
+          "back": "It decreases as blood is ejected into the aorta and pulmonary artery.",
+          "tags": [
+            "Ejection"
+          ],
+          "source_url": "https://drive.google.com/file/d/19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5/view"
+        },
+        {
+          "id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5-c11",
+          "front": "What happens to aortic pressure during ejection?",
+          "back": "It rises with ventricular pressure during rapid ejection, then begins to fall during reduced ejection.",
+          "tags": [
+            "Aortic pressure"
+          ],
+          "source_url": "https://drive.google.com/file/d/19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5/view"
+        },
+        {
+          "id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5-c12",
+          "front": "What defines isovolumetric relaxation?",
+          "back": "Ventricular pressure falls while volume remains constant because all valves are closed.",
+          "tags": [
+            "Isovolumetric relaxation"
+          ],
+          "source_url": "https://drive.google.com/file/d/19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5/view"
+        },
+        {
+          "id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5-c13",
+          "front": "What causes S1?",
+          "back": "Closure of the AV valves, with vibrations in the ventricles and major vessels.",
+          "tags": [
+            "Heart sounds"
+          ],
+          "source_url": "https://drive.google.com/file/d/19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5/view"
+        },
+        {
+          "id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5-c14",
+          "front": "What causes S2?",
+          "back": "Closure of the aortic and pulmonary semilunar valves.",
+          "tags": [
+            "Heart sounds"
+          ],
+          "source_url": "https://drive.google.com/file/d/19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5/view"
+        },
+        {
+          "id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5-c15",
+          "front": "Define EDV.",
+          "back": "Ventricular blood volume at the end of ventricular diastole.",
+          "tags": [
+            "Volumes"
+          ],
+          "source_url": "https://drive.google.com/file/d/19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5/view"
+        },
+        {
+          "id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5-c16",
+          "front": "Define ESV.",
+          "back": "Ventricular blood volume at the end of ventricular systole.",
+          "tags": [
+            "Volumes"
+          ],
+          "source_url": "https://drive.google.com/file/d/19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5/view"
+        },
+        {
+          "id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5-c17",
+          "front": "How is stroke volume calculated?",
+          "back": "SV = EDV − ESV.",
+          "tags": [
+            "Volumes"
+          ],
+          "source_url": "https://drive.google.com/file/d/19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5/view"
+        },
+        {
+          "id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5-c18",
+          "front": "How is ejection fraction calculated?",
+          "back": "EF = (SV / EDV) × 100.",
+          "tags": [
+            "Volumes"
+          ],
+          "source_url": "https://drive.google.com/file/d/19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5/view"
+        }
+      ]
+    },
+    {
+      "id": "drive_1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc",
+      "subject": "Pathology",
+      "title": "Valvular Heart Diseases",
+      "source_file_id": "1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc",
+      "source_url": "https://drive.google.com/file/d/1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc/view",
+      "source_modified_time": "2026-09-30T05:57:42.832Z",
+      "source_validation": "study_guide_and_lecture_verified",
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
+      "teaching_method": "Interactive lecture",
+      "archived": false,
+      "cards": [
+        {
+          "id": "1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc-c01",
+          "front": "What is the difference between valvular stenosis and regurgitation?",
+          "back": "Stenosis = failure to open causing obstruction of forward flow; regurgitation = failure to close causing backflow.",
+          "tags": [
+            "Valvular disease"
+          ],
+          "source_url": "https://drive.google.com/file/d/1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc/view"
+        },
+        {
+          "id": "1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc-c02",
+          "front": "What is the most common congenital valvular abnormality listed?",
+          "back": "Bicuspid aortic valve.",
+          "tags": [
+            "Congenital"
+          ],
+          "source_url": "https://drive.google.com/file/d/1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc/view"
+        },
+        {
+          "id": "1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc-c03",
+          "front": "What are the major acquired categories of valvular disease?",
+          "back": "Inflammatory (especially rheumatic/endocarditis) and degenerative (calcific or myxomatous).",
+          "tags": [
+            "Classification"
+          ],
+          "source_url": "https://drive.google.com/file/d/1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc/view"
+        },
+        {
+          "id": "1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc-c04",
+          "front": "What are the major causes of aortic stenosis in this lecture?",
+          "back": "Congenital bicuspid valve, age-related dystrophic calcification, and chronic rheumatic valve disease.",
+          "tags": [
+            "Aortic stenosis"
+          ],
+          "source_url": "https://drive.google.com/file/d/1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc/view"
+        },
+        {
+          "id": "1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc-c05",
+          "front": "What murmur pattern is described for aortic stenosis?",
+          "back": "Systolic ejection click followed by a crescendo-decrescendo murmur.",
+          "tags": [
+            "Aortic stenosis"
+          ],
+          "source_url": "https://drive.google.com/file/d/1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc/view"
+        },
+        {
+          "id": "1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc-c06",
+          "front": "What major complications follow aortic stenosis?",
+          "back": "Concentric LV hypertrophy progressing to heart failure, plus angina and syncope.",
+          "tags": [
+            "Aortic stenosis"
+          ],
+          "source_url": "https://drive.google.com/file/d/1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc/view"
+        },
+        {
+          "id": "1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc-c07",
+          "front": "What is the structural defect in mitral valve prolapse?",
+          "back": "Enlarged, floppy mitral leaflets prolapse into the left atrium because of myxoid degeneration.",
+          "tags": [
+            "MVP"
+          ],
+          "source_url": "https://drive.google.com/file/d/1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc/view"
+        },
+        {
+          "id": "1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc-c08",
+          "front": "Which connective-tissue disorders are associated with MVP?",
+          "back": "Marfan syndrome and Ehlers-Danlos syndrome.",
+          "tags": [
+            "MVP"
+          ],
+          "source_url": "https://drive.google.com/file/d/1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc/view"
+        },
+        {
+          "id": "1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc-c09",
+          "front": "What causes rheumatic fever?",
+          "back": "An immune-mediated type II hypersensitivity response after group A β-hemolytic streptococcal pharyngitis.",
+          "tags": [
+            "Rheumatic fever"
+          ],
+          "source_url": "https://drive.google.com/file/d/1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc/view"
+        },
+        {
+          "id": "1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc-c10",
+          "front": "How does molecular mimicry cause rheumatic fever?",
+          "back": "Antibodies to streptococcal M protein cross-react with self antigens in myocardium, valves, joints, and other tissues.",
+          "tags": [
+            "Rheumatic fever"
+          ],
+          "source_url": "https://drive.google.com/file/d/1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc/view"
+        },
+        {
+          "id": "1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc-c11",
+          "front": "What does acute rheumatic pancarditis involve?",
+          "back": "Endocarditis with small vegetations, myocarditis with Aschoff bodies, and fibrinous pericarditis.",
+          "tags": [
+            "Acute RHD"
+          ],
+          "source_url": "https://drive.google.com/file/d/1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc/view"
+        },
+        {
+          "id": "1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc-c12",
+          "front": "What is an Aschoff body?",
+          "back": "A pathognomonic rheumatic granuloma containing T cells, plasma cells, Anitschkow cells, and fibrinoid necrosis.",
+          "tags": [
+            "Morphology"
+          ],
+          "source_url": "https://drive.google.com/file/d/1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc/view"
+        },
+        {
+          "id": "1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc-c13",
+          "front": "What is an Anitschkow cell?",
+          "back": "An activated macrophage with abundant cytoplasm and a rod-like nucleus with centrally condensed wavy chromatin.",
+          "tags": [
+            "Morphology"
+          ],
+          "source_url": "https://drive.google.com/file/d/1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc/view"
+        },
+        {
+          "id": "1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc-c14",
+          "front": "When do acute rheumatic fever manifestations typically appear?",
+          "back": "About 2–3 weeks after streptococcal infection.",
+          "tags": [
+            "Clinical"
+          ],
+          "source_url": "https://drive.google.com/file/d/1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc/view"
+        },
+        {
+          "id": "1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc-c15",
+          "front": "What is required for the Jones-criteria diagnosis described in the lecture?",
+          "back": "Two major criteria, or one major plus two minor criteria, plus evidence of preceding group A streptococcal infection.",
+          "tags": [
+            "Diagnosis"
+          ],
+          "source_url": "https://drive.google.com/file/d/1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc/view"
+        },
+        {
+          "id": "1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc-c16",
+          "front": "What is the classic valve appearance in chronic rheumatic heart disease?",
+          "back": "Scarred stenotic mitral valve with a fish-mouth/buttonhole appearance.",
+          "tags": [
+            "Chronic RHD"
+          ],
+          "source_url": "https://drive.google.com/file/d/1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc/view"
+        },
+        {
+          "id": "1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc-c17",
+          "front": "Which valve is always involved in chronic RHD according to the lecture?",
+          "back": "The mitral valve; the aortic valve may also be involved.",
+          "tags": [
+            "Chronic RHD"
+          ],
+          "source_url": "https://drive.google.com/file/d/1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc/view"
+        },
+        {
+          "id": "1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc-c18",
+          "front": "What are important complications of chronic rheumatic valvular disease?",
+          "back": "Murmurs, chamber hypertrophy/dilatation, heart failure, arrhythmias, thromboembolism, and infective endocarditis.",
+          "tags": [
+            "Complications"
+          ],
+          "source_url": "https://drive.google.com/file/d/1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc/view"
         }
       ]
     }

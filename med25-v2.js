@@ -113,7 +113,7 @@ function installStandaloneSections(){
   if(!document.getElementById('progressSection')){
     const progress=document.createElement('section');
     progress.id='progressSection';progress.className='v2StandaloneSection hidden';
-    progress.innerHTML='<div class="v2StandaloneIntro"><div><span>PROGRESS</span><h2>Lecture Tracker</h2><p>Your full lecture checklist lives here, away from the Home dashboard. Mark lectures you have studied and track completion of mapped Past Paper + AI questions.</p></div></div><div id="v2ProgressSlot"></div>';
+    progress.innerHTML='<div class="v2StandaloneIntro"><div><span>PROGRESS</span><h2>Lecture Tracker</h2><p>Your full lecture checklist lives here, away from the Home dashboard. Mark lectures you have studied and track completion of mapped Past Paper + AI questions.</p></div><button id="v2TrackerBack" class="v2StandaloneBack" type="button">← Home</button></div><div id="v2ProgressSlot"></div>';
     home.insertAdjacentElement('afterend',progress);
   }
   if(!document.getElementById('profileSection')){
@@ -122,6 +122,8 @@ function installStandaloneSections(){
     profile.innerHTML='<div class="v2StandaloneIntro"><div><span>ACCOUNT</span><h2>Your Profile</h2><p>Manage your MED25 identity, XP, streaks, leaderboard visibility and cross-device sync.</p></div></div><div class="v2ProfileGrid"><section class="hubCard v2ProfileCard"><div class="homeCardLabel">PROFILE & XP</div><div id="profileGameSlot"></div></section><section class="hubCard v2AccountCard"><div class="homeCardLabel">ACCOUNT & SYNC</div><div class="v2AccountIntro">Your study progress is saved locally and can sync across devices when you sign in.</div><div id="profileAuthSlot"></div><div id="profileAppearanceSlot"></div></section></div>';
     document.getElementById('progressSection').insertAdjacentElement('afterend',profile);
   }
+  const trackerBack=document.getElementById('v2TrackerBack');
+  if(trackerBack&&!trackerBack.dataset.bound){trackerBack.dataset.bound='1';trackerBack.onclick=()=>{hideV2Pages();clickId('tabHome')}}
   const tracker=document.querySelector('.lectureDashboardCard'),progressSlot=document.getElementById('v2ProgressSlot');
   if(tracker&&progressSlot&&tracker.parentElement!==progressSlot)progressSlot.appendChild(tracker);
   const profilePanel=document.getElementById('gameProfilePanel'),gameSlot=document.getElementById('profileGameSlot');

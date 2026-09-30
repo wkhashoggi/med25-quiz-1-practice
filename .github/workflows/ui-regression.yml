@@ -1,0 +1,42 @@
+name: MED25 UI Regression
+
+on:
+  push:
+    branches:
+      - ui-polish-logo-regression-20260930
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: med25-ui-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  browser-regression:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install Chromium test runtime
+        run: |
+          npm install --no-save playwright@latest
+          npx playwright install --with-deps chromium
+      - name: Start local MED25 site
+        run: |
+          python3 -m http.server 4173 > /tmp/med25-http.log 2>&1 &
+          sleep 2
+      - name: Run 10x phone, iPad and desktop interaction suite
+        run: node tests/ui-regression.js
+      - name: Upload screenshots and results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: med25-ui-regression
+          path: test-artifacts
+          if-no-files-found: ignore

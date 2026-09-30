@@ -98,7 +98,7 @@ function gameInstallQuizSection(){
 }
 
 function gameInstallHome(){
-  const slot=document.getElementById('homeAuthSlot');
+  const slot=document.getElementById('profileGameSlot')||document.getElementById('homeAuthSlot');
   if(slot&&!document.getElementById('gameProfilePanel')){
     const panel=document.createElement('div');
     panel.id='gameProfilePanel';
@@ -893,8 +893,10 @@ function gameSwitchMock(){
   document.getElementById('aiSection')?.classList.add('hidden');
   document.getElementById('flashcardsSection')?.classList.add('hidden');
   document.getElementById('quizSection')?.classList.add('hidden');
+  document.getElementById('profileSection')?.classList.add('hidden');
+  document.getElementById('progressSection')?.classList.add('hidden');
   mock.classList.remove('hidden');
-  ['tabHome','tabQuestions','tabAI','tabQuiz','tabFlashcards'].forEach(id=>document.getElementById(id)?.classList.remove('active'));
+  ['tabHome','tabQuestions','tabAI','tabQuiz','tabFlashcards','tabProfile','tabProgress'].forEach(id=>document.getElementById(id)?.classList.remove('active'));
   document.getElementById('tabMock')?.classList.add('active');
   document.getElementById('stats')?.classList.add('hidden');
   document.getElementById('questionProgressBar')?.classList.add('hidden');
@@ -927,8 +929,10 @@ function gameSwitchQuiz(){
   document.getElementById('aiSection')?.classList.add('hidden');
   document.getElementById('flashcardsSection')?.classList.add('hidden');
   document.getElementById('mockSection')?.classList.add('hidden');
+  document.getElementById('profileSection')?.classList.add('hidden');
+  document.getElementById('progressSection')?.classList.add('hidden');
   quizSection.classList.remove('hidden');
-  ['tabHome','tabQuestions','tabAI','tabMock','tabFlashcards'].forEach(id=>document.getElementById(id)?.classList.remove('active'));
+  ['tabHome','tabQuestions','tabAI','tabMock','tabFlashcards','tabProfile','tabProgress'].forEach(id=>document.getElementById(id)?.classList.remove('active'));
   document.getElementById('tabQuiz')?.classList.add('active');
   document.getElementById('stats')?.classList.add('hidden');
   document.getElementById('questionProgressBar')?.classList.add('hidden');

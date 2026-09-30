@@ -1,6 +1,10 @@
 (function(){
 'use strict';
 
+function cohortLogoSrc(){
+  return window.MED25_COHORT_LOGO_B64?'data:image/jpeg;base64,'+window.MED25_COHORT_LOGO_B64:'';
+}
+
 const V2_INFO={
   about:{
     title:'About MED25',
@@ -26,7 +30,8 @@ function icon(name){
     practice:'<svg viewBox="0 0 24 24"><path d="M6 3.5h12v17H6z"/><path d="M9 8h6M9 12h6M9 16h4"/></svg>',
     flash:'<svg viewBox="0 0 24 24"><rect x="4" y="6" width="14" height="11" rx="2"/><path d="M7 3h13v11"/></svg>',
     mock:'<svg viewBox="0 0 24 24"><path d="M7 3.5h10v3H7z"/><path d="M5 6.5h14v14H5z"/><path d="M8.5 11h7M8.5 15h4"/></svg>',
-    profile:'<svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4.5 21c.7-4.2 3.2-6.3 7.5-6.3s6.8 2.1 7.5 6.3"/></svg>'
+    profile:'<svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4.5 21c.7-4.2 3.2-6.3 7.5-6.3s6.8 2.1 7.5 6.3"/></svg>',
+    progress:'<svg viewBox="0 0 24 24"><path d="M5 4h14v16H5z"/><path d="m8 9 1.5 1.5L12 8"/><path d="M13.5 10H17"/><path d="m8 15 1.5 1.5L12 14"/><path d="M13.5 16H17"/></svg>'
   };
   return map[name]||'';
 }
@@ -40,13 +45,27 @@ function clickId(id){
 function cleanNav(){
   const links=document.querySelector('#studyTabs .appNavLinks');
   if(!links)return;
+  if(!document.getElementById('tabProgress')){
+    const btn=document.createElement('button');
+    btn.className='studyTab';btn.id='tabProgress';btn.type='button';
+    btn.innerHTML='<span class="navIcon">'+icon('progress')+'</span><span>Lecture Tracker</span>';
+    links.appendChild(btn);
+  }
+  if(!document.getElementById('tabProfile')){
+    const btn=document.createElement('button');
+    btn.className='studyTab';btn.id='tabProfile';btn.type='button';
+    btn.innerHTML='<span class="navIcon">'+icon('profile')+'</span><span>Profile</span>';
+    links.appendChild(btn);
+  }
   const labels={
     tabHome:'Home',
     tabQuestions:'Past Papers',
     tabAI:'AI Practice',
     tabQuiz:'Mistake Quiz',
     tabMock:'Mock Exam',
-    tabFlashcards:'Flashcards'
+    tabFlashcards:'Flashcards',
+    tabProgress:'Lecture Tracker',
+    tabProfile:'Profile'
   };
   Object.entries(labels).forEach(([id,label])=>{
     const btn=document.getElementById(id);
@@ -56,15 +75,22 @@ function cleanNav(){
     if(text)text.textContent=label;
     btn.setAttribute('aria-label',label);
   });
-  const flash=document.getElementById('tabFlashcards'),mock=document.getElementById('tabMock');
-  if(flash&&mock&&flash.nextElementSibling!==mock)links.insertBefore(flash,mock);
+  const flash=document.getElementById('tabFlashcards'),mock=document.getElementById('tabMock'),
+        progress=document.getElementById('tabProgress'),profile=document.getElementById('tabProfile');
+  if(mock&&flash&&mock.nextElementSibling!==flash)links.insertBefore(mock,flash);
+  if(progress&&profile&&progress.nextElementSibling!==profile)links.insertBefore(progress,profile);
 
   links.querySelectorAll('.v2NavSection').forEach(x=>x.remove());
   const practice=document.createElement('div');practice.className='v2NavSection';practice.textContent='Practice';
   const tools=document.createElement('div');tools.className='v2NavSection';tools.textContent='Study tools';
-  const q=document.getElementById('tabQuestions'),f=document.getElementById('tabFlashcards');
+  const account=document.createElement('div');account.className='v2NavSection';account.textContent='Account';
+  const q=document.getElementById('tabQuestions'),f=document.getElementById('tabFlashcards'),p=document.getElementById('tabProfile');
   if(q)links.insertBefore(practice,q);
   if(f)links.insertBefore(tools,f);
+  if(p)links.insertBefore(account,p);
+
+  document.getElementById('tabProgress').onclick=()=>showV2Page('progress');
+  document.getElementById('tabProfile').onclick=()=>showV2Page('profile');
 
   const actions=document.querySelector('#studyTabs .appNavActions');
   if(actions&&!document.querySelector('.v2SidebarMeta')){
@@ -72,14 +98,96 @@ function cleanNav(){
     actions.insertAdjacentElement('afterend',meta);
   }
 }
+function installCohortIdentity(){
+  const welcome=document.querySelector('.homeWelcome');
+  if(welcome&&!welcome.querySelector('.v2CohortIdentity')){
+    const row=document.createElement('div');
+    row.className='v2CohortIdentity';
+    row.innerHTML='<img src="'+cohortLogoSrc()+'" alt="MED25 cohort logo"><div><span>MED25 COHORT</span><b>King Abdulaziz University · Faculty of Medicine</b></div>';
+    welcome.insertBefore(row,welcome.firstChild);
+  }
+}
+function installStandaloneSections(){
+  const shell=document.querySelector('.shell'),home=document.getElementById('homeSection');
+  if(!shell||!home)return;
+  if(!document.getElementById('progressSection')){
+    const progress=document.createElement('section');
+    progress.id='progressSection';progress.className='v2StandaloneSection hidden';
+    progress.innerHTML='<div class="v2StandaloneIntro"><div><span>PROGRESS</span><h2>Lecture Tracker</h2><p>Your full lecture checklist lives here, away from the Home dashboard. Mark lectures you have studied and track completion of mapped Past Paper + AI questions.</p></div><button id="v2TrackerBack" class="v2StandaloneBack" type="button">← Home</button></div><div id="v2ProgressSlot"></div>';
+    home.insertAdjacentElement('afterend',progress);
+  }
+  if(!document.getElementById('profileSection')){
+    const profile=document.createElement('section');
+    profile.id='profileSection';profile.className='v2StandaloneSection hidden';
+    profile.innerHTML='<div class="v2StandaloneIntro"><div><span>ACCOUNT</span><h2>Your Profile</h2><p>Manage your MED25 identity, XP, streaks, leaderboard visibility and cross-device sync.</p></div></div><div class="v2ProfileGrid"><section class="hubCard v2ProfileCard"><div class="homeCardLabel">PROFILE & XP</div><div id="profileGameSlot"></div></section><section class="hubCard v2AccountCard"><div class="homeCardLabel">ACCOUNT & SYNC</div><div class="v2AccountIntro">Your study progress is saved locally and can sync across devices when you sign in.</div><div id="profileAuthSlot"></div><div id="profileAppearanceSlot"></div></section></div>';
+    document.getElementById('progressSection').insertAdjacentElement('afterend',profile);
+  }
+  const trackerBack=document.getElementById('v2TrackerBack');
+  if(trackerBack&&!trackerBack.dataset.bound){trackerBack.dataset.bound='1';trackerBack.onclick=()=>{hideV2Pages();clickId('tabHome')}}
+  const tracker=document.querySelector('.lectureDashboardCard'),progressSlot=document.getElementById('v2ProgressSlot');
+  if(tracker&&progressSlot&&tracker.parentElement!==progressSlot)progressSlot.appendChild(tracker);
+  const profilePanel=document.getElementById('gameProfilePanel'),gameSlot=document.getElementById('profileGameSlot');
+  if(profilePanel&&gameSlot&&profilePanel.parentElement!==gameSlot)gameSlot.appendChild(profilePanel);
+  const auth=document.getElementById('authBox'),authSlot=document.getElementById('profileAuthSlot');
+  if(auth&&authSlot&&auth.parentElement!==authSlot)authSlot.appendChild(auth);
+  const oldAuth=document.getElementById('homeAuthSlot');if(oldAuth)oldAuth.classList.add('v2LegacyHomeAuth');
+  const overall=document.querySelector('.homeOverall');
+  if(overall&&!document.getElementById('v2OpenTracker')){
+    const btn=document.createElement('button');btn.id='v2OpenTracker';btn.className='homeTextBtn v2OpenTracker';btn.type='button';btn.textContent='Open Lecture Tracker →';btn.onclick=()=>showV2Page('progress');overall.appendChild(btn);
+  }
+}
 
+function hideV2Pages(){
+  document.getElementById('profileSection')?.classList.add('hidden');
+  document.getElementById('progressSection')?.classList.add('hidden');
+  document.getElementById('tabProfile')?.classList.remove('active');
+  document.getElementById('tabProgress')?.classList.remove('active');
+}
+function showV2Page(mode){
+  installStandaloneSections();
+  ['homeSection','questionSection','aiSection','flashcardsSection','quizSection','mockSection'].forEach(id=>document.getElementById(id)?.classList.add('hidden'));
+  hideV2Pages();
+  const section=document.getElementById(mode==='profile'?'profileSection':'progressSection');
+  section?.classList.remove('hidden');
+  document.querySelectorAll('#studyTabs .studyTab').forEach(b=>b.classList.remove('active'));
+  document.getElementById(mode==='profile'?'tabProfile':'tabProgress')?.classList.add('active');
+  document.getElementById('stats')?.classList.add('hidden');
+  document.getElementById('questionProgressBar')?.classList.add('hidden');
+  document.getElementById('flashHeroStats')?.classList.add('hidden');
+  document.body.classList.remove('homeMode');
+  const h=document.getElementById('heroTitle'),p=document.getElementById('heroDescription');
+  if(mode==='profile'){
+    if(h)h.textContent='MED25 Profile';
+    if(p)p.textContent='Your account, MED25 identity, XP, streaks and leaderboard settings.';
+  }else{
+    if(h)h.textContent='MED25 Lecture Tracker';
+    if(p)p.textContent='A dedicated view for lecture study status and question completion across the module.';
+    try{window.med25RenderLectureDashboard?.()}catch{}
+  }
+  try{localStorage.setItem('med25-v2-view-v1',mode)}catch{}
+  window.scrollTo({top:0,behavior:'smooth'});
+  syncMobileNav(mode);
+}
+window.med25V2OpenProgress=()=>showV2Page('progress');
+window.med25V2OpenProfile=()=>showV2Page('profile');
+
+function installMobileAppearance(){
+  const slot=document.getElementById('profileAppearanceSlot')||document.getElementById('homeAuthSlot');
+  if(!slot||document.getElementById('v2MobileAppearance'))return;
+  const btn=document.createElement('button');
+  btn.id='v2MobileAppearance';btn.className='v2MobileAppearance';btn.type='button';
+  btn.setAttribute('aria-label','Toggle light or dark appearance');
+  btn.innerHTML='<span aria-hidden="true">◐</span><span>Appearance</span>';
+  btn.onclick=()=>document.getElementById('themeToggle')?.click();
+  slot.appendChild(btn);
+}
 function installFooter(){
   const shell=document.querySelector('.shell');
   if(!shell||document.getElementById('v2Footer'))return;
   const footer=document.createElement('footer');
   footer.id='v2Footer';footer.className='v2Footer';
   footer.innerHTML=
-    '<div class="v2FooterBrand"><span class="v2FooterMark">M25</span><span><b>MED25 Study Hub</b><span>Built for KAU Medicine students</span></span></div>'+
+    '<div class="v2FooterBrand"><span class="v2FooterMark"><img src="'+cohortLogoSrc()+'" alt=""></span><span><b>MED25 Study Hub</b><span>Built for KAU Medicine students</span></span></div>'+
     '<div class="v2FooterLinks">'+
       '<button type="button" data-v2-info="about">About</button>'+
       '<button type="button" data-v2-info="privacy">Privacy</button>'+
@@ -102,7 +210,7 @@ function openInfo(key){
   installInfoSheet();
   const data=V2_INFO[key]||V2_INFO.about,back=document.getElementById('v2InfoBack');
   document.getElementById('v2InfoTitle').textContent=data.title;
-  document.getElementById('v2InfoBody').innerHTML=data.body;
+  document.getElementById('v2InfoBody').innerHTML=(key==='about'?'<div class="v2AboutIdentity"><img src="'+cohortLogoSrc()+'" alt="MED25 cohort logo"><div><b>MED25 Cohort</b><span>King Abdulaziz University · Faculty of Medicine</span></div></div>':'')+data.body;
   back.classList.add('show');back.setAttribute('aria-hidden','false');
 }
 function closeInfo(){
@@ -126,7 +234,7 @@ function installPracticeSheet(){
   back.onclick=e=>{if(e.target===back)closePractice()};
   document.getElementById('v2PracticeClose').onclick=closePractice;
   back.querySelectorAll('[data-v2-practice]').forEach(btn=>btn.onclick=()=>{
-    const mode=btn.dataset.v2Practice;closePractice();
+    const mode=btn.dataset.v2Practice;closePractice();hideV2Pages();
     if(mode==='past')clickId('tabQuestions');
     if(mode==='ai')clickId('tabAI');
     if(mode==='quiz'){
@@ -148,25 +256,21 @@ function installMobileNav(){
   document.body.appendChild(nav);
   nav.querySelectorAll('[data-v2-mobile]').forEach(btn=>btn.onclick=()=>{
     const key=btn.dataset.v2Mobile;
-    if(key==='home')clickId('tabHome');
-    if(key==='practice')openPractice();
-    if(key==='flash')clickId('tabFlashcards');
+    if(key==='home'){hideV2Pages();clickId('tabHome')}
+    if(key==='practice'){openPractice()}
+    if(key==='flash'){hideV2Pages();clickId('tabFlashcards')}
     if(key==='mock'){
+      hideV2Pages();
       if(typeof window.med25GameOpenMock==='function')window.med25GameOpenMock();else clickId('tabMock');
     }
-    if(key==='profile'){
-      clickId('tabHome');
-      setTimeout(()=>{
-        document.getElementById('homeAuthSlot')?.scrollIntoView({behavior:'smooth',block:'center'});
-        syncMobileNav('profile');
-      },80);
-      return;
-    }
+    if(key==='profile'){showV2Page('profile');return}
     setTimeout(syncMobileNav,40);
   });
 }
 
 function currentMode(){
+  if(!document.getElementById('profileSection')?.classList.contains('hidden'))return 'profile';
+  if(!document.getElementById('progressSection')?.classList.contains('hidden'))return 'progress';
   if(!document.getElementById('mockSection')?.classList.contains('hidden'))return 'mock';
   if(!document.getElementById('quizSection')?.classList.contains('hidden'))return 'practice';
   if(!document.getElementById('flashcardsSection')?.classList.contains('hidden'))return 'flash';
@@ -177,11 +281,19 @@ function currentMode(){
 }
 function syncMobileNav(force){
   const mode=force||currentMode();
-  document.querySelectorAll('[data-v2-mobile]').forEach(b=>b.classList.toggle('active',b.dataset.v2Mobile===mode));
+  document.querySelectorAll('[data-v2-mobile]').forEach(b=>{
+    const active=b.dataset.v2Mobile===mode;
+    b.classList.toggle('active',active);
+    if(active)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current');
+  });
+  const desktopMap={home:'tabHome',flash:'tabFlashcards',mock:'tabMock',profile:'tabProfile',progress:'tabProgress'};
+  document.querySelectorAll('#studyTabs .studyTab').forEach(b=>b.removeAttribute('aria-current'));
+  const current=document.getElementById(desktopMap[mode]||'');
+  if(current)current.setAttribute('aria-current','page');
 }
 
 function observeSections(){
-  const ids=['homeSection','questionSection','aiSection','flashcardsSection','quizSection','mockSection'];
+  const ids=['homeSection','questionSection','aiSection','flashcardsSection','quizSection','mockSection','profileSection','progressSection'];
   const observer=new MutationObserver(()=>syncMobileNav());
   ids.forEach(id=>{const el=document.getElementById(id);if(el)observer.observe(el,{attributes:true,attributeFilter:['class']})});
 }
@@ -200,8 +312,8 @@ function observeLeaderboard(){
   const tryBind=()=>{
     const list=document.getElementById('gameLeaderboardList');if(!list||list.dataset.v2Observed)return false;
     list.dataset.v2Observed='1';
-    new MutationObserver(()=>{polishHomeLabels();markCurrentRank()}).observe(list,{childList:true,subtree:true});
-    markCurrentRank();return true;
+    new MutationObserver(()=>polishHomeLabels()).observe(list,{childList:true,subtree:true});
+    polishHomeLabels();return true;
   };
   if(!tryBind())setTimeout(tryBind,600);
 }
@@ -215,8 +327,10 @@ function setupKeyboard(){
 function init(){
   document.documentElement.classList.add('med25-v2');
   document.title='MED25 Study Hub';
-  cleanNav();installFooter();installInfoSheet();installPracticeSheet();installMobileNav();observeSections();observeLeaderboard();polishHomeLabels();setupKeyboard();syncMobileNav();
-  setTimeout(()=>{cleanNav();polishHomeLabels();syncMobileNav()},800);
+  cleanNav();installStandaloneSections();installCohortIdentity();installMobileAppearance();installFooter();installInfoSheet();installPracticeSheet();installMobileNav();observeSections();observeLeaderboard();polishHomeLabels();setupKeyboard();syncMobileNav();
+  ['tabHome','tabQuestions','tabAI','tabQuiz','tabMock','tabFlashcards'].forEach(id=>document.getElementById(id)?.addEventListener('click',()=>{hideV2Pages();try{localStorage.removeItem('med25-v2-view-v1')}catch{}},{capture:true}));
+  const savedV2=localStorage.getItem('med25-v2-view-v1');if(savedV2==='profile'||savedV2==='progress')setTimeout(()=>showV2Page(savedV2),40);
+  setTimeout(()=>{cleanNav();installStandaloneSections();polishHomeLabels();syncMobileNav()},800);
 }
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',()=>setTimeout(init,0));else setTimeout(init,0);
 })();

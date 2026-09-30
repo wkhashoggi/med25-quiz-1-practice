@@ -56,8 +56,10 @@ async function testFooter(page) {
     await click(page.locator('[data-v2-info="' + key + '"]'), 'footer ' + key);
     await assertVisible(page, '#v2InfoBack.show', key + ' sheet');
     if (key === 'about') {
-      const ok = await page.locator('.v2AboutIdentity img').evaluate(img => img.complete && img.naturalWidth > 0);
-      if (!ok) throw new Error('Cohort logo did not load in About');
+      await page.waitForFunction(() => {
+        const img=document.querySelector('.v2AboutIdentity img');
+        return !!img && img.complete && img.naturalWidth > 0;
+      }, null, {timeout:5000}).catch(()=>{throw new Error('Cohort logo did not load in About')});
     }
     await click(page.locator('#v2InfoClose'), 'close ' + key);
   }
@@ -66,8 +68,10 @@ async function testHome(page, mobile) {
   await goHome(page, mobile);
   const logo = page.locator('.v2CohortIdentity img');
   await assertVisible(page, '.v2CohortIdentity', 'cohort identity');
-  const logoOk = await logo.evaluate(img => img.complete && img.naturalWidth > 0);
-  if (!logoOk) throw new Error('Home cohort logo failed to load');
+  await page.waitForFunction(() => {
+    const img=document.querySelector('.v2CohortIdentity img');
+    return !!img && img.complete && img.naturalWidth > 0;
+  }, null, {timeout:5000}).catch(()=>{throw new Error('Home cohort logo failed to load')});
 
   for (const mode of ['weekly','monthly','all']) {
     const b = page.locator('[data-xp-board="' + mode + '"]');

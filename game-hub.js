@@ -77,6 +77,8 @@ function gameInstallHome(){
     panel.className='gameProfilePanel';
     slot.appendChild(panel);
   }
+  const panel=document.getElementById('gameProfilePanel'),auth=document.getElementById('authBox');
+  if(slot&&panel&&auth?.parentElement===slot&&panel.previousElementSibling!==auth)slot.appendChild(panel);
   const grid=document.querySelector('.homeDashboardGrid');
   if(grid&&!document.getElementById('gameLeaderboardCard')){
     const card=document.createElement('section');
@@ -186,8 +188,8 @@ async function gameSaveProfile(){
     console.warn(txt);return;
   }
   const rows=await res.json();if(rows[0])gameProfile=rows[0];
-  gameSetProfileStatus('Saved ✓');
   gameRenderProfile();
+  gameSetProfileStatus('Saved ✓');
   gameLoadLeaderboard(true);
 }
 

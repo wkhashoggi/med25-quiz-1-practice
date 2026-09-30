@@ -17,11 +17,19 @@ function aiProgress(){
   return saved.__ai_questions__;
 }
 function aiAllQuestions(){
-  return (aiLibrary.lecture_sets||[]).filter(s=>!s.archived&&s.eligibility_status==='allowed').flatMap(set=>(set.questions||[]).map(q=>({...q,set_id:set.id,subject:set.subject,lecture_title:set.title,source_url:set.source_url||q.source_url||'',source_validation:set.source_validation||'pending_lecture_validation'})));
+  return (aiLibrary.lecture_sets||[]).filter(s=>!s.archived&&s.eligibility_status==='allowed'&&s.quality_status==='pass').flatMap(set=>(set.questions||[]).map(q=>({...q,set_id:set.id,subject:set.subject,lecture_title:set.title,source_url:set.source_url||q.source_url||'',source_validation:set.source_validation||'pending_lecture_validation'})));
 }
 window.med25GameBridge=window.med25GameBridge||{};
 window.med25GameBridge.aiQuestions=()=>aiAllQuestions();
 window.med25GameBridge.aiProgress=()=>aiProgress();
+window.med25ExamReadyPast=q=>{
+  if(!q?.id||!q?.answer)return false;
+  const entries=Object.entries(q.options||{});
+  if(entries.length<4)return false;
+  if(!entries.some(([k])=>k===q.answer))return false;
+  const vals=entries.map(([,v])=>String(v||'').trim().toLowerCase());
+  return vals.length===new Set(vals).size;
+};
 
 function aiSave(){save();renderAIStats();med25MarkHomeDirty()}
 function aiFiltered(){
@@ -113,10 +121,10 @@ function renderAIStats(){
 function prettyHubDate(v){if(!v)return 'not synced yet';try{return new Date(v).toLocaleString('en-GB',{timeZone:'Asia/Riyadh',day:'2-digit',month:'short',hour:'2-digit',minute:'2-digit'})}catch{return v}}
 function populateAIFilters(){
   const subject=document.getElementById('aiSubject'),lecture=document.getElementById('aiLecture');if(!subject||!lecture)return;
-  const subjects=[...new Set((aiLibrary.lecture_sets||[]).filter(s=>!s.archived&&s.eligibility_status==='allowed').map(s=>s.subject))].sort();
+  const subjects=[...new Set((aiLibrary.lecture_sets||[]).filter(s=>!s.archived&&s.eligibility_status==='allowed'&&s.quality_status==='pass').map(s=>s.subject))].sort();
   subject.innerHTML='<option value="">All subjects</option>'+subjects.map(s=>'<option>'+esc(s)+'</option>').join('');
   subject.value=aiState.subject;
-  const sets=(aiLibrary.lecture_sets||[]).filter(s=>!s.archived&&s.eligibility_status==='allowed'&&(!aiState.subject||s.subject===aiState.subject));
+  const sets=(aiLibrary.lecture_sets||[]).filter(s=>!s.archived&&s.eligibility_status==='allowed'&&s.quality_status==='pass'&&(!aiState.subject||s.subject===aiState.subject));
   lecture.innerHTML='<option value="">All lectures</option>'+sets.map(s=>'<option value="'+esc(s.id)+'">'+esc(s.title)+'</option>').join('');
   if(sets.some(s=>s.id===aiState.lecture))lecture.value=aiState.lecture;else aiState.lecture='';
 }
@@ -133,7 +141,8 @@ async function initAIQuestions(){
     if(mapRes.ok)studyGuideQuestionMap=await mapRes.json();
   }catch(e){console.error('Study libraries unavailable',e);if(!Array.isArray(aiLibrary.lecture_sets))aiLibrary={lecture_sets:[],generated_at:null}}
   qaPastLectureCache.clear();
-  const legacyTopic=document.getElementById('topic');if(legacyTopic)legacyTopic.value='';
+  const legacyTopic=document.getElementById('topic');if(legacyTopic){legacyTopic.value='';legacyTopic.style.display='none'}
+  const legacyModule=document.getElementById('module');if(legacyModule){legacyModule.value='';legacyModule.style.display='none'}
   aiState.subject='';aiState.lecture='';
   populateAIFilters();setupAdvancedQuestionFilters();if(!document.getElementById('aiSection')?.classList.contains('hidden'))renderAI();if(!document.getElementById('questionSection')?.classList.contains('hidden'))render();if(med25HomeVisible())renderHome();else med25MarkHomeDirty(false);
   try{window.med25GameUpdateQuizBadge?.();window.med25GameRefreshQuiz?.()}catch{}
@@ -250,7 +259,10 @@ function qaOrganizeUnifiedControls(prefix){
       if(btn.id==='reset'){if(tools&&btn.parentElement!==tools)tools.appendChild(btn);return}
       if(quick&&btn.parentElement!==quick)quick.appendChild(btn);
     });
-    [['module','Module'],['bank','Question bank'],['sort','Sort by']].forEach(([id,label])=>{
+    const module=document.getElementById('module'),topic=document.getElementById('topic');
+    if(module){module.value='';module.closest('.qaMovedField')?.remove();module.style.display='none'}
+    if(topic){topic.value='';topic.closest('.qaMovedField')?.remove();topic.style.display='none'}
+    [['bank','Source bank'],['sort','Sort by']].forEach(([id,label])=>{
       const el=document.getElementById(id);if(!el||el.closest('.qaMovedField'))return;
       const wrap=qaWrapMovedControl(el,label);if(wrap)legacy.appendChild(wrap);
     });
@@ -265,7 +277,7 @@ function qaClearUnified(prefix,model){
   if(status)status.value='all';if(subject)subject.value='';
   if(prefix==='past'){
     state.filter='all';state.shuffled=false;
-    ['module','bank','sort'].forEach(id=>{const el=document.getElementById(id);if(el)el.value=''});
+    ['module','topic','bank','sort'].forEach(id=>{const el=document.getElementById(id);if(el)el.value=''});
     document.querySelectorAll('#questionSection .chip[data-filter]').forEach(x=>x.classList.toggle('active',x.dataset.filter==='all'));
     document.getElementById('shuffle')?.classList.remove('active');
     resetUnansweredSnapshot();
@@ -344,10 +356,19 @@ function sgLabelVisible(root,kind){
     const id=card.id,q=kind==='past'?QUESTIONS.find(x=>x.id===id):aiAllQuestions().find(x=>x.id===id);
     if(!q)return;
     const g=sgQuestionLecture(kind,q),meta=card.querySelector(kind==='past'?'.qtop .meta':'.aiMeta');
-    if(!meta||meta.querySelector('.sgLecturePill'))return;
-    const pill=document.createElement('span');pill.className=kind==='past'?'pill sgLecturePill':'aiPill sgLecturePill';
-    pill.textContent=g.subject+' · '+g.title;pill.title='Mapped from the official 2026–2027 study-guide learning objectives';
-    meta.appendChild(pill);
+    if(!meta)return;
+    if(kind==='past'){
+      const hy=typeof highYieldBadge==='function'?highYieldBadge(q):'';
+      meta.innerHTML='<span class="pill sgSubjectPill">'+esc(g.subject||'Other')+'</span>'+
+        '<span class="pill sgLecturePill">'+esc(g.title||'Unmapped lecture')+'</span>'+hy;
+      meta.title='Official 2026–2027 Study Guide subject and lecture. The original bank name remains shown as source provenance.';
+    }else{
+      meta.querySelectorAll('.sgLecturePill').forEach(x=>x.remove());
+      const pill=document.createElement('span');pill.className='pill aiPill sgLecturePill';
+      pill.textContent=(g.subject||q.subject||'Other')+' · '+(g.title||q.lecture_title||'Unmapped lecture');
+      pill.title='Mapped from the official 2026–2027 Study Guide';
+      meta.appendChild(pill);
+    }
   });
 }
 
@@ -593,7 +614,7 @@ function renderHome(){
   const subjects=document.getElementById('homeSubjects');
   if(subjects)subjects.innerHTML='<div class="hubRows">'+homeSubjectRows().map(x=>{const qPct=x.questions?Math.round(x.done/x.questions*100):0;return '<div class="hubRow"><div class="hubRowMain"><b>'+esc(x.subject)+'</b><span>Studied '+x.studied+'/'+x.lectures+' lectures · Questions '+x.done+'/'+x.questions+'</span><div class="hubBar"><span style="width:'+qPct+'%"></span></div></div><div class="hubRowScore">'+x.questionComplete+'/'+x.lectures+' complete</div></div>'}).join('')+'</div>';
   renderLectureDashboard();
-  const sync=document.getElementById('homeSync');if(sync)sync.textContent='Drive libraries: '+(aiLibrary.lecture_sets||[]).filter(s=>!s.archived&&s.eligibility_status==='allowed').length+' eligible AI lecture sets · '+(flashLibrary.decks||[]).filter(d=>!d.archived&&d.eligibility_status==='allowed').length+' eligible flashcard decks';
+  const sync=document.getElementById('homeSync');if(sync)sync.textContent='Drive libraries: '+(aiLibrary.lecture_sets||[]).filter(s=>!s.archived&&s.eligibility_status==='allowed'&&s.quality_status==='pass').length+' quality-checked AI lecture sets · '+(flashLibrary.decks||[]).filter(d=>!d.archived&&d.eligibility_status==='allowed').length+' eligible flashcard decks';
 }
 function hubGo(mode){switchStudySection(mode)}
 function hubSwitch(mode){

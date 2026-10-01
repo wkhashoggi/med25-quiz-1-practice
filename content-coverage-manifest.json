@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T07:50:00.000Z",
+  "generated_at": "2026-10-01T08:05:00.000Z",
   "purpose": "Current MED25 Drive sources that must never silently fall to zero AI coverage.",
   "current_drive_sources": [
     {
@@ -550,6 +550,83 @@
       "ai_source_file_id": "11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI",
       "lecture_ids": [
         "microbiology__malaria"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Histology",
+      "title": "Histology of the Lymphatic System",
+      "drive_file_id": "1tktL6El76XzdSl3H9meqCkgYArLLaty7",
+      "ai_source_file_id": "1tktL6El76XzdSl3H9meqCkgYArLLaty7",
+      "lecture_ids": [
+        "anatomy-histology__histology-of-the-lymphatic-system"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Histology",
+      "title": "Histology of Mucosal Lymphatic Tissue",
+      "drive_file_id": "1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC",
+      "ai_source_file_id": "1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC",
+      "lecture_ids": [
+        "anatomy-histology__histology-of-the-mucosal-immune-system"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Histology",
+      "title": "Histology of Myocardium",
+      "drive_file_id": "1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM",
+      "ai_source_file_id": "1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM",
+      "lecture_ids": [
+        "anatomy-histology__histology-of-the-myocardium"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Physiology",
+      "title": "Cardiac Contractility",
+      "drive_file_id": "1a2GYFwVaioCMtkK4FhARroF7kphyGDwS",
+      "ai_source_file_id": "1a2GYFwVaioCMtkK4FhARroF7kphyGDwS",
+      "lecture_ids": [
+        "physiology__cardiac-contractility"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Physiology",
+      "title": "Cardiac Output and Its Control",
+      "drive_file_id": "1rzreURT0TD2ajEGXKRIzad7b8VjudyNm",
+      "ai_source_file_id": "1rzreURT0TD2ajEGXKRIzad7b8VjudyNm",
+      "lecture_ids": [
+        "physiology__cardiac-output-and-its-control"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Pathology",
+      "title": "Valvular Heart Diseases",
+      "drive_file_id": "1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc",
+      "ai_source_file_id": "1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc",
+      "lecture_ids": [
+        "pathology__valvular-heart-diseases"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "drive_file_id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9",
+      "ai_source_file_id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9",
+      "lecture_ids": [
+        "physiology__normal-ecg"
       ],
       "minimum_ai_questions": 1,
       "minimum_cases_per_lecture": 1

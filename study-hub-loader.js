@@ -7,7 +7,7 @@ try{
   const preferredTheme=localStorage.getItem('med25-theme')||'light';
   html=html.replace('<html lang="en">','<html lang="en" data-theme="'+preferredTheme+'">');
 
-  html=html.replace('</head>','<link rel="stylesheet" href="study-hub.css?v=23"><link rel="stylesheet" href="game-hub.css?v=5"><link rel="stylesheet" href="med25-v2.css?v=7"></head>');
+  html=html.replace('</head>','<link rel="stylesheet" href="study-hub.css?v=23"><link rel="stylesheet" href="game-hub.css?v=5"><link rel="stylesheet" href="med25-v2.css?v=8"></head>');
 
   const oldTabs='<div class="studyTabs" id="studyTabs"><button class="studyTab active" id="tabQuestions" type="button">Past Papers / Practice Questions</button><button class="studyTab" id="tabFlashcards" type="button">Flashcards</button></div>';
   const newTabs='<div class="studyTabs appNav" id="studyTabs"><div class="appBrand"><span class="appBrandMark">M25</span><span class="appBrandText"><b>MED25</b><small>Study Hub</small></span></div><div class="appNavLinks"><button class="studyTab active" id="tabHome" type="button"><span class="navIcon">⌂</span><span>Home</span></button><button class="studyTab" id="tabQuestions" type="button"><span class="navIcon">▤</span><span>Past Papers</span></button><button class="studyTab" id="tabAI" type="button"><span class="navIcon">✦</span><span>AI Questions</span></button><button class="studyTab" id="tabFlashcards" type="button"><span class="navIcon">▱</span><span>Flashcards</span></button></div><div class="appNavActions"><button class="themeToggle" id="themeToggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">☾</button></div></div>';

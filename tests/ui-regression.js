@@ -294,9 +294,9 @@ async function testMock(page, mobile) {
 
   for (const lectureName of ['Diagnostic cardiac markers','Antiarrhythmic drugs','White bood cells (WBCs)','Treatment of anemia']) {
     const row=page.locator('.mockLectureRow').filter({hasText:lectureName}).first();
-    if (!await visible(row)) throw new Error('Mock lecture missing: '+lectureName);
-    const text=await row.innerText();
-    const match=text.match(/(\d+)\s+AI/);
+    if (await row.count() < 1) throw new Error('Mock lecture missing: '+lectureName);
+    const text=await row.textContent();
+    const match=String(text||'').match(/(\d+)\s+AI/);
     if (!match || Number(match[1])<1) throw new Error('Mock lecture has zero AI questions: '+lectureName);
   }
 

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-01T08:54:00.000Z",
+  "generated_at": "2026-10-01T09:05:00.000Z",
   "source_root": {
     "id": "1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
     "url": "https://drive.google.com/drive/folders/1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
@@ -8985,6 +8985,160 @@
             "Sinus rhythm"
           ],
           "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view"
+        }
+      ],
+      "needs_source_validation": false,
+      "source_validation_date": "2026-10-01",
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
+    },
+    {
+      "id": "drive_1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl",
+      "subject": "Biochemistry",
+      "title": "Diagnostic Cardiac Markers",
+      "source_file_id": "1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl",
+      "source_url": "https://drive.google.com/file/d/1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl/view",
+      "archived": false,
+      "cards": [
+        {
+          "id": "1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl-c01",
+          "front": "Preferred biomarkers for myocardial injury/ACS?",
+          "back": "Cardiac troponin I and T.",
+          "tags": [
+            "Cardiac markers",
+            "Troponin"
+          ],
+          "source_url": "https://drive.google.com/file/d/1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl/view"
+        },
+        {
+          "id": "1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl-c02",
+          "front": "Why is cTnI highly cardiac-specific?",
+          "back": "It has not been reported to be expressed in skeletal muscle.",
+          "tags": [
+            "Cardiac markers",
+            "Troponin"
+          ],
+          "source_url": "https://drive.google.com/file/d/1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl/view"
+        },
+        {
+          "id": "1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl-c03",
+          "front": "Troponin rise after MI?",
+          "back": "About 3–12 h (average ~4–6 h).",
+          "tags": [
+            "Cardiac markers",
+            "Kinetics"
+          ],
+          "source_url": "https://drive.google.com/file/d/1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl/view"
+        },
+        {
+          "id": "1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl-c04",
+          "front": "Troponin peak after MI?",
+          "back": "About 24–48 h.",
+          "tags": [
+            "Cardiac markers",
+            "Kinetics"
+          ],
+          "source_url": "https://drive.google.com/file/d/1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl/view"
+        },
+        {
+          "id": "1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl-c05",
+          "front": "How long do troponins stay elevated?",
+          "back": "cTnI ~5–10 days; cTnT ~5–14 days.",
+          "tags": [
+            "Cardiac markers",
+            "Kinetics"
+          ],
+          "source_url": "https://drive.google.com/file/d/1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl/view"
+        },
+        {
+          "id": "1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl-c06",
+          "front": "CK-MB kinetics after MI?",
+          "back": "Rises 3–12 h, peaks ~24 h, normalizes in 2–3 days.",
+          "tags": [
+            "Cardiac markers",
+            "CK-MB"
+          ],
+          "source_url": "https://drive.google.com/file/d/1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl/view"
+        },
+        {
+          "id": "1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl-c07",
+          "front": "Why can CK-MB help detect reinfarction?",
+          "back": "A new rise after it previously normalized can indicate reinfarction.",
+          "tags": [
+            "Cardiac markers",
+            "CK-MB"
+          ],
+          "source_url": "https://drive.google.com/file/d/1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl/view"
+        },
+        {
+          "id": "1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl-c08",
+          "front": "Myoglobin kinetics after MI?",
+          "back": "Rises ~2 h, peaks 6–8 h, normalizes 20–36 h.",
+          "tags": [
+            "Cardiac markers",
+            "Myoglobin"
+          ],
+          "source_url": "https://drive.google.com/file/d/1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl/view"
+        },
+        {
+          "id": "1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl-c09",
+          "front": "Main limitation of myoglobin?",
+          "back": "Poor cardiac specificity; skeletal muscle injury and renal failure can cause false positives.",
+          "tags": [
+            "Cardiac markers",
+            "Myoglobin"
+          ],
+          "source_url": "https://drive.google.com/file/d/1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl/view"
+        },
+        {
+          "id": "1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl-c10",
+          "front": "What is the LDH flipped pattern?",
+          "back": "LDH-1 becomes higher than LDH-2.",
+          "tags": [
+            "Cardiac markers",
+            "LDH"
+          ],
+          "source_url": "https://drive.google.com/file/d/1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl/view"
+        },
+        {
+          "id": "1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl-c11",
+          "front": "Are LDH and AST still preferred cardiac markers?",
+          "back": "No. Troponins have replaced them for routine cardiac diagnosis.",
+          "tags": [
+            "Cardiac markers",
+            "Comparison"
+          ],
+          "source_url": "https://drive.google.com/file/d/1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl/view"
+        },
+        {
+          "id": "1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl-c12",
+          "front": "What do BNP/NT-proBNP reflect?",
+          "back": "Ventricular stretch and congestive heart failure.",
+          "tags": [
+            "Cardiac markers",
+            "BNP"
+          ],
+          "source_url": "https://drive.google.com/file/d/1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl/view"
+        },
+        {
+          "id": "1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl-c13",
+          "front": "Can troponin rise without MI?",
+          "back": "Yes. Any myocardial injury may raise it, including myocarditis, PE and sepsis.",
+          "tags": [
+            "Cardiac markers",
+            "Troponin"
+          ],
+          "source_url": "https://drive.google.com/file/d/1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl/view"
+        },
+        {
+          "id": "1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl-c14",
+          "front": "Ideal cardiac-marker properties?",
+          "back": "High myocardial concentration, early appearance, prolonged elevation, and high cardiac specificity.",
+          "tags": [
+            "Cardiac markers",
+            "Basics"
+          ],
+          "source_url": "https://drive.google.com/file/d/1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl/view"
         }
       ],
       "needs_source_validation": false,

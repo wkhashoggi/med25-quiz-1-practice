@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - ui-polish-logo-regression-20260930
+      - fix-ipad-profile-sidebar-20261001
       - main
   workflow_dispatch:
 

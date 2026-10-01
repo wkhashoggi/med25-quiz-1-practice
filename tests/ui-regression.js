@@ -221,6 +221,16 @@ async function testAI(page, mobile) {
     await endo.check();
     await page.waitForTimeout(100);
     if(await page.locator('#aiQuestionList .aiCard').count()<1)throw new Error('Infective Endocarditis filter returns zero AI questions');
+
+    await aiSubject.selectOption({label:'Biochemistry'});
+    await page.waitForTimeout(60);
+    await click(page.locator('#aiGuideLectureBtn'),'AI Biochemistry lecture picker');
+    const marker=page.locator('#aiGuideLecturePanel input[value="biochemistry__diagnostic-cardiac-markers"]');
+    if(!await visible(marker))throw new Error('Diagnostic Cardiac Markers missing from AI lecture filter');
+    await marker.check();
+    await page.waitForTimeout(100);
+    if(await page.locator('#aiQuestionList .aiCard').count()<1)throw new Error('Diagnostic Cardiac Markers filter returns zero AI questions');
+
     await aiSubject.selectOption('');
   }
   const mobileFilter = page.locator('[data-mobile-filter-toggle="ai"]');
@@ -312,6 +322,16 @@ async function testMock(page, mobile) {
     const match=summaryText.match(/(\d+)\s+AI/);
     if (!match || Number(match[1])<1) throw new Error('Mock subject has zero AI questions: '+subjectName);
   }
+
+  const biochemCard=page.locator('.mockSubjectCard').filter({hasText:'Biochemistry'}).first();
+  if(!await visible(biochemCard))throw new Error('Mock Biochemistry subject missing');
+  const bioDetails=biochemCard.locator('details');
+  if(!(await bioDetails.getAttribute('open')))await bioDetails.locator('summary').click();
+  const markerRow=biochemCard.locator('.mockLectureRow').filter({hasText:'Diagnostic cardiac markers'}).first();
+  if(!await visible(markerRow))throw new Error('Diagnostic Cardiac Markers missing from Mock lecture list');
+  const markerText=await markerRow.innerText();
+  const markerAI=markerText.match(/(\d+)\s+AI/);
+  if(!markerAI||Number(markerAI[1])<1)throw new Error('Diagnostic Cardiac Markers has zero AI in Mock Exam');
 
   const count=page.locator('[data-mock-subject-count]').first();
   await count.evaluate(el=>{el.value='2';el.dispatchEvent(new Event('change',{bubbles:true}));});

@@ -185,9 +185,19 @@ function qaLectureCatalog(){
 function qaSubjects(){
   return (studyGuideCatalog.subjects||[]).map(s=>s.name).filter(Boolean);
 }
-function qaSubjectLectures(subject){
+function qaSubjectLectures(subject,prefix=''){
   const s=(studyGuideCatalog.subjects||[]).find(x=>x.name===subject);
-  return (s?.lectures||[]).slice();
+  let lectures=(s?.lectures||[]).slice();
+  if(prefix==='ai'){
+    const counts=new Map();
+    for(const q of aiAllQuestions()){
+      const g=sgQuestionLecture('ai',q);
+      if(!g?.lecture_id)continue;
+      counts.set(g.lecture_id,(counts.get(g.lecture_id)||0)+1);
+    }
+    lectures=lectures.filter(l=>(counts.get(l.id)||0)>0).map(l=>({...l,ai_count:counts.get(l.id)||0}));
+  }
+  return lectures;
 }
 const qaPastLectureCache=new Map();
 const qaAILectureCache=new Map();
@@ -309,14 +319,14 @@ function qaRenderLecturePicker(prefix,model){
   if(!model.subject){
     btn.disabled=true;btn.textContent='Select subject first';panel.classList.add('hidden');panel.innerHTML='';return;
   }
-  const lectures=qaSubjectLectures(model.subject);
+  const lectures=qaSubjectLectures(model.subject,prefix);
   btn.disabled=false;
   if(model.lectures.size===1){
     const one=lectures.find(x=>model.lectures.has(x.id));btn.textContent=one?.title||'1 lecture selected';
   }else if(model.lectures.size>1)btn.textContent=model.lectures.size+' lectures selected';
   else btn.textContent='All '+model.subject+' lectures';
   panel.innerHTML='<div class="qaMultiHead"><b>'+esc(model.subject)+' lectures</b><button type="button" data-qa-clear-lectures="'+prefix+'">Clear</button></div>'+
-    lectures.map(x=>'<label class="qaCheck"><input type="checkbox" value="'+esc(x.id)+'" '+(model.lectures.has(x.id)?'checked':'')+'><span>'+esc(x.title)+'</span></label>').join('');
+    lectures.map(x=>'<label class="qaCheck"><input type="checkbox" value="'+esc(x.id)+'" '+(model.lectures.has(x.id)?'checked':'')+'><span>'+esc(x.title)+(prefix==='ai'?' <small>'+Number(x.ai_count||0)+' AI</small>':'')+'</span></label>').join('');
   panel.querySelectorAll('input[type="checkbox"]').forEach(cb=>cb.onchange=()=>{
     cb.checked?model.lectures.add(cb.value):model.lectures.delete(cb.value);
     qaRenderLecturePicker(prefix,model);qaApply(prefix);

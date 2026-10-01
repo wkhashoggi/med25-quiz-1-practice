@@ -12206,7 +12206,9 @@
           "source_card_id": null,
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Lecture-grounded clinical application case"
         },
         {
           "id": "ai_11ZztQA_d1F4x9wB69Olsoc-d823jwFqm_05",

@@ -188,6 +188,17 @@ async function testAI(page, mobile) {
     await aiSubject.selectOption({index:1});
     await aiSubject.selectOption('');
   }
+  if (await visible(aiSubject)) {
+    const optionTexts=await aiSubject.locator('option').allTextContents();
+    for (const subjectName of ['Hematology','Anatomy & Histology']) {
+      if (!optionTexts.includes(subjectName)) throw new Error('AI subject missing: '+subjectName);
+      await aiSubject.selectOption({label:subjectName});
+      await page.waitForTimeout(80);
+      const cards=page.locator('#aiQuestionList .aiCard');
+      if (await cards.count()<1) throw new Error('AI subject has zero questions: '+subjectName);
+    }
+    await aiSubject.selectOption('');
+  }
   const mobileFilter = page.locator('[data-mobile-filter-toggle="ai"]');
   if (await visible(mobileFilter)) { await mobileFilter.click(); await mobileFilter.click(); }
 
@@ -270,6 +281,13 @@ async function testMock(page, mobile) {
   const sourceBoth=page.locator('[data-mock-source="both"]');
   if (await visible(sourcePast)) await sourcePast.click();
   if (await visible(sourceBoth)) await sourceBoth.click();
+  for (const subjectName of ['Hematology','Anatomy & Histology']) {
+    const card=page.locator('.mockSubjectCard').filter({hasText:subjectName}).first();
+    if (!await visible(card)) throw new Error('Mock subject missing: '+subjectName);
+    const summaryText=await card.locator('.mockSubjectMain').innerText();
+    const match=summaryText.match(/(\d+)\s+AI/);
+    if (!match || Number(match[1])<1) throw new Error('Mock subject has zero AI questions: '+subjectName);
+  }
 
   const count=page.locator('[data-mock-subject-count]').first();
   await count.evaluate(el=>{el.value='2';el.dispatchEvent(new Event('change',{bubbles:true}));});

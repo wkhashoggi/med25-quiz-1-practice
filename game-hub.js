@@ -114,18 +114,71 @@ function gameInstallHome(){
     card.className='hubCard gameLeaderboardCard';
     card.innerHTML=
       '<div class="homeCardHead"><div><div class="homeCardLabel">XP LEADERBOARD</div><h3>MED25 rankings</h3></div><button class="homeTextBtn" id="gameLeaderboardRefresh" type="button">Refresh ↻</button></div>'+
+      '<div id="gameLeaderboardPrivacy" class="gameLeaderboardPrivacy"></div>'+
       '<div class="gameLeaderboardTabs"><button type="button" data-xp-board="weekly" class="active">Weekly</button><button type="button" data-xp-board="monthly">Monthly</button><button type="button" data-xp-board="all">All-time</button></div>'+
       '<div class="gameLeaderboardMeta" id="gameLeaderboardMeta">Loading XP rankings…</div>'+
       '<div id="gameLeaderboardList" class="gameLeaderboardList"><div class="gameEmpty">Loading leaderboard…</div></div>';
     const overall=document.querySelector('.homeOverall');
     if(overall?.nextSibling)grid.insertBefore(card,overall.nextSibling);else grid.appendChild(card);
     document.getElementById('gameLeaderboardRefresh').onclick=()=>gameLoadLeaderboard(true);
+    gameRenderLeaderboardPrivacy();
     card.querySelectorAll('[data-xp-board]').forEach(btn=>btn.onclick=()=>{
       gameLeaderboardMode=btn.dataset.xpBoard;
       card.querySelectorAll('[data-xp-board]').forEach(x=>x.classList.toggle('active',x===btn));
       gameRenderLeaderboard();
     });
   }
+}
+
+function gameRenderLeaderboardPrivacy(){
+  const host=document.getElementById('gameLeaderboardPrivacy');
+  if(!host)return;
+  if(!currentUser){
+    host.innerHTML='<div class="gameLeaderboardPrivacyGuest"><span><b>Leaderboard visibility</b><small>Sign in to control whether your account appears in rankings.</small></span><em>SIGN IN</em></div>';
+    return;
+  }
+  if(!gameProfile){
+    host.innerHTML='<div class="gameLeaderboardPrivacyGuest"><span><b>Leaderboard visibility</b><small>Loading your privacy setting…</small></span><em>…</em></div>';
+    return;
+  }
+  const hidden=!gameProfile.leaderboard_visible;
+  host.innerHTML=
+    '<label class="gameLeaderboardPrivacyToggle">'+
+      '<span class="gameLeaderboardPrivacyCopy"><span class="gameLeaderboardPrivacyTitle"><b>Hide me from leaderboard</b><em class="'+(hidden?'hidden':'visible')+'">'+(hidden?'HIDDEN':'VISIBLE')+'</em></span>'+
+      '<small>'+(hidden?'You are hidden from MED25 rankings. Your XP and study progress are still saved.':'Your account is currently shown in MED25 rankings. Turn this on to hide it.')+'</small></span>'+
+      '<input id="gameLeaderboardHiddenHome" type="checkbox" '+(hidden?'checked':'')+' aria-label="Hide me from leaderboard">'+
+      '<i></i>'+
+    '</label>'+
+    '<div class="gameLeaderboardPrivacyStatus" id="gameLeaderboardPrivacyStatus"></div>';
+  document.getElementById('gameLeaderboardHiddenHome').onchange=e=>gameSetLeaderboardVisibility(!e.target.checked,'home');
+}
+
+function gameSetLeaderboardPrivacyStatus(msg,error=false){
+  const el=document.getElementById('gameLeaderboardPrivacyStatus');
+  if(el){el.textContent=msg||'';el.classList.toggle('error',!!error)}
+}
+
+async function gameSetLeaderboardVisibility(visible,source='home'){
+  if(!currentUser||!gameProfile||!authSession?.access_token)return;
+  gameSetLeaderboardPrivacyStatus(visible?'Showing you on leaderboard…':'Hiding you from leaderboard…');
+  const res=await supaFetch('/rest/v1/game_profiles?user_id=eq.'+encodeURIComponent(currentUser.id),{
+    method:'PATCH',
+    headers:{Prefer:'return=representation'},
+    body:JSON.stringify({leaderboard_visible:!!visible,updated_at:new Date().toISOString()})
+  });
+  if(!res.ok){
+    gameSetLeaderboardPrivacyStatus('Could not change leaderboard visibility.',true);
+    console.warn(await res.text());
+    gameRenderLeaderboardPrivacy();
+    return;
+  }
+  const rows=await res.json();
+  if(rows[0])gameProfile=rows[0];
+  if(visible)await gameActivateLeaderboard();
+  gameRenderProfile();
+  gameRenderLeaderboardPrivacy();
+  gameSetLeaderboardPrivacyStatus(visible?'You are visible on the leaderboard.':'You are hidden from the leaderboard.');
+  await gameLoadLeaderboard(true);
 }
 
 function gameAvatarMarkup(profile,size='normal'){
@@ -187,6 +240,7 @@ function gameRenderProfile(){
   document.getElementById('gameAvatarButton').onclick=()=>document.getElementById('gameAvatarInput')?.click();
   document.getElementById('gameAvatarInput').onchange=gameUploadAvatar;
   document.getElementById('gamePointsInfoBtn')?.addEventListener('click',gameOpenPointsInfo);
+  gameRenderLeaderboardPrivacy();
 }
 
 function gameOpenPointsInfo(){

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-01T08:20:00.000Z",
+  "generated_at": "2026-10-01T09:10:00.000Z",
   "study_guide_file_id": "1QwRNlO6-zuOQugxyjrhXykOW-YjVtal4",
   "past": {
     "ibls-previous-years-p4-q3-1": {
@@ -5845,6 +5845,118 @@
       "title": "External Features of the Heart and its Great Vessels",
       "confidence": 1,
       "method": "source-title"
+    },
+    "physiology-important-q29": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "source-bank-current-audit"
+    },
+    "physiology-important-q30": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "source-bank-current-audit"
+    },
+    "physiology-important-q31": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "source-bank-current-audit"
+    },
+    "physiology-important-q32": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "source-bank-current-audit"
+    },
+    "physiology-important-q33": {
+      "lecture_id": "physiology__abnormal-ecg-and-cardiac-arrhythmias",
+      "subject": "Physiology",
+      "title": "Abnormal ECG and cardiac arrhythmias",
+      "confidence": 1,
+      "method": "source-bank-current-audit"
+    },
+    "physiology-important-q34": {
+      "lecture_id": "physiology__abnormal-ecg-and-cardiac-arrhythmias",
+      "subject": "Physiology",
+      "title": "Abnormal ECG and cardiac arrhythmias",
+      "confidence": 1,
+      "method": "source-bank-current-audit"
+    },
+    "physiology-important-q35": {
+      "lecture_id": "physiology__abnormal-ecg-and-cardiac-arrhythmias",
+      "subject": "Physiology",
+      "title": "Abnormal ECG and cardiac arrhythmias",
+      "confidence": 1,
+      "method": "source-bank-current-audit"
+    },
+    "physiology-important-q36": {
+      "lecture_id": "physiology__abnormal-ecg-and-cardiac-arrhythmias",
+      "subject": "Physiology",
+      "title": "Abnormal ECG and cardiac arrhythmias",
+      "confidence": 1,
+      "method": "source-bank-current-audit"
+    },
+    "physiology-important-q37": {
+      "lecture_id": "physiology__physiology-of-coronary-circulation",
+      "subject": "Physiology",
+      "title": "Physiology of coronary circulation",
+      "confidence": 1,
+      "method": "source-bank-current-audit"
+    },
+    "physiology-important-q38": {
+      "lecture_id": "physiology__physiology-of-coronary-circulation",
+      "subject": "Physiology",
+      "title": "Physiology of coronary circulation",
+      "confidence": 1,
+      "method": "source-bank-current-audit"
+    },
+    "physiology-important-q39": {
+      "lecture_id": "physiology__physiology-of-coronary-circulation",
+      "subject": "Physiology",
+      "title": "Physiology of coronary circulation",
+      "confidence": 1,
+      "method": "source-bank-current-audit"
+    },
+    "physiology-important-q40": {
+      "lecture_id": "physiology__physiology-of-coronary-circulation",
+      "subject": "Physiology",
+      "title": "Physiology of coronary circulation",
+      "confidence": 1,
+      "method": "source-bank-current-audit"
+    },
+    "physiology-important-q41": {
+      "lecture_id": "physiology__physiology-of-vascular-endothelium",
+      "subject": "Physiology",
+      "title": "Physiology of vascular endothelium",
+      "confidence": 1,
+      "method": "source-bank-current-audit"
+    },
+    "physiology-important-q42": {
+      "lecture_id": "physiology__physiology-of-vascular-endothelium",
+      "subject": "Physiology",
+      "title": "Physiology of vascular endothelium",
+      "confidence": 1,
+      "method": "source-bank-current-audit"
+    },
+    "physiology-important-q43": {
+      "lecture_id": "physiology__physiology-of-vascular-endothelium",
+      "subject": "Physiology",
+      "title": "Physiology of vascular endothelium",
+      "confidence": 1,
+      "method": "source-bank-current-audit"
+    },
+    "physiology-important-q44": {
+      "lecture_id": "physiology__physiology-of-vascular-endothelium",
+      "subject": "Physiology",
+      "title": "Physiology of vascular endothelium",
+      "confidence": 1,
+      "method": "source-bank-current-audit"
     }
   },
   "ai": {
@@ -6076,57 +6188,57 @@
       "lecture_id": "physiology__cardiac-contractility",
       "subject": "Physiology",
       "title": "Cardiac contractility",
-      "confidence": 0.813,
-      "method": "objectives"
+      "confidence": 1,
+      "method": "current-drive-source-audit"
     },
     "ai_16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x_02": {
       "lecture_id": "physiology__cardiac-contractility",
       "subject": "Physiology",
       "title": "Cardiac contractility",
-      "confidence": 0.782,
-      "method": "objectives"
+      "confidence": 1,
+      "method": "current-drive-source-audit"
     },
     "ai_16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x_03": {
       "lecture_id": "physiology__cardiac-contractility",
       "subject": "Physiology",
       "title": "Cardiac contractility",
-      "confidence": 0.326,
-      "method": "objectives"
+      "confidence": 1,
+      "method": "current-drive-source-audit"
     },
     "ai_16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x_04": {
       "lecture_id": "physiology__cardiac-contractility",
       "subject": "Physiology",
       "title": "Cardiac contractility",
-      "confidence": 0.346,
-      "method": "objectives"
+      "confidence": 1,
+      "method": "current-drive-source-audit"
     },
     "ai_16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x_05": {
-      "lecture_id": "physiology__pressure-volume-relationship-and-lung-compliance",
+      "lecture_id": "physiology__cardiac-contractility",
       "subject": "Physiology",
-      "title": "Pressure-volume relationship and lung compliance",
-      "confidence": 0.12,
-      "method": "objectives"
+      "title": "Cardiac contractility",
+      "confidence": 1,
+      "method": "current-drive-source-audit"
     },
     "ai_16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x_06": {
       "lecture_id": "physiology__cardiac-contractility",
       "subject": "Physiology",
       "title": "Cardiac contractility",
-      "confidence": 0.275,
-      "method": "objectives"
+      "confidence": 1,
+      "method": "current-drive-source-audit"
     },
     "ai_16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x_07": {
       "lecture_id": "physiology__cardiac-contractility",
       "subject": "Physiology",
       "title": "Cardiac contractility",
-      "confidence": 0.305,
-      "method": "objectives"
+      "confidence": 1,
+      "method": "current-drive-source-audit"
     },
     "ai_16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x_08": {
       "lecture_id": "physiology__cardiac-contractility",
       "subject": "Physiology",
       "title": "Cardiac contractility",
-      "confidence": 0.305,
-      "method": "objectives"
+      "confidence": 1,
+      "method": "current-drive-source-audit"
     },
     "ai_1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX_01": {
       "lecture_id": "physiology__regulation-of-abp-intermediate-and-long-term-regulation",
@@ -6412,162 +6524,162 @@
       "lecture_id": "physiology__physiology-of-hemostasis",
       "subject": "Physiology",
       "title": "Physiology of Hemostasis",
-      "confidence": 0.99,
-      "method": "objectives"
+      "confidence": 1,
+      "method": "current-drive-source-audit"
     },
     "ai_1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS_02": {
       "lecture_id": "physiology__physiology-of-hemostasis",
       "subject": "Physiology",
       "title": "Physiology of Hemostasis",
-      "confidence": 0.99,
-      "method": "objectives"
+      "confidence": 1,
+      "method": "current-drive-source-audit"
     },
     "ai_1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS_03": {
       "lecture_id": "physiology__physiology-of-hemostasis",
       "subject": "Physiology",
       "title": "Physiology of Hemostasis",
-      "confidence": 0.99,
-      "method": "objectives"
+      "confidence": 1,
+      "method": "current-drive-source-audit"
     },
     "ai_1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS_04": {
       "lecture_id": "physiology__physiology-of-hemostasis",
       "subject": "Physiology",
       "title": "Physiology of Hemostasis",
-      "confidence": 0.99,
-      "method": "objectives"
+      "confidence": 1,
+      "method": "current-drive-source-audit"
     },
     "ai_1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS_05": {
       "lecture_id": "physiology__physiology-of-hemostasis",
       "subject": "Physiology",
       "title": "Physiology of Hemostasis",
-      "confidence": 0.922,
-      "method": "objectives"
+      "confidence": 1,
+      "method": "current-drive-source-audit"
     },
     "ai_1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS_06": {
       "lecture_id": "physiology__physiology-of-hemostasis",
       "subject": "Physiology",
       "title": "Physiology of Hemostasis",
-      "confidence": 0.99,
-      "method": "objectives"
+      "confidence": 1,
+      "method": "current-drive-source-audit"
     },
     "ai_1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS_07": {
       "lecture_id": "physiology__physiology-of-hemostasis",
       "subject": "Physiology",
       "title": "Physiology of Hemostasis",
-      "confidence": 0.99,
-      "method": "objectives"
+      "confidence": 1,
+      "method": "current-drive-source-audit"
     },
     "ai_1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS_08": {
       "lecture_id": "physiology__physiology-of-hemostasis",
       "subject": "Physiology",
       "title": "Physiology of Hemostasis",
-      "confidence": 0.923,
-      "method": "objectives"
+      "confidence": 1,
+      "method": "current-drive-source-audit"
     },
     "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_01": {
       "lecture_id": "physiology__white-bood-cells-wbcs",
       "subject": "Physiology",
       "title": "White bood cells (WBCs)",
       "confidence": 1,
-      "method": "source-title"
+      "method": "current-drive-source-audit"
     },
     "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_02": {
       "lecture_id": "physiology__white-bood-cells-wbcs",
       "subject": "Physiology",
       "title": "White bood cells (WBCs)",
       "confidence": 1,
-      "method": "source-title"
+      "method": "current-drive-source-audit"
     },
     "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_03": {
       "lecture_id": "physiology__white-bood-cells-wbcs",
       "subject": "Physiology",
       "title": "White bood cells (WBCs)",
       "confidence": 1,
-      "method": "source-title"
+      "method": "current-drive-source-audit"
     },
     "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_04": {
       "lecture_id": "physiology__white-bood-cells-wbcs",
       "subject": "Physiology",
       "title": "White bood cells (WBCs)",
       "confidence": 1,
-      "method": "source-title"
+      "method": "current-drive-source-audit"
     },
     "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_05": {
       "lecture_id": "physiology__white-bood-cells-wbcs",
       "subject": "Physiology",
       "title": "White bood cells (WBCs)",
       "confidence": 1,
-      "method": "source-title"
+      "method": "current-drive-source-audit"
     },
     "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_06": {
       "lecture_id": "physiology__white-bood-cells-wbcs",
       "subject": "Physiology",
       "title": "White bood cells (WBCs)",
       "confidence": 1,
-      "method": "source-title"
+      "method": "current-drive-source-audit"
     },
     "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_07": {
       "lecture_id": "physiology__white-bood-cells-wbcs",
       "subject": "Physiology",
       "title": "White bood cells (WBCs)",
       "confidence": 1,
-      "method": "source-title"
+      "method": "current-drive-source-audit"
     },
     "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_08": {
       "lecture_id": "physiology__white-bood-cells-wbcs",
       "subject": "Physiology",
       "title": "White bood cells (WBCs)",
       "confidence": 1,
-      "method": "source-title"
+      "method": "current-drive-source-audit"
     },
     "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_09": {
       "lecture_id": "physiology__white-bood-cells-wbcs",
       "subject": "Physiology",
       "title": "White bood cells (WBCs)",
       "confidence": 1,
-      "method": "source-title"
+      "method": "current-drive-source-audit"
     },
     "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_10": {
       "lecture_id": "physiology__white-bood-cells-wbcs",
       "subject": "Physiology",
       "title": "White bood cells (WBCs)",
       "confidence": 1,
-      "method": "source-title"
+      "method": "current-drive-source-audit"
     },
     "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_11": {
       "lecture_id": "physiology__white-bood-cells-wbcs",
       "subject": "Physiology",
       "title": "White bood cells (WBCs)",
       "confidence": 1,
-      "method": "source-title"
+      "method": "current-drive-source-audit"
     },
     "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_12": {
       "lecture_id": "physiology__white-bood-cells-wbcs",
       "subject": "Physiology",
       "title": "White bood cells (WBCs)",
       "confidence": 1,
-      "method": "source-title"
+      "method": "current-drive-source-audit"
     },
     "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_13": {
       "lecture_id": "physiology__white-bood-cells-wbcs",
       "subject": "Physiology",
       "title": "White bood cells (WBCs)",
       "confidence": 1,
-      "method": "source-title"
+      "method": "current-drive-source-audit"
     },
     "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_14": {
       "lecture_id": "physiology__white-bood-cells-wbcs",
       "subject": "Physiology",
       "title": "White bood cells (WBCs)",
       "confidence": 1,
-      "method": "source-title"
+      "method": "current-drive-source-audit"
     },
     "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_15": {
       "lecture_id": "physiology__white-bood-cells-wbcs",
       "subject": "Physiology",
       "title": "White bood cells (WBCs)",
       "confidence": 1,
-      "method": "source-title"
+      "method": "current-drive-source-audit"
     },
     "ai_1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn_01": {
       "lecture_id": "physiology__physiology-of-hemostasis",
@@ -7974,56 +8086,56 @@
       "subject": "Pharmacology",
       "title": "Treatment of anemia",
       "confidence": 1,
-      "method": "source-title"
+      "method": "current-drive-source-audit"
     },
     "ai_1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY_02": {
       "lecture_id": "pharmacology__treatment-of-anemia",
       "subject": "Pharmacology",
       "title": "Treatment of anemia",
       "confidence": 1,
-      "method": "source-title"
+      "method": "current-drive-source-audit"
     },
     "ai_1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY_03": {
       "lecture_id": "pharmacology__treatment-of-anemia",
       "subject": "Pharmacology",
       "title": "Treatment of anemia",
       "confidence": 1,
-      "method": "source-title"
+      "method": "current-drive-source-audit"
     },
     "ai_1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY_04": {
       "lecture_id": "pharmacology__treatment-of-anemia",
       "subject": "Pharmacology",
       "title": "Treatment of anemia",
       "confidence": 1,
-      "method": "source-title"
+      "method": "current-drive-source-audit"
     },
     "ai_1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY_05": {
       "lecture_id": "pharmacology__treatment-of-anemia",
       "subject": "Pharmacology",
       "title": "Treatment of anemia",
       "confidence": 1,
-      "method": "source-title"
+      "method": "current-drive-source-audit"
     },
     "ai_1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY_06": {
       "lecture_id": "pharmacology__treatment-of-anemia",
       "subject": "Pharmacology",
       "title": "Treatment of anemia",
       "confidence": 1,
-      "method": "source-title"
+      "method": "current-drive-source-audit"
     },
     "ai_1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY_07": {
       "lecture_id": "pharmacology__treatment-of-anemia",
       "subject": "Pharmacology",
       "title": "Treatment of anemia",
       "confidence": 1,
-      "method": "source-title"
+      "method": "current-drive-source-audit"
     },
     "ai_1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY_08": {
       "lecture_id": "pharmacology__treatment-of-anemia",
       "subject": "Pharmacology",
       "title": "Treatment of anemia",
       "confidence": 1,
-      "method": "source-title"
+      "method": "current-drive-source-audit"
     },
     "ai_1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D_01": {
       "lecture_id": "pharmacology__drugs-used-in-treatment-of-pulmonary-embolism",
@@ -8142,56 +8254,56 @@
       "subject": "Anatomy & Histology",
       "title": "Radiological Anatomy of the heart and its great vessels",
       "confidence": 1,
-      "method": "source-title"
+      "method": "current-drive-source-audit"
     },
     "ai_1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ_02": {
       "lecture_id": "anatomy-histology__radiological-anatomy-of-the-heart-and-its-great-vessels",
       "subject": "Anatomy & Histology",
       "title": "Radiological Anatomy of the heart and its great vessels",
       "confidence": 1,
-      "method": "source-title"
+      "method": "current-drive-source-audit"
     },
     "ai_1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ_03": {
       "lecture_id": "anatomy-histology__radiological-anatomy-of-the-heart-and-its-great-vessels",
       "subject": "Anatomy & Histology",
       "title": "Radiological Anatomy of the heart and its great vessels",
       "confidence": 1,
-      "method": "source-title"
+      "method": "current-drive-source-audit"
     },
     "ai_1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ_04": {
       "lecture_id": "anatomy-histology__radiological-anatomy-of-the-heart-and-its-great-vessels",
       "subject": "Anatomy & Histology",
       "title": "Radiological Anatomy of the heart and its great vessels",
       "confidence": 1,
-      "method": "source-title"
+      "method": "current-drive-source-audit"
     },
     "ai_1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ_05": {
       "lecture_id": "anatomy-histology__radiological-anatomy-of-the-heart-and-its-great-vessels",
       "subject": "Anatomy & Histology",
       "title": "Radiological Anatomy of the heart and its great vessels",
       "confidence": 1,
-      "method": "source-title"
+      "method": "current-drive-source-audit"
     },
     "ai_1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ_06": {
       "lecture_id": "anatomy-histology__radiological-anatomy-of-the-heart-and-its-great-vessels",
       "subject": "Anatomy & Histology",
       "title": "Radiological Anatomy of the heart and its great vessels",
       "confidence": 1,
-      "method": "source-title"
+      "method": "current-drive-source-audit"
     },
     "ai_1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ_07": {
       "lecture_id": "anatomy-histology__radiological-anatomy-of-the-heart-and-its-great-vessels",
       "subject": "Anatomy & Histology",
       "title": "Radiological Anatomy of the heart and its great vessels",
       "confidence": 1,
-      "method": "source-title"
+      "method": "current-drive-source-audit"
     },
     "ai_1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ_08": {
       "lecture_id": "anatomy-histology__radiological-anatomy-of-the-heart-and-its-great-vessels",
       "subject": "Anatomy & Histology",
       "title": "Radiological Anatomy of the heart and its great vessels",
       "confidence": 1,
-      "method": "source-title"
+      "method": "current-drive-source-audit"
     },
     "ai_1N29pF27p1UfkP79gdlrUFW-5WiTtgnEC_01": {
       "lecture_id": "anatomy-histology__anatomy-of-mediastinum-pericardium",
@@ -9573,74 +9685,74 @@
       "method": "official-parent-lecture"
     },
     "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_15": {
-      "lecture_id": "pathology__vasculitis",
+      "lecture_id": "pathology__cardiac-and-vascular-tumours",
       "subject": "Pathology",
-      "title": "Vasculitis",
+      "title": "Cardiac and vascular tumours",
       "confidence": 1,
-      "method": "official-parent-lecture"
+      "method": "combined-source-topic-split"
     },
     "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_16": {
-      "lecture_id": "pathology__vasculitis",
+      "lecture_id": "pathology__cardiac-and-vascular-tumours",
       "subject": "Pathology",
-      "title": "Vasculitis",
+      "title": "Cardiac and vascular tumours",
       "confidence": 1,
-      "method": "official-parent-lecture"
+      "method": "combined-source-topic-split"
     },
     "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_17": {
-      "lecture_id": "pathology__vasculitis",
+      "lecture_id": "pathology__cardiac-and-vascular-tumours",
       "subject": "Pathology",
-      "title": "Vasculitis",
+      "title": "Cardiac and vascular tumours",
       "confidence": 1,
-      "method": "official-parent-lecture"
+      "method": "combined-source-topic-split"
     },
     "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_18": {
-      "lecture_id": "pathology__vasculitis",
+      "lecture_id": "pathology__cardiac-and-vascular-tumours",
       "subject": "Pathology",
-      "title": "Vasculitis",
+      "title": "Cardiac and vascular tumours",
       "confidence": 1,
-      "method": "official-parent-lecture"
+      "method": "combined-source-topic-split"
     },
     "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_19": {
-      "lecture_id": "pathology__vasculitis",
+      "lecture_id": "pathology__cardiac-and-vascular-tumours",
       "subject": "Pathology",
-      "title": "Vasculitis",
+      "title": "Cardiac and vascular tumours",
       "confidence": 1,
-      "method": "official-parent-lecture"
+      "method": "combined-source-topic-split"
     },
     "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_20": {
-      "lecture_id": "pathology__vasculitis",
+      "lecture_id": "pathology__cardiac-and-vascular-tumours",
       "subject": "Pathology",
-      "title": "Vasculitis",
+      "title": "Cardiac and vascular tumours",
       "confidence": 1,
-      "method": "official-parent-lecture"
+      "method": "combined-source-topic-split"
     },
     "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_21": {
-      "lecture_id": "pathology__vasculitis",
+      "lecture_id": "pathology__cardiac-and-vascular-tumours",
       "subject": "Pathology",
-      "title": "Vasculitis",
+      "title": "Cardiac and vascular tumours",
       "confidence": 1,
-      "method": "official-parent-lecture"
+      "method": "combined-source-topic-split"
     },
     "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_22": {
-      "lecture_id": "pathology__vasculitis",
+      "lecture_id": "pathology__cardiac-and-vascular-tumours",
       "subject": "Pathology",
-      "title": "Vasculitis",
+      "title": "Cardiac and vascular tumours",
       "confidence": 1,
-      "method": "official-parent-lecture"
+      "method": "combined-source-topic-split"
     },
     "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_23": {
-      "lecture_id": "pathology__vasculitis",
+      "lecture_id": "pathology__cardiac-and-vascular-tumours",
       "subject": "Pathology",
-      "title": "Vasculitis",
+      "title": "Cardiac and vascular tumours",
       "confidence": 1,
-      "method": "official-parent-lecture"
+      "method": "combined-source-topic-split"
     },
     "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_24": {
-      "lecture_id": "pathology__vasculitis",
+      "lecture_id": "pathology__cardiac-and-vascular-tumours",
       "subject": "Pathology",
-      "title": "Vasculitis",
+      "title": "Cardiac and vascular tumours",
       "confidence": 1,
-      "method": "official-parent-lecture"
+      "method": "combined-source-topic-split"
     },
     "ai_1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8_09": {
       "lecture_id": "pharmacology__anti-anginal-drugs",
@@ -10732,21 +10844,21 @@
       "subject": "Physiology",
       "title": "White bood cells (WBCs)",
       "confidence": 1,
-      "method": "drive-case-logical-audit"
+      "method": "current-drive-case-audit"
     },
     "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_case02": {
       "lecture_id": "physiology__white-bood-cells-wbcs",
       "subject": "Physiology",
       "title": "White bood cells (WBCs)",
       "confidence": 1,
-      "method": "drive-case-logical-audit"
+      "method": "current-drive-case-audit"
     },
     "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_case03": {
       "lecture_id": "physiology__white-bood-cells-wbcs",
       "subject": "Physiology",
       "title": "White bood cells (WBCs)",
       "confidence": 1,
-      "method": "drive-case-logical-audit"
+      "method": "current-drive-case-audit"
     },
     "ai_1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY_09": {
       "lecture_id": "pharmacology__treatment-of-anemia",
@@ -10774,21 +10886,21 @@
       "subject": "Pharmacology",
       "title": "Treatment of anemia",
       "confidence": 1,
-      "method": "drive-case-logical-audit"
+      "method": "current-drive-case-audit"
     },
     "ai_1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY_case02": {
       "lecture_id": "pharmacology__treatment-of-anemia",
       "subject": "Pharmacology",
       "title": "Treatment of anemia",
       "confidence": 1,
-      "method": "drive-case-logical-audit"
+      "method": "current-drive-case-audit"
     },
     "ai_1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY_case03": {
       "lecture_id": "pharmacology__treatment-of-anemia",
       "subject": "Pharmacology",
       "title": "Treatment of anemia",
       "confidence": 1,
-      "method": "drive-case-logical-audit"
+      "method": "current-drive-case-audit"
     },
     "ai_1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ_09": {
       "lecture_id": "anatomy-histology__radiological-anatomy-of-the-heart-and-its-great-vessels",
@@ -10802,21 +10914,21 @@
       "subject": "Anatomy & Histology",
       "title": "Radiological Anatomy of the heart and its great vessels",
       "confidence": 1,
-      "method": "drive-case-logical-audit"
+      "method": "current-drive-case-audit"
     },
     "ai_1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ_case02": {
       "lecture_id": "anatomy-histology__radiological-anatomy-of-the-heart-and-its-great-vessels",
       "subject": "Anatomy & Histology",
       "title": "Radiological Anatomy of the heart and its great vessels",
       "confidence": 1,
-      "method": "drive-case-logical-audit"
+      "method": "current-drive-case-audit"
     },
     "ai_1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ_case03": {
       "lecture_id": "anatomy-histology__radiological-anatomy-of-the-heart-and-its-great-vessels",
       "subject": "Anatomy & Histology",
       "title": "Radiological Anatomy of the heart and its great vessels",
       "confidence": 1,
-      "method": "drive-case-logical-audit"
+      "method": "current-drive-case-audit"
     },
     "ai_16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x_09": {
       "lecture_id": "physiology__cardiac-contractility",
@@ -10872,7 +10984,7 @@
       "subject": "Physiology",
       "title": "Cardiac contractility",
       "confidence": 1,
-      "method": "drive-case-logical-audit"
+      "method": "current-drive-case-audit"
     },
     "ai_1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS_09": {
       "lecture_id": "physiology__physiology-of-hemostasis",
@@ -10928,7 +11040,7 @@
       "subject": "Physiology",
       "title": "Physiology of Hemostasis",
       "confidence": 1,
-      "method": "drive-case-logical-audit"
+      "method": "current-drive-case-audit"
     },
     "ai_endocarditis_2026_01": {
       "lecture_id": "pathology__infective-endocarditis",

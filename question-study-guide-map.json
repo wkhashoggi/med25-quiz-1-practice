@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-01T06:35:00.000Z",
+  "generated_at": "2026-10-01T07:55:00.000Z",
   "study_guide_file_id": "1QwRNlO6-zuOQugxyjrhXykOW-YjVtal4",
   "past": {
     "ibls-previous-years-p4-q3-1": {
@@ -10173,6 +10173,1574 @@
       "title": "Internal Features of the Heart",
       "confidence": 1,
       "method": "source-title"
+    },
+    "ai_1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX_formcase01": {
+      "lecture_id": "physiology__regulation-of-abp-intermediate-and-long-term-regulation",
+      "subject": "Physiology",
+      "title": "Regulation of ABP (Intermediate and long-term Regulation)",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg_formcase01": {
+      "lecture_id": "physiology__physiological-organization-of-cvs",
+      "subject": "Physiology",
+      "title": "Physiological organization of CVS",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn_formcase01": {
+      "lecture_id": "physiology__physiology-of-hemostasis",
+      "subject": "Physiology",
+      "title": "Physiology of Hemostasis",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn_formcase01": {
+      "lecture_id": "physiology__anemia-and-polycythemia",
+      "subject": "Physiology",
+      "title": "Anemia and polycythemia",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov_09": {
+      "lecture_id": "biochemistry__cholesterol-metabolism",
+      "subject": "Biochemistry",
+      "title": "Cholesterol Metabolism",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov_10": {
+      "lecture_id": "biochemistry__cholesterol-metabolism",
+      "subject": "Biochemistry",
+      "title": "Cholesterol Metabolism",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov_11": {
+      "lecture_id": "biochemistry__cholesterol-metabolism",
+      "subject": "Biochemistry",
+      "title": "Cholesterol Metabolism",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov_12": {
+      "lecture_id": "biochemistry__cholesterol-metabolism",
+      "subject": "Biochemistry",
+      "title": "Cholesterol Metabolism",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov_13": {
+      "lecture_id": "biochemistry__cholesterol-metabolism",
+      "subject": "Biochemistry",
+      "title": "Cholesterol Metabolism",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov_14": {
+      "lecture_id": "biochemistry__cholesterol-metabolism",
+      "subject": "Biochemistry",
+      "title": "Cholesterol Metabolism",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov_15": {
+      "lecture_id": "biochemistry__cholesterol-metabolism",
+      "subject": "Biochemistry",
+      "title": "Cholesterol Metabolism",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov_16": {
+      "lecture_id": "biochemistry__cholesterol-metabolism",
+      "subject": "Biochemistry",
+      "title": "Cholesterol Metabolism",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov_17": {
+      "lecture_id": "biochemistry__cholesterol-metabolism",
+      "subject": "Biochemistry",
+      "title": "Cholesterol Metabolism",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov_18": {
+      "lecture_id": "biochemistry__cholesterol-metabolism",
+      "subject": "Biochemistry",
+      "title": "Cholesterol Metabolism",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs_09": {
+      "lecture_id": "biochemistry__heme-catabolism",
+      "subject": "Biochemistry",
+      "title": "Heme catabolism",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs_10": {
+      "lecture_id": "biochemistry__heme-catabolism",
+      "subject": "Biochemistry",
+      "title": "Heme catabolism",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs_11": {
+      "lecture_id": "biochemistry__heme-catabolism",
+      "subject": "Biochemistry",
+      "title": "Heme catabolism",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs_12": {
+      "lecture_id": "biochemistry__heme-catabolism",
+      "subject": "Biochemistry",
+      "title": "Heme catabolism",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs_13": {
+      "lecture_id": "biochemistry__heme-catabolism",
+      "subject": "Biochemistry",
+      "title": "Heme catabolism",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs_14": {
+      "lecture_id": "biochemistry__heme-catabolism",
+      "subject": "Biochemistry",
+      "title": "Heme catabolism",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs_15": {
+      "lecture_id": "biochemistry__heme-catabolism",
+      "subject": "Biochemistry",
+      "title": "Heme catabolism",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs_16": {
+      "lecture_id": "biochemistry__heme-catabolism",
+      "subject": "Biochemistry",
+      "title": "Heme catabolism",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs_17": {
+      "lecture_id": "biochemistry__heme-catabolism",
+      "subject": "Biochemistry",
+      "title": "Heme catabolism",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs_18": {
+      "lecture_id": "biochemistry__heme-catabolism",
+      "subject": "Biochemistry",
+      "title": "Heme catabolism",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs_19": {
+      "lecture_id": "biochemistry__heme-catabolism",
+      "subject": "Biochemistry",
+      "title": "Heme catabolism",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs_20": {
+      "lecture_id": "biochemistry__heme-catabolism",
+      "subject": "Biochemistry",
+      "title": "Heme catabolism",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj_formcase01": {
+      "lecture_id": "biochemistry__plasma-proteins",
+      "subject": "Biochemistry",
+      "title": "Plasma proteins",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0_formcase01": {
+      "lecture_id": "pathology__myocarditis-and-pericardial-diseases",
+      "subject": "Pathology",
+      "title": "Myocarditis and pericardial diseases",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_12RXyb80ciEfihQ-258N_uk1EwrjTTI83_formcase01": {
+      "lecture_id": "pathology__ischemic-heart-disease-1",
+      "subject": "Pathology",
+      "title": "Ischemic Heart Disease – 1",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31_formcase01": {
+      "lecture_id": "pathology__ischemic-heart-disease-2",
+      "subject": "Pathology",
+      "title": "Ischemic Heart Disease – 2",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh_09": {
+      "lecture_id": "pathology__lymphadenopathy",
+      "subject": "Pathology",
+      "title": "Lymphadenopathy",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh_10": {
+      "lecture_id": "pathology__lymphadenopathy",
+      "subject": "Pathology",
+      "title": "Lymphadenopathy",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh_11": {
+      "lecture_id": "pathology__lymphadenopathy",
+      "subject": "Pathology",
+      "title": "Lymphadenopathy",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh_12": {
+      "lecture_id": "pathology__lymphadenopathy",
+      "subject": "Pathology",
+      "title": "Lymphadenopathy",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh_13": {
+      "lecture_id": "pathology__lymphadenopathy",
+      "subject": "Pathology",
+      "title": "Lymphadenopathy",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh_14": {
+      "lecture_id": "pathology__lymphadenopathy",
+      "subject": "Pathology",
+      "title": "Lymphadenopathy",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh_15": {
+      "lecture_id": "pathology__lymphadenopathy",
+      "subject": "Pathology",
+      "title": "Lymphadenopathy",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh_16": {
+      "lecture_id": "pathology__lymphadenopathy",
+      "subject": "Pathology",
+      "title": "Lymphadenopathy",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh_17": {
+      "lecture_id": "pathology__lymphadenopathy",
+      "subject": "Pathology",
+      "title": "Lymphadenopathy",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh_18": {
+      "lecture_id": "pathology__lymphadenopathy",
+      "subject": "Pathology",
+      "title": "Lymphadenopathy",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh_19": {
+      "lecture_id": "pathology__lymphadenopathy",
+      "subject": "Pathology",
+      "title": "Lymphadenopathy",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh_20": {
+      "lecture_id": "pathology__lymphadenopathy",
+      "subject": "Pathology",
+      "title": "Lymphadenopathy",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9_09": {
+      "lecture_id": "microbiology__immune-dysregulation-in-sepsis",
+      "subject": "Microbiology",
+      "title": "Immune dysregulation in sepsis",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9_10": {
+      "lecture_id": "microbiology__immune-dysregulation-in-sepsis",
+      "subject": "Microbiology",
+      "title": "Immune dysregulation in sepsis",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9_11": {
+      "lecture_id": "microbiology__immune-dysregulation-in-sepsis",
+      "subject": "Microbiology",
+      "title": "Immune dysregulation in sepsis",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9_12": {
+      "lecture_id": "microbiology__immune-dysregulation-in-sepsis",
+      "subject": "Microbiology",
+      "title": "Immune dysregulation in sepsis",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9_13": {
+      "lecture_id": "microbiology__immune-dysregulation-in-sepsis",
+      "subject": "Microbiology",
+      "title": "Immune dysregulation in sepsis",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9_14": {
+      "lecture_id": "microbiology__immune-dysregulation-in-sepsis",
+      "subject": "Microbiology",
+      "title": "Immune dysregulation in sepsis",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9_15": {
+      "lecture_id": "microbiology__immune-dysregulation-in-sepsis",
+      "subject": "Microbiology",
+      "title": "Immune dysregulation in sepsis",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9_16": {
+      "lecture_id": "microbiology__immune-dysregulation-in-sepsis",
+      "subject": "Microbiology",
+      "title": "Immune dysregulation in sepsis",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9_17": {
+      "lecture_id": "microbiology__immune-dysregulation-in-sepsis",
+      "subject": "Microbiology",
+      "title": "Immune dysregulation in sepsis",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9_18": {
+      "lecture_id": "microbiology__immune-dysregulation-in-sepsis",
+      "subject": "Microbiology",
+      "title": "Immune dysregulation in sepsis",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV_formcase01": {
+      "lecture_id": "microbiology__autoimmune-diseases",
+      "subject": "Microbiology",
+      "title": "Autoimmune Diseases",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp_formcase01": {
+      "lecture_id": "microbiology__immunodeficiency-disorders",
+      "subject": "Microbiology",
+      "title": "Immunodeficiency Disorders",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ_formcase01": {
+      "lecture_id": "microbiology__lymphatic-filariasis",
+      "subject": "Microbiology",
+      "title": "Lymphatic filariasis",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp_formcase01": {
+      "lecture_id": "microbiology__hypersensitivity-reactions-2",
+      "subject": "Microbiology",
+      "title": "Hypersensitivity Reactions – 2",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d_formcase01": {
+      "lecture_id": "microbiology__hypersensitivity-reactions-1",
+      "subject": "Microbiology",
+      "title": "Hypersensitivity Reactions – 1",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_14vfFkvXZlceusubx4H2RN-ttsGLXdkbj_formcase01": {
+      "lecture_id": "microbiology__malaria-babesiosis",
+      "subject": "Microbiology",
+      "title": "Malaria & Babesiosis",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI_09": {
+      "lecture_id": "microbiology__malaria",
+      "subject": "Microbiology",
+      "title": "Malaria",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI_10": {
+      "lecture_id": "microbiology__malaria",
+      "subject": "Microbiology",
+      "title": "Malaria",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI_11": {
+      "lecture_id": "microbiology__malaria",
+      "subject": "Microbiology",
+      "title": "Malaria",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI_12": {
+      "lecture_id": "microbiology__malaria",
+      "subject": "Microbiology",
+      "title": "Malaria",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI_13": {
+      "lecture_id": "microbiology__malaria",
+      "subject": "Microbiology",
+      "title": "Malaria",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI_14": {
+      "lecture_id": "microbiology__malaria",
+      "subject": "Microbiology",
+      "title": "Malaria",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI_15": {
+      "lecture_id": "microbiology__malaria",
+      "subject": "Microbiology",
+      "title": "Malaria",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI_16": {
+      "lecture_id": "microbiology__malaria",
+      "subject": "Microbiology",
+      "title": "Malaria",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI_17": {
+      "lecture_id": "microbiology__malaria",
+      "subject": "Microbiology",
+      "title": "Malaria",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI_18": {
+      "lecture_id": "microbiology__malaria",
+      "subject": "Microbiology",
+      "title": "Malaria",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI_19": {
+      "lecture_id": "microbiology__malaria",
+      "subject": "Microbiology",
+      "title": "Malaria",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI_20": {
+      "lecture_id": "microbiology__malaria",
+      "subject": "Microbiology",
+      "title": "Malaria",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc_formcase01": {
+      "lecture_id": "pharmacology__anti-lipidemic-drugs",
+      "subject": "Pharmacology",
+      "title": "Anti-lipidemic drugs",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92_formcase01": {
+      "lecture_id": "pharmacology__immunosuppressant-immunomodulators",
+      "subject": "Pharmacology",
+      "title": "Immunosuppressant & immunomodulators",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG_formcase01": {
+      "lecture_id": "pharmacology__pharmacotherapy-of-hypersensitivity",
+      "subject": "Pharmacology",
+      "title": "Pharmacotherapy of Hypersensitivity",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP_formcase01": {
+      "lecture_id": "pharmacology__drugs-affecting-hemostasis",
+      "subject": "Pharmacology",
+      "title": "Drugs affecting hemostasis",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D_formcase01": {
+      "lecture_id": "pharmacology__drugs-used-in-treatment-of-pulmonary-embolism",
+      "subject": "Pharmacology",
+      "title": "Drugs used in treatment of pulmonary Embolism",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO_formcase01": {
+      "lecture_id": "pharmacology__antiplatelet-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiplatelet drugs",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_1tktL6El76XzdSl3H9meqCkgYArLLaty7_formcase01": {
+      "lecture_id": "anatomy-histology__histology-of-the-lymphatic-system",
+      "subject": "Anatomy & Histology",
+      "title": "Histology of the Lymphatic system",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC_formcase01": {
+      "lecture_id": "anatomy-histology__histology-of-the-mucosal-immune-system",
+      "subject": "Anatomy & Histology",
+      "title": "Histology of the mucosal immune system",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM_formcase01": {
+      "lecture_id": "anatomy-histology__histology-of-the-myocardium",
+      "subject": "Anatomy & Histology",
+      "title": "Histology of the Myocardium",
+      "confidence": 1,
+      "method": "source-set-repair"
+    },
+    "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_case01": {
+      "lecture_id": "physiology__white-bood-cells-wbcs",
+      "subject": "Physiology",
+      "title": "White bood cells (WBCs)",
+      "confidence": 1,
+      "method": "current-drive-case-audit"
+    },
+    "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_case02": {
+      "lecture_id": "physiology__white-bood-cells-wbcs",
+      "subject": "Physiology",
+      "title": "White bood cells (WBCs)",
+      "confidence": 1,
+      "method": "current-drive-case-audit"
+    },
+    "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_case03": {
+      "lecture_id": "physiology__white-bood-cells-wbcs",
+      "subject": "Physiology",
+      "title": "White bood cells (WBCs)",
+      "confidence": 1,
+      "method": "current-drive-case-audit"
+    },
+    "ai_1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY_09": {
+      "lecture_id": "pharmacology__treatment-of-anemia",
+      "subject": "Pharmacology",
+      "title": "Treatment of anemia",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY_10": {
+      "lecture_id": "pharmacology__treatment-of-anemia",
+      "subject": "Pharmacology",
+      "title": "Treatment of anemia",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY_11": {
+      "lecture_id": "pharmacology__treatment-of-anemia",
+      "subject": "Pharmacology",
+      "title": "Treatment of anemia",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY_case01": {
+      "lecture_id": "pharmacology__treatment-of-anemia",
+      "subject": "Pharmacology",
+      "title": "Treatment of anemia",
+      "confidence": 1,
+      "method": "current-drive-case-audit"
+    },
+    "ai_1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY_case02": {
+      "lecture_id": "pharmacology__treatment-of-anemia",
+      "subject": "Pharmacology",
+      "title": "Treatment of anemia",
+      "confidence": 1,
+      "method": "current-drive-case-audit"
+    },
+    "ai_1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY_case03": {
+      "lecture_id": "pharmacology__treatment-of-anemia",
+      "subject": "Pharmacology",
+      "title": "Treatment of anemia",
+      "confidence": 1,
+      "method": "current-drive-case-audit"
+    },
+    "ai_1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ_09": {
+      "lecture_id": "anatomy-histology__radiological-anatomy-of-the-heart-and-its-great-vessels",
+      "subject": "Anatomy & Histology",
+      "title": "Radiological Anatomy of the heart and its great vessels",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ_case01": {
+      "lecture_id": "anatomy-histology__radiological-anatomy-of-the-heart-and-its-great-vessels",
+      "subject": "Anatomy & Histology",
+      "title": "Radiological Anatomy of the heart and its great vessels",
+      "confidence": 1,
+      "method": "current-drive-case-audit"
+    },
+    "ai_1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ_case02": {
+      "lecture_id": "anatomy-histology__radiological-anatomy-of-the-heart-and-its-great-vessels",
+      "subject": "Anatomy & Histology",
+      "title": "Radiological Anatomy of the heart and its great vessels",
+      "confidence": 1,
+      "method": "current-drive-case-audit"
+    },
+    "ai_1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ_case03": {
+      "lecture_id": "anatomy-histology__radiological-anatomy-of-the-heart-and-its-great-vessels",
+      "subject": "Anatomy & Histology",
+      "title": "Radiological Anatomy of the heart and its great vessels",
+      "confidence": 1,
+      "method": "current-drive-case-audit"
+    },
+    "ai_16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x_09": {
+      "lecture_id": "physiology__cardiac-contractility",
+      "subject": "Physiology",
+      "title": "Cardiac contractility",
+      "confidence": 1,
+      "method": "current-drive-source-audit"
+    },
+    "ai_16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x_10": {
+      "lecture_id": "physiology__cardiac-contractility",
+      "subject": "Physiology",
+      "title": "Cardiac contractility",
+      "confidence": 1,
+      "method": "current-drive-source-audit"
+    },
+    "ai_16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x_11": {
+      "lecture_id": "physiology__cardiac-contractility",
+      "subject": "Physiology",
+      "title": "Cardiac contractility",
+      "confidence": 1,
+      "method": "current-drive-source-audit"
+    },
+    "ai_16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x_12": {
+      "lecture_id": "physiology__cardiac-contractility",
+      "subject": "Physiology",
+      "title": "Cardiac contractility",
+      "confidence": 1,
+      "method": "current-drive-source-audit"
+    },
+    "ai_16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x_13": {
+      "lecture_id": "physiology__cardiac-contractility",
+      "subject": "Physiology",
+      "title": "Cardiac contractility",
+      "confidence": 1,
+      "method": "current-drive-source-audit"
+    },
+    "ai_16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x_14": {
+      "lecture_id": "physiology__cardiac-contractility",
+      "subject": "Physiology",
+      "title": "Cardiac contractility",
+      "confidence": 1,
+      "method": "current-drive-source-audit"
+    },
+    "ai_16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x_15": {
+      "lecture_id": "physiology__cardiac-contractility",
+      "subject": "Physiology",
+      "title": "Cardiac contractility",
+      "confidence": 1,
+      "method": "current-drive-source-audit"
+    },
+    "ai_16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x_case01": {
+      "lecture_id": "physiology__cardiac-contractility",
+      "subject": "Physiology",
+      "title": "Cardiac contractility",
+      "confidence": 1,
+      "method": "current-drive-case-audit"
+    },
+    "ai_1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS_09": {
+      "lecture_id": "physiology__physiology-of-hemostasis",
+      "subject": "Physiology",
+      "title": "Physiology of Hemostasis",
+      "confidence": 1,
+      "method": "current-drive-source-audit"
+    },
+    "ai_1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS_10": {
+      "lecture_id": "physiology__physiology-of-hemostasis",
+      "subject": "Physiology",
+      "title": "Physiology of Hemostasis",
+      "confidence": 1,
+      "method": "current-drive-source-audit"
+    },
+    "ai_1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS_11": {
+      "lecture_id": "physiology__physiology-of-hemostasis",
+      "subject": "Physiology",
+      "title": "Physiology of Hemostasis",
+      "confidence": 1,
+      "method": "current-drive-source-audit"
+    },
+    "ai_1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS_12": {
+      "lecture_id": "physiology__physiology-of-hemostasis",
+      "subject": "Physiology",
+      "title": "Physiology of Hemostasis",
+      "confidence": 1,
+      "method": "current-drive-source-audit"
+    },
+    "ai_1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS_13": {
+      "lecture_id": "physiology__physiology-of-hemostasis",
+      "subject": "Physiology",
+      "title": "Physiology of Hemostasis",
+      "confidence": 1,
+      "method": "current-drive-source-audit"
+    },
+    "ai_1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS_14": {
+      "lecture_id": "physiology__physiology-of-hemostasis",
+      "subject": "Physiology",
+      "title": "Physiology of Hemostasis",
+      "confidence": 1,
+      "method": "current-drive-source-audit"
+    },
+    "ai_1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS_15": {
+      "lecture_id": "physiology__physiology-of-hemostasis",
+      "subject": "Physiology",
+      "title": "Physiology of Hemostasis",
+      "confidence": 1,
+      "method": "current-drive-source-audit"
+    },
+    "ai_1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS_case01": {
+      "lecture_id": "physiology__physiology-of-hemostasis",
+      "subject": "Physiology",
+      "title": "Physiology of Hemostasis",
+      "confidence": 1,
+      "method": "current-drive-case-audit"
+    },
+    "ai_endocarditis_2026_01": {
+      "lecture_id": "pathology__infective-endocarditis",
+      "subject": "Pathology",
+      "title": "Infective Endocarditis",
+      "confidence": 1,
+      "method": "uploaded-lecture-logical-audit"
+    },
+    "ai_endocarditis_2026_02": {
+      "lecture_id": "pathology__infective-endocarditis",
+      "subject": "Pathology",
+      "title": "Infective Endocarditis",
+      "confidence": 1,
+      "method": "uploaded-lecture-logical-audit"
+    },
+    "ai_endocarditis_2026_03": {
+      "lecture_id": "pathology__infective-endocarditis",
+      "subject": "Pathology",
+      "title": "Infective Endocarditis",
+      "confidence": 1,
+      "method": "uploaded-lecture-logical-audit"
+    },
+    "ai_endocarditis_2026_04": {
+      "lecture_id": "pathology__infective-endocarditis",
+      "subject": "Pathology",
+      "title": "Infective Endocarditis",
+      "confidence": 1,
+      "method": "uploaded-lecture-logical-audit"
+    },
+    "ai_endocarditis_2026_05": {
+      "lecture_id": "pathology__infective-endocarditis",
+      "subject": "Pathology",
+      "title": "Infective Endocarditis",
+      "confidence": 1,
+      "method": "uploaded-lecture-logical-audit"
+    },
+    "ai_endocarditis_2026_06": {
+      "lecture_id": "pathology__infective-endocarditis",
+      "subject": "Pathology",
+      "title": "Infective Endocarditis",
+      "confidence": 1,
+      "method": "uploaded-lecture-logical-audit"
+    },
+    "ai_endocarditis_2026_07": {
+      "lecture_id": "pathology__infective-endocarditis",
+      "subject": "Pathology",
+      "title": "Infective Endocarditis",
+      "confidence": 1,
+      "method": "uploaded-lecture-logical-audit"
+    },
+    "ai_endocarditis_2026_08": {
+      "lecture_id": "pathology__infective-endocarditis",
+      "subject": "Pathology",
+      "title": "Infective Endocarditis",
+      "confidence": 1,
+      "method": "uploaded-lecture-logical-audit"
+    },
+    "ai_endocarditis_2026_09": {
+      "lecture_id": "pathology__infective-endocarditis",
+      "subject": "Pathology",
+      "title": "Infective Endocarditis",
+      "confidence": 1,
+      "method": "uploaded-lecture-logical-audit"
+    },
+    "ai_endocarditis_2026_10": {
+      "lecture_id": "pathology__infective-endocarditis",
+      "subject": "Pathology",
+      "title": "Infective Endocarditis",
+      "confidence": 1,
+      "method": "uploaded-lecture-logical-audit"
+    },
+    "ai_endocarditis_2026_11": {
+      "lecture_id": "pathology__infective-endocarditis",
+      "subject": "Pathology",
+      "title": "Infective Endocarditis",
+      "confidence": 1,
+      "method": "uploaded-lecture-logical-audit"
+    },
+    "ai_endocarditis_2026_12": {
+      "lecture_id": "pathology__infective-endocarditis",
+      "subject": "Pathology",
+      "title": "Infective Endocarditis",
+      "confidence": 1,
+      "method": "uploaded-lecture-logical-audit"
+    },
+    "ai_endocarditis_2026_13": {
+      "lecture_id": "pathology__infective-endocarditis",
+      "subject": "Pathology",
+      "title": "Infective Endocarditis",
+      "confidence": 1,
+      "method": "uploaded-lecture-logical-audit"
+    },
+    "ai_endocarditis_2026_14": {
+      "lecture_id": "pathology__infective-endocarditis",
+      "subject": "Pathology",
+      "title": "Infective Endocarditis",
+      "confidence": 1,
+      "method": "uploaded-lecture-logical-audit"
+    },
+    "ai_endocarditis_2026_15": {
+      "lecture_id": "pathology__infective-endocarditis",
+      "subject": "Pathology",
+      "title": "Infective Endocarditis",
+      "confidence": 1,
+      "method": "uploaded-lecture-logical-audit"
+    },
+    "ai_endocarditis_2026_16": {
+      "lecture_id": "pathology__infective-endocarditis",
+      "subject": "Pathology",
+      "title": "Infective Endocarditis",
+      "confidence": 1,
+      "method": "uploaded-lecture-logical-audit"
+    },
+    "ai_endocarditis_2026_17": {
+      "lecture_id": "pathology__infective-endocarditis",
+      "subject": "Pathology",
+      "title": "Infective Endocarditis",
+      "confidence": 1,
+      "method": "uploaded-lecture-logical-audit"
+    },
+    "ai_endocarditis_2026_18": {
+      "lecture_id": "pathology__infective-endocarditis",
+      "subject": "Pathology",
+      "title": "Infective Endocarditis",
+      "confidence": 1,
+      "method": "uploaded-lecture-logical-audit"
+    },
+    "ai_antiarr_01": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_antiarr_02": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_antiarr_03": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_antiarr_04": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_antiarr_05": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_antiarr_06": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_antiarr_07": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_antiarr_08": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_antiarr_case01": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_antiarr_case02": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_antiarr_case03": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_antiarr_case04": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_antiarr_case05": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_antiarr_case06": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_antiarr_case07": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_antiarr_case08": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_ecg_01": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_ecg_02": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_ecg_03": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_ecg_04": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_ecg_05": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_ecg_06": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_ecg_07": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_ecg_08": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_ecg_09": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_ecg_10": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_ecg_case01": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_ecg_case02": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_ecg_case03": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_ecg_case04": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_ecg_case05": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_markers_01": {
+      "lecture_id": "biochemistry__diagnostic-cardiac-markers",
+      "subject": "Biochemistry",
+      "title": "Diagnostic cardiac markers",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_markers_02": {
+      "lecture_id": "biochemistry__diagnostic-cardiac-markers",
+      "subject": "Biochemistry",
+      "title": "Diagnostic cardiac markers",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_markers_03": {
+      "lecture_id": "biochemistry__diagnostic-cardiac-markers",
+      "subject": "Biochemistry",
+      "title": "Diagnostic cardiac markers",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_markers_04": {
+      "lecture_id": "biochemistry__diagnostic-cardiac-markers",
+      "subject": "Biochemistry",
+      "title": "Diagnostic cardiac markers",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_markers_05": {
+      "lecture_id": "biochemistry__diagnostic-cardiac-markers",
+      "subject": "Biochemistry",
+      "title": "Diagnostic cardiac markers",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_markers_06": {
+      "lecture_id": "biochemistry__diagnostic-cardiac-markers",
+      "subject": "Biochemistry",
+      "title": "Diagnostic cardiac markers",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_markers_07": {
+      "lecture_id": "biochemistry__diagnostic-cardiac-markers",
+      "subject": "Biochemistry",
+      "title": "Diagnostic cardiac markers",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_markers_08": {
+      "lecture_id": "biochemistry__diagnostic-cardiac-markers",
+      "subject": "Biochemistry",
+      "title": "Diagnostic cardiac markers",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_markers_case01": {
+      "lecture_id": "biochemistry__diagnostic-cardiac-markers",
+      "subject": "Biochemistry",
+      "title": "Diagnostic cardiac markers",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_markers_case02": {
+      "lecture_id": "biochemistry__diagnostic-cardiac-markers",
+      "subject": "Biochemistry",
+      "title": "Diagnostic cardiac markers",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_markers_case03": {
+      "lecture_id": "biochemistry__diagnostic-cardiac-markers",
+      "subject": "Biochemistry",
+      "title": "Diagnostic cardiac markers",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_markers_case04": {
+      "lecture_id": "biochemistry__diagnostic-cardiac-markers",
+      "subject": "Biochemistry",
+      "title": "Diagnostic cardiac markers",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_markers_case05": {
+      "lecture_id": "biochemistry__diagnostic-cardiac-markers",
+      "subject": "Biochemistry",
+      "title": "Diagnostic cardiac markers",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9_01": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9_02": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9_03": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9_04": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9_05": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9_06": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9_07": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9_08": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9_09": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9_10": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9_11": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9_12": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9_13": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9_14": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9_case01": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9_case02": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9_case03": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9_case04": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9_case05": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl_01": {
+      "lecture_id": "biochemistry__diagnostic-cardiac-markers",
+      "subject": "Biochemistry",
+      "title": "Diagnostic cardiac markers",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl_02": {
+      "lecture_id": "biochemistry__diagnostic-cardiac-markers",
+      "subject": "Biochemistry",
+      "title": "Diagnostic cardiac markers",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl_03": {
+      "lecture_id": "biochemistry__diagnostic-cardiac-markers",
+      "subject": "Biochemistry",
+      "title": "Diagnostic cardiac markers",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl_04": {
+      "lecture_id": "biochemistry__diagnostic-cardiac-markers",
+      "subject": "Biochemistry",
+      "title": "Diagnostic cardiac markers",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl_05": {
+      "lecture_id": "biochemistry__diagnostic-cardiac-markers",
+      "subject": "Biochemistry",
+      "title": "Diagnostic cardiac markers",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl_06": {
+      "lecture_id": "biochemistry__diagnostic-cardiac-markers",
+      "subject": "Biochemistry",
+      "title": "Diagnostic cardiac markers",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl_07": {
+      "lecture_id": "biochemistry__diagnostic-cardiac-markers",
+      "subject": "Biochemistry",
+      "title": "Diagnostic cardiac markers",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl_08": {
+      "lecture_id": "biochemistry__diagnostic-cardiac-markers",
+      "subject": "Biochemistry",
+      "title": "Diagnostic cardiac markers",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl_09": {
+      "lecture_id": "biochemistry__diagnostic-cardiac-markers",
+      "subject": "Biochemistry",
+      "title": "Diagnostic cardiac markers",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl_10": {
+      "lecture_id": "biochemistry__diagnostic-cardiac-markers",
+      "subject": "Biochemistry",
+      "title": "Diagnostic cardiac markers",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl_case01": {
+      "lecture_id": "biochemistry__diagnostic-cardiac-markers",
+      "subject": "Biochemistry",
+      "title": "Diagnostic cardiac markers",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl_case02": {
+      "lecture_id": "biochemistry__diagnostic-cardiac-markers",
+      "subject": "Biochemistry",
+      "title": "Diagnostic cardiac markers",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl_case03": {
+      "lecture_id": "biochemistry__diagnostic-cardiac-markers",
+      "subject": "Biochemistry",
+      "title": "Diagnostic cardiac markers",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl_case04": {
+      "lecture_id": "biochemistry__diagnostic-cardiac-markers",
+      "subject": "Biochemistry",
+      "title": "Diagnostic cardiac markers",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl_case05": {
+      "lecture_id": "biochemistry__diagnostic-cardiac-markers",
+      "subject": "Biochemistry",
+      "title": "Diagnostic cardiac markers",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_01": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_02": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_03": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_04": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_05": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_06": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_07": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_08": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_09": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_10": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_case01": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_case02": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_case03": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_case04": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_case05": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_case06": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_case07": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_case08": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_case09": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_case10": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
     }
   },
   "audit_note": "IBLS/CVS/Formative are provenance only. Past and AI questions are organized by official Study Guide subject and lecture. New combined antihypertensive content is split across official lecture 1/2 by objectives. Visible formative-style AI cases inherit the already-audited parent lecture mapping."

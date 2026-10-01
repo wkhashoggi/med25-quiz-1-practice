@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-30T15:37:16.030Z",
+  "generated_at": "2026-10-01T06:35:00.000Z",
   "study_guide_file_id": "1QwRNlO6-zuOQugxyjrhXykOW-YjVtal4",
   "past": {
     "ibls-previous-years-p4-q3-1": {
@@ -10145,6 +10145,34 @@
       "title": "Atherosclerosis & Aneurysm",
       "confidence": 1,
       "method": "official-parent-lecture"
+    },
+    "ai_1jODBvDorJgQ42QRYX75ODeTVk6Lr3lLe_formcase01": {
+      "lecture_id": "hematology__hemolytic-anemia",
+      "subject": "Hematology",
+      "title": "Hemolytic anemia",
+      "confidence": 1,
+      "method": "source-title"
+    },
+    "ai_1N29pF27p1UfkP79gdlrUFW-5WiTtgnEC_formcase01": {
+      "lecture_id": "anatomy-histology__anatomy-of-mediastinum-pericardium",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of Mediastinum & Pericardium",
+      "confidence": 1,
+      "method": "source-title"
+    },
+    "ai_1wsoTpxTw6_QhMHqxYdLuxwHOvwXokQV5_formcase01": {
+      "lecture_id": "anatomy-histology__external-features-of-the-heart-and-its-great-vessels",
+      "subject": "Anatomy & Histology",
+      "title": "External Features of the Heart and its Great Vessels",
+      "confidence": 1,
+      "method": "source-title"
+    },
+    "ai_1NCRD8jp124VR1jxrnCxtoTaJRJMtkx4w_formcase01": {
+      "lecture_id": "anatomy-histology__internal-features-of-the-heart",
+      "subject": "Anatomy & Histology",
+      "title": "Internal Features of the Heart",
+      "confidence": 1,
+      "method": "source-title"
     }
   },
   "audit_note": "IBLS/CVS/Formative are provenance only. Past and AI questions are organized by official Study Guide subject and lecture. New combined antihypertensive content is split across official lecture 1/2 by objectives. Visible formative-style AI cases inherit the already-audited parent lecture mapping."

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-01T08:20:00.000Z",
+  "generated_at": "2026-10-01T08:30:00.000Z",
   "source_root": {
     "id": "1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
     "url": "https://drive.google.com/drive/folders/1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
@@ -14841,6 +14841,1069 @@
           "exam_ready": true,
           "case_style": "formative_short_case",
           "formative_reference": "Endocarditis 2026-2027 lecture clinical application"
+        }
+      ]
+    },
+    {
+      "id": "ai_set_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9",
+      "source_file_id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view",
+      "source_validation": "lecture_verified_logical_audit",
+      "archived": false,
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
+      "quality_status": "pass",
+      "quality_reviewed_at": "2026-10-01T08:30:00.000Z",
+      "quality_policy_version": 3,
+      "exam_ready": true,
+      "questions": [
+        {
+          "id": "ai_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9_01",
+          "stem": "Which myocardial function cannot be evaluated directly by an ECG?",
+          "options": {
+            "A": "Automaticity",
+            "B": "Conductivity",
+            "C": "Excitability",
+            "D": "Contractility"
+          },
+          "answer": "D",
+          "explanation": "The lecture states that ECG evaluates automaticity, conductivity and excitability, but not contractility or ejection fraction.",
+          "concept": "ECG functions",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9_02",
+          "stem": "An ECG represents which of the following?",
+          "options": {
+            "A": "A single ventricular action potential",
+            "B": "The summed electrical activity of many myocardial cells detected at the body surface",
+            "C": "Only SA nodal electrical activity",
+            "D": "Direct measurement of ventricular force"
+          },
+          "answer": "B",
+          "explanation": "An ECG is not a single action potential; it is the summed electrical activity of many myocardial cells as it spreads through the heart.",
+          "concept": "ECG principle",
+          "difficulty": "understanding",
+          "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9_03",
+          "stem": "Which leads are the standard bipolar limb leads?",
+          "options": {
+            "A": "I, II and III",
+            "B": "aVR, aVL and aVF",
+            "C": "V1, V2 and V3",
+            "D": "V4, V5 and V6"
+          },
+          "answer": "A",
+          "explanation": "Leads I, II and III are the standard bipolar limb leads.",
+          "concept": "ECG leads",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9_04",
+          "stem": "A depolarization wave moving toward the positive exploring electrode produces which ECG deflection?",
+          "options": {
+            "A": "Upward",
+            "B": "Downward",
+            "C": "No deflection",
+            "D": "Only a U wave"
+          },
+          "answer": "A",
+          "explanation": "Depolarization moving toward the positive electrode gives an upward/positive deflection.",
+          "concept": "ECG vectors",
+          "difficulty": "understanding",
+          "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9_05",
+          "stem": "A repolarization wave moving toward the positive exploring electrode produces which ECG deflection?",
+          "options": {
+            "A": "Upward",
+            "B": "Downward",
+            "C": "Always biphasic",
+            "D": "No deflection"
+          },
+          "answer": "B",
+          "explanation": "Repolarization moving toward the positive electrode produces a negative/downward deflection.",
+          "concept": "ECG vectors",
+          "difficulty": "understanding",
+          "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9_06",
+          "stem": "What does the P wave represent?",
+          "options": {
+            "A": "Atrial depolarization",
+            "B": "Atrial repolarization",
+            "C": "Ventricular depolarization",
+            "D": "Ventricular repolarization"
+          },
+          "answer": "A",
+          "explanation": "The P wave represents atrial depolarization.",
+          "concept": "P wave",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9_07",
+          "stem": "What does the QRS complex represent?",
+          "options": {
+            "A": "Atrial depolarization",
+            "B": "AV nodal conduction",
+            "C": "Ventricular depolarization",
+            "D": "Ventricular repolarization"
+          },
+          "answer": "C",
+          "explanation": "The QRS complex represents ventricular depolarization.",
+          "concept": "QRS",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9_08",
+          "stem": "What does the T wave represent?",
+          "options": {
+            "A": "Atrial repolarization",
+            "B": "Ventricular repolarization",
+            "C": "AV nodal conduction",
+            "D": "SA nodal discharge"
+          },
+          "answer": "B",
+          "explanation": "The T wave represents ventricular repolarization.",
+          "concept": "T wave",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9_09",
+          "stem": "Why is atrial repolarization normally not visible on the ECG?",
+          "options": {
+            "A": "Atrial cells do not repolarize",
+            "B": "It occurs during ventricular depolarization and is masked by the larger QRS complex",
+            "C": "It occurs only during sleep",
+            "D": "It is recorded as the U wave"
+          },
+          "answer": "B",
+          "explanation": "Atrial repolarization occurs at the same time as ventricular depolarization and is masked by the much larger QRS complex.",
+          "concept": "Atrial repolarization",
+          "difficulty": "understanding",
+          "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9_10",
+          "stem": "The PR interval normally lasts approximately:",
+          "options": {
+            "A": "0.02–0.04 s",
+            "B": "0.12–0.20 s",
+            "C": "0.30–0.40 s",
+            "D": "More than 0.50 s"
+          },
+          "answer": "B",
+          "explanation": "The lecture gives a normal PR interval of 0.12–0.20 seconds.",
+          "concept": "PR interval",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9_11",
+          "stem": "A normal QRS complex should generally be:",
+          "options": {
+            "A": "Less than 0.12 s",
+            "B": "More than 0.20 s",
+            "C": "Exactly 0.44 s",
+            "D": "Longer than the T wave"
+          },
+          "answer": "A",
+          "explanation": "The lecture states that normal QRS duration is less than 0.12 seconds.",
+          "concept": "QRS duration",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9_12",
+          "stem": "Which ECG interval includes both ventricular depolarization and ventricular repolarization?",
+          "options": {
+            "A": "PR interval",
+            "B": "QT interval",
+            "C": "RR interval",
+            "D": "TP segment"
+          },
+          "answer": "B",
+          "explanation": "The QT interval represents ventricular depolarization plus repolarization.",
+          "concept": "QT interval",
+          "difficulty": "understanding",
+          "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9_13",
+          "stem": "Which statement best explains why the T wave is usually in the same general direction as the QRS complex?",
+          "options": {
+            "A": "Depolarization and repolarization travel in exactly the same direction with the same polarity",
+            "B": "Repolarization travels in the opposite direction and has opposite polarity, producing the same net ECG direction",
+            "C": "The T wave is generated by atrial repolarization",
+            "D": "The T wave is always inverted"
+          },
+          "answer": "B",
+          "explanation": "The lecture explains that ventricular repolarization is opposite in direction to depolarization and also opposite in polarity; opposite plus opposite gives the same net direction.",
+          "concept": "T-wave direction",
+          "difficulty": "understanding",
+          "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9_14",
+          "stem": "For a regular rhythm, heart rate can be estimated by dividing 300 by:",
+          "options": {
+            "A": "The number of small squares in the P wave",
+            "B": "The number of large squares between consecutive R waves",
+            "C": "The number of P waves in 1 second",
+            "D": "The number of QRS complexes in 1 minute of paper"
+          },
+          "answer": "B",
+          "explanation": "For a regular rhythm, the lecture uses the rule of 300: 300 divided by the number of large squares between R waves.",
+          "concept": "Heart rate calculation",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9_case01",
+          "stem": "A regular ECG has 4 large squares between consecutive R waves. What is the approximate heart rate?",
+          "options": {
+            "A": "50/min",
+            "B": "60/min",
+            "C": "75/min",
+            "D": "100/min"
+          },
+          "answer": "C",
+          "explanation": "Using the rule of 300: 300 ÷ 4 = 75 beats/min.",
+          "concept": "ECG case — rate",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Lecture-grounded clinical/application case"
+        },
+        {
+          "id": "ai_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9_case02",
+          "stem": "An ECG shows a PR interval of 0.24 seconds. Which interpretation is most appropriate?",
+          "options": {
+            "A": "Normal PR interval",
+            "B": "Delayed AV conduction / first-degree AV block pattern",
+            "C": "Short QT syndrome",
+            "D": "Normal ventricular depolarization"
+          },
+          "answer": "B",
+          "explanation": "The lecture states that a prolonged PR interval indicates conduction delay or block; the companion ECG lecture links a long PR interval to first-degree heart block.",
+          "concept": "ECG case — PR prolongation",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Lecture-grounded clinical/application case"
+        },
+        {
+          "id": "ai_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9_case03",
+          "stem": "An ECG shows a QRS duration of 0.16 seconds. What does this most strongly suggest?",
+          "options": {
+            "A": "Normal ventricular conduction",
+            "B": "Delayed ventricular conduction such as bundle branch block",
+            "C": "Atrial enlargement only",
+            "D": "Normal AV nodal delay"
+          },
+          "answer": "B",
+          "explanation": "A QRS wider than 0.12 seconds suggests delayed ventricular conduction, such as bundle branch block.",
+          "concept": "ECG case — wide QRS",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Lecture-grounded clinical/application case"
+        },
+        {
+          "id": "ai_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9_case04",
+          "stem": "A patient has an irregular rhythm. Which heart-rate method from the lecture is appropriate?",
+          "options": {
+            "A": "Rule of 300 only",
+            "B": "Count R waves in a 6-second strip and multiply by 10",
+            "C": "Count P waves in one small square",
+            "D": "Use the QT interval"
+          },
+          "answer": "B",
+          "explanation": "For irregular rhythms, the lecture recommends the six-second method: count R waves in 30 large squares and multiply by 10.",
+          "concept": "ECG case — irregular rate",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Lecture-grounded clinical/application case"
+        },
+        {
+          "id": "ai_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9_case05",
+          "stem": "An ECG has ST-segment elevation. Which type of process does the lecture associate with this finding?",
+          "options": {
+            "A": "Myocardial injury/infarction",
+            "B": "Normal atrial depolarization",
+            "C": "Normal AV nodal conduction",
+            "D": "Isolated skeletal muscle injury"
+          },
+          "answer": "A",
+          "explanation": "The lecture states that ST elevation or depression can indicate myocardial ischemia/injury, and its companion lecture associates ST elevation with myocardial infarction.",
+          "concept": "ECG case — ST segment",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Lecture-grounded clinical/application case"
+        }
+      ]
+    },
+    {
+      "id": "ai_set_1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl",
+      "source_file_id": "1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl",
+      "subject": "Biochemistry",
+      "title": "Diagnostic Cardiac Markers",
+      "source_url": "https://drive.google.com/file/d/1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl/view",
+      "source_validation": "lecture_verified_logical_audit",
+      "archived": false,
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
+      "quality_status": "pass",
+      "quality_reviewed_at": "2026-10-01T08:30:00.000Z",
+      "quality_policy_version": 3,
+      "exam_ready": true,
+      "questions": [
+        {
+          "id": "ai_1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl_01",
+          "stem": "Which cardiac markers are preferred for diagnosis of myocardial damage and acute coronary syndrome, especially when ECG changes are unclear?",
+          "options": {
+            "A": "Cardiac troponin I and T",
+            "B": "Total CK only",
+            "C": "LDH only",
+            "D": "Myoglobin only"
+          },
+          "answer": "A",
+          "explanation": "The lecture identifies cTnI and cTnT as the preferred biomarkers for myocardial damage and ACS.",
+          "concept": "Troponins",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl/view",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl_02",
+          "stem": "Which statement about cardiac troponin I is emphasized in the lecture?",
+          "options": {
+            "A": "It is normally abundant in serum",
+            "B": "It is also strongly expressed in skeletal muscle",
+            "C": "It has not been reported to be expressed in skeletal muscle and is highly specific for cardiac damage",
+            "D": "It returns to normal within 2 hours"
+          },
+          "answer": "C",
+          "explanation": "The lecture notes that cTnI has not been reported in skeletal muscle, making it highly specific for cardiac injury.",
+          "concept": "Troponin I specificity",
+          "difficulty": "understanding",
+          "source_url": "https://drive.google.com/file/d/1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl/view",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl_03",
+          "stem": "After myocardial infarction, cardiac troponins typically begin to rise after approximately:",
+          "options": {
+            "A": "2–5 minutes",
+            "B": "3–12 hours",
+            "C": "2–3 days",
+            "D": "10–14 days"
+          },
+          "answer": "B",
+          "explanation": "The lecture gives a troponin rise at 3–12 hours after injury, averaging around 4–6 hours.",
+          "concept": "Troponin kinetics",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl/view",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl_04",
+          "stem": "Which marker is particularly useful for detecting reinfarction because it returns to normal in about 2–3 days?",
+          "options": {
+            "A": "CK-MB",
+            "B": "Troponin T",
+            "C": "BNP",
+            "D": "LDH-1"
+          },
+          "answer": "A",
+          "explanation": "CK-MB returns to normal in 2–3 days, so a new rise can help detect reinfarction.",
+          "concept": "CK-MB kinetics",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl/view",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl_05",
+          "stem": "Which marker rises fastest after myocardial infarction but is limited by poor cardiac specificity?",
+          "options": {
+            "A": "Myoglobin",
+            "B": "Troponin T",
+            "C": "CK-MB",
+            "D": "BNP"
+          },
+          "answer": "A",
+          "explanation": "Myoglobin can rise at about 2 hours but is also present in skeletal muscle, limiting specificity.",
+          "concept": "Myoglobin",
+          "difficulty": "understanding",
+          "source_url": "https://drive.google.com/file/d/1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl/view",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl_06",
+          "stem": "A serum LDH-1 level higher than LDH-2 is called which pattern?",
+          "options": {
+            "A": "Flipped pattern",
+            "B": "Delta pattern",
+            "C": "Hook effect",
+            "D": "Prozone pattern"
+          },
+          "answer": "A",
+          "explanation": "A predominance of LDH-1 over LDH-2 is the classic 'flipped' pattern associated with myocardial injury, although LDH is no longer routinely used.",
+          "concept": "LDH",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl/view",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl_07",
+          "stem": "Which biomarker is released by ventricular cardiomyocytes in response to stretch and is used as a marker of congestive heart failure?",
+          "options": {
+            "A": "BNP / NT-proBNP",
+            "B": "CK-BB",
+            "C": "Myoglobin",
+            "D": "AST"
+          },
+          "answer": "A",
+          "explanation": "BNP and NT-proBNP are released in response to ventricular stretch and are used as markers of heart failure.",
+          "concept": "BNP",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl/view",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl_08",
+          "stem": "Which statement about troponin elevation is correct?",
+          "options": {
+            "A": "It occurs only in myocardial infarction",
+            "B": "It indicates myocardial injury but can rise in several cardiac and non-cardiac conditions",
+            "C": "It is always caused by skeletal muscle trauma",
+            "D": "It is not useful in ACS"
+          },
+          "answer": "B",
+          "explanation": "The lecture emphasizes that troponins are markers of cardiac muscle damage, not exclusively myocardial infarction; they can rise in myocarditis, PE, sepsis and other conditions.",
+          "concept": "Troponin differential",
+          "difficulty": "understanding",
+          "source_url": "https://drive.google.com/file/d/1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl/view",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl_09",
+          "stem": "Which marker is more sensitive than CK-MB but may give false-positive results with skeletal muscle injury and renal failure?",
+          "options": {
+            "A": "Myoglobin",
+            "B": "Troponin I",
+            "C": "BNP",
+            "D": "LDH-1"
+          },
+          "answer": "A",
+          "explanation": "Myoglobin is relatively sensitive and rises early, but skeletal muscle injury and renal failure can produce false positives.",
+          "concept": "Myoglobin limitations",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl/view",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl_10",
+          "stem": "Which marker can remain elevated for days after MI and therefore helps with late diagnosis?",
+          "options": {
+            "A": "Cardiac troponin",
+            "B": "Myoglobin only",
+            "C": "Total CK only",
+            "D": "CK-MB only"
+          },
+          "answer": "A",
+          "explanation": "Troponin I stays elevated about 5–10 days and troponin T about 5–14 days, supporting late diagnosis.",
+          "concept": "Troponin duration",
+          "difficulty": "understanding",
+          "source_url": "https://drive.google.com/file/d/1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl/view",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl_case01",
+          "stem": "A man presents with chest pain after an unusually strenuous day digging in the garden. Total CK is 300 U/L, CK-MB is normal, and troponin T after 12 hours is normal. What is the best interpretation?",
+          "options": {
+            "A": "Acute myocardial infarction is strongly supported",
+            "B": "The raised total CK is more consistent with skeletal muscle injury",
+            "C": "Troponin T is expected to be normal in MI",
+            "D": "CK-MB is the least cardiac-specific marker in this case"
+          },
+          "answer": "B",
+          "explanation": "The lecture case concludes that the elevated total CK reflected skeletal muscle injury from unaccustomed exercise; normal CK-MB and troponin argued against MI.",
+          "concept": "Markers case — exercise",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl/view",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Lecture-grounded clinical/application case"
+        },
+        {
+          "id": "ai_1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl_case02",
+          "stem": "A patient presents 7 days after a suspected myocardial infarction. Which marker is most likely still elevated and therefore useful for late diagnosis?",
+          "options": {
+            "A": "Troponin",
+            "B": "Myoglobin",
+            "C": "CK-MB",
+            "D": "Total CK only"
+          },
+          "answer": "A",
+          "explanation": "Troponins remain elevated for several days; CK-MB and myoglobin usually return to normal much earlier.",
+          "concept": "Markers case — late MI",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl/view",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Lecture-grounded clinical/application case"
+        },
+        {
+          "id": "ai_1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl_case03",
+          "stem": "A patient had an MI 4 days ago and now develops new ischemic chest pain. Which marker is useful for identifying reinfarction by showing a new rise?",
+          "options": {
+            "A": "CK-MB",
+            "B": "Troponin T only",
+            "C": "BNP",
+            "D": "LDH only"
+          },
+          "answer": "A",
+          "explanation": "Because CK-MB generally returns to normal within 2–3 days, a new increase can support reinfarction.",
+          "concept": "Markers case — reinfarction",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl/view",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Lecture-grounded clinical/application case"
+        },
+        {
+          "id": "ai_1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl_case04",
+          "stem": "A patient is evaluated only 2 hours after onset of possible MI. Which marker from the lecture may rise earliest but lacks cardiac specificity?",
+          "options": {
+            "A": "Myoglobin",
+            "B": "Troponin T",
+            "C": "CK-MB",
+            "D": "BNP"
+          },
+          "answer": "A",
+          "explanation": "Myoglobin may rise by about 2 hours, earlier than CK-MB or troponin, but it is not cardiac-specific.",
+          "concept": "Markers case — early MI",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl/view",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Lecture-grounded clinical/application case"
+        },
+        {
+          "id": "ai_1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl_case05",
+          "stem": "A patient with severe sepsis has elevated cardiac troponin without classic MI findings. Which statement best fits the lecture?",
+          "options": {
+            "A": "Troponin cannot rise in sepsis",
+            "B": "Troponin indicates myocardial injury and can rise in severe infection",
+            "C": "The result proves plaque rupture",
+            "D": "Troponin is a skeletal-muscle marker"
+          },
+          "answer": "B",
+          "explanation": "Severe infection (sepsis) is listed among non-cardiac conditions that can cause myocardial injury and troponin elevation.",
+          "concept": "Markers case — sepsis",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl/view",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Lecture-grounded clinical/application case"
+        }
+      ]
+    },
+    {
+      "id": "ai_set_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ",
+      "source_file_id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic Drugs",
+      "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view",
+      "source_validation": "lecture_verified_logical_audit",
+      "archived": false,
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
+      "quality_status": "pass",
+      "quality_reviewed_at": "2026-10-01T08:30:00.000Z",
+      "quality_policy_version": 3,
+      "exam_ready": true,
+      "questions": [
+        {
+          "id": "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_01",
+          "stem": "Which Vaughan Williams class consists primarily of sodium-channel blockers?",
+          "options": {
+            "A": "Class I",
+            "B": "Class II",
+            "C": "Class III",
+            "D": "Class IV"
+          },
+          "answer": "A",
+          "explanation": "Class I antiarrhythmics are sodium-channel blockers and are subdivided into IA, IB and IC.",
+          "concept": "Vaughan Williams Class I",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_02",
+          "stem": "Which class primarily reduces sympathetic effects, automaticity and AV nodal conduction?",
+          "options": {
+            "A": "Class I",
+            "B": "Class II beta blockers",
+            "C": "Class III",
+            "D": "Class IV only"
+          },
+          "answer": "B",
+          "explanation": "Class II drugs are beta blockers; they reduce sympathetic effects, automaticity and AV nodal conduction.",
+          "concept": "Vaughan Williams Class II",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_03",
+          "stem": "Which class primarily blocks potassium channels and prolongs repolarization and refractory period?",
+          "options": {
+            "A": "Class I",
+            "B": "Class II",
+            "C": "Class III",
+            "D": "Class IV"
+          },
+          "answer": "C",
+          "explanation": "Class III drugs block potassium channels and prolong repolarization/refractoriness.",
+          "concept": "Vaughan Williams Class III",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_04",
+          "stem": "Verapamil and diltiazem belong to which Vaughan Williams class?",
+          "options": {
+            "A": "Class I",
+            "B": "Class II",
+            "C": "Class III",
+            "D": "Class IV"
+          },
+          "answer": "D",
+          "explanation": "Non-dihydropyridine calcium-channel blockers such as verapamil and diltiazem are Class IV.",
+          "concept": "Vaughan Williams Class IV",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_05",
+          "stem": "Adenosine terminates many AV-node-dependent re-entry SVTs mainly by:",
+          "options": {
+            "A": "Producing a brief AV nodal block",
+            "B": "Increasing ventricular sodium current",
+            "C": "Blocking vitamin K synthesis",
+            "D": "Increasing sympathetic tone"
+          },
+          "answer": "A",
+          "explanation": "Adenosine activates A1 receptors, lowers cAMP, increases potassium conductance and produces a transient AV nodal block.",
+          "concept": "Adenosine mechanism",
+          "difficulty": "understanding",
+          "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_06",
+          "stem": "Which drug is particularly useful for ventricular arrhythmias in ischemic myocardium and is given intravenously because of extensive first-pass metabolism?",
+          "options": {
+            "A": "Lidocaine",
+            "B": "Adenosine",
+            "C": "Verapamil",
+            "D": "Digoxin"
+          },
+          "answer": "A",
+          "explanation": "Lidocaine is a Class IB drug that preferentially acts on abnormal/inactivated sodium channels in ischemic ventricular tissue and is used IV.",
+          "concept": "Lidocaine",
+          "difficulty": "understanding",
+          "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_07",
+          "stem": "Which Class IC drug should be avoided after myocardial infarction or in significant structural heart disease because of proarrhythmic risk?",
+          "options": {
+            "A": "Flecainide",
+            "B": "Lidocaine",
+            "C": "Adenosine",
+            "D": "Magnesium sulfate"
+          },
+          "answer": "A",
+          "explanation": "Flecainide is a Class IC drug and is contraindicated after MI/structural disease because of proarrhythmic risk.",
+          "concept": "Flecainide",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_08",
+          "stem": "Which adverse effect is particularly important with chronic amiodarone therapy?",
+          "options": {
+            "A": "Pulmonary fibrosis/pneumonitis",
+            "B": "Isolated gout only",
+            "C": "Severe iron deficiency",
+            "D": "Nephrolithiasis only"
+          },
+          "answer": "A",
+          "explanation": "The lecture highlights pulmonary toxicity/fibrosis as a serious amiodarone adverse effect, along with thyroid, liver, skin and eye toxicity.",
+          "concept": "Amiodarone toxicity",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_09",
+          "stem": "Combining a beta blocker with verapamil or diltiazem increases the risk of:",
+          "options": {
+            "A": "Bradycardia and AV block",
+            "B": "Severe tachycardia",
+            "C": "Hyperthyroidism",
+            "D": "Iron overload"
+          },
+          "answer": "A",
+          "explanation": "Both suppress SA/AV nodal activity, so the combination can cause additive bradycardia and AV block.",
+          "concept": "Drug interaction",
+          "difficulty": "understanding",
+          "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_10",
+          "stem": "Which treatment is specifically associated with torsades de pointes in the lecture?",
+          "options": {
+            "A": "IV magnesium sulfate",
+            "B": "Adenosine",
+            "C": "Digoxin",
+            "D": "Atropine"
+          },
+          "answer": "A",
+          "explanation": "The lecture emphasizes magnesium sulfate for torsades de pointes, along with correction of electrolytes and removal of QT-prolonging causes.",
+          "concept": "Torsades",
+          "difficulty": "core",
+          "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_case01",
+          "stem": "A stable 24-year-old has a regular narrow-complex tachycardia at 190/min. Vagal maneuvers fail. Which drug is the best next step from the lecture?",
+          "options": {
+            "A": "Adenosine",
+            "B": "Lidocaine",
+            "C": "Amiodarone",
+            "D": "Digoxin"
+          },
+          "answer": "A",
+          "explanation": "For a stable regular narrow-complex AV-node-dependent SVT, adenosine is used after vagal maneuvers fail.",
+          "concept": "Antiarrhythmic case — SVT",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Lecture-grounded clinical/application case"
+        },
+        {
+          "id": "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_case02",
+          "stem": "A patient with WPW develops a stable, very fast irregular wide-complex tachycardia. Which drug is appropriate?",
+          "options": {
+            "A": "Procainamide",
+            "B": "Verapamil",
+            "C": "Digoxin",
+            "D": "Adenosine"
+          },
+          "answer": "A",
+          "explanation": "In stable pre-excited AF with WPW, the lecture recommends procainamide and warns against isolated AV-nodal blockers.",
+          "concept": "Antiarrhythmic case — WPW",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Lecture-grounded clinical/application case"
+        },
+        {
+          "id": "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_case03",
+          "stem": "A patient with prior MI and ventricular scar needs rhythm maintenance for paroxysmal AF. Which drug should be avoided?",
+          "options": {
+            "A": "Flecainide",
+            "B": "Amiodarone",
+            "C": "Dofetilide",
+            "D": "Magnesium sulfate"
+          },
+          "answer": "A",
+          "explanation": "Class IC agents such as flecainide should be avoided after MI or in significant structural disease.",
+          "concept": "Antiarrhythmic case — prior MI",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Lecture-grounded clinical/application case"
+        },
+        {
+          "id": "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_case04",
+          "stem": "A patient on chronic amiodarone develops progressive dry cough, dyspnea and diffuse interstitial infiltrates. What is the most likely adverse effect?",
+          "options": {
+            "A": "Pulmonary toxicity",
+            "B": "Drug-induced gout",
+            "C": "Cinchonism",
+            "D": "Hypertrichosis"
+          },
+          "answer": "A",
+          "explanation": "Amiodarone can cause pulmonary pneumonitis/fibrosis, one of its most serious toxicities.",
+          "concept": "Antiarrhythmic case — amiodarone",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Lecture-grounded clinical/application case"
+        },
+        {
+          "id": "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_case05",
+          "stem": "A patient with HFrEF (EF 30%) needs pharmacologic maintenance of sinus rhythm for AF. Which is a reasonable option from the lecture?",
+          "options": {
+            "A": "Amiodarone",
+            "B": "Flecainide",
+            "C": "Verapamil",
+            "D": "Propafenone"
+          },
+          "answer": "A",
+          "explanation": "The lecture notes amiodarone or dofetilide as rhythm-control options in HFrEF, while Class IC drugs and verapamil are inappropriate.",
+          "concept": "Antiarrhythmic case — HFrEF",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Lecture-grounded clinical/application case"
+        },
+        {
+          "id": "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_case06",
+          "stem": "A patient has symptomatic sinus bradycardia with HR 32/min, hypotension and dizziness. What is the initial drug?",
+          "options": {
+            "A": "Atropine",
+            "B": "Adenosine",
+            "C": "Sotalol",
+            "D": "Verapamil"
+          },
+          "answer": "A",
+          "explanation": "The lecture's clinical case identifies atropine as the initial drug for symptomatic bradycardia.",
+          "concept": "Antiarrhythmic case — bradycardia",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Lecture-grounded clinical/application case"
+        },
+        {
+          "id": "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_case07",
+          "stem": "A patient is pulseless with ventricular fibrillation. What is the most important immediate treatment?",
+          "options": {
+            "A": "Defibrillation plus high-quality CPR",
+            "B": "Synchronized cardioversion",
+            "C": "Adenosine first",
+            "D": "Oral amiodarone"
+          },
+          "answer": "A",
+          "explanation": "For pulseless VT/VF, the lecture emphasizes defibrillation and CPR first; antiarrhythmic drugs are adjuncts.",
+          "concept": "Antiarrhythmic case — VF",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Lecture-grounded clinical/application case"
+        },
+        {
+          "id": "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_case08",
+          "stem": "A patient has polymorphic VT with prolonged-QT physiology and a twisting QRS pattern. Which drug should be given?",
+          "options": {
+            "A": "Magnesium sulfate",
+            "B": "Verapamil",
+            "C": "Adenosine",
+            "D": "Digoxin"
+          },
+          "answer": "A",
+          "explanation": "The lecture identifies torsades de pointes as a prolonged-QT polymorphic VT treated with magnesium sulfate.",
+          "concept": "Antiarrhythmic case — torsades",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Lecture-grounded clinical/application case"
+        },
+        {
+          "id": "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_case09",
+          "stem": "A patient with hyperthyroidism has atrial fibrillation and marked adrenergic symptoms. Which drug is especially useful initially?",
+          "options": {
+            "A": "Propranolol",
+            "B": "Lidocaine",
+            "C": "Flecainide",
+            "D": "Adenosine"
+          },
+          "answer": "A",
+          "explanation": "The lecture highlights beta blockers, including propranolol, for arrhythmias driven by sympathetic activation and hyperthyroidism.",
+          "concept": "Antiarrhythmic case — hyperthyroidism",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Lecture-grounded clinical/application case"
+        },
+        {
+          "id": "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_case10",
+          "stem": "A patient with tachyarrhythmia is hypotensive, confused and has acute heart failure but still has a pulse. What should be done before choosing an antiarrhythmic drug?",
+          "options": {
+            "A": "Synchronized cardioversion",
+            "B": "Wait for spontaneous conversion",
+            "C": "Give oral flecainide",
+            "D": "Give adenosine regardless of rhythm"
+          },
+          "answer": "A",
+          "explanation": "The lecture's first clinical principle is to treat the unstable patient first: unstable tachyarrhythmia with a pulse requires synchronized cardioversion.",
+          "concept": "Antiarrhythmic case — unstable tachyarrhythmia",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Lecture-grounded clinical/application case"
         }
       ]
     }

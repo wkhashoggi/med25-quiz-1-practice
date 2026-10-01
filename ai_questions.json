@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-01T07:50:00.000Z",
+  "generated_at": "2026-10-01T08:20:00.000Z",
   "source_root": {
     "id": "1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
     "url": "https://drive.google.com/drive/folders/1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
@@ -14489,6 +14489,360 @@
       "quality_policy_version": 2,
       "quality_reason": "Passed structural/style audit: plausible same-domain distractors, valid answer key, official lecture source, and MED25-style format.",
       "exam_ready": true
+    },
+    {
+      "id": "ai_set_library_endocarditis_2026_2027",
+      "source_file_id": "libfile_6e646046c4ac81918406ddf5ca74067d",
+      "subject": "Pathology",
+      "title": "Endocarditis",
+      "source_url": "",
+      "source_modified_time": "2026-10-01T06:04:48.452Z",
+      "source_validation": "uploaded_lecture_verified_logical_audit",
+      "archived": false,
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
+      "quality_status": "pass",
+      "quality_reviewed_at": "2026-10-01T08:20:00.000Z",
+      "quality_policy_version": 3,
+      "exam_ready": true,
+      "questions": [
+        {
+          "id": "ai_endocarditis_2026_01",
+          "stem": "Which description best defines infective endocarditis?",
+          "options": {
+            "A": "A sterile thrombus limited to previously normal valves",
+            "B": "A microbial infection of the heart valves or endocardium",
+            "C": "An autoimmune inflammation limited to the pericardium",
+            "D": "A congenital malformation of the valve cusps"
+          },
+          "answer": "B",
+          "explanation": "Infective endocarditis is a microbial infection of heart valves or endocardium, typically producing vegetations containing thrombotic debris and organisms.",
+          "concept": "Definition",
+          "difficulty": "core",
+          "source_url": "",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_endocarditis_2026_02",
+          "stem": "Which feature most strongly favors acute rather than subacute infective endocarditis?",
+          "options": {
+            "A": "A prolonged indolent course caused by low-virulence organisms",
+            "B": "Disease restricted to previously damaged valves",
+            "C": "Rapid destructive infection that may involve a previously healthy valve",
+            "D": "Sterile vegetations without tissue destruction"
+          },
+          "answer": "C",
+          "explanation": "Acute IE is rapidly progressive and destructive, often caused by highly virulent organisms such as S. aureus, and can involve healthy valves.",
+          "concept": "Acute vs subacute IE",
+          "difficulty": "core",
+          "source_url": "",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_endocarditis_2026_03",
+          "stem": "Which organism is classically associated with subacute community-acquired endocarditis on a previously damaged valve?",
+          "options": {
+            "A": "Streptococcus viridans",
+            "B": "Staphylococcus aureus",
+            "C": "Clostridium tetani",
+            "D": "Mycobacterium tuberculosis"
+          },
+          "answer": "A",
+          "explanation": "The lecture associates S. viridans, normal oral flora, with community-acquired subacute IE on damaged/deformed valves.",
+          "concept": "Causative organisms",
+          "difficulty": "core",
+          "source_url": "",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_endocarditis_2026_04",
+          "stem": "Which cardiac abnormality is identified in the lecture as the leading preexisting risk factor for infective endocarditis?",
+          "options": {
+            "A": "Mitral valve prolapse",
+            "B": "Atrial septal defect",
+            "C": "Pulmonary stenosis only",
+            "D": "Patent ductus arteriosus only"
+          },
+          "answer": "A",
+          "explanation": "Mitral valve prolapse is highlighted as the leading preexisting risk factor, alongside rheumatic disease, bicuspid aortic valve and calcific stenosis.",
+          "concept": "Risk factors",
+          "difficulty": "core",
+          "source_url": "",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_endocarditis_2026_05",
+          "stem": "Why are vegetations in infective endocarditis particularly prone to causing septic infarcts?",
+          "options": {
+            "A": "They are calcified and cannot fragment",
+            "B": "They are friable and emboli can carry many organisms to distant tissues",
+            "C": "They contain no microorganisms",
+            "D": "They remain confined to the valve annulus"
+          },
+          "answer": "B",
+          "explanation": "IE vegetations are friable. When fragments embolize, they carry organisms and can seed infected infarcts or abscesses.",
+          "concept": "Morphology and emboli",
+          "difficulty": "understanding",
+          "source_url": "",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_endocarditis_2026_06",
+          "stem": "Which peripheral finding is correctly paired with its typical pain characteristic?",
+          "options": {
+            "A": "Janeway lesion — painful fingertip nodule",
+            "B": "Osler node — painless lesion on palm or sole",
+            "C": "Janeway lesion — painless lesion on palm or sole",
+            "D": "Roth spot — painful nail-bed nodule"
+          },
+          "answer": "C",
+          "explanation": "Janeway lesions are painless lesions on palms/soles, whereas Osler nodes are painful fingertip nodules.",
+          "concept": "Peripheral signs",
+          "difficulty": "core",
+          "source_url": "",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_endocarditis_2026_07",
+          "stem": "Culture-negative infective endocarditis may occur because of which factor?",
+          "options": {
+            "A": "Previous antibiotic therapy",
+            "B": "Absence of any endocardial infection",
+            "C": "Excessive platelet production",
+            "D": "Hypercalcemia"
+          },
+          "answer": "A",
+          "explanation": "The lecture notes that culture-negative IE can result from prior antibiotics or organisms that are difficult to isolate.",
+          "concept": "Culture-negative IE",
+          "difficulty": "core",
+          "source_url": "",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_endocarditis_2026_08",
+          "stem": "Which complication of infective endocarditis results from immune-complex deposition rather than direct septic embolization?",
+          "options": {
+            "A": "Glomerulonephritis",
+            "B": "Ring abscess",
+            "C": "Mycotic aneurysm",
+            "D": "Septic infarct"
+          },
+          "answer": "A",
+          "explanation": "Glomerulonephritis occurs through glomerular trapping of antigen–antibody complexes and may cause hematuria, albuminuria or renal failure.",
+          "concept": "Complications",
+          "difficulty": "application",
+          "source_url": "",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_endocarditis_2026_09",
+          "stem": "Which description best fits nonbacterial thrombotic endocarditis (NBTE)?",
+          "options": {
+            "A": "Bulky infected vegetations with destructive inflammation",
+            "B": "Small sterile nondestructive vegetations associated with hypercoagulable states",
+            "C": "Vegetations containing abundant bacteria in all cases",
+            "D": "Vegetations found only on prosthetic valves"
+          },
+          "answer": "B",
+          "explanation": "NBTE consists of small sterile thrombi, usually on previously normal valves, commonly in hypercoagulable states such as malignancy.",
+          "concept": "NBTE",
+          "difficulty": "core",
+          "source_url": "",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_endocarditis_2026_10",
+          "stem": "Which underlying condition is especially associated with nonbacterial thrombotic endocarditis?",
+          "options": {
+            "A": "Mucinous adenocarcinoma",
+            "B": "Iron-deficiency anemia",
+            "C": "Asthma",
+            "D": "Hyperthyroidism"
+          },
+          "answer": "A",
+          "explanation": "Malignancy—especially mucinous adenocarcinoma—is emphasized as the most common cause of the hypercoagulable setting behind NBTE.",
+          "concept": "NBTE etiology",
+          "difficulty": "core",
+          "source_url": "",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_endocarditis_2026_11",
+          "stem": "Libman–Sacks endocarditis is most closely associated with which disease?",
+          "options": {
+            "A": "Systemic lupus erythematosus",
+            "B": "Rheumatic fever only",
+            "C": "Bacterial pneumonia",
+            "D": "Hemophilia A"
+          },
+          "answer": "A",
+          "explanation": "Libman–Sacks is a sterile inflammatory valvular lesion of SLE and can also be seen with antiphospholipid antibody syndrome.",
+          "concept": "Libman-Sacks",
+          "difficulty": "core",
+          "source_url": "",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_endocarditis_2026_12",
+          "stem": "Which feature distinguishes Libman–Sacks endocarditis from classic NBTE in the lecture?",
+          "options": {
+            "A": "It is always caused by S. aureus",
+            "B": "It is associated with inflammation and may show fibrinoid necrosis next to the vegetation",
+            "C": "It never causes valve deformity",
+            "D": "Its vegetations are confined to the tricuspid valve"
+          },
+          "answer": "B",
+          "explanation": "Libman–Sacks lesions are sterile but have associated inflammation, often with fibrinoid necrosis, and chronic fibrosis may deform valves.",
+          "concept": "Libman-Sacks morphology",
+          "difficulty": "understanding",
+          "source_url": "",
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_endocarditis_2026_13",
+          "stem": "A 30-year-old man who injects drugs develops high fever and rapidly destructive endocarditis. Which valve and organism pairing is most characteristic?",
+          "options": {
+            "A": "Tricuspid valve — Staphylococcus aureus",
+            "B": "Mitral valve — Streptococcus viridans only",
+            "C": "Pulmonary valve — HACEK only",
+            "D": "Aortic valve — Candida is always required"
+          },
+          "answer": "A",
+          "explanation": "IV drug use is strongly associated with S. aureus acute IE, and the tricuspid valve is a classic site in IV drug users.",
+          "concept": "IE case — IVDU",
+          "difficulty": "application",
+          "source_url": "",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Endocarditis 2026-2027 lecture clinical application"
+        },
+        {
+          "id": "ai_endocarditis_2026_14",
+          "stem": "A patient with known valvular disease develops weeks of fatigue, weight loss and a low-grade illness after a dental procedure. Blood cultures grow viridans streptococci. Which form of endocarditis best fits?",
+          "options": {
+            "A": "Acute IE on a normal valve",
+            "B": "Subacute IE on a damaged valve",
+            "C": "NBTE",
+            "D": "Libman–Sacks endocarditis"
+          },
+          "answer": "B",
+          "explanation": "An indolent weeks-to-months course with S. viridans on a damaged valve is the classic subacute pattern.",
+          "concept": "IE case — subacute",
+          "difficulty": "application",
+          "source_url": "",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Endocarditis 2026-2027 lecture clinical application"
+        },
+        {
+          "id": "ai_endocarditis_2026_15",
+          "stem": "A patient with infective endocarditis develops a new conduction abnormality. Which complication should be suspected from the lecture?",
+          "options": {
+            "A": "Extension into underlying myocardium with a ring abscess",
+            "B": "Isolated iron deficiency",
+            "C": "Simple sterile NBTE",
+            "D": "Resolution of the infection"
+          },
+          "answer": "A",
+          "explanation": "New arrhythmias/conduction problems can suggest extension of infection into the underlying myocardium and conduction system, including ring abscess formation.",
+          "concept": "IE case — ring abscess",
+          "difficulty": "application",
+          "source_url": "",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Endocarditis 2026-2027 lecture clinical application"
+        },
+        {
+          "id": "ai_endocarditis_2026_16",
+          "stem": "A patient with endocarditis has painless erythematous lesions on the palms and soles. What are these lesions called?",
+          "options": {
+            "A": "Osler nodes",
+            "B": "Janeway lesions",
+            "C": "Roth spots",
+            "D": "Splinter hemorrhages"
+          },
+          "answer": "B",
+          "explanation": "Janeway lesions are painless lesions on the palms and soles; Osler nodes are painful fingertip nodules.",
+          "concept": "IE case — peripheral signs",
+          "difficulty": "application",
+          "source_url": "",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Endocarditis 2026-2027 lecture clinical application"
+        },
+        {
+          "id": "ai_endocarditis_2026_17",
+          "stem": "A patient with advanced mucinous adenocarcinoma develops multiple systemic infarcts. Echocardiography shows small sterile vegetations on previously normal valves without valve destruction. What is the most likely diagnosis?",
+          "options": {
+            "A": "Acute infective endocarditis",
+            "B": "Nonbacterial thrombotic endocarditis",
+            "C": "Libman–Sacks endocarditis",
+            "D": "Chronic rheumatic valvulitis"
+          },
+          "answer": "B",
+          "explanation": "The combination of malignancy, hypercoagulability, small sterile nondestructive vegetations and systemic emboli is classic NBTE.",
+          "concept": "NBTE case",
+          "difficulty": "application",
+          "source_url": "",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Endocarditis 2026-2027 lecture clinical application"
+        },
+        {
+          "id": "ai_endocarditis_2026_18",
+          "stem": "A woman with systemic lupus erythematosus has sterile vegetations involving both valve surfaces with adjacent inflammatory injury and fibrinoid necrosis. Which diagnosis is most likely?",
+          "options": {
+            "A": "Libman–Sacks endocarditis",
+            "B": "Subacute bacterial endocarditis",
+            "C": "NBTE without inflammation",
+            "D": "Calcific aortic stenosis"
+          },
+          "answer": "A",
+          "explanation": "Sterile vegetations in SLE with associated inflammation/fibrinoid necrosis are characteristic of Libman–Sacks endocarditis.",
+          "concept": "Libman-Sacks case",
+          "difficulty": "application",
+          "source_url": "",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Endocarditis 2026-2027 lecture clinical application"
+        }
+      ]
     }
   ],
   "quality_policy": {

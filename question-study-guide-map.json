@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-01T08:10:00.000Z",
+  "generated_at": "2026-10-01T08:20:00.000Z",
   "study_guide_file_id": "1QwRNlO6-zuOQugxyjrhXykOW-YjVtal4",
   "past": {
     "ibls-previous-years-p4-q3-1": {
@@ -11041,6 +11041,132 @@
       "title": "Physiology of Hemostasis",
       "confidence": 1,
       "method": "current-drive-case-audit"
+    },
+    "ai_endocarditis_2026_01": {
+      "lecture_id": "pathology__infective-endocarditis",
+      "subject": "Pathology",
+      "title": "Infective Endocarditis",
+      "confidence": 1,
+      "method": "uploaded-lecture-logical-audit"
+    },
+    "ai_endocarditis_2026_02": {
+      "lecture_id": "pathology__infective-endocarditis",
+      "subject": "Pathology",
+      "title": "Infective Endocarditis",
+      "confidence": 1,
+      "method": "uploaded-lecture-logical-audit"
+    },
+    "ai_endocarditis_2026_03": {
+      "lecture_id": "pathology__infective-endocarditis",
+      "subject": "Pathology",
+      "title": "Infective Endocarditis",
+      "confidence": 1,
+      "method": "uploaded-lecture-logical-audit"
+    },
+    "ai_endocarditis_2026_04": {
+      "lecture_id": "pathology__infective-endocarditis",
+      "subject": "Pathology",
+      "title": "Infective Endocarditis",
+      "confidence": 1,
+      "method": "uploaded-lecture-logical-audit"
+    },
+    "ai_endocarditis_2026_05": {
+      "lecture_id": "pathology__infective-endocarditis",
+      "subject": "Pathology",
+      "title": "Infective Endocarditis",
+      "confidence": 1,
+      "method": "uploaded-lecture-logical-audit"
+    },
+    "ai_endocarditis_2026_06": {
+      "lecture_id": "pathology__infective-endocarditis",
+      "subject": "Pathology",
+      "title": "Infective Endocarditis",
+      "confidence": 1,
+      "method": "uploaded-lecture-logical-audit"
+    },
+    "ai_endocarditis_2026_07": {
+      "lecture_id": "pathology__infective-endocarditis",
+      "subject": "Pathology",
+      "title": "Infective Endocarditis",
+      "confidence": 1,
+      "method": "uploaded-lecture-logical-audit"
+    },
+    "ai_endocarditis_2026_08": {
+      "lecture_id": "pathology__infective-endocarditis",
+      "subject": "Pathology",
+      "title": "Infective Endocarditis",
+      "confidence": 1,
+      "method": "uploaded-lecture-logical-audit"
+    },
+    "ai_endocarditis_2026_09": {
+      "lecture_id": "pathology__infective-endocarditis",
+      "subject": "Pathology",
+      "title": "Infective Endocarditis",
+      "confidence": 1,
+      "method": "uploaded-lecture-logical-audit"
+    },
+    "ai_endocarditis_2026_10": {
+      "lecture_id": "pathology__infective-endocarditis",
+      "subject": "Pathology",
+      "title": "Infective Endocarditis",
+      "confidence": 1,
+      "method": "uploaded-lecture-logical-audit"
+    },
+    "ai_endocarditis_2026_11": {
+      "lecture_id": "pathology__infective-endocarditis",
+      "subject": "Pathology",
+      "title": "Infective Endocarditis",
+      "confidence": 1,
+      "method": "uploaded-lecture-logical-audit"
+    },
+    "ai_endocarditis_2026_12": {
+      "lecture_id": "pathology__infective-endocarditis",
+      "subject": "Pathology",
+      "title": "Infective Endocarditis",
+      "confidence": 1,
+      "method": "uploaded-lecture-logical-audit"
+    },
+    "ai_endocarditis_2026_13": {
+      "lecture_id": "pathology__infective-endocarditis",
+      "subject": "Pathology",
+      "title": "Infective Endocarditis",
+      "confidence": 1,
+      "method": "uploaded-lecture-logical-audit"
+    },
+    "ai_endocarditis_2026_14": {
+      "lecture_id": "pathology__infective-endocarditis",
+      "subject": "Pathology",
+      "title": "Infective Endocarditis",
+      "confidence": 1,
+      "method": "uploaded-lecture-logical-audit"
+    },
+    "ai_endocarditis_2026_15": {
+      "lecture_id": "pathology__infective-endocarditis",
+      "subject": "Pathology",
+      "title": "Infective Endocarditis",
+      "confidence": 1,
+      "method": "uploaded-lecture-logical-audit"
+    },
+    "ai_endocarditis_2026_16": {
+      "lecture_id": "pathology__infective-endocarditis",
+      "subject": "Pathology",
+      "title": "Infective Endocarditis",
+      "confidence": 1,
+      "method": "uploaded-lecture-logical-audit"
+    },
+    "ai_endocarditis_2026_17": {
+      "lecture_id": "pathology__infective-endocarditis",
+      "subject": "Pathology",
+      "title": "Infective Endocarditis",
+      "confidence": 1,
+      "method": "uploaded-lecture-logical-audit"
+    },
+    "ai_endocarditis_2026_18": {
+      "lecture_id": "pathology__infective-endocarditis",
+      "subject": "Pathology",
+      "title": "Infective Endocarditis",
+      "confidence": 1,
+      "method": "uploaded-lecture-logical-audit"
     }
   },
   "audit_note": "IBLS/CVS/Formative are provenance only. Past and AI questions are organized by official Study Guide subject and lecture. New combined antihypertensive content is split across official lecture 1/2 by objectives. Visible formative-style AI cases inherit the already-audited parent lecture mapping."

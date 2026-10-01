@@ -1,6 +1,6 @@
 {
-  "version": 2,
-  "updated_at": "2026-09-30T15:53:02.777Z",
+  "version": 3,
+  "updated_at": "2026-10-01T08:35:00.000Z",
   "study_guide": {
     "title": "Study Guide- Circulation and Breathing module- 2026-2027.pdf",
     "drive_file_id": "1QwRNlO6-zuOQugxyjrhXykOW-YjVtal4"
@@ -14,23 +14,23 @@
     "allowed_teaching_methods": [
       "Interactive lecture",
       "Flipped class",
-      "Online lecture"
-    ],
-    "excluded_teaching_methods": [
+      "Online lecture",
+      "CBD",
       "SPP",
       "Student-Prepared Presentation",
       "Practical",
-      "CBD",
       "PBL",
       "Covered in PBL",
       "Online Tutorial",
       "Tutorial"
     ],
     "rules": [
-      "A Drive file must be matched to an official Study Guide topic before generation.",
-      "The matched Study Guide teaching method must be one of the three allowed methods.",
-      "If the match or teaching method is uncertain, do not publish the deck/question set.",
-      "Department folder location alone never makes a file eligible."
+      "A Drive file must map to a current official Study Guide lecture, objective, or clearly identified current module teaching session before publication.",
+      "Teaching method is provenance, not a reason to hide valid current module content.",
+      "CBD/SPP/PBL/tutorial material may be published when it is current module content and maps to an official lecture/objective; keep the session type as provenance metadata.",
+      "If the lecture/objective match is uncertain, do not publish until reviewed.",
+      "Department folder location alone never makes a file eligible.",
+      "Combined source files must split question mappings across the correct official lectures instead of assigning the whole source to one lecture."
     ],
     "source_population": [
       "Male",
@@ -48,6 +48,8 @@
       "Plausible same-domain distractors aimed at common confusions.",
       "Concise KAU/MED25-style stems; avoid unnecessarily long USMLE-style vignettes.",
       "Mix high-yield recall, mechanisms/relationships and short clinical/application questions when the lecture supports them.",
+      "Every active lecture/source set should contain at least one meaningful case/application question when the source supports clinical application.",
+      "Prioritize genuine CBD/PBL/SPP cases from Drive when available; do not replace them with generic vignettes.",
       "Collectively cover the official objectives before adding lower-yield slide details.",
       "Never invent content or use knowledge outside the lecture to make a question harder.",
       "Never recycle unrelated flashcard answers as distractors."
@@ -101,14 +103,15 @@
     "timezone": "Asia/Riyadh",
     "actions": [
       "Scan both official Male and Female lecture folders plus the organized MED25 root for new or modified files.",
-      "Pool Male and Female sources by lecture concept; if either contains an eligible lecture, it is available for generation.",
-      "Match each candidate to the Study Guide topic and teaching method.",
-      "Ignore non-eligible methods.",
-      "For new/modified eligible lectures, generate or refresh AI questions and flashcards using the official objectives.",
-      "Audit existing eligible AI sets for MED25/test-bank-like quality and rebuild weak flashcard-like question sets.",
+      "Pool Male and Female sources by lecture concept; if either contains current module content, it is available for generation.",
+      "Map each candidate to the official Study Guide lecture/objective; preserve teaching method only as provenance.",
+      "Include current CBD/SPP/PBL/tutorial case material when it maps to the module instead of excluding it by class type.",
+      "For new/modified current lectures, generate or refresh AI questions and flashcards using the official objectives.",
+      "Audit combined source files and split mappings across the correct official lectures.",
+      "Audit existing AI sets for MED25/test-bank-like quality and rebuild weak flashcard-like question sets.",
       "Add useful lecture images to flashcards when appropriate.",
-      "Validate JSON, mappings, question quality and eligibility before publishing.",
-      "Deploy the updated website only when content changed."
+      "Run logical content invariants: no active unmapped AI questions, no complete set hidden only by missing mapping, no current Drive lecture silently reporting zero, valid mock structure, and case coverage.",
+      "Deploy the updated website only when content changed and logical + UI audits pass."
     ]
   },
   "drive_sources": {

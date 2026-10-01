@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-01T09:00:00.000Z",
+  "generated_at": "2026-10-01T08:10:00.000Z",
   "source_root": {
     "id": "1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
     "url": "https://drive.google.com/drive/folders/1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
@@ -14524,7 +14524,9 @@
           "source_url": "",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "source_kind": "uploaded_lecture",
+          "source_reference": "Endocarditis 2026-2027.pptx"
         },
         {
           "id": "ai_endocarditis_2026_02",
@@ -14542,7 +14544,9 @@
           "source_url": "",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "source_kind": "uploaded_lecture",
+          "source_reference": "Endocarditis 2026-2027.pptx"
         },
         {
           "id": "ai_endocarditis_2026_03",
@@ -14560,7 +14564,9 @@
           "source_url": "",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "source_kind": "uploaded_lecture",
+          "source_reference": "Endocarditis 2026-2027.pptx"
         },
         {
           "id": "ai_endocarditis_2026_04",
@@ -14578,7 +14584,9 @@
           "source_url": "",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "source_kind": "uploaded_lecture",
+          "source_reference": "Endocarditis 2026-2027.pptx"
         },
         {
           "id": "ai_endocarditis_2026_05",
@@ -14596,7 +14604,9 @@
           "source_url": "",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "source_kind": "uploaded_lecture",
+          "source_reference": "Endocarditis 2026-2027.pptx"
         },
         {
           "id": "ai_endocarditis_2026_06",
@@ -14614,7 +14624,9 @@
           "source_url": "",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "source_kind": "uploaded_lecture",
+          "source_reference": "Endocarditis 2026-2027.pptx"
         },
         {
           "id": "ai_endocarditis_2026_07",
@@ -14632,7 +14644,9 @@
           "source_url": "",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "source_kind": "uploaded_lecture",
+          "source_reference": "Endocarditis 2026-2027.pptx"
         },
         {
           "id": "ai_endocarditis_2026_08",
@@ -14650,7 +14664,9 @@
           "source_url": "",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "source_kind": "uploaded_lecture",
+          "source_reference": "Endocarditis 2026-2027.pptx"
         },
         {
           "id": "ai_endocarditis_2026_09",
@@ -14668,7 +14684,9 @@
           "source_url": "",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "source_kind": "uploaded_lecture",
+          "source_reference": "Endocarditis 2026-2027.pptx"
         },
         {
           "id": "ai_endocarditis_2026_10",
@@ -14686,7 +14704,9 @@
           "source_url": "",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "source_kind": "uploaded_lecture",
+          "source_reference": "Endocarditis 2026-2027.pptx"
         },
         {
           "id": "ai_endocarditis_2026_11",
@@ -14704,7 +14724,9 @@
           "source_url": "",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "source_kind": "uploaded_lecture",
+          "source_reference": "Endocarditis 2026-2027.pptx"
         },
         {
           "id": "ai_endocarditis_2026_12",
@@ -14722,7 +14744,9 @@
           "source_url": "",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "source_kind": "uploaded_lecture",
+          "source_reference": "Endocarditis 2026-2027.pptx"
         },
         {
           "id": "ai_endocarditis_2026_13",
@@ -14742,7 +14766,9 @@
           "quality_status": "pass",
           "exam_ready": true,
           "case_style": "formative_short_case",
-          "formative_reference": "Endocarditis 2026-2027 lecture clinical application"
+          "formative_reference": "Endocarditis 2026-2027 lecture clinical application",
+          "source_kind": "uploaded_lecture",
+          "source_reference": "Endocarditis 2026-2027.pptx"
         },
         {
           "id": "ai_endocarditis_2026_14",
@@ -14762,7 +14788,9 @@
           "quality_status": "pass",
           "exam_ready": true,
           "case_style": "formative_short_case",
-          "formative_reference": "Endocarditis 2026-2027 lecture clinical application"
+          "formative_reference": "Endocarditis 2026-2027 lecture clinical application",
+          "source_kind": "uploaded_lecture",
+          "source_reference": "Endocarditis 2026-2027.pptx"
         },
         {
           "id": "ai_endocarditis_2026_15",
@@ -14782,7 +14810,9 @@
           "quality_status": "pass",
           "exam_ready": true,
           "case_style": "formative_short_case",
-          "formative_reference": "Endocarditis 2026-2027 lecture clinical application"
+          "formative_reference": "Endocarditis 2026-2027 lecture clinical application",
+          "source_kind": "uploaded_lecture",
+          "source_reference": "Endocarditis 2026-2027.pptx"
         },
         {
           "id": "ai_endocarditis_2026_16",
@@ -14802,7 +14832,9 @@
           "quality_status": "pass",
           "exam_ready": true,
           "case_style": "formative_short_case",
-          "formative_reference": "Endocarditis 2026-2027 lecture clinical application"
+          "formative_reference": "Endocarditis 2026-2027 lecture clinical application",
+          "source_kind": "uploaded_lecture",
+          "source_reference": "Endocarditis 2026-2027.pptx"
         },
         {
           "id": "ai_endocarditis_2026_17",
@@ -14822,7 +14854,9 @@
           "quality_status": "pass",
           "exam_ready": true,
           "case_style": "formative_short_case",
-          "formative_reference": "Endocarditis 2026-2027 lecture clinical application"
+          "formative_reference": "Endocarditis 2026-2027 lecture clinical application",
+          "source_kind": "uploaded_lecture",
+          "source_reference": "Endocarditis 2026-2027.pptx"
         },
         {
           "id": "ai_endocarditis_2026_18",
@@ -14842,9 +14876,13 @@
           "quality_status": "pass",
           "exam_ready": true,
           "case_style": "formative_short_case",
-          "formative_reference": "Endocarditis 2026-2027 lecture clinical application"
+          "formative_reference": "Endocarditis 2026-2027 lecture clinical application",
+          "source_kind": "uploaded_lecture",
+          "source_reference": "Endocarditis 2026-2027.pptx"
         }
-      ]
+      ],
+      "source_kind": "uploaded_lecture",
+      "source_reference": "Endocarditis 2026-2027.pptx"
     },
     {
       "id": "ai_set_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9",

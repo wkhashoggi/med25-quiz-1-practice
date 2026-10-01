@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-01T08:05:00.000Z",
+  "generated_at": "2026-10-01T08:15:00.000Z",
   "source_root": {
     "id": "1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
     "url": "https://drive.google.com/drive/folders/1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
@@ -4438,7 +4438,9 @@
           "source_url": "https://drive.google.com/file/d/1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov/view?usp=drivesdk",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Clinical application case retained during logical content audit"
         },
         {
           "id": "ai_1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov_17",
@@ -4709,7 +4711,9 @@
           "source_url": "https://drive.google.com/file/d/1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs/view?usp=drivesdk",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Clinical application case retained during logical content audit"
         },
         {
           "id": "ai_1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs_13",
@@ -6543,7 +6547,9 @@
           "source_url": "https://drive.google.com/file/d/10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh/view?usp=drivesdk",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Clinical application case retained during logical content audit"
         },
         {
           "id": "ai_10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh_15",
@@ -7270,7 +7276,9 @@
           "source_url": "https://drive.google.com/file/d/1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9/view?usp=drivesdk",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Clinical application case retained during logical content audit"
         },
         {
           "id": "ai_1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9_13",
@@ -8837,7 +8845,9 @@
           "source_url": "https://drive.google.com/file/d/11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI/view?usp=drivesdk",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Clinical application case retained during logical content audit"
         },
         {
           "id": "ai_11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI_17",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-01T07:55:00.000Z",
+  "generated_at": "2026-10-01T08:05:00.000Z",
   "source_root": {
     "id": "1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
     "url": "https://drive.google.com/drive/folders/1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
@@ -3687,6 +3687,66 @@
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
           "exam_ready": true
+        },
+        {
+          "id": "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_case01",
+          "stem": "A 21-year-old man with acute appendicitis has a WBC count of 15,800/µL with 82% neutrophils. Which change best explains this differential count?",
+          "options": {
+            "A": "Neutrophilia due to acute bacterial inflammation",
+            "B": "Eosinophilia due to parasitic infestation",
+            "C": "Basophilia due to allergy",
+            "D": "Lymphocytosis due to tuberculosis"
+          },
+          "answer": "A",
+          "explanation": "The WBC case-based discussion shows acute appendicitis with leukocytosis and marked neutrophilia, which is typical of acute bacterial inflammation.",
+          "concept": "WBC CBD — appendicitis",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1JJNyKMtTqKK1aRhw-1YhaC6MlMkCJoCl/view",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Drive-grounded clinical case added during logical audit"
+        },
+        {
+          "id": "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_case02",
+          "stem": "In acute appendicitis, neutrophils adhere to endothelium and then squeeze between endothelial cells into the tissue. What is this step called?",
+          "options": {
+            "A": "Margination",
+            "B": "Diapedesis",
+            "C": "Opsonization",
+            "D": "Agglutination"
+          },
+          "answer": "B",
+          "explanation": "Diapedesis is the passage of leukocytes through the vessel wall into the surrounding tissue.",
+          "concept": "WBC CBD — recruitment",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1JJNyKMtTqKK1aRhw-1YhaC6MlMkCJoCl/view",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Drive-grounded clinical case added during logical audit"
+        },
+        {
+          "id": "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_case03",
+          "stem": "Bacterial particles in an inflamed appendix become coated with antibodies and complement before neutrophil ingestion. What process has occurred?",
+          "options": {
+            "A": "Chemotaxis",
+            "B": "Margination",
+            "C": "Opsonization",
+            "D": "Leukopenia"
+          },
+          "answer": "C",
+          "explanation": "Opsonization coats foreign particles with molecules such as antibodies and complement, making phagocytosis easier.",
+          "concept": "WBC CBD — phagocytosis",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1JJNyKMtTqKK1aRhw-1YhaC6MlMkCJoCl/view",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Drive-grounded clinical case added during logical audit"
         }
       ],
       "eligibility_status": "allowed",
@@ -10178,6 +10238,66 @@
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
           "exam_ready": true
+        },
+        {
+          "id": "ai_1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY_case01",
+          "stem": "A patient with iron-deficiency anemia cannot tolerate oral iron because of severe gastrointestinal adverse effects and also has malabsorption. Which treatment is most appropriate?",
+          "options": {
+            "A": "Parenteral iron",
+            "B": "Folic acid",
+            "C": "Vitamin B12",
+            "D": "Erythropoietin"
+          },
+          "answer": "A",
+          "explanation": "Parenteral iron is indicated when oral iron cannot be tolerated or absorbed.",
+          "concept": "Treatment of anemia — iron case",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY/view",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Drive-grounded clinical case added during logical audit"
+        },
+        {
+          "id": "ai_1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY_case02",
+          "stem": "A patient with pernicious anemia has megaloblastic anemia and neurologic symptoms. Which treatment should be continued lifelong?",
+          "options": {
+            "A": "Oral folic acid alone",
+            "B": "Intramuscular vitamin B12",
+            "C": "Oral iron",
+            "D": "Intermittent phlebotomy"
+          },
+          "answer": "B",
+          "explanation": "Pernicious anemia requires lifelong intramuscular vitamin B12; folic acid alone does not correct neurologic manifestations.",
+          "concept": "Treatment of anemia — B12 case",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY/view",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Drive-grounded clinical case added during logical audit"
+        },
+        {
+          "id": "ai_1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY_case03",
+          "stem": "A patient with end-stage renal failure develops anemia. Which growth factor is specifically indicated?",
+          "options": {
+            "A": "Erythropoietin",
+            "B": "Deferoxamine",
+            "C": "Folinic acid",
+            "D": "Protamine"
+          },
+          "answer": "A",
+          "explanation": "Erythropoietin is used to treat anemia associated with end-stage renal failure.",
+          "concept": "Treatment of anemia — renal case",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY/view",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Drive-grounded clinical case added during logical audit"
         }
       ],
       "eligibility_status": "allowed",
@@ -10734,6 +10854,66 @@
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
           "exam_ready": true
+        },
+        {
+          "id": "ai_1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ_case01",
+          "stem": "A PA chest radiograph shows a transverse cardiac diameter of 16 cm and an internal thoracic diameter of 30 cm. Which interpretation is correct?",
+          "options": {
+            "A": "The cardiothoracic ratio is about 0.53 and exceeds the usual 0.50 limit",
+            "B": "The ratio is about 0.30 and is normal",
+            "C": "The ratio cannot be calculated on a PA view",
+            "D": "The ratio is about 1.9"
+          },
+          "answer": "A",
+          "explanation": "16/30 is approximately 0.53. The lecture uses 0.50 as the usual upper limit on a PA chest radiograph.",
+          "concept": "Radiology case — cardiothoracic ratio",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ/view",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Drive-grounded clinical case added during logical audit"
+        },
+        {
+          "id": "ai_1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ_case02",
+          "stem": "A patient needs direct visualization of suspected narrowing inside a coronary artery after myocardial infarction. Which investigation is most appropriate?",
+          "options": {
+            "A": "Coronary angiography",
+            "B": "Plain abdominal X-ray",
+            "C": "Spirometry",
+            "D": "EEG"
+          },
+          "answer": "A",
+          "explanation": "Coronary angiography uses contrast to visualize the coronary arterial lumen and detect stenosis.",
+          "concept": "Radiology case — coronary lumen",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ/view",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Drive-grounded clinical case added during logical audit"
+        },
+        {
+          "id": "ai_1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ_case03",
+          "stem": "A patient has a cardiac murmur and the clinician wants to assess valve movement and blood-flow direction. Which test is most appropriate?",
+          "options": {
+            "A": "Doppler echocardiography",
+            "B": "Plain chest X-ray only",
+            "C": "PET only",
+            "D": "Bone scan"
+          },
+          "answer": "A",
+          "explanation": "Echocardiography evaluates valve movement, and Doppler adds assessment of blood-flow direction and velocity.",
+          "concept": "Radiology case — valve assessment",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ/view",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Drive-grounded clinical case added during logical audit"
         }
       ],
       "eligibility_status": "allowed",

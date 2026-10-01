@@ -129,6 +129,21 @@ async function testPast(page, mobile) {
     await pastSubject.selectOption('');
   }
 
+  if (await visible(pastSubject)) {
+    const pastSubjects=await pastSubject.locator('option').allTextContents();
+    if(!pastSubjects.includes('Physiology'))throw new Error('Past Papers missing Physiology subject');
+    await pastSubject.selectOption({label:'Physiology'});
+    await page.waitForTimeout(60);
+    const lectureBtn=page.locator('#pastGuideLectureBtn');
+    await click(lectureBtn,'Past Papers Physiology lecture picker');
+    const ecg=page.locator('#pastGuideLecturePanel input[value="physiology__normal-ecg"]');
+    if(!await visible(ecg))throw new Error('Normal ECG missing from Past Papers lecture filter');
+    await ecg.check();
+    await page.waitForTimeout(100);
+    if(await page.locator('#list .qcard').count()<1)throw new Error('Normal ECG filter returns zero Past Paper questions');
+    await pastSubject.selectOption('');
+  }
+
   const mobileFilter = page.locator('[data-mobile-filter-toggle="past"]');
   if (await visible(mobileFilter)) { await mobileFilter.click(); await mobileFilter.click(); }
 
@@ -197,6 +212,25 @@ async function testAI(page, mobile) {
       const cards=page.locator('#aiQuestionList .aiCard');
       if (await cards.count()<1) throw new Error('AI subject has zero questions: '+subjectName);
     }
+
+    await aiSubject.selectOption({label:'Pathology'});
+    await page.waitForTimeout(60);
+    await click(page.locator('#aiGuideLectureBtn'),'AI Pathology lecture picker');
+    const endo=page.locator('#aiGuideLecturePanel input[value="pathology__infective-endocarditis"]');
+    if(!await visible(endo))throw new Error('Infective Endocarditis missing from AI lecture filter');
+    await endo.check();
+    await page.waitForTimeout(100);
+    if(await page.locator('#aiQuestionList .aiCard').count()<1)throw new Error('Infective Endocarditis filter returns zero AI questions');
+
+    await aiSubject.selectOption({label:'Biochemistry'});
+    await page.waitForTimeout(60);
+    await click(page.locator('#aiGuideLectureBtn'),'AI Biochemistry lecture picker');
+    const marker=page.locator('#aiGuideLecturePanel input[value="biochemistry__diagnostic-cardiac-markers"]');
+    if(!await visible(marker))throw new Error('Diagnostic Cardiac Markers missing from AI lecture filter');
+    await marker.check();
+    await page.waitForTimeout(100);
+    if(await page.locator('#aiQuestionList .aiCard').count()<1)throw new Error('Diagnostic Cardiac Markers filter returns zero AI questions');
+
     await aiSubject.selectOption('');
   }
   const mobileFilter = page.locator('[data-mobile-filter-toggle="ai"]');
@@ -345,6 +379,13 @@ async function testProgress(page, mobile) {
   await assertVisible(page, '#progressSection:not(.hidden)', 'Lecture Tracker page');
   if (await page.locator('#homeSection').isVisible()) throw new Error('Home remained visible behind Lecture Tracker');
   await assertVisible(page, '.lectureDashboardCard', 'Lecture dashboard card');
+  const summaryText=await page.locator('#lectureDashboardSummary').innerText();
+  if(!/published lectures/i.test(summaryText))throw new Error('Lecture Tracker summary is not based on published content');
+  const zeroRows=await page.locator('.lectureDashRow:not(.lectureDashColumns)').evaluateAll(rows=>rows.filter(row=>{
+    const cells=row.querySelectorAll('.lectureDashCheckCell small');
+    return cells[1]&&cells[1].textContent.trim()==='0/0';
+  }).length);
+  if(zeroRows)throw new Error('Lecture Tracker contains unpublished 0/0 lecture rows');
 
   const subject = page.locator('#lectureDashSubject');
   if (await visible(subject) && await subject.locator('option').count() > 1) {

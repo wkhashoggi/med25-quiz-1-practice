@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-01T08:42:00.000Z",
+  "generated_at": "2026-10-01T08:52:00.000Z",
   "study_guide_file_id": "1QwRNlO6-zuOQugxyjrhXykOW-YjVtal4",
   "past": {
     "ibls-previous-years-p4-q3-1": {
@@ -11277,6 +11277,111 @@
       "lecture_id": "pharmacology__antiarrhythmic-drugs",
       "subject": "Pharmacology",
       "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_ecg_01": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_ecg_02": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_ecg_03": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_ecg_04": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_ecg_05": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_ecg_06": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_ecg_07": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_ecg_08": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_ecg_09": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_ecg_10": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_ecg_case01": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_ecg_case02": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_ecg_case03": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_ecg_case04": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_ecg_case05": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
       "confidence": 1,
       "method": "drive-source-logical-audit"
     }

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-30T13:41:48.783Z",
+  "generated_at": "2026-10-01T07:50:00.000Z",
   "source_root": {
     "id": "1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
     "url": "https://drive.google.com/drive/folders/1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
@@ -884,7 +884,7 @@
       "source_file_id": "16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x",
       "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk",
       "source_modified_time": "2026-09-13T14:50:50.000Z",
-      "archived": true,
+      "archived": false,
       "cards": [
         {
           "id": "16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x-c01",
@@ -1818,7 +1818,7 @@
       "source_file_id": "1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS",
       "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk",
       "source_modified_time": "2026-09-03T16:22:54.000Z",
-      "archived": true,
+      "archived": false,
       "cards": [
         {
           "id": "1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS-c01",

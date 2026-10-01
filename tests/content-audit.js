@@ -59,6 +59,24 @@ for(const q of past){
 }
 for(const [id,rows] of pastIdGroups)if(rows.length>1)fail('Duplicate Past Paper id: '+id);
 
+const highYield=past.filter(q=>q.high_yield);
+const highYieldBySubject={};
+const highYieldByLecture={};
+for(const q of highYield){
+  const pm=map.past?.[q.id];
+  const subject=pm?.subject||'Unmapped';
+  const lecture=pm?.title||q.topic||'Unknown';
+  highYieldBySubject[subject]=(highYieldBySubject[subject]||0)+1;
+  highYieldByLecture[lecture]=(highYieldByLecture[lecture]||0)+1;
+}
+if(Object.keys(highYieldBySubject).length<5)fail('High-yield pool has collapsed into too few subjects');
+if(highYield.length){
+  const maxSubject=Math.max(...Object.values(highYieldBySubject));
+  const maxLecture=Math.max(...Object.values(highYieldByLecture));
+  if(maxSubject/highYield.length>0.50)fail('More than half of the high-yield pool comes from one subject');
+  if(maxLecture/highYield.length>0.25)fail('More than a quarter of the high-yield pool comes from one lecture');
+}
+
 const activeDecks=(flash.decks||[]).filter(d=>!d.archived&&d.eligibility_status==='allowed');
 const visibleButExcluded=(flash.decks||[]).filter(d=>!d.archived&&d.eligibility_status!=='allowed');
 if(visibleButExcluded.length)fail('Unarchived flashcard decks still logically excluded: '+visibleButExcluded.map(d=>d.title).join(', '));
@@ -105,6 +123,8 @@ for(const subject of (catalog.subjects||[]).map(s=>s.name)){
 const summary={
   pastQuestions:past.length,
   pastMockSafe,
+  highYieldQuestions:highYield.length,
+  highYieldBySubject,
   aiSets:activeSets.length,
   aiQuestions:activeRows.length,
   aiCases:activeRows.filter(x=>x.q.case_style==='formative_short_case').length,

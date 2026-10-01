@@ -441,6 +441,9 @@ async function runOne(browser, device, iteration) {
     await testHome(page,mobile);
     await testProgress(page,mobile);
     await testProfile(page,mobile,device.name);
+    if(iteration===1&&device.name==='ipad'){
+      await page.screenshot({path:'test-artifacts/ipad-profile.png',fullPage:true});
+    }
     await testPast(page,mobile);
     await testAI(page,mobile);
     await testMistakeQuiz(page,mobile);
@@ -456,10 +459,6 @@ async function runOne(browser, device, iteration) {
 
     if (errors.length) throw new Error(errors.join('\n'));
     if (iteration===1) {
-      if(device.name==='ipad'){
-        await testProfile(page,false,'ipad');
-        await page.screenshot({path:'test-artifacts/ipad-profile.png',fullPage:true});
-      }
       await goHome(page,mobile);
       await page.screenshot({path:'test-artifacts/'+device.name+'-home.png',fullPage:true});
       if (mobile) await click(page.locator('[data-v2-mobile="mock"]'),'screenshot mock');

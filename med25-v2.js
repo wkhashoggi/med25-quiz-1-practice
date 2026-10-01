@@ -20,7 +20,7 @@ const V2_INFO={
   },
   contact:{
     title:'Contact & feedback',
-    body:'<p>For corrections, missing questions, feature requests or account issues, contact the MED25 site admin through the cohort communication channels.</p><h3>Content corrections</h3><p>When reporting a question, include the question wording and lecture if possible so it can be checked quickly.</p>'
+    body:'<div class="v2ContactCard"><span>MED25 site admin</span><b>Waleed Khashoggi</b><a href="tel:+966550466861">+966 55 046 6861</a></div><p>For content corrections, missing questions, feature requests or account issues, contact me directly.</p><h3>Content corrections</h3><p>When reporting a question, include the question wording and lecture if possible so it can be checked quickly.</p>'
   }
 };
 

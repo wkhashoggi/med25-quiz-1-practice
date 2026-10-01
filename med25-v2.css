@@ -761,3 +761,13 @@ button:disabled,input:disabled,select:disabled{cursor:not-allowed!important}
     z-index:1!important;
   }
 }
+
+.v2ContactCard{
+  display:flex;flex-direction:column;gap:3px;
+  margin:12px 0 14px;padding:14px 15px;
+  border:1px solid var(--v2-line);border-radius:13px;background:var(--v2-surface-2)
+}
+.v2ContactCard span{font-size:9px;font-weight:850;letter-spacing:.08em;text-transform:uppercase;color:var(--v2-subtle)}
+.v2ContactCard b{font-size:14px;color:var(--v2-text)}
+.v2ContactCard a{width:max-content;font-size:13px;font-weight:750;color:var(--v2-accent);text-decoration:none}
+.v2ContactCard a:hover{text-decoration:underline}

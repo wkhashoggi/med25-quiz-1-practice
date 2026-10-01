@@ -5,6 +5,7 @@ on:
     branches:
       - ui-polish-logo-regression-20260930
       - fix-ipad-profile-sidebar-20261001
+      - logical-content-audit-clean-20261001
       - main
   workflow_dispatch:
 

@@ -24,6 +24,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
+      - name: Run logical content audit
+        run: node tests/content-audit.js
       - name: Install Chromium test runtime
         run: |
           npm install --no-save playwright@latest

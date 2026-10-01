@@ -289,6 +289,17 @@ async function testMock(page, mobile) {
     if (!match || Number(match[1])<1) throw new Error('Mock subject has zero AI questions: '+subjectName);
   }
 
+  const mockLectureTexts=await page.locator('.mockLectureRow').allTextContents();
+  if (mockLectureTexts.some(x=>/\b0\s+AI\b/.test(x))) throw new Error('Mock builder rendered a literal 0 AI lecture');
+
+  for (const lectureName of ['Diagnostic cardiac markers','Antiarrhythmic drugs','White bood cells (WBCs)','Treatment of anemia']) {
+    const row=page.locator('.mockLectureRow').filter({hasText:lectureName}).first();
+    if (!await visible(row)) throw new Error('Mock lecture missing: '+lectureName);
+    const text=await row.innerText();
+    const match=text.match(/(\d+)\s+AI/);
+    if (!match || Number(match[1])<1) throw new Error('Mock lecture has zero AI questions: '+lectureName);
+  }
+
   const count=page.locator('[data-mock-subject-count]').first();
   await count.evaluate(el=>{el.value='2';el.dispatchEvent(new Event('change',{bubbles:true}));});
   const clear=page.locator('#mockClearCounts');

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-01T09:02:00.000Z",
+  "generated_at": "2026-10-01T09:10:00.000Z",
   "study_guide_file_id": "1QwRNlO6-zuOQugxyjrhXykOW-YjVtal4",
   "past": {
     "ibls-previous-years-p4-q3-1": {
@@ -11475,6 +11475,384 @@
       "title": "Diagnostic cardiac markers",
       "confidence": 1,
       "method": "drive-source-logical-audit"
+    },
+    "ai_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9_01": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9_02": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9_03": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9_04": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9_05": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9_06": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9_07": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9_08": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9_09": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9_10": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9_11": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9_12": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9_13": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9_14": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9_case01": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9_case02": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9_case03": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9_case04": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9_case05": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl_01": {
+      "lecture_id": "biochemistry__diagnostic-cardiac-markers",
+      "subject": "Biochemistry",
+      "title": "Diagnostic cardiac markers",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl_02": {
+      "lecture_id": "biochemistry__diagnostic-cardiac-markers",
+      "subject": "Biochemistry",
+      "title": "Diagnostic cardiac markers",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl_03": {
+      "lecture_id": "biochemistry__diagnostic-cardiac-markers",
+      "subject": "Biochemistry",
+      "title": "Diagnostic cardiac markers",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl_04": {
+      "lecture_id": "biochemistry__diagnostic-cardiac-markers",
+      "subject": "Biochemistry",
+      "title": "Diagnostic cardiac markers",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl_05": {
+      "lecture_id": "biochemistry__diagnostic-cardiac-markers",
+      "subject": "Biochemistry",
+      "title": "Diagnostic cardiac markers",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl_06": {
+      "lecture_id": "biochemistry__diagnostic-cardiac-markers",
+      "subject": "Biochemistry",
+      "title": "Diagnostic cardiac markers",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl_07": {
+      "lecture_id": "biochemistry__diagnostic-cardiac-markers",
+      "subject": "Biochemistry",
+      "title": "Diagnostic cardiac markers",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl_08": {
+      "lecture_id": "biochemistry__diagnostic-cardiac-markers",
+      "subject": "Biochemistry",
+      "title": "Diagnostic cardiac markers",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl_09": {
+      "lecture_id": "biochemistry__diagnostic-cardiac-markers",
+      "subject": "Biochemistry",
+      "title": "Diagnostic cardiac markers",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl_10": {
+      "lecture_id": "biochemistry__diagnostic-cardiac-markers",
+      "subject": "Biochemistry",
+      "title": "Diagnostic cardiac markers",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl_case01": {
+      "lecture_id": "biochemistry__diagnostic-cardiac-markers",
+      "subject": "Biochemistry",
+      "title": "Diagnostic cardiac markers",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl_case02": {
+      "lecture_id": "biochemistry__diagnostic-cardiac-markers",
+      "subject": "Biochemistry",
+      "title": "Diagnostic cardiac markers",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl_case03": {
+      "lecture_id": "biochemistry__diagnostic-cardiac-markers",
+      "subject": "Biochemistry",
+      "title": "Diagnostic cardiac markers",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl_case04": {
+      "lecture_id": "biochemistry__diagnostic-cardiac-markers",
+      "subject": "Biochemistry",
+      "title": "Diagnostic cardiac markers",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl_case05": {
+      "lecture_id": "biochemistry__diagnostic-cardiac-markers",
+      "subject": "Biochemistry",
+      "title": "Diagnostic cardiac markers",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_01": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_02": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_03": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_04": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_05": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_06": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_07": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_08": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_09": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_10": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_case01": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_case02": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_case03": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_case04": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_case05": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_case06": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_case07": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_case08": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_case09": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
+    },
+    "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_case10": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "stable-source-id-repair"
     }
   },
   "audit_note": "IBLS/CVS/Formative are provenance only. Past and AI questions are organized by official Study Guide subject and lecture. New combined antihypertensive content is split across official lecture 1/2 by objectives. Visible formative-style AI cases inherit the already-audited parent lecture mapping."

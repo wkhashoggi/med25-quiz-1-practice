@@ -576,3 +576,157 @@ button:disabled,input:disabled,select:disabled{cursor:not-allowed!important}
   .v2StandaloneIntro{align-items:flex-start}
   .v2StandaloneBack{min-height:38px;padding:7px 10px;font-size:11px}
 }
+
+
+/* MED25 v2.3 — iPad profile + sidebar refinement */
+.studyTab{
+  display:grid!important;
+  grid-template-columns:26px minmax(0,1fr)!important;
+  align-items:center!important;
+  column-gap:10px!important;
+}
+.studyTab .navIcon{
+  width:26px!important;
+  height:26px!important;
+  display:grid!important;
+  place-items:center!important;
+  flex:0 0 26px!important;
+  margin:0!important;
+}
+.studyTab .navIcon svg,
+.studyTab .navIcon .navSvg{
+  width:19px!important;
+  height:19px!important;
+  margin:0!important;
+  display:block!important;
+}
+.studyTab>span:not(.navIcon):not(.quizNavBadge){
+  min-width:0;
+  text-align:left;
+  line-height:1.25;
+}
+.v2NavSection{
+  padding-left:46px!important;
+  padding-right:8px!important;
+}
+.v2ProfileCard .gameLeaderboardToggle{
+  display:none!important;
+}
+
+#profileAuthSlot #authSignedOut .authrow{
+  display:grid!important;
+  grid-template-columns:minmax(0,1fr) minmax(0,1fr)!important;
+  gap:10px!important;
+  width:100%!important;
+}
+#profileAuthSlot #authSignedOut .authrow>input,
+#profileAuthSlot #authSignedOut .authrow>button{
+  width:100%!important;
+  min-width:0!important;
+  margin:0!important;
+}
+#profileAuthSlot #authSignedOut .authrow>input{
+  min-height:46px!important;
+  padding:10px 12px!important;
+}
+#profileAuthSlot #authSignedOut .authrow>button{
+  min-height:44px!important;
+}
+#profileAuthSlot #authSignedIn .authrow{
+  display:grid!important;
+  grid-template-columns:minmax(0,1fr) auto!important;
+  gap:10px!important;
+  align-items:center!important;
+}
+#profileAuthSlot #authSignedIn .authrow>div{
+  min-width:0!important;
+}
+#profileAuthSlot #authSignedIn .authrow button{
+  min-width:110px!important;
+}
+
+@media(min-width:821px) and (max-width:1280px){
+  :root{--v2-sidebar:214px}
+  .studyTabs.appNav{
+    left:14px!important;
+    top:14px!important;
+    bottom:14px!important;
+    padding:14px 10px!important;
+    border-radius:20px!important;
+  }
+  .shell{
+    margin-left:calc(var(--v2-sidebar) + 32px)!important;
+    padding:24px 24px 56px!important;
+  }
+  .appBrand{
+    padding-left:8px!important;
+    padding-right:8px!important;
+  }
+  .appNavLinks{
+    gap:2px!important;
+    padding:2px 0!important;
+  }
+  .studyTab{
+    min-height:43px!important;
+    padding:8px 9px!important;
+    grid-template-columns:26px minmax(0,1fr)!important;
+    column-gap:9px!important;
+    font-size:12.5px!important;
+  }
+  .v2NavSection{
+    padding-top:11px!important;
+    padding-bottom:4px!important;
+    padding-left:44px!important;
+    font-size:9px!important;
+  }
+  .v2SidebarMeta{
+    padding-left:9px!important;
+    font-size:9px!important;
+  }
+
+  #profileSection{
+    max-width:940px!important;
+  }
+  #profileSection .v2StandaloneIntro{
+    margin-bottom:13px!important;
+  }
+  #profileSection .v2ProfileGrid{
+    grid-template-columns:1fr!important;
+    gap:12px!important;
+  }
+  #profileSection .v2AccountCard{
+    order:1!important;
+    min-height:0!important;
+    padding:20px!important;
+  }
+  #profileSection .v2ProfileCard{
+    order:2!important;
+    min-height:0!important;
+    padding:20px!important;
+  }
+  #profileSection .v2AccountIntro{
+    max-width:720px!important;
+    margin-bottom:16px!important;
+  }
+  #profileAuthSlot .authbox.homeAuthBox{
+    width:100%!important;
+  }
+  #profileAuthSlot #authSignedOut{
+    width:100%!important;
+  }
+  #profileAuthSlot #authSignedOut .authrow{
+    grid-template-columns:minmax(220px,1fr) minmax(220px,1fr)!important;
+  }
+  #profileAuthSlot .authmeta{
+    margin-top:10px!important;
+    max-width:760px!important;
+    line-height:1.45!important;
+  }
+  #profileAppearanceSlot{
+    margin-top:14px!important;
+    max-width:320px!important;
+  }
+  .v2ProfileCard .gameProfilePanel{
+    margin-top:10px!important;
+  }
+}

@@ -730,3 +730,34 @@ button:disabled,input:disabled,select:disabled{cursor:not-allowed!important}
     margin-top:10px!important;
   }
 }
+
+
+/* iPad study pages: prevent sidebar/toolbar overlap with question navigation */
+@media(min-width:821px) and (max-width:1280px){
+  .panel,.aiLayout{
+    grid-template-columns:minmax(0,1fr)!important;
+    gap:12px!important;
+  }
+  .sidebar,.aiSidebar{
+    order:-1!important;
+    width:100%!important;
+    max-width:none!important;
+    position:static!important;
+    top:auto!important;
+    display:grid!important;
+    grid-template-columns:repeat(3,minmax(0,1fr))!important;
+    gap:10px!important;
+  }
+  .toolbar,.aiToolbar{
+    position:static!important;
+    top:auto!important;
+  }
+  .sidebar .box,.aiSidebar .aiBox{
+    min-width:0!important;
+    height:auto!important;
+  }
+  .aiPager{
+    position:relative!important;
+    z-index:1!important;
+  }
+}

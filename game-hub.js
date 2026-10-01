@@ -274,18 +274,37 @@ function gameSetProfileStatus(msg,error=false){
   if(el){el.textContent=msg||'';el.classList.toggle('error',!!error)}
 }
 
+function gameDefaultUsername(user,fallback=false){
+  const rawLocal=String(user?.email||'').split('@')[0];
+  const clean=rawLocal.replace(/[^A-Za-z0-9_.-]+/g,'_').replace(/^[._-]+|[._-]+$/g,'');
+  const id=String(user?.id||'').replace(/-/g,'');
+  if(fallback){
+    const stem=(clean||id||'student').slice(0,11);
+    return 'MED25_'+stem+'_'+(id.slice(0,6)||'user01');
+  }
+  return 'MED25_'+(clean||id||'student').slice(0,18);
+}
+
 async function gameEnsureProfile(){
   if(!currentUser||!authSession?.access_token)return null;
   const res=await supaFetch('/rest/v1/game_profiles?user_id=eq.'+encodeURIComponent(currentUser.id)+'&select=*');
   if(!res.ok)throw new Error(await res.text());
   let rows=await res.json();
   if(!rows.length){
-    const username='med25_'+String(currentUser.id).replace(/-/g,'').slice(0,10);
-    const create=await supaFetch('/rest/v1/game_profiles',{
+    let username=gameDefaultUsername(currentUser);
+    let create=await supaFetch('/rest/v1/game_profiles',{
       method:'POST',
       headers:{Prefer:'return=representation'},
       body:JSON.stringify({user_id:currentUser.id,username,leaderboard_visible:true})
     });
+    if(create.status===409){
+      username=gameDefaultUsername(currentUser,true);
+      create=await supaFetch('/rest/v1/game_profiles',{
+        method:'POST',
+        headers:{Prefer:'return=representation'},
+        body:JSON.stringify({user_id:currentUser.id,username,leaderboard_visible:true})
+      });
+    }
     if(!create.ok)throw new Error(await create.text());
     rows=await create.json();
   }

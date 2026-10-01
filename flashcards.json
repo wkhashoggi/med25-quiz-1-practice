@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-01T08:20:00.000Z",
+  "generated_at": "2026-10-01T08:28:00.000Z",
   "source_root": {
     "id": "1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
     "url": "https://drive.google.com/drive/folders/1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
@@ -1029,10 +1029,9 @@
         }
       ],
       "needs_source_validation": false,
-      "source_validation_date": "2026-09-27",
-      "eligibility_status": "excluded",
-      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
-      "exclusion_reason": "Excluded: no matching Interactive Lecture, Flipped Class, or Online Lecture topic in the official Study Guide; current official cardiac physiology topics are handled in their mapped lecture sets."
+      "source_validation_date": "2026-10-01",
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027 + current MED25 Drive logical audit"
     },
     {
       "id": "drive_1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX",
@@ -1941,10 +1940,10 @@
           "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk"
         }
       ],
-      "needs_source_validation": true,
-      "eligibility_status": "excluded",
-      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
-      "exclusion_reason": "Excluded: no matching Interactive Lecture, Flipped Class, or Online Lecture topic in the official Study Guide."
+      "needs_source_validation": false,
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027 + current MED25 Drive logical audit",
+      "source_validation_date": "2026-10-01"
     },
     {
       "id": "drive_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK",
@@ -2157,9 +2156,9 @@
         }
       ],
       "needs_source_validation": false,
-      "eligibility_status": "excluded",
-      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
-      "exclusion_reason": "Excluded: official Study Guide classifies Physiology of WBCs as CBD."
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027 + current MED25 Drive logical audit",
+      "source_validation_date": "2026-10-01"
     },
     {
       "id": "drive_1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn",
@@ -5641,10 +5640,10 @@
           "source_url": "https://drive.google.com/file/d/1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY/view?usp=drivesdk"
         }
       ],
-      "needs_source_validation": true,
-      "eligibility_status": "excluded",
-      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
-      "exclusion_reason": "Excluded: Treatment of anemia is SPP2 in the official 2026-2027 module map."
+      "needs_source_validation": false,
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027 + current MED25 Drive logical audit",
+      "source_validation_date": "2026-10-01"
     },
     {
       "id": "drive_1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D",
@@ -6044,10 +6043,10 @@
           "source_url": "https://drive.google.com/file/d/1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ/view?usp=drivesdk"
         }
       ],
-      "needs_source_validation": true,
-      "eligibility_status": "excluded",
-      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
-      "exclusion_reason": "Excluded: Radiological Anatomy of the heart and its great vessels is SPP5 in the official 2026-2027 module map."
+      "needs_source_validation": false,
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027 + current MED25 Drive logical audit",
+      "source_validation_date": "2026-10-01"
     },
     {
       "id": "drive_1N29pF27p1UfkP79gdlrUFW-5WiTtgnEC",

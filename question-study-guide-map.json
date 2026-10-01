@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-01T07:55:00.000Z",
+  "generated_at": "2026-10-01T08:08:00.000Z",
   "study_guide_file_id": "1QwRNlO6-zuOQugxyjrhXykOW-YjVtal4",
   "past": {
     "ibls-previous-years-p4-q3-1": {
@@ -6245,56 +6245,56 @@
       "subject": "Physiology",
       "title": "Regulation of ABP (Intermediate and long-term Regulation)",
       "confidence": 1,
-      "method": "source-title"
+      "method": "source-title-repair"
     },
     "ai_1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX_02": {
       "lecture_id": "physiology__regulation-of-abp-intermediate-and-long-term-regulation",
       "subject": "Physiology",
       "title": "Regulation of ABP (Intermediate and long-term Regulation)",
       "confidence": 1,
-      "method": "source-title"
+      "method": "source-title-repair"
     },
     "ai_1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX_03": {
       "lecture_id": "physiology__regulation-of-abp-intermediate-and-long-term-regulation",
       "subject": "Physiology",
       "title": "Regulation of ABP (Intermediate and long-term Regulation)",
       "confidence": 1,
-      "method": "source-title"
+      "method": "source-title-repair"
     },
     "ai_1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX_04": {
       "lecture_id": "physiology__regulation-of-abp-intermediate-and-long-term-regulation",
       "subject": "Physiology",
       "title": "Regulation of ABP (Intermediate and long-term Regulation)",
       "confidence": 1,
-      "method": "source-title"
+      "method": "source-title-repair"
     },
     "ai_1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX_05": {
       "lecture_id": "physiology__regulation-of-abp-intermediate-and-long-term-regulation",
       "subject": "Physiology",
       "title": "Regulation of ABP (Intermediate and long-term Regulation)",
       "confidence": 1,
-      "method": "source-title"
+      "method": "source-title-repair"
     },
     "ai_1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX_06": {
       "lecture_id": "physiology__regulation-of-abp-intermediate-and-long-term-regulation",
       "subject": "Physiology",
       "title": "Regulation of ABP (Intermediate and long-term Regulation)",
       "confidence": 1,
-      "method": "source-title"
+      "method": "source-title-repair"
     },
     "ai_1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX_07": {
       "lecture_id": "physiology__regulation-of-abp-intermediate-and-long-term-regulation",
       "subject": "Physiology",
       "title": "Regulation of ABP (Intermediate and long-term Regulation)",
       "confidence": 1,
-      "method": "source-title"
+      "method": "source-title-repair"
     },
     "ai_1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX_08": {
       "lecture_id": "physiology__regulation-of-abp-intermediate-and-long-term-regulation",
       "subject": "Physiology",
       "title": "Regulation of ABP (Intermediate and long-term Regulation)",
       "confidence": 1,
-      "method": "source-title"
+      "method": "source-title-repair"
     },
     "ai_1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9_01": {
       "lecture_id": "physiology__short-term-regulation-of-arterial-blood-pressure",
@@ -6413,112 +6413,112 @@
       "subject": "Physiology",
       "title": "Physiology of coronary circulation",
       "confidence": 1,
-      "method": "official-parent-lecture"
+      "method": "source-title-repair"
     },
     "ai_13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0_02": {
       "lecture_id": "physiology__physiology-of-coronary-circulation",
       "subject": "Physiology",
       "title": "Physiology of coronary circulation",
       "confidence": 1,
-      "method": "official-parent-lecture"
+      "method": "source-title-repair"
     },
     "ai_13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0_03": {
       "lecture_id": "physiology__physiology-of-coronary-circulation",
       "subject": "Physiology",
       "title": "Physiology of coronary circulation",
       "confidence": 1,
-      "method": "official-parent-lecture"
+      "method": "source-title-repair"
     },
     "ai_13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0_04": {
       "lecture_id": "physiology__physiology-of-coronary-circulation",
       "subject": "Physiology",
       "title": "Physiology of coronary circulation",
       "confidence": 1,
-      "method": "official-parent-lecture"
+      "method": "source-title-repair"
     },
     "ai_13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0_05": {
       "lecture_id": "physiology__physiology-of-coronary-circulation",
       "subject": "Physiology",
       "title": "Physiology of coronary circulation",
       "confidence": 1,
-      "method": "official-parent-lecture"
+      "method": "source-title-repair"
     },
     "ai_13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0_06": {
       "lecture_id": "physiology__physiology-of-coronary-circulation",
       "subject": "Physiology",
       "title": "Physiology of coronary circulation",
       "confidence": 1,
-      "method": "official-parent-lecture"
+      "method": "source-title-repair"
     },
     "ai_13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0_07": {
       "lecture_id": "physiology__physiology-of-coronary-circulation",
       "subject": "Physiology",
       "title": "Physiology of coronary circulation",
       "confidence": 1,
-      "method": "official-parent-lecture"
+      "method": "source-title-repair"
     },
     "ai_13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0_08": {
       "lecture_id": "physiology__physiology-of-coronary-circulation",
       "subject": "Physiology",
       "title": "Physiology of coronary circulation",
       "confidence": 1,
-      "method": "official-parent-lecture"
+      "method": "source-title-repair"
     },
     "ai_1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2_01": {
       "lecture_id": "physiology__cardiac-automaticity-excitability-cardiac-conductivity",
       "subject": "Physiology",
       "title": "Cardiac automaticity, excitability, cardiac conductivity",
       "confidence": 1,
-      "method": "official-parent-lecture"
+      "method": "source-title-repair"
     },
     "ai_1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2_02": {
       "lecture_id": "physiology__cardiac-automaticity-excitability-cardiac-conductivity",
       "subject": "Physiology",
       "title": "Cardiac automaticity, excitability, cardiac conductivity",
       "confidence": 1,
-      "method": "official-parent-lecture"
+      "method": "source-title-repair"
     },
     "ai_1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2_03": {
       "lecture_id": "physiology__cardiac-automaticity-excitability-cardiac-conductivity",
       "subject": "Physiology",
       "title": "Cardiac automaticity, excitability, cardiac conductivity",
       "confidence": 1,
-      "method": "official-parent-lecture"
+      "method": "source-title-repair"
     },
     "ai_1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2_04": {
       "lecture_id": "physiology__cardiac-automaticity-excitability-cardiac-conductivity",
       "subject": "Physiology",
       "title": "Cardiac automaticity, excitability, cardiac conductivity",
       "confidence": 1,
-      "method": "official-parent-lecture"
+      "method": "source-title-repair"
     },
     "ai_1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2_05": {
       "lecture_id": "physiology__cardiac-automaticity-excitability-cardiac-conductivity",
       "subject": "Physiology",
       "title": "Cardiac automaticity, excitability, cardiac conductivity",
       "confidence": 1,
-      "method": "official-parent-lecture"
+      "method": "source-title-repair"
     },
     "ai_1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2_06": {
       "lecture_id": "physiology__cardiac-automaticity-excitability-cardiac-conductivity",
       "subject": "Physiology",
       "title": "Cardiac automaticity, excitability, cardiac conductivity",
       "confidence": 1,
-      "method": "official-parent-lecture"
+      "method": "source-title-repair"
     },
     "ai_1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2_07": {
       "lecture_id": "physiology__cardiac-automaticity-excitability-cardiac-conductivity",
       "subject": "Physiology",
       "title": "Cardiac automaticity, excitability, cardiac conductivity",
       "confidence": 1,
-      "method": "official-parent-lecture"
+      "method": "source-title-repair"
     },
     "ai_1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2_08": {
       "lecture_id": "physiology__cardiac-automaticity-excitability-cardiac-conductivity",
       "subject": "Physiology",
       "title": "Cardiac automaticity, excitability, cardiac conductivity",
       "confidence": 1,
-      "method": "official-parent-lecture"
+      "method": "source-title-repair"
     },
     "ai_1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS_01": {
       "lecture_id": "physiology__physiology-of-hemostasis",
@@ -6742,56 +6742,56 @@
       "subject": "Physiology",
       "title": "Anemia and polycythemia",
       "confidence": 1,
-      "method": "source-title"
+      "method": "source-title-repair"
     },
     "ai_14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn_02": {
       "lecture_id": "physiology__anemia-and-polycythemia",
       "subject": "Physiology",
       "title": "Anemia and polycythemia",
       "confidence": 1,
-      "method": "source-title"
+      "method": "source-title-repair"
     },
     "ai_14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn_03": {
       "lecture_id": "physiology__anemia-and-polycythemia",
       "subject": "Physiology",
       "title": "Anemia and polycythemia",
       "confidence": 1,
-      "method": "source-title"
+      "method": "source-title-repair"
     },
     "ai_14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn_04": {
       "lecture_id": "physiology__anemia-and-polycythemia",
       "subject": "Physiology",
       "title": "Anemia and polycythemia",
       "confidence": 1,
-      "method": "source-title"
+      "method": "source-title-repair"
     },
     "ai_14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn_05": {
       "lecture_id": "physiology__anemia-and-polycythemia",
       "subject": "Physiology",
       "title": "Anemia and polycythemia",
       "confidence": 1,
-      "method": "source-title"
+      "method": "source-title-repair"
     },
     "ai_14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn_06": {
       "lecture_id": "physiology__anemia-and-polycythemia",
       "subject": "Physiology",
       "title": "Anemia and polycythemia",
       "confidence": 1,
-      "method": "source-title"
+      "method": "source-title-repair"
     },
     "ai_14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn_07": {
       "lecture_id": "physiology__anemia-and-polycythemia",
       "subject": "Physiology",
       "title": "Anemia and polycythemia",
       "confidence": 1,
-      "method": "source-title"
+      "method": "source-title-repair"
     },
     "ai_14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn_08": {
       "lecture_id": "physiology__anemia-and-polycythemia",
       "subject": "Physiology",
       "title": "Anemia and polycythemia",
       "confidence": 1,
-      "method": "source-title"
+      "method": "source-title-repair"
     },
     "ai_1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov_01": {
       "lecture_id": "biochemistry__cholesterol-metabolism",
@@ -9913,126 +9913,126 @@
       "subject": "Physiology",
       "title": "Physiology of coronary circulation",
       "confidence": 1,
-      "method": "official-parent-lecture"
+      "method": "source-title-repair"
     },
     "ai_13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0_10": {
       "lecture_id": "physiology__physiology-of-coronary-circulation",
       "subject": "Physiology",
       "title": "Physiology of coronary circulation",
       "confidence": 1,
-      "method": "official-parent-lecture"
+      "method": "source-title-repair"
     },
     "ai_13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0_11": {
       "lecture_id": "physiology__physiology-of-coronary-circulation",
       "subject": "Physiology",
       "title": "Physiology of coronary circulation",
       "confidence": 1,
-      "method": "official-parent-lecture"
+      "method": "source-title-repair"
     },
     "ai_13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0_12": {
       "lecture_id": "physiology__physiology-of-coronary-circulation",
       "subject": "Physiology",
       "title": "Physiology of coronary circulation",
       "confidence": 1,
-      "method": "official-parent-lecture"
+      "method": "source-title-repair"
     },
     "ai_13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0_13": {
       "lecture_id": "physiology__physiology-of-coronary-circulation",
       "subject": "Physiology",
       "title": "Physiology of coronary circulation",
       "confidence": 1,
-      "method": "official-parent-lecture"
+      "method": "source-title-repair"
     },
     "ai_13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0_14": {
       "lecture_id": "physiology__physiology-of-coronary-circulation",
       "subject": "Physiology",
       "title": "Physiology of coronary circulation",
       "confidence": 1,
-      "method": "official-parent-lecture"
+      "method": "source-title-repair"
     },
     "ai_13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0_15": {
       "lecture_id": "physiology__physiology-of-coronary-circulation",
       "subject": "Physiology",
       "title": "Physiology of coronary circulation",
       "confidence": 1,
-      "method": "official-parent-lecture"
+      "method": "source-title-repair"
     },
     "ai_13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0_16": {
       "lecture_id": "physiology__physiology-of-coronary-circulation",
       "subject": "Physiology",
       "title": "Physiology of coronary circulation",
       "confidence": 1,
-      "method": "official-parent-lecture"
+      "method": "source-title-repair"
     },
     "ai_1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2_09": {
       "lecture_id": "physiology__cardiac-automaticity-excitability-cardiac-conductivity",
       "subject": "Physiology",
       "title": "Cardiac automaticity, excitability, cardiac conductivity",
       "confidence": 1,
-      "method": "official-parent-lecture"
+      "method": "source-title-repair"
     },
     "ai_1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2_10": {
       "lecture_id": "physiology__cardiac-automaticity-excitability-cardiac-conductivity",
       "subject": "Physiology",
       "title": "Cardiac automaticity, excitability, cardiac conductivity",
       "confidence": 1,
-      "method": "official-parent-lecture"
+      "method": "source-title-repair"
     },
     "ai_1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2_11": {
       "lecture_id": "physiology__cardiac-automaticity-excitability-cardiac-conductivity",
       "subject": "Physiology",
       "title": "Cardiac automaticity, excitability, cardiac conductivity",
       "confidence": 1,
-      "method": "official-parent-lecture"
+      "method": "source-title-repair"
     },
     "ai_1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2_12": {
       "lecture_id": "physiology__cardiac-automaticity-excitability-cardiac-conductivity",
       "subject": "Physiology",
       "title": "Cardiac automaticity, excitability, cardiac conductivity",
       "confidence": 1,
-      "method": "official-parent-lecture"
+      "method": "source-title-repair"
     },
     "ai_1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2_13": {
       "lecture_id": "physiology__cardiac-automaticity-excitability-cardiac-conductivity",
       "subject": "Physiology",
       "title": "Cardiac automaticity, excitability, cardiac conductivity",
       "confidence": 1,
-      "method": "official-parent-lecture"
+      "method": "source-title-repair"
     },
     "ai_1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2_14": {
       "lecture_id": "physiology__cardiac-automaticity-excitability-cardiac-conductivity",
       "subject": "Physiology",
       "title": "Cardiac automaticity, excitability, cardiac conductivity",
       "confidence": 1,
-      "method": "official-parent-lecture"
+      "method": "source-title-repair"
     },
     "ai_1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2_15": {
       "lecture_id": "physiology__cardiac-automaticity-excitability-cardiac-conductivity",
       "subject": "Physiology",
       "title": "Cardiac automaticity, excitability, cardiac conductivity",
       "confidence": 1,
-      "method": "official-parent-lecture"
+      "method": "source-title-repair"
     },
     "ai_1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2_16": {
       "lecture_id": "physiology__cardiac-automaticity-excitability-cardiac-conductivity",
       "subject": "Physiology",
       "title": "Cardiac automaticity, excitability, cardiac conductivity",
       "confidence": 1,
-      "method": "official-parent-lecture"
+      "method": "source-title-repair"
     },
     "ai_1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2_17": {
       "lecture_id": "physiology__cardiac-automaticity-excitability-cardiac-conductivity",
       "subject": "Physiology",
       "title": "Cardiac automaticity, excitability, cardiac conductivity",
       "confidence": 1,
-      "method": "official-parent-lecture"
+      "method": "source-title-repair"
     },
     "ai_1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2_18": {
       "lecture_id": "physiology__cardiac-automaticity-excitability-cardiac-conductivity",
       "subject": "Physiology",
       "title": "Cardiac automaticity, excitability, cardiac conductivity",
       "confidence": 1,
-      "method": "official-parent-lecture"
+      "method": "source-title-repair"
     },
     "ai_1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b_09": {
       "lecture_id": "biochemistry__plasma-lipoproteins",
@@ -10291,7 +10291,7 @@
       "subject": "Physiology",
       "title": "Regulation of ABP (Intermediate and long-term Regulation)",
       "confidence": 1,
-      "method": "source-set-repair"
+      "method": "source-title-repair"
     },
     "ai_1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg_formcase01": {
       "lecture_id": "physiology__physiological-organization-of-cvs",
@@ -10312,7 +10312,7 @@
       "subject": "Physiology",
       "title": "Anemia and polycythemia",
       "confidence": 1,
-      "method": "source-set-repair"
+      "method": "source-title-repair"
     },
     "ai_1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov_09": {
       "lecture_id": "biochemistry__cholesterol-metabolism",

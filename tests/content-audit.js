@@ -59,7 +59,9 @@ for(const q of past){
 }
 for(const [id,rows] of pastIdGroups)if(rows.length>1)fail('Duplicate Past Paper id: '+id);
 
-const activeDecks=(flash.decks||[]).filter(d=>!d.archived);
+const activeDecks=(flash.decks||[]).filter(d=>!d.archived&&d.eligibility_status==='allowed');
+const visibleButExcluded=(flash.decks||[]).filter(d=>!d.archived&&d.eligibility_status!=='allowed');
+if(visibleButExcluded.length)fail('Unarchived flashcard decks still logically excluded: '+visibleButExcluded.map(d=>d.title).join(', '));
 const deckIds=new Set(),cardIds=new Set();
 for(const d of activeDecks){
   if(deckIds.has(d.id))fail('Duplicate flashcard deck id: '+d.id);deckIds.add(d.id);

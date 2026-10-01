@@ -1,0 +1,558 @@
+{
+  "generated_at": "2026-10-01T07:50:00.000Z",
+  "purpose": "Current MED25 Drive sources that must never silently fall to zero AI coverage.",
+  "current_drive_sources": [
+    {
+      "subject": "Physiology",
+      "title": "CVS cardiac cycle short.ppt",
+      "drive_file_id": "1Bxpdr7P5CPgwQMW5UITveipcTzdPo4CY",
+      "ai_source_file_id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5",
+      "lecture_ids": [
+        "physiology__cardiac-cycle"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Physiology",
+      "title": "1-Vascular endothelium 26.pdf",
+      "drive_file_id": "1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf",
+      "ai_source_file_id": "1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf",
+      "lecture_ids": [
+        "physiology__physiology-of-vascular-endothelium"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Physiology",
+      "title": "Intermediate and Long-Term Regulation of ABP 2.pdf",
+      "drive_file_id": "1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX",
+      "ai_source_file_id": "1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX",
+      "lecture_ids": [
+        "physiology__regulation-of-abp-intermediate-and-long-term-regulation"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Physiology",
+      "title": "Short-Term Regulation of Arterial Blood Pressure 20-9-2026.pdf",
+      "drive_file_id": "1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9",
+      "ai_source_file_id": "1hUhRX6NQW4vC0QZctlopDFzZB_vh7U3h",
+      "lecture_ids": [
+        "physiology__regulation-of-abp-cv-centers-short-term-regulation"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Physiology",
+      "title": "MZ 1- Physiological organization of CVS.ppt",
+      "drive_file_id": "1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg",
+      "ai_source_file_id": "1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg",
+      "lecture_ids": [
+        "physiology__physiological-organization-of-cvs"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Physiology",
+      "title": "cornoray circulation.pptx",
+      "drive_file_id": "13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0",
+      "ai_source_file_id": "13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0",
+      "lecture_ids": [
+        "physiology__physiology-of-coronary-circulation"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Physiology",
+      "title": "MZ 3- Heart as a pump.pdf",
+      "drive_file_id": "16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x",
+      "ai_source_file_id": "16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x",
+      "lecture_ids": [
+        "physiology__cardiac-contractility"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Physiology",
+      "title": "MZ 2- Cardiac Excitability & Automaticity.pdf",
+      "drive_file_id": "1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2",
+      "ai_source_file_id": "1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2",
+      "lecture_ids": [
+        "physiology__cardiac-automaticity-excitability-cardiac-conductivity"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Physiology",
+      "title": "Hemostasis Disorders and Anticoagulants.pdf",
+      "drive_file_id": "1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS",
+      "ai_source_file_id": "1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS",
+      "lecture_ids": [
+        "physiology__physiology-of-hemostasis"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Physiology",
+      "title": "Physiology of WBCs.pptx",
+      "drive_file_id": "1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK",
+      "ai_source_file_id": "1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK",
+      "lecture_ids": [
+        "physiology__white-bood-cells-wbcs"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Physiology",
+      "title": "Hemostasis I.pptx",
+      "drive_file_id": "1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn",
+      "ai_source_file_id": "1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn",
+      "lecture_ids": [
+        "physiology__physiology-of-hemostasis"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Physiology",
+      "title": "physiology of RBCs.pptx",
+      "drive_file_id": "1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV",
+      "ai_source_file_id": "1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV",
+      "lecture_ids": [
+        "physiology__physiology-of-red-blood-cells"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Physiology",
+      "title": "Anemias and polycythemia.pptx",
+      "drive_file_id": "14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn",
+      "ai_source_file_id": "14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn",
+      "lecture_ids": [
+        "physiology__anemia-and-polycythemia"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Biochemistry",
+      "title": "5- Plasma lipoprotein metabolism TH.pdf",
+      "drive_file_id": "1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b",
+      "ai_source_file_id": "1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b",
+      "lecture_ids": [
+        "biochemistry__plasma-lipoproteins"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Biochemistry",
+      "title": "Disorders of plasma lipoproteins.pdf",
+      "drive_file_id": "1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo",
+      "ai_source_file_id": "1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo",
+      "lecture_ids": [
+        "biochemistry__disorders-of-plasma-lipoproteins"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Biochemistry",
+      "title": "Metabolism of Cholesterol.pdf",
+      "drive_file_id": "1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov",
+      "ai_source_file_id": "1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov",
+      "lecture_ids": [
+        "biochemistry__cholesterol-metabolism"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Biochemistry",
+      "title": "L Heme catabolism 26-27-Dr. Hoda Gad.pdf",
+      "drive_file_id": "1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs",
+      "ai_source_file_id": "1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs",
+      "lecture_ids": [
+        "biochemistry__heme-catabolism"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Biochemistry",
+      "title": "L Heme synthesis 26-27-Dr. Hoda Gad.pdf",
+      "drive_file_id": "1akREae-VDZN_QNeQlrnBruB1ML_EVnFr",
+      "ai_source_file_id": "1akREae-VDZN_QNeQlrnBruB1ML_EVnFr",
+      "lecture_ids": [
+        "biochemistry__haem-synthesis"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Biochemistry",
+      "title": "FC Plasma Proteins 26-27-Dr. Hoda Gad.pdf",
+      "drive_file_id": "1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj",
+      "ai_source_file_id": "1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj",
+      "lecture_ids": [
+        "biochemistry__plasma-proteins"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Biochemistry",
+      "title": "L6 Diagnostic cardiac markers TH.pdf",
+      "drive_file_id": "1c2Nwj9UHqQfBRamammBSsSisGK47zD7B",
+      "ai_source_file_id": "1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl",
+      "lecture_ids": [
+        "biochemistry__diagnostic-cardiac-markers"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Hematology",
+      "title": "Hemolytic anemia third year 2.pdf",
+      "drive_file_id": "1jODBvDorJgQ42QRYX75ODeTVk6Lr3lLe",
+      "ai_source_file_id": "1jODBvDorJgQ42QRYX75ODeTVk6Lr3lLe",
+      "lecture_ids": [
+        "hematology__hemolytic-anemia"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Pathology",
+      "title": "L8-HTN 2026-2027.pdf",
+      "drive_file_id": "1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP",
+      "ai_source_file_id": "1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP",
+      "lecture_ids": [
+        "pathology__pathology-of-hypertension"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Pathology",
+      "title": "L6,7-Vasculitis and vascular & cardiac tumours 2026-2027.pdf",
+      "drive_file_id": "1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6",
+      "ai_source_file_id": "1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6",
+      "lecture_ids": [
+        "pathology__vasculitis",
+        "pathology__cardiac-and-vascular-tumours"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Pathology",
+      "title": "L5-Myocarditis_and_Pericardial_Diseases_2026.pdf",
+      "drive_file_id": "1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0",
+      "ai_source_file_id": "1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0",
+      "lecture_ids": [
+        "pathology__myocarditis-and-pericardial-diseases"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Pathology",
+      "title": "L3-Ischemic heart disease (I) 2026-2027.pdf",
+      "drive_file_id": "12RXyb80ciEfihQ-258N_uk1EwrjTTI83",
+      "ai_source_file_id": "12RXyb80ciEfihQ-258N_uk1EwrjTTI83",
+      "lecture_ids": [
+        "pathology__ischemic-heart-disease-1"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Pathology",
+      "title": "L4-Ischemic Heart Disease (II) 2026-2027.pdf",
+      "drive_file_id": "1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31",
+      "ai_source_file_id": "1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31",
+      "lecture_ids": [
+        "pathology__ischemic-heart-disease-2"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Pathology",
+      "title": "L1-Lymphoadenopathy 2026-2027.pdf",
+      "drive_file_id": "10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh",
+      "ai_source_file_id": "10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh",
+      "lecture_ids": [
+        "pathology__lymphadenopathy"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Pathology",
+      "title": "L2-Atherosclerosis 2026-2027.pdf",
+      "drive_file_id": "1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR",
+      "ai_source_file_id": "1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR",
+      "lecture_ids": [
+        "pathology__atherosclerosis-aneurysm"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Pharmacology",
+      "title": "10-Antiarrhythmic drugs.pdf",
+      "drive_file_id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ",
+      "ai_source_file_id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ",
+      "lecture_ids": [
+        "pharmacology__antiarrhythmic-drugs"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Pharmacology",
+      "title": "9-Pharmacology Antihypertensive Drugs.pdf",
+      "drive_file_id": "11ZztQA_d1F4x9wB69Olsoc-d823jwFqm",
+      "ai_source_file_id": "11ZztQA_d1F4x9wB69Olsoc-d823jwFqm",
+      "lecture_ids": [
+        "pharmacology__antihypertensive-drugs-2",
+        "pharmacology__antihypertensive-drugs-1"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Pharmacology",
+      "title": "8-Antianginal drugs 2026-1.pdf",
+      "drive_file_id": "1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8",
+      "ai_source_file_id": "1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8",
+      "lecture_ids": [
+        "pharmacology__anti-anginal-drugs"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Pharmacology",
+      "title": "7-Antihyperlipidemic drugs 2026.pdf",
+      "drive_file_id": "1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc",
+      "ai_source_file_id": "1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc",
+      "lecture_ids": [
+        "pharmacology__anti-lipidemic-drugs"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Pharmacology",
+      "title": "6- Immune Suppressants and Immune Modulators.pdf",
+      "drive_file_id": "1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92",
+      "ai_source_file_id": "1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92",
+      "lecture_ids": [
+        "pharmacology__immunosuppressant-immunomodulators"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Pharmacology",
+      "title": "5-Hypersensitivity - Pharmcology.pdf",
+      "drive_file_id": "1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG",
+      "ai_source_file_id": "1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG",
+      "lecture_ids": [
+        "pharmacology__pharmacotherapy-of-hypersensitivity"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Pharmacology",
+      "title": "2-drugs affecting hemostasis and coagulation.pdf",
+      "drive_file_id": "11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP",
+      "ai_source_file_id": "11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP",
+      "lecture_ids": [
+        "pharmacology__drugs-affecting-hemostasis"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Pharmacology",
+      "title": "4-treatment of anemia.pdf",
+      "drive_file_id": "1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY",
+      "ai_source_file_id": "1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY",
+      "lecture_ids": [
+        "pharmacology__treatment-of-anemia"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Pharmacology",
+      "title": "3- PE management.pdf",
+      "drive_file_id": "1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D",
+      "ai_source_file_id": "1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D",
+      "lecture_ids": [
+        "pharmacology__drugs-used-in-treatment-of-pulmonary-embolism"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Pharmacology",
+      "title": "1-Antiplatelet Drugs.pdf",
+      "drive_file_id": "1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO",
+      "ai_source_file_id": "1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO",
+      "lecture_ids": [
+        "pharmacology__antiplatelet-drugs"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Anatomy",
+      "title": "SDL-6 CVS Radiology.pdf",
+      "drive_file_id": "1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ",
+      "ai_source_file_id": "1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ",
+      "lecture_ids": [
+        "anatomy-histology__radiological-anatomy-of-the-heart-and-its-great-vessels"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Anatomy",
+      "title": "Lect 1 Mediastinum & Pericardium.pdf",
+      "drive_file_id": "1N29pF27p1UfkP79gdlrUFW-5WiTtgnEC",
+      "ai_source_file_id": "1N29pF27p1UfkP79gdlrUFW-5WiTtgnEC",
+      "lecture_ids": [
+        "anatomy-histology__anatomy-of-mediastinum-pericardium"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Anatomy",
+      "title": "Lect 2 External features of Heart.pdf",
+      "drive_file_id": "1wsoTpxTw6_QhMHqxYdLuxwHOvwXokQV5",
+      "ai_source_file_id": "1wsoTpxTw6_QhMHqxYdLuxwHOvwXokQV5",
+      "lecture_ids": [
+        "anatomy-histology__external-features-of-the-heart-and-its-great-vessels"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Anatomy",
+      "title": "Lect 3 Internal features of heart.pdf",
+      "drive_file_id": "1NCRD8jp124VR1jxrnCxtoTaJRJMtkx4w",
+      "ai_source_file_id": "1NCRD8jp124VR1jxrnCxtoTaJRJMtkx4w",
+      "lecture_ids": [
+        "anatomy-histology__internal-features-of-the-heart"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Microbiology",
+      "title": "Sepsis dys 2026.pdf",
+      "drive_file_id": "1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9",
+      "ai_source_file_id": "1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9",
+      "lecture_ids": [
+        "microbiology__immune-dysregulation-in-sepsis"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Microbiology",
+      "title": "Autoimmune Diseases.pdf",
+      "drive_file_id": "1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV",
+      "ai_source_file_id": "1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV",
+      "lecture_ids": [
+        "microbiology__autoimmune-diseases"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Microbiology",
+      "title": "Immunodeficiency.pdf",
+      "drive_file_id": "1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp",
+      "ai_source_file_id": "1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp",
+      "lecture_ids": [
+        "microbiology__immunodeficiency-disorders"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Microbiology",
+      "title": "Lymphatic filariasis.pdf",
+      "drive_file_id": "1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ",
+      "ai_source_file_id": "1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ",
+      "lecture_ids": [
+        "microbiology__lymphatic-filariasis"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Microbiology",
+      "title": "Hypersensitivity Part 2.pdf",
+      "drive_file_id": "1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp",
+      "ai_source_file_id": "1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp",
+      "lecture_ids": [
+        "microbiology__hypersensitivity-reactions-2"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Microbiology",
+      "title": "Hypersensitivity Part 1.pdf",
+      "drive_file_id": "1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d",
+      "ai_source_file_id": "1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d",
+      "lecture_ids": [
+        "microbiology__hypersensitivity-reactions-1"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Microbiology",
+      "title": "Babesiosis & malaria.pdf",
+      "drive_file_id": "14vfFkvXZlceusubx4H2RN-ttsGLXdkbj",
+      "ai_source_file_id": "14vfFkvXZlceusubx4H2RN-ttsGLXdkbj",
+      "lecture_ids": [
+        "microbiology__malaria-babesiosis"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Microbiology",
+      "title": "Malaria lecture.pdf",
+      "drive_file_id": "11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI",
+      "ai_source_file_id": "11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI",
+      "lecture_ids": [
+        "microbiology__malaria"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    }
+  ]
+}

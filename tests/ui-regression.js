@@ -4,7 +4,7 @@ const fs = require('fs');
 const BASE = process.env.MED25_BASE_URL || 'http://127.0.0.1:4173';
 const devices = [
   { name: 'phone', width: 390, height: 844 },
-  { name: 'ipad', width: 820, height: 1180 },
+  { name: 'ipad', width: 1180, height: 820 },
   { name: 'desktop', width: 1440, height: 1000 },
 ];
 const REPEATS = 10;
@@ -342,7 +342,7 @@ async function testProgress(page, mobile) {
   await assertVisible(page,'#homeSection:not(.hidden)','Home after Lecture Tracker');
 }
 
-async function testProfile(page, mobile) {
+async function testProfile(page, mobile, deviceName) {
   if (mobile) await click(page.locator('[data-v2-mobile="profile"]'), 'mobile Profile');
   else await click(page.locator('#tabProfile'), 'desktop Profile');
   await assertVisible(page, '#profileSection:not(.hidden)', 'Profile page');
@@ -352,6 +352,30 @@ async function testProfile(page, mobile) {
 
   const t=page.locator('#mobileAuthToggle');
   if (await visible(t)) { await t.click(); await t.click(); }
+
+  if (deviceName === 'ipad') {
+    const accountBox=await page.locator('.v2AccountCard').boundingBox();
+    const profileBox=await page.locator('.v2ProfileCard').boundingBox();
+    if (!accountBox || !profileBox) throw new Error('iPad Profile cards not measurable');
+    if (accountBox.y >= profileBox.y) throw new Error('iPad Account & Sync is not above Profile & XP');
+
+    const emailBox=await page.locator('#authEmail').boundingBox();
+    const passBox=await page.locator('#authPassword').boundingBox();
+    if (!emailBox || !passBox || emailBox.width < 220 || passBox.width < 220) {
+      throw new Error('iPad auth inputs are too narrow');
+    }
+
+    const iconCenters=await page.locator('#studyTabs .studyTab:visible .navIcon').evaluateAll(nodes =>
+      nodes.map(n => {
+        const r=n.getBoundingClientRect();
+        return Math.round((r.left+r.width/2)*10)/10;
+      })
+    );
+    if (iconCenters.length < 6) throw new Error('Not enough visible iPad sidebar icons');
+    if (Math.max(...iconCenters)-Math.min(...iconCenters) > 2) {
+      throw new Error('iPad sidebar icons are not vertically aligned');
+    }
+  }
 
   if (mobile) {
     await assertVisible(page,'#v2MobileAppearance','profile appearance control');
@@ -399,7 +423,7 @@ async function runOne(browser, device, iteration) {
     await dismissUpdate(page);
     await page.waitForFunction(() => document.querySelector('#v2Footer') && document.querySelector('#v2MobileNav'), null, { timeout: 10000 });
 
-    const mobile=device.name!=='desktop';
+    const mobile=device.width<=820;
     if (mobile) {
       await assertVisible(page,'#v2MobileNav','mobile bottom nav');
       if (await page.locator('#studyTabs').isVisible()) throw new Error('Desktop sidebar visible on ' + device.name);
@@ -416,7 +440,10 @@ async function runOne(browser, device, iteration) {
 
     await testHome(page,mobile);
     await testProgress(page,mobile);
-    await testProfile(page,mobile);
+    await testProfile(page,mobile,device.name);
+    if(iteration===1&&device.name==='ipad'){
+      await page.screenshot({path:'test-artifacts/ipad-profile.png',fullPage:true});
+    }
     await testPast(page,mobile);
     await testAI(page,mobile);
     await testMistakeQuiz(page,mobile);

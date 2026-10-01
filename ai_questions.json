@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-01T08:15:00.000Z",
+  "generated_at": "2026-10-01T08:20:00.000Z",
   "source_root": {
     "id": "1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
     "url": "https://drive.google.com/drive/folders/1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
@@ -1713,6 +1713,26 @@
           "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk",
           "quality_status": "pass",
           "exam_ready": true
+        },
+        {
+          "id": "ai_16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x_case01",
+          "stem": "A patient receives strong sympathetic stimulation. EDV remains 135 mL, but ESV falls from 65 mL to 35 mL. What best explains the increase in stroke volume?",
+          "options": {
+            "A": "Decreased myocardial contractility",
+            "B": "Increased myocardial contractility from increased Ca2+ availability",
+            "C": "Reduced venous return",
+            "D": "Increased afterload only"
+          },
+          "answer": "B",
+          "explanation": "The lecture states that sympathetic stimulation increases Ca2+ influx and contractility. At the same EDV, a lower ESV therefore produces a larger stroke volume.",
+          "concept": "Heart as a Pump — sympathetic inotropy",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Drive-grounded clinical application case"
         }
       ],
       "eligibility_status": "allowed",
@@ -3396,6 +3416,26 @@
           "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk",
           "quality_status": "pass",
           "exam_ready": true
+        },
+        {
+          "id": "ai_1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS_case01",
+          "stem": "A young woman has recurrent epistaxis, easy bruising, menorrhagia, and prolonged bleeding after dental work. Which disorder best fits the pattern described in the lecture?",
+          "options": {
+            "A": "Von Willebrand disease",
+            "B": "Hemophilia A",
+            "C": "Isolated factor XII deficiency",
+            "D": "Polycythemia vera"
+          },
+          "answer": "A",
+          "explanation": "The lecture describes von Willebrand disease as a common inherited bleeding disorder causing impaired platelet adhesion and mucocutaneous bleeding such as epistaxis and menorrhagia.",
+          "concept": "Hemostasis disorders — vWD",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Drive-grounded clinical application case"
         }
       ],
       "eligibility_status": "allowed",

@@ -36,7 +36,9 @@ function structuralIssue(q,s){
   if(!q.answer||!Object.prototype.hasOwnProperty.call(q.options||{},q.answer))reasons.push('invalid answer key');
   if(vals.length!==new Set(vals).size)reasons.push('duplicate option text');
   if(!String(q.explanation||'').trim())reasons.push('missing explanation');
-  if(!String(q.source_url||s.source_url||'').trim())reasons.push('missing source');
+  const hasUrl=String(q.source_url||s.source_url||'').trim();
+  const hasUploadedSource=(q.source_kind==='uploaded_lecture'||s.source_kind==='uploaded_lecture')&&String(q.source_reference||s.source_reference||'').trim()&&String(s.source_file_id||'').startsWith('libfile_');
+  if(!hasUrl&&!hasUploadedSource)reasons.push('missing source');
   if(q.exam_ready===false)reasons.push('exam_ready=false');
   return reasons;
 }

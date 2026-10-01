@@ -11,6 +11,13 @@ const REPEATS = 10;
 const results = [];
 fs.mkdirSync('test-artifacts', { recursive: true });
 
+const coverageManifest=JSON.parse(fs.readFileSync('content-coverage-manifest.json','utf8'));
+const studyCatalog=JSON.parse(fs.readFileSync('study-guide-lectures.json','utf8'));
+const lectureMeta=new Map((studyCatalog.subjects||[]).flatMap(s=>(s.lectures||[]).map(l=>[l.id,{id:l.id,subject:s.name,title:l.title}])));
+const currentLectureIds=[...new Set([...(coverageManifest.current_drive_sources||[]),...(coverageManifest.current_non_drive_sources||[])].flatMap(x=>x.lecture_ids||[]))];
+const currentLectures=currentLectureIds.map(id=>lectureMeta.get(id)).filter(Boolean);
+
+
 async function visible(locator) {
   return (await locator.count()) > 0 && await locator.first().isVisible().catch(() => false);
 }
@@ -221,6 +228,33 @@ async function testAI(page, mobile) {
   if (await visible(copy)) await copy.click();
 
   await noPageOverflow(page, 'ai questions');
+}
+
+async function testEveryCurrentAILecture(page) {
+  const subject=page.locator('#aiGuideSubject');
+  if (!await visible(subject)) throw new Error('AI subject filter unavailable for exhaustive coverage audit');
+  for (const lecture of currentLectures) {
+    await subject.selectOption('');
+    await subject.selectOption({label:lecture.subject});
+    const btn=page.locator('#aiGuideLectureBtn');
+    await btn.waitFor({state:'visible',timeout:5000});
+    if (await btn.isDisabled()) throw new Error('AI lecture picker disabled for '+lecture.subject+' / '+lecture.title);
+    await btn.click();
+    const cb=page.locator('#aiGuideLecturePanel input[type="checkbox"][value="'+lecture.id.replace(/"/g,'\"')+'"]');
+    if (await cb.count()<1) throw new Error('Current lecture missing from AI filter: '+lecture.subject+' / '+lecture.title);
+    await cb.check();
+    await page.waitForTimeout(45);
+    const cards=page.locator('#aiQuestionList .aiCard');
+    if (await cards.count()<1) throw new Error('Current lecture renders zero AI cards: '+lecture.subject+' / '+lecture.title);
+    const firstLabel=await cards.first().locator('.sgLecturePill').textContent().catch(()=> '');
+    if (!String(firstLabel||'').toLowerCase().includes(String(lecture.title).toLowerCase().slice(0,18))) {
+      const visibleText=await cards.first().innerText().catch(()=> '');
+      if (!String(visibleText||'').toLowerCase().includes(String(lecture.title).toLowerCase().slice(0,12))) {
+        throw new Error('AI lecture filter rendered mismatched content: '+lecture.title);
+      }
+    }
+  }
+  await subject.selectOption('');
 }
 
 async function testMistakeQuiz(page, mobile) {
@@ -475,6 +509,7 @@ async function runOne(browser, device, iteration) {
     }
     await testPast(page,mobile);
     await testAI(page,mobile);
+    if(device.name==='desktop'&&iteration===1) await testEveryCurrentAILecture(page);
     await testMistakeQuiz(page,mobile);
     await testFlashcards(page,mobile);
     await testMock(page,mobile);

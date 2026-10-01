@@ -5,6 +5,7 @@ on:
     branches:
       - ui-polish-logo-regression-20260930
       - fix-ipad-profile-sidebar-20261001
+      - logical-content-audit-20261001
       - main
   workflow_dispatch:
 
@@ -32,6 +33,8 @@ jobs:
         run: |
           python3 -m http.server 4173 > /tmp/med25-http.log 2>&1 &
           sleep 2
+      - name: Run logical content audit
+        run: node tests/content-audit.js
       - name: Run 10x phone, iPad and desktop interaction suite
         run: node tests/ui-regression.js
       - name: Upload screenshots and results

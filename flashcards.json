@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-01T07:58:00.000Z",
+  "generated_at": "2026-10-01T08:20:00.000Z",
   "source_root": {
     "id": "1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
     "url": "https://drive.google.com/drive/folders/1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
@@ -8459,6 +8459,201 @@
       "source_validation": "lecture_validated",
       "teaching_method": "Flipped class",
       "study_guide_objectives": "1. Explore the primary functions of vascular endothelial cells. 2. Discuss the endothelium's role in maintaining homeostasis, including the balance of coagulation and fibrinolysis. 3. Understand the role of endothelial cells in angiogenesis. 4. Discuss the role of nitric oxide (NO) in maintenance of vascular health. 5. Analyze pathophysiological changes associated with endothelial dysfunction. 6. Discuss factors that cause endothelial dysfunction. 7. Explore potential therapeutic strategies targeting endothelial dysfunction."
+    },
+    {
+      "id": "library_endocarditis_2026_2027",
+      "subject": "Pathology",
+      "title": "Endocarditis",
+      "source_file_id": "libfile_6e646046c4ac81918406ddf5ca74067d",
+      "source_url": "",
+      "source_modified_time": "2026-10-01T06:04:48.452Z",
+      "archived": false,
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
+      "needs_source_validation": false,
+      "source_validation_date": "2026-10-01",
+      "cards": [
+        {
+          "id": "endocarditis-2026-c01",
+          "front": "What defines infective endocarditis?",
+          "back": "A microbial infection of heart valves or endocardium with vegetations containing thrombotic debris and organisms.",
+          "tags": [
+            "Endocarditis",
+            "Definition"
+          ],
+          "source_url": ""
+        },
+        {
+          "id": "endocarditis-2026-c02",
+          "front": "Acute vs subacute IE: what is the key difference?",
+          "back": "Acute IE is rapidly destructive and can attack healthy valves; subacute IE is indolent, usually lower virulence, and favors damaged valves.",
+          "tags": [
+            "Endocarditis",
+            "Classification"
+          ],
+          "source_url": ""
+        },
+        {
+          "id": "endocarditis-2026-c03",
+          "front": "Which organism is classic for acute IE and can infect normal valves?",
+          "back": "Staphylococcus aureus.",
+          "tags": [
+            "Endocarditis",
+            "Organisms"
+          ],
+          "source_url": ""
+        },
+        {
+          "id": "endocarditis-2026-c04",
+          "front": "Which organism is classic for subacute IE on damaged valves?",
+          "back": "Streptococcus viridans.",
+          "tags": [
+            "Endocarditis",
+            "Organisms"
+          ],
+          "source_url": ""
+        },
+        {
+          "id": "endocarditis-2026-c05",
+          "front": "What is the leading preexisting cardiac risk factor highlighted for IE?",
+          "back": "Mitral valve prolapse.",
+          "tags": [
+            "Endocarditis",
+            "Risk factors"
+          ],
+          "source_url": ""
+        },
+        {
+          "id": "endocarditis-2026-c06",
+          "front": "Why are IE vegetations dangerous embolically?",
+          "back": "They are friable, so infected fragments can embolize and cause septic infarcts, abscesses, or mycotic aneurysms.",
+          "tags": [
+            "Endocarditis",
+            "Complications"
+          ],
+          "source_url": ""
+        },
+        {
+          "id": "endocarditis-2026-c07",
+          "front": "Which valve is classically involved in IV drug users with IE?",
+          "back": "The tricuspid valve.",
+          "tags": [
+            "Endocarditis",
+            "IVDU"
+          ],
+          "source_url": ""
+        },
+        {
+          "id": "endocarditis-2026-c08",
+          "front": "How is IE confirmed clinically?",
+          "back": "Positive blood cultures plus echocardiographic findings in the appropriate clinical setting.",
+          "tags": [
+            "Endocarditis",
+            "Diagnosis"
+          ],
+          "source_url": ""
+        },
+        {
+          "id": "endocarditis-2026-c09",
+          "front": "Janeway lesions vs Osler nodes?",
+          "back": "Janeway lesions are painless palm/sole lesions; Osler nodes are painful fingertip nodules.",
+          "tags": [
+            "Endocarditis",
+            "Peripheral signs"
+          ],
+          "source_url": ""
+        },
+        {
+          "id": "endocarditis-2026-c10",
+          "front": "What causes IE-associated glomerulonephritis?",
+          "back": "Glomerular trapping of antigen–antibody immune complexes.",
+          "tags": [
+            "Endocarditis",
+            "Complications"
+          ],
+          "source_url": ""
+        },
+        {
+          "id": "endocarditis-2026-c11",
+          "front": "What can a new arrhythmia/conduction defect in IE suggest?",
+          "back": "Extension into underlying myocardium/conduction tissue, including a ring abscess.",
+          "tags": [
+            "Endocarditis",
+            "Complications"
+          ],
+          "source_url": ""
+        },
+        {
+          "id": "endocarditis-2026-c12",
+          "front": "What is NBTE?",
+          "back": "Small sterile, nondestructive valvular thrombi, usually in a hypercoagulable state.",
+          "tags": [
+            "Endocarditis",
+            "NBTE"
+          ],
+          "source_url": ""
+        },
+        {
+          "id": "endocarditis-2026-c13",
+          "front": "What malignancy type is especially associated with NBTE?",
+          "back": "Mucinous adenocarcinoma.",
+          "tags": [
+            "Endocarditis",
+            "NBTE"
+          ],
+          "source_url": ""
+        },
+        {
+          "id": "endocarditis-2026-c14",
+          "front": "Why does NBTE embolize easily?",
+          "back": "The sterile thrombi have no underlying inflammation and are loosely attached/easily dislodged.",
+          "tags": [
+            "Endocarditis",
+            "NBTE"
+          ],
+          "source_url": ""
+        },
+        {
+          "id": "endocarditis-2026-c15",
+          "front": "What is Libman–Sacks endocarditis?",
+          "back": "A sterile inflammatory endocarditis associated with SLE (and antiphospholipid syndrome).",
+          "tags": [
+            "Endocarditis",
+            "Libman-Sacks"
+          ],
+          "source_url": ""
+        },
+        {
+          "id": "endocarditis-2026-c16",
+          "front": "How does Libman–Sacks differ morphologically from NBTE?",
+          "back": "Libman–Sacks has associated inflammation, often fibrinoid necrosis, and may involve either valve surface, cords, or endocardium.",
+          "tags": [
+            "Endocarditis",
+            "Libman-Sacks"
+          ],
+          "source_url": ""
+        },
+        {
+          "id": "endocarditis-2026-c17",
+          "front": "What are the common valve sites in IE?",
+          "back": "Aortic and mitral valves are most common; tricuspid involvement is classic in IV drug users.",
+          "tags": [
+            "Endocarditis",
+            "Morphology"
+          ],
+          "source_url": ""
+        },
+        {
+          "id": "endocarditis-2026-c18",
+          "front": "What are the major poor-prognosis complications of IE highlighted in the lecture?",
+          "back": "Septicemia, arrhythmias/conduction extension, and systemic embolization.",
+          "tags": [
+            "Endocarditis",
+            "Prognosis"
+          ],
+          "source_url": ""
+        }
+      ]
     }
   ],
   "bootstrap_note": "Seeded from current official lecture files; hourly Drive sync will add/update additional decks.",

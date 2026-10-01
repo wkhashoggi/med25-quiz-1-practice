@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-01T09:10:00.000Z",
+  "generated_at": "2026-10-01T07:55:00.000Z",
   "study_guide_file_id": "1QwRNlO6-zuOQugxyjrhXykOW-YjVtal4",
   "past": {
     "ibls-previous-years-p4-q3-1": {
@@ -6297,60 +6297,60 @@
       "method": "source-title"
     },
     "ai_1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9_01": {
-      "lecture_id": "physiology__regulation-of-abp-cv-centers-short-term-regulation",
+      "lecture_id": "physiology__short-term-regulation-of-arterial-blood-pressure",
       "subject": "Physiology",
-      "title": "Regulation of ABP (CV centers & short-term regulation)",
+      "title": "Short-Term Regulation of Arterial Blood Pressure",
       "confidence": 1,
-      "method": "source-title+objective-validated"
+      "method": "source-title-repair"
     },
     "ai_1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9_02": {
-      "lecture_id": "physiology__regulation-of-abp-cv-centers-short-term-regulation",
+      "lecture_id": "physiology__short-term-regulation-of-arterial-blood-pressure",
       "subject": "Physiology",
-      "title": "Regulation of ABP (CV centers & short-term regulation)",
+      "title": "Short-Term Regulation of Arterial Blood Pressure",
       "confidence": 1,
-      "method": "source-title+objective-validated"
+      "method": "source-title-repair"
     },
     "ai_1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9_03": {
-      "lecture_id": "physiology__regulation-of-abp-cv-centers-short-term-regulation",
+      "lecture_id": "physiology__short-term-regulation-of-arterial-blood-pressure",
       "subject": "Physiology",
-      "title": "Regulation of ABP (CV centers & short-term regulation)",
+      "title": "Short-Term Regulation of Arterial Blood Pressure",
       "confidence": 1,
-      "method": "source-title+objective-validated"
+      "method": "source-title-repair"
     },
     "ai_1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9_04": {
-      "lecture_id": "physiology__regulation-of-abp-cv-centers-short-term-regulation",
+      "lecture_id": "physiology__short-term-regulation-of-arterial-blood-pressure",
       "subject": "Physiology",
-      "title": "Regulation of ABP (CV centers & short-term regulation)",
+      "title": "Short-Term Regulation of Arterial Blood Pressure",
       "confidence": 1,
-      "method": "source-title+objective-validated"
+      "method": "source-title-repair"
     },
     "ai_1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9_05": {
-      "lecture_id": "physiology__regulation-of-abp-cv-centers-short-term-regulation",
+      "lecture_id": "physiology__short-term-regulation-of-arterial-blood-pressure",
       "subject": "Physiology",
-      "title": "Regulation of ABP (CV centers & short-term regulation)",
+      "title": "Short-Term Regulation of Arterial Blood Pressure",
       "confidence": 1,
-      "method": "source-title+objective-validated"
+      "method": "source-title-repair"
     },
     "ai_1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9_06": {
-      "lecture_id": "physiology__regulation-of-abp-cv-centers-short-term-regulation",
+      "lecture_id": "physiology__short-term-regulation-of-arterial-blood-pressure",
       "subject": "Physiology",
-      "title": "Regulation of ABP (CV centers & short-term regulation)",
+      "title": "Short-Term Regulation of Arterial Blood Pressure",
       "confidence": 1,
-      "method": "source-title+objective-validated"
+      "method": "source-title-repair"
     },
     "ai_1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9_07": {
-      "lecture_id": "physiology__regulation-of-abp-cv-centers-short-term-regulation",
+      "lecture_id": "physiology__short-term-regulation-of-arterial-blood-pressure",
       "subject": "Physiology",
-      "title": "Regulation of ABP (CV centers & short-term regulation)",
+      "title": "Short-Term Regulation of Arterial Blood Pressure",
       "confidence": 1,
-      "method": "source-title+objective-validated"
+      "method": "source-title-repair"
     },
     "ai_1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9_08": {
-      "lecture_id": "physiology__regulation-of-abp-cv-centers-short-term-regulation",
+      "lecture_id": "physiology__short-term-regulation-of-arterial-blood-pressure",
       "subject": "Physiology",
-      "title": "Regulation of ABP (CV centers & short-term regulation)",
+      "title": "Short-Term Regulation of Arterial Blood Pressure",
       "confidence": 1,
-      "method": "source-title+objective-validated"
+      "method": "source-title-repair"
     },
     "ai_1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg_01": {
       "lecture_id": "physiology__physiological-organization-of-cvs",
@@ -6689,39 +6689,39 @@
       "method": "source-title"
     },
     "ai_1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn_02": {
-      "lecture_id": "physiology__physiology-of-hemostasis",
+      "lecture_id": "physiology__physiology-of-blood-platelets",
       "subject": "Physiology",
-      "title": "Physiology of Hemostasis",
+      "title": "Physiology of blood platelets",
       "confidence": 1,
-      "method": "source-title"
+      "method": "source-objective-split"
     },
     "ai_1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn_03": {
-      "lecture_id": "physiology__physiology-of-hemostasis",
+      "lecture_id": "physiology__physiology-of-blood-platelets",
       "subject": "Physiology",
-      "title": "Physiology of Hemostasis",
+      "title": "Physiology of blood platelets",
       "confidence": 1,
-      "method": "source-title"
+      "method": "source-objective-split"
     },
     "ai_1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn_04": {
-      "lecture_id": "physiology__physiology-of-hemostasis",
+      "lecture_id": "physiology__physiology-of-blood-platelets",
       "subject": "Physiology",
-      "title": "Physiology of Hemostasis",
+      "title": "Physiology of blood platelets",
       "confidence": 1,
-      "method": "source-title"
+      "method": "source-objective-split"
     },
     "ai_1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn_05": {
-      "lecture_id": "physiology__physiology-of-hemostasis",
+      "lecture_id": "physiology__physiology-of-blood-platelets",
       "subject": "Physiology",
-      "title": "Physiology of Hemostasis",
+      "title": "Physiology of blood platelets",
       "confidence": 1,
-      "method": "source-title"
+      "method": "source-objective-split"
     },
     "ai_1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn_06": {
-      "lecture_id": "physiology__physiology-of-hemostasis",
+      "lecture_id": "physiology__physiology-of-blood-platelets",
       "subject": "Physiology",
-      "title": "Physiology of Hemostasis",
+      "title": "Physiology of blood platelets",
       "confidence": 1,
-      "method": "source-title"
+      "method": "source-objective-split"
     },
     "ai_1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn_07": {
       "lecture_id": "physiology__physiology-of-hemostasis",
@@ -8642,74 +8642,74 @@
       "method": "source-title"
     },
     "ai_1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9_09": {
-      "lecture_id": "physiology__regulation-of-abp-cv-centers-short-term-regulation",
+      "lecture_id": "physiology__short-term-regulation-of-arterial-blood-pressure",
       "subject": "Physiology",
-      "title": "Regulation of ABP (CV centers & short-term regulation)",
+      "title": "Short-Term Regulation of Arterial Blood Pressure",
       "confidence": 1,
-      "method": "source-title+objective-validated"
+      "method": "source-title-repair"
     },
     "ai_1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9_10": {
-      "lecture_id": "physiology__regulation-of-abp-cv-centers-short-term-regulation",
+      "lecture_id": "physiology__short-term-regulation-of-arterial-blood-pressure",
       "subject": "Physiology",
-      "title": "Regulation of ABP (CV centers & short-term regulation)",
+      "title": "Short-Term Regulation of Arterial Blood Pressure",
       "confidence": 1,
-      "method": "source-title+objective-validated"
+      "method": "source-title-repair"
     },
     "ai_1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9_11": {
-      "lecture_id": "physiology__regulation-of-abp-cv-centers-short-term-regulation",
+      "lecture_id": "physiology__short-term-regulation-of-arterial-blood-pressure",
       "subject": "Physiology",
-      "title": "Regulation of ABP (CV centers & short-term regulation)",
+      "title": "Short-Term Regulation of Arterial Blood Pressure",
       "confidence": 1,
-      "method": "source-title+objective-validated"
+      "method": "source-title-repair"
     },
     "ai_1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9_12": {
-      "lecture_id": "physiology__regulation-of-abp-cv-centers-short-term-regulation",
+      "lecture_id": "physiology__short-term-regulation-of-arterial-blood-pressure",
       "subject": "Physiology",
-      "title": "Regulation of ABP (CV centers & short-term regulation)",
+      "title": "Short-Term Regulation of Arterial Blood Pressure",
       "confidence": 1,
-      "method": "source-title+objective-validated"
+      "method": "source-title-repair"
     },
     "ai_1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9_13": {
-      "lecture_id": "physiology__regulation-of-abp-cv-centers-short-term-regulation",
+      "lecture_id": "physiology__short-term-regulation-of-arterial-blood-pressure",
       "subject": "Physiology",
-      "title": "Regulation of ABP (CV centers & short-term regulation)",
+      "title": "Short-Term Regulation of Arterial Blood Pressure",
       "confidence": 1,
-      "method": "source-title+objective-validated"
+      "method": "source-title-repair"
     },
     "ai_1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9_14": {
-      "lecture_id": "physiology__regulation-of-abp-cv-centers-short-term-regulation",
+      "lecture_id": "physiology__short-term-regulation-of-arterial-blood-pressure",
       "subject": "Physiology",
-      "title": "Regulation of ABP (CV centers & short-term regulation)",
+      "title": "Short-Term Regulation of Arterial Blood Pressure",
       "confidence": 1,
-      "method": "source-title+objective-validated"
+      "method": "source-title-repair"
     },
     "ai_1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9_15": {
-      "lecture_id": "physiology__regulation-of-abp-cv-centers-short-term-regulation",
+      "lecture_id": "physiology__short-term-regulation-of-arterial-blood-pressure",
       "subject": "Physiology",
-      "title": "Regulation of ABP (CV centers & short-term regulation)",
+      "title": "Short-Term Regulation of Arterial Blood Pressure",
       "confidence": 1,
-      "method": "source-title+objective-validated"
+      "method": "source-title-repair"
     },
     "ai_1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9_16": {
-      "lecture_id": "physiology__regulation-of-abp-cv-centers-short-term-regulation",
+      "lecture_id": "physiology__short-term-regulation-of-arterial-blood-pressure",
       "subject": "Physiology",
-      "title": "Regulation of ABP (CV centers & short-term regulation)",
+      "title": "Short-Term Regulation of Arterial Blood Pressure",
       "confidence": 1,
-      "method": "source-title+objective-validated"
+      "method": "source-title-repair"
     },
     "ai_1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9_17": {
-      "lecture_id": "physiology__regulation-of-abp-cv-centers-short-term-regulation",
+      "lecture_id": "physiology__short-term-regulation-of-arterial-blood-pressure",
       "subject": "Physiology",
-      "title": "Regulation of ABP (CV centers & short-term regulation)",
+      "title": "Short-Term Regulation of Arterial Blood Pressure",
       "confidence": 1,
-      "method": "source-title+objective-validated"
+      "method": "source-title-repair"
     },
     "ai_1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9_18": {
-      "lecture_id": "physiology__regulation-of-abp-cv-centers-short-term-regulation",
+      "lecture_id": "physiology__short-term-regulation-of-arterial-blood-pressure",
       "subject": "Physiology",
-      "title": "Regulation of ABP (CV centers & short-term regulation)",
+      "title": "Short-Term Regulation of Arterial Blood Pressure",
       "confidence": 1,
-      "method": "source-title+objective-validated"
+      "method": "source-title-repair"
     },
     "ai_1a2GYFwVaioCMtkK4FhARroF7kphyGDwS_01": {
       "lecture_id": "physiology__cardiac-contractility",
@@ -9587,11 +9587,11 @@
       "method": "parent-lecture-inheritance"
     },
     "ai_1hUhRX6NQW4vC0QZctlopDFzZB_vh7U3h_formcase01": {
-      "lecture_id": "physiology__regulation-of-abp-cv-centers-short-term-regulation",
+      "lecture_id": "physiology__short-term-regulation-of-arterial-blood-pressure",
       "subject": "Physiology",
-      "title": "Regulation of ABP (CV centers & short-term regulation)",
+      "title": "Short-Term Regulation of Arterial Blood Pressure",
       "confidence": 1,
-      "method": "parent-lecture-inheritance"
+      "method": "source-title-repair"
     },
     "ai_11ZztQA_d1F4x9wB69Olsoc-d823jwFqm_formcase01": {
       "lecture_id": "pharmacology__antihypertensive-drugs-2",
@@ -10301,11 +10301,11 @@
       "method": "source-set-repair"
     },
     "ai_1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn_formcase01": {
-      "lecture_id": "physiology__physiology-of-hemostasis",
+      "lecture_id": "physiology__physiology-of-blood-platelets",
       "subject": "Physiology",
-      "title": "Physiology of Hemostasis",
+      "title": "Physiology of blood platelets",
       "confidence": 1,
-      "method": "source-set-repair"
+      "method": "source-objective-split"
     },
     "ai_14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn_formcase01": {
       "lecture_id": "physiology__anemia-and-polycythemia",

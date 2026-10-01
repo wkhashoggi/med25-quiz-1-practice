@@ -20,7 +20,7 @@ const V2_INFO={
   },
   contact:{
     title:'Contact & feedback',
-    body:'<div class="v2ContactCard"><span>MED25 site admin</span><b>Waleed Khashoggi</b><p class="v2ContactLead">For content or feedback, contact me through WhatsApp or email.</p><div class="v2ContactActions"><a class="v2ContactAction" href="https://wa.me/966550466861" target="_blank" rel="noopener noreferrer"><strong>WhatsApp</strong><small>+966 55 046 6861</small></a><a class="v2ContactAction" href="mailto:Waleed.khashoggi@icloud.com"><strong>Email</strong><small>Waleed.khashoggi@icloud.com</small></a></div></div><h3>Content corrections</h3><p>When reporting a question, include the question wording and lecture if possible so it can be checked quickly.</p>'
+    body:'<div class="v2ContactCard"><span>MED25 site admin</span><b>Waleed Khashoggi</b><p class="v2ContactLead">For content or feedback, contact me through WhatsApp or email.</p><div class="v2ContactActions"><a class="v2ContactAction" href="https://wa.me/966550466861" target="_blank" rel="noopener noreferrer"><strong>WhatsApp</strong><small>+966 55 046 6861</small></a><a class="v2ContactAction" href="mailto:Waleed.khashoggi@icloud.com"><strong>Email</strong><small>Waleed.khashoggi@icloud.com</small></a><a class="v2ContactAction" href="https://t.me/w_khash" target="_blank" rel="noopener noreferrer"><strong>Telegram</strong><small>@w_khash</small></a></div></div><h3>Content corrections</h3><p>When reporting a question, include the question wording and lecture if possible so it can be checked quickly.</p>'
   }
 };
 

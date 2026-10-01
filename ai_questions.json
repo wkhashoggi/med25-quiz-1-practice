@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-01T06:40:00.000Z",
+  "generated_at": "2026-10-01T07:20:00.000Z",
   "source_root": {
     "id": "1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
     "url": "https://drive.google.com/drive/folders/1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
@@ -1697,7 +1697,7 @@
       "title": "Intermediate and Long-Term Regulation of Arterial Blood Pressure",
       "source_url": "https://drive.google.com/file/d/1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX/view?usp=drivesdk",
       "source_modified_time": "2026-09-22T21:08:55.644Z",
-      "source_validation": "pending_lecture_validation",
+      "source_validation": "lecture_verified_logical_audit",
       "archived": false,
       "questions": [
         {
@@ -1716,8 +1716,8 @@
           "source_url": "https://drive.google.com/file/d/1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX/view?usp=drivesdk",
           "source_card_id": "1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX-c01",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX_02",
@@ -1735,8 +1735,8 @@
           "source_url": "https://drive.google.com/file/d/1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX/view?usp=drivesdk",
           "source_card_id": "1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX-c02",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX_03",
@@ -1754,8 +1754,8 @@
           "source_url": "https://drive.google.com/file/d/1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX/view?usp=drivesdk",
           "source_card_id": "1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX-c03",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX_04",
@@ -1773,8 +1773,8 @@
           "source_url": "https://drive.google.com/file/d/1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX/view?usp=drivesdk",
           "source_card_id": "1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX-c04",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX_05",
@@ -1792,8 +1792,8 @@
           "source_url": "https://drive.google.com/file/d/1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX/view?usp=drivesdk",
           "source_card_id": "1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX-c05",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX_06",
@@ -1811,8 +1811,8 @@
           "source_url": "https://drive.google.com/file/d/1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX/view?usp=drivesdk",
           "source_card_id": "1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX-c06",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX_07",
@@ -1830,8 +1830,8 @@
           "source_url": "https://drive.google.com/file/d/1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX/view?usp=drivesdk",
           "source_card_id": "1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX-c07",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX_08",
@@ -1849,8 +1849,8 @@
           "source_url": "https://drive.google.com/file/d/1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX/view?usp=drivesdk",
           "source_card_id": "1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX-c08",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX_formcase01",
@@ -1868,19 +1868,19 @@
           "source_url": "https://drive.google.com/file/d/1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX/view?usp=drivesdk",
           "source_card_id": "1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX-c06",
           "style_profile": "KAU-formative-case-inspired",
-          "quality_status": "hold",
-          "exam_ready": false,
+          "quality_status": "pass",
+          "exam_ready": true,
           "case_style": "formative_short_case",
           "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
       "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
-      "quality_status": "hold",
-      "quality_reviewed_at": "2026-09-30T15:36:28.081Z",
-      "quality_policy_version": 2,
-      "quality_reason": "Legacy AI set used other questions' correct answers as distractors; withheld until objective-led rebuild.",
-      "exam_ready": false
+      "quality_status": "pass",
+      "quality_reviewed_at": "2026-10-01T07:20:00.000Z",
+      "quality_policy_version": 3,
+      "quality_reason": "Logical content audit: complete lecture-grounded set; prior hold was caused only by missing case mapping.",
+      "exam_ready": true
     },
     {
       "id": "ai_set_1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9",
@@ -2238,7 +2238,7 @@
       "title": "Physiological Organization of the Cardiovascular System",
       "source_url": "https://docs.google.com/presentation/d/1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
       "source_modified_time": "2026-09-19T21:11:44.192Z",
-      "source_validation": "pending_lecture_validation",
+      "source_validation": "lecture_verified_logical_audit",
       "archived": false,
       "questions": [
         {
@@ -2257,8 +2257,8 @@
           "source_url": "https://docs.google.com/presentation/d/1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
           "source_card_id": "1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg-c01",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg_02",
@@ -2276,8 +2276,8 @@
           "source_url": "https://docs.google.com/presentation/d/1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
           "source_card_id": "1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg-c02",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg_03",
@@ -2295,8 +2295,8 @@
           "source_url": "https://docs.google.com/presentation/d/1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
           "source_card_id": "1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg-c03",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg_04",
@@ -2314,8 +2314,8 @@
           "source_url": "https://docs.google.com/presentation/d/1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
           "source_card_id": "1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg-c04",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg_05",
@@ -2333,8 +2333,8 @@
           "source_url": "https://docs.google.com/presentation/d/1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
           "source_card_id": "1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg-c05",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg_06",
@@ -2352,8 +2352,8 @@
           "source_url": "https://docs.google.com/presentation/d/1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
           "source_card_id": "1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg-c06",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg_07",
@@ -2371,8 +2371,8 @@
           "source_url": "https://docs.google.com/presentation/d/1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
           "source_card_id": "1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg-c07",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg_08",
@@ -2390,8 +2390,8 @@
           "source_url": "https://docs.google.com/presentation/d/1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
           "source_card_id": "1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg-c08",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg_formcase01",
@@ -2409,19 +2409,19 @@
           "source_url": "https://docs.google.com/presentation/d/1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
           "source_card_id": "1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg-c04",
           "style_profile": "KAU-formative-case-inspired",
-          "quality_status": "hold",
-          "exam_ready": false,
+          "quality_status": "pass",
+          "exam_ready": true,
           "case_style": "formative_short_case",
           "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
       "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
-      "quality_status": "hold",
-      "quality_reviewed_at": "2026-09-30T15:36:28.081Z",
-      "quality_policy_version": 2,
-      "quality_reason": "Legacy AI set used other questions' correct answers as distractors; withheld until objective-led rebuild.",
-      "exam_ready": false
+      "quality_status": "pass",
+      "quality_reviewed_at": "2026-10-01T07:20:00.000Z",
+      "quality_policy_version": 3,
+      "quality_reason": "Logical content audit: complete lecture-grounded set; prior hold was caused only by missing case mapping.",
+      "exam_ready": true
     },
     {
       "id": "ai_set_13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0",
@@ -3600,7 +3600,7 @@
       "title": "Hemostasis I",
       "source_url": "https://docs.google.com/presentation/d/1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
       "source_modified_time": "2026-09-03T16:22:46.000Z",
-      "source_validation": "pending_lecture_validation",
+      "source_validation": "lecture_verified_logical_audit",
       "archived": false,
       "questions": [
         {
@@ -3619,8 +3619,8 @@
           "source_url": "https://docs.google.com/presentation/d/1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
           "source_card_id": "1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn-c01",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn_02",
@@ -3638,8 +3638,8 @@
           "source_url": "https://docs.google.com/presentation/d/1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
           "source_card_id": "1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn-c02",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn_03",
@@ -3657,8 +3657,8 @@
           "source_url": "https://docs.google.com/presentation/d/1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
           "source_card_id": "1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn-c03",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn_04",
@@ -3676,8 +3676,8 @@
           "source_url": "https://docs.google.com/presentation/d/1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
           "source_card_id": "1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn-c04",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn_05",
@@ -3695,8 +3695,8 @@
           "source_url": "https://docs.google.com/presentation/d/1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
           "source_card_id": "1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn-c05",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn_06",
@@ -3714,8 +3714,8 @@
           "source_url": "https://docs.google.com/presentation/d/1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
           "source_card_id": "1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn-c06",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn_07",
@@ -3733,8 +3733,8 @@
           "source_url": "https://docs.google.com/presentation/d/1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
           "source_card_id": "1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn-c07",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn_08",
@@ -3752,8 +3752,8 @@
           "source_url": "https://docs.google.com/presentation/d/1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
           "source_card_id": "1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn-c08",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn_formcase01",
@@ -3771,19 +3771,19 @@
           "source_url": "https://docs.google.com/presentation/d/1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
           "source_card_id": "1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn-c03",
           "style_profile": "KAU-formative-case-inspired",
-          "quality_status": "hold",
-          "exam_ready": false,
+          "quality_status": "pass",
+          "exam_ready": true,
           "case_style": "formative_short_case",
           "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
       "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
-      "quality_status": "hold",
-      "quality_reviewed_at": "2026-09-30T15:36:28.081Z",
-      "quality_policy_version": 2,
-      "quality_reason": "Legacy AI set used other questions' correct answers as distractors; withheld until objective-led rebuild.",
-      "exam_ready": false
+      "quality_status": "pass",
+      "quality_reviewed_at": "2026-10-01T07:20:00.000Z",
+      "quality_policy_version": 3,
+      "quality_reason": "Logical content audit: complete lecture-grounded set; prior hold was caused only by missing case mapping.",
+      "exam_ready": true
     },
     {
       "id": "ai_set_14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn",
@@ -3792,7 +3792,7 @@
       "title": "Anemias and Polycythemia",
       "source_url": "https://docs.google.com/presentation/d/14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
       "source_modified_time": "2026-09-03T14:27:58.000Z",
-      "source_validation": "pending_lecture_validation",
+      "source_validation": "lecture_verified_logical_audit",
       "archived": false,
       "questions": [
         {
@@ -3811,8 +3811,8 @@
           "source_url": "https://docs.google.com/presentation/d/14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
           "source_card_id": "14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn-c01",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn_02",
@@ -3830,8 +3830,8 @@
           "source_url": "https://docs.google.com/presentation/d/14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
           "source_card_id": "14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn-c02",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn_03",
@@ -3849,8 +3849,8 @@
           "source_url": "https://docs.google.com/presentation/d/14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
           "source_card_id": "14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn-c03",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn_04",
@@ -3868,8 +3868,8 @@
           "source_url": "https://docs.google.com/presentation/d/14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
           "source_card_id": "14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn-c04",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn_05",
@@ -3887,8 +3887,8 @@
           "source_url": "https://docs.google.com/presentation/d/14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
           "source_card_id": "14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn-c05",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn_06",
@@ -3906,8 +3906,8 @@
           "source_url": "https://docs.google.com/presentation/d/14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
           "source_card_id": "14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn-c06",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn_07",
@@ -3925,8 +3925,8 @@
           "source_url": "https://docs.google.com/presentation/d/14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
           "source_card_id": "14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn-c07",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn_08",
@@ -3944,8 +3944,8 @@
           "source_url": "https://docs.google.com/presentation/d/14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
           "source_card_id": "14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn-c08",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn_formcase01",
@@ -3963,19 +3963,19 @@
           "source_url": "https://docs.google.com/presentation/d/14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
           "source_card_id": "14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn-c03",
           "style_profile": "KAU-formative-case-inspired",
-          "quality_status": "hold",
-          "exam_ready": false,
+          "quality_status": "pass",
+          "exam_ready": true,
           "case_style": "formative_short_case",
           "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
       "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
-      "quality_status": "hold",
-      "quality_reviewed_at": "2026-09-30T15:36:28.081Z",
-      "quality_policy_version": 2,
-      "quality_reason": "Legacy AI set used other questions' correct answers as distractors; withheld until objective-led rebuild.",
-      "exam_ready": false
+      "quality_status": "pass",
+      "quality_reviewed_at": "2026-10-01T07:20:00.000Z",
+      "quality_policy_version": 3,
+      "quality_reason": "Logical content audit: complete lecture-grounded set; prior hold was caused only by missing case mapping.",
+      "exam_ready": true
     },
     {
       "id": "ai_set_1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov",
@@ -4273,7 +4273,9 @@
           "source_url": "https://drive.google.com/file/d/1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov/view?usp=drivesdk",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Clinical application case retained during logical content audit"
         },
         {
           "id": "ai_1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov_17",
@@ -4544,7 +4546,9 @@
           "source_url": "https://drive.google.com/file/d/1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs/view?usp=drivesdk",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Clinical application case retained during logical content audit"
         },
         {
           "id": "ai_1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs_13",
@@ -4706,7 +4710,7 @@
       "title": "Plasma Proteins",
       "source_url": "https://drive.google.com/file/d/1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj/view?usp=drivesdk",
       "source_modified_time": "2026-08-31T14:53:32.272Z",
-      "source_validation": "pending_lecture_validation",
+      "source_validation": "lecture_verified_logical_audit",
       "archived": false,
       "questions": [
         {
@@ -4725,8 +4729,8 @@
           "source_url": "https://drive.google.com/file/d/1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj/view?usp=drivesdk",
           "source_card_id": "1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj-c01",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj_02",
@@ -4744,8 +4748,8 @@
           "source_url": "https://drive.google.com/file/d/1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj/view?usp=drivesdk",
           "source_card_id": "1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj-c02",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj_03",
@@ -4763,8 +4767,8 @@
           "source_url": "https://drive.google.com/file/d/1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj/view?usp=drivesdk",
           "source_card_id": "1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj-c03",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj_04",
@@ -4782,8 +4786,8 @@
           "source_url": "https://drive.google.com/file/d/1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj/view?usp=drivesdk",
           "source_card_id": "1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj-c04",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj_05",
@@ -4801,8 +4805,8 @@
           "source_url": "https://drive.google.com/file/d/1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj/view?usp=drivesdk",
           "source_card_id": "1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj-c05",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj_06",
@@ -4820,8 +4824,8 @@
           "source_url": "https://drive.google.com/file/d/1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj/view?usp=drivesdk",
           "source_card_id": "1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj-c06",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj_07",
@@ -4839,8 +4843,8 @@
           "source_url": "https://drive.google.com/file/d/1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj/view?usp=drivesdk",
           "source_card_id": "1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj-c07",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj_08",
@@ -4858,8 +4862,8 @@
           "source_url": "https://drive.google.com/file/d/1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj/view?usp=drivesdk",
           "source_card_id": "1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj-c08",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj_formcase01",
@@ -4877,19 +4881,19 @@
           "source_url": "https://drive.google.com/file/d/1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj/view?usp=drivesdk",
           "source_card_id": "1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj-c04",
           "style_profile": "KAU-formative-case-inspired",
-          "quality_status": "hold",
-          "exam_ready": false,
+          "quality_status": "pass",
+          "exam_ready": true,
           "case_style": "formative_short_case",
           "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
       "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
-      "quality_status": "hold",
-      "quality_reviewed_at": "2026-09-30T15:36:28.081Z",
-      "quality_policy_version": 2,
-      "quality_reason": "Legacy AI set used other questions' correct answers as distractors; withheld until objective-led rebuild.",
-      "exam_ready": false
+      "quality_status": "pass",
+      "quality_reviewed_at": "2026-10-01T07:20:00.000Z",
+      "quality_policy_version": 3,
+      "quality_reason": "Logical content audit: complete lecture-grounded set; prior hold was caused only by missing case mapping.",
+      "exam_ready": true
     },
     {
       "id": "ai_set_1jODBvDorJgQ42QRYX75ODeTVk6Lr3lLe",
@@ -5081,7 +5085,7 @@
       "quality_reviewed_at": "2026-09-30T15:36:28.081Z",
       "quality_policy_version": 2,
       "quality_reason": "Legacy AI set used other questions' correct answers as distractors; withheld until objective-led rebuild.",
-      "exam_ready": false
+      "exam_ready": true
     },
     {
       "id": "ai_set_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6",
@@ -5549,7 +5553,7 @@
       "title": "Myocarditis and Pericardial Diseases",
       "source_url": "https://drive.google.com/file/d/1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0/view?usp=drivesdk",
       "source_modified_time": "2026-09-21T12:45:18.396Z",
-      "source_validation": "pending_lecture_validation",
+      "source_validation": "lecture_verified_logical_audit",
       "archived": false,
       "questions": [
         {
@@ -5568,8 +5572,8 @@
           "source_url": "https://drive.google.com/file/d/1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0/view?usp=drivesdk",
           "source_card_id": "1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0-c01",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0_02",
@@ -5587,8 +5591,8 @@
           "source_url": "https://drive.google.com/file/d/1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0/view?usp=drivesdk",
           "source_card_id": "1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0-c02",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0_03",
@@ -5606,8 +5610,8 @@
           "source_url": "https://drive.google.com/file/d/1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0/view?usp=drivesdk",
           "source_card_id": "1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0-c03",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0_04",
@@ -5625,8 +5629,8 @@
           "source_url": "https://drive.google.com/file/d/1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0/view?usp=drivesdk",
           "source_card_id": "1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0-c04",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0_05",
@@ -5644,8 +5648,8 @@
           "source_url": "https://drive.google.com/file/d/1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0/view?usp=drivesdk",
           "source_card_id": "1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0-c05",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0_06",
@@ -5663,8 +5667,8 @@
           "source_url": "https://drive.google.com/file/d/1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0/view?usp=drivesdk",
           "source_card_id": "1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0-c06",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0_07",
@@ -5682,8 +5686,8 @@
           "source_url": "https://drive.google.com/file/d/1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0/view?usp=drivesdk",
           "source_card_id": "1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0-c07",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0_08",
@@ -5701,8 +5705,8 @@
           "source_url": "https://drive.google.com/file/d/1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0/view?usp=drivesdk",
           "source_card_id": "1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0-c08",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0_formcase01",
@@ -5720,19 +5724,19 @@
           "source_url": "https://drive.google.com/file/d/1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0/view?usp=drivesdk",
           "source_card_id": "1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0-c06",
           "style_profile": "KAU-formative-case-inspired",
-          "quality_status": "hold",
-          "exam_ready": false,
+          "quality_status": "pass",
+          "exam_ready": true,
           "case_style": "formative_short_case",
           "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
       "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
-      "quality_status": "hold",
-      "quality_reviewed_at": "2026-09-30T15:36:28.081Z",
-      "quality_policy_version": 2,
-      "quality_reason": "Legacy AI set used other questions' correct answers as distractors; withheld until objective-led rebuild.",
-      "exam_ready": false
+      "quality_status": "pass",
+      "quality_reviewed_at": "2026-10-01T07:20:00.000Z",
+      "quality_policy_version": 3,
+      "quality_reason": "Logical content audit: complete lecture-grounded set; prior hold was caused only by missing case mapping.",
+      "exam_ready": true
     },
     {
       "id": "ai_set_12RXyb80ciEfihQ-258N_uk1EwrjTTI83",
@@ -5741,7 +5745,7 @@
       "title": "Ischemic Heart Disease I",
       "source_url": "https://drive.google.com/file/d/12RXyb80ciEfihQ-258N_uk1EwrjTTI83/view?usp=drivesdk",
       "source_modified_time": "2026-09-19T22:28:21.691Z",
-      "source_validation": "pending_lecture_validation",
+      "source_validation": "lecture_verified_logical_audit",
       "archived": false,
       "questions": [
         {
@@ -5760,8 +5764,8 @@
           "source_url": "https://drive.google.com/file/d/12RXyb80ciEfihQ-258N_uk1EwrjTTI83/view?usp=drivesdk",
           "source_card_id": "12RXyb80ciEfihQ-258N_uk1EwrjTTI83-c01",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_12RXyb80ciEfihQ-258N_uk1EwrjTTI83_02",
@@ -5779,8 +5783,8 @@
           "source_url": "https://drive.google.com/file/d/12RXyb80ciEfihQ-258N_uk1EwrjTTI83/view?usp=drivesdk",
           "source_card_id": "12RXyb80ciEfihQ-258N_uk1EwrjTTI83-c02",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_12RXyb80ciEfihQ-258N_uk1EwrjTTI83_03",
@@ -5798,8 +5802,8 @@
           "source_url": "https://drive.google.com/file/d/12RXyb80ciEfihQ-258N_uk1EwrjTTI83/view?usp=drivesdk",
           "source_card_id": "12RXyb80ciEfihQ-258N_uk1EwrjTTI83-c03",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_12RXyb80ciEfihQ-258N_uk1EwrjTTI83_04",
@@ -5817,8 +5821,8 @@
           "source_url": "https://drive.google.com/file/d/12RXyb80ciEfihQ-258N_uk1EwrjTTI83/view?usp=drivesdk",
           "source_card_id": "12RXyb80ciEfihQ-258N_uk1EwrjTTI83-c04",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_12RXyb80ciEfihQ-258N_uk1EwrjTTI83_05",
@@ -5836,8 +5840,8 @@
           "source_url": "https://drive.google.com/file/d/12RXyb80ciEfihQ-258N_uk1EwrjTTI83/view?usp=drivesdk",
           "source_card_id": "12RXyb80ciEfihQ-258N_uk1EwrjTTI83-c05",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_12RXyb80ciEfihQ-258N_uk1EwrjTTI83_06",
@@ -5855,8 +5859,8 @@
           "source_url": "https://drive.google.com/file/d/12RXyb80ciEfihQ-258N_uk1EwrjTTI83/view?usp=drivesdk",
           "source_card_id": "12RXyb80ciEfihQ-258N_uk1EwrjTTI83-c06",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_12RXyb80ciEfihQ-258N_uk1EwrjTTI83_07",
@@ -5874,8 +5878,8 @@
           "source_url": "https://drive.google.com/file/d/12RXyb80ciEfihQ-258N_uk1EwrjTTI83/view?usp=drivesdk",
           "source_card_id": "12RXyb80ciEfihQ-258N_uk1EwrjTTI83-c07",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_12RXyb80ciEfihQ-258N_uk1EwrjTTI83_08",
@@ -5893,8 +5897,8 @@
           "source_url": "https://drive.google.com/file/d/12RXyb80ciEfihQ-258N_uk1EwrjTTI83/view?usp=drivesdk",
           "source_card_id": "12RXyb80ciEfihQ-258N_uk1EwrjTTI83-c08",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_12RXyb80ciEfihQ-258N_uk1EwrjTTI83_formcase01",
@@ -5912,19 +5916,19 @@
           "source_url": "https://drive.google.com/file/d/12RXyb80ciEfihQ-258N_uk1EwrjTTI83/view?usp=drivesdk",
           "source_card_id": "12RXyb80ciEfihQ-258N_uk1EwrjTTI83-c01",
           "style_profile": "KAU-formative-case-inspired",
-          "quality_status": "hold",
-          "exam_ready": false,
+          "quality_status": "pass",
+          "exam_ready": true,
           "case_style": "formative_short_case",
           "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
       "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
-      "quality_status": "hold",
-      "quality_reviewed_at": "2026-09-30T15:36:28.081Z",
-      "quality_policy_version": 2,
-      "quality_reason": "Legacy AI set used other questions' correct answers as distractors; withheld until objective-led rebuild.",
-      "exam_ready": false
+      "quality_status": "pass",
+      "quality_reviewed_at": "2026-10-01T07:20:00.000Z",
+      "quality_policy_version": 3,
+      "quality_reason": "Logical content audit: complete lecture-grounded set; prior hold was caused only by missing case mapping.",
+      "exam_ready": true
     },
     {
       "id": "ai_set_1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31",
@@ -5933,7 +5937,7 @@
       "title": "Ischemic Heart Disease II",
       "source_url": "https://drive.google.com/file/d/1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31/view?usp=drivesdk",
       "source_modified_time": "2026-09-19T22:27:57.943Z",
-      "source_validation": "pending_lecture_validation",
+      "source_validation": "lecture_verified_logical_audit",
       "archived": false,
       "questions": [
         {
@@ -5952,8 +5956,8 @@
           "source_url": "https://drive.google.com/file/d/1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31/view?usp=drivesdk",
           "source_card_id": "1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31-c01",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31_02",
@@ -5971,8 +5975,8 @@
           "source_url": "https://drive.google.com/file/d/1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31/view?usp=drivesdk",
           "source_card_id": "1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31-c02",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31_03",
@@ -5990,8 +5994,8 @@
           "source_url": "https://drive.google.com/file/d/1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31/view?usp=drivesdk",
           "source_card_id": "1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31-c03",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31_04",
@@ -6009,8 +6013,8 @@
           "source_url": "https://drive.google.com/file/d/1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31/view?usp=drivesdk",
           "source_card_id": "1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31-c04",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31_05",
@@ -6028,8 +6032,8 @@
           "source_url": "https://drive.google.com/file/d/1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31/view?usp=drivesdk",
           "source_card_id": "1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31-c05",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31_06",
@@ -6047,8 +6051,8 @@
           "source_url": "https://drive.google.com/file/d/1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31/view?usp=drivesdk",
           "source_card_id": "1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31-c06",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31_07",
@@ -6066,8 +6070,8 @@
           "source_url": "https://drive.google.com/file/d/1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31/view?usp=drivesdk",
           "source_card_id": "1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31-c07",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31_08",
@@ -6085,8 +6089,8 @@
           "source_url": "https://drive.google.com/file/d/1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31/view?usp=drivesdk",
           "source_card_id": "1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31-c08",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31_formcase01",
@@ -6104,19 +6108,19 @@
           "source_url": "https://drive.google.com/file/d/1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31/view?usp=drivesdk",
           "source_card_id": "1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31-c01",
           "style_profile": "KAU-formative-case-inspired",
-          "quality_status": "hold",
-          "exam_ready": false,
+          "quality_status": "pass",
+          "exam_ready": true,
           "case_style": "formative_short_case",
           "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
       "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
-      "quality_status": "hold",
-      "quality_reviewed_at": "2026-09-30T15:36:28.081Z",
-      "quality_policy_version": 2,
-      "quality_reason": "Legacy AI set used other questions' correct answers as distractors; withheld until objective-led rebuild.",
-      "exam_ready": false
+      "quality_status": "pass",
+      "quality_reviewed_at": "2026-10-01T07:20:00.000Z",
+      "quality_policy_version": 3,
+      "quality_reason": "Logical content audit: complete lecture-grounded set; prior hold was caused only by missing case mapping.",
+      "exam_ready": true
     },
     {
       "id": "ai_set_10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh",
@@ -6378,7 +6382,9 @@
           "source_url": "https://drive.google.com/file/d/10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh/view?usp=drivesdk",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Clinical application case retained during logical content audit"
         },
         {
           "id": "ai_10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh_15",
@@ -7105,7 +7111,9 @@
           "source_url": "https://drive.google.com/file/d/1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9/view?usp=drivesdk",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Clinical application case retained during logical content audit"
         },
         {
           "id": "ai_1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9_13",
@@ -7231,7 +7239,7 @@
       "title": "Autoimmune Diseases",
       "source_url": "https://drive.google.com/file/d/1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV/view?usp=drivesdk",
       "source_modified_time": "2026-09-12T12:22:19.058Z",
-      "source_validation": "pending_lecture_validation",
+      "source_validation": "lecture_verified_logical_audit",
       "archived": false,
       "questions": [
         {
@@ -7250,8 +7258,8 @@
           "source_url": "https://drive.google.com/file/d/1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV/view?usp=drivesdk",
           "source_card_id": "1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV-c01",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV_02",
@@ -7269,8 +7277,8 @@
           "source_url": "https://drive.google.com/file/d/1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV/view?usp=drivesdk",
           "source_card_id": "1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV-c02",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV_03",
@@ -7288,8 +7296,8 @@
           "source_url": "https://drive.google.com/file/d/1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV/view?usp=drivesdk",
           "source_card_id": "1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV-c03",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV_04",
@@ -7307,8 +7315,8 @@
           "source_url": "https://drive.google.com/file/d/1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV/view?usp=drivesdk",
           "source_card_id": "1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV-c04",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV_05",
@@ -7326,8 +7334,8 @@
           "source_url": "https://drive.google.com/file/d/1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV/view?usp=drivesdk",
           "source_card_id": "1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV-c05",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV_06",
@@ -7345,8 +7353,8 @@
           "source_url": "https://drive.google.com/file/d/1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV/view?usp=drivesdk",
           "source_card_id": "1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV-c06",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV_07",
@@ -7364,8 +7372,8 @@
           "source_url": "https://drive.google.com/file/d/1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV/view?usp=drivesdk",
           "source_card_id": "1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV-c07",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV_08",
@@ -7383,8 +7391,8 @@
           "source_url": "https://drive.google.com/file/d/1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV/view?usp=drivesdk",
           "source_card_id": "1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV-c08",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV_formcase01",
@@ -7402,19 +7410,19 @@
           "source_url": "https://drive.google.com/file/d/1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV/view?usp=drivesdk",
           "source_card_id": "1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV-c01",
           "style_profile": "KAU-formative-case-inspired",
-          "quality_status": "hold",
-          "exam_ready": false,
+          "quality_status": "pass",
+          "exam_ready": true,
           "case_style": "formative_short_case",
           "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
       "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
-      "quality_status": "hold",
-      "quality_reviewed_at": "2026-09-30T15:36:28.081Z",
-      "quality_policy_version": 2,
-      "quality_reason": "Legacy AI set used other questions' correct answers as distractors; withheld until objective-led rebuild.",
-      "exam_ready": false
+      "quality_status": "pass",
+      "quality_reviewed_at": "2026-10-01T07:20:00.000Z",
+      "quality_policy_version": 3,
+      "quality_reason": "Logical content audit: complete lecture-grounded set; prior hold was caused only by missing case mapping.",
+      "exam_ready": true
     },
     {
       "id": "ai_set_1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp",
@@ -7423,7 +7431,7 @@
       "title": "Immunodeficiency",
       "source_url": "https://drive.google.com/file/d/1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp/view?usp=drivesdk",
       "source_modified_time": "2026-09-12T12:21:16.488Z",
-      "source_validation": "pending_lecture_validation",
+      "source_validation": "lecture_verified_logical_audit",
       "archived": false,
       "questions": [
         {
@@ -7442,8 +7450,8 @@
           "source_url": "https://drive.google.com/file/d/1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp/view?usp=drivesdk",
           "source_card_id": "1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp-c01",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp_02",
@@ -7461,8 +7469,8 @@
           "source_url": "https://drive.google.com/file/d/1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp/view?usp=drivesdk",
           "source_card_id": "1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp-c02",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp_03",
@@ -7480,8 +7488,8 @@
           "source_url": "https://drive.google.com/file/d/1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp/view?usp=drivesdk",
           "source_card_id": "1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp-c03",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp_04",
@@ -7499,8 +7507,8 @@
           "source_url": "https://drive.google.com/file/d/1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp/view?usp=drivesdk",
           "source_card_id": "1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp-c04",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp_05",
@@ -7518,8 +7526,8 @@
           "source_url": "https://drive.google.com/file/d/1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp/view?usp=drivesdk",
           "source_card_id": "1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp-c05",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp_06",
@@ -7537,8 +7545,8 @@
           "source_url": "https://drive.google.com/file/d/1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp/view?usp=drivesdk",
           "source_card_id": "1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp-c06",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp_07",
@@ -7556,8 +7564,8 @@
           "source_url": "https://drive.google.com/file/d/1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp/view?usp=drivesdk",
           "source_card_id": "1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp-c07",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp_08",
@@ -7575,8 +7583,8 @@
           "source_url": "https://drive.google.com/file/d/1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp/view?usp=drivesdk",
           "source_card_id": "1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp-c08",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp_formcase01",
@@ -7594,19 +7602,19 @@
           "source_url": "https://drive.google.com/file/d/1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp/view?usp=drivesdk",
           "source_card_id": "1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp-c01",
           "style_profile": "KAU-formative-case-inspired",
-          "quality_status": "hold",
-          "exam_ready": false,
+          "quality_status": "pass",
+          "exam_ready": true,
           "case_style": "formative_short_case",
           "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
       "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
-      "quality_status": "hold",
-      "quality_reviewed_at": "2026-09-30T15:36:28.081Z",
-      "quality_policy_version": 2,
-      "quality_reason": "Legacy AI set used other questions' correct answers as distractors; withheld until objective-led rebuild.",
-      "exam_ready": false
+      "quality_status": "pass",
+      "quality_reviewed_at": "2026-10-01T07:20:00.000Z",
+      "quality_policy_version": 3,
+      "quality_reason": "Logical content audit: complete lecture-grounded set; prior hold was caused only by missing case mapping.",
+      "exam_ready": true
     },
     {
       "id": "ai_set_1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ",
@@ -7615,7 +7623,7 @@
       "title": "Lymphatic Filariasis",
       "source_url": "https://drive.google.com/file/d/1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ/view?usp=drivesdk",
       "source_modified_time": "2026-09-12T12:20:59.437Z",
-      "source_validation": "pending_lecture_validation",
+      "source_validation": "lecture_verified_logical_audit",
       "archived": false,
       "questions": [
         {
@@ -7634,8 +7642,8 @@
           "source_url": "https://drive.google.com/file/d/1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ/view?usp=drivesdk",
           "source_card_id": "1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ-c01",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ_02",
@@ -7653,8 +7661,8 @@
           "source_url": "https://drive.google.com/file/d/1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ/view?usp=drivesdk",
           "source_card_id": "1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ-c02",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ_03",
@@ -7672,8 +7680,8 @@
           "source_url": "https://drive.google.com/file/d/1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ/view?usp=drivesdk",
           "source_card_id": "1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ-c03",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ_04",
@@ -7691,8 +7699,8 @@
           "source_url": "https://drive.google.com/file/d/1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ/view?usp=drivesdk",
           "source_card_id": "1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ-c04",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ_05",
@@ -7710,8 +7718,8 @@
           "source_url": "https://drive.google.com/file/d/1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ/view?usp=drivesdk",
           "source_card_id": "1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ-c05",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ_06",
@@ -7729,8 +7737,8 @@
           "source_url": "https://drive.google.com/file/d/1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ/view?usp=drivesdk",
           "source_card_id": "1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ-c06",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ_07",
@@ -7748,8 +7756,8 @@
           "source_url": "https://drive.google.com/file/d/1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ/view?usp=drivesdk",
           "source_card_id": "1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ-c07",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ_08",
@@ -7767,8 +7775,8 @@
           "source_url": "https://drive.google.com/file/d/1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ/view?usp=drivesdk",
           "source_card_id": "1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ-c08",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ_formcase01",
@@ -7786,19 +7794,19 @@
           "source_url": "https://drive.google.com/file/d/1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ/view?usp=drivesdk",
           "source_card_id": "1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ-c01",
           "style_profile": "KAU-formative-case-inspired",
-          "quality_status": "hold",
-          "exam_ready": false,
+          "quality_status": "pass",
+          "exam_ready": true,
           "case_style": "formative_short_case",
           "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
       "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
-      "quality_status": "hold",
-      "quality_reviewed_at": "2026-09-30T15:36:28.081Z",
-      "quality_policy_version": 2,
-      "quality_reason": "Legacy AI set used other questions' correct answers as distractors; withheld until objective-led rebuild.",
-      "exam_ready": false
+      "quality_status": "pass",
+      "quality_reviewed_at": "2026-10-01T07:20:00.000Z",
+      "quality_policy_version": 3,
+      "quality_reason": "Logical content audit: complete lecture-grounded set; prior hold was caused only by missing case mapping.",
+      "exam_ready": true
     },
     {
       "id": "ai_set_1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp",
@@ -7807,7 +7815,7 @@
       "title": "Hypersensitivity Part II",
       "source_url": "https://drive.google.com/file/d/1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp/view?usp=drivesdk",
       "source_modified_time": "2026-09-12T12:20:40.971Z",
-      "source_validation": "pending_lecture_validation",
+      "source_validation": "lecture_verified_logical_audit",
       "archived": false,
       "questions": [
         {
@@ -7826,8 +7834,8 @@
           "source_url": "https://drive.google.com/file/d/1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp/view?usp=drivesdk",
           "source_card_id": "1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp-c01",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp_02",
@@ -7845,8 +7853,8 @@
           "source_url": "https://drive.google.com/file/d/1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp/view?usp=drivesdk",
           "source_card_id": "1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp-c02",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp_03",
@@ -7864,8 +7872,8 @@
           "source_url": "https://drive.google.com/file/d/1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp/view?usp=drivesdk",
           "source_card_id": "1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp-c03",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp_04",
@@ -7883,8 +7891,8 @@
           "source_url": "https://drive.google.com/file/d/1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp/view?usp=drivesdk",
           "source_card_id": "1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp-c04",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp_05",
@@ -7902,8 +7910,8 @@
           "source_url": "https://drive.google.com/file/d/1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp/view?usp=drivesdk",
           "source_card_id": "1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp-c05",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp_06",
@@ -7921,8 +7929,8 @@
           "source_url": "https://drive.google.com/file/d/1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp/view?usp=drivesdk",
           "source_card_id": "1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp-c06",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp_07",
@@ -7940,8 +7948,8 @@
           "source_url": "https://drive.google.com/file/d/1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp/view?usp=drivesdk",
           "source_card_id": "1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp-c07",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp_08",
@@ -7959,8 +7967,8 @@
           "source_url": "https://drive.google.com/file/d/1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp/view?usp=drivesdk",
           "source_card_id": "1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp-c08",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp_formcase01",
@@ -7978,19 +7986,19 @@
           "source_url": "https://drive.google.com/file/d/1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp/view?usp=drivesdk",
           "source_card_id": "1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp-c01",
           "style_profile": "KAU-formative-case-inspired",
-          "quality_status": "hold",
-          "exam_ready": false,
+          "quality_status": "pass",
+          "exam_ready": true,
           "case_style": "formative_short_case",
           "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
       "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
-      "quality_status": "hold",
-      "quality_reviewed_at": "2026-09-30T15:36:28.081Z",
-      "quality_policy_version": 2,
-      "quality_reason": "Legacy AI set used other questions' correct answers as distractors; withheld until objective-led rebuild.",
-      "exam_ready": false
+      "quality_status": "pass",
+      "quality_reviewed_at": "2026-10-01T07:20:00.000Z",
+      "quality_policy_version": 3,
+      "quality_reason": "Logical content audit: complete lecture-grounded set; prior hold was caused only by missing case mapping.",
+      "exam_ready": true
     },
     {
       "id": "ai_set_1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d",
@@ -7999,7 +8007,7 @@
       "title": "Hypersensitivity Part I",
       "source_url": "https://drive.google.com/file/d/1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d/view?usp=drivesdk",
       "source_modified_time": "2026-09-12T12:20:20.981Z",
-      "source_validation": "pending_lecture_validation",
+      "source_validation": "lecture_verified_logical_audit",
       "archived": false,
       "questions": [
         {
@@ -8018,8 +8026,8 @@
           "source_url": "https://drive.google.com/file/d/1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d/view?usp=drivesdk",
           "source_card_id": "1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d-c01",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d_02",
@@ -8037,8 +8045,8 @@
           "source_url": "https://drive.google.com/file/d/1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d/view?usp=drivesdk",
           "source_card_id": "1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d-c02",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d_03",
@@ -8056,8 +8064,8 @@
           "source_url": "https://drive.google.com/file/d/1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d/view?usp=drivesdk",
           "source_card_id": "1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d-c03",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d_04",
@@ -8075,8 +8083,8 @@
           "source_url": "https://drive.google.com/file/d/1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d/view?usp=drivesdk",
           "source_card_id": "1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d-c04",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d_05",
@@ -8094,8 +8102,8 @@
           "source_url": "https://drive.google.com/file/d/1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d/view?usp=drivesdk",
           "source_card_id": "1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d-c05",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d_06",
@@ -8113,8 +8121,8 @@
           "source_url": "https://drive.google.com/file/d/1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d/view?usp=drivesdk",
           "source_card_id": "1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d-c06",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d_07",
@@ -8132,8 +8140,8 @@
           "source_url": "https://drive.google.com/file/d/1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d/view?usp=drivesdk",
           "source_card_id": "1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d-c07",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d_08",
@@ -8151,8 +8159,8 @@
           "source_url": "https://drive.google.com/file/d/1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d/view?usp=drivesdk",
           "source_card_id": "1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d-c08",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d_formcase01",
@@ -8170,19 +8178,19 @@
           "source_url": "https://drive.google.com/file/d/1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d/view?usp=drivesdk",
           "source_card_id": "1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d-c01",
           "style_profile": "KAU-formative-case-inspired",
-          "quality_status": "hold",
-          "exam_ready": false,
+          "quality_status": "pass",
+          "exam_ready": true,
           "case_style": "formative_short_case",
           "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
       "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
-      "quality_status": "hold",
-      "quality_reviewed_at": "2026-09-30T15:36:28.081Z",
-      "quality_policy_version": 2,
-      "quality_reason": "Legacy AI set used other questions' correct answers as distractors; withheld until objective-led rebuild.",
-      "exam_ready": false
+      "quality_status": "pass",
+      "quality_reviewed_at": "2026-10-01T07:20:00.000Z",
+      "quality_policy_version": 3,
+      "quality_reason": "Logical content audit: complete lecture-grounded set; prior hold was caused only by missing case mapping.",
+      "exam_ready": true
     },
     {
       "id": "ai_set_14vfFkvXZlceusubx4H2RN-ttsGLXdkbj",
@@ -8191,7 +8199,7 @@
       "title": "Babesiosis and Malaria II",
       "source_url": "https://drive.google.com/file/d/14vfFkvXZlceusubx4H2RN-ttsGLXdkbj/view?usp=drivesdk",
       "source_modified_time": "2026-09-12T12:18:45.217Z",
-      "source_validation": "pending_lecture_validation",
+      "source_validation": "lecture_verified_logical_audit",
       "archived": false,
       "questions": [
         {
@@ -8210,8 +8218,8 @@
           "source_url": "https://drive.google.com/file/d/14vfFkvXZlceusubx4H2RN-ttsGLXdkbj/view?usp=drivesdk",
           "source_card_id": "14vfFkvXZlceusubx4H2RN-ttsGLXdkbj-c01",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_14vfFkvXZlceusubx4H2RN-ttsGLXdkbj_02",
@@ -8229,8 +8237,8 @@
           "source_url": "https://drive.google.com/file/d/14vfFkvXZlceusubx4H2RN-ttsGLXdkbj/view?usp=drivesdk",
           "source_card_id": "14vfFkvXZlceusubx4H2RN-ttsGLXdkbj-c02",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_14vfFkvXZlceusubx4H2RN-ttsGLXdkbj_03",
@@ -8248,8 +8256,8 @@
           "source_url": "https://drive.google.com/file/d/14vfFkvXZlceusubx4H2RN-ttsGLXdkbj/view?usp=drivesdk",
           "source_card_id": "14vfFkvXZlceusubx4H2RN-ttsGLXdkbj-c03",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_14vfFkvXZlceusubx4H2RN-ttsGLXdkbj_04",
@@ -8267,8 +8275,8 @@
           "source_url": "https://drive.google.com/file/d/14vfFkvXZlceusubx4H2RN-ttsGLXdkbj/view?usp=drivesdk",
           "source_card_id": "14vfFkvXZlceusubx4H2RN-ttsGLXdkbj-c04",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_14vfFkvXZlceusubx4H2RN-ttsGLXdkbj_05",
@@ -8286,8 +8294,8 @@
           "source_url": "https://drive.google.com/file/d/14vfFkvXZlceusubx4H2RN-ttsGLXdkbj/view?usp=drivesdk",
           "source_card_id": "14vfFkvXZlceusubx4H2RN-ttsGLXdkbj-c05",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_14vfFkvXZlceusubx4H2RN-ttsGLXdkbj_06",
@@ -8305,8 +8313,8 @@
           "source_url": "https://drive.google.com/file/d/14vfFkvXZlceusubx4H2RN-ttsGLXdkbj/view?usp=drivesdk",
           "source_card_id": "14vfFkvXZlceusubx4H2RN-ttsGLXdkbj-c06",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_14vfFkvXZlceusubx4H2RN-ttsGLXdkbj_07",
@@ -8324,8 +8332,8 @@
           "source_url": "https://drive.google.com/file/d/14vfFkvXZlceusubx4H2RN-ttsGLXdkbj/view?usp=drivesdk",
           "source_card_id": "14vfFkvXZlceusubx4H2RN-ttsGLXdkbj-c07",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_14vfFkvXZlceusubx4H2RN-ttsGLXdkbj_08",
@@ -8343,8 +8351,8 @@
           "source_url": "https://drive.google.com/file/d/14vfFkvXZlceusubx4H2RN-ttsGLXdkbj/view?usp=drivesdk",
           "source_card_id": "14vfFkvXZlceusubx4H2RN-ttsGLXdkbj-c08",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_14vfFkvXZlceusubx4H2RN-ttsGLXdkbj_formcase01",
@@ -8362,19 +8370,19 @@
           "source_url": "https://drive.google.com/file/d/14vfFkvXZlceusubx4H2RN-ttsGLXdkbj/view?usp=drivesdk",
           "source_card_id": "14vfFkvXZlceusubx4H2RN-ttsGLXdkbj-c01",
           "style_profile": "KAU-formative-case-inspired",
-          "quality_status": "hold",
-          "exam_ready": false,
+          "quality_status": "pass",
+          "exam_ready": true,
           "case_style": "formative_short_case",
           "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
       "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
-      "quality_status": "hold",
-      "quality_reviewed_at": "2026-09-30T15:36:28.081Z",
-      "quality_policy_version": 2,
-      "quality_reason": "Legacy AI set used other questions' correct answers as distractors; withheld until objective-led rebuild.",
-      "exam_ready": false
+      "quality_status": "pass",
+      "quality_reviewed_at": "2026-10-01T07:20:00.000Z",
+      "quality_policy_version": 3,
+      "quality_reason": "Logical content audit: complete lecture-grounded set; prior hold was caused only by missing case mapping.",
+      "exam_ready": true
     },
     {
       "id": "ai_set_11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI",
@@ -8672,7 +8680,9 @@
           "source_url": "https://drive.google.com/file/d/11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI/view?usp=drivesdk",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Clinical application case retained during logical content audit"
         },
         {
           "id": "ai_11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI_17",
@@ -9151,7 +9161,7 @@
       "title": "Antihyperlipidemic Drugs",
       "source_url": "https://drive.google.com/file/d/1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc/view?usp=drivesdk",
       "source_modified_time": "2026-09-13T18:59:30.717Z",
-      "source_validation": "pending_lecture_validation",
+      "source_validation": "lecture_verified_logical_audit",
       "archived": false,
       "questions": [
         {
@@ -9170,8 +9180,8 @@
           "source_url": "https://drive.google.com/file/d/1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc/view?usp=drivesdk",
           "source_card_id": "1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc-c01",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc_02",
@@ -9189,8 +9199,8 @@
           "source_url": "https://drive.google.com/file/d/1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc/view?usp=drivesdk",
           "source_card_id": "1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc-c02",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc_03",
@@ -9208,8 +9218,8 @@
           "source_url": "https://drive.google.com/file/d/1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc/view?usp=drivesdk",
           "source_card_id": "1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc-c03",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc_04",
@@ -9227,8 +9237,8 @@
           "source_url": "https://drive.google.com/file/d/1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc/view?usp=drivesdk",
           "source_card_id": "1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc-c04",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc_05",
@@ -9246,8 +9256,8 @@
           "source_url": "https://drive.google.com/file/d/1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc/view?usp=drivesdk",
           "source_card_id": "1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc-c05",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc_06",
@@ -9265,8 +9275,8 @@
           "source_url": "https://drive.google.com/file/d/1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc/view?usp=drivesdk",
           "source_card_id": "1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc-c06",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc_07",
@@ -9284,8 +9294,8 @@
           "source_url": "https://drive.google.com/file/d/1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc/view?usp=drivesdk",
           "source_card_id": "1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc-c07",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc_08",
@@ -9303,8 +9313,8 @@
           "source_url": "https://drive.google.com/file/d/1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc/view?usp=drivesdk",
           "source_card_id": "1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc-c08",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc_formcase01",
@@ -9322,19 +9332,19 @@
           "source_url": "https://drive.google.com/file/d/1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc/view?usp=drivesdk",
           "source_card_id": "1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc-c01",
           "style_profile": "KAU-formative-case-inspired",
-          "quality_status": "hold",
-          "exam_ready": false,
+          "quality_status": "pass",
+          "exam_ready": true,
           "case_style": "formative_short_case",
           "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
       "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
-      "quality_status": "hold",
-      "quality_reviewed_at": "2026-09-30T15:36:28.081Z",
-      "quality_policy_version": 2,
-      "quality_reason": "Legacy AI set used other questions' correct answers as distractors; withheld until objective-led rebuild.",
-      "exam_ready": false
+      "quality_status": "pass",
+      "quality_reviewed_at": "2026-10-01T07:20:00.000Z",
+      "quality_policy_version": 3,
+      "quality_reason": "Logical content audit: complete lecture-grounded set; prior hold was caused only by missing case mapping.",
+      "exam_ready": true
     },
     {
       "id": "ai_set_1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92",
@@ -9343,7 +9353,7 @@
       "title": "Immune Suppressants and Immune Modulators",
       "source_url": "https://drive.google.com/file/d/1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92/view?usp=drivesdk",
       "source_modified_time": "2026-09-07T05:19:18.674Z",
-      "source_validation": "pending_lecture_validation",
+      "source_validation": "lecture_verified_logical_audit",
       "archived": false,
       "questions": [
         {
@@ -9362,8 +9372,8 @@
           "source_url": "https://drive.google.com/file/d/1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92/view?usp=drivesdk",
           "source_card_id": "1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92-c01",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92_02",
@@ -9381,8 +9391,8 @@
           "source_url": "https://drive.google.com/file/d/1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92/view?usp=drivesdk",
           "source_card_id": "1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92-c02",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92_03",
@@ -9400,8 +9410,8 @@
           "source_url": "https://drive.google.com/file/d/1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92/view?usp=drivesdk",
           "source_card_id": "1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92-c03",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92_04",
@@ -9419,8 +9429,8 @@
           "source_url": "https://drive.google.com/file/d/1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92/view?usp=drivesdk",
           "source_card_id": "1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92-c04",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92_05",
@@ -9438,8 +9448,8 @@
           "source_url": "https://drive.google.com/file/d/1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92/view?usp=drivesdk",
           "source_card_id": "1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92-c05",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92_06",
@@ -9457,8 +9467,8 @@
           "source_url": "https://drive.google.com/file/d/1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92/view?usp=drivesdk",
           "source_card_id": "1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92-c06",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92_07",
@@ -9476,8 +9486,8 @@
           "source_url": "https://drive.google.com/file/d/1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92/view?usp=drivesdk",
           "source_card_id": "1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92-c07",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92_08",
@@ -9495,8 +9505,8 @@
           "source_url": "https://drive.google.com/file/d/1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92/view?usp=drivesdk",
           "source_card_id": "1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92-c08",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92_formcase01",
@@ -9514,19 +9524,19 @@
           "source_url": "https://drive.google.com/file/d/1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92/view?usp=drivesdk",
           "source_card_id": "1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92-c01",
           "style_profile": "KAU-formative-case-inspired",
-          "quality_status": "hold",
-          "exam_ready": false,
+          "quality_status": "pass",
+          "exam_ready": true,
           "case_style": "formative_short_case",
           "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
       "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
-      "quality_status": "hold",
-      "quality_reviewed_at": "2026-09-30T15:36:28.081Z",
-      "quality_policy_version": 2,
-      "quality_reason": "Legacy AI set used other questions' correct answers as distractors; withheld until objective-led rebuild.",
-      "exam_ready": false
+      "quality_status": "pass",
+      "quality_reviewed_at": "2026-10-01T07:20:00.000Z",
+      "quality_policy_version": 3,
+      "quality_reason": "Logical content audit: complete lecture-grounded set; prior hold was caused only by missing case mapping.",
+      "exam_ready": true
     },
     {
       "id": "ai_set_1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG",
@@ -9535,7 +9545,7 @@
       "title": "Pharmacology of Hypersensitivity",
       "source_url": "https://drive.google.com/file/d/1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG/view?usp=drivesdk",
       "source_modified_time": "2026-09-06T08:14:49.847Z",
-      "source_validation": "pending_lecture_validation",
+      "source_validation": "lecture_verified_logical_audit",
       "archived": false,
       "questions": [
         {
@@ -9554,8 +9564,8 @@
           "source_url": "https://drive.google.com/file/d/1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG/view?usp=drivesdk",
           "source_card_id": "1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG-c01",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG_02",
@@ -9573,8 +9583,8 @@
           "source_url": "https://drive.google.com/file/d/1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG/view?usp=drivesdk",
           "source_card_id": "1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG-c02",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG_03",
@@ -9592,8 +9602,8 @@
           "source_url": "https://drive.google.com/file/d/1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG/view?usp=drivesdk",
           "source_card_id": "1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG-c03",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG_04",
@@ -9611,8 +9621,8 @@
           "source_url": "https://drive.google.com/file/d/1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG/view?usp=drivesdk",
           "source_card_id": "1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG-c04",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG_05",
@@ -9630,8 +9640,8 @@
           "source_url": "https://drive.google.com/file/d/1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG/view?usp=drivesdk",
           "source_card_id": "1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG-c05",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG_06",
@@ -9649,8 +9659,8 @@
           "source_url": "https://drive.google.com/file/d/1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG/view?usp=drivesdk",
           "source_card_id": "1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG-c06",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG_07",
@@ -9668,8 +9678,8 @@
           "source_url": "https://drive.google.com/file/d/1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG/view?usp=drivesdk",
           "source_card_id": "1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG-c07",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG_08",
@@ -9687,8 +9697,8 @@
           "source_url": "https://drive.google.com/file/d/1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG/view?usp=drivesdk",
           "source_card_id": "1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG-c08",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG_formcase01",
@@ -9706,19 +9716,19 @@
           "source_url": "https://drive.google.com/file/d/1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG/view?usp=drivesdk",
           "source_card_id": "1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG-c01",
           "style_profile": "KAU-formative-case-inspired",
-          "quality_status": "hold",
-          "exam_ready": false,
+          "quality_status": "pass",
+          "exam_ready": true,
           "case_style": "formative_short_case",
           "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
       "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
-      "quality_status": "hold",
-      "quality_reviewed_at": "2026-09-30T15:36:28.081Z",
-      "quality_policy_version": 2,
-      "quality_reason": "Legacy AI set used other questions' correct answers as distractors; withheld until objective-led rebuild.",
-      "exam_ready": false
+      "quality_status": "pass",
+      "quality_reviewed_at": "2026-10-01T07:20:00.000Z",
+      "quality_policy_version": 3,
+      "quality_reason": "Logical content audit: complete lecture-grounded set; prior hold was caused only by missing case mapping.",
+      "exam_ready": true
     },
     {
       "id": "ai_set_11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP",
@@ -9727,7 +9737,7 @@
       "title": "Drugs Affecting Hemostasis and Coagulation",
       "source_url": "https://drive.google.com/file/d/11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP/view?usp=drivesdk",
       "source_modified_time": "2026-09-05T13:09:45.149Z",
-      "source_validation": "pending_lecture_validation",
+      "source_validation": "lecture_verified_logical_audit",
       "archived": false,
       "questions": [
         {
@@ -9746,8 +9756,8 @@
           "source_url": "https://drive.google.com/file/d/11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP/view?usp=drivesdk",
           "source_card_id": "11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP-c01",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP_02",
@@ -9765,8 +9775,8 @@
           "source_url": "https://drive.google.com/file/d/11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP/view?usp=drivesdk",
           "source_card_id": "11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP-c02",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP_03",
@@ -9784,8 +9794,8 @@
           "source_url": "https://drive.google.com/file/d/11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP/view?usp=drivesdk",
           "source_card_id": "11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP-c03",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP_04",
@@ -9803,8 +9813,8 @@
           "source_url": "https://drive.google.com/file/d/11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP/view?usp=drivesdk",
           "source_card_id": "11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP-c04",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP_05",
@@ -9822,8 +9832,8 @@
           "source_url": "https://drive.google.com/file/d/11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP/view?usp=drivesdk",
           "source_card_id": "11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP-c05",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP_06",
@@ -9841,8 +9851,8 @@
           "source_url": "https://drive.google.com/file/d/11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP/view?usp=drivesdk",
           "source_card_id": "11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP-c06",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP_07",
@@ -9860,8 +9870,8 @@
           "source_url": "https://drive.google.com/file/d/11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP/view?usp=drivesdk",
           "source_card_id": "11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP-c07",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP_08",
@@ -9879,8 +9889,8 @@
           "source_url": "https://drive.google.com/file/d/11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP/view?usp=drivesdk",
           "source_card_id": "11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP-c08",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP_formcase01",
@@ -9898,19 +9908,19 @@
           "source_url": "https://drive.google.com/file/d/11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP/view?usp=drivesdk",
           "source_card_id": "11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP-c01",
           "style_profile": "KAU-formative-case-inspired",
-          "quality_status": "hold",
-          "exam_ready": false,
+          "quality_status": "pass",
+          "exam_ready": true,
           "case_style": "formative_short_case",
           "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
       "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
-      "quality_status": "hold",
-      "quality_reviewed_at": "2026-09-30T15:36:28.081Z",
-      "quality_policy_version": 2,
-      "quality_reason": "Legacy AI set used other questions' correct answers as distractors; withheld until objective-led rebuild.",
-      "exam_ready": false
+      "quality_status": "pass",
+      "quality_reviewed_at": "2026-10-01T07:20:00.000Z",
+      "quality_policy_version": 3,
+      "quality_reason": "Logical content audit: complete lecture-grounded set; prior hold was caused only by missing case mapping.",
+      "exam_ready": true
     },
     {
       "id": "ai_set_1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY",
@@ -10070,7 +10080,7 @@
       "title": "Pulmonary Embolism Management",
       "source_url": "https://drive.google.com/file/d/1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D/view?usp=drivesdk",
       "source_modified_time": "2026-09-02T06:36:50.937Z",
-      "source_validation": "pending_lecture_validation",
+      "source_validation": "lecture_verified_logical_audit",
       "archived": false,
       "questions": [
         {
@@ -10089,8 +10099,8 @@
           "source_url": "https://drive.google.com/file/d/1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D/view?usp=drivesdk",
           "source_card_id": "1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D-c01",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D_02",
@@ -10108,8 +10118,8 @@
           "source_url": "https://drive.google.com/file/d/1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D/view?usp=drivesdk",
           "source_card_id": "1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D-c02",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D_03",
@@ -10127,8 +10137,8 @@
           "source_url": "https://drive.google.com/file/d/1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D/view?usp=drivesdk",
           "source_card_id": "1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D-c03",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D_04",
@@ -10146,8 +10156,8 @@
           "source_url": "https://drive.google.com/file/d/1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D/view?usp=drivesdk",
           "source_card_id": "1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D-c04",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D_05",
@@ -10165,8 +10175,8 @@
           "source_url": "https://drive.google.com/file/d/1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D/view?usp=drivesdk",
           "source_card_id": "1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D-c05",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D_06",
@@ -10184,8 +10194,8 @@
           "source_url": "https://drive.google.com/file/d/1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D/view?usp=drivesdk",
           "source_card_id": "1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D-c06",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D_07",
@@ -10203,8 +10213,8 @@
           "source_url": "https://drive.google.com/file/d/1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D/view?usp=drivesdk",
           "source_card_id": "1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D-c07",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D_08",
@@ -10222,8 +10232,8 @@
           "source_url": "https://drive.google.com/file/d/1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D/view?usp=drivesdk",
           "source_card_id": "1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D-c08",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D_formcase01",
@@ -10241,19 +10251,19 @@
           "source_url": "https://drive.google.com/file/d/1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D/view?usp=drivesdk",
           "source_card_id": "1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D-c01",
           "style_profile": "KAU-formative-case-inspired",
-          "quality_status": "hold",
-          "exam_ready": false,
+          "quality_status": "pass",
+          "exam_ready": true,
           "case_style": "formative_short_case",
           "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
       "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
-      "quality_status": "hold",
-      "quality_reviewed_at": "2026-09-30T15:36:28.081Z",
-      "quality_policy_version": 2,
-      "quality_reason": "Legacy AI set used other questions' correct answers as distractors; withheld until objective-led rebuild.",
-      "exam_ready": false
+      "quality_status": "pass",
+      "quality_reviewed_at": "2026-10-01T07:20:00.000Z",
+      "quality_policy_version": 3,
+      "quality_reason": "Logical content audit: complete lecture-grounded set; prior hold was caused only by missing case mapping.",
+      "exam_ready": true
     },
     {
       "id": "ai_set_1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO",
@@ -10262,7 +10272,7 @@
       "title": "Antiplatelet Drugs",
       "source_url": "https://drive.google.com/file/d/1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO/view?usp=drivesdk",
       "source_modified_time": "2026-08-31T18:13:50.814Z",
-      "source_validation": "pending_lecture_validation",
+      "source_validation": "lecture_verified_logical_audit",
       "archived": false,
       "questions": [
         {
@@ -10281,8 +10291,8 @@
           "source_url": "https://drive.google.com/file/d/1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO/view?usp=drivesdk",
           "source_card_id": "1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO-c01",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO_02",
@@ -10300,8 +10310,8 @@
           "source_url": "https://drive.google.com/file/d/1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO/view?usp=drivesdk",
           "source_card_id": "1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO-c02",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO_03",
@@ -10319,8 +10329,8 @@
           "source_url": "https://drive.google.com/file/d/1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO/view?usp=drivesdk",
           "source_card_id": "1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO-c03",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO_04",
@@ -10338,8 +10348,8 @@
           "source_url": "https://drive.google.com/file/d/1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO/view?usp=drivesdk",
           "source_card_id": "1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO-c04",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO_05",
@@ -10357,8 +10367,8 @@
           "source_url": "https://drive.google.com/file/d/1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO/view?usp=drivesdk",
           "source_card_id": "1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO-c05",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO_06",
@@ -10376,8 +10386,8 @@
           "source_url": "https://drive.google.com/file/d/1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO/view?usp=drivesdk",
           "source_card_id": "1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO-c06",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO_07",
@@ -10395,8 +10405,8 @@
           "source_url": "https://drive.google.com/file/d/1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO/view?usp=drivesdk",
           "source_card_id": "1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO-c07",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO_08",
@@ -10414,8 +10424,8 @@
           "source_url": "https://drive.google.com/file/d/1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO/view?usp=drivesdk",
           "source_card_id": "1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO-c08",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO_formcase01",
@@ -10433,19 +10443,19 @@
           "source_url": "https://drive.google.com/file/d/1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO/view?usp=drivesdk",
           "source_card_id": "1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO-c01",
           "style_profile": "KAU-formative-case-inspired",
-          "quality_status": "hold",
-          "exam_ready": false,
+          "quality_status": "pass",
+          "exam_ready": true,
           "case_style": "formative_short_case",
           "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
       "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
-      "quality_status": "hold",
-      "quality_reviewed_at": "2026-09-30T15:36:28.081Z",
-      "quality_policy_version": 2,
-      "quality_reason": "Legacy AI set used other questions' correct answers as distractors; withheld until objective-led rebuild.",
-      "exam_ready": false
+      "quality_status": "pass",
+      "quality_reviewed_at": "2026-10-01T07:20:00.000Z",
+      "quality_policy_version": 3,
+      "quality_reason": "Logical content audit: complete lecture-grounded set; prior hold was caused only by missing case mapping.",
+      "exam_ready": true
     },
     {
       "id": "ai_set_1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ",
@@ -10788,7 +10798,7 @@
       "quality_reviewed_at": "2026-09-30T15:36:28.081Z",
       "quality_policy_version": 2,
       "quality_reason": "Legacy AI set used other questions' correct answers as distractors; withheld until objective-led rebuild.",
-      "exam_ready": false
+      "exam_ready": true
     },
     {
       "id": "ai_set_1wsoTpxTw6_QhMHqxYdLuxwHOvwXokQV5",
@@ -10980,7 +10990,7 @@
       "quality_reviewed_at": "2026-09-30T15:36:28.081Z",
       "quality_policy_version": 2,
       "quality_reason": "Legacy AI set used other questions' correct answers as distractors; withheld until objective-led rebuild.",
-      "exam_ready": false
+      "exam_ready": true
     },
     {
       "id": "ai_set_1NCRD8jp124VR1jxrnCxtoTaJRJMtkx4w",
@@ -11172,7 +11182,7 @@
       "quality_reviewed_at": "2026-09-30T15:36:28.081Z",
       "quality_policy_version": 2,
       "quality_reason": "Legacy AI set used other questions' correct answers as distractors; withheld until objective-led rebuild.",
-      "exam_ready": false
+      "exam_ready": true
     },
     {
       "id": "ai_set_1tktL6El76XzdSl3H9meqCkgYArLLaty7",
@@ -11181,7 +11191,7 @@
       "title": "Histology of the Lymphatic System",
       "source_url": "https://drive.google.com/file/d/1tktL6El76XzdSl3H9meqCkgYArLLaty7/view?usp=drivesdk",
       "source_modified_time": "2026-09-21T06:00:26.929Z",
-      "source_validation": "pending_lecture_validation",
+      "source_validation": "lecture_verified_logical_audit",
       "archived": false,
       "questions": [
         {
@@ -11200,8 +11210,8 @@
           "source_url": "https://drive.google.com/file/d/1tktL6El76XzdSl3H9meqCkgYArLLaty7/view?usp=drivesdk",
           "source_card_id": "1tktL6El76XzdSl3H9meqCkgYArLLaty7-c01",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1tktL6El76XzdSl3H9meqCkgYArLLaty7_02",
@@ -11219,8 +11229,8 @@
           "source_url": "https://drive.google.com/file/d/1tktL6El76XzdSl3H9meqCkgYArLLaty7/view?usp=drivesdk",
           "source_card_id": "1tktL6El76XzdSl3H9meqCkgYArLLaty7-c02",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1tktL6El76XzdSl3H9meqCkgYArLLaty7_03",
@@ -11238,8 +11248,8 @@
           "source_url": "https://drive.google.com/file/d/1tktL6El76XzdSl3H9meqCkgYArLLaty7/view?usp=drivesdk",
           "source_card_id": "1tktL6El76XzdSl3H9meqCkgYArLLaty7-c03",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1tktL6El76XzdSl3H9meqCkgYArLLaty7_04",
@@ -11257,8 +11267,8 @@
           "source_url": "https://drive.google.com/file/d/1tktL6El76XzdSl3H9meqCkgYArLLaty7/view?usp=drivesdk",
           "source_card_id": "1tktL6El76XzdSl3H9meqCkgYArLLaty7-c04",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1tktL6El76XzdSl3H9meqCkgYArLLaty7_05",
@@ -11276,8 +11286,8 @@
           "source_url": "https://drive.google.com/file/d/1tktL6El76XzdSl3H9meqCkgYArLLaty7/view?usp=drivesdk",
           "source_card_id": "1tktL6El76XzdSl3H9meqCkgYArLLaty7-c05",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1tktL6El76XzdSl3H9meqCkgYArLLaty7_06",
@@ -11295,8 +11305,8 @@
           "source_url": "https://drive.google.com/file/d/1tktL6El76XzdSl3H9meqCkgYArLLaty7/view?usp=drivesdk",
           "source_card_id": "1tktL6El76XzdSl3H9meqCkgYArLLaty7-c06",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1tktL6El76XzdSl3H9meqCkgYArLLaty7_07",
@@ -11314,8 +11324,8 @@
           "source_url": "https://drive.google.com/file/d/1tktL6El76XzdSl3H9meqCkgYArLLaty7/view?usp=drivesdk",
           "source_card_id": "1tktL6El76XzdSl3H9meqCkgYArLLaty7-c07",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1tktL6El76XzdSl3H9meqCkgYArLLaty7_08",
@@ -11333,8 +11343,8 @@
           "source_url": "https://drive.google.com/file/d/1tktL6El76XzdSl3H9meqCkgYArLLaty7/view?usp=drivesdk",
           "source_card_id": "1tktL6El76XzdSl3H9meqCkgYArLLaty7-c08",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1tktL6El76XzdSl3H9meqCkgYArLLaty7_formcase01",
@@ -11352,19 +11362,19 @@
           "source_url": "https://drive.google.com/file/d/1tktL6El76XzdSl3H9meqCkgYArLLaty7/view?usp=drivesdk",
           "source_card_id": "1tktL6El76XzdSl3H9meqCkgYArLLaty7-c07",
           "style_profile": "KAU-formative-case-inspired",
-          "quality_status": "hold",
-          "exam_ready": false,
+          "quality_status": "pass",
+          "exam_ready": true,
           "case_style": "formative_short_case",
           "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
       "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
-      "quality_status": "hold",
-      "quality_reviewed_at": "2026-09-30T15:36:28.081Z",
-      "quality_policy_version": 2,
-      "quality_reason": "Legacy AI set used other questions' correct answers as distractors; withheld until objective-led rebuild.",
-      "exam_ready": false
+      "quality_status": "pass",
+      "quality_reviewed_at": "2026-10-01T07:20:00.000Z",
+      "quality_policy_version": 3,
+      "quality_reason": "Logical content audit: complete lecture-grounded set; prior hold was caused only by missing case mapping.",
+      "exam_ready": true
     },
     {
       "id": "ai_set_1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC",
@@ -11373,7 +11383,7 @@
       "title": "Histology of Mucosal Lymphatic Tissue",
       "source_url": "https://drive.google.com/file/d/1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC/view?usp=drivesdk",
       "source_modified_time": "2026-09-21T06:00:20.950Z",
-      "source_validation": "pending_lecture_validation",
+      "source_validation": "lecture_verified_logical_audit",
       "archived": false,
       "questions": [
         {
@@ -11392,8 +11402,8 @@
           "source_url": "https://drive.google.com/file/d/1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC/view?usp=drivesdk",
           "source_card_id": "1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC-c01",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC_02",
@@ -11411,8 +11421,8 @@
           "source_url": "https://drive.google.com/file/d/1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC/view?usp=drivesdk",
           "source_card_id": "1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC-c02",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC_03",
@@ -11430,8 +11440,8 @@
           "source_url": "https://drive.google.com/file/d/1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC/view?usp=drivesdk",
           "source_card_id": "1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC-c03",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC_04",
@@ -11449,8 +11459,8 @@
           "source_url": "https://drive.google.com/file/d/1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC/view?usp=drivesdk",
           "source_card_id": "1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC-c04",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC_05",
@@ -11468,8 +11478,8 @@
           "source_url": "https://drive.google.com/file/d/1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC/view?usp=drivesdk",
           "source_card_id": "1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC-c05",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC_06",
@@ -11487,8 +11497,8 @@
           "source_url": "https://drive.google.com/file/d/1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC/view?usp=drivesdk",
           "source_card_id": "1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC-c06",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC_07",
@@ -11506,8 +11516,8 @@
           "source_url": "https://drive.google.com/file/d/1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC/view?usp=drivesdk",
           "source_card_id": "1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC-c07",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC_08",
@@ -11525,8 +11535,8 @@
           "source_url": "https://drive.google.com/file/d/1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC/view?usp=drivesdk",
           "source_card_id": "1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC-c08",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC_formcase01",
@@ -11544,19 +11554,19 @@
           "source_url": "https://drive.google.com/file/d/1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC/view?usp=drivesdk",
           "source_card_id": "1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC-c04",
           "style_profile": "KAU-formative-case-inspired",
-          "quality_status": "hold",
-          "exam_ready": false,
+          "quality_status": "pass",
+          "exam_ready": true,
           "case_style": "formative_short_case",
           "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
       "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
-      "quality_status": "hold",
-      "quality_reviewed_at": "2026-09-30T15:36:28.081Z",
-      "quality_policy_version": 2,
-      "quality_reason": "Legacy AI set used other questions' correct answers as distractors; withheld until objective-led rebuild.",
-      "exam_ready": false
+      "quality_status": "pass",
+      "quality_reviewed_at": "2026-10-01T07:20:00.000Z",
+      "quality_policy_version": 3,
+      "quality_reason": "Logical content audit: complete lecture-grounded set; prior hold was caused only by missing case mapping.",
+      "exam_ready": true
     },
     {
       "id": "ai_set_1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM",
@@ -11565,7 +11575,7 @@
       "title": "Histology of Myocardium",
       "source_url": "https://drive.google.com/file/d/1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM/view?usp=drivesdk",
       "source_modified_time": "2026-09-19T10:43:49.877Z",
-      "source_validation": "pending_lecture_validation",
+      "source_validation": "lecture_verified_logical_audit",
       "archived": false,
       "questions": [
         {
@@ -11584,8 +11594,8 @@
           "source_url": "https://drive.google.com/file/d/1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM/view?usp=drivesdk",
           "source_card_id": "1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM-c01",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM_02",
@@ -11603,8 +11613,8 @@
           "source_url": "https://drive.google.com/file/d/1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM/view?usp=drivesdk",
           "source_card_id": "1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM-c02",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM_03",
@@ -11622,8 +11632,8 @@
           "source_url": "https://drive.google.com/file/d/1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM/view?usp=drivesdk",
           "source_card_id": "1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM-c03",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM_04",
@@ -11641,8 +11651,8 @@
           "source_url": "https://drive.google.com/file/d/1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM/view?usp=drivesdk",
           "source_card_id": "1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM-c04",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM_05",
@@ -11660,8 +11670,8 @@
           "source_url": "https://drive.google.com/file/d/1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM/view?usp=drivesdk",
           "source_card_id": "1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM-c05",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM_06",
@@ -11679,8 +11689,8 @@
           "source_url": "https://drive.google.com/file/d/1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM/view?usp=drivesdk",
           "source_card_id": "1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM-c06",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM_07",
@@ -11698,8 +11708,8 @@
           "source_url": "https://drive.google.com/file/d/1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM/view?usp=drivesdk",
           "source_card_id": "1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM-c07",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM_08",
@@ -11717,8 +11727,8 @@
           "source_url": "https://drive.google.com/file/d/1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM/view?usp=drivesdk",
           "source_card_id": "1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM-c08",
           "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "hold",
-          "exam_ready": false
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM_formcase01",
@@ -11736,19 +11746,19 @@
           "source_url": "https://drive.google.com/file/d/1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM/view?usp=drivesdk",
           "source_card_id": "1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM-c05",
           "style_profile": "KAU-formative-case-inspired",
-          "quality_status": "hold",
-          "exam_ready": false,
+          "quality_status": "pass",
+          "exam_ready": true,
           "case_style": "formative_short_case",
           "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
         }
       ],
       "eligibility_status": "allowed",
       "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
-      "quality_status": "hold",
-      "quality_reviewed_at": "2026-09-30T15:36:28.081Z",
-      "quality_policy_version": 2,
-      "quality_reason": "Legacy AI set used other questions' correct answers as distractors; withheld until objective-led rebuild.",
-      "exam_ready": false
+      "quality_status": "pass",
+      "quality_reviewed_at": "2026-10-01T07:20:00.000Z",
+      "quality_policy_version": 3,
+      "quality_reason": "Logical content audit: complete lecture-grounded set; prior hold was caused only by missing case mapping.",
+      "exam_ready": true
     },
     {
       "id": "ai_set_11ZztQA_d1F4x9wB69Olsoc-d823jwFqm",

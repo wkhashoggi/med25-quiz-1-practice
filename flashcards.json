@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-01T08:28:00.000Z",
+  "generated_at": "2026-10-01T08:45:00.000Z",
   "source_root": {
     "id": "1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
     "url": "https://drive.google.com/drive/folders/1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
@@ -8653,6 +8653,170 @@
           "source_url": ""
         }
       ]
+    },
+    {
+      "id": "drive_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic Drugs",
+      "source_file_id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ",
+      "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view",
+      "archived": false,
+      "cards": [
+        {
+          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c01",
+          "front": "Vaughan Williams Class I?",
+          "back": "Na⁺-channel blockers: IA, IB and IC.",
+          "tags": [
+            "Antiarrhythmics",
+            "Classification"
+          ],
+          "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view"
+        },
+        {
+          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c02",
+          "front": "Vaughan Williams Class II?",
+          "back": "β-blockers; ↓ sympathetic effects, automaticity and AV nodal conduction.",
+          "tags": [
+            "Antiarrhythmics",
+            "Classification"
+          ],
+          "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view"
+        },
+        {
+          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c03",
+          "front": "Vaughan Williams Class III?",
+          "back": "K⁺-channel blockers; prolong repolarization and refractory period.",
+          "tags": [
+            "Antiarrhythmics",
+            "Classification"
+          ],
+          "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view"
+        },
+        {
+          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c04",
+          "front": "Vaughan Williams Class IV?",
+          "back": "Non-DHP Ca²⁺ blockers: verapamil and diltiazem.",
+          "tags": [
+            "Antiarrhythmics",
+            "Classification"
+          ],
+          "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view"
+        },
+        {
+          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c05",
+          "front": "Adenosine: key mechanism and use?",
+          "back": "Transient AV nodal block; useful for AV-node-dependent regular narrow SVT.",
+          "tags": [
+            "Antiarrhythmics",
+            "Adenosine"
+          ],
+          "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view"
+        },
+        {
+          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c06",
+          "front": "Why is lidocaine useful after acute MI?",
+          "back": "It preferentially blocks abnormal/inactivated Na⁺ channels in ischemic ventricular tissue.",
+          "tags": [
+            "Antiarrhythmics",
+            "Lidocaine"
+          ],
+          "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view"
+        },
+        {
+          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c07",
+          "front": "Class IC drugs and key contraindication?",
+          "back": "Flecainide/propafenone; avoid after MI or major structural heart disease.",
+          "tags": [
+            "Antiarrhythmics",
+            "Class IC"
+          ],
+          "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view"
+        },
+        {
+          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c08",
+          "front": "Major amiodarone toxicities?",
+          "back": "Pulmonary, thyroid, liver, skin and eye toxicity; also bradycardia/QT effects.",
+          "tags": [
+            "Antiarrhythmics",
+            "Amiodarone"
+          ],
+          "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view"
+        },
+        {
+          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c09",
+          "front": "Torsades treatment?",
+          "back": "IV magnesium sulfate; correct electrolytes and remove QT-prolonging causes.",
+          "tags": [
+            "Antiarrhythmics",
+            "Torsades"
+          ],
+          "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view"
+        },
+        {
+          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c10",
+          "front": "Stable regular narrow SVT after vagal maneuvers fail?",
+          "back": "Adenosine.",
+          "tags": [
+            "Antiarrhythmics",
+            "Clinical"
+          ],
+          "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view"
+        },
+        {
+          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c11",
+          "front": "Stable pre-excited AF in WPW?",
+          "back": "Procainamide; avoid isolated AV-nodal blockers.",
+          "tags": [
+            "Antiarrhythmics",
+            "WPW"
+          ],
+          "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view"
+        },
+        {
+          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c12",
+          "front": "Unstable tachyarrhythmia with a pulse?",
+          "back": "Synchronized cardioversion.",
+          "tags": [
+            "Antiarrhythmics",
+            "Emergency"
+          ],
+          "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view"
+        },
+        {
+          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c13",
+          "front": "Pulseless VT/VF?",
+          "back": "Defibrillation + high-quality CPR first.",
+          "tags": [
+            "Antiarrhythmics",
+            "Emergency"
+          ],
+          "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view"
+        },
+        {
+          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c14",
+          "front": "Symptomatic sinus bradycardia initial drug?",
+          "back": "Atropine.",
+          "tags": [
+            "Antiarrhythmics",
+            "Bradycardia"
+          ],
+          "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view"
+        },
+        {
+          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c15",
+          "front": "Why is β-blocker + verapamil/diltiazem risky?",
+          "back": "Additive bradycardia, AV block and negative inotropy.",
+          "tags": [
+            "Antiarrhythmics",
+            "Interactions"
+          ],
+          "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view"
+        }
+      ],
+      "needs_source_validation": false,
+      "source_validation_date": "2026-10-01",
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
     }
   ],
   "bootstrap_note": "Seeded from current official lecture files; hourly Drive sync will add/update additional decks.",

@@ -128,6 +128,7 @@ async function testPast(page, mobile) {
     await pastSubject.selectOption({index:1});
     await pastSubject.selectOption('');
   }
+
   if (await visible(pastSubject)) {
     const pastSubjects=await pastSubject.locator('option').allTextContents();
     if(!pastSubjects.includes('Physiology'))throw new Error('Past Papers missing Physiology subject');
@@ -211,11 +212,10 @@ async function testAI(page, mobile) {
       const cards=page.locator('#aiQuestionList .aiCard');
       if (await cards.count()<1) throw new Error('AI subject has zero questions: '+subjectName);
     }
-    await aiSubject.selectOption('');
+
     await aiSubject.selectOption({label:'Pathology'});
     await page.waitForTimeout(60);
-    const lectureBtn=page.locator('#aiGuideLectureBtn');
-    await click(lectureBtn,'AI Pathology lecture picker');
+    await click(page.locator('#aiGuideLectureBtn'),'AI Pathology lecture picker');
     const endo=page.locator('#aiGuideLecturePanel input[value="pathology__infective-endocarditis"]');
     if(!await visible(endo))throw new Error('Infective Endocarditis missing from AI lecture filter');
     await endo.check();
@@ -323,15 +323,16 @@ async function testMock(page, mobile) {
     if (!match || Number(match[1])<1) throw new Error('Mock subject has zero AI questions: '+subjectName);
   }
 
-  const biochemCard=page.locator('.mockSubjectCard').filter({hasText:'Biochemistry'}).first();
-  if(!await visible(biochemCard))throw new Error('Mock Biochemistry subject missing');
-  const bioDetails=biochemCard.locator('details');
-  if(!(await bioDetails.getAttribute('open')))await bioDetails.locator('summary').click();
-  const markerRow=biochemCard.locator('.mockLectureRow').filter({hasText:'Diagnostic cardiac markers'}).first();
-  if(!await visible(markerRow))throw new Error('Diagnostic Cardiac Markers missing from Mock lecture list');
-  const markerText=await markerRow.innerText();
-  const markerAI=markerText.match(/(\d+)\s+AI/);
-  if(!markerAI||Number(markerAI[1])<1)throw new Error('Diagnostic Cardiac Markers has zero AI in Mock Exam');
+  const mockLectureTexts=await page.locator('.mockLectureRow').allTextContents();
+  if (mockLectureTexts.some(x=>/\b0\s+AI\b/.test(x))) throw new Error('Mock builder rendered a literal 0 AI lecture');
+
+  for (const lectureName of ['Diagnostic cardiac markers','Antiarrhythmic drugs','White bood cells (WBCs)','Treatment of anemia']) {
+    const row=page.locator('.mockLectureRow').filter({hasText:lectureName}).first();
+    if (await row.count() < 1) throw new Error('Mock lecture missing: '+lectureName);
+    const text=await row.textContent();
+    const match=String(text||'').match(/(\d+)\s+AI/);
+    if (!match || Number(match[1])<1) throw new Error('Mock lecture has zero AI questions: '+lectureName);
+  }
 
   const count=page.locator('[data-mock-subject-count]').first();
   await count.evaluate(el=>{el.value='2';el.dispatchEvent(new Event('change',{bubbles:true}));});

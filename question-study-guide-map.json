@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-01T07:50:00.000Z",
+  "generated_at": "2026-10-01T08:10:00.000Z",
   "study_guide_file_id": "1QwRNlO6-zuOQugxyjrhXykOW-YjVtal4",
   "past": {
     "ibls-previous-years-p4-q3-1": {
@@ -5845,6 +5845,118 @@
       "title": "External Features of the Heart and its Great Vessels",
       "confidence": 1,
       "method": "source-title"
+    },
+    "physiology-important-q29": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "source-bank-current-audit"
+    },
+    "physiology-important-q30": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "source-bank-current-audit"
+    },
+    "physiology-important-q31": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "source-bank-current-audit"
+    },
+    "physiology-important-q32": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "source-bank-current-audit"
+    },
+    "physiology-important-q33": {
+      "lecture_id": "physiology__abnormal-ecg-and-cardiac-arrhythmias",
+      "subject": "Physiology",
+      "title": "Abnormal ECG and cardiac arrhythmias",
+      "confidence": 1,
+      "method": "source-bank-current-audit"
+    },
+    "physiology-important-q34": {
+      "lecture_id": "physiology__abnormal-ecg-and-cardiac-arrhythmias",
+      "subject": "Physiology",
+      "title": "Abnormal ECG and cardiac arrhythmias",
+      "confidence": 1,
+      "method": "source-bank-current-audit"
+    },
+    "physiology-important-q35": {
+      "lecture_id": "physiology__abnormal-ecg-and-cardiac-arrhythmias",
+      "subject": "Physiology",
+      "title": "Abnormal ECG and cardiac arrhythmias",
+      "confidence": 1,
+      "method": "source-bank-current-audit"
+    },
+    "physiology-important-q36": {
+      "lecture_id": "physiology__abnormal-ecg-and-cardiac-arrhythmias",
+      "subject": "Physiology",
+      "title": "Abnormal ECG and cardiac arrhythmias",
+      "confidence": 1,
+      "method": "source-bank-current-audit"
+    },
+    "physiology-important-q37": {
+      "lecture_id": "physiology__physiology-of-coronary-circulation",
+      "subject": "Physiology",
+      "title": "Physiology of coronary circulation",
+      "confidence": 1,
+      "method": "source-bank-current-audit"
+    },
+    "physiology-important-q38": {
+      "lecture_id": "physiology__physiology-of-coronary-circulation",
+      "subject": "Physiology",
+      "title": "Physiology of coronary circulation",
+      "confidence": 1,
+      "method": "source-bank-current-audit"
+    },
+    "physiology-important-q39": {
+      "lecture_id": "physiology__physiology-of-coronary-circulation",
+      "subject": "Physiology",
+      "title": "Physiology of coronary circulation",
+      "confidence": 1,
+      "method": "source-bank-current-audit"
+    },
+    "physiology-important-q40": {
+      "lecture_id": "physiology__physiology-of-coronary-circulation",
+      "subject": "Physiology",
+      "title": "Physiology of coronary circulation",
+      "confidence": 1,
+      "method": "source-bank-current-audit"
+    },
+    "physiology-important-q41": {
+      "lecture_id": "physiology__physiology-of-vascular-endothelium",
+      "subject": "Physiology",
+      "title": "Physiology of vascular endothelium",
+      "confidence": 1,
+      "method": "source-bank-current-audit"
+    },
+    "physiology-important-q42": {
+      "lecture_id": "physiology__physiology-of-vascular-endothelium",
+      "subject": "Physiology",
+      "title": "Physiology of vascular endothelium",
+      "confidence": 1,
+      "method": "source-bank-current-audit"
+    },
+    "physiology-important-q43": {
+      "lecture_id": "physiology__physiology-of-vascular-endothelium",
+      "subject": "Physiology",
+      "title": "Physiology of vascular endothelium",
+      "confidence": 1,
+      "method": "source-bank-current-audit"
+    },
+    "physiology-important-q44": {
+      "lecture_id": "physiology__physiology-of-vascular-endothelium",
+      "subject": "Physiology",
+      "title": "Physiology of vascular endothelium",
+      "confidence": 1,
+      "method": "source-bank-current-audit"
     }
   },
   "ai": {

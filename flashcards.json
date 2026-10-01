@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-01T08:45:00.000Z",
+  "generated_at": "2026-10-01T08:54:00.000Z",
   "source_root": {
     "id": "1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
     "url": "https://drive.google.com/drive/folders/1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
@@ -8811,6 +8811,180 @@
             "Interactions"
           ],
           "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view"
+        }
+      ],
+      "needs_source_validation": false,
+      "source_validation_date": "2026-10-01",
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
+    },
+    {
+      "id": "drive_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "source_file_id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9",
+      "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view",
+      "archived": false,
+      "cards": [
+        {
+          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c01",
+          "front": "What cardiac functions can ECG evaluate?",
+          "back": "Automaticity, conductivity and excitability — not contractility.",
+          "tags": [
+            "ECG",
+            "Basics"
+          ],
+          "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view"
+        },
+        {
+          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c02",
+          "front": "What does a surface ECG record?",
+          "back": "The summed electrical activity of many myocardial cells as it spreads through the heart.",
+          "tags": [
+            "ECG",
+            "Basics"
+          ],
+          "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view"
+        },
+        {
+          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c03",
+          "front": "Which leads are bipolar limb leads?",
+          "back": "I, II and III.",
+          "tags": [
+            "ECG",
+            "Leads"
+          ],
+          "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view"
+        },
+        {
+          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c04",
+          "front": "Which leads are augmented unipolar limb leads?",
+          "back": "aVR, aVL and aVF.",
+          "tags": [
+            "ECG",
+            "Leads"
+          ],
+          "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view"
+        },
+        {
+          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c05",
+          "front": "What are the unipolar chest leads?",
+          "back": "V1–V6.",
+          "tags": [
+            "ECG",
+            "Leads"
+          ],
+          "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view"
+        },
+        {
+          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c06",
+          "front": "Depolarization toward a positive electrode produces what deflection?",
+          "back": "Positive/upward.",
+          "tags": [
+            "ECG",
+            "Vectors"
+          ],
+          "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view"
+        },
+        {
+          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c07",
+          "front": "Repolarization toward a positive electrode produces what deflection?",
+          "back": "Negative/downward.",
+          "tags": [
+            "ECG",
+            "Vectors"
+          ],
+          "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view"
+        },
+        {
+          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c08",
+          "front": "P wave?",
+          "back": "Atrial depolarization.",
+          "tags": [
+            "ECG",
+            "Waves"
+          ],
+          "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view"
+        },
+        {
+          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c09",
+          "front": "QRS complex?",
+          "back": "Ventricular depolarization.",
+          "tags": [
+            "ECG",
+            "Waves"
+          ],
+          "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view"
+        },
+        {
+          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c10",
+          "front": "T wave?",
+          "back": "Ventricular repolarization.",
+          "tags": [
+            "ECG",
+            "Waves"
+          ],
+          "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view"
+        },
+        {
+          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c11",
+          "front": "Normal PR interval?",
+          "back": "0.12–0.20 s.",
+          "tags": [
+            "ECG",
+            "Intervals"
+          ],
+          "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view"
+        },
+        {
+          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c12",
+          "front": "Normal QRS duration?",
+          "back": "Less than 0.12 s.",
+          "tags": [
+            "ECG",
+            "Intervals"
+          ],
+          "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view"
+        },
+        {
+          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c13",
+          "front": "Why is atrial repolarization usually hidden?",
+          "back": "It occurs during ventricular depolarization and is masked by the larger QRS complex.",
+          "tags": [
+            "ECG",
+            "Concepts"
+          ],
+          "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view"
+        },
+        {
+          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c14",
+          "front": "Regular-rhythm heart-rate rule?",
+          "back": "300 ÷ number of large squares between consecutive R waves.",
+          "tags": [
+            "ECG",
+            "Rate"
+          ],
+          "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view"
+        },
+        {
+          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c15",
+          "front": "Irregular-rhythm heart-rate method?",
+          "back": "Count R waves in 6 seconds (30 large squares) and multiply by 10.",
+          "tags": [
+            "ECG",
+            "Rate"
+          ],
+          "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view"
+        },
+        {
+          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c16",
+          "front": "Core normal sinus-rhythm criteria?",
+          "back": "Regular, 60–100 bpm, P before every QRS, normal PR, normal QRS.",
+          "tags": [
+            "ECG",
+            "Sinus rhythm"
+          ],
+          "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view"
         }
       ],
       "needs_source_validation": false,

@@ -1024,6 +1024,25 @@ function gamePatchAuth(){
   }
 }
 
+async function gameActivateLeaderboard(){
+  if(!currentUser||!authSession?.access_token)return false;
+  try{
+    const res=await supaFetch('/rest/v1/leaderboard_activations?on_conflict=user_id',{
+      method:'POST',
+      headers:{Prefer:'resolution=ignore-duplicates,return=minimal'},
+      body:JSON.stringify({user_id:currentUser.id})
+    });
+    if(!res.ok){
+      console.warn('Leaderboard activation unavailable',await res.text());
+      return false;
+    }
+    return true;
+  }catch(e){
+    console.warn('Leaderboard activation unavailable',e);
+    return false;
+  }
+}
+
 async function gameSyncAuth(){
   gameInstallHome();
   gameRenderProfile();
@@ -1032,6 +1051,7 @@ async function gameSyncAuth(){
   gameProfileBusy=true;
   try{
     await gameEnsureProfile();
+    await gameActivateLeaderboard();
     await gameBackfillAttempts();
   }catch(e){console.warn('Game profile sync failed',e)}
   finally{gameProfileBusy=false}

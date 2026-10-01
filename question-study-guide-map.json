@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-01T08:05:00.000Z",
+  "generated_at": "2026-10-01T08:42:00.000Z",
   "study_guide_file_id": "1QwRNlO6-zuOQugxyjrhXykOW-YjVtal4",
   "past": {
     "ibls-previous-years-p4-q3-1": {
@@ -11167,6 +11167,118 @@
       "title": "Infective Endocarditis",
       "confidence": 1,
       "method": "uploaded-lecture-logical-audit"
+    },
+    "ai_antiarr_01": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_antiarr_02": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_antiarr_03": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_antiarr_04": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_antiarr_05": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_antiarr_06": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_antiarr_07": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_antiarr_08": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_antiarr_case01": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_antiarr_case02": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_antiarr_case03": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_antiarr_case04": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_antiarr_case05": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_antiarr_case06": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_antiarr_case07": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
+    },
+    "ai_antiarr_case08": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "drive-source-logical-audit"
     }
   },
   "audit_note": "IBLS/CVS/Formative are provenance only. Past and AI questions are organized by official Study Guide subject and lecture. New combined antihypertensive content is split across official lecture 1/2 by objectives. Visible formative-style AI cases inherit the already-audited parent lecture mapping."

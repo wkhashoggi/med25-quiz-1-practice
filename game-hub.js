@@ -794,12 +794,12 @@ function gameMockRenderSetup(){
           const subjectCount=Number(gameMockState.config.subjectCounts[sub.subject]||0);
           const lectureSelected=sub.lectures.reduce((sum,l)=>sum+Number(gameMockState.config.lectureCounts[l.id]||0),0);
           return '<article class="mockSubjectCard">'+
-            '<div class="mockSubjectMain"><div><b>'+esc(sub.subject)+'</b><span>'+sub.total+' available · '+sub.past+' past'+(gameMockState.config.includeAI?' · '+sub.ai+' AI':'')+'</span></div>'+
+            '<div class="mockSubjectMain"><div><b>'+esc(sub.subject)+'</b><span>'+sub.total+' available · '+sub.past+' past'+(gameMockState.config.includeAI?(sub.ai?' · '+sub.ai+' AI':' · Past only'):'')+'</span></div>'+
               '<label><span>Mixed questions from subject</span><input type="number" min="0" max="'+sub.total+'" value="'+subjectCount+'" data-mock-subject-count="'+esc(sub.subject)+'"></label>'+
             '</div>'+
             '<details '+(lectureSelected?'open':'')+'><summary>Choose specific lectures / topics <span>'+lectureSelected+' selected</span></summary>'+
               '<div class="mockLectureList">'+sub.lectures.map(l=>
-                '<label class="mockLectureRow"><span><b>'+esc(l.title)+'</b><small>'+l.total+' available · '+l.past+' past'+(gameMockState.config.includeAI?' · '+l.ai+' AI':'')+'</small></span>'+
+                '<label class="mockLectureRow"><span><b>'+esc(l.title)+'</b><small>'+l.total+' available · '+l.past+' past'+(gameMockState.config.includeAI?(l.ai?' · '+l.ai+' AI':' · Past only'):'')+'</small></span>'+
                 '<input type="number" min="0" max="'+l.total+'" value="'+Number(gameMockState.config.lectureCounts[l.id]||0)+'" data-mock-lecture-count="'+esc(l.id)+'"></label>'
               ).join('')+'</div>'+
             '</details>'+

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-01T09:00:00.000Z",
+  "generated_at": "2026-10-01T08:20:00.000Z",
   "source_root": {
     "id": "1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
     "url": "https://drive.google.com/drive/folders/1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
@@ -13577,7 +13577,7 @@
       "title": "Cardiac Cycle",
       "source_url": "https://drive.google.com/file/d/19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5/view",
       "source_modified_time": "2026-09-30T05:31:08.969Z",
-      "source_validation": "study_guide_and_lecture_verified",
+      "source_validation": "study_guide_and_current_drive_alias_verified",
       "eligibility_status": "allowed",
       "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
       "teaching_method": "Interactive lecture",
@@ -13879,7 +13879,10 @@
       "quality_reviewed_at": "2026-09-30T15:36:28.081Z",
       "quality_policy_version": 2,
       "quality_reason": "Passed structural/style audit: plausible same-domain distractors, valid answer key, official lecture source, and MED25-style format.",
-      "exam_ready": true
+      "exam_ready": true,
+      "source_alias_file_ids": [
+        "1Bxpdr7P5CPgwQMW5UITveipcTzdPo4CY"
+      ]
     },
     {
       "id": "ai_set_1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc",

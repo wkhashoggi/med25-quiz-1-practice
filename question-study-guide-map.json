@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-01T07:55:00.000Z",
+  "generated_at": "2026-10-01T08:10:00.000Z",
   "study_guide_file_id": "1QwRNlO6-zuOQugxyjrhXykOW-YjVtal4",
   "past": {
     "ibls-previous-years-p4-q3-1": {
@@ -10732,21 +10732,21 @@
       "subject": "Physiology",
       "title": "White bood cells (WBCs)",
       "confidence": 1,
-      "method": "current-drive-case-audit"
+      "method": "drive-case-logical-audit"
     },
     "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_case02": {
       "lecture_id": "physiology__white-bood-cells-wbcs",
       "subject": "Physiology",
       "title": "White bood cells (WBCs)",
       "confidence": 1,
-      "method": "current-drive-case-audit"
+      "method": "drive-case-logical-audit"
     },
     "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_case03": {
       "lecture_id": "physiology__white-bood-cells-wbcs",
       "subject": "Physiology",
       "title": "White bood cells (WBCs)",
       "confidence": 1,
-      "method": "current-drive-case-audit"
+      "method": "drive-case-logical-audit"
     },
     "ai_1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY_09": {
       "lecture_id": "pharmacology__treatment-of-anemia",
@@ -10774,21 +10774,21 @@
       "subject": "Pharmacology",
       "title": "Treatment of anemia",
       "confidence": 1,
-      "method": "current-drive-case-audit"
+      "method": "drive-case-logical-audit"
     },
     "ai_1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY_case02": {
       "lecture_id": "pharmacology__treatment-of-anemia",
       "subject": "Pharmacology",
       "title": "Treatment of anemia",
       "confidence": 1,
-      "method": "current-drive-case-audit"
+      "method": "drive-case-logical-audit"
     },
     "ai_1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY_case03": {
       "lecture_id": "pharmacology__treatment-of-anemia",
       "subject": "Pharmacology",
       "title": "Treatment of anemia",
       "confidence": 1,
-      "method": "current-drive-case-audit"
+      "method": "drive-case-logical-audit"
     },
     "ai_1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ_09": {
       "lecture_id": "anatomy-histology__radiological-anatomy-of-the-heart-and-its-great-vessels",
@@ -10802,21 +10802,21 @@
       "subject": "Anatomy & Histology",
       "title": "Radiological Anatomy of the heart and its great vessels",
       "confidence": 1,
-      "method": "current-drive-case-audit"
+      "method": "drive-case-logical-audit"
     },
     "ai_1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ_case02": {
       "lecture_id": "anatomy-histology__radiological-anatomy-of-the-heart-and-its-great-vessels",
       "subject": "Anatomy & Histology",
       "title": "Radiological Anatomy of the heart and its great vessels",
       "confidence": 1,
-      "method": "current-drive-case-audit"
+      "method": "drive-case-logical-audit"
     },
     "ai_1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ_case03": {
       "lecture_id": "anatomy-histology__radiological-anatomy-of-the-heart-and-its-great-vessels",
       "subject": "Anatomy & Histology",
       "title": "Radiological Anatomy of the heart and its great vessels",
       "confidence": 1,
-      "method": "current-drive-case-audit"
+      "method": "drive-case-logical-audit"
     },
     "ai_16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x_09": {
       "lecture_id": "physiology__cardiac-contractility",

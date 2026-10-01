@@ -142,7 +142,7 @@ async function initAIQuestions(){
     const [aiRes,guideRes,mapRes]=await Promise.all([
       fetch(AI_LIBRARY_URL+'?v='+Date.now(),{cache:'no-store'}),
       fetch(STUDY_GUIDE_CATALOG_URL+'?v=1',{cache:'force-cache'}),
-      fetch(STUDY_GUIDE_MAP_URL+'?v=4',{cache:'force-cache'})
+      fetch(STUDY_GUIDE_MAP_URL+'?v='+Date.now(),{cache:'no-store'})
     ]);
     if(!aiRes.ok)throw new Error('AI HTTP '+aiRes.status);
     aiLibrary=await aiRes.json();if(!Array.isArray(aiLibrary.lecture_sets))aiLibrary.lecture_sets=[];
@@ -185,9 +185,20 @@ function qaLectureCatalog(){
 function qaSubjects(){
   return (studyGuideCatalog.subjects||[]).map(s=>s.name).filter(Boolean);
 }
-function qaSubjectLectures(subject){
+function qaAvailableGuideRows(prefix){
+  const kind=prefix==='past'?'past':'ai';
+  const source=kind==='past'?QUESTIONS:aiAllQuestions();
+  return source.map(q=>sgQuestionLecture(kind,q)).filter(g=>g?.lecture_id&&g?.subject);
+}
+function qaAvailableSubjects(prefix){
+  return [...new Set(qaAvailableGuideRows(prefix).map(g=>g.subject))].sort();
+}
+function qaSubjectLectures(subject,prefix){
   const s=(studyGuideCatalog.subjects||[]).find(x=>x.name===subject);
-  return (s?.lectures||[]).slice();
+  const lectures=(s?.lectures||[]).slice();
+  if(!prefix)return lectures;
+  const available=new Set(qaAvailableGuideRows(prefix).map(g=>g.lecture_id));
+  return lectures.filter(l=>available.has(l.id));
 }
 const qaPastLectureCache=new Map();
 const qaAILectureCache=new Map();
@@ -309,7 +320,7 @@ function qaRenderLecturePicker(prefix,model){
   if(!model.subject){
     btn.disabled=true;btn.textContent='Select subject first';panel.classList.add('hidden');panel.innerHTML='';return;
   }
-  const lectures=qaSubjectLectures(model.subject);
+  const lectures=qaSubjectLectures(model.subject,prefix);
   btn.disabled=false;
   if(model.lectures.size===1){
     const one=lectures.find(x=>model.lectures.has(x.id));btn.textContent=one?.title||'1 lecture selected';
@@ -343,7 +354,9 @@ function qaSetupOne(prefix,model,host){
     root=document.getElementById(qaIds(prefix,'Filters'));
   }
   const subject=document.getElementById(qaIds(prefix,'Subject')),status=document.getElementById(qaIds(prefix,'Status')),btn=document.getElementById(qaIds(prefix,'LectureBtn')),panel=document.getElementById(qaIds(prefix,'LecturePanel')),clear=document.getElementById(qaIds(prefix,'Clear'));
-  subject.innerHTML='<option value="">All subjects</option>'+qaSubjects().map(x=>'<option value="'+esc(x)+'">'+esc(x)+'</option>').join('');
+  const availableSubjects=qaAvailableSubjects(prefix);
+  subject.innerHTML='<option value="">All subjects</option>'+availableSubjects.map(x=>'<option value="'+esc(x)+'">'+esc(x)+'</option>').join('');
+  if(model.subject&&!availableSubjects.includes(model.subject)){model.subject='';model.lectures.clear()}
   subject.value=model.subject||'';status.value=model.status||'all';
   status.onchange=()=>{if(prefix==='ai')aiClearUnansweredPins();model.status=status.value;qaResetLegacyStatus(prefix);qaApply(prefix);responsiveUpdateFilterLabels()};
   subject.onchange=()=>{model.subject=subject.value;model.lectures.clear();qaRenderLecturePicker(prefix,model);qaApply(prefix);responsiveUpdateFilterLabels()};
@@ -541,7 +554,7 @@ function lectureDashboardRows(){
     else if(anyQuestions)r.status='practicing';
     else r.status='not-started';
   });
-  return out;
+  return out.filter(r=>r.questionTotal>0||r.manualStudied);
 }
 function lectureStatusLabel(s){
   return s==='not-started'?'Not started':
@@ -590,7 +603,7 @@ function renderLectureDashboard(){
   const counts={complete:0,studied:0,practicing:0,'questions-complete':0,'not-started':0};
   all.forEach(r=>counts[r.status]=(counts[r.status]||0)+1);
   if(summary)summary.innerHTML=
-    '<span><b>'+all.length+'</b> official lectures</span>'+
+    '<span><b>'+all.length+'</b> published lectures</span>'+
     '<span><b>'+counts.complete+'</b> fully complete</span>'+
     '<span><b>'+all.filter(r=>r.manualStudied).length+'</b> studied by you</span>'+
     '<span><b>'+all.filter(r=>r.questionsComplete).length+'</b> question-complete</span>'+

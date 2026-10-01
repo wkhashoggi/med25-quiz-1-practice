@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-30T13:41:48.783Z",
+  "generated_at": "2026-10-01T09:05:00.000Z",
   "source_root": {
     "id": "1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
     "url": "https://drive.google.com/drive/folders/1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
@@ -884,7 +884,7 @@
       "source_file_id": "16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x",
       "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk",
       "source_modified_time": "2026-09-13T14:50:50.000Z",
-      "archived": true,
+      "archived": false,
       "cards": [
         {
           "id": "16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x-c01",
@@ -1029,10 +1029,9 @@
         }
       ],
       "needs_source_validation": false,
-      "source_validation_date": "2026-09-27",
-      "eligibility_status": "excluded",
-      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
-      "exclusion_reason": "Excluded: no matching Interactive Lecture, Flipped Class, or Online Lecture topic in the official Study Guide; current official cardiac physiology topics are handled in their mapped lecture sets."
+      "source_validation_date": "2026-10-01",
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027 + current MED25 Drive logical audit"
     },
     {
       "id": "drive_1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX",
@@ -1818,7 +1817,7 @@
       "source_file_id": "1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS",
       "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk",
       "source_modified_time": "2026-09-03T16:22:54.000Z",
-      "archived": true,
+      "archived": false,
       "cards": [
         {
           "id": "1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS-c01",
@@ -1941,10 +1940,10 @@
           "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk"
         }
       ],
-      "needs_source_validation": true,
-      "eligibility_status": "excluded",
-      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
-      "exclusion_reason": "Excluded: no matching Interactive Lecture, Flipped Class, or Online Lecture topic in the official Study Guide."
+      "needs_source_validation": false,
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027 + current MED25 Drive logical audit",
+      "source_validation_date": "2026-10-01"
     },
     {
       "id": "drive_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK",
@@ -1953,7 +1952,7 @@
       "source_file_id": "1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK",
       "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
       "source_modified_time": "2026-09-03T16:22:50.000Z",
-      "archived": true,
+      "archived": false,
       "cards": [
         {
           "id": "1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK-c01",
@@ -2157,9 +2156,9 @@
         }
       ],
       "needs_source_validation": false,
-      "eligibility_status": "excluded",
-      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
-      "exclusion_reason": "Excluded: official Study Guide classifies Physiology of WBCs as CBD."
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027 + current MED25 Drive logical audit",
+      "source_validation_date": "2026-10-01"
     },
     {
       "id": "drive_1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn",
@@ -5518,7 +5517,7 @@
       "source_file_id": "1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY",
       "source_url": "https://drive.google.com/file/d/1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY/view?usp=drivesdk",
       "source_modified_time": "2026-09-02T12:56:38.863Z",
-      "archived": true,
+      "archived": false,
       "cards": [
         {
           "id": "1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY-c01",
@@ -5641,10 +5640,10 @@
           "source_url": "https://drive.google.com/file/d/1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY/view?usp=drivesdk"
         }
       ],
-      "needs_source_validation": true,
-      "eligibility_status": "excluded",
-      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
-      "exclusion_reason": "Excluded: Treatment of anemia is SPP2 in the official 2026-2027 module map."
+      "needs_source_validation": false,
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027 + current MED25 Drive logical audit",
+      "source_validation_date": "2026-10-01"
     },
     {
       "id": "drive_1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D",
@@ -5921,7 +5920,7 @@
       "source_file_id": "1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ",
       "source_url": "https://drive.google.com/file/d/1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ/view?usp=drivesdk",
       "source_modified_time": "2026-09-13T06:08:53.063Z",
-      "archived": true,
+      "archived": false,
       "cards": [
         {
           "id": "1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ-c01",
@@ -6044,10 +6043,10 @@
           "source_url": "https://drive.google.com/file/d/1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ/view?usp=drivesdk"
         }
       ],
-      "needs_source_validation": true,
-      "eligibility_status": "excluded",
-      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
-      "exclusion_reason": "Excluded: Radiological Anatomy of the heart and its great vessels is SPP5 in the official 2026-2027 module map."
+      "needs_source_validation": false,
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027 + current MED25 Drive logical audit",
+      "source_validation_date": "2026-10-01"
     },
     {
       "id": "drive_1N29pF27p1UfkP79gdlrUFW-5WiTtgnEC",
@@ -8459,6 +8458,693 @@
       "source_validation": "lecture_validated",
       "teaching_method": "Flipped class",
       "study_guide_objectives": "1. Explore the primary functions of vascular endothelial cells. 2. Discuss the endothelium's role in maintaining homeostasis, including the balance of coagulation and fibrinolysis. 3. Understand the role of endothelial cells in angiogenesis. 4. Discuss the role of nitric oxide (NO) in maintenance of vascular health. 5. Analyze pathophysiological changes associated with endothelial dysfunction. 6. Discuss factors that cause endothelial dysfunction. 7. Explore potential therapeutic strategies targeting endothelial dysfunction."
+    },
+    {
+      "id": "library_endocarditis_2026_2027",
+      "subject": "Pathology",
+      "title": "Endocarditis",
+      "source_file_id": "libfile_6e646046c4ac81918406ddf5ca74067d",
+      "source_url": "",
+      "source_modified_time": "2026-10-01T06:04:48.452Z",
+      "archived": false,
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
+      "needs_source_validation": false,
+      "source_validation_date": "2026-10-01",
+      "cards": [
+        {
+          "id": "endocarditis-2026-c01",
+          "front": "What defines infective endocarditis?",
+          "back": "A microbial infection of heart valves or endocardium with vegetations containing thrombotic debris and organisms.",
+          "tags": [
+            "Endocarditis",
+            "Definition"
+          ],
+          "source_url": ""
+        },
+        {
+          "id": "endocarditis-2026-c02",
+          "front": "Acute vs subacute IE: what is the key difference?",
+          "back": "Acute IE is rapidly destructive and can attack healthy valves; subacute IE is indolent, usually lower virulence, and favors damaged valves.",
+          "tags": [
+            "Endocarditis",
+            "Classification"
+          ],
+          "source_url": ""
+        },
+        {
+          "id": "endocarditis-2026-c03",
+          "front": "Which organism is classic for acute IE and can infect normal valves?",
+          "back": "Staphylococcus aureus.",
+          "tags": [
+            "Endocarditis",
+            "Organisms"
+          ],
+          "source_url": ""
+        },
+        {
+          "id": "endocarditis-2026-c04",
+          "front": "Which organism is classic for subacute IE on damaged valves?",
+          "back": "Streptococcus viridans.",
+          "tags": [
+            "Endocarditis",
+            "Organisms"
+          ],
+          "source_url": ""
+        },
+        {
+          "id": "endocarditis-2026-c05",
+          "front": "What is the leading preexisting cardiac risk factor highlighted for IE?",
+          "back": "Mitral valve prolapse.",
+          "tags": [
+            "Endocarditis",
+            "Risk factors"
+          ],
+          "source_url": ""
+        },
+        {
+          "id": "endocarditis-2026-c06",
+          "front": "Why are IE vegetations dangerous embolically?",
+          "back": "They are friable, so infected fragments can embolize and cause septic infarcts, abscesses, or mycotic aneurysms.",
+          "tags": [
+            "Endocarditis",
+            "Complications"
+          ],
+          "source_url": ""
+        },
+        {
+          "id": "endocarditis-2026-c07",
+          "front": "Which valve is classically involved in IV drug users with IE?",
+          "back": "The tricuspid valve.",
+          "tags": [
+            "Endocarditis",
+            "IVDU"
+          ],
+          "source_url": ""
+        },
+        {
+          "id": "endocarditis-2026-c08",
+          "front": "How is IE confirmed clinically?",
+          "back": "Positive blood cultures plus echocardiographic findings in the appropriate clinical setting.",
+          "tags": [
+            "Endocarditis",
+            "Diagnosis"
+          ],
+          "source_url": ""
+        },
+        {
+          "id": "endocarditis-2026-c09",
+          "front": "Janeway lesions vs Osler nodes?",
+          "back": "Janeway lesions are painless palm/sole lesions; Osler nodes are painful fingertip nodules.",
+          "tags": [
+            "Endocarditis",
+            "Peripheral signs"
+          ],
+          "source_url": ""
+        },
+        {
+          "id": "endocarditis-2026-c10",
+          "front": "What causes IE-associated glomerulonephritis?",
+          "back": "Glomerular trapping of antigen–antibody immune complexes.",
+          "tags": [
+            "Endocarditis",
+            "Complications"
+          ],
+          "source_url": ""
+        },
+        {
+          "id": "endocarditis-2026-c11",
+          "front": "What can a new arrhythmia/conduction defect in IE suggest?",
+          "back": "Extension into underlying myocardium/conduction tissue, including a ring abscess.",
+          "tags": [
+            "Endocarditis",
+            "Complications"
+          ],
+          "source_url": ""
+        },
+        {
+          "id": "endocarditis-2026-c12",
+          "front": "What is NBTE?",
+          "back": "Small sterile, nondestructive valvular thrombi, usually in a hypercoagulable state.",
+          "tags": [
+            "Endocarditis",
+            "NBTE"
+          ],
+          "source_url": ""
+        },
+        {
+          "id": "endocarditis-2026-c13",
+          "front": "What malignancy type is especially associated with NBTE?",
+          "back": "Mucinous adenocarcinoma.",
+          "tags": [
+            "Endocarditis",
+            "NBTE"
+          ],
+          "source_url": ""
+        },
+        {
+          "id": "endocarditis-2026-c14",
+          "front": "Why does NBTE embolize easily?",
+          "back": "The sterile thrombi have no underlying inflammation and are loosely attached/easily dislodged.",
+          "tags": [
+            "Endocarditis",
+            "NBTE"
+          ],
+          "source_url": ""
+        },
+        {
+          "id": "endocarditis-2026-c15",
+          "front": "What is Libman–Sacks endocarditis?",
+          "back": "A sterile inflammatory endocarditis associated with SLE (and antiphospholipid syndrome).",
+          "tags": [
+            "Endocarditis",
+            "Libman-Sacks"
+          ],
+          "source_url": ""
+        },
+        {
+          "id": "endocarditis-2026-c16",
+          "front": "How does Libman–Sacks differ morphologically from NBTE?",
+          "back": "Libman–Sacks has associated inflammation, often fibrinoid necrosis, and may involve either valve surface, cords, or endocardium.",
+          "tags": [
+            "Endocarditis",
+            "Libman-Sacks"
+          ],
+          "source_url": ""
+        },
+        {
+          "id": "endocarditis-2026-c17",
+          "front": "What are the common valve sites in IE?",
+          "back": "Aortic and mitral valves are most common; tricuspid involvement is classic in IV drug users.",
+          "tags": [
+            "Endocarditis",
+            "Morphology"
+          ],
+          "source_url": ""
+        },
+        {
+          "id": "endocarditis-2026-c18",
+          "front": "What are the major poor-prognosis complications of IE highlighted in the lecture?",
+          "back": "Septicemia, arrhythmias/conduction extension, and systemic embolization.",
+          "tags": [
+            "Endocarditis",
+            "Prognosis"
+          ],
+          "source_url": ""
+        }
+      ]
+    },
+    {
+      "id": "drive_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic Drugs",
+      "source_file_id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ",
+      "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view",
+      "archived": false,
+      "cards": [
+        {
+          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c01",
+          "front": "Vaughan Williams Class I?",
+          "back": "Na⁺-channel blockers: IA, IB and IC.",
+          "tags": [
+            "Antiarrhythmics",
+            "Classification"
+          ],
+          "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view"
+        },
+        {
+          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c02",
+          "front": "Vaughan Williams Class II?",
+          "back": "β-blockers; ↓ sympathetic effects, automaticity and AV nodal conduction.",
+          "tags": [
+            "Antiarrhythmics",
+            "Classification"
+          ],
+          "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view"
+        },
+        {
+          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c03",
+          "front": "Vaughan Williams Class III?",
+          "back": "K⁺-channel blockers; prolong repolarization and refractory period.",
+          "tags": [
+            "Antiarrhythmics",
+            "Classification"
+          ],
+          "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view"
+        },
+        {
+          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c04",
+          "front": "Vaughan Williams Class IV?",
+          "back": "Non-DHP Ca²⁺ blockers: verapamil and diltiazem.",
+          "tags": [
+            "Antiarrhythmics",
+            "Classification"
+          ],
+          "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view"
+        },
+        {
+          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c05",
+          "front": "Adenosine: key mechanism and use?",
+          "back": "Transient AV nodal block; useful for AV-node-dependent regular narrow SVT.",
+          "tags": [
+            "Antiarrhythmics",
+            "Adenosine"
+          ],
+          "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view"
+        },
+        {
+          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c06",
+          "front": "Why is lidocaine useful after acute MI?",
+          "back": "It preferentially blocks abnormal/inactivated Na⁺ channels in ischemic ventricular tissue.",
+          "tags": [
+            "Antiarrhythmics",
+            "Lidocaine"
+          ],
+          "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view"
+        },
+        {
+          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c07",
+          "front": "Class IC drugs and key contraindication?",
+          "back": "Flecainide/propafenone; avoid after MI or major structural heart disease.",
+          "tags": [
+            "Antiarrhythmics",
+            "Class IC"
+          ],
+          "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view"
+        },
+        {
+          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c08",
+          "front": "Major amiodarone toxicities?",
+          "back": "Pulmonary, thyroid, liver, skin and eye toxicity; also bradycardia/QT effects.",
+          "tags": [
+            "Antiarrhythmics",
+            "Amiodarone"
+          ],
+          "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view"
+        },
+        {
+          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c09",
+          "front": "Torsades treatment?",
+          "back": "IV magnesium sulfate; correct electrolytes and remove QT-prolonging causes.",
+          "tags": [
+            "Antiarrhythmics",
+            "Torsades"
+          ],
+          "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view"
+        },
+        {
+          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c10",
+          "front": "Stable regular narrow SVT after vagal maneuvers fail?",
+          "back": "Adenosine.",
+          "tags": [
+            "Antiarrhythmics",
+            "Clinical"
+          ],
+          "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view"
+        },
+        {
+          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c11",
+          "front": "Stable pre-excited AF in WPW?",
+          "back": "Procainamide; avoid isolated AV-nodal blockers.",
+          "tags": [
+            "Antiarrhythmics",
+            "WPW"
+          ],
+          "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view"
+        },
+        {
+          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c12",
+          "front": "Unstable tachyarrhythmia with a pulse?",
+          "back": "Synchronized cardioversion.",
+          "tags": [
+            "Antiarrhythmics",
+            "Emergency"
+          ],
+          "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view"
+        },
+        {
+          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c13",
+          "front": "Pulseless VT/VF?",
+          "back": "Defibrillation + high-quality CPR first.",
+          "tags": [
+            "Antiarrhythmics",
+            "Emergency"
+          ],
+          "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view"
+        },
+        {
+          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c14",
+          "front": "Symptomatic sinus bradycardia initial drug?",
+          "back": "Atropine.",
+          "tags": [
+            "Antiarrhythmics",
+            "Bradycardia"
+          ],
+          "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view"
+        },
+        {
+          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c15",
+          "front": "Why is β-blocker + verapamil/diltiazem risky?",
+          "back": "Additive bradycardia, AV block and negative inotropy.",
+          "tags": [
+            "Antiarrhythmics",
+            "Interactions"
+          ],
+          "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view"
+        }
+      ],
+      "needs_source_validation": false,
+      "source_validation_date": "2026-10-01",
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
+    },
+    {
+      "id": "drive_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "source_file_id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9",
+      "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view",
+      "archived": false,
+      "cards": [
+        {
+          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c01",
+          "front": "What cardiac functions can ECG evaluate?",
+          "back": "Automaticity, conductivity and excitability — not contractility.",
+          "tags": [
+            "ECG",
+            "Basics"
+          ],
+          "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view"
+        },
+        {
+          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c02",
+          "front": "What does a surface ECG record?",
+          "back": "The summed electrical activity of many myocardial cells as it spreads through the heart.",
+          "tags": [
+            "ECG",
+            "Basics"
+          ],
+          "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view"
+        },
+        {
+          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c03",
+          "front": "Which leads are bipolar limb leads?",
+          "back": "I, II and III.",
+          "tags": [
+            "ECG",
+            "Leads"
+          ],
+          "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view"
+        },
+        {
+          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c04",
+          "front": "Which leads are augmented unipolar limb leads?",
+          "back": "aVR, aVL and aVF.",
+          "tags": [
+            "ECG",
+            "Leads"
+          ],
+          "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view"
+        },
+        {
+          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c05",
+          "front": "What are the unipolar chest leads?",
+          "back": "V1–V6.",
+          "tags": [
+            "ECG",
+            "Leads"
+          ],
+          "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view"
+        },
+        {
+          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c06",
+          "front": "Depolarization toward a positive electrode produces what deflection?",
+          "back": "Positive/upward.",
+          "tags": [
+            "ECG",
+            "Vectors"
+          ],
+          "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view"
+        },
+        {
+          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c07",
+          "front": "Repolarization toward a positive electrode produces what deflection?",
+          "back": "Negative/downward.",
+          "tags": [
+            "ECG",
+            "Vectors"
+          ],
+          "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view"
+        },
+        {
+          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c08",
+          "front": "P wave?",
+          "back": "Atrial depolarization.",
+          "tags": [
+            "ECG",
+            "Waves"
+          ],
+          "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view"
+        },
+        {
+          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c09",
+          "front": "QRS complex?",
+          "back": "Ventricular depolarization.",
+          "tags": [
+            "ECG",
+            "Waves"
+          ],
+          "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view"
+        },
+        {
+          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c10",
+          "front": "T wave?",
+          "back": "Ventricular repolarization.",
+          "tags": [
+            "ECG",
+            "Waves"
+          ],
+          "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view"
+        },
+        {
+          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c11",
+          "front": "Normal PR interval?",
+          "back": "0.12–0.20 s.",
+          "tags": [
+            "ECG",
+            "Intervals"
+          ],
+          "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view"
+        },
+        {
+          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c12",
+          "front": "Normal QRS duration?",
+          "back": "Less than 0.12 s.",
+          "tags": [
+            "ECG",
+            "Intervals"
+          ],
+          "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view"
+        },
+        {
+          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c13",
+          "front": "Why is atrial repolarization usually hidden?",
+          "back": "It occurs during ventricular depolarization and is masked by the larger QRS complex.",
+          "tags": [
+            "ECG",
+            "Concepts"
+          ],
+          "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view"
+        },
+        {
+          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c14",
+          "front": "Regular-rhythm heart-rate rule?",
+          "back": "300 ÷ number of large squares between consecutive R waves.",
+          "tags": [
+            "ECG",
+            "Rate"
+          ],
+          "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view"
+        },
+        {
+          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c15",
+          "front": "Irregular-rhythm heart-rate method?",
+          "back": "Count R waves in 6 seconds (30 large squares) and multiply by 10.",
+          "tags": [
+            "ECG",
+            "Rate"
+          ],
+          "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view"
+        },
+        {
+          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c16",
+          "front": "Core normal sinus-rhythm criteria?",
+          "back": "Regular, 60–100 bpm, P before every QRS, normal PR, normal QRS.",
+          "tags": [
+            "ECG",
+            "Sinus rhythm"
+          ],
+          "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view"
+        }
+      ],
+      "needs_source_validation": false,
+      "source_validation_date": "2026-10-01",
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
+    },
+    {
+      "id": "drive_1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl",
+      "subject": "Biochemistry",
+      "title": "Diagnostic Cardiac Markers",
+      "source_file_id": "1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl",
+      "source_url": "https://drive.google.com/file/d/1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl/view",
+      "archived": false,
+      "cards": [
+        {
+          "id": "1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl-c01",
+          "front": "Preferred biomarkers for myocardial injury/ACS?",
+          "back": "Cardiac troponin I and T.",
+          "tags": [
+            "Cardiac markers",
+            "Troponin"
+          ],
+          "source_url": "https://drive.google.com/file/d/1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl/view"
+        },
+        {
+          "id": "1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl-c02",
+          "front": "Why is cTnI highly cardiac-specific?",
+          "back": "It has not been reported to be expressed in skeletal muscle.",
+          "tags": [
+            "Cardiac markers",
+            "Troponin"
+          ],
+          "source_url": "https://drive.google.com/file/d/1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl/view"
+        },
+        {
+          "id": "1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl-c03",
+          "front": "Troponin rise after MI?",
+          "back": "About 3–12 h (average ~4–6 h).",
+          "tags": [
+            "Cardiac markers",
+            "Kinetics"
+          ],
+          "source_url": "https://drive.google.com/file/d/1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl/view"
+        },
+        {
+          "id": "1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl-c04",
+          "front": "Troponin peak after MI?",
+          "back": "About 24–48 h.",
+          "tags": [
+            "Cardiac markers",
+            "Kinetics"
+          ],
+          "source_url": "https://drive.google.com/file/d/1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl/view"
+        },
+        {
+          "id": "1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl-c05",
+          "front": "How long do troponins stay elevated?",
+          "back": "cTnI ~5–10 days; cTnT ~5–14 days.",
+          "tags": [
+            "Cardiac markers",
+            "Kinetics"
+          ],
+          "source_url": "https://drive.google.com/file/d/1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl/view"
+        },
+        {
+          "id": "1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl-c06",
+          "front": "CK-MB kinetics after MI?",
+          "back": "Rises 3–12 h, peaks ~24 h, normalizes in 2–3 days.",
+          "tags": [
+            "Cardiac markers",
+            "CK-MB"
+          ],
+          "source_url": "https://drive.google.com/file/d/1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl/view"
+        },
+        {
+          "id": "1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl-c07",
+          "front": "Why can CK-MB help detect reinfarction?",
+          "back": "A new rise after it previously normalized can indicate reinfarction.",
+          "tags": [
+            "Cardiac markers",
+            "CK-MB"
+          ],
+          "source_url": "https://drive.google.com/file/d/1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl/view"
+        },
+        {
+          "id": "1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl-c08",
+          "front": "Myoglobin kinetics after MI?",
+          "back": "Rises ~2 h, peaks 6–8 h, normalizes 20–36 h.",
+          "tags": [
+            "Cardiac markers",
+            "Myoglobin"
+          ],
+          "source_url": "https://drive.google.com/file/d/1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl/view"
+        },
+        {
+          "id": "1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl-c09",
+          "front": "Main limitation of myoglobin?",
+          "back": "Poor cardiac specificity; skeletal muscle injury and renal failure can cause false positives.",
+          "tags": [
+            "Cardiac markers",
+            "Myoglobin"
+          ],
+          "source_url": "https://drive.google.com/file/d/1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl/view"
+        },
+        {
+          "id": "1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl-c10",
+          "front": "What is the LDH flipped pattern?",
+          "back": "LDH-1 becomes higher than LDH-2.",
+          "tags": [
+            "Cardiac markers",
+            "LDH"
+          ],
+          "source_url": "https://drive.google.com/file/d/1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl/view"
+        },
+        {
+          "id": "1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl-c11",
+          "front": "Are LDH and AST still preferred cardiac markers?",
+          "back": "No. Troponins have replaced them for routine cardiac diagnosis.",
+          "tags": [
+            "Cardiac markers",
+            "Comparison"
+          ],
+          "source_url": "https://drive.google.com/file/d/1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl/view"
+        },
+        {
+          "id": "1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl-c12",
+          "front": "What do BNP/NT-proBNP reflect?",
+          "back": "Ventricular stretch and congestive heart failure.",
+          "tags": [
+            "Cardiac markers",
+            "BNP"
+          ],
+          "source_url": "https://drive.google.com/file/d/1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl/view"
+        },
+        {
+          "id": "1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl-c13",
+          "front": "Can troponin rise without MI?",
+          "back": "Yes. Any myocardial injury may raise it, including myocarditis, PE and sepsis.",
+          "tags": [
+            "Cardiac markers",
+            "Troponin"
+          ],
+          "source_url": "https://drive.google.com/file/d/1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl/view"
+        },
+        {
+          "id": "1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl-c14",
+          "front": "Ideal cardiac-marker properties?",
+          "back": "High myocardial concentration, early appearance, prolonged elevation, and high cardiac specificity.",
+          "tags": [
+            "Cardiac markers",
+            "Basics"
+          ],
+          "source_url": "https://drive.google.com/file/d/1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl/view"
+        }
+      ],
+      "needs_source_validation": false,
+      "source_validation_date": "2026-10-01",
+      "eligibility_status": "allowed",
+      "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
     }
   ],
   "bootstrap_note": "Seeded from current official lecture files; hourly Drive sync will add/update additional decks.",

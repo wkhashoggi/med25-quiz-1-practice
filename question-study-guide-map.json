@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-01T08:10:00.000Z",
+  "generated_at": "2026-10-01T08:20:00.000Z",
   "study_guide_file_id": "1QwRNlO6-zuOQugxyjrhXykOW-YjVtal4",
   "past": {
     "ibls-previous-years-p4-q3-1": {
@@ -10872,7 +10872,7 @@
       "subject": "Physiology",
       "title": "Cardiac contractility",
       "confidence": 1,
-      "method": "current-drive-case-audit"
+      "method": "drive-case-logical-audit"
     },
     "ai_1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS_09": {
       "lecture_id": "physiology__physiology-of-hemostasis",
@@ -10928,7 +10928,7 @@
       "subject": "Physiology",
       "title": "Physiology of Hemostasis",
       "confidence": 1,
-      "method": "current-drive-case-audit"
+      "method": "drive-case-logical-audit"
     },
     "ai_endocarditis_2026_01": {
       "lecture_id": "pathology__infective-endocarditis",

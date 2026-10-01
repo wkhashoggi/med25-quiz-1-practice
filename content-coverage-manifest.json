@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T08:05:00.000Z",
+  "generated_at": "2026-10-01T08:08:00.000Z",
   "purpose": "Current MED25 Drive sources that must never silently fall to zero AI coverage.",
   "current_drive_sources": [
     {
@@ -627,6 +627,18 @@
       "ai_source_file_id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9",
       "lecture_ids": [
         "physiology__normal-ecg"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    }
+  ],
+  "current_non_drive_sources": [
+    {
+      "subject": "Pathology",
+      "title": "Endocarditis",
+      "source_file_id": "libfile_6e646046c4ac81918406ddf5ca74067d",
+      "lecture_ids": [
+        "pathology__infective-endocarditis"
       ],
       "minimum_ai_questions": 1,
       "minimum_cases_per_lecture": 1

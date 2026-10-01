@@ -92,6 +92,19 @@ for(const item of manifest.current_drive_sources||[]){
   }
 }
 
+// Required current non-Drive sources (for example a directly uploaded current lecture).
+for(const item of manifest.current_non_drive_sources||[]){
+  const s=activeBySource.get(item.source_file_id);
+  if(!s)fail('Current required non-Drive source has no active AI set: '+item.title);
+  if((s.questions||[]).length<(item.minimum_ai_questions||1))fail('Current required non-Drive source has too few AI questions: '+item.title);
+  for(const lid of item.lecture_ids||[]){
+    const st=lectureStats.get(lid);
+    if(!st||st.ai<(item.minimum_ai_questions||1))fail('Current required non-Drive lecture has zero AI: '+lid+' ('+item.title+')');
+    if(st.mock<1)fail('Current required non-Drive lecture has zero Mock-ready AI: '+lid+' ('+item.title+')');
+    if(st.cases<(item.minimum_cases_per_lecture||1))fail('Current required non-Drive lecture has no case: '+lid+' ('+item.title+')');
+  }
+}
+
 // Flashcards must stay in sync with active source material.
 const activeDecks=(flash.decks||[]).filter(d=>!d.archived);
 const deckBySource=new Map();
@@ -148,6 +161,7 @@ for(const [lid,st] of lectureStats){
 console.log('CONTENT LOGICAL AUDIT PASS');
 console.log(JSON.stringify({
   currentDriveSources:(manifest.current_drive_sources||[]).length,
+  currentNonDriveSources:(manifest.current_non_drive_sources||[]).length,
   activeAiSets:active.length,
   activeAiQuestions:activeQuestions,
   activeCases,

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-01T08:20:00.000Z",
+  "generated_at": "2026-10-01T09:00:00.000Z",
   "source_root": {
     "id": "1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
     "url": "https://drive.google.com/drive/folders/1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
@@ -1716,33 +1716,32 @@
         },
         {
           "id": "ai_16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x_case01",
-          "stem": "A patient receives strong sympathetic stimulation. EDV remains 135 mL, but ESV falls from 65 mL to 35 mL. What best explains the increase in stroke volume?",
+          "stem": "During exercise, venous return and end-diastolic volume increase. Without changing intrinsic contractility, which mechanism increases stroke volume?",
           "options": {
-            "A": "Decreased myocardial contractility",
-            "B": "Increased myocardial contractility from increased Ca2+ availability",
-            "C": "Reduced venous return",
-            "D": "Increased afterload only"
+            "A": "Frank-Starling mechanism",
+            "B": "Reduced preload",
+            "C": "Complete vagal blockade of the ventricle",
+            "D": "Reduced myocardial fiber length"
           },
-          "answer": "B",
-          "explanation": "The lecture states that sympathetic stimulation increases Ca2+ influx and contractility. At the same EDV, a lower ESV therefore produces a larger stroke volume.",
-          "concept": "Heart as a Pump — sympathetic inotropy",
+          "answer": "A",
+          "explanation": "Within physiological limits, increased ventricular filling stretches myocardial fibers and increases force of contraction through the Frank-Starling mechanism.",
+          "concept": "Heart as a Pump — exercise case",
           "difficulty": "application",
-          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view",
+          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk",
           "style_profile": "KAU-formative-case-inspired",
           "quality_status": "pass",
           "exam_ready": true,
           "case_style": "formative_short_case",
-          "formative_reference": "Drive-grounded clinical application case"
+          "formative_reference": "Current MED25 Drive clinical/case application"
         }
       ],
       "eligibility_status": "allowed",
       "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
       "quality_rebuilt_at": "2026-09-29",
-      "exclusion_reason": "Excluded: no matching Interactive Lecture, Flipped Class, or Online Lecture topic in the official Study Guide; current official cardiac physiology topics are handled in their mapped lecture sets.",
       "quality_status": "pass",
-      "exam_ready": true,
       "quality_reviewed_at": "2026-10-01T07:50:00.000Z",
       "quality_policy_version": 3,
+      "exam_ready": true,
       "quality_reason": "Current MED25 Drive material included regardless of session type; supplemental sources map into existing official lecture objectives."
     },
     {
@@ -3419,33 +3418,32 @@
         },
         {
           "id": "ai_1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS_case01",
-          "stem": "A young woman has recurrent epistaxis, easy bruising, menorrhagia, and prolonged bleeding after dental work. Which disorder best fits the pattern described in the lecture?",
+          "stem": "A patient has mucosal bleeding, a normal platelet count, impaired platelet adhesion and reduced factor VIII stability. Which disorder best fits?",
           "options": {
-            "A": "Von Willebrand disease",
-            "B": "Hemophilia A",
-            "C": "Isolated factor XII deficiency",
-            "D": "Polycythemia vera"
+            "A": "von Willebrand disease",
+            "B": "Hemophilia B only",
+            "C": "Polycythemia",
+            "D": "Iron-deficiency anemia"
           },
           "answer": "A",
-          "explanation": "The lecture describes von Willebrand disease as a common inherited bleeding disorder causing impaired platelet adhesion and mucocutaneous bleeding such as epistaxis and menorrhagia.",
-          "concept": "Hemostasis disorders — vWD",
+          "explanation": "von Willebrand disease impairs platelet adhesion and can lower factor VIII, producing a mucocutaneous bleeding pattern.",
+          "concept": "Hemostasis disorder case",
           "difficulty": "application",
-          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view",
+          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk",
           "style_profile": "KAU-formative-case-inspired",
           "quality_status": "pass",
           "exam_ready": true,
           "case_style": "formative_short_case",
-          "formative_reference": "Drive-grounded clinical application case"
+          "formative_reference": "Current MED25 Drive clinical/case application"
         }
       ],
       "eligibility_status": "allowed",
       "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
       "quality_rebuilt_at": "2026-09-29",
-      "exclusion_reason": "Excluded: no matching Interactive Lecture, Flipped Class, or Online Lecture topic in the official Study Guide.",
       "quality_status": "pass",
-      "exam_ready": true,
       "quality_reviewed_at": "2026-10-01T07:50:00.000Z",
       "quality_policy_version": 3,
+      "exam_ready": true,
       "quality_reason": "Current MED25 Drive material included regardless of session type; supplemental sources map into existing official lecture objectives."
     },
     {
@@ -3738,39 +3736,39 @@
             "D": "Lymphocytosis due to tuberculosis"
           },
           "answer": "A",
-          "explanation": "The WBC case-based discussion shows acute appendicitis with leukocytosis and marked neutrophilia, which is typical of acute bacterial inflammation.",
+          "explanation": "The WBC case-based discussion shows acute appendicitis with leukocytosis and 82% neutrophils; the lecture links neutrophilia to pyogenic bacterial infection.",
           "concept": "WBC CBD — appendicitis",
-          "difficulty": "application",
           "source_url": "https://drive.google.com/file/d/1JJNyKMtTqKK1aRhw-1YhaC6MlMkCJoCl/view",
+          "difficulty": "application",
           "style_profile": "KAU-formative-case-inspired",
           "quality_status": "pass",
           "exam_ready": true,
           "case_style": "formative_short_case",
-          "formative_reference": "Drive-grounded clinical case added during logical audit"
+          "formative_reference": "Current MED25 Drive clinical/case application"
         },
         {
           "id": "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_case02",
-          "stem": "In acute appendicitis, neutrophils adhere to endothelium and then squeeze between endothelial cells into the tissue. What is this step called?",
+          "stem": "In the appendicitis case, neutrophils adhere to the endothelium and then squeeze between endothelial cells into the tissue. What is this step called?",
           "options": {
             "A": "Margination",
             "B": "Diapedesis",
             "C": "Opsonization",
-            "D": "Agglutination"
+            "D": "Phagolysosome formation"
           },
           "answer": "B",
-          "explanation": "Diapedesis is the passage of leukocytes through the vessel wall into the surrounding tissue.",
+          "explanation": "Diapedesis is the passage of leukocytes through the vessel wall into surrounding tissue.",
           "concept": "WBC CBD — recruitment",
-          "difficulty": "application",
           "source_url": "https://drive.google.com/file/d/1JJNyKMtTqKK1aRhw-1YhaC6MlMkCJoCl/view",
+          "difficulty": "application",
           "style_profile": "KAU-formative-case-inspired",
           "quality_status": "pass",
           "exam_ready": true,
           "case_style": "formative_short_case",
-          "formative_reference": "Drive-grounded clinical case added during logical audit"
+          "formative_reference": "Current MED25 Drive clinical/case application"
         },
         {
           "id": "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_case03",
-          "stem": "Bacterial particles in an inflamed appendix become coated with antibodies and complement before neutrophil ingestion. What process has occurred?",
+          "stem": "In the same appendicitis case, bacterial particles become coated with antibodies and complement before neutrophil ingestion. What process has occurred?",
           "options": {
             "A": "Chemotaxis",
             "B": "Margination",
@@ -3778,24 +3776,23 @@
             "D": "Leukopenia"
           },
           "answer": "C",
-          "explanation": "Opsonization coats foreign particles with molecules such as antibodies and complement, making phagocytosis easier.",
+          "explanation": "Opsonization coats foreign particles with antibodies or complement and makes them easier for phagocytes to recognize and engulf.",
           "concept": "WBC CBD — phagocytosis",
-          "difficulty": "application",
           "source_url": "https://drive.google.com/file/d/1JJNyKMtTqKK1aRhw-1YhaC6MlMkCJoCl/view",
+          "difficulty": "application",
           "style_profile": "KAU-formative-case-inspired",
           "quality_status": "pass",
           "exam_ready": true,
           "case_style": "formative_short_case",
-          "formative_reference": "Drive-grounded clinical case added during logical audit"
+          "formative_reference": "Current MED25 Drive clinical/case application"
         }
       ],
       "eligibility_status": "allowed",
       "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
-      "exclusion_reason": "Excluded: official Study Guide classifies Physiology of WBCs as CBD.",
       "quality_status": "pass",
-      "exam_ready": true,
       "quality_reviewed_at": "2026-10-01T07:50:00.000Z",
       "quality_policy_version": 3,
+      "exam_ready": true,
       "quality_reason": "Current MED25 Drive material included regardless of session type; supplemental sources map into existing official lecture objectives."
     },
     {
@@ -5290,7 +5287,7 @@
       "quality_reviewed_at": "2026-09-30T15:36:28.081Z",
       "quality_policy_version": 2,
       "quality_reason": "Legacy AI set used other questions' correct answers as distractors; withheld until objective-led rebuild.",
-      "exam_ready": false
+      "exam_ready": true
     },
     {
       "id": "ai_set_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6",
@@ -10291,23 +10288,23 @@
         },
         {
           "id": "ai_1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY_case01",
-          "stem": "A patient with iron-deficiency anemia cannot tolerate oral iron because of severe gastrointestinal adverse effects and also has malabsorption. Which treatment is most appropriate?",
+          "stem": "A patient with iron-deficiency anemia cannot tolerate oral iron because of severe gastrointestinal adverse effects and also has malabsorption. Which treatment is most appropriate from the lecture?",
           "options": {
-            "A": "Parenteral iron",
+            "A": "Iron dextran",
             "B": "Folic acid",
-            "C": "Vitamin B12",
-            "D": "Erythropoietin"
+            "C": "Hydroxocobalamin",
+            "D": "Interleukin-11"
           },
           "answer": "A",
-          "explanation": "Parenteral iron is indicated when oral iron cannot be tolerated or absorbed.",
+          "explanation": "Parenteral iron such as iron dextran is indicated when oral iron cannot be tolerated or absorbed.",
           "concept": "Treatment of anemia — iron case",
           "difficulty": "application",
-          "source_url": "https://drive.google.com/file/d/1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY/view",
+          "source_url": "https://drive.google.com/file/d/1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY/view?usp=drivesdk",
           "style_profile": "KAU-formative-case-inspired",
           "quality_status": "pass",
           "exam_ready": true,
           "case_style": "formative_short_case",
-          "formative_reference": "Drive-grounded clinical case added during logical audit"
+          "formative_reference": "Current MED25 Drive clinical/case application"
         },
         {
           "id": "ai_1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY_case02",
@@ -10316,22 +10313,22 @@
             "A": "Oral folic acid alone",
             "B": "Intramuscular vitamin B12",
             "C": "Oral iron",
-            "D": "Intermittent phlebotomy"
+            "D": "Phlebotomy"
           },
           "answer": "B",
-          "explanation": "Pernicious anemia requires lifelong intramuscular vitamin B12; folic acid alone does not correct neurologic manifestations.",
+          "explanation": "Pernicious anemia requires lifelong intramuscular vitamin B12; folic acid alone does not correct the neurologic manifestations.",
           "concept": "Treatment of anemia — B12 case",
           "difficulty": "application",
-          "source_url": "https://drive.google.com/file/d/1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY/view",
+          "source_url": "https://drive.google.com/file/d/1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY/view?usp=drivesdk",
           "style_profile": "KAU-formative-case-inspired",
           "quality_status": "pass",
           "exam_ready": true,
           "case_style": "formative_short_case",
-          "formative_reference": "Drive-grounded clinical case added during logical audit"
+          "formative_reference": "Current MED25 Drive clinical/case application"
         },
         {
           "id": "ai_1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY_case03",
-          "stem": "A patient with end-stage renal failure develops anemia. Which growth factor is specifically indicated?",
+          "stem": "A patient with end-stage renal failure develops anemia. Which growth factor is specifically indicated in the lecture?",
           "options": {
             "A": "Erythropoietin",
             "B": "Deferoxamine",
@@ -10339,24 +10336,23 @@
             "D": "Protamine"
           },
           "answer": "A",
-          "explanation": "Erythropoietin is used to treat anemia associated with end-stage renal failure.",
+          "explanation": "Erythropoietin is used for anemia associated with end-stage renal failure.",
           "concept": "Treatment of anemia — renal case",
           "difficulty": "application",
-          "source_url": "https://drive.google.com/file/d/1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY/view",
+          "source_url": "https://drive.google.com/file/d/1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY/view?usp=drivesdk",
           "style_profile": "KAU-formative-case-inspired",
           "quality_status": "pass",
           "exam_ready": true,
           "case_style": "formative_short_case",
-          "formative_reference": "Drive-grounded clinical case added during logical audit"
+          "formative_reference": "Current MED25 Drive clinical/case application"
         }
       ],
       "eligibility_status": "allowed",
       "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
-      "exclusion_reason": "Excluded: Treatment of anemia is SPP2 in the official 2026-2027 module map.",
       "quality_status": "pass",
-      "exam_ready": true,
       "quality_reviewed_at": "2026-10-01T07:50:00.000Z",
       "quality_policy_version": 3,
+      "exam_ready": true,
       "quality_reason": "Current MED25 Drive material included regardless of session type; supplemental sources map into existing official lecture objectives."
     },
     {
@@ -10910,24 +10906,24 @@
           "stem": "A PA chest radiograph shows a transverse cardiac diameter of 16 cm and an internal thoracic diameter of 30 cm. Which interpretation is correct?",
           "options": {
             "A": "The cardiothoracic ratio is about 0.53 and exceeds the usual 0.50 limit",
-            "B": "The ratio is about 0.30 and is normal",
-            "C": "The ratio cannot be calculated on a PA view",
-            "D": "The ratio is about 1.9"
+            "B": "The cardiothoracic ratio is about 0.30 and is normal",
+            "C": "The cardiothoracic ratio cannot be calculated on a PA view",
+            "D": "The cardiothoracic ratio is about 1.9"
           },
           "answer": "A",
-          "explanation": "16/30 is approximately 0.53. The lecture uses 0.50 as the usual upper limit on a PA chest radiograph.",
+          "explanation": "16/30 is about 0.53. The lecture uses 0.50 as the usual upper limit on a PA chest radiograph.",
           "concept": "Radiology case — cardiothoracic ratio",
           "difficulty": "application",
-          "source_url": "https://drive.google.com/file/d/1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ/view",
+          "source_url": "https://drive.google.com/file/d/1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ/view?usp=drivesdk",
           "style_profile": "KAU-formative-case-inspired",
           "quality_status": "pass",
           "exam_ready": true,
           "case_style": "formative_short_case",
-          "formative_reference": "Drive-grounded clinical case added during logical audit"
+          "formative_reference": "Current MED25 Drive clinical/case application"
         },
         {
           "id": "ai_1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ_case02",
-          "stem": "A patient needs direct visualization of suspected narrowing inside a coronary artery after myocardial infarction. Which investigation is most appropriate?",
+          "stem": "A patient needs direct visualization of suspected narrowing inside a coronary artery after myocardial infarction. Which investigation best matches the lecture?",
           "options": {
             "A": "Coronary angiography",
             "B": "Plain abdominal X-ray",
@@ -10935,19 +10931,19 @@
             "D": "EEG"
           },
           "answer": "A",
-          "explanation": "Coronary angiography uses contrast to visualize the coronary arterial lumen and detect stenosis.",
+          "explanation": "Coronary angiography visualizes the coronary arterial lumen with contrast dye and is used around coronary disease and interventions.",
           "concept": "Radiology case — coronary lumen",
           "difficulty": "application",
-          "source_url": "https://drive.google.com/file/d/1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ/view",
+          "source_url": "https://drive.google.com/file/d/1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ/view?usp=drivesdk",
           "style_profile": "KAU-formative-case-inspired",
           "quality_status": "pass",
           "exam_ready": true,
           "case_style": "formative_short_case",
-          "formative_reference": "Drive-grounded clinical case added during logical audit"
+          "formative_reference": "Current MED25 Drive clinical/case application"
         },
         {
           "id": "ai_1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ_case03",
-          "stem": "A patient has a cardiac murmur and the clinician wants to assess valve movement and blood-flow direction. Which test is most appropriate?",
+          "stem": "A patient has a cardiac murmur and the clinician wants to assess valve movement and blood-flow direction. Which test is most appropriate from the lecture?",
           "options": {
             "A": "Doppler echocardiography",
             "B": "Plain chest X-ray only",
@@ -10955,24 +10951,23 @@
             "D": "Bone scan"
           },
           "answer": "A",
-          "explanation": "Echocardiography evaluates valve movement, and Doppler adds assessment of blood-flow direction and velocity.",
+          "explanation": "Echocardiography evaluates valves and chamber movement; Doppler assesses blood-flow velocity and direction.",
           "concept": "Radiology case — valve assessment",
           "difficulty": "application",
-          "source_url": "https://drive.google.com/file/d/1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ/view",
+          "source_url": "https://drive.google.com/file/d/1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ/view?usp=drivesdk",
           "style_profile": "KAU-formative-case-inspired",
           "quality_status": "pass",
           "exam_ready": true,
           "case_style": "formative_short_case",
-          "formative_reference": "Drive-grounded clinical case added during logical audit"
+          "formative_reference": "Current MED25 Drive clinical/case application"
         }
       ],
       "eligibility_status": "allowed",
       "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
-      "exclusion_reason": "Excluded: Radiological Anatomy of the heart and its great vessels is SPP5 in the official 2026-2027 module map.",
       "quality_status": "pass",
-      "exam_ready": true,
       "quality_reviewed_at": "2026-10-01T07:50:00.000Z",
       "quality_policy_version": 3,
+      "exam_ready": true,
       "quality_reason": "Current MED25 Drive material included regardless of session type; supplemental sources map into existing official lecture objectives."
     },
     {
@@ -11165,7 +11160,7 @@
       "quality_reviewed_at": "2026-09-30T15:36:28.081Z",
       "quality_policy_version": 2,
       "quality_reason": "Legacy AI set used other questions' correct answers as distractors; withheld until objective-led rebuild.",
-      "exam_ready": false
+      "exam_ready": true
     },
     {
       "id": "ai_set_1wsoTpxTw6_QhMHqxYdLuxwHOvwXokQV5",
@@ -11357,7 +11352,7 @@
       "quality_reviewed_at": "2026-09-30T15:36:28.081Z",
       "quality_policy_version": 2,
       "quality_reason": "Legacy AI set used other questions' correct answers as distractors; withheld until objective-led rebuild.",
-      "exam_ready": false
+      "exam_ready": true
     },
     {
       "id": "ai_set_1NCRD8jp124VR1jxrnCxtoTaJRJMtkx4w",
@@ -11549,7 +11544,7 @@
       "quality_reviewed_at": "2026-09-30T15:36:28.081Z",
       "quality_policy_version": 2,
       "quality_reason": "Legacy AI set used other questions' correct answers as distractors; withheld until objective-led rebuild.",
-      "exam_ready": false
+      "exam_ready": true
     },
     {
       "id": "ai_set_1tktL6El76XzdSl3H9meqCkgYArLLaty7",
@@ -12211,7 +12206,9 @@
           "source_card_id": null,
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Lecture-grounded clinical application case"
         },
         {
           "id": "ai_11ZztQA_d1F4x9wB69Olsoc-d823jwFqm_05",

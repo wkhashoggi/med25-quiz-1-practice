@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-01T07:35:00.000Z",
+  "generated_at": "2026-10-01T07:50:00.000Z",
   "source_root": {
     "id": "1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
     "url": "https://drive.google.com/drive/folders/1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
@@ -1441,8 +1441,8 @@
       "title": "Heart as a Pump",
       "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk",
       "source_modified_time": "2026-09-13T14:50:50.000Z",
-      "source_validation": "lecture_verified_quality_rebuilt",
-      "archived": true,
+      "source_validation": "current_drive_verified_logical_audit",
+      "archived": false,
       "questions": [
         {
           "id": "ai_16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x_01",
@@ -1458,7 +1458,9 @@
           "concept": "Excitation-contraction",
           "difficulty": "core",
           "style_profile": "KAU-past-paper-inspired",
-          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk"
+          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk",
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x_02",
@@ -1474,7 +1476,9 @@
           "concept": "Contractility",
           "difficulty": "core",
           "style_profile": "KAU-past-paper-inspired",
-          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk"
+          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk",
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x_03",
@@ -1490,7 +1494,9 @@
           "concept": "Preload",
           "difficulty": "core",
           "style_profile": "KAU-past-paper-inspired",
-          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk"
+          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk",
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x_04",
@@ -1506,7 +1512,9 @@
           "concept": "Frank-Starling",
           "difficulty": "core",
           "style_profile": "KAU-past-paper-inspired",
-          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk"
+          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk",
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x_05",
@@ -1522,7 +1530,9 @@
           "concept": "Venous return",
           "difficulty": "application",
           "style_profile": "KAU-past-paper-inspired",
-          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk"
+          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk",
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x_06",
@@ -1538,7 +1548,9 @@
           "concept": "Venous return",
           "difficulty": "core",
           "style_profile": "KAU-past-paper-inspired",
-          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk"
+          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk",
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x_07",
@@ -1554,7 +1566,9 @@
           "concept": "Autoregulation",
           "difficulty": "core",
           "style_profile": "KAU-past-paper-inspired",
-          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk"
+          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk",
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x_08",
@@ -1570,7 +1584,9 @@
           "concept": "Autoregulation",
           "difficulty": "core",
           "style_profile": "KAU-past-paper-inspired",
-          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk"
+          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk",
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x_09",
@@ -1586,7 +1602,9 @@
           "concept": "Afterload",
           "difficulty": "core",
           "style_profile": "KAU-past-paper-inspired",
-          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk"
+          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk",
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x_10",
@@ -1602,7 +1620,9 @@
           "concept": "Contractility",
           "difficulty": "core",
           "style_profile": "KAU-past-paper-inspired",
-          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk"
+          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk",
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x_11",
@@ -1618,7 +1638,9 @@
           "concept": "Stroke volume",
           "difficulty": "application",
           "style_profile": "KAU-past-paper-inspired",
-          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk"
+          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk",
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x_12",
@@ -1634,7 +1656,9 @@
           "concept": "Frank-Starling",
           "difficulty": "application",
           "style_profile": "KAU-past-paper-inspired",
-          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk"
+          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk",
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x_13",
@@ -1650,7 +1674,9 @@
           "concept": "Exercise",
           "difficulty": "application",
           "style_profile": "KAU-past-paper-inspired",
-          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk"
+          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk",
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x_14",
@@ -1666,7 +1692,9 @@
           "concept": "Venous return",
           "difficulty": "application",
           "style_profile": "KAU-past-paper-inspired",
-          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk"
+          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk",
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x_15",
@@ -1682,13 +1710,39 @@
           "concept": "Contractility",
           "difficulty": "core",
           "style_profile": "KAU-past-paper-inspired",
-          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk"
+          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x_case01",
+          "stem": "During exercise, venous return and end-diastolic volume increase. Without changing intrinsic contractility, which mechanism increases stroke volume?",
+          "options": {
+            "A": "Frank-Starling mechanism",
+            "B": "Reduced preload",
+            "C": "Complete vagal blockade of the ventricle",
+            "D": "Reduced myocardial fiber length"
+          },
+          "answer": "A",
+          "explanation": "Within physiological limits, increased ventricular filling stretches myocardial fibers and increases force of contraction through the Frank-Starling mechanism.",
+          "concept": "Heart as a Pump — exercise case",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Current MED25 Drive clinical/case application"
         }
       ],
-      "eligibility_status": "excluded",
+      "eligibility_status": "allowed",
       "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
       "quality_rebuilt_at": "2026-09-29",
-      "exclusion_reason": "Excluded: no matching Interactive Lecture, Flipped Class, or Online Lecture topic in the official Study Guide; current official cardiac physiology topics are handled in their mapped lecture sets."
+      "quality_status": "pass",
+      "quality_reviewed_at": "2026-10-01T07:50:00.000Z",
+      "quality_policy_version": 3,
+      "exam_ready": true,
+      "quality_reason": "Current MED25 Drive material included regardless of session type; supplemental sources map into existing official lecture objectives."
     },
     {
       "id": "ai_set_1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX",
@@ -3089,8 +3143,8 @@
       "title": "Hemostasis Disorders and Anticoagulants",
       "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk",
       "source_modified_time": "2026-09-03T16:22:54.000Z",
-      "source_validation": "lecture_verified_quality_rebuilt",
-      "archived": true,
+      "source_validation": "current_drive_verified_logical_audit",
+      "archived": false,
       "questions": [
         {
           "id": "ai_1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS_01",
@@ -3106,7 +3160,9 @@
           "concept": "Fibrinolysis",
           "difficulty": "core",
           "style_profile": "KAU-past-paper-inspired",
-          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk"
+          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk",
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS_02",
@@ -3122,7 +3178,9 @@
           "concept": "Fibrinolysis",
           "difficulty": "core",
           "style_profile": "KAU-past-paper-inspired",
-          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk"
+          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk",
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS_03",
@@ -3138,7 +3196,9 @@
           "concept": "Fibrinolysis",
           "difficulty": "core",
           "style_profile": "KAU-past-paper-inspired",
-          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk"
+          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk",
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS_04",
@@ -3154,7 +3214,9 @@
           "concept": "vWD",
           "difficulty": "core",
           "style_profile": "KAU-past-paper-inspired",
-          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk"
+          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk",
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS_05",
@@ -3170,7 +3232,9 @@
           "concept": "vWD",
           "difficulty": "core",
           "style_profile": "KAU-past-paper-inspired",
-          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk"
+          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk",
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS_06",
@@ -3186,7 +3250,9 @@
           "concept": "vWD",
           "difficulty": "core",
           "style_profile": "KAU-past-paper-inspired",
-          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk"
+          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk",
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS_07",
@@ -3202,7 +3268,9 @@
           "concept": "vWD",
           "difficulty": "core",
           "style_profile": "KAU-past-paper-inspired",
-          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk"
+          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk",
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS_08",
@@ -3218,7 +3286,9 @@
           "concept": "Thrombocytopenia",
           "difficulty": "core",
           "style_profile": "KAU-past-paper-inspired",
-          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk"
+          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk",
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS_09",
@@ -3234,7 +3304,9 @@
           "concept": "Platelet disorders",
           "difficulty": "application",
           "style_profile": "KAU-past-paper-inspired",
-          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk"
+          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk",
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS_10",
@@ -3250,7 +3322,9 @@
           "concept": "Hemophilia",
           "difficulty": "core",
           "style_profile": "KAU-past-paper-inspired",
-          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk"
+          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk",
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS_11",
@@ -3266,7 +3340,9 @@
           "concept": "Hemophilia",
           "difficulty": "core",
           "style_profile": "KAU-past-paper-inspired",
-          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk"
+          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk",
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS_12",
@@ -3282,7 +3358,9 @@
           "concept": "Vitamin K",
           "difficulty": "core",
           "style_profile": "KAU-past-paper-inspired",
-          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk"
+          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk",
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS_13",
@@ -3298,7 +3376,9 @@
           "concept": "Natural anticoagulants",
           "difficulty": "core",
           "style_profile": "KAU-past-paper-inspired",
-          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk"
+          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk",
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS_14",
@@ -3314,7 +3394,9 @@
           "concept": "Heparin",
           "difficulty": "core",
           "style_profile": "KAU-past-paper-inspired",
-          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk"
+          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk",
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS_15",
@@ -3330,13 +3412,39 @@
           "concept": "Anticoagulants",
           "difficulty": "core",
           "style_profile": "KAU-past-paper-inspired",
-          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk"
+          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS_case01",
+          "stem": "A patient has mucosal bleeding, a normal platelet count, impaired platelet adhesion and reduced factor VIII stability. Which disorder best fits?",
+          "options": {
+            "A": "von Willebrand disease",
+            "B": "Hemophilia B only",
+            "C": "Polycythemia",
+            "D": "Iron-deficiency anemia"
+          },
+          "answer": "A",
+          "explanation": "von Willebrand disease impairs platelet adhesion and can lower factor VIII, producing a mucocutaneous bleeding pattern.",
+          "concept": "Hemostasis disorder case",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS/view?usp=drivesdk",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Current MED25 Drive clinical/case application"
         }
       ],
-      "eligibility_status": "excluded",
+      "eligibility_status": "allowed",
       "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
       "quality_rebuilt_at": "2026-09-29",
-      "exclusion_reason": "Excluded: no matching Interactive Lecture, Flipped Class, or Online Lecture topic in the official Study Guide."
+      "quality_status": "pass",
+      "quality_reviewed_at": "2026-10-01T07:50:00.000Z",
+      "quality_policy_version": 3,
+      "exam_ready": true,
+      "quality_reason": "Current MED25 Drive material included regardless of session type; supplemental sources map into existing official lecture objectives."
     },
     {
       "id": "ai_set_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK",
@@ -3345,8 +3453,8 @@
       "title": "Physiology of White Blood Cells",
       "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
       "source_modified_time": "2026-09-03T16:22:50.000Z",
-      "source_validation": "lecture_validated",
-      "archived": true,
+      "source_validation": "current_drive_verified_logical_audit",
+      "archived": false,
       "questions": [
         {
           "id": "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_01",
@@ -3362,7 +3470,9 @@
           "concept": "Physiology of White Blood Cells",
           "difficulty": "core",
           "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
-          "style_profile": "KAU-past-paper-inspired"
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_02",
@@ -3378,7 +3488,9 @@
           "concept": "Physiology of White Blood Cells",
           "difficulty": "core",
           "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
-          "style_profile": "KAU-past-paper-inspired"
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_03",
@@ -3394,7 +3506,9 @@
           "concept": "Physiology of White Blood Cells",
           "difficulty": "core",
           "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
-          "style_profile": "KAU-past-paper-inspired"
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_04",
@@ -3410,7 +3524,9 @@
           "concept": "Physiology of White Blood Cells",
           "difficulty": "application",
           "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
-          "style_profile": "KAU-past-paper-inspired"
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_05",
@@ -3426,7 +3542,9 @@
           "concept": "Physiology of White Blood Cells",
           "difficulty": "core",
           "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
-          "style_profile": "KAU-past-paper-inspired"
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_06",
@@ -3442,7 +3560,9 @@
           "concept": "Physiology of White Blood Cells",
           "difficulty": "core",
           "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
-          "style_profile": "KAU-past-paper-inspired"
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_07",
@@ -3458,7 +3578,9 @@
           "concept": "Physiology of White Blood Cells",
           "difficulty": "core",
           "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
-          "style_profile": "KAU-past-paper-inspired"
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_08",
@@ -3474,7 +3596,9 @@
           "concept": "Physiology of White Blood Cells",
           "difficulty": "application",
           "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
-          "style_profile": "KAU-past-paper-inspired"
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_09",
@@ -3490,7 +3614,9 @@
           "concept": "Physiology of White Blood Cells",
           "difficulty": "core",
           "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
-          "style_profile": "KAU-past-paper-inspired"
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_10",
@@ -3506,7 +3632,9 @@
           "concept": "Physiology of White Blood Cells",
           "difficulty": "core",
           "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
-          "style_profile": "KAU-past-paper-inspired"
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_11",
@@ -3522,7 +3650,9 @@
           "concept": "Physiology of White Blood Cells",
           "difficulty": "core",
           "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
-          "style_profile": "KAU-past-paper-inspired"
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_12",
@@ -3538,7 +3668,9 @@
           "concept": "Physiology of White Blood Cells",
           "difficulty": "application",
           "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
-          "style_profile": "KAU-past-paper-inspired"
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_13",
@@ -3554,7 +3686,9 @@
           "concept": "Physiology of White Blood Cells",
           "difficulty": "core",
           "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
-          "style_profile": "KAU-past-paper-inspired"
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_14",
@@ -3570,7 +3704,9 @@
           "concept": "Physiology of White Blood Cells",
           "difficulty": "core",
           "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
-          "style_profile": "KAU-past-paper-inspired"
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_15",
@@ -3586,12 +3722,78 @@
           "concept": "Physiology of White Blood Cells",
           "difficulty": "core",
           "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
-          "style_profile": "KAU-past-paper-inspired"
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_case01",
+          "stem": "A 21-year-old man with acute appendicitis has a WBC count of 15,800/µL with 82% neutrophils. Which change best explains this differential count?",
+          "options": {
+            "A": "Neutrophilia due to acute bacterial inflammation",
+            "B": "Eosinophilia due to parasitic infestation",
+            "C": "Basophilia due to allergy",
+            "D": "Lymphocytosis due to tuberculosis"
+          },
+          "answer": "A",
+          "explanation": "The WBC case-based discussion shows acute appendicitis with leukocytosis and 82% neutrophils; the lecture links neutrophilia to pyogenic bacterial infection.",
+          "concept": "WBC CBD — appendicitis",
+          "source_url": "https://drive.google.com/file/d/1JJNyKMtTqKK1aRhw-1YhaC6MlMkCJoCl/view",
+          "difficulty": "application",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Current MED25 Drive clinical/case application"
+        },
+        {
+          "id": "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_case02",
+          "stem": "In the appendicitis case, neutrophils adhere to the endothelium and then squeeze between endothelial cells into the tissue. What is this step called?",
+          "options": {
+            "A": "Margination",
+            "B": "Diapedesis",
+            "C": "Opsonization",
+            "D": "Phagolysosome formation"
+          },
+          "answer": "B",
+          "explanation": "Diapedesis is the passage of leukocytes through the vessel wall into surrounding tissue.",
+          "concept": "WBC CBD — recruitment",
+          "source_url": "https://drive.google.com/file/d/1JJNyKMtTqKK1aRhw-1YhaC6MlMkCJoCl/view",
+          "difficulty": "application",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Current MED25 Drive clinical/case application"
+        },
+        {
+          "id": "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_case03",
+          "stem": "In the same appendicitis case, bacterial particles become coated with antibodies and complement before neutrophil ingestion. What process has occurred?",
+          "options": {
+            "A": "Chemotaxis",
+            "B": "Margination",
+            "C": "Opsonization",
+            "D": "Leukopenia"
+          },
+          "answer": "C",
+          "explanation": "Opsonization coats foreign particles with antibodies or complement and makes them easier for phagocytes to recognize and engulf.",
+          "concept": "WBC CBD — phagocytosis",
+          "source_url": "https://drive.google.com/file/d/1JJNyKMtTqKK1aRhw-1YhaC6MlMkCJoCl/view",
+          "difficulty": "application",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Current MED25 Drive clinical/case application"
         }
       ],
-      "eligibility_status": "excluded",
+      "eligibility_status": "allowed",
       "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
-      "exclusion_reason": "Excluded: official Study Guide classifies Physiology of WBCs as CBD."
+      "quality_status": "pass",
+      "quality_reviewed_at": "2026-10-01T07:50:00.000Z",
+      "quality_policy_version": 3,
+      "exam_ready": true,
+      "quality_reason": "Current MED25 Drive material included regardless of session type; supplemental sources map into existing official lecture objectives."
     },
     {
       "id": "ai_set_1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn",
@@ -9929,8 +10131,8 @@
       "title": "Treatment of Anemia",
       "source_url": "https://drive.google.com/file/d/1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY/view?usp=drivesdk",
       "source_modified_time": "2026-09-02T12:56:38.863Z",
-      "source_validation": "pending_lecture_validation",
-      "archived": true,
+      "source_validation": "current_drive_verified_logical_audit",
+      "archived": false,
       "questions": [
         {
           "id": "ai_1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY_01",
@@ -9947,7 +10149,9 @@
           "difficulty": "application",
           "source_url": "https://drive.google.com/file/d/1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY/view?usp=drivesdk",
           "source_card_id": "1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY-c01",
-          "style_profile": "KAU-past-paper-inspired"
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY_02",
@@ -9964,7 +10168,9 @@
           "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY/view?usp=drivesdk",
           "source_card_id": "1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY-c02",
-          "style_profile": "KAU-past-paper-inspired"
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY_03",
@@ -9981,7 +10187,9 @@
           "difficulty": "understanding",
           "source_url": "https://drive.google.com/file/d/1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY/view?usp=drivesdk",
           "source_card_id": "1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY-c03",
-          "style_profile": "KAU-past-paper-inspired"
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY_04",
@@ -9998,7 +10206,9 @@
           "difficulty": "application",
           "source_url": "https://drive.google.com/file/d/1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY/view?usp=drivesdk",
           "source_card_id": "1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY-c04",
-          "style_profile": "KAU-past-paper-inspired"
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY_05",
@@ -10015,7 +10225,9 @@
           "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY/view?usp=drivesdk",
           "source_card_id": "1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY-c05",
-          "style_profile": "KAU-past-paper-inspired"
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY_06",
@@ -10032,7 +10244,9 @@
           "difficulty": "understanding",
           "source_url": "https://drive.google.com/file/d/1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY/view?usp=drivesdk",
           "source_card_id": "1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY-c06",
-          "style_profile": "KAU-past-paper-inspired"
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY_07",
@@ -10049,7 +10263,9 @@
           "difficulty": "application",
           "source_url": "https://drive.google.com/file/d/1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY/view?usp=drivesdk",
           "source_card_id": "1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY-c07",
-          "style_profile": "KAU-past-paper-inspired"
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY_08",
@@ -10066,12 +10282,78 @@
           "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY/view?usp=drivesdk",
           "source_card_id": "1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY-c08",
-          "style_profile": "KAU-past-paper-inspired"
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY_case01",
+          "stem": "A patient with iron-deficiency anemia cannot tolerate oral iron because of severe gastrointestinal adverse effects and also has malabsorption. Which treatment is most appropriate from the lecture?",
+          "options": {
+            "A": "Iron dextran",
+            "B": "Folic acid",
+            "C": "Hydroxocobalamin",
+            "D": "Interleukin-11"
+          },
+          "answer": "A",
+          "explanation": "Parenteral iron such as iron dextran is indicated when oral iron cannot be tolerated or absorbed.",
+          "concept": "Treatment of anemia — iron case",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY/view?usp=drivesdk",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Current MED25 Drive clinical/case application"
+        },
+        {
+          "id": "ai_1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY_case02",
+          "stem": "A patient with pernicious anemia has megaloblastic anemia and neurologic symptoms. Which treatment should be continued lifelong?",
+          "options": {
+            "A": "Oral folic acid alone",
+            "B": "Intramuscular vitamin B12",
+            "C": "Oral iron",
+            "D": "Phlebotomy"
+          },
+          "answer": "B",
+          "explanation": "Pernicious anemia requires lifelong intramuscular vitamin B12; folic acid alone does not correct the neurologic manifestations.",
+          "concept": "Treatment of anemia — B12 case",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY/view?usp=drivesdk",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Current MED25 Drive clinical/case application"
+        },
+        {
+          "id": "ai_1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY_case03",
+          "stem": "A patient with end-stage renal failure develops anemia. Which growth factor is specifically indicated in the lecture?",
+          "options": {
+            "A": "Erythropoietin",
+            "B": "Deferoxamine",
+            "C": "Folinic acid",
+            "D": "Protamine"
+          },
+          "answer": "A",
+          "explanation": "Erythropoietin is used for anemia associated with end-stage renal failure.",
+          "concept": "Treatment of anemia — renal case",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY/view?usp=drivesdk",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Current MED25 Drive clinical/case application"
         }
       ],
-      "eligibility_status": "excluded",
+      "eligibility_status": "allowed",
       "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
-      "exclusion_reason": "Excluded: Treatment of anemia is SPP2 in the official 2026-2027 module map."
+      "quality_status": "pass",
+      "quality_reviewed_at": "2026-10-01T07:50:00.000Z",
+      "quality_policy_version": 3,
+      "exam_ready": true,
+      "quality_reason": "Current MED25 Drive material included regardless of session type; supplemental sources map into existing official lecture objectives."
     },
     {
       "id": "ai_set_1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D",
@@ -10464,8 +10746,8 @@
       "title": "CVS Radiology",
       "source_url": "https://drive.google.com/file/d/1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ/view?usp=drivesdk",
       "source_modified_time": "2026-09-13T06:08:53.063Z",
-      "source_validation": "pending_lecture_validation",
-      "archived": true,
+      "source_validation": "current_drive_verified_logical_audit",
+      "archived": false,
       "questions": [
         {
           "id": "ai_1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ_01",
@@ -10482,7 +10764,9 @@
           "difficulty": "application",
           "source_url": "https://drive.google.com/file/d/1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ/view?usp=drivesdk",
           "source_card_id": "1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ-c01",
-          "style_profile": "KAU-past-paper-inspired"
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ_02",
@@ -10499,7 +10783,9 @@
           "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ/view?usp=drivesdk",
           "source_card_id": "1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ-c02",
-          "style_profile": "KAU-past-paper-inspired"
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ_03",
@@ -10516,7 +10802,9 @@
           "difficulty": "understanding",
           "source_url": "https://drive.google.com/file/d/1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ/view?usp=drivesdk",
           "source_card_id": "1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ-c03",
-          "style_profile": "KAU-past-paper-inspired"
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ_04",
@@ -10533,7 +10821,9 @@
           "difficulty": "application",
           "source_url": "https://drive.google.com/file/d/1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ/view?usp=drivesdk",
           "source_card_id": "1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ-c04",
-          "style_profile": "KAU-past-paper-inspired"
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ_05",
@@ -10550,7 +10840,9 @@
           "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ/view?usp=drivesdk",
           "source_card_id": "1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ-c05",
-          "style_profile": "KAU-past-paper-inspired"
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ_06",
@@ -10567,7 +10859,9 @@
           "difficulty": "understanding",
           "source_url": "https://drive.google.com/file/d/1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ/view?usp=drivesdk",
           "source_card_id": "1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ-c06",
-          "style_profile": "KAU-past-paper-inspired"
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ_07",
@@ -10584,7 +10878,9 @@
           "difficulty": "application",
           "source_url": "https://drive.google.com/file/d/1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ/view?usp=drivesdk",
           "source_card_id": "1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ-c07",
-          "style_profile": "KAU-past-paper-inspired"
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
         },
         {
           "id": "ai_1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ_08",
@@ -10601,12 +10897,78 @@
           "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ/view?usp=drivesdk",
           "source_card_id": "1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ-c08",
-          "style_profile": "KAU-past-paper-inspired"
+          "style_profile": "KAU-past-paper-inspired",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ_case01",
+          "stem": "A PA chest radiograph shows a transverse cardiac diameter of 16 cm and an internal thoracic diameter of 30 cm. Which interpretation is correct?",
+          "options": {
+            "A": "The cardiothoracic ratio is about 0.53 and exceeds the usual 0.50 limit",
+            "B": "The cardiothoracic ratio is about 0.30 and is normal",
+            "C": "The cardiothoracic ratio cannot be calculated on a PA view",
+            "D": "The cardiothoracic ratio is about 1.9"
+          },
+          "answer": "A",
+          "explanation": "16/30 is about 0.53. The lecture uses 0.50 as the usual upper limit on a PA chest radiograph.",
+          "concept": "Radiology case — cardiothoracic ratio",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ/view?usp=drivesdk",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Current MED25 Drive clinical/case application"
+        },
+        {
+          "id": "ai_1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ_case02",
+          "stem": "A patient needs direct visualization of suspected narrowing inside a coronary artery after myocardial infarction. Which investigation best matches the lecture?",
+          "options": {
+            "A": "Coronary angiography",
+            "B": "Plain abdominal X-ray",
+            "C": "Spirometry",
+            "D": "EEG"
+          },
+          "answer": "A",
+          "explanation": "Coronary angiography visualizes the coronary arterial lumen with contrast dye and is used around coronary disease and interventions.",
+          "concept": "Radiology case — coronary lumen",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ/view?usp=drivesdk",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Current MED25 Drive clinical/case application"
+        },
+        {
+          "id": "ai_1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ_case03",
+          "stem": "A patient has a cardiac murmur and the clinician wants to assess valve movement and blood-flow direction. Which test is most appropriate from the lecture?",
+          "options": {
+            "A": "Doppler echocardiography",
+            "B": "Plain chest X-ray only",
+            "C": "PET only",
+            "D": "Bone scan"
+          },
+          "answer": "A",
+          "explanation": "Echocardiography evaluates valves and chamber movement; Doppler assesses blood-flow velocity and direction.",
+          "concept": "Radiology case — valve assessment",
+          "difficulty": "application",
+          "source_url": "https://drive.google.com/file/d/1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ/view?usp=drivesdk",
+          "style_profile": "KAU-formative-case-inspired",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case",
+          "formative_reference": "Current MED25 Drive clinical/case application"
         }
       ],
-      "eligibility_status": "excluded",
+      "eligibility_status": "allowed",
       "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
-      "exclusion_reason": "Excluded: Radiological Anatomy of the heart and its great vessels is SPP5 in the official 2026-2027 module map."
+      "quality_status": "pass",
+      "quality_reviewed_at": "2026-10-01T07:50:00.000Z",
+      "quality_policy_version": 3,
+      "exam_ready": true,
+      "quality_reason": "Current MED25 Drive material included regardless of session type; supplemental sources map into existing official lecture objectives."
     },
     {
       "id": "ai_set_1N29pF27p1UfkP79gdlrUFW-5WiTtgnEC",

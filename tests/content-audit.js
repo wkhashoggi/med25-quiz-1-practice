@@ -31,7 +31,7 @@ for(const set of activeSets){
     const vals=Object.values(q.options).map(norm);
     if(new Set(vals).size!==vals.length)fail('Duplicate AI option text: '+q.id);
     if(!q.explanation)fail('Missing AI explanation: '+q.id);
-    if(!(q.source_url||set.source_url))fail('Missing AI source: '+q.id);
+    if(!(q.source_url||set.source_url||set.source_file_id))fail('Missing AI source provenance: '+q.id);
     const gm=map.ai?.[q.id];
     if(!gm?.lecture_id||!lectureIds.has(gm.lecture_id))fail('Unmapped AI question: '+q.id);
     const stemKey=norm(q.stem);

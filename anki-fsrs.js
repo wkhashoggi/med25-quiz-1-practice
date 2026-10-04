@@ -2,7 +2,7 @@
 (function(){
 'use strict';
 
-const FSRS_LIB_URL='https://cdn.jsdelivr.net/npm/ts-fsrs@5.4.2/+esm';
+const FSRS_LIB_URL='./vendor/ts-fsrs-5.4.2.mjs';
 const ANKI_CONFIG_KEY='__config__';
 const ANKI_DAILY_KEY='__daily__';
 const ANKI_LOG_KEY='__review_log__';

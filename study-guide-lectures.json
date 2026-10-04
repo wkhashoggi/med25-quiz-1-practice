@@ -1,8 +1,8 @@
 {
   "version": 1,
   "source_title": "Study Guide- Circulation and Breathing module- 2026-2027.pdf",
-  "source_file_id": "1QwRNlO6-zuOQugxyjrhXykOW-YjVtal4",
-  "source_url": "https://drive.google.com/file/d/1QwRNlO6-zuOQugxyjrhXykOW-YjVtal4/view?usp=drivesdk",
+  "source_file_id": "1kIGOvteslYLGp7cnREnQu4y0Ct1psqMK",
+  "source_url": "https://drive.google.com/file/d/1kIGOvteslYLGp7cnREnQu4y0Ct1psqMK/view?usp=drivesdk",
   "subjects": [
     {
       "name": "Anatomy & Histology",
@@ -676,6 +676,13 @@
       ]
     }
   ],
-  "generated_at": "2026-09-27T13:10:54.811Z",
-  "lecture_count": 106
+  "generated_at": "2026-10-04T20:30:00.000Z",
+  "lecture_count": 106,
+  "source_modified_time": "2026-09-20T08:31:51.116Z",
+  "lecture_delivery_counts": {
+    "interactive": 47,
+    "online": 25,
+    "flipped": 16,
+    "total": 88
+  }
 }

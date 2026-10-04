@@ -13,6 +13,32 @@ let gameLeaderboardMode='weekly';
 let gameLeaderboardExpanded=false;
 let gameQuizState={queue:[],index:0,result:null,shuffle:false};
 let gameMockState={config:{minutes:30,includeAI:true,subjectCounts:{},lectureCounts:{}},exam:null,timer:null};
+const GAME_MOCK_KEY='med25-active-mock-v1';
+let gameMockRestorePending=true;
+function gameMockSave(){
+  try{
+    const e=gameMockState.exam;
+    if(!e){sessionStorage.removeItem(GAME_MOCK_KEY);return}
+    sessionStorage.setItem(GAME_MOCK_KEY,JSON.stringify({version:1,config:gameMockState.config,exam:{...e,questions:e.questions.map(x=>x.key)}}));
+  }catch(e){console.warn('Could not save mock session',e)}
+}
+function gameMockRestore(){
+  if(!gameMockRestorePending||!window.med25GameBridge?.studyLibrariesReady?.())return;
+  gameMockRestorePending=false;
+  try{
+    const stored=JSON.parse(sessionStorage.getItem(GAME_MOCK_KEY)||'null');
+    if(!stored||stored.version!==1)return;
+    const e=stored.exam,pool=new Map(gameMockQuestionRows().map(x=>[x.key,x]));
+    if(!e||!Array.isArray(e.questions)||!e.questions.length||!Number.isFinite(e.endsAt))throw new Error('Invalid saved mock');
+    const questions=e.questions.map(k=>pool.get(k));
+    if(questions.some(x=>!x)||new Set(e.questions).size!==questions.length)throw new Error('Saved mock content has changed');
+    const answers={};
+    for(const item of questions){const pick=e.answers?.[item.key];if(Object.hasOwn(item.q.options,pick))answers[item.key]=pick}
+    gameMockState.exam={...e,questions,answers,index:Math.min(questions.length-1,Math.max(0,Math.trunc(e.index)||0))};
+    if(stored.config)gameMockState.config=stored.config;
+    if(!e.submitted){if(Date.now()>=e.endsAt)gameMockSubmit(true);else gameMockStartTimer()}
+  }catch(e){sessionStorage.removeItem(GAME_MOCK_KEY);console.warn('Saved mock could not be restored',e)}
+}
 
 function gameSvg(name){
   const icons={
@@ -476,9 +502,14 @@ async function gameLoadLeaderboard(force=false){
   if(!host)return;
   if(!force&&Date.now()-gameLeaderboardLoadedAt<30000&&gameLeaderboard.length){gameRenderLeaderboard();return}
   try{
-    const res=await supaFetch('/rest/v1/leaderboard_entries?select=username,avatar_url,points,weekly_xp,monthly_xp,current_streak,best_streak,week_start,month_start&visible=eq.true&limit=500');
-    if(!res.ok)throw new Error(await res.text());
-    gameLeaderboard=await res.json();
+    const rows=[];
+    for(let offset=0;;offset+=500){
+      const res=await supaFetch('/rest/v1/leaderboard_entries?select=username,avatar_url,points,weekly_xp,monthly_xp,current_streak,best_streak,week_start,month_start&visible=eq.true&order=points.desc,username.asc&limit=500&offset='+offset);
+      if(!res.ok)throw new Error(await res.text());
+      const batch=await res.json();if(!Array.isArray(batch))throw new Error('Invalid leaderboard response');
+      rows.push(...batch);if(batch.length<500)break;
+    }
+    gameLeaderboard=rows;
     gameLeaderboardLoadedAt=Date.now();
     gameRenderLeaderboard();
   }catch(e){
@@ -504,7 +535,7 @@ function gameRenderLeaderboard(){
   const host=document.getElementById('gameLeaderboardList'),meta=document.getElementById('gameLeaderboardMeta');
   if(!host)return;
   const label=gameLeaderboardMode==='weekly'?'this week':gameLeaderboardMode==='monthly'?'this month':'all-time';
-  const rows=[...gameLeaderboard].sort((a,b)=>gameLeaderboardValue(b,gameLeaderboardMode)-gameLeaderboardValue(a,gameLeaderboardMode));
+  const rows=[...gameLeaderboard].sort((a,b)=>gameLeaderboardValue(b,gameLeaderboardMode)-gameLeaderboardValue(a,gameLeaderboardMode)||String(a.username).localeCompare(String(b.username)));
   if(meta)meta.textContent=rows.length+' MED25 accounts · ranked by XP '+label+' · streak bonuses included';
   if(!rows.length){host.innerHTML='<div class="gameEmpty">No ranked players yet. Be the first.</div>';return}
   const visibleRows=gameLeaderboardExpanded?rows:rows.slice(0,10);
@@ -741,8 +772,8 @@ function gameMockClampConfig(){
   const lectureIds=new Set(cat.flatMap(x=>x.lectures.map(l=>l.id)));
   Object.keys(gameMockState.config.lectureCounts).forEach(k=>{if(!lectureIds.has(k))delete gameMockState.config.lectureCounts[k]});
   for(const s of cat){
-    gameMockState.config.subjectCounts[s.subject]=Math.min(s.total,Math.max(0,Number(gameMockState.config.subjectCounts[s.subject]||0)));
-    for(const l of s.lectures)gameMockState.config.lectureCounts[l.id]=Math.min(l.total,Math.max(0,Number(gameMockState.config.lectureCounts[l.id]||0)));
+    gameMockState.config.subjectCounts[s.subject]??=0;
+    for(const l of s.lectures)gameMockState.config.lectureCounts[l.id]??=0;
   }
 }
 function gameMockRequestedTotal(){
@@ -752,6 +783,9 @@ function gameMockRequestedTotal(){
 function gameMockValidation(){
   const cat=gameMockCatalog(),issues=[];
   let total=0;
+  for(const n of [...Object.values(gameMockState.config.subjectCounts),...Object.values(gameMockState.config.lectureCounts)]){
+    if(!Number.isInteger(Number(n))||Number(n)<0)issues.push('Question counts must be non-negative whole numbers.');
+  }
   for(const s of cat){
     const subjectN=Number(gameMockState.config.subjectCounts[s.subject]||0);
     const lectureN=s.lectures.reduce((sum,l)=>sum+Number(gameMockState.config.lectureCounts[l.id]||0),0);
@@ -767,8 +801,20 @@ function gameMockValidation(){
   }
   if(total<1)issues.push('Choose at least one question.');
   const minutes=Number(gameMockState.config.minutes||0);
-  if(minutes<1||minutes>240)issues.push('Choose an exam time between 1 and 240 minutes.');
+  if(!Number.isInteger(minutes)||minutes<1||minutes>240)issues.push('Choose a whole-number exam time between 1 and 240 minutes.');
   return {ok:issues.length===0,issues,total};
+}
+function gameMockUpdateSetupSummary(){
+  const validation=gameMockValidation(),el=document.getElementById('mockValidation');
+  const sourceText=gameMockState.config.includeAI?'Past Papers + AI Questions':'Past Papers only';
+  if(el){el.className='mockValidation '+(validation.ok?'ok':'bad');el.innerHTML=validation.ok?'<b>Ready to build.</b><span>'+validation.total+' questions · '+gameMockState.config.minutes+' minutes · '+esc(sourceText)+'</span>':'<b>Check your setup.</b><span>'+esc(validation.issues.join(' '))+'</span>'}
+  const start=document.getElementById('mockStartBtn');if(start)start.disabled=!validation.ok;
+  const total=document.getElementById('mockRequested');if(total)total.textContent=String(validation.total);
+  document.querySelectorAll('.mockSubjectCard').forEach(card=>{
+    const ids=[...card.querySelectorAll('[data-mock-lecture-count]')].map(x=>x.dataset.mockLectureCount);
+    const count=ids.reduce((n,id)=>n+Number(gameMockState.config.lectureCounts[id]||0),0);
+    const summary=card.querySelector('summary span');if(summary)summary.textContent=count+' selected';
+  });
 }
 function gameMockRenderSetup(){
   const host=document.getElementById('mockStage');if(!host)return;
@@ -813,15 +859,15 @@ function gameMockRenderSetup(){
         '<button class="mockStartBtn" id="mockStartBtn" type="button" '+(validation.ok?'':'disabled')+'>Start mock exam →</button>'+
       '</div>'+
     '</div>';
-  document.getElementById('mockMinutes').oninput=e=>{gameMockState.config.minutes=Math.min(240,Math.max(1,Number(e.target.value)||1));gameMockRenderSetup()};
+  document.getElementById('mockMinutes').oninput=e=>{gameMockState.config.minutes=Number(e.target.value);gameMockUpdateSetupSummary()};
   host.querySelectorAll('[data-mock-source]').forEach(btn=>btn.onclick=()=>{
     gameMockState.config.includeAI=btn.dataset.mockSource==='both';gameMockRenderSetup();
   });
-  host.querySelectorAll('[data-mock-subject-count]').forEach(inp=>inp.onchange=()=>{
-    gameMockState.config.subjectCounts[inp.dataset.mockSubjectCount]=Math.max(0,Number(inp.value)||0);gameMockRenderSetup();
+  host.querySelectorAll('[data-mock-subject-count]').forEach(inp=>inp.oninput=()=>{
+    gameMockState.config.subjectCounts[inp.dataset.mockSubjectCount]=Number(inp.value);gameMockUpdateSetupSummary();
   });
-  host.querySelectorAll('[data-mock-lecture-count]').forEach(inp=>inp.onchange=()=>{
-    gameMockState.config.lectureCounts[inp.dataset.mockLectureCount]=Math.max(0,Number(inp.value)||0);gameMockRenderSetup();
+  host.querySelectorAll('[data-mock-lecture-count]').forEach(inp=>inp.oninput=()=>{
+    gameMockState.config.lectureCounts[inp.dataset.mockLectureCount]=Number(inp.value);gameMockUpdateSetupSummary();
   });
   document.getElementById('mockClearCounts').onclick=()=>{gameMockState.config.subjectCounts={};gameMockState.config.lectureCounts={};gameMockRenderSetup()};
   document.getElementById('mockStartBtn')?.addEventListener('click',gameMockStart);
@@ -852,6 +898,7 @@ function gameMockStart(){
   }
   const now=Date.now(),minutes=Number(gameMockState.config.minutes||30);
   gameMockState.exam={questions,answers:{},index:0,startedAt:now,endsAt:now+minutes*60000,submitted:false,submittedAt:null};
+  gameMockSave();
   gameMockStartTimer();
   gameMockRenderExam();
   try{trackEvent('section_view',{metadata:{section:'mock_exam_started',questions:questions.length,minutes,include_ai:gameMockState.config.includeAI}})}catch{}
@@ -895,11 +942,12 @@ function gameMockRenderExam(){
       '<div class="mockExamNav"><button id="mockPrev" type="button" '+(exam.index===0?'disabled':'')+'>← Previous</button><button id="mockNext" type="button">'+(exam.index===exam.questions.length-1?'Review map':'Next →')+'</button></div>'+
     '</div>';
   host.querySelectorAll('[data-mock-answer]').forEach(btn=>btn.onclick=()=>{
-    exam.answers[item.key]=btn.dataset.mockAnswer;gameMockRenderExam();
+    if(Date.now()>=exam.endsAt){gameMockSubmit(true);return}
+    exam.answers[item.key]=btn.dataset.mockAnswer;gameMockSave();gameMockRenderExam();
   });
-  host.querySelectorAll('[data-mock-jump]').forEach(btn=>btn.onclick=()=>{exam.index=Number(btn.dataset.mockJump);gameMockRenderExam()});
-  document.getElementById('mockPrev').onclick=()=>{if(exam.index>0){exam.index--;gameMockRenderExam()}};
-  document.getElementById('mockNext').onclick=()=>{if(exam.index<exam.questions.length-1)exam.index++;gameMockRenderExam()};
+  host.querySelectorAll('[data-mock-jump]').forEach(btn=>btn.onclick=()=>{exam.index=Number(btn.dataset.mockJump);gameMockSave();gameMockRenderExam()});
+  document.getElementById('mockPrev').onclick=()=>{if(exam.index>0){exam.index--;gameMockSave();gameMockRenderExam()}};
+  document.getElementById('mockNext').onclick=()=>{if(exam.index<exam.questions.length-1)exam.index++;gameMockSave();gameMockRenderExam()};
   document.getElementById('mockFinishBtn').onclick=()=>gameMockSubmit(false);
   gameMockUpdateTimer();
 }
@@ -913,6 +961,7 @@ function gameMockSubmit(auto=false){
   exam.submitted=true;exam.submittedAt=Date.now();exam.autoSubmitted=auto;
   clearInterval(gameMockState.timer);
   exam.bonusXp=0;
+  gameMockSave();
   gameMockRenderResults();
   try{trackEvent('section_view',{metadata:{section:'mock_exam_finished',questions:exam.questions.length,score:gameMockScore().correct,auto_submit:auto}})}catch{}
 }
@@ -947,7 +996,7 @@ function gameMockRenderResults(){
         '</article>';
       }).join('')+'</section>'+
     '</div>';
-  document.getElementById('mockBuildAnother').onclick=()=>{gameMockState.exam=null;gameMockRenderSetup()};
+  document.getElementById('mockBuildAnother').onclick=()=>{gameMockState.exam=null;gameMockSave();gameMockRenderSetup()};
 }
 function gameInstallMockSection(){
   if(document.getElementById('mockSection'))return;
@@ -959,6 +1008,7 @@ function gameInstallMockSection(){
   if(flash)parent.insertBefore(section,flash);else parent.appendChild(section);
 }
 function gameSwitchMock(){
+  gameMockRestore();
   gameInstallMockSection();
   const mock=document.getElementById('mockSection');if(!mock)return;
   document.getElementById('homeSection')?.classList.add('hidden');
@@ -1170,10 +1220,13 @@ function gameInit(){
     }
   };
   window.med25GameRefreshMock=()=>{
+    gameMockRestore();
     const section=document.getElementById('mockSection');
-    if(!section||section.classList.contains('hidden')||gameMockState.exam)return;
-    gameMockRenderSetup();
+    if(!section||section.classList.contains('hidden'))return;
+    if(gameMockState.exam)gameMockState.exam.submitted?gameMockRenderResults():gameMockRenderExam();else gameMockRenderSetup();
   };
+  // Content can finish loading before this layer installs its refresh hook.
+  gameMockRestore();
   const stored=localStorage.getItem(GAME_SECTION_KEY);
   if(stored==='quiz')setTimeout(gameSwitchQuiz,0);
   if(stored==='mock')setTimeout(gameSwitchMock,0);

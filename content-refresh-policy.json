@@ -1,12 +1,15 @@
 {
   "version": 3,
-  "updated_at": "2026-10-01T08:35:00.000Z",
+  "updated_at": "2026-10-04T20:30:00.000Z",
   "study_guide": {
     "title": "Study Guide- Circulation and Breathing module- 2026-2027.pdf",
-    "drive_file_id": "1QwRNlO6-zuOQugxyjrhXykOW-YjVtal4"
+    "drive_file_id": "1QwRNlO6-zuOQugxyjrhXykOW-YjVtal4",
+    "file_id": "1kIGOvteslYLGp7cnREnQu4y0Ct1psqMK",
+    "source_file_id": "1kIGOvteslYLGp7cnREnQu4y0Ct1psqMK",
+    "url": "https://drive.google.com/file/d/1kIGOvteslYLGp7cnREnQu4y0Ct1psqMK/view?usp=drivesdk"
   },
   "test_bank_reference": {
-    "folder_id": "1haM0X8qSt7Ww7ng6Z9nijToACDI9jprth-",
+    "folder_id": "1haM0X8qSt7shcNbOndFrk-WyiWyuJM6F",
     "purpose": "Style reference only. Never use test-bank content as the factual source for AI-generated questions or flashcards."
   },
   "eligibility": {
@@ -68,7 +71,8 @@
         "Explanation is question-specific and explains why the keyed answer fits; generic boilerplate is not acceptable."
       ],
       "legacy_hold_rule": "Any existing AI set that fails these checks remains hidden (quality_status=hold, exam_ready=false) until rebuilt."
-    }
+    },
+    "missing_source_rule": "A zero count is a gap to investigate against both Drive trees. Never infer future content from counts. Publish only concepts verified in an available source; record unavailable and partial source coverage explicitly."
   },
   "flashcards": {
     "objective_first": true,
@@ -197,6 +201,6 @@
     "preserve_authentic_repeats": true,
     "mock_exam_rule": "Only structurally exam-ready items enter mocks: >=4 distinct options, keyed answer present among options, official lecture mapping present. De-duplicate exact stems within a mock.",
     "incomplete_items": "Authentic incomplete extractions may remain visible in Past Papers with a Source incomplete warning, but are excluded from mocks.",
-    "explanation_rule": "Do not show misleading generic boilerplate as if it were lecture-specific reasoning. Flag/rebuild weak explanations."
+    "explanation_rule": "Question-specific explanations are labelled Why; broad revision hints are labelled Study note. A preserved bank key alone is labelled Source key. Missing context and unrecoverable options/keys are excluded from mock exams."
   }
 }

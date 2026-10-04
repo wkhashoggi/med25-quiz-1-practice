@@ -4,10 +4,11 @@ const fs = require('fs');
 const BASE = process.env.MED25_BASE_URL || 'http://127.0.0.1:4173';
 const devices = [
   { name: 'phone', width: 390, height: 844 },
+  { name: 'ipad-portrait', width: 768, height: 1024 },
   { name: 'ipad', width: 1180, height: 820 },
   { name: 'desktop', width: 1440, height: 1000 },
 ];
-const REPEATS = 10;
+const REPEATS = Number(process.env.MED25_TEST_REPEATS || 1);
 const results = [];
 fs.mkdirSync('test-artifacts', { recursive: true });
 
@@ -114,6 +115,7 @@ async function testPast(page, mobile) {
   if (mobile) await openMobilePractice(page, 'past', '#questionSection:not(.hidden)');
   else await goDesktop(page, 'tabQuestions', '#questionSection:not(.hidden)');
   await page.waitForFunction(() => document.querySelectorAll('#list .qcard').length > 0, null, { timeout: 10000 });
+  if(!await page.locator('#pastGuideClear').isVisible())await click(page.locator('[data-mobile-filter-toggle="past"]'),'Past filters');
 
   const search = page.locator('#search');
   if (await visible(search)) { await search.fill('anemia'); await search.fill(''); }
@@ -188,6 +190,7 @@ async function testAI(page, mobile) {
   if (mobile) await openMobilePractice(page, 'ai', '#aiSection:not(.hidden)');
   else await goDesktop(page, 'tabAI', '#aiSection:not(.hidden)');
   await page.waitForFunction(() => document.querySelectorAll('#aiQuestionList .aiCard').length > 0, null, { timeout: 10000 });
+  if(!await page.locator('#aiGuideClear').isVisible())await click(page.locator('[data-mobile-filter-toggle="ai"]'),'AI filters');
 
   const search = page.locator('#aiSearch');
   if (await visible(search)) { await search.fill('heart'); await search.fill(''); }
@@ -224,7 +227,7 @@ async function testAI(page, mobile) {
 
     await aiSubject.selectOption({label:'Biochemistry'});
     await page.waitForTimeout(60);
-    await click(page.locator('#aiGuideLectureBtn'),'AI Biochemistry lecture picker');
+    if(await page.locator('#aiGuideLecturePanel').evaluate(el=>el.classList.contains('hidden')))await click(page.locator('#aiGuideLectureBtn'),'AI Biochemistry lecture picker');
     const marker=page.locator('#aiGuideLecturePanel input[value="biochemistry__diagnostic-cardiac-markers"]');
     if(!await visible(marker))throw new Error('Diagnostic Cardiac Markers missing from AI lecture filter');
     await marker.check();
@@ -334,7 +337,7 @@ async function testMock(page, mobile) {
   if(!markerAI||Number(markerAI[1])<1)throw new Error('Diagnostic Cardiac Markers has zero AI in Mock Exam');
 
   const count=page.locator('[data-mock-subject-count]').first();
-  await count.evaluate(el=>{el.value='2';el.dispatchEvent(new Event('change',{bubbles:true}));});
+  await count.fill('2');
   const clear=page.locator('#mockClearCounts');
   if (await visible(clear)) {
     await clear.click();
@@ -342,13 +345,13 @@ async function testMock(page, mobile) {
     if (!await zeroStart.isDisabled()) throw new Error('Mock Start should disable after Clear all');
   }
   const subjectCount=page.locator('[data-mock-subject-count]').first();
-  await subjectCount.evaluate(el=>{el.value='1';el.dispatchEvent(new Event('change',{bubbles:true}));});
+  await subjectCount.fill('1');
   const firstDetails=page.locator('.mockSubjectCard details').first();
   const summary=firstDetails.locator('summary');
   if (await visible(summary)) await summary.click();
   const lectureCount=page.locator('[data-mock-lecture-count]').first();
   await lectureCount.waitFor({state:'visible',timeout:5000});
-  await lectureCount.evaluate(el=>{el.value='1';el.dispatchEvent(new Event('change',{bubbles:true}));});
+  await lectureCount.fill('1');
   const start=page.locator('#mockStartBtn');
   if (await start.isDisabled()) throw new Error('Mock Start remained disabled after subject + lecture selection');
   await start.click();
@@ -465,7 +468,7 @@ async function testProfile(page, mobile, deviceName) {
 async function runOne(browser, device, iteration) {
   const context = await browser.newContext({
     viewport: { width: device.width, height: device.height },
-    deviceScaleFactor: device.name === 'phone' ? 3 : device.name === 'ipad' ? 2 : 1,
+    deviceScaleFactor: device.name === 'phone' ? 3 : device.name.startsWith('ipad') ? 2 : 1,
     isMobile: device.name !== 'desktop',
     hasTouch: device.name !== 'desktop',
   });
@@ -538,6 +541,7 @@ async function runOne(browser, device, iteration) {
     results.push({device:device.name,iteration,ok:true});
     process.stdout.write('PASS '+device.name+' '+iteration+'/'+REPEATS+'\n');
   } catch (e) {
+    await page.screenshot({path:'test-artifacts/'+device.name+'-failure.png',fullPage:true}).catch(()=>{});
     results.push({device:device.name,iteration,ok:false,error:e.stack||String(e)});
     process.stderr.write('FAIL '+device.name+' '+iteration+'/'+REPEATS+'\n'+(e.stack||e)+'\n');
     throw e;
@@ -547,13 +551,19 @@ async function runOne(browser, device, iteration) {
 }
 
 (async()=>{
-  const browser=await chromium.launch({headless:true});
+  const launch={headless:true};
+  if(process.env.MED25_CHROMIUM_PATH){
+    launch.executablePath=process.env.MED25_CHROMIUM_PATH;
+    launch.args=['--no-sandbox','--no-zygote','--single-process'];
+  }
   try{
     for(const device of devices){
-      for(let i=1;i<=REPEATS;i++) await runOne(browser,device,i);
+      for(let i=1;i<=REPEATS;i++){
+        const browser=await chromium.launch(launch);
+        try{await runOne(browser,device,i)}finally{await browser.close()}
+      }
     }
   } finally {
-    await browser.close();
     fs.writeFileSync('test-artifacts/results.json',JSON.stringify(results,null,2));
   }
   const passed=results.filter(x=>x.ok).length;

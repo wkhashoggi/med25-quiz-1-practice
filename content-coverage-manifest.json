@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T08:08:00.000Z",
+  "generated_at": "2026-10-04T20:30:00.000Z",
   "purpose": "Current MED25 Drive sources that must never silently fall to zero AI coverage.",
   "current_drive_sources": [
     {
@@ -538,7 +538,8 @@
       "drive_file_id": "14vfFkvXZlceusubx4H2RN-ttsGLXdkbj",
       "ai_source_file_id": "14vfFkvXZlceusubx4H2RN-ttsGLXdkbj",
       "lecture_ids": [
-        "microbiology__malaria-babesiosis"
+        "microbiology__malaria-babesiosis",
+        "pharmacology__treatment-of-malaria"
       ],
       "minimum_ai_questions": 1,
       "minimum_cases_per_lecture": 1
@@ -630,18 +631,84 @@
       ],
       "minimum_ai_questions": 1,
       "minimum_cases_per_lecture": 1
-    }
-  ],
-  "current_non_drive_sources": [
+    },
+    {
+      "subject": "Physiology",
+      "title": "Abnormal ECG and cardiac arrhythmias",
+      "drive_file_id": "1i6a0dvP5Hwncst-9gdl1Vot89OYithH2",
+      "ai_source_file_id": "1i6a0dvP5Hwncst-9gdl1Vot89OYithH2",
+      "lecture_ids": [
+        "physiology__abnormal-ecg-and-cardiac-arrhythmias"
+      ],
+      "minimum_ai_questions": 10,
+      "minimum_cases_per_lecture": 2
+    },
+    {
+      "subject": "Anatomy & Histology",
+      "title": "Normal Development of Heart & it’s Great Vessels",
+      "drive_file_id": "1eMomfPTXyjMgtqvpaiCPZGp1jEr7vXx9",
+      "ai_source_file_id": "1eMomfPTXyjMgtqvpaiCPZGp1jEr7vXx9",
+      "lecture_ids": [
+        "anatomy-histology__normal-development-of-heart-it-s-great-vessels"
+      ],
+      "minimum_ai_questions": 10,
+      "minimum_cases_per_lecture": 2
+    },
+    {
+      "subject": "Anatomy & Histology",
+      "title": "Congenital anomalies of the heart & it’s great Vessels",
+      "drive_file_id": "1kzyEG0I68hx0vfkMf44Uhj1XUZHhftXK",
+      "ai_source_file_id": "1kzyEG0I68hx0vfkMf44Uhj1XUZHhftXK",
+      "lecture_ids": [
+        "anatomy-histology__congenital-anomalies-of-the-heart-it-s-great-vessels"
+      ],
+      "minimum_ai_questions": 10,
+      "minimum_cases_per_lecture": 2
+    },
+    {
+      "subject": "Pharmacology",
+      "title": "Treatment of hematological malignancy",
+      "drive_file_id": "1Aj5OXNtQh2z591zY5ZtiwNJItBL4R9Yl",
+      "ai_source_file_id": "1Aj5OXNtQh2z591zY5ZtiwNJItBL4R9Yl",
+      "lecture_ids": [
+        "pharmacology__treatment-of-hematological-malignancy"
+      ],
+      "minimum_ai_questions": 10,
+      "minimum_cases_per_lecture": 2
+    },
     {
       "subject": "Pathology",
-      "title": "Endocarditis",
-      "source_file_id": "libfile_6e646046c4ac81918406ddf5ca74067d",
+      "title": "L9-Endocarditis .pdf",
+      "drive_file_id": "1NKrXX2VQc7oVqY_y-bjNxt7FNxbQKT5q",
+      "ai_source_file_id": "libfile_6e646046c4ac81918406ddf5ca74067d",
       "lecture_ids": [
         "pathology__infective-endocarditis"
+      ],
+      "minimum_ai_questions": 18,
+      "minimum_cases_per_lecture": 6
+    },
+    {
+      "subject": "Physiology",
+      "title": "Physiology of Vascular Endothelium",
+      "drive_file_id": "1YijUiLChrPMhz8D8foBy2j1dVC1W98Pw",
+      "ai_source_file_id": "1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf",
+      "lecture_ids": [
+        "physiology__physiology-of-vascular-endothelium"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Physiology",
+      "title": "Cardiac Cycle",
+      "drive_file_id": "1ZETi5-lxYRHDYlLhSY5qHhqCG0Zp18Sm",
+      "ai_source_file_id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5",
+      "lecture_ids": [
+        "physiology__cardiac-cycle"
       ],
       "minimum_ai_questions": 1,
       "minimum_cases_per_lecture": 1
     }
-  ]
+  ],
+  "current_non_drive_sources": []
 }

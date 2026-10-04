@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-01T09:05:00.000Z",
+  "generated_at": "2026-10-04T20:30:00.000Z",
   "source_root": {
     "id": "1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
     "url": "https://drive.google.com/drive/folders/1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
@@ -2153,6 +2153,51 @@
             "Physiology of White Blood Cells"
           ],
           "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true"
+        },
+        {
+          "id": "ai_cbd_1JJNyKMtTqKK1aRhw-1YhaC6MlMkCJoCl_01-card",
+          "front": "In the WBC CBD, a 21-year-old has migrating right-lower-quadrant pain, fever, and acute appendicitis. WBC count is 15,800/µL with 82% neutrophils. Which pattern is present?",
+          "back": "Neutrophilic leukocytosis. The count is raised and neutrophils predominate, fitting the acute bacterial inflammatory response discussed in the CBD.",
+          "tags": [
+            "CBD: CBC interpretation"
+          ],
+          "source_url": "https://drive.google.com/file/d/1JJNyKMtTqKK1aRhw-1YhaC6MlMkCJoCl/view"
+        },
+        {
+          "id": "ai_cbd_1JJNyKMtTqKK1aRhw-1YhaC6MlMkCJoCl_02-card",
+          "front": "Using the CBD WBC count of 15,800/µL and neutrophils of 82%, what is the approximate absolute neutrophil count?",
+          "back": "12,956/µL. Absolute count equals total WBC count multiplied by the differential fraction: 15,800 × 0.82 = 12,956/µL.",
+          "tags": [
+            "CBD: absolute counts"
+          ],
+          "source_url": "https://drive.google.com/file/d/1JJNyKMtTqKK1aRhw-1YhaC6MlMkCJoCl/view"
+        },
+        {
+          "id": "ai_cbd_1JJNyKMtTqKK1aRhw-1YhaC6MlMkCJoCl_03-card",
+          "front": "In the appendicitis CBD, neutrophils cross the endothelial wall into inflamed tissue. Which recruitment step is this?",
+          "back": "Diapedesis. Diapedesis is leukocyte passage through the vessel wall; the CBD asks students to explain this recruitment process.",
+          "tags": [
+            "CBD: neutrophil recruitment"
+          ],
+          "source_url": "https://drive.google.com/file/d/1JJNyKMtTqKK1aRhw-1YhaC6MlMkCJoCl/view"
+        },
+        {
+          "id": "ai_cbd_1JJNyKMtTqKK1aRhw-1YhaC6MlMkCJoCl_04-card",
+          "front": "In the appendicitis CBD, tissue mediators guide neutrophils toward the infection. What is this directed movement called?",
+          "back": "Chemotaxis. Chemotaxis directs recruited leukocytes along a chemical gradient toward the inflammatory focus.",
+          "tags": [
+            "CBD: chemotaxis"
+          ],
+          "source_url": "https://drive.google.com/file/d/1JJNyKMtTqKK1aRhw-1YhaC6MlMkCJoCl/view"
+        },
+        {
+          "id": "ai_cbd_1JJNyKMtTqKK1aRhw-1YhaC6MlMkCJoCl_05-card",
+          "front": "Which cell function is central to the early neutrophil response in the acute appendicitis CBD?",
+          "back": "Phagocytosis and killing of microbes. The CBD objectives emphasize neutrophil phagocytosis and microbial killing in acute bacterial inflammation.",
+          "tags": [
+            "CBD: neutrophil function"
+          ],
+          "source_url": "https://drive.google.com/file/d/1JJNyKMtTqKK1aRhw-1YhaC6MlMkCJoCl/view"
         }
       ],
       "needs_source_validation": false,
@@ -4698,6 +4743,96 @@
           "tags": [
             "Microbiology",
             "Babesiosis and Malaria II"
+          ],
+          "source_url": "https://drive.google.com/file/d/14vfFkvXZlceusubx4H2RN-ttsGLXdkbj/view?usp=drivesdk"
+        },
+        {
+          "id": "ai_14vfFkvXZlceusubx4H2RN-ttsGLXdkbj_treatment_01-card",
+          "front": "Which drug classifies as a liver-stage agent used to prevent relapse of vivax or ovale malaria in the lecture?",
+          "back": "Primaquine. Primaquine targets persistent liver stages; blood-stage therapy alone does not remove dormant hypnozoites.",
+          "tags": [
+            "Malaria treatment"
+          ],
+          "source_url": "https://drive.google.com/file/d/14vfFkvXZlceusubx4H2RN-ttsGLXdkbj/view?usp=drivesdk"
+        },
+        {
+          "id": "ai_14vfFkvXZlceusubx4H2RN-ttsGLXdkbj_treatment_02-card",
+          "front": "A traveler is planning a visit to a malaria-endemic region. What must guide the choice of chemoprophylaxis in the lecture?",
+          "back": "The region being visited and local parasite resistance. The lecture states that prophylaxis depends on the area and that drug efficacy varies with strain and resistance.",
+          "tags": [
+            "Malaria treatment"
+          ],
+          "source_url": "https://drive.google.com/file/d/14vfFkvXZlceusubx4H2RN-ttsGLXdkbj/view?usp=drivesdk"
+        },
+        {
+          "id": "ai_14vfFkvXZlceusubx4H2RN-ttsGLXdkbj_treatment_03-card",
+          "front": "When should malaria chemoprophylaxis generally begin relative to travel, according to the lecture?",
+          "back": "Before entering the endemic region. The source explicitly describes commencing prophylaxis before visiting an endemic area; exact schedules depend on the agent.",
+          "tags": [
+            "Malaria treatment"
+          ],
+          "source_url": "https://drive.google.com/file/d/14vfFkvXZlceusubx4H2RN-ttsGLXdkbj/view?usp=drivesdk"
+        },
+        {
+          "id": "ai_14vfFkvXZlceusubx4H2RN-ttsGLXdkbj_treatment_04-card",
+          "front": "The malaria lecture lists artemisinin among agents acting against which stage?",
+          "back": "Blood stages. Artemisinin is listed under treatment against blood stages, particularly resistant P. falciparum.",
+          "tags": [
+            "Malaria treatment"
+          ],
+          "source_url": "https://drive.google.com/file/d/14vfFkvXZlceusubx4H2RN-ttsGLXdkbj/view?usp=drivesdk"
+        },
+        {
+          "id": "ai_14vfFkvXZlceusubx4H2RN-ttsGLXdkbj_treatment_05-card",
+          "front": "Which combination is identified by the lecture as Fansidar?",
+          "back": "Pyrimethamine plus sulphadoxine. Fansidar is the pyrimethamine–sulphadoxine combination listed among blood-stage treatments.",
+          "tags": [
+            "Malaria treatment"
+          ],
+          "source_url": "https://drive.google.com/file/d/14vfFkvXZlceusubx4H2RN-ttsGLXdkbj/view?usp=drivesdk"
+        },
+        {
+          "id": "ai_14vfFkvXZlceusubx4H2RN-ttsGLXdkbj_treatment_06-card",
+          "front": "A patient with recurrent P. vivax infection receives treatment intended to eradicate the dormant liver reservoir. What is the intended benefit?",
+          "back": "Prevention of hypnozoite-mediated relapse. The source separates liver-stage treatment to prevent relapse from therapy against active blood stages.",
+          "tags": [
+            "Malaria treatment"
+          ],
+          "source_url": "https://drive.google.com/file/d/14vfFkvXZlceusubx4H2RN-ttsGLXdkbj/view?usp=drivesdk"
+        },
+        {
+          "id": "ai_14vfFkvXZlceusubx4H2RN-ttsGLXdkbj_treatment_07-card",
+          "front": "A malaria patient has persistent vomiting and diarrhea. Which supportive measure is explicitly listed in the lecture?",
+          "back": "Rehydration. Supportive management includes rehydration, temperature control, transfusion assessment, and treatment of convulsions when present.",
+          "tags": [
+            "Malaria treatment"
+          ],
+          "source_url": "https://drive.google.com/file/d/14vfFkvXZlceusubx4H2RN-ttsGLXdkbj/view?usp=drivesdk"
+        },
+        {
+          "id": "ai_14vfFkvXZlceusubx4H2RN-ttsGLXdkbj_treatment_08-card",
+          "front": "Which measure combines prevention of malaria exposure with control of its mosquito vector?",
+          "back": "Use of insecticide-treated bed nets. The source lists mosquito control and insecticide-treated bed nets among prevention strategies.",
+          "tags": [
+            "Malaria treatment"
+          ],
+          "source_url": "https://drive.google.com/file/d/14vfFkvXZlceusubx4H2RN-ttsGLXdkbj/view?usp=drivesdk"
+        },
+        {
+          "id": "ai_14vfFkvXZlceusubx4H2RN-ttsGLXdkbj_treatment_09-card",
+          "front": "Which antimalarial drug listed in the source is also known as Lariam?",
+          "back": "Mefloquine. The lecture lists mefloquine (Lariam) among blood-stage agents.",
+          "tags": [
+            "Malaria treatment"
+          ],
+          "source_url": "https://drive.google.com/file/d/14vfFkvXZlceusubx4H2RN-ttsGLXdkbj/view?usp=drivesdk"
+        },
+        {
+          "id": "ai_14vfFkvXZlceusubx4H2RN-ttsGLXdkbj_treatment_10-card",
+          "front": "Why can efficacy of the same antimalarial differ between geographic areas?",
+          "back": "Differences in parasite strains and drug resistance. The treatment slide explicitly attributes geographic differences to strain multiplicity and drug resistance.",
+          "tags": [
+            "Malaria treatment"
           ],
           "source_url": "https://drive.google.com/file/d/14vfFkvXZlceusubx4H2RN-ttsGLXdkbj/view?usp=drivesdk"
         }
@@ -7920,14 +8055,125 @@
         {
           "id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5-c01",
           "front": "What is the cardiac cycle?",
-          "back": "The combined mechanical, electrical, and valvular events occurring during one heartbeat.",
+          "back": "Mechanical, electrical, and valvular events from the beginning of one heartbeat to the next.",
           "tags": [
             "Cardiac cycle"
-          ],
-          "source_url": "https://drive.google.com/file/d/19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5/view"
+          ]
         },
         {
           "id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5-c02",
+          "front": "Cardiac-cycle duration formula?",
+          "back": "60 ÷ heart rate; at 75/min it is about 0.8 s.",
+          "tags": [
+            "Timing"
+          ]
+        },
+        {
+          "id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5-c03",
+          "front": "Main phases of the cardiac cycle?",
+          "back": "Atrial systole → isovolumetric contraction → ejection → isovolumetric relaxation → filling.",
+          "tags": [
+            "Phases"
+          ]
+        },
+        {
+          "id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5-c04",
+          "front": "Atrial systole contributes how much ventricular filling?",
+          "back": "About 20–25%.",
+          "tags": [
+            "Atrial systole"
+          ]
+        },
+        {
+          "id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5-c05",
+          "front": "What causes S4?",
+          "back": "Ventricular wall vibration during atrial contraction; associated with a stiff ventricle.",
+          "tags": [
+            "Heart sounds"
+          ]
+        },
+        {
+          "id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5-c06",
+          "front": "Isovolumetric contraction: valves, pressure, volume?",
+          "back": "All valves closed; ventricular pressure rises; volume stays constant.",
+          "tags": [
+            "IVC"
+          ]
+        },
+        {
+          "id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5-c07",
+          "front": "What causes S1?",
+          "back": "Closure of AV valves at the start of ventricular systole/isovolumetric contraction.",
+          "tags": [
+            "Heart sounds"
+          ]
+        },
+        {
+          "id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5-c08",
+          "front": "What opens the semilunar valves?",
+          "back": "Ventricular pressure rising above aortic/pulmonary arterial pressure.",
+          "tags": [
+            "Valves"
+          ]
+        },
+        {
+          "id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5-c09",
+          "front": "Rapid versus reduced ejection?",
+          "back": "About 70% of ejection occurs rapidly, then about 30% during reduced ejection.",
+          "tags": [
+            "Ejection"
+          ]
+        },
+        {
+          "id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5-c10",
+          "front": "Isovolumetric relaxation: valves, pressure, volume?",
+          "back": "All valves closed; ventricular pressure falls; volume remains constant.",
+          "tags": [
+            "IVR"
+          ]
+        },
+        {
+          "id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5-c11",
+          "front": "What causes S2?",
+          "back": "Closure of the semilunar valves at the beginning of ventricular diastole.",
+          "tags": [
+            "Heart sounds"
+          ]
+        },
+        {
+          "id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5-c12",
+          "front": "What opens the AV valves?",
+          "back": "Ventricular pressure falling below atrial pressure.",
+          "tags": [
+            "Valves"
+          ]
+        },
+        {
+          "id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5-c13",
+          "front": "How much filling occurs during rapid filling?",
+          "back": "About 60–70%.",
+          "tags": [
+            "Filling"
+          ]
+        },
+        {
+          "id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5-c14",
+          "front": "What causes S3?",
+          "back": "Rapid inflow into the ventricles during rapid filling; it may be normal in children.",
+          "tags": [
+            "Heart sounds"
+          ]
+        },
+        {
+          "id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5-c15",
+          "front": "Why does aortic pressure fall while the aortic valve is closed?",
+          "back": "Blood continues to run off from the aorta into the peripheral circulation while no new ventricular blood enters.",
+          "tags": [
+            "Aortic pressure"
+          ]
+        },
+        {
+          "id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5-c02_sourceaudit",
           "front": "What opens the AV valves after isovolumetric relaxation?",
           "back": "Ventricular pressure falls below atrial pressure, creating an atrioventricular pressure gradient.",
           "tags": [
@@ -7936,7 +8182,7 @@
           "source_url": "https://drive.google.com/file/d/19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5/view"
         },
         {
-          "id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5-c03",
+          "id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5-c03_sourceaudit",
           "front": "How does ventricular volume change during filling?",
           "back": "It rises from ESV toward EDV.",
           "tags": [
@@ -7945,7 +8191,7 @@
           "source_url": "https://drive.google.com/file/d/19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5/view"
         },
         {
-          "id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5-c04",
+          "id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5-c04_sourceaudit",
           "front": "What happens to aortic pressure during ventricular filling?",
           "back": "It decreases as blood continues to leave the aorta toward the periphery while the aortic valve is closed.",
           "tags": [
@@ -7954,7 +8200,7 @@
           "source_url": "https://drive.google.com/file/d/19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5/view"
         },
         {
-          "id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5-c05",
+          "id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5-c05_sourceaudit",
           "front": "What causes S3 in this lecture?",
           "back": "Ventricular wall vibration during rapid inflow of blood from atria to ventricles.",
           "tags": [
@@ -7963,7 +8209,7 @@
           "source_url": "https://drive.google.com/file/d/19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5/view"
         },
         {
-          "id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5-c06",
+          "id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5-c06_sourceaudit",
           "front": "What is atrial systole's contribution to ventricular filling?",
           "back": "About 20–25%; it completes ventricular filling.",
           "tags": [
@@ -7972,16 +8218,7 @@
           "source_url": "https://drive.google.com/file/d/19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5/view"
         },
         {
-          "id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5-c07",
-          "front": "What causes S4?",
-          "back": "Ventricular wall vibration during atrial contraction; it is associated with a stiff ventricle.",
-          "tags": [
-            "Heart sounds"
-          ],
-          "source_url": "https://drive.google.com/file/d/19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5/view"
-        },
-        {
-          "id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5-c08",
+          "id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5-c08_sourceaudit",
           "front": "What defines isovolumetric contraction?",
           "back": "Ventricular pressure rises while volume remains constant because all valves are closed.",
           "tags": [
@@ -7990,7 +8227,7 @@
           "source_url": "https://drive.google.com/file/d/19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5/view"
         },
         {
-          "id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5-c09",
+          "id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5-c09_sourceaudit",
           "front": "What ends isovolumetric contraction?",
           "back": "Ventricular pressure exceeds aortic/pulmonary pressure and the semilunar valves open.",
           "tags": [
@@ -7999,7 +8236,7 @@
           "source_url": "https://drive.google.com/file/d/19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5/view"
         },
         {
-          "id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5-c10",
+          "id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5-c10_sourceaudit",
           "front": "How does ventricular volume change during ejection?",
           "back": "It decreases as blood is ejected into the aorta and pulmonary artery.",
           "tags": [
@@ -8008,7 +8245,7 @@
           "source_url": "https://drive.google.com/file/d/19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5/view"
         },
         {
-          "id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5-c11",
+          "id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5-c11_sourceaudit",
           "front": "What happens to aortic pressure during ejection?",
           "back": "It rises with ventricular pressure during rapid ejection, then begins to fall during reduced ejection.",
           "tags": [
@@ -8017,7 +8254,7 @@
           "source_url": "https://drive.google.com/file/d/19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5/view"
         },
         {
-          "id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5-c12",
+          "id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5-c12_sourceaudit",
           "front": "What defines isovolumetric relaxation?",
           "back": "Ventricular pressure falls while volume remains constant because all valves are closed.",
           "tags": [
@@ -8026,25 +8263,7 @@
           "source_url": "https://drive.google.com/file/d/19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5/view"
         },
         {
-          "id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5-c13",
-          "front": "What causes S1?",
-          "back": "Closure of the AV valves, with vibrations in the ventricles and major vessels.",
-          "tags": [
-            "Heart sounds"
-          ],
-          "source_url": "https://drive.google.com/file/d/19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5/view"
-        },
-        {
-          "id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5-c14",
-          "front": "What causes S2?",
-          "back": "Closure of the aortic and pulmonary semilunar valves.",
-          "tags": [
-            "Heart sounds"
-          ],
-          "source_url": "https://drive.google.com/file/d/19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5/view"
-        },
-        {
-          "id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5-c15",
+          "id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5-c15_sourceaudit",
           "front": "Define EDV.",
           "back": "Ventricular blood volume at the end of ventricular diastole.",
           "tags": [
@@ -8268,6 +8487,126 @@
       "archived": false,
       "cards": [
         {
+          "id": "1YijUiLChrPMhz8D8foBy2j1dVC1W98Pw-c01",
+          "front": "Healthy endothelium favors thrombosis or antithrombosis?",
+          "back": "Antithrombosis: anticoagulant and profibrinolytic activity predominates.",
+          "tags": [
+            "Hemostasis"
+          ]
+        },
+        {
+          "id": "1YijUiLChrPMhz8D8foBy2j1dVC1W98Pw-c02",
+          "front": "NO + prostacyclin: shared effects?",
+          "back": "Vasodilation and inhibition of platelet aggregation.",
+          "tags": [
+            "NO"
+          ]
+        },
+        {
+          "id": "1YijUiLChrPMhz8D8foBy2j1dVC1W98Pw-c03",
+          "front": "Thrombomodulin's anticoagulant effect?",
+          "back": "Inhibits activated factors Va and VIIIa in this lecture.",
+          "tags": [
+            "Hemostasis"
+          ]
+        },
+        {
+          "id": "1YijUiLChrPMhz8D8foBy2j1dVC1W98Pw-c04",
+          "front": "Heparan sulfate's anticoagulant effect?",
+          "back": "Enhances antithrombin III → inhibits thrombin and factor Xa.",
+          "tags": [
+            "Hemostasis"
+          ]
+        },
+        {
+          "id": "1YijUiLChrPMhz8D8foBy2j1dVC1W98Pw-c05",
+          "front": "tPA versus PAI-1?",
+          "back": "tPA promotes fibrinolysis via plasmin; PAI-1 inhibits fibrinolysis.",
+          "tags": [
+            "Fibrinolysis"
+          ]
+        },
+        {
+          "id": "1YijUiLChrPMhz8D8foBy2j1dVC1W98Pw-c06",
+          "front": "What does damaged endothelium release to promote platelet adhesion?",
+          "back": "von Willebrand factor (vWF).",
+          "tags": [
+            "vWF"
+          ]
+        },
+        {
+          "id": "1YijUiLChrPMhz8D8foBy2j1dVC1W98Pw-c07",
+          "front": "Main endothelial vasoconstrictor emphasized?",
+          "back": "Endothelin-1.",
+          "tags": [
+            "Tone"
+          ]
+        },
+        {
+          "id": "1YijUiLChrPMhz8D8foBy2j1dVC1W98Pw-c08",
+          "front": "Capillary permeability order?",
+          "back": "Continuous < fenestrated < discontinuous/sinusoidal.",
+          "tags": [
+            "Permeability"
+          ]
+        },
+        {
+          "id": "1YijUiLChrPMhz8D8foBy2j1dVC1W98Pw-c09",
+          "front": "How does endothelium regulate inflammation?",
+          "back": "It controls leukocyte adhesion/migration using molecules such as selectins, ICAMs, and VCAM-1.",
+          "tags": [
+            "Inflammation"
+          ]
+        },
+        {
+          "id": "1YijUiLChrPMhz8D8foBy2j1dVC1W98Pw-c10",
+          "front": "Endothelial role in angiogenesis?",
+          "back": "Produces growth factors such as VEGF to promote new-vessel formation.",
+          "tags": [
+            "Angiogenesis"
+          ]
+        },
+        {
+          "id": "1YijUiLChrPMhz8D8foBy2j1dVC1W98Pw-c11",
+          "front": "Chronic endothelial dysfunction: NO and endothelin-1 changes?",
+          "back": "↓NO and ↑endothelin-1.",
+          "tags": [
+            "Dysfunction"
+          ]
+        },
+        {
+          "id": "1YijUiLChrPMhz8D8foBy2j1dVC1W98Pw-c12",
+          "front": "How does endothelial dysfunction promote atherosclerosis?",
+          "back": "↑permeability lets LDL enter the wall; inflammation and adhesion recruit cells, promoting foam cells/plaque.",
+          "tags": [
+            "Atherosclerosis"
+          ]
+        },
+        {
+          "id": "1YijUiLChrPMhz8D8foBy2j1dVC1W98Pw-c13",
+          "front": "Major causes of endothelial dysfunction?",
+          "back": "Hyperglycemia, insulin resistance, dyslipidemia, obesity, hypertension, smoking, inactivity, inflammation, oxidative stress, and aging.",
+          "tags": [
+            "Risk factors"
+          ]
+        },
+        {
+          "id": "1YijUiLChrPMhz8D8foBy2j1dVC1W98Pw-c14",
+          "front": "Acute inflammatory endothelial dysfunction causes edema how?",
+          "back": "Inflammatory mediators increase vascular permeability, allowing plasma leakage.",
+          "tags": [
+            "Inflammation"
+          ]
+        },
+        {
+          "id": "1YijUiLChrPMhz8D8foBy2j1dVC1W98Pw-c15",
+          "front": "Therapeutic approaches listed for endothelial dysfunction?",
+          "back": "Improve NO, reduce oxidative stress/inflammation, lipid lowering (statins), EPC therapy, and targeted endothelial signaling.",
+          "tags": [
+            "Therapy"
+          ]
+        },
+        {
           "id": "1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf-c01",
           "front": "Name three major ways healthy endothelium keeps blood flowing freely.",
           "back": "Antiplatelet + anticoagulant + fibrinolytic actions.",
@@ -8464,7 +8803,7 @@
       "subject": "Pathology",
       "title": "Endocarditis",
       "source_file_id": "libfile_6e646046c4ac81918406ddf5ca74067d",
-      "source_url": "",
+      "source_url": "https://drive.google.com/file/d/1NKrXX2VQc7oVqY_y-bjNxt7FNxbQKT5q/view?usp=drivesdk",
       "source_modified_time": "2026-10-01T06:04:48.452Z",
       "archived": false,
       "eligibility_status": "allowed",
@@ -8480,7 +8819,7 @@
             "Endocarditis",
             "Definition"
           ],
-          "source_url": ""
+          "source_url": "https://drive.google.com/file/d/1NKrXX2VQc7oVqY_y-bjNxt7FNxbQKT5q/view?usp=drivesdk"
         },
         {
           "id": "endocarditis-2026-c02",
@@ -8490,7 +8829,7 @@
             "Endocarditis",
             "Classification"
           ],
-          "source_url": ""
+          "source_url": "https://drive.google.com/file/d/1NKrXX2VQc7oVqY_y-bjNxt7FNxbQKT5q/view?usp=drivesdk"
         },
         {
           "id": "endocarditis-2026-c03",
@@ -8500,7 +8839,7 @@
             "Endocarditis",
             "Organisms"
           ],
-          "source_url": ""
+          "source_url": "https://drive.google.com/file/d/1NKrXX2VQc7oVqY_y-bjNxt7FNxbQKT5q/view?usp=drivesdk"
         },
         {
           "id": "endocarditis-2026-c04",
@@ -8510,7 +8849,7 @@
             "Endocarditis",
             "Organisms"
           ],
-          "source_url": ""
+          "source_url": "https://drive.google.com/file/d/1NKrXX2VQc7oVqY_y-bjNxt7FNxbQKT5q/view?usp=drivesdk"
         },
         {
           "id": "endocarditis-2026-c05",
@@ -8520,7 +8859,7 @@
             "Endocarditis",
             "Risk factors"
           ],
-          "source_url": ""
+          "source_url": "https://drive.google.com/file/d/1NKrXX2VQc7oVqY_y-bjNxt7FNxbQKT5q/view?usp=drivesdk"
         },
         {
           "id": "endocarditis-2026-c06",
@@ -8530,7 +8869,7 @@
             "Endocarditis",
             "Complications"
           ],
-          "source_url": ""
+          "source_url": "https://drive.google.com/file/d/1NKrXX2VQc7oVqY_y-bjNxt7FNxbQKT5q/view?usp=drivesdk"
         },
         {
           "id": "endocarditis-2026-c07",
@@ -8540,7 +8879,7 @@
             "Endocarditis",
             "IVDU"
           ],
-          "source_url": ""
+          "source_url": "https://drive.google.com/file/d/1NKrXX2VQc7oVqY_y-bjNxt7FNxbQKT5q/view?usp=drivesdk"
         },
         {
           "id": "endocarditis-2026-c08",
@@ -8550,7 +8889,7 @@
             "Endocarditis",
             "Diagnosis"
           ],
-          "source_url": ""
+          "source_url": "https://drive.google.com/file/d/1NKrXX2VQc7oVqY_y-bjNxt7FNxbQKT5q/view?usp=drivesdk"
         },
         {
           "id": "endocarditis-2026-c09",
@@ -8560,7 +8899,7 @@
             "Endocarditis",
             "Peripheral signs"
           ],
-          "source_url": ""
+          "source_url": "https://drive.google.com/file/d/1NKrXX2VQc7oVqY_y-bjNxt7FNxbQKT5q/view?usp=drivesdk"
         },
         {
           "id": "endocarditis-2026-c10",
@@ -8570,7 +8909,7 @@
             "Endocarditis",
             "Complications"
           ],
-          "source_url": ""
+          "source_url": "https://drive.google.com/file/d/1NKrXX2VQc7oVqY_y-bjNxt7FNxbQKT5q/view?usp=drivesdk"
         },
         {
           "id": "endocarditis-2026-c11",
@@ -8580,7 +8919,7 @@
             "Endocarditis",
             "Complications"
           ],
-          "source_url": ""
+          "source_url": "https://drive.google.com/file/d/1NKrXX2VQc7oVqY_y-bjNxt7FNxbQKT5q/view?usp=drivesdk"
         },
         {
           "id": "endocarditis-2026-c12",
@@ -8590,7 +8929,7 @@
             "Endocarditis",
             "NBTE"
           ],
-          "source_url": ""
+          "source_url": "https://drive.google.com/file/d/1NKrXX2VQc7oVqY_y-bjNxt7FNxbQKT5q/view?usp=drivesdk"
         },
         {
           "id": "endocarditis-2026-c13",
@@ -8600,7 +8939,7 @@
             "Endocarditis",
             "NBTE"
           ],
-          "source_url": ""
+          "source_url": "https://drive.google.com/file/d/1NKrXX2VQc7oVqY_y-bjNxt7FNxbQKT5q/view?usp=drivesdk"
         },
         {
           "id": "endocarditis-2026-c14",
@@ -8610,7 +8949,7 @@
             "Endocarditis",
             "NBTE"
           ],
-          "source_url": ""
+          "source_url": "https://drive.google.com/file/d/1NKrXX2VQc7oVqY_y-bjNxt7FNxbQKT5q/view?usp=drivesdk"
         },
         {
           "id": "endocarditis-2026-c15",
@@ -8620,7 +8959,7 @@
             "Endocarditis",
             "Libman-Sacks"
           ],
-          "source_url": ""
+          "source_url": "https://drive.google.com/file/d/1NKrXX2VQc7oVqY_y-bjNxt7FNxbQKT5q/view?usp=drivesdk"
         },
         {
           "id": "endocarditis-2026-c16",
@@ -8630,7 +8969,7 @@
             "Endocarditis",
             "Libman-Sacks"
           ],
-          "source_url": ""
+          "source_url": "https://drive.google.com/file/d/1NKrXX2VQc7oVqY_y-bjNxt7FNxbQKT5q/view?usp=drivesdk"
         },
         {
           "id": "endocarditis-2026-c17",
@@ -8640,7 +8979,7 @@
             "Endocarditis",
             "Morphology"
           ],
-          "source_url": ""
+          "source_url": "https://drive.google.com/file/d/1NKrXX2VQc7oVqY_y-bjNxt7FNxbQKT5q/view?usp=drivesdk"
         },
         {
           "id": "endocarditis-2026-c18",
@@ -8650,9 +8989,10 @@
             "Endocarditis",
             "Prognosis"
           ],
-          "source_url": ""
+          "source_url": "https://drive.google.com/file/d/1NKrXX2VQc7oVqY_y-bjNxt7FNxbQKT5q/view?usp=drivesdk"
         }
-      ]
+      ],
+      "source_drive_file_id": "1NKrXX2VQc7oVqY_y-bjNxt7FNxbQKT5q"
     },
     {
       "id": "drive_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ",
@@ -8664,6 +9004,126 @@
       "cards": [
         {
           "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c01",
+          "front": "What does Vaughan Williams Class I block?",
+          "back": "Fast Na+ channels; it slows conduction in fast-response tissue.",
+          "tags": [
+            "Antiarrhythmics"
+          ]
+        },
+        {
+          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c02",
+          "front": "How do IA, IB, and IC differ?",
+          "back": "IA: moderate Na+ block + ↑APD; IB: weak Na+ block + ↓APD; IC: strong conduction slowing with little APD change.",
+          "tags": [
+            "Class I"
+          ]
+        },
+        {
+          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c03",
+          "front": "What does Class II do?",
+          "back": "Beta blockade → ↓sympathetic effects, ↓automaticity, and ↓AV nodal conduction.",
+          "tags": [
+            "Class II"
+          ]
+        },
+        {
+          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c04",
+          "front": "What does Class III do?",
+          "back": "Blocks K+ channels → prolongs repolarization and refractory period; may prolong QT.",
+          "tags": [
+            "Class III"
+          ]
+        },
+        {
+          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c05",
+          "front": "What does Class IV do?",
+          "back": "Non-DHP Ca2+ blockade slows AV nodal conduction; examples: verapamil and diltiazem.",
+          "tags": [
+            "Class IV"
+          ]
+        },
+        {
+          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c06",
+          "front": "When is adenosine useful?",
+          "back": "AV-node-dependent regular narrow-complex re-entrant SVT.",
+          "tags": [
+            "Adenosine"
+          ]
+        },
+        {
+          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c07",
+          "front": "Why is adenosine given rapidly IV?",
+          "back": "Its half-life is about 10 seconds.",
+          "tags": [
+            "Adenosine"
+          ]
+        },
+        {
+          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c08",
+          "front": "Major adenosine contraindications in this lecture?",
+          "back": "AV block and asthma; bronchospasm can occur.",
+          "tags": [
+            "Adenosine"
+          ]
+        },
+        {
+          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c09",
+          "front": "What is the first question in tachyarrhythmia?",
+          "back": "Is the patient hemodynamically stable or unstable?",
+          "tags": [
+            "Approach"
+          ]
+        },
+        {
+          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c10",
+          "front": "Unstable tachyarrhythmia with a pulse: treatment?",
+          "back": "Synchronized cardioversion.",
+          "tags": [
+            "Approach"
+          ]
+        },
+        {
+          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c11",
+          "front": "Wide-complex tachycardia should be considered what until proven otherwise?",
+          "back": "Ventricular tachycardia.",
+          "tags": [
+            "VT"
+          ]
+        },
+        {
+          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c12",
+          "front": "Drug highlighted for torsades de pointes?",
+          "back": "Magnesium sulfate.",
+          "tags": [
+            "Torsades"
+          ]
+        },
+        {
+          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c13",
+          "front": "Why avoid AV-nodal blockers in pre-excited AF/WPW?",
+          "back": "The AV node acts as a brake; blocking it can favor rapid accessory-pathway conduction.",
+          "tags": [
+            "WPW"
+          ]
+        },
+        {
+          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c14",
+          "front": "Important procainamide adverse effects?",
+          "back": "QT prolongation/torsades, hypotension, negative inotropy, and SLE-like syndrome.",
+          "tags": [
+            "Procainamide"
+          ]
+        },
+        {
+          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c15",
+          "front": "Rate control options for AF emphasized in the lecture?",
+          "back": "Beta blocker or non-DHP calcium-channel blocker in an appropriate patient.",
+          "tags": [
+            "AF"
+          ]
+        },
+        {
+          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c01_sourceaudit",
           "front": "Vaughan Williams Class I?",
           "back": "Na⁺-channel blockers: IA, IB and IC.",
           "tags": [
@@ -8673,7 +9133,7 @@
           "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view"
         },
         {
-          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c02",
+          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c02_sourceaudit",
           "front": "Vaughan Williams Class II?",
           "back": "β-blockers; ↓ sympathetic effects, automaticity and AV nodal conduction.",
           "tags": [
@@ -8683,7 +9143,7 @@
           "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view"
         },
         {
-          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c03",
+          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c03_sourceaudit",
           "front": "Vaughan Williams Class III?",
           "back": "K⁺-channel blockers; prolong repolarization and refractory period.",
           "tags": [
@@ -8693,7 +9153,7 @@
           "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view"
         },
         {
-          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c04",
+          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c04_sourceaudit",
           "front": "Vaughan Williams Class IV?",
           "back": "Non-DHP Ca²⁺ blockers: verapamil and diltiazem.",
           "tags": [
@@ -8703,7 +9163,7 @@
           "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view"
         },
         {
-          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c05",
+          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c05_sourceaudit",
           "front": "Adenosine: key mechanism and use?",
           "back": "Transient AV nodal block; useful for AV-node-dependent regular narrow SVT.",
           "tags": [
@@ -8713,7 +9173,7 @@
           "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view"
         },
         {
-          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c06",
+          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c06_sourceaudit",
           "front": "Why is lidocaine useful after acute MI?",
           "back": "It preferentially blocks abnormal/inactivated Na⁺ channels in ischemic ventricular tissue.",
           "tags": [
@@ -8723,7 +9183,7 @@
           "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view"
         },
         {
-          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c07",
+          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c07_sourceaudit",
           "front": "Class IC drugs and key contraindication?",
           "back": "Flecainide/propafenone; avoid after MI or major structural heart disease.",
           "tags": [
@@ -8733,7 +9193,7 @@
           "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view"
         },
         {
-          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c08",
+          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c08_sourceaudit",
           "front": "Major amiodarone toxicities?",
           "back": "Pulmonary, thyroid, liver, skin and eye toxicity; also bradycardia/QT effects.",
           "tags": [
@@ -8743,7 +9203,7 @@
           "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view"
         },
         {
-          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c09",
+          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c09_sourceaudit",
           "front": "Torsades treatment?",
           "back": "IV magnesium sulfate; correct electrolytes and remove QT-prolonging causes.",
           "tags": [
@@ -8753,7 +9213,7 @@
           "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view"
         },
         {
-          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c10",
+          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c10_sourceaudit",
           "front": "Stable regular narrow SVT after vagal maneuvers fail?",
           "back": "Adenosine.",
           "tags": [
@@ -8763,7 +9223,7 @@
           "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view"
         },
         {
-          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c11",
+          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c11_sourceaudit",
           "front": "Stable pre-excited AF in WPW?",
           "back": "Procainamide; avoid isolated AV-nodal blockers.",
           "tags": [
@@ -8773,7 +9233,7 @@
           "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view"
         },
         {
-          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c12",
+          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c12_sourceaudit",
           "front": "Unstable tachyarrhythmia with a pulse?",
           "back": "Synchronized cardioversion.",
           "tags": [
@@ -8783,7 +9243,7 @@
           "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view"
         },
         {
-          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c13",
+          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c13_sourceaudit",
           "front": "Pulseless VT/VF?",
           "back": "Defibrillation + high-quality CPR first.",
           "tags": [
@@ -8793,7 +9253,7 @@
           "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view"
         },
         {
-          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c14",
+          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c14_sourceaudit",
           "front": "Symptomatic sinus bradycardia initial drug?",
           "back": "Atropine.",
           "tags": [
@@ -8803,7 +9263,7 @@
           "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view"
         },
         {
-          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c15",
+          "id": "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ-c15_sourceaudit",
           "front": "Why is β-blocker + verapamil/diltiazem risky?",
           "back": "Additive bradycardia, AV block and negative inotropy.",
           "tags": [
@@ -8828,6 +9288,126 @@
       "cards": [
         {
           "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c01",
+          "front": "What does a surface ECG record?",
+          "back": "The summed electrical activity of many myocardial cells, not a single action potential.",
+          "tags": [
+            "ECG"
+          ]
+        },
+        {
+          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c02",
+          "front": "Which cardiac property cannot ECG directly assess?",
+          "back": "Contractility/force of contraction or ejection fraction.",
+          "tags": [
+            "ECG"
+          ]
+        },
+        {
+          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c03",
+          "front": "Depolarization moving toward a positive electrode gives what deflection?",
+          "back": "Positive/upward.",
+          "tags": [
+            "Vectors"
+          ]
+        },
+        {
+          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c04",
+          "front": "Repolarization moving away from a positive electrode gives what deflection?",
+          "back": "Positive/upward.",
+          "tags": [
+            "Vectors"
+          ]
+        },
+        {
+          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c05",
+          "front": "P wave?",
+          "back": "Atrial depolarization.",
+          "tags": [
+            "Waves"
+          ]
+        },
+        {
+          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c06",
+          "front": "QRS complex?",
+          "back": "Ventricular depolarization; atrial repolarization is usually hidden within it.",
+          "tags": [
+            "Waves"
+          ]
+        },
+        {
+          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c07",
+          "front": "T wave?",
+          "back": "Ventricular repolarization.",
+          "tags": [
+            "Waves"
+          ]
+        },
+        {
+          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c08",
+          "front": "Normal PR interval?",
+          "back": "About 0.12–0.20 s.",
+          "tags": [
+            "Intervals"
+          ]
+        },
+        {
+          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c09",
+          "front": "Normal QRS duration?",
+          "back": "Less than 0.12 s.",
+          "tags": [
+            "Intervals"
+          ]
+        },
+        {
+          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c10",
+          "front": "What does the QT interval represent?",
+          "back": "Ventricular depolarization plus repolarization.",
+          "tags": [
+            "Intervals"
+          ]
+        },
+        {
+          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c11",
+          "front": "Why is prolonged QT important?",
+          "back": "It increases risk of ventricular arrhythmias, especially torsades de pointes.",
+          "tags": [
+            "QT"
+          ]
+        },
+        {
+          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c12",
+          "front": "At 25 mm/s, how much time is 5 large squares?",
+          "back": "1 second.",
+          "tags": [
+            "Calibration"
+          ]
+        },
+        {
+          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c13",
+          "front": "Regular-rhythm heart-rate shortcut?",
+          "back": "300 ÷ number of large squares between R waves.",
+          "tags": [
+            "Rate"
+          ]
+        },
+        {
+          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c14",
+          "front": "Core features of sinus rhythm?",
+          "back": "Regular, 60–100/min, P before each QRS, each P followed by QRS, normal PR and QRS duration.",
+          "tags": [
+            "Rhythm"
+          ]
+        },
+        {
+          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c15",
+          "front": "Quick leads for axis estimation and normal range?",
+          "back": "Use I and aVF; normal axis is about −30° to +90°.",
+          "tags": [
+            "Axis"
+          ]
+        },
+        {
+          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c01_sourceaudit",
           "front": "What cardiac functions can ECG evaluate?",
           "back": "Automaticity, conductivity and excitability — not contractility.",
           "tags": [
@@ -8837,17 +9417,7 @@
           "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view"
         },
         {
-          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c02",
-          "front": "What does a surface ECG record?",
-          "back": "The summed electrical activity of many myocardial cells as it spreads through the heart.",
-          "tags": [
-            "ECG",
-            "Basics"
-          ],
-          "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view"
-        },
-        {
-          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c03",
+          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c03_sourceaudit",
           "front": "Which leads are bipolar limb leads?",
           "back": "I, II and III.",
           "tags": [
@@ -8857,7 +9427,7 @@
           "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view"
         },
         {
-          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c04",
+          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c04_sourceaudit",
           "front": "Which leads are augmented unipolar limb leads?",
           "back": "aVR, aVL and aVF.",
           "tags": [
@@ -8867,7 +9437,7 @@
           "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view"
         },
         {
-          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c05",
+          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c05_sourceaudit",
           "front": "What are the unipolar chest leads?",
           "back": "V1–V6.",
           "tags": [
@@ -8877,7 +9447,7 @@
           "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view"
         },
         {
-          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c06",
+          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c06_sourceaudit",
           "front": "Depolarization toward a positive electrode produces what deflection?",
           "back": "Positive/upward.",
           "tags": [
@@ -8887,7 +9457,7 @@
           "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view"
         },
         {
-          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c07",
+          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c07_sourceaudit",
           "front": "Repolarization toward a positive electrode produces what deflection?",
           "back": "Negative/downward.",
           "tags": [
@@ -8897,57 +9467,7 @@
           "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view"
         },
         {
-          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c08",
-          "front": "P wave?",
-          "back": "Atrial depolarization.",
-          "tags": [
-            "ECG",
-            "Waves"
-          ],
-          "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view"
-        },
-        {
-          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c09",
-          "front": "QRS complex?",
-          "back": "Ventricular depolarization.",
-          "tags": [
-            "ECG",
-            "Waves"
-          ],
-          "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view"
-        },
-        {
-          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c10",
-          "front": "T wave?",
-          "back": "Ventricular repolarization.",
-          "tags": [
-            "ECG",
-            "Waves"
-          ],
-          "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view"
-        },
-        {
-          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c11",
-          "front": "Normal PR interval?",
-          "back": "0.12–0.20 s.",
-          "tags": [
-            "ECG",
-            "Intervals"
-          ],
-          "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view"
-        },
-        {
-          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c12",
-          "front": "Normal QRS duration?",
-          "back": "Less than 0.12 s.",
-          "tags": [
-            "ECG",
-            "Intervals"
-          ],
-          "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view"
-        },
-        {
-          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c13",
+          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c13_sourceaudit",
           "front": "Why is atrial repolarization usually hidden?",
           "back": "It occurs during ventricular depolarization and is masked by the larger QRS complex.",
           "tags": [
@@ -8957,7 +9477,7 @@
           "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view"
         },
         {
-          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c14",
+          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c14_sourceaudit",
           "front": "Regular-rhythm heart-rate rule?",
           "back": "300 ÷ number of large squares between consecutive R waves.",
           "tags": [
@@ -8967,7 +9487,7 @@
           "source_url": "https://drive.google.com/file/d/1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9/view"
         },
         {
-          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c15",
+          "id": "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9-c15_sourceaudit",
           "front": "Irregular-rhythm heart-rate method?",
           "back": "Count R waves in 6 seconds (30 large squares) and multiply by 10.",
           "tags": [
@@ -9145,6 +9665,747 @@
       "source_validation_date": "2026-10-01",
       "eligibility_status": "allowed",
       "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027"
+    },
+    {
+      "subject": "Physiology",
+      "title": "Abnormal ECG and cardiac arrhythmias",
+      "source_file_id": "1i6a0dvP5Hwncst-9gdl1Vot89OYithH2",
+      "source_url": "https://drive.google.com/file/d/1i6a0dvP5Hwncst-9gdl1Vot89OYithH2/view",
+      "source_modified_time": "2026-10-04",
+      "archived": false,
+      "id": "drive_1i6a0dvP5Hwncst-9gdl1Vot89OYithH2",
+      "cards": [
+        {
+          "id": "1i6a0dvP5Hwncst-9gdl1Vot89OYithH2-c01",
+          "front": "A febrile patient has a regular heart rate of 118/min with a normal P wave before every QRS. Which rhythm best fits?",
+          "back": "Sinus tachycardia. Sinus tachycardia originates in the SA node, exceeds 100/min, and retains P waves before QRS complexes. Fever is a listed trigger.",
+          "tags": [
+            "Sinus rhythms"
+          ],
+          "source_url": "https://drive.google.com/file/d/1i6a0dvP5Hwncst-9gdl1Vot89OYithH2/view"
+        },
+        {
+          "id": "1i6a0dvP5Hwncst-9gdl1Vot89OYithH2-c02",
+          "front": "An athlete at rest has a regular rate of 52/min and a P wave preceding each QRS. Which mechanism can explain this sinus rhythm?",
+          "back": "Increased vagal activity. Vagal activity slows SA-node impulse generation, producing sinus bradycardia with preserved atrioventricular sequencing.",
+          "tags": [
+            "Sinus bradycardia"
+          ],
+          "source_url": "https://drive.google.com/file/d/1i6a0dvP5Hwncst-9gdl1Vot89OYithH2/view"
+        },
+        {
+          "id": "1i6a0dvP5Hwncst-9gdl1Vot89OYithH2-c03",
+          "front": "In respiratory sinus arrhythmia, how does the sinus rate usually change with inspiration?",
+          "back": "It increases. The lecture describes an increased heart rate during inspiration and a reduced rate during expiration.",
+          "tags": [
+            "Respiratory sinus arrhythmia"
+          ],
+          "source_url": "https://drive.google.com/file/d/1i6a0dvP5Hwncst-9gdl1Vot89OYithH2/view"
+        },
+        {
+          "id": "1i6a0dvP5Hwncst-9gdl1Vot89OYithH2-c04",
+          "front": "A premature beat has a differently shaped P wave followed by a normal QRS complex. Where does the ectopic impulse most likely arise?",
+          "back": "Within the atria. Atrial extrasystoles arise from an atrial ectopic focus; altered P-wave morphology precedes a usually normal QRS.",
+          "tags": [
+            "Atrial extrasystole"
+          ],
+          "source_url": "https://drive.google.com/file/d/1i6a0dvP5Hwncst-9gdl1Vot89OYithH2/view"
+        },
+        {
+          "id": "1i6a0dvP5Hwncst-9gdl1Vot89OYithH2-c05",
+          "front": "A premature broad, bizarre QRS is not preceded by a P wave and is followed by a compensatory pause. What is the best description?",
+          "back": "Premature ventricular complex. The lecture identifies an ectopic ventricular beat by its abnormal QRS, absent preceding P wave, and compensatory pause.",
+          "tags": [
+            "Ventricular extrasystole"
+          ],
+          "source_url": "https://drive.google.com/file/d/1i6a0dvP5Hwncst-9gdl1Vot89OYithH2/view"
+        },
+        {
+          "id": "1i6a0dvP5Hwncst-9gdl1Vot89OYithH2-c06",
+          "front": "An ECG has a saw-toothed atrial baseline and regular QRS intervals. Which rhythm is most likely?",
+          "back": "Atrial flutter. Organized rapid atrial activity in flutter produces saw-tooth waves; a fixed AV conduction ratio can produce a regular ventricular rhythm.",
+          "tags": [
+            "Atrial flutter"
+          ],
+          "source_url": "https://drive.google.com/file/d/1i6a0dvP5Hwncst-9gdl1Vot89OYithH2/view"
+        },
+        {
+          "id": "1i6a0dvP5Hwncst-9gdl1Vot89OYithH2-c07",
+          "front": "A patient has no discrete P waves, fine fibrillatory activity, and irregularly spaced QRS complexes. Which rhythm is most likely?",
+          "back": "Atrial fibrillation. The lecture describes absent P waves, fine atrial waves, and irregular QRS intervals in atrial fibrillation.",
+          "tags": [
+            "Atrial fibrillation"
+          ],
+          "source_url": "https://drive.google.com/file/d/1i6a0dvP5Hwncst-9gdl1Vot89OYithH2/view"
+        },
+        {
+          "id": "1i6a0dvP5Hwncst-9gdl1Vot89OYithH2-c08",
+          "front": "Which impulse-generation pattern is described for atrial fibrillation?",
+          "back": "Rapid disorganized activity from multiple atrial foci. The lecture contrasts multiple rapidly and irregularly discharging atrial foci in fibrillation with more organized flutter activity.",
+          "tags": [
+            "Arrhythmia mechanisms"
+          ],
+          "source_url": "https://drive.google.com/file/d/1i6a0dvP5Hwncst-9gdl1Vot89OYithH2/view"
+        },
+        {
+          "id": "1i6a0dvP5Hwncst-9gdl1Vot89OYithH2-c09",
+          "front": "A sinus impulse forms normally but fails to propagate from the SA node to the atria for one beat. Which abnormality is described?",
+          "back": "SA exit block. SA nodal block is a propagation failure between the SA node and atria, rather than delayed AV conduction.",
+          "tags": [
+            "SA nodal block"
+          ],
+          "source_url": "https://drive.google.com/file/d/1i6a0dvP5Hwncst-9gdl1Vot89OYithH2/view"
+        },
+        {
+          "id": "1i6a0dvP5Hwncst-9gdl1Vot89OYithH2-c10",
+          "front": "Every P wave is followed by a QRS, but the PR interval is consistently 240 ms. Which conduction abnormality is present?",
+          "back": "First-degree AV block. First-degree AV block delays conduction while all atrial impulses still reach the ventricles; PR exceeds 200 ms.",
+          "tags": [
+            "First-degree AV block"
+          ],
+          "source_url": "https://drive.google.com/file/d/1i6a0dvP5Hwncst-9gdl1Vot89OYithH2/view"
+        },
+        {
+          "id": "1i6a0dvP5Hwncst-9gdl1Vot89OYithH2-c11",
+          "front": "The PR interval lengthens progressively until a P wave is not followed by a QRS, then the cycle repeats. Which diagnosis fits?",
+          "back": "Mobitz I second-degree AV block. Progressive PR prolongation before a dropped ventricular beat is the Wenckebach (Mobitz I) pattern.",
+          "tags": [
+            "Second-degree AV block"
+          ],
+          "source_url": "https://drive.google.com/file/d/1i6a0dvP5Hwncst-9gdl1Vot89OYithH2/view"
+        },
+        {
+          "id": "1i6a0dvP5Hwncst-9gdl1Vot89OYithH2-c12",
+          "front": "Some P waves are not conducted, while the PR interval of conducted beats remains constant. Which AV block pattern is most likely?",
+          "back": "Mobitz II. Mobitz II causes intermittent nonconducted P waves without the progressive PR prolongation of Mobitz I.",
+          "tags": [
+            "Second-degree AV block"
+          ],
+          "source_url": "https://drive.google.com/file/d/1i6a0dvP5Hwncst-9gdl1Vot89OYithH2/view"
+        },
+        {
+          "id": "1i6a0dvP5Hwncst-9gdl1Vot89OYithH2-c13",
+          "front": "Which conduction tissue is most commonly implicated in the lecture description of Mobitz II block?",
+          "back": "The distal His–Purkinje system. The lecture distinguishes distal His–Purkinje disease in Mobitz II from predominantly AV-nodal disease in Mobitz I.",
+          "tags": [
+            "Sites of block"
+          ],
+          "source_url": "https://drive.google.com/file/d/1i6a0dvP5Hwncst-9gdl1Vot89OYithH2/view"
+        },
+        {
+          "id": "1i6a0dvP5Hwncst-9gdl1Vot89OYithH2-c14",
+          "front": "A patient has a slow ventricular escape rhythm with P waves and QRS complexes occurring independently. Which diagnosis best explains this?",
+          "back": "Third-degree AV block. Complete AV block prevents atrial impulses from conducting to the ventricles, creating AV dissociation and an escape rhythm.",
+          "tags": [
+            "Complete AV block"
+          ],
+          "source_url": "https://drive.google.com/file/d/1i6a0dvP5Hwncst-9gdl1Vot89OYithH2/view"
+        },
+        {
+          "id": "1i6a0dvP5Hwncst-9gdl1Vot89OYithH2-c15",
+          "front": "Which ECG relation distinguishes complete AV block from first-degree AV block?",
+          "back": "No fixed relationship between P waves and QRS complexes. Third-degree block separates atrial and ventricular rhythms; first-degree block preserves one-to-one conduction.",
+          "tags": [
+            "AV dissociation"
+          ],
+          "source_url": "https://drive.google.com/file/d/1i6a0dvP5Hwncst-9gdl1Vot89OYithH2/view"
+        },
+        {
+          "id": "1i6a0dvP5Hwncst-9gdl1Vot89OYithH2-c16",
+          "front": "An ECG has a short PR interval and a slurred initial QRS upstroke (delta wave). Which structure explains this pre-excitation?",
+          "back": "An accessory bundle of Kent. An accessory atrioventricular pathway bypasses normal AV-nodal delay and produces ventricular pre-excitation in WPW.",
+          "tags": [
+            "WPW syndrome"
+          ],
+          "source_url": "https://drive.google.com/file/d/1i6a0dvP5Hwncst-9gdl1Vot89OYithH2/view"
+        },
+        {
+          "id": "1i6a0dvP5Hwncst-9gdl1Vot89OYithH2-c17",
+          "front": "A patient with raised serum potassium has narrow, tall, peaked T waves. Which electrolyte disturbance fits this early ECG finding?",
+          "back": "Hyperkalemia. Tall peaked T waves are an early hyperkalemic change described in the lecture.",
+          "tags": [
+            "Potassium disturbances"
+          ],
+          "source_url": "https://drive.google.com/file/d/1i6a0dvP5Hwncst-9gdl1Vot89OYithH2/view"
+        },
+        {
+          "id": "1i6a0dvP5Hwncst-9gdl1Vot89OYithH2-c18",
+          "front": "With severe hyperkalemia, which additional ECG change can develop?",
+          "back": "QRS widening that may merge with T waves into a sine-wave pattern. Severe hyperkalemia slows ventricular conduction; marked QRS widening may merge with repolarization into a sine-wave pattern.",
+          "tags": [
+            "Severe hyperkalemia"
+          ],
+          "source_url": "https://drive.google.com/file/d/1i6a0dvP5Hwncst-9gdl1Vot89OYithH2/view"
+        },
+        {
+          "id": "1i6a0dvP5Hwncst-9gdl1Vot89OYithH2-c19",
+          "front": "A patient has flattened T waves and prominent U waves after a fall in serum potassium. Which disturbance is most likely?",
+          "back": "Hypokalemia. The lecture associates hypokalemia with flattened T waves and prominent U waves.",
+          "tags": [
+            "Hypokalemia"
+          ],
+          "source_url": "https://drive.google.com/file/d/1i6a0dvP5Hwncst-9gdl1Vot89OYithH2/view"
+        },
+        {
+          "id": "1i6a0dvP5Hwncst-9gdl1Vot89OYithH2-c20",
+          "front": "How does hypercalcemia usually affect the QT interval in the lecture?",
+          "back": "It shortens it. Hypercalcemia shortens the QT interval, mainly through shortening of the ST segment.",
+          "tags": [
+            "Calcium disturbances"
+          ],
+          "source_url": "https://drive.google.com/file/d/1i6a0dvP5Hwncst-9gdl1Vot89OYithH2/view"
+        },
+        {
+          "id": "1i6a0dvP5Hwncst-9gdl1Vot89OYithH2-c21",
+          "front": "An ECG shows QT prolongation in a patient with low serum calcium. Which explanation fits the lecture?",
+          "back": "Hypocalcemia lengthens ventricular repolarization, especially the ST segment. Hypocalcemia is associated with a longer ST segment and QT interval.",
+          "tags": [
+            "Hypocalcemia"
+          ],
+          "source_url": "https://drive.google.com/file/d/1i6a0dvP5Hwncst-9gdl1Vot89OYithH2/view"
+        }
+      ],
+      "eligibility_status": "allowed"
+    },
+    {
+      "subject": "Anatomy & Histology",
+      "title": "Normal Development of Heart & it’s Great Vessels",
+      "source_file_id": "1eMomfPTXyjMgtqvpaiCPZGp1jEr7vXx9",
+      "source_url": "https://drive.google.com/file/d/1eMomfPTXyjMgtqvpaiCPZGp1jEr7vXx9/view",
+      "source_modified_time": "2026-10-02",
+      "archived": false,
+      "id": "drive_1eMomfPTXyjMgtqvpaiCPZGp1jEr7vXx9",
+      "cards": [
+        {
+          "id": "1eMomfPTXyjMgtqvpaiCPZGp1jEr7vXx9-c01",
+          "front": "The primary heart field arises mainly from which embryonic tissue?",
+          "back": "Splanchnic lateral plate mesoderm. The lecture locates the cardiogenic field in splanchnic lateral plate mesoderm during the third week.",
+          "tags": [
+            "Cardiogenic field"
+          ],
+          "source_url": "https://drive.google.com/file/d/1eMomfPTXyjMgtqvpaiCPZGp1jEr7vXx9/view"
+        },
+        {
+          "id": "1eMomfPTXyjMgtqvpaiCPZGp1jEr7vXx9-c02",
+          "front": "Which embryonic folding movement brings the two endocardial tubes together to form a single heart tube?",
+          "back": "Lateral folding. Lateral folding brings the paired cardiac tubes together so that they fuse, except at their caudal ends.",
+          "tags": [
+            "Heart-tube formation"
+          ],
+          "source_url": "https://drive.google.com/file/d/1eMomfPTXyjMgtqvpaiCPZGp1jEr7vXx9/view"
+        },
+        {
+          "id": "1eMomfPTXyjMgtqvpaiCPZGp1jEr7vXx9-c03",
+          "front": "Disappearance of the dorsal mesocardium creates which space?",
+          "back": "Transverse pericardial sinus. The dorsal mesocardium disappears, leaving the transverse pericardial sinus between the arterial and venous ends of the heart.",
+          "tags": [
+            "Pericardial sinus"
+          ],
+          "source_url": "https://drive.google.com/file/d/1eMomfPTXyjMgtqvpaiCPZGp1jEr7vXx9/view"
+        },
+        {
+          "id": "1eMomfPTXyjMgtqvpaiCPZGp1jEr7vXx9-c04",
+          "front": "Which layer of the early heart tube forms its endothelial lining?",
+          "back": "Endocardium. The inner endothelial layer forms endocardium; surrounding myoblasts form myocardium with cardiac jelly between them.",
+          "tags": [
+            "Heart-tube layers"
+          ],
+          "source_url": "https://drive.google.com/file/d/1eMomfPTXyjMgtqvpaiCPZGp1jEr7vXx9/view"
+        },
+        {
+          "id": "1eMomfPTXyjMgtqvpaiCPZGp1jEr7vXx9-c05",
+          "front": "During normal cardiac looping, in which direction does the cephalic part of the tube bend?",
+          "back": "Ventrally, caudally, and to the right. The lecture describes rightward bending of the cephalic part during looping, approximately days 23–28.",
+          "tags": [
+            "Cardiac looping"
+          ],
+          "source_url": "https://drive.google.com/file/d/1eMomfPTXyjMgtqvpaiCPZGp1jEr7vXx9/view"
+        },
+        {
+          "id": "1eMomfPTXyjMgtqvpaiCPZGp1jEr7vXx9-c06",
+          "front": "An embryo is examined during days 23–28. Which major event normally rearranges the straight heart tube into its chamber configuration?",
+          "back": "Cardiac looping. Cardiac looping occurs during this period; fetal-shunt closures occur after birth.",
+          "tags": [
+            "Developmental timing"
+          ],
+          "source_url": "https://drive.google.com/file/d/1eMomfPTXyjMgtqvpaiCPZGp1jEr7vXx9/view"
+        },
+        {
+          "id": "1eMomfPTXyjMgtqvpaiCPZGp1jEr7vXx9-c07",
+          "front": "The primitive ventricle mainly forms which adult region?",
+          "back": "Trabeculated left ventricle. The primitive ventricle becomes the rough or trabeculated part of the left ventricle.",
+          "tags": [
+            "Chamber derivatives"
+          ],
+          "source_url": "https://drive.google.com/file/d/1eMomfPTXyjMgtqvpaiCPZGp1jEr7vXx9/view"
+        },
+        {
+          "id": "1eMomfPTXyjMgtqvpaiCPZGp1jEr7vXx9-c08",
+          "front": "The proximal bulbus cordis mainly forms which region?",
+          "back": "Trabeculated right ventricle. The proximal bulbus cordis gives rise to the trabeculated right ventricle.",
+          "tags": [
+            "Bulbus cordis"
+          ],
+          "source_url": "https://drive.google.com/file/d/1eMomfPTXyjMgtqvpaiCPZGp1jEr7vXx9/view"
+        },
+        {
+          "id": "1eMomfPTXyjMgtqvpaiCPZGp1jEr7vXx9-c09",
+          "front": "The conus cordis contributes to which adult structures?",
+          "back": "Smooth outflow regions of both ventricles. The conus forms the aortic vestibule of the left ventricle and the infundibulum of the right ventricle.",
+          "tags": [
+            "Outflow derivatives"
+          ],
+          "source_url": "https://drive.google.com/file/d/1eMomfPTXyjMgtqvpaiCPZGp1jEr7vXx9/view"
+        },
+        {
+          "id": "1eMomfPTXyjMgtqvpaiCPZGp1jEr7vXx9-c10",
+          "front": "The truncus arteriosus contributes mainly to which structures?",
+          "back": "Proximal aorta and pulmonary trunk. The distal bulbus (truncus arteriosus) forms the proximal great arterial outlets.",
+          "tags": [
+            "Truncus arteriosus"
+          ],
+          "source_url": "https://drive.google.com/file/d/1eMomfPTXyjMgtqvpaiCPZGp1jEr7vXx9/view"
+        },
+        {
+          "id": "1eMomfPTXyjMgtqvpaiCPZGp1jEr7vXx9-c11",
+          "front": "A developmental model traces the smooth-walled sinus venarum of the right atrium. Which embryonic structure provides this region?",
+          "back": "Right horn and body of the sinus venosus. Incorporation of the right sinus horn and body forms the smooth right atrial region.",
+          "tags": [
+            "Sinus venosus"
+          ],
+          "source_url": "https://drive.google.com/file/d/1eMomfPTXyjMgtqvpaiCPZGp1jEr7vXx9/view"
+        },
+        {
+          "id": "1eMomfPTXyjMgtqvpaiCPZGp1jEr7vXx9-c12",
+          "front": "The left horn of the sinus venosus becomes which adult structure?",
+          "back": "Coronary sinus. The left sinus horn forms the coronary sinus and is associated with the oblique vein of the left atrium.",
+          "tags": [
+            "Venous derivatives"
+          ],
+          "source_url": "https://drive.google.com/file/d/1eMomfPTXyjMgtqvpaiCPZGp1jEr7vXx9/view"
+        },
+        {
+          "id": "1eMomfPTXyjMgtqvpaiCPZGp1jEr7vXx9-c13",
+          "front": "The smooth part of the left atrium develops mainly through incorporation of which structure?",
+          "back": "Pulmonary vein and its branches. Absorption of pulmonary venous tissue into the atrial wall creates the smooth left atrial region.",
+          "tags": [
+            "Left atrial development"
+          ],
+          "source_url": "https://drive.google.com/file/d/1eMomfPTXyjMgtqvpaiCPZGp1jEr7vXx9/view"
+        },
+        {
+          "id": "1eMomfPTXyjMgtqvpaiCPZGp1jEr7vXx9-c14",
+          "front": "As septum primum descends toward the endocardial cushions, what is the initial opening beneath its free edge called?",
+          "back": "Ostium primum. Ostium primum initially remains between septum primum and the endocardial cushions.",
+          "tags": [
+            "Atrial septation"
+          ],
+          "source_url": "https://drive.google.com/file/d/1eMomfPTXyjMgtqvpaiCPZGp1jEr7vXx9/view"
+        },
+        {
+          "id": "1eMomfPTXyjMgtqvpaiCPZGp1jEr7vXx9-c15",
+          "front": "Before ostium primum closes completely, perforations in the upper septum primum coalesce to form what?",
+          "back": "Ostium secundum. Formation of ostium secundum maintains interatrial passage as the lower ostium primum closes.",
+          "tags": [
+            "Atrial septation"
+          ],
+          "source_url": "https://drive.google.com/file/d/1eMomfPTXyjMgtqvpaiCPZGp1jEr7vXx9/view"
+        },
+        {
+          "id": "1eMomfPTXyjMgtqvpaiCPZGp1jEr7vXx9-c16",
+          "front": "Which structure forms the flap valve of the fetal foramen ovale?",
+          "back": "Septum primum. Septum primum acts as the valve of the foramen ovale and later forms the floor of the fossa ovalis.",
+          "tags": [
+            "Foramen ovale"
+          ],
+          "source_url": "https://drive.google.com/file/d/1eMomfPTXyjMgtqvpaiCPZGp1jEr7vXx9/view"
+        },
+        {
+          "id": "1eMomfPTXyjMgtqvpaiCPZGp1jEr7vXx9-c17",
+          "front": "After a newborn begins breathing, left atrial pressure rises above right atrial pressure. Which immediate event normally follows?",
+          "back": "Septum primum is pressed against septum secundum. The pressure change apposes the two atrial septa, functionally closing the foramen ovale.",
+          "tags": [
+            "Postnatal atrial closure"
+          ],
+          "source_url": "https://drive.google.com/file/d/1eMomfPTXyjMgtqvpaiCPZGp1jEr7vXx9/view"
+        },
+        {
+          "id": "1eMomfPTXyjMgtqvpaiCPZGp1jEr7vXx9-c18",
+          "front": "Fusion of the superior and inferior endocardial cushions divides which structure?",
+          "back": "The common AV canal into right and left AV orifices. AV endocardial cushion fusion divides the common atrioventricular canal.",
+          "tags": [
+            "AV canal"
+          ],
+          "source_url": "https://drive.google.com/file/d/1eMomfPTXyjMgtqvpaiCPZGp1jEr7vXx9/view"
+        },
+        {
+          "id": "1eMomfPTXyjMgtqvpaiCPZGp1jEr7vXx9-c19",
+          "front": "The membranous interventricular septum forms through fusion involving the muscular septum, conus septum, and which additional structure?",
+          "back": "Inferior endocardial cushion. The lecture attributes the membranous septum to union of the muscular septum, conus septum, and inferior AV cushion.",
+          "tags": [
+            "Ventricular septation"
+          ],
+          "source_url": "https://drive.google.com/file/d/1eMomfPTXyjMgtqvpaiCPZGp1jEr7vXx9/view"
+        },
+        {
+          "id": "1eMomfPTXyjMgtqvpaiCPZGp1jEr7vXx9-c20",
+          "front": "Neural-crest-derived conotruncal swellings fuse in a spiral course. What is the normal result?",
+          "back": "Separation of the aortic and pulmonary outflow channels. The spiral aorticopulmonary septum separates the great arterial outlets.",
+          "tags": [
+            "Conotruncal septation"
+          ],
+          "source_url": "https://drive.google.com/file/d/1eMomfPTXyjMgtqvpaiCPZGp1jEr7vXx9/view"
+        }
+      ],
+      "eligibility_status": "allowed"
+    },
+    {
+      "subject": "Anatomy & Histology",
+      "title": "Congenital anomalies of the heart & it’s great Vessels",
+      "source_file_id": "1kzyEG0I68hx0vfkMf44Uhj1XUZHhftXK",
+      "source_url": "https://drive.google.com/file/d/1kzyEG0I68hx0vfkMf44Uhj1XUZHhftXK/view",
+      "source_modified_time": "2026-10-02",
+      "archived": false,
+      "id": "drive_1kzyEG0I68hx0vfkMf44Uhj1XUZHhftXK",
+      "cards": [
+        {
+          "id": "1kzyEG0I68hx0vfkMf44Uhj1XUZHhftXK-c01",
+          "front": "In the lecture case, Ahmed is 2 years old, becomes cyanotic with feeding or crying, and has a boot-shaped heart. Echocardiography shows VSD, overriding aorta, pulmonary stenosis, and RV hypertrophy. What is the diagnosis?",
+          "back": "Tetralogy of Fallot. These four abnormalities constitute the tetralogy described in the lecture case.",
+          "tags": [
+            "Tetralogy of Fallot"
+          ],
+          "source_url": "https://drive.google.com/file/d/1kzyEG0I68hx0vfkMf44Uhj1XUZHhftXK/view"
+        },
+        {
+          "id": "1kzyEG0I68hx0vfkMf44Uhj1XUZHhftXK-c02",
+          "front": "Which developmental change produces the unequal conotruncal division underlying tetralogy of Fallot?",
+          "back": "Anterior displacement of the conotruncal septum. Anterior displacement narrows the pulmonary outlet and produces the characteristic unequal division.",
+          "tags": [
+            "TOF embryology"
+          ],
+          "source_url": "https://drive.google.com/file/d/1kzyEG0I68hx0vfkMf44Uhj1XUZHhftXK/view"
+        },
+        {
+          "id": "1kzyEG0I68hx0vfkMf44Uhj1XUZHhftXK-c03",
+          "front": "Which finding belongs to the classic tetralogy of Fallot?",
+          "back": "Overriding aorta. The four components are pulmonary stenosis, VSD, overriding aorta, and right ventricular hypertrophy.",
+          "tags": [
+            "TOF components"
+          ],
+          "source_url": "https://drive.google.com/file/d/1kzyEG0I68hx0vfkMf44Uhj1XUZHhftXK/view"
+        },
+        {
+          "id": "1kzyEG0I68hx0vfkMf44Uhj1XUZHhftXK-c04",
+          "front": "A heart tube loops to the left instead of the normal right. Which positional anomaly can result?",
+          "back": "Dextrocardia. The lecture links leftward cardiac looping to dextrocardia.",
+          "tags": [
+            "Dextrocardia"
+          ],
+          "source_url": "https://drive.google.com/file/d/1kzyEG0I68hx0vfkMf44Uhj1XUZHhftXK/view"
+        },
+        {
+          "id": "1kzyEG0I68hx0vfkMf44Uhj1XUZHhftXK-c05",
+          "front": "Failure of the AV endocardial cushions to fuse produces which defect?",
+          "back": "Persistent common AV canal. Failure of cushion fusion leaves a common AV canal, with atrial and ventricular septal abnormalities.",
+          "tags": [
+            "AV cushion defects"
+          ],
+          "source_url": "https://drive.google.com/file/d/1kzyEG0I68hx0vfkMf44Uhj1XUZHhftXK/view"
+        },
+        {
+          "id": "1kzyEG0I68hx0vfkMf44Uhj1XUZHhftXK-c06",
+          "front": "An infant has an ostium secundum atrial septal defect. Which developmental mechanism is described in the lecture?",
+          "back": "Excessive resorption of septum primum or inadequate septum secundum development. These abnormalities leave an excessively large opening in the secundum region of the atrial septum.",
+          "tags": [
+            "Secundum ASD"
+          ],
+          "source_url": "https://drive.google.com/file/d/1kzyEG0I68hx0vfkMf44Uhj1XUZHhftXK/view"
+        },
+        {
+          "id": "1kzyEG0I68hx0vfkMf44Uhj1XUZHhftXK-c07",
+          "front": "An ostium primum atrial septal defect is associated with failure involving which developmental structures?",
+          "back": "Septum primum and AV endocardial cushions. The primum defect reflects failure of the lower atrial septum to unite appropriately with the endocardial cushions.",
+          "tags": [
+            "Primum ASD"
+          ],
+          "source_url": "https://drive.google.com/file/d/1kzyEG0I68hx0vfkMf44Uhj1XUZHhftXK/view"
+        },
+        {
+          "id": "1kzyEG0I68hx0vfkMf44Uhj1XUZHhftXK-c08",
+          "front": "Complete absence of atrial septation produces which anomaly?",
+          "back": "Common atrium. Failure to form an atrial septum leaves a common atrium.",
+          "tags": [
+            "Common atrium"
+          ],
+          "source_url": "https://drive.google.com/file/d/1kzyEG0I68hx0vfkMf44Uhj1XUZHhftXK/view"
+        },
+        {
+          "id": "1kzyEG0I68hx0vfkMf44Uhj1XUZHhftXK-c09",
+          "front": "Premature closure of the fetal foramen ovale may cause which chamber changes described in the lecture?",
+          "back": "Enlargement of the right heart with underdevelopment of the left heart. The lecture describes right atrial and ventricular hypertrophy and an undersized left heart after premature closure.",
+          "tags": [
+            "Fetal shunt defects"
+          ],
+          "source_url": "https://drive.google.com/file/d/1kzyEG0I68hx0vfkMf44Uhj1XUZHhftXK/view"
+        },
+        {
+          "id": "1kzyEG0I68hx0vfkMf44Uhj1XUZHhftXK-c10",
+          "front": "Most ventricular septal defects involve which part of the interventricular septum?",
+          "back": "Membranous part. The lecture identifies the membranous region as the usual site, although muscular involvement may also occur.",
+          "tags": [
+            "VSD"
+          ],
+          "source_url": "https://drive.google.com/file/d/1kzyEG0I68hx0vfkMf44Uhj1XUZHhftXK/view"
+        },
+        {
+          "id": "1kzyEG0I68hx0vfkMf44Uhj1XUZHhftXK-c11",
+          "front": "A newborn has a single arterial trunk overriding both ventricles and an associated VSD. Which embryologic failure best explains this?",
+          "back": "Failure of conotruncal ridges to fuse. Failure of conotruncal septation leaves persistent truncus arteriosus with an associated ventricular septal defect.",
+          "tags": [
+            "Persistent truncus"
+          ],
+          "source_url": "https://drive.google.com/file/d/1kzyEG0I68hx0vfkMf44Uhj1XUZHhftXK/view"
+        },
+        {
+          "id": "1kzyEG0I68hx0vfkMf44Uhj1XUZHhftXK-c12",
+          "front": "A newborn has an aorta arising from the right ventricle and a pulmonary trunk arising from the left ventricle. Which developmental error is responsible?",
+          "back": "Failure of the conotruncal septum to follow a spiral course. A straight rather than spiral conotruncal septum produces transposition of the great vessels.",
+          "tags": [
+            "Transposition"
+          ],
+          "source_url": "https://drive.google.com/file/d/1kzyEG0I68hx0vfkMf44Uhj1XUZHhftXK/view"
+        },
+        {
+          "id": "1kzyEG0I68hx0vfkMf44Uhj1XUZHhftXK-c13",
+          "front": "Which congenital lesion follows complete fusion of the aortic semilunar valve cusps?",
+          "back": "Aortic valvular atresia. Partial fusion may cause stenosis; complete fusion produces aortic valvular atresia.",
+          "tags": [
+            "Semilunar valve defects"
+          ],
+          "source_url": "https://drive.google.com/file/d/1kzyEG0I68hx0vfkMf44Uhj1XUZHhftXK/view"
+        },
+        {
+          "id": "1kzyEG0I68hx0vfkMf44Uhj1XUZHhftXK-c14",
+          "front": "Before birth, which vessel carries oxygenated placental blood toward the fetus?",
+          "back": "Umbilical vein. Oxygenated placental blood enters through the umbilical vein; the two umbilical arteries return blood to the placenta.",
+          "tags": [
+            "Fetal circulation"
+          ],
+          "source_url": "https://drive.google.com/file/d/1kzyEG0I68hx0vfkMf44Uhj1XUZHhftXK/view"
+        },
+        {
+          "id": "1kzyEG0I68hx0vfkMf44Uhj1XUZHhftXK-c15",
+          "front": "Which fetal channel allows much umbilical venous blood to bypass the liver and reach the IVC?",
+          "back": "Ductus venosus. The ductus venosus carries much placental venous blood past the hepatic circulation into the inferior vena cava.",
+          "tags": [
+            "Fetal hepatic bypass"
+          ],
+          "source_url": "https://drive.google.com/file/d/1kzyEG0I68hx0vfkMf44Uhj1XUZHhftXK/view"
+        },
+        {
+          "id": "1kzyEG0I68hx0vfkMf44Uhj1XUZHhftXK-c16",
+          "front": "High fetal pulmonary vascular resistance directs much pulmonary-trunk blood into the descending aorta through which channel?",
+          "back": "Ductus arteriosus. The fetal ductus arteriosus bypasses the high-resistance pulmonary circulation.",
+          "tags": [
+            "Fetal pulmonary bypass"
+          ],
+          "source_url": "https://drive.google.com/file/d/1kzyEG0I68hx0vfkMf44Uhj1XUZHhftXK/view"
+        },
+        {
+          "id": "1kzyEG0I68hx0vfkMf44Uhj1XUZHhftXK-c17",
+          "front": "The closed umbilical vein normally becomes which structure?",
+          "back": "Ligamentum teres of the liver. The lecture identifies ligamentum teres as the postnatal remnant of the umbilical vein.",
+          "tags": [
+            "Postnatal remnants"
+          ],
+          "source_url": "https://drive.google.com/file/d/1kzyEG0I68hx0vfkMf44Uhj1XUZHhftXK/view"
+        },
+        {
+          "id": "1kzyEG0I68hx0vfkMf44Uhj1XUZHhftXK-c18",
+          "front": "The obliterated ductus venosus normally becomes which structure?",
+          "back": "Ligamentum venosum. Ligamentum venosum is the adult remnant of the ductus venosus.",
+          "tags": [
+            "Postnatal remnants"
+          ],
+          "source_url": "https://drive.google.com/file/d/1kzyEG0I68hx0vfkMf44Uhj1XUZHhftXK/view"
+        },
+        {
+          "id": "1kzyEG0I68hx0vfkMf44Uhj1XUZHhftXK-c19",
+          "front": "Which adult ligament is the remnant of the ductus arteriosus?",
+          "back": "Ligamentum arteriosum. Postnatal contraction and closure of the ductus arteriosus produce ligamentum arteriosum.",
+          "tags": [
+            "Postnatal remnants"
+          ],
+          "source_url": "https://drive.google.com/file/d/1kzyEG0I68hx0vfkMf44Uhj1XUZHhftXK/view"
+        },
+        {
+          "id": "1kzyEG0I68hx0vfkMf44Uhj1XUZHhftXK-c20",
+          "front": "Which parts of the umbilical arteries remain patent after birth?",
+          "back": "Proximal parts forming the superior vesical arteries. The distal portions become medial umbilical ligaments; the proximal portions persist as superior vesical arteries.",
+          "tags": [
+            "Umbilical artery remnants"
+          ],
+          "source_url": "https://drive.google.com/file/d/1kzyEG0I68hx0vfkMf44Uhj1XUZHhftXK/view"
+        }
+      ],
+      "eligibility_status": "allowed"
+    },
+    {
+      "subject": "Pharmacology",
+      "title": "Treatment of hematological malignancy",
+      "source_file_id": "1Aj5OXNtQh2z591zY5ZtiwNJItBL4R9Yl",
+      "source_url": "https://drive.google.com/file/d/1Aj5OXNtQh2z591zY5ZtiwNJItBL4R9Yl/view",
+      "source_modified_time": "2026-10-01",
+      "archived": false,
+      "id": "drive_1Aj5OXNtQh2z591zY5ZtiwNJItBL4R9Yl",
+      "cards": [
+        {
+          "id": "1Aj5OXNtQh2z591zY5ZtiwNJItBL4R9Yl-c01",
+          "front": "Which drug in the leukemia/lymphoma treatment lecture disrupts microtubules and arrests cells in metaphase?",
+          "back": "Vincristine. Vincristine is a vinca alkaloid that inhibits microtubule function and mitosis.",
+          "tags": [
+            "Drug mechanisms"
+          ],
+          "source_url": "https://drive.google.com/file/d/1Aj5OXNtQh2z591zY5ZtiwNJItBL4R9Yl/view"
+        },
+        {
+          "id": "1Aj5OXNtQh2z591zY5ZtiwNJItBL4R9Yl-c02",
+          "front": "Which anticancer drug forms DNA cross-links after metabolic activation?",
+          "back": "Cyclophosphamide. The presentation describes cyclophosphamide as an alkylating agent that cross-links DNA.",
+          "tags": [
+            "Drug mechanisms"
+          ],
+          "source_url": "https://drive.google.com/file/d/1Aj5OXNtQh2z591zY5ZtiwNJItBL4R9Yl/view"
+        },
+        {
+          "id": "1Aj5OXNtQh2z591zY5ZtiwNJItBL4R9Yl-c03",
+          "front": "Doxorubicin exerts anticancer effects through topoisomerase II inhibition and which additional mechanism?",
+          "back": "Free-radical generation. The lecture describes anthracycline action through topoisomerase II inhibition and free radicals.",
+          "tags": [
+            "Anthracyclines"
+          ],
+          "source_url": "https://drive.google.com/file/d/1Aj5OXNtQh2z591zY5ZtiwNJItBL4R9Yl/view"
+        },
+        {
+          "id": "1Aj5OXNtQh2z591zY5ZtiwNJItBL4R9Yl-c04",
+          "front": "A patient has chronic myeloid leukemia driven by BCR–ABL. Which targeted drug mechanism is appropriate in the lecture?",
+          "back": "Tyrosine kinase inhibition with imatinib. Imatinib targets BCR–ABL tyrosine kinase in CML.",
+          "tags": [
+            "CML"
+          ],
+          "source_url": "https://drive.google.com/file/d/1Aj5OXNtQh2z591zY5ZtiwNJItBL4R9Yl/view"
+        },
+        {
+          "id": "1Aj5OXNtQh2z591zY5ZtiwNJItBL4R9Yl-c05",
+          "front": "Rituximab targets which antigen on B cells?",
+          "back": "CD20. Rituximab is an anti-CD20 monoclonal antibody used in B-cell malignancies.",
+          "tags": [
+            "Anti-CD20 therapy"
+          ],
+          "source_url": "https://drive.google.com/file/d/1Aj5OXNtQh2z591zY5ZtiwNJItBL4R9Yl/view"
+        },
+        {
+          "id": "1Aj5OXNtQh2z591zY5ZtiwNJItBL4R9Yl-c06",
+          "front": "A patient with diffuse large B-cell lymphoma receives R-CHOP. Which drug does the R designate?",
+          "back": "Rituximab. The lecture lists rituximab plus CHOP for diffuse large B-cell lymphoma.",
+          "tags": [
+            "Lymphoma regimens"
+          ],
+          "source_url": "https://drive.google.com/file/d/1Aj5OXNtQh2z591zY5ZtiwNJItBL4R9Yl/view"
+        },
+        {
+          "id": "1Aj5OXNtQh2z591zY5ZtiwNJItBL4R9Yl-c07",
+          "front": "Which regimen is listed for Hodgkin lymphoma?",
+          "back": "ABVD. ABVD contains doxorubicin, bleomycin, vinblastine, and dacarbazine.",
+          "tags": [
+            "Hodgkin lymphoma"
+          ],
+          "source_url": "https://drive.google.com/file/d/1Aj5OXNtQh2z591zY5ZtiwNJItBL4R9Yl/view"
+        },
+        {
+          "id": "1Aj5OXNtQh2z591zY5ZtiwNJItBL4R9Yl-c08",
+          "front": "A patient begins AML induction using the lecture's 7+3 regimen. Which drugs are used?",
+          "back": "Cytarabine plus an anthracycline. The lecture lists seven days of cytarabine with three days of an anthracycline for AML induction.",
+          "tags": [
+            "AML induction"
+          ],
+          "source_url": "https://drive.google.com/file/d/1Aj5OXNtQh2z591zY5ZtiwNJItBL4R9Yl/view"
+        },
+        {
+          "id": "1Aj5OXNtQh2z591zY5ZtiwNJItBL4R9Yl-c09",
+          "front": "Acute promyelocytic leukemia is treated with differentiation therapy involving which agent?",
+          "back": "All-trans retinoic acid (ATRA). The presentation lists ATRA and arsenic trioxide for acute promyelocytic leukemia.",
+          "tags": [
+            "APL"
+          ],
+          "source_url": "https://drive.google.com/file/d/1Aj5OXNtQh2z591zY5ZtiwNJItBL4R9Yl/view"
+        },
+        {
+          "id": "1Aj5OXNtQh2z591zY5ZtiwNJItBL4R9Yl-c10",
+          "front": "Which pair is listed for maintenance therapy in ALL?",
+          "back": "6-Mercaptopurine and methotrexate. ALL treatment includes a maintenance phase with 6-mercaptopurine and methotrexate in the lecture.",
+          "tags": [
+            "ALL maintenance"
+          ],
+          "source_url": "https://drive.google.com/file/d/1Aj5OXNtQh2z591zY5ZtiwNJItBL4R9Yl/view"
+        },
+        {
+          "id": "1Aj5OXNtQh2z591zY5ZtiwNJItBL4R9Yl-c11",
+          "front": "Which route is used for CNS-directed methotrexate therapy in the ALL treatment lecture?",
+          "back": "Intrathecal. The lecture describes intrathecal therapy for CNS prophylaxis or treatment in ALL.",
+          "tags": [
+            "CNS prophylaxis"
+          ],
+          "source_url": "https://drive.google.com/file/d/1Aj5OXNtQh2z591zY5ZtiwNJItBL4R9Yl/view"
+        },
+        {
+          "id": "1Aj5OXNtQh2z591zY5ZtiwNJItBL4R9Yl-c12",
+          "front": "An ALL patient has a Philadelphia chromosome/BCR–ABL abnormality. Which additional treatment is listed?",
+          "back": "A tyrosine kinase inhibitor such as imatinib. BCR–ABL-positive ALL can receive targeted tyrosine kinase inhibition alongside its chemotherapy plan.",
+          "tags": [
+            "Ph-positive ALL"
+          ],
+          "source_url": "https://drive.google.com/file/d/1Aj5OXNtQh2z591zY5ZtiwNJItBL4R9Yl/view"
+        },
+        {
+          "id": "1Aj5OXNtQh2z591zY5ZtiwNJItBL4R9Yl-c13",
+          "front": "Which agent may be included with vincristine, a corticosteroid, and an anthracycline during ALL induction?",
+          "back": "Asparaginase. The lecture lists an asparaginase-containing ALL induction combination.",
+          "tags": [
+            "ALL induction"
+          ],
+          "source_url": "https://drive.google.com/file/d/1Aj5OXNtQh2z591zY5ZtiwNJItBL4R9Yl/view"
+        },
+        {
+          "id": "1Aj5OXNtQh2z591zY5ZtiwNJItBL4R9Yl-c14",
+          "front": "Which drug belongs to CHOP alongside cyclophosphamide, doxorubicin, and prednisolone?",
+          "back": "Vincristine. CHOP combines cyclophosphamide, doxorubicin, vincristine, and a corticosteroid.",
+          "tags": [
+            "CHOP"
+          ],
+          "source_url": "https://drive.google.com/file/d/1Aj5OXNtQh2z591zY5ZtiwNJItBL4R9Yl/view"
+        },
+        {
+          "id": "1Aj5OXNtQh2z591zY5ZtiwNJItBL4R9Yl-c15",
+          "front": "A lymphoma patient develops cumulative anthracycline toxicity affecting the heart. Which drug in the regimen is implicated?",
+          "back": "Doxorubicin. Cardiotoxicity is a characteristic anthracycline adverse effect included in the treatment presentation.",
+          "tags": [
+            "Drug toxicity"
+          ],
+          "source_url": "https://drive.google.com/file/d/1Aj5OXNtQh2z591zY5ZtiwNJItBL4R9Yl/view"
+        },
+        {
+          "id": "1Aj5OXNtQh2z591zY5ZtiwNJItBL4R9Yl-c16",
+          "front": "A patient receiving vincristine develops peripheral neuropathy. Which property of the drug helps explain this toxicity?",
+          "back": "Interference with microtubule function. The lecture lists neuropathy with vincristine, whose microtubule effects also disrupt neuronal function.",
+          "tags": [
+            "Drug toxicity"
+          ],
+          "source_url": "https://drive.google.com/file/d/1Aj5OXNtQh2z591zY5ZtiwNJItBL4R9Yl/view"
+        }
+      ],
+      "eligibility_status": "allowed"
     }
   ],
   "bootstrap_note": "Seeded from current official lecture files; hourly Drive sync will add/update additional decks.",

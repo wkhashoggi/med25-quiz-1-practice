@@ -1,0 +1,412 @@
+{
+  "audited_at": "2026-10-04",
+  "changed_mappings": [
+    {
+      "question_id": "ibls-previous-years-p6-q18-11",
+      "from_lecture_id": "anatomy-histology__histology-of-the-lymphatic-system",
+      "to_lecture_id": "anatomy-histology__haematopoiesis"
+    },
+    {
+      "question_id": "ibls-previous-years-p9-q32-24",
+      "from_lecture_id": "microbiology__hypersensitivity-reactions-2",
+      "to_lecture_id": "physiology__white-bood-cells-wbcs"
+    },
+    {
+      "question_id": "ibls-previous-years-p11-q38-29",
+      "from_lecture_id": "microbiology__hypersensitivity-reactions-2",
+      "to_lecture_id": "microbiology__hypersensitivity-reactions-1"
+    },
+    {
+      "question_id": "ibls-previous-years-p18-q22-57",
+      "from_lecture_id": "microbiology__hypersensitivity-reactions-2",
+      "to_lecture_id": "microbiology__hypersensitivity-reactions-1"
+    },
+    {
+      "question_id": "ibls-previous-years-p24-q46-81",
+      "from_lecture_id": "microbiology__hypersensitivity-reactions-2",
+      "to_lecture_id": "microbiology__hypersensitivity-reactions-1"
+    },
+    {
+      "question_id": "ibls-previous-years-p25-q2-85",
+      "from_lecture_id": "microbiology__malaria-babesiosis",
+      "to_lecture_id": "microbiology__malaria"
+    },
+    {
+      "question_id": "ibls-previous-years-p27-q11-94",
+      "from_lecture_id": "microbiology__malaria-babesiosis",
+      "to_lecture_id": "microbiology__malaria"
+    },
+    {
+      "question_id": "ibls-previous-years-p27-q13-96",
+      "from_lecture_id": "microbiology__malaria-babesiosis",
+      "to_lecture_id": "pharmacology__treatment-of-malaria"
+    },
+    {
+      "question_id": "ibls-previous-years-p28-q17-100",
+      "from_lecture_id": "microbiology__malaria-babesiosis",
+      "to_lecture_id": "pharmacology__treatment-of-malaria"
+    },
+    {
+      "question_id": "ibls-previous-years-p32-q11-113",
+      "from_lecture_id": "anatomy-histology__histology-of-the-lymphatic-system",
+      "to_lecture_id": "anatomy-histology__haematopoiesis"
+    },
+    {
+      "question_id": "ibls-previous-years-p34-q7-122",
+      "from_lecture_id": "anatomy-histology__histology-of-the-lymphatic-system",
+      "to_lecture_id": "physiology__physiology-of-red-blood-cells"
+    },
+    {
+      "question_id": "ibls-previous-years-p35-q11-125",
+      "from_lecture_id": "pharmacology__pharmacotherapy-of-hypersensitivity",
+      "to_lecture_id": "physiology__white-bood-cells-wbcs"
+    },
+    {
+      "question_id": "ibls-previous-years-p40-q24-145",
+      "from_lecture_id": "physiology__white-bood-cells-wbcs",
+      "to_lecture_id": "anatomy-histology__haematopoiesis"
+    },
+    {
+      "question_id": "ibls-previous-years-p42-q8-152",
+      "from_lecture_id": "microbiology__malaria-babesiosis",
+      "to_lecture_id": "pharmacology__treatment-of-malaria"
+    },
+    {
+      "question_id": "ibls-previous-years-p43-q6-157",
+      "from_lecture_id": "pharmacology__immunosuppressant-immunomodulators",
+      "to_lecture_id": "physiology__white-bood-cells-wbcs"
+    },
+    {
+      "question_id": "ibls-previous-years-p44-q21-162",
+      "from_lecture_id": "microbiology__hypersensitivity-reactions-1",
+      "to_lecture_id": "physiology__white-bood-cells-wbcs"
+    },
+    {
+      "question_id": "ibls-previous-years-p49-q17-179",
+      "from_lecture_id": "anatomy-histology__histology-of-the-lymphatic-system",
+      "to_lecture_id": "physiology__physiology-of-red-blood-cells"
+    },
+    {
+      "question_id": "ibls-previous-years-p56-q21-209",
+      "from_lecture_id": "microbiology__malaria-babesiosis",
+      "to_lecture_id": "pharmacology__treatment-of-malaria"
+    },
+    {
+      "question_id": "ibls-previous-years-p58-q45-222",
+      "from_lecture_id": "microbiology__hypersensitivity-reactions-1",
+      "to_lecture_id": "microbiology__hypersensitivity-reactions-2"
+    },
+    {
+      "question_id": "ibls-previous-years-p74-q8-285",
+      "from_lecture_id": "anatomy-histology__histology-of-the-lymphatic-system",
+      "to_lecture_id": "anatomy-histology__haematopoiesis"
+    },
+    {
+      "question_id": "ibls-previous-years-p75-q12-289",
+      "from_lecture_id": "microbiology__hypersensitivity-reactions-2",
+      "to_lecture_id": "microbiology__hypersensitivity-reactions-1"
+    },
+    {
+      "question_id": "ibls-previous-years-p75-q13-290",
+      "from_lecture_id": "pharmacology__pharmacotherapy-of-hypersensitivity",
+      "to_lecture_id": "physiology__white-bood-cells-wbcs"
+    },
+    {
+      "question_id": "ibls-previous-years-p76-q4-293",
+      "from_lecture_id": "physiology__physiology-of-hemostasis",
+      "to_lecture_id": "physiology__physiology-of-blood-platelets"
+    },
+    {
+      "question_id": "ibls-previous-years-p79-q21-306",
+      "from_lecture_id": "pharmacology__immunosuppressant-immunomodulators",
+      "to_lecture_id": "physiology__white-bood-cells-wbcs"
+    },
+    {
+      "question_id": "ibls-previous-years-p79-q27-309",
+      "from_lecture_id": "microbiology__hypersensitivity-reactions-1",
+      "to_lecture_id": "physiology__white-bood-cells-wbcs"
+    },
+    {
+      "question_id": "ibls-previous-years-p80-q33-312",
+      "from_lecture_id": "microbiology__malaria-babesiosis",
+      "to_lecture_id": "microbiology__malaria"
+    },
+    {
+      "question_id": "ibls-previous-years-p84-q16-332",
+      "from_lecture_id": "pharmacology__pharmacotherapy-of-hypersensitivity",
+      "to_lecture_id": "physiology__white-bood-cells-wbcs"
+    },
+    {
+      "question_id": "ibls-previous-years-p85-q19-335",
+      "from_lecture_id": "microbiology__malaria",
+      "to_lecture_id": "pharmacology__treatment-of-malaria"
+    },
+    {
+      "question_id": "ibls-previous-years-p97-q2-374",
+      "from_lecture_id": "microbiology__malaria",
+      "to_lecture_id": "microbiology__lymphatic-filariasis"
+    },
+    {
+      "question_id": "ibls-previous-years-p98-q8-380",
+      "from_lecture_id": "microbiology__malaria",
+      "to_lecture_id": "microbiology__lymphatic-filariasis"
+    },
+    {
+      "question_id": "ibls-previous-years-p105-q65-403",
+      "from_lecture_id": "pharmacology__antiplatelet-drugs",
+      "to_lecture_id": "physiology__physiology-of-blood-platelets"
+    },
+    {
+      "question_id": "ibls-previous-years-p106-q17-405",
+      "from_lecture_id": "pharmacology__immunosuppressant-immunomodulators",
+      "to_lecture_id": "pharmacology__pharmacotherapy-of-hypersensitivity"
+    },
+    {
+      "question_id": "cvs-previous-years-p21-q34-72",
+      "from_lecture_id": "physiology__regulation-of-abp-cv-centers-short-term-regulation",
+      "to_lecture_id": "physiology__physiological-organization-of-cvs"
+    },
+    {
+      "question_id": "cvs-previous-years-p21-q35-73",
+      "from_lecture_id": "pathology__atherosclerosis-aneurysm",
+      "to_lecture_id": "pathology__pathology-of-hypertension"
+    },
+    {
+      "question_id": "cvs-previous-years-p22-q38-75",
+      "from_lecture_id": "physiology__cardiac-output-and-its-control",
+      "to_lecture_id": "physiology__cardiac-cycle"
+    },
+    {
+      "question_id": "cvs-previous-years-p30-q24-104",
+      "from_lecture_id": "pharmacology__drugs-affecting-hemostasis",
+      "to_lecture_id": "physiology__cardiac-automaticity-excitability-cardiac-conductivity"
+    },
+    {
+      "question_id": "cvs-previous-years-p37-q29-135",
+      "from_lecture_id": "physiology__physiology-of-hemostasis",
+      "to_lecture_id": "pathology__valvular-heart-diseases"
+    },
+    {
+      "question_id": "cvs-previous-years-p38-q34-139",
+      "from_lecture_id": "physiology__white-bood-cells-wbcs",
+      "to_lecture_id": "pathology__valvular-heart-diseases"
+    },
+    {
+      "question_id": "cvs-previous-years-p39-q38-142",
+      "from_lecture_id": "microbiology__autoimmune-diseases",
+      "to_lecture_id": "pathology__valvular-heart-diseases"
+    },
+    {
+      "question_id": "cvs-previous-years-p40-q40-144",
+      "from_lecture_id": "pathology__ischemic-heart-disease-1",
+      "to_lecture_id": "biochemistry__diagnostic-cardiac-markers"
+    },
+    {
+      "question_id": "cvs-previous-years-p58-q39-217",
+      "from_lecture_id": "pathology__ischemic-heart-disease-1",
+      "to_lecture_id": "biochemistry__diagnostic-cardiac-markers"
+    },
+    {
+      "question_id": "cvs-previous-years-p61-q32-230",
+      "from_lecture_id": "physiology__regulation-of-abp-cv-centers-short-term-regulation",
+      "to_lecture_id": "physiology__regulation-of-abp-intermediate-and-long-term-regulation"
+    },
+    {
+      "question_id": "cvs-previous-years-p63-q25-239",
+      "from_lecture_id": "anatomy-histology__internal-features-of-the-heart",
+      "to_lecture_id": "physiology__cardiac-automaticity-excitability-cardiac-conductivity"
+    },
+    {
+      "question_id": "cvs-previous-years-p66-q7-248",
+      "from_lecture_id": "anatomy-histology__histology-of-the-lymphatic-system",
+      "to_lecture_id": "anatomy-histology__anatomy-of-mediastinum-pericardium"
+    },
+    {
+      "question_id": "cvs-previous-years-p67-q11-252",
+      "from_lecture_id": "microbiology__autoimmune-diseases",
+      "to_lecture_id": "pathology__atherosclerosis-aneurysm"
+    },
+    {
+      "question_id": "cvs-previous-years-p68-q15-256",
+      "from_lecture_id": "microbiology__malaria",
+      "to_lecture_id": "anatomy-histology__internal-features-of-the-heart"
+    },
+    {
+      "question_id": "cvs-previous-years-p69-q20-261",
+      "from_lecture_id": "physiology__physiological-organization-of-cvs",
+      "to_lecture_id": "anatomy-histology__histology-of-the-myocardium"
+    },
+    {
+      "question_id": "cvs-previous-years-p72-q29-270",
+      "from_lecture_id": "physiology__regulation-of-abp-intermediate-and-long-term-regulation",
+      "to_lecture_id": "pathology__pathology-of-hypertension"
+    },
+    {
+      "question_id": "cvs-previous-years-p72-q30-271",
+      "from_lecture_id": "physiology__physiological-organization-of-cvs",
+      "to_lecture_id": "pathology__pathology-of-hypertension"
+    },
+    {
+      "question_id": "cvs-previous-years-p78-q11-290",
+      "from_lecture_id": "pathology__ischemic-heart-disease-1",
+      "to_lecture_id": "physiology__cardiac-automaticity-excitability-cardiac-conductivity"
+    },
+    {
+      "question_id": "cvs-previous-years-p81-q29-302",
+      "from_lecture_id": "physiology__cardiac-contractility",
+      "to_lecture_id": "physiology__regulation-of-abp-cv-centers-short-term-regulation"
+    },
+    {
+      "question_id": "cvs-previous-years-p86-q57-321",
+      "from_lecture_id": "biochemistry__plasma-lipoproteins",
+      "to_lecture_id": "pharmacology__anti-lipidemic-drugs"
+    },
+    {
+      "question_id": "cvs-previous-years-p87-q61-325",
+      "from_lecture_id": "pharmacology__anti-anginal-drugs",
+      "to_lecture_id": "pharmacology__antihypertensive-drugs-1"
+    },
+    {
+      "question_id": "cvs-previous-years-p116-q2-406",
+      "from_lecture_id": "microbiology__autoimmune-diseases",
+      "to_lecture_id": "pathology__ischemic-heart-disease-1"
+    },
+    {
+      "question_id": "cvs-previous-years-p117-q11-412",
+      "from_lecture_id": "microbiology__malaria",
+      "to_lecture_id": "anatomy-histology__internal-features-of-the-heart"
+    },
+    {
+      "question_id": "cvs-previous-years-p125-q3-430",
+      "from_lecture_id": "physiology__cardiac-contractility",
+      "to_lecture_id": "anatomy-histology__histology-of-the-myocardium"
+    },
+    {
+      "question_id": "cvs-previous-years-p128-q27-444",
+      "from_lecture_id": "microbiology__autoimmune-diseases",
+      "to_lecture_id": "physiology__regulation-of-abp-cv-centers-short-term-regulation"
+    },
+    {
+      "question_id": "cvs-previous-years-p138-q1-471",
+      "from_lecture_id": "pathology__myocarditis-and-pericardial-diseases",
+      "to_lecture_id": "anatomy-histology__congenital-anomalies-of-the-heart-it-s-great-vessels"
+    },
+    {
+      "question_id": "cvs-previous-years-p139-q6-476",
+      "from_lecture_id": "physiology__physiology-of-hemostasis",
+      "to_lecture_id": "physiology__physiology-of-vascular-endothelium"
+    },
+    {
+      "question_id": "cvs-previous-years-p140-q9-479",
+      "from_lecture_id": "physiology__physiology-of-hemostasis",
+      "to_lecture_id": "physiology__physiology-of-vascular-endothelium"
+    },
+    {
+      "question_id": "cvs-previous-years-p141-q12-481",
+      "from_lecture_id": "physiology__regulation-of-abp-cv-centers-short-term-regulation",
+      "to_lecture_id": "physiology__cardiac-cycle"
+    },
+    {
+      "question_id": "cvs-previous-years-p142-q18-483",
+      "from_lecture_id": "anatomy-histology__internal-features-of-the-heart",
+      "to_lecture_id": "anatomy-histology__congenital-anomalies-of-the-heart-it-s-great-vessels"
+    },
+    {
+      "question_id": "cvs-previous-years-p144-q24-489",
+      "from_lecture_id": "physiology__cardiac-contractility",
+      "to_lecture_id": "anatomy-histology__histology-of-the-myocardium"
+    },
+    {
+      "question_id": "cvs-previous-years-p150-q53-510",
+      "from_lecture_id": "biochemistry__cholesterol-metabolism",
+      "to_lecture_id": "biochemistry__disorders-of-plasma-lipoproteins"
+    },
+    {
+      "question_id": "cvs-previous-years-p166-q27-552",
+      "from_lecture_id": "pharmacology__anti-lipidemic-drugs",
+      "to_lecture_id": "biochemistry__disorders-of-plasma-lipoproteins"
+    },
+    {
+      "question_id": "cvs-previous-years-p167-q31-554",
+      "from_lecture_id": "pathology__ischemic-heart-disease-2",
+      "to_lecture_id": "pathology__ischemic-heart-disease-1"
+    },
+    {
+      "question_id": "cvs-previous-years-p167-q32-555",
+      "from_lecture_id": "physiology__physiology-of-hemostasis",
+      "to_lecture_id": "pathology__ischemic-heart-disease-1"
+    },
+    {
+      "question_id": "cvs-previous-years-p167-q40-556",
+      "from_lecture_id": "microbiology__autoimmune-diseases",
+      "to_lecture_id": "pathology__valvular-heart-diseases"
+    },
+    {
+      "question_id": "phys-ibls-q15-15",
+      "from_lecture_id": "pharmacology__drugs-affecting-hemostasis",
+      "to_lecture_id": "physiology__physiology-of-hemostasis"
+    },
+    {
+      "question_id": "phys-ibls-q17-17",
+      "from_lecture_id": "physiology__physiology-of-hemostasis",
+      "to_lecture_id": "physiology__physiology-of-blood-platelets"
+    },
+    {
+      "question_id": "phys-cvs-q3-23",
+      "from_lecture_id": "physiology__regulation-of-abp-intermediate-and-long-term-regulation",
+      "to_lecture_id": "physiology__physiological-organization-of-cvs"
+    },
+    {
+      "question_id": "phys-cvs-q17-37",
+      "from_lecture_id": "physiology__physiological-organization-of-cvs",
+      "to_lecture_id": "physiology__cardiac-cycle"
+    },
+    {
+      "question_id": "phys-cvs-q18-38",
+      "from_lecture_id": "physiology__physiological-organization-of-cvs",
+      "to_lecture_id": "physiology__cardiac-cycle"
+    },
+    {
+      "question_id": "phys-cvs-q19-39",
+      "from_lecture_id": "physiology__regulation-of-abp-cv-centers-short-term-regulation",
+      "to_lecture_id": "physiology__cardiac-cycle"
+    },
+    {
+      "question_id": "phys-cvs-q20-40",
+      "from_lecture_id": "physiology__cardiac-output-and-its-control",
+      "to_lecture_id": "physiology__cardiac-cycle"
+    },
+    {
+      "question_id": "phys-cvs-q38-58",
+      "from_lecture_id": "physiology__physiology-of-hemostasis",
+      "to_lecture_id": "physiology__physiology-of-coronary-circulation"
+    },
+    {
+      "question_id": "phys-cvs-q41-61",
+      "from_lecture_id": "physiology__physiology-of-hemostasis",
+      "to_lecture_id": "physiology__physiology-of-vascular-endothelium"
+    },
+    {
+      "question_id": "phys-cvs-q42-62",
+      "from_lecture_id": "physiology__physiology-of-hemostasis",
+      "to_lecture_id": "physiology__physiology-of-vascular-endothelium"
+    },
+    {
+      "question_id": "phys-cvs-q43-63",
+      "from_lecture_id": "microbiology__autoimmune-diseases",
+      "to_lecture_id": "physiology__physiology-of-vascular-endothelium"
+    },
+    {
+      "question_id": "phys-cvs-q44-64",
+      "from_lecture_id": "microbiology__autoimmune-diseases",
+      "to_lecture_id": "physiology__physiology-of-vascular-endothelium"
+    },
+    {
+      "question_id": "physiology-important-q36",
+      "from_lecture_id": "physiology__abnormal-ecg-and-cardiac-arrhythmias",
+      "to_lecture_id": "pathology__ischemic-heart-disease-1"
+    }
+  ],
+  "authentic_questions_preserved": 838,
+  "answer_keys_changed": 0
+}

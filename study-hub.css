@@ -99,7 +99,7 @@
 .qaMulti{position:relative;min-width:0}
 .qaMultiBtn{position:relative;padding-right:28px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;cursor:pointer}
 .qaMultiBtn:not(:disabled)::after{content:"⌄";position:absolute;right:10px;top:50%;transform:translateY(-52%);color:#667085;font-size:14px}
-.qaMultiPanel{position:absolute;z-index:80;top:calc(100% + 5px);left:0;width:min(420px,calc(100vw - 36px));max-height:320px;overflow:auto;background:#fff;border:1px solid #d0d5dd;border-radius:12px;box-shadow:0 12px 30px rgba(16,24,40,.14);padding:7px}
+.qaMultiPanel{position:absolute;z-index:400;top:calc(100% + 5px);left:0;width:min(420px,calc(100vw - 36px));max-height:320px;overflow:auto;background:#fff;border:1px solid #d0d5dd;border-radius:12px;box-shadow:0 12px 30px rgba(16,24,40,.14);padding:7px}
 .qaMultiHead{display:flex;justify-content:space-between;gap:10px;align-items:center;padding:7px 7px 9px;border-bottom:1px solid #f2f4f7;margin-bottom:3px}
 .qaMultiHead b{font-size:11px;color:#344054}.qaMultiHead button{border:0;background:none;color:#175cd3;font-size:10px;font-weight:750;cursor:pointer}
 .qaCheck{display:flex;gap:9px;align-items:flex-start;padding:9px 8px;border-radius:8px;cursor:pointer}.qaCheck:hover{background:#f8fafc}.qaCheck input{margin-top:2px;flex:0 0 auto}.qaCheck span{font-size:11px;color:#344054;line-height:1.35}
@@ -1510,3 +1510,8 @@ body.ankiFocusMode .ankiStudyShuffleBtn{
 
 /* Quiz scope stamps */
 .lectureQuizStamp{display:inline-flex;align-items:center;margin-left:.4rem;padding:.15rem .4rem;border:1px solid currentColor;border-radius:999px;font-style:normal;font-size:.62rem;font-weight:900;letter-spacing:.06em;line-height:1;white-space:nowrap}.lectureDashFilters #lectureDashQuiz{min-width:105px}
+.lectureSourceAudit{margin:14px 0;padding:14px 16px;border:1px solid var(--border,#d0d5dd);border-radius:14px;max-width:100%;font-size:13px;line-height:1.6}
+.lectureSourceAudit summary{cursor:pointer;font-weight:700}
+.lectureSourceAudit ul{padding-left:20px;margin:10px 0;overflow-wrap:anywhere}
+.lectureSourceAudit li{margin:8px 0}
+.lectureSourceAudit li span{display:block;opacity:.75}

@@ -8,6 +8,7 @@ const STUDY_GUIDE_MAP_URL='question-study-guide-map.json';
 let aiLibrary={lecture_sets:[],generated_at:null};
 let studyGuideCatalog={subjects:[]};
 let studyGuideQuestionMap={past:{},ai:{}};
+let sourceCoverageAudit=null;
 let aiState={subject:'',lecture:'',search:'',filter:'all',page:1,pageSize:20,shuffle:false};
 let aiUnansweredPagePins=new Set();
 function aiClearUnansweredPins(){aiUnansweredPagePins.clear()}
@@ -20,18 +21,18 @@ function aiProgress(){
   return saved.__ai_questions__;
 }
 function aiAllQuestions(){
-  return (aiLibrary.lecture_sets||[]).filter(s=>!s.archived&&s.eligibility_status==='allowed'&&s.quality_status==='pass').flatMap(set=>(set.questions||[]).map(q=>({...q,set_id:set.id,subject:set.subject,lecture_title:set.title,source_url:set.source_url||q.source_url||'',source_validation:set.source_validation||'pending_lecture_validation'})));
+  return (aiLibrary.lecture_sets||[]).filter(s=>!s.archived&&s.eligibility_status==='allowed'&&s.quality_status==='pass').flatMap(set=>(set.questions||[]).map(q=>({...q,set_id:set.id,subject:set.subject,lecture_title:set.title,source_url:q.source_url||set.source_url||'',source_validation:set.source_validation||'pending_lecture_validation'})));
 }
 window.med25GameBridge=window.med25GameBridge||{};
 window.med25GameBridge.aiQuestions=()=>aiAllQuestions();
 window.med25GameBridge.aiProgress=()=>aiProgress();
 window.med25ExamReadyPast=q=>{
-  if(!q?.id||!q?.answer)return false;
+  if(!q?.id||!q?.answer||q.exam_ready===false||!String(q.stem||'').trim())return false;
   const entries=Object.entries(q.options||{});
   if(entries.length<4)return false;
   if(!entries.some(([k])=>k===q.answer))return false;
   const vals=entries.map(([,v])=>String(v||'').trim().toLowerCase());
-  return vals.length===new Set(vals).size;
+  return vals.every(Boolean)&&vals.length===new Set(vals).size;
 };
 
 function aiSave(){save();renderAIStats();med25MarkHomeDirty()}
@@ -82,7 +83,7 @@ function bindAI(){
   document.querySelectorAll('[data-ai-copy]').forEach(b=>b.onclick=()=>copyAI(b.dataset.aiCopy));
 }
 function answerAI(id,opt){
-  const q=aiAllQuestions().find(x=>x.id===id),p=aiProgress();if(!q||p[id]?.answered)return;
+  const q=aiAllQuestions().find(x=>x.id===id),p=aiProgress();if(!q||p[id]?.answered||!Object.prototype.hasOwnProperty.call(q.options||{},opt))return;
   if(aiIsUnansweredMode())aiUnansweredPagePins.add(id);
   p[id]={...(p[id]||{}),answered:true,selected:opt,correct:opt===q.answer,locked_at:new Date().toISOString()};
   aiSave();
@@ -139,15 +140,17 @@ function populateAIFilters(){
 }
 async function initAIQuestions(){
   try{
-    const [aiRes,guideRes,mapRes]=await Promise.all([
+    const [aiRes,guideRes,mapRes,auditRes]=await Promise.all([
       fetch(AI_LIBRARY_URL+'?v='+Date.now(),{cache:'no-store'}),
       fetch(STUDY_GUIDE_CATALOG_URL+'?v=1',{cache:'force-cache'}),
-      fetch(STUDY_GUIDE_MAP_URL+'?v='+Date.now(),{cache:'no-store'})
+      fetch(STUDY_GUIDE_MAP_URL+'?v='+Date.now(),{cache:'no-store'}),
+      fetch('source-coverage-audit.json',{cache:'no-store'})
     ]);
     if(!aiRes.ok)throw new Error('AI HTTP '+aiRes.status);
     aiLibrary=await aiRes.json();if(!Array.isArray(aiLibrary.lecture_sets))aiLibrary.lecture_sets=[];
     if(guideRes.ok)studyGuideCatalog=await guideRes.json();
     if(mapRes.ok)studyGuideQuestionMap=await mapRes.json();
+    if(auditRes.ok)sourceCoverageAudit=await auditRes.json();
   }catch(e){console.error('Study libraries unavailable',e);if(!Array.isArray(aiLibrary.lecture_sets))aiLibrary={lecture_sets:[],generated_at:null}}
   qaPastLectureCache.clear();
   const legacyTopic=document.getElementById('topic');if(legacyTopic){legacyTopic.value='';legacyTopic.style.display='none'}
@@ -389,7 +392,7 @@ function sgLabelVisible(root,kind){
     if(kind==='past'){
       const hy=typeof highYieldBadge==='function'?highYieldBadge(q):'';
       const examReady=typeof window.med25ExamReadyPast==='function'?window.med25ExamReadyPast(q):true;
-      const quality=examReady?'':'<span class="pill sourceIncompletePill" title="Authentic source-bank item, but its extracted choices are incomplete or duplicated. It is excluded from mock exams.">Source incomplete</span>';
+      const quality=examReady?'':'<span class="pill sourceIncompletePill" title="'+esc(q.incomplete_reason||'Authentic source-bank item with incomplete or duplicated choices or an unrecoverable key. Excluded from mock exams.')+'">Source incomplete</span>';
       meta.innerHTML='<span class="pill sgSubjectPill">'+esc(g.subject||'Other')+'</span>'+
         '<span class="pill sgLecturePill">'+esc(g.title||'Unmapped lecture')+'</span>'+quality+hy;
       meta.title='Official 2026–2027 Study Guide subject and lecture. The original bank name remains shown as source provenance.';
@@ -454,7 +457,7 @@ function homeWeakTopics(){
 
 let lectureDashState={subject:'',status:'',quiz:'',search:''};
 const QUIZ2_LECTURE_TITLES=["Pathology of Hypertension","Physiology of vascular endothelium","Antihypertensive drugs 1","Cardiac cycle","Antihypertensive drugs 2","Vasculitis","Pathology of valvular Heart Diseases","Development of the heart and its great vessels","Normal ECG","Congenital anomalies and abnormal development of heart and its great vessels","Antiarrhythmic drugs","Endocarditis","Abnormal ECG and cardiac arrhythmias","Anatomy of Thoracic Wall","Anatomy of nose and paranasal sinuses","Pressure-volume relationship","Obstructive airway disease","Anatomical Relations of the lungs","Histology of the respiratory system","Drugs used for treatment of asthma","Drug therapy for cough and COPD","Development of respiratory system","Atelectasis and acute lung injury","Lower respiratory tract infections","Anatomy of the larynx","Restrictive airway disease","Upper respiratory tract neoplasm","Gas diffusion and blood flow","Drug therapy of respiratory infections","Cystic parasitic diseases of the lung","Lung immunology — innate and acquired immune responses in respiratory infections","Pulmonary infection","Transport of oxygen in blood","Pulmonary vessel disease","Transport of carbon dioxide in blood","Lung and pleural tumors","Treatment of TB","Verminous pneumonia (parasitic larvae invading lung)","Acid-base Homeostasis & the role of respiratory system","Metabolic functions of the lung and Pulmonary Surfactant","Neural control of breathing"];
-const QUIZ2_LECTURE_KEYS=new Set(QUIZ2_LECTURE_TITLES.map(qaNorm));
+const QUIZ2_LECTURE_KEYS=new Set([...QUIZ2_LECTURE_TITLES,"Normal Development of Heart & it’s Great Vessels","Congenital anomalies of the heart & it’s great Vessels"].map(qaNorm));
 function lectureQuizNumber(title){const k=qaNorm(title);if(QUIZ2_LECTURE_KEYS.has(k))return 2;for(const q of QUIZ2_LECTURE_KEYS){if(k&&q&&(k.includes(q)||q.includes(k)))return 2}return 1}
 const lectureDeckMapCache=new Map();
 
@@ -598,6 +601,12 @@ function setupLectureDashboardControls(){
 function renderLectureDashboard(){
   const host=document.getElementById('lectureDashboard'),summary=document.getElementById('lectureDashboardSummary');
   if(!host)return;
+  if(sourceCoverageAudit){
+    let audit=document.getElementById('lectureSourceAudit');
+    if(!audit){audit=document.createElement('details');audit.id='lectureSourceAudit';audit.className='lectureSourceAudit';summary?.after(audit)}
+    const missing=sourceCoverageAudit.lectures.filter(l=>l.status==='source_not_found'),partial=sourceCoverageAudit.lectures.filter(l=>l.status==='partial_source_coverage');
+    audit.innerHTML='<summary>Source coverage · audited 4 October 2026</summary><p>'+sourceCoverageAudit.guide_topic_entries+' study-guide topics · '+sourceCoverageAudit.lectures.filter(l=>l.ai_questions>0).length+' with AI questions. '+missing.length+' topics still need a source, and '+partial.length+' have partial source coverage. A missing source does not mean future content. Completion below refers to published questions.</p><ul>'+[...partial,...missing].map(l=>'<li><b>'+esc(l.subject)+' · '+esc(l.title)+'</b><span>'+esc(l.note)+'</span></li>').join('')+'</ul>';
+  }
   setupLectureDashboardControls();
   const all=lectureDashboardRows(),rows=lectureDashFiltered();
   const counts={complete:0,studied:0,practicing:0,'questions-complete':0,'not-started':0};
@@ -678,7 +687,7 @@ function hubSwitch(mode){
   if(home){if(h)h.textContent='MED25 Study Hub';if(p)p.textContent='Your progress across past papers, lecture-grounded AI questions, and spaced-repetition flashcards.';renderHome()}
   if(past){if(h)h.textContent='MED25 Past Papers';if(p)p.textContent='Previous-year questions and the coordinator formative, with repeated-concept sorting and source-lecture links.'}
   if(ai){if(h)h.textContent='MED25 AI-Generated Questions';if(p)p.textContent='KAU-style MCQs generated lecture-by-lecture from the official MED25 Drive, kept separate from past papers.';renderAI()}
-  if(flash){if(h)h.textContent='MED25 Flashcards';if(p)p.textContent='Anki-style deck browser and spaced repetition, automatically synced lecture-by-lecture from the official MED25 Drive.';renderFlashDecks();renderFlashHeroStats()}
+  if(flash){if(h)h.textContent='MED25 Flashcards';if(p)p.textContent='Anki-style deck browser and spaced repetition, aligned with the source-checked MED25 lecture libraries.';renderFlashDecks();renderFlashHeroStats()}
   try{localStorage.setItem(HUB_SECTION_KEY,mode)}catch{}
 }
 function hubSetupNavigation(){
@@ -687,7 +696,15 @@ function hubSetupNavigation(){
   document.getElementById('tabAI').onclick=()=>hubSwitch('ai');
   document.getElementById('tabFlashcards').onclick=()=>hubSwitch('flashcards');
   const mode=localStorage.getItem(HUB_SECTION_KEY)||'home';
-  hubSwitch(['home','questions','ai','flashcards'].includes(mode)?mode:'home');
+  if(mode==='mock'||mode==='quiz'){
+    const open=mode==='mock'?window.med25GameOpenMock:window.med25GameOpenQuiz;
+    if(open)open();
+    else{
+      hubSwitch('home');
+      // The game layer loads next. Preserve its section until it takes over.
+      localStorage.setItem(HUB_SECTION_KEY,mode);
+    }
+  }else hubSwitch(['home','questions','ai','flashcards'].includes(mode)?mode:'home');
 }
 
 const qaBasePastFiltered=filtered;

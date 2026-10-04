@@ -12,6 +12,15 @@ const cat=readJson('study-guide-lectures.json');
 const flash=readJson('flashcards.json');
 const manifest=readJson('content-coverage-manifest.json');
 const legacy=fs.readFileSync('legacy-app.html','utf8');
+const supplement=readJson('med25-daily-supplement.json');
+for(const s of supplement.ai_sets||[]){
+  const base=ai.lecture_sets.find(x=>x.id===s.id);
+  if(!base||JSON.stringify(base)!==JSON.stringify(s))fail('Runtime AI supplement differs from audited base: '+s.title);
+}
+for(const d of supplement.flashcard_decks||[]){
+  const base=flash.decks.find(x=>x.id===d.id);
+  if(!base||JSON.stringify(base)!==JSON.stringify(d))fail('Runtime flashcard supplement differs from audited base: '+d.title);
+}
 
 const lectures=(cat.subjects||[]).flatMap(s=>(s.lectures||[]).map(l=>({...l,subject:s.name})));
 const lectureById=new Map();
@@ -111,6 +120,7 @@ const deckBySource=new Map();
 const cardIds=new Set();
 let flashCards=0;
 for(const d of activeDecks){
+  if(d.eligibility_status!=='allowed')fail('Active flashcard deck is hidden at runtime: '+d.title);
   if(deckBySource.has(d.source_file_id))fail('Duplicate active flashcard deck source: '+d.source_file_id);
   deckBySource.set(d.source_file_id,d);
   if(!(d.cards||[]).length)fail('Active flashcard deck is empty: '+d.title);
@@ -141,7 +151,7 @@ for(const q of past){
   const m=map.past?.[q.id];
   if(!m?.lecture_id||!lectureById.has(m.lecture_id))fail('Past Paper question is not mapped to official lecture: '+q.id);
   const entries=Object.entries(q.options||{});
-  const valid=entries.length===4&&q.answer&&Object.prototype.hasOwnProperty.call(q.options||{},q.answer)&&entries.map(([,v])=>normExact(v)).length===new Set(entries.map(([,v])=>normExact(v))).size;
+  const valid=q.exam_ready!==false&&String(q.stem||'').trim()&&entries.length>=4&&q.answer&&Object.prototype.hasOwnProperty.call(q.options||{},q.answer)&&entries.every(([,v])=>normExact(v))&&entries.map(([,v])=>normExact(v)).length===new Set(entries.map(([,v])=>normExact(v))).size;
   if(valid)pastMockReady++; else pastIncomplete++;
 }
 if(!pastMockReady)fail('No Mock-ready Past Paper questions remain');
@@ -152,6 +162,14 @@ for(const lid of ['biochemistry__diagnostic-cardiac-markers','hematology__hemoly
 }
 
 const subjects={};
+for(const lid of ['physiology__abnormal-ecg-and-cardiac-arrhythmias','anatomy-histology__normal-development-of-heart-it-s-great-vessels','anatomy-histology__congenital-anomalies-of-the-heart-it-s-great-vessels','pharmacology__treatment-of-hematological-malignancy','pharmacology__treatment-of-malaria']){
+  if((lectureStats.get(lid)?.ai||0)<10||lectureStats.get(lid).cases<2)fail('Current available lecture/case coverage missing: '+lid);
+}
+const fixes=readJson('past-mapping-repairs.json');
+if(fixes.changed_mappings.length<80)fail('Confirmed mapping repairs missing');
+for(const fix of fixes.changed_mappings){
+  if(map.past[fix.question_id]?.lecture_id!==fix.to_lecture_id)fail('Mapping repair regressed: '+fix.question_id);
+}
 for(const [lid,st] of lectureStats){
   const sub=lectureById.get(lid)?.subject||'Unknown';
   subjects[sub]??={ai:0,cases:0,lectures:new Set()};

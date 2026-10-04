@@ -1,0 +1,1208 @@
+{
+  "audited_at": "2026-10-04T20:30:00.000Z",
+  "guide_url": "https://drive.google.com/file/d/1kIGOvteslYLGp7cnREnQu4y0Ct1psqMK/view?usp=drivesdk",
+  "guide_lecture_deliveries": 88,
+  "guide_topic_entries": 106,
+  "drive_folders_scanned": 94,
+  "drive_files_catalogued": 211,
+  "active_ai_questions": 939,
+  "active_cases": 168,
+  "new_source_ids": [
+    "1i6a0dvP5Hwncst-9gdl1Vot89OYithH2",
+    "1eMomfPTXyjMgtqvpaiCPZGp1jEr7vXx9",
+    "1kzyEG0I68hx0vfkMf44Uhj1XUZHhftXK",
+    "1Aj5OXNtQh2z591zY5ZtiwNJItBL4R9Yl"
+  ],
+  "lectures": [
+    {
+      "lecture_id": "anatomy-histology__anatomy-of-mediastinum-pericardium",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of Mediastinum & Pericardium",
+      "ai_questions": 9,
+      "past_questions": 22,
+      "source_file_ids": [
+        "1N29pF27p1UfkP79gdlrUFW-5WiTtgnEC"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "anatomy-histology__histology-of-the-myocardium",
+      "subject": "Anatomy & Histology",
+      "title": "Histology of the Myocardium",
+      "ai_questions": 9,
+      "past_questions": 21,
+      "source_file_ids": [
+        "1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "anatomy-histology__external-features-of-the-heart-and-its-great-vessels",
+      "subject": "Anatomy & Histology",
+      "title": "External Features of the Heart and its Great Vessels",
+      "ai_questions": 9,
+      "past_questions": 20,
+      "source_file_ids": [
+        "1wsoTpxTw6_QhMHqxYdLuxwHOvwXokQV5"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "anatomy-histology__internal-features-of-the-heart",
+      "subject": "Anatomy & Histology",
+      "title": "Internal Features of the Heart",
+      "ai_questions": 9,
+      "past_questions": 33,
+      "source_file_ids": [
+        "1NCRD8jp124VR1jxrnCxtoTaJRJMtkx4w"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "anatomy-histology__normal-development-of-heart-it-s-great-vessels",
+      "subject": "Anatomy & Histology",
+      "title": "Normal Development of Heart & it’s Great Vessels",
+      "ai_questions": 20,
+      "past_questions": 0,
+      "source_file_ids": [
+        "1eMomfPTXyjMgtqvpaiCPZGp1jEr7vXx9"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "anatomy-histology__congenital-anomalies-of-the-heart-it-s-great-vessels",
+      "subject": "Anatomy & Histology",
+      "title": "Congenital anomalies of the heart & it’s great Vessels",
+      "ai_questions": 20,
+      "past_questions": 2,
+      "source_file_ids": [
+        "1kzyEG0I68hx0vfkMf44Uhj1XUZHhftXK"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "anatomy-histology__radiological-anatomy-of-the-heart-and-its-great-vessels",
+      "subject": "Anatomy & Histology",
+      "title": "Radiological Anatomy of the heart and its great vessels",
+      "ai_questions": 11,
+      "past_questions": 0,
+      "source_file_ids": [
+        "1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "anatomy-histology__anatomy-of-the-nose-and-paranasal-sinuses",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the nose and paranasal sinuses",
+      "ai_questions": 0,
+      "past_questions": 0,
+      "source_file_ids": [],
+      "status": "source_not_found",
+      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+    },
+    {
+      "lecture_id": "anatomy-histology__anatomy-of-the-larynx",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the larynx",
+      "ai_questions": 0,
+      "past_questions": 0,
+      "source_file_ids": [],
+      "status": "source_not_found",
+      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+    },
+    {
+      "lecture_id": "anatomy-histology__anatomy-of-the-pleura-and-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the pleura and lungs",
+      "ai_questions": 0,
+      "past_questions": 0,
+      "source_file_ids": [],
+      "status": "source_not_found",
+      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+    },
+    {
+      "lecture_id": "anatomy-histology__anatomical-relations-of-the-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomical relations of the lungs",
+      "ai_questions": 0,
+      "past_questions": 0,
+      "source_file_ids": [],
+      "status": "source_not_found",
+      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+    },
+    {
+      "lecture_id": "anatomy-histology__development-of-the-respiratory-system",
+      "subject": "Anatomy & Histology",
+      "title": "Development of the respiratory system",
+      "ai_questions": 0,
+      "past_questions": 0,
+      "source_file_ids": [],
+      "status": "source_not_found",
+      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+    },
+    {
+      "lecture_id": "anatomy-histology__histology-of-the-respiratory-system",
+      "subject": "Anatomy & Histology",
+      "title": "Histology of the respiratory system",
+      "ai_questions": 0,
+      "past_questions": 0,
+      "source_file_ids": [],
+      "status": "source_not_found",
+      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+    },
+    {
+      "lecture_id": "anatomy-histology__anatomy-of-thoracic-wall",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of thoracic Wall",
+      "ai_questions": 0,
+      "past_questions": 0,
+      "source_file_ids": [],
+      "status": "source_not_found",
+      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+    },
+    {
+      "lecture_id": "anatomy-histology__haematopoiesis",
+      "subject": "Anatomy & Histology",
+      "title": "Haematopoiesis",
+      "ai_questions": 0,
+      "past_questions": 4,
+      "source_file_ids": [],
+      "status": "source_not_found",
+      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+    },
+    {
+      "lecture_id": "anatomy-histology__histology-of-the-mucosal-immune-system",
+      "subject": "Anatomy & Histology",
+      "title": "Histology of the mucosal immune system",
+      "ai_questions": 9,
+      "past_questions": 15,
+      "source_file_ids": [
+        "1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "anatomy-histology__histology-of-the-lymphatic-system",
+      "subject": "Anatomy & Histology",
+      "title": "Histology of the Lymphatic system",
+      "ai_questions": 9,
+      "past_questions": 55,
+      "source_file_ids": [
+        "1tktL6El76XzdSl3H9meqCkgYArLLaty7"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "physiology__physiology-of-red-blood-cells",
+      "subject": "Physiology",
+      "title": "Physiology of Red blood cells",
+      "ai_questions": 16,
+      "past_questions": 16,
+      "source_file_ids": [
+        "1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "physiology__anemia-and-polycythemia",
+      "subject": "Physiology",
+      "title": "Anemia and polycythemia",
+      "ai_questions": 9,
+      "past_questions": 23,
+      "source_file_ids": [
+        "14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "physiology__white-bood-cells-wbcs",
+      "subject": "Physiology",
+      "title": "White bood cells (WBCs)",
+      "ai_questions": 23,
+      "past_questions": 21,
+      "source_file_ids": [
+        "1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "physiology__physiology-of-blood-platelets",
+      "subject": "Physiology",
+      "title": "Physiology of blood platelets",
+      "ai_questions": 6,
+      "past_questions": 3,
+      "source_file_ids": [],
+      "status": "partial_source_coverage",
+      "note": "Covered by platelet sections of the hemostasis source; no separately named lecture retrieved."
+    },
+    {
+      "lecture_id": "physiology__physiology-of-hemostasis",
+      "subject": "Physiology",
+      "title": "Physiology of Hemostasis",
+      "ai_questions": 19,
+      "past_questions": 18,
+      "source_file_ids": [
+        "1G4jnFzqwf50lDpopLnTt0Jh0G0_i6GyS",
+        "1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "physiology__physiological-organization-of-cvs",
+      "subject": "Physiology",
+      "title": "Physiological organization of CVS",
+      "ai_questions": 9,
+      "past_questions": 17,
+      "source_file_ids": [
+        "1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "physiology__cardiac-automaticity-excitability-cardiac-conductivity",
+      "subject": "Physiology",
+      "title": "Cardiac automaticity, excitability, cardiac conductivity",
+      "ai_questions": 18,
+      "past_questions": 35,
+      "source_file_ids": [
+        "1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "physiology__cardiac-contractility",
+      "subject": "Physiology",
+      "title": "Cardiac contractility",
+      "ai_questions": 33,
+      "past_questions": 26,
+      "source_file_ids": [
+        "16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x",
+        "1a2GYFwVaioCMtkK4FhARroF7kphyGDwS"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "physiology__cardiac-output-and-its-control",
+      "subject": "Physiology",
+      "title": "Cardiac output and its control",
+      "ai_questions": 19,
+      "past_questions": 24,
+      "source_file_ids": [
+        "1rzreURT0TD2ajEGXKRIzad7b8VjudyNm"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "physiology__cardiac-cycle",
+      "subject": "Physiology",
+      "title": "Cardiac cycle",
+      "ai_questions": 25,
+      "past_questions": 6,
+      "source_file_ids": [
+        "1Bxpdr7P5CPgwQMW5UITveipcTzdPo4CY",
+        "1ZETi5-lxYRHDYlLhSY5qHhqCG0Zp18Sm"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "physiology__regulation-of-abp-cv-centers-short-term-regulation",
+      "subject": "Physiology",
+      "title": "Regulation of ABP (CV centers & short-term regulation)",
+      "ai_questions": 19,
+      "past_questions": 39,
+      "source_file_ids": [
+        "1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "physiology__regulation-of-abp-intermediate-and-long-term-regulation",
+      "subject": "Physiology",
+      "title": "Regulation of ABP (Intermediate and long-term Regulation)",
+      "ai_questions": 9,
+      "past_questions": 18,
+      "source_file_ids": [
+        "1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "ai_questions": 34,
+      "past_questions": 4,
+      "source_file_ids": [
+        "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "physiology__abnormal-ecg-and-cardiac-arrhythmias",
+      "subject": "Physiology",
+      "title": "Abnormal ECG and cardiac arrhythmias",
+      "ai_questions": 21,
+      "past_questions": 3,
+      "source_file_ids": [
+        "1i6a0dvP5Hwncst-9gdl1Vot89OYithH2"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "physiology__physiology-approch-to-circulatory-shock",
+      "subject": "Physiology",
+      "title": "Physiology approch to circulatory shock",
+      "ai_questions": 0,
+      "past_questions": 0,
+      "source_file_ids": [],
+      "status": "source_not_found",
+      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+    },
+    {
+      "lecture_id": "physiology__physiology-of-microcirculation-and-cardiac-edema",
+      "subject": "Physiology",
+      "title": "Physiology of microcirculation and cardiac edema",
+      "ai_questions": 0,
+      "past_questions": 2,
+      "source_file_ids": [],
+      "status": "source_not_found",
+      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+    },
+    {
+      "lecture_id": "physiology__physiology-of-coronary-circulation",
+      "subject": "Physiology",
+      "title": "Physiology of coronary circulation",
+      "ai_questions": 16,
+      "past_questions": 13,
+      "source_file_ids": [
+        "13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "physiology__physiology-of-vascular-endothelium",
+      "subject": "Physiology",
+      "title": "Physiology of vascular endothelium",
+      "ai_questions": 31,
+      "past_questions": 6,
+      "source_file_ids": [
+        "1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf",
+        "1YijUiLChrPMhz8D8foBy2j1dVC1W98Pw"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "ai_questions": 0,
+      "past_questions": 0,
+      "source_file_ids": [],
+      "status": "source_not_found",
+      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+    },
+    {
+      "lecture_id": "physiology__pressure-volume-relationship-and-lung-compliance",
+      "subject": "Physiology",
+      "title": "Pressure-volume relationship and lung compliance",
+      "ai_questions": 0,
+      "past_questions": 0,
+      "source_file_ids": [],
+      "status": "source_not_found",
+      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+    },
+    {
+      "lecture_id": "physiology__gas-diffusion-and-plumonary-blood-flow",
+      "subject": "Physiology",
+      "title": "Gas diffusion and plumonary blood flow",
+      "ai_questions": 0,
+      "past_questions": 0,
+      "source_file_ids": [],
+      "status": "source_not_found",
+      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+    },
+    {
+      "lecture_id": "physiology__transport-of-oxygen-in-blood",
+      "subject": "Physiology",
+      "title": "Transport of oxygen in blood",
+      "ai_questions": 0,
+      "past_questions": 0,
+      "source_file_ids": [],
+      "status": "source_not_found",
+      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+    },
+    {
+      "lecture_id": "physiology__transport-of-carbon-dioxide-in-blood",
+      "subject": "Physiology",
+      "title": "Transport of carbon dioxide in blood",
+      "ai_questions": 0,
+      "past_questions": 0,
+      "source_file_ids": [],
+      "status": "source_not_found",
+      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+    },
+    {
+      "lecture_id": "physiology__neural-control-of-breathing",
+      "subject": "Physiology",
+      "title": "Neural control of breathing",
+      "ai_questions": 0,
+      "past_questions": 0,
+      "source_file_ids": [],
+      "status": "source_not_found",
+      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+    },
+    {
+      "lecture_id": "physiology__chemical-control-of-breathing",
+      "subject": "Physiology",
+      "title": "Chemical control of breathing",
+      "ai_questions": 0,
+      "past_questions": 0,
+      "source_file_ids": [],
+      "status": "source_not_found",
+      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+    },
+    {
+      "lecture_id": "physiology__hypoxia-and-cyanosis",
+      "subject": "Physiology",
+      "title": "Hypoxia and cyanosis",
+      "ai_questions": 0,
+      "past_questions": 0,
+      "source_file_ids": [],
+      "status": "source_not_found",
+      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+    },
+    {
+      "lecture_id": "biochemistry__plasma-proteins",
+      "subject": "Biochemistry",
+      "title": "Plasma proteins",
+      "ai_questions": 9,
+      "past_questions": 25,
+      "source_file_ids": [
+        "1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "biochemistry__haem-synthesis",
+      "subject": "Biochemistry",
+      "title": "Haem synthesis",
+      "ai_questions": 18,
+      "past_questions": 28,
+      "source_file_ids": [
+        "1akREae-VDZN_QNeQlrnBruB1ML_EVnFr"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "biochemistry__heme-catabolism",
+      "subject": "Biochemistry",
+      "title": "Heme catabolism",
+      "ai_questions": 20,
+      "past_questions": 28,
+      "source_file_ids": [
+        "1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "biochemistry__cholesterol-metabolism",
+      "subject": "Biochemistry",
+      "title": "Cholesterol Metabolism",
+      "ai_questions": 18,
+      "past_questions": 19,
+      "source_file_ids": [
+        "1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "biochemistry__plasma-lipoproteins",
+      "subject": "Biochemistry",
+      "title": "Plasma Lipoproteins",
+      "ai_questions": 18,
+      "past_questions": 26,
+      "source_file_ids": [
+        "1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "biochemistry__disorders-of-plasma-lipoproteins",
+      "subject": "Biochemistry",
+      "title": "Disorders of plasma lipoproteins",
+      "ai_questions": 18,
+      "past_questions": 29,
+      "source_file_ids": [
+        "1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "biochemistry__diagnostic-cardiac-markers",
+      "subject": "Biochemistry",
+      "title": "Diagnostic cardiac markers",
+      "ai_questions": 15,
+      "past_questions": 18,
+      "source_file_ids": [
+        "1c2Nwj9UHqQfBRamammBSsSisGK47zD7B"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "biochemistry__metabolic-functions-of-the-lung-and-pulmonary-surfactant",
+      "subject": "Biochemistry",
+      "title": "Metabolic functions of the lung and Pulmonary Surfactant",
+      "ai_questions": 0,
+      "past_questions": 0,
+      "source_file_ids": [],
+      "status": "source_not_found",
+      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+    },
+    {
+      "lecture_id": "biochemistry__acid-base-homeostasis-and-the-role-of-the-respiratory-system",
+      "subject": "Biochemistry",
+      "title": "Acid-base homeostasis and the role of the respiratory system",
+      "ai_questions": 0,
+      "past_questions": 0,
+      "source_file_ids": [],
+      "status": "source_not_found",
+      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+    },
+    {
+      "lecture_id": "pathology__atherosclerosis-aneurysm",
+      "subject": "Pathology",
+      "title": "Atherosclerosis & Aneurysm",
+      "ai_questions": 20,
+      "past_questions": 15,
+      "source_file_ids": [
+        "1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "pathology__pathology-of-hypertension",
+      "subject": "Pathology",
+      "title": "Pathology of Hypertension",
+      "ai_questions": 16,
+      "past_questions": 3,
+      "source_file_ids": [
+        "1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "pathology__vasculitis",
+      "subject": "Pathology",
+      "title": "Vasculitis",
+      "ai_questions": 14,
+      "past_questions": 8,
+      "source_file_ids": [
+        "1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "pathology__ischemic-heart-disease-1",
+      "subject": "Pathology",
+      "title": "Ischemic Heart Disease – 1",
+      "ai_questions": 9,
+      "past_questions": 12,
+      "source_file_ids": [
+        "12RXyb80ciEfihQ-258N_uk1EwrjTTI83"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "pathology__ischemic-heart-disease-2",
+      "subject": "Pathology",
+      "title": "Ischemic Heart Disease – 2",
+      "ai_questions": 9,
+      "past_questions": 5,
+      "source_file_ids": [
+        "1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "pathology__valvular-heart-diseases",
+      "subject": "Pathology",
+      "title": "Valvular Heart Diseases",
+      "ai_questions": 16,
+      "past_questions": 4,
+      "source_file_ids": [
+        "1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "pathology__infective-endocarditis",
+      "subject": "Pathology",
+      "title": "Infective Endocarditis",
+      "ai_questions": 18,
+      "past_questions": 0,
+      "source_file_ids": [
+        "1NKrXX2VQc7oVqY_y-bjNxt7FNxbQKT5q"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "pathology__pathology-of-heart-failure",
+      "subject": "Pathology",
+      "title": "Pathology of Heart Failure",
+      "ai_questions": 0,
+      "past_questions": 0,
+      "source_file_ids": [],
+      "status": "source_not_found",
+      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+    },
+    {
+      "lecture_id": "pathology__myocarditis-and-pericardial-diseases",
+      "subject": "Pathology",
+      "title": "Myocarditis and pericardial diseases",
+      "ai_questions": 9,
+      "past_questions": 3,
+      "source_file_ids": [
+        "1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "pathology__cardiomyopathies",
+      "subject": "Pathology",
+      "title": "Cardiomyopathies",
+      "ai_questions": 0,
+      "past_questions": 0,
+      "source_file_ids": [],
+      "status": "source_not_found",
+      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+    },
+    {
+      "lecture_id": "pathology__cardiac-and-vascular-tumours",
+      "subject": "Pathology",
+      "title": "Cardiac and vascular tumours",
+      "ai_questions": 10,
+      "past_questions": 0,
+      "source_file_ids": [
+        "1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "pathology__upper-respiratory-tract-neoplasms",
+      "subject": "Pathology",
+      "title": "Upper respiratory tract Neoplasms",
+      "ai_questions": 0,
+      "past_questions": 0,
+      "source_file_ids": [],
+      "status": "source_not_found",
+      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+    },
+    {
+      "lecture_id": "pathology__atelactasis-acute-lung-injury",
+      "subject": "Pathology",
+      "title": "Atelactasis & acute lung injury",
+      "ai_questions": 0,
+      "past_questions": 0,
+      "source_file_ids": [],
+      "status": "source_not_found",
+      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+    },
+    {
+      "lecture_id": "pathology__pathology-of-bronchial-asthma",
+      "subject": "Pathology",
+      "title": "Pathology of bronchial Asthma",
+      "ai_questions": 0,
+      "past_questions": 0,
+      "source_file_ids": [],
+      "status": "source_not_found",
+      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+    },
+    {
+      "lecture_id": "pathology__obstructive-airway-diseases",
+      "subject": "Pathology",
+      "title": "Obstructive airway diseases",
+      "ai_questions": 0,
+      "past_questions": 0,
+      "source_file_ids": [],
+      "status": "source_not_found",
+      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+    },
+    {
+      "lecture_id": "pathology__restrictive-airway-diseases",
+      "subject": "Pathology",
+      "title": "Restrictive airway diseases",
+      "ai_questions": 0,
+      "past_questions": 0,
+      "source_file_ids": [],
+      "status": "source_not_found",
+      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+    },
+    {
+      "lecture_id": "pathology__pulmonary-vessel-diseases",
+      "subject": "Pathology",
+      "title": "Pulmonary vessel diseases",
+      "ai_questions": 0,
+      "past_questions": 0,
+      "source_file_ids": [],
+      "status": "source_not_found",
+      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+    },
+    {
+      "lecture_id": "pathology__pulmonary-infection",
+      "subject": "Pathology",
+      "title": "Pulmonary infection",
+      "ai_questions": 0,
+      "past_questions": 0,
+      "source_file_ids": [],
+      "status": "source_not_found",
+      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+    },
+    {
+      "lecture_id": "pathology__pulmonary-neoplasia",
+      "subject": "Pathology",
+      "title": "Pulmonary Neoplasia",
+      "ai_questions": 0,
+      "past_questions": 0,
+      "source_file_ids": [],
+      "status": "source_not_found",
+      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+    },
+    {
+      "lecture_id": "pathology__lymphadenopathy",
+      "subject": "Pathology",
+      "title": "Lymphadenopathy",
+      "ai_questions": 20,
+      "past_questions": 18,
+      "source_file_ids": [
+        "10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "pharmacology__drugs-used-in-the-treatment-of-bronchial-asthma",
+      "subject": "Pharmacology",
+      "title": "Drugs used in the treatment of bronchial asthma",
+      "ai_questions": 0,
+      "past_questions": 0,
+      "source_file_ids": [],
+      "status": "source_not_found",
+      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+    },
+    {
+      "lecture_id": "pharmacology__anti-lipidemic-drugs",
+      "subject": "Pharmacology",
+      "title": "Anti-lipidemic drugs",
+      "ai_questions": 9,
+      "past_questions": 12,
+      "source_file_ids": [
+        "1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "pharmacology__drugs-used-in-treatment-of-pulmonary-embolism",
+      "subject": "Pharmacology",
+      "title": "Drugs used in treatment of pulmonary Embolism",
+      "ai_questions": 9,
+      "past_questions": 0,
+      "source_file_ids": [
+        "1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "pharmacology__drug-therapy-of-respiratory-infections",
+      "subject": "Pharmacology",
+      "title": "Drug therapy of respiratory infections",
+      "ai_questions": 0,
+      "past_questions": 0,
+      "source_file_ids": [],
+      "status": "source_not_found",
+      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+    },
+    {
+      "lecture_id": "pharmacology__antiplatelet-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiplatelet drugs",
+      "ai_questions": 9,
+      "past_questions": 4,
+      "source_file_ids": [
+        "1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "pharmacology__drug-therapy-of-cough-and-copd-1",
+      "subject": "Pharmacology",
+      "title": "Drug therapy of cough and COPD 1",
+      "ai_questions": 0,
+      "past_questions": 0,
+      "source_file_ids": [],
+      "status": "source_not_found",
+      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+    },
+    {
+      "lecture_id": "pharmacology__drug-therapy-of-cough-and-copd-2",
+      "subject": "Pharmacology",
+      "title": "Drug therapy of cough and COPD 2",
+      "ai_questions": 0,
+      "past_questions": 0,
+      "source_file_ids": [],
+      "status": "source_not_found",
+      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+    },
+    {
+      "lecture_id": "pharmacology__antihypertensive-drugs-1",
+      "subject": "Pharmacology",
+      "title": "Antihypertensive drugs -1",
+      "ai_questions": 9,
+      "past_questions": 1,
+      "source_file_ids": [
+        "11ZztQA_d1F4x9wB69Olsoc-d823jwFqm"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "pharmacology__antihypertensive-drugs-2",
+      "subject": "Pharmacology",
+      "title": "Antihypertensive drugs -2",
+      "ai_questions": 15,
+      "past_questions": 0,
+      "source_file_ids": [
+        "11ZztQA_d1F4x9wB69Olsoc-d823jwFqm"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "pharmacology__anti-anginal-drugs",
+      "subject": "Pharmacology",
+      "title": "Anti-anginal drugs",
+      "ai_questions": 20,
+      "past_questions": 7,
+      "source_file_ids": [
+        "1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "pharmacology__drugs-used-in-heart-failure",
+      "subject": "Pharmacology",
+      "title": "Drugs used in Heart failure",
+      "ai_questions": 0,
+      "past_questions": 0,
+      "source_file_ids": [],
+      "status": "source_not_found",
+      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+    },
+    {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "ai_questions": 34,
+      "past_questions": 0,
+      "source_file_ids": [
+        "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "pharmacology__treatment-of-anemia",
+      "subject": "Pharmacology",
+      "title": "Treatment of anemia",
+      "ai_questions": 11,
+      "past_questions": 25,
+      "source_file_ids": [
+        "1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "pharmacology__treatment-of-hematological-malignancy",
+      "subject": "Pharmacology",
+      "title": "Treatment of hematological malignancy",
+      "ai_questions": 16,
+      "past_questions": 0,
+      "source_file_ids": [
+        "1Aj5OXNtQh2z591zY5ZtiwNJItBL4R9Yl"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "pharmacology__drugs-affecting-hemostasis",
+      "subject": "Pharmacology",
+      "title": "Drugs affecting hemostasis",
+      "ai_questions": 9,
+      "past_questions": 10,
+      "source_file_ids": [
+        "11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "pharmacology__immunosuppressant-immunomodulators",
+      "subject": "Pharmacology",
+      "title": "Immunosuppressant & immunomodulators",
+      "ai_questions": 9,
+      "past_questions": 3,
+      "source_file_ids": [
+        "1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "pharmacology__pharmacotherapy-of-hypersensitivity",
+      "subject": "Pharmacology",
+      "title": "Pharmacotherapy of Hypersensitivity",
+      "ai_questions": 9,
+      "past_questions": 4,
+      "source_file_ids": [
+        "1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "pharmacology__treatment-of-tb",
+      "subject": "Pharmacology",
+      "title": "Treatment of TB",
+      "ai_questions": 0,
+      "past_questions": 0,
+      "source_file_ids": [],
+      "status": "source_not_found",
+      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+    },
+    {
+      "lecture_id": "pharmacology__treatment-of-malaria",
+      "subject": "Pharmacology",
+      "title": "Treatment of Malaria",
+      "ai_questions": 10,
+      "past_questions": 5,
+      "source_file_ids": [
+        "14vfFkvXZlceusubx4H2RN-ttsGLXdkbj"
+      ],
+      "status": "partial_source_coverage",
+      "note": "Treatment and prophylaxis supported by Malaria II; a separate pharmacology source covering all mechanisms/toxicities was not found."
+    },
+    {
+      "lecture_id": "microbiology__malaria",
+      "subject": "Microbiology",
+      "title": "Malaria",
+      "ai_questions": 20,
+      "past_questions": 28,
+      "source_file_ids": [
+        "11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "microbiology__malaria-babesiosis",
+      "subject": "Microbiology",
+      "title": "Malaria & Babesiosis",
+      "ai_questions": 9,
+      "past_questions": 5,
+      "source_file_ids": [
+        "14vfFkvXZlceusubx4H2RN-ttsGLXdkbj"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "microbiology__visceral-leishmaniasis",
+      "subject": "Microbiology",
+      "title": "Visceral leishmaniasis",
+      "ai_questions": 0,
+      "past_questions": 0,
+      "source_file_ids": [],
+      "status": "source_not_found",
+      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+    },
+    {
+      "lecture_id": "microbiology__lymphatic-filariasis",
+      "subject": "Microbiology",
+      "title": "Lymphatic filariasis",
+      "ai_questions": 9,
+      "past_questions": 6,
+      "source_file_ids": [
+        "1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "microbiology__verminous-pneumonia-parasitic-larvae-invading-lung",
+      "subject": "Microbiology",
+      "title": "Verminous pneumonia (Parasitic larvae invading lung)",
+      "ai_questions": 0,
+      "past_questions": 0,
+      "source_file_ids": [],
+      "status": "source_not_found",
+      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+    },
+    {
+      "lecture_id": "microbiology__cystic-parasitic-diseases-of-the-lung",
+      "subject": "Microbiology",
+      "title": "Cystic parasitic diseases of the lung",
+      "ai_questions": 0,
+      "past_questions": 0,
+      "source_file_ids": [],
+      "status": "source_not_found",
+      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+    },
+    {
+      "lecture_id": "microbiology__upper-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Upper respiratory tract infections",
+      "ai_questions": 0,
+      "past_questions": 0,
+      "source_file_ids": [],
+      "status": "source_not_found",
+      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+    },
+    {
+      "lecture_id": "microbiology__lower-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Lower respiratory tract infections",
+      "ai_questions": 0,
+      "past_questions": 0,
+      "source_file_ids": [],
+      "status": "source_not_found",
+      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+    },
+    {
+      "lecture_id": "microbiology__lung-immunology-innate-acquired-immune-responses-in-respiratory-infections",
+      "subject": "Microbiology",
+      "title": "Lung immunology:Innate & acquired immune responses in respiratory infections",
+      "ai_questions": 0,
+      "past_questions": 0,
+      "source_file_ids": [],
+      "status": "source_not_found",
+      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+    },
+    {
+      "lecture_id": "microbiology__immune-dysregulation-in-sepsis",
+      "subject": "Microbiology",
+      "title": "Immune dysregulation in sepsis",
+      "ai_questions": 18,
+      "past_questions": 1,
+      "source_file_ids": [
+        "1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "microbiology__hypersensitivity-reactions-1",
+      "subject": "Microbiology",
+      "title": "Hypersensitivity Reactions – 1",
+      "ai_questions": 9,
+      "past_questions": 11,
+      "source_file_ids": [
+        "1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "microbiology__hypersensitivity-reactions-2",
+      "subject": "Microbiology",
+      "title": "Hypersensitivity Reactions – 2",
+      "ai_questions": 9,
+      "past_questions": 6,
+      "source_file_ids": [
+        "1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "microbiology__immunodeficiency-disorders",
+      "subject": "Microbiology",
+      "title": "Immunodeficiency Disorders",
+      "ai_questions": 9,
+      "past_questions": 6,
+      "source_file_ids": [
+        "1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "microbiology__autoimmune-diseases",
+      "subject": "Microbiology",
+      "title": "Autoimmune Diseases",
+      "ai_questions": 9,
+      "past_questions": 1,
+      "source_file_ids": [
+        "1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    },
+    {
+      "lecture_id": "hematology__hemolytic-anemia",
+      "subject": "Hematology",
+      "title": "Hemolytic anemia",
+      "ai_questions": 9,
+      "past_questions": 16,
+      "source_file_ids": [
+        "1jODBvDorJgQ42QRYX75ODeTVk6Lr3lLe"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
+    }
+  ]
+}

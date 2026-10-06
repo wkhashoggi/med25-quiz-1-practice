@@ -2115,14 +2115,6 @@
       "method": "objectives",
       "quiz": 1
     },
-    "ibls-previous-years-p82-q1-317": {
-      "lecture_id": "biochemistry__heme-catabolism",
-      "subject": "Biochemistry",
-      "title": "Heme catabolism",
-      "confidence": 1,
-      "method": "source-title",
-      "quiz": 1
-    },
     "ibls-previous-years-p82-q2-318": {
       "lecture_id": "anatomy-histology__histology-of-the-lymphatic-system",
       "subject": "Anatomy & Histology",
@@ -7228,14 +7220,6 @@
       "method": "source-heading-and-stem-reviewed",
       "quiz": 2
     },
-    "cvs-med23-final-p20-q10-55": {
-      "lecture_id": "physiology__cardiac-cycle",
-      "subject": "Physiology",
-      "title": "Cardiac cycle",
-      "confidence": 0.95,
-      "method": "source-heading-and-stem-reviewed",
-      "quiz": 2
-    },
     "cvs-med23-final-p21-q11-56": {
       "lecture_id": "physiology__cardiac-cycle",
       "subject": "Physiology",
@@ -7268,22 +7252,6 @@
       "method": "source-heading-and-stem-reviewed",
       "quiz": 2
     },
-    "cvs-med23-final-p22-q15-60": {
-      "lecture_id": "physiology__cardiac-cycle",
-      "subject": "Physiology",
-      "title": "Cardiac cycle",
-      "confidence": 0.95,
-      "method": "source-heading-and-stem-reviewed",
-      "quiz": 2
-    },
-    "cvs-med23-final-p22-q16-61": {
-      "lecture_id": "physiology__cardiac-cycle",
-      "subject": "Physiology",
-      "title": "Cardiac cycle",
-      "confidence": 0.95,
-      "method": "source-heading-and-stem-reviewed",
-      "quiz": 2
-    },
     "cvs-med23-final-p23-q17-62": {
       "lecture_id": "physiology__cardiac-cycle",
       "subject": "Physiology",
@@ -7293,14 +7261,6 @@
       "quiz": 2
     },
     "cvs-med23-final-p23-q18-63": {
-      "lecture_id": "physiology__cardiac-cycle",
-      "subject": "Physiology",
-      "title": "Cardiac cycle",
-      "confidence": 0.95,
-      "method": "source-heading-and-stem-reviewed",
-      "quiz": 2
-    },
-    "cvs-med23-final-p23-q19-64": {
       "lecture_id": "physiology__cardiac-cycle",
       "subject": "Physiology",
       "title": "Cardiac cycle",
@@ -9820,14 +9780,6 @@
       "method": "source-heading-and-stem-reviewed",
       "quiz": 2
     },
-    "rs-med24-mid-p73-q7-159": {
-      "lecture_id": "anatomy-histology__anatomical-relations-of-the-lungs",
-      "subject": "Anatomy & Histology",
-      "title": "Anatomical relations of the lungs",
-      "confidence": 0.95,
-      "method": "source-heading-and-stem-reviewed",
-      "quiz": 2
-    },
     "rs-med24-mid-p73-q8-160": {
       "lecture_id": "anatomy-histology__anatomical-relations-of-the-lungs",
       "subject": "Anatomy & Histology",
@@ -10789,12 +10741,12 @@
       "quiz": 2
     },
     "rs-med24-final-p9-q12-12": {
-      "lecture_id": "physiology__neural-control-of-breathing",
+      "lecture_id": "physiology__regulation-of-abp-cv-centers-short-term-regulation",
       "subject": "Physiology",
-      "title": "Neural control of breathing",
-      "confidence": 0.95,
-      "method": "source-heading-and-stem-reviewed",
-      "quiz": 2
+      "title": "Regulation of ABP (CV centers & short-term regulation)",
+      "confidence": 1,
+      "method": "source-title",
+      "quiz": 1
     },
     "rs-med24-final-p10-q13-13": {
       "lecture_id": "physiology__neural-control-of-breathing",

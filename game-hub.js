@@ -466,35 +466,40 @@ async function gameAwardBonus(eventKey,eventType,xp){
 async function gameRecordAttempt(source,questionId,correct){
   gameUpdateQuizBadge();
   source=String(source||'').toLowerCase();
-  if(!GAME_SCOREABLE_SOURCES.has(source))return;
-  if(!currentUser||!authSession?.access_token||typeof correct!=='boolean')return;
+  if(!GAME_SCOREABLE_SOURCES.has(source)||!questionId||typeof correct!=='boolean')return {ok:false};
+  const userId=currentUser?.id;
+  if(!userId||!authSession?.access_token)return {ok:false};
   try{
     await gameEnsureProfile();
+    if(currentUser?.id!==userId)return {ok:false};
+    const filter='user_id=eq.'+encodeURIComponent(userId)+'&source=eq.'+encodeURIComponent(source)+'&question_id=eq.'+encodeURIComponent(questionId);
     const res=await supaFetch('/rest/v1/game_attempts?on_conflict=user_id,source,question_id',{
-      method:'POST',
-      headers:{Prefer:'resolution=ignore-duplicates,return=representation'},
-      body:JSON.stringify({user_id:currentUser.id,source,question_id:questionId,correct})
+      method:'POST',headers:{Prefer:'resolution=ignore-duplicates,return=representation'},
+      body:JSON.stringify({user_id:userId,source,question_id:questionId,correct})
     });
-    if(!res.ok)return;
+    if(!res.ok)throw new Error('XP save returned HTTP '+res.status);
     const rows=await res.json();
+    if(currentUser?.id!==userId)return {ok:true};
     if(rows.length){
-      const delta=Number(rows[0]?.points_delta ?? (correct?(GAME_SCORE[source]||5):GAME_SCORE.wrong));
-      // Update the visible profile immediately; the server refresh below remains authoritative.
-      if(gameProfile&&Number.isFinite(delta)){
-        gameProfile={...gameProfile,
-          points:Number(gameProfile.points||0)+delta,
-          weekly_xp:Number(gameProfile.weekly_xp||0)+delta,
-          monthly_xp:Number(gameProfile.monthly_xp||0)+delta,
-          correct_first_attempts:Number(gameProfile.correct_first_attempts||0)+(correct?1:0),
-          wrong_first_attempts:Number(gameProfile.wrong_first_attempts||0)+(correct?0:1)
-        };
-        gameRenderProfile();
+      // AFTER INSERT scoring updates the stored row after RETURNING has captured its default 0.
+      // Read the committed award, including its server-calculated streak multiplier.
+      let delta=Number(rows[0]?.points_delta||0);
+      if(delta<=0){
+        const award=await supaFetch('/rest/v1/game_attempts?'+filter+'&select=points_delta&limit=1');
+        if(!award.ok)throw new Error('XP confirmation returned HTTP '+award.status);
+        const scored=await award.json();delta=Number(scored[0]?.points_delta||0);
       }
-      gameScoreToast(delta);
-      await gameRefreshProfile();
-      gameLoadLeaderboard(true);
+      if(currentUser?.id!==userId)return {ok:true};
+      if(delta>0)gameScoreToast(delta);
+      else gameSetProfileStatus('Answer saved. XP confirmation is pending.');
     }
-  }catch(e){console.warn('Game score unavailable',e)}
+    await gameRefreshProfile();gameLoadLeaderboard(true);
+    return {ok:true,inserted:rows.length>0};
+  }catch(e){
+    if(currentUser?.id===userId)gameSetProfileStatus('XP sync pending — your answer is saved and will retry.',true);
+    console.warn('Game score sync pending',e);
+    return {ok:false};
+  }
 }
 
 async function gameLoadLeaderboard(force=false){
@@ -624,7 +629,7 @@ function gameQuizSourceLabel(item){
 
 function gameQuizSourceUrl(item){
   const q=item.q;
-  return q.source_url||q.lecture_source?.drive_url||'';
+  return q.review_references?.[0]?.url||q.source_url||q.lecture_source?.drive_url||'';
 }
 
 function gameQuizExplanation(item){
@@ -668,9 +673,10 @@ function gameRenderQuiz(){
     '<article class="quizCard">'+
       '<div class="quizCardTop"><div><span class="quizSource">'+gameQuizSourceLabel(item)+'</span><span class="quizCount">Mistake '+(gameQuizState.index+1)+' of '+gameQuizState.queue.length+'</span></div><span class="quizFresh">Fresh attempt</span></div>'+
       '<h3>'+esc(q.stem||'')+'</h3>'+
+        (typeof pastQuestionFigure==='function'?pastQuestionFigure(q):'')+
       '<div class="quizOptions">'+optionHtml+'</div>'+
       feedback+
-      (sourceUrl?'<a class="quizSourceLink" href="'+esc(sourceUrl)+'" target="_blank" rel="noopener">Open source lecture ↗</a>':'')+
+      (sourceUrl?'<a class="quizSourceLink" href="'+esc(sourceUrl)+'" target="_blank" rel="noopener">Open supporting source ↗</a>':'')+
     '</article>';
   stage.querySelectorAll('[data-quiz-opt]').forEach(btn=>btn.onclick=()=>gameAnswerQuiz(btn.dataset.quizOpt));
   document.getElementById('quizNextBtn')?.addEventListener('click',gameQuizNext);
@@ -935,6 +941,7 @@ function gameMockRenderExam(){
       '<article class="mockQuestionCard">'+
         '<div class="mockQuestionMeta"><span>'+(item.source==='ai'?'AI Question':'Past Paper')+'</span><span>'+esc(item.subject)+'</span><span>'+esc(item.lectureTitle)+'</span><b>Question '+(exam.index+1)+' of '+exam.questions.length+'</b></div>'+
         '<h3>'+esc(q.stem||'')+'</h3>'+
+        (typeof pastQuestionFigure==='function'?pastQuestionFigure(q):'')+
         '<div class="mockOptions">'+Object.entries(q.options||{}).map(([k,v])=>
           '<button type="button" data-mock-answer="'+esc(k)+'" class="mockOption '+(selected===k?'selected':'')+'"><span>'+esc(k)+'</span><b>'+esc(v)+'</b></button>'
         ).join('')+'</div>'+
@@ -990,6 +997,7 @@ function gameMockRenderResults(){
         return '<article class="mockReviewCard '+(pick?(ok?'correct':'wrong'):'unanswered')+'">'+
           '<div class="mockReviewTop"><b>Q'+(i+1)+' · '+(item.source==='ai'?'AI':'Past Paper')+'</b><span>'+esc(item.lectureTitle)+'</span></div>'+
           '<h3>'+esc(q.stem||'')+'</h3>'+
+        (typeof pastQuestionFigure==='function'?pastQuestionFigure(q):'')+
           '<p><b>Your answer:</b> '+(pick?esc(pick+' · '+(q.options?.[pick]||'')):'Unanswered')+'</p>'+
           '<p><b>Correct answer:</b> '+esc(q.answer+' · '+(q.options?.[q.answer]||''))+'</p>'+
           (q.explanation||q.rationale?'<small>'+esc(q.explanation||q.rationale)+'</small>':'')+
@@ -1120,7 +1128,7 @@ function gamePatchScoring(){
     const wrapped=function(id,opt){
       const before=!!saved[id]?.answered;
       const out=base.apply(this,arguments);
-      if(!before&&typeof saved[id]?.correct==='boolean')gameRecordAttempt('past',id,saved[id].correct);
+      if(!before&&typeof saved[id]?.correct==='boolean')(window.med25GameRecordAttempt||gameRecordAttempt)('past',id,saved[id].correct);
       gameUpdateQuizBadge();
       return out;
     };

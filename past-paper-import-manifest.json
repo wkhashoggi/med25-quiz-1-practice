@@ -26,7 +26,7 @@
   "new_questions": 662,
   "matched_existing_or_duplicate": 58,
   "original_question_count": 838,
-  "total_questions": 1292,
+  "total_questions": 1286,
   "quiz_basis": "Current Quiz 1 Smart Master Plan, To Do List for 2nd Quiz, study-guide objectives and existing site boundary. Respiratory PBL/SPP questions grouped with Quiz 2 as related content; quiz tags describe topic coverage, not original exam provenance.",
   "quiz_scope_sources": [
     {
@@ -585,7 +585,7 @@
       "number": 10,
       "url": "assets/past-papers/cvs-med23-final.pdf#page=20",
       "source_question_id": "cvs-med23-final-p20-q10-55",
-      "question_id": "cvs-med23-final-p20-q10-55",
+      "question_id": "cvs-med23-final-p20-q8-53",
       "lecture_id": "physiology__cardiac-cycle",
       "quiz": 2
     },
@@ -635,7 +635,7 @@
       "number": 15,
       "url": "assets/past-papers/cvs-med23-final.pdf#page=22",
       "source_question_id": "cvs-med23-final-p22-q15-60",
-      "question_id": "cvs-med23-final-p22-q15-60",
+      "question_id": "cvs-med23-final-p20-q9-54",
       "lecture_id": "physiology__cardiac-cycle",
       "quiz": 2
     },
@@ -645,7 +645,7 @@
       "number": 16,
       "url": "assets/past-papers/cvs-med23-final.pdf#page=22",
       "source_question_id": "cvs-med23-final-p22-q16-61",
-      "question_id": "cvs-med23-final-p22-q16-61",
+      "question_id": "cvs-med23-final-p21-q13-58",
       "lecture_id": "physiology__cardiac-cycle",
       "quiz": 2
     },
@@ -675,7 +675,7 @@
       "number": 19,
       "url": "assets/past-papers/cvs-med23-final.pdf#page=23",
       "source_question_id": "cvs-med23-final-p23-q19-64",
-      "question_id": "cvs-med23-final-p23-q19-64",
+      "question_id": "cvs-med23-final-p20-q9-54",
       "lecture_id": "physiology__cardiac-cycle",
       "quiz": 2
     },
@@ -4075,7 +4075,7 @@
       "number": 7,
       "url": "assets/past-papers/rs-med24-mid.pdf#page=73",
       "source_question_id": "rs-med24-mid-p73-q7-159",
-      "question_id": "rs-med24-mid-p73-q7-159",
+      "question_id": "rs-med24-mid-p72-q4-156",
       "lecture_id": "anatomy-histology__anatomical-relations-of-the-lungs",
       "quiz": 2
     },
@@ -7241,15 +7241,35 @@
     }
   ],
   "repeated_concept_method": "Conservative concept matches from each stem and keyed answer, supplemented by existing reviewed concepts. At least three distinct normalized stems across at least two source papers; exact duplicate stems do not inflate conceptual counts.",
-  "duplicate_question_rows_removed": 208,
+  "duplicate_question_rows_removed": 214,
   "proofreading": {
     "reviewed_rows": 1500,
-    "unique_questions": 1292,
-    "needs_review": 122,
-    "mock_ready": 963,
+    "unique_questions": 1286,
+    "needs_review": 0,
+    "mock_ready": 1072,
     "audit_file": "past-paper-proofreading-audit.json",
     "changed_or_flagged_original_rows": 214,
     "corrected_original_rows": 72,
-    "corrected_unique_questions": 58
+    "corrected_unique_questions": 58,
+    "final_answer_audit_file": "past-paper-final-answer-review.json"
+  },
+  "final_answer_review": {
+    "reviewed_at": "2026-10-06",
+    "reviewed_questions": 122,
+    "remaining_needs_review": 0,
+    "slide_checked": 55,
+    "reference_checked": 67,
+    "figures_restored": 16,
+    "additional_duplicate_rows_removed": 6,
+    "question_id_aliases": {
+      "ibls-previous-years-p82-q1-317": "ibls-previous-years-p19-q24-59",
+      "cvs-med23-final-p20-q10-55": "cvs-med23-final-p20-q8-53",
+      "cvs-med23-final-p22-q15-60": "cvs-med23-final-p20-q9-54",
+      "cvs-med23-final-p23-q19-64": "cvs-med23-final-p20-q9-54",
+      "cvs-med23-final-p22-q16-61": "cvs-med23-final-p21-q13-58",
+      "rs-med24-mid-p73-q7-159": "rs-med24-mid-p72-q4-156"
+    },
+    "published_reviewed_questions": 116,
+    "published_figures": 14
   }
 }

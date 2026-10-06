@@ -1,7 +1,7 @@
 {
   "reviewed_rows": 1500,
-  "unique_questions": 1292,
-  "removed_duplicate_rows": 208,
+  "unique_questions": 1286,
+  "removed_duplicate_rows": 214,
   "question_id_aliases": {
     "ibls-previous-years-p17-q15-51": "ibls-previous-years-p4-q3-1",
     "ibls-previous-years-p17-q16-52": "ibls-previous-years-p4-q5-2",
@@ -210,7 +210,13 @@
     "rs-med24-final-p40-q9-69": "rs-med24-mid-p94-q16-203",
     "rs-med24-final-p15-q5-25": "rs-med24-final-p14-q3-23",
     "rs-med24-final-p24-q15-40": "rs-med24-final-p20-q7-32",
-    "rs-med24-final-p32-q12-54": "rs-med24-final-p29-q8-50"
+    "rs-med24-final-p32-q12-54": "rs-med24-final-p29-q8-50",
+    "ibls-previous-years-p82-q1-317": "ibls-previous-years-p19-q24-59",
+    "cvs-med23-final-p20-q10-55": "cvs-med23-final-p20-q8-53",
+    "cvs-med23-final-p22-q15-60": "cvs-med23-final-p20-q9-54",
+    "cvs-med23-final-p23-q19-64": "cvs-med23-final-p20-q9-54",
+    "cvs-med23-final-p22-q16-61": "cvs-med23-final-p21-q13-58",
+    "rs-med24-mid-p73-q7-159": "rs-med24-mid-p72-q4-156"
   },
   "corrections": [
     {
@@ -23130,131 +23136,477 @@
         ],
         "proofreading_status": "reviewed"
       }
+    },
+    {
+      "removed_id": "ibls-previous-years-p82-q1-317",
+      "kept_id": "ibls-previous-years-p19-q24-59",
+      "reason": "Same question verified after restoring figures or clarifying equivalent recalled choices.",
+      "variant": {
+        "id": "ibls-previous-years-p82-q1-317",
+        "bank": "IBLS Previous Years",
+        "module": "IBLS",
+        "page": 82,
+        "section": "IBLS midterm",
+        "number": 1,
+        "stem": "Which reabsorbed, colorless intestinal bilirubin metabolite partly escapes hepatic clearance and is normally excreted by the kidneys?",
+        "options": {
+          "A": "urobilin",
+          "B": "urobilinogen",
+          "C": "uroporphyrn",
+          "D": "uroporphyrinogen"
+        },
+        "answer": "B",
+        "explicit_answer_text": null,
+        "source_file": "C&B Module 13 - IBLS.pdf",
+        "topic": "Heme synthesis / porphyrias",
+        "excluded_reason": null,
+        "concepts": [],
+        "high_yield": false,
+        "repeat_count": 0,
+        "explanation": "A small fraction of reabsorbed urobilinogen escapes hepatic clearance and is excreted by the kidneys. Urobilin is its oxidized colored derivative.",
+        "answer_text": "urobilinogen",
+        "lecture_source": {
+          "key": "study-guide:biochemistry__heme-catabolism",
+          "title": "Heme catabolism",
+          "drive_url": "https://drive.google.com/file/d/1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs/view",
+          "score": 1
+        },
+        "topic_repeat_count": 29,
+        "frequent_topic": true,
+        "high_yield_reason": null,
+        "explanation_status": "reviewed",
+        "bank_source_url": "https://drive.google.com/file/d/1vsrAWvgkHkVqY7JC5N1cbKf5QQ8_-zpV/view",
+        "quiz": 1,
+        "lecture_id": "biochemistry__heme-catabolism",
+        "source_kind": "past_paper",
+        "tags": [
+          "Past paper question",
+          "Quiz 1",
+          "Heme catabolism"
+        ],
+        "exam_ready": true,
+        "incomplete_reason": "",
+        "proofreading_status": "resolved",
+        "proofreading_notes": "The recalled wording/options were clarified to make one answer correct. The original paper remains available.",
+        "proofreading_references": [
+          "https://drive.google.com/file/d/1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs/view"
+        ],
+        "past_paper_sources": [
+          {
+            "file": "C&B Module 13 - IBLS.pdf",
+            "page": 82,
+            "number": 1,
+            "url": "https://drive.google.com/file/d/1vsrAWvgkHkVqY7JC5N1cbKf5QQ8_-zpV/view",
+            "source_question_id": "ibls-previous-years-p82-q1-317"
+          }
+        ],
+        "question_repeat_count": 1,
+        "duplicate_question_ids": [],
+        "repeated_concepts": [],
+        "original_bank_answer": "B",
+        "original_bank_answer_text": "urobilinogen",
+        "answer_basis": "slide-reviewed",
+        "reviewed_at": "2026-10-06",
+        "review_references": [
+          {
+            "title": "Heme catabolism",
+            "url": "https://drive.google.com/file/d/1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs/view"
+          }
+        ],
+        "review_edit_kind": "clarified",
+        "review_note": "The recalled wording/options were clarified to make one answer correct. The original paper remains available.",
+        "review_revision": "2026-10-06-final"
+      }
+    },
+    {
+      "removed_id": "cvs-med23-final-p20-q10-55",
+      "kept_id": "cvs-med23-final-p20-q8-53",
+      "reason": "Same question verified after restoring figures or clarifying equivalent recalled choices.",
+      "variant": {
+        "page": 20,
+        "number": 10,
+        "section": "Cardiac cycle",
+        "answer": "A",
+        "stem": "Which line represents the isovolumetric relaxation phase in the pressure-volume loop of the left ventricle?",
+        "options": {
+          "A": "Line D-A",
+          "B": "Line B-C",
+          "C": "Line C-D",
+          "D": "Line A-B"
+        },
+        "answer_text": "Line D-A",
+        "id": "cvs-med23-final-p20-q10-55",
+        "source_file": "Final  2.pdf",
+        "bank": "Final  2.pdf",
+        "module": "CVS",
+        "bank_source_url": "assets/past-papers/cvs-med23-final.pdf#page=20",
+        "source_kind": "past_paper",
+        "answer_basis": "slide-reviewed",
+        "explanation_status": "reviewed",
+        "explanation": "On this loop, D–A is the vertical pressure fall at end-systolic volume. Both valves are closed, so volume remains constant during isovolumetric relaxation.",
+        "high_yield": true,
+        "repeat_count": 12,
+        "concepts": [
+          "Cardiac cycle / valve closure and heart sounds"
+        ],
+        "topic": "Cardiac cycle",
+        "quiz": 2,
+        "tags": [
+          "Past paper question",
+          "Quiz 2",
+          "Cardiac cycle"
+        ],
+        "lecture_id": "physiology__cardiac-cycle",
+        "lecture_source": {
+          "key": "study-guide:physiology__cardiac-cycle",
+          "title": "Cardiac cycle",
+          "drive_url": "https://drive.google.com/file/d/1Bxpdr7P5CPgwQMW5UITveipcTzdPo4CY/view"
+        },
+        "past_paper_sources": [
+          {
+            "file": "Final  2.pdf",
+            "page": 20,
+            "number": 10,
+            "url": "assets/past-papers/cvs-med23-final.pdf#page=20",
+            "source_question_id": "cvs-med23-final-p20-q10-55"
+          }
+        ],
+        "high_yield_reason": "repeated_concept",
+        "repeated_concepts": [
+          "Cardiac cycle / valve closure and heart sounds"
+        ],
+        "exam_ready": true,
+        "incomplete_reason": "",
+        "proofreading_status": "resolved",
+        "proofreading_notes": "Restored and checked the letter labels on the original pressure–volume diagram.",
+        "proofreading_references": [
+          "https://drive.google.com/file/d/1ZETi5-lxYRHDYlLhSY5qHhqCG0Zp18Sm/view"
+        ],
+        "question_repeat_count": 1,
+        "duplicate_question_ids": [],
+        "original_bank_answer": "A",
+        "original_bank_answer_text": "Line D-A",
+        "reviewed_at": "2026-10-06",
+        "review_references": [
+          {
+            "title": "Cardiac cycle · valve events and pressure–volume loop",
+            "url": "https://drive.google.com/file/d/1ZETi5-lxYRHDYlLhSY5qHhqCG0Zp18Sm/view"
+          }
+        ],
+        "review_edit_kind": "answer_verified",
+        "review_note": "Restored and checked the letter labels on the original pressure–volume diagram.",
+        "question_figure": {
+          "url": "assets/question-figures/cvs-med23-final-p20-q10-55.png",
+          "alt": "Original question figure. Pressure–volume loop with the original point labels.",
+          "caption": "Original paper · page 20"
+        },
+        "review_revision": "2026-10-06-final"
+      }
+    },
+    {
+      "removed_id": "cvs-med23-final-p22-q15-60",
+      "kept_id": "cvs-med23-final-p20-q9-54",
+      "reason": "Same question verified after restoring figures or clarifying equivalent recalled choices.",
+      "variant": {
+        "page": 22,
+        "number": 15,
+        "section": "Cardiac cycle",
+        "answer": "A",
+        "stem": "At which point does the mitral valve closure occur?",
+        "options": {
+          "A": "B",
+          "B": "A",
+          "C": "D",
+          "D": "C"
+        },
+        "answer_text": "B",
+        "id": "cvs-med23-final-p22-q15-60",
+        "source_file": "Final  2.pdf",
+        "bank": "Final  2.pdf",
+        "module": "CVS",
+        "bank_source_url": "assets/past-papers/cvs-med23-final.pdf#page=22",
+        "source_kind": "past_paper",
+        "answer_basis": "slide-reviewed",
+        "explanation_status": "reviewed",
+        "explanation": "Mitral closure occurs at the end of ventricular filling, at the bottom-right corner of this loop (point B), immediately before isovolumetric contraction.",
+        "high_yield": false,
+        "repeat_count": 0,
+        "concepts": [],
+        "topic": "Cardiac cycle",
+        "quiz": 2,
+        "tags": [
+          "Past paper question",
+          "Quiz 2",
+          "Cardiac cycle"
+        ],
+        "lecture_id": "physiology__cardiac-cycle",
+        "lecture_source": {
+          "key": "study-guide:physiology__cardiac-cycle",
+          "title": "Cardiac cycle",
+          "drive_url": "https://drive.google.com/file/d/1Bxpdr7P5CPgwQMW5UITveipcTzdPo4CY/view"
+        },
+        "past_paper_sources": [
+          {
+            "file": "Final  2.pdf",
+            "page": 22,
+            "number": 15,
+            "url": "assets/past-papers/cvs-med23-final.pdf#page=22",
+            "source_question_id": "cvs-med23-final-p22-q15-60"
+          }
+        ],
+        "exam_ready": true,
+        "incomplete_reason": "",
+        "proofreading_status": "resolved",
+        "proofreading_notes": "Checked the actual diagram labels: point B is mitral closure on this figure.",
+        "proofreading_references": [
+          "https://drive.google.com/file/d/1ZETi5-lxYRHDYlLhSY5qHhqCG0Zp18Sm/view"
+        ],
+        "question_repeat_count": 1,
+        "duplicate_question_ids": [],
+        "repeated_concepts": [],
+        "original_bank_answer": "A",
+        "original_bank_answer_text": "B",
+        "reviewed_at": "2026-10-06",
+        "review_references": [
+          {
+            "title": "Cardiac cycle · valve events and pressure–volume loop",
+            "url": "https://drive.google.com/file/d/1ZETi5-lxYRHDYlLhSY5qHhqCG0Zp18Sm/view"
+          }
+        ],
+        "review_edit_kind": "answer_verified",
+        "review_note": "Checked the actual diagram labels: point B is mitral closure on this figure.",
+        "question_figure": {
+          "url": "assets/question-figures/cvs-med23-final-p22-q15-60.png",
+          "alt": "Original question figure. Pressure–volume loop with the original point labels.",
+          "caption": "Original paper · page 22"
+        },
+        "review_revision": "2026-10-06-final"
+      }
+    },
+    {
+      "removed_id": "cvs-med23-final-p23-q19-64",
+      "kept_id": "cvs-med23-final-p20-q9-54",
+      "reason": "Same question verified after restoring figures or clarifying equivalent recalled choices.",
+      "variant": {
+        "page": 23,
+        "number": 19,
+        "section": "Cardiac cycle",
+        "answer": "B",
+        "stem": "Which valve event begins left-ventricular isovolumetric contraction?",
+        "options": {
+          "A": "Aortic valve closure",
+          "B": "Mitral valve closure",
+          "C": "Aortic valve opening",
+          "D": "Mitral valve opening"
+        },
+        "answer_text": "Mitral valve closure",
+        "id": "cvs-med23-final-p23-q19-64",
+        "source_file": "Final  2.pdf",
+        "bank": "Final  2.pdf",
+        "module": "CVS",
+        "bank_source_url": "assets/past-papers/cvs-med23-final.pdf#page=23",
+        "source_kind": "past_paper",
+        "answer_basis": "slide-reviewed",
+        "explanation_status": "reviewed",
+        "explanation": "The mitral valve closes when LV pressure first exceeds left atrial pressure at end-diastolic volume. This begins isovolumetric contraction.",
+        "high_yield": false,
+        "repeat_count": 0,
+        "concepts": [],
+        "topic": "Cardiac cycle",
+        "quiz": 2,
+        "tags": [
+          "Past paper question",
+          "Quiz 2",
+          "Cardiac cycle"
+        ],
+        "lecture_id": "physiology__cardiac-cycle",
+        "lecture_source": {
+          "key": "study-guide:physiology__cardiac-cycle",
+          "title": "Cardiac cycle",
+          "drive_url": "https://drive.google.com/file/d/1Bxpdr7P5CPgwQMW5UITveipcTzdPo4CY/view"
+        },
+        "past_paper_sources": [
+          {
+            "file": "Final  2.pdf",
+            "page": 23,
+            "number": 19,
+            "url": "assets/past-papers/cvs-med23-final.pdf#page=23",
+            "source_question_id": "cvs-med23-final-p23-q19-64"
+          }
+        ],
+        "exam_ready": true,
+        "incomplete_reason": "",
+        "proofreading_status": "resolved",
+        "proofreading_notes": "The original paper contains a broken image placeholder. This adaptation tests the same valve event without inventing original diagram labels.",
+        "proofreading_references": [
+          "https://drive.google.com/file/d/1ZETi5-lxYRHDYlLhSY5qHhqCG0Zp18Sm/view"
+        ],
+        "question_repeat_count": 1,
+        "duplicate_question_ids": [],
+        "repeated_concepts": [],
+        "original_bank_answer": "B",
+        "original_bank_answer_text": "B",
+        "reviewed_at": "2026-10-06",
+        "review_references": [
+          {
+            "title": "Cardiac cycle · valve events and pressure–volume loop",
+            "url": "https://drive.google.com/file/d/1ZETi5-lxYRHDYlLhSY5qHhqCG0Zp18Sm/view"
+          }
+        ],
+        "review_edit_kind": "adapted",
+        "review_note": "The original paper contains a broken image placeholder. This adaptation tests the same valve event without inventing original diagram labels.",
+        "review_revision": "2026-10-06-final"
+      }
+    },
+    {
+      "removed_id": "cvs-med23-final-p22-q16-61",
+      "kept_id": "cvs-med23-final-p21-q13-58",
+      "reason": "Same question verified after restoring figures or clarifying equivalent recalled choices.",
+      "variant": {
+        "page": 22,
+        "number": 16,
+        "section": "Cardiac cycle",
+        "answer": "A",
+        "stem": "In a left-ventricular pressure–volume loop, which event marks the end of filling and the start of isovolumetric contraction?",
+        "options": {
+          "A": "Mitral valve closure",
+          "B": "Mitral valve opening",
+          "C": "Aortic valve opening",
+          "D": "Aortic valve closure"
+        },
+        "answer_text": "Mitral valve closure",
+        "id": "cvs-med23-final-p22-q16-61",
+        "source_file": "Final  2.pdf",
+        "bank": "Final  2.pdf",
+        "module": "CVS",
+        "bank_source_url": "assets/past-papers/cvs-med23-final.pdf#page=22",
+        "source_kind": "past_paper",
+        "answer_basis": "slide-reviewed",
+        "explanation_status": "reviewed",
+        "explanation": "Mitral closure marks the transition from filling to isovolumetric contraction at end-diastolic volume.",
+        "high_yield": false,
+        "repeat_count": 0,
+        "concepts": [],
+        "figure_required": true,
+        "exam_ready": true,
+        "incomplete_reason": "",
+        "topic": "Cardiac cycle",
+        "quiz": 2,
+        "tags": [
+          "Past paper question",
+          "Quiz 2",
+          "Cardiac cycle"
+        ],
+        "lecture_id": "physiology__cardiac-cycle",
+        "lecture_source": {
+          "key": "study-guide:physiology__cardiac-cycle",
+          "title": "Cardiac cycle",
+          "drive_url": "https://drive.google.com/file/d/1Bxpdr7P5CPgwQMW5UITveipcTzdPo4CY/view"
+        },
+        "past_paper_sources": [
+          {
+            "file": "Final  2.pdf",
+            "page": 22,
+            "number": 16,
+            "url": "assets/past-papers/cvs-med23-final.pdf#page=22",
+            "source_question_id": "cvs-med23-final-p22-q16-61"
+          }
+        ],
+        "proofreading_status": "resolved",
+        "proofreading_notes": "The source has no recoverable graph or choices, but names mitral closure. This text-based adaptation states the phase transition explicitly.",
+        "proofreading_references": [
+          "https://drive.google.com/file/d/1ZETi5-lxYRHDYlLhSY5qHhqCG0Zp18Sm/view"
+        ],
+        "question_repeat_count": 1,
+        "duplicate_question_ids": [],
+        "repeated_concepts": [],
+        "reviewed_at": "2026-10-06",
+        "review_references": [
+          {
+            "title": "Cardiac cycle · valve events and pressure–volume loop",
+            "url": "https://drive.google.com/file/d/1ZETi5-lxYRHDYlLhSY5qHhqCG0Zp18Sm/view"
+          }
+        ],
+        "review_edit_kind": "adapted",
+        "review_note": "The source has no recoverable graph or choices, but names mitral closure. This text-based adaptation states the phase transition explicitly.",
+        "review_revision": "2026-10-06-final"
+      }
+    },
+    {
+      "removed_id": "rs-med24-mid-p73-q7-159",
+      "kept_id": "rs-med24-mid-p72-q4-156",
+      "reason": "Same question verified after restoring figures or clarifying equivalent recalled choices.",
+      "variant": {
+        "page": 73,
+        "number": 7,
+        "section": "Anatomical relations of the lungs",
+        "answer": "B",
+        "stem": "Which vessel arches over the root and grooves the medial surface of the left lung?",
+        "options": {
+          "A": "Azygos vein",
+          "B": "Arch of the aorta",
+          "C": "Left atrium",
+          "D": "SVC"
+        },
+        "answer_text": "Arch of the aorta",
+        "id": "rs-med24-mid-p73-q7-159",
+        "source_file": "Popcorn24,Mid🍿.pdf",
+        "bank": "Popcorn24,Mid🍿.pdf",
+        "module": "RS",
+        "bank_source_url": "assets/past-papers/rs-med24-mid.pdf#page=73",
+        "source_kind": "past_paper",
+        "answer_basis": "reference-reviewed",
+        "explanation_status": "reviewed",
+        "explanation": "The arch of the aorta produces a groove above the left lung root. The azygos arch is a right-sided relation.",
+        "high_yield": false,
+        "repeat_count": 0,
+        "concepts": [],
+        "topic": "Anatomical relations of the lungs",
+        "quiz": 2,
+        "tags": [
+          "Past paper question",
+          "Quiz 2",
+          "Anatomical relations of the lungs"
+        ],
+        "lecture_id": "anatomy-histology__anatomical-relations-of-the-lungs",
+        "lecture_source": {
+          "key": "study-guide:anatomy-histology__anatomical-relations-of-the-lungs",
+          "title": "Anatomical relations of the lungs"
+        },
+        "past_paper_sources": [
+          {
+            "file": "Popcorn24,Mid🍿.pdf",
+            "page": 73,
+            "number": 7,
+            "url": "assets/past-papers/rs-med24-mid.pdf#page=73",
+            "source_question_id": "rs-med24-mid-p73-q7-159"
+          }
+        ],
+        "exam_ready": true,
+        "incomplete_reason": "",
+        "proofreading_status": "resolved",
+        "proofreading_notes": "The recalled wording/options were clarified to make one answer correct. The original paper remains available.",
+        "proofreading_references": [
+          "https://www.ncbi.nlm.nih.gov/books/NBK470197/"
+        ],
+        "question_repeat_count": 1,
+        "duplicate_question_ids": [],
+        "repeated_concepts": [],
+        "original_bank_answer": "B",
+        "original_bank_answer_text": "Arch of the aorta",
+        "reviewed_at": "2026-10-06",
+        "review_references": [
+          {
+            "title": "NCBI Bookshelf · Lung anatomy",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK470197/"
+          }
+        ],
+        "review_edit_kind": "clarified",
+        "review_note": "The recalled wording/options were clarified to make one answer correct. The original paper remains available.",
+        "review_revision": "2026-10-06-final"
+      }
     }
   ],
-  "needs_review_ids": [
-    "ibls-previous-years-p8-q28-20",
-    "ibls-previous-years-p11-q38-29",
-    "ibls-previous-years-p19-q24-59",
-    "ibls-previous-years-p27-q11-94",
-    "ibls-previous-years-p36-q17-131",
-    "ibls-previous-years-p37-q21-135",
-    "ibls-previous-years-p42-q8-152",
-    "ibls-previous-years-p43-q4-156",
-    "ibls-previous-years-p54-q1-198",
-    "ibls-previous-years-p55-q14-206",
-    "ibls-previous-years-p56-q21-209",
-    "ibls-previous-years-p58-q39-218",
-    "ibls-previous-years-p64-q25-244",
-    "ibls-previous-years-p75-q10-287",
-    "ibls-previous-years-p82-q1-317",
-    "ibls-previous-years-p92-q13-358",
-    "cvs-previous-years-p13-q2-28",
-    "cvs-previous-years-p17-q37-51",
-    "cvs-previous-years-p22-q39-76",
-    "cvs-previous-years-p45-q11-165",
-    "cvs-previous-years-p76-q4-284",
-    "cvs-med23-final-p45-q42-126",
-    "cvs-med23-final-p62-q8-171",
-    "cvs-previous-years-p89-q68-330",
-    "cvs-previous-years-p90-q74-335",
-    "cvs-previous-years-p108-q2-382",
-    "cvs-previous-years-p111-q19-393",
-    "cvs-previous-years-p120-q7-420",
-    "cvs-previous-years-p141-q12-481",
-    "cvs-previous-years-p142-q18-483",
-    "cvs-previous-years-p166-q27-552",
-    "cvs-previous-years-p168-q69-561",
-    "coordinator-formative-q34",
-    "coordinator-formative-q39",
-    "cvs-med23-final-p4-q10-10",
-    "cvs-med23-final-p5-q3-13",
-    "cvs-med23-final-p6-q6-16",
-    "cvs-med23-final-p6-q7-17",
-    "cvs-med23-final-p10-q4-29",
-    "cvs-med23-final-p13-q12-37",
-    "cvs-med23-final-p15-q5-42",
-    "cvs-med23-final-p16-q8-45",
-    "cvs-med23-final-p18-q3-48",
-    "cvs-med23-final-p20-q8-53",
-    "cvs-med23-final-p20-q9-54",
-    "cvs-med23-final-p20-q10-55",
-    "cvs-med23-final-p21-q13-58",
-    "cvs-med23-final-p22-q15-60",
-    "cvs-med23-final-p22-q16-61",
-    "cvs-med23-final-p23-q19-64",
-    "cvs-med23-final-p26-q2-67",
-    "cvs-med23-final-p30-q6-80",
-    "cvs-med23-final-p33-q2-87",
-    "cvs-med23-final-p51-q56-142",
-    "cvs-final-recall-p9-q26-26",
-    "cvs-final-recall-p14-q41-41",
-    "cvs-final-recall-p17-q49-48",
-    "cvs-final-recall-p18-q52-51",
-    "rs-med24-mid-p12-q5-18",
-    "rs-med24-mid-p25-q2-51",
-    "rs-med24-mid-p26-q3-52",
-    "rs-med24-mid-p32-q9-65",
-    "rs-med24-mid-p44-q8-89",
-    "rs-med24-mid-p46-q12-93",
-    "rs-med24-mid-p52-q9-104",
-    "rs-med24-mid-p55-q16-111",
-    "rs-med24-mid-p56-q4-115",
-    "rs-med24-mid-p57-q7-118",
-    "rs-med24-mid-p60-q15-126",
-    "rs-med24-mid-p62-q20-131",
-    "rs-med24-mid-p70-q21-152",
-    "rs-med24-mid-p71-q1-153",
-    "rs-med24-mid-p72-q4-156",
-    "rs-med24-mid-p73-q7-159",
-    "rs-med24-mid-p75-q1-161",
-    "rs-med24-mid-p77-q7-167",
-    "rs-med24-mid-p86-q8-184",
-    "rs-med24-mid-p86-q9-185",
-    "rs-med24-mid-p92-q12-199",
-    "rs-med24-mid-p99-q3-210",
-    "rs-med24-mid-p99-q5-212",
-    "rs-med24-mid-p113-q12-243",
-    "rs-med24-mid-p118-q10-254",
-    "rs-med24-mid-p118-q11-255",
-    "rs-med24-mid-p123-q5-265",
-    "rs-med24-mid-p123-q7-267",
-    "rs-med24-mid-p124-q8-268",
-    "rs-med24-mid-p125-q10-270",
-    "rs-med24-final-p6-q4-4",
-    "rs-med24-final-p7-q7-7",
-    "rs-med24-final-p9-q12-12",
-    "rs-med24-final-p11-q2-16",
-    "rs-med24-final-p12-q4-18",
-    "rs-med24-final-p14-q2-22",
-    "rs-med24-final-p14-q3-23",
-    "rs-med24-final-p24-q14-39",
-    "rs-med24-final-p31-q11-53",
-    "rs-med24-final-p42-q1-72",
-    "rs-med24-final-p42-q2-73",
-    "rs-med24-final-p43-q3-74",
-    "rs-med24-final-p45-q7-78",
-    "rs-med24-final-p52-q1-88",
-    "rs-med24-final-p56-q2-94",
-    "rs-med24-final-p57-q3-95",
-    "rs-med24-final-p57-q4-96",
-    "rs-med24-final-p58-q5-97",
-    "rs-med24-final-p61-q5-102",
-    "rs-med24-final-p61-q6-103",
-    "rs-med24-final-p62-q7-104",
-    "rs-med24-final-p62-q8-105",
-    "rs-med24-final-p67-q5-110",
-    "rs-med24-final-p69-q10-115",
-    "rs-med24-final-p70-q11-116",
-    "rs-med24-final-p72-q16-121",
-    "rs-med24-final-p73-q17-122",
-    "rs-med24-final-p78-q12-134",
-    "rs-med24-final-p81-q18-140",
-    "rs-med24-final-p83-q23-145",
-    "rs-med24-final-p85-q1-147",
-    "rs-med24-final-p87-q6-152",
-    "cvs-final-recall-p19-fragment",
-    "cvs-final-recall-p21-fragment"
-  ],
-  "scope": "Read all stems, answer choices and keys. Clear errors corrected; ambiguous or figure-dependent items are ungraded. This is not a guarantee of zero remaining errors or faculty validation."
+  "needs_review_ids": [],
+  "scope": "All previously flagged questions have final source-checked study answers. Clarifications and study adaptations are disclosed; original wording is retained in past-paper-final-answer-review.json. This is not faculty validation."
 }

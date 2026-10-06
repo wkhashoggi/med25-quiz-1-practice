@@ -1517,3 +1517,6 @@ body.ankiFocusMode .ankiStudyShuffleBtn{
 .lectureSourceAudit li span{display:block;opacity:.75}
 
 .pastReviewWarning{margin:12px 0;padding:12px;border:1px solid var(--med-amber);border-radius:10px;background:var(--med-amber-soft);color:var(--med-ink);font-size:13px;line-height:1.5}.feedback.ungraded{background:var(--med-soft)!important;color:var(--med-muted)!important;border-color:var(--med-line)!important}.questionRepeatPill{font-weight:750}
+
+/* Reviewed past-paper figures and transparent wording changes. */
+.pastQuestionFigure{margin:16px 0;max-width:100%;text-align:center}.pastQuestionFigure img{display:block;max-width:100%;max-height:570px;width:auto;height:auto;margin:auto;background:white;border-radius:8px}.pastQuestionFigure figcaption{font-size:12px;color:var(--muted,#6b7280);margin-top:7px}.pastAnswerReview{margin:12px 0;padding:10px 12px;border:1px solid var(--line,#dce2e8);border-radius:10px;font-size:13px;line-height:1.6}.pastAnswerReview summary{cursor:pointer;font-weight:600}.pastAnswerReview p{margin:8px 0 0}.pastAnswerReview a{color:var(--accent,#2563eb);overflow-wrap:anywhere}.answerCheckedPill{background:#e8f5ef;color:#166544}[data-theme="dark"] .answerCheckedPill{background:#19382d;color:#a7e7c9}

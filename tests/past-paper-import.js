@@ -5,7 +5,7 @@ const manifest=JSON.parse(fs.readFileSync(path.join(root,'past-paper-import-mani
 const map=JSON.parse(fs.readFileSync(path.join(root,'question-study-guide-map.json')));
 const html=fs.readFileSync(path.join(root,'legacy-app.html'),'utf8');
 const qs=JSON.parse(html.match(/const QUESTIONS=(\[[\s\S]*?\]);\s*\n/)[1]);
-assert.equal(qs.length,1292);assert.equal(new Set(qs.map(q=>q.id)).size,qs.length);
+assert.equal(qs.length,1286);assert.equal(new Set(qs.map(q=>q.id)).size,qs.length);
 assert.equal(manifest.occurrences.length,720);
 for(const ref of manifest.occurrences){
  const q=qs.find(q=>q.id===ref.question_id);assert(q);
@@ -45,7 +45,7 @@ console.log('PASS import coverage, source provenance, quiz mapping and parsing r
    assert(await page.locator('#list .pastPaperTypePill').first().isVisible());
    assert(await page.locator('#list .pastPaperOriginal').count()>0);
    await page.evaluate(()=>document.getElementById('pastGuideClear').click());
-   assert.equal(await page.evaluate(()=>filtered().length),1292);
+   assert.equal(await page.evaluate(()=>filtered().length),1286);
    assert.equal(await page.evaluate(()=>document.getElementById('pastGuideQuiz').value),'');
    await page.evaluate(()=>{document.getElementById('sort').value='repeated';document.getElementById('sort').dispatchEvent(new Event('change'))});
    assert(await page.locator('#list .hy').first().isVisible());

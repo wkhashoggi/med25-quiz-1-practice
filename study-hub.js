@@ -400,11 +400,11 @@ function sgLabelVisible(root,kind){
     if(kind==='past'){
       const hy=(typeof highYieldBadge==='function'?highYieldBadge(q):'')+((q.question_repeat_count||1)>1?'<span class="pill questionRepeatPill" title="Occurrences of this same question across the source papers">Repeated ×'+q.question_repeat_count+'</span>':'');
       const examReady=typeof window.med25ExamReadyPast==='function'?window.med25ExamReadyPast(q):true;
-      const quality=examReady?'':'<span class="pill sourceIncompletePill" title="'+esc(q.incomplete_reason||'Authentic source-bank item with incomplete or duplicated choices or an unrecoverable key. Excluded from mock exams.')+'">'+(q.proofreading_status==='needs_review'?'Needs review':'Source incomplete')+'</span>';
+      const quality=examReady?'':'<span class="pill sourceIncompletePill" title="'+esc(q.incomplete_reason||'Authentic source-bank item with incomplete or duplicated choices or an unrecoverable key. Excluded from mock exams.')+'">'+(q.proofreading_status==='needs_review'?'Needs review':q.proofreading_status==='resolved'?'Limited original choices':'Source incomplete')+'</span>';
       meta.innerHTML='<span class="pill sgSubjectPill">'+esc(g.subject||'Other')+'</span>'+
         '<span class="pill pastPaperTypePill">'+(q.source_kind==='formative'?'Coordinator formative':q.source_kind==='practice'?'Practice question':'Past paper question')+'</span>'+
         '<span class="pill lectureQuizStamp quiz'+pastQuestionQuiz(q)+'">Quiz '+pastQuestionQuiz(q)+'</span>'+
-        '<span class="pill sgLecturePill">'+esc(g.title||'Unmapped lecture')+'</span>'+quality+hy+
+        '<span class="pill sgLecturePill">'+esc(g.title||'Unmapped lecture')+'</span>'+quality+(q.proofreading_status==='resolved'?'<span class="pill answerCheckedPill">'+(q.answer_basis==='slide-reviewed'?'Slide-checked':'Reference-checked')+'</span>':'')+hy+
         (q.mapping_review_required?'<span class="pill sourceIncompletePill">Lecture match needs review</span>':'');
       const actions=card.querySelector('.actions');
       if(actions&&!actions.querySelector('.pastPaperOriginal')){

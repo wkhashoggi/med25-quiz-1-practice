@@ -8,13 +8,14 @@ const STUDY_GUIDE_MAP_URL='question-study-guide-map.json';
 let aiLibrary={lecture_sets:[],generated_at:null};
 let studyGuideCatalog={subjects:[]};
 let studyGuideQuestionMap={past:{},ai:{}};
+let studyLibrariesLoaded=false;
 let sourceCoverageAudit=null;
 let aiState={subject:'',lecture:'',search:'',filter:'all',page:1,pageSize:20,shuffle:false};
 let aiUnansweredPagePins=new Set();
 function aiClearUnansweredPins(){aiUnansweredPagePins.clear()}
 function aiIsUnansweredMode(){return aiState.filter==='unanswered'||aiAdvanced.status==='unanswered'}
 let aiAdvanced={status:'all',subject:'',lectures:new Set()};
-let pastAdvanced={status:'all',subject:'',lectures:new Set()};
+let pastAdvanced={status:'all',subject:'',quiz:'',lectures:new Set()};
 
 function aiProgress(){
   if(!saved.__ai_questions__||typeof saved.__ai_questions__!=='object')saved.__ai_questions__={};
@@ -142,7 +143,7 @@ async function initAIQuestions(){
   try{
     const [aiRes,guideRes,mapRes,auditRes]=await Promise.all([
       fetch(AI_LIBRARY_URL+'?v='+Date.now(),{cache:'no-store'}),
-      fetch(STUDY_GUIDE_CATALOG_URL+'?v=1',{cache:'force-cache'}),
+      fetch(STUDY_GUIDE_CATALOG_URL+'?v=2',{cache:'force-cache'}),
       fetch(STUDY_GUIDE_MAP_URL+'?v='+Date.now(),{cache:'no-store'}),
       fetch('source-coverage-audit.json',{cache:'no-store'})
     ]);
@@ -151,6 +152,7 @@ async function initAIQuestions(){
     if(guideRes.ok)studyGuideCatalog=await guideRes.json();
     if(mapRes.ok)studyGuideQuestionMap=await mapRes.json();
     if(auditRes.ok)sourceCoverageAudit=await auditRes.json();
+    studyLibrariesLoaded=guideRes.ok&&mapRes.ok;
   }catch(e){console.error('Study libraries unavailable',e);if(!Array.isArray(aiLibrary.lecture_sets))aiLibrary={lecture_sets:[],generated_at:null}}
   qaPastLectureCache.clear();
   const legacyTopic=document.getElementById('topic');if(legacyTopic){legacyTopic.value='';legacyTopic.style.display='none'}
@@ -228,9 +230,10 @@ function sgQuestionLecture(kind,q){
   const mapped=studyGuideQuestionMap?.[kind]?.[q.id];
   return mapped&&mapped.lecture_id?mapped:sgFallback(kind,q);
 }
+function pastQuestionQuiz(q){return Number(sgQuestionLecture('past',q)?.quiz||q.quiz||lectureQuizNumber(sgQuestionLecture('past',q)?.title))}
 window.med25GameBridge=window.med25GameBridge||{};
 window.med25GameBridge.questionLecture=(kind,q)=>sgQuestionLecture(kind,q);
-window.med25GameBridge.studyLibrariesReady=()=>!!(studyGuideCatalog?.subjects?.length);
+window.med25GameBridge.studyLibrariesReady=()=>studyLibrariesLoaded&&!!(studyGuideCatalog?.subjects?.length);
 function qaStatusPass(p,status){
   if(status==='all')return true;
   if(status==='unanswered')return !p?.answered;
@@ -252,6 +255,7 @@ function qaFilterBarHtml(prefix){
     '<div class="qaUnifiedHead"><div><b>Filters</b><span>Choose exactly what you want to practice.</span></div><button class="qaClearBtn" id="'+qaIds(prefix,'Clear')+'" type="button">Clear filters</button></div>'+
     (prefix==='past'?'<div class="qaFilterSection qaFilterWide"><span class="qaFilterLabel">Question set</span><div class="qaFilterChoices" id="'+qaIds(prefix,'Quick')+'"></div></div>':'')+
     '<div class="qaUnifiedGrid">'+
+      (prefix==='past'?'<label class="qaField"><span>Quiz coverage</span><select id="pastGuideQuiz"><option value="">All quizzes</option><option value="1">Quiz 1</option><option value="2">Quiz 2</option></select></label>':'')+
       '<label class="qaField"><span>Answer status</span><select id="'+qaIds(prefix,'Status')+'"><option value="all">All</option><option value="unanswered">Unanswered</option><option value="correct">Correct</option><option value="wrong">Wrong</option><option value="starred">Starred</option><option value="revealed">Revealed answer</option></select></label>'+
       '<label class="qaField"><span>Subject</span><select id="'+qaIds(prefix,'Subject')+'"><option value="">All subjects</option></select></label>'+
       '<div class="qaField"><span>Lecture(s)</span>'+qaLectureDropdownHtml(prefix)+'</div>'+
@@ -289,10 +293,11 @@ function qaOrganizeUnifiedControls(prefix){
       if(btn.id==='reset'){if(tools&&btn.parentElement!==tools)tools.appendChild(btn);return}
       if(quick&&btn.parentElement!==quick)quick.appendChild(btn);
     });
+    const bank=document.getElementById('bank');if(bank){bank.value='';bank.closest('.qaMovedField')?.remove();bank.style.display='none'}
     const module=document.getElementById('module'),topic=document.getElementById('topic');
     if(module){module.value='';module.closest('.qaMovedField')?.remove();module.style.display='none'}
     if(topic){topic.value='';topic.closest('.qaMovedField')?.remove();topic.style.display='none'}
-    [['bank','Source bank'],['sort','Sort by']].forEach(([id,label])=>{
+    [['sort','Sort by']].forEach(([id,label])=>{
       const el=document.getElementById(id);if(!el||el.closest('.qaMovedField'))return;
       const wrap=qaWrapMovedControl(el,label);if(wrap)legacy.appendChild(wrap);
     });
@@ -302,7 +307,8 @@ function qaOrganizeUnifiedControls(prefix){
   }
 }
 function qaClearUnified(prefix,model){
-  model.status='all';model.subject='';model.lectures.clear();
+  model.status='all';model.subject='';model.quiz='';model.lectures.clear();
+  const quiz=document.getElementById(qaIds(prefix,'Quiz'));if(quiz)quiz.value='';
   const status=document.getElementById(qaIds(prefix,'Status')),subject=document.getElementById(qaIds(prefix,'Subject'));
   if(status)status.value='all';if(subject)subject.value='';
   if(prefix==='past'){
@@ -361,6 +367,8 @@ function qaSetupOne(prefix,model,host){
   subject.innerHTML='<option value="">All subjects</option>'+availableSubjects.map(x=>'<option value="'+esc(x)+'">'+esc(x)+'</option>').join('');
   if(model.subject&&!availableSubjects.includes(model.subject)){model.subject='';model.lectures.clear()}
   subject.value=model.subject||'';status.value=model.status||'all';
+  const quiz=document.getElementById(qaIds(prefix,'Quiz'));
+  if(quiz){quiz.value=model.quiz||'';quiz.onchange=()=>{model.quiz=quiz.value;qaApply(prefix);responsiveUpdateFilterLabels()}}
   status.onchange=()=>{if(prefix==='ai')aiClearUnansweredPins();model.status=status.value;qaResetLegacyStatus(prefix);qaApply(prefix);responsiveUpdateFilterLabels()};
   subject.onchange=()=>{model.subject=subject.value;model.lectures.clear();qaRenderLecturePicker(prefix,model);qaApply(prefix);responsiveUpdateFilterLabels()};
   btn.onclick=e=>{e.stopPropagation();if(!btn.disabled)panel.classList.toggle('hidden')};
@@ -390,11 +398,21 @@ function sgLabelVisible(root,kind){
     const g=sgQuestionLecture(kind,q),meta=card.querySelector(kind==='past'?'.qtop .meta':'.aiMeta');
     if(!meta)return;
     if(kind==='past'){
-      const hy=typeof highYieldBadge==='function'?highYieldBadge(q):'';
+      const hy=(typeof highYieldBadge==='function'?highYieldBadge(q):'')+((q.question_repeat_count||1)>1?'<span class="pill questionRepeatPill" title="Occurrences of this same question across the source papers">Repeated ×'+q.question_repeat_count+'</span>':'');
       const examReady=typeof window.med25ExamReadyPast==='function'?window.med25ExamReadyPast(q):true;
-      const quality=examReady?'':'<span class="pill sourceIncompletePill" title="'+esc(q.incomplete_reason||'Authentic source-bank item with incomplete or duplicated choices or an unrecoverable key. Excluded from mock exams.')+'">Source incomplete</span>';
+      const quality=examReady?'':'<span class="pill sourceIncompletePill" title="'+esc(q.incomplete_reason||'Authentic source-bank item with incomplete or duplicated choices or an unrecoverable key. Excluded from mock exams.')+'">'+(q.proofreading_status==='needs_review'?'Needs review':'Source incomplete')+'</span>';
       meta.innerHTML='<span class="pill sgSubjectPill">'+esc(g.subject||'Other')+'</span>'+
-        '<span class="pill sgLecturePill">'+esc(g.title||'Unmapped lecture')+'</span>'+quality+hy;
+        '<span class="pill pastPaperTypePill">'+(q.source_kind==='formative'?'Coordinator formative':q.source_kind==='practice'?'Practice question':'Past paper question')+'</span>'+
+        '<span class="pill lectureQuizStamp quiz'+pastQuestionQuiz(q)+'">Quiz '+pastQuestionQuiz(q)+'</span>'+
+        '<span class="pill sgLecturePill">'+esc(g.title||'Unmapped lecture')+'</span>'+quality+hy+
+        (q.mapping_review_required?'<span class="pill sourceIncompletePill">Lecture match needs review</span>':'');
+      const actions=card.querySelector('.actions');
+      if(actions&&!actions.querySelector('.pastPaperOriginal')){
+        const refs=q.past_paper_sources||[];
+        refs.forEach(ref=>{
+          const a=document.createElement('a');a.className='btn pastPaperOriginal';a.href=ref.url;a.target='_blank';a.rel='noopener noreferrer';a.textContent='Original paper · p.'+ref.page;a.title=ref.file+' · Q'+ref.number;actions.appendChild(a);
+        });
+      }
       meta.title='Official 2026–2027 Study Guide subject and lecture. The original bank name remains shown as source provenance.';
     }else{
       meta.querySelectorAll('.sgLecturePill').forEach(x=>x.remove());
@@ -458,7 +476,7 @@ function homeWeakTopics(){
 let lectureDashState={subject:'',status:'',quiz:'',search:''};
 const QUIZ2_LECTURE_TITLES=["Pathology of Hypertension","Physiology of vascular endothelium","Antihypertensive drugs 1","Cardiac cycle","Antihypertensive drugs 2","Vasculitis","Pathology of valvular Heart Diseases","Development of the heart and its great vessels","Normal ECG","Congenital anomalies and abnormal development of heart and its great vessels","Antiarrhythmic drugs","Endocarditis","Abnormal ECG and cardiac arrhythmias","Anatomy of Thoracic Wall","Anatomy of nose and paranasal sinuses","Pressure-volume relationship","Obstructive airway disease","Anatomical Relations of the lungs","Histology of the respiratory system","Drugs used for treatment of asthma","Drug therapy for cough and COPD","Development of respiratory system","Atelectasis and acute lung injury","Lower respiratory tract infections","Anatomy of the larynx","Restrictive airway disease","Upper respiratory tract neoplasm","Gas diffusion and blood flow","Drug therapy of respiratory infections","Cystic parasitic diseases of the lung","Lung immunology — innate and acquired immune responses in respiratory infections","Pulmonary infection","Transport of oxygen in blood","Pulmonary vessel disease","Transport of carbon dioxide in blood","Lung and pleural tumors","Treatment of TB","Verminous pneumonia (parasitic larvae invading lung)","Acid-base Homeostasis & the role of respiratory system","Metabolic functions of the lung and Pulmonary Surfactant","Neural control of breathing"];
 const QUIZ2_LECTURE_KEYS=new Set([...QUIZ2_LECTURE_TITLES,"Normal Development of Heart & it’s Great Vessels","Congenital anomalies of the heart & it’s great Vessels"].map(qaNorm));
-function lectureQuizNumber(title){const k=qaNorm(title);if(QUIZ2_LECTURE_KEYS.has(k))return 2;for(const q of QUIZ2_LECTURE_KEYS){if(k&&q&&(k.includes(q)||q.includes(k)))return 2}return 1}
+function lectureQuizNumber(title){const official=qaLectureCatalog().find(l=>qaNorm(l.title)===qaNorm(title));if(official?.quiz)return Number(official.quiz);const k=qaNorm(title);if(QUIZ2_LECTURE_KEYS.has(k))return 2;for(const q of QUIZ2_LECTURE_KEYS){if(k&&q&&(k.includes(q)||q.includes(k)))return 2}return 1}
 const lectureDeckMapCache=new Map();
 
 function lectureGuideDeck(deck){
@@ -712,6 +730,7 @@ filtered=function(){
   let qs=qaBasePastFiltered.apply(this,arguments);
   return qs.filter(q=>{
     const p=saved[q.id]||{},g=sgQuestionLecture('past',q);
+    if(pastAdvanced.quiz&&pastQuestionQuiz(q)!==Number(pastAdvanced.quiz))return false;
     if(!qaStatusPass(p,pastAdvanced.status))return false;
     if(pastAdvanced.subject&&g.subject!==pastAdvanced.subject)return false;
     if(pastAdvanced.lectures.size&&!pastAdvanced.lectures.has(g.lecture_id))return false;
@@ -789,6 +808,7 @@ loadCloudProgress=async function(){
 function responsiveFilterCount(mode){
   let n=0;
   if(mode==='past'){
+    if(pastAdvanced.quiz)n++;
     if(pastAdvanced.status&&pastAdvanced.status!=='all')n++;
     if(pastAdvanced.subject)n++;
     if(pastAdvanced.lectures&&pastAdvanced.lectures.size)n++;

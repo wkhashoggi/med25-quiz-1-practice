@@ -1008,6 +1008,7 @@ function gameInstallMockSection(){
   if(flash)parent.insertBefore(section,flash);else parent.appendChild(section);
 }
 function gameSwitchMock(){
+  try{localStorage.removeItem('med25-v2-view-v1')}catch{}
   gameMockRestore();
   gameInstallMockSection();
   const mock=document.getElementById('mockSection');if(!mock)return;
@@ -1044,6 +1045,7 @@ function gameEnterQuiz(){
 }
 
 function gameSwitchQuiz(){
+  try{localStorage.removeItem('med25-v2-view-v1')}catch{}
   gameInstallQuizSection();
   const quizSection=document.getElementById('quizSection');
   if(!quizSection)return;

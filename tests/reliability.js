@@ -64,7 +64,7 @@ async function run(){
     await page.goto(base);await waitReady(page);
     assert.equal(await page.evaluate(()=>window.med25GameBridge.aiQuestions().length),expectedAI.length);
     assert(await page.evaluate(()=>window.med25GameBridge.aiQuestions().every(q=>window.med25GameBridge.questionLecture('ai',q).lecture_id)));
-    assert.equal(await page.evaluate(()=>QUESTIONS.filter(window.med25ExamReadyPast).length),622);
+    assert.equal(await page.evaluate(()=>QUESTIONS.filter(window.med25ExamReadyPast).length),963);
     await page.waitForFunction(()=>flashLibrary.decks.filter(d=>!d.archived&&d.eligibility_status==='allowed').length===62);
     assert.equal(await page.evaluate(()=>flashLibrary.decks.filter(d=>!d.archived&&d.eligibility_status==='allowed').reduce((n,d)=>n+d.cards.length,0)),970);
     console.log('PASS effective content counts, mappings, and mock eligibility');

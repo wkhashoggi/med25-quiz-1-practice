@@ -450,18 +450,62 @@ function gameScoreToast(delta){
 }
 
 async function gameAwardBonus(eventKey,eventType,xp){
-  if(!currentUser||!authSession?.access_token)return false;
+  const userId=currentUser?.id;
+  if(!userId||!authSession?.access_token)return false;
   try{
+    await gameEnsureProfile();
+    if(currentUser?.id!==userId)return false;
     const res=await supaFetch('/rest/v1/game_xp_events?on_conflict=user_id,event_key',{
       method:'POST',headers:{Prefer:'resolution=ignore-duplicates,return=representation'},
-      body:JSON.stringify({user_id:currentUser.id,event_key:eventKey,event_type:eventType,xp})
+      body:JSON.stringify({user_id:userId,event_key:eventKey,event_type:eventType,xp})
     });
     if(!res.ok)return false;
     const rows=await res.json();
-    if(rows.length){gameScoreToast(xp);await gameRefreshProfile();gameLoadLeaderboard(true);return true}
-  }catch(e){console.warn('Bonus XP unavailable',e)}
+    if(currentUser?.id!==userId)return false;
+    if(rows.length)gameScoreToast(Number(rows[0].xp||xp));
+    await gameRefreshProfile();gameLoadLeaderboard(true);
+    return true; // Duplicate means the server already credited this recovery.
+  }catch(e){console.warn('Recovery XP sync pending',e)}
   return false;
 }
+let recoverySyncBusy=false;
+async function gameSyncRecoveryAwards(){
+  if(recoverySyncBusy||!currentUser||!authSession?.access_token)return;
+  const userId=currentUser.id;recoverySyncBusy=true;
+  try{
+    for(const [key,p] of Object.entries(gameQuizProgress())){
+      if(currentUser?.id!==userId)break;
+      if(!p.recovered||p.xp_synced_user===userId)continue;
+      const ok=await gameAwardBonus('recovery:'+key,'recovery',GAME_SCORE.recovery);
+      if(!ok)break;
+      if(currentUser?.id!==userId)break;
+      gameQuizProgress()[key]={...gameQuizProgress()[key],xp_synced_user:userId};save();
+    }
+  }finally{recoverySyncBusy=false}
+}
+async function gameRestoreRecoveries(){
+  if(!currentUser||!authSession?.access_token)return;
+  const userId=currentUser.id;let changed=false;
+  try{
+    for(let offset=0;;offset+=500){
+      const res=await supaFetch('/rest/v1/game_xp_events?user_id=eq.'+encodeURIComponent(userId)+'&event_type=eq.recovery&select=event_key&order=event_key&limit=500&offset='+offset);
+      if(!res.ok||currentUser?.id!==userId)break;
+      const rows=await res.json();
+      for(const row of rows){
+        if(!row.event_key?.startsWith('recovery:'))continue;
+        let key=row.event_key.slice(9);
+        if(key.startsWith('past:')&&typeof PAST_QUESTION_ALIASES!=='undefined')key='past:'+(PAST_QUESTION_ALIASES[key.slice(5)]?.id||key.slice(5));
+        if(!gameResolveQuizKey(key))continue;
+        const p=gameQuizProgress()[key]||{};
+        if(!p.recovered||p.xp_synced_user!==userId){gameQuizProgress()[key]={...p,recovered:true,xp_synced_user:userId};changed=true}
+      }
+      if(rows.length<500)break;
+    }
+    if(changed){save();gameBuildQuizQueue();gameRenderQuiz()}
+  }catch(e){console.warn('Recovery history sync pending',e)}
+}
+window.addEventListener('online',()=>gameSyncRecoveryAwards());
+setInterval(()=>gameSyncRecoveryAwards(),15000);
 
 async function gameRecordAttempt(source,questionId,correct){
   gameUpdateQuizBadge();
@@ -597,6 +641,8 @@ function gameShuffle(items){
 
 function gameBuildQuizQueue(){
   let items=gameUnresolvedMistakes();
+  const progress=gameQuizProgress();
+  items.sort((a,b)=>(Date.parse(progress[a.key]?.last_at||'')||0)-(Date.parse(progress[b.key]?.last_at||'')||0));
   if(gameQuizState.shuffle)items=gameShuffle(items);
   gameQuizState.queue=items.map(x=>x.key);
   gameQuizState.index=0;
@@ -697,7 +743,7 @@ function gameAnswerQuiz(opt){
   save();
   try{trackEvent('question_answer',{question_id:item.q.id,topic:item.q.topic||item.q.concept||item.q.lecture_title||null,metadata:{correct,source:'mistake_quiz',retry:true}})}catch{}
   gameUpdateQuizBadge();
-  if(correct&&!old.recovered)gameAwardBonus('recovery:'+item.key,'recovery',GAME_SCORE.recovery);
+  if(correct&&!old.recovered)gameSyncRecoveryAwards();
   gameRenderQuiz();
 }
 
@@ -1186,6 +1232,8 @@ async function gameSyncAuth(){
     await gameEnsureProfile();
     await gameActivateLeaderboard();
     await gameBackfillAttempts();
+    await gameRestoreRecoveries();
+    await gameSyncRecoveryAwards();
   }catch(e){console.warn('Game profile sync failed',e)}
   finally{gameProfileBusy=false}
 }

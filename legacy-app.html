@@ -75706,7 +75706,7 @@ function regradeSavedProgress(){
   }
   for(const id of Object.keys(saved)){
     const q=byId.get(id);
-    if(id==='__flashcards__')continue;
+    if(['__flashcards__','__ai_questions__','__lecture_study__','__quiz_retries__'].includes(id))continue;
     if(!q){delete saved[id];changed=true;continue}
     let p=saved[id];
     if(q.review_revision&&p?.review_revision!==q.review_revision){
@@ -75796,9 +75796,13 @@ async function loadCloudProgress(){
 }
 function mergeStudyProgress(local,remote){
   const isObject=x=>!!x&&typeof x==='object'&&!Array.isArray(x);
-  const stamp=x=>Math.max(...['updated_at','locked_at','answered_at','last_review','last_review_at','last_reviewed','reviewed_at'].map(k=>typeof x?.[k]==='number'?x[k]:(Date.parse(x?.[k]||'')||0)));
+  const stamp=x=>Math.max(...['updated_at','locked_at','answered_at','last_review','last_review_at','last_reviewed','reviewed_at','last_at'].map(k=>typeof x?.[k]==='number'?x[k]:(Date.parse(x?.[k]||'')||0)));
   function merge(a,b){
     if(!isObject(a)||!isObject(b))return a===undefined?b:a;
+    if('recovered' in a||'recovered' in b){
+      const latest=stamp(b)>stamp(a)?b:a,other=latest===a?b:a;
+      return {...other,...latest,recovered:!!(a.recovered||b.recovered),attempts:Math.max(Number(a.attempts||0),Number(b.attempts||0))};
+    }
     if('studied' in a||'studied' in b||'answered' in a||'answered' in b||'due' in a||'due' in b){
       const latest=stamp(b)>stamp(a)?b:a,other=latest===a?b:a;
       const result={...other,...latest};

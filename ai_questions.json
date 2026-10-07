@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-04T20:30:00.000Z",
+  "generated_at": "2026-10-07T12:00:00.000Z",
   "source_root": {
     "id": "1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
     "url": "https://drive.google.com/drive/folders/1rKCGuRlAmbVbwObBeMnsbYH7O76A7v2H",
@@ -5389,8 +5389,8 @@
       "source_file_id": "1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6",
       "subject": "Pathology",
       "title": "Vasculitis and Vascular & Cardiac Tumours",
-      "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk",
-      "source_modified_time": "2026-09-21T12:45:38.072Z",
+      "source_url": "https://drive.google.com/file/d/10l7F6bEVJlxf09wcuIrUEqnldTnAq4-K/view",
+      "source_modified_time": "2026-10-06T10:20:23.515Z",
       "source_validation": "lecture_verified_quality_rebuilt",
       "archived": false,
       "questions": [
@@ -5407,7 +5407,7 @@
           "explanation": "The lecture identifies immune-mediated inflammation and direct vascular invasion by infectious pathogens as the two major mechanisms.",
           "concept": "Mechanisms",
           "difficulty": "core",
-          "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/10l7F6bEVJlxf09wcuIrUEqnldTnAq4-K/view",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
           "exam_ready": true
@@ -5425,7 +5425,7 @@
           "explanation": "Immune complex deposition is an immune-mediated mechanism and is seen in disorders such as SLE.",
           "concept": "Mechanisms",
           "difficulty": "understanding",
-          "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/10l7F6bEVJlxf09wcuIrUEqnldTnAq4-K/view",
           "style_profile": "KAU-formative-case-inspired",
           "quality_status": "pass",
           "exam_ready": true
@@ -5443,7 +5443,7 @@
           "explanation": "The lecture specifically highlights Aspergillus and Mucor as causes of direct vascular invasion, especially in immunocompromised patients.",
           "concept": "Infectious vasculitis",
           "difficulty": "core",
-          "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/10l7F6bEVJlxf09wcuIrUEqnldTnAq4-K/view",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
           "exam_ready": true
@@ -5461,7 +5461,7 @@
           "explanation": "Large-vessel vasculitis includes giant-cell arteritis and Takayasu arteritis.",
           "concept": "Classification",
           "difficulty": "core",
-          "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/10l7F6bEVJlxf09wcuIrUEqnldTnAq4-K/view",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
           "exam_ready": true
@@ -5479,7 +5479,7 @@
           "explanation": "Ophthalmic artery involvement can cause sudden permanent blindness, requiring prompt diagnosis and treatment.",
           "concept": "Giant-cell arteritis",
           "difficulty": "application",
-          "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/10l7F6bEVJlxf09wcuIrUEqnldTnAq4-K/view",
           "style_profile": "KAU-formative-case-inspired",
           "quality_status": "pass",
           "exam_ready": true,
@@ -5498,7 +5498,7 @@
           "explanation": "Classic giant-cell arteritis shows granulomatous inflammation in the inner half of the media centered on the internal elastic lamina, with fragmentation.",
           "concept": "Giant-cell arteritis morphology",
           "difficulty": "core",
-          "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/10l7F6bEVJlxf09wcuIrUEqnldTnAq4-K/view",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
           "exam_ready": true
@@ -5516,7 +5516,7 @@
           "explanation": "Giant-cell arteritis is segmental, so an uninvolved segment may be sampled; a negative biopsy does not exclude the diagnosis.",
           "concept": "Giant-cell arteritis diagnosis",
           "difficulty": "application",
-          "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/10l7F6bEVJlxf09wcuIrUEqnldTnAq4-K/view",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
           "exam_ready": true,
@@ -5535,7 +5535,7 @@
           "explanation": "PAN is a necrotizing vasculitis of small–medium muscular arteries; pulmonary circulation and glomeruli are typically spared.",
           "concept": "PAN",
           "difficulty": "core",
-          "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/10l7F6bEVJlxf09wcuIrUEqnldTnAq4-K/view",
           "style_profile": "KAU-formative-case-inspired",
           "quality_status": "pass",
           "exam_ready": true
@@ -5553,7 +5553,7 @@
           "explanation": "The lecture states that HBV is associated with up to about one-third of PAN cases through immune-complex deposition.",
           "concept": "PAN",
           "difficulty": "application",
-          "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/10l7F6bEVJlxf09wcuIrUEqnldTnAq4-K/view",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
           "exam_ready": true,
@@ -5572,7 +5572,7 @@
           "explanation": "The lecture table associates GPA with PR3-ANCA in about 95%.",
           "concept": "Small-vessel vasculitis",
           "difficulty": "core",
-          "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/10l7F6bEVJlxf09wcuIrUEqnldTnAq4-K/view",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
           "exam_ready": true
@@ -5590,7 +5590,7 @@
           "explanation": "The triad of asthma/allergic rhinitis, peripheral eosinophilia and eosinophil-rich necrotizing granulomatous vasculitis characterizes EGPA.",
           "concept": "EGPA",
           "difficulty": "application",
-          "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/10l7F6bEVJlxf09wcuIrUEqnldTnAq4-K/view",
           "style_profile": "KAU-formative-case-inspired",
           "quality_status": "pass",
           "exam_ready": true,
@@ -5609,7 +5609,7 @@
           "explanation": "MPA is a pauci-immune small-vessel vasculitis with no granulomas; GPA has necrotizing granulomas.",
           "concept": "MPA",
           "difficulty": "understanding",
-          "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/10l7F6bEVJlxf09wcuIrUEqnldTnAq4-K/view",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
           "exam_ready": true
@@ -5627,7 +5627,7 @@
           "explanation": "Buerger disease is strongly associated with heavy tobacco use in young adults and affects small–medium arteries and veins of the extremities.",
           "concept": "Buerger disease",
           "difficulty": "application",
-          "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/10l7F6bEVJlxf09wcuIrUEqnldTnAq4-K/view",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
           "exam_ready": true,
@@ -5646,7 +5646,7 @@
           "explanation": "The lecture emphasizes smoking cessation as essential and potentially able to prevent progression or attacks.",
           "concept": "Buerger disease",
           "difficulty": "core",
-          "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/10l7F6bEVJlxf09wcuIrUEqnldTnAq4-K/view",
           "style_profile": "KAU-formative-case-inspired",
           "quality_status": "pass",
           "exam_ready": true
@@ -5664,7 +5664,7 @@
           "explanation": "Capillary hemangiomas are composed of thin-walled capillaries with scant stroma.",
           "concept": "Capillary hemangioma",
           "difficulty": "core",
-          "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/10l7F6bEVJlxf09wcuIrUEqnldTnAq4-K/view",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
           "exam_ready": true
@@ -5682,7 +5682,7 @@
           "explanation": "Cavernous hemangiomas are more infiltrative, often involve deep structures and do not spontaneously regress.",
           "concept": "Cavernous hemangioma",
           "difficulty": "understanding",
-          "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/10l7F6bEVJlxf09wcuIrUEqnldTnAq4-K/view",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
           "exam_ready": true
@@ -5700,7 +5700,7 @@
           "explanation": "Virtually all Kaposi sarcoma lesions are infected by HHV-8/KSHV.",
           "concept": "Kaposi sarcoma",
           "difficulty": "core",
-          "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/10l7F6bEVJlxf09wcuIrUEqnldTnAq4-K/view",
           "style_profile": "KAU-formative-case-inspired",
           "quality_status": "pass",
           "exam_ready": true
@@ -5718,7 +5718,7 @@
           "explanation": "Transplant-associated Kaposi sarcoma may regress when immunosuppression is reduced.",
           "concept": "Kaposi sarcoma",
           "difficulty": "application",
-          "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/10l7F6bEVJlxf09wcuIrUEqnldTnAq4-K/view",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
           "exam_ready": true,
@@ -5737,7 +5737,7 @@
           "explanation": "The lecture lists arsenic, polyvinyl chloride and Thorotrast as carcinogenic exposures associated with hepatic angiosarcoma.",
           "concept": "Angiosarcoma",
           "difficulty": "core",
-          "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/10l7F6bEVJlxf09wcuIrUEqnldTnAq4-K/view",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
           "exam_ready": true
@@ -5755,7 +5755,7 @@
           "explanation": "Angiosarcoma can arise in chronic lymphedema, classically in the ipsilateral upper extremity after radical mastectomy.",
           "concept": "Angiosarcoma",
           "difficulty": "application",
-          "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/10l7F6bEVJlxf09wcuIrUEqnldTnAq4-K/view",
           "style_profile": "KAU-formative-case-inspired",
           "quality_status": "pass",
           "exam_ready": true,
@@ -5774,7 +5774,7 @@
           "explanation": "The lecture identifies myxoma as the most common primary cardiac tumor in adults.",
           "concept": "Cardiac tumors",
           "difficulty": "core",
-          "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/10l7F6bEVJlxf09wcuIrUEqnldTnAq4-K/view",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
           "exam_ready": true
@@ -5792,7 +5792,7 @@
           "explanation": "About 90% of myxomas arise in the left atrium in the region of the fossa ovalis.",
           "concept": "Myxoma",
           "difficulty": "core",
-          "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/10l7F6bEVJlxf09wcuIrUEqnldTnAq4-K/view",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
           "exam_ready": true
@@ -5810,7 +5810,7 @@
           "explanation": "Myxomas can cause symptoms through physical obstruction, trauma to AV valves, or peripheral embolization.",
           "concept": "Myxoma",
           "difficulty": "application",
-          "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/10l7F6bEVJlxf09wcuIrUEqnldTnAq4-K/view",
           "style_profile": "KAU-formative-case-inspired",
           "quality_status": "pass",
           "exam_ready": true,
@@ -5829,7 +5829,7 @@
           "explanation": "The lecture lists venous extension as a route for tumors of the kidney or liver to reach the heart/pericardium.",
           "concept": "Cardiac metastasis",
           "difficulty": "core",
-          "source_url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/10l7F6bEVJlxf09wcuIrUEqnldTnAq4-K/view",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
           "exam_ready": true
@@ -5841,7 +5841,9 @@
       "quality_reviewed_at": "2026-09-30T17:24:12.956Z",
       "quality_policy_version": 2,
       "quality_reason": "Rebuilt directly from the official 2026–2027 lecture; objective-led questions with same-domain distractors and short application cases.",
-      "exam_ready": true
+      "exam_ready": true,
+      "source_drive_file_id": "10l7F6bEVJlxf09wcuIrUEqnldTnAq4-K",
+      "source_checked_at": "2026-10-07T12:00:00.000Z"
     },
     {
       "id": "ai_set_1n7ZjYT0wO6_8f1p7u_J9GodK7GbQigb0",
@@ -12395,8 +12397,8 @@
       "source_file_id": "11ZztQA_d1F4x9wB69Olsoc-d823jwFqm",
       "subject": "Pharmacology",
       "title": "Antihypertensive Drugs",
-      "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk",
-      "source_modified_time": "2026-09-27T17:46:58.917Z",
+      "source_url": "https://drive.google.com/file/d/17Hnia-lvi1Ar67fKkk0kxUu-W9VHkBBN/view",
+      "source_modified_time": "2026-10-05T11:12:06.800Z",
       "source_validation": "lecture_validated",
       "archived": false,
       "questions": [
@@ -12413,7 +12415,7 @@
           "explanation": "ACE inhibitors or ARBs are preferred in diabetes with albuminuria because they provide nephroprotection.",
           "concept": "RAAS blockers",
           "difficulty": "application",
-          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/17Hnia-lvi1Ar67fKkk0kxUu-W9VHkBBN/view",
           "source_card_id": null,
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
@@ -12432,7 +12434,7 @@
           "explanation": "An ARB such as losartan provides RAAS blockade without the bradykinin-mediated cough typical of ACE inhibitors.",
           "concept": "RAAS blockers",
           "difficulty": "application",
-          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/17Hnia-lvi1Ar67fKkk0kxUu-W9VHkBBN/view",
           "source_card_id": null,
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
@@ -12451,7 +12453,7 @@
           "explanation": "Both ACE inhibitors and ARBs can cause hyperkalemia and increased creatinine.",
           "concept": "RAAS blockers",
           "difficulty": "core",
-          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/17Hnia-lvi1Ar67fKkk0kxUu-W9VHkBBN/view",
           "source_card_id": null,
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
@@ -12470,7 +12472,7 @@
           "explanation": "Thiazides increase uric acid and can precipitate gout.",
           "concept": "Thiazides",
           "difficulty": "application",
-          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/17Hnia-lvi1Ar67fKkk0kxUu-W9VHkBBN/view",
           "source_card_id": null,
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
@@ -12491,7 +12493,7 @@
           "explanation": "Thiazides inhibit the Na⁺/Cl⁻ cotransporter in the distal convoluted tubule.",
           "concept": "Thiazides",
           "difficulty": "core",
-          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/17Hnia-lvi1Ar67fKkk0kxUu-W9VHkBBN/view",
           "source_card_id": null,
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
@@ -12510,7 +12512,7 @@
           "explanation": "Long-term thiazide therapy lowers peripheral resistance through reduced vascular smooth-muscle reactivity and vasodilation.",
           "concept": "Thiazides",
           "difficulty": "understanding",
-          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/17Hnia-lvi1Ar67fKkk0kxUu-W9VHkBBN/view",
           "source_card_id": null,
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
@@ -12529,7 +12531,7 @@
           "explanation": "Loop diuretics are particularly useful for volume control in symptomatic heart failure and advanced CKD, especially when GFR is below 30 mL/min.",
           "concept": "Loop diuretics",
           "difficulty": "application",
-          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/17Hnia-lvi1Ar67fKkk0kxUu-W9VHkBBN/view",
           "source_card_id": null,
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
@@ -12548,7 +12550,7 @@
           "explanation": "Loop diuretics can cause hypokalemia, hypocalcemia, ototoxicity, and dehydration.",
           "concept": "Loop diuretics",
           "difficulty": "core",
-          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/17Hnia-lvi1Ar67fKkk0kxUu-W9VHkBBN/view",
           "source_card_id": null,
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
@@ -12567,7 +12569,7 @@
           "explanation": "Spironolactone is a common preferred add-on for confirmed resistant hypertension when potassium and renal function permit.",
           "concept": "Resistant HTN",
           "difficulty": "application",
-          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/17Hnia-lvi1Ar67fKkk0kxUu-W9VHkBBN/view",
           "source_card_id": null,
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
@@ -12586,7 +12588,7 @@
           "explanation": "Spironolactone blocks the aldosterone receptor and is useful in primary hyperaldosteronism.",
           "concept": "MRA",
           "difficulty": "application",
-          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/17Hnia-lvi1Ar67fKkk0kxUu-W9VHkBBN/view",
           "source_card_id": null,
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
@@ -12605,7 +12607,7 @@
           "explanation": "Routine dual RAAS blockade with an ACE inhibitor plus an ARB increases renal and potassium adverse effects.",
           "concept": "Combination therapy",
           "difficulty": "core",
-          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/17Hnia-lvi1Ar67fKkk0kxUu-W9VHkBBN/view",
           "source_card_id": null,
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
@@ -12624,7 +12626,7 @@
           "explanation": "β-blockers combined with verapamil or diltiazem can cause severe bradycardia, AV block, and myocardial depression.",
           "concept": "Combination therapy",
           "difficulty": "application",
-          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/17Hnia-lvi1Ar67fKkk0kxUu-W9VHkBBN/view",
           "source_card_id": null,
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
@@ -12643,7 +12645,7 @@
           "explanation": "Beta blockers become preferred when a compelling indication such as ischemic heart disease is present.",
           "concept": "Beta blockers",
           "difficulty": "application",
-          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/17Hnia-lvi1Ar67fKkk0kxUu-W9VHkBBN/view",
           "source_card_id": null,
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
@@ -12662,7 +12664,7 @@
           "explanation": "Nifedipine is pregnancy-compatible, whereas ACE inhibitors, ARBs, and direct renin inhibitors are avoided because of fetal toxicity.",
           "concept": "Pregnancy",
           "difficulty": "application",
-          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/17Hnia-lvi1Ar67fKkk0kxUu-W9VHkBBN/view",
           "source_card_id": null,
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
@@ -12681,7 +12683,7 @@
           "explanation": "Acute target-organ damage defines hypertensive emergency and requires monitored treatment with short-acting titratable IV therapy.",
           "concept": "Hypertensive emergency",
           "difficulty": "application",
-          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/17Hnia-lvi1Ar67fKkk0kxUu-W9VHkBBN/view",
           "source_card_id": null,
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
@@ -12700,7 +12702,7 @@
           "explanation": "The defining distinction is acute target-organ damage, not the BP number alone.",
           "concept": "Hypertensive emergency",
           "difficulty": "core",
-          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/17Hnia-lvi1Ar67fKkk0kxUu-W9VHkBBN/view",
           "source_card_id": null,
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
@@ -12719,7 +12721,7 @@
           "explanation": "When BP is more than 20/10 mmHg above target, two complementary first-line agents are recommended.",
           "concept": "Initial therapy",
           "difficulty": "understanding",
-          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/17Hnia-lvi1Ar67fKkk0kxUu-W9VHkBBN/view",
           "source_card_id": null,
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
@@ -12738,7 +12740,7 @@
           "explanation": "The lecture recommends a thiazide-type diuretic or calcium-channel blocker for initial therapy in this setting.",
           "concept": "Initial therapy",
           "difficulty": "core",
-          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/17Hnia-lvi1Ar67fKkk0kxUu-W9VHkBBN/view",
           "source_card_id": null,
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
@@ -12757,7 +12759,7 @@
           "explanation": "Verapamil is a non-DHP calcium-channel blocker with negative inotropic effects and is generally avoided in HFrEF.",
           "concept": "CCBs",
           "difficulty": "application",
-          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/17Hnia-lvi1Ar67fKkk0kxUu-W9VHkBBN/view",
           "source_card_id": null,
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
@@ -12776,7 +12778,7 @@
           "explanation": "DHP calcium-channel blockers such as amlodipine cause preferential arteriolar dilation, which can produce peripheral edema.",
           "concept": "CCBs",
           "difficulty": "application",
-          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/17Hnia-lvi1Ar67fKkk0kxUu-W9VHkBBN/view",
           "source_card_id": null,
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
@@ -12795,7 +12797,7 @@
           "explanation": "Hydralazine can cause a drug-induced lupus syndrome.",
           "concept": "Adverse effects",
           "difficulty": "application",
-          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/17Hnia-lvi1Ar67fKkk0kxUu-W9VHkBBN/view",
           "source_card_id": null,
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
@@ -12814,7 +12816,7 @@
           "explanation": "Minoxidil is classically associated with hypertrichosis.",
           "concept": "Adverse effects",
           "difficulty": "core",
-          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/17Hnia-lvi1Ar67fKkk0kxUu-W9VHkBBN/view",
           "source_card_id": null,
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
@@ -12833,7 +12835,7 @@
           "explanation": "The lecture recommends checking creatinine and potassium within 2–4 weeks in CKD after starting an ACE inhibitor or ARB.",
           "concept": "Monitoring",
           "difficulty": "core",
-          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/17Hnia-lvi1Ar67fKkk0kxUu-W9VHkBBN/view",
           "source_card_id": null,
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
@@ -12852,7 +12854,7 @@
           "explanation": "Spironolactone is a common preferred add-on for confirmed resistant hypertension when potassium and renal function permit.",
           "concept": "Resistant HTN — formative-style case",
           "difficulty": "application",
-          "source_url": "https://drive.google.com/file/d/11ZztQA_d1F4x9wB69Olsoc-d823jwFqm/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/17Hnia-lvi1Ar67fKkk0kxUu-W9VHkBBN/view",
           "source_card_id": null,
           "style_profile": "KAU-formative-case-inspired",
           "quality_status": "pass",
@@ -12867,7 +12869,9 @@
       "quality_reviewed_at": "2026-09-30T15:36:28.081Z",
       "quality_policy_version": 2,
       "quality_reason": "Passed structural/style audit: plausible same-domain distractors, valid answer key, official lecture source, and MED25-style format.",
-      "exam_ready": true
+      "exam_ready": true,
+      "source_drive_file_id": "17Hnia-lvi1Ar67fKkk0kxUu-W9VHkBBN",
+      "source_checked_at": "2026-10-07T12:00:00.000Z"
     },
     {
       "id": "ai_set_1a2GYFwVaioCMtkK4FhARroF7kphyGDwS",
@@ -13532,8 +13536,8 @@
       "source_file_id": "1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP",
       "subject": "Pathology",
       "title": "Pathology of Hypertension",
-      "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view",
-      "source_modified_time": "2026-09-28T13:15:33.861Z",
+      "source_url": "https://drive.google.com/file/d/1RDnk7z3niYbebWOLYgWJa3WWvalF2nEP/view",
+      "source_modified_time": "2026-10-05T10:25:02.342Z",
       "source_validation": "study_guide_and_lecture_verified",
       "eligibility_status": "allowed",
       "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
@@ -13554,7 +13558,7 @@
           "concept": "Classification",
           "difficulty": "core",
           "style_profile": "KAU-past-paper-inspired",
-          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view",
+          "source_url": "https://drive.google.com/file/d/1RDnk7z3niYbebWOLYgWJa3WWvalF2nEP/view",
           "quality_status": "pass",
           "exam_ready": true
         },
@@ -13572,7 +13576,7 @@
           "concept": "Pathogenesis",
           "difficulty": "core",
           "style_profile": "KAU-past-paper-inspired",
-          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view",
+          "source_url": "https://drive.google.com/file/d/1RDnk7z3niYbebWOLYgWJa3WWvalF2nEP/view",
           "quality_status": "pass",
           "exam_ready": true
         },
@@ -13590,7 +13594,7 @@
           "concept": "Vascular pathology",
           "difficulty": "core",
           "style_profile": "KAU-past-paper-inspired",
-          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view",
+          "source_url": "https://drive.google.com/file/d/1RDnk7z3niYbebWOLYgWJa3WWvalF2nEP/view",
           "quality_status": "pass",
           "exam_ready": true
         },
@@ -13608,7 +13612,7 @@
           "concept": "Vascular pathology",
           "difficulty": "core",
           "style_profile": "KAU-past-paper-inspired",
-          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view",
+          "source_url": "https://drive.google.com/file/d/1RDnk7z3niYbebWOLYgWJa3WWvalF2nEP/view",
           "quality_status": "pass",
           "exam_ready": true
         },
@@ -13626,7 +13630,7 @@
           "concept": "Morphology",
           "difficulty": "core",
           "style_profile": "KAU-past-paper-inspired",
-          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view",
+          "source_url": "https://drive.google.com/file/d/1RDnk7z3niYbebWOLYgWJa3WWvalF2nEP/view",
           "quality_status": "pass",
           "exam_ready": true
         },
@@ -13644,7 +13648,7 @@
           "concept": "Pathogenesis",
           "difficulty": "core",
           "style_profile": "KAU-past-paper-inspired",
-          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view",
+          "source_url": "https://drive.google.com/file/d/1RDnk7z3niYbebWOLYgWJa3WWvalF2nEP/view",
           "quality_status": "pass",
           "exam_ready": true
         },
@@ -13662,7 +13666,7 @@
           "concept": "Pathogenesis",
           "difficulty": "core",
           "style_profile": "KAU-past-paper-inspired",
-          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view",
+          "source_url": "https://drive.google.com/file/d/1RDnk7z3niYbebWOLYgWJa3WWvalF2nEP/view",
           "quality_status": "pass",
           "exam_ready": true
         },
@@ -13680,7 +13684,7 @@
           "concept": "Risk factors",
           "difficulty": "core",
           "style_profile": "KAU-past-paper-inspired",
-          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view",
+          "source_url": "https://drive.google.com/file/d/1RDnk7z3niYbebWOLYgWJa3WWvalF2nEP/view",
           "quality_status": "pass",
           "exam_ready": true
         },
@@ -13698,7 +13702,7 @@
           "concept": "Morphology",
           "difficulty": "core",
           "style_profile": "KAU-past-paper-inspired",
-          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view",
+          "source_url": "https://drive.google.com/file/d/1RDnk7z3niYbebWOLYgWJa3WWvalF2nEP/view",
           "quality_status": "pass",
           "exam_ready": true
         },
@@ -13716,7 +13720,7 @@
           "concept": "Malignant hypertension",
           "difficulty": "application",
           "style_profile": "KAU-past-paper-inspired",
-          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view",
+          "source_url": "https://drive.google.com/file/d/1RDnk7z3niYbebWOLYgWJa3WWvalF2nEP/view",
           "quality_status": "pass",
           "exam_ready": true
         },
@@ -13734,7 +13738,7 @@
           "concept": "Cardiac complications",
           "difficulty": "core",
           "style_profile": "KAU-past-paper-inspired",
-          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view",
+          "source_url": "https://drive.google.com/file/d/1RDnk7z3niYbebWOLYgWJa3WWvalF2nEP/view",
           "quality_status": "pass",
           "exam_ready": true
         },
@@ -13752,7 +13756,7 @@
           "concept": "Renal complications",
           "difficulty": "core",
           "style_profile": "KAU-past-paper-inspired",
-          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view",
+          "source_url": "https://drive.google.com/file/d/1RDnk7z3niYbebWOLYgWJa3WWvalF2nEP/view",
           "quality_status": "pass",
           "exam_ready": true
         },
@@ -13770,7 +13774,7 @@
           "concept": "Cerebral complications",
           "difficulty": "core",
           "style_profile": "KAU-past-paper-inspired",
-          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view",
+          "source_url": "https://drive.google.com/file/d/1RDnk7z3niYbebWOLYgWJa3WWvalF2nEP/view",
           "quality_status": "pass",
           "exam_ready": true
         },
@@ -13788,7 +13792,7 @@
           "concept": "Retinopathy",
           "difficulty": "core",
           "style_profile": "KAU-past-paper-inspired",
-          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view",
+          "source_url": "https://drive.google.com/file/d/1RDnk7z3niYbebWOLYgWJa3WWvalF2nEP/view",
           "quality_status": "pass",
           "exam_ready": true
         },
@@ -13806,7 +13810,7 @@
           "concept": "Vascular complications",
           "difficulty": "core",
           "style_profile": "KAU-past-paper-inspired",
-          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view",
+          "source_url": "https://drive.google.com/file/d/1RDnk7z3niYbebWOLYgWJa3WWvalF2nEP/view",
           "quality_status": "pass",
           "exam_ready": true
         },
@@ -13824,7 +13828,7 @@
           "concept": "Malignant hypertension — formative-style case",
           "difficulty": "application",
           "style_profile": "KAU-formative-case-inspired",
-          "source_url": "https://drive.google.com/file/d/1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP/view",
+          "source_url": "https://drive.google.com/file/d/1RDnk7z3niYbebWOLYgWJa3WWvalF2nEP/view",
           "quality_status": "pass",
           "exam_ready": true,
           "case_style": "formative_short_case",
@@ -13836,7 +13840,9 @@
       "quality_reviewed_at": "2026-09-30T15:36:28.081Z",
       "quality_policy_version": 2,
       "quality_reason": "Passed structural/style audit: plausible same-domain distractors, valid answer key, official lecture source, and MED25-style format.",
-      "exam_ready": true
+      "exam_ready": true,
+      "source_drive_file_id": "1RDnk7z3niYbebWOLYgWJa3WWvalF2nEP",
+      "source_checked_at": "2026-10-07T12:00:00.000Z"
     },
     {
       "id": "ai_set_19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5",
@@ -14275,7 +14281,7 @@
       "subject": "Pathology",
       "title": "Valvular Heart Diseases",
       "source_url": "https://drive.google.com/file/d/1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc/view",
-      "source_modified_time": "2026-10-04T17:49:35.305Z",
+      "source_modified_time": "2026-10-06T12:01:25.554Z",
       "source_validation": "study_guide_and_lecture_verified",
       "eligibility_status": "allowed",
       "eligibility_verified_against": "Study Guide- Circulation and Breathing module- 2026-2027",
@@ -14578,7 +14584,9 @@
       "quality_reviewed_at": "2026-09-30T15:36:28.081Z",
       "quality_policy_version": 2,
       "quality_reason": "Passed structural/style audit: plausible same-domain distractors, valid answer key, official lecture source, and MED25-style format.",
-      "exam_ready": true
+      "exam_ready": true,
+      "source_drive_file_id": "1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc",
+      "source_checked_at": "2026-10-07T12:00:00.000Z"
     },
     {
       "id": "ai_set_1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf",
@@ -15128,8 +15136,8 @@
       "source_file_id": "libfile_6e646046c4ac81918406ddf5ca74067d",
       "subject": "Pathology",
       "title": "Endocarditis",
-      "source_url": "https://drive.google.com/file/d/1NKrXX2VQc7oVqY_y-bjNxt7FNxbQKT5q/view?usp=drivesdk",
-      "source_modified_time": "2026-10-03T22:07:13.761Z",
+      "source_url": "https://drive.google.com/file/d/1UmPRonzM9xUa8gWFSSIsoLR3K3tysAUE/view",
+      "source_modified_time": "2026-10-07T11:16:31.739Z",
       "source_validation": "uploaded_lecture_verified_logical_audit",
       "archived": false,
       "eligibility_status": "allowed",
@@ -15152,7 +15160,7 @@
           "explanation": "Infective endocarditis is a microbial infection of heart valves or endocardium, typically producing vegetations containing thrombotic debris and organisms.",
           "concept": "Definition",
           "difficulty": "core",
-          "source_url": "https://drive.google.com/file/d/1NKrXX2VQc7oVqY_y-bjNxt7FNxbQKT5q/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/1UmPRonzM9xUa8gWFSSIsoLR3K3tysAUE/view",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
           "exam_ready": true
@@ -15170,7 +15178,7 @@
           "explanation": "Acute IE is rapidly progressive and destructive, often caused by highly virulent organisms such as S. aureus, and can involve healthy valves.",
           "concept": "Acute vs subacute IE",
           "difficulty": "core",
-          "source_url": "https://drive.google.com/file/d/1NKrXX2VQc7oVqY_y-bjNxt7FNxbQKT5q/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/1UmPRonzM9xUa8gWFSSIsoLR3K3tysAUE/view",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
           "exam_ready": true
@@ -15188,7 +15196,7 @@
           "explanation": "The lecture associates S. viridans, normal oral flora, with community-acquired subacute IE on damaged/deformed valves.",
           "concept": "Causative organisms",
           "difficulty": "core",
-          "source_url": "https://drive.google.com/file/d/1NKrXX2VQc7oVqY_y-bjNxt7FNxbQKT5q/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/1UmPRonzM9xUa8gWFSSIsoLR3K3tysAUE/view",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
           "exam_ready": true
@@ -15206,7 +15214,7 @@
           "explanation": "Mitral valve prolapse is highlighted as the leading preexisting risk factor, alongside rheumatic disease, bicuspid aortic valve and calcific stenosis.",
           "concept": "Risk factors",
           "difficulty": "core",
-          "source_url": "https://drive.google.com/file/d/1NKrXX2VQc7oVqY_y-bjNxt7FNxbQKT5q/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/1UmPRonzM9xUa8gWFSSIsoLR3K3tysAUE/view",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
           "exam_ready": true
@@ -15224,7 +15232,7 @@
           "explanation": "IE vegetations are friable. When fragments embolize, they carry organisms and can seed infected infarcts or abscesses.",
           "concept": "Morphology and emboli",
           "difficulty": "understanding",
-          "source_url": "https://drive.google.com/file/d/1NKrXX2VQc7oVqY_y-bjNxt7FNxbQKT5q/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/1UmPRonzM9xUa8gWFSSIsoLR3K3tysAUE/view",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
           "exam_ready": true
@@ -15242,7 +15250,7 @@
           "explanation": "Janeway lesions are painless lesions on palms/soles, whereas Osler nodes are painful fingertip nodules.",
           "concept": "Peripheral signs",
           "difficulty": "core",
-          "source_url": "https://drive.google.com/file/d/1NKrXX2VQc7oVqY_y-bjNxt7FNxbQKT5q/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/1UmPRonzM9xUa8gWFSSIsoLR3K3tysAUE/view",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
           "exam_ready": true
@@ -15260,7 +15268,7 @@
           "explanation": "The lecture notes that culture-negative IE can result from prior antibiotics or organisms that are difficult to isolate.",
           "concept": "Culture-negative IE",
           "difficulty": "core",
-          "source_url": "https://drive.google.com/file/d/1NKrXX2VQc7oVqY_y-bjNxt7FNxbQKT5q/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/1UmPRonzM9xUa8gWFSSIsoLR3K3tysAUE/view",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
           "exam_ready": true
@@ -15278,7 +15286,7 @@
           "explanation": "Glomerulonephritis occurs through glomerular trapping of antigen–antibody complexes and may cause hematuria, albuminuria or renal failure.",
           "concept": "Complications",
           "difficulty": "application",
-          "source_url": "https://drive.google.com/file/d/1NKrXX2VQc7oVqY_y-bjNxt7FNxbQKT5q/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/1UmPRonzM9xUa8gWFSSIsoLR3K3tysAUE/view",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
           "exam_ready": true
@@ -15296,7 +15304,7 @@
           "explanation": "NBTE consists of small sterile thrombi, usually on previously normal valves, commonly in hypercoagulable states such as malignancy.",
           "concept": "NBTE",
           "difficulty": "core",
-          "source_url": "https://drive.google.com/file/d/1NKrXX2VQc7oVqY_y-bjNxt7FNxbQKT5q/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/1UmPRonzM9xUa8gWFSSIsoLR3K3tysAUE/view",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
           "exam_ready": true
@@ -15314,7 +15322,7 @@
           "explanation": "Malignancy—especially mucinous adenocarcinoma—is emphasized as the most common cause of the hypercoagulable setting behind NBTE.",
           "concept": "NBTE etiology",
           "difficulty": "core",
-          "source_url": "https://drive.google.com/file/d/1NKrXX2VQc7oVqY_y-bjNxt7FNxbQKT5q/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/1UmPRonzM9xUa8gWFSSIsoLR3K3tysAUE/view",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
           "exam_ready": true
@@ -15332,7 +15340,7 @@
           "explanation": "Libman–Sacks is a sterile inflammatory valvular lesion of SLE and can also be seen with antiphospholipid antibody syndrome.",
           "concept": "Libman-Sacks",
           "difficulty": "core",
-          "source_url": "https://drive.google.com/file/d/1NKrXX2VQc7oVqY_y-bjNxt7FNxbQKT5q/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/1UmPRonzM9xUa8gWFSSIsoLR3K3tysAUE/view",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
           "exam_ready": true
@@ -15350,7 +15358,7 @@
           "explanation": "Libman–Sacks lesions are sterile but have associated inflammation, often with fibrinoid necrosis, and chronic fibrosis may deform valves.",
           "concept": "Libman-Sacks morphology",
           "difficulty": "understanding",
-          "source_url": "https://drive.google.com/file/d/1NKrXX2VQc7oVqY_y-bjNxt7FNxbQKT5q/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/1UmPRonzM9xUa8gWFSSIsoLR3K3tysAUE/view",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
           "exam_ready": true
@@ -15368,7 +15376,7 @@
           "explanation": "IV drug use is strongly associated with S. aureus acute IE, and the tricuspid valve is a classic site in IV drug users.",
           "concept": "IE case — IVDU",
           "difficulty": "application",
-          "source_url": "https://drive.google.com/file/d/1NKrXX2VQc7oVqY_y-bjNxt7FNxbQKT5q/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/1UmPRonzM9xUa8gWFSSIsoLR3K3tysAUE/view",
           "style_profile": "KAU-formative-case-inspired",
           "quality_status": "pass",
           "exam_ready": true,
@@ -15388,7 +15396,7 @@
           "explanation": "An indolent weeks-to-months course with S. viridans on a damaged valve is the classic subacute pattern.",
           "concept": "IE case — subacute",
           "difficulty": "application",
-          "source_url": "https://drive.google.com/file/d/1NKrXX2VQc7oVqY_y-bjNxt7FNxbQKT5q/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/1UmPRonzM9xUa8gWFSSIsoLR3K3tysAUE/view",
           "style_profile": "KAU-formative-case-inspired",
           "quality_status": "pass",
           "exam_ready": true,
@@ -15408,7 +15416,7 @@
           "explanation": "New arrhythmias/conduction problems can suggest extension of infection into the underlying myocardium and conduction system, including ring abscess formation.",
           "concept": "IE case — ring abscess",
           "difficulty": "application",
-          "source_url": "https://drive.google.com/file/d/1NKrXX2VQc7oVqY_y-bjNxt7FNxbQKT5q/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/1UmPRonzM9xUa8gWFSSIsoLR3K3tysAUE/view",
           "style_profile": "KAU-formative-case-inspired",
           "quality_status": "pass",
           "exam_ready": true,
@@ -15428,7 +15436,7 @@
           "explanation": "Janeway lesions are painless lesions on the palms and soles; Osler nodes are painful fingertip nodules.",
           "concept": "IE case — peripheral signs",
           "difficulty": "application",
-          "source_url": "https://drive.google.com/file/d/1NKrXX2VQc7oVqY_y-bjNxt7FNxbQKT5q/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/1UmPRonzM9xUa8gWFSSIsoLR3K3tysAUE/view",
           "style_profile": "KAU-formative-case-inspired",
           "quality_status": "pass",
           "exam_ready": true,
@@ -15448,7 +15456,7 @@
           "explanation": "The combination of malignancy, hypercoagulability, small sterile nondestructive vegetations and systemic emboli is classic NBTE.",
           "concept": "NBTE case",
           "difficulty": "application",
-          "source_url": "https://drive.google.com/file/d/1NKrXX2VQc7oVqY_y-bjNxt7FNxbQKT5q/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/1UmPRonzM9xUa8gWFSSIsoLR3K3tysAUE/view",
           "style_profile": "KAU-formative-case-inspired",
           "quality_status": "pass",
           "exam_ready": true,
@@ -15468,7 +15476,7 @@
           "explanation": "Sterile vegetations in SLE with associated inflammation/fibrinoid necrosis are characteristic of Libman–Sacks endocarditis.",
           "concept": "Libman-Sacks case",
           "difficulty": "application",
-          "source_url": "https://drive.google.com/file/d/1NKrXX2VQc7oVqY_y-bjNxt7FNxbQKT5q/view?usp=drivesdk",
+          "source_url": "https://drive.google.com/file/d/1UmPRonzM9xUa8gWFSSIsoLR3K3tysAUE/view",
           "style_profile": "KAU-formative-case-inspired",
           "quality_status": "pass",
           "exam_ready": true,
@@ -15476,7 +15484,8 @@
           "formative_reference": "Endocarditis 2026-2027 lecture clinical application"
         }
       ],
-      "source_drive_file_id": "1NKrXX2VQc7oVqY_y-bjNxt7FNxbQKT5q"
+      "source_drive_file_id": "1UmPRonzM9xUa8gWFSSIsoLR3K3tysAUE",
+      "source_checked_at": "2026-10-07T12:00:00.000Z"
     },
     {
       "id": "ai_set_1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9",
@@ -18449,6 +18458,786 @@
           "difficulty": "application",
           "style_profile": "KAU-past-paper-inspired",
           "source_url": "https://drive.google.com/file/d/1Aj5OXNtQh2z591zY5ZtiwNJItBL4R9Yl/view",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case"
+        }
+      ]
+    },
+    {
+      "id": "ai_set_1aZHufKAFdasy96wvvunzBSWX58cOJcYv",
+      "subject": "Physiology",
+      "title": "Respiratory system L1: mechanics of breathing",
+      "source_file_id": "1aZHufKAFdasy96wvvunzBSWX58cOJcYv",
+      "source_url": "https://drive.google.com/file/d/1aZHufKAFdasy96wvvunzBSWX58cOJcYv/view",
+      "source_modified_time": "2026-10-05T06:45:45.858Z",
+      "source_validation": "study_guide_and_lecture_verified",
+      "archived": false,
+      "eligibility_status": "allowed",
+      "quality_status": "pass",
+      "quality_reviewed_at": "2026-10-07T12:00:00.000Z",
+      "exam_ready": true,
+      "questions": [
+        {
+          "id": "ai_1aZHufKAFdasy96wvvunzBSWX58cOJcYv_01",
+          "stem": "Which region carries inspired air without participating directly in alveolar gas exchange?",
+          "options": {
+            "A": "Conducting zone",
+            "B": "Respiratory bronchioles",
+            "C": "Alveolar ducts",
+            "D": "Alveolar sacs"
+          },
+          "answer": "A",
+          "explanation": "The conducting zone transports, warms, humidifies and filters air; gas exchange occurs in the respiratory zone.",
+          "concept": "Conducting zone",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1aZHufKAFdasy96wvvunzBSWX58cOJcYv/view",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1aZHufKAFdasy96wvvunzBSWX58cOJcYv_02",
+          "stem": "Why is the volume of the conducting airways called anatomical dead space?",
+          "options": {
+            "A": "It contains only carbon dioxide",
+            "B": "It is normally filled with pleural fluid",
+            "C": "Its airways are permanently collapsed",
+            "D": "It contains air that does not directly exchange gases with pulmonary capillary blood"
+          },
+          "answer": "D",
+          "explanation": "Anatomical dead space is ventilated conducting-airway volume without alveolar gas exchange; the lecture gives an approximate adult volume of 150 mL.",
+          "concept": "Anatomical dead space",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1aZHufKAFdasy96wvvunzBSWX58cOJcYv/view",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1aZHufKAFdasy96wvvunzBSWX58cOJcYv_03",
+          "stem": "A patient has impaired mucociliary clearance. Which normal airway function is most directly reduced?",
+          "options": {
+            "A": "Contraction of the diaphragm",
+            "B": "Oxygen consumption by mitochondria",
+            "C": "Removal of inhaled particles trapped in mucus",
+            "D": "Secretion of alveolar surfactant"
+          },
+          "answer": "C",
+          "explanation": "Mucus traps inhaled particles and cilia help clear them from the conducting airways. Surfactant secretion and respiratory muscle contraction are separate functions.",
+          "concept": "Airway protection",
+          "difficulty": "application",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1aZHufKAFdasy96wvvunzBSWX58cOJcYv/view",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case"
+        },
+        {
+          "id": "ai_1aZHufKAFdasy96wvvunzBSWX58cOJcYv_04",
+          "stem": "During quiet inspiration, which muscle performs most of the work?",
+          "options": {
+            "A": "Sternocleidomastoid",
+            "B": "Diaphragm",
+            "C": "Internal intercostals",
+            "D": "Rectus abdominis"
+          },
+          "answer": "B",
+          "explanation": "The diaphragm is the principal muscle of quiet inspiration. Internal intercostals and abdominal muscles contribute to forced expiration; sternocleidomastoid is an accessory inspiratory muscle.",
+          "concept": "Inspiratory muscles",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1aZHufKAFdasy96wvvunzBSWX58cOJcYv/view",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1aZHufKAFdasy96wvvunzBSWX58cOJcYv_05",
+          "stem": "When the diaphragm contracts during inspiration, what happens first?",
+          "options": {
+            "A": "The vertical diameter of the thorax increases",
+            "B": "The vertical diameter of the thorax decreases",
+            "C": "Airway cartilage contracts",
+            "D": "Abdominal muscles actively expel air"
+          },
+          "answer": "A",
+          "explanation": "Downward movement of the contracting diaphragm enlarges the thoracic cavity; the resulting pressure reduction draws air inward.",
+          "concept": "Volume-pressure relationship",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1aZHufKAFdasy96wvvunzBSWX58cOJcYv/view",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1aZHufKAFdasy96wvvunzBSWX58cOJcYv_06",
+          "stem": "A patient has a phrenic nerve injury. Which respiratory action is directly impaired?",
+          "options": {
+            "A": "Contraction of the abdominal wall",
+            "B": "Ciliary movement in the trachea",
+            "C": "Elastic recoil of alveolar tissue",
+            "D": "Contraction of the diaphragm"
+          },
+          "answer": "D",
+          "explanation": "The phrenic nerve supplies the diaphragm. Its injury impairs active inspiration through that muscle, rather than directly removing elastic recoil.",
+          "concept": "Phrenic nerve",
+          "difficulty": "application",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1aZHufKAFdasy96wvvunzBSWX58cOJcYv/view",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case"
+        },
+        {
+          "id": "ai_1aZHufKAFdasy96wvvunzBSWX58cOJcYv_07",
+          "stem": "What normally produces expiration during quiet breathing?",
+          "options": {
+            "A": "Strong contraction of the abdominal wall on every breath",
+            "B": "Active elevation of the ribs by accessory muscles",
+            "C": "Relaxation of inspiratory muscles followed by elastic recoil",
+            "D": "Sustained contraction of the diaphragm"
+          },
+          "answer": "C",
+          "explanation": "Quiet expiration is passive: inspiratory muscles relax, and recoil reduces thoracic and lung volume. Forced expiration recruits additional muscles.",
+          "concept": "Quiet expiration",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1aZHufKAFdasy96wvvunzBSWX58cOJcYv/view",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1aZHufKAFdasy96wvvunzBSWX58cOJcYv_08",
+          "stem": "During forceful expiration, abdominal muscle contraction helps expel air by which mechanism?",
+          "options": {
+            "A": "Preventing the ribs from moving downward",
+            "B": "Increasing abdominal pressure and pushing the diaphragm upward",
+            "C": "Lowering abdominal pressure and pulling the diaphragm downward",
+            "D": "Increasing the vertical thoracic diameter"
+          },
+          "answer": "B",
+          "explanation": "Abdominal compression pushes the diaphragm into the thorax, reducing thoracic volume and assisting expiration.",
+          "concept": "Forced expiration",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1aZHufKAFdasy96wvvunzBSWX58cOJcYv/view",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1aZHufKAFdasy96wvvunzBSWX58cOJcYv_09",
+          "stem": "A breathless patient recruits the sternocleidomastoid and scalene muscles. These muscles primarily assist which action?",
+          "options": {
+            "A": "Forced inspiration",
+            "B": "Quiet passive expiration",
+            "C": "Mucociliary transport",
+            "D": "Surfactant release"
+          },
+          "answer": "A",
+          "explanation": "Sternocleidomastoid and scalene muscles are accessory inspiratory muscles, recruited when inspiratory demand rises.",
+          "concept": "Accessory muscles",
+          "difficulty": "application",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1aZHufKAFdasy96wvvunzBSWX58cOJcYv/view",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case"
+        },
+        {
+          "id": "ai_1aZHufKAFdasy96wvvunzBSWX58cOJcYv_10",
+          "stem": "What is the respiratory contribution to acid-base balance emphasized in the lecture?",
+          "options": {
+            "A": "Direct urinary excretion of hydrogen ions",
+            "B": "Formation of urea in the liver",
+            "C": "Exclusive control of plasma sodium",
+            "D": "Regulation of carbon dioxide elimination"
+          },
+          "answer": "D",
+          "explanation": "Carbon dioxide contributes to carbonic acid formation. Adjusting its elimination helps regulate acid-base balance; renal hydrogen excretion is a different mechanism.",
+          "concept": "Respiratory functions",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1aZHufKAFdasy96wvvunzBSWX58cOJcYv/view",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1aZHufKAFdasy96wvvunzBSWX58cOJcYv_11",
+          "stem": "Which process describes cellular respiration as used in the lecture?",
+          "options": {
+            "A": "Expansion of the chest wall alone",
+            "B": "Filtering particles in the nasal cavity",
+            "C": "Intracellular use of oxygen to generate energy with carbon dioxide production",
+            "D": "Movement of air through the trachea alone"
+          },
+          "answer": "C",
+          "explanation": "Cellular respiration uses oxygen in cellular energy production. Ventilation is the movement of air into and out of the lungs.",
+          "concept": "Cellular respiration",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1aZHufKAFdasy96wvvunzBSWX58cOJcYv/view",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1aZHufKAFdasy96wvvunzBSWX58cOJcYv_12",
+          "stem": "During inspiration, external intercostal contraction expands the chest mainly by which action?",
+          "options": {
+            "A": "Contracting alveolar walls",
+            "B": "Moving the ribs upward and outward",
+            "C": "Depressing the ribs downward and inward",
+            "D": "Pushing the diaphragm upward"
+          },
+          "answer": "B",
+          "explanation": "External intercostals elevate the ribs and expand the thorax. A larger thoracic volume promotes the pressure gradient for inspiration.",
+          "concept": "External intercostals",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1aZHufKAFdasy96wvvunzBSWX58cOJcYv/view",
+          "quality_status": "pass",
+          "exam_ready": true
+        }
+      ]
+    },
+    {
+      "id": "ai_set_1HkxvY3Fd3Yr9fBAnEdPO9gzvVP-wF4VJ",
+      "subject": "Physiology",
+      "title": "Mechanism of breathing L2: pressures, surfactant and compliance",
+      "source_file_id": "1HkxvY3Fd3Yr9fBAnEdPO9gzvVP-wF4VJ",
+      "source_url": "https://drive.google.com/file/d/1HkxvY3Fd3Yr9fBAnEdPO9gzvVP-wF4VJ/view",
+      "source_modified_time": "2026-10-05T09:06:37.963Z",
+      "source_validation": "study_guide_and_lecture_verified",
+      "archived": false,
+      "eligibility_status": "allowed",
+      "quality_status": "pass",
+      "quality_reviewed_at": "2026-10-07T12:00:00.000Z",
+      "exam_ready": true,
+      "questions": [
+        {
+          "id": "ai_1HkxvY3Fd3Yr9fBAnEdPO9gzvVP-wF4VJ_01",
+          "stem": "Which pressure difference is the transpulmonary pressure?",
+          "options": {
+            "A": "Alveolar pressure minus intrapleural pressure",
+            "B": "Intrapleural pressure minus alveolar pressure",
+            "C": "Atmospheric pressure minus arterial pressure",
+            "D": "Pulmonary arterial pressure minus venous pressure"
+          },
+          "answer": "A",
+          "explanation": "Transpulmonary pressure is the distending pressure across the lung: alveolar minus intrapleural pressure. A positive value opposes inward lung recoil.",
+          "concept": "Transpulmonary pressure",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1HkxvY3Fd3Yr9fBAnEdPO9gzvVP-wF4VJ/view",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1HkxvY3Fd3Yr9fBAnEdPO9gzvVP-wF4VJ_02",
+          "stem": "Why is intrapleural pressure normally negative during quiet breathing?",
+          "options": {
+            "A": "Alveolar air is continuously removed by cilia",
+            "B": "Pleural fluid is replaced by atmospheric air",
+            "C": "The diaphragm remains maximally contracted throughout expiration",
+            "D": "The lung recoils inward while the chest wall tends outward within a closed pleural space"
+          },
+          "answer": "D",
+          "explanation": "Opposing recoil forces in the closed pleural space generate subatmospheric pressure and help keep the lungs expanded.",
+          "concept": "Pleural pressure",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1HkxvY3Fd3Yr9fBAnEdPO9gzvVP-wF4VJ/view",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1HkxvY3Fd3Yr9fBAnEdPO9gzvVP-wF4VJ_03",
+          "stem": "A chest injury allows air into the pleural space. What directly explains collapse of the affected lung?",
+          "options": {
+            "A": "An immediate increase in lung elastic tissue",
+            "B": "A fall in atmospheric pressure outside the body",
+            "C": "Loss of the normal transpulmonary distending pressure",
+            "D": "An immediate increase in surfactant secretion"
+          },
+          "answer": "C",
+          "explanation": "Pleural air disrupts the normally negative pleural pressure. Reduced distending pressure allows inward elastic recoil to collapse the lung.",
+          "concept": "Pneumothorax",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1HkxvY3Fd3Yr9fBAnEdPO9gzvVP-wF4VJ/view",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1HkxvY3Fd3Yr9fBAnEdPO9gzvVP-wF4VJ_04",
+          "stem": "At the start of spontaneous inspiration, which alveolar pressure change draws air inward?",
+          "options": {
+            "A": "It becomes identical to systemic arterial pressure",
+            "B": "It falls below atmospheric pressure",
+            "C": "It rises above atmospheric pressure",
+            "D": "It remains above atmospheric pressure throughout inspiration"
+          },
+          "answer": "B",
+          "explanation": "Thoracic expansion lowers alveolar pressure below atmospheric pressure, creating inward airflow. At the end of inspiration it returns toward atmospheric pressure.",
+          "concept": "Inspiratory pressure",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1HkxvY3Fd3Yr9fBAnEdPO9gzvVP-wF4VJ/view",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1HkxvY3Fd3Yr9fBAnEdPO9gzvVP-wF4VJ_05",
+          "stem": "At the end of a normal inspiration, airflow stops despite an expanded lung. Why?",
+          "options": {
+            "A": "Alveolar pressure has returned to atmospheric pressure",
+            "B": "Intrapleural pressure has become permanently positive",
+            "C": "All respiratory bronchioles have closed",
+            "D": "Surfactant has completely disappeared"
+          },
+          "answer": "A",
+          "explanation": "Airflow depends on the pressure difference between atmosphere and alveoli. When the difference is zero, flow stops even though lung volume remains above its resting level.",
+          "concept": "Pressure and airflow",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1HkxvY3Fd3Yr9fBAnEdPO9gzvVP-wF4VJ/view",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1HkxvY3Fd3Yr9fBAnEdPO9gzvVP-wF4VJ_06",
+          "stem": "Which expression defines lung compliance?",
+          "options": {
+            "A": "Change in distending pressure divided by change in lung volume",
+            "B": "Airflow divided by oxygen consumption",
+            "C": "Lung volume divided by respiratory frequency",
+            "D": "Change in lung volume divided by change in distending pressure"
+          },
+          "answer": "D",
+          "explanation": "Compliance expresses how much the lung volume changes for a given change in distending pressure. Its inverse describes stiffness or elastance.",
+          "concept": "Compliance",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1HkxvY3Fd3Yr9fBAnEdPO9gzvVP-wF4VJ/view",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1HkxvY3Fd3Yr9fBAnEdPO9gzvVP-wF4VJ_07",
+          "stem": "A patient with pulmonary fibrosis needs a larger inspiratory pressure change to take the same tidal volume. What has changed?",
+          "options": {
+            "A": "Elastic recoil has disappeared",
+            "B": "Alveolar surface tension has become zero",
+            "C": "Lung compliance has decreased",
+            "D": "Lung compliance has increased"
+          },
+          "answer": "C",
+          "explanation": "Fibrosis stiffens the lung, decreasing compliance. More inspiratory effort is required to achieve a given volume change.",
+          "concept": "Low compliance",
+          "difficulty": "application",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1HkxvY3Fd3Yr9fBAnEdPO9gzvVP-wF4VJ/view",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case"
+        },
+        {
+          "id": "ai_1HkxvY3Fd3Yr9fBAnEdPO9gzvVP-wF4VJ_08",
+          "stem": "Why can increased compliance in emphysema coexist with difficult expiration?",
+          "options": {
+            "A": "Surfactant production necessarily stops completely",
+            "B": "The lung expands easily but has lost elastic recoil needed for efficient emptying",
+            "C": "The lung is unusually stiff during inspiration",
+            "D": "All conducting airways become gas-exchanging surfaces"
+          },
+          "answer": "B",
+          "explanation": "Destruction of alveolar walls reduces recoil and increases compliance. Easy inflation does not imply effective passive emptying.",
+          "concept": "Compliance versus recoil",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1HkxvY3Fd3Yr9fBAnEdPO9gzvVP-wF4VJ/view",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1HkxvY3Fd3Yr9fBAnEdPO9gzvVP-wF4VJ_09",
+          "stem": "Which cells synthesize and secrete pulmonary surfactant?",
+          "options": {
+            "A": "Type II alveolar epithelial cells",
+            "B": "Type I alveolar epithelial cells",
+            "C": "Bronchial cartilage cells",
+            "D": "Pleural mesothelial cells"
+          },
+          "answer": "A",
+          "explanation": "Type II alveolar cells produce surfactant, a phospholipid-protein mixture that lowers alveolar surface tension.",
+          "concept": "Surfactant source",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1HkxvY3Fd3Yr9fBAnEdPO9gzvVP-wF4VJ/view",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1HkxvY3Fd3Yr9fBAnEdPO9gzvVP-wF4VJ_10",
+          "stem": "A premature infant has surfactant deficiency. Which mechanical consequence is expected?",
+          "options": {
+            "A": "Reduced alveolar surface tension and increased compliance",
+            "B": "Reduced tendency for alveolar collapse",
+            "C": "Complete loss of pulmonary elastic tissue",
+            "D": "Increased alveolar surface tension and reduced lung compliance"
+          },
+          "answer": "D",
+          "explanation": "Without adequate surfactant, surface tension rises, alveoli are more prone to collapse and greater effort is needed for inflation.",
+          "concept": "Surfactant deficiency",
+          "difficulty": "application",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1HkxvY3Fd3Yr9fBAnEdPO9gzvVP-wF4VJ/view",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case"
+        },
+        {
+          "id": "ai_1HkxvY3Fd3Yr9fBAnEdPO9gzvVP-wF4VJ_11",
+          "stem": "For two idealized alveoli with equal surface tension, what does Laplace’s law predict about the smaller alveolus?",
+          "options": {
+            "A": "Its pressure is independent of radius",
+            "B": "Its pressure must equal pleural pressure",
+            "C": "It requires a higher pressure to remain open",
+            "D": "It requires a lower pressure to remain open"
+          },
+          "answer": "C",
+          "explanation": "For an idealized spherical alveolus, P = 2T/r. At equal surface tension, a smaller radius gives a higher pressure; surfactant helps stabilize small alveoli by reducing their tension.",
+          "concept": "Laplace relationship",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1HkxvY3Fd3Yr9fBAnEdPO9gzvVP-wF4VJ/view",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1HkxvY3Fd3Yr9fBAnEdPO9gzvVP-wF4VJ_12",
+          "stem": "How does surfactant help prevent a small alveolus from emptying into a larger one?",
+          "options": {
+            "A": "It abolishes all transpulmonary pressure",
+            "B": "It lowers surface tension more strongly as its molecules become concentrated in the smaller alveolus",
+            "C": "It raises surface tension most in the smallest alveoli",
+            "D": "It replaces the alveolar air with fluid"
+          },
+          "answer": "B",
+          "explanation": "Surfactant molecules become more closely packed as alveoli shrink, lowering surface tension and helping stabilize alveoli of different sizes.",
+          "concept": "Alveolar stability",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1HkxvY3Fd3Yr9fBAnEdPO9gzvVP-wF4VJ/view",
+          "quality_status": "pass",
+          "exam_ready": true
+        }
+      ]
+    },
+    {
+      "id": "ai_set_1K8y3B4Uayu64dRGAXdVO8cA-Kghv0mkJ",
+      "subject": "Pathology",
+      "title": "COPD: chronic bronchitis, emphysema and bronchiectasis",
+      "source_file_id": "1K8y3B4Uayu64dRGAXdVO8cA-Kghv0mkJ",
+      "source_url": "https://drive.google.com/file/d/1K8y3B4Uayu64dRGAXdVO8cA-Kghv0mkJ/view",
+      "source_modified_time": "2026-10-07T11:16:33.259Z",
+      "source_validation": "study_guide_and_lecture_verified",
+      "archived": false,
+      "eligibility_status": "allowed",
+      "quality_status": "pass",
+      "quality_reviewed_at": "2026-10-07T12:00:00.000Z",
+      "exam_ready": true,
+      "questions": [
+        {
+          "id": "ai_1K8y3B4Uayu64dRGAXdVO8cA-Kghv0mkJ_01",
+          "stem": "Which spirometric relationship supports an obstructive ventilatory defect?",
+          "options": {
+            "A": "FEV1 falls proportionately more than FVC, reducing FEV1/FVC",
+            "B": "FEV1/FVC rises because FEV1 increases",
+            "C": "FEV1 and FVC are always normal",
+            "D": "FVC rises while FEV1 is unchanged in every case"
+          },
+          "answer": "A",
+          "explanation": "Airflow obstruction disproportionately reduces forced expiratory volume in the first second, lowering FEV1/FVC. Air trapping can also increase total lung capacity.",
+          "concept": "Obstructive physiology",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1K8y3B4Uayu64dRGAXdVO8cA-Kghv0mkJ/view",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1K8y3B4Uayu64dRGAXdVO8cA-Kghv0mkJ_02",
+          "stem": "A smoker has productive cough for four months in each of two consecutive years. Which clinical definition does this pattern meet, after other causes are excluded?",
+          "options": {
+            "A": "Emphysema defined by histology",
+            "B": "Acute bronchitis alone",
+            "C": "Pulmonary fibrosis",
+            "D": "Chronic bronchitis"
+          },
+          "answer": "D",
+          "explanation": "Chronic bronchitis is defined clinically by productive cough for at least three months in each of two consecutive years. Emphysema is defined by structural alveolar destruction.",
+          "concept": "Chronic bronchitis definition",
+          "difficulty": "application",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1K8y3B4Uayu64dRGAXdVO8cA-Kghv0mkJ/view",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case"
+        },
+        {
+          "id": "ai_1K8y3B4Uayu64dRGAXdVO8cA-Kghv0mkJ_03",
+          "stem": "Which bronchial change is characteristic of chronic bronchitis?",
+          "options": {
+            "A": "Selective destruction of alveolar septa without airway change",
+            "B": "Noncaseating granulomas in every bronchus",
+            "C": "Enlargement of mucus-secreting glands with an increased Reid index",
+            "D": "Complete replacement of mucous glands by cartilage"
+          },
+          "answer": "C",
+          "explanation": "Chronic bronchitis increases the mucus-gland thickness relative to bronchial wall thickness. The lecture describes a Reid index above 50%, versus a normal value below 40%.",
+          "concept": "Reid index",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1K8y3B4Uayu64dRGAXdVO8cA-Kghv0mkJ/view",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1K8y3B4Uayu64dRGAXdVO8cA-Kghv0mkJ_04",
+          "stem": "What contributes to small-airway narrowing in chronic bronchitis?",
+          "options": {
+            "A": "Surfactant accumulation within pleural fluid",
+            "B": "Goblet-cell hyperplasia and mucus plugging",
+            "C": "Loss of all airway mucus production",
+            "D": "Uniform dilation without inflammation"
+          },
+          "answer": "B",
+          "explanation": "Goblet-cell hyperplasia and mucus plugs narrow bronchioles, contributing to airflow obstruction.",
+          "concept": "Small-airway obstruction",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1K8y3B4Uayu64dRGAXdVO8cA-Kghv0mkJ/view",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1K8y3B4Uayu64dRGAXdVO8cA-Kghv0mkJ_05",
+          "stem": "Which structural change defines emphysema?",
+          "options": {
+            "A": "Enlargement of distal airspaces with destruction of alveolar septa",
+            "B": "Reversible bronchial smooth-muscle contraction alone",
+            "C": "Fibrotic thickening of every alveolar septum",
+            "D": "Mucus-gland enlargement without alveolar destruction"
+          },
+          "answer": "A",
+          "explanation": "Emphysema involves enlarged airspaces and alveolar wall destruction, classically without obvious fibrosis. Loss of recoil contributes to expiratory collapse and air trapping.",
+          "concept": "Emphysema morphology",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1K8y3B4Uayu64dRGAXdVO8cA-Kghv0mkJ/view",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1K8y3B4Uayu64dRGAXdVO8cA-Kghv0mkJ_06",
+          "stem": "A long-term smoker has emphysema predominantly involving respiratory bronchioles in the upper lobes. Which pattern is most likely?",
+          "options": {
+            "A": "Panacinar emphysema",
+            "B": "Distal acinar emphysema",
+            "C": "Irregular emphysema confined to scars",
+            "D": "Centriacinar emphysema"
+          },
+          "answer": "D",
+          "explanation": "Centriacinar emphysema preferentially affects central acinar portions and upper lobes and is strongly associated with smoking.",
+          "concept": "Centriacinar emphysema",
+          "difficulty": "application",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1K8y3B4Uayu64dRGAXdVO8cA-Kghv0mkJ/view",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case"
+        },
+        {
+          "id": "ai_1K8y3B4Uayu64dRGAXdVO8cA-Kghv0mkJ_07",
+          "stem": "A young patient with alpha-1 antitrypsin deficiency develops lower-lobe-predominant emphysema. Which distribution is expected within each acinus?",
+          "options": {
+            "A": "Involvement only immediately next to a scar",
+            "B": "Sparing of all alveolar ducts and sacs",
+            "C": "Uniform involvement of the whole acinus",
+            "D": "Selective involvement of only the central respiratory bronchiole"
+          },
+          "answer": "C",
+          "explanation": "Alpha-1 antitrypsin deficiency classically causes panacinar emphysema, involving the whole acinus and often most severely affecting lower lobes.",
+          "concept": "Panacinar emphysema",
+          "difficulty": "application",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1K8y3B4Uayu64dRGAXdVO8cA-Kghv0mkJ/view",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case"
+        },
+        {
+          "id": "ai_1K8y3B4Uayu64dRGAXdVO8cA-Kghv0mkJ_08",
+          "stem": "How does alpha-1 antitrypsin deficiency promote emphysema?",
+          "options": {
+            "A": "It increases elastic-fiber synthesis enough to stiffen alveoli",
+            "B": "It leaves alveolar walls insufficiently protected against proteases",
+            "C": "It directly increases bronchial cartilage formation",
+            "D": "It prevents all neutrophils from entering the lung"
+          },
+          "answer": "B",
+          "explanation": "Alpha-1 antitrypsin is an antiprotease. Deficiency shifts the protease-antiprotease balance toward tissue destruction.",
+          "concept": "Protease-antiprotease balance",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1K8y3B4Uayu64dRGAXdVO8cA-Kghv0mkJ/view",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1K8y3B4Uayu64dRGAXdVO8cA-Kghv0mkJ_09",
+          "stem": "Which mechanism links cigarette smoke to alveolar wall destruction?",
+          "options": {
+            "A": "Inflammation with protease release and oxidant injury",
+            "B": "Complete suppression of inflammatory-cell recruitment",
+            "C": "Permanent elimination of all airway proteases",
+            "D": "Selective increase in intact alveolar elastic tissue"
+          },
+          "answer": "A",
+          "explanation": "Smoke-related inflammation releases elastases, oxidants and cytokines. Protease-antiprotease and oxidant-antioxidant imbalances promote alveolar destruction.",
+          "concept": "Smoking mechanism",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1K8y3B4Uayu64dRGAXdVO8cA-Kghv0mkJ/view",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1K8y3B4Uayu64dRGAXdVO8cA-Kghv0mkJ_10",
+          "stem": "Subpleural distal-acinar emphysema is particularly associated with which complication?",
+          "options": {
+            "A": "Mitral stenosis",
+            "B": "Pulmonary valve atresia",
+            "C": "Primary pleural mesothelioma",
+            "D": "Spontaneous pneumothorax"
+          },
+          "answer": "D",
+          "explanation": "Distal acinar (paraseptal) emphysema affects regions near the pleura and is associated with spontaneous pneumothorax.",
+          "concept": "Paraseptal emphysema",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1K8y3B4Uayu64dRGAXdVO8cA-Kghv0mkJ/view",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1K8y3B4Uayu64dRGAXdVO8cA-Kghv0mkJ_11",
+          "stem": "Which emphysema pattern is associated with healed inflammatory scars?",
+          "options": {
+            "A": "Pure centriacinar emphysema without scarring",
+            "B": "Diffuse alveolar fibrosis without airspace enlargement",
+            "C": "Irregular emphysema",
+            "D": "Uniform panacinar emphysema in every lobe"
+          },
+          "answer": "C",
+          "explanation": "Irregular emphysema involves the acinus unevenly and is associated with scarring from prior inflammatory disease.",
+          "concept": "Irregular emphysema",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1K8y3B4Uayu64dRGAXdVO8cA-Kghv0mkJ/view",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1K8y3B4Uayu64dRGAXdVO8cA-Kghv0mkJ_12",
+          "stem": "A patient has recurrent lung infections, foul-smelling sputum and permanently dilated bronchi. What is the most likely diagnosis?",
+          "options": {
+            "A": "Pulmonary edema alone",
+            "B": "Bronchiectasis",
+            "C": "Isolated emphysema",
+            "D": "Uncomplicated acute bronchitis"
+          },
+          "answer": "B",
+          "explanation": "Bronchiectasis is permanent bronchial dilation following severe inflammatory damage to airway walls; recurrent infection and purulent sputum are typical.",
+          "concept": "Bronchiectasis",
+          "difficulty": "application",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1K8y3B4Uayu64dRGAXdVO8cA-Kghv0mkJ/view",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case"
+        },
+        {
+          "id": "ai_1K8y3B4Uayu64dRGAXdVO8cA-Kghv0mkJ_13",
+          "stem": "A patient with bronchiectasis also has chronic sinusitis, infertility and situs inversus. Which defect best links these findings?",
+          "options": {
+            "A": "Defective ciliary dynein arms",
+            "B": "Excess alpha-1 antitrypsin activity",
+            "C": "Isolated enlargement of bronchial cartilage",
+            "D": "Increased surfactant synthesis"
+          },
+          "answer": "A",
+          "explanation": "Impaired ciliary motility from a dynein-arm defect causes poor airway clearance; the combination with situs inversus is classically Kartagener syndrome.",
+          "concept": "Ciliary dysfunction",
+          "difficulty": "application",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1K8y3B4Uayu64dRGAXdVO8cA-Kghv0mkJ/view",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case"
+        },
+        {
+          "id": "ai_1K8y3B4Uayu64dRGAXdVO8cA-Kghv0mkJ_14",
+          "stem": "A child develops recurrent infection and bronchiectasis distal to an aspirated foreign body. What initiated this localized disease?",
+          "options": {
+            "A": "A systemic excess of surfactant",
+            "B": "A congenital absence of all alveoli",
+            "C": "Primary pulmonary venous hypertension",
+            "D": "Airway obstruction followed by infection and wall damage"
+          },
+          "answer": "D",
+          "explanation": "A foreign body or tumor can obstruct a localized bronchus, predisposing to infection and destructive inflammation that permanently dilates the airway.",
+          "concept": "Localized bronchiectasis",
+          "difficulty": "application",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1K8y3B4Uayu64dRGAXdVO8cA-Kghv0mkJ/view",
+          "quality_status": "pass",
+          "exam_ready": true,
+          "case_style": "formative_short_case"
+        },
+        {
+          "id": "ai_1K8y3B4Uayu64dRGAXdVO8cA-Kghv0mkJ_15",
+          "stem": "Why does cystic fibrosis predispose to bronchiectasis in the lecture’s disease sequence?",
+          "options": {
+            "A": "Excess antiprotease activity destroys alveoli",
+            "B": "Lack of pleural fluid directly dilates bronchi",
+            "C": "Abnormal secretions lead to obstruction, infection and airway-wall damage",
+            "D": "Reduced blood pressure destroys bronchial cartilage"
+          },
+          "answer": "C",
+          "explanation": "Abnormal exocrine secretions in cystic fibrosis promote airway obstruction and infection, followed by destructive inflammation and bronchiectasis.",
+          "concept": "Cystic fibrosis",
+          "difficulty": "core",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1K8y3B4Uayu64dRGAXdVO8cA-Kghv0mkJ/view",
+          "quality_status": "pass",
+          "exam_ready": true
+        },
+        {
+          "id": "ai_1K8y3B4Uayu64dRGAXdVO8cA-Kghv0mkJ_16",
+          "stem": "A patient with advanced COPD develops pulmonary hypertension and right-sided heart failure. What term describes this cardiac complication?",
+          "options": {
+            "A": "Mitral valve prolapse",
+            "B": "Cor pulmonale",
+            "C": "Primary left ventricular cardiomyopathy",
+            "D": "Acute rheumatic pancarditis"
+          },
+          "answer": "B",
+          "explanation": "Cor pulmonale is right-heart disease resulting from pulmonary disease; the lecture lists pulmonary hypertension and cor pulmonale among COPD complications.",
+          "concept": "COPD complications",
+          "difficulty": "application",
+          "style_profile": "KAU-past-paper-inspired",
+          "source_url": "https://drive.google.com/file/d/1K8y3B4Uayu64dRGAXdVO8cA-Kghv0mkJ/view",
           "quality_status": "pass",
           "exam_ready": true,
           "case_style": "formative_short_case"

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T20:30:00.000Z",
+  "generated_at": "2026-10-07T12:00:00.000Z",
   "purpose": "Current MED25 Drive sources that must never silently fall to zero AI coverage.",
   "current_drive_sources": [
     {
@@ -705,6 +705,85 @@
       "ai_source_file_id": "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5",
       "lecture_ids": [
         "physiology__cardiac-cycle"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Physiology",
+      "title": "Respiratory system L1: mechanics of breathing",
+      "drive_file_id": "1aZHufKAFdasy96wvvunzBSWX58cOJcYv",
+      "ai_source_file_id": "1aZHufKAFdasy96wvvunzBSWX58cOJcYv",
+      "lecture_ids": [
+        "physiology__mechanics-of-breathing"
+      ],
+      "minimum_ai_questions": 10,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Physiology",
+      "title": "Mechanism of breathing L2: pressures, surfactant and compliance",
+      "drive_file_id": "1HkxvY3Fd3Yr9fBAnEdPO9gzvVP-wF4VJ",
+      "ai_source_file_id": "1HkxvY3Fd3Yr9fBAnEdPO9gzvVP-wF4VJ",
+      "lecture_ids": [
+        "physiology__pressure-volume-relationship-and-lung-compliance"
+      ],
+      "minimum_ai_questions": 10,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Pathology",
+      "title": "COPD: chronic bronchitis, emphysema and bronchiectasis",
+      "drive_file_id": "1K8y3B4Uayu64dRGAXdVO8cA-Kghv0mkJ",
+      "ai_source_file_id": "1K8y3B4Uayu64dRGAXdVO8cA-Kghv0mkJ",
+      "lecture_ids": [
+        "pathology__obstructive-airway-diseases"
+      ],
+      "minimum_ai_questions": 10,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Pathology",
+      "title": "L9-Endocarditis .pdf",
+      "drive_file_id": "1UmPRonzM9xUa8gWFSSIsoLR3K3tysAUE",
+      "ai_source_file_id": "libfile_6e646046c4ac81918406ddf5ca74067d",
+      "lecture_ids": [
+        "pathology__infective-endocarditis"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Pathology",
+      "title": "L6-Vasculitis and vascular & cardiac tumours 2026-2027.pdf",
+      "drive_file_id": "10l7F6bEVJlxf09wcuIrUEqnldTnAq4-K",
+      "ai_source_file_id": "1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6",
+      "lecture_ids": [
+        "pathology__cardiac-and-vascular-tumours",
+        "pathology__vasculitis"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Pharmacology",
+      "title": "9-Pharmacology Antihypertensive Drugs.pdf",
+      "drive_file_id": "17Hnia-lvi1Ar67fKkk0kxUu-W9VHkBBN",
+      "ai_source_file_id": "11ZztQA_d1F4x9wB69Olsoc-d823jwFqm",
+      "lecture_ids": [
+        "pharmacology__antihypertensive-drugs-1",
+        "pharmacology__antihypertensive-drugs-2"
+      ],
+      "minimum_ai_questions": 1,
+      "minimum_cases_per_lecture": 1
+    },
+    {
+      "subject": "Pathology",
+      "title": "HTN 2026-2027.pdf",
+      "drive_file_id": "1RDnk7z3niYbebWOLYgWJa3WWvalF2nEP",
+      "ai_source_file_id": "1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP",
+      "lecture_ids": [
+        "pathology__pathology-of-hypertension"
       ],
       "minimum_ai_questions": 1,
       "minimum_cases_per_lecture": 1

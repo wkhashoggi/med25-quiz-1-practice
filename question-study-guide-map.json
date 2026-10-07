@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-04T20:30:00.000Z",
+  "generated_at": "2026-10-07T12:00:00.000Z",
   "study_guide_file_id": "1QwRNlO6-zuOQugxyjrhXykOW-YjVtal4",
   "past": {
     "ibls-previous-years-p4-q3-1": {
@@ -18954,6 +18954,326 @@
       "title": "Cardiac cycle",
       "confidence": 1,
       "method": "merged-runtime-source-audit-2026-10-04"
+    },
+    "ai_1aZHufKAFdasy96wvvunzBSWX58cOJcYv_01": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "confidence": 1,
+      "method": "manual-slide-review",
+      "quiz": 2
+    },
+    "ai_1aZHufKAFdasy96wvvunzBSWX58cOJcYv_02": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "confidence": 1,
+      "method": "manual-slide-review",
+      "quiz": 2
+    },
+    "ai_1aZHufKAFdasy96wvvunzBSWX58cOJcYv_03": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "confidence": 1,
+      "method": "manual-slide-review",
+      "quiz": 2
+    },
+    "ai_1aZHufKAFdasy96wvvunzBSWX58cOJcYv_04": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "confidence": 1,
+      "method": "manual-slide-review",
+      "quiz": 2
+    },
+    "ai_1aZHufKAFdasy96wvvunzBSWX58cOJcYv_05": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "confidence": 1,
+      "method": "manual-slide-review",
+      "quiz": 2
+    },
+    "ai_1aZHufKAFdasy96wvvunzBSWX58cOJcYv_06": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "confidence": 1,
+      "method": "manual-slide-review",
+      "quiz": 2
+    },
+    "ai_1aZHufKAFdasy96wvvunzBSWX58cOJcYv_07": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "confidence": 1,
+      "method": "manual-slide-review",
+      "quiz": 2
+    },
+    "ai_1aZHufKAFdasy96wvvunzBSWX58cOJcYv_08": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "confidence": 1,
+      "method": "manual-slide-review",
+      "quiz": 2
+    },
+    "ai_1aZHufKAFdasy96wvvunzBSWX58cOJcYv_09": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "confidence": 1,
+      "method": "manual-slide-review",
+      "quiz": 2
+    },
+    "ai_1aZHufKAFdasy96wvvunzBSWX58cOJcYv_10": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "confidence": 1,
+      "method": "manual-slide-review",
+      "quiz": 2
+    },
+    "ai_1aZHufKAFdasy96wvvunzBSWX58cOJcYv_11": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "confidence": 1,
+      "method": "manual-slide-review",
+      "quiz": 2
+    },
+    "ai_1aZHufKAFdasy96wvvunzBSWX58cOJcYv_12": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "confidence": 1,
+      "method": "manual-slide-review",
+      "quiz": 2
+    },
+    "ai_1HkxvY3Fd3Yr9fBAnEdPO9gzvVP-wF4VJ_01": {
+      "lecture_id": "physiology__pressure-volume-relationship-and-lung-compliance",
+      "subject": "Physiology",
+      "title": "Pressure-volume relationship and lung compliance",
+      "confidence": 1,
+      "method": "manual-slide-review",
+      "quiz": 2
+    },
+    "ai_1HkxvY3Fd3Yr9fBAnEdPO9gzvVP-wF4VJ_02": {
+      "lecture_id": "physiology__pressure-volume-relationship-and-lung-compliance",
+      "subject": "Physiology",
+      "title": "Pressure-volume relationship and lung compliance",
+      "confidence": 1,
+      "method": "manual-slide-review",
+      "quiz": 2
+    },
+    "ai_1HkxvY3Fd3Yr9fBAnEdPO9gzvVP-wF4VJ_03": {
+      "lecture_id": "physiology__pressure-volume-relationship-and-lung-compliance",
+      "subject": "Physiology",
+      "title": "Pressure-volume relationship and lung compliance",
+      "confidence": 1,
+      "method": "manual-slide-review",
+      "quiz": 2
+    },
+    "ai_1HkxvY3Fd3Yr9fBAnEdPO9gzvVP-wF4VJ_04": {
+      "lecture_id": "physiology__pressure-volume-relationship-and-lung-compliance",
+      "subject": "Physiology",
+      "title": "Pressure-volume relationship and lung compliance",
+      "confidence": 1,
+      "method": "manual-slide-review",
+      "quiz": 2
+    },
+    "ai_1HkxvY3Fd3Yr9fBAnEdPO9gzvVP-wF4VJ_05": {
+      "lecture_id": "physiology__pressure-volume-relationship-and-lung-compliance",
+      "subject": "Physiology",
+      "title": "Pressure-volume relationship and lung compliance",
+      "confidence": 1,
+      "method": "manual-slide-review",
+      "quiz": 2
+    },
+    "ai_1HkxvY3Fd3Yr9fBAnEdPO9gzvVP-wF4VJ_06": {
+      "lecture_id": "physiology__pressure-volume-relationship-and-lung-compliance",
+      "subject": "Physiology",
+      "title": "Pressure-volume relationship and lung compliance",
+      "confidence": 1,
+      "method": "manual-slide-review",
+      "quiz": 2
+    },
+    "ai_1HkxvY3Fd3Yr9fBAnEdPO9gzvVP-wF4VJ_07": {
+      "lecture_id": "physiology__pressure-volume-relationship-and-lung-compliance",
+      "subject": "Physiology",
+      "title": "Pressure-volume relationship and lung compliance",
+      "confidence": 1,
+      "method": "manual-slide-review",
+      "quiz": 2
+    },
+    "ai_1HkxvY3Fd3Yr9fBAnEdPO9gzvVP-wF4VJ_08": {
+      "lecture_id": "physiology__pressure-volume-relationship-and-lung-compliance",
+      "subject": "Physiology",
+      "title": "Pressure-volume relationship and lung compliance",
+      "confidence": 1,
+      "method": "manual-slide-review",
+      "quiz": 2
+    },
+    "ai_1HkxvY3Fd3Yr9fBAnEdPO9gzvVP-wF4VJ_09": {
+      "lecture_id": "physiology__pressure-volume-relationship-and-lung-compliance",
+      "subject": "Physiology",
+      "title": "Pressure-volume relationship and lung compliance",
+      "confidence": 1,
+      "method": "manual-slide-review",
+      "quiz": 2
+    },
+    "ai_1HkxvY3Fd3Yr9fBAnEdPO9gzvVP-wF4VJ_10": {
+      "lecture_id": "physiology__pressure-volume-relationship-and-lung-compliance",
+      "subject": "Physiology",
+      "title": "Pressure-volume relationship and lung compliance",
+      "confidence": 1,
+      "method": "manual-slide-review",
+      "quiz": 2
+    },
+    "ai_1HkxvY3Fd3Yr9fBAnEdPO9gzvVP-wF4VJ_11": {
+      "lecture_id": "physiology__pressure-volume-relationship-and-lung-compliance",
+      "subject": "Physiology",
+      "title": "Pressure-volume relationship and lung compliance",
+      "confidence": 1,
+      "method": "manual-slide-review",
+      "quiz": 2
+    },
+    "ai_1HkxvY3Fd3Yr9fBAnEdPO9gzvVP-wF4VJ_12": {
+      "lecture_id": "physiology__pressure-volume-relationship-and-lung-compliance",
+      "subject": "Physiology",
+      "title": "Pressure-volume relationship and lung compliance",
+      "confidence": 1,
+      "method": "manual-slide-review",
+      "quiz": 2
+    },
+    "ai_1K8y3B4Uayu64dRGAXdVO8cA-Kghv0mkJ_01": {
+      "lecture_id": "pathology__obstructive-airway-diseases",
+      "subject": "Pathology",
+      "title": "Obstructive airway diseases",
+      "confidence": 1,
+      "method": "manual-slide-review",
+      "quiz": 2
+    },
+    "ai_1K8y3B4Uayu64dRGAXdVO8cA-Kghv0mkJ_02": {
+      "lecture_id": "pathology__obstructive-airway-diseases",
+      "subject": "Pathology",
+      "title": "Obstructive airway diseases",
+      "confidence": 1,
+      "method": "manual-slide-review",
+      "quiz": 2
+    },
+    "ai_1K8y3B4Uayu64dRGAXdVO8cA-Kghv0mkJ_03": {
+      "lecture_id": "pathology__obstructive-airway-diseases",
+      "subject": "Pathology",
+      "title": "Obstructive airway diseases",
+      "confidence": 1,
+      "method": "manual-slide-review",
+      "quiz": 2
+    },
+    "ai_1K8y3B4Uayu64dRGAXdVO8cA-Kghv0mkJ_04": {
+      "lecture_id": "pathology__obstructive-airway-diseases",
+      "subject": "Pathology",
+      "title": "Obstructive airway diseases",
+      "confidence": 1,
+      "method": "manual-slide-review",
+      "quiz": 2
+    },
+    "ai_1K8y3B4Uayu64dRGAXdVO8cA-Kghv0mkJ_05": {
+      "lecture_id": "pathology__obstructive-airway-diseases",
+      "subject": "Pathology",
+      "title": "Obstructive airway diseases",
+      "confidence": 1,
+      "method": "manual-slide-review",
+      "quiz": 2
+    },
+    "ai_1K8y3B4Uayu64dRGAXdVO8cA-Kghv0mkJ_06": {
+      "lecture_id": "pathology__obstructive-airway-diseases",
+      "subject": "Pathology",
+      "title": "Obstructive airway diseases",
+      "confidence": 1,
+      "method": "manual-slide-review",
+      "quiz": 2
+    },
+    "ai_1K8y3B4Uayu64dRGAXdVO8cA-Kghv0mkJ_07": {
+      "lecture_id": "pathology__obstructive-airway-diseases",
+      "subject": "Pathology",
+      "title": "Obstructive airway diseases",
+      "confidence": 1,
+      "method": "manual-slide-review",
+      "quiz": 2
+    },
+    "ai_1K8y3B4Uayu64dRGAXdVO8cA-Kghv0mkJ_08": {
+      "lecture_id": "pathology__obstructive-airway-diseases",
+      "subject": "Pathology",
+      "title": "Obstructive airway diseases",
+      "confidence": 1,
+      "method": "manual-slide-review",
+      "quiz": 2
+    },
+    "ai_1K8y3B4Uayu64dRGAXdVO8cA-Kghv0mkJ_09": {
+      "lecture_id": "pathology__obstructive-airway-diseases",
+      "subject": "Pathology",
+      "title": "Obstructive airway diseases",
+      "confidence": 1,
+      "method": "manual-slide-review",
+      "quiz": 2
+    },
+    "ai_1K8y3B4Uayu64dRGAXdVO8cA-Kghv0mkJ_10": {
+      "lecture_id": "pathology__obstructive-airway-diseases",
+      "subject": "Pathology",
+      "title": "Obstructive airway diseases",
+      "confidence": 1,
+      "method": "manual-slide-review",
+      "quiz": 2
+    },
+    "ai_1K8y3B4Uayu64dRGAXdVO8cA-Kghv0mkJ_11": {
+      "lecture_id": "pathology__obstructive-airway-diseases",
+      "subject": "Pathology",
+      "title": "Obstructive airway diseases",
+      "confidence": 1,
+      "method": "manual-slide-review",
+      "quiz": 2
+    },
+    "ai_1K8y3B4Uayu64dRGAXdVO8cA-Kghv0mkJ_12": {
+      "lecture_id": "pathology__obstructive-airway-diseases",
+      "subject": "Pathology",
+      "title": "Obstructive airway diseases",
+      "confidence": 1,
+      "method": "manual-slide-review",
+      "quiz": 2
+    },
+    "ai_1K8y3B4Uayu64dRGAXdVO8cA-Kghv0mkJ_13": {
+      "lecture_id": "pathology__obstructive-airway-diseases",
+      "subject": "Pathology",
+      "title": "Obstructive airway diseases",
+      "confidence": 1,
+      "method": "manual-slide-review",
+      "quiz": 2
+    },
+    "ai_1K8y3B4Uayu64dRGAXdVO8cA-Kghv0mkJ_14": {
+      "lecture_id": "pathology__obstructive-airway-diseases",
+      "subject": "Pathology",
+      "title": "Obstructive airway diseases",
+      "confidence": 1,
+      "method": "manual-slide-review",
+      "quiz": 2
+    },
+    "ai_1K8y3B4Uayu64dRGAXdVO8cA-Kghv0mkJ_15": {
+      "lecture_id": "pathology__obstructive-airway-diseases",
+      "subject": "Pathology",
+      "title": "Obstructive airway diseases",
+      "confidence": 1,
+      "method": "manual-slide-review",
+      "quiz": 2
+    },
+    "ai_1K8y3B4Uayu64dRGAXdVO8cA-Kghv0mkJ_16": {
+      "lecture_id": "pathology__obstructive-airway-diseases",
+      "subject": "Pathology",
+      "title": "Obstructive airway diseases",
+      "confidence": 1,
+      "method": "manual-slide-review",
+      "quiz": 2
     }
   },
   "audit_note": "IBLS/CVS/Formative are provenance only. Past and AI questions are organized by official Study Guide subject and lecture. New combined antihypertensive content is split across official lecture 1/2 by objectives. Visible formative-style AI cases inherit the already-audited parent lecture mapping."

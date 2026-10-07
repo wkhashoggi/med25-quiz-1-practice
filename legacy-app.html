@@ -76043,7 +76043,7 @@ let flashSession={deckIds:[],queue:[],index:0,revealed:false,currentDeckLabel:''
 function refreshFlashReviewFromSaved(){
   let local={};
   try{local=JSON.parse(localStorage.getItem(FLASHCARD_LOCAL_KEY)||'{}')||{}}catch{}
-  flashReview={...local,...((saved&&saved.__flashcards__)||{})};
+  flashReview=mergeStudyProgress(local,(saved&&saved.__flashcards__)||{});
   try{localStorage.setItem(FLASHCARD_LOCAL_KEY,JSON.stringify(flashReview))}catch{}
 }
 function saveFlashReview(){

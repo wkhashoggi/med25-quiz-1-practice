@@ -1,17 +1,16 @@
 {
-  "audited_at": "2026-10-04T20:30:00.000Z",
+  "audited_at": "2026-10-07T12:00:00.000Z",
   "guide_url": "https://drive.google.com/file/d/1kIGOvteslYLGp7cnREnQu4y0Ct1psqMK/view?usp=drivesdk",
   "guide_lecture_deliveries": 88,
   "guide_topic_entries": 106,
   "drive_folders_scanned": 94,
   "drive_files_catalogued": 211,
-  "active_ai_questions": 939,
-  "active_cases": 168,
+  "active_ai_questions": 979,
+  "active_cases": 180,
   "new_source_ids": [
-    "1i6a0dvP5Hwncst-9gdl1Vot89OYithH2",
-    "1eMomfPTXyjMgtqvpaiCPZGp1jEr7vXx9",
-    "1kzyEG0I68hx0vfkMf44Uhj1XUZHhftXK",
-    "1Aj5OXNtQh2z591zY5ZtiwNJItBL4R9Yl"
+    "1aZHufKAFdasy96wvvunzBSWX58cOJcYv",
+    "1HkxvY3Fd3Yr9fBAnEdPO9gzvVP-wF4VJ",
+    "1K8y3B4Uayu64dRGAXdVO8cA-Kghv0mkJ"
   ],
   "lectures": [
     {
@@ -19,7 +18,7 @@
       "subject": "Anatomy & Histology",
       "title": "Anatomy of Mediastinum & Pericardium",
       "ai_questions": 9,
-      "past_questions": 22,
+      "past_questions": 16,
       "source_file_ids": [
         "1N29pF27p1UfkP79gdlrUFW-5WiTtgnEC"
       ],
@@ -31,7 +30,7 @@
       "subject": "Anatomy & Histology",
       "title": "Histology of the Myocardium",
       "ai_questions": 9,
-      "past_questions": 21,
+      "past_questions": 23,
       "source_file_ids": [
         "1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM"
       ],
@@ -43,7 +42,7 @@
       "subject": "Anatomy & Histology",
       "title": "External Features of the Heart and its Great Vessels",
       "ai_questions": 9,
-      "past_questions": 20,
+      "past_questions": 17,
       "source_file_ids": [
         "1wsoTpxTw6_QhMHqxYdLuxwHOvwXokQV5"
       ],
@@ -55,7 +54,7 @@
       "subject": "Anatomy & Histology",
       "title": "Internal Features of the Heart",
       "ai_questions": 9,
-      "past_questions": 33,
+      "past_questions": 26,
       "source_file_ids": [
         "1NCRD8jp124VR1jxrnCxtoTaJRJMtkx4w"
       ],
@@ -67,7 +66,7 @@
       "subject": "Anatomy & Histology",
       "title": "Normal Development of Heart & it’s Great Vessels",
       "ai_questions": 20,
-      "past_questions": 0,
+      "past_questions": 11,
       "source_file_ids": [
         "1eMomfPTXyjMgtqvpaiCPZGp1jEr7vXx9"
       ],
@@ -79,7 +78,7 @@
       "subject": "Anatomy & Histology",
       "title": "Congenital anomalies of the heart & it’s great Vessels",
       "ai_questions": 20,
-      "past_questions": 2,
+      "past_questions": 14,
       "source_file_ids": [
         "1kzyEG0I68hx0vfkMf44Uhj1XUZHhftXK"
       ],
@@ -91,7 +90,7 @@
       "subject": "Anatomy & Histology",
       "title": "Radiological Anatomy of the heart and its great vessels",
       "ai_questions": 11,
-      "past_questions": 0,
+      "past_questions": 6,
       "source_file_ids": [
         "1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ"
       ],
@@ -103,7 +102,7 @@
       "subject": "Anatomy & Histology",
       "title": "Anatomy of the nose and paranasal sinuses",
       "ai_questions": 0,
-      "past_questions": 0,
+      "past_questions": 15,
       "source_file_ids": [],
       "status": "source_not_found",
       "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
@@ -113,7 +112,7 @@
       "subject": "Anatomy & Histology",
       "title": "Anatomy of the larynx",
       "ai_questions": 0,
-      "past_questions": 0,
+      "past_questions": 19,
       "source_file_ids": [],
       "status": "source_not_found",
       "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
@@ -123,7 +122,7 @@
       "subject": "Anatomy & Histology",
       "title": "Anatomy of the pleura and lungs",
       "ai_questions": 0,
-      "past_questions": 0,
+      "past_questions": 28,
       "source_file_ids": [],
       "status": "source_not_found",
       "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
@@ -133,7 +132,7 @@
       "subject": "Anatomy & Histology",
       "title": "Anatomical relations of the lungs",
       "ai_questions": 0,
-      "past_questions": 0,
+      "past_questions": 7,
       "source_file_ids": [],
       "status": "source_not_found",
       "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
@@ -143,7 +142,7 @@
       "subject": "Anatomy & Histology",
       "title": "Development of the respiratory system",
       "ai_questions": 0,
-      "past_questions": 0,
+      "past_questions": 14,
       "source_file_ids": [],
       "status": "source_not_found",
       "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
@@ -153,7 +152,7 @@
       "subject": "Anatomy & Histology",
       "title": "Histology of the respiratory system",
       "ai_questions": 0,
-      "past_questions": 0,
+      "past_questions": 14,
       "source_file_ids": [],
       "status": "source_not_found",
       "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
@@ -173,7 +172,7 @@
       "subject": "Anatomy & Histology",
       "title": "Haematopoiesis",
       "ai_questions": 0,
-      "past_questions": 4,
+      "past_questions": 3,
       "source_file_ids": [],
       "status": "source_not_found",
       "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
@@ -183,7 +182,7 @@
       "subject": "Anatomy & Histology",
       "title": "Histology of the mucosal immune system",
       "ai_questions": 9,
-      "past_questions": 15,
+      "past_questions": 9,
       "source_file_ids": [
         "1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC"
       ],
@@ -195,7 +194,7 @@
       "subject": "Anatomy & Histology",
       "title": "Histology of the Lymphatic system",
       "ai_questions": 9,
-      "past_questions": 55,
+      "past_questions": 41,
       "source_file_ids": [
         "1tktL6El76XzdSl3H9meqCkgYArLLaty7"
       ],
@@ -207,7 +206,7 @@
       "subject": "Physiology",
       "title": "Physiology of Red blood cells",
       "ai_questions": 16,
-      "past_questions": 16,
+      "past_questions": 11,
       "source_file_ids": [
         "1-wHCgQkGIWBnewjyPSoHjdu1CLk52vrV"
       ],
@@ -219,7 +218,7 @@
       "subject": "Physiology",
       "title": "Anemia and polycythemia",
       "ai_questions": 9,
-      "past_questions": 23,
+      "past_questions": 15,
       "source_file_ids": [
         "14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn"
       ],
@@ -231,7 +230,7 @@
       "subject": "Physiology",
       "title": "White bood cells (WBCs)",
       "ai_questions": 23,
-      "past_questions": 21,
+      "past_questions": 18,
       "source_file_ids": [
         "1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK"
       ],
@@ -244,9 +243,11 @@
       "title": "Physiology of blood platelets",
       "ai_questions": 6,
       "past_questions": 3,
-      "source_file_ids": [],
-      "status": "partial_source_coverage",
-      "note": "Covered by platelet sections of the hemostasis source; no separately named lecture retrieved."
+      "source_file_ids": [
+        "1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
     },
     {
       "lecture_id": "physiology__physiology-of-hemostasis",
@@ -266,7 +267,7 @@
       "subject": "Physiology",
       "title": "Physiological organization of CVS",
       "ai_questions": 9,
-      "past_questions": 17,
+      "past_questions": 14,
       "source_file_ids": [
         "1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg"
       ],
@@ -278,7 +279,7 @@
       "subject": "Physiology",
       "title": "Cardiac automaticity, excitability, cardiac conductivity",
       "ai_questions": 18,
-      "past_questions": 35,
+      "past_questions": 36,
       "source_file_ids": [
         "1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2"
       ],
@@ -303,7 +304,7 @@
       "subject": "Physiology",
       "title": "Cardiac output and its control",
       "ai_questions": 19,
-      "past_questions": 24,
+      "past_questions": 22,
       "source_file_ids": [
         "1rzreURT0TD2ajEGXKRIzad7b8VjudyNm"
       ],
@@ -315,10 +316,9 @@
       "subject": "Physiology",
       "title": "Cardiac cycle",
       "ai_questions": 25,
-      "past_questions": 6,
+      "past_questions": 22,
       "source_file_ids": [
-        "1Bxpdr7P5CPgwQMW5UITveipcTzdPo4CY",
-        "1ZETi5-lxYRHDYlLhSY5qHhqCG0Zp18Sm"
+        "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5"
       ],
       "status": "source_backed_questions",
       "note": ""
@@ -328,9 +328,9 @@
       "subject": "Physiology",
       "title": "Regulation of ABP (CV centers & short-term regulation)",
       "ai_questions": 19,
-      "past_questions": 39,
+      "past_questions": 32,
       "source_file_ids": [
-        "1Za6OzFHeKcAj0LZsXVJsC7kcgwFp00V9"
+        "1hUhRX6NQW4vC0QZctlopDFzZB_vh7U3h"
       ],
       "status": "source_backed_questions",
       "note": ""
@@ -340,7 +340,7 @@
       "subject": "Physiology",
       "title": "Regulation of ABP (Intermediate and long-term Regulation)",
       "ai_questions": 9,
-      "past_questions": 18,
+      "past_questions": 17,
       "source_file_ids": [
         "1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX"
       ],
@@ -352,7 +352,7 @@
       "subject": "Physiology",
       "title": "Normal ECG",
       "ai_questions": 34,
-      "past_questions": 4,
+      "past_questions": 17,
       "source_file_ids": [
         "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9"
       ],
@@ -364,7 +364,7 @@
       "subject": "Physiology",
       "title": "Abnormal ECG and cardiac arrhythmias",
       "ai_questions": 21,
-      "past_questions": 3,
+      "past_questions": 13,
       "source_file_ids": [
         "1i6a0dvP5Hwncst-9gdl1Vot89OYithH2"
       ],
@@ -376,7 +376,7 @@
       "subject": "Physiology",
       "title": "Physiology approch to circulatory shock",
       "ai_questions": 0,
-      "past_questions": 0,
+      "past_questions": 9,
       "source_file_ids": [],
       "status": "source_not_found",
       "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
@@ -386,7 +386,7 @@
       "subject": "Physiology",
       "title": "Physiology of microcirculation and cardiac edema",
       "ai_questions": 0,
-      "past_questions": 2,
+      "past_questions": 12,
       "source_file_ids": [],
       "status": "source_not_found",
       "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
@@ -396,7 +396,7 @@
       "subject": "Physiology",
       "title": "Physiology of coronary circulation",
       "ai_questions": 16,
-      "past_questions": 13,
+      "past_questions": 17,
       "source_file_ids": [
         "13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0"
       ],
@@ -410,8 +410,7 @@
       "ai_questions": 31,
       "past_questions": 6,
       "source_file_ids": [
-        "1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf",
-        "1YijUiLChrPMhz8D8foBy2j1dVC1W98Pw"
+        "1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf"
       ],
       "status": "source_backed_questions",
       "note": ""
@@ -420,28 +419,32 @@
       "lecture_id": "physiology__mechanics-of-breathing",
       "subject": "Physiology",
       "title": "Mechanics of breathing",
-      "ai_questions": 0,
-      "past_questions": 0,
-      "source_file_ids": [],
-      "status": "source_not_found",
-      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+      "ai_questions": 12,
+      "past_questions": 12,
+      "source_file_ids": [
+        "1aZHufKAFdasy96wvvunzBSWX58cOJcYv"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
     },
     {
       "lecture_id": "physiology__pressure-volume-relationship-and-lung-compliance",
       "subject": "Physiology",
       "title": "Pressure-volume relationship and lung compliance",
-      "ai_questions": 0,
-      "past_questions": 0,
-      "source_file_ids": [],
-      "status": "source_not_found",
-      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+      "ai_questions": 12,
+      "past_questions": 15,
+      "source_file_ids": [
+        "1HkxvY3Fd3Yr9fBAnEdPO9gzvVP-wF4VJ"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
     },
     {
       "lecture_id": "physiology__gas-diffusion-and-plumonary-blood-flow",
       "subject": "Physiology",
       "title": "Gas diffusion and plumonary blood flow",
       "ai_questions": 0,
-      "past_questions": 0,
+      "past_questions": 13,
       "source_file_ids": [],
       "status": "source_not_found",
       "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
@@ -451,7 +454,7 @@
       "subject": "Physiology",
       "title": "Transport of oxygen in blood",
       "ai_questions": 0,
-      "past_questions": 0,
+      "past_questions": 15,
       "source_file_ids": [],
       "status": "source_not_found",
       "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
@@ -461,7 +464,7 @@
       "subject": "Physiology",
       "title": "Transport of carbon dioxide in blood",
       "ai_questions": 0,
-      "past_questions": 0,
+      "past_questions": 7,
       "source_file_ids": [],
       "status": "source_not_found",
       "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
@@ -471,7 +474,7 @@
       "subject": "Physiology",
       "title": "Neural control of breathing",
       "ai_questions": 0,
-      "past_questions": 0,
+      "past_questions": 13,
       "source_file_ids": [],
       "status": "source_not_found",
       "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
@@ -481,7 +484,7 @@
       "subject": "Physiology",
       "title": "Chemical control of breathing",
       "ai_questions": 0,
-      "past_questions": 0,
+      "past_questions": 6,
       "source_file_ids": [],
       "status": "source_not_found",
       "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
@@ -491,7 +494,7 @@
       "subject": "Physiology",
       "title": "Hypoxia and cyanosis",
       "ai_questions": 0,
-      "past_questions": 0,
+      "past_questions": 5,
       "source_file_ids": [],
       "status": "source_not_found",
       "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
@@ -501,7 +504,7 @@
       "subject": "Biochemistry",
       "title": "Plasma proteins",
       "ai_questions": 9,
-      "past_questions": 25,
+      "past_questions": 18,
       "source_file_ids": [
         "1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj"
       ],
@@ -513,7 +516,7 @@
       "subject": "Biochemistry",
       "title": "Haem synthesis",
       "ai_questions": 18,
-      "past_questions": 28,
+      "past_questions": 20,
       "source_file_ids": [
         "1akREae-VDZN_QNeQlrnBruB1ML_EVnFr"
       ],
@@ -525,7 +528,7 @@
       "subject": "Biochemistry",
       "title": "Heme catabolism",
       "ai_questions": 20,
-      "past_questions": 28,
+      "past_questions": 18,
       "source_file_ids": [
         "1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs"
       ],
@@ -537,7 +540,7 @@
       "subject": "Biochemistry",
       "title": "Cholesterol Metabolism",
       "ai_questions": 18,
-      "past_questions": 19,
+      "past_questions": 16,
       "source_file_ids": [
         "1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov"
       ],
@@ -549,7 +552,7 @@
       "subject": "Biochemistry",
       "title": "Plasma Lipoproteins",
       "ai_questions": 18,
-      "past_questions": 26,
+      "past_questions": 20,
       "source_file_ids": [
         "1QehG6qeRVqmRzs6LnoK7_DUmMlCUfs6b"
       ],
@@ -561,7 +564,7 @@
       "subject": "Biochemistry",
       "title": "Disorders of plasma lipoproteins",
       "ai_questions": 18,
-      "past_questions": 29,
+      "past_questions": 25,
       "source_file_ids": [
         "1RqUMa3Pxy6Qb2spIsburzTimCOLKgPSo"
       ],
@@ -573,9 +576,9 @@
       "subject": "Biochemistry",
       "title": "Diagnostic cardiac markers",
       "ai_questions": 15,
-      "past_questions": 18,
+      "past_questions": 19,
       "source_file_ids": [
-        "1c2Nwj9UHqQfBRamammBSsSisGK47zD7B"
+        "1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl"
       ],
       "status": "source_backed_questions",
       "note": ""
@@ -585,7 +588,7 @@
       "subject": "Biochemistry",
       "title": "Metabolic functions of the lung and Pulmonary Surfactant",
       "ai_questions": 0,
-      "past_questions": 0,
+      "past_questions": 13,
       "source_file_ids": [],
       "status": "source_not_found",
       "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
@@ -595,7 +598,7 @@
       "subject": "Biochemistry",
       "title": "Acid-base homeostasis and the role of the respiratory system",
       "ai_questions": 0,
-      "past_questions": 0,
+      "past_questions": 18,
       "source_file_ids": [],
       "status": "source_not_found",
       "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
@@ -605,7 +608,7 @@
       "subject": "Pathology",
       "title": "Atherosclerosis & Aneurysm",
       "ai_questions": 20,
-      "past_questions": 15,
+      "past_questions": 17,
       "source_file_ids": [
         "1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR"
       ],
@@ -629,7 +632,7 @@
       "subject": "Pathology",
       "title": "Vasculitis",
       "ai_questions": 14,
-      "past_questions": 8,
+      "past_questions": 9,
       "source_file_ids": [
         "1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6"
       ],
@@ -641,7 +644,7 @@
       "subject": "Pathology",
       "title": "Ischemic Heart Disease – 1",
       "ai_questions": 9,
-      "past_questions": 12,
+      "past_questions": 23,
       "source_file_ids": [
         "12RXyb80ciEfihQ-258N_uk1EwrjTTI83"
       ],
@@ -665,7 +668,7 @@
       "subject": "Pathology",
       "title": "Valvular Heart Diseases",
       "ai_questions": 16,
-      "past_questions": 4,
+      "past_questions": 10,
       "source_file_ids": [
         "1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc"
       ],
@@ -677,9 +680,9 @@
       "subject": "Pathology",
       "title": "Infective Endocarditis",
       "ai_questions": 18,
-      "past_questions": 0,
+      "past_questions": 9,
       "source_file_ids": [
-        "1NKrXX2VQc7oVqY_y-bjNxt7FNxbQKT5q"
+        "libfile_6e646046c4ac81918406ddf5ca74067d"
       ],
       "status": "source_backed_questions",
       "note": ""
@@ -689,7 +692,7 @@
       "subject": "Pathology",
       "title": "Pathology of Heart Failure",
       "ai_questions": 0,
-      "past_questions": 0,
+      "past_questions": 15,
       "source_file_ids": [],
       "status": "source_not_found",
       "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
@@ -721,7 +724,7 @@
       "subject": "Pathology",
       "title": "Cardiac and vascular tumours",
       "ai_questions": 10,
-      "past_questions": 0,
+      "past_questions": 1,
       "source_file_ids": [
         "1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6"
       ],
@@ -743,7 +746,7 @@
       "subject": "Pathology",
       "title": "Atelactasis & acute lung injury",
       "ai_questions": 0,
-      "past_questions": 0,
+      "past_questions": 20,
       "source_file_ids": [],
       "status": "source_not_found",
       "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
@@ -753,7 +756,7 @@
       "subject": "Pathology",
       "title": "Pathology of bronchial Asthma",
       "ai_questions": 0,
-      "past_questions": 0,
+      "past_questions": 11,
       "source_file_ids": [],
       "status": "source_not_found",
       "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
@@ -762,18 +765,20 @@
       "lecture_id": "pathology__obstructive-airway-diseases",
       "subject": "Pathology",
       "title": "Obstructive airway diseases",
-      "ai_questions": 0,
-      "past_questions": 0,
-      "source_file_ids": [],
-      "status": "source_not_found",
-      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+      "ai_questions": 16,
+      "past_questions": 20,
+      "source_file_ids": [
+        "1K8y3B4Uayu64dRGAXdVO8cA-Kghv0mkJ"
+      ],
+      "status": "source_backed_questions",
+      "note": ""
     },
     {
       "lecture_id": "pathology__restrictive-airway-diseases",
       "subject": "Pathology",
       "title": "Restrictive airway diseases",
       "ai_questions": 0,
-      "past_questions": 0,
+      "past_questions": 6,
       "source_file_ids": [],
       "status": "source_not_found",
       "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
@@ -783,7 +788,7 @@
       "subject": "Pathology",
       "title": "Pulmonary vessel diseases",
       "ai_questions": 0,
-      "past_questions": 0,
+      "past_questions": 3,
       "source_file_ids": [],
       "status": "source_not_found",
       "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
@@ -793,7 +798,7 @@
       "subject": "Pathology",
       "title": "Pulmonary infection",
       "ai_questions": 0,
-      "past_questions": 0,
+      "past_questions": 9,
       "source_file_ids": [],
       "status": "source_not_found",
       "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
@@ -803,7 +808,7 @@
       "subject": "Pathology",
       "title": "Pulmonary Neoplasia",
       "ai_questions": 0,
-      "past_questions": 0,
+      "past_questions": 8,
       "source_file_ids": [],
       "status": "source_not_found",
       "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
@@ -813,7 +818,7 @@
       "subject": "Pathology",
       "title": "Lymphadenopathy",
       "ai_questions": 20,
-      "past_questions": 18,
+      "past_questions": 13,
       "source_file_ids": [
         "10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh"
       ],
@@ -825,7 +830,7 @@
       "subject": "Pharmacology",
       "title": "Drugs used in the treatment of bronchial asthma",
       "ai_questions": 0,
-      "past_questions": 0,
+      "past_questions": 24,
       "source_file_ids": [],
       "status": "source_not_found",
       "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
@@ -835,7 +840,7 @@
       "subject": "Pharmacology",
       "title": "Anti-lipidemic drugs",
       "ai_questions": 9,
-      "past_questions": 12,
+      "past_questions": 10,
       "source_file_ids": [
         "1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc"
       ],
@@ -859,7 +864,7 @@
       "subject": "Pharmacology",
       "title": "Drug therapy of respiratory infections",
       "ai_questions": 0,
-      "past_questions": 0,
+      "past_questions": 16,
       "source_file_ids": [],
       "status": "source_not_found",
       "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
@@ -869,7 +874,7 @@
       "subject": "Pharmacology",
       "title": "Antiplatelet drugs",
       "ai_questions": 9,
-      "past_questions": 4,
+      "past_questions": 10,
       "source_file_ids": [
         "1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO"
       ],
@@ -881,7 +886,7 @@
       "subject": "Pharmacology",
       "title": "Drug therapy of cough and COPD 1",
       "ai_questions": 0,
-      "past_questions": 0,
+      "past_questions": 6,
       "source_file_ids": [],
       "status": "source_not_found",
       "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
@@ -925,7 +930,7 @@
       "subject": "Pharmacology",
       "title": "Anti-anginal drugs",
       "ai_questions": 20,
-      "past_questions": 7,
+      "past_questions": 12,
       "source_file_ids": [
         "1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8"
       ],
@@ -937,7 +942,7 @@
       "subject": "Pharmacology",
       "title": "Drugs used in Heart failure",
       "ai_questions": 0,
-      "past_questions": 0,
+      "past_questions": 7,
       "source_file_ids": [],
       "status": "source_not_found",
       "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
@@ -947,7 +952,7 @@
       "subject": "Pharmacology",
       "title": "Antiarrhythmic drugs",
       "ai_questions": 34,
-      "past_questions": 0,
+      "past_questions": 7,
       "source_file_ids": [
         "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ"
       ],
@@ -959,7 +964,7 @@
       "subject": "Pharmacology",
       "title": "Treatment of anemia",
       "ai_questions": 11,
-      "past_questions": 25,
+      "past_questions": 16,
       "source_file_ids": [
         "1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY"
       ],
@@ -983,7 +988,7 @@
       "subject": "Pharmacology",
       "title": "Drugs affecting hemostasis",
       "ai_questions": 9,
-      "past_questions": 10,
+      "past_questions": 21,
       "source_file_ids": [
         "11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP"
       ],
@@ -1019,7 +1024,7 @@
       "subject": "Pharmacology",
       "title": "Treatment of TB",
       "ai_questions": 0,
-      "past_questions": 0,
+      "past_questions": 9,
       "source_file_ids": [],
       "status": "source_not_found",
       "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
@@ -1033,15 +1038,15 @@
       "source_file_ids": [
         "14vfFkvXZlceusubx4H2RN-ttsGLXdkbj"
       ],
-      "status": "partial_source_coverage",
-      "note": "Treatment and prophylaxis supported by Malaria II; a separate pharmacology source covering all mechanisms/toxicities was not found."
+      "status": "source_backed_questions",
+      "note": ""
     },
     {
       "lecture_id": "microbiology__malaria",
       "subject": "Microbiology",
       "title": "Malaria",
       "ai_questions": 20,
-      "past_questions": 28,
+      "past_questions": 20,
       "source_file_ids": [
         "11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI"
       ],
@@ -1053,7 +1058,7 @@
       "subject": "Microbiology",
       "title": "Malaria & Babesiosis",
       "ai_questions": 9,
-      "past_questions": 5,
+      "past_questions": 1,
       "source_file_ids": [
         "14vfFkvXZlceusubx4H2RN-ttsGLXdkbj"
       ],
@@ -1087,7 +1092,7 @@
       "subject": "Microbiology",
       "title": "Verminous pneumonia (Parasitic larvae invading lung)",
       "ai_questions": 0,
-      "past_questions": 0,
+      "past_questions": 12,
       "source_file_ids": [],
       "status": "source_not_found",
       "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
@@ -1097,7 +1102,7 @@
       "subject": "Microbiology",
       "title": "Cystic parasitic diseases of the lung",
       "ai_questions": 0,
-      "past_questions": 0,
+      "past_questions": 15,
       "source_file_ids": [],
       "status": "source_not_found",
       "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
@@ -1107,7 +1112,7 @@
       "subject": "Microbiology",
       "title": "Upper respiratory tract infections",
       "ai_questions": 0,
-      "past_questions": 0,
+      "past_questions": 11,
       "source_file_ids": [],
       "status": "source_not_found",
       "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
@@ -1117,7 +1122,7 @@
       "subject": "Microbiology",
       "title": "Lower respiratory tract infections",
       "ai_questions": 0,
-      "past_questions": 0,
+      "past_questions": 25,
       "source_file_ids": [],
       "status": "source_not_found",
       "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
@@ -1149,7 +1154,7 @@
       "subject": "Microbiology",
       "title": "Hypersensitivity Reactions – 1",
       "ai_questions": 9,
-      "past_questions": 11,
+      "past_questions": 9,
       "source_file_ids": [
         "1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d"
       ],
@@ -1161,7 +1166,7 @@
       "subject": "Microbiology",
       "title": "Hypersensitivity Reactions – 2",
       "ai_questions": 9,
-      "past_questions": 6,
+      "past_questions": 5,
       "source_file_ids": [
         "1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp"
       ],
@@ -1185,7 +1190,7 @@
       "subject": "Microbiology",
       "title": "Autoimmune Diseases",
       "ai_questions": 9,
-      "past_questions": 1,
+      "past_questions": 4,
       "source_file_ids": [
         "1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV"
       ],
@@ -1197,12 +1202,13 @@
       "subject": "Hematology",
       "title": "Hemolytic anemia",
       "ai_questions": 9,
-      "past_questions": 16,
+      "past_questions": 11,
       "source_file_ids": [
         "1jODBvDorJgQ42QRYX75ODeTVk6Lr3lLe"
       ],
       "status": "source_backed_questions",
       "note": ""
     }
-  ]
+  ],
+  "refresh_method": "Incremental Drive modified-file check since the October 4 full inventory, plus respiratory and pathology folder verification. Updated source versions reuse existing question and card IDs."
 }

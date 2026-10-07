@@ -286,6 +286,7 @@ function ankiQueue(deckIds){
     const r=cardReview(card.id);
     if(!r)fresh.push(card);
     else if(ankiDueMs(r)<=now)due.push(card);
+    else if(r.pending_again)due.push({...card,__same_session_retry:true});
   }
   due.sort((a,b)=>ankiDueMs(cardReview(a.id))-ankiDueMs(cardReview(b.id))||ankiHash(a.id)-ankiHash(b.id));
   fresh.sort((a,b)=>ankiHash(a.id)-ankiHash(b.id));
@@ -297,6 +298,7 @@ function ankiDeckCounts(deck){
   for(const c of deck.cards||[]){
     const r=cardReview(c.id),state=ankiState(r),due=ankiDueMs(r);
     if(!r)n++;
+    else if(r.pending_again)l++;
     else if((state===1||state===3)&&due<=now)l++;
     else if(state===2&&due<=now)d++;
   }
@@ -740,6 +742,9 @@ function ankiGrade(grade){
 
   if(card.__same_session_retry){
     const now=Date.now(),daily=ankiDaily();
+    const review=cardReview(card.id);
+    if(review){review.pending_again=grade==='again';review.updated_at=now;}
+    if(grade==='again')flashSession.queue.push({...card,__same_session_retry:true});
     const elapsedSec=Math.min(60,Math.max(0,Math.round((now-(flashSession.cardStartedAt||now))/1000)));
     daily.totalAnswers+=1;
     daily[grade]=(daily[grade]||0)+1;
@@ -781,6 +786,8 @@ function ankiGrade(grade){
       lapses:serialized.lapses,
       last_reviewed:now.getTime(),
       last_grade:grade,
+      pending_again:grade==='again'&&ankiConfig().sameSessionAgain!==false,
+      updated_at:now.getTime(),
       scheduler:'fsrs',
       scheduler_version:'daily-v2',
       desired_retention:ankiConfig().desiredRetention

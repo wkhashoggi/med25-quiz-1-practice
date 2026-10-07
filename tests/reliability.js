@@ -4,6 +4,7 @@ const root=process.env.MED25_SITE_ROOT?path.resolve(process.env.MED25_SITE_ROOT)
 const read=n=>JSON.parse(fs.readFileSync(path.join(root,n),'utf8'));
 const expectedAI=read('ai_questions.json').lecture_sets.filter(s=>!s.archived&&s.eligibility_status==='allowed'&&s.quality_status==='pass').flatMap(s=>s.questions);
 const map=read('question-study-guide-map.json');
+const expectedDecks=read('flashcards.json').decks.filter(d=>!d.archived&&d.eligibility_status==='allowed');
 const user={id:'00000000-0000-4000-8000-000000000001',email:'qa@example.com'};
 const token={user,access_token:'fixture-access-token',refresh_token:'fixture-refresh-token'};
 const getPeriod=(period)=>{
@@ -65,8 +66,8 @@ async function run(){
     assert.equal(await page.evaluate(()=>window.med25GameBridge.aiQuestions().length),expectedAI.length);
     assert(await page.evaluate(()=>window.med25GameBridge.aiQuestions().every(q=>window.med25GameBridge.questionLecture('ai',q).lecture_id)));
     assert.equal(await page.evaluate(()=>QUESTIONS.filter(window.med25ExamReadyPast).length),1072);
-    await page.waitForFunction(()=>flashLibrary.decks.filter(d=>!d.archived&&d.eligibility_status==='allowed').length===62);
-    assert.equal(await page.evaluate(()=>flashLibrary.decks.filter(d=>!d.archived&&d.eligibility_status==='allowed').reduce((n,d)=>n+d.cards.length,0)),970);
+    await page.waitForFunction(n=>flashLibrary.decks.filter(d=>!d.archived&&d.eligibility_status==='allowed').length===n,expectedDecks.length);
+    assert.equal(await page.evaluate(()=>flashLibrary.decks.filter(d=>!d.archived&&d.eligibility_status==='allowed').reduce((n,d)=>n+d.cards.length,0)),expectedDecks.reduce((n,d)=>n+d.cards.length,0));
     console.log('PASS effective content counts, mappings, and mock eligibility');
 
     // Exercise the paginated cohort, period boundaries, top ten, expand/collapse, and recoverable outage.
@@ -111,7 +112,7 @@ async function run(){
     assert.equal(await row.locator('.lectureAutoCheck.checked').count(),1);assert.equal(await row.locator('.lectureStatus.questions-complete').count(),1);
     await row.locator('[data-lecture-study]').click();assert.equal(await row.locator('.lectureStatus.complete').count(),1);
     await row.locator('[data-lecture-study]').click();assert.equal(await row.locator('.lectureStatus.questions-complete').count(),1);
-    await page.locator('#lectureSourceAudit').evaluate(el=>el.open=true);assert((await page.locator('#lectureSourceAudit').innerText()).includes('42 topics still need a source'));
+    await page.locator('#lectureSourceAudit').evaluate(el=>el.open=true);assert((await page.locator('#lectureSourceAudit').innerText()).includes(read('source-coverage-audit.json').lectures.filter(l=>l.ai_questions===0).length+' topics still need a source'));
     console.log('PASS AI locking, lecture automatic/manual completion, and honest coverage gaps');
 
     // Invalid numeric inputs must stay editable and block Start. Valid exact mixes survive reload without leaking answers.

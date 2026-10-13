@@ -287,33 +287,6 @@ html[data-theme="dark"] .gameLeaderboardRow:nth-child(1){background:linear-gradi
 .quizCard{padding:24px!important}.quizCard h3{font-size:20px!important}
 .quizOption{font-size:15px!important;border-color:var(--v2-line-strong)!important;background:var(--v2-surface)!important;color:var(--v2-text)!important}
 
-/* Flashcards — modern, not old desktop app */
-.ankiShell{
-  border:1px solid var(--v2-line)!important;border-radius:var(--v2-radius-lg)!important;background:var(--v2-surface)!important;
-  box-shadow:var(--v2-shadow-sm)!important;overflow:hidden!important
-}
-.ankiBar,.ankiStudyTop,.ankiBottom{background:var(--v2-surface)!important;border-color:var(--v2-line)!important;padding:15px 18px!important}
-.ankiBar h2{font-size:19px!important;color:var(--v2-text)!important}
-.ankiBtn,.ankiRate{
-  min-height:40px!important;border:1px solid var(--v2-line-strong)!important;border-radius:10px!important;background:var(--v2-surface)!important;
-  color:var(--v2-text)!important;font-size:12px!important
-}
-.ankiBtn.primary{background:var(--v2-accent)!important;border-color:var(--v2-accent)!important;color:#fff!important}
-.ankiBrowser,.flashStatsPanel{background:var(--v2-surface)!important}
-.ankiSearchRow,.ankiDeckRow,.ankiDeckHead,.flashSyncNote,.flashSubject,.flashStatsPanel{border-color:var(--v2-line)!important}
-.ankiSearch{min-height:43px!important;border-radius:10px!important;border-color:var(--v2-line-strong)!important;background:var(--v2-surface)!important;color:var(--v2-text)!important}
-.ankiDeckHead{background:var(--v2-surface-2)!important;font-size:10px!important}
-.ankiDeckRow{padding-top:12px!important;padding-bottom:12px!important}.ankiDeckRow:hover{background:var(--v2-surface-2)!important}
-.ankiDeckTitle b{font-size:14px!important;color:var(--v2-text)!important}.ankiDeckTitle span{font-size:11px!important;color:var(--v2-muted)!important}
-.ankiStudy{background:var(--v2-bg)!important;min-height:620px!important}
-.ankiCard{
-  width:min(780px,96%)!important;min-height:360px!important;padding:44px!important;border:1px solid var(--v2-line)!important;border-radius:18px!important;
-  background:var(--v2-surface)!important;box-shadow:var(--v2-shadow)!important
-}
-.ankiCard .front{font-size:25px!important;color:var(--v2-text)!important}.ankiAnswer{font-size:19px!important;color:var(--v2-text)!important}
-.ankiDivider{background:var(--v2-line)!important}
-.flashStatBox{border-color:var(--v2-line)!important;background:var(--v2-surface-2)!important}.flashStatBox span{font-size:10px!important}
-
 /* Mock exam */
 .mockSection{margin-top:0!important}
 .mockBuilder,.mockExamShell,.mockResults{max-width:1080px!important;margin:0 auto!important}
@@ -372,7 +345,7 @@ html[data-theme="dark"] .gameLeaderboardRow:nth-child(1){background:linear-gradi
   .studyTabs.appNav{display:none!important}
   .hero{padding:2px 2px 16px!important;margin-bottom:10px!important}.hero h1{font-size:27px!important}.hero>p{font-size:13px!important}
   #v2MobileNav{
-    display:grid;grid-template-columns:repeat(5,1fr);position:fixed;z-index:300;left:10px;right:10px;bottom:calc(10px + env(safe-area-inset-bottom));
+    display:grid;grid-template-columns:repeat(4,1fr);position:fixed;z-index:300;left:10px;right:10px;bottom:calc(10px + env(safe-area-inset-bottom));
     padding:7px 6px;border:1px solid var(--v2-line);border-radius:18px;background:color-mix(in srgb,var(--v2-surface) 94%,transparent);
     box-shadow:0 15px 45px rgba(16,24,40,.18);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px)
   }
@@ -387,7 +360,7 @@ html[data-theme="dark"] .gameLeaderboardRow:nth-child(1){background:linear-gradi
   .homeContinue{min-height:235px!important;padding:22px!important}.homeContinue h2{font-size:24px!important}
   .homeAuthArea{padding:16px!important}
   .hubGrid{gap:10px!important}.homeOverall,.gameLeaderboardCard,.hubMetric,.hubHalf,.hubFull{grid-column:1/-1!important}
-  #homeMetrics{display:grid!important;grid-template-columns:repeat(3,1fr)!important;grid-column:1/-1!important;gap:8px!important}
+  #homeMetrics{display:grid!important;grid-template-columns:repeat(2,1fr)!important;grid-column:1/-1!important;gap:8px!important}
   #homeMetrics .hubMetric{grid-column:auto!important;min-height:112px!important;padding:13px!important}
   #homeMetrics .homeMetricIcon{width:32px!important;height:32px!important;font-size:16px!important}
   #homeMetrics .hubMetric b{font-size:22px!important}#homeMetrics .hubMetric>span:not(.homeMetricIcon){font-size:9px!important;line-height:1.25!important}
@@ -399,7 +372,6 @@ html[data-theme="dark"] .gameLeaderboardRow:nth-child(1){background:linear-gradi
   .feedback,.aiFeedback{font-size:13px!important}
   .aiPager{padding:9px!important}
   .quizHero{padding:18px!important}.quizCard{padding:18px 14px!important}.quizOption{font-size:16px!important}
-  .ankiStudy{min-height:calc(100vh - 220px)!important}.ankiCardWrap{padding:20px 10px!important}.ankiCard{min-height:320px!important;padding:28px 20px!important}.ankiCard .front{font-size:22px!important}
   .mockSetupTop,.mockControls,.mockMapHead,.mockQuestionCard{padding:17px!important}.mockQuestionCard h3{font-size:18px!important}.mockOption{font-size:16px!important}
   .v2Footer{padding-bottom:10px}.v2FooterLinks{width:100%}
 }
@@ -500,7 +472,7 @@ button:disabled,input:disabled,select:disabled{cursor:not-allowed!important}
   .v2MobileAppearance span:first-child{font-size:15px;line-height:1}
 }
 @media(max-width:470px){
-  #homeMetrics{grid-template-columns:repeat(3,minmax(0,1fr))!important}
+  #homeMetrics{grid-template-columns:repeat(2,minmax(0,1fr))!important}
   #homeMetrics .hubMetric{min-height:116px!important;padding:12px 10px!important}
   #homeMetrics .hubMetric b{font-size:21px!important}
   #homeMetrics .hubMetric>span:not(.homeMetricIcon){font-size:8.5px!important;line-height:1.25!important}
@@ -813,3 +785,6 @@ button:disabled,input:disabled,select:disabled{cursor:not-allowed!important}
 @media(max-width:560px){
   .v2ContactActions{grid-template-columns:1fr}
 }
+
+/* Keep footer links above fixed student navigation and the question pager. */
+@media(max-width:820px){.v2Footer{margin-bottom:160px!important;scroll-margin-bottom:160px}}

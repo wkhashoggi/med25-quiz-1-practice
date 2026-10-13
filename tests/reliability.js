@@ -4,7 +4,6 @@ const root=process.env.MED25_SITE_ROOT?path.resolve(process.env.MED25_SITE_ROOT)
 const read=n=>JSON.parse(fs.readFileSync(path.join(root,n),'utf8'));
 const expectedAI=read('ai_questions.json').lecture_sets.filter(s=>!s.archived&&s.eligibility_status==='allowed'&&s.quality_status==='pass').flatMap(s=>s.questions);
 const map=read('question-study-guide-map.json');
-const expectedDecks=read('flashcards.json').decks.filter(d=>!d.archived&&d.eligibility_status==='allowed');
 const user={id:'00000000-0000-4000-8000-000000000001',email:'qa@example.com'};
 const token={user,access_token:'fixture-access-token',refresh_token:'fixture-refresh-token'};
 const getPeriod=(period)=>{
@@ -21,6 +20,7 @@ async function fixture(route){
   let body=[];let status=200;
   if(u.pathname.includes('/auth/v1/token'))body=token;
   else if(u.pathname.includes('/auth/v1/logout'))body={};
+  else if(u.pathname.endsWith('/admin-analytics'))body={ok:true,analytics:{past_questions_answered:12,ai_questions_answered:8,lecture_study_actions:3,section_usage:[{section:'flashcards',views:5},{section:'questions',views:12},{section:'mock',views:4}],daily:[{date:'2026-10-13',visitors:2,sessions:3,answers:20,flashcards:5,lecture_actions:3}],flashcard_reviews:5,flashcard_ratings:[{rating:'good',reviews:5}]}};
   else if(u.pathname.endsWith('/leaderboard_entries')){
     if(failLeaderboard){status=503;body={message:'Fixture outage'}}else{const offset=Number(u.searchParams.get('offset')||0);leaderOffsets.push(offset);body=leaders.slice(offset,offset+500)}
   }else if(u.pathname.endsWith('/game_profiles')){
@@ -59,15 +59,20 @@ async function run(){
   const launch={headless:true};if(process.env.MED25_CHROMIUM_PATH){launch.executablePath=process.env.MED25_CHROMIUM_PATH;launch.args=['--no-sandbox','--no-zygote','--single-process']}
   const browser=await chromium.launch(launch);const context=await browser.newContext({viewport:{width:1440,height:1000}}),page=await context.newPage();const errors=[];
   page.setDefaultTimeout(8000);
+  const assetRequests=[];page.on('request',r=>assetRequests.push(r.url()));
   page.on('pageerror',e=>errors.push(e.message));page.on('dialog',d=>d.accept());
   await page.route('https://**.supabase.co/**',fixture);
   try{
+    await context.addInitScript(()=>{if(!localStorage.getItem('med25-main-section-v1'))localStorage.setItem('med25-main-section-v1','flashcards')});
     await page.goto(base);await waitReady(page);
+    assert.equal(await page.locator('#tabFlashcards,#flashcardsSection,[data-v2-mobile="flash"]').count(),0);
+    assert(!/flashcard|spaced.repetition|\bAnki\b/i.test(await page.locator('body').innerText()));
+    assert(await page.locator('#homeSection').isVisible());
+    assert(await page.evaluate(()=>typeof window.med25Anki==='undefined'&&typeof initFlashcards==='undefined'));
+
     assert.equal(await page.evaluate(()=>window.med25GameBridge.aiQuestions().length),expectedAI.length);
     assert(await page.evaluate(()=>window.med25GameBridge.aiQuestions().every(q=>window.med25GameBridge.questionLecture('ai',q).lecture_id)));
     assert.equal(await page.evaluate(()=>QUESTIONS.filter(window.med25ExamReadyPast).length),1072);
-    await page.waitForFunction(n=>flashLibrary.decks.filter(d=>!d.archived&&d.eligibility_status==='allowed').length===n,expectedDecks.length);
-    assert.equal(await page.evaluate(()=>flashLibrary.decks.filter(d=>!d.archived&&d.eligibility_status==='allowed').reduce((n,d)=>n+d.cards.length,0)),expectedDecks.reduce((n,d)=>n+d.cards.length,0));
     console.log('PASS effective content counts, mappings, and mock eligibility');
 
     // Exercise the paginated cohort, period boundaries, top ten, expand/collapse, and recoverable outage.
@@ -149,10 +154,11 @@ async function run(){
     // Verify sign-in/sync integration with an isolated API fixture, including nested offline/cloud progress.
     const localQ=qs[1],remoteQ=qs[2];
     await page.evaluate(({user,localQ})=>localStorage.setItem('cb-bank-progress:'+user.id,JSON.stringify({__ai_questions__:{[localQ.id]:{answered:true,selected:localQ.answer,correct:true,locked_at:'2026-10-04T12:00:00Z'}}})),{user,localQ});
-    cloud={__ai_questions__:{[remoteQ.id]:{answered:true,selected:remoteQ.answer,correct:true,locked_at:'2026-10-04T11:00:00Z'}}};
+    cloud={__flashcards__:{historical:{due:123,reps:2}},__ai_questions__:{[remoteQ.id]:{answered:true,selected:remoteQ.answer,correct:true,locked_at:'2026-10-04T11:00:00Z'}}};
     await page.locator('#tabProfile').click();await page.locator('#authEmail').fill(user.email);await page.locator('#authPassword').fill('fixture-password');await page.locator('#authSignIn').click();
     await page.waitForFunction(()=>document.querySelector('#authSignedIn').style.display!=='none');
     await page.waitForFunction(({a,b})=>saved.__ai_questions__?.[a]?.answered&&saved.__ai_questions__?.[b]?.answered,{a:localQ.id,b:remoteQ.id});
+    assert.deepEqual(cloud.__flashcards__,{historical:{due:123,reps:2}});
     assert(cloud.__ai_questions__[localQ.id]);assert(cloud.__ai_questions__[remoteQ.id]);
     await openAI(page,lid);const lockQ=qs[3];await page.locator('#'+lockQ.id+' [data-ai-opt="'+lockQ.answer+'"]').click();
     await page.waitForFunction(()=>document.querySelector('#'+CSS.escape('ai_1Aj5OXNtQh2z591zY5ZtiwNJItBL4R9Yl_04')+' .aiOption:disabled'));
@@ -165,9 +171,18 @@ async function run(){
     assert.equal(profile.leaderboard_visible,false);await page.locator('.gameLeaderboardPrivacyToggle').click();await page.waitForFunction(()=>document.querySelector('#gameLeaderboardHiddenHome')?.checked===false);
     console.log('PASS account sync, offline nested progress merge, own rank, privacy toggle, and mock XP exclusion');
 
+    // Historical analytics payloads must remain usable without rendering retired counters or sections.
+    await page.evaluate(async()=>{const email=currentUser.email;currentUser.email=ADMIN_EMAILS[0];try{await loadAdminAnalytics()}finally{currentUser.email=email}});
+    const analytics=await page.locator('#analyticsBody').textContent();
+    assert(!/flashcard|rating/i.test(analytics));assert(analytics.includes('Past Paper answers'));assert(analytics.includes('Mock Exams'));
+    assert.equal(await page.locator('#analyticsBody .analyticsWideBox').first().locator('thead th').count(),5);
+    console.log('PASS analytics compatibility without retired card counters');
+
     // Directly exercise a conflict: the earliest completed answer stays locked while independent maps are retained.
     const merged=await page.evaluate(()=>mergeStudyProgress({q:{answered:true,selected:'B',correct:false,locked_at:'2026-10-04T12:00:00Z'},__lecture_study__:{a:{studied:true,updated_at:'2026-10-04T13:00:00Z'}}},{q:{answered:true,selected:'A',correct:true,locked_at:'2026-10-04T11:00:00Z'},__lecture_study__:{b:{studied:true},a:{studied:false,updated_at:'2026-10-04T10:00:00Z'}}}));
     assert.equal(merged.q.selected,'A');assert(merged.__lecture_study__.a.studied);assert(merged.__lecture_study__.b.studied);
+    assert(!assetRequests.some(u=>/flashcards\.json|anki-fsrs|ts-fsrs/.test(u)));
+    assert(!requests.some(r=>r.body?.event_name==='flashcard_review'));
     assert.deepEqual(errors,[]);fs.mkdirSync(path.join(root,'test-artifacts'),{recursive:true});fs.writeFileSync(path.join(root,'test-artifacts/reliability-results.json'),JSON.stringify({passed:true,ai:expectedAI.length,leaderboardAccounts:503,checks:8,liveStudentWrites:0},null,2));
     console.log('RELIABILITY E2E PASS');
   }finally{await browser.close();await new Promise(r=>server.close(r))}

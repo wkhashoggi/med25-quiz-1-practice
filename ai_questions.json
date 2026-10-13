@@ -24,7 +24,7 @@
       "Edited slides",
       "Recordings"
     ],
-    "generation": "Lecture-derived concise medical flashcards; emphasize core mechanisms, relationships, clinical application, and exam-relevant understanding rather than trivia.",
+    "generation": "Lecture-grounded KAU-style SBA questions; emphasize core mechanisms, relationships, clinical application, and exam-relevant understanding rather than trivia.",
     "allowed_teaching_methods": [
       "Interactive lecture",
       "Flipped class",
@@ -46,7 +46,7 @@
     "style_reference": "MED25 past papers plus Coordinator Formative Quiz 1, with case/application style anchored especially to Formative Q18, Q19, Q24, Q27, Q28, Q30 and Q36.",
     "style_rules": [
       "4-option single-best-answer format",
-      "Concise KAU-like stems; avoid flashcard wording when an SBA stem is natural",
+      "Concise KAU-like stems; use a natural single-best-answer question stem",
       "Mix direct core recall with mechanism/relationship questions and short clinical/application vignettes when supported by the lecture",
       "Use plausible same-domain distractors that target common confusions; avoid unrelated lecture facts as filler options",
       "Keep question difficulty similar to the existing past-paper/formative bank rather than USMLE-length vignettes",
@@ -59,7 +59,7 @@
       "Question wording and length should resemble MED25 past papers and Coordinator Formative Quiz 1 rather than long USMLE vignettes.",
       "Every completed lecture set must contain a meaningful short-case/application component, normally about 30–40% when supported by the lecture.",
       "Cases must test one lecture concept using only useful discriminating clues; no decorative history or filler.",
-      "Use plausible same-domain distractors based on common confusions; never recycle unrelated flashcard answers as distractors.",
+      "Use plausible same-domain distractors based on common confusions; never recycle unrelated facts as distractors.",
       "Keep direct recall for genuine bread-and-butter facts, but avoid repetitive generic stems such as 'Which of the following best describes...'.",
       "Do not ask facts outside the official lecture even if medically correct.",
       "No SPP, practical, CBD, PBL, covered-in-PBL, tutorial, or other non-eligible teaching-method content."

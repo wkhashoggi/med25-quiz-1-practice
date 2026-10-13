@@ -36,7 +36,13 @@ jobs:
           sleep 2
       - name: Run logical content audit
         run: node tests/content-audit.js
-      - name: Run 10x phone, iPad and desktop interaction suite
+      - name: Verify account sync, retired feature removal, rankings and mocks
+        run: node tests/reliability.js
+      - name: Verify XP awards and mistake recovery
+        run: |
+          node tests/xp-awards.js
+          node tests/mistake-recovery.js
+      - name: Run phone, iPad and desktop interaction suite
         run: node tests/ui-regression.js
       - name: Upload screenshots and results
         if: always()

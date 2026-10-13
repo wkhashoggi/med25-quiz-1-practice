@@ -8,11 +8,11 @@ function cohortLogoSrc(){
 const V2_INFO={
   about:{
     title:'About MED25',
-    body:'<p>MED25 is a student-built study hub for the KAU Medicine MED25 cohort. It brings past-paper practice, lecture-grounded AI questions, spaced-repetition flashcards, mock exams, progress tracking and cohort rankings into one place.</p><h3>Purpose</h3><p>The platform is designed as a study companion. Official lecture material remains the source of truth for course content.</p>'
+    body:'<p>MED25 is a student-built study hub for the KAU Medicine MED25 cohort. It brings past-paper practice, lecture-grounded AI questions, mock exams, progress tracking and cohort rankings into one place.</p><h3>Purpose</h3><p>The platform is designed as a study companion. Official lecture material remains the source of truth for course content.</p>'
   },
   privacy:{
     title:'Privacy',
-    body:'<p>MED25 uses account information and study activity to provide cross-device progress sync, profiles, rankings and learning analytics.</p><h3>What is stored</h3><p>This can include your account email, display profile information, question attempts, XP events, lecture progress and flashcard review progress.</p><h3>Student data</h3><p>Individual student data is not sold or shared with third parties for advertising. Public rankings use the profile information students choose to display.</p>'
+    body:'<p>MED25 uses account information and study activity to provide cross-device progress sync, profiles, rankings and learning analytics.</p><h3>What is stored</h3><p>This can include your account email, display profile information, question attempts, XP events and lecture progress.</p><h3>Student data</h3><p>Individual student data is not sold or shared with third parties for advertising. Public rankings use the profile information students choose to display.</p>'
   },
   terms:{
     title:'Study-use terms',
@@ -28,7 +28,6 @@ function icon(name){
   const map={
     home:'<svg viewBox="0 0 24 24"><path d="M3 10.8 12 3l9 7.8"/><path d="M5.5 9.5V21h13V9.5"/><path d="M9.5 21v-6h5v6"/></svg>',
     practice:'<svg viewBox="0 0 24 24"><path d="M6 3.5h12v17H6z"/><path d="M9 8h6M9 12h6M9 16h4"/></svg>',
-    flash:'<svg viewBox="0 0 24 24"><rect x="4" y="6" width="14" height="11" rx="2"/><path d="M7 3h13v11"/></svg>',
     mock:'<svg viewBox="0 0 24 24"><path d="M7 3.5h10v3H7z"/><path d="M5 6.5h14v14H5z"/><path d="M8.5 11h7M8.5 15h4"/></svg>',
     profile:'<svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4.5 21c.7-4.2 3.2-6.3 7.5-6.3s6.8 2.1 7.5 6.3"/></svg>',
     progress:'<svg viewBox="0 0 24 24"><path d="M5 4h14v16H5z"/><path d="m8 9 1.5 1.5L12 8"/><path d="M13.5 10H17"/><path d="m8 15 1.5 1.5L12 14"/><path d="M13.5 16H17"/></svg>'
@@ -63,7 +62,6 @@ function cleanNav(){
     tabAI:'AI Practice',
     tabQuiz:'Mistake Quiz',
     tabMock:'Mock Exam',
-    tabFlashcards:'Flashcards',
     tabProgress:'Lecture Tracker',
     tabProfile:'Profile'
   };
@@ -75,16 +73,14 @@ function cleanNav(){
     if(text)text.textContent=label;
     btn.setAttribute('aria-label',label);
   });
-  const flash=document.getElementById('tabFlashcards'),mock=document.getElementById('tabMock'),
-        progress=document.getElementById('tabProgress'),profile=document.getElementById('tabProfile');
-  if(mock&&flash&&mock.nextElementSibling!==flash)links.insertBefore(mock,flash);
+  const progress=document.getElementById('tabProgress'),profile=document.getElementById('tabProfile');
   if(progress&&profile&&progress.nextElementSibling!==profile)links.insertBefore(progress,profile);
 
   links.querySelectorAll('.v2NavSection').forEach(x=>x.remove());
   const practice=document.createElement('div');practice.className='v2NavSection';practice.textContent='Practice';
   const tools=document.createElement('div');tools.className='v2NavSection';tools.textContent='Study tools';
   const account=document.createElement('div');account.className='v2NavSection';account.textContent='Account';
-  const q=document.getElementById('tabQuestions'),f=document.getElementById('tabFlashcards'),p=document.getElementById('tabProfile');
+  const q=document.getElementById('tabQuestions'),f=document.getElementById('tabProgress'),p=document.getElementById('tabProfile');
   if(q)links.insertBefore(practice,q);
   if(f)links.insertBefore(tools,f);
   if(p)links.insertBefore(account,p);
@@ -145,7 +141,7 @@ function hideV2Pages(){
 }
 function showV2Page(mode){
   installStandaloneSections();
-  ['homeSection','questionSection','aiSection','flashcardsSection','quizSection','mockSection'].forEach(id=>document.getElementById(id)?.classList.add('hidden'));
+  ['homeSection','questionSection','aiSection','quizSection','mockSection'].forEach(id=>document.getElementById(id)?.classList.add('hidden'));
   hideV2Pages();
   const section=document.getElementById(mode==='profile'?'profileSection':'progressSection');
   section?.classList.remove('hidden');
@@ -153,7 +149,6 @@ function showV2Page(mode){
   document.getElementById(mode==='profile'?'tabProfile':'tabProgress')?.classList.add('active');
   document.getElementById('stats')?.classList.add('hidden');
   document.getElementById('questionProgressBar')?.classList.add('hidden');
-  document.getElementById('flashHeroStats')?.classList.add('hidden');
   document.body.classList.remove('homeMode');
   const h=document.getElementById('heroTitle'),p=document.getElementById('heroDescription');
   if(mode==='profile'){
@@ -250,7 +245,7 @@ function installMobileNav(){
   if(document.getElementById('v2MobileNav'))return;
   const nav=document.createElement('nav');nav.id='v2MobileNav';nav.setAttribute('aria-label','MED25 mobile navigation');
   const items=[
-    ['home','Home'],['practice','Practice'],['flash','Cards'],['mock','Mock'],['profile','Profile']
+    ['home','Home'],['practice','Practice'],['mock','Mock'],['profile','Profile']
   ];
   nav.innerHTML=items.map(([key,label])=>'<button class="v2MobileNavBtn" type="button" data-v2-mobile="'+key+'">'+icon(key)+'<span>'+label+'</span></button>').join('');
   document.body.appendChild(nav);
@@ -258,7 +253,6 @@ function installMobileNav(){
     const key=btn.dataset.v2Mobile;
     if(key==='home'){hideV2Pages();clickId('tabHome')}
     if(key==='practice'){openPractice()}
-    if(key==='flash'){hideV2Pages();clickId('tabFlashcards')}
     if(key==='mock'){
       hideV2Pages();
       if(typeof window.med25GameOpenMock==='function')window.med25GameOpenMock();else clickId('tabMock');
@@ -273,7 +267,6 @@ function currentMode(){
   if(!document.getElementById('progressSection')?.classList.contains('hidden'))return 'progress';
   if(!document.getElementById('mockSection')?.classList.contains('hidden'))return 'mock';
   if(!document.getElementById('quizSection')?.classList.contains('hidden'))return 'practice';
-  if(!document.getElementById('flashcardsSection')?.classList.contains('hidden'))return 'flash';
   if(!document.getElementById('questionSection')?.classList.contains('hidden'))return 'practice';
   if(!document.getElementById('aiSection')?.classList.contains('hidden'))return 'practice';
   if(!document.getElementById('homeSection')?.classList.contains('hidden'))return 'home';
@@ -286,14 +279,14 @@ function syncMobileNav(force){
     b.classList.toggle('active',active);
     if(active)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current');
   });
-  const desktopMap={home:'tabHome',flash:'tabFlashcards',mock:'tabMock',profile:'tabProfile',progress:'tabProgress'};
+  const desktopMap={home:'tabHome',mock:'tabMock',profile:'tabProfile',progress:'tabProgress'};
   document.querySelectorAll('#studyTabs .studyTab').forEach(b=>b.removeAttribute('aria-current'));
   const current=document.getElementById(desktopMap[mode]||'');
   if(current)current.setAttribute('aria-current','page');
 }
 
 function observeSections(){
-  const ids=['homeSection','questionSection','aiSection','flashcardsSection','quizSection','mockSection','profileSection','progressSection'];
+  const ids=['homeSection','questionSection','aiSection','quizSection','mockSection','profileSection','progressSection'];
   const observer=new MutationObserver(()=>syncMobileNav());
   ids.forEach(id=>{const el=document.getElementById(id);if(el)observer.observe(el,{attributes:true,attributeFilter:['class']})});
 }
@@ -328,7 +321,7 @@ function init(){
   document.documentElement.classList.add('med25-v2');
   document.title='MED25 Study Hub';
   cleanNav();installStandaloneSections();installCohortIdentity();installMobileAppearance();installFooter();installInfoSheet();installPracticeSheet();installMobileNav();observeSections();observeLeaderboard();polishHomeLabels();setupKeyboard();syncMobileNav();
-  ['tabHome','tabQuestions','tabAI','tabQuiz','tabMock','tabFlashcards'].forEach(id=>document.getElementById(id)?.addEventListener('click',()=>{hideV2Pages();try{localStorage.removeItem('med25-v2-view-v1')}catch{}},{capture:true}));
+  ['tabHome','tabQuestions','tabAI','tabQuiz','tabMock'].forEach(id=>document.getElementById(id)?.addEventListener('click',()=>{hideV2Pages();try{localStorage.removeItem('med25-v2-view-v1')}catch{}},{capture:true}));
   const savedV2=localStorage.getItem('med25-v2-view-v1');if(savedV2==='profile'||savedV2==='progress')setTimeout(()=>showV2Page(savedV2),40);
   setTimeout(()=>{cleanNav();installStandaloneSections();polishHomeLabels();syncMobileNav()},800);
 }

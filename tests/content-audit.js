@@ -9,17 +9,12 @@ function activeSet(s){return !s.archived&&s.eligibility_status==='allowed'&&s.qu
 const ai=readJson('ai_questions.json');
 const map=readJson('question-study-guide-map.json');
 const cat=readJson('study-guide-lectures.json');
-const flash=readJson('flashcards.json');
 const manifest=readJson('content-coverage-manifest.json');
 const legacy=fs.readFileSync('legacy-app.html','utf8');
 const supplement=readJson('med25-daily-supplement.json');
 for(const s of supplement.ai_sets||[]){
   const base=ai.lecture_sets.find(x=>x.id===s.id);
   if(!base||JSON.stringify(base)!==JSON.stringify(s))fail('Runtime AI supplement differs from audited base: '+s.title);
-}
-for(const d of supplement.flashcard_decks||[]){
-  const base=flash.decks.find(x=>x.id===d.id);
-  if(!base||JSON.stringify(base)!==JSON.stringify(d))fail('Runtime flashcard supplement differs from audited base: '+d.title);
 }
 
 const lectures=(cat.subjects||[]).flatMap(s=>(s.lectures||[]).map(l=>({...l,subject:s.name})));
@@ -114,30 +109,6 @@ for(const item of manifest.current_non_drive_sources||[]){
   }
 }
 
-// Flashcards must stay in sync with active source material.
-const activeDecks=(flash.decks||[]).filter(d=>!d.archived);
-const deckBySource=new Map();
-const cardIds=new Set();
-let flashCards=0;
-for(const d of activeDecks){
-  if(d.eligibility_status!=='allowed')fail('Active flashcard deck is hidden at runtime: '+d.title);
-  if(deckBySource.has(d.source_file_id))fail('Duplicate active flashcard deck source: '+d.source_file_id);
-  deckBySource.set(d.source_file_id,d);
-  if(!(d.cards||[]).length)fail('Active flashcard deck is empty: '+d.title);
-  for(const c of d.cards||[]){
-    flashCards++;
-    if(!c.id||!String(c.front||'').trim()||!String(c.back||'').trim())fail('Invalid flashcard in '+d.title);
-    if(cardIds.has(c.id))fail('Duplicate flashcard id: '+c.id);
-    cardIds.add(c.id);
-  }
-}
-for(const s of active){
-  if(!deckBySource.has(s.source_file_id))fail('Active AI source missing active flashcard deck: '+s.title);
-}
-for(const d of activeDecks){
-  if(!activeBySource.has(d.source_file_id))fail('Active flashcard deck has no active AI source: '+d.title);
-}
-
 // Past-paper integrity: preserve authentic incomplete rows, but every row must have identity + official mapping.
 const match=legacy.match(/const\s+QUESTIONS\s*=\s*(\[[\s\S]*?\]);\s*\n/);
 if(!match)fail('Could not parse Past Paper QUESTIONS from legacy-app.html');
@@ -184,8 +155,6 @@ console.log(JSON.stringify({
   activeAiQuestions:activeQuestions,
   activeCases,
   mappedActiveLectures:lectureStats.size,
-  activeFlashcardDecks:activeDecks.length,
-  flashCards,
   pastPaperQuestions:past.length,
   pastMockReady,
   pastIncompletePreserved:pastIncomplete,

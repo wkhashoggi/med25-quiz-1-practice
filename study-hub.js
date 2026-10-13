@@ -432,11 +432,6 @@ function homeAIMetrics(){
   const p=aiProgress(),qs=aiAllQuestions(),done=qs.filter(q=>p[q.id]?.answered).length,graded=qs.filter(q=>p[q.id]?.correct===true||p[q.id]?.correct===false),right=graded.filter(q=>p[q.id]?.correct===true).length;
   return {done,total:qs.length,accuracy:graded.length?Math.round(right/graded.length*100):0};
 }
-function homeFlashMetrics(){
-  const cards=typeof allFlashCards==='function'?allFlashCards():[],now=Date.now(),seen=cards.filter(c=>cardReview(c.id)).length,due=cards.filter(c=>cardReview(c.id)&&Number(cardReview(c.id).due||0)<=now).length;
-  const decks=(flashLibrary.decks||[]).filter(d=>!d.archived),started=decks.filter(d=>(d.cards||[]).some(c=>cardReview(c.id))).length;
-  return {seen,total:cards.length,due,decks:decks.length,started};
-}
 function weakKey(s){return String(s||'').toLowerCase().replace(/&/g,' and ').replace(/\b(lecture|part|physiology|pathology|pharmacology|histology|anatomy|the|of|and|in|to)\b/g,' ').replace(/[^a-z0-9]+/g,' ').replace(/\s+/g,' ').trim()}
 function weakSimilarity(a,b){
   const aa=new Set(weakKey(a).split(' ').filter(Boolean)),bb=new Set(weakKey(b).split(' ').filter(Boolean));
@@ -669,50 +664,44 @@ function homeSubjectRows(){
 }
 function renderHome(){
   const home=document.getElementById('homeSection');if(!home)return;
-  const pp=homePastMetrics(),ai=homeAIMetrics(),fl=homeFlashMetrics(),metrics=document.getElementById('homeMetrics');
+  const pp=homePastMetrics(),ai=homeAIMetrics(),metrics=document.getElementById('homeMetrics');
   if(metrics)metrics.innerHTML=
     '<div class="hubCard hubMetric"><b>'+pp.accuracy+'%</b><span>past-paper accuracy · '+pp.done+'/'+pp.total+' attempted</span><div class="hubBar"><span style="width:'+(pp.total?pp.done/pp.total*100:0)+'%"></span></div></div>'+
-    '<div class="hubCard hubMetric"><b>'+ai.accuracy+'%</b><span>AI-question accuracy · '+ai.done+'/'+ai.total+' attempted</span><div class="hubBar"><span style="width:'+(ai.total?ai.done/ai.total*100:0)+'%"></span></div></div>'+
-    '<div class="hubCard hubMetric"><b>'+fl.due+'</b><span>flashcards due now · '+fl.seen+'/'+fl.total+' seen</span><div class="hubBar"><span style="width:'+(fl.total?fl.seen/fl.total*100:0)+'%"></span></div></div>'+
-    '<div class="hubCard hubMetric"><b>'+fl.started+'/'+fl.decks+'</b><span>lecture decks started</span><div class="hubBar"><span style="width:'+(fl.decks?fl.started/fl.decks*100:0)+'%"></span></div></div>';
+    '<div class="hubCard hubMetric"><b>'+ai.accuracy+'%</b><span>AI-question accuracy · '+ai.done+'/'+ai.total+' attempted</span><div class="hubBar"><span style="width:'+(ai.total?ai.done/ai.total*100:0)+'%"></span></div></div>';
   const weak=document.getElementById('homeWeak');
   if(weak){const rows=homeWeakTopics();weak.innerHTML=rows.length?'<div class="hubRows">'+rows.map(x=>'<div class="hubRow"><div class="hubRowMain"><b>'+esc(x.topic)+'</b><span>'+(x.pastGraded?'Past papers '+x.pastCorrect+'/'+x.pastGraded:'')+(x.pastGraded&&x.aiGraded?' · ':'')+(x.aiGraded?'AI '+x.aiCorrect+'/'+x.aiGraded:'')+' · '+x.correct+'/'+x.graded+' combined</span></div><div class="hubRowScore">'+Math.round(x.accuracy*100)+'%</div></div>').join('')+'</div>':'<p>Answer some Past Paper or AI questions and your weakest topics will appear here.</p>'}
   const subjects=document.getElementById('homeSubjects');
   if(subjects)subjects.innerHTML='<div class="hubRows">'+homeSubjectRows().map(x=>{const qPct=x.questions?Math.round(x.done/x.questions*100):0;return '<div class="hubRow"><div class="hubRowMain"><b>'+esc(x.subject)+'</b><span>Studied '+x.studied+'/'+x.lectures+' lectures · Questions '+x.done+'/'+x.questions+'</span><div class="hubBar"><span style="width:'+qPct+'%"></span></div></div><div class="hubRowScore">'+x.questionComplete+'/'+x.lectures+' complete</div></div>'}).join('')+'</div>';
   renderLectureDashboard();
-  const sync=document.getElementById('homeSync');if(sync)sync.textContent='Drive libraries: '+(aiLibrary.lecture_sets||[]).filter(s=>!s.archived&&s.eligibility_status==='allowed'&&s.quality_status==='pass').length+' quality-checked AI lecture sets · '+(flashLibrary.decks||[]).filter(d=>!d.archived&&d.eligibility_status==='allowed').length+' eligible flashcard decks';
+  const sync=document.getElementById('homeSync');if(sync)sync.textContent='Drive libraries: '+(aiLibrary.lecture_sets||[]).filter(s=>!s.archived&&s.eligibility_status==='allowed'&&s.quality_status==='pass').length+' quality-checked AI lecture sets';
 }
 function hubGo(mode){switchStudySection(mode)}
 function hubSwitch(mode){
+  if(!['home','questions','ai'].includes(mode))mode='home';
   document.getElementById('profileSection')?.classList.add('hidden');
   document.getElementById('progressSection')?.classList.add('hidden');
   document.getElementById('tabProfile')?.classList.remove('active');
   document.getElementById('tabProgress')?.classList.remove('active');
   try{localStorage.removeItem('med25-v2-view-v1')}catch{}
-  const home=mode==='home',past=mode==='questions',ai=mode==='ai',flash=mode==='flashcards';
+  const home=mode==='home',past=mode==='questions',ai=mode==='ai';
   document.getElementById('homeSection')?.classList.toggle('hidden',!home);
   document.getElementById('questionSection')?.classList.toggle('hidden',!past);
   document.getElementById('aiSection')?.classList.toggle('hidden',!ai);
-  document.getElementById('flashcardsSection')?.classList.toggle('hidden',!flash);
   document.getElementById('tabHome')?.classList.toggle('active',home);
   document.getElementById('tabQuestions')?.classList.toggle('active',past);
   document.getElementById('tabAI')?.classList.toggle('active',ai);
-  document.getElementById('tabFlashcards')?.classList.toggle('active',flash);
   document.getElementById('stats')?.classList.toggle('hidden',!past);
   document.getElementById('questionProgressBar')?.classList.toggle('hidden',!past);
-  document.getElementById('flashHeroStats')?.classList.toggle('hidden',!flash);
   const h=document.getElementById('heroTitle'),p=document.getElementById('heroDescription');
-  if(home){if(h)h.textContent='MED25 Study Hub';if(p)p.textContent='Your progress across past papers, lecture-grounded AI questions, and spaced-repetition flashcards.';renderHome()}
+  if(home){if(h)h.textContent='MED25 Study Hub';if(p)p.textContent='Your progress across past papers and lecture-grounded AI questions.';renderHome()}
   if(past){if(h)h.textContent='MED25 Past Papers';if(p)p.textContent='Previous-year questions and the coordinator formative, with repeated-concept sorting and source-lecture links.'}
   if(ai){if(h)h.textContent='MED25 AI-Generated Questions';if(p)p.textContent='KAU-style MCQs generated lecture-by-lecture from the official MED25 Drive, kept separate from past papers.';renderAI()}
-  if(flash){if(h)h.textContent='MED25 Flashcards';if(p)p.textContent='Anki-style deck browser and spaced repetition, aligned with the source-checked MED25 lecture libraries.';renderFlashDecks();renderFlashHeroStats()}
   try{localStorage.setItem(HUB_SECTION_KEY,mode)}catch{}
 }
 function hubSetupNavigation(){
   document.getElementById('tabHome').onclick=()=>hubSwitch('home');
   document.getElementById('tabQuestions').onclick=()=>hubSwitch('questions');
   document.getElementById('tabAI').onclick=()=>hubSwitch('ai');
-  document.getElementById('tabFlashcards').onclick=()=>hubSwitch('flashcards');
   const mode=localStorage.getItem(HUB_SECTION_KEY)||'home';
   if(mode==='mock'||mode==='quiz'){
     const open=mode==='mock'?window.med25GameOpenMock:window.med25GameOpenQuiz;
@@ -722,7 +711,7 @@ function hubSetupNavigation(){
       // The game layer loads next. Preserve its section until it takes over.
       localStorage.setItem(HUB_SECTION_KEY,mode);
     }
-  }else hubSwitch(['home','questions','ai','flashcards'].includes(mode)?mode:'home');
+  }else hubSwitch(['home','questions','ai'].includes(mode)?mode:'home');
 }
 
 const qaBasePastFiltered=filtered;
@@ -738,8 +727,7 @@ filtered=function(){
   });
 };
 
-switchStudySection=hubSwitch;
-setupStudyNavigation=hubSetupNavigation;
+let switchStudySection=hubSwitch;
 window.hubGo=hubGo;
 
 function removeLegacyAnalysisBoxes(){
@@ -794,8 +782,6 @@ function med25MarkHomeDirty(renderIfVisible=false){
 }
 const baseSave=save;
 save=function(){const r=baseSave.apply(this,arguments);med25MarkHomeDirty(true);return r};
-const baseFlashSave=saveFlashReview;
-saveFlashReview=function(){const r=baseFlashSave.apply(this,arguments);med25MarkHomeDirty(true);return r};
 
 const med25BaseLoadCloudProgress=loadCloudProgress;
 loadCloudProgress=async function(){
@@ -990,14 +976,6 @@ function med25SetupTheme(){
   med25ApplyTheme(document.documentElement.dataset.theme||'light',false);
 }
 
-function med25EnsureFlashFocus(){
-  const section=document.getElementById('flashcardsSection');
-  if(!section||document.getElementById('flashFocus'))return;
-  const shell=section.querySelector('.ankiShell');
-  if(!shell)return;
-  shell.insertAdjacentHTML('beforebegin','<section class="flashFocus" id="flashFocus"><div><div class="homeCardLabel">TODAY\'S REVIEW</div><h2><span id="flashFocusDue">0</span> cards due</h2><p id="flashFocusMeta">Your spaced-repetition queue is loading.</p></div><button class="flashFocusBtn" id="flashFocusStudy" type="button">Study due cards →</button></section>');
-}
-
 function med25LatestActivity(){
   let best=null;
   const consider=item=>{if(!best||item.ts>best.ts)best=item};
@@ -1014,14 +992,6 @@ function med25LatestActivity(){
     const g=sgQuestionLecture('ai',q);
     consider({mode:'ai',ts,questionId:q.id,lectureId:g.lecture_id,subject:g.subject,title:g.title||q.lecture_title||'AI Questions'});
   });
-  try{
-    for(const d of (flashLibrary.decks||[])){
-      for(const c of (d.cards||[])){
-        const r=cardReview(c.id),ts=Number(r&&r.last_reviewed||0);
-        if(ts)consider({mode:'flashcards',ts,deckId:d.id,subject:d.subject||'',title:d.title||'Flashcards'});
-      }
-    }
-  }catch{}
   if(best)return best;
   const rows=lectureDashboardRows();
   const first=rows.find(r=>r.status!=='complete')||rows[0];
@@ -1032,20 +1002,11 @@ function med25ContinueProgress(target){
     const r=lectureDashboardRows().find(x=>x.id===target.lectureId);
     if(r)return {pct:r.questionCoverage||0,meta:(r.questionDone||0)+'/'+(r.questionTotal||0)+' questions completed'};
   }
-  if(target&&target.mode==='flashcards'){
-    const fl=homeFlashMetrics();
-    return {pct:fl.total?Math.round(fl.seen/fl.total*100):0,meta:fl.due+' cards due now'};
-  }
   const pp=homePastMetrics();
   return {pct:pp.total?Math.round(pp.done/pp.total*100):0,meta:pp.done+'/'+pp.total+' past-paper questions attempted'};
 }
 function med25Continue(){
   const t=med25ContinueTarget||{mode:'questions'};
-  if(t.mode==='flashcards'){
-    hubSwitch('flashcards');
-    setTimeout(()=>document.getElementById('flashStudyAll')&&document.getElementById('flashStudyAll').click(),80);
-    return;
-  }
   if(t.mode==='ai'){
     aiAdvanced.status='all';aiAdvanced.subject=t.subject||'';aiAdvanced.lectures=new Set(t.lectureId?[t.lectureId]:[]);
     aiState.page=1;hubSwitch('ai');setupAdvancedQuestionFilters();renderAI();
@@ -1059,7 +1020,7 @@ function med25Continue(){
 window.med25Continue=med25Continue;
 
 function med25RenderHomePolish(){
-  med25EnsureFlashFocus();
+
   const greeting=document.getElementById('homeGreeting');
   if(greeting){
     const h=new Date().getHours();
@@ -1087,27 +1048,23 @@ function med25RenderHomePolish(){
   if(m)m.textContent=complete+'/'+rows.length+' lectures fully complete';
   if(bar)bar.style.width=overall+'%';
 
-  const pp=homePastMetrics(),ai=homeAIMetrics(),fl=homeFlashMetrics();
+  const pp=homePastMetrics(),ai=homeAIMetrics();
   const totalQ=pp.total+ai.total,doneQ=pp.done+ai.done,left=Math.max(0,totalQ-doneQ),incomplete=Math.max(0,rows.length-complete);
   const metrics=document.getElementById('homeMetrics');
   if(metrics)metrics.innerHTML=
-    '<button class="hubCard hubMetric homeMetricButton" type="button" onclick="hubGo(\'flashcards\')"><span class="homeMetricIcon">▱</span><b>'+fl.due+'</b><span>flashcards due today</span><div class="hubBar"><span style="width:'+(fl.total?fl.seen/fl.total*100:0)+'%"></span></div></button>'+
     '<button class="hubCard hubMetric homeMetricButton" type="button" onclick="hubGo(\'questions\')"><span class="homeMetricIcon">▤</span><b>'+left+'</b><span>questions remaining</span><div class="hubBar"><span style="width:'+(totalQ?doneQ/totalQ*100:0)+'%"></span></div></button>'+
     '<button class="hubCard hubMetric homeMetricButton" type="button" onclick="window.med25V2OpenProgress?.()"><span class="homeMetricIcon">✓</span><b>'+incomplete+'</b><span>lectures not fully complete</span><div class="hubBar"><span style="width:'+(rows.length?complete/rows.length*100:0)+'%"></span></div></button>';
 
   med25ContinueTarget=med25LatestActivity();
   const cp=med25ContinueProgress(med25ContinueTarget);
   const kicker=document.getElementById('homeContinueEyebrow'),title=document.getElementById('homeContinueTitle'),meta=document.getElementById('homeContinueMeta'),cbar=document.getElementById('homeContinueBar'),btn=document.getElementById('homeContinueBtn');
-  if(kicker)kicker.textContent=med25ContinueTarget.mode==='flashcards'?'CONTINUE REVIEWING':'CONTINUE STUDYING';
+  if(kicker)kicker.textContent='CONTINUE STUDYING';
   if(title)title.textContent=med25ContinueTarget.title||'Continue studying';
   if(meta)meta.textContent=(med25ContinueTarget.subject?med25ContinueTarget.subject+' · ':'')+cp.meta;
   if(cbar)cbar.style.width=Math.max(4,Math.min(100,cp.pct||0))+'%';
-  if(btn){btn.textContent=med25ContinueTarget.mode==='flashcards'?'Review due cards →':'Continue →';btn.onclick=med25Continue}
+  if(btn){btn.textContent='Continue →';btn.onclick=med25Continue}
 
-  const fd=document.getElementById('flashFocusDue'),fm=document.getElementById('flashFocusMeta'),fs=document.getElementById('flashFocusStudy');
-  if(fd)fd.textContent=fl.due;
-  if(fm)fm.textContent=fl.due?('You have '+fl.due+' reviews waiting. '+fl.seen+' of '+fl.total+' cards have been seen at least once.'):'You are caught up for now. New reviews will appear automatically when they are due.';
-  if(fs){fs.disabled=!fl.due;fs.textContent=fl.due?'Study due cards →':'All caught up ✓';fs.onclick=()=>document.getElementById('flashStudyAll')&&document.getElementById('flashStudyAll').click()}
+
 }
 
 function med25ScrollToNextCard(card,kind){
@@ -1200,14 +1157,12 @@ async function med25LoadSitewideAnalytics(){
     const topics=Array.isArray(a.top_topics)?a.top_topics:[];
     const daily=Array.isArray(a.daily)?a.daily:[];
     const sections=Array.isArray(a.section_usage)?a.section_usage:[];
-    const ratings=Array.isArray(a.flashcard_ratings)?a.flashcard_ratings:[];
     const started=a.analytics_started_at?fmtAdminDate(a.analytics_started_at):'Just enabled';
     const sitewide=a.sitewide_tracking_started_at?fmtAdminDate(a.sitewide_tracking_started_at):'starting with this update';
-    const sectionNames={home:'Home',questions:'Past Papers',ai:'AI Questions',flashcards:'Flashcards'};
-    const sectionRows=sections.map(x=>'<tr><td>'+esc(sectionNames[x.section]||x.section||'Unknown')+'</td><td>'+Number(x.views||0).toLocaleString()+'</td></tr>').join('');
-    const ratingRows=ratings.map(x=>'<tr><td>'+esc((x.rating||'Unknown').replace(/^./,c=>c.toUpperCase()))+'</td><td>'+Number(x.reviews||0).toLocaleString()+'</td></tr>').join('');
+    const sectionNames={home:'Home',questions:'Past Papers',ai:'AI Questions',quiz:'Mistake Quiz',mock:'Mock Exams',profile:'Profile',progress:'Lecture Tracker'};
+    const sectionRows=sections.filter(x=>x.section in sectionNames).map(x=>'<tr><td>'+esc(sectionNames[x.section]||x.section||'Unknown')+'</td><td>'+Number(x.views||0).toLocaleString()+'</td></tr>').join('');
     body.innerHTML=
-      '<p class="analyticsNote"><b>Whole-site dashboard.</b> Visitor analytics began '+esc(started)+'. Feature-by-feature tracking (Home, AI, Flashcards and lecture checklist) is '+esc(sitewide)+', so older activity is naturally weighted toward Past Papers.</p>'+
+      '<p class="analyticsNote"><b>Whole-site dashboard.</b> Visitor analytics began '+esc(started)+'. Feature-by-feature tracking (Home, AI and lecture checklist) is '+esc(sitewide)+', so older activity is naturally weighted toward Past Papers.</p>'+
       '<div class="analyticsSectionTitle"><b>Overview</b><span>Entire MED25 Study Hub</span></div>'+
       '<div class="analyticsMetrics">'+
         '<div class="analyticsMetric"><b>'+Number(a.total_visitors||0).toLocaleString()+'</b><span>unique visitors</span></div>'+
@@ -1221,17 +1176,15 @@ async function med25LoadSitewideAnalytics(){
       '<div class="analyticsMetrics analyticsStudyMetrics">'+
         '<div class="analyticsMetric"><b>'+Number(a.past_questions_answered||0).toLocaleString()+'</b><span>Past Paper answers</span></div>'+
         '<div class="analyticsMetric"><b>'+Number(a.ai_questions_answered||0).toLocaleString()+'</b><span>AI Question answers</span></div>'+
-        '<div class="analyticsMetric"><b>'+Number(a.flashcard_reviews||0).toLocaleString()+'</b><span>flashcard reviews</span></div>'+
         '<div class="analyticsMetric"><b>'+Number(a.lecture_study_actions||0).toLocaleString()+'</b><span>lecture checklist actions</span></div>'+
         '<div class="analyticsMetric"><b>'+Number(a.source_opens||0).toLocaleString()+'</b><span>source lectures opened</span></div>'+
         '<div class="analyticsMetric"><b>'+Number(a.answer_reveals||0).toLocaleString()+'</b><span>answers revealed</span></div>'+
       '</div>'+
       '<div class="analyticsGrid">'+
         '<div class="box"><h3>Sections opened</h3><p class="small">Which parts of the site students are using.</p><div class="analyticsTableWrap"><table class="analyticsTable"><thead><tr><th>Section</th><th>Views</th></tr></thead><tbody>'+(sectionRows||'<tr><td colspan="2">Site-wide tracking has just started.</td></tr>')+'</tbody></table></div></div>'+
-        '<div class="box"><h3>Flashcard ratings</h3><p class="small">Again / Hard / Good / Easy across morning reviews.</p><div class="analyticsTableWrap"><table class="analyticsTable"><thead><tr><th>Rating</th><th>Reviews</th></tr></thead><tbody>'+(ratingRows||'<tr><td colspan="2">No flashcard reviews tracked yet.</td></tr>')+'</tbody></table></div></div>'+
       '</div>'+
-      '<div class="box analyticsWideBox"><h3>Last 14 days</h3><div class="analyticsTableWrap"><table class="analyticsTable"><thead><tr><th>Date</th><th>Visitors</th><th>Sessions</th><th>Answers</th><th>Flashcards</th><th>Lecture actions</th></tr></thead><tbody>'+
-        (daily.map(d=>'<tr><td>'+esc(String(d.date||''))+'</td><td>'+Number(d.visitors||0).toLocaleString()+'</td><td>'+Number(d.sessions||0).toLocaleString()+'</td><td>'+Number(d.answers||0).toLocaleString()+'</td><td>'+Number(d.flashcards||0).toLocaleString()+'</td><td>'+Number(d.lecture_actions||0).toLocaleString()+'</td></tr>').join('')||'<tr><td colspan="6">No tracked activity yet.</td></tr>')+
+      '<div class="box analyticsWideBox"><h3>Last 14 days</h3><div class="analyticsTableWrap"><table class="analyticsTable"><thead><tr><th>Date</th><th>Visitors</th><th>Sessions</th><th>Answers</th><th>Lecture actions</th></tr></thead><tbody>'+
+        (daily.map(d=>'<tr><td>'+esc(String(d.date||''))+'</td><td>'+Number(d.visitors||0).toLocaleString()+'</td><td>'+Number(d.sessions||0).toLocaleString()+'</td><td>'+Number(d.answers||0).toLocaleString()+'</td><td>'+Number(d.lecture_actions||0).toLocaleString()+'</td></tr>').join('')||'<tr><td colspan="5">No tracked activity yet.</td></tr>')+
       '</tbody></table></div></div>'+
       '<div class="analyticsGrid">'+
         '<div class="box"><h3>Most answered topics</h3><div class="analyticsTableWrap"><table class="analyticsTable"><thead><tr><th>Topic</th><th>Answers</th></tr></thead><tbody>'+
@@ -1321,7 +1274,7 @@ function med25SyncMobileAuthLabel(){
 }
 
 function med25SetupProductUI(){
-  med25SetupTheme();med25EnsureFlashFocus();med25MoveGlobalOverlays();med25MoveAuthToHome();med25SetupCompactMobileAuth();setupResponsiveFilters();
+  med25SetupTheme();med25MoveGlobalOverlays();med25MoveAuthToHome();med25SetupCompactMobileAuth();setupResponsiveFilters();
   const mode=localStorage.getItem(HUB_SECTION_KEY)||'home';
   document.body.classList.toggle('homeMode',mode==='home');
   if(mode==='home')med25RenderHomePolish();
@@ -1335,6 +1288,7 @@ setTimeout(med25SetupProductUI,80);
 
 
 setupAIControls();
+hubSetupNavigation();
 initAIQuestions();
 setTimeout(()=>{try{setupAdvancedQuestionFilters();if(med25HomeVisible())renderHome();renderAIStats()}catch{}},1000);
 })();

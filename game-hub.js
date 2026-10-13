@@ -47,13 +47,12 @@ function gameSvg(name){
     ai:'<svg class="navSvg" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.8 13.8 8l5.2 1.8-5.2 1.8L12 17l-1.8-5.4L5 9.8 10.2 8z"/><path d="m18.5 15 .8 2.2 2.2.8-2.2.8-.8 2.2-.8-2.2-2.2-.8 2.2-.8z"/></svg>',
     quiz:'<svg class="navSvg" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3.5h14v17H5z"/><path d="m8.5 9 1.5 1.5L13 7.5"/><path d="M8.5 15h7"/></svg>',
     mock:'<svg class="navSvg" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3.5h10v3H7z"/><path d="M5 6.5h14v14H5z"/><path d="M8.5 11h7M8.5 15h4"/></svg>',
-    flash:'<svg class="navSvg" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="6" width="14" height="11" rx="2"/><path d="M7 3h13v11"/></svg>'
   };
   return icons[name]||'';
 }
 
 function gameNormalizeIcons(){
-  const map={tabHome:'home',tabQuestions:'past',tabAI:'ai',tabQuiz:'quiz',tabMock:'mock',tabFlashcards:'flash'};
+  const map={tabHome:'home',tabQuestions:'past',tabAI:'ai',tabQuiz:'quiz',tabMock:'mock'};
   Object.entries(map).forEach(([id,name])=>{
     const btn=document.getElementById(id),span=btn?.querySelector('.navIcon');
     if(span&&span.dataset.iconNormalized!=='1'){
@@ -103,8 +102,8 @@ function gameInstallNav(){
 
 function gameInstallQuizSection(){
   if(document.getElementById('quizSection'))return;
-  const flash=document.getElementById('flashcardsSection');
-  if(!flash)return;
+  const anchor=document.getElementById('aiSection');
+  if(!anchor)return;
   const section=document.createElement('section');
   section.id='quizSection';
   section.className='quizSection hidden';
@@ -115,7 +114,7 @@ function gameInstallQuizSection(){
     '</div>'+
     '<div class="quizStats" id="quizStats"></div>'+
     '<div class="quizStage" id="quizStage"></div>';
-  flash.parentNode.insertBefore(section,flash);
+  anchor.parentNode.insertBefore(section,anchor);
   document.getElementById('quizShuffleBtn').onclick=()=>{
     gameQuizState.shuffle=!gameQuizState.shuffle;
     gameBuildQuizQueue();
@@ -1054,12 +1053,12 @@ function gameMockRenderResults(){
 }
 function gameInstallMockSection(){
   if(document.getElementById('mockSection'))return;
-  const quiz=document.getElementById('quizSection'),flash=document.getElementById('flashcardsSection');
-  const parent=quiz?.parentNode||flash?.parentNode;if(!parent)return;
+  const quiz=document.getElementById('quizSection');
+  const parent=quiz?.parentNode;if(!parent)return;
   const section=document.createElement('section');
   section.id='mockSection';section.className='mockSection hidden';
   section.innerHTML='<div id="mockStage"></div>';
-  if(flash)parent.insertBefore(section,flash);else parent.appendChild(section);
+  parent.insertBefore(section,quiz);
 }
 function gameSwitchMock(){
   try{localStorage.removeItem('med25-v2-view-v1')}catch{}
@@ -1069,16 +1068,14 @@ function gameSwitchMock(){
   document.getElementById('homeSection')?.classList.add('hidden');
   document.getElementById('questionSection')?.classList.add('hidden');
   document.getElementById('aiSection')?.classList.add('hidden');
-  document.getElementById('flashcardsSection')?.classList.add('hidden');
   document.getElementById('quizSection')?.classList.add('hidden');
   document.getElementById('profileSection')?.classList.add('hidden');
   document.getElementById('progressSection')?.classList.add('hidden');
   mock.classList.remove('hidden');
-  ['tabHome','tabQuestions','tabAI','tabQuiz','tabFlashcards','tabProfile','tabProgress'].forEach(id=>document.getElementById(id)?.classList.remove('active'));
+  ['tabHome','tabQuestions','tabAI','tabQuiz','tabProfile','tabProgress'].forEach(id=>document.getElementById(id)?.classList.remove('active'));
   document.getElementById('tabMock')?.classList.add('active');
   document.getElementById('stats')?.classList.add('hidden');
   document.getElementById('questionProgressBar')?.classList.add('hidden');
-  document.getElementById('flashHeroStats')?.classList.add('hidden');
   document.body.classList.remove('homeMode');
   const h=document.getElementById('heroTitle'),p=document.getElementById('heroDescription');
   if(h)h.textContent='MED25 Mock Exam';
@@ -1106,16 +1103,14 @@ function gameSwitchQuiz(){
   document.getElementById('homeSection')?.classList.add('hidden');
   document.getElementById('questionSection')?.classList.add('hidden');
   document.getElementById('aiSection')?.classList.add('hidden');
-  document.getElementById('flashcardsSection')?.classList.add('hidden');
   document.getElementById('mockSection')?.classList.add('hidden');
   document.getElementById('profileSection')?.classList.add('hidden');
   document.getElementById('progressSection')?.classList.add('hidden');
   quizSection.classList.remove('hidden');
-  ['tabHome','tabQuestions','tabAI','tabMock','tabFlashcards','tabProfile','tabProgress'].forEach(id=>document.getElementById(id)?.classList.remove('active'));
+  ['tabHome','tabQuestions','tabAI','tabMock','tabProfile','tabProgress'].forEach(id=>document.getElementById(id)?.classList.remove('active'));
   document.getElementById('tabQuiz')?.classList.add('active');
   document.getElementById('stats')?.classList.add('hidden');
   document.getElementById('questionProgressBar')?.classList.add('hidden');
-  document.getElementById('flashHeroStats')?.classList.add('hidden');
   document.body.classList.remove('homeMode');
   const h=document.getElementById('heroTitle'),p=document.getElementById('heroDescription');
   if(h)h.textContent='MED25 Mistake Quiz';
@@ -1159,7 +1154,7 @@ function gamePatchNavigation(){
     mockBtn.removeAttribute('aria-disabled');
     mockBtn.onclick=()=>gameSwitchMock();
   }
-  ['tabHome','tabQuestions','tabAI','tabFlashcards'].forEach(id=>{
+  ['tabHome','tabQuestions','tabAI'].forEach(id=>{
     const btn=document.getElementById(id);
     if(btn&&!btn.dataset.gameQuizExitBound){
       btn.dataset.gameQuizExitBound='1';

@@ -93,10 +93,10 @@ async function testHome(page, mobile) {
   const metric = page.locator('#homeMetrics .homeMetricButton');
   if (await metric.count() >= 2) {
     await metric.nth(0).click();
-    await assertVisible(page, '#flashcardsSection:not(.hidden)', 'flashcards metric');
+    await assertVisible(page, '#questionSection:not(.hidden)', 'questions metric');
     await goHome(page, mobile);
     await metric.nth(1).click();
-    await assertVisible(page, '#questionSection:not(.hidden)', 'questions metric');
+    await assertVisible(page, '#progressSection:not(.hidden)', 'lecture metric');
     await goHome(page, mobile);
   }
 
@@ -270,37 +270,6 @@ async function testMistakeQuiz(page, mobile) {
   const next=page.locator('#quizStage .quizNextBtn');
   if (await visible(next)) await next.click();
   await noPageOverflow(page, 'mistake quiz');
-}
-
-async function testFlashcards(page, mobile) {
-  if (mobile) await click(page.locator('[data-v2-mobile="flash"]'), 'mobile Cards');
-  else await goDesktop(page, 'tabFlashcards', '#flashcardsSection:not(.hidden)');
-  await assertVisible(page, '#flashcardsSection:not(.hidden)', 'Flashcards');
-  await page.waitForFunction(() => document.querySelectorAll('#flashDeckList .ankiDeckRow').length > 0, null, { timeout: 10000 });
-
-  const stats=page.locator('#flashStatsToggle');
-  if (await visible(stats)) { await stats.click(); await stats.click(); }
-  const search=page.locator('#flashSearch');
-  if (await visible(search)) { await search.fill('cardiac'); await search.fill(''); }
-
-  const suspend=page.locator('#flashDeckList .ankiSuspendBtn').first();
-  if (await visible(suspend)) { await suspend.click(); await suspend.click(); }
-  const deck=page.locator('#flashDeckList .ankiDeckRow').first();
-  if (await visible(deck)) await deck.evaluate(el=>el.click());
-  if (!await visible(page.locator('#flashStudy'))) {
-    const all=page.locator('#flashStudyAll');
-    if (await visible(all)) await all.click();
-  }
-  await assertVisible(page, '#flashStudy:not(.hidden)', 'Flash study');
-  const show=page.locator('#flashShowAnswer');
-  if (await visible(show)) await show.click();
-  await assertVisible(page, '#flashRatings.show', 'Flash ratings');
-  const good=page.locator('[data-grade="good"]');
-  if (await visible(good)) await good.click();
-  const back=page.locator('#flashBack');
-  if (await visible(back)) await back.click();
-  await assertVisible(page, '#flashDeckBrowser:not(.hidden)', 'Deck browser');
-  await noPageOverflow(page, 'flashcards');
 }
 
 async function testMock(page, mobile) {
@@ -519,7 +488,6 @@ async function runOne(browser, device, iteration) {
     await testPast(page,mobile);
     await testAI(page,mobile);
     await testMistakeQuiz(page,mobile);
-    await testFlashcards(page,mobile);
     await testMock(page,mobile);
     await testFooter(page);
 

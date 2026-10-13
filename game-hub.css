@@ -8,8 +8,8 @@
   width:19px;height:19px;display:block;
   fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round
 }
-.themeToggle,.mobileThemeToggle,.homeMetricIcon,.mobileAuthIcon,.ankiInfoIcon,
-.ankiShuffleBtn>span,.ankiFocusBtn>span,.gameProfileGuestIcon{
+
+.themeToggle,.mobileThemeToggle,.homeMetricIcon,.mobileAuthIcon,.gameProfileGuestIcon{
   display:grid!important;place-items:center!important;line-height:1!important
 }
 .themeToggle,.mobileThemeToggle{padding:0!important}
@@ -18,7 +18,6 @@
   border-radius:11px!important;line-height:1!important
 }
 .mobileAuthIcon{font-size:17px!important}
-.ankiInfoIcon{line-height:1!important}
 .quizNavBadge{
   display:none;min-width:17px;height:17px;padding:0 4px;border-radius:999px;
   align-items:center;justify-content:center;background:var(--med-danger);color:#fff;

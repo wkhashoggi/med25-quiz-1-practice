@@ -52,6 +52,7 @@ function aiFiltered(){
     if(aiAdvanced.status==='starred'&&!p[q.id]?.starred)return false;
     if(aiAdvanced.status==='revealed'&&!p[q.id]?.revealed)return false;
     const guide=sgQuestionLecture('ai',q);
+    if(window.med25RevisionScope&&Number(guide.quiz)!==Number(window.med25RevisionScope))return false;
     if(aiAdvanced.subject&&guide.subject!==aiAdvanced.subject)return false;
     if(aiAdvanced.lectures.size&&!aiAdvanced.lectures.has(guide.lecture_id))return false;
     return true;
@@ -233,6 +234,9 @@ function sgQuestionLecture(kind,q){
 function pastQuestionQuiz(q){return Number(sgQuestionLecture('past',q)?.quiz||q.quiz||lectureQuizNumber(sgQuestionLecture('past',q)?.title))}
 window.med25GameBridge=window.med25GameBridge||{};
 window.med25GameBridge.questionLecture=(kind,q)=>sgQuestionLecture(kind,q);
+window.med25GameBridge.lectureCatalog=()=>qaLectureCatalog();
+window.med25GameBridge.coverage=()=>sourceCoverageAudit;
+window.med25GameBridge.setRevisionScope=scope=>{pastAdvanced.quiz='';pastAdvanced.lectures.clear();aiAdvanced.lectures.clear();pastAdvanced.subject='';aiAdvanced.subject='';aiState.subject='';aiState.lecture='';aiState.page=1;state.page=1;render();renderAI();};
 window.med25GameBridge.studyLibrariesReady=()=>studyLibrariesLoaded&&!!(studyGuideCatalog?.subjects?.length);
 function qaStatusPass(p,status){
   if(status==='all')return true;
@@ -719,6 +723,7 @@ filtered=function(){
   let qs=qaBasePastFiltered.apply(this,arguments);
   return qs.filter(q=>{
     const p=saved[q.id]||{},g=sgQuestionLecture('past',q);
+    if(window.med25RevisionScope&&pastQuestionQuiz(q)!==Number(window.med25RevisionScope))return false;
     if(pastAdvanced.quiz&&pastQuestionQuiz(q)!==Number(pastAdvanced.quiz))return false;
     if(!qaStatusPass(p,pastAdvanced.status))return false;
     if(pastAdvanced.subject&&g.subject!==pastAdvanced.subject)return false;

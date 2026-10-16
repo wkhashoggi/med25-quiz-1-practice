@@ -629,7 +629,7 @@ function gameAllMistakes(){
 
 function gameUnresolvedMistakes(){
   const qp=gameQuizProgress();
-  return gameAllMistakes().filter(x=>!qp[x.key]?.recovered);
+  return gameAllMistakes().filter(x=>!qp[x.key]?.recovered&&saved.__revision_practice__?.[x.key]?.correct!==true);
 }
 
 function gameShuffle(items){
@@ -684,7 +684,7 @@ function gameQuizExplanation(item){
 function gameRenderQuiz(){
   const stats=document.getElementById('quizStats'),stage=document.getElementById('quizStage'),shuffle=document.getElementById('quizShuffleBtn');
   if(!stats||!stage)return;
-  const all=gameAllMistakes(),qp=gameQuizProgress(),recovered=all.filter(x=>qp[x.key]?.recovered).length,unresolved=all.length-recovered;
+  const all=gameAllMistakes(),qp=gameQuizProgress(),recovered=all.filter(x=>qp[x.key]?.recovered||saved.__revision_practice__?.[x.key]?.correct===true).length,unresolved=all.length-recovered;
   stats.innerHTML=
     '<div class="quizStat"><b>'+all.length+'</b><span>mistakes collected</span></div>'+
     '<div class="quizStat"><b>'+unresolved+'</b><span>still to recover</span></div>'+
@@ -804,7 +804,7 @@ function gameMockQuestionRows(){
   return rows;
 }
 function gameMockAvailableRows(){
-  return gameMockQuestionRows().filter(x=>gameMockState.config.includeAI||x.source==='past');
+  return gameMockQuestionRows().filter(x=>(gameMockState.config.includeAI||x.source==='past')&&(!window.med25RevisionScope||Number(window.med25GameBridge.questionLecture(x.source,x.q).quiz)===Number(window.med25RevisionScope)));
 }
 function gameMockCatalog(){
   const subjects=new Map();

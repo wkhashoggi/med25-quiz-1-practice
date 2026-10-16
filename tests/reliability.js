@@ -75,6 +75,47 @@ async function run(){
     assert.equal(await page.evaluate(()=>QUESTIONS.filter(window.med25ExamReadyPast).length),1072);
     console.log('PASS effective content counts, mappings, and mock eligibility');
 
+    // Revision flows preserve first attempts while tracking fresh practice separately.
+    await page.waitForSelector('#openQuiz2');
+    await page.locator('#openQuiz2').click();
+    await page.waitForSelector('#revisionDialog[open]');
+    assert(await page.evaluate(()=>window.med25Revision.pool().every(x=>Number(x.g.quiz)===2)));
+    await page.locator('#revisionCount').fill('1.5');await page.locator('#revisionStart').click();
+    assert((await page.locator('#revisionMessage').innerText()).includes('whole number'));
+    const thoracic='anatomy-histology__anatomy-of-thoracic-wall';
+    await page.locator('#revisionLecture').selectOption(thoracic);
+    await page.locator('#revisionCount').fill('1');
+    const originalProgress=await page.evaluate(()=>JSON.stringify(saved));
+    await page.locator('#revisionStart').click();
+    assert.equal(await page.locator('.revisionExplanation').count(),0);
+    await page.locator('[data-revision-answer]').first().click();
+    assert.equal(await page.locator('[data-revision-answer]:disabled').count(),4);
+    assert.equal(await page.locator('.revisionExplanation dd').count(),4);
+    assert(await page.evaluate(old=>{const now=JSON.parse(JSON.stringify(saved));delete now.__revision_practice__;return JSON.stringify(now)===old},originalProgress));
+    await page.locator('#revisionReport').click();await page.locator('#reportDetails').fill('Please check this wording.');
+    const reportURL=await page.locator('#reportWhatsApp').getAttribute('href');
+    assert(decodeURIComponent(reportURL).includes('Please check this wording.'));
+    assert(decodeURIComponent(reportURL).includes('Question ID: ai:'));
+    await page.locator('#reportClose').click();await page.locator('#revisionClose').click();
+    await page.reload();await waitReady(page);await page.waitForSelector('#openRevision');
+    assert(await page.evaluate(()=>Object.keys(saved.__revision_practice__||{}).length===1));
+    await page.locator('#openRevision').click();await page.locator('#revisionResume').click();
+    assert.equal(await page.locator('[data-revision-answer]:disabled').count(),4);
+    await page.locator('#revisionNext').click();await page.getByText('Practice complete',{exact:true}).waitFor();
+    await page.locator('#revisionClose').click();await page.locator('#clearRevisionScope').click();
+    await page.evaluate(()=>{const x=window.med25Revision.all().find(x=>x.source==='ai'&&x.g.lecture_id==='anatomy-histology__anatomy-of-thoracic-wall');window.__revisionTestQ=x.q.id;delete saved.__revision_practice__;saved.__ai_questions__[x.q.id]={answered:true,correct:false,selected:'Z'};save()});
+    await page.locator('#openMistakes').click();await page.locator('#revisionLecture').selectOption(thoracic);
+    assert((await page.locator('#revisionAvailable').innerText()).startsWith('1 '));
+    await page.locator('#revisionStart').click();
+    const correctKey=await page.evaluate(()=>window.med25GameBridge.aiQuestions().find(q=>q.id===window.__revisionTestQ).answer);
+    await page.locator('[data-revision-answer="'+correctKey+'"]').click();
+    await page.locator('#revisionNext').click();await page.locator('#revisionAgain').click();
+    assert((await page.locator('#revisionAvailable').innerText()).startsWith('0 '));
+    await page.locator('#revisionClose').click();
+    await page.evaluate(()=>{delete saved.__ai_questions__[window.__revisionTestQ];delete saved.__revision_practice__;save()});
+    await page.locator('#tabHome').click();
+    console.log('PASS Quiz 2 scope, revision validation, answer concealment, explanations, reports, resume, and mistake recovery');
+
     // Exercise the paginated cohort, period boundaries, top ten, expand/collapse, and recoverable outage.
     await page.waitForFunction(()=>document.querySelector('#gameLeaderboardMeta').textContent.startsWith('503'));
     assert(leaderOffsets.includes(500));

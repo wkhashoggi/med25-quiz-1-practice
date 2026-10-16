@@ -1049,6 +1049,7 @@ function gameMockRenderResults(){
         '</article>';
       }).join('')+'</section>'+
     '</div>';
+  window.med25Revision?.mockReview(exam);
   document.getElementById('mockBuildAnother').onclick=()=>{gameMockState.exam=null;gameMockSave();gameMockRenderSetup()};
 }
 function gameInstallMockSection(){
@@ -1287,6 +1288,7 @@ function gameInit(){
 
 
 window.med25GameOpenQuiz=gameSwitchQuiz;
+window.med25CompletedMock=()=>gameMockState.exam?.submitted?gameMockState.exam:null;
 window.med25GameOpenMock=gameSwitchMock;
 try{gameInit()}catch(e){console.error('MED25 game layer failed',e)}
 

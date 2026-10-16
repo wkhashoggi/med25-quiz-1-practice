@@ -1,0 +1,27 @@
+{
+  "entries": [
+    {
+      "date": "16 October 2026",
+      "title": "Quiz 2 anatomy review + daily revision",
+      "summary": "90 anatomy/histology AI questions now have explanations for all four options. Seven questions have stronger distractors and two have clearer wording; answer keys and question IDs are unchanged. Daily revision, results by lecture, and practice of a specific mock exam’s missed questions are available. Other subjects still await detailed content review.",
+      "lectures": [
+        "Anatomy of thoracic wall",
+        "Nose and paranasal sinuses",
+        "Anatomy of the larynx",
+        "Anatomical relations of the lungs",
+        "Histology of the respiratory system",
+        "Development of the respiratory system"
+      ]
+    },
+    {
+      "date": "16 October 2026",
+      "title": "Revision tools and question reports",
+      "summary": "Added lecture-filtered mistake practice, Quiz 2 scope, source coverage, accuracy tables, and question reports prepared for WhatsApp or email."
+    },
+    {
+      "date": "16 October 2026",
+      "title": "22 missing lecture sets added",
+      "summary": "Added 330 questions, including 15 for thoracic wall, after checking the available Drive lecture folders."
+    }
+  ]
+}

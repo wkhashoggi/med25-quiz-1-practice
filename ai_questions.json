@@ -20088,9 +20088,9 @@
           "stem": "A diseased bronchopulmonary segment is removed while neighboring segments are preserved. Which feature permits this?",
           "options": {
             "A": "Its own segmental bronchus and pulmonary artery branch",
-            "B": "A separate main bronchus for every segment",
-            "C": "Absence of any venous drainage",
-            "D": "A separate pleural cavity for each segment"
+            "B": "Its own lobar bronchus and lobar artery",
+            "C": "Pulmonary veins running centrally within each segment",
+            "D": "Complete pleural partitions between adjacent segments"
           },
           "answer": "A",
           "explanation": "Each segment has its own bronchus and pulmonary arterial branch, making it a surgically separable unit.",
@@ -20279,9 +20279,9 @@
           "id": "ai_1GbS1i9k0u71-WmSR2ZZ22Bpy3XAfEiB0_refresh20261016_12",
           "stem": "Lymph leaving the bronchopulmonary hilar nodes next passes to which nodes?",
           "options": {
-            "A": "Axillary nodes",
-            "B": "Inguinal nodes",
-            "C": "Mesenteric nodes",
+            "A": "Parasternal nodes",
+            "B": "Posterior intercostal nodes",
+            "C": "Deep cervical nodes directly, bypassing tracheobronchial nodes",
             "D": "Tracheobronchial nodes"
           },
           "answer": "D",
@@ -20435,9 +20435,9 @@
           "stem": "An emphysematous lung has destroyed alveolar septa. What functional consequence follows directly?",
           "options": {
             "A": "Reduced surface area for gas exchange",
-            "B": "More effective mucociliary transport",
-            "C": "Increased alveolar cartilage",
-            "D": "Increased number of respiratory glands"
+            "B": "Increased elastic recoil",
+            "C": "Increased diffusion distance from septal thickening",
+            "D": "Increased pulmonary capillary surface area"
           },
           "answer": "A",
           "explanation": "Destruction of alveolar walls removes exchange surface and associated capillaries.",
@@ -20452,9 +20452,9 @@
           "id": "ai_1B_4C_63RfYYa2616craWn7Svcji3VlgF_refresh20261016_06",
           "stem": "Which epithelium normally lines most of the trachea?",
           "options": {
-            "A": "Transitional epithelium",
+            "A": "Nonkeratinized stratified squamous",
             "B": "Ciliated pseudostratified columnar with goblet cells",
-            "C": "Keratinized stratified squamous",
+            "C": "Simple columnar without goblet cells",
             "D": "Simple squamous"
           },
           "answer": "B",
@@ -20503,7 +20503,7 @@
           "id": "ai_1B_4C_63RfYYa2616craWn7Svcji3VlgF_refresh20261016_09",
           "stem": "Which epithelium covers the true vocal folds?",
           "options": {
-            "A": "Stratified squamous",
+            "A": "Nonkeratinized stratified squamous",
             "B": "Simple cuboidal",
             "C": "Ciliated pseudostratified throughout",
             "D": "Simple squamous"
@@ -20572,9 +20572,9 @@
           "stem": "Which structures form the thin blood-air barrier?",
           "options": {
             "A": "Type I cell, fused basement membranes and capillary endothelium",
-            "B": "Goblet cell, cartilage and capillary endothelium",
-            "C": "Type II cell, gland and venous wall",
-            "D": "Ciliated cell, smooth muscle and lymphatic endothelium"
+            "B": "Type II cell, cartilage and capillary endothelium",
+            "C": "Type I cell, smooth muscle and venous endothelium",
+            "D": "Ciliated cell, fused basement membranes and capillary endothelium"
           },
           "answer": "A",
           "explanation": "The barrier is minimized by thin type I cells, fused epithelial/endothelial basal laminae and capillary endothelial cells.",
@@ -20590,8 +20590,8 @@
           "options": {
             "A": "Complete isolation of infected alveoli",
             "B": "Pressure equalization and possible spread of infection",
-            "C": "Production of mucus",
-            "D": "Formation of bronchial cartilage"
+            "C": "Active removal of mucus by cilia",
+            "D": "Prevention of collateral ventilation"
           },
           "answer": "B",
           "explanation": "Alveolar pores permit communication and pressure equalization but can also allow infection to spread.",
@@ -20709,13 +20709,13 @@
           "id": "ai_1DpXcs1PW5ZTNSZgkYt2b_aQM5x7EXrGc_refresh20261016_05",
           "stem": "An infant's lungs continue growing after birth. Which process accounts for much of this growth?",
           "options": {
-            "A": "Formation of additional alveoli and respiratory bronchioles",
+            "A": "Formation of additional alveoli",
             "B": "Enlargement of existing alveoli only",
             "C": "Replacement of alveoli with cartilage",
             "D": "Loss of terminal sacs"
           },
           "answer": "A",
-          "explanation": "Most adult alveoli are formed after birth; growth is not simply enlargement of the alveoli present at delivery.",
+          "explanation": "Postnatal lung growth includes continued alveolar formation as well as enlargement; it is not simply expansion of the alveoli present at birth.",
           "concept": "Development of the respiratory system",
           "difficulty": "application",
           "source_url": "https://drive.google.com/file/d/1DpXcs1PW5ZTNSZgkYt2b_aQM5x7EXrGc/view",
@@ -20880,10 +20880,10 @@
           "id": "ai_1DpXcs1PW5ZTNSZgkYt2b_aQM5x7EXrGc_refresh20261016_15",
           "stem": "Why can antenatal corticosteroids benefit a fetus at risk of preterm delivery?",
           "options": {
-            "A": "They close a tracheoesophageal fistula",
-            "B": "They replace type I cells with cartilage",
+            "A": "They improve oxygenation by increasing fetal hemoglobin affinity",
+            "B": "They increase alveolar surface tension",
             "C": "They accelerate lung maturation and surfactant synthesis",
-            "D": "They create extra main bronchi"
+            "D": "They prevent collapse by increasing airway cartilage"
           },
           "answer": "C",
           "explanation": "The lecture links antenatal steroids to accelerated maturation and surfactant synthesis, reducing consequences of immaturity.",

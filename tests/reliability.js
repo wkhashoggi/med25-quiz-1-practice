@@ -116,6 +116,19 @@ async function run(){
     await page.locator('#tabHome').click();
     console.log('PASS Quiz 2 scope, revision validation, answer concealment, explanations, reports, resume, and mistake recovery');
 
+    // A daily set is bounded, unique, repeatable within a Riyadh day, and scoped.
+    await page.locator('#openQuiz2').click();await page.locator('#revisionClose').click();
+    await page.locator('#openDailyRevision').click();
+    const daily=await page.evaluate(()=>JSON.parse(sessionStorage.getItem('med25-revision-session-v1:guest')));
+    assert.equal(daily.keys.length,20);assert.equal(new Set(daily.keys).size,20);
+    assert(await page.evaluate(keys=>keys.every(k=>Number(window.med25Revision.all().find(x=>x.key===k).g.quiz)===2),daily.keys));
+    await page.locator('#revisionClose').click();await page.locator('#openDailyRevision').click();
+    assert.deepEqual(await page.evaluate(()=>JSON.parse(sessionStorage.getItem('med25-revision-session-v1:guest')).keys),daily.keys);
+    await page.locator('#revisionClose').click();await page.locator('#clearRevisionScope').click();
+    await page.waitForSelector('#contentUpdateFeed');
+    assert((await page.locator('#contentUpdateFeed').innerText()).includes('Recently updated'));
+    console.log('PASS daily revision uniqueness, Quiz 2 scope, same-day stability, and update feed');
+
     // Exercise the paginated cohort, period boundaries, top ten, expand/collapse, and recoverable outage.
     await page.waitForFunction(()=>document.querySelector('#gameLeaderboardMeta').textContent.startsWith('503'));
     assert(leaderOffsets.includes(500));
@@ -181,6 +194,16 @@ async function run(){
     assert.equal(restored.exam.endsAt,snapshot.exam.endsAt);assert.deepEqual(restored.exam.questions,snapshot.exam.questions);assert.equal(Object.values(restored.exam.answers)[0],answer);
     await page.locator('#mockFinishBtn').click();await page.locator('.mockResults').waitFor();
     const ended=await page.evaluate(()=>JSON.parse(sessionStorage.getItem('med25-active-mock-v1')));
+    await page.waitForSelector('#mockLectureResults');
+    await page.locator('#mockReviewFilter').selectOption('unanswered');
+    assert.equal(await page.locator('.mockReviewCard:visible').count(),ended.exam.questions.length-Object.keys(ended.exam.answers).length);
+    await page.locator('#mockReviewFilter').selectOption('all');
+    const expectedMissed=await page.evaluate(exam=>exam.questions.filter(k=>exam.answers[k]!==window.med25Revision.all().find(x=>x.key===k).q.answer),ended.exam);
+    await page.locator('#mockPractiseMissed').click();
+    assert.deepEqual(await page.evaluate(()=>JSON.parse(sessionStorage.getItem('med25-revision-session-v1:guest')).keys),expectedMissed);
+    assert.equal(await page.locator('#revisionBody .revisionExplanation').count(),0);
+    await page.locator('#revisionClose').click();
+    console.log('PASS lecture-level mock results, unanswered filter, and exact exam-specific remedial queue');
     assert(ended.exam.submitted);assert.equal(ended.exam.bonusXp,0);assert.equal(await page.evaluate(()=>localStorage.getItem('med25-pending-xp-v3')),xpBefore);
     await page.reload();await waitReady(page);await page.locator('.mockResults').waitFor();await page.locator('#mockBuildAnother').click();
     // Build an expired exam and verify automatic submission includes unanswered items, still with zero XP.

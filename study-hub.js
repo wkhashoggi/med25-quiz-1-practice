@@ -618,7 +618,7 @@ function renderLectureDashboard(){
     let audit=document.getElementById('lectureSourceAudit');
     if(!audit){audit=document.createElement('details');audit.id='lectureSourceAudit';audit.className='lectureSourceAudit';summary?.after(audit)}
     const missing=sourceCoverageAudit.lectures.filter(l=>l.status==='source_not_found'),partial=sourceCoverageAudit.lectures.filter(l=>l.status==='partial_source_coverage');
-    audit.innerHTML='<summary>Source coverage · audited 4 October 2026</summary><p>'+sourceCoverageAudit.guide_topic_entries+' study-guide topics · '+sourceCoverageAudit.lectures.filter(l=>l.ai_questions>0).length+' with AI questions. '+missing.length+' topics still need a source, and '+partial.length+' have partial source coverage. A missing source does not mean future content. Completion below refers to published questions.</p><ul>'+[...partial,...missing].map(l=>'<li><b>'+esc(l.subject)+' · '+esc(l.title)+'</b><span>'+esc(l.note)+'</span></li>').join('')+'</ul>';
+    audit.innerHTML='<summary>Source coverage · audited 16 October 2026</summary><p>'+sourceCoverageAudit.guide_topic_entries+' study-guide topics · '+sourceCoverageAudit.lectures.filter(l=>l.ai_questions>0).length+' with AI questions. '+missing.length+' topics still need a source, and '+partial.length+' have partial source coverage. A missing source does not mean future content. Completion below refers to published questions.</p><ul>'+[...partial,...missing].map(l=>'<li><b>'+esc(l.subject)+' · '+esc(l.title)+'</b><span>'+esc(l.note)+'</span></li>').join('')+'</ul>';
   }
   setupLectureDashboardControls();
   const all=lectureDashboardRows(),rows=lectureDashFiltered();

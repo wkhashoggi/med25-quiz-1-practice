@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T12:00:00.000Z",
+  "generated_at": "2026-10-16T04:00:00Z",
   "purpose": "Current MED25 Drive sources that must never silently fall to zero AI coverage.",
   "current_drive_sources": [
     {
@@ -787,7 +787,248 @@
       ],
       "minimum_ai_questions": 1,
       "minimum_cases_per_lecture": 1
+    },
+    {
+      "drive_file_id": "1jct-Sh-SgYJryjB_PJetNM7Kkk8a4Xpk",
+      "ai_source_file_id": "1jct-Sh-SgYJryjB_PJetNM7Kkk8a4Xpk",
+      "title": "Anatomy of thoracic Wall",
+      "lecture_ids": [
+        "anatomy-histology__anatomy-of-thoracic-wall"
+      ],
+      "minimum_ai_questions": 12,
+      "minimum_cases_per_lecture": 4
+    },
+    {
+      "drive_file_id": "1IHaztgsdJiEeeyRqEtCjeQUIPcCXDXIZ",
+      "ai_source_file_id": "1IHaztgsdJiEeeyRqEtCjeQUIPcCXDXIZ",
+      "title": "Anatomy of the nose and paranasal sinuses",
+      "lecture_ids": [
+        "anatomy-histology__anatomy-of-the-nose-and-paranasal-sinuses"
+      ],
+      "minimum_ai_questions": 12,
+      "minimum_cases_per_lecture": 4
+    },
+    {
+      "drive_file_id": "1D0RmuAQ2lkeWVOHf9f1eu2-PeUWePn4a",
+      "ai_source_file_id": "1D0RmuAQ2lkeWVOHf9f1eu2-PeUWePn4a",
+      "title": "Anatomy of the larynx",
+      "lecture_ids": [
+        "anatomy-histology__anatomy-of-the-larynx"
+      ],
+      "minimum_ai_questions": 12,
+      "minimum_cases_per_lecture": 4
+    },
+    {
+      "drive_file_id": "1GbS1i9k0u71-WmSR2ZZ22Bpy3XAfEiB0",
+      "ai_source_file_id": "1GbS1i9k0u71-WmSR2ZZ22Bpy3XAfEiB0",
+      "title": "Anatomical relations of the lungs",
+      "lecture_ids": [
+        "anatomy-histology__anatomical-relations-of-the-lungs"
+      ],
+      "minimum_ai_questions": 12,
+      "minimum_cases_per_lecture": 4
+    },
+    {
+      "drive_file_id": "1B_4C_63RfYYa2616craWn7Svcji3VlgF",
+      "ai_source_file_id": "1B_4C_63RfYYa2616craWn7Svcji3VlgF",
+      "title": "Histology of the respiratory system",
+      "lecture_ids": [
+        "anatomy-histology__histology-of-the-respiratory-system"
+      ],
+      "minimum_ai_questions": 12,
+      "minimum_cases_per_lecture": 4
+    },
+    {
+      "drive_file_id": "1DpXcs1PW5ZTNSZgkYt2b_aQM5x7EXrGc",
+      "ai_source_file_id": "1DpXcs1PW5ZTNSZgkYt2b_aQM5x7EXrGc",
+      "title": "Development of the respiratory system",
+      "lecture_ids": [
+        "anatomy-histology__development-of-the-respiratory-system"
+      ],
+      "minimum_ai_questions": 12,
+      "minimum_cases_per_lecture": 4
+    },
+    {
+      "drive_file_id": "1RqRgUf57RdeSJbw7-u7JJ3sL3LYhzuoP",
+      "ai_source_file_id": "1RqRgUf57RdeSJbw7-u7JJ3sL3LYhzuoP",
+      "title": "Gas diffusion and plumonary blood flow",
+      "lecture_ids": [
+        "physiology__gas-diffusion-and-plumonary-blood-flow"
+      ],
+      "minimum_ai_questions": 12,
+      "minimum_cases_per_lecture": 4
+    },
+    {
+      "drive_file_id": "1hvcXworeJUMyF4W8IOVG5RaTq93suiHv",
+      "ai_source_file_id": "1hvcXworeJUMyF4W8IOVG5RaTq93suiHv",
+      "title": "Transport of oxygen in blood",
+      "lecture_ids": [
+        "physiology__transport-of-oxygen-in-blood"
+      ],
+      "minimum_ai_questions": 12,
+      "minimum_cases_per_lecture": 4
+    },
+    {
+      "drive_file_id": "19mB88Ux0uztVg66ocgSht3t-ANFEmV7J",
+      "ai_source_file_id": "19mB88Ux0uztVg66ocgSht3t-ANFEmV7J",
+      "title": "Restrictive airway diseases",
+      "lecture_ids": [
+        "pathology__restrictive-airway-diseases"
+      ],
+      "minimum_ai_questions": 12,
+      "minimum_cases_per_lecture": 4
+    },
+    {
+      "drive_file_id": "14ffy0MYrv6xBy7KuXBNbMvVmwmEejufR",
+      "ai_source_file_id": "14ffy0MYrv6xBy7KuXBNbMvVmwmEejufR",
+      "title": "Drugs used in the treatment of bronchial asthma",
+      "lecture_ids": [
+        "pharmacology__drugs-used-in-the-treatment-of-bronchial-asthma"
+      ],
+      "minimum_ai_questions": 12,
+      "minimum_cases_per_lecture": 4
+    },
+    {
+      "drive_file_id": "1h3OMuRqdkly1CelYccrfK9YYu6A2hngW",
+      "ai_source_file_id": "1h3OMuRqdkly1CelYccrfK9YYu6A2hngW",
+      "title": "Drug therapy of cough and COPD 1",
+      "lecture_ids": [
+        "pharmacology__drug-therapy-of-cough-and-copd-1",
+        "pharmacology__drug-therapy-of-cough-and-copd-2"
+      ],
+      "minimum_ai_questions": 12,
+      "minimum_cases_per_lecture": 4
+    },
+    {
+      "drive_file_id": "19RLtCE2SpkaJyPgws-3_0WVQZq2fjful",
+      "ai_source_file_id": "19RLtCE2SpkaJyPgws-3_0WVQZq2fjful",
+      "title": "Drug therapy of respiratory infections",
+      "lecture_ids": [
+        "pharmacology__drug-therapy-of-respiratory-infections"
+      ],
+      "minimum_ai_questions": 12,
+      "minimum_cases_per_lecture": 4
+    },
+    {
+      "drive_file_id": "1cXA6kHp78EgwtKogm0hjSyXl5xZUjRvo",
+      "ai_source_file_id": "1cXA6kHp78EgwtKogm0hjSyXl5xZUjRvo",
+      "title": "Treatment of TB",
+      "lecture_ids": [
+        "pharmacology__treatment-of-tb"
+      ],
+      "minimum_ai_questions": 12,
+      "minimum_cases_per_lecture": 4
+    },
+    {
+      "drive_file_id": "1fk9vVjYqldmZYAjlwWB5NrfTqdzhO0nb",
+      "ai_source_file_id": "1fk9vVjYqldmZYAjlwWB5NrfTqdzhO0nb",
+      "title": "Atelactasis & acute lung injury",
+      "lecture_ids": [
+        "pathology__atelactasis-acute-lung-injury"
+      ],
+      "minimum_ai_questions": 12,
+      "minimum_cases_per_lecture": 4
+    },
+    {
+      "drive_file_id": "1gnmzZAqrBCQwzLoSehPuwK1PBTDre41V",
+      "ai_source_file_id": "1gnmzZAqrBCQwzLoSehPuwK1PBTDre41V",
+      "title": "Pulmonary vessel diseases",
+      "lecture_ids": [
+        "pathology__pulmonary-vessel-diseases"
+      ],
+      "minimum_ai_questions": 12,
+      "minimum_cases_per_lecture": 4
+    },
+    {
+      "drive_file_id": "1B2Q4rBuD8P8U1hs_FEEl0XjGrYzojmbG",
+      "ai_source_file_id": "1B2Q4rBuD8P8U1hs_FEEl0XjGrYzojmbG",
+      "title": "Pulmonary infection",
+      "lecture_ids": [
+        "pathology__pulmonary-infection"
+      ],
+      "minimum_ai_questions": 12,
+      "minimum_cases_per_lecture": 4
+    },
+    {
+      "drive_file_id": "1L8CUz1EVw5NL600tpxRoTSqKUZLtHEqB",
+      "ai_source_file_id": "1L8CUz1EVw5NL600tpxRoTSqKUZLtHEqB",
+      "title": "Upper respiratory tract Neoplasms",
+      "lecture_ids": [
+        "pathology__upper-respiratory-tract-neoplasms"
+      ],
+      "minimum_ai_questions": 12,
+      "minimum_cases_per_lecture": 4
+    },
+    {
+      "drive_file_id": "1poK8UIoaBGx7LNIfstbV_vqIoo_XTswC",
+      "ai_source_file_id": "1poK8UIoaBGx7LNIfstbV_vqIoo_XTswC",
+      "title": "Pulmonary Neoplasia",
+      "lecture_ids": [
+        "pathology__pulmonary-neoplasia"
+      ],
+      "minimum_ai_questions": 12,
+      "minimum_cases_per_lecture": 4
+    },
+    {
+      "drive_file_id": "1P9ENcjxf1Hk2GyLPZ5PjPDO7t7sKWhG5",
+      "ai_source_file_id": "1P9ENcjxf1Hk2GyLPZ5PjPDO7t7sKWhG5",
+      "title": "Lower respiratory tract infections",
+      "lecture_ids": [
+        "microbiology__lower-respiratory-tract-infections"
+      ],
+      "minimum_ai_questions": 12,
+      "minimum_cases_per_lecture": 4
+    },
+    {
+      "drive_file_id": "1NaSyePamNq3a_ytDzHRZ6XHoKqm4s2Yw",
+      "ai_source_file_id": "1NaSyePamNq3a_ytDzHRZ6XHoKqm4s2Yw",
+      "title": "Verminous pneumonia (Parasitic larvae invading lung)",
+      "lecture_ids": [
+        "microbiology__verminous-pneumonia-parasitic-larvae-invading-lung"
+      ],
+      "minimum_ai_questions": 12,
+      "minimum_cases_per_lecture": 4
+    },
+    {
+      "drive_file_id": "1uOZsrmlbwkatcdPlJpIpxqnyvLyWbm3J",
+      "ai_source_file_id": "1uOZsrmlbwkatcdPlJpIpxqnyvLyWbm3J",
+      "title": "Cystic parasitic diseases of the lung",
+      "lecture_ids": [
+        "microbiology__cystic-parasitic-diseases-of-the-lung"
+      ],
+      "minimum_ai_questions": 12,
+      "minimum_cases_per_lecture": 4
     }
   ],
-  "current_non_drive_sources": []
+  "current_non_drive_sources": [],
+  "refresh_2026_10_16": {
+    "new_lecture_sets": 22,
+    "new_questions": 330,
+    "new_case_questions": 113,
+    "scope": "Official male and female doctor-slide folders, nested quiz folders, and current user-provided module lecture copies. SPP/practical/CBD-only sessions excluded from new generation.",
+    "new_lecture_ids": [
+      "anatomy-histology__anatomy-of-thoracic-wall",
+      "anatomy-histology__anatomy-of-the-nose-and-paranasal-sinuses",
+      "anatomy-histology__anatomy-of-the-larynx",
+      "anatomy-histology__anatomical-relations-of-the-lungs",
+      "anatomy-histology__histology-of-the-respiratory-system",
+      "anatomy-histology__development-of-the-respiratory-system",
+      "physiology__gas-diffusion-and-plumonary-blood-flow",
+      "physiology__transport-of-oxygen-in-blood",
+      "pathology__restrictive-airway-diseases",
+      "pharmacology__drugs-used-in-the-treatment-of-bronchial-asthma",
+      "pharmacology__drug-therapy-of-cough-and-copd-1",
+      "pharmacology__drug-therapy-of-cough-and-copd-2",
+      "pharmacology__drug-therapy-of-respiratory-infections",
+      "pharmacology__treatment-of-tb",
+      "pathology__atelactasis-acute-lung-injury",
+      "pathology__pulmonary-vessel-diseases",
+      "pathology__pulmonary-infection",
+      "pathology__upper-respiratory-tract-neoplasms",
+      "pathology__pulmonary-neoplasia",
+      "microbiology__lower-respiratory-tract-infections",
+      "microbiology__verminous-pneumonia-parasitic-larvae-invading-lung",
+      "microbiology__cystic-parasitic-diseases-of-the-lung"
+    ]
+  }
 }

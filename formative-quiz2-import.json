@@ -1,0 +1,46 @@
+{
+  "source": "Formative 2 BCR.pdf",
+  "imported_at": "2026-10-17",
+  "questions": 30,
+  "graded": 28,
+  "ungraded": [
+    11,
+    16
+  ],
+  "source_selection_discrepancy": [
+    18
+  ],
+  "question_ids": [
+    "formative-quiz2-bcr-q01",
+    "formative-quiz2-bcr-q02",
+    "formative-quiz2-bcr-q03",
+    "formative-quiz2-bcr-q04",
+    "formative-quiz2-bcr-q05",
+    "formative-quiz2-bcr-q06",
+    "formative-quiz2-bcr-q07",
+    "formative-quiz2-bcr-q08",
+    "formative-quiz2-bcr-q09",
+    "formative-quiz2-bcr-q10",
+    "formative-quiz2-bcr-q11",
+    "formative-quiz2-bcr-q12",
+    "formative-quiz2-bcr-q13",
+    "formative-quiz2-bcr-q14",
+    "formative-quiz2-bcr-q15",
+    "formative-quiz2-bcr-q16",
+    "formative-quiz2-bcr-q17",
+    "formative-quiz2-bcr-q18",
+    "formative-quiz2-bcr-q19",
+    "formative-quiz2-bcr-q20",
+    "formative-quiz2-bcr-q21",
+    "formative-quiz2-bcr-q22",
+    "formative-quiz2-bcr-q23",
+    "formative-quiz2-bcr-q24",
+    "formative-quiz2-bcr-q25",
+    "formative-quiz2-bcr-q26",
+    "formative-quiz2-bcr-q27",
+    "formative-quiz2-bcr-q28",
+    "formative-quiz2-bcr-q29",
+    "formative-quiz2-bcr-q30"
+  ],
+  "notes": "All nine pages visually checked. Source selections kept distinct from reviewed answers. Option C of Q11 is truncated in the original. Q16 uses a non-current definition. Q4 answer hint removed. Only spelling/formatting normalized; incomplete text not reconstructed."
+}

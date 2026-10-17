@@ -12043,6 +12043,216 @@
       "confidence": 0.95,
       "method": "source-heading-and-stem-reviewed",
       "quiz": 1
+    },
+    "formative-quiz2-bcr-q01": {
+      "lecture_id": "pharmacology__drug-therapy-of-cough-and-copd-2",
+      "subject": "Pharmacology",
+      "title": "Drug therapy of cough and COPD 2",
+      "quiz": 2,
+      "method": "manual-formative-quiz2-import"
+    },
+    "formative-quiz2-bcr-q02": {
+      "lecture_id": "anatomy-histology__histology-of-the-respiratory-system",
+      "subject": "Anatomy & Histology",
+      "title": "Histology of the respiratory system",
+      "quiz": 2,
+      "method": "manual-formative-quiz2-import"
+    },
+    "formative-quiz2-bcr-q03": {
+      "lecture_id": "pathology__pulmonary-neoplasia",
+      "subject": "Pathology",
+      "title": "Pulmonary Neoplasia",
+      "quiz": 2,
+      "method": "manual-formative-quiz2-import"
+    },
+    "formative-quiz2-bcr-q04": {
+      "lecture_id": "microbiology__lung-immunology-innate-acquired-immune-responses-in-respiratory-infections",
+      "subject": "Microbiology",
+      "title": "Lung immunology:Innate & acquired immune responses in respiratory infections",
+      "quiz": 2,
+      "method": "manual-formative-quiz2-import"
+    },
+    "formative-quiz2-bcr-q05": {
+      "lecture_id": "pathology__obstructive-airway-diseases",
+      "subject": "Pathology",
+      "title": "Obstructive airway diseases",
+      "quiz": 2,
+      "method": "manual-formative-quiz2-import"
+    },
+    "formative-quiz2-bcr-q06": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "quiz": 2,
+      "method": "manual-formative-quiz2-import"
+    },
+    "formative-quiz2-bcr-q07": {
+      "lecture_id": "pharmacology__drugs-used-in-the-treatment-of-bronchial-asthma",
+      "subject": "Pharmacology",
+      "title": "Drugs used in the treatment of bronchial asthma",
+      "quiz": 2,
+      "method": "manual-formative-quiz2-import"
+    },
+    "formative-quiz2-bcr-q08": {
+      "lecture_id": "pharmacology__treatment-of-tb",
+      "subject": "Pharmacology",
+      "title": "Treatment of TB",
+      "quiz": 2,
+      "method": "manual-formative-quiz2-import"
+    },
+    "formative-quiz2-bcr-q09": {
+      "lecture_id": "physiology__abnormal-ecg-and-cardiac-arrhythmias",
+      "subject": "Physiology",
+      "title": "Abnormal ECG and cardiac arrhythmias",
+      "quiz": 2,
+      "method": "manual-formative-quiz2-import"
+    },
+    "formative-quiz2-bcr-q10": {
+      "lecture_id": "physiology__cardiac-cycle",
+      "subject": "Physiology",
+      "title": "Cardiac cycle",
+      "quiz": 2,
+      "method": "manual-formative-quiz2-import"
+    },
+    "formative-quiz2-bcr-q11": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "quiz": 2,
+      "method": "manual-formative-quiz2-import"
+    },
+    "formative-quiz2-bcr-q12": {
+      "lecture_id": "anatomy-histology__histology-of-the-respiratory-system",
+      "subject": "Anatomy & Histology",
+      "title": "Histology of the respiratory system",
+      "quiz": 2,
+      "method": "manual-formative-quiz2-import"
+    },
+    "formative-quiz2-bcr-q13": {
+      "lecture_id": "anatomy-histology__normal-development-of-heart-it-s-great-vessels",
+      "subject": "Anatomy & Histology",
+      "title": "Normal Development of Heart & it’s Great Vessels",
+      "quiz": 2,
+      "method": "manual-formative-quiz2-import"
+    },
+    "formative-quiz2-bcr-q14": {
+      "lecture_id": "pathology__valvular-heart-diseases",
+      "subject": "Pathology",
+      "title": "Valvular Heart Diseases",
+      "quiz": 2,
+      "method": "manual-formative-quiz2-import"
+    },
+    "formative-quiz2-bcr-q15": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-larynx",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the larynx",
+      "quiz": 2,
+      "method": "manual-formative-quiz2-import"
+    },
+    "formative-quiz2-bcr-q16": {
+      "lecture_id": "pathology__pulmonary-vessel-diseases",
+      "subject": "Pathology",
+      "title": "Pulmonary vessel diseases",
+      "quiz": 2,
+      "method": "manual-formative-quiz2-import"
+    },
+    "formative-quiz2-bcr-q17": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-pleura-and-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the pleura and lungs",
+      "quiz": 2,
+      "method": "manual-formative-quiz2-import"
+    },
+    "formative-quiz2-bcr-q18": {
+      "lecture_id": "pathology__cardiac-and-vascular-tumours",
+      "subject": "Pathology",
+      "title": "Cardiac and vascular tumours",
+      "quiz": 2,
+      "method": "manual-formative-quiz2-import"
+    },
+    "formative-quiz2-bcr-q19": {
+      "lecture_id": "anatomy-histology__anatomy-of-thoracic-wall",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of thoracic Wall",
+      "quiz": 2,
+      "method": "manual-formative-quiz2-import"
+    },
+    "formative-quiz2-bcr-q20": {
+      "lecture_id": "pathology__atelactasis-acute-lung-injury",
+      "subject": "Pathology",
+      "title": "Atelactasis & acute lung injury",
+      "quiz": 2,
+      "method": "manual-formative-quiz2-import"
+    },
+    "formative-quiz2-bcr-q21": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "quiz": 2,
+      "method": "manual-formative-quiz2-import"
+    },
+    "formative-quiz2-bcr-q22": {
+      "lecture_id": "anatomy-histology__anatomical-relations-of-the-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomical relations of the lungs",
+      "quiz": 2,
+      "method": "manual-formative-quiz2-import"
+    },
+    "formative-quiz2-bcr-q23": {
+      "lecture_id": "microbiology__verminous-pneumonia-parasitic-larvae-invading-lung",
+      "subject": "Microbiology",
+      "title": "Verminous pneumonia (Parasitic larvae invading lung)",
+      "quiz": 2,
+      "method": "manual-formative-quiz2-import"
+    },
+    "formative-quiz2-bcr-q24": {
+      "lecture_id": "pathology__obstructive-airway-diseases",
+      "subject": "Pathology",
+      "title": "Obstructive airway diseases",
+      "quiz": 2,
+      "method": "manual-formative-quiz2-import"
+    },
+    "formative-quiz2-bcr-q25": {
+      "lecture_id": "anatomy-histology__normal-development-of-heart-it-s-great-vessels",
+      "subject": "Anatomy & Histology",
+      "title": "Normal Development of Heart & it’s Great Vessels",
+      "quiz": 2,
+      "method": "manual-formative-quiz2-import"
+    },
+    "formative-quiz2-bcr-q26": {
+      "lecture_id": "pathology__infective-endocarditis",
+      "subject": "Pathology",
+      "title": "Infective Endocarditis",
+      "quiz": 2,
+      "method": "manual-formative-quiz2-import"
+    },
+    "formative-quiz2-bcr-q27": {
+      "lecture_id": "pathology__pulmonary-infection",
+      "subject": "Pathology",
+      "title": "Pulmonary infection",
+      "quiz": 2,
+      "method": "manual-formative-quiz2-import"
+    },
+    "formative-quiz2-bcr-q28": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-nose-and-paranasal-sinuses",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the nose and paranasal sinuses",
+      "quiz": 2,
+      "method": "manual-formative-quiz2-import"
+    },
+    "formative-quiz2-bcr-q29": {
+      "lecture_id": "microbiology__lower-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Lower respiratory tract infections",
+      "quiz": 2,
+      "method": "manual-formative-quiz2-import"
+    },
+    "formative-quiz2-bcr-q30": {
+      "lecture_id": "physiology__pressure-volume-relationship-and-lung-compliance",
+      "subject": "Physiology",
+      "title": "Pressure-volume relationship and lung compliance",
+      "quiz": 2,
+      "method": "manual-formative-quiz2-import"
     }
   },
   "ai": {

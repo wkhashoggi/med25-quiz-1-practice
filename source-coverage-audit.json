@@ -84,7 +84,7 @@
       "subject": "Anatomy & Histology",
       "title": "Normal Development of Heart & it’s Great Vessels",
       "ai_questions": 20,
-      "past_questions": 11,
+      "past_questions": 13,
       "source_file_ids": [
         "1eMomfPTXyjMgtqvpaiCPZGp1jEr7vXx9"
       ],
@@ -120,7 +120,7 @@
       "subject": "Anatomy & Histology",
       "title": "Anatomy of the nose and paranasal sinuses",
       "ai_questions": 15,
-      "past_questions": 15,
+      "past_questions": 16,
       "source_file_ids": [
         "1IHaztgsdJiEeeyRqEtCjeQUIPcCXDXIZ"
       ],
@@ -132,7 +132,7 @@
       "subject": "Anatomy & Histology",
       "title": "Anatomy of the larynx",
       "ai_questions": 15,
-      "past_questions": 19,
+      "past_questions": 20,
       "source_file_ids": [
         "1D0RmuAQ2lkeWVOHf9f1eu2-PeUWePn4a"
       ],
@@ -144,7 +144,7 @@
       "subject": "Anatomy & Histology",
       "title": "Anatomy of the pleura and lungs",
       "ai_questions": 0,
-      "past_questions": 28,
+      "past_questions": 29,
       "source_file_ids": [],
       "status": "source_not_found",
       "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
@@ -154,7 +154,7 @@
       "subject": "Anatomy & Histology",
       "title": "Anatomical relations of the lungs",
       "ai_questions": 15,
-      "past_questions": 7,
+      "past_questions": 8,
       "source_file_ids": [
         "1GbS1i9k0u71-WmSR2ZZ22Bpy3XAfEiB0"
       ],
@@ -178,7 +178,7 @@
       "subject": "Anatomy & Histology",
       "title": "Histology of the respiratory system",
       "ai_questions": 15,
-      "past_questions": 14,
+      "past_questions": 16,
       "source_file_ids": [
         "1B_4C_63RfYYa2616craWn7Svcji3VlgF"
       ],
@@ -190,7 +190,7 @@
       "subject": "Anatomy & Histology",
       "title": "Anatomy of thoracic Wall",
       "ai_questions": 15,
-      "past_questions": 0,
+      "past_questions": 1,
       "source_file_ids": [
         "1jct-Sh-SgYJryjB_PJetNM7Kkk8a4Xpk"
       ],
@@ -346,7 +346,7 @@
       "subject": "Physiology",
       "title": "Cardiac cycle",
       "ai_questions": 25,
-      "past_questions": 22,
+      "past_questions": 23,
       "source_file_ids": [
         "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5"
       ],
@@ -382,7 +382,7 @@
       "subject": "Physiology",
       "title": "Normal ECG",
       "ai_questions": 34,
-      "past_questions": 17,
+      "past_questions": 18,
       "source_file_ids": [
         "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9"
       ],
@@ -394,7 +394,7 @@
       "subject": "Physiology",
       "title": "Abnormal ECG and cardiac arrhythmias",
       "ai_questions": 21,
-      "past_questions": 13,
+      "past_questions": 14,
       "source_file_ids": [
         "1i6a0dvP5Hwncst-9gdl1Vot89OYithH2"
       ],
@@ -450,7 +450,7 @@
       "subject": "Physiology",
       "title": "Mechanics of breathing",
       "ai_questions": 12,
-      "past_questions": 12,
+      "past_questions": 13,
       "source_file_ids": [
         "1aZHufKAFdasy96wvvunzBSWX58cOJcYv"
       ],
@@ -462,7 +462,7 @@
       "subject": "Physiology",
       "title": "Pressure-volume relationship and lung compliance",
       "ai_questions": 12,
-      "past_questions": 15,
+      "past_questions": 16,
       "source_file_ids": [
         "1HkxvY3Fd3Yr9fBAnEdPO9gzvVP-wF4VJ"
       ],
@@ -702,7 +702,7 @@
       "subject": "Pathology",
       "title": "Valvular Heart Diseases",
       "ai_questions": 16,
-      "past_questions": 10,
+      "past_questions": 11,
       "source_file_ids": [
         "1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc"
       ],
@@ -714,7 +714,7 @@
       "subject": "Pathology",
       "title": "Infective Endocarditis",
       "ai_questions": 18,
-      "past_questions": 9,
+      "past_questions": 10,
       "source_file_ids": [
         "libfile_6e646046c4ac81918406ddf5ca74067d"
       ],
@@ -758,7 +758,7 @@
       "subject": "Pathology",
       "title": "Cardiac and vascular tumours",
       "ai_questions": 10,
-      "past_questions": 1,
+      "past_questions": 2,
       "source_file_ids": [
         "1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6"
       ],
@@ -782,7 +782,7 @@
       "subject": "Pathology",
       "title": "Atelactasis & acute lung injury",
       "ai_questions": 15,
-      "past_questions": 20,
+      "past_questions": 21,
       "source_file_ids": [
         "1fk9vVjYqldmZYAjlwWB5NrfTqdzhO0nb"
       ],
@@ -804,7 +804,7 @@
       "subject": "Pathology",
       "title": "Obstructive airway diseases",
       "ai_questions": 16,
-      "past_questions": 20,
+      "past_questions": 22,
       "source_file_ids": [
         "1K8y3B4Uayu64dRGAXdVO8cA-Kghv0mkJ"
       ],
@@ -828,7 +828,7 @@
       "subject": "Pathology",
       "title": "Pulmonary vessel diseases",
       "ai_questions": 15,
-      "past_questions": 3,
+      "past_questions": 4,
       "source_file_ids": [
         "1gnmzZAqrBCQwzLoSehPuwK1PBTDre41V"
       ],
@@ -840,7 +840,7 @@
       "subject": "Pathology",
       "title": "Pulmonary infection",
       "ai_questions": 15,
-      "past_questions": 9,
+      "past_questions": 10,
       "source_file_ids": [
         "1B2Q4rBuD8P8U1hs_FEEl0XjGrYzojmbG"
       ],
@@ -852,7 +852,7 @@
       "subject": "Pathology",
       "title": "Pulmonary Neoplasia",
       "ai_questions": 15,
-      "past_questions": 8,
+      "past_questions": 9,
       "source_file_ids": [
         "1poK8UIoaBGx7LNIfstbV_vqIoo_XTswC"
       ],
@@ -876,7 +876,7 @@
       "subject": "Pharmacology",
       "title": "Drugs used in the treatment of bronchial asthma",
       "ai_questions": 15,
-      "past_questions": 24,
+      "past_questions": 25,
       "source_file_ids": [
         "14ffy0MYrv6xBy7KuXBNbMvVmwmEejufR"
       ],
@@ -948,7 +948,7 @@
       "subject": "Pharmacology",
       "title": "Drug therapy of cough and COPD 2",
       "ai_questions": 15,
-      "past_questions": 0,
+      "past_questions": 1,
       "source_file_ids": [
         "1h3OMuRqdkly1CelYccrfK9YYu6A2hngW"
       ],
@@ -1006,7 +1006,7 @@
       "subject": "Pharmacology",
       "title": "Antiarrhythmic drugs",
       "ai_questions": 34,
-      "past_questions": 7,
+      "past_questions": 8,
       "source_file_ids": [
         "1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ"
       ],
@@ -1078,7 +1078,7 @@
       "subject": "Pharmacology",
       "title": "Treatment of TB",
       "ai_questions": 15,
-      "past_questions": 9,
+      "past_questions": 10,
       "source_file_ids": [
         "1cXA6kHp78EgwtKogm0hjSyXl5xZUjRvo"
       ],
@@ -1148,7 +1148,7 @@
       "subject": "Microbiology",
       "title": "Verminous pneumonia (Parasitic larvae invading lung)",
       "ai_questions": 15,
-      "past_questions": 12,
+      "past_questions": 13,
       "source_file_ids": [
         "1NaSyePamNq3a_ytDzHRZ6XHoKqm4s2Yw"
       ],
@@ -1182,7 +1182,7 @@
       "subject": "Microbiology",
       "title": "Lower respiratory tract infections",
       "ai_questions": 15,
-      "past_questions": 25,
+      "past_questions": 26,
       "source_file_ids": [
         "1P9ENcjxf1Hk2GyLPZ5PjPDO7t7sKWhG5"
       ],
@@ -1194,7 +1194,7 @@
       "subject": "Microbiology",
       "title": "Lung immunology:Innate & acquired immune responses in respiratory infections",
       "ai_questions": 0,
-      "past_questions": 0,
+      "past_questions": 1,
       "source_file_ids": [],
       "status": "source_not_found",
       "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."

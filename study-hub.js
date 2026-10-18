@@ -702,8 +702,9 @@ function openHomeSourceFile(id){
 function renderHomeSourceFiles(){
   const home=document.getElementById('homeSection');if(!home)return;
   let host=document.getElementById('homeSourceFiles');
-  if(!host){host=document.createElement('section');host.id='homeSourceFiles';host.className='homeSourceFiles';host.setAttribute('aria-labelledby','homeSourceFilesTitle');const top=home.querySelector('.homeTop');if(top)top.after(host);else home.prepend(host);}
-  host.innerHTML='<div class="homeSourceHeading"><h2 id="homeSourceFilesTitle">Practise a specific file</h2><p>Open the exact question set.</p></div><div class="homeSourceGrid">'+homeSourceFiles.map(file=>{
+  if(!host){host=document.createElement('section');host.id='homeSourceFiles';host.className='homeSourceFiles';host.setAttribute('aria-labelledby','homeSourceFilesTitle');}
+  if(home.firstElementChild!==host)home.prepend(host);
+  host.innerHTML='<div class="homeSourceHeading"><h2 id="homeSourceFilesTitle">Practice a specific file</h2><p>Open the exact question set.</p></div><div class="homeSourceGrid">'+homeSourceFiles.map(file=>{
     const questions=QUESTIONS.filter(file.matches),total=questions.length,done=questions.filter(q=>saved[q.id]?.answered).length,pct=total?Math.round(done/total*100):0;
     const action=done===0?'Start':done===total?'Review':'Continue';
     return '<article class="hubCard homeSourceCard" data-source-file="'+file.id+'"><div><h3>'+esc(file.title)+'</h3><p>'+esc(file.description)+'</p></div><div class="homeSourceProgress"><span>'+done+' / '+total+' completed</span><b>'+pct+'%</b></div><div class="homeSourceTrack" role="progressbar" aria-label="'+esc(file.title)+' completion" aria-valuemin="0" aria-valuemax="'+total+'" aria-valuenow="'+done+'"><span style="width:'+pct+'%"></span></div><button class="homeSourceButton" type="button" data-open-source-file="'+file.id+'" aria-label="'+action+' '+esc(file.title)+'" '+(!total?'disabled':'')+'>'+action+' →</button></article>';

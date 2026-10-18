@@ -202,7 +202,7 @@ async function run(){
     assert.equal(await page.locator('.mockReviewCard:visible').count(),ended.exam.questions.length-Object.keys(ended.exam.answers).length);
     await page.locator('#mockReviewFilter').selectOption('all');
     const expectedMissed=await page.evaluate(exam=>exam.questions.filter(k=>exam.answers[k]!==window.med25Revision.all().find(x=>x.key===k).q.answer),ended.exam);
-    await page.locator('#mockPractiseMissed').click();
+    await page.locator('#mockPracticeMissed').click();
     assert.deepEqual(await page.evaluate(()=>JSON.parse(sessionStorage.getItem('med25-revision-session-v1:guest')).keys),expectedMissed);
     assert.equal(await page.locator('#revisionBody .revisionExplanation').count(),0);
     await page.locator('#revisionClose').click();

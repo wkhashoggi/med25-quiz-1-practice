@@ -218,7 +218,7 @@ function installPracticeSheet(){
   const back=document.createElement('div');back.id='v2PracticeBack';back.className='v2PracticeBack';back.setAttribute('aria-hidden','true');
   back.innerHTML=
     '<section class="v2PracticeSheet" role="dialog" aria-modal="true">'+
-      '<div class="v2InfoTop"><div><div class="v2PracticeTitle">Practice</div><h2 style="margin:0;font-size:22px">Choose how you want to practise</h2></div><button id="v2PracticeClose" class="v2InfoClose" type="button" aria-label="Close">×</button></div>'+
+      '<div class="v2InfoTop"><div><div class="v2PracticeTitle">Practice</div><h2 style="margin:0;font-size:22px">Choose how you want to practice</h2></div><button id="v2PracticeClose" class="v2InfoClose" type="button" aria-label="Close">×</button></div>'+
       '<div class="v2PracticeOptions" style="margin-top:16px">'+
         '<button class="v2PracticeOption" type="button" data-v2-practice="past"><span class="v2PracticeIcon">P</span><span><b>Past Papers</b><small>Original banks, repeated concepts and source-lecture links.</small></span></button>'+
         '<button class="v2PracticeOption" type="button" data-v2-practice="ai"><span class="v2PracticeIcon">AI</span><span><b>AI Practice</b><small>Lecture-grounded KAU-style questions separated from past papers.</small></span></button>'+

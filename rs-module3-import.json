@@ -12393,12 +12393,20 @@
     "Incomplete, ambiguous-key and figure-dependent written recalls are explicitly excluded from grading until reviewed.",
     "2026-10-18 cleanup: Previous Years excludes Practical entries. A visually verified duplicate chest-radiograph question is merged with a progress alias; different radiographs remain separate.",
     "Lecture grading review: 99 original entries resolved; exact newly identical adaptations consolidated. See lecture-grading-review.json for evidence and original wording.",
-    "Independent AI grading resolves 153 of the remaining 165 source entries. Missing bank keys are distinguished from present but unverified keys. Twelve unrecoverable/conflicting originals remain ungraded. See ai-answer-grading-review.json."
+    "Independent AI grading resolves 153 of the remaining 165 source entries. Missing bank keys are distinguished from present but unverified keys. Twelve unrecoverable/conflicting originals remain ungraded. See ai-answer-grading-review.json.",
+    "Bronchus comparison: source key A corrected to C from course slide 15; the older rewritten duplicate is merged into rs-module3-p149-q12."
   ],
   "previous_commit": "36637095d974bfa81ed4517a9f8ce6dd5560d9db",
   "unique_questions_in_source_set": 783,
   "display_counts": {
     "previous_years": 695,
     "practical": 88
-  }
+  },
+  "cross_bank_merges": [
+    {
+      "removed_id": "rs-med24-mid-p46-q12-93",
+      "retained_id": "rs-module3-p149-q12",
+      "reason": "Same recalled bronchus comparison, reconciled to course histology slide 15."
+    }
+  ]
 }

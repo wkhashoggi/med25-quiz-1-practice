@@ -2,6 +2,11 @@
   "entries": [
     {
       "date": "18 October 2026",
+      "title": "Bronchus question corrected",
+      "summary": "The intrapulmonary-versus-extrapulmonary bronchus question now grades C: a distinct muscularis mucosae, as stated on course slide 15. Both have respiratory epithelium. The incorrect A bank key and older rewritten duplicate have been reconciled into one clarified question."
+    },
+    {
+      "date": "18 October 2026",
       "title": "AI-supplied answers and XP",
       "summary": "153 more source entries independently answered (151 unique questions after merging repeats), with visible AI provenance and normal XP. Missing bank keys and present-but-unverified keys are distinguished. Reconstructed study questions are labelled. Twelve originals still lack a reliable question, figure or unique answer."
     },

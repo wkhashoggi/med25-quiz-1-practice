@@ -1,0 +1,241 @@
+{
+  "date": "2026-10-18",
+  "baseline_commit": "ba58e74d82a888aed07730cb86add70fecf2eb25",
+  "retained_id": "rs-module3-p149-q12",
+  "removed_id": "rs-med24-mid-p46-q12-93",
+  "baseline_removed_ids": [
+    "rs-med24-mid-p46-q12-93"
+  ],
+  "correct_answer": "C",
+  "originals": [
+    {
+      "id": "rs-module3-p149-q12",
+      "bank": "RS Previous Years · Module 3",
+      "module": "Respiratory",
+      "page": 149,
+      "section": "🍿 / MidNight RS - MED23",
+      "number": "12",
+      "stem": "Intrapulmonary bronchi differs from extra pulmonary bronchi in which of the following?",
+      "options": {
+        "A": "Type of epithelium",
+        "B": "Contain shared cartilage",
+        "C": "Havemuscularissmoothmuscle",
+        "D": "Presence of submucosal glands"
+      },
+      "answer": "A",
+      "explicit_answer_text": "Type of epithelium",
+      "source_file": "C&B Module 3 of 3 - RS.pdf",
+      "topic": "Histology of the respiratory system",
+      "excluded_reason": null,
+      "concepts": [],
+      "high_yield": false,
+      "repeat_count": 0,
+      "explanation": "Source-bank key: Type of epithelium. This is the supplied past-paper key; a detailed explanation has not yet been reviewed.",
+      "answer_text": "Type of epithelium",
+      "answer_basis": "bank",
+      "topic_repeat_count": 1,
+      "frequent_topic": false,
+      "high_yield_reason": null,
+      "explanation_status": "source_key_only",
+      "bank_source_url": "assets/past-papers/rs-module-3.pdf#page=149",
+      "quiz": 2,
+      "lecture_id": "anatomy-histology__histology-of-the-respiratory-system",
+      "source_kind": "past_paper",
+      "tags": [
+        "Past paper question",
+        "Quiz 2",
+        "RS Previous Years · Module 3"
+      ],
+      "proofreading_status": "transcribed",
+      "exam_ready": true,
+      "incomplete_reason": null,
+      "past_paper_sources": [
+        {
+          "file": "RS Previous Years · Module 3",
+          "source_file": "C&B Module 3 of 3 - RS.pdf",
+          "page": 149,
+          "number": "12",
+          "section": "🍿 / MidNight RS - MED23",
+          "url": "assets/past-papers/rs-module-3.pdf#page=149",
+          "source_question_id": "rs-module3-p149-q12",
+          "source_answer": "A",
+          "source_answer_text": "Type of epithelium"
+        }
+      ],
+      "question_repeat_count": 1,
+      "duplicate_question_ids": [],
+      "repeated_concepts": [],
+      "mapping_review_required": false
+    },
+    {
+      "page": 46,
+      "number": 12,
+      "section": "Histology of the respiratory system",
+      "answer": "B",
+      "stem": "Intrapulmonary bronchi differs from extra pulmonary bronchi in which of the following?",
+      "options": {
+        "A": "Type of epithelium",
+        "B": "Irregular cartilage plates rather than C-shaped cartilage rings",
+        "C": "Have muscularis smooth muscle",
+        "D": "Presence of submucosal glands"
+      },
+      "answer_text": "Irregular cartilage plates rather than C-shaped cartilage rings",
+      "id": "rs-med24-mid-p46-q12-93",
+      "source_file": "Popcorn24,Mid🍿.pdf",
+      "bank": "Popcorn24,Mid🍿.pdf",
+      "module": "RS",
+      "bank_source_url": "assets/past-papers/rs-med24-mid.pdf#page=46",
+      "source_kind": "past_paper",
+      "answer_basis": "reference-reviewed",
+      "explanation_status": "reviewed",
+      "explanation": "Intrapulmonary bronchi have irregular cartilage plates; the larger extrapulmonary airways have more ring-like cartilage. Both contain respiratory epithelium, glands and smooth muscle.",
+      "high_yield": false,
+      "repeat_count": 0,
+      "concepts": [],
+      "topic": "Histology of the respiratory system",
+      "quiz": 2,
+      "tags": [
+        "Past paper question",
+        "Quiz 2",
+        "Histology of the respiratory system"
+      ],
+      "lecture_id": "anatomy-histology__histology-of-the-respiratory-system",
+      "lecture_source": {
+        "key": "study-guide:anatomy-histology__histology-of-the-respiratory-system",
+        "title": "Histology of the respiratory system"
+      },
+      "past_paper_sources": [
+        {
+          "file": "Popcorn24,Mid🍿.pdf",
+          "page": 46,
+          "number": 12,
+          "url": "assets/past-papers/rs-med24-mid.pdf#page=46",
+          "source_question_id": "rs-med24-mid-p46-q12-93"
+        }
+      ],
+      "exam_ready": true,
+      "incomplete_reason": "",
+      "proofreading_status": "resolved",
+      "proofreading_notes": "The recalled wording/options were clarified to make one answer correct. The original paper remains available.",
+      "proofreading_references": [
+        "https://www.ncbi.nlm.nih.gov/books/NBK537353/"
+      ],
+      "question_repeat_count": 1,
+      "duplicate_question_ids": [],
+      "repeated_concepts": [],
+      "original_bank_answer": "C",
+      "original_bank_answer_text": "Have muscularis smooth muscle",
+      "reviewed_at": "2026-10-06",
+      "review_references": [
+        {
+          "title": "NCBI Bookshelf · Bronchial anatomy",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK537353/"
+        }
+      ],
+      "review_edit_kind": "clarified",
+      "review_note": "The recalled wording/options were clarified to make one answer correct. The original paper remains available.",
+      "review_revision": "2026-10-06-final"
+    }
+  ],
+  "final": {
+    "id": "rs-module3-p149-q12",
+    "bank": "RS Previous Years · Module 3",
+    "module": "Respiratory",
+    "page": 149,
+    "section": "🍿 / MidNight RS - MED23",
+    "number": "12",
+    "stem": "Which feature distinguishes intrapulmonary bronchi from extrapulmonary bronchi?",
+    "options": {
+      "A": "A different type of lining epithelium",
+      "B": "Presence of hyaline cartilage",
+      "C": "A distinct smooth-muscle muscularis mucosae beneath the lamina propria",
+      "D": "Presence of submucosal glands"
+    },
+    "answer": "C",
+    "explicit_answer_text": "Type of epithelium",
+    "source_file": "C&B Module 3 of 3 - RS.pdf",
+    "topic": "Histology of the respiratory system",
+    "excluded_reason": null,
+    "concepts": [],
+    "high_yield": false,
+    "repeat_count": 0,
+    "explanation": "The course lecture (slide 15) identifies a distinct muscularis mucosae beneath the lamina propria in intrapulmonary bronchi; its contraction folds the mucosa. Both extrapulmonary and intrapulmonary bronchi have respiratory epithelium, hyaline cartilage and submucosal glands. Both can contain smooth muscle, so the difference is the organized mucosal layer, not simply the existence of any smooth muscle. Intrapulmonary cartilage is arranged in discontinuous plates rather than extrapulmonary C-shaped rings.",
+    "answer_text": "A distinct smooth-muscle muscularis mucosae beneath the lamina propria",
+    "answer_basis": "slide-reviewed",
+    "topic_repeat_count": 1,
+    "frequent_topic": false,
+    "high_yield_reason": null,
+    "explanation_status": "lecture_reviewed",
+    "bank_source_url": "assets/past-papers/rs-module-3.pdf#page=149",
+    "quiz": 2,
+    "lecture_id": "anatomy-histology__histology-of-the-respiratory-system",
+    "source_kind": "past_paper",
+    "tags": [
+      "Past paper question",
+      "Quiz 2",
+      "RS Previous Years · Module 3",
+      "Histology of the respiratory system"
+    ],
+    "proofreading_status": "resolved",
+    "exam_ready": true,
+    "past_paper_sources": [
+      {
+        "file": "RS Previous Years · Module 3",
+        "source_file": "C&B Module 3 of 3 - RS.pdf",
+        "page": 149,
+        "number": "12",
+        "section": "🍿 / MidNight RS - MED23",
+        "url": "assets/past-papers/rs-module-3.pdf#page=149",
+        "source_question_id": "rs-module3-p149-q12",
+        "source_answer": "A",
+        "source_answer_text": "Type of epithelium"
+      },
+      {
+        "file": "Popcorn24,Mid🍿.pdf",
+        "page": 46,
+        "number": 12,
+        "url": "assets/past-papers/rs-med24-mid.pdf#page=46",
+        "source_question_id": "rs-med24-mid-p46-q12-93"
+      }
+    ],
+    "question_repeat_count": 2,
+    "duplicate_question_ids": [
+      "rs-med24-mid-p46-q12-93"
+    ],
+    "repeated_concepts": [],
+    "mapping_review_required": false,
+    "original_bank_answer": "A",
+    "original_bank_answer_text": "Type of epithelium",
+    "proofreading_notes": "The Module 3 bank incorrectly keyed A. The lecture supports C. The unclear cartilage option and the muscularis wording have been clarified.",
+    "review_edit_kind": "clarified",
+    "review_note": "Bank key A corrected to C using course slide 15. C specifically means the muscularis mucosae, not any smooth muscle anywhere in the airway wall. The malformed cartilage choice was clarified as a feature shared by both bronchi. The older rewritten duplicate is merged; the original versions remain in the correction audit.",
+    "reviewed_at": "2026-10-18",
+    "lecture_source": {
+      "title": "Histology of the respiratory system — Secondary Bronchi",
+      "drive_url": "https://drive.google.com/file/d/1B_4C_63RfYYa2616craWn7Svcji3VlgF/view",
+      "slide": 15
+    },
+    "review_references": [
+      {
+        "title": "Course histology lecture · slide 15: Secondary Bronchi",
+        "url": "https://drive.google.com/file/d/1B_4C_63RfYYa2616craWn7Svcji3VlgF/view#page=15"
+      },
+      {
+        "title": "Digital Histology · Secondary bronchus",
+        "url": "https://digitalhistology.org/organs-systems/respiratory/intrapulmonary-passageways/conducting/secondary-bronchus/secondary-bronchus-3/"
+      }
+    ]
+  },
+  "evidence": {
+    "lecture_id": "1B_4C_63RfYYa2616craWn7Svcji3VlgF",
+    "slide": 15,
+    "quote": "The presence of muscularis mucosa, which is composed of a smooth muscle sheet beneath the lamina propria, causes the mucosa to be folded."
+  },
+  "total_questions": 1843,
+  "mock_ready_count": 1554,
+  "display_counts": {
+    "previous_years": 695,
+    "practical": 88
+  },
+  "progress_policy": "The original Module 3 selection retains its letter and is regraded against C. Attempts from the materially different rewritten duplicate are archived for a fresh attempt; stars are preserved. Existing server XP awards are not rewritten."
+}

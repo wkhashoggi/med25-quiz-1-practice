@@ -2,12 +2,13 @@ const fs=require('fs'),cp=require('child_process'),assert=require('assert/strict
 const parse=h=>JSON.parse(h.match(/const QUESTIONS=(\[[\s\S]*?\]);\s*\n/)[1]);
 const h=fs.readFileSync('legacy-app.html','utf8'),qs=parse(h),by=new Map(qs.map(q=>[q.id,q]));
 const a=JSON.parse(fs.readFileSync('lecture-grading-review.json'));
+const correction=JSON.parse(fs.readFileSync('bronchi-key-correction.json'));
 const old=parse(cp.execFileSync('git',['show',a.baseline_commit+':legacy-app.html'],{encoding:'utf8',maxBuffer:20e6}));
 const ai=JSON.parse(fs.readFileSync('ai-answer-grading-review.json'));
 const reviewed=new Set([...a.reviews,...ai.reviews].map(r=>r.id)),removed=new Map(a.merged_duplicates.map(r=>[r.removed_id,r.retained_id]));
-assert.equal(a.reviews.length,99);assert.equal(qs.length,old.length-removed.size-ai.merged_duplicates.length);
+assert.equal(a.reviews.length,99);assert.equal(qs.length,old.length-removed.size-ai.merged_duplicates.length-1);
 for(const q of old){
- if(reviewed.has(q.id))continue;
+ if(reviewed.has(q.id)||[correction.retained_id,correction.removed_id].includes(q.id))continue;
  const now={...by.get(q.id)},before={...q};
  if(a.unresolved[q.id]){delete now.proofreading_notes;delete before.proofreading_notes;}
  // Equivalent canonical source URLs may remove account-specific query strings.

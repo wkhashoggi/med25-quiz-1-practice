@@ -394,7 +394,7 @@
       "subject": "Physiology",
       "title": "Abnormal ECG and cardiac arrhythmias",
       "ai_questions": 21,
-      "past_questions": 14,
+      "past_questions": 15,
       "source_file_ids": [
         "1i6a0dvP5Hwncst-9gdl1Vot89OYithH2"
       ],
@@ -450,7 +450,7 @@
       "subject": "Physiology",
       "title": "Mechanics of breathing",
       "ai_questions": 12,
-      "past_questions": 13,
+      "past_questions": 17,
       "source_file_ids": [
         "1aZHufKAFdasy96wvvunzBSWX58cOJcYv"
       ],
@@ -462,7 +462,7 @@
       "subject": "Physiology",
       "title": "Pressure-volume relationship and lung compliance",
       "ai_questions": 12,
-      "past_questions": 16,
+      "past_questions": 20,
       "source_file_ids": [
         "1HkxvY3Fd3Yr9fBAnEdPO9gzvVP-wF4VJ"
       ],
@@ -474,7 +474,7 @@
       "subject": "Physiology",
       "title": "Gas diffusion and plumonary blood flow",
       "ai_questions": 15,
-      "past_questions": 13,
+      "past_questions": 17,
       "source_file_ids": [
         "1RqRgUf57RdeSJbw7-u7JJ3sL3LYhzuoP"
       ],
@@ -486,7 +486,7 @@
       "subject": "Physiology",
       "title": "Transport of oxygen in blood",
       "ai_questions": 15,
-      "past_questions": 15,
+      "past_questions": 19,
       "source_file_ids": [
         "1hvcXworeJUMyF4W8IOVG5RaTq93suiHv"
       ],
@@ -498,7 +498,7 @@
       "subject": "Physiology",
       "title": "Transport of carbon dioxide in blood",
       "ai_questions": 0,
-      "past_questions": 7,
+      "past_questions": 11,
       "source_file_ids": [],
       "status": "source_not_found",
       "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
@@ -508,7 +508,7 @@
       "subject": "Physiology",
       "title": "Neural control of breathing",
       "ai_questions": 0,
-      "past_questions": 13,
+      "past_questions": 15,
       "source_file_ids": [],
       "status": "source_not_found",
       "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
@@ -518,7 +518,7 @@
       "subject": "Physiology",
       "title": "Chemical control of breathing",
       "ai_questions": 0,
-      "past_questions": 6,
+      "past_questions": 8,
       "source_file_ids": [],
       "status": "source_not_found",
       "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
@@ -678,7 +678,7 @@
       "subject": "Pathology",
       "title": "Ischemic Heart Disease – 1",
       "ai_questions": 9,
-      "past_questions": 23,
+      "past_questions": 22,
       "source_file_ids": [
         "12RXyb80ciEfihQ-258N_uk1EwrjTTI83"
       ],

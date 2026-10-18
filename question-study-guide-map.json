@@ -6725,12 +6725,11 @@
       "quiz": 2
     },
     "physiology-important-q36": {
-      "lecture_id": "pathology__ischemic-heart-disease-1",
-      "subject": "Pathology",
-      "title": "Ischemic Heart Disease – 1",
-      "confidence": 1,
-      "method": "manual-source-audit-2026-10-04",
-      "quiz": 1
+      "lecture_id": "physiology__abnormal-ecg-and-cardiac-arrhythmias",
+      "subject": "Physiology",
+      "title": "Abnormal ECG and cardiac arrhythmias",
+      "quiz": 2,
+      "method": "source-topic-physiology-quiz2"
     },
     "physiology-important-q37": {
       "lecture_id": "physiology__physiology-of-coronary-circulation",
@@ -12253,6 +12252,174 @@
       "title": "Pressure-volume relationship and lung compliance",
       "quiz": 2,
       "method": "manual-formative-quiz2-import"
+    },
+    "physiology-quiz2-resp-q01": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "quiz": 2,
+      "method": "source_topic"
+    },
+    "physiology-quiz2-resp-q02": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "quiz": 2,
+      "method": "source_topic"
+    },
+    "physiology-quiz2-resp-q03": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "quiz": 2,
+      "method": "source_topic"
+    },
+    "physiology-quiz2-resp-q04": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "quiz": 2,
+      "method": "source_topic"
+    },
+    "physiology-quiz2-resp-q05": {
+      "lecture_id": "physiology__pressure-volume-relationship-and-lung-compliance",
+      "subject": "Physiology",
+      "title": "Pressure-volume relationship and lung compliance",
+      "quiz": 2,
+      "method": "source_topic"
+    },
+    "physiology-quiz2-resp-q06": {
+      "lecture_id": "physiology__pressure-volume-relationship-and-lung-compliance",
+      "subject": "Physiology",
+      "title": "Pressure-volume relationship and lung compliance",
+      "quiz": 2,
+      "method": "source_topic"
+    },
+    "physiology-quiz2-resp-q07": {
+      "lecture_id": "physiology__pressure-volume-relationship-and-lung-compliance",
+      "subject": "Physiology",
+      "title": "Pressure-volume relationship and lung compliance",
+      "quiz": 2,
+      "method": "source_topic"
+    },
+    "physiology-quiz2-resp-q08": {
+      "lecture_id": "physiology__pressure-volume-relationship-and-lung-compliance",
+      "subject": "Physiology",
+      "title": "Pressure-volume relationship and lung compliance",
+      "quiz": 2,
+      "method": "source_topic"
+    },
+    "physiology-quiz2-resp-q09": {
+      "lecture_id": "physiology__gas-diffusion-and-plumonary-blood-flow",
+      "subject": "Physiology",
+      "title": "Gas diffusion and plumonary blood flow",
+      "quiz": 2,
+      "method": "source_topic"
+    },
+    "physiology-quiz2-resp-q10": {
+      "lecture_id": "physiology__gas-diffusion-and-plumonary-blood-flow",
+      "subject": "Physiology",
+      "title": "Gas diffusion and plumonary blood flow",
+      "quiz": 2,
+      "method": "source_topic"
+    },
+    "physiology-quiz2-resp-q11": {
+      "lecture_id": "physiology__gas-diffusion-and-plumonary-blood-flow",
+      "subject": "Physiology",
+      "title": "Gas diffusion and plumonary blood flow",
+      "quiz": 2,
+      "method": "source_topic"
+    },
+    "physiology-quiz2-resp-q12": {
+      "lecture_id": "physiology__gas-diffusion-and-plumonary-blood-flow",
+      "subject": "Physiology",
+      "title": "Gas diffusion and plumonary blood flow",
+      "quiz": 2,
+      "method": "source_topic"
+    },
+    "physiology-quiz2-resp-q13": {
+      "lecture_id": "physiology__transport-of-oxygen-in-blood",
+      "subject": "Physiology",
+      "title": "Transport of oxygen in blood",
+      "quiz": 2,
+      "method": "source_topic"
+    },
+    "physiology-quiz2-resp-q14": {
+      "lecture_id": "physiology__transport-of-oxygen-in-blood",
+      "subject": "Physiology",
+      "title": "Transport of oxygen in blood",
+      "quiz": 2,
+      "method": "source_topic"
+    },
+    "physiology-quiz2-resp-q15": {
+      "lecture_id": "physiology__transport-of-oxygen-in-blood",
+      "subject": "Physiology",
+      "title": "Transport of oxygen in blood",
+      "quiz": 2,
+      "method": "source_topic"
+    },
+    "physiology-quiz2-resp-q16": {
+      "lecture_id": "physiology__transport-of-oxygen-in-blood",
+      "subject": "Physiology",
+      "title": "Transport of oxygen in blood",
+      "quiz": 2,
+      "method": "source_topic"
+    },
+    "physiology-quiz2-resp-q17": {
+      "lecture_id": "physiology__transport-of-carbon-dioxide-in-blood",
+      "subject": "Physiology",
+      "title": "Transport of carbon dioxide in blood",
+      "quiz": 2,
+      "method": "source_topic"
+    },
+    "physiology-quiz2-resp-q18": {
+      "lecture_id": "physiology__transport-of-carbon-dioxide-in-blood",
+      "subject": "Physiology",
+      "title": "Transport of carbon dioxide in blood",
+      "quiz": 2,
+      "method": "source_topic"
+    },
+    "physiology-quiz2-resp-q19": {
+      "lecture_id": "physiology__transport-of-carbon-dioxide-in-blood",
+      "subject": "Physiology",
+      "title": "Transport of carbon dioxide in blood",
+      "quiz": 2,
+      "method": "source_topic"
+    },
+    "physiology-quiz2-resp-q20": {
+      "lecture_id": "physiology__transport-of-carbon-dioxide-in-blood",
+      "subject": "Physiology",
+      "title": "Transport of carbon dioxide in blood",
+      "quiz": 2,
+      "method": "source_topic"
+    },
+    "physiology-quiz2-resp-q21": {
+      "lecture_id": "physiology__neural-control-of-breathing",
+      "subject": "Physiology",
+      "title": "Neural control of breathing",
+      "quiz": 2,
+      "method": "source_topic"
+    },
+    "physiology-quiz2-resp-q22": {
+      "lecture_id": "physiology__neural-control-of-breathing",
+      "subject": "Physiology",
+      "title": "Neural control of breathing",
+      "quiz": 2,
+      "method": "source_topic"
+    },
+    "physiology-quiz2-resp-q23": {
+      "lecture_id": "physiology__chemical-control-of-breathing",
+      "subject": "Physiology",
+      "title": "Chemical control of breathing",
+      "quiz": 2,
+      "method": "source_topic"
+    },
+    "physiology-quiz2-resp-q24": {
+      "lecture_id": "physiology__chemical-control-of-breathing",
+      "subject": "Physiology",
+      "title": "Chemical control of breathing",
+      "quiz": 2,
+      "method": "source_topic"
     }
   },
   "ai": {

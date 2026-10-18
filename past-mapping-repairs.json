@@ -404,7 +404,8 @@
     {
       "question_id": "physiology-important-q36",
       "from_lecture_id": "physiology__abnormal-ecg-and-cardiac-arrhythmias",
-      "to_lecture_id": "pathology__ischemic-heart-disease-1"
+      "to_lecture_id": "physiology__abnormal-ecg-and-cardiac-arrhythmias",
+      "reason": "The supplied Physiology Quiz 2 source places this ST-segment question under Abnormal ECG and Cardiac Arrhythmias; mapped to the source lecture and Quiz 2."
     }
   ],
   "authentic_questions_preserved": 838,

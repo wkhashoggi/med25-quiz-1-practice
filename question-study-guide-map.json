@@ -12757,13 +12757,6 @@
       "quiz": 2,
       "method": "existing_question_match"
     },
-    "rs-module3-p20-q56": {
-      "lecture_id": "pharmacology__treatment-of-tb",
-      "subject": "Pharmacology",
-      "title": "Treatment of TB",
-      "quiz": 2,
-      "method": "source_review"
-    },
     "rs-module3-p21-q59": {
       "lecture_id": "anatomy-histology__development-of-the-respiratory-system",
       "subject": "Anatomy & Histology",
@@ -13475,13 +13468,6 @@
       "lecture_id": "pathology__obstructive-airway-diseases",
       "subject": "Pathology",
       "title": "Obstructive airway diseases",
-      "quiz": 2,
-      "method": "existing_question_match"
-    },
-    "rs-module3-p53-q62": {
-      "lecture_id": "pharmacology__drugs-used-in-the-treatment-of-bronchial-asthma",
-      "subject": "Pharmacology",
-      "title": "Drugs used in the treatment of bronchial asthma",
       "quiz": 2,
       "method": "existing_question_match"
     },
@@ -14976,13 +14962,6 @@
       "quiz": 2,
       "method": "existing_question_match"
     },
-    "rs-module3-p173-q7": {
-      "lecture_id": "pathology__obstructive-airway-diseases",
-      "subject": "Pathology",
-      "title": "Obstructive airway diseases",
-      "quiz": 2,
-      "method": "existing_question_match"
-    },
     "rs-module3-p174-q8": {
       "lecture_id": "pathology__obstructive-airway-diseases",
       "subject": "Pathology",
@@ -15066,13 +15045,6 @@
       "title": "Neural control of breathing",
       "quiz": 2,
       "method": "stem_topic"
-    },
-    "rs-module3-p189-q1": {
-      "lecture_id": "pathology__obstructive-airway-diseases",
-      "subject": "Pathology",
-      "title": "Obstructive airway diseases",
-      "quiz": 2,
-      "method": "existing_question_match"
     },
     "rs-module3-p190-q5": {
       "lecture_id": "pharmacology__drugs-used-in-the-treatment-of-bronchial-asthma",
@@ -15330,13 +15302,6 @@
       "lecture_id": "microbiology__verminous-pneumonia-parasitic-larvae-invading-lung",
       "subject": "Microbiology",
       "title": "Verminous pneumonia (Parasitic larvae invading lung)",
-      "quiz": 2,
-      "method": "existing_question_match"
-    },
-    "rs-module3-p202-q26": {
-      "lecture_id": "pathology__obstructive-airway-diseases",
-      "subject": "Pathology",
-      "title": "Obstructive airway diseases",
       "quiz": 2,
       "method": "existing_question_match"
     },

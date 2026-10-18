@@ -1,6 +1,11 @@
 {
   "entries": [
     {
+      "date": "18 October 2026",
+      "title": "Lecture-checked grading and XP",
+      "summary": "99 previously ungraded source entries checked against lectures (94 unique questions after merging repeats). Correct first answers earn 7 XP; incorrect first answers earn 1 XP. Previously selected answers are credited on sign-in where wording and choices are unchanged. Reconstructed questions are labelled Adapted for study and allow a fresh attempt. 165 recalls remain ungraded pending missing context or lecture verification."
+    },
+    {
       "date": "2026-10-18",
       "title": "Respiratory past papers · Module 3",
       "summary": "512 new entries; 373 repeated source appearances merged. Exact repeats have a separate count; recurring concepts are highlighted as high yield. Incomplete and practical recalls remain ungraded for review."

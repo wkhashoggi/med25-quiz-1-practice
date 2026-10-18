@@ -441,7 +441,7 @@
     },
     {
       "source_question_id": "rs-module3-p20-q56",
-      "question_id": "rs-module3-p20-q56",
+      "question_id": "rs-module3-p13-q30",
       "page": 20,
       "number": "56",
       "practical": false,
@@ -1457,7 +1457,7 @@
     },
     {
       "source_question_id": "rs-module3-p53-q62",
-      "question_id": "rs-module3-p53-q62",
+      "question_id": "rs-module3-p19-q52",
       "page": 53,
       "number": "62",
       "practical": false,
@@ -5345,7 +5345,7 @@
     },
     {
       "source_question_id": "rs-module3-p173-q7",
-      "question_id": "rs-module3-p173-q7",
+      "question_id": "rs-module3-p14-q37",
       "page": 173,
       "number": "7",
       "practical": false,
@@ -5889,7 +5889,7 @@
     },
     {
       "source_question_id": "rs-module3-p189-q1",
-      "question_id": "rs-module3-p189-q1",
+      "question_id": "rs-module3-p188-q1",
       "page": 189,
       "number": "1",
       "practical": false,
@@ -6313,7 +6313,7 @@
     },
     {
       "source_question_id": "rs-module3-p202-q26",
-      "question_id": "rs-module3-p202-q26",
+      "question_id": "rs-module3-p14-q37",
       "page": 202,
       "number": "26",
       "practical": false,
@@ -7137,7 +7137,6 @@
     "rs-module3-p19-q52",
     "rs-module3-p19-q53",
     "rs-module3-p20-q55",
-    "rs-module3-p20-q56",
     "rs-module3-p21-q59",
     "rs-module3-p21-q60",
     "rs-module3-p21-q61",
@@ -7240,7 +7239,6 @@
     "rs-module3-p52-q59",
     "rs-module3-p52-q60",
     "rs-module3-p52-q61",
-    "rs-module3-p53-q62",
     "rs-module3-p53-q63",
     "rs-module3-p53-q64",
     "rs-module3-p54-q65",
@@ -7454,7 +7452,6 @@
     "rs-module3-p170-q10",
     "rs-module3-p171-q12",
     "rs-module3-p173-q4",
-    "rs-module3-p173-q7",
     "rs-module3-p174-q8",
     "rs-module3-p176-q9",
     "rs-module3-p179-q11",
@@ -7467,7 +7464,6 @@
     "rs-module3-p188-q2",
     "rs-module3-p188-q3",
     "rs-module3-p188-q4",
-    "rs-module3-p189-q1",
     "rs-module3-p190-q5",
     "rs-module3-p190-q6",
     "rs-module3-p190-q7",
@@ -7505,7 +7501,6 @@
     "rs-module3-p200-q21",
     "rs-module3-p201-q22",
     "rs-module3-p201-q23",
-    "rs-module3-p202-q26",
     "rs-module3-p203-q28",
     "rs-module3-p204-q29",
     "rs-module3-p204-q30",
@@ -12090,6 +12085,31 @@
       },
       "source_answer": null,
       "merge_reason": "Visually verified same chest radiograph, same arrow target, identical stem and choices; shown only in Practical."
+    },
+    {
+      "source_question_id": "rs-module3-p173-q7",
+      "question_id": "rs-module3-p14-q37",
+      "reason": "Identical lecture-reviewed stem and choice texts; progress migrates by option text."
+    },
+    {
+      "source_question_id": "rs-module3-p202-q26",
+      "question_id": "rs-module3-p14-q37",
+      "reason": "Identical lecture-reviewed stem and choice texts; progress migrates by option text."
+    },
+    {
+      "source_question_id": "rs-module3-p189-q1",
+      "question_id": "rs-module3-p188-q1",
+      "reason": "Identical lecture-reviewed stem and choice texts; progress migrates by option text."
+    },
+    {
+      "source_question_id": "rs-module3-p20-q56",
+      "question_id": "rs-module3-p13-q30",
+      "reason": "Identical lecture-reviewed stem and choice texts; progress migrates by option text."
+    },
+    {
+      "source_question_id": "rs-module3-p53-q62",
+      "question_id": "rs-module3-p19-q52",
+      "reason": "Identical lecture-reviewed stem and choice texts; progress migrates by option text."
     }
   ],
   "concept_groups": {
@@ -12210,7 +12230,6 @@
       "rs-module3-p170-q10",
       "rs-module3-p173-q4",
       "rs-module3-p188-q1",
-      "rs-module3-p189-q1",
       "rs-module3-p210-q14",
       "rs-module3-p228-q7",
       "rs-module3-p228-q8",
@@ -12305,10 +12324,6 @@
       "rs-med24-final-p88-q1-153",
       "rs-module3-p24-q74"
     ],
-    "Rifampicin discoloration and enzyme induction": [
-      "rs-module3-p13-q30",
-      "rs-module3-p20-q56"
-    ],
     "Asthma rescue bronchodilator": [
       "rs-med24-final-p82-q20-142",
       "rs-module3-p190-q5"
@@ -12316,7 +12331,7 @@
     "Inhaled corticosteroid mouth rinsing": [
       "rs-med24-final-p75-q4-126",
       "rs-med24-final-p80-q15-137",
-      "rs-module3-p53-q62"
+      "rs-module3-p19-q52"
     ],
     "Cromolyn prophylaxis": [
       "rs-med24-final-p83-q23-145",
@@ -12366,14 +12381,15 @@
   "notes": [
     "Exact normalized stem and option-text sets are merged; changes to choices remain distinct.",
     "Repeat counts describe source appearances, including the duplicate MED09 page in this supplied compilation.",
-    "Practical recall keys are retained as unreviewed provenance and excluded from grading and exams.",
+    "Practical recalls retain source-key provenance; only lecture-verified entries are graded. Unresolved entries remain excluded from exams.",
     "Incomplete, ambiguous-key and figure-dependent written recalls are explicitly excluded from grading until reviewed.",
-    "2026-10-18 cleanup: Previous Years excludes Practical entries. A visually verified duplicate chest-radiograph question is merged with a progress alias; different radiographs remain separate."
+    "2026-10-18 cleanup: Previous Years excludes Practical entries. A visually verified duplicate chest-radiograph question is merged with a progress alias; different radiographs remain separate.",
+    "Lecture grading review: 99 original entries resolved; exact newly identical adaptations consolidated. See lecture-grading-review.json for evidence and original wording."
   ],
   "previous_commit": "36637095d974bfa81ed4517a9f8ce6dd5560d9db",
-  "unique_questions_in_source_set": 790,
+  "unique_questions_in_source_set": 785,
   "display_counts": {
-    "previous_years": 702,
+    "previous_years": 697,
     "practical": 88
   }
 }

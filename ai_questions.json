@@ -696,7 +696,7 @@
         },
         {
           "id": "ai_1akREae-VDZN_QNeQlrnBruB1ML_EVnFr_17",
-          "stem": "A severe case of lead poisoning may be treated with which chelator?",
+          "stem": "Which listed oral chelating agent may be used for appropriately selected patients with lead poisoning under specialist supervision?",
           "options": {
             "A": "Dimercaptosuccinic acid",
             "B": "Hemin",
@@ -704,14 +704,24 @@
             "D": "Phenobarbital"
           },
           "answer": "A",
-          "explanation": "The lecture lists oral DMSA or IV sodium calcium edetate for severe cases.",
+          "explanation": "Succimer (DMSA) is an oral lead chelator. Severe encephalopathy requires hospital-based specialist treatment and different parenteral chelation; the drug choice depends on blood lead level and clinical state.",
           "concept": "Lead",
           "difficulty": "application",
           "source_url": "https://drive.google.com/file/d/1akREae-VDZN_QNeQlrnBruB1ML_EVnFr/view?usp=drivesdk",
           "style_profile": "KAU-formative-case-inspired",
           "quality_status": "pass",
           "exam_ready": true,
-          "case_style": "formative_short_case"
+          "case_style": "formative_short_case",
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Oral DMSA is not the complete treatment for every severe/encephalopathic lead-poisoning case.",
+          "review_references": [
+            {
+              "title": "Haem synthesis",
+              "url": "https://drive.google.com/file/d/1akREae-VDZN_QNeQlrnBruB1ML_EVnFr/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1akREae-VDZN_QNeQlrnBruB1ML_EVnFr_18",
@@ -1572,7 +1582,7 @@
         },
         {
           "id": "ai_16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x_08",
-          "stem": "Increased force of contraction secondary to increased aortic pressure is called:",
+          "stem": "A delayed increase in intrinsic contraction strength after increased aortic pressure, occurring without increased end-diastolic fibre length, is termed what?",
           "options": {
             "A": "Heterometric autoregulation",
             "B": "Homeometric autoregulation",
@@ -1580,13 +1590,23 @@
             "D": "Respiratory pump"
           },
           "answer": "B",
-          "explanation": "Homeometric autoregulation",
+          "explanation": "The Anrep effect is homeometric autoregulation: increased inotropic state following sustained afterload elevation without relying on increased fibre length. Immediate increased afterload initially reduces shortening.",
           "concept": "Autoregulation",
           "difficulty": "core",
           "style_profile": "KAU-past-paper-inspired",
           "source_url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view?usp=drivesdk",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Distinguish delayed Anrep adaptation from an immediate afterload effect and heterometric changes.",
+          "review_references": [
+            {
+              "title": "Cardiac contractility",
+              "url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x_09",
@@ -1775,7 +1795,7 @@
         },
         {
           "id": "ai_1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX_02",
-          "stem": "Which of the following best describes how increased arterial pressure affect the kidneys?",
+          "stem": "How does a sustained rise in arterial pressure normally affect renal sodium and water excretion?",
           "options": {
             "A": "Renal control of body fluid volume and sodium balance.",
             "B": "Reduced renal perfusion, low NaCl delivery to macula densa, and β1 sympathetic stimulation.",
@@ -1790,7 +1810,17 @@
           "source_card_id": "1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX-c02",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair the malformed physiological question.",
+          "review_references": [
+            {
+              "title": "Intermediate and long-term arterial pressure regulation",
+              "url": "https://drive.google.com/file/d/1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX_03",
@@ -1832,7 +1862,7 @@
         },
         {
           "id": "ai_1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX_05",
-          "stem": "Which of the following best describes how the renin-angiotensin system raise arterial pressure?",
+          "stem": "How does activation of the renin–angiotensin system raise arterial pressure?",
           "options": {
             "A": "Renal control of body fluid volume and sodium balance.",
             "B": "Increased renal sodium excretion caused by a rise in arterial pressure.",
@@ -1847,7 +1877,17 @@
           "source_card_id": "1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX-c05",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair the malformed physiological question.",
+          "review_references": [
+            {
+              "title": "Intermediate and long-term arterial pressure regulation",
+              "url": "https://drive.google.com/file/d/1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX_06",
@@ -1870,7 +1910,7 @@
         },
         {
           "id": "ai_1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX_07",
-          "stem": "Which of the following best describes angiotensin II do to aldosterone?",
+          "stem": "How does angiotensin II affect aldosterone secretion?",
           "options": {
             "A": "Renal control of body fluid volume and sodium balance.",
             "B": "It stimulates aldosterone secretion, increasing distal sodium reabsorption.",
@@ -1885,11 +1925,21 @@
           "source_card_id": "1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX-c07",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair the malformed physiological question.",
+          "review_references": [
+            {
+              "title": "Intermediate and long-term arterial pressure regulation",
+              "url": "https://drive.google.com/file/d/1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX_08",
-          "stem": "Which of the following best describes how aldosterone raise blood pressure?",
+          "stem": "How does aldosterone contribute to increased blood volume and arterial pressure?",
           "options": {
             "A": "It increases renal sodium retention; water follows, increasing extracellular fluid and blood volume.",
             "B": "It increases pressure diuresis and pressure natriuresis, lowering blood volume and pressure.",
@@ -1904,7 +1954,17 @@
           "source_card_id": "1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX-c08",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair the malformed physiological question.",
+          "review_references": [
+            {
+              "title": "Intermediate and long-term arterial pressure regulation",
+              "url": "https://drive.google.com/file/d/1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX_formcase01",
@@ -2354,7 +2414,7 @@
         },
         {
           "id": "ai_1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg_04",
-          "stem": "Which of the following best explains why is pulmonary arterial pressure lower than systemic arterial pressure?",
+          "stem": "Why is normal pulmonary arterial pressure lower than systemic arterial pressure despite similar cardiac output?",
           "options": {
             "A": "Pulmonary vascular resistance is much lower.",
             "B": "Systemic and pulmonary circulation.",
@@ -2369,7 +2429,17 @@
           "source_card_id": "1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg-c04",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair duplicated why wording.",
+          "review_references": [
+            {
+              "title": "Physiological organization of the cardiovascular system",
+              "url": "https://drive.google.com/file/d/1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg_05",
@@ -2430,7 +2500,7 @@
         },
         {
           "id": "ai_1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg_08",
-          "stem": "Which of the following best describes mean arterial pressure approximately equal to?",
+          "stem": "Ignoring right atrial pressure, mean arterial pressure is approximately equal to which expression?",
           "options": {
             "A": "Cardiac output × total peripheral resistance.",
             "B": "Pulmonary vascular resistance is much lower.",
@@ -2445,7 +2515,17 @@
           "source_card_id": "1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg-c08",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair malformed equation question.",
+          "review_references": [
+            {
+              "title": "Physiological organization of the cardiovascular system",
+              "url": "https://drive.google.com/file/d/1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg_formcase01",
@@ -3017,21 +3097,31 @@
         },
         {
           "id": "ai_1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2_13",
-          "stem": "During which period does the lecture warn ventricular fibrillation may occur?",
+          "stem": "During which period can a suitably timed premature stimulus trigger ventricular fibrillation in a vulnerable heart?",
           "options": {
-            "A": "Supernormal period in early phase 4",
-            "B": "Absolute refractory period",
-            "C": "AV nodal delay",
-            "D": "Plateau only"
+            "A": "The vulnerable period of incomplete ventricular repolarization during the T wave",
+            "B": "Only during the absolute refractory period",
+            "C": "Only during AV nodal delay",
+            "D": "Only after every ventricular cell is fully repolarized"
           },
           "answer": "A",
-          "explanation": "The supernormal period is described in early phase 4 with risk of ventricular fibrillation.",
+          "explanation": "A stimulus during heterogeneous incomplete ventricular repolarization can initiate reentry and ventricular fibrillation. The classic vulnerable window is associated with the T wave; not every premature beat produces fibrillation.",
           "concept": "Refractory period",
           "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2/view?usp=drivesdk",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "The classic vulnerable window is incomplete ventricular repolarization during the T wave, not an unqualified early-phase-4 interval.",
+          "review_references": [
+            {
+              "title": "Induction of ventricular fibrillation by T-wave shocks",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/10525249/"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2_14",
@@ -3514,19 +3604,29 @@
           "id": "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_04",
           "stem": "Basophil mediators?",
           "options": {
-            "A": "Histamine, heparin, bradykinin, and serotonin.",
-            "B": "Phagocytosis and first-line defense against bacteria.",
-            "C": "Directed movement toward infection by chemical attractants.",
-            "D": "Coating targets with antibodies or complement to facilitate phagocytosis."
+            "A": "Histamine and newly synthesized leukotrienes",
+            "B": "Haemoglobin as the main allergic mediator",
+            "C": "Erythropoietin as the main acute mediator",
+            "D": "Bilirubin as the main acute mediator"
           },
           "answer": "A",
-          "explanation": "Histamine, heparin, bradykinin, and serotonin.",
+          "explanation": "Activated basophils release histamine and produce lipid mediators including leukotrienes during allergic responses. Bradykinin is generated through kinin-system proteolysis rather than serving as a defining stored basophil granule mediator.",
           "concept": "Physiology of White Blood Cells",
           "difficulty": "application",
           "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Use characteristic basophil mediators rather than implying release of stored bradykinin as a defining feature.",
+          "review_references": [
+            {
+              "title": "White blood cells",
+              "url": "https://drive.google.com/file/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_05",
@@ -3550,19 +3650,29 @@
           "id": "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_06",
           "stem": "Diapedesis?",
           "options": {
-            "A": "Phagocytosis and first-line defense against bacteria.",
-            "B": "Histamine, heparin, bradykinin, and serotonin.",
-            "C": "Leukocytes squeezing through capillary walls into tissues.",
-            "D": "Directed movement toward infection by chemical attractants."
+            "A": "Ingestion of microorganisms",
+            "B": "Release of haemoglobin into plasma",
+            "C": "Leukocyte passage through the vascular endothelium, typically at postcapillary venules",
+            "D": "Directed migration along a chemical gradient"
           },
           "answer": "C",
-          "explanation": "Leukocytes squeezing through capillary walls into tissues.",
+          "explanation": "Diapedesis is leukocyte passage across the vascular endothelium, usually at postcapillary venules. Chemotaxis is the subsequent directed movement along a chemical gradient.",
           "concept": "Physiology of White Blood Cells",
           "difficulty": "core",
           "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Leukocyte transmigration occurs mainly at postcapillary venules rather than exclusively capillaries.",
+          "review_references": [
+            {
+              "title": "White blood cells",
+              "url": "https://drive.google.com/file/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_07",
@@ -3692,7 +3802,7 @@
         },
         {
           "id": "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_14",
-          "stem": "Largest and strongest phagocytic WBC?",
+          "stem": "Which is the largest normally circulating leukocyte?",
           "options": {
             "A": "Neutrophilia.",
             "B": "Eosinophilia.",
@@ -3700,13 +3810,23 @@
             "D": "Macrophages."
           },
           "answer": "C",
-          "explanation": "Monocyte.",
+          "explanation": "Monocytes are the largest normally circulating white cells. They can enter tissues and differentiate into macrophages; strongest phagocyte is not a precise universal ranking.",
           "concept": "Physiology of White Blood Cells",
           "difficulty": "core",
           "source_url": "https://docs.google.com/presentation/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Macrophages can be more powerful tissue phagocytes; specify the largest normally circulating leukocyte.",
+          "review_references": [
+            {
+              "title": "White blood cells",
+              "url": "https://drive.google.com/file/d/1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1nV_LjlbgJxLZN3jKD4c_7gK3X3FqoGiK_15",
@@ -3978,7 +4098,7 @@
         },
         {
           "id": "ai_1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn_05",
-          "stem": "Which of the following best describes activated platelets release to recruit more platelets?",
+          "stem": "Which mediators do activated platelets release to recruit additional platelets?",
           "options": {
             "A": "Promotes platelet aggregation and vasoconstriction.",
             "B": "Vasoconstriction, platelet plug formation, coagulation, and clot stabilization/removal.",
@@ -3993,7 +4113,17 @@
           "source_card_id": "1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn-c05",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair malformed release question.",
+          "review_references": [
+            {
+              "title": "Physiology of platelets",
+              "url": "https://drive.google.com/file/d/1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1Tfh1U5l-Sqj6tJYMYt8KpTFeRZqsCTBn_06",
@@ -4113,7 +4243,7 @@
         },
         {
           "id": "ai_14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn_02",
-          "stem": "Which of the following best describes how anemia affect blood viscosity?",
+          "stem": "How does anaemia generally affect blood viscosity?",
           "options": {
             "A": "Vitamin B12 or folate deficiency.",
             "B": "Anemia due to premature destruction of RBCs.",
@@ -4128,11 +4258,21 @@
           "source_card_id": "14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn-c02",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair malformed question wording.",
+          "review_references": [
+            {
+              "title": "Anaemia and polycythaemia",
+              "url": "https://drive.google.com/file/d/14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn_03",
-          "stem": "Which of the following best explains why can cardiac output increase in anemia?",
+          "stem": "Why can cardiac output increase in anaemia?",
           "options": {
             "A": "Iron deficiency or impaired hemoglobin synthesis.",
             "B": "Lower viscosity reduces resistance and tissue hypoxia promotes vasodilation and sympathetic compensation.",
@@ -4147,11 +4287,21 @@
           "source_card_id": "14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn-c03",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair malformed question wording.",
+          "review_references": [
+            {
+              "title": "Anaemia and polycythaemia",
+              "url": "https://drive.google.com/file/d/14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn_04",
-          "stem": "Which of the following best describes microcytic anemia commonly associated with?",
+          "stem": "Which listed process commonly causes microcytic anaemia?",
           "options": {
             "A": "Iron deficiency or impaired hemoglobin synthesis.",
             "B": "Vitamin B12 or folate deficiency.",
@@ -4166,11 +4316,21 @@
           "source_card_id": "14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn-c04",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair malformed question wording.",
+          "review_references": [
+            {
+              "title": "Anaemia and polycythaemia",
+              "url": "https://drive.google.com/file/d/14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn_05",
-          "stem": "Which of the following best describes macrocytic/megaloblastic anemia commonly associated with?",
+          "stem": "Which deficiencies classically cause megaloblastic macrocytic anaemia?",
           "options": {
             "A": "Iron deficiency or impaired hemoglobin synthesis.",
             "B": "Anemia due to premature destruction of RBCs.",
@@ -4185,7 +4345,17 @@
           "source_card_id": "14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn-c05",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair malformed question wording.",
+          "review_references": [
+            {
+              "title": "Anaemia and polycythaemia",
+              "url": "https://drive.google.com/file/d/14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_14mx5rMsag03Bt6vChuSfjuT3MF6FjJjn_06",
@@ -4324,19 +4494,29 @@
           "id": "ai_1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov_03",
           "stem": "Where does cholesterol synthesis occur at the subcellular level?",
           "options": {
-            "A": "Lysosome",
-            "B": "Nucleus",
-            "C": "Cytoplasm",
+            "A": "Lysosome only",
+            "B": "Nucleus only",
+            "C": "Cytosol and smooth endoplasmic reticulum",
             "D": "Mitochondrial matrix only"
           },
           "answer": "C",
-          "explanation": "The lecture gives the cytoplasm as the subcellular site.",
+          "explanation": "Cholesterol synthesis takes place through cytosolic and ER-associated reactions; it is not exclusively a mitochondrial-matrix pathway.",
           "concept": "Site",
           "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov/view?usp=drivesdk",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Include ER-associated synthetic steps.",
+          "review_references": [
+            {
+              "title": "Cholesterol metabolism",
+              "url": "https://drive.google.com/file/d/1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov_04",
@@ -4520,7 +4700,7 @@
         },
         {
           "id": "ai_1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov_14",
-          "stem": "Which is a major fate by which intact cholesterol leaves the body?",
+          "stem": "Which is a major route for net elimination of cholesterol-derived material from the body?",
           "options": {
             "A": "Conversion to glucose",
             "B": "Conversion to urea",
@@ -4534,7 +4714,17 @@
           "source_url": "https://drive.google.com/file/d/1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov/view?usp=drivesdk",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Cholesterol converted to bile acids no longer leaves as intact cholesterol; remove the contradictory word.",
+          "review_references": [
+            {
+              "title": "Cholesterol metabolism",
+              "url": "https://drive.google.com/file/d/1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1c0fsCxzQ87Kp9_csQ288O-4pdhrRpyov_15",
@@ -4688,18 +4878,28 @@
           "stem": "Which products are released during conversion of heme to biliverdin?",
           "options": {
             "A": "Glucose and lactate",
-            "B": "Ferric iron and carbon monoxide",
+            "B": "Ferrous iron (Fe2+) and carbon monoxide",
             "C": "Calcium and oxygen",
             "D": "Ammonia and urea"
           },
           "answer": "B",
-          "explanation": "Heme oxygenase releases ferric iron and carbon monoxide.",
+          "explanation": "Haem oxygenase cleaves haem to biliverdin, releasing carbon monoxide and ferrous iron. The released iron can subsequently be handled by iron-storage and oxidation pathways.",
           "concept": "Pathway",
           "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs/view?usp=drivesdk",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Haem oxygenase releases ferrous iron, not ferric iron.",
+          "review_references": [
+            {
+              "title": "NCBI haem oxygenase enzyme definition",
+              "url": "https://www.ncbi.nlm.nih.gov/mesh/68006419"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1kpAnuDlqpEsnaYgFlrwPURN5G7PNSHVs_05",
@@ -5031,7 +5231,7 @@
         },
         {
           "id": "ai_1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj_02",
-          "stem": "Which of the following is the correct location of albumin synthesized?",
+          "stem": "Where is albumin synthesized?",
           "options": {
             "A": "Gamma globulins.",
             "B": "Plasma cells, not hepatocytes.",
@@ -5046,7 +5246,17 @@
           "source_card_id": "1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj-c02",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair malformed location wording.",
+          "review_references": [
+            {
+              "title": "Plasma proteins",
+              "url": "https://drive.google.com/file/d/1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1FZiKjVLPPPIC-urp1U7uip3DPPa4mQwj_03",
@@ -5358,13 +5568,13 @@
           "id": "ai_1jODBvDorJgQ42QRYX75ODeTVk6Lr3lLe_formcase01",
           "stem": "A patient with intravascular hemolysis has anemia, reticulocytosis and increased LDH. Which additional laboratory change is expected?",
           "options": {
-            "A": "RBC destruction within the circulation, releasing hemoglobin into plasma.",
-            "B": "Spherocytes with membrane-cytoskeleton defects and splenic destruction.",
-            "C": "RBC removal by macrophages, mainly in spleen and liver.",
-            "D": "It decreases because it binds free hemoglobin."
+            "A": "A low LDH concentration",
+            "B": "An obligatory fall in reticulocytes despite intact marrow",
+            "C": "Bilirubin always absent from serum",
+            "D": "Reduced plasma haptoglobin from binding released haemoglobin"
           },
           "answer": "D",
-          "explanation": "It decreases because it binds free hemoglobin.",
+          "explanation": "Free haemoglobin released into plasma binds haptoglobin, and the complex is cleared, lowering measured haptoglobin. Haemolysis also commonly raises LDH and unconjugated bilirubin.",
           "concept": "Hemolytic Anemia — formative-style case",
           "difficulty": "application",
           "source_url": "https://drive.google.com/file/d/1jODBvDorJgQ42QRYX75ODeTVk6Lr3lLe/view?usp=drivesdk",
@@ -5373,7 +5583,17 @@
           "quality_status": "pass",
           "exam_ready": true,
           "case_style": "formative_short_case",
-          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36",
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "The keyed answer was an unexplained pronoun rather than a named laboratory change.",
+          "review_references": [
+            {
+              "title": "Haemolytic anaemia",
+              "url": "https://drive.google.com/file/d/1jODBvDorJgQ42QRYX75ODeTVk6Lr3lLe/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         }
       ],
       "eligibility_status": "allowed",
@@ -5550,14 +5770,24 @@
             "D": "Respiratory syncytial virus"
           },
           "answer": "A",
-          "explanation": "The lecture states that HBV is associated with up to about one-third of PAN cases through immune-complex deposition.",
+          "explanation": "Hepatitis B is a classic association with polyarteritis nodosa. The proportion varies by population and era and has fallen with vaccination and antiviral treatment; the historical teaching percentage is not a universal current prevalence.",
           "concept": "PAN",
           "difficulty": "application",
           "source_url": "https://drive.google.com/file/d/10l7F6bEVJlxf09wcuIrUEqnldTnAq4-K/view",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
           "exam_ready": true,
-          "case_style": "formative_short_case"
+          "case_style": "formative_short_case",
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Do not present a historical one-third HBV association as a universal current frequency.",
+          "review_references": [
+            {
+              "title": "Vasculitis",
+              "url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_10",
@@ -5569,13 +5799,23 @@
             "D": "PR3-ANCA"
           },
           "answer": "D",
-          "explanation": "The lecture table associates GPA with PR3-ANCA in about 95%.",
+          "explanation": "PR3-ANCA is the characteristic ANCA association of granulomatosis with polyangiitis. Some patients are ANCA-negative or have MPO-ANCA, and a negative result does not exclude disease.",
           "concept": "Small-vessel vasculitis",
           "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/10l7F6bEVJlxf09wcuIrUEqnldTnAq4-K/view",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "PR3-ANCA prevalence varies with disease extent and assay; avoid an unqualified 95% claim.",
+          "review_references": [
+            {
+              "title": "Vasculitis",
+              "url": "https://drive.google.com/file/d/1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_11",
@@ -5730,17 +5970,27 @@
           "options": {
             "A": "Asbestos",
             "B": "Benzene",
-            "C": "Polyvinyl chloride",
+            "C": "Vinyl chloride monomer used in PVC manufacture",
             "D": "Silica"
           },
           "answer": "C",
-          "explanation": "The lecture lists arsenic, polyvinyl chloride and Thorotrast as carcinogenic exposures associated with hepatic angiosarcoma.",
+          "explanation": "Hepatic angiosarcoma is associated with vinyl chloride monomer, arsenic and historical Thorotrast exposure. The monomer should not be confused with finished polyvinyl chloride.",
           "concept": "Angiosarcoma",
           "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/10l7F6bEVJlxf09wcuIrUEqnldTnAq4-K/view",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "The carcinogenic exposure is vinyl chloride monomer used in PVC manufacture, not the finished polymer itself.",
+          "review_references": [
+            {
+              "title": "Cardiac tumour pathology",
+              "url": "https://www.ncbi.nlm.nih.gov/books/NBK12590/"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_20",
@@ -5763,7 +6013,7 @@
         },
         {
           "id": "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_21",
-          "stem": "What is the most common primary cardiac tumor in adults?",
+          "stem": "Which listed benign primary cardiac tumour characteristically forms a gelatinous left-atrial mass attached near the fossa ovalis?",
           "options": {
             "A": "Myxoma",
             "B": "Angiosarcoma",
@@ -5771,17 +6021,27 @@
             "D": "Fibroma"
           },
           "answer": "A",
-          "explanation": "The lecture identifies myxoma as the most common primary cardiac tumor in adults.",
+          "explanation": "A left-atrial gelatinous mass near the fossa ovalis is characteristic of myxoma. Historical series described myxoma as the commonest primary adult tumour, while modern imaging cohorts often identify papillary fibroelastoma more frequently; rankings depend on ascertainment.",
           "concept": "Cardiac tumors",
           "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/10l7F6bEVJlxf09wcuIrUEqnldTnAq4-K/view",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Modern imaging series can identify fibroelastoma more often; remove the universal ranking and test myxoma morphology.",
+          "review_references": [
+            {
+              "title": "Papillary fibroelastoma epidemiology — primary cohort",
+              "url": "https://www.jacc.org/doi/10.1016/j.jacc.2015.03.569"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_22",
-          "stem": "Where do approximately 90% of cardiac myxomas arise according to the lecture?",
+          "stem": "Where do most cardiac myxomas arise?",
           "options": {
             "A": "Right ventricular outflow tract",
             "B": "Left ventricular apex",
@@ -5789,13 +6049,23 @@
             "D": "Left atrium near the fossa ovalis"
           },
           "answer": "D",
-          "explanation": "About 90% of myxomas arise in the left atrium in the region of the fossa ovalis.",
+          "explanation": "Most cardiac myxomas arise in the left atrium, commonly attached near the fossa ovalis. Many series report roughly three quarters, rather than one universal 90% figure.",
           "concept": "Myxoma",
           "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/10l7F6bEVJlxf09wcuIrUEqnldTnAq4-K/view",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "The lecture’s 90% is higher than many established series; test the site without an unnecessary fixed percentage.",
+          "review_references": [
+            {
+              "title": "Cardiac tumour pathology",
+              "url": "https://www.ncbi.nlm.nih.gov/books/NBK12590/"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6_23",
@@ -6108,10 +6378,10 @@
           "id": "ai_12RXyb80ciEfihQ-258N_uk1EwrjTTI83_04",
           "stem": "What usually causes unstable angina?",
           "options": {
-            "A": "Plaque disruption with non-occlusive thrombosis and reduced coronary flow.",
-            "B": "Rupture or erosion of an atherosclerotic plaque with superimposed thrombosis.",
-            "C": "Fixed atherosclerotic narrowing that limits flow during increased demand.",
-            "D": "It has high wall stress and the least favorable perfusion during systole."
+            "A": "Plaque disruption with non-occlusive thrombosis and reduced coronary flow",
+            "B": "Isolated fixed narrowing causing only reproducible exertional symptoms",
+            "C": "A physiological increase in flow matching all oxygen demand",
+            "D": "Normal contraction with no myocardial oxygen demand"
           },
           "answer": "A",
           "explanation": "Plaque disruption with non-occlusive thrombosis and reduced coronary flow.",
@@ -6121,7 +6391,17 @@
           "source_card_id": "12RXyb80ciEfihQ-258N_uk1EwrjTTI83-c04",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Two options describe plaque disruption and thrombosis; remove the synonymous alternative.",
+          "review_references": [
+            {
+              "title": "Ischaemic heart disease 1",
+              "url": "https://drive.google.com/file/d/12RXyb80ciEfihQ-258N_uk1EwrjTTI83/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_12RXyb80ciEfihQ-258N_uk1EwrjTTI83_05",
@@ -6182,7 +6462,7 @@
         },
         {
           "id": "ai_12RXyb80ciEfihQ-258N_uk1EwrjTTI83_08",
-          "stem": "Which of the following best explains why is subendocardial myocardium especially vulnerable to ischemia?",
+          "stem": "Why is subendocardial myocardium especially vulnerable to ischaemia?",
           "options": {
             "A": "It has high wall stress and the least favorable perfusion during systole.",
             "B": "Fixed atherosclerotic narrowing that limits flow during increased demand.",
@@ -6197,16 +6477,26 @@
           "source_card_id": "12RXyb80ciEfihQ-258N_uk1EwrjTTI83-c08",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair duplicated why wording.",
+          "review_references": [
+            {
+              "title": "Ischaemic heart disease 1",
+              "url": "https://drive.google.com/file/d/12RXyb80ciEfihQ-258N_uk1EwrjTTI83/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_12RXyb80ciEfihQ-258N_uk1EwrjTTI83_formcase01",
           "stem": "A patient develops exertional chest discomfort because myocardial oxygen demand temporarily exceeds coronary blood supply. Which process best describes the underlying problem?",
           "options": {
-            "A": "Ischemic necrosis of myocardium from prolonged severe reduction in coronary blood flow.",
-            "B": "Plaque disruption with non-occlusive thrombosis and reduced coronary flow.",
-            "C": "Fixed atherosclerotic narrowing that limits flow during increased demand.",
-            "D": "Myocardial dysfunction caused by an imbalance between coronary blood supply and oxygen demand."
+            "A": "Irreversible necrosis in every brief episode of chest discomfort",
+            "B": "A normal supply-demand balance throughout exertion",
+            "C": "Absence of any change in myocardial oxygen demand during exercise",
+            "D": "An imbalance between myocardial oxygen supply and demand"
           },
           "answer": "D",
           "explanation": "Myocardial dysfunction caused by an imbalance between coronary blood supply and oxygen demand.",
@@ -6218,7 +6508,17 @@
           "quality_status": "pass",
           "exam_ready": true,
           "case_style": "formative_short_case",
-          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36",
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Separate the broad supply-demand definition from an overlapping specific stable-angina mechanism.",
+          "review_references": [
+            {
+              "title": "Ischaemic heart disease 1",
+              "url": "https://drive.google.com/file/d/12RXyb80ciEfihQ-258N_uk1EwrjTTI83/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         }
       ],
       "eligibility_status": "allowed",
@@ -6317,7 +6617,7 @@
         },
         {
           "id": "ai_1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31_05",
-          "stem": "Which of the following best explains why is the myocardium mechanically weakest several days after MI?",
+          "stem": "Why is infarcted myocardium mechanically weak several days after an MI?",
           "options": {
             "A": "An acute ventricular septal defect with left-to-right shunt.",
             "B": "They begin after roughly 20–40 minutes of severe ischemia, then progress with time.",
@@ -6332,7 +6632,17 @@
           "source_card_id": "1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31-c05",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair duplicated why wording.",
+          "review_references": [
+            {
+              "title": "Ischaemic heart disease 2",
+              "url": "https://drive.google.com/file/d/1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31_06",
@@ -6398,10 +6708,10 @@
             "A": "An acute ventricular septal defect with left-to-right shunt.",
             "B": "Macrophages remove dead tissue before strong collagen scar has formed.",
             "C": "Acute severe mitral regurgitation.",
-            "D": "They begin after roughly 20–40 minutes of severe ischemia, then progress with time."
+            "D": "Ischaemic necrosis of cardiac myocytes"
           },
           "answer": "D",
-          "explanation": "They begin after roughly 20–40 minutes of severe ischemia, then progress with time.",
+          "explanation": "Prolonged severe ischaemia causes irreversible myocyte injury and necrosis, which defines myocardial infarction. Timing and extent depend on severity, collateral flow and reperfusion.",
           "concept": "Ischemic Heart Disease II — formative-style case",
           "difficulty": "application",
           "source_url": "https://drive.google.com/file/d/1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31/view?usp=drivesdk",
@@ -6410,7 +6720,17 @@
           "quality_status": "pass",
           "exam_ready": true,
           "case_style": "formative_short_case",
-          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36",
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "The keyed answer was a timing fragment rather than the pathological process requested.",
+          "review_references": [
+            {
+              "title": "Ischaemic heart disease 2",
+              "url": "https://drive.google.com/file/d/1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         }
       ],
       "eligibility_status": "allowed",
@@ -7496,13 +7816,23 @@
             "D": "Genetic sequencing only"
           },
           "answer": "A",
-          "explanation": "Routine bedside tools include lactate, CRP, procalcitonin and SOFA.",
+          "explanation": "SOFA assesses organ dysfunction, while lactate and inflammatory markers can support clinical assessment. No single CRP, procalcitonin or lactate value independently establishes or excludes sepsis; interpretation requires suspected infection and the clinical picture.",
           "concept": "Recognition",
           "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9/view?usp=drivesdk",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Biomarkers support assessment but do not independently diagnose or exclude sepsis.",
+          "review_references": [
+            {
+              "title": "Immune dysregulation in sepsis",
+              "url": "https://drive.google.com/file/d/1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1v8lAYGRv8YgdfRbs78dl2_6LjI9Vmcl9_18",
@@ -7600,7 +7930,7 @@
         },
         {
           "id": "ai_1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV_04",
-          "stem": "Which of the following best describes regulatory T cells important for?",
+          "stem": "What is an important role of regulatory T cells?",
           "options": {
             "A": "Suppressing autoreactive immune responses and maintaining peripheral tolerance.",
             "B": "An immune response directed against self-antigens because self-tolerance fails.",
@@ -7615,11 +7945,21 @@
           "source_card_id": "1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV-c04",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair malformed immune-mechanism wording.",
+          "review_references": [
+            {
+              "title": "Autoimmune disease",
+              "url": "https://drive.google.com/file/d/1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV_05",
-          "stem": "Which of the following best describes can molecular mimicry promote autoimmunity?",
+          "stem": "How can molecular mimicry promote autoimmunity?",
           "options": {
             "A": "An immune response directed against self-antigens because self-tolerance fails.",
             "B": "Elimination or editing of strongly self-reactive lymphocytes during development.",
@@ -7634,7 +7974,17 @@
           "source_card_id": "1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV-c05",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair malformed immune-mechanism wording.",
+          "review_references": [
+            {
+              "title": "Autoimmune disease",
+              "url": "https://drive.google.com/file/d/1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV_06",
@@ -7657,7 +8007,7 @@
         },
         {
           "id": "ai_1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV_07",
-          "stem": "What antibody is highly specific for SLE?",
+          "stem": "Which listed antibody targets Smith small nuclear ribonucleoproteins and is highly specific for SLE?",
           "options": {
             "A": "Suppressing autoreactive immune responses and maintaining peripheral tolerance.",
             "B": "Anti-Smith antibody.",
@@ -7665,14 +8015,24 @@
             "D": "An immune response directed against self-antigens because self-tolerance fails."
           },
           "answer": "B",
-          "explanation": "Anti-Smith antibody.",
+          "explanation": "Anti-Smith antibodies recognize Sm ribonucleoprotein antigens and are highly specific for SLE. Anti-dsDNA antibodies are also highly specific and may correlate with nephritis/activity, so high specificity alone did not distinguish the two choices.",
           "concept": "Autoimmune Diseases",
           "difficulty": "application",
           "source_url": "https://drive.google.com/file/d/1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV/view?usp=drivesdk",
           "source_card_id": "1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV-c07",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Both anti-Smith and anti-dsDNA are highly specific; distinguish the antigen target.",
+          "review_references": [
+            {
+              "title": "Autoimmune disease",
+              "url": "https://drive.google.com/file/d/1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1vMxZPnCmmeBHibH2r5GFr--1q99MtLuV_08",
@@ -7830,7 +8190,7 @@
         },
         {
           "id": "ai_1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp_06",
-          "stem": "Which of the following best describes X-linked agammaglobulinemia caused by?",
+          "stem": "What molecular defect causes X-linked agammaglobulinaemia?",
           "options": {
             "A": "Severe or recurrent viral, fungal, and opportunistic infections.",
             "B": "Severe combined immunodeficiency affecting both cellular and humoral immunity.",
@@ -7845,11 +8205,21 @@
           "source_card_id": "1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp-c06",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair malformed immune-disorder wording.",
+          "review_references": [
+            {
+              "title": "Immunodeficiency disorders",
+              "url": "https://drive.google.com/file/d/1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp_07",
-          "stem": "Which of the following best describes CVID characterized by?",
+          "stem": "Which pattern characterizes common variable immunodeficiency?",
           "options": {
             "A": "Severe combined immunodeficiency affecting both cellular and humoral immunity.",
             "B": "Low immunoglobulins with impaired antibody responses, often presenting later than XLA.",
@@ -7864,7 +8234,17 @@
           "source_card_id": "1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp-c07",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair malformed immune-disorder wording.",
+          "review_references": [
+            {
+              "title": "Immunodeficiency disorders",
+              "url": "https://drive.google.com/file/d/1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp_08",
@@ -7887,7 +8267,7 @@
         },
         {
           "id": "ai_1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp_formcase01",
-          "stem": "A child has recurrent unusual infections and is suspected to have impaired immune defense. Which description best defines the underlying problem?",
+          "stem": "A child has a confirmed inherited defect of immune development. Which listed description defines primary immunodeficiency?",
           "options": {
             "A": "Severe or recurrent viral, fungal, and opportunistic infections.",
             "B": "Severe combined immunodeficiency affecting both cellular and humoral immunity.",
@@ -7904,7 +8284,17 @@
           "quality_status": "pass",
           "exam_ready": true,
           "case_style": "formative_short_case",
-          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36",
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Unusual childhood infections do not alone establish inherited rather than acquired immunodeficiency.",
+          "review_references": [
+            {
+              "title": "Immunodeficiency disorders",
+              "url": "https://drive.google.com/file/d/1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         }
       ],
       "eligibility_status": "allowed",
@@ -7946,7 +8336,7 @@
         },
         {
           "id": "ai_1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ_02",
-          "stem": "Which of the following best describes how lymphatic filariasis transmitted?",
+          "stem": "How is lymphatic filariasis transmitted?",
           "options": {
             "A": "Hydrocele.",
             "B": "Lymphatic vessels and lymph nodes.",
@@ -7961,11 +8351,21 @@
           "source_card_id": "1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ-c02",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair malformed parasitology wording.",
+          "review_references": [
+            {
+              "title": "Lymphatic filariasis",
+              "url": "https://drive.google.com/file/d/1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ_03",
-          "stem": "Which of the following is the correct location for adult filarial worms live?",
+          "stem": "Where do adult lymphatic filarial worms live?",
           "options": {
             "A": "Hydrocele.",
             "B": "Lymphatic vessels and lymph nodes.",
@@ -7980,7 +8380,17 @@
           "source_card_id": "1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ-c03",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair malformed parasitology wording.",
+          "review_references": [
+            {
+              "title": "Lymphatic filariasis",
+              "url": "https://drive.google.com/file/d/1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ_04",
@@ -8003,7 +8413,7 @@
         },
         {
           "id": "ai_1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ_05",
-          "stem": "Which of the following best explains why may blood collection timing matter in filariasis?",
+          "stem": "Why can the timing of blood sampling matter when looking for microfilariae?",
           "options": {
             "A": "Wuchereria bancrofti, Brugia malayi, and Brugia timori.",
             "B": "Inflammation and lymphatic dysfunction around adult worms and recurrent infection.",
@@ -8018,7 +8428,17 @@
           "source_card_id": "1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ-c05",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair malformed parasitology wording.",
+          "review_references": [
+            {
+              "title": "Lymphatic filariasis",
+              "url": "https://drive.google.com/file/d/1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1K9KiWQSyCGikibKC7SzbiJAW6QVruSTZ_06",
@@ -8157,7 +8577,7 @@
         },
         {
           "id": "ai_1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp_03",
-          "stem": "Which of the following best describes a classic systemic type III reaction?",
+          "stem": "One to two weeks after foreign-protein exposure, a patient develops fever, urticaria and arthralgia due to circulating immune complexes. Which listed systemic type III syndrome is this?",
           "options": {
             "A": "Complement activation and recruitment of neutrophils.",
             "B": "Serum sickness.",
@@ -8172,7 +8592,17 @@
           "source_card_id": "1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp-c03",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "SLE is also systemic immune-complex disease; specify the foreign-protein serum-sickness syndrome.",
+          "review_references": [
+            {
+              "title": "Hypersensitivity reactions 2",
+              "url": "https://drive.google.com/file/d/1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp_04",
@@ -8252,7 +8682,7 @@
         },
         {
           "id": "ai_1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp_08",
-          "stem": "Which of the following best explains why is type IV called delayed hypersensitivity?",
+          "stem": "Why is type IV hypersensitivity described as delayed?",
           "options": {
             "A": "The reaction typically develops over 24–72 hours rather than minutes.",
             "B": "T-cell-mediated delayed hypersensitivity rather than antibody-mediated injury.",
@@ -8267,11 +8697,21 @@
           "source_card_id": "1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp-c08",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair duplicated why wording.",
+          "review_references": [
+            {
+              "title": "Hypersensitivity reactions 2",
+              "url": "https://drive.google.com/file/d/1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp_formcase01",
-          "stem": "A patient develops tissue injury after an exaggerated immune response to an otherwise harmless antigen. Which process best describes this reaction?",
+          "stem": "After circulating antigen–antibody complexes deposit in tissues, complement activation recruits neutrophils and causes injury. Which listed process defines this type III reaction?",
           "options": {
             "A": "T-cell-mediated delayed hypersensitivity rather than antibody-mediated injury.",
             "B": "Sensitized T lymphocytes, especially Th1/Th17 cells and sometimes CD8⁺ T cells.",
@@ -8288,7 +8728,17 @@
           "quality_status": "pass",
           "exam_ready": true,
           "case_style": "formative_short_case",
-          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36",
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "The original generic hypersensitivity case did not establish immune-complex deposition.",
+          "review_references": [
+            {
+              "title": "Hypersensitivity reactions 2",
+              "url": "https://drive.google.com/file/d/1WwxT25IfhL-QdrMxmpqN3jCL3R6IPjnp/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         }
       ],
       "eligibility_status": "allowed",
@@ -8463,7 +8913,7 @@
         },
         {
           "id": "ai_1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d_formcase01",
-          "stem": "A patient develops an exaggerated immune response after exposure to an antigen that is harmless to most people. Which process best describes this response?",
+          "stem": "An allergen cross-links IgE already bound to mast cells, causing an immediate systemic allergic reaction. Which listed description identifies the hypersensitivity type?",
           "options": {
             "A": "Allergen cross-linking of mast-cell-bound IgE.",
             "B": "Th2 responses drive IgE production; IgE binds FcεRI on mast cells.",
@@ -8480,7 +8930,17 @@
           "quality_status": "pass",
           "exam_ready": true,
           "case_style": "formative_short_case",
-          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36",
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "An exaggerated response alone does not identify type I rather than another hypersensitivity mechanism.",
+          "review_references": [
+            {
+              "title": "Hypersensitivity reactions 1",
+              "url": "https://drive.google.com/file/d/1bCok-jPscfcJ9kOglSgDq9k-cAyW8Z1d/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         }
       ],
       "eligibility_status": "allowed",
@@ -8541,7 +9001,7 @@
         },
         {
           "id": "ai_14vfFkvXZlceusubx4H2RN-ttsGLXdkbj_03",
-          "stem": "Which of the following best describes how babesiosis differ from malaria epidemiologically?",
+          "stem": "How do the usual arthropod vectors of babesiosis and malaria differ?",
           "options": {
             "A": "Dormant hypnozoites can reactivate from the liver.",
             "B": "Babesia is tick-borne; malaria is transmitted by Anopheles mosquitoes.",
@@ -8556,7 +9016,17 @@
           "source_card_id": "14vfFkvXZlceusubx4H2RN-ttsGLXdkbj-c03",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair malformed comparison question.",
+          "review_references": [
+            {
+              "title": "Malaria and babesiosis",
+              "url": "https://drive.google.com/file/d/14vfFkvXZlceusubx4H2RN-ttsGLXdkbj/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_14vfFkvXZlceusubx4H2RN-ttsGLXdkbj_04",
@@ -8617,7 +9087,7 @@
         },
         {
           "id": "ai_14vfFkvXZlceusubx4H2RN-ttsGLXdkbj_07",
-          "stem": "Which of the following best explains why can P. vivax and P. ovale relapse?",
+          "stem": "Why can P. vivax and P. ovale infections relapse?",
           "options": {
             "A": "Plasmodium vivax and Plasmodium ovale.",
             "B": "Dormant hypnozoites can reactivate from the liver.",
@@ -8632,7 +9102,17 @@
           "source_card_id": "14vfFkvXZlceusubx4H2RN-ttsGLXdkbj-c07",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair duplicated why wording.",
+          "review_references": [
+            {
+              "title": "Malaria and babesiosis",
+              "url": "https://drive.google.com/file/d/14vfFkvXZlceusubx4H2RN-ttsGLXdkbj/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_14vfFkvXZlceusubx4H2RN-ttsGLXdkbj_08",
@@ -8655,15 +9135,15 @@
         },
         {
           "id": "ai_14vfFkvXZlceusubx4H2RN-ttsGLXdkbj_formcase01",
-          "stem": "A patient with fever and hemolysis has an intraerythrocytic parasitic infection. Which feature from this lecture is most useful for distinguishing the relevant organisms?",
+          "stem": "Which listed contrast correctly distinguishes the usual arthropod vectors of babesiosis and malaria?",
           "options": {
             "A": "Asplenic, older, or immunocompromised patients.",
             "B": "Babesia is tick-borne; malaria is transmitted by Anopheles mosquitoes.",
             "C": "Dormant hypnozoites can reactivate from the liver.",
             "D": "An intraerythrocytic protozoan parasite transmitted mainly by Ixodes ticks."
           },
-          "answer": "D",
-          "explanation": "An intraerythrocytic protozoan parasite transmitted mainly by Ixodes ticks.",
+          "answer": "B",
+          "explanation": "Babesia is usually transmitted by Ixodes ticks; human malaria is transmitted by infected female Anopheles mosquitoes. Both can also be transmitted through blood, so vector history is an epidemiological clue rather than a complete diagnostic test.",
           "concept": "Babesiosis and Malaria II — formative-style case",
           "difficulty": "application",
           "source_url": "https://drive.google.com/file/d/14vfFkvXZlceusubx4H2RN-ttsGLXdkbj/view?usp=drivesdk",
@@ -8672,7 +9152,17 @@
           "quality_status": "pass",
           "exam_ready": true,
           "case_style": "formative_short_case",
-          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36",
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "The original generic case did not identify Babesia, while two options described tick transmission.",
+          "review_references": [
+            {
+              "title": "Malaria and babesiosis",
+              "url": "https://drive.google.com/file/d/14vfFkvXZlceusubx4H2RN-ttsGLXdkbj/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_14vfFkvXZlceusubx4H2RN-ttsGLXdkbj_treatment_01",
@@ -9107,16 +9597,26 @@
             "A": "P. falciparum",
             "B": "P. malariae",
             "C": "P. ovale",
-            "D": "P. vivax"
+            "D": "Reduced susceptibility to Plasmodium vivax, without absolute protection"
           },
           "answer": "D",
-          "explanation": "Absence of the Duffy RBC surface factor confers resistance to P. vivax.",
+          "explanation": "Loss of erythrocyte Duffy expression reduces susceptibility to P. vivax invasion through the classical pathway. P. vivax infections have nevertheless been documented in Duffy-negative people, so this is not absolute protection.",
           "concept": "Innate resistance",
           "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI/view?usp=drivesdk",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Duffy negativity confers relative resistance, but documented vivax infection disproves complete immunity.",
+          "review_references": [
+            {
+              "title": "Vivax infection in Duffy-negative people — primary study",
+              "url": "https://doi.org/10.1073/pnas.0912496107"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI_15",
@@ -9714,7 +10214,7 @@
         },
         {
           "id": "ai_1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc_05",
-          "stem": "Which of the following best describes how ezetimibe lower cholesterol?",
+          "stem": "How does ezetimibe reduce intestinal cholesterol absorption?",
           "options": {
             "A": "They bind bile acids in the gut, forcing hepatic cholesterol use and increasing LDL receptors.",
             "B": "They activate PPAR-α, increasing lipoprotein lipase activity and fatty-acid oxidation.",
@@ -9729,7 +10229,17 @@
           "source_card_id": "1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc-c05",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair malformed mechanism wording.",
+          "review_references": [
+            {
+              "title": "Lipid-lowering drugs",
+              "url": "https://drive.google.com/file/d/1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc_06",
@@ -9790,7 +10300,7 @@
         },
         {
           "id": "ai_1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc_formcase01",
-          "stem": "A patient with dyslipidemia is started on drug therapy to reduce future atherosclerotic cardiovascular risk. Which statement best describes the main pharmacological target discussed in this lecture?",
+          "stem": "A patient starts a statin to lower LDL cholesterol. Which listed enzyme is its main pharmacological target?",
           "options": {
             "A": "Hypertriglyceridemia.",
             "B": "Large reduction in LDL cholesterol.",
@@ -9807,7 +10317,17 @@
           "quality_status": "pass",
           "exam_ready": true,
           "case_style": "formative_short_case",
-          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36",
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "The lecture contains multiple lipid-drug targets; specify a statin.",
+          "review_references": [
+            {
+              "title": "Lipid-lowering drugs",
+              "url": "https://drive.google.com/file/d/1Ad9687UkJX5AjEidhtg7C-sct4ybXyZc/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         }
       ],
       "eligibility_status": "allowed",
@@ -9849,7 +10369,7 @@
         },
         {
           "id": "ai_1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92_02",
-          "stem": "Which of the following best describes calcineurin inhibitors suppress?",
+          "stem": "Which processes are suppressed by calcineurin inhibitors?",
           "options": {
             "A": "Nephrotoxicity.",
             "B": "It inhibits mTOR, blocking response to IL-2 and T-cell proliferation.",
@@ -9864,11 +10384,21 @@
           "source_card_id": "1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92-c02",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair malformed drug-mechanism wording.",
+          "review_references": [
+            {
+              "title": "Immunosuppressants and modulators",
+              "url": "https://drive.google.com/file/d/1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92_03",
-          "stem": "Name two calcineurin inhibitors.?",
+          "stem": "Which listed pair contains calcineurin inhibitors?",
           "options": {
             "A": "It inhibits mTOR, blocking response to IL-2 and T-cell proliferation.",
             "B": "Cyclosporine and tacrolimus.",
@@ -9883,7 +10413,17 @@
           "source_card_id": "1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92-c03",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair malformed drug-mechanism wording.",
+          "review_references": [
+            {
+              "title": "Immunosuppressants and modulators",
+              "url": "https://drive.google.com/file/d/1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92_04",
@@ -9906,7 +10446,7 @@
         },
         {
           "id": "ai_1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92_05",
-          "stem": "Which of the following best describes how sirolimus suppress T cells?",
+          "stem": "How does sirolimus suppress T-cell proliferation?",
           "options": {
             "A": "It inhibits IMP dehydrogenase and de novo guanine synthesis, especially affecting lymphocytes.",
             "B": "Broad suppression of inflammatory gene transcription and cytokine production.",
@@ -9921,11 +10461,21 @@
           "source_card_id": "1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92-c05",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair malformed drug-mechanism wording.",
+          "review_references": [
+            {
+              "title": "Immunosuppressants and modulators",
+              "url": "https://drive.google.com/file/d/1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92_06",
-          "stem": "Which of the following best describes how mycophenolate suppress lymphocytes?",
+          "stem": "How does mycophenolate suppress lymphocyte proliferation?",
           "options": {
             "A": "It inhibits mTOR, blocking response to IL-2 and T-cell proliferation.",
             "B": "It is converted to 6-mercaptopurine metabolites that inhibit purine synthesis.",
@@ -9940,11 +10490,21 @@
           "source_card_id": "1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92-c06",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair malformed drug-mechanism wording.",
+          "review_references": [
+            {
+              "title": "Immunosuppressants and modulators",
+              "url": "https://drive.google.com/file/d/1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92_07",
-          "stem": "Which of the following best describes how azathioprine work?",
+          "stem": "How does azathioprine suppress purine synthesis?",
           "options": {
             "A": "It inhibits mTOR, blocking response to IL-2 and T-cell proliferation.",
             "B": "It is converted to 6-mercaptopurine metabolites that inhibit purine synthesis.",
@@ -9959,7 +10519,17 @@
           "source_card_id": "1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92-c07",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair malformed drug-mechanism wording.",
+          "review_references": [
+            {
+              "title": "Immunosuppressants and modulators",
+              "url": "https://drive.google.com/file/d/1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92_08",
@@ -9982,7 +10552,7 @@
         },
         {
           "id": "ai_1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92_formcase01",
-          "stem": "A transplant recipient is started on an immunosuppressive drug to reduce lymphocyte activation. Which statement best describes the drug mechanism discussed in this lecture?",
+          "stem": "A transplant recipient receives a glucocorticoid. Which listed mechanism explains its immunosuppressive action?",
           "options": {
             "A": "It inhibits mTOR, blocking response to IL-2 and T-cell proliferation.",
             "B": "It inhibits folate-dependent nucleotide metabolism and has anti-inflammatory effects at low doses.",
@@ -9999,7 +10569,17 @@
           "quality_status": "pass",
           "exam_ready": true,
           "case_style": "formative_short_case",
-          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36",
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Every option described an immunosuppressant; specify the drug class.",
+          "review_references": [
+            {
+              "title": "Immunosuppressants and modulators",
+              "url": "https://drive.google.com/file/d/1AlrbKe2S37TNNElgjcVAtdfFlSMXrQ92/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         }
       ],
       "eligibility_status": "allowed",
@@ -10041,7 +10621,7 @@
         },
         {
           "id": "ai_1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG_02",
-          "stem": "Which of the following best explains why is epinephrine effective in anaphylaxis?",
+          "stem": "Why is epinephrine effective in anaphylaxis?",
           "options": {
             "A": "They suppress inflammatory gene expression and late-phase inflammation.",
             "B": "They do not rapidly reverse airway edema, bronchospasm, or shock.",
@@ -10056,7 +10636,17 @@
           "source_card_id": "1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG-c02",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair duplicated why wording.",
+          "review_references": [
+            {
+              "title": "Pharmacotherapy of hypersensitivity",
+              "url": "https://drive.google.com/file/d/1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG_03",
@@ -10098,7 +10688,7 @@
         },
         {
           "id": "ai_1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG_05",
-          "stem": "Which of the following best explains why are antihistamines not a substitute for epinephrine in anaphylaxis?",
+          "stem": "Why are antihistamines not a substitute for epinephrine in anaphylaxis?",
           "options": {
             "A": "They suppress inflammatory gene expression and late-phase inflammation.",
             "B": "They enter the CNS and commonly cause sedation and anticholinergic effects.",
@@ -10113,7 +10703,17 @@
           "source_card_id": "1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG-c05",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair duplicated why wording.",
+          "review_references": [
+            {
+              "title": "Pharmacotherapy of hypersensitivity",
+              "url": "https://drive.google.com/file/d/1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG_06",
@@ -10174,7 +10774,7 @@
         },
         {
           "id": "ai_1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG_formcase01",
-          "stem": "A patient presents with an acute allergic reaction and requires pharmacological treatment. Which statement best matches the drug action discussed in this lecture?",
+          "stem": "Following allergen exposure, a patient develops hypotension, wheezing and throat swelling consistent with anaphylaxis. Which listed treatment is first-line?",
           "options": {
             "A": "Histamine H1 receptors.",
             "B": "Less CNS penetration and therefore less sedation.",
@@ -10191,7 +10791,17 @@
           "quality_status": "pass",
           "exam_ready": true,
           "case_style": "formative_short_case",
-          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36",
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "A nonspecific allergic reaction does not always require epinephrine; establish anaphylaxis.",
+          "review_references": [
+            {
+              "title": "Pharmacotherapy of hypersensitivity",
+              "url": "https://drive.google.com/file/d/1P-bMKBAUXkghXZwvLcwVxRLQp9OQbygG/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         }
       ],
       "eligibility_status": "allowed",
@@ -10214,7 +10824,7 @@
       "questions": [
         {
           "id": "ai_11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP_01",
-          "stem": "Which of the following best describes how unfractionated heparin act?",
+          "stem": "How does unfractionated heparin produce anticoagulation?",
           "options": {
             "A": "They inhibit factor Xa more selectively and have more predictable pharmacokinetics.",
             "B": "Protein C falls rapidly before several procoagulant factors, creating transient hypercoagulability.",
@@ -10229,7 +10839,17 @@
           "source_card_id": "11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP-c01",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair malformed pharmacology wording.",
+          "review_references": [
+            {
+              "title": "Drugs affecting haemostasis",
+              "url": "https://drive.google.com/file/d/11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP_02",
@@ -10290,7 +10910,7 @@
         },
         {
           "id": "ai_11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP_05",
-          "stem": "Which of the following best describes how warfarin work?",
+          "stem": "How does warfarin inhibit production of functional clotting factors?",
           "options": {
             "A": "Protein C falls rapidly before several procoagulant factors, creating transient hypercoagulability.",
             "B": "They inhibit factor Xa more selectively and have more predictable pharmacokinetics.",
@@ -10305,7 +10925,17 @@
           "source_card_id": "11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP-c05",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair malformed pharmacology wording.",
+          "review_references": [
+            {
+              "title": "Drugs affecting haemostasis",
+              "url": "https://drive.google.com/file/d/11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP_06",
@@ -10328,7 +10958,7 @@
         },
         {
           "id": "ai_11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP_07",
-          "stem": "Which of the following best explains why can warfarin initially be prothrombotic?",
+          "stem": "Why can warfarin initially produce a transient prothrombotic state?",
           "options": {
             "A": "It inhibits vitamin K epoxide reductase, reducing activation of factors II, VII, IX, X and proteins C/S.",
             "B": "Protein C falls rapidly before several procoagulant factors, creating transient hypercoagulability.",
@@ -10343,11 +10973,21 @@
           "source_card_id": "11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP-c07",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair malformed pharmacology wording.",
+          "review_references": [
+            {
+              "title": "Drugs affecting haemostasis",
+              "url": "https://drive.google.com/file/d/11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP_08",
-          "stem": "Which of the following best describes direct factor Xa inhibitors examples?",
+          "stem": "Which listed pair contains direct factor Xa inhibitors?",
           "options": {
             "A": "Apixaban and rivaroxaban.",
             "B": "Protamine sulfate.",
@@ -10362,11 +11002,21 @@
           "source_card_id": "11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP-c08",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair malformed pharmacology wording.",
+          "review_references": [
+            {
+              "title": "Drugs affecting haemostasis",
+              "url": "https://drive.google.com/file/d/11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP_formcase01",
-          "stem": "A patient with an acute thromboembolic disorder requires treatment that alters coagulation. Which statement best describes the drug action discussed in this lecture?",
+          "stem": "A patient receives unfractionated heparin for acute thrombosis. Which listed mechanism explains its anticoagulant action?",
           "options": {
             "A": "They inhibit factor Xa more selectively and have more predictable pharmacokinetics.",
             "B": "Protein C falls rapidly before several procoagulant factors, creating transient hypercoagulability.",
@@ -10383,7 +11033,17 @@
           "quality_status": "pass",
           "exam_ready": true,
           "case_style": "formative_short_case",
-          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36",
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "The original generic stem did not specify a drug, while several choices described anticoagulants.",
+          "review_references": [
+            {
+              "title": "Drugs affecting haemostasis",
+              "url": "https://drive.google.com/file/d/11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         }
       ],
       "eligibility_status": "allowed",
@@ -10425,7 +11085,7 @@
         },
         {
           "id": "ai_1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY_02",
-          "stem": "Which of the following is the correct location of oral iron best absorbed?",
+          "stem": "Where is oral iron primarily absorbed?",
           "options": {
             "A": "Oral iron, if tolerated and absorption is adequate.",
             "B": "Erythroid progenitor proliferation and RBC production.",
@@ -10440,7 +11100,17 @@
           "source_card_id": "1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY-c02",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair malformed question wording.",
+          "review_references": [
+            {
+              "title": "Treatment of anaemia",
+              "url": "https://drive.google.com/file/d/1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY_03",
@@ -10501,7 +11171,7 @@
         },
         {
           "id": "ai_1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY_06",
-          "stem": "Which of the following best explains why must vitamin B12 deficiency be excluded before giving folate alone?",
+          "stem": "Why must vitamin B12 deficiency be assessed before giving folate alone?",
           "options": {
             "A": "Vitamin B12 replacement, orally at adequate dose or parenterally when needed.",
             "B": "GI upset, constipation, abdominal discomfort, and dark stools.",
@@ -10516,11 +11186,21 @@
           "source_card_id": "1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY-c06",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair malformed question wording.",
+          "review_references": [
+            {
+              "title": "Treatment of anaemia",
+              "url": "https://drive.google.com/file/d/1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY_07",
-          "stem": "Which of the following best describes how vitamin B12 deficiency treated?",
+          "stem": "How is vitamin B12 deficiency treated?",
           "options": {
             "A": "Erythroid progenitor proliferation and RBC production.",
             "B": "Vitamin B12 replacement, orally at adequate dose or parenterally when needed.",
@@ -10535,11 +11215,21 @@
           "source_card_id": "1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY-c07",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair malformed question wording.",
+          "review_references": [
+            {
+              "title": "Treatment of anaemia",
+              "url": "https://drive.google.com/file/d/1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY_08",
-          "stem": "Which of the following best describes erythropoietin therapy stimulate?",
+          "stem": "What does erythropoietin therapy stimulate?",
           "options": {
             "A": "Erythroid progenitor proliferation and RBC production.",
             "B": "Oral iron, if tolerated and absorption is adequate.",
@@ -10554,7 +11244,17 @@
           "source_card_id": "1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY-c08",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair malformed question wording.",
+          "review_references": [
+            {
+              "title": "Treatment of anaemia",
+              "url": "https://drive.google.com/file/d/1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY_case01",
@@ -10641,7 +11341,7 @@
           "options": {
             "A": "Major bleeding, especially intracranial hemorrhage.",
             "B": "Catheter-based therapy or surgical embolectomy in selected patients.",
-            "C": "Direct oral anticoagulants or warfarin, depending on patient factors.",
+            "C": "Antiplatelet monotherapy instead of anticoagulation",
             "D": "Anticoagulation."
           },
           "answer": "D",
@@ -10652,11 +11352,21 @@
           "source_card_id": "1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D-c01",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Oral anticoagulant agents overlap the correct anticoagulation strategy; remove that second plausible answer.",
+          "review_references": [
+            {
+              "title": "Drug treatment of pulmonary embolism",
+              "url": "https://drive.google.com/file/d/1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D_02",
-          "stem": "Which of the following best explains why is anticoagulation used in PE?",
+          "stem": "Why is anticoagulation used in pulmonary embolism?",
           "options": {
             "A": "LMWH, unfractionated heparin, or fondaparinux depending on the clinical setting.",
             "B": "Primarily in high-risk PE with hemodynamic instability, if bleeding risk permits.",
@@ -10671,7 +11381,17 @@
           "source_card_id": "1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D-c02",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair duplicated why wording.",
+          "review_references": [
+            {
+              "title": "Drug treatment of pulmonary embolism",
+              "url": "https://drive.google.com/file/d/1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D_03",
@@ -10694,7 +11414,7 @@
         },
         {
           "id": "ai_1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D_04",
-          "stem": "Which of the following best explains why might UFH be chosen in an unstable PE patient?",
+          "stem": "Why might unfractionated heparin be chosen in an unstable patient with pulmonary embolism?",
           "options": {
             "A": "Rapid onset/offset and reversibility are useful when procedures or thrombolysis may be needed.",
             "B": "It prevents clot extension and new thrombosis while endogenous fibrinolysis resolves the embolus.",
@@ -10709,7 +11429,17 @@
           "source_card_id": "1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D-c04",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair duplicated why wording.",
+          "review_references": [
+            {
+              "title": "Drug treatment of pulmonary embolism",
+              "url": "https://drive.google.com/file/d/1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D_05",
@@ -10793,7 +11523,7 @@
           "options": {
             "A": "Major bleeding, especially intracranial hemorrhage.",
             "B": "Catheter-based therapy or surgical embolectomy in selected patients.",
-            "C": "Direct oral anticoagulants or warfarin, depending on patient factors.",
+            "C": "Antiplatelet monotherapy instead of anticoagulation",
             "D": "Anticoagulation."
           },
           "answer": "D",
@@ -10806,7 +11536,17 @@
           "quality_status": "pass",
           "exam_ready": true,
           "case_style": "formative_short_case",
-          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36",
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Oral anticoagulant agents overlap the correct anticoagulation strategy; remove that second plausible answer.",
+          "review_references": [
+            {
+              "title": "Drug treatment of pulmonary embolism",
+              "url": "https://drive.google.com/file/d/1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         }
       ],
       "eligibility_status": "allowed",
@@ -10829,7 +11569,7 @@
       "questions": [
         {
           "id": "ai_1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO_01",
-          "stem": "Which of the following best describes how aspirin inhibit platelets?",
+          "stem": "How does aspirin inhibit platelet activation?",
           "options": {
             "A": "Platelets cannot synthesize new COX because they lack nuclei.",
             "B": "Arterial thrombi are platelet-rich because of high shear stress.",
@@ -10844,11 +11584,21 @@
           "source_card_id": "1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO-c01",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair malformed wording and specify the pharmacological mechanism.",
+          "review_references": [
+            {
+              "title": "Antiplatelet drugs",
+              "url": "https://drive.google.com/file/d/1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO_02",
-          "stem": "Which of the following best explains why does aspirin's platelet effect last for the platelet lifespan?",
+          "stem": "After aspirin irreversibly inhibits platelet COX, why does the effect persist for most of that platelet’s lifespan?",
           "options": {
             "A": "It irreversibly inhibits COX-1, reducing thromboxane A₂ synthesis.",
             "B": "A prodrug P2Y12 inhibitor requiring hepatic activation.",
@@ -10863,11 +11613,21 @@
           "source_card_id": "1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO-c02",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair malformed wording and specify the pharmacological mechanism.",
+          "review_references": [
+            {
+              "title": "Antiplatelet drugs",
+              "url": "https://drive.google.com/file/d/1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO_03",
-          "stem": "Which of the following best describes P2Y12 inhibitors block?",
+          "stem": "Which signalling pathway is blocked by P2Y12 inhibitors?",
           "options": {
             "A": "Arterial thrombi are platelet-rich because of high shear stress.",
             "B": "ADP-mediated platelet activation through the P2Y12 receptor.",
@@ -10882,11 +11642,21 @@
           "source_card_id": "1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO-c03",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair malformed wording and specify the pharmacological mechanism.",
+          "review_references": [
+            {
+              "title": "Antiplatelet drugs",
+              "url": "https://drive.google.com/file/d/1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO_04",
-          "stem": "Name common oral P2Y12 inhibitors.?",
+          "stem": "Which listed group contains common oral P2Y12 inhibitors?",
           "options": {
             "A": "Clopidogrel, prasugrel, and ticagrelor.",
             "B": "GPIIb/IIIa, which binds fibrinogen.",
@@ -10901,7 +11671,17 @@
           "source_card_id": "1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO-c04",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair malformed wording and specify the pharmacological mechanism.",
+          "review_references": [
+            {
+              "title": "Antiplatelet drugs",
+              "url": "https://drive.google.com/file/d/1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO_05",
@@ -10943,7 +11723,7 @@
         },
         {
           "id": "ai_1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO_07",
-          "stem": "Which of the following best describes GPIIb/IIIa inhibitors do?",
+          "stem": "What is the effect of platelet GP IIb/IIIa receptor blockade?",
           "options": {
             "A": "Platelets cannot synthesize new COX because they lack nuclei.",
             "B": "Block the final common pathway of platelet aggregation.",
@@ -10958,11 +11738,21 @@
           "source_card_id": "1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO-c07",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair malformed wording and specify the pharmacological mechanism.",
+          "review_references": [
+            {
+              "title": "Antiplatelet drugs",
+              "url": "https://drive.google.com/file/d/1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO_08",
-          "stem": "Which of the following best explains why are antiplatelet drugs especially useful in arterial thrombosis?",
+          "stem": "Why are antiplatelet drugs particularly useful in arterial thrombosis?",
           "options": {
             "A": "Arterial thrombi are platelet-rich because of high shear stress.",
             "B": "Platelets cannot synthesize new COX because they lack nuclei.",
@@ -10977,11 +11767,21 @@
           "source_card_id": "1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO-c08",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair malformed wording and specify the pharmacological mechanism.",
+          "review_references": [
+            {
+              "title": "Antiplatelet drugs",
+              "url": "https://drive.google.com/file/d/1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO_formcase01",
-          "stem": "A patient undergoes coronary stent placement and requires antiplatelet therapy. Which statement best describes the platelet target discussed in this lecture?",
+          "stem": "A patient receives aspirin after coronary stent placement. Which statement describes aspirin’s antiplatelet mechanism?",
           "options": {
             "A": "Platelets cannot synthesize new COX because they lack nuclei.",
             "B": "Arterial thrombi are platelet-rich because of high shear stress.",
@@ -10998,7 +11798,17 @@
           "quality_status": "pass",
           "exam_ready": true,
           "case_style": "formative_short_case",
-          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36"
+          "formative_reference": "Coordinator Formative Quiz 1; especially short application/case pattern seen in Q18, Q19, Q24, Q27, Q28, Q30, Q36",
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "The broad stent-target question permits multiple antiplatelet mechanisms; specify aspirin.",
+          "review_references": [
+            {
+              "title": "Antiplatelet drugs",
+              "url": "https://drive.google.com/file/d/1dLo6npS30YOJjEO6EFzp8AAVTU6qUqlO/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         }
       ],
       "eligibility_status": "allowed",
@@ -11040,7 +11850,7 @@
         },
         {
           "id": "ai_1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ_02",
-          "stem": "Which of the following best explains why can an AP chest radiograph exaggerate heart size?",
+          "stem": "Why can an AP chest radiograph exaggerate heart size?",
           "options": {
             "A": "A cardiothoracic ratio greater than about 50%.",
             "B": "Posteroanterior (PA) view.",
@@ -11055,11 +11865,21 @@
           "source_card_id": "1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ-c02",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair the malformed radiology question.",
+          "review_references": [
+            {
+              "title": "Radiological anatomy of the heart",
+              "url": "https://drive.google.com/file/d/1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ_03",
-          "stem": "Which of the following best describes cardiomegaly on a PA chest X-ray commonly assessed by?",
+          "stem": "Which cardiothoracic ratio commonly suggests cardiomegaly on a well-inspired adult PA chest radiograph?",
           "options": {
             "A": "Superior vena cava.",
             "B": "A cardiothoracic ratio greater than about 50%.",
@@ -11074,7 +11894,17 @@
           "source_card_id": "1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ-c03",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair the malformed radiology question.",
+          "review_references": [
+            {
+              "title": "Radiological anatomy of the heart",
+              "url": "https://drive.google.com/file/d/1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ_04",
@@ -11154,7 +11984,7 @@
         },
         {
           "id": "ai_1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ_08",
-          "stem": "Which of the following best describes pulmonary vascular congestion suggest?",
+          "stem": "What does pulmonary venous vascular congestion commonly suggest?",
           "options": {
             "A": "Elevated pulmonary venous pressure, commonly from left-sided heart failure.",
             "B": "The heart is farther from the detector and is magnified.",
@@ -11169,7 +11999,17 @@
           "source_card_id": "1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ-c08",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair the malformed radiology question.",
+          "review_references": [
+            {
+              "title": "Radiological anatomy of the heart",
+              "url": "https://drive.google.com/file/d/1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ_case01",
@@ -11290,7 +12130,7 @@
         },
         {
           "id": "ai_1N29pF27p1UfkP79gdlrUFW-5WiTtgnEC_03",
-          "stem": "Which of the following is the correct location of the heart located within the mediastinum?",
+          "stem": "In which subdivision of the mediastinum is the heart located?",
           "options": {
             "A": "Between parietal and visceral serous pericardium.",
             "B": "Middle mediastinum.",
@@ -11305,7 +12145,17 @@
           "source_card_id": "1N29pF27p1UfkP79gdlrUFW-5WiTtgnEC-c03",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair the duplicated location wording.",
+          "review_references": [
+            {
+              "title": "Mediastinum and pericardium",
+              "url": "https://drive.google.com/file/d/1N29pF27p1UfkP79gdlrUFW-5WiTtgnEC/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1N29pF27p1UfkP79gdlrUFW-5WiTtgnEC_04",
@@ -11328,7 +12178,7 @@
         },
         {
           "id": "ai_1N29pF27p1UfkP79gdlrUFW-5WiTtgnEC_05",
-          "stem": "Which of the following best describes the visceral layer of serous pericardium called?",
+          "stem": "What is the visceral layer of serous pericardium called?",
           "options": {
             "A": "Middle mediastinum.",
             "B": "Anterior, middle, and posterior mediastina.",
@@ -11343,7 +12193,17 @@
           "source_card_id": "1N29pF27p1UfkP79gdlrUFW-5WiTtgnEC-c05",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair the malformed question.",
+          "review_references": [
+            {
+              "title": "Mediastinum and pericardium",
+              "url": "https://drive.google.com/file/d/1N29pF27p1UfkP79gdlrUFW-5WiTtgnEC/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1N29pF27p1UfkP79gdlrUFW-5WiTtgnEC_06",
@@ -11366,7 +12226,7 @@
         },
         {
           "id": "ai_1N29pF27p1UfkP79gdlrUFW-5WiTtgnEC_07",
-          "stem": "Which of the following best describes the transverse pericardial sinus located between?",
+          "stem": "Between which groups of structures does the transverse pericardial sinus lie?",
           "options": {
             "A": "Between parietal and visceral serous pericardium.",
             "B": "Arterial outflow (aorta/pulmonary trunk) and venous inflow structures.",
@@ -11381,7 +12241,17 @@
           "source_card_id": "1N29pF27p1UfkP79gdlrUFW-5WiTtgnEC-c07",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair the malformed question without changing its anatomical answer.",
+          "review_references": [
+            {
+              "title": "Mediastinum and pericardium",
+              "url": "https://drive.google.com/file/d/1N29pF27p1UfkP79gdlrUFW-5WiTtgnEC/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1N29pF27p1UfkP79gdlrUFW-5WiTtgnEC_08",
@@ -11501,7 +12371,7 @@
         },
         {
           "id": "ai_1wsoTpxTw6_QhMHqxYdLuxwHOvwXokQV5_04",
-          "stem": "Which of the following is the correct location of the apex beat normally found?",
+          "stem": "Where is the apex beat normally palpated in a healthy adult?",
           "options": {
             "A": "Left 5th intercostal space near the midclavicular line.",
             "B": "Left ventricle, with contribution from the left auricle.",
@@ -11516,7 +12386,17 @@
           "source_card_id": "1wsoTpxTw6_QhMHqxYdLuxwHOvwXokQV5-c04",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair the duplicated location wording.",
+          "review_references": [
+            {
+              "title": "External features of the heart and great vessels",
+              "url": "https://drive.google.com/file/d/1wsoTpxTw6_QhMHqxYdLuxwHOvwXokQV5/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1wsoTpxTw6_QhMHqxYdLuxwHOvwXokQV5_05",
@@ -11539,12 +12419,12 @@
         },
         {
           "id": "ai_1wsoTpxTw6_QhMHqxYdLuxwHOvwXokQV5_06",
-          "stem": "Which chamber forms most of the left border?",
+          "stem": "Which structures form the left border of the heart?",
           "options": {
-            "A": "External position of the interventricular septum.",
-            "B": "Left ventricle.",
-            "C": "Left ventricle, with contribution from the left auricle.",
-            "D": "Left 5th intercostal space near the midclavicular line."
+            "A": "Right atrium and superior vena cava",
+            "B": "Right ventricle alone",
+            "C": "Left ventricle with the left auricle",
+            "D": "Left atrium alone"
           },
           "answer": "C",
           "explanation": "Left ventricle, with contribution from the left auricle.",
@@ -11554,7 +12434,17 @@
           "source_card_id": "1wsoTpxTw6_QhMHqxYdLuxwHOvwXokQV5-c06",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Remove overlapping left-ventricular alternatives.",
+          "review_references": [
+            {
+              "title": "External features of the heart and great vessels",
+              "url": "https://drive.google.com/file/d/1wsoTpxTw6_QhMHqxYdLuxwHOvwXokQV5/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1wsoTpxTw6_QhMHqxYdLuxwHOvwXokQV5_07",
@@ -11577,7 +12467,7 @@
         },
         {
           "id": "ai_1wsoTpxTw6_QhMHqxYdLuxwHOvwXokQV5_08",
-          "stem": "Which of the following best describes interventricular grooves mark?",
+          "stem": "What do the interventricular grooves mark externally?",
           "options": {
             "A": "External position of the interventricular septum.",
             "B": "Left ventricle, with contribution from the left auricle.",
@@ -11592,7 +12482,17 @@
           "source_card_id": "1wsoTpxTw6_QhMHqxYdLuxwHOvwXokQV5-c08",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair the malformed anatomy question.",
+          "review_references": [
+            {
+              "title": "External features of the heart and great vessels",
+              "url": "https://drive.google.com/file/d/1wsoTpxTw6_QhMHqxYdLuxwHOvwXokQV5/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1wsoTpxTw6_QhMHqxYdLuxwHOvwXokQV5_formcase01",
@@ -11712,7 +12612,7 @@
         },
         {
           "id": "ai_1NCRD8jp124VR1jxrnCxtoTaJRJMtkx4w_05",
-          "stem": "Which of the following best describes chordae tendineae attached to?",
+          "stem": "Which structures are joined by chordae tendineae?",
           "options": {
             "A": "Tricuspid valve.",
             "B": "Crista terminalis.",
@@ -11727,7 +12627,17 @@
           "source_card_id": "1NCRD8jp124VR1jxrnCxtoTaJRJMtkx4w-c05",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair the malformed attachment question.",
+          "review_references": [
+            {
+              "title": "Internal features of the heart",
+              "url": "https://drive.google.com/file/d/1NCRD8jp124VR1jxrnCxtoTaJRJMtkx4w/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1NCRD8jp124VR1jxrnCxtoTaJRJMtkx4w_06",
@@ -11769,7 +12679,7 @@
         },
         {
           "id": "ai_1NCRD8jp124VR1jxrnCxtoTaJRJMtkx4w_08",
-          "stem": "Which of the following best describes the moderator band carry?",
+          "stem": "Which conduction-system component travels in the moderator band?",
           "options": {
             "A": "Part of the right bundle branch to the anterior papillary muscle/right ventricular wall.",
             "B": "A depression in the interatrial septum marking the fetal foramen ovale.",
@@ -11784,7 +12694,17 @@
           "source_card_id": "1NCRD8jp124VR1jxrnCxtoTaJRJMtkx4w-c08",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair the malformed conduction question.",
+          "review_references": [
+            {
+              "title": "Internal features of the heart",
+              "url": "https://drive.google.com/file/d/1NCRD8jp124VR1jxrnCxtoTaJRJMtkx4w/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1NCRD8jp124VR1jxrnCxtoTaJRJMtkx4w_formcase01",
@@ -11885,7 +12805,7 @@
         },
         {
           "id": "ai_1tktL6El76XzdSl3H9meqCkgYArLLaty7_04",
-          "stem": "Which of the following best describes the outer region of a lymph node called?",
+          "stem": "What is the outer follicle-containing region of a lymph node called?",
           "options": {
             "A": "Cortex.",
             "B": "Paracortex.",
@@ -11900,7 +12820,17 @@
           "source_card_id": "1tktL6El76XzdSl3H9meqCkgYArLLaty7-c04",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair malformed histology question wording.",
+          "review_references": [
+            {
+              "title": "Lymphatic-system histology",
+              "url": "https://drive.google.com/file/d/1tktL6El76XzdSl3H9meqCkgYArLLaty7/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1tktL6El76XzdSl3H9meqCkgYArLLaty7_05",
@@ -11961,7 +12891,7 @@
         },
         {
           "id": "ai_1tktL6El76XzdSl3H9meqCkgYArLLaty7_08",
-          "stem": "Which of the following best describes found in the lymph-node medulla?",
+          "stem": "Which structures characterize the lymph-node medulla?",
           "options": {
             "A": "Medullary cords containing plasma cells/lymphocytes and medullary sinuses.",
             "B": "Reticular connective tissue supporting lymphocytes and antigen-presenting cells.",
@@ -11976,7 +12906,17 @@
           "source_card_id": "1tktL6El76XzdSl3H9meqCkgYArLLaty7-c08",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair malformed histology question wording.",
+          "review_references": [
+            {
+              "title": "Lymphatic-system histology",
+              "url": "https://drive.google.com/file/d/1tktL6El76XzdSl3H9meqCkgYArLLaty7/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1tktL6El76XzdSl3H9meqCkgYArLLaty7_formcase01",
@@ -12020,7 +12960,7 @@
       "questions": [
         {
           "id": "ai_1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC_01",
-          "stem": "Which of the following best describes MALT stand for?",
+          "stem": "What does MALT stand for?",
           "options": {
             "A": "Tonsils, Peyer patches, and appendix.",
             "B": "Primarily in the ileum.",
@@ -12035,7 +12975,17 @@
           "source_card_id": "1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC-c01",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair malformed abbreviation question.",
+          "review_references": [
+            {
+              "title": "Mucosal immune-system histology",
+              "url": "https://drive.google.com/file/d/1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC_02",
@@ -12058,7 +13008,7 @@
         },
         {
           "id": "ai_1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC_03",
-          "stem": "Give major examples of organized MALT.?",
+          "stem": "Which listed structures are major examples of organized MALT?",
           "options": {
             "A": "Secretory IgA.",
             "B": "Tonsils, Peyer patches, and appendix.",
@@ -12073,7 +13023,17 @@
           "source_card_id": "1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC-c03",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair malformed examples question.",
+          "review_references": [
+            {
+              "title": "Mucosal immune-system histology",
+              "url": "https://drive.google.com/file/d/1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC_04",
@@ -12231,7 +13191,7 @@
         },
         {
           "id": "ai_1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM_02",
-          "stem": "Which of the following best describes are cardiac muscle cells arranged?",
+          "stem": "How are cardiac muscle cells typically arranged?",
           "options": {
             "A": "Specialized junctional complexes connecting adjacent cardiomyocytes mechanically and electrically.",
             "B": "A delicate endomysium rich in capillaries.",
@@ -12246,11 +13206,21 @@
           "source_card_id": "1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM-c02",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair the malformed arrangement question.",
+          "review_references": [
+            {
+              "title": "Histology of the myocardium",
+              "url": "https://drive.google.com/file/d/1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM_03",
-          "stem": "Which of the following best describes many nuclei do cardiomyocytes usually have?",
+          "stem": "How many nuclei does a typical cardiomyocyte contain?",
           "options": {
             "A": "Cardiac muscle.",
             "B": "One central nucleus, sometimes two.",
@@ -12265,7 +13235,17 @@
           "source_card_id": "1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM-c03",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair the malformed nuclear-count question.",
+          "review_references": [
+            {
+              "title": "Histology of the myocardium",
+              "url": "https://drive.google.com/file/d/1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM_04",
@@ -12326,7 +13306,7 @@
         },
         {
           "id": "ai_1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM_07",
-          "stem": "Which of the following best explains why are cardiomyocytes rich in mitochondria?",
+          "stem": "Why do cardiomyocytes contain abundant mitochondria?",
           "options": {
             "A": "A delicate endomysium rich in capillaries.",
             "B": "They require continuous aerobic ATP production for rhythmic contraction.",
@@ -12341,7 +13321,17 @@
           "source_card_id": "1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM-c07",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Repair the malformed physiology question.",
+          "review_references": [
+            {
+              "title": "Histology of the myocardium",
+              "url": "https://drive.google.com/file/d/1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM_08",
@@ -13032,12 +14022,22 @@
             "D": "Causes venoconstriction"
           },
           "answer": "C",
-          "explanation": "The autonomic-effects table lists no parasympathetic effect on ventricular muscle.",
+          "explanation": "In the simplified course comparison, the direct parasympathetic effect on ventricular contractility is relatively small, whereas effects on SA/AV nodes and atrial muscle are more prominent.",
           "concept": "Autonomic effects",
           "difficulty": "core",
           "style_profile": "MED25-test-bank/formative-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Qualify the simplified autonomic table; ventricular vagal effects are relatively limited rather than anatomically impossible.",
+          "review_references": [
+            {
+              "title": "Cardiac contractility",
+              "url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1a2GYFwVaioCMtkK4FhARroF7kphyGDwS_10",
@@ -13109,7 +14109,7 @@
         },
         {
           "id": "ai_1a2GYFwVaioCMtkK4FhARroF7kphyGDwS_14",
-          "stem": "A marked rise in mean arterial pressure above about 160 mmHg would be expected to:",
+          "stem": "With preload and intrinsic inotropic state initially unchanged, a marked acute rise in aortic pressure is expected to have which effect?",
           "options": {
             "A": "Increase shortening velocity and cardiac output",
             "B": "Decrease ventricular shortening and cardiac output",
@@ -13117,12 +14117,22 @@
             "D": "Increase vagal supply to ventricular muscle"
           },
           "answer": "B",
-          "explanation": "The lecture notes that very high aortic/arterial pressure increases afterload and can reduce ventricular force/shortening and cardiac output.",
+          "explanation": "An acute increase in afterload reduces shortening velocity and the extent of fibre shortening, tending to reduce stroke volume. Developed pressure can rise; this should not be described simply as reduced contraction force or as a universal pressure threshold.",
           "concept": "Afterload",
           "difficulty": "application",
           "style_profile": "MED25-test-bank/formative-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "A universal 160-mmHg threshold is not required; afterload reduces shortening rather than necessarily reducing developed force.",
+          "review_references": [
+            {
+              "title": "Cardiac contractility",
+              "url": "https://drive.google.com/file/d/16rtI7UNn7_Nzr7FcTUXYvxoimQx35b5x/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1a2GYFwVaioCMtkK4FhARroF7kphyGDwS_15",
@@ -13412,12 +14422,22 @@
             "D": "Increased afterload"
           },
           "answer": "B",
-          "explanation": "The lecture emphasizes vagal slowing of HR and notes no direct vagal supply to ventricular muscle.",
+          "explanation": "Vagal stimulation reduces cardiac output primarily by slowing sinoatrial firing and heart rate. Its direct ventricular inotropic effect is relatively limited compared with its nodal and atrial actions.",
           "concept": "Vagal effects",
           "difficulty": "understanding",
           "style_profile": "MED25-test-bank/formative-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Avoid the oversimplified claim that ventricles have no vagal innervation.",
+          "review_references": [
+            {
+              "title": "Cardiac output and its control",
+              "url": "https://drive.google.com/file/d/1rzreURT0TD2ajEGXKRIzad7b8VjudyNm/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1rzreURT0TD2ajEGXKRIzad7b8VjudyNm_14",
@@ -13446,12 +14466,22 @@
             "D": "Eliminates afterload"
           },
           "answer": "B",
-          "explanation": "Very high HR shortens filling time, reducing EDV/preload, contractility and cardiac output.",
+          "explanation": "Severe tachycardia shortens diastolic filling time and can reduce end-diastolic volume and stroke volume enough to lower cardiac output. Reduced preload should not be equated with a primary fall in intrinsic myocardial contractility.",
           "concept": "Heart rate and CO",
           "difficulty": "application",
           "style_profile": "MED25-test-bank/formative-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Reduced preload decreases length-dependent force, not intrinsic contractility by definition.",
+          "review_references": [
+            {
+              "title": "Cardiac output and its control",
+              "url": "https://drive.google.com/file/d/1rzreURT0TD2ajEGXKRIzad7b8VjudyNm/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1rzreURT0TD2ajEGXKRIzad7b8VjudyNm_16",
@@ -14290,7 +15320,7 @@
       "questions": [
         {
           "id": "ai_1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc_01",
-          "stem": "Which valve is most commonly affected by valvular heart disease in this lecture?",
+          "stem": "Which valve is most commonly involved in rheumatic valvular heart disease?",
           "options": {
             "A": "Aortic",
             "B": "Pulmonary",
@@ -14298,13 +15328,23 @@
             "D": "Tricuspid"
           },
           "answer": "C",
-          "explanation": "The mitral valve is stated to be the most commonly affected.",
+          "explanation": "The mitral valve is the most commonly involved valve in rheumatic heart disease. The relative frequency of all valvular diseases varies by population and age.",
           "concept": "General",
           "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc/view",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Most-common valve claims depend on age, population and disease type; specify rheumatic disease.",
+          "review_references": [
+            {
+              "title": "Valvular heart disease",
+              "url": "https://drive.google.com/file/d/1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc_02",
@@ -14524,7 +15564,7 @@
         },
         {
           "id": "ai_1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc_14",
-          "stem": "Which valve is always involved in chronic rheumatic heart disease according to the lecture?",
+          "stem": "Which valve is most frequently involved in chronic rheumatic heart disease?",
           "options": {
             "A": "Pulmonary",
             "B": "Tricuspid",
@@ -14532,13 +15572,23 @@
             "D": "Mitral"
           },
           "answer": "D",
-          "explanation": "The lecture states that chronic RHD always involves the mitral valve.",
+          "explanation": "Chronic rheumatic disease most often affects the mitral valve, sometimes with additional aortic involvement. Isolated non-mitral disease can occur, so always is too absolute.",
           "concept": "Chronic RHD",
           "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc/view",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Mitral involvement is common but not literally mandatory in every rheumatic-valve case.",
+          "review_references": [
+            {
+              "title": "Valvular heart disease",
+              "url": "https://drive.google.com/file/d/1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc_15",
@@ -14630,7 +15680,7 @@
         },
         {
           "id": "ai_1YijUiLChrPMhz8D8foBy2j1dVC1W98Pw_03",
-          "stem": "Thrombomodulin limits coagulation mainly by inhibiting which activated factors in this lecture?",
+          "stem": "Thrombin bound to endothelial thrombomodulin promotes protein C activation. Activated protein C then inactivates which cofactors?",
           "options": {
             "A": "Va and VIIIa",
             "B": "IIa and Xa directly",
@@ -14638,10 +15688,20 @@
             "D": "XI and XII"
           },
           "answer": "A",
-          "explanation": "The lecture lists thrombomodulin as inhibiting factors Va and VIIIa.",
+          "explanation": "Thrombomodulin changes thrombin substrate specificity toward protein C activation. Activated protein C, with protein S, proteolytically inactivates Va and VIIIa.",
           "concept": "Anticoagulation",
           "difficulty": "core",
-          "source_url": "https://drive.google.com/file/d/1YijUiLChrPMhz8D8foBy2j1dVC1W98Pw/view"
+          "source_url": "https://drive.google.com/file/d/1YijUiLChrPMhz8D8foBy2j1dVC1W98Pw/view",
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Thrombomodulin does not directly cleave Va and VIIIa; activated protein C does.",
+          "review_references": [
+            {
+              "title": "Vascular endothelium",
+              "url": "https://drive.google.com/file/d/1YijUiLChrPMhz8D8foBy2j1dVC1W98Pw/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1YijUiLChrPMhz8D8foBy2j1dVC1W98Pw_04",
@@ -14668,10 +15728,20 @@
             "D": "vWF"
           },
           "answer": "A",
-          "explanation": "tPA activates plasmin and promotes fibrin clot breakdown.",
+          "explanation": "Tissue plasminogen activator converts plasminogen to plasmin, which breaks down fibrin.",
           "concept": "Fibrinolysis",
           "difficulty": "core",
-          "source_url": "https://drive.google.com/file/d/1YijUiLChrPMhz8D8foBy2j1dVC1W98Pw/view"
+          "source_url": "https://drive.google.com/file/d/1YijUiLChrPMhz8D8foBy2j1dVC1W98Pw/view",
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "tPA activates plasminogen to form plasmin.",
+          "review_references": [
+            {
+              "title": "Vascular endothelium",
+              "url": "https://drive.google.com/file/d/1YijUiLChrPMhz8D8foBy2j1dVC1W98Pw/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1YijUiLChrPMhz8D8foBy2j1dVC1W98Pw_06",
@@ -15187,23 +16257,33 @@
           "id": "ai_endocarditis_2026_03",
           "stem": "Which organism is classically associated with subacute community-acquired endocarditis on a previously damaged valve?",
           "options": {
-            "A": "Streptococcus viridans",
+            "A": "Viridans-group streptococci",
             "B": "Staphylococcus aureus",
             "C": "Clostridium tetani",
             "D": "Mycobacterium tuberculosis"
           },
           "answer": "A",
-          "explanation": "The lecture associates S. viridans, normal oral flora, with community-acquired subacute IE on damaged/deformed valves.",
+          "explanation": "Viridans-group streptococci are oral flora classically associated with subacute infective endocarditis on previously damaged valves. The group contains multiple species.",
           "concept": "Causative organisms",
           "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1UmPRonzM9xUa8gWFSSIsoLR3K3tysAUE/view",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Viridans streptococci are a group rather than one species named Streptococcus viridans.",
+          "review_references": [
+            {
+              "title": "Infective endocarditis pathology",
+              "url": "https://www.ncbi.nlm.nih.gov/books/NBK557641/"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_endocarditis_2026_04",
-          "stem": "Which cardiac abnormality is identified in the lecture as the leading preexisting risk factor for infective endocarditis?",
+          "stem": "Which listed pre-existing valvular abnormality can predispose to infective endocarditis, particularly when accompanied by regurgitation?",
           "options": {
             "A": "Mitral valve prolapse",
             "B": "Atrial septal defect",
@@ -15211,13 +16291,23 @@
             "D": "Patent ductus arteriosus only"
           },
           "answer": "A",
-          "explanation": "Mitral valve prolapse is highlighted as the leading preexisting risk factor, alongside rheumatic disease, bicuspid aortic valve and calcific stenosis.",
+          "explanation": "Mitral valve prolapse with regurgitation increases IE risk. Risk also depends on prosthetic material, previous IE, other valve disease and exposure; it is not one universal leading factor in every population.",
           "concept": "Risk factors",
           "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1UmPRonzM9xUa8gWFSSIsoLR3K3tysAUE/view",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Leading risk-factor rankings vary by population and severity of valve disease; test the association without a universal ranking.",
+          "review_references": [
+            {
+              "title": "Infective endocarditis pathology",
+              "url": "https://www.ncbi.nlm.nih.gov/books/NBK557641/"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_endocarditis_2026_05",
@@ -15393,7 +16483,7 @@
             "D": "Libman–Sacks endocarditis"
           },
           "answer": "B",
-          "explanation": "An indolent weeks-to-months course with S. viridans on a damaged valve is the classic subacute pattern.",
+          "explanation": "Viridans-group streptococci are oral flora classically associated with subacute infective endocarditis on previously damaged valves. The group contains multiple species.",
           "concept": "IE case — subacute",
           "difficulty": "application",
           "source_url": "https://drive.google.com/file/d/1UmPRonzM9xUa8gWFSSIsoLR3K3tysAUE/view",
@@ -15401,7 +16491,17 @@
           "quality_status": "pass",
           "exam_ready": true,
           "case_style": "formative_short_case",
-          "formative_reference": "Endocarditis 2026-2027 lecture clinical application"
+          "formative_reference": "Endocarditis 2026-2027 lecture clinical application",
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Viridans streptococci are a group rather than one species named Streptococcus viridans.",
+          "review_references": [
+            {
+              "title": "Infective endocarditis pathology",
+              "url": "https://www.ncbi.nlm.nih.gov/books/NBK557641/"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_endocarditis_2026_15",
@@ -16136,7 +17236,7 @@
         },
         {
           "id": "ai_1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl_03",
-          "stem": "After myocardial infarction, cardiac troponins typically begin to rise after approximately:",
+          "stem": "In the traditional conventional-assay teaching model, cardiac troponin typically becomes detectable after approximately which interval?",
           "options": {
             "A": "2–5 minutes",
             "B": "3–12 hours",
@@ -16144,13 +17244,23 @@
             "D": "10–14 days"
           },
           "answer": "B",
-          "explanation": "The lecture gives a troponin rise at 3–12 hours after injury, averaging around 4–6 hours.",
+          "explanation": "These are traditional conventional-assay teaching comparisons. High-sensitivity cardiac troponin is preferred for current myocardial-injury assessment; early detection varies with the assay and clinical timing. Myoglobin lacks cardiac specificity.",
           "concept": "Troponin kinetics",
           "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl/view",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Qualify older kinetics so they do not override modern high-sensitivity troponin assessment.",
+          "review_references": [
+            {
+              "title": "Diagnostic cardiac markers",
+              "url": "https://drive.google.com/file/d/1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl_04",
@@ -16172,7 +17282,7 @@
         },
         {
           "id": "ai_1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl_05",
-          "stem": "Which marker rises fastest after myocardial infarction but is limited by poor cardiac specificity?",
+          "stem": "In traditional comparisons with conventional troponin assays, which marker rises early but is limited by poor cardiac specificity?",
           "options": {
             "A": "Myoglobin",
             "B": "Troponin T",
@@ -16180,13 +17290,23 @@
             "D": "BNP"
           },
           "answer": "A",
-          "explanation": "Myoglobin can rise at about 2 hours but is also present in skeletal muscle, limiting specificity.",
+          "explanation": "These are traditional conventional-assay teaching comparisons. High-sensitivity cardiac troponin is preferred for current myocardial-injury assessment; early detection varies with the assay and clinical timing. Myoglobin lacks cardiac specificity.",
           "concept": "Myoglobin",
           "difficulty": "understanding",
           "source_url": "https://drive.google.com/file/d/1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl/view",
           "style_profile": "KAU-past-paper-inspired",
           "quality_status": "pass",
-          "exam_ready": true
+          "exam_ready": true,
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Qualify older kinetics so they do not override modern high-sensitivity troponin assessment.",
+          "review_references": [
+            {
+              "title": "Diagnostic cardiac markers",
+              "url": "https://drive.google.com/file/d/1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl_06",
@@ -16340,7 +17460,7 @@
         },
         {
           "id": "ai_1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl_case04",
-          "stem": "A patient is evaluated only 2 hours after onset of possible MI. Which marker from the lecture may rise earliest but lacks cardiac specificity?",
+          "stem": "In the traditional conventional-assay comparison, which listed marker can rise within about two hours but lacks cardiac specificity?",
           "options": {
             "A": "Myoglobin",
             "B": "Troponin T",
@@ -16348,7 +17468,7 @@
             "D": "BNP"
           },
           "answer": "A",
-          "explanation": "Myoglobin may rise by about 2 hours, earlier than CK-MB or troponin, but it is not cardiac-specific.",
+          "explanation": "These are traditional conventional-assay teaching comparisons. High-sensitivity cardiac troponin is preferred for current myocardial-injury assessment; early detection varies with the assay and clinical timing. Myoglobin lacks cardiac specificity.",
           "concept": "Markers case — early MI",
           "difficulty": "application",
           "source_url": "https://drive.google.com/file/d/1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl/view",
@@ -16356,7 +17476,17 @@
           "quality_status": "pass",
           "exam_ready": true,
           "case_style": "formative_short_case",
-          "formative_reference": "Lecture-grounded clinical/application case"
+          "formative_reference": "Lecture-grounded clinical/application case",
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Qualify older kinetics so they do not override modern high-sensitivity troponin assessment.",
+          "review_references": [
+            {
+              "title": "Diagnostic cardiac markers",
+              "url": "https://drive.google.com/file/d/1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl_case05",
@@ -16474,7 +17604,7 @@
         },
         {
           "id": "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_06",
-          "stem": "A patient has an irregularly irregular narrow-complex tachycardia with no consistent P waves. Which strategy is appropriate for ventricular rate control?",
+          "stem": "A haemodynamically stable patient with preserved left ventricular systolic function has atrial fibrillation with a rapid narrow-complex ventricular response and no pre-excitation. Which listed rate-control strategy is appropriate?",
           "options": {
             "A": "Beta blocker or non-DHP calcium-channel blocker",
             "B": "Lidocaine only",
@@ -16486,7 +17616,17 @@
           "concept": "Atrial fibrillation",
           "difficulty": "application",
           "case_style": "formative_short_case",
-          "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view"
+          "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view",
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Non-DHP calcium-channel blockers are inappropriate in significant LV systolic dysfunction; supply the necessary setting.",
+          "review_references": [
+            {
+              "title": "Antiarrhythmic drugs",
+              "url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_07",
@@ -16506,7 +17646,7 @@
         },
         {
           "id": "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_08",
-          "stem": "A patient with tachyarrhythmia is hypotensive and confused but still has a pulse. What is the immediate treatment?",
+          "stem": "A patient has sustained monomorphic ventricular tachycardia with a pulse, causing hypotension and confusion. What is the immediate rhythm treatment?",
           "options": {
             "A": "Synchronized cardioversion",
             "B": "Oral flecainide",
@@ -16514,11 +17654,21 @@
             "D": "Observe for spontaneous conversion"
           },
           "answer": "A",
-          "explanation": "Hemodynamic instability with tachyarrhythmia and a pulse requires synchronized cardioversion before detailed drug selection.",
+          "explanation": "Haemodynamically unstable monomorphic VT with a pulse is treated with synchronized cardioversion. Polymorphic VT cannot be reliably synchronized and requires an unsynchronized high-energy shock; pulseless VT/VF requires defibrillation and CPR.",
           "concept": "Unstable tachyarrhythmia",
           "difficulty": "application",
           "case_style": "formative_short_case",
-          "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view"
+          "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view",
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Polymorphic VT needs an unsynchronized shock even with a pulse; specify an unstable synchronized-shock rhythm.",
+          "review_references": [
+            {
+              "title": "AHA 2025 adult advanced life support",
+              "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-advanced-life-support/"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_09",
@@ -16970,7 +18120,7 @@
         },
         {
           "id": "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_case10",
-          "stem": "A patient with tachyarrhythmia is hypotensive, confused and has acute heart failure but still has a pulse. What should be done before choosing an antiarrhythmic drug?",
+          "stem": "A patient has ischaemic chest pain, a blood pressure of 70/40 mmHg and a regular wide-complex rhythm consistent with monomorphic ventricular tachycardia. A pulse is present. Which immediate intervention is indicated?",
           "options": {
             "A": "Synchronized cardioversion",
             "B": "Wait for spontaneous conversion",
@@ -16978,7 +18128,7 @@
             "D": "Give adenosine regardless of rhythm"
           },
           "answer": "A",
-          "explanation": "The lecture's first clinical principle is to treat the unstable patient first: unstable tachyarrhythmia with a pulse requires synchronized cardioversion.",
+          "explanation": "Haemodynamically unstable monomorphic VT with a pulse is treated with synchronized cardioversion. Polymorphic VT cannot be reliably synchronized and requires an unsynchronized high-energy shock; pulseless VT/VF requires defibrillation and CPR.",
           "concept": "Antiarrhythmic case — unstable tachyarrhythmia",
           "difficulty": "application",
           "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view",
@@ -16986,7 +18136,17 @@
           "quality_status": "pass",
           "exam_ready": true,
           "case_style": "formative_short_case",
-          "formative_reference": "Lecture-grounded clinical/application case"
+          "formative_reference": "Lecture-grounded clinical/application case",
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Polymorphic VT needs an unsynchronized shock even with a pulse; specify an unstable synchronized-shock rhythm.",
+          "review_references": [
+            {
+              "title": "AHA 2025 adult advanced life support",
+              "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-advanced-life-support/"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         }
       ],
       "source_modified_time": "2026-10-01T07:13:01.397Z"
@@ -23028,7 +24188,7 @@
         },
         {
           "id": "ai_1cXA6kHp78EgwtKogm0hjSyXl5xZUjRvo_refresh20261016_12",
-          "stem": "Which first-line TB drug classically causes ototoxicity and nephrotoxicity?",
+          "stem": "Which listed antituberculous aminoglycoside classically causes ototoxicity and nephrotoxicity?",
           "options": {
             "A": "Isoniazid",
             "B": "Rifampicin",
@@ -23041,7 +24201,17 @@
           "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1cXA6kHp78EgwtKogm0hjSyXl5xZUjRvo/view",
           "exam_ready": true,
-          "style_profile": "KAU-past-paper-inspired"
+          "style_profile": "KAU-past-paper-inspired",
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Streptomycin is not a routine component of current first-line HRZE therapy.",
+          "review_references": [
+            {
+              "title": "Treatment of tuberculosis",
+              "url": "https://drive.google.com/file/d/1cXA6kHp78EgwtKogm0hjSyXl5xZUjRvo/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1cXA6kHp78EgwtKogm0hjSyXl5xZUjRvo_refresh20261016_13",
@@ -23768,7 +24938,7 @@
         },
         {
           "id": "ai_1B2Q4rBuD8P8U1hs_FEEl0XjGrYzojmbG_refresh20261016_07",
-          "stem": "What does pulmonary consolidation mean?",
+          "stem": "What does pulmonary consolidation represent in acute bacterial pneumonia?",
           "options": {
             "A": "Replacement of ribs by cartilage",
             "B": "Accumulation of air only in the pleural space",
@@ -23781,7 +24951,17 @@
           "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1B2Q4rBuD8P8U1hs_FEEl0XjGrYzojmbG/view",
           "exam_ready": true,
-          "style_profile": "KAU-past-paper-inspired"
+          "style_profile": "KAU-past-paper-inspired",
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Consolidation has causes other than exudate; specify bacterial pneumonia.",
+          "review_references": [
+            {
+              "title": "Pulmonary infection pathology",
+              "url": "https://drive.google.com/file/d/1B2Q4rBuD8P8U1hs_FEEl0XjGrYzojmbG/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1B2Q4rBuD8P8U1hs_FEEl0XjGrYzojmbG_refresh20261016_08",
@@ -24611,7 +25791,7 @@
         },
         {
           "id": "ai_1P9ENcjxf1Hk2GyLPZ5PjPDO7t7sKWhG5_refresh20261016_08",
-          "stem": "Pneumonia arising at least two days after admission is classified as what?",
+          "stem": "Pneumonia develops at least 48 hours after hospital admission and was not incubating on admission. How is it classified?",
           "options": {
             "A": "Community-acquired pneumonia by definition",
             "B": "Congenital pneumonia",
@@ -24624,7 +25804,17 @@
           "difficulty": "core",
           "source_url": "https://drive.google.com/file/d/1P9ENcjxf1Hk2GyLPZ5PjPDO7t7sKWhG5/view",
           "exam_ready": true,
-          "style_profile": "KAU-past-paper-inspired"
+          "style_profile": "KAU-past-paper-inspired",
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Include the not-incubating-at-admission criterion.",
+          "review_references": [
+            {
+              "title": "Lower respiratory tract infections",
+              "url": "https://drive.google.com/file/d/1P9ENcjxf1Hk2GyLPZ5PjPDO7t7sKWhG5/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1P9ENcjxf1Hk2GyLPZ5PjPDO7t7sKWhG5_refresh20261016_09",

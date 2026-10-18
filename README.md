@@ -59,3 +59,12 @@ Validation: `node tests/rs-module3-import.js`, `node tests/content-audit.js`, an
 ### Practical duplicate cleanup — 18 October 2026
 
 Previous Years and Practical filters are now mutually exclusive. Practical entries appear only in Practical. One separately stored duplicate using the identical radiograph, arrow, stem and options was merged; its source and saved progress migrate to the retained question. Different radiographs remain separate. Current total: 1,851 questions; Module 3 filters show 702 written and 88 practical questions.
+
+
+### RS Practical removal · 18 October 2026
+
+At the user’s request, all 88 questions from the RS Practical filter have been removed from the active question data, lecture mapping, explanation overrides, mocks and revision. The RS Practical filter is removed. The other 66 picture-based past-paper questions remain unchanged. There are now 1755 past-paper questions (1476 mock eligible). Original import and grading audits remain historical records; `rs-practical-removal.json` records the exact removals. Student account XP is unchanged.
+
+### Medical content corrections · 18 October 2026
+
+Published 488 corrections to question wording, answer keys or explanations. Forty-five ambiguous/incomplete recalls are explicitly ungraded and excluded from mocks. `medical-content-review.json` retains exact before/after records and references. Written questions have been checked; 41 retained picture questions still await individual visual verification. Revised study questions archive the old attempt and allow fresh practice without rewriting previously awarded account XP. Current mock-eligible past-paper count: 1,444.

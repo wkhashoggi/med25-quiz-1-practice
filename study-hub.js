@@ -17,9 +17,21 @@ function aiIsUnansweredMode(){return aiState.filter==='unanswered'||aiAdvanced.s
 let aiAdvanced={status:'all',subject:'',lectures:new Set()};
 let pastAdvanced={status:'all',subject:'',quiz:'',lectures:new Set()};
 
+let reviewedAIProgress=null,reviewedAILibrary=null;
 function aiProgress(){
   if(!saved.__ai_questions__||typeof saved.__ai_questions__!=='object')saved.__ai_questions__={};
-  return saved.__ai_questions__;
+  const progress=saved.__ai_questions__;
+  if(reviewedAIProgress!==progress||reviewedAILibrary!==aiLibrary){
+    reviewedAIProgress=progress;reviewedAILibrary=aiLibrary;let changed=false;
+    for(const q of aiAllQuestions()){
+      const old=progress[q.id];if(!old)continue;
+      if(q.review_revision&&old.review_revision!==q.review_revision){
+        progress[q.id]={...old,answered:false,selected:null,correct:null,revealed:false,review_revision:q.review_revision,previous_review_attempt:old.answered?{selected:old.selected,correct:old.correct,locked_at:old.locked_at}:old.previous_review_attempt};changed=true;
+      }else if(old.answered&&old.selected&&q.answer&&old.correct!==(old.selected===q.answer)){old.correct=old.selected===q.answer;changed=true;}
+    }
+    if(changed)try{localStorage.setItem(progressKey(),JSON.stringify(saved))}catch{}
+  }
+  return progress;
 }
 function aiAllQuestions(){
   return (aiLibrary.lecture_sets||[]).filter(s=>!s.archived&&s.eligibility_status==='allowed'&&s.quality_status==='pass').flatMap(set=>(set.questions||[]).map(q=>({...q,set_id:set.id,subject:set.subject,lecture_title:set.title,source_url:q.source_url||set.source_url||'',source_validation:set.source_validation||'pending_lecture_validation'})));
@@ -75,7 +87,7 @@ function aiCard(q){
   return '<article class="qcard aiCard" id="'+q.id+'">'+
     '<span class="reviewmark aiStar" data-ai-star="'+q.id+'" title="Star for review">'+(p.starred?'★':'☆')+'</span>'+
     '<div class="qtop aiTop"><div class="meta aiMeta">'+(q.case_style==='formative_short_case'?'<span class="pill caseStamp">CASE</span>':'')+'<span class="pill aiPill">'+esc(q.difficulty||'core')+'</span><span class="pill aiPill sgLecturePill">'+lectureLabel+'</span></div><span class="qnum examQuestionNumber">Question</span></div>'+
-    '<div class="stem aiStem">'+esc(q.stem)+'</div><div class="options aiOptions">'+opts+'</div>'+feedback+
+    '<div class="stem aiStem">'+esc(q.stem)+'</div>'+(q.medical_review_date&&typeof pastReviewDetails==='function'?pastReviewDetails(q,answered):'')+'<div class="options aiOptions">'+opts+'</div>'+feedback+
     '<div class="actions aiActions">'+(q.source_url?'<button class="btn aiBtn sourcebtn" data-ai-source="'+q.id+'">Open source lecture ↗</button>':'')+'<button class="btn aiBtn" data-ai-copy="'+q.id+'">Copy question</button></div></article>';
 }
 function bindAI(){
@@ -87,7 +99,7 @@ function bindAI(){
 function answerAI(id,opt){
   const q=aiAllQuestions().find(x=>x.id===id),p=aiProgress();if(!q||p[id]?.answered||!Object.prototype.hasOwnProperty.call(q.options||{},opt))return;
   if(aiIsUnansweredMode())aiUnansweredPagePins.add(id);
-  p[id]={...(p[id]||{}),answered:true,selected:opt,correct:opt===q.answer,locked_at:new Date().toISOString()};
+  p[id]={...(p[id]||{}),answered:true,selected:opt,correct:opt===q.answer,review_revision:q.review_revision||null,locked_at:new Date().toISOString()};
   aiSave();
   trackEvent('question_answer',{question_id:id,topic:q.concept||q.lecture_title||q.subject,metadata:{correct:opt===q.answer,first_attempt:true,source:'ai_generated'}});
   try{

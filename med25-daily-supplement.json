@@ -95,7 +95,7 @@
         },
         {
           "id": "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_06",
-          "stem": "A patient has an irregularly irregular narrow-complex tachycardia with no consistent P waves. Which strategy is appropriate for ventricular rate control?",
+          "stem": "A haemodynamically stable patient with preserved left ventricular systolic function has atrial fibrillation with a rapid narrow-complex ventricular response and no pre-excitation. Which listed rate-control strategy is appropriate?",
           "options": {
             "A": "Beta blocker or non-DHP calcium-channel blocker",
             "B": "Lidocaine only",
@@ -107,7 +107,17 @@
           "concept": "Atrial fibrillation",
           "difficulty": "application",
           "case_style": "formative_short_case",
-          "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view"
+          "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view",
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Non-DHP calcium-channel blockers are inappropriate in significant LV systolic dysfunction; supply the necessary setting.",
+          "review_references": [
+            {
+              "title": "Antiarrhythmic drugs",
+              "url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_07",
@@ -127,7 +137,7 @@
         },
         {
           "id": "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_08",
-          "stem": "A patient with tachyarrhythmia is hypotensive and confused but still has a pulse. What is the immediate treatment?",
+          "stem": "A patient has sustained monomorphic ventricular tachycardia with a pulse, causing hypotension and confusion. What is the immediate rhythm treatment?",
           "options": {
             "A": "Synchronized cardioversion",
             "B": "Oral flecainide",
@@ -135,11 +145,21 @@
             "D": "Observe for spontaneous conversion"
           },
           "answer": "A",
-          "explanation": "Hemodynamic instability with tachyarrhythmia and a pulse requires synchronized cardioversion before detailed drug selection.",
+          "explanation": "Haemodynamically unstable monomorphic VT with a pulse is treated with synchronized cardioversion. Polymorphic VT cannot be reliably synchronized and requires an unsynchronized high-energy shock; pulseless VT/VF requires defibrillation and CPR.",
           "concept": "Unstable tachyarrhythmia",
           "difficulty": "application",
           "case_style": "formative_short_case",
-          "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view"
+          "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view",
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Polymorphic VT needs an unsynchronized shock even with a pulse; specify an unstable synchronized-shock rhythm.",
+          "review_references": [
+            {
+              "title": "AHA 2025 adult advanced life support",
+              "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-advanced-life-support/"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_09",
@@ -591,7 +611,7 @@
         },
         {
           "id": "ai_1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ_case10",
-          "stem": "A patient with tachyarrhythmia is hypotensive, confused and has acute heart failure but still has a pulse. What should be done before choosing an antiarrhythmic drug?",
+          "stem": "A patient has ischaemic chest pain, a blood pressure of 70/40 mmHg and a regular wide-complex rhythm consistent with monomorphic ventricular tachycardia. A pulse is present. Which immediate intervention is indicated?",
           "options": {
             "A": "Synchronized cardioversion",
             "B": "Wait for spontaneous conversion",
@@ -599,7 +619,7 @@
             "D": "Give adenosine regardless of rhythm"
           },
           "answer": "A",
-          "explanation": "The lecture's first clinical principle is to treat the unstable patient first: unstable tachyarrhythmia with a pulse requires synchronized cardioversion.",
+          "explanation": "Haemodynamically unstable monomorphic VT with a pulse is treated with synchronized cardioversion. Polymorphic VT cannot be reliably synchronized and requires an unsynchronized high-energy shock; pulseless VT/VF requires defibrillation and CPR.",
           "concept": "Antiarrhythmic case — unstable tachyarrhythmia",
           "difficulty": "application",
           "source_url": "https://drive.google.com/file/d/1rPW7BEro_WkYTb5A9GdvRdIItDxrFRDZ/view",
@@ -607,7 +627,17 @@
           "quality_status": "pass",
           "exam_ready": true,
           "case_style": "formative_short_case",
-          "formative_reference": "Lecture-grounded clinical/application case"
+          "formative_reference": "Lecture-grounded clinical/application case",
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Polymorphic VT needs an unsynchronized shock even with a pulse; specify an unstable synchronized-shock rhythm.",
+          "review_references": [
+            {
+              "title": "AHA 2025 adult advanced life support",
+              "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-advanced-life-support/"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         }
       ],
       "source_modified_time": "2026-10-01T07:13:01.397Z"
@@ -1250,7 +1280,7 @@
         },
         {
           "id": "ai_1YijUiLChrPMhz8D8foBy2j1dVC1W98Pw_03",
-          "stem": "Thrombomodulin limits coagulation mainly by inhibiting which activated factors in this lecture?",
+          "stem": "Thrombin bound to endothelial thrombomodulin promotes protein C activation. Activated protein C then inactivates which cofactors?",
           "options": {
             "A": "Va and VIIIa",
             "B": "IIa and Xa directly",
@@ -1258,10 +1288,20 @@
             "D": "XI and XII"
           },
           "answer": "A",
-          "explanation": "The lecture lists thrombomodulin as inhibiting factors Va and VIIIa.",
+          "explanation": "Thrombomodulin changes thrombin substrate specificity toward protein C activation. Activated protein C, with protein S, proteolytically inactivates Va and VIIIa.",
           "concept": "Anticoagulation",
           "difficulty": "core",
-          "source_url": "https://drive.google.com/file/d/1YijUiLChrPMhz8D8foBy2j1dVC1W98Pw/view"
+          "source_url": "https://drive.google.com/file/d/1YijUiLChrPMhz8D8foBy2j1dVC1W98Pw/view",
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "Thrombomodulin does not directly cleave Va and VIIIa; activated protein C does.",
+          "review_references": [
+            {
+              "title": "Vascular endothelium",
+              "url": "https://drive.google.com/file/d/1YijUiLChrPMhz8D8foBy2j1dVC1W98Pw/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1YijUiLChrPMhz8D8foBy2j1dVC1W98Pw_04",
@@ -1288,10 +1328,20 @@
             "D": "vWF"
           },
           "answer": "A",
-          "explanation": "tPA activates plasmin and promotes fibrin clot breakdown.",
+          "explanation": "Tissue plasminogen activator converts plasminogen to plasmin, which breaks down fibrin.",
           "concept": "Fibrinolysis",
           "difficulty": "core",
-          "source_url": "https://drive.google.com/file/d/1YijUiLChrPMhz8D8foBy2j1dVC1W98Pw/view"
+          "source_url": "https://drive.google.com/file/d/1YijUiLChrPMhz8D8foBy2j1dVC1W98Pw/view",
+          "medical_review_date": "2026-10-18",
+          "medical_review_status": "corrected",
+          "review_note": "tPA activates plasminogen to form plasmin.",
+          "review_references": [
+            {
+              "title": "Vascular endothelium",
+              "url": "https://drive.google.com/file/d/1YijUiLChrPMhz8D8foBy2j1dVC1W98Pw/view"
+            }
+          ],
+          "review_revision": "medical-review-20261018-v1"
         },
         {
           "id": "ai_1YijUiLChrPMhz8D8foBy2j1dVC1W98Pw_06",

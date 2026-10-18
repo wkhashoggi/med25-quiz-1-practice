@@ -2,6 +2,16 @@
   "entries": [
     {
       "date": "18 October 2026",
+      "title": "Question wording and answer corrections",
+      "summary": "488 questions corrected across Past Papers and AI Questions, including answer keys, ambiguous wording and explanations. 45 incomplete or ambiguous recalls are ungraded and excluded from mocks. Reference links and correction notes accompany reviewed questions. Some retained picture questions still await visual verification."
+    },
+    {
+      "date": "18 October 2026",
+      "title": "RS Practical questions removed",
+      "summary": "Removed all 88 RS Practical questions from Past Papers, mock exams and revision. Other past-paper questions, including the 66 picture questions outside that filter, are retained."
+    },
+    {
+      "date": "18 October 2026",
       "title": "Bronchus question corrected",
       "summary": "The intrapulmonary-versus-extrapulmonary bronchus question now grades C: a distinct muscularis mucosae, as stated on course slide 15. Both have respiratory epithelium. The incorrect A bank key and older rewritten duplicate have been reconciled into one clarified question."
     },

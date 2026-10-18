@@ -2,66 +2,14 @@
   "entries": [
     {
       "date": "18 October 2026",
-      "title": "Question wording and answer corrections",
-      "summary": "488 questions corrected across Past Papers and AI Questions, including answer keys, ambiguous wording and explanations. 45 incomplete or ambiguous recalls are ungraded and excluded from mocks. Reference links and correction notes accompany reviewed questions. Some retained picture questions still await visual verification."
-    },
-    {
-      "date": "18 October 2026",
-      "title": "RS Practical questions removed",
-      "summary": "Removed all 88 RS Practical questions from Past Papers, mock exams and revision. Other past-paper questions, including the 66 picture questions outside that filter, are retained."
-    },
-    {
-      "date": "18 October 2026",
-      "title": "Bronchus question corrected",
-      "summary": "The intrapulmonary-versus-extrapulmonary bronchus question now grades C: a distinct muscularis mucosae, as stated on course slide 15. Both have respiratory epithelium. The incorrect A bank key and older rewritten duplicate have been reconciled into one clarified question."
-    },
-    {
-      "date": "18 October 2026",
-      "title": "AI-supplied answers and XP",
-      "summary": "153 more source entries independently answered (151 unique questions after merging repeats), with visible AI provenance and normal XP. Missing bank keys and present-but-unverified keys are distinguished. Reconstructed study questions are labelled. Twelve originals still lack a reliable question, figure or unique answer."
-    },
-    {
-      "date": "18 October 2026",
-      "title": "Lecture-checked grading and XP",
-      "summary": "99 previously ungraded source entries checked against lectures (94 unique questions after merging repeats). Correct first answers earn 7 XP; incorrect first answers earn 1 XP. Previously selected answers are credited on sign-in where wording and choices are unchanged. Reconstructed questions are labelled Adapted for study and allow a fresh attempt. 165 recalls remain ungraded pending missing context or lecture verification."
-    },
-    {
-      "date": "2026-10-18",
-      "title": "Respiratory past papers · Module 3",
-      "summary": "512 new entries; 373 repeated source appearances merged. Exact repeats have a separate count; recurring concepts are highlighted as high yield. Incomplete and practical recalls remain ungraded for review."
-    },
-    {
-      "date": "18 October 2026",
-      "title": "Quiz 2 past paper filters",
-      "summary": "Physiology Quiz 2 Important now includes all 40 source questions: 16 existing cardiovascular questions and 24 newly added respiratory questions. Separate shortcuts and bank filters select this set or the 30 Formative Quiz 2 questions. Existing answers and progress are preserved."
-    },
-    {
-      "date": "17 October 2026",
-      "title": "Quiz 2 formative questions",
-      "summary": "All 30 questions from Formative 2 BCR added to Past Papers under Coordinator Formative Quiz 2. 28 are graded; Q11 and Q16 are preserved ungraded for clarification. Q18 includes a note distinguishing metastatic tumors from primary cardiac myxoma."
-    },
-    {
-      "date": "16 October 2026",
-      "title": "Quiz 2 anatomy review + daily revision",
-      "summary": "90 anatomy/histology AI questions now have explanations for all four options. Seven questions have stronger distractors and two have clearer wording; answer keys and question IDs are unchanged. Daily revision, results by lecture, and practice of a specific mock exam’s missed questions are available. Other subjects still await detailed content review.",
-      "lectures": [
-        "Anatomy of thoracic wall",
-        "Nose and paranasal sinuses",
-        "Anatomy of the larynx",
-        "Anatomical relations of the lungs",
-        "Histology of the respiratory system",
-        "Development of the respiratory system"
+      "title": "All past papers uploaded",
+      "summary": "All past papers, formative questions and the Important Physiology file have been uploaded. To practise the exact questions from a file, go to Past Papers > Filters and choose:",
+      "instructions": [
+        "Formative Quiz 2 · 30 questions",
+        "Physiology Quiz 2 Important · 40 questions",
+        "RS Previous Years · Module 3",
+        "Coordinator formative (Quiz 1)"
       ]
-    },
-    {
-      "date": "16 October 2026",
-      "title": "Revision tools and question reports",
-      "summary": "Added lecture-filtered mistake practice, Quiz 2 scope, source coverage, accuracy tables, and question reports prepared for WhatsApp or email."
-    },
-    {
-      "date": "16 October 2026",
-      "title": "22 missing lecture sets added",
-      "summary": "Added 330 questions, including 15 for thoracic wall, after checking the available Drive lecture folders."
     }
   ]
 }

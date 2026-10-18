@@ -10,7 +10,7 @@ const map=JSON.parse(fs.readFileSync('question-study-guide-map.json'));
 assert.equal(byid.size,qs.length);
 assert.equal(qs.length,old.length+m.new_question_ids.length);
 assert.equal(m.occurrences.length,885);assert.equal(m.written_occurrences,797);assert.equal(m.practical_occurrences,88);
-assert.equal(m.merged_variants.length,373);
+assert.equal(m.merged_variants.length,374);
 for(const q of old){const now=byid.get(q.id);assert(now);for(const key of ['stem','options','answer','answer_text','exam_ready','quiz','lecture_id'])assert.deepEqual(now[key],q[key],q.id+': '+key);}
 assert.equal(new Set(m.occurrences.map(x=>x.source_question_id)).size,885);
 for(const x of m.occurrences){const q=byid.get(x.question_id);assert(q);assert(q.past_paper_sources.some(s=>s.source_question_id===x.source_question_id));assert(q.tags.includes(m.source_bank));}

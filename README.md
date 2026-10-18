@@ -55,3 +55,7 @@ Past Papers → Filters → Question set now includes **RS Previous Years · Mod
 Practical recalls, incomplete stems/choices, missing or ambiguous keys, and figure-dependent written recalls are retained as ungraded study material and excluded from mock exams until reviewed. Source-bank keys are labelled as such, not clinically validated. Three additional keys disagree with existing answers; a visible warning preserves the prior key. Source manifest, provenance, mapping and merge decisions: `rs-module3-import.json`.
 
 Validation: `node tests/rs-module3-import.js`, `node tests/content-audit.js`, and `node tests/reliability.js`.
+
+### Practical duplicate cleanup — 18 October 2026
+
+Previous Years and Practical filters are now mutually exclusive. Practical entries appear only in Practical. One separately stored duplicate using the identical radiograph, arrow, stem and options was merged; its source and saved progress migrate to the retained question. Different radiographs remain separate. Current total: 1,851 questions; Module 3 filters show 702 written and 88 practical questions.

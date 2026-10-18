@@ -6881,7 +6881,7 @@
     },
     {
       "source_question_id": "rs-module3-p232-q15",
-      "question_id": "rs-module3-p232-q15",
+      "question_id": "rs-module3-p205-q31",
       "page": 232,
       "number": "15",
       "practical": true,
@@ -7575,7 +7575,6 @@
     "rs-module3-p230-q12",
     "rs-module3-p231-q13",
     "rs-module3-p231-q14",
-    "rs-module3-p232-q15",
     "rs-module3-p232-q16",
     "rs-module3-p233-q19",
     "rs-module3-p233-q20",
@@ -12078,6 +12077,19 @@
         "D": "Inflammatory destruction of bronchial walls"
       },
       "source_answer": "A"
+    },
+    {
+      "source_question_id": "rs-module3-p232-q15",
+      "kept_id": "rs-module3-p205-q31",
+      "stem": "The arrow is pointing to:",
+      "options": {
+        "A": "Thoracic aorta",
+        "B": "Right ventricle",
+        "C": "Right atrium",
+        "D": "Inferior vena cava"
+      },
+      "source_answer": null,
+      "merge_reason": "Visually verified same chest radiograph, same arrow target, identical stem and choices; shown only in Practical."
     }
   ],
   "concept_groups": {
@@ -12355,8 +12367,13 @@
     "Exact normalized stem and option-text sets are merged; changes to choices remain distinct.",
     "Repeat counts describe source appearances, including the duplicate MED09 page in this supplied compilation.",
     "Practical recall keys are retained as unreviewed provenance and excluded from grading and exams.",
-    "Incomplete, ambiguous-key and figure-dependent written recalls are explicitly excluded from grading until reviewed."
+    "Incomplete, ambiguous-key and figure-dependent written recalls are explicitly excluded from grading until reviewed.",
+    "2026-10-18 cleanup: Previous Years excludes Practical entries. A visually verified duplicate chest-radiograph question is merged with a progress alias; different radiographs remain separate."
   ],
   "previous_commit": "36637095d974bfa81ed4517a9f8ce6dd5560d9db",
-  "unique_questions_in_source_set": 791
+  "unique_questions_in_source_set": 790,
+  "display_counts": {
+    "previous_years": 702,
+    "practical": 88
+  }
 }

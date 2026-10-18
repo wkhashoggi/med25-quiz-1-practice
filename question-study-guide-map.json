@@ -12420,6 +12420,3590 @@
       "title": "Chemical control of breathing",
       "quiz": 2,
       "method": "source_topic"
+    },
+    "rs-module3-p4-q18": {
+      "lecture_id": "pharmacology__drugs-affecting-hemostasis",
+      "subject": "Pharmacology",
+      "title": "Drugs affecting hemostasis",
+      "quiz": 1,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p4-q23": {
+      "lecture_id": "pharmacology__drugs-affecting-hemostasis",
+      "subject": "Pharmacology",
+      "title": "Drugs affecting hemostasis",
+      "quiz": 1,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p4-q27": {
+      "lecture_id": "pharmacology__drugs-affecting-hemostasis",
+      "subject": "Pharmacology",
+      "title": "Drugs affecting hemostasis",
+      "quiz": 1,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p5-q58": {
+      "lecture_id": "pharmacology__drugs-used-in-treatment-of-pulmonary-embolism",
+      "subject": "Pharmacology",
+      "title": "Drugs used in treatment of pulmonary Embolism",
+      "quiz": 1,
+      "method": "source_review"
+    },
+    "rs-module3-p8-q1": {
+      "lecture_id": "anatomy-histology__anatomical-relations-of-the-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomical relations of the lungs",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p8-q3": {
+      "lecture_id": "anatomy-histology__anatomical-relations-of-the-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomical relations of the lungs",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p8-q5": {
+      "lecture_id": "microbiology__lower-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Lower respiratory tract infections",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p8-q6": {
+      "lecture_id": "pathology__obstructive-airway-diseases",
+      "subject": "Pathology",
+      "title": "Obstructive airway diseases",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p9-q7": {
+      "lecture_id": "pathology__pulmonary-neoplasia",
+      "subject": "Pathology",
+      "title": "Pulmonary Neoplasia",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p9-q8": {
+      "lecture_id": "pathology__obstructive-airway-diseases",
+      "subject": "Pathology",
+      "title": "Obstructive airway diseases",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p9-q9": {
+      "lecture_id": "microbiology__lower-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Lower respiratory tract infections",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p9-q10": {
+      "lecture_id": "microbiology__lower-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Lower respiratory tract infections",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p10-q11": {
+      "lecture_id": "anatomy-histology__histology-of-the-respiratory-system",
+      "subject": "Anatomy & Histology",
+      "title": "Histology of the respiratory system",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p10-q13": {
+      "lecture_id": "anatomy-histology__histology-of-the-respiratory-system",
+      "subject": "Anatomy & Histology",
+      "title": "Histology of the respiratory system",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p10-q14": {
+      "lecture_id": "anatomy-histology__histology-of-the-respiratory-system",
+      "subject": "Anatomy & Histology",
+      "title": "Histology of the respiratory system",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p10-q15": {
+      "lecture_id": "anatomy-histology__histology-of-the-respiratory-system",
+      "subject": "Anatomy & Histology",
+      "title": "Histology of the respiratory system",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p11-q16": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-larynx",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the larynx",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p11-q17": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-larynx",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the larynx",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p11-q18": {
+      "lecture_id": "anatomy-histology__anatomical-relations-of-the-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomical relations of the lungs",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p11-q1": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-nose-and-paranasal-sinuses",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the nose and paranasal sinuses",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p11-q2": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-nose-and-paranasal-sinuses",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the nose and paranasal sinuses",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p12-q21": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-nose-and-paranasal-sinuses",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the nose and paranasal sinuses",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p12-q22": {
+      "lecture_id": "anatomy-histology__anatomical-relations-of-the-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomical relations of the lungs",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p12-q25": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-pleura-and-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the pleura and lungs",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p12-q26": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p13-q27": {
+      "lecture_id": "anatomy-histology__anatomy-of-thoracic-wall",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of thoracic Wall",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p13-q28": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p13-q30": {
+      "lecture_id": "pharmacology__treatment-of-tb",
+      "subject": "Pharmacology",
+      "title": "Treatment of TB",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p13-q31": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-nose-and-paranasal-sinuses",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the nose and paranasal sinuses",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p13-q32": {
+      "lecture_id": "physiology__pressure-volume-relationship-and-lung-compliance",
+      "subject": "Physiology",
+      "title": "Pressure-volume relationship and lung compliance",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p13-q33": {
+      "lecture_id": "physiology__gas-diffusion-and-plumonary-blood-flow",
+      "subject": "Physiology",
+      "title": "Gas diffusion and plumonary blood flow",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p14-q34": {
+      "lecture_id": "physiology__neural-control-of-breathing",
+      "subject": "Physiology",
+      "title": "Neural control of breathing",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p14-q35": {
+      "lecture_id": "physiology__neural-control-of-breathing",
+      "subject": "Physiology",
+      "title": "Neural control of breathing",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p14-q36": {
+      "lecture_id": "anatomy-histology__anatomy-of-thoracic-wall",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of thoracic Wall",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p14-q37": {
+      "lecture_id": "pathology__obstructive-airway-diseases",
+      "subject": "Pathology",
+      "title": "Obstructive airway diseases",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p15-q38": {
+      "lecture_id": "microbiology__upper-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Upper respiratory tract infections",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p16-q42": {
+      "lecture_id": "pharmacology__drug-therapy-of-respiratory-infections",
+      "subject": "Pharmacology",
+      "title": "Drug therapy of respiratory infections",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p16-q44": {
+      "lecture_id": "physiology__hypoxia-and-cyanosis",
+      "subject": "Physiology",
+      "title": "Hypoxia and cyanosis",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p17-q45": {
+      "lecture_id": "physiology__hypoxia-and-cyanosis",
+      "subject": "Physiology",
+      "title": "Hypoxia and cyanosis",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p17-q46.1": {
+      "lecture_id": "pathology__restrictive-airway-diseases",
+      "subject": "Pathology",
+      "title": "Restrictive airway diseases",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p17-q46.2": {
+      "lecture_id": "pathology__restrictive-airway-diseases",
+      "subject": "Pathology",
+      "title": "Restrictive airway diseases",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p18-q47": {
+      "lecture_id": "pathology__pulmonary-infection",
+      "subject": "Pathology",
+      "title": "Pulmonary infection",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p18-q48": {
+      "lecture_id": "microbiology__lower-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Lower respiratory tract infections",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p18-q49": {
+      "lecture_id": "pharmacology__drug-therapy-of-respiratory-infections",
+      "subject": "Pharmacology",
+      "title": "Drug therapy of respiratory infections",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p19-q51": {
+      "lecture_id": "pharmacology__drugs-used-in-the-treatment-of-bronchial-asthma",
+      "subject": "Pharmacology",
+      "title": "Drugs used in the treatment of bronchial asthma",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p19-q52": {
+      "lecture_id": "pharmacology__drugs-used-in-the-treatment-of-bronchial-asthma",
+      "subject": "Pharmacology",
+      "title": "Drugs used in the treatment of bronchial asthma",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p19-q53": {
+      "lecture_id": "pharmacology__drug-therapy-of-cough-and-copd-1",
+      "subject": "Pharmacology",
+      "title": "Drug therapy of cough and COPD 1",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p20-q55": {
+      "lecture_id": "microbiology__lower-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Lower respiratory tract infections",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p20-q56": {
+      "lecture_id": "pharmacology__treatment-of-tb",
+      "subject": "Pharmacology",
+      "title": "Treatment of TB",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p21-q59": {
+      "lecture_id": "anatomy-histology__development-of-the-respiratory-system",
+      "subject": "Anatomy & Histology",
+      "title": "Development of the respiratory system",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p21-q60": {
+      "lecture_id": "pathology__pathology-of-bronchial-asthma",
+      "subject": "Pathology",
+      "title": "Pathology of bronchial Asthma",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p21-q61": {
+      "lecture_id": "microbiology__upper-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Upper respiratory tract infections",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p21-q62": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-nose-and-paranasal-sinuses",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the nose and paranasal sinuses",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p22-q65": {
+      "lecture_id": "physiology__transport-of-oxygen-in-blood",
+      "subject": "Physiology",
+      "title": "Transport of oxygen in blood",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p22-q66": {
+      "lecture_id": "microbiology__lower-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Lower respiratory tract infections",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p22-q67": {
+      "lecture_id": "microbiology__upper-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Upper respiratory tract infections",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p22-q68": {
+      "lecture_id": "microbiology__lower-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Lower respiratory tract infections",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p22-q69": {
+      "lecture_id": "microbiology__lower-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Lower respiratory tract infections",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p23-q70": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-nose-and-paranasal-sinuses",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the nose and paranasal sinuses",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p23-q71": {
+      "lecture_id": "physiology__chemical-control-of-breathing",
+      "subject": "Physiology",
+      "title": "Chemical control of breathing",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p23-q72": {
+      "lecture_id": "anatomy-histology__histology-of-the-respiratory-system",
+      "subject": "Anatomy & Histology",
+      "title": "Histology of the respiratory system",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p23-q73": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-pleura-and-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the pleura and lungs",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p24-q74": {
+      "lecture_id": "pharmacology__treatment-of-tb",
+      "subject": "Pharmacology",
+      "title": "Treatment of TB",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p24-q75": {
+      "lecture_id": "microbiology__cystic-parasitic-diseases-of-the-lung",
+      "subject": "Microbiology",
+      "title": "Cystic parasitic diseases of the lung",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p24-q76": {
+      "lecture_id": "microbiology__lung-immunology-innate-acquired-immune-responses-in-respiratory-infections",
+      "subject": "Microbiology",
+      "title": "Lung immunology:Innate & acquired immune responses in respiratory infections",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p24-q77": {
+      "lecture_id": "microbiology__lower-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Lower respiratory tract infections",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p24-q78": {
+      "lecture_id": "pathology__pulmonary-neoplasia",
+      "subject": "Pathology",
+      "title": "Pulmonary Neoplasia",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p25-q79": {
+      "lecture_id": "pathology__pulmonary-neoplasia",
+      "subject": "Pathology",
+      "title": "Pulmonary Neoplasia",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p25-q80": {
+      "lecture_id": "pathology__obstructive-airway-diseases",
+      "subject": "Pathology",
+      "title": "Obstructive airway diseases",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p25-q81": {
+      "lecture_id": "pathology__restrictive-airway-diseases",
+      "subject": "Pathology",
+      "title": "Restrictive airway diseases",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p25-q82": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-pleura-and-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the pleura and lungs",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p25-q83": {
+      "lecture_id": "pathology__pulmonary-vessel-diseases",
+      "subject": "Pathology",
+      "title": "Pulmonary vessel diseases",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p25-q84": {
+      "lecture_id": "microbiology__lower-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Lower respiratory tract infections",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p26-q1": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-nose-and-paranasal-sinuses",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the nose and paranasal sinuses",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p26-q4": {
+      "lecture_id": "microbiology__verminous-pneumonia-parasitic-larvae-invading-lung",
+      "subject": "Microbiology",
+      "title": "Verminous pneumonia (Parasitic larvae invading lung)",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p27-q6": {
+      "lecture_id": "pharmacology__drug-therapy-of-respiratory-infections",
+      "subject": "Pharmacology",
+      "title": "Drug therapy of respiratory infections",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p28-q10": {
+      "lecture_id": "pathology__pathology-of-bronchial-asthma",
+      "subject": "Pathology",
+      "title": "Pathology of bronchial Asthma",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p28-q12": {
+      "lecture_id": "physiology__regulation-of-abp-cv-centers-short-term-regulation",
+      "subject": "Physiology",
+      "title": "Regulation of ABP (CV centers & short-term regulation)",
+      "quiz": 1,
+      "method": "source_review"
+    },
+    "rs-module3-p29-q13": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p29-q16": {
+      "lecture_id": "physiology__transport-of-oxygen-in-blood",
+      "subject": "Physiology",
+      "title": "Transport of oxygen in blood",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p30-q17": {
+      "lecture_id": "pathology__obstructive-airway-diseases",
+      "subject": "Pathology",
+      "title": "Obstructive airway diseases",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p31-q21": {
+      "lecture_id": "biochemistry__metabolic-functions-of-the-lung-and-pulmonary-surfactant",
+      "subject": "Biochemistry",
+      "title": "Metabolic functions of the lung and Pulmonary Surfactant",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p31-q23": {
+      "lecture_id": "anatomy-histology__anatomical-relations-of-the-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomical relations of the lungs",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p32-q24": {
+      "lecture_id": "pathology__obstructive-airway-diseases",
+      "subject": "Pathology",
+      "title": "Obstructive airway diseases",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p32-q26": {
+      "lecture_id": "pathology__pulmonary-infection",
+      "subject": "Pathology",
+      "title": "Pulmonary infection",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p32-q27": {
+      "lecture_id": "pathology__atelactasis-acute-lung-injury",
+      "subject": "Pathology",
+      "title": "Atelactasis & acute lung injury",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p33-q28": {
+      "lecture_id": "microbiology__upper-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Upper respiratory tract infections",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p34-q31": {
+      "lecture_id": "biochemistry__acid-base-homeostasis-and-the-role-of-the-respiratory-system",
+      "subject": "Biochemistry",
+      "title": "Acid-base homeostasis and the role of the respiratory system",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p34-q32": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-larynx",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the larynx",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p34-q33": {
+      "lecture_id": "biochemistry__acid-base-homeostasis-and-the-role-of-the-respiratory-system",
+      "subject": "Biochemistry",
+      "title": "Acid-base homeostasis and the role of the respiratory system",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p35-q34": {
+      "lecture_id": "physiology__gas-diffusion-and-plumonary-blood-flow",
+      "subject": "Physiology",
+      "title": "Gas diffusion and plumonary blood flow",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p35-q35": {
+      "lecture_id": "microbiology__lower-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Lower respiratory tract infections",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p35-q36": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p35-q37": {
+      "lecture_id": "physiology__transport-of-oxygen-in-blood",
+      "subject": "Physiology",
+      "title": "Transport of oxygen in blood",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p36-q38": {
+      "lecture_id": "microbiology__cystic-parasitic-diseases-of-the-lung",
+      "subject": "Microbiology",
+      "title": "Cystic parasitic diseases of the lung",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p36-q39": {
+      "lecture_id": "pathology__pathology-of-bronchial-asthma",
+      "subject": "Pathology",
+      "title": "Pathology of bronchial Asthma",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p37-q40": {
+      "lecture_id": "pathology__restrictive-airway-diseases",
+      "subject": "Pathology",
+      "title": "Restrictive airway diseases",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p37-q41": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-larynx",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the larynx",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p37-q42": {
+      "lecture_id": "biochemistry__metabolic-functions-of-the-lung-and-pulmonary-surfactant",
+      "subject": "Biochemistry",
+      "title": "Metabolic functions of the lung and Pulmonary Surfactant",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p38-q1": {
+      "lecture_id": "pharmacology__drugs-used-in-the-treatment-of-bronchial-asthma",
+      "subject": "Pharmacology",
+      "title": "Drugs used in the treatment of bronchial asthma",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p38-q2": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p38-q3": {
+      "lecture_id": "physiology__hypoxia-and-cyanosis",
+      "subject": "Physiology",
+      "title": "Hypoxia and cyanosis",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p39-q4": {
+      "lecture_id": "physiology__neural-control-of-breathing",
+      "subject": "Physiology",
+      "title": "Neural control of breathing",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p39-q5": {
+      "lecture_id": "anatomy-histology__anatomical-relations-of-the-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomical relations of the lungs",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p39-q7": {
+      "lecture_id": "physiology__hypoxia-and-cyanosis",
+      "subject": "Physiology",
+      "title": "Hypoxia and cyanosis",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p40-q8": {
+      "lecture_id": "biochemistry__acid-base-homeostasis-and-the-role-of-the-respiratory-system",
+      "subject": "Biochemistry",
+      "title": "Acid-base homeostasis and the role of the respiratory system",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p40-q9": {
+      "lecture_id": "microbiology__verminous-pneumonia-parasitic-larvae-invading-lung",
+      "subject": "Microbiology",
+      "title": "Verminous pneumonia (Parasitic larvae invading lung)",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p40-q10": {
+      "lecture_id": "pathology__restrictive-airway-diseases",
+      "subject": "Pathology",
+      "title": "Restrictive airway diseases",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p40-q11": {
+      "lecture_id": "microbiology__lower-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Lower respiratory tract infections",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p41-q12": {
+      "lecture_id": "pharmacology__drugs-used-in-the-treatment-of-bronchial-asthma",
+      "subject": "Pharmacology",
+      "title": "Drugs used in the treatment of bronchial asthma",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p41-q14": {
+      "lecture_id": "physiology__chemical-control-of-breathing",
+      "subject": "Physiology",
+      "title": "Chemical control of breathing",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p41-q15": {
+      "lecture_id": "microbiology__lower-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Lower respiratory tract infections",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p42-q16": {
+      "lecture_id": "physiology__neural-control-of-breathing",
+      "subject": "Physiology",
+      "title": "Neural control of breathing",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p42-q17": {
+      "lecture_id": "physiology__pressure-volume-relationship-and-lung-compliance",
+      "subject": "Physiology",
+      "title": "Pressure-volume relationship and lung compliance",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p42-q19": {
+      "lecture_id": "physiology__pressure-volume-relationship-and-lung-compliance",
+      "subject": "Physiology",
+      "title": "Pressure-volume relationship and lung compliance",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p42-q20": {
+      "lecture_id": "anatomy-histology__development-of-the-respiratory-system",
+      "subject": "Anatomy & Histology",
+      "title": "Development of the respiratory system",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p43-q21": {
+      "lecture_id": "microbiology__lower-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Lower respiratory tract infections",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p43-q24": {
+      "lecture_id": "physiology__hypoxia-and-cyanosis",
+      "subject": "Physiology",
+      "title": "Hypoxia and cyanosis",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p43-q25": {
+      "lecture_id": "biochemistry__acid-base-homeostasis-and-the-role-of-the-respiratory-system",
+      "subject": "Biochemistry",
+      "title": "Acid-base homeostasis and the role of the respiratory system",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p44-q26": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-pleura-and-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the pleura and lungs",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p44-q28": {
+      "lecture_id": "physiology__chemical-control-of-breathing",
+      "subject": "Physiology",
+      "title": "Chemical control of breathing",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p44-q29": {
+      "lecture_id": "pathology__atelactasis-acute-lung-injury",
+      "subject": "Pathology",
+      "title": "Atelactasis & acute lung injury",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p44-q30": {
+      "lecture_id": "pharmacology__treatment-of-tb",
+      "subject": "Pharmacology",
+      "title": "Treatment of TB",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p45-q31": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-nose-and-paranasal-sinuses",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the nose and paranasal sinuses",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p45-q32": {
+      "lecture_id": "pharmacology__drug-therapy-of-cough-and-copd-1",
+      "subject": "Pharmacology",
+      "title": "Drug therapy of cough and COPD 1",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p46-q34": {
+      "lecture_id": "physiology__transport-of-oxygen-in-blood",
+      "subject": "Physiology",
+      "title": "Transport of oxygen in blood",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p46-q35": {
+      "lecture_id": "biochemistry__acid-base-homeostasis-and-the-role-of-the-respiratory-system",
+      "subject": "Biochemistry",
+      "title": "Acid-base homeostasis and the role of the respiratory system",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p46-q36": {
+      "lecture_id": "biochemistry__metabolic-functions-of-the-lung-and-pulmonary-surfactant",
+      "subject": "Biochemistry",
+      "title": "Metabolic functions of the lung and Pulmonary Surfactant",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p46-q37": {
+      "lecture_id": "microbiology__cystic-parasitic-diseases-of-the-lung",
+      "subject": "Microbiology",
+      "title": "Cystic parasitic diseases of the lung",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p46-q38": {
+      "lecture_id": "microbiology__verminous-pneumonia-parasitic-larvae-invading-lung",
+      "subject": "Microbiology",
+      "title": "Verminous pneumonia (Parasitic larvae invading lung)",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p47-q39": {
+      "lecture_id": "pharmacology__drug-therapy-of-respiratory-infections",
+      "subject": "Pharmacology",
+      "title": "Drug therapy of respiratory infections",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p47-q40": {
+      "lecture_id": "microbiology__cystic-parasitic-diseases-of-the-lung",
+      "subject": "Microbiology",
+      "title": "Cystic parasitic diseases of the lung",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p47-q41": {
+      "lecture_id": "physiology__pressure-volume-relationship-and-lung-compliance",
+      "subject": "Physiology",
+      "title": "Pressure-volume relationship and lung compliance",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p47-q42": {
+      "lecture_id": "physiology__transport-of-oxygen-in-blood",
+      "subject": "Physiology",
+      "title": "Transport of oxygen in blood",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p48-q44": {
+      "lecture_id": "pathology__atelactasis-acute-lung-injury",
+      "subject": "Pathology",
+      "title": "Atelactasis & acute lung injury",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p48-q45": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p49-q46": {
+      "lecture_id": "anatomy-histology__histology-of-the-respiratory-system",
+      "subject": "Anatomy & Histology",
+      "title": "Histology of the respiratory system",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p49-q47": {
+      "lecture_id": "anatomy-histology__development-of-the-respiratory-system",
+      "subject": "Anatomy & Histology",
+      "title": "Development of the respiratory system",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p49-q49": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p50-q50": {
+      "lecture_id": "physiology__pressure-volume-relationship-and-lung-compliance",
+      "subject": "Physiology",
+      "title": "Pressure-volume relationship and lung compliance",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p50-q51": {
+      "lecture_id": "pharmacology__drugs-used-in-the-treatment-of-bronchial-asthma",
+      "subject": "Pharmacology",
+      "title": "Drugs used in the treatment of bronchial asthma",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p50-q52": {
+      "lecture_id": "biochemistry__acid-base-homeostasis-and-the-role-of-the-respiratory-system",
+      "subject": "Biochemistry",
+      "title": "Acid-base homeostasis and the role of the respiratory system",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p51-q53": {
+      "lecture_id": "pathology__pathology-of-bronchial-asthma",
+      "subject": "Pathology",
+      "title": "Pathology of bronchial Asthma",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p51-q54": {
+      "lecture_id": "pathology__obstructive-airway-diseases",
+      "subject": "Pathology",
+      "title": "Obstructive airway diseases",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p51-q55": {
+      "lecture_id": "pathology__pulmonary-vessel-diseases",
+      "subject": "Pathology",
+      "title": "Pulmonary vessel diseases",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p51-q56": {
+      "lecture_id": "biochemistry__acid-base-homeostasis-and-the-role-of-the-respiratory-system",
+      "subject": "Biochemistry",
+      "title": "Acid-base homeostasis and the role of the respiratory system",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p52-q57": {
+      "lecture_id": "biochemistry__acid-base-homeostasis-and-the-role-of-the-respiratory-system",
+      "subject": "Biochemistry",
+      "title": "Acid-base homeostasis and the role of the respiratory system",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p52-q58": {
+      "lecture_id": "physiology__gas-diffusion-and-plumonary-blood-flow",
+      "subject": "Physiology",
+      "title": "Gas diffusion and plumonary blood flow",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p52-q59": {
+      "lecture_id": "pathology__obstructive-airway-diseases",
+      "subject": "Pathology",
+      "title": "Obstructive airway diseases",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p52-q60": {
+      "lecture_id": "pathology__pulmonary-vessel-diseases",
+      "subject": "Pathology",
+      "title": "Pulmonary vessel diseases",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p52-q61": {
+      "lecture_id": "pathology__obstructive-airway-diseases",
+      "subject": "Pathology",
+      "title": "Obstructive airway diseases",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p53-q62": {
+      "lecture_id": "pharmacology__drugs-used-in-the-treatment-of-bronchial-asthma",
+      "subject": "Pharmacology",
+      "title": "Drugs used in the treatment of bronchial asthma",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p53-q63": {
+      "lecture_id": "anatomy-histology__anatomical-relations-of-the-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomical relations of the lungs",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p53-q64": {
+      "lecture_id": "anatomy-histology__anatomical-relations-of-the-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomical relations of the lungs",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p54-q65": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-nose-and-paranasal-sinuses",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the nose and paranasal sinuses",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p54-q66": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-nose-and-paranasal-sinuses",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the nose and paranasal sinuses",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p54-q67": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-larynx",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the larynx",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p55-q68": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-larynx",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the larynx",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p55-q69": {
+      "lecture_id": "anatomy-histology__histology-of-the-respiratory-system",
+      "subject": "Anatomy & Histology",
+      "title": "Histology of the respiratory system",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p55-q70": {
+      "lecture_id": "anatomy-histology__histology-of-the-respiratory-system",
+      "subject": "Anatomy & Histology",
+      "title": "Histology of the respiratory system",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p56-q71": {
+      "lecture_id": "pathology__pulmonary-neoplasia",
+      "subject": "Pathology",
+      "title": "Pulmonary Neoplasia",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p56-q72": {
+      "lecture_id": "anatomy-histology__radiological-anatomy-of-the-heart-and-its-great-vessels",
+      "subject": "Anatomy & Histology",
+      "title": "Radiological Anatomy of the heart and its great vessels",
+      "quiz": 1,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p56-q73": {
+      "lecture_id": "microbiology__lower-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Lower respiratory tract infections",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p57-q74": {
+      "lecture_id": "microbiology__lower-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Lower respiratory tract infections",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p57-q75": {
+      "lecture_id": "pathology__pulmonary-infection",
+      "subject": "Pathology",
+      "title": "Pulmonary infection",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p57-q76": {
+      "lecture_id": "pathology__pulmonary-infection",
+      "subject": "Pathology",
+      "title": "Pulmonary infection",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p58-q77": {
+      "lecture_id": "pathology__pulmonary-neoplasia",
+      "subject": "Pathology",
+      "title": "Pulmonary Neoplasia",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p58-q78": {
+      "lecture_id": "pathology__pulmonary-neoplasia",
+      "subject": "Pathology",
+      "title": "Pulmonary Neoplasia",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p58-q79": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p59-q80": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p59-q81": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p59-q82": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p60-q4": {
+      "lecture_id": "microbiology__upper-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Upper respiratory tract infections",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p62-q9": {
+      "lecture_id": "microbiology__lower-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Lower respiratory tract infections",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p63-q12": {
+      "lecture_id": "biochemistry__metabolic-functions-of-the-lung-and-pulmonary-surfactant",
+      "subject": "Biochemistry",
+      "title": "Metabolic functions of the lung and Pulmonary Surfactant",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p63-q13": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-nose-and-paranasal-sinuses",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the nose and paranasal sinuses",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p64-q16": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-larynx",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the larynx",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p65-q17": {
+      "lecture_id": "pharmacology__drug-therapy-of-respiratory-infections",
+      "subject": "Pharmacology",
+      "title": "Drug therapy of respiratory infections",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p66-q22": {
+      "lecture_id": "microbiology__verminous-pneumonia-parasitic-larvae-invading-lung",
+      "subject": "Microbiology",
+      "title": "Verminous pneumonia (Parasitic larvae invading lung)",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p67-q23": {
+      "lecture_id": "anatomy-histology__histology-of-the-respiratory-system",
+      "subject": "Anatomy & Histology",
+      "title": "Histology of the respiratory system",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p68-q27": {
+      "lecture_id": "biochemistry__metabolic-functions-of-the-lung-and-pulmonary-surfactant",
+      "subject": "Biochemistry",
+      "title": "Metabolic functions of the lung and Pulmonary Surfactant",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p70-q34": {
+      "lecture_id": "physiology__transport-of-oxygen-in-blood",
+      "subject": "Physiology",
+      "title": "Transport of oxygen in blood",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p71-q35": {
+      "lecture_id": "microbiology__lower-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Lower respiratory tract infections",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p71-q36": {
+      "lecture_id": "physiology__neural-control-of-breathing",
+      "subject": "Physiology",
+      "title": "Neural control of breathing",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p72-q39": {
+      "lecture_id": "physiology__neural-control-of-breathing",
+      "subject": "Physiology",
+      "title": "Neural control of breathing",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p72-q40": {
+      "lecture_id": "physiology__transport-of-oxygen-in-blood",
+      "subject": "Physiology",
+      "title": "Transport of oxygen in blood",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p73-q45": {
+      "lecture_id": "pharmacology__drug-therapy-of-respiratory-infections",
+      "subject": "Pharmacology",
+      "title": "Drug therapy of respiratory infections",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p74-q1": {
+      "lecture_id": "biochemistry__acid-base-homeostasis-and-the-role-of-the-respiratory-system",
+      "subject": "Biochemistry",
+      "title": "Acid-base homeostasis and the role of the respiratory system",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p74-q2": {
+      "lecture_id": "microbiology__lower-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Lower respiratory tract infections",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p74-q3": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-pleura-and-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the pleura and lungs",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p74-q4": {
+      "lecture_id": "microbiology__verminous-pneumonia-parasitic-larvae-invading-lung",
+      "subject": "Microbiology",
+      "title": "Verminous pneumonia (Parasitic larvae invading lung)",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p75-q5": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-larynx",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the larynx",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p75-q7": {
+      "lecture_id": "microbiology__upper-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Upper respiratory tract infections",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p75-q8": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-nose-and-paranasal-sinuses",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the nose and paranasal sinuses",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p76-q10": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-larynx",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the larynx",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p76-q11": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-pleura-and-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the pleura and lungs",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p76-q12": {
+      "lecture_id": "anatomy-histology__anatomical-relations-of-the-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomical relations of the lungs",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p77-q13": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p77-q14": {
+      "lecture_id": "physiology__gas-diffusion-and-plumonary-blood-flow",
+      "subject": "Physiology",
+      "title": "Gas diffusion and plumonary blood flow",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p77-q15": {
+      "lecture_id": "microbiology__cystic-parasitic-diseases-of-the-lung",
+      "subject": "Microbiology",
+      "title": "Cystic parasitic diseases of the lung",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p77-q16": {
+      "lecture_id": "pharmacology__drug-therapy-of-respiratory-infections",
+      "subject": "Pharmacology",
+      "title": "Drug therapy of respiratory infections",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p78-q17": {
+      "lecture_id": "physiology__transport-of-oxygen-in-blood",
+      "subject": "Physiology",
+      "title": "Transport of oxygen in blood",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p78-q18": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p78-q19": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p79-q21": {
+      "lecture_id": "biochemistry__acid-base-homeostasis-and-the-role-of-the-respiratory-system",
+      "subject": "Biochemistry",
+      "title": "Acid-base homeostasis and the role of the respiratory system",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p79-q22": {
+      "lecture_id": "microbiology__cystic-parasitic-diseases-of-the-lung",
+      "subject": "Microbiology",
+      "title": "Cystic parasitic diseases of the lung",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p79-q23": {
+      "lecture_id": "biochemistry__metabolic-functions-of-the-lung-and-pulmonary-surfactant",
+      "subject": "Biochemistry",
+      "title": "Metabolic functions of the lung and Pulmonary Surfactant",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p79-q24": {
+      "lecture_id": "biochemistry__metabolic-functions-of-the-lung-and-pulmonary-surfactant",
+      "subject": "Biochemistry",
+      "title": "Metabolic functions of the lung and Pulmonary Surfactant",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p80-q25": {
+      "lecture_id": "microbiology__lower-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Lower respiratory tract infections",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p80-q26": {
+      "lecture_id": "anatomy-histology__development-of-the-respiratory-system",
+      "subject": "Anatomy & Histology",
+      "title": "Development of the respiratory system",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p80-q28": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-larynx",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the larynx",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p81-q29": {
+      "lecture_id": "pathology__atelactasis-acute-lung-injury",
+      "subject": "Pathology",
+      "title": "Atelactasis & acute lung injury",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p81-q30": {
+      "lecture_id": "physiology__transport-of-oxygen-in-blood",
+      "subject": "Physiology",
+      "title": "Transport of oxygen in blood",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p81-q31": {
+      "lecture_id": "pharmacology__drug-therapy-of-respiratory-infections",
+      "subject": "Pharmacology",
+      "title": "Drug therapy of respiratory infections",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p81-q32": {
+      "lecture_id": "pharmacology__drug-therapy-of-respiratory-infections",
+      "subject": "Pharmacology",
+      "title": "Drug therapy of respiratory infections",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p82-q33": {
+      "lecture_id": "anatomy-histology__histology-of-the-respiratory-system",
+      "subject": "Anatomy & Histology",
+      "title": "Histology of the respiratory system",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p82-q34": {
+      "lecture_id": "pharmacology__drug-therapy-of-respiratory-infections",
+      "subject": "Pharmacology",
+      "title": "Drug therapy of respiratory infections",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p82-q35": {
+      "lecture_id": "pharmacology__drug-therapy-of-respiratory-infections",
+      "subject": "Pharmacology",
+      "title": "Drug therapy of respiratory infections",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p83-q37": {
+      "lecture_id": "microbiology__cystic-parasitic-diseases-of-the-lung",
+      "subject": "Microbiology",
+      "title": "Cystic parasitic diseases of the lung",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p83-q38": {
+      "lecture_id": "biochemistry__acid-base-homeostasis-and-the-role-of-the-respiratory-system",
+      "subject": "Biochemistry",
+      "title": "Acid-base homeostasis and the role of the respiratory system",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p83-q39": {
+      "lecture_id": "pathology__obstructive-airway-diseases",
+      "subject": "Pathology",
+      "title": "Obstructive airway diseases",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p83-q40": {
+      "lecture_id": "pathology__obstructive-airway-diseases",
+      "subject": "Pathology",
+      "title": "Obstructive airway diseases",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p84-q41": {
+      "lecture_id": "biochemistry__acid-base-homeostasis-and-the-role-of-the-respiratory-system",
+      "subject": "Biochemistry",
+      "title": "Acid-base homeostasis and the role of the respiratory system",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p85-q1": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-nose-and-paranasal-sinuses",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the nose and paranasal sinuses",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p85-q2": {
+      "lecture_id": "biochemistry__metabolic-functions-of-the-lung-and-pulmonary-surfactant",
+      "subject": "Biochemistry",
+      "title": "Metabolic functions of the lung and Pulmonary Surfactant",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p85-q3": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-larynx",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the larynx",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p85-q4": {
+      "lecture_id": "anatomy-histology__development-of-the-respiratory-system",
+      "subject": "Anatomy & Histology",
+      "title": "Development of the respiratory system",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p86-q5": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-nose-and-paranasal-sinuses",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the nose and paranasal sinuses",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p86-q6": {
+      "lecture_id": "anatomy-histology__anatomical-relations-of-the-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomical relations of the lungs",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p86-q7": {
+      "lecture_id": "anatomy-histology__anatomical-relations-of-the-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomical relations of the lungs",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p86-q8": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-pleura-and-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the pleura and lungs",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p87-q9": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-pleura-and-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the pleura and lungs",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p87-q10": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p87-q11": {
+      "lecture_id": "physiology__transport-of-oxygen-in-blood",
+      "subject": "Physiology",
+      "title": "Transport of oxygen in blood",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p87-q12": {
+      "lecture_id": "physiology__chemical-control-of-breathing",
+      "subject": "Physiology",
+      "title": "Chemical control of breathing",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p88-q13": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p88-q14": {
+      "lecture_id": "biochemistry__metabolic-functions-of-the-lung-and-pulmonary-surfactant",
+      "subject": "Biochemistry",
+      "title": "Metabolic functions of the lung and Pulmonary Surfactant",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p88-q15": {
+      "lecture_id": "physiology__gas-diffusion-and-plumonary-blood-flow",
+      "subject": "Physiology",
+      "title": "Gas diffusion and plumonary blood flow",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p88-q16": {
+      "lecture_id": "physiology__transport-of-oxygen-in-blood",
+      "subject": "Physiology",
+      "title": "Transport of oxygen in blood",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p89-q17": {
+      "lecture_id": "physiology__transport-of-carbon-dioxide-in-blood",
+      "subject": "Physiology",
+      "title": "Transport of carbon dioxide in blood",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p89-q18": {
+      "lecture_id": "physiology__neural-control-of-breathing",
+      "subject": "Physiology",
+      "title": "Neural control of breathing",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p89-q19": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p89-q20": {
+      "lecture_id": "physiology__hypoxia-and-cyanosis",
+      "subject": "Physiology",
+      "title": "Hypoxia and cyanosis",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p90-q21": {
+      "lecture_id": "physiology__neural-control-of-breathing",
+      "subject": "Physiology",
+      "title": "Neural control of breathing",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p90-q22": {
+      "lecture_id": "physiology__chemical-control-of-breathing",
+      "subject": "Physiology",
+      "title": "Chemical control of breathing",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p90-q23": {
+      "lecture_id": "microbiology__cystic-parasitic-diseases-of-the-lung",
+      "subject": "Microbiology",
+      "title": "Cystic parasitic diseases of the lung",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p90-q24": {
+      "lecture_id": "microbiology__verminous-pneumonia-parasitic-larvae-invading-lung",
+      "subject": "Microbiology",
+      "title": "Verminous pneumonia (Parasitic larvae invading lung)",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p91-q25": {
+      "lecture_id": "microbiology__cystic-parasitic-diseases-of-the-lung",
+      "subject": "Microbiology",
+      "title": "Cystic parasitic diseases of the lung",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p91-q26": {
+      "lecture_id": "microbiology__upper-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Upper respiratory tract infections",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p91-q29": {
+      "lecture_id": "biochemistry__acid-base-homeostasis-and-the-role-of-the-respiratory-system",
+      "subject": "Biochemistry",
+      "title": "Acid-base homeostasis and the role of the respiratory system",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p92-q2": {
+      "lecture_id": "anatomy-histology__anatomical-relations-of-the-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomical relations of the lungs",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p92-q3": {
+      "lecture_id": "microbiology__lower-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Lower respiratory tract infections",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p93-q4": {
+      "lecture_id": "microbiology__lower-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Lower respiratory tract infections",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p93-q5": {
+      "lecture_id": "microbiology__lower-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Lower respiratory tract infections",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p93-q6": {
+      "lecture_id": "microbiology__lower-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Lower respiratory tract infections",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p93-q7": {
+      "lecture_id": "anatomy-histology__development-of-the-respiratory-system",
+      "subject": "Anatomy & Histology",
+      "title": "Development of the respiratory system",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p94-q8": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-pleura-and-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the pleura and lungs",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p94-q9": {
+      "lecture_id": "anatomy-histology__anatomical-relations-of-the-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomical relations of the lungs",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p94-q10": {
+      "lecture_id": "pathology__atelactasis-acute-lung-injury",
+      "subject": "Pathology",
+      "title": "Atelactasis & acute lung injury",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p95-q12": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-larynx",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the larynx",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p95-q13": {
+      "lecture_id": "pathology__pulmonary-neoplasia",
+      "subject": "Pathology",
+      "title": "Pulmonary Neoplasia",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p96-q16": {
+      "lecture_id": "pathology__obstructive-airway-diseases",
+      "subject": "Pathology",
+      "title": "Obstructive airway diseases",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p96-q17": {
+      "lecture_id": "pathology__restrictive-airway-diseases",
+      "subject": "Pathology",
+      "title": "Restrictive airway diseases",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p97-q18": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-pleura-and-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the pleura and lungs",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p97-q19": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-nose-and-paranasal-sinuses",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the nose and paranasal sinuses",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p97-q20": {
+      "lecture_id": "pathology__obstructive-airway-diseases",
+      "subject": "Pathology",
+      "title": "Obstructive airway diseases",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p97-q21": {
+      "lecture_id": "physiology__gas-diffusion-and-plumonary-blood-flow",
+      "subject": "Physiology",
+      "title": "Gas diffusion and plumonary blood flow",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p98-q23": {
+      "lecture_id": "physiology__chemical-control-of-breathing",
+      "subject": "Physiology",
+      "title": "Chemical control of breathing",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p98-q25": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-larynx",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the larynx",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p98-q26": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-larynx",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the larynx",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p99-q27": {
+      "lecture_id": "pharmacology__drug-therapy-of-respiratory-infections",
+      "subject": "Pharmacology",
+      "title": "Drug therapy of respiratory infections",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p99-q29": {
+      "lecture_id": "pharmacology__drugs-affecting-hemostasis",
+      "subject": "Pharmacology",
+      "title": "Drugs affecting hemostasis",
+      "quiz": 1,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p100-q30": {
+      "lecture_id": "pharmacology__drugs-affecting-hemostasis",
+      "subject": "Pharmacology",
+      "title": "Drugs affecting hemostasis",
+      "quiz": 1,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p100-q31": {
+      "lecture_id": "microbiology__cystic-parasitic-diseases-of-the-lung",
+      "subject": "Microbiology",
+      "title": "Cystic parasitic diseases of the lung",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p100-q32": {
+      "lecture_id": "microbiology__verminous-pneumonia-parasitic-larvae-invading-lung",
+      "subject": "Microbiology",
+      "title": "Verminous pneumonia (Parasitic larvae invading lung)",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p100-q33": {
+      "lecture_id": "microbiology__cystic-parasitic-diseases-of-the-lung",
+      "subject": "Microbiology",
+      "title": "Cystic parasitic diseases of the lung",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p101-q34": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p101-q35": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p102-q36": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p102-q37": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p103-q38": {
+      "lecture_id": "pharmacology__drug-therapy-of-cough-and-copd-1",
+      "subject": "Pharmacology",
+      "title": "Drug therapy of cough and COPD 1",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p103-q39": {
+      "lecture_id": "pharmacology__drug-therapy-of-cough-and-copd-1",
+      "subject": "Pharmacology",
+      "title": "Drug therapy of cough and COPD 1",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p104-q41": {
+      "lecture_id": "physiology__pressure-volume-relationship-and-lung-compliance",
+      "subject": "Physiology",
+      "title": "Pressure-volume relationship and lung compliance",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p104-q42": {
+      "lecture_id": "pathology__atelactasis-acute-lung-injury",
+      "subject": "Pathology",
+      "title": "Atelactasis & acute lung injury",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p105-q43": {
+      "lecture_id": "pathology__pulmonary-infection",
+      "subject": "Pathology",
+      "title": "Pulmonary infection",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p105-q44": {
+      "lecture_id": "pathology__restrictive-airway-diseases",
+      "subject": "Pathology",
+      "title": "Restrictive airway diseases",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p105-q45": {
+      "lecture_id": "biochemistry__acid-base-homeostasis-and-the-role-of-the-respiratory-system",
+      "subject": "Biochemistry",
+      "title": "Acid-base homeostasis and the role of the respiratory system",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p106-q2": {
+      "lecture_id": "physiology__chemical-control-of-breathing",
+      "subject": "Physiology",
+      "title": "Chemical control of breathing",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p107-q5": {
+      "lecture_id": "physiology__chemical-control-of-breathing",
+      "subject": "Physiology",
+      "title": "Chemical control of breathing",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p107-q7": {
+      "lecture_id": "physiology__hypoxia-and-cyanosis",
+      "subject": "Physiology",
+      "title": "Hypoxia and cyanosis",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p107-q8": {
+      "lecture_id": "physiology__hypoxia-and-cyanosis",
+      "subject": "Physiology",
+      "title": "Hypoxia and cyanosis",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p108-q9": {
+      "lecture_id": "physiology__hypoxia-and-cyanosis",
+      "subject": "Physiology",
+      "title": "Hypoxia and cyanosis",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p108-q10": {
+      "lecture_id": "physiology__hypoxia-and-cyanosis",
+      "subject": "Physiology",
+      "title": "Hypoxia and cyanosis",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p108-q11": {
+      "lecture_id": "physiology__hypoxia-and-cyanosis",
+      "subject": "Physiology",
+      "title": "Hypoxia and cyanosis",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p109-q13": {
+      "lecture_id": "pathology__pathology-of-bronchial-asthma",
+      "subject": "Pathology",
+      "title": "Pathology of bronchial Asthma",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p109-q15": {
+      "lecture_id": "pathology__pathology-of-bronchial-asthma",
+      "subject": "Pathology",
+      "title": "Pathology of bronchial Asthma",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p109-q16": {
+      "lecture_id": "pathology__pathology-of-bronchial-asthma",
+      "subject": "Pathology",
+      "title": "Pathology of bronchial Asthma",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p115-q36": {
+      "lecture_id": "microbiology__lower-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Lower respiratory tract infections",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p115-q39": {
+      "lecture_id": "pathology__pulmonary-vessel-diseases",
+      "subject": "Pathology",
+      "title": "Pulmonary vessel diseases",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p116-q41": {
+      "lecture_id": "physiology__gas-diffusion-and-plumonary-blood-flow",
+      "subject": "Physiology",
+      "title": "Gas diffusion and plumonary blood flow",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p117-q44": {
+      "lecture_id": "microbiology__lower-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Lower respiratory tract infections",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p117-q45": {
+      "lecture_id": "pathology__pulmonary-vessel-diseases",
+      "subject": "Pathology",
+      "title": "Pulmonary vessel diseases",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p118-q47": {
+      "lecture_id": "microbiology__lower-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Lower respiratory tract infections",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p122-q62": {
+      "lecture_id": "pharmacology__drugs-used-in-the-treatment-of-bronchial-asthma",
+      "subject": "Pharmacology",
+      "title": "Drugs used in the treatment of bronchial asthma",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p122-q63": {
+      "lecture_id": "pharmacology__drugs-used-in-the-treatment-of-bronchial-asthma",
+      "subject": "Pharmacology",
+      "title": "Drugs used in the treatment of bronchial asthma",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p123-q66": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p124-q71": {
+      "lecture_id": "pharmacology__drugs-used-in-the-treatment-of-bronchial-asthma",
+      "subject": "Pharmacology",
+      "title": "Drugs used in the treatment of bronchial asthma",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p124-q72": {
+      "lecture_id": "pharmacology__drugs-used-in-the-treatment-of-bronchial-asthma",
+      "subject": "Pharmacology",
+      "title": "Drugs used in the treatment of bronchial asthma",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p125-q77": {
+      "lecture_id": "pharmacology__drug-therapy-of-respiratory-infections",
+      "subject": "Pharmacology",
+      "title": "Drug therapy of respiratory infections",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p127-q83": {
+      "lecture_id": "pharmacology__drug-therapy-of-cough-and-copd-1",
+      "subject": "Pharmacology",
+      "title": "Drug therapy of cough and COPD 1",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p127-q84": {
+      "lecture_id": "pathology__obstructive-airway-diseases",
+      "subject": "Pathology",
+      "title": "Obstructive airway diseases",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p129-q91": {
+      "lecture_id": "pharmacology__treatment-of-tb",
+      "subject": "Pharmacology",
+      "title": "Treatment of TB",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p129-q94": {
+      "lecture_id": "pharmacology__drugs-affecting-hemostasis",
+      "subject": "Pharmacology",
+      "title": "Drugs affecting hemostasis",
+      "quiz": 1,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p130-q96": {
+      "lecture_id": "pharmacology__drugs-affecting-hemostasis",
+      "subject": "Pharmacology",
+      "title": "Drugs affecting hemostasis",
+      "quiz": 1,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p131-q100": {
+      "lecture_id": "pharmacology__drugs-affecting-hemostasis",
+      "subject": "Pharmacology",
+      "title": "Drugs affecting hemostasis",
+      "quiz": 1,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p132-q104": {
+      "lecture_id": "microbiology__lower-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Lower respiratory tract infections",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p132-q106": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-pleura-and-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the pleura and lungs",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p132-q107": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-pleura-and-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the pleura and lungs",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p133-q108": {
+      "lecture_id": "pharmacology__drug-therapy-of-cough-and-copd-1",
+      "subject": "Pharmacology",
+      "title": "Drug therapy of cough and COPD 1",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p133-q109": {
+      "lecture_id": "pharmacology__drug-therapy-of-cough-and-copd-1",
+      "subject": "Pharmacology",
+      "title": "Drug therapy of cough and COPD 1",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p133-q110": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p133-q111": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p134-q112": {
+      "lecture_id": "physiology__hypoxia-and-cyanosis",
+      "subject": "Physiology",
+      "title": "Hypoxia and cyanosis",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p134-q113": {
+      "lecture_id": "physiology__hypoxia-and-cyanosis",
+      "subject": "Physiology",
+      "title": "Hypoxia and cyanosis",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p134-q114": {
+      "lecture_id": "physiology__hypoxia-and-cyanosis",
+      "subject": "Physiology",
+      "title": "Hypoxia and cyanosis",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p135-q116": {
+      "lecture_id": "anatomy-histology__radiological-anatomy-of-the-heart-and-its-great-vessels",
+      "subject": "Anatomy & Histology",
+      "title": "Radiological Anatomy of the heart and its great vessels",
+      "quiz": 1,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p135-q117": {
+      "lecture_id": "anatomy-histology__radiological-anatomy-of-the-heart-and-its-great-vessels",
+      "subject": "Anatomy & Histology",
+      "title": "Radiological Anatomy of the heart and its great vessels",
+      "quiz": 1,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p135-q118": {
+      "lecture_id": "anatomy-histology__radiological-anatomy-of-the-heart-and-its-great-vessels",
+      "subject": "Anatomy & Histology",
+      "title": "Radiological Anatomy of the heart and its great vessels",
+      "quiz": 1,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p136-q119": {
+      "lecture_id": "anatomy-histology__radiological-anatomy-of-the-heart-and-its-great-vessels",
+      "subject": "Anatomy & Histology",
+      "title": "Radiological Anatomy of the heart and its great vessels",
+      "quiz": 1,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p136-q120": {
+      "lecture_id": "pathology__atelactasis-acute-lung-injury",
+      "subject": "Pathology",
+      "title": "Atelactasis & acute lung injury",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p136-q121": {
+      "lecture_id": "pathology__pulmonary-neoplasia",
+      "subject": "Pathology",
+      "title": "Pulmonary Neoplasia",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p136-q122": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-pleura-and-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the pleura and lungs",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p137-q124": {
+      "lecture_id": "pathology__atelactasis-acute-lung-injury",
+      "subject": "Pathology",
+      "title": "Atelactasis & acute lung injury",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p137-q125": {
+      "lecture_id": "pathology__atelactasis-acute-lung-injury",
+      "subject": "Pathology",
+      "title": "Atelactasis & acute lung injury",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p137-q127": {
+      "lecture_id": "anatomy-histology__anatomical-relations-of-the-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomical relations of the lungs",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p138-q2": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-nose-and-paranasal-sinuses",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the nose and paranasal sinuses",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p138-q5": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-nose-and-paranasal-sinuses",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the nose and paranasal sinuses",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p139-q9": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-nose-and-paranasal-sinuses",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the nose and paranasal sinuses",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p140-q4": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-larynx",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the larynx",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p141-q7": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-larynx",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the larynx",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p142-q15": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-larynx",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the larynx",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p143-q1": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-pleura-and-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the pleura and lungs",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p145-q15": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-pleura-and-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the pleura and lungs",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p146-q1": {
+      "lecture_id": "anatomy-histology__anatomical-relations-of-the-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomical relations of the lungs",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p149-q8": {
+      "lecture_id": "anatomy-histology__histology-of-the-respiratory-system",
+      "subject": "Anatomy & Histology",
+      "title": "Histology of the respiratory system",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p149-q12": {
+      "lecture_id": "anatomy-histology__histology-of-the-respiratory-system",
+      "subject": "Anatomy & Histology",
+      "title": "Histology of the respiratory system",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p150-q1": {
+      "lecture_id": "anatomy-histology__development-of-the-respiratory-system",
+      "subject": "Anatomy & Histology",
+      "title": "Development of the respiratory system",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p151-q7": {
+      "lecture_id": "anatomy-histology__development-of-the-respiratory-system",
+      "subject": "Anatomy & Histology",
+      "title": "Development of the respiratory system",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p154-q11": {
+      "lecture_id": "biochemistry__metabolic-functions-of-the-lung-and-pulmonary-surfactant",
+      "subject": "Biochemistry",
+      "title": "Metabolic functions of the lung and Pulmonary Surfactant",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p155-q12": {
+      "lecture_id": "biochemistry__metabolic-functions-of-the-lung-and-pulmonary-surfactant",
+      "subject": "Biochemistry",
+      "title": "Metabolic functions of the lung and Pulmonary Surfactant",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p155-q2": {
+      "lecture_id": "biochemistry__acid-base-homeostasis-and-the-role-of-the-respiratory-system",
+      "subject": "Biochemistry",
+      "title": "Acid-base homeostasis and the role of the respiratory system",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p156-q10": {
+      "lecture_id": "biochemistry__acid-base-homeostasis-and-the-role-of-the-respiratory-system",
+      "subject": "Biochemistry",
+      "title": "Acid-base homeostasis and the role of the respiratory system",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p157-q11": {
+      "lecture_id": "biochemistry__acid-base-homeostasis-and-the-role-of-the-respiratory-system",
+      "subject": "Biochemistry",
+      "title": "Acid-base homeostasis and the role of the respiratory system",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p159-q3": {
+      "lecture_id": "physiology__pressure-volume-relationship-and-lung-compliance",
+      "subject": "Physiology",
+      "title": "Pressure-volume relationship and lung compliance",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p160-q5": {
+      "lecture_id": "physiology__pressure-volume-relationship-and-lung-compliance",
+      "subject": "Physiology",
+      "title": "Pressure-volume relationship and lung compliance",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p161-q10": {
+      "lecture_id": "physiology__pressure-volume-relationship-and-lung-compliance",
+      "subject": "Physiology",
+      "title": "Pressure-volume relationship and lung compliance",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p165-q3": {
+      "lecture_id": "physiology__transport-of-carbon-dioxide-in-blood",
+      "subject": "Physiology",
+      "title": "Transport of carbon dioxide in blood",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p166-q4": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p167-q7": {
+      "lecture_id": "physiology__neural-control-of-breathing",
+      "subject": "Physiology",
+      "title": "Neural control of breathing",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p168-q1": {
+      "lecture_id": "pathology__atelactasis-acute-lung-injury",
+      "subject": "Pathology",
+      "title": "Atelactasis & acute lung injury",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p170-q7": {
+      "lecture_id": "pathology__atelactasis-acute-lung-injury",
+      "subject": "Pathology",
+      "title": "Atelactasis & acute lung injury",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p170-q9": {
+      "lecture_id": "pathology__atelactasis-acute-lung-injury",
+      "subject": "Pathology",
+      "title": "Atelactasis & acute lung injury",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p170-q10": {
+      "lecture_id": "pathology__obstructive-airway-diseases",
+      "subject": "Pathology",
+      "title": "Obstructive airway diseases",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p171-q12": {
+      "lecture_id": "pathology__atelactasis-acute-lung-injury",
+      "subject": "Pathology",
+      "title": "Atelactasis & acute lung injury",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p173-q4": {
+      "lecture_id": "pathology__obstructive-airway-diseases",
+      "subject": "Pathology",
+      "title": "Obstructive airway diseases",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p173-q7": {
+      "lecture_id": "pathology__obstructive-airway-diseases",
+      "subject": "Pathology",
+      "title": "Obstructive airway diseases",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p174-q8": {
+      "lecture_id": "pathology__obstructive-airway-diseases",
+      "subject": "Pathology",
+      "title": "Obstructive airway diseases",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p176-q9": {
+      "lecture_id": "microbiology__upper-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Upper respiratory tract infections",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p179-q11": {
+      "lecture_id": "microbiology__lower-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Lower respiratory tract infections",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p179-q12": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-nose-and-paranasal-sinuses",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the nose and paranasal sinuses",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p180-q3": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-pleura-and-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the pleura and lungs",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p180-q5": {
+      "lecture_id": "microbiology__cystic-parasitic-diseases-of-the-lung",
+      "subject": "Microbiology",
+      "title": "Cystic parasitic diseases of the lung",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p185-q5": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-nose-and-paranasal-sinuses",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the nose and paranasal sinuses",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p186-q10": {
+      "lecture_id": "microbiology__lower-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Lower respiratory tract infections",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p188-q1": {
+      "lecture_id": "pathology__obstructive-airway-diseases",
+      "subject": "Pathology",
+      "title": "Obstructive airway diseases",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p188-q2": {
+      "lecture_id": "biochemistry__acid-base-homeostasis-and-the-role-of-the-respiratory-system",
+      "subject": "Biochemistry",
+      "title": "Acid-base homeostasis and the role of the respiratory system",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p188-q3": {
+      "lecture_id": "anatomy-histology__anatomical-relations-of-the-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomical relations of the lungs",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p188-q4": {
+      "lecture_id": "physiology__neural-control-of-breathing",
+      "subject": "Physiology",
+      "title": "Neural control of breathing",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p189-q1": {
+      "lecture_id": "pathology__obstructive-airway-diseases",
+      "subject": "Pathology",
+      "title": "Obstructive airway diseases",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p190-q5": {
+      "lecture_id": "pharmacology__drugs-used-in-the-treatment-of-bronchial-asthma",
+      "subject": "Pharmacology",
+      "title": "Drugs used in the treatment of bronchial asthma",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p190-q6": {
+      "lecture_id": "anatomy-histology__development-of-the-respiratory-system",
+      "subject": "Anatomy & Histology",
+      "title": "Development of the respiratory system",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p190-q7": {
+      "lecture_id": "pathology__pathology-of-bronchial-asthma",
+      "subject": "Pathology",
+      "title": "Pathology of bronchial Asthma",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p190-q8": {
+      "lecture_id": "biochemistry__metabolic-functions-of-the-lung-and-pulmonary-surfactant",
+      "subject": "Biochemistry",
+      "title": "Metabolic functions of the lung and Pulmonary Surfactant",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p191-q9": {
+      "lecture_id": "pharmacology__drugs-used-in-the-treatment-of-bronchial-asthma",
+      "subject": "Pharmacology",
+      "title": "Drugs used in the treatment of bronchial asthma",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p191-q10": {
+      "lecture_id": "pharmacology__drug-therapy-of-cough-and-copd-1",
+      "subject": "Pharmacology",
+      "title": "Drug therapy of cough and COPD 1",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p191-q11": {
+      "lecture_id": "microbiology__cystic-parasitic-diseases-of-the-lung",
+      "subject": "Microbiology",
+      "title": "Cystic parasitic diseases of the lung",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p191-q12": {
+      "lecture_id": "pharmacology__drugs-used-in-the-treatment-of-bronchial-asthma",
+      "subject": "Pharmacology",
+      "title": "Drugs used in the treatment of bronchial asthma",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p191-q13": {
+      "lecture_id": "pathology__atelactasis-acute-lung-injury",
+      "subject": "Pathology",
+      "title": "Atelactasis & acute lung injury",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p192-q14": {
+      "lecture_id": "biochemistry__metabolic-functions-of-the-lung-and-pulmonary-surfactant",
+      "subject": "Biochemistry",
+      "title": "Metabolic functions of the lung and Pulmonary Surfactant",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p192-q15": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p192-q16": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-larynx",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the larynx",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p192-q17": {
+      "lecture_id": "physiology__transport-of-oxygen-in-blood",
+      "subject": "Physiology",
+      "title": "Transport of oxygen in blood",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p192-q18": {
+      "lecture_id": "physiology__hypoxia-and-cyanosis",
+      "subject": "Physiology",
+      "title": "Hypoxia and cyanosis",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p193-q19": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p193-q20": {
+      "lecture_id": "anatomy-histology__histology-of-the-respiratory-system",
+      "subject": "Anatomy & Histology",
+      "title": "Histology of the respiratory system",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p193-q21": {
+      "lecture_id": "physiology__pressure-volume-relationship-and-lung-compliance",
+      "subject": "Physiology",
+      "title": "Pressure-volume relationship and lung compliance",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p193-q22": {
+      "lecture_id": "pathology__restrictive-airway-diseases",
+      "subject": "Pathology",
+      "title": "Restrictive airway diseases",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p194-q23": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-nose-and-paranasal-sinuses",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the nose and paranasal sinuses",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p194-q24": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p194-q25": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-larynx",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the larynx",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p194-q26": {
+      "lecture_id": "microbiology__upper-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Upper respiratory tract infections",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p194-q27": {
+      "lecture_id": "pathology__atelactasis-acute-lung-injury",
+      "subject": "Pathology",
+      "title": "Atelactasis & acute lung injury",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p194-q28": {
+      "lecture_id": "pathology__pulmonary-infection",
+      "subject": "Pathology",
+      "title": "Pulmonary infection",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p195-q2": {
+      "lecture_id": "pharmacology__treatment-of-tb",
+      "subject": "Pharmacology",
+      "title": "Treatment of TB",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p195-q3": {
+      "lecture_id": "anatomy-histology__anatomical-relations-of-the-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomical relations of the lungs",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p195-q4": {
+      "lecture_id": "physiology__neural-control-of-breathing",
+      "subject": "Physiology",
+      "title": "Neural control of breathing",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p196-q5": {
+      "lecture_id": "biochemistry__acid-base-homeostasis-and-the-role-of-the-respiratory-system",
+      "subject": "Biochemistry",
+      "title": "Acid-base homeostasis and the role of the respiratory system",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p197-q8": {
+      "lecture_id": "pathology__pathology-of-bronchial-asthma",
+      "subject": "Pathology",
+      "title": "Pathology of bronchial Asthma",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p197-q10": {
+      "lecture_id": "physiology__transport-of-oxygen-in-blood",
+      "subject": "Physiology",
+      "title": "Transport of oxygen in blood",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p198-q11": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-nose-and-paranasal-sinuses",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the nose and paranasal sinuses",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p198-q14": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-pleura-and-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the pleura and lungs",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p199-q15": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-pleura-and-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the pleura and lungs",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p200-q20": {
+      "lecture_id": "physiology__transport-of-oxygen-in-blood",
+      "subject": "Physiology",
+      "title": "Transport of oxygen in blood",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p200-q21": {
+      "lecture_id": "pathology__obstructive-airway-diseases",
+      "subject": "Pathology",
+      "title": "Obstructive airway diseases",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p201-q22": {
+      "lecture_id": "pathology__obstructive-airway-diseases",
+      "subject": "Pathology",
+      "title": "Obstructive airway diseases",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p201-q23": {
+      "lecture_id": "microbiology__verminous-pneumonia-parasitic-larvae-invading-lung",
+      "subject": "Microbiology",
+      "title": "Verminous pneumonia (Parasitic larvae invading lung)",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p202-q26": {
+      "lecture_id": "pathology__obstructive-airway-diseases",
+      "subject": "Pathology",
+      "title": "Obstructive airway diseases",
+      "quiz": 2,
+      "method": "existing_question_match"
+    },
+    "rs-module3-p203-q28": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-nose-and-paranasal-sinuses",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the nose and paranasal sinuses",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p204-q29": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-nose-and-paranasal-sinuses",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the nose and paranasal sinuses",
+      "quiz": 2,
+      "method": "stem_topic"
+    },
+    "rs-module3-p204-q30": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-larynx",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the larynx",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p205-q31": {
+      "lecture_id": "anatomy-histology__anatomical-relations-of-the-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomical relations of the lungs",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p205-q32": {
+      "lecture_id": "anatomy-histology__anatomical-relations-of-the-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomical relations of the lungs",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p205-q33": {
+      "lecture_id": "pathology__obstructive-airway-diseases",
+      "subject": "Pathology",
+      "title": "Obstructive airway diseases",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p206-q34": {
+      "lecture_id": "microbiology__lower-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Lower respiratory tract infections",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p207-q5": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p207-q6": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p208-q7": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p208-q8": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p209-q1": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-nose-and-paranasal-sinuses",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the nose and paranasal sinuses",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p209-q2": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-nose-and-paranasal-sinuses",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the nose and paranasal sinuses",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p209-q3": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-larynx",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the larynx",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p209-q4": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-larynx",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the larynx",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p210-q6": {
+      "lecture_id": "anatomy-histology__anatomical-relations-of-the-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomical relations of the lungs",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p210-q13": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p210-q14": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p211-q15": {
+      "lecture_id": "microbiology__lower-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Lower respiratory tract infections",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p211-q16": {
+      "lecture_id": "pharmacology__treatment-of-tb",
+      "subject": "Pharmacology",
+      "title": "Treatment of TB",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p211-q18": {
+      "lecture_id": "pathology__pulmonary-neoplasia",
+      "subject": "Pathology",
+      "title": "Pulmonary Neoplasia",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p212-q19": {
+      "lecture_id": "pathology__obstructive-airway-diseases",
+      "subject": "Pathology",
+      "title": "Obstructive airway diseases",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p212-q20": {
+      "lecture_id": "pathology__pulmonary-infection",
+      "subject": "Pathology",
+      "title": "Pulmonary infection",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p213-q1": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-nose-and-paranasal-sinuses",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the nose and paranasal sinuses",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p213-q2": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-nose-and-paranasal-sinuses",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the nose and paranasal sinuses",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p214-q3": {
+      "lecture_id": "anatomy-histology__anatomical-relations-of-the-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomical relations of the lungs",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p214-q4": {
+      "lecture_id": "anatomy-histology__anatomical-relations-of-the-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomical relations of the lungs",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p215-q7": {
+      "lecture_id": "microbiology__upper-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Upper respiratory tract infections",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p215-q8": {
+      "lecture_id": "microbiology__upper-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Upper respiratory tract infections",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p216-q5": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-pleura-and-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the pleura and lungs",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p216-q6": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-pleura-and-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the pleura and lungs",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p217-q9": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p218-q10": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p218-q11": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p219-q12": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p219-q13": {
+      "lecture_id": "pathology__pulmonary-infection",
+      "subject": "Pathology",
+      "title": "Pulmonary infection",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p220-q14": {
+      "lecture_id": "pathology__pulmonary-infection",
+      "subject": "Pathology",
+      "title": "Pulmonary infection",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p220-q15": {
+      "lecture_id": "pathology__obstructive-airway-diseases",
+      "subject": "Pathology",
+      "title": "Obstructive airway diseases",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p220-q16": {
+      "lecture_id": "pathology__obstructive-airway-diseases",
+      "subject": "Pathology",
+      "title": "Obstructive airway diseases",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p221-q17": {
+      "lecture_id": "anatomy-histology__anatomical-relations-of-the-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomical relations of the lungs",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p221-q18": {
+      "lecture_id": "anatomy-histology__anatomical-relations-of-the-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomical relations of the lungs",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p222-q1a": {
+      "lecture_id": "microbiology__lower-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Lower respiratory tract infections",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p222-q2a": {
+      "lecture_id": "microbiology__lower-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Lower respiratory tract infections",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p222-q1b": {
+      "lecture_id": "pathology__pulmonary-infection",
+      "subject": "Pathology",
+      "title": "Pulmonary infection",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p222-q2b": {
+      "lecture_id": "pathology__pulmonary-infection",
+      "subject": "Pathology",
+      "title": "Pulmonary infection",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p222-q1c": {
+      "lecture_id": "pathology__pulmonary-neoplasia",
+      "subject": "Pathology",
+      "title": "Pulmonary Neoplasia",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p222-q2c": {
+      "lecture_id": "pathology__pulmonary-neoplasia",
+      "subject": "Pathology",
+      "title": "Pulmonary Neoplasia",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p223-q1a": {
+      "lecture_id": "anatomy-histology__histology-of-the-respiratory-system",
+      "subject": "Anatomy & Histology",
+      "title": "Histology of the respiratory system",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p223-q2a": {
+      "lecture_id": "anatomy-histology__histology-of-the-respiratory-system",
+      "subject": "Anatomy & Histology",
+      "title": "Histology of the respiratory system",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p223-q1b": {
+      "lecture_id": "microbiology__lower-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Lower respiratory tract infections",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p223-q1c": {
+      "lecture_id": "anatomy-histology__anatomical-relations-of-the-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomical relations of the lungs",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p224-q1a": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p224-q1b": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-nose-and-paranasal-sinuses",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the nose and paranasal sinuses",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p224-q2b": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-nose-and-paranasal-sinuses",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the nose and paranasal sinuses",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p224-q1c": {
+      "lecture_id": "anatomy-histology__anatomical-relations-of-the-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomical relations of the lungs",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p225-q1": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-nose-and-paranasal-sinuses",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the nose and paranasal sinuses",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p225-q2": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-larynx",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the larynx",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p226-q3": {
+      "lecture_id": "anatomy-histology__anatomical-relations-of-the-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomical relations of the lungs",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p226-q4": {
+      "lecture_id": "anatomy-histology__anatomical-relations-of-the-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomical relations of the lungs",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p227-q5": {
+      "lecture_id": "anatomy-histology__histology-of-the-respiratory-system",
+      "subject": "Anatomy & Histology",
+      "title": "Histology of the respiratory system",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p227-q6": {
+      "lecture_id": "anatomy-histology__histology-of-the-respiratory-system",
+      "subject": "Anatomy & Histology",
+      "title": "Histology of the respiratory system",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p228-q7": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p228-q8": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p229-q9": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p229-q10": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p230-q11": {
+      "lecture_id": "pathology__pulmonary-infection",
+      "subject": "Pathology",
+      "title": "Pulmonary infection",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p230-q12": {
+      "lecture_id": "pathology__pulmonary-infection",
+      "subject": "Pathology",
+      "title": "Pulmonary infection",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p231-q13": {
+      "lecture_id": "pathology__pulmonary-neoplasia",
+      "subject": "Pathology",
+      "title": "Pulmonary Neoplasia",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p231-q14": {
+      "lecture_id": "pathology__pulmonary-neoplasia",
+      "subject": "Pathology",
+      "title": "Pulmonary Neoplasia",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p232-q15": {
+      "lecture_id": "anatomy-histology__anatomical-relations-of-the-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomical relations of the lungs",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p232-q16": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-pleura-and-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the pleura and lungs",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p233-q19": {
+      "lecture_id": "microbiology__lower-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Lower respiratory tract infections",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p233-q20": {
+      "lecture_id": "microbiology__lower-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Lower respiratory tract infections",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p234-q17": {
+      "lecture_id": "microbiology__upper-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Upper respiratory tract infections",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p234-q18": {
+      "lecture_id": "microbiology__upper-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Upper respiratory tract infections",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p235-q1": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-larynx",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the larynx",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p235-q2": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-larynx",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the larynx",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p235-q3": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-pleura-and-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the pleura and lungs",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p236-q4": {
+      "lecture_id": "anatomy-histology__anatomical-relations-of-the-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomical relations of the lungs",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p236-q5": {
+      "lecture_id": "anatomy-histology__histology-of-the-respiratory-system",
+      "subject": "Anatomy & Histology",
+      "title": "Histology of the respiratory system",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p236-q6": {
+      "lecture_id": "anatomy-histology__histology-of-the-respiratory-system",
+      "subject": "Anatomy & Histology",
+      "title": "Histology of the respiratory system",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p237-q7": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p237-q8": {
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p237-q9": {
+      "lecture_id": "microbiology__upper-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Upper respiratory tract infections",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p238-q10": {
+      "lecture_id": "microbiology__upper-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Upper respiratory tract infections",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p238-q11": {
+      "lecture_id": "pharmacology__drug-therapy-of-respiratory-infections",
+      "subject": "Pharmacology",
+      "title": "Drug therapy of respiratory infections",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p238-q12": {
+      "lecture_id": "pharmacology__drug-therapy-of-respiratory-infections",
+      "subject": "Pharmacology",
+      "title": "Drug therapy of respiratory infections",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p239-q13": {
+      "lecture_id": "pathology__pulmonary-neoplasia",
+      "subject": "Pathology",
+      "title": "Pulmonary Neoplasia",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p239-q14": {
+      "lecture_id": "pathology__pulmonary-neoplasia",
+      "subject": "Pathology",
+      "title": "Pulmonary Neoplasia",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p239-q15": {
+      "lecture_id": "pathology__pulmonary-infection",
+      "subject": "Pathology",
+      "title": "Pulmonary infection",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p240-q16": {
+      "lecture_id": "pathology__pulmonary-infection",
+      "subject": "Pathology",
+      "title": "Pulmonary infection",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p240-q17": {
+      "lecture_id": "anatomy-histology__anatomical-relations-of-the-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomical relations of the lungs",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p240-q18": {
+      "lecture_id": "anatomy-histology__anatomical-relations-of-the-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomical relations of the lungs",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p241-q19": {
+      "lecture_id": "pathology__pulmonary-infection",
+      "subject": "Pathology",
+      "title": "Pulmonary infection",
+      "quiz": 2,
+      "method": "source_review"
+    },
+    "rs-module3-p241-q20": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-pleura-and-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the pleura and lungs",
+      "quiz": 2,
+      "method": "source_review"
     }
   },
   "ai": {

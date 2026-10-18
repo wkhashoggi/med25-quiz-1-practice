@@ -45,3 +45,13 @@ The app now focuses on Past Papers, AI Questions, Mistake Quiz, Mock Exams, Lect
 Current audit: 1,286 Past Paper questions (1,072 mock-ready) and 979 AI questions across 65 active sets. `tests/reliability.js` checks retired-view recovery, absence of obsolete resource requests/events, and preservation of historical progress during account sync. `tests/xp-awards.js` and `tests/mistake-recovery.js` check XP durability and deduplication.
 
 `backend/analytics-without-cards.sql` records the applied analytics query update; `backend/analytics-rollback.sql` retains the previous definition. Execute these only through an administrator connection. Function privileges remain restricted to `postgres` and `service_role`. No scheduled jobs, workers or content-generation Edge Functions were present in the existing Render/Supabase deployment.
+
+## Respiratory Module 3 import — 18 October 2026
+
+Imported 885 source entries (797 written and 88 practical recalls) from the supplied 242-page compilation. These map to 791 distinct questions in the source set: 512 new questions, 279 existing questions reused, and 94 repeats within this compilation merged. Existing IDs, stems, options and answer keys are preserved.
+
+Past Papers → Filters → Question set now includes **RS Previous Years · Module 3** and **RS Practical · review**. Exact normalized stem-and-choice matches are merged; different diagrams and changed choices remain separate. Repeat counts describe source appearances (including a duplicate MED09 page), not a verified count of separate exam sittings. Thirty-five specific recurring concepts are marked high yield separately from the exact-repeat count.
+
+Practical recalls, incomplete stems/choices, missing or ambiguous keys, and figure-dependent written recalls are retained as ungraded study material and excluded from mock exams until reviewed. Source-bank keys are labelled as such, not clinically validated. Three additional keys disagree with existing answers; a visible warning preserves the prior key. Source manifest, provenance, mapping and merge decisions: `rs-module3-import.json`.
+
+Validation: `node tests/rs-module3-import.js`, `node tests/content-audit.js`, and `node tests/reliability.js`.

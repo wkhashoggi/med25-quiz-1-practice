@@ -788,3 +788,22 @@ button:disabled,input:disabled,select:disabled{cursor:not-allowed!important}
 
 /* Keep footer links above fixed student navigation and the question pager. */
 @media(max-width:820px){.v2Footer{margin-bottom:160px!important;scroll-margin-bottom:160px}}
+
+/* Direct access to exact source-file question sets. */
+.homeSourceFiles{margin:22px 0}
+.homeSourceHeading{margin-bottom:12px}
+.homeSourceHeading h2{margin:0;color:var(--v2-text);font-size:19px}
+.homeSourceHeading p{margin:5px 0 0;color:var(--v2-muted);font-size:13px}
+.homeSourceGrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.homeSourceCard{display:flex;flex-direction:column;gap:12px;min-width:0;background:var(--v2-surface);border-color:var(--v2-line)}
+.homeSourceCard h3{color:var(--v2-text);font-size:16px;line-height:1.35}
+.homeSourceCard p{margin:6px 0 0;color:var(--v2-muted)}
+.homeSourceProgress{display:flex;justify-content:space-between;gap:8px;color:var(--v2-muted);font-size:12px;margin-top:auto}
+.homeSourceProgress b{color:var(--v2-text)}
+.homeSourceTrack{height:6px;overflow:hidden;border-radius:99px;background:var(--v2-line)}
+.homeSourceTrack span{display:block;height:100%;background:var(--v2-accent);border-radius:inherit}
+.homeSourceButton{min-height:44px;border:1px solid var(--v2-accent);border-radius:11px;background:var(--v2-accent-soft);color:var(--v2-accent);font:inherit;font-size:14px;font-weight:750;cursor:pointer;text-align:center}
+.homeSourceButton:hover{background:var(--v2-accent);color:#fff}
+.homeSourceButton:focus-visible{outline:3px solid var(--v2-accent);outline-offset:3px}
+.homeSourceButton:disabled{opacity:.5;cursor:default}
+@media(max-width:700px){.homeSourceGrid{grid-template-columns:1fr}.homeSourceCard{gap:10px}}

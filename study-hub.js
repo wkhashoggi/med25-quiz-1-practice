@@ -678,6 +678,38 @@ function homeSubjectRows(){
   });
   return Object.values(map).sort((a,b)=>a.subject.localeCompare(b.subject));
 }
+const homeSourceFiles=[
+  {id:'formative2',title:'Formative Quiz 2',description:'Coordinator formative questions',matches:q=>q.bank==='Coordinator Formative Quiz 2'},
+  {id:'physiology2',title:'Physiology Quiz 2 Important',description:'Important Physiology question file',matches:q=>q.bank==='Physiology Quiz 2 Important'||(q.past_paper_sources||[]).some(ref=>ref.file==='Physiology Quiz 2 Important')},
+  {id:'rsModule3',title:'RS Previous Years',description:'Module 3 · written past papers',matches:q=>!q.practical_source&&(q.past_paper_sources||[]).some(ref=>ref.source_file==='C&B Module 3 of 3 - RS.pdf')}
+];
+function openHomeSourceFile(id){
+  const file=homeSourceFiles.find(f=>f.id===id);if(!file)return;
+  window.med25Revision?.setScope('');window.med25RevisionScope='';
+  document.getElementById('search').value='';
+  qaClearUnified('past',pastAdvanced);
+  state.filter=file.id;state.page=1;state.shuffled=false;state.review=false;
+  document.getElementById('modePractice')?.classList.add('primary');document.getElementById('modeReview')?.classList.remove('primary');
+  document.querySelectorAll('#questionSection .chip[data-filter]').forEach(el=>el.classList.toggle('active',el.dataset.filter===file.id));
+  resetUnansweredSnapshot();
+  hubGo('questions');
+  const questions=filtered(),next=questions.findIndex(q=>!saved[q.id]?.answered);
+  state.page=Math.floor(Math.max(0,next)/state.pageSize)+1;
+  render();saveViewState();responsiveUpdateFilterLabels();
+  const target=questions[Math.max(0,next)];
+  requestAnimationFrame(()=>{const card=target&&document.getElementById(target.id);if(card)card.scrollIntoView({block:'start',behavior:'smooth'});});
+}
+function renderHomeSourceFiles(){
+  const home=document.getElementById('homeSection');if(!home)return;
+  let host=document.getElementById('homeSourceFiles');
+  if(!host){host=document.createElement('section');host.id='homeSourceFiles';host.className='homeSourceFiles';host.setAttribute('aria-labelledby','homeSourceFilesTitle');const top=home.querySelector('.homeTop');if(top)top.after(host);else home.prepend(host);}
+  host.innerHTML='<div class="homeSourceHeading"><h2 id="homeSourceFilesTitle">Practise a specific file</h2><p>Open the exact question set.</p></div><div class="homeSourceGrid">'+homeSourceFiles.map(file=>{
+    const questions=QUESTIONS.filter(file.matches),total=questions.length,done=questions.filter(q=>saved[q.id]?.answered).length,pct=total?Math.round(done/total*100):0;
+    const action=done===0?'Start':done===total?'Review':'Continue';
+    return '<article class="hubCard homeSourceCard" data-source-file="'+file.id+'"><div><h3>'+esc(file.title)+'</h3><p>'+esc(file.description)+'</p></div><div class="homeSourceProgress"><span>'+done+' / '+total+' completed</span><b>'+pct+'%</b></div><div class="homeSourceTrack" role="progressbar" aria-label="'+esc(file.title)+' completion" aria-valuemin="0" aria-valuemax="'+total+'" aria-valuenow="'+done+'"><span style="width:'+pct+'%"></span></div><button class="homeSourceButton" type="button" data-open-source-file="'+file.id+'" aria-label="'+action+' '+esc(file.title)+'" '+(!total?'disabled':'')+'>'+action+' →</button></article>';
+  }).join('')+'</div>';
+  host.querySelectorAll('[data-open-source-file]').forEach(button=>button.onclick=()=>openHomeSourceFile(button.dataset.openSourceFile));
+}
 function renderHome(){
   const home=document.getElementById('homeSection');if(!home)return;
   const pp=homePastMetrics(),ai=homeAIMetrics(),metrics=document.getElementById('homeMetrics');
@@ -688,7 +720,7 @@ function renderHome(){
   if(weak){const rows=homeWeakTopics();weak.innerHTML=rows.length?'<div class="hubRows">'+rows.map(x=>'<div class="hubRow"><div class="hubRowMain"><b>'+esc(x.topic)+'</b><span>'+(x.pastGraded?'Past papers '+x.pastCorrect+'/'+x.pastGraded:'')+(x.pastGraded&&x.aiGraded?' · ':'')+(x.aiGraded?'AI '+x.aiCorrect+'/'+x.aiGraded:'')+' · '+x.correct+'/'+x.graded+' combined</span></div><div class="hubRowScore">'+Math.round(x.accuracy*100)+'%</div></div>').join('')+'</div>':'<p>Answer some Past Paper or AI questions and your weakest topics will appear here.</p>'}
   const subjects=document.getElementById('homeSubjects');
   if(subjects)subjects.innerHTML='<div class="hubRows">'+homeSubjectRows().map(x=>{const qPct=x.questions?Math.round(x.done/x.questions*100):0;return '<div class="hubRow"><div class="hubRowMain"><b>'+esc(x.subject)+'</b><span>Studied '+x.studied+'/'+x.lectures+' lectures · Questions '+x.done+'/'+x.questions+'</span><div class="hubBar"><span style="width:'+qPct+'%"></span></div></div><div class="hubRowScore">'+x.questionComplete+'/'+x.lectures+' complete</div></div>'}).join('')+'</div>';
-  renderLectureDashboard();
+  renderLectureDashboard();renderHomeSourceFiles();
   const sync=document.getElementById('homeSync');if(sync)sync.textContent='Drive libraries: '+(aiLibrary.lecture_sets||[]).filter(s=>!s.archived&&s.eligibility_status==='allowed'&&s.quality_status==='pass').length+' quality-checked AI lecture sets';
 }
 function hubGo(mode){switchStudySection(mode)}

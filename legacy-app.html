@@ -127,14 +127,12 @@
       <option value="repeated">Sort: Repeated concepts / high-yield first</option>
     </select>
   </div>
-  <div class="chips" aria-label="Quiz 2 past papers">
-    <button class="btn" type="button" data-bank-shortcut="Coordinator Formative Quiz 2">Formative Quiz 2 · 30 questions</button>
-    <button class="btn" type="button" data-bank-shortcut="Physiology Quiz 2 Important">Physiology Quiz 2 Important · 40 questions</button>
-  </div>
   <div class="chips">
     <button class="chip active" data-filter="all">All relevant</button>
     <button class="chip" data-filter="hy">🔥 Repeated concepts / very high-yield</button>
     <button class="chip" data-filter="formative">Coordinator formative</button>
+    <button class="chip" data-filter="formative2">Formative Quiz 2 · 30 questions</button>
+    <button class="chip" data-filter="physiology2">Physiology Quiz 2 Important · 40 questions</button>
     <button class="chip" data-filter="unanswered">Unanswered</button>
     <button class="chip" data-filter="wrong">Got wrong</button>
     <button class="chip" data-filter="smart">🧠 Smart review</button>
@@ -79106,7 +79104,6 @@ function init(){
 
   document.querySelectorAll('.control').forEach(x=>x.addEventListener('input',()=>{resetUnansweredSnapshot();if(x.id==='sort'&&x.value){state.shuffled=false;$('#shuffle').classList.remove('active')}state.page=1;saveViewState();render()}));
   document.querySelectorAll('.chip[data-filter]').forEach(b=>b.onclick=()=>{resetUnansweredSnapshot();document.querySelectorAll('.chip[data-filter]').forEach(x=>x.classList.remove('active'));b.classList.add('active');state.filter=b.dataset.filter;if(state.filter==='smart'){state.shuffled=false;$('#shuffle').classList.remove('active');$('#sort').value=''}state.page=1;saveViewState();render()});
-  document.querySelectorAll('[data-bank-shortcut]').forEach(b=>b.onclick=()=>{resetUnansweredSnapshot();['search','module','topic','sort'].forEach(id=>$('#'+id).value='');$('#bank').value=b.dataset.bankShortcut;state.filter='all';state.shuffled=false;$('#shuffle').classList.remove('active');document.querySelectorAll('.chip[data-filter]').forEach(x=>x.classList.toggle('active',x.dataset.filter==='all'));state.page=1;saveViewState();render()});
   $('#shuffle').classList.toggle('active',state.shuffled);
   $('#shuffle').onclick=()=>{resetUnansweredSnapshot();state.shuffled=!state.shuffled;if(state.shuffled)$('#sort').value='';$('#shuffle').classList.toggle('active',state.shuffled);state.page=1;saveViewState();render()};
   $('#reset').onclick=()=>{if(confirm('Clear all saved answers, wrong/right history and stars?')){resetUnansweredSnapshot();Object.keys(saved).forEach(k=>delete saved[k]);save();render()}};
@@ -79188,6 +79185,8 @@ function filtered(){
  if(s)qs=qs.filter(q=>(q.stem+' '+Object.values(q.options).join(' ')+' '+q.topic+' '+(q.tags||[]).join(' ')).toLowerCase().includes(s)); if(m)qs=qs.filter(q=>q.module===m); if(t)qs=qs.filter(q=>q.topic===t); if(b)qs=qs.filter(q=>q.bank===b||(q.past_paper_sources||[]).some(ref=>ref.file===b));
  if(state.filter==='hy')qs=repeatedSortOrder(qs.filter(q=>q.high_yield));
  if(state.filter==='formative')qs=qs.filter(q=>q.source_kind==='formative'||q.bank==='Coordinator Formative Quiz 1');
+ if(state.filter==='formative2')qs=qs.filter(q=>q.bank==='Coordinator Formative Quiz 2');
+ if(state.filter==='physiology2')qs=qs.filter(q=>q.bank==='Physiology Quiz 2 Important'||(q.past_paper_sources||[]).some(ref=>ref.file==='Physiology Quiz 2 Important'));
  if(state.filter==='unanswered'){
    if(!unansweredSnapshot)unansweredSnapshot=new Set(qs.filter(q=>!saved[q.id]?.answered).map(q=>q.id));
    qs=qs.filter(q=>unansweredSnapshot.has(q.id));

@@ -1,7 +1,7 @@
 (async function(){
 'use strict';
 try{
-  const res=await fetch('legacy-app.html?v=20261017p2',{cache:'no-store'});
+  const res=await fetch('legacy-app.html?v=20261018sets',{cache:'no-store'});
   if(!res.ok)throw new Error('Could not load the MED25 app (HTTP '+res.status+').');
   let html=await res.text();
   // Preserve revision history during legacy progress cleanup and merge newest practice.

@@ -6,6 +6,7 @@ assert.equal(set.length,40);assert.equal(added.length,24);assert.equal(select('C
 assert.equal(added.map(q=>q.answer).join(''),'BDBACBC AABCB BCCCBCBCCBBC'.replace(/ /g,''));
 const map=JSON.parse(fs.readFileSync('question-study-guide-map.json')).past;
 for(const q of set){assert.equal(map[q.id].quiz,2);assert(q.options[q.answer]);assert(q.past_paper_sources.some(s=>s.file===bank&&s.page>=1&&s.url.startsWith('assets/past-papers/physiology-quiz-2-important.pdf#page=')));}
-for(const name of [bank,'Coordinator Formative Quiz 2'])assert(html.includes('data-bank-shortcut="'+name+'"'));
+for(const name of ['physiology2','formative2']){assert(html.includes('class="chip" data-filter="'+name+'"'));const line=html.split('\n').find(s=>s.trim().startsWith("if(state.filter==='"+name+"')"));const context={state:{filter:name},qs:all};require('vm').runInNewContext(line,context);assert.equal(context.qs.length,name==='physiology2'?40:30);}
+assert(fs.readFileSync('study-hub.js','utf8').includes("document.querySelectorAll('#questionSection .chips > .chip')"),'Question set organizer must move the new chips');
 assert.equal(new Set(all.map(q=>q.id)).size,all.length);
 console.log('PASS: separate 40-question physiology and 30-question formative filters; 24 source keys, Quiz 2 mappings, source links and unique IDs');

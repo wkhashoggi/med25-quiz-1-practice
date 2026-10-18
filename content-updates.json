@@ -2,6 +2,11 @@
   "entries": [
     {
       "date": "18 October 2026",
+      "title": "AI-supplied answers and XP",
+      "summary": "153 more source entries independently answered (151 unique questions after merging repeats), with visible AI provenance and normal XP. Missing bank keys and present-but-unverified keys are distinguished. Reconstructed study questions are labelled. Twelve originals still lack a reliable question, figure or unique answer."
+    },
+    {
+      "date": "18 October 2026",
       "title": "Lecture-checked grading and XP",
       "summary": "99 previously ungraded source entries checked against lectures (94 unique questions after merging repeats). Correct first answers earn 7 XP; incorrect first answers earn 1 XP. Previously selected answers are credited on sign-in where wording and choices are unchanged. Reconstructed questions are labelled Adapted for study and allow a fresh attempt. 165 recalls remain ungraded pending missing context or lecture verification."
     },

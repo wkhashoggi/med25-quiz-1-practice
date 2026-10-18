@@ -3,8 +3,9 @@ const parse=h=>JSON.parse(h.match(/const QUESTIONS=(\[[\s\S]*?\]);\s*\n/)[1]);
 const h=fs.readFileSync('legacy-app.html','utf8'),qs=parse(h),by=new Map(qs.map(q=>[q.id,q]));
 const a=JSON.parse(fs.readFileSync('lecture-grading-review.json'));
 const old=parse(cp.execFileSync('git',['show',a.baseline_commit+':legacy-app.html'],{encoding:'utf8',maxBuffer:20e6}));
-const reviewed=new Set(a.reviews.map(r=>r.id)),removed=new Map(a.merged_duplicates.map(r=>[r.removed_id,r.retained_id]));
-assert.equal(a.reviews.length,99);assert.equal(qs.length,old.length-removed.size);
+const ai=JSON.parse(fs.readFileSync('ai-answer-grading-review.json'));
+const reviewed=new Set([...a.reviews,...ai.reviews].map(r=>r.id)),removed=new Map(a.merged_duplicates.map(r=>[r.removed_id,r.retained_id]));
+assert.equal(a.reviews.length,99);assert.equal(qs.length,old.length-removed.size-ai.merged_duplicates.length);
 for(const q of old){
  if(reviewed.has(q.id))continue;
  const now={...by.get(q.id)},before={...q};
@@ -21,6 +22,6 @@ for(const r of a.reviews){
  assert(Object.keys(q.options).length>=2,'No one-choice XP');
  if(q.review_revision)assert(q.review_edit_kind!=='checked');
 }
-for(const id of Object.keys(a.unresolved)){assert.equal(by.get(id).answer,null);assert.equal(by.get(id).exam_ready,false);}
-assert.equal(qs.filter(q=>q.proofreading_status==='needs_review'||!q.answer).length,a.remaining_ungraded_count);
-console.log('PASS: all 99 reviewed occurrences have lecture evidence; 94 unique graded items, 165 unresolved; unaffected content preserved');
+for(const id of Object.keys(ai.unresolved)){assert.equal(by.get(id).answer,null);assert.equal(by.get(id).exam_ready,false);}
+assert.equal(qs.filter(q=>q.proofreading_status==='needs_review'||!q.answer).length,ai.remaining_ungraded);
+console.log('PASS: all 99 reviewed occurrences have lecture evidence; 94 lecture-graded items preserved; independently graded items separately audited; unaffected content preserved');

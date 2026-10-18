@@ -719,6 +719,7 @@ function gameRenderQuiz(){
       '<div class="quizCardTop"><div><span class="quizSource">'+gameQuizSourceLabel(item)+'</span><span class="quizCount">Mistake '+(gameQuizState.index+1)+' of '+gameQuizState.queue.length+'</span></div><span class="quizFresh">Fresh attempt</span></div>'+
       '<h3>'+esc(q.stem||'')+'</h3>'+
         (typeof pastQuestionFigure==='function'?pastQuestionFigure(q):'')+
+        (typeof pastAIGradingNote==='function'?pastAIGradingNote(q):'')+
       '<div class="quizOptions">'+optionHtml+'</div>'+
       feedback+
       (sourceUrl?'<a class="quizSourceLink" href="'+esc(sourceUrl)+'" target="_blank" rel="noopener">Open supporting source ↗</a>':'')+
@@ -987,6 +988,7 @@ function gameMockRenderExam(){
         '<div class="mockQuestionMeta"><span>'+(item.source==='ai'?'AI Question':'Past Paper')+'</span><span>'+esc(item.subject)+'</span><span>'+esc(item.lectureTitle)+'</span><b>Question '+(exam.index+1)+' of '+exam.questions.length+'</b></div>'+
         '<h3>'+esc(q.stem||'')+'</h3>'+
         (typeof pastQuestionFigure==='function'?pastQuestionFigure(q):'')+
+        (typeof pastAIGradingNote==='function'?pastAIGradingNote(q):'')+
         '<div class="mockOptions">'+Object.entries(q.options||{}).map(([k,v])=>
           '<button type="button" data-mock-answer="'+esc(k)+'" class="mockOption '+(selected===k?'selected':'')+'"><span>'+esc(k)+'</span><b>'+esc(v)+'</b></button>'
         ).join('')+'</div>'+
@@ -1043,6 +1045,7 @@ function gameMockRenderResults(){
           '<div class="mockReviewTop"><b>Q'+(i+1)+' · '+(item.source==='ai'?'AI':'Past Paper')+'</b><span>'+esc(item.lectureTitle)+'</span></div>'+
           '<h3>'+esc(q.stem||'')+'</h3>'+
         (typeof pastQuestionFigure==='function'?pastQuestionFigure(q):'')+
+        (typeof pastAIGradingNote==='function'?pastAIGradingNote(q):'')+
           '<p><b>Your answer:</b> '+(pick?esc(pick+' · '+(q.options?.[pick]||'')):'Unanswered')+'</p>'+
           '<p><b>Correct answer:</b> '+esc(q.answer+' · '+(q.options?.[q.answer]||''))+'</p>'+
           (q.explanation||q.rationale?'<small>'+esc(q.explanation||q.rationale)+'</small>':'')+

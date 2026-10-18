@@ -3841,7 +3841,7 @@
     },
     {
       "source_question_id": "rs-module3-p136-q120",
-      "question_id": "rs-module3-p136-q120",
+      "question_id": "rs-module3-p94-q10",
       "page": 136,
       "number": "120",
       "practical": false,
@@ -5457,7 +5457,7 @@
     },
     {
       "source_question_id": "rs-module3-p176-q9",
-      "question_id": "rs-module3-p176-q9",
+      "question_id": "rs-module3-p60-q4",
       "page": 176,
       "number": "9",
       "practical": false,
@@ -7416,7 +7416,6 @@
     "rs-module3-p135-q117",
     "rs-module3-p135-q118",
     "rs-module3-p136-q119",
-    "rs-module3-p136-q120",
     "rs-module3-p136-q121",
     "rs-module3-p136-q122",
     "rs-module3-p137-q124",
@@ -7453,7 +7452,6 @@
     "rs-module3-p171-q12",
     "rs-module3-p173-q4",
     "rs-module3-p174-q8",
-    "rs-module3-p176-q9",
     "rs-module3-p179-q11",
     "rs-module3-p179-q12",
     "rs-module3-p180-q3",
@@ -12110,6 +12108,16 @@
       "source_question_id": "rs-module3-p53-q62",
       "question_id": "rs-module3-p19-q52",
       "reason": "Identical lecture-reviewed stem and choice texts; progress migrates by option text."
+    },
+    {
+      "source_question_id": "rs-module3-p176-q9",
+      "question_id": "rs-module3-p60-q4",
+      "reason": "Identical AI-reviewed wording, choice text and source image."
+    },
+    {
+      "source_question_id": "rs-module3-p136-q120",
+      "question_id": "rs-module3-p94-q10",
+      "reason": "Identical AI-reviewed wording, choice text and source image."
     }
   ],
   "concept_groups": {
@@ -12384,12 +12392,13 @@
     "Practical recalls retain source-key provenance; only lecture-verified entries are graded. Unresolved entries remain excluded from exams.",
     "Incomplete, ambiguous-key and figure-dependent written recalls are explicitly excluded from grading until reviewed.",
     "2026-10-18 cleanup: Previous Years excludes Practical entries. A visually verified duplicate chest-radiograph question is merged with a progress alias; different radiographs remain separate.",
-    "Lecture grading review: 99 original entries resolved; exact newly identical adaptations consolidated. See lecture-grading-review.json for evidence and original wording."
+    "Lecture grading review: 99 original entries resolved; exact newly identical adaptations consolidated. See lecture-grading-review.json for evidence and original wording.",
+    "Independent AI grading resolves 153 of the remaining 165 source entries. Missing bank keys are distinguished from present but unverified keys. Twelve unrecoverable/conflicting originals remain ungraded. See ai-answer-grading-review.json."
   ],
   "previous_commit": "36637095d974bfa81ed4517a9f8ce6dd5560d9db",
-  "unique_questions_in_source_set": 785,
+  "unique_questions_in_source_set": 783,
   "display_counts": {
-    "previous_years": 697,
+    "previous_years": 695,
     "practical": 88
   }
 }

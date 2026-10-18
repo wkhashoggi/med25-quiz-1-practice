@@ -14710,13 +14710,6 @@
       "quiz": 1,
       "method": "existing_question_match"
     },
-    "rs-module3-p136-q120": {
-      "lecture_id": "pathology__atelactasis-acute-lung-injury",
-      "subject": "Pathology",
-      "title": "Atelactasis & acute lung injury",
-      "quiz": 2,
-      "method": "existing_question_match"
-    },
     "rs-module3-p136-q121": {
       "lecture_id": "pathology__pulmonary-neoplasia",
       "subject": "Pathology",
@@ -14968,13 +14961,6 @@
       "title": "Obstructive airway diseases",
       "quiz": 2,
       "method": "existing_question_match"
-    },
-    "rs-module3-p176-q9": {
-      "lecture_id": "microbiology__upper-respiratory-tract-infections",
-      "subject": "Microbiology",
-      "title": "Upper respiratory tract infections",
-      "quiz": 2,
-      "method": "stem_topic"
     },
     "rs-module3-p179-q11": {
       "lecture_id": "microbiology__lower-respiratory-tract-infections",

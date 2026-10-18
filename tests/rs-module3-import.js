@@ -7,12 +7,13 @@ const old=parse(cp.execFileSync('git',['show',baseline+':legacy-app.html'],{maxB
 const byid=new Map(qs.map(q=>[q.id,q]));
 const m=JSON.parse(fs.readFileSync('rs-module3-import.json'));
 const review=JSON.parse(fs.readFileSync('lecture-grading-review.json'));
-const reviewed=new Set(review.reviews.map(q=>q.id));
+const aiReview=JSON.parse(fs.readFileSync('ai-answer-grading-review.json'));
+const reviewed=new Set([...review.reviews,...aiReview.reviews].map(q=>q.id));
 const map=JSON.parse(fs.readFileSync('question-study-guide-map.json'));
 assert.equal(byid.size,qs.length);
 assert.equal(qs.length,old.length+m.new_question_ids.length);
 assert.equal(m.occurrences.length,885);assert.equal(m.written_occurrences,797);assert.equal(m.practical_occurrences,88);
-assert.equal(m.merged_variants.length,374+review.merged_duplicates.length);
+assert.equal(m.merged_variants.length,374+review.merged_duplicates.length+aiReview.merged_duplicates.length);
 for(const q of old){const now=byid.get(q.id);assert(now);if(reviewed.has(q.id))continue;for(const key of ['stem','options','answer','answer_text','exam_ready','quiz','lecture_id'])assert.deepEqual(now[key],q[key],q.id+': '+key);}
 assert.equal(new Set(m.occurrences.map(x=>x.source_question_id)).size,885);
 for(const x of m.occurrences){const q=byid.get(x.question_id);assert(q);assert(q.past_paper_sources.some(s=>s.source_question_id===x.source_question_id));assert(q.tags.includes(m.source_bank));}

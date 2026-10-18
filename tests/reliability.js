@@ -72,10 +72,10 @@ async function run(){
 
     assert.equal(await page.evaluate(()=>window.med25GameBridge.aiQuestions().length),expectedAI.length);
     assert(await page.evaluate(()=>window.med25GameBridge.aiQuestions().every(q=>window.med25GameBridge.questionLecture('ai',q).lecture_id)));
-    assert.equal(await page.evaluate(()=>QUESTIONS.filter(window.med25ExamReadyPast).length),read('lecture-grading-review.json').mock_ready_count);
+    assert.equal(await page.evaluate(()=>QUESTIONS.filter(window.med25ExamReadyPast).length),read('ai-answer-grading-review.json').mock_ready_count);
     assert.equal(await page.evaluate(()=>QUESTIONS.filter(q=>q.bank==='Coordinator Formative Quiz 2').length),30);
     assert(await page.evaluate(()=>QUESTIONS.filter(q=>q.id.startsWith('formative-quiz2-bcr-')).every(q=>window.med25GameBridge.questionLecture('past',q).quiz===2)));
-    assert(await page.evaluate(()=>QUESTIONS.filter(q=>['formative-quiz2-bcr-q11','formative-quiz2-bcr-q16'].includes(q.id)).every(q=>!q.answer&&!window.med25ExamReadyPast(q))));
+    assert(await page.evaluate(()=>QUESTIONS.filter(q=>['formative-quiz2-bcr-q11','formative-quiz2-bcr-q16'].includes(q.id)).every(q=>q.answer_basis==='ai-supplied'&&q.source_key_status==='missing'&&window.med25ExamReadyPast(q))));
     console.log('PASS effective content counts, mappings, and mock eligibility');
 
     // Revision flows preserve first attempts while tracking fresh practice separately.

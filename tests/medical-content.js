@@ -1,6 +1,7 @@
 const fs=require('fs'),cp=require('child_process'),assert=require('assert/strict');
 const read=n=>JSON.parse(fs.readFileSync(n));const parse=h=>JSON.parse(h.match(/const QUESTIONS=(\[[\s\S]*?\]);\s*\n/)[1]);
-const audit=read('medical-content-review.json'),past=parse(fs.readFileSync('legacy-app.html','utf8')),ai=read('ai_questions.json'),supp=read('med25-daily-supplement.json'),overrides=read('question-explanations.json');
+const beforeDedup=require('./dedup-baseline');
+const audit=read('medical-content-review.json'),past=beforeDedup.past(parse(fs.readFileSync('legacy-app.html','utf8'))),ai=beforeDedup.ai(read('ai_questions.json')),supp=beforeDedup.ai(read('med25-daily-supplement.json')),overrides=read('question-explanations.json');
 const active=d=>d.lecture_sets.filter(s=>!s.archived&&s.eligibility_status==='allowed'&&s.quality_status==='pass').flatMap(s=>s.questions);
 const all=new Map([...past.map(q=>['past:'+q.id,q]),...active(ai).map(q=>['ai:'+q.id,q])]);
 const changed=new Map(audit.reviews.map(r=>[r.source+':'+r.id,r]));

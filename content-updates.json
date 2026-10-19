@@ -1,6 +1,11 @@
 {
   "entries": [
     {
+      "date": "19 October 2026",
+      "title": "Duplicate questions merged",
+      "summary": "Merged 215 duplicate Past Papers cards and one AI card that repeated a Past Paper question. Spelling, formatting and reordered-choice copies share a card. Source copies and saved progress are preserved. Distinct questions on the same concept remain separate."
+    },
+    {
       "date": "18 October 2026",
       "title": "All past papers uploaded",
       "summary": "All past papers, formative questions and the Important Physiology file have been uploaded. To practice the exact questions from a file, go to Past Papers > Filters and choose:",

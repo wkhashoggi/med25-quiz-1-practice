@@ -5,7 +5,7 @@
   "guide_topic_entries": 106,
   "drive_folders_scanned": 94,
   "drive_files_catalogued": 211,
-  "active_ai_questions": 1309,
+  "active_ai_questions": 1308,
   "active_cases": 293,
   "new_source_ids": [
     "14ffy0MYrv6xBy7KuXBNbMvVmwmEejufR",
@@ -36,7 +36,7 @@
       "subject": "Anatomy & Histology",
       "title": "Anatomy of Mediastinum & Pericardium",
       "ai_questions": 9,
-      "past_questions": 16,
+      "past_questions": 15,
       "source_file_ids": [
         "1N29pF27p1UfkP79gdlrUFW-5WiTtgnEC"
       ],
@@ -48,7 +48,7 @@
       "subject": "Anatomy & Histology",
       "title": "Histology of the Myocardium",
       "ai_questions": 9,
-      "past_questions": 23,
+      "past_questions": 21,
       "source_file_ids": [
         "1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM"
       ],
@@ -72,7 +72,7 @@
       "subject": "Anatomy & Histology",
       "title": "Internal Features of the Heart",
       "ai_questions": 9,
-      "past_questions": 26,
+      "past_questions": 27,
       "source_file_ids": [
         "1NCRD8jp124VR1jxrnCxtoTaJRJMtkx4w"
       ],
@@ -108,7 +108,7 @@
       "subject": "Anatomy & Histology",
       "title": "Radiological Anatomy of the heart and its great vessels",
       "ai_questions": 11,
-      "past_questions": 6,
+      "past_questions": 7,
       "source_file_ids": [
         "1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ"
       ],
@@ -120,7 +120,7 @@
       "subject": "Anatomy & Histology",
       "title": "Anatomy of the nose and paranasal sinuses",
       "ai_questions": 15,
-      "past_questions": 16,
+      "past_questions": 31,
       "source_file_ids": [
         "1IHaztgsdJiEeeyRqEtCjeQUIPcCXDXIZ"
       ],
@@ -132,7 +132,7 @@
       "subject": "Anatomy & Histology",
       "title": "Anatomy of the larynx",
       "ai_questions": 15,
-      "past_questions": 20,
+      "past_questions": 33,
       "source_file_ids": [
         "1D0RmuAQ2lkeWVOHf9f1eu2-PeUWePn4a"
       ],
@@ -144,7 +144,7 @@
       "subject": "Anatomy & Histology",
       "title": "Anatomy of the pleura and lungs",
       "ai_questions": 0,
-      "past_questions": 29,
+      "past_questions": 36,
       "source_file_ids": [],
       "status": "source_not_found",
       "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
@@ -154,7 +154,7 @@
       "subject": "Anatomy & Histology",
       "title": "Anatomical relations of the lungs",
       "ai_questions": 15,
-      "past_questions": 8,
+      "past_questions": 19,
       "source_file_ids": [
         "1GbS1i9k0u71-WmSR2ZZ22Bpy3XAfEiB0"
       ],
@@ -166,7 +166,7 @@
       "subject": "Anatomy & Histology",
       "title": "Development of the respiratory system",
       "ai_questions": 15,
-      "past_questions": 14,
+      "past_questions": 16,
       "source_file_ids": [
         "1DpXcs1PW5ZTNSZgkYt2b_aQM5x7EXrGc"
       ],
@@ -178,7 +178,7 @@
       "subject": "Anatomy & Histology",
       "title": "Histology of the respiratory system",
       "ai_questions": 15,
-      "past_questions": 16,
+      "past_questions": 25,
       "source_file_ids": [
         "1B_4C_63RfYYa2616craWn7Svcji3VlgF"
       ],
@@ -190,7 +190,7 @@
       "subject": "Anatomy & Histology",
       "title": "Anatomy of thoracic Wall",
       "ai_questions": 15,
-      "past_questions": 1,
+      "past_questions": 3,
       "source_file_ids": [
         "1jct-Sh-SgYJryjB_PJetNM7Kkk8a4Xpk"
       ],
@@ -212,7 +212,7 @@
       "subject": "Anatomy & Histology",
       "title": "Histology of the mucosal immune system",
       "ai_questions": 9,
-      "past_questions": 9,
+      "past_questions": 8,
       "source_file_ids": [
         "1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC"
       ],
@@ -224,7 +224,7 @@
       "subject": "Anatomy & Histology",
       "title": "Histology of the Lymphatic system",
       "ai_questions": 9,
-      "past_questions": 41,
+      "past_questions": 38,
       "source_file_ids": [
         "1tktL6El76XzdSl3H9meqCkgYArLLaty7"
       ],
@@ -296,7 +296,7 @@
       "lecture_id": "physiology__physiological-organization-of-cvs",
       "subject": "Physiology",
       "title": "Physiological organization of CVS",
-      "ai_questions": 9,
+      "ai_questions": 8,
       "past_questions": 14,
       "source_file_ids": [
         "1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg"
@@ -358,7 +358,7 @@
       "subject": "Physiology",
       "title": "Regulation of ABP (CV centers & short-term regulation)",
       "ai_questions": 19,
-      "past_questions": 32,
+      "past_questions": 31,
       "source_file_ids": [
         "1hUhRX6NQW4vC0QZctlopDFzZB_vh7U3h"
       ],
@@ -370,7 +370,7 @@
       "subject": "Physiology",
       "title": "Regulation of ABP (Intermediate and long-term Regulation)",
       "ai_questions": 9,
-      "past_questions": 17,
+      "past_questions": 18,
       "source_file_ids": [
         "1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX"
       ],
@@ -382,7 +382,7 @@
       "subject": "Physiology",
       "title": "Normal ECG",
       "ai_questions": 34,
-      "past_questions": 18,
+      "past_questions": 17,
       "source_file_ids": [
         "1BOPnp-QEVGTxTLKup011NdleQ4ImQGX9"
       ],
@@ -450,7 +450,7 @@
       "subject": "Physiology",
       "title": "Mechanics of breathing",
       "ai_questions": 12,
-      "past_questions": 17,
+      "past_questions": 39,
       "source_file_ids": [
         "1aZHufKAFdasy96wvvunzBSWX58cOJcYv"
       ],
@@ -462,7 +462,7 @@
       "subject": "Physiology",
       "title": "Pressure-volume relationship and lung compliance",
       "ai_questions": 12,
-      "past_questions": 20,
+      "past_questions": 26,
       "source_file_ids": [
         "1HkxvY3Fd3Yr9fBAnEdPO9gzvVP-wF4VJ"
       ],
@@ -474,7 +474,7 @@
       "subject": "Physiology",
       "title": "Gas diffusion and plumonary blood flow",
       "ai_questions": 15,
-      "past_questions": 17,
+      "past_questions": 21,
       "source_file_ids": [
         "1RqRgUf57RdeSJbw7-u7JJ3sL3LYhzuoP"
       ],
@@ -486,7 +486,7 @@
       "subject": "Physiology",
       "title": "Transport of oxygen in blood",
       "ai_questions": 15,
-      "past_questions": 19,
+      "past_questions": 26,
       "source_file_ids": [
         "1hvcXworeJUMyF4W8IOVG5RaTq93suiHv"
       ],
@@ -498,7 +498,7 @@
       "subject": "Physiology",
       "title": "Transport of carbon dioxide in blood",
       "ai_questions": 0,
-      "past_questions": 11,
+      "past_questions": 12,
       "source_file_ids": [],
       "status": "source_not_found",
       "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
@@ -508,7 +508,7 @@
       "subject": "Physiology",
       "title": "Neural control of breathing",
       "ai_questions": 0,
-      "past_questions": 15,
+      "past_questions": 18,
       "source_file_ids": [],
       "status": "source_not_found",
       "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
@@ -518,7 +518,7 @@
       "subject": "Physiology",
       "title": "Chemical control of breathing",
       "ai_questions": 0,
-      "past_questions": 8,
+      "past_questions": 13,
       "source_file_ids": [],
       "status": "source_not_found",
       "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
@@ -528,7 +528,7 @@
       "subject": "Physiology",
       "title": "Hypoxia and cyanosis",
       "ai_questions": 0,
-      "past_questions": 5,
+      "past_questions": 14,
       "source_file_ids": [],
       "status": "source_not_found",
       "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
@@ -550,7 +550,7 @@
       "subject": "Biochemistry",
       "title": "Haem synthesis",
       "ai_questions": 18,
-      "past_questions": 20,
+      "past_questions": 19,
       "source_file_ids": [
         "1akREae-VDZN_QNeQlrnBruB1ML_EVnFr"
       ],
@@ -610,7 +610,7 @@
       "subject": "Biochemistry",
       "title": "Diagnostic cardiac markers",
       "ai_questions": 15,
-      "past_questions": 19,
+      "past_questions": 17,
       "source_file_ids": [
         "1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl"
       ],
@@ -622,7 +622,7 @@
       "subject": "Biochemistry",
       "title": "Metabolic functions of the lung and Pulmonary Surfactant",
       "ai_questions": 0,
-      "past_questions": 13,
+      "past_questions": 21,
       "source_file_ids": [],
       "status": "source_not_found",
       "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
@@ -632,7 +632,7 @@
       "subject": "Biochemistry",
       "title": "Acid-base homeostasis and the role of the respiratory system",
       "ai_questions": 0,
-      "past_questions": 18,
+      "past_questions": 29,
       "source_file_ids": [],
       "status": "source_not_found",
       "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
@@ -642,7 +642,7 @@
       "subject": "Pathology",
       "title": "Atherosclerosis & Aneurysm",
       "ai_questions": 20,
-      "past_questions": 17,
+      "past_questions": 16,
       "source_file_ids": [
         "1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR"
       ],
@@ -666,7 +666,7 @@
       "subject": "Pathology",
       "title": "Vasculitis",
       "ai_questions": 14,
-      "past_questions": 9,
+      "past_questions": 8,
       "source_file_ids": [
         "1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6"
       ],
@@ -782,7 +782,7 @@
       "subject": "Pathology",
       "title": "Atelactasis & acute lung injury",
       "ai_questions": 15,
-      "past_questions": 21,
+      "past_questions": 23,
       "source_file_ids": [
         "1fk9vVjYqldmZYAjlwWB5NrfTqdzhO0nb"
       ],
@@ -794,7 +794,7 @@
       "subject": "Pathology",
       "title": "Pathology of bronchial Asthma",
       "ai_questions": 0,
-      "past_questions": 11,
+      "past_questions": 15,
       "source_file_ids": [],
       "status": "source_not_found",
       "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
@@ -804,7 +804,7 @@
       "subject": "Pathology",
       "title": "Obstructive airway diseases",
       "ai_questions": 16,
-      "past_questions": 22,
+      "past_questions": 32,
       "source_file_ids": [
         "1K8y3B4Uayu64dRGAXdVO8cA-Kghv0mkJ"
       ],
@@ -816,7 +816,7 @@
       "subject": "Pathology",
       "title": "Restrictive airway diseases",
       "ai_questions": 15,
-      "past_questions": 6,
+      "past_questions": 11,
       "source_file_ids": [
         "19mB88Ux0uztVg66ocgSht3t-ANFEmV7J"
       ],
@@ -828,7 +828,7 @@
       "subject": "Pathology",
       "title": "Pulmonary vessel diseases",
       "ai_questions": 15,
-      "past_questions": 4,
+      "past_questions": 7,
       "source_file_ids": [
         "1gnmzZAqrBCQwzLoSehPuwK1PBTDre41V"
       ],
@@ -840,7 +840,7 @@
       "subject": "Pathology",
       "title": "Pulmonary infection",
       "ai_questions": 15,
-      "past_questions": 10,
+      "past_questions": 14,
       "source_file_ids": [
         "1B2Q4rBuD8P8U1hs_FEEl0XjGrYzojmbG"
       ],
@@ -852,7 +852,7 @@
       "subject": "Pathology",
       "title": "Pulmonary Neoplasia",
       "ai_questions": 15,
-      "past_questions": 9,
+      "past_questions": 15,
       "source_file_ids": [
         "1poK8UIoaBGx7LNIfstbV_vqIoo_XTswC"
       ],
@@ -864,7 +864,7 @@
       "subject": "Pathology",
       "title": "Lymphadenopathy",
       "ai_questions": 20,
-      "past_questions": 13,
+      "past_questions": 12,
       "source_file_ids": [
         "10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh"
       ],
@@ -876,7 +876,7 @@
       "subject": "Pharmacology",
       "title": "Drugs used in the treatment of bronchial asthma",
       "ai_questions": 15,
-      "past_questions": 25,
+      "past_questions": 31,
       "source_file_ids": [
         "14ffy0MYrv6xBy7KuXBNbMvVmwmEejufR"
       ],
@@ -900,7 +900,7 @@
       "subject": "Pharmacology",
       "title": "Drugs used in treatment of pulmonary Embolism",
       "ai_questions": 9,
-      "past_questions": 0,
+      "past_questions": 1,
       "source_file_ids": [
         "1G6R0LoB-NH8xIt9_VROj_L8uExfhrs3D"
       ],
@@ -912,7 +912,7 @@
       "subject": "Pharmacology",
       "title": "Drug therapy of respiratory infections",
       "ai_questions": 15,
-      "past_questions": 16,
+      "past_questions": 20,
       "source_file_ids": [
         "19RLtCE2SpkaJyPgws-3_0WVQZq2fjful"
       ],
@@ -936,7 +936,7 @@
       "subject": "Pharmacology",
       "title": "Drug therapy of cough and COPD 1",
       "ai_questions": 15,
-      "past_questions": 6,
+      "past_questions": 10,
       "source_file_ids": [
         "1h3OMuRqdkly1CelYccrfK9YYu6A2hngW"
       ],
@@ -984,7 +984,7 @@
       "subject": "Pharmacology",
       "title": "Anti-anginal drugs",
       "ai_questions": 20,
-      "past_questions": 12,
+      "past_questions": 11,
       "source_file_ids": [
         "1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8"
       ],
@@ -1018,7 +1018,7 @@
       "subject": "Pharmacology",
       "title": "Treatment of anemia",
       "ai_questions": 11,
-      "past_questions": 16,
+      "past_questions": 15,
       "source_file_ids": [
         "1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY"
       ],
@@ -1042,7 +1042,7 @@
       "subject": "Pharmacology",
       "title": "Drugs affecting hemostasis",
       "ai_questions": 9,
-      "past_questions": 21,
+      "past_questions": 19,
       "source_file_ids": [
         "11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP"
       ],
@@ -1078,7 +1078,7 @@
       "subject": "Pharmacology",
       "title": "Treatment of TB",
       "ai_questions": 15,
-      "past_questions": 10,
+      "past_questions": 14,
       "source_file_ids": [
         "1cXA6kHp78EgwtKogm0hjSyXl5xZUjRvo"
       ],
@@ -1102,7 +1102,7 @@
       "subject": "Microbiology",
       "title": "Malaria",
       "ai_questions": 20,
-      "past_questions": 20,
+      "past_questions": 18,
       "source_file_ids": [
         "11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI"
       ],
@@ -1160,7 +1160,7 @@
       "subject": "Microbiology",
       "title": "Cystic parasitic diseases of the lung",
       "ai_questions": 15,
-      "past_questions": 15,
+      "past_questions": 22,
       "source_file_ids": [
         "1uOZsrmlbwkatcdPlJpIpxqnyvLyWbm3J"
       ],
@@ -1172,7 +1172,7 @@
       "subject": "Microbiology",
       "title": "Upper respiratory tract infections",
       "ai_questions": 0,
-      "past_questions": 11,
+      "past_questions": 18,
       "source_file_ids": [],
       "status": "source_not_found",
       "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
@@ -1182,7 +1182,7 @@
       "subject": "Microbiology",
       "title": "Lower respiratory tract infections",
       "ai_questions": 15,
-      "past_questions": 26,
+      "past_questions": 42,
       "source_file_ids": [
         "1P9ENcjxf1Hk2GyLPZ5PjPDO7t7sKWhG5"
       ],
@@ -1194,7 +1194,7 @@
       "subject": "Microbiology",
       "title": "Lung immunology:Innate & acquired immune responses in respiratory infections",
       "ai_questions": 0,
-      "past_questions": 1,
+      "past_questions": 2,
       "source_file_ids": [],
       "status": "source_not_found",
       "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
@@ -1240,7 +1240,7 @@
       "subject": "Microbiology",
       "title": "Immunodeficiency Disorders",
       "ai_questions": 9,
-      "past_questions": 6,
+      "past_questions": 5,
       "source_file_ids": [
         "1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp"
       ],

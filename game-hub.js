@@ -30,10 +30,20 @@ function gameMockRestore(){
     if(!stored||stored.version!==1)return;
     const e=stored.exam,pool=new Map(gameMockQuestionRows().map(x=>[x.key,x]));
     if(!e||!Array.isArray(e.questions)||!e.questions.length||!Number.isFinite(e.endsAt))throw new Error('Invalid saved mock');
-    const questions=e.questions.map(k=>pool.get(k));
-    if(questions.some(x=>!x)||new Set(e.questions).size!==questions.length)throw new Error('Saved mock content has changed');
-    const answers={};
-    for(const item of questions){const pick=e.answers?.[item.key];if(Object.hasOwn(item.q.options,pick))answers[item.key]=pick}
+    const questions=[],answers={},seen=new Set();
+    for(const oldKey of e.questions){
+      const resolved=gameResolveQuizKey(oldKey),item=resolved&&pool.get(resolved.key);
+      if(!item)throw new Error('Saved mock content has changed');
+      if(!seen.has(item.key)){questions.push(item);seen.add(item.key);}
+      let pick=e.answers?.[oldKey];
+      if(oldKey!==item.key){
+        const [kind,id]=oldKey.split(':');
+        const alias=kind==='past'?PAST_QUESTION_ALIASES[id]:AI_TO_PAST_ALIASES[id];
+        const text=alias?.options?.[pick];
+        pick=alias?.option_map?.[pick]||(text?Object.entries(item.q.options).find(([,v])=>String(v).normalize('NFKC').toLowerCase().replace(/[^a-z0-9]/g,'')===String(text).normalize('NFKC').toLowerCase().replace(/[^a-z0-9]/g,''))?.[0]:null);
+      }
+      if(!Object.hasOwn(answers,item.key)&&Object.hasOwn(item.q.options,pick))answers[item.key]=pick;
+    }
     gameMockState.exam={...e,questions,answers,index:Math.min(questions.length-1,Math.max(0,Math.trunc(e.index)||0))};
     if(stored.config)gameMockState.config=stored.config;
     if(!e.submitted){if(Date.now()>=e.endsAt)gameMockSubmit(true);else gameMockStartTimer()}
@@ -494,7 +504,7 @@ async function gameRestoreRecoveries(){
         if(!row.event_key?.startsWith('recovery:'))continue;
         let key=row.event_key.slice(9);
         if(key.startsWith('past:')&&typeof PAST_QUESTION_ALIASES!=='undefined')key='past:'+(PAST_QUESTION_ALIASES[key.slice(5)]?.id||key.slice(5));
-        if(!gameResolveQuizKey(key))continue;
+        const resolved=gameResolveQuizKey(key);if(!resolved)continue;key=resolved.key;
         const p=gameQuizProgress()[key]||{};
         if(!p.recovered||p.xp_synced_user!==userId){gameQuizProgress()[key]={...p,recovered:true,xp_synced_user:userId};changed=true}
       }
@@ -609,6 +619,13 @@ function gameRenderLeaderboard(){
 
 function gameQuizProgress(){
   if(!saved[QUIZ_PROGRESS_KEY]||typeof saved[QUIZ_PROGRESS_KEY]!=='object')saved[QUIZ_PROGRESS_KEY]={};
+  const progress=saved[QUIZ_PROGRESS_KEY];
+  for(const oldKey of Object.keys(progress)){
+    const resolved=gameResolveQuizKey(oldKey);if(!resolved||resolved.key===oldKey)continue;
+    const old=progress[oldKey],prior=progress[resolved.key]||{};
+    progress[resolved.key]={...old,...prior,recovered:!!(old.recovered||prior.recovered),attempts:Math.max(Number(old.attempts||0),Number(prior.attempts||0))};
+    delete progress[oldKey];
+  }
   return saved[QUIZ_PROGRESS_KEY];
 }
 
@@ -650,7 +667,10 @@ function gameBuildQuizQueue(){
 }
 
 function gameResolveQuizKey(key){
-  const [source,id]=String(key||'').split(':');
+  let [source,id]=String(key||'').split(':');
+  if(source==='past'&&typeof PAST_QUESTION_ALIASES!=='undefined')id=PAST_QUESTION_ALIASES[id]?.id||id;
+  if(source==='ai'&&typeof AI_TO_PAST_ALIASES!=='undefined'&&AI_TO_PAST_ALIASES[id]){source='past';id=AI_TO_PAST_ALIASES[id].id;}
+  key=source+':'+id;
   if(source==='past'){
     const q=QUESTIONS.find(x=>x.id===id);return q?{key,source,q}:null;
   }

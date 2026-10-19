@@ -2499,35 +2499,6 @@
           "exam_ready": true
         },
         {
-          "id": "ai_1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg_08",
-          "stem": "Ignoring right atrial pressure, mean arterial pressure is approximately equal to which expression?",
-          "options": {
-            "A": "Cardiac output × total peripheral resistance.",
-            "B": "Pulmonary vascular resistance is much lower.",
-            "C": "Stroke volume ÷ end-diastolic volume × 100%.",
-            "D": "End-diastolic volume − end-systolic volume."
-          },
-          "answer": "A",
-          "explanation": "Cardiac output × total peripheral resistance.",
-          "concept": "Physiological Organization of the Cardiovascular System",
-          "difficulty": "core",
-          "source_url": "https://docs.google.com/presentation/d/1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg/edit?usp=drivesdk&ouid=102134342085822761643&rtpof=true&sd=true",
-          "source_card_id": "1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg-c08",
-          "style_profile": "KAU-past-paper-inspired",
-          "quality_status": "pass",
-          "exam_ready": true,
-          "medical_review_date": "2026-10-18",
-          "medical_review_status": "corrected",
-          "review_note": "Repair malformed equation question.",
-          "review_references": [
-            {
-              "title": "Physiological organization of the cardiovascular system",
-              "url": "https://drive.google.com/file/d/1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg/view"
-            }
-          ],
-          "review_revision": "medical-review-20261018-v1"
-        },
-        {
           "id": "ai_1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg_formcase01",
           "stem": "A patient has the same cardiac output through the pulmonary and systemic circulations, but pulmonary arterial pressure is much lower. Which explanation best accounts for this difference?",
           "options": {

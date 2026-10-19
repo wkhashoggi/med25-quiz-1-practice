@@ -1,6 +1,6 @@
 const fs=require('fs'),assert=require('assert/strict'),cp=require('child_process');
 const parse=h=>JSON.parse(h.match(/const QUESTIONS=(\[[\s\S]*?\]);\s*\n/)[1]);
-const qs=parse(fs.readFileSync('legacy-app.html','utf8'));
+const qs=require('./dedup-baseline').past(parse(fs.readFileSync('legacy-app.html','utf8')));
 const baseline=JSON.parse(fs.readFileSync('rs-module3-import.json')).previous_commit;
 assert(/^[0-9a-f]{40}$/.test(baseline));
 const old=parse(cp.execFileSync('git',['show',baseline+':legacy-app.html'],{maxBuffer:20e6,encoding:'utf8'}));

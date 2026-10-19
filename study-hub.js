@@ -679,7 +679,7 @@ function homeSubjectRows(){
   return Object.values(map).sort((a,b)=>a.subject.localeCompare(b.subject));
 }
 const homeSourceFiles=[
-  {id:'formative2',title:'Formative Quiz 2',description:'Coordinator formative questions',matches:q=>q.bank==='Coordinator Formative Quiz 2'},
+  {id:'formative2',title:'Formative Quiz 2',description:'Coordinator formative questions',matches:q=>q.bank==='Coordinator Formative Quiz 2'||(q.bank_aliases||[]).includes('Coordinator Formative Quiz 2')},
   {id:'physiology2',title:'Physiology Quiz 2 Important',description:'Important Physiology question file',matches:q=>q.bank==='Physiology Quiz 2 Important'||(q.past_paper_sources||[]).some(ref=>ref.file==='Physiology Quiz 2 Important')},
   {id:'rsModule3',title:'RS Previous Years',description:'Module 3 · written past papers',matches:q=>!q.practical_source&&(q.past_paper_sources||[]).some(ref=>ref.source_file==='C&B Module 3 of 3 - RS.pdf')}
 ];

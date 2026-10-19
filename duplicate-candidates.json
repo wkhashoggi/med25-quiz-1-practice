@@ -1,0 +1,3147 @@
+{
+  "past_count": 1755,
+  "ai_count": 1309,
+  "exact_groups": [
+    [
+      "ibls-previous-years-p24-q42-80",
+      "ibls-previous-years-p35-q12-126"
+    ],
+    [
+      "ibls-previous-years-p25-q3-86",
+      "ibls-previous-years-p80-q35-313"
+    ],
+    [
+      "ibls-previous-years-p81-q39-315",
+      "ibls-previous-years-p84-q15-331"
+    ],
+    [
+      "ibls-previous-years-p31-q8-110",
+      "ibls-previous-years-p48-q16-178"
+    ],
+    [
+      "ibls-previous-years-p70-q22-267",
+      "ibls-previous-years-p74-q7-284"
+    ],
+    [
+      "ibls-previous-years-p90-q6-351",
+      "ibls-previous-years-p91-q10-355"
+    ],
+    [
+      "cvs-previous-years-p34-q6-119",
+      "cvs-previous-years-p107-q19-377"
+    ],
+    [
+      "cvs-previous-years-p34-q9-122",
+      "cvs-previous-years-p55-q56-210",
+      "cvs-previous-years-p59-q28-223"
+    ],
+    [
+      "cvs-previous-years-p40-q40-144",
+      "cvs-med23-final-p41-q7-108"
+    ],
+    [
+      "cvs-previous-years-p92-q86-341",
+      "cvs-previous-years-p143-q23-488"
+    ],
+    [
+      "cvs-previous-years-p145-q27-492",
+      "cvs-final-recall-p10-q27-27"
+    ],
+    [
+      "cvs-med23-final-p12-q9-34",
+      "cvs-med23-final-p12-q11-36"
+    ],
+    [
+      "cvs-med23-final-p61-q5-168",
+      "cvs-med23-final-p62-q10-173"
+    ],
+    [
+      "rs-med24-mid-p8-q9-9",
+      "rs-module3-p29-q13"
+    ],
+    [
+      "rs-med24-mid-p9-q12-12",
+      "rs-module3-p77-q13"
+    ],
+    [
+      "rs-med24-mid-p13-q8-21",
+      "rs-module3-p42-q19"
+    ],
+    [
+      "rs-med24-mid-p19-q7-37",
+      "rs-module3-p13-q33"
+    ],
+    [
+      "rs-med24-mid-p19-q8-38",
+      "rs-module3-p52-q58"
+    ],
+    [
+      "rs-med24-mid-p20-q10-40",
+      "rs-module3-p97-q21"
+    ],
+    [
+      "rs-med24-mid-p24-q7-48",
+      "rs-module3-p81-q30"
+    ],
+    [
+      "rs-med24-mid-p26-q4-53",
+      "rs-med24-mid-p27-q7-56"
+    ],
+    [
+      "rs-med24-mid-p29-q1-57",
+      "rs-med24-mid-p34-q14-70"
+    ],
+    [
+      "rs-med24-mid-p30-q3-59",
+      "rs-module3-p32-q27"
+    ],
+    [
+      "rs-med24-mid-p31-q7-63",
+      "rs-module3-p170-q7"
+    ],
+    [
+      "rs-med24-mid-p32-q8-64",
+      "rs-module3-p44-q29"
+    ],
+    [
+      "rs-med24-mid-p32-q10-66",
+      "rs-module3-p51-q54",
+      "rs-module3-p170-q10"
+    ],
+    [
+      "rs-med24-mid-p35-q16-72",
+      "rs-module3-p48-q44"
+    ],
+    [
+      "rs-med24-mid-p35-q17-73",
+      "rs-med24-mid-p38-q24-80"
+    ],
+    [
+      "rs-med24-mid-p38-q23-79",
+      "rs-med24-mid-p39-q25-81",
+      "rs-module3-p81-q29"
+    ],
+    [
+      "rs-med24-mid-p47-q14-95",
+      "rs-module3-p82-q33"
+    ],
+    [
+      "rs-med24-mid-p49-q2-97",
+      "rs-module3-p138-q2"
+    ],
+    [
+      "rs-med24-mid-p49-q3-98",
+      "rs-med24-mid-p50-q4-99",
+      "rs-module3-p26-q1"
+    ],
+    [
+      "rs-med24-mid-p51-q6-101",
+      "rs-med24-mid-p54-q14-109"
+    ],
+    [
+      "rs-med24-mid-p52-q9-104",
+      "rs-module3-p139-q9"
+    ],
+    [
+      "rs-med24-mid-p58-q8-119",
+      "rs-module3-p37-q41",
+      "rs-module3-p95-q12"
+    ],
+    [
+      "rs-med24-mid-p61-q18-129",
+      "rs-module3-p76-q10"
+    ],
+    [
+      "rs-med24-mid-p66-q11-142",
+      "rs-module3-p44-q26",
+      "rs-module3-p199-q15"
+    ],
+    [
+      "rs-med24-mid-p68-q15-146",
+      "rs-module3-p97-q18",
+      "rs-module3-p145-q15"
+    ],
+    [
+      "rs-med24-mid-p73-q6-158",
+      "rs-module3-p76-q12",
+      "rs-module3-p146-q1"
+    ],
+    [
+      "rs-med24-mid-p75-q1-161",
+      "rs-module3-p150-q1"
+    ],
+    [
+      "rs-med24-mid-p75-q2-162",
+      "rs-module3-p190-q6"
+    ],
+    [
+      "rs-med24-mid-p76-q4-164",
+      "rs-module3-p21-q59"
+    ],
+    [
+      "rs-med24-mid-p78-q9-169",
+      "rs-module3-p49-q47"
+    ],
+    [
+      "rs-med24-mid-p78-q11-171",
+      "rs-module3-p93-q7"
+    ],
+    [
+      "rs-med24-mid-p92-q11-198",
+      "rs-module3-p93-q4",
+      "rs-module3-p179-q11"
+    ],
+    [
+      "rs-med24-mid-p95-q20-207",
+      "rs-module3-p20-q55"
+    ],
+    [
+      "rs-med24-mid-p99-q4-211",
+      "rs-module3-p36-q38"
+    ],
+    [
+      "rs-med24-mid-p99-q5-212",
+      "rs-module3-p46-q37"
+    ],
+    [
+      "rs-med24-mid-p107-q9-231",
+      "rs-module3-p100-q32"
+    ],
+    [
+      "rs-med24-mid-p110-q4-235",
+      "rs-module3-p46-q36"
+    ],
+    [
+      "rs-med24-mid-p117-q9-253",
+      "rs-module3-p46-q35"
+    ],
+    [
+      "rs-med24-mid-p118-q10-254",
+      "rs-module3-p156-q10"
+    ],
+    [
+      "rs-med24-mid-p120-q14-258",
+      "rs-module3-p84-q41"
+    ],
+    [
+      "rs-med24-mid-p120-q17-260",
+      "rs-module3-p200-q20"
+    ],
+    [
+      "rs-med24-mid-p121-q2-262",
+      "rs-module3-p22-q65"
+    ],
+    [
+      "rs-med24-mid-p124-q9-269",
+      "rs-module3-p197-q10"
+    ],
+    [
+      "rs-med24-final-p7-q6-6",
+      "rs-module3-p14-q34"
+    ],
+    [
+      "rs-med24-final-p7-q7-7",
+      "rs-module3-p167-q7"
+    ],
+    [
+      "rs-med24-final-p8-q8-8",
+      "rs-module3-p39-q4"
+    ],
+    [
+      "rs-med24-final-p8-q9-9",
+      "rs-med24-final-p10-q14-14",
+      "rs-module3-p14-q35",
+      "rs-module3-p42-q16",
+      "rs-module3-p195-q4"
+    ],
+    [
+      "rs-med24-final-p12-q5-19",
+      "rs-module3-p44-q28"
+    ],
+    [
+      "rs-med24-final-p13-q6-20",
+      "rs-module3-p98-q23"
+    ],
+    [
+      "rs-med24-final-p13-q1-21",
+      "rs-module3-p107-q7",
+      "rs-module3-p192-q18"
+    ],
+    [
+      "rs-med24-final-p15-q4-24",
+      "rs-module3-p108-q10"
+    ],
+    [
+      "rs-med24-final-p21-q9-34",
+      "rs-module3-p30-q17"
+    ],
+    [
+      "rs-med24-final-p23-q13-38",
+      "rs-module3-p200-q21"
+    ],
+    [
+      "rs-med24-final-p27-q3-45",
+      "rs-med24-final-p29-q7-49",
+      "rs-module3-p28-q10"
+    ],
+    [
+      "rs-med24-final-p27-q4-46",
+      "rs-module3-p109-q15"
+    ],
+    [
+      "rs-med24-final-p29-q8-50",
+      "rs-module3-p36-q39"
+    ],
+    [
+      "rs-med24-final-p38-q4-64",
+      "rs-module3-p32-q26"
+    ],
+    [
+      "rs-med24-final-p38-q5-65",
+      "rs-module3-p105-q43"
+    ],
+    [
+      "rs-med24-final-p45-q6-77",
+      "rs-module3-p117-q44"
+    ],
+    [
+      "rs-med24-final-p46-q9-80",
+      "rs-module3-p118-q47"
+    ],
+    [
+      "rs-med24-final-p53-q2-90",
+      "rs-module3-p94-q8"
+    ],
+    [
+      "rs-med24-final-p56-q2-94",
+      "rs-med24-final-p58-q5-97",
+      "rs-module3-p135-q116",
+      "rs-module3-p136-q119"
+    ],
+    [
+      "rs-med24-final-p57-q3-95",
+      "rs-module3-p135-q117"
+    ],
+    [
+      "rs-med24-final-p61-q6-103",
+      "rs-med24-final-p62-q8-105",
+      "rs-module3-p94-q10",
+      "rs-module3-p104-q42",
+      "rs-module3-p136-q122"
+    ],
+    [
+      "rs-med24-final-p62-q7-104",
+      "rs-module3-p136-q121"
+    ],
+    [
+      "rs-med24-final-p65-q1-106",
+      "rs-module3-p16-q42"
+    ],
+    [
+      "rs-med24-final-p67-q6-111",
+      "rs-med24-final-p71-q14-119",
+      "rs-module3-p27-q6",
+      "rs-module3-p65-q17"
+    ],
+    [
+      "rs-med24-final-p72-q16-121",
+      "rs-module3-p18-q49",
+      "rs-module3-p81-q31"
+    ],
+    [
+      "rs-med24-final-p74-q1-123",
+      "rs-module3-p38-q1"
+    ],
+    [
+      "rs-med24-final-p74-q2-124",
+      "rs-module3-p41-q12"
+    ],
+    [
+      "rs-med24-final-p75-q3-125",
+      "rs-module3-p50-q51"
+    ],
+    [
+      "rs-med24-final-p77-q8-130",
+      "rs-module3-p122-q62"
+    ],
+    [
+      "rs-med24-final-p77-q9-131",
+      "rs-module3-p122-q63"
+    ],
+    [
+      "rs-med24-final-p90-q7-159",
+      "rs-module3-p129-q91"
+    ],
+    [
+      "rs-med24-final-p93-q2-164",
+      "rs-module3-p129-q94"
+    ],
+    [
+      "rs-med24-final-p94-q4-166",
+      "rs-module3-p130-q96"
+    ],
+    [
+      "rs-med24-final-p96-q8-170",
+      "rs-module3-p4-q23",
+      "rs-module3-p131-q100"
+    ],
+    [
+      "rs-med24-final-p97-q11-173",
+      "rs-module3-p100-q30"
+    ],
+    [
+      "rs-module3-p13-q32",
+      "rs-module3-p42-q17",
+      "rs-module3-p161-q10"
+    ],
+    [
+      "rs-module3-p19-q53",
+      "rs-module3-p103-q38"
+    ],
+    [
+      "rs-module3-p31-q23",
+      "rs-module3-p92-q2"
+    ],
+    [
+      "rs-module3-p34-q32",
+      "rs-module3-p141-q7"
+    ],
+    [
+      "rs-module3-p34-q33",
+      "rs-module3-p157-q11"
+    ],
+    [
+      "rs-module3-p35-q36",
+      "rs-module3-p166-q4"
+    ],
+    [
+      "rs-module3-p38-q3",
+      "rs-module3-p134-q113"
+    ],
+    [
+      "rs-module3-p39-q7",
+      "rs-module3-p134-q114"
+    ],
+    [
+      "rs-module3-p51-q55",
+      "rs-module3-p117-q45"
+    ],
+    [
+      "rs-module3-p52-q59",
+      "rs-module3-p127-q84"
+    ],
+    [
+      "rs-module3-p56-q73",
+      "rs-module3-p57-q74"
+    ],
+    [
+      "rs-module3-p62-q9",
+      "rs-module3-p186-q10"
+    ],
+    [
+      "rs-module3-p82-q34",
+      "rs-module3-p82-q35"
+    ],
+    [
+      "rs-module3-p108-q9",
+      "rs-module3-p108-q11"
+    ],
+    [
+      "rs-module3-p137-q124",
+      "rs-module3-p137-q125"
+    ],
+    [
+      "rs-module3-p168-q1",
+      "rs-module3-p171-q12"
+    ],
+    [
+      "rs-module3-p205-q33",
+      "rs-module3-p206-q34"
+    ]
+  ],
+  "near": [
+    {
+      "a": "ibls-previous-years-p16-q12-48",
+      "b": "ibls-previous-years-p63-q16-241",
+      "stem_a": "which one of the following is primary lymphoid organ?",
+      "stem_b": "Which of the following organs is a primary lymphoid organ?",
+      "options_a": {
+        "A": "Bone marrow",
+        "B": "Spleen",
+        "C": "Lymph node",
+        "D": "payer’s patches"
+      },
+      "options_b": {
+        "A": "Bone marrow",
+        "B": "Spleen",
+        "C": "Tonsils",
+        "D": "Lymph nodes"
+      },
+      "similarity": 0.891,
+      "tfidf": 0.873,
+      "overlap": 3,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "ibls-previous-years-p16-q12-48",
+      "b": "ibls-previous-years-p88-q10-345",
+      "stem_a": "which one of the following is primary lymphoid organ?",
+      "stem_b": "Which of the following is a primary lymphoid organ ?",
+      "options_a": {
+        "A": "Bone marrow",
+        "B": "Spleen",
+        "C": "Lymph node",
+        "D": "payer’s patches"
+      },
+      "options_b": {
+        "A": "Lymph nodes",
+        "B": "Bone marrow",
+        "C": "Spleen",
+        "D": "Payers patches"
+      },
+      "similarity": 0.953,
+      "tfidf": 0.842,
+      "overlap": 4,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "ibls-previous-years-p63-q16-241",
+      "b": "ibls-previous-years-p88-q10-345",
+      "stem_a": "Which of the following organs is a primary lymphoid organ?",
+      "stem_b": "Which of the following is a primary lymphoid organ ?",
+      "options_a": {
+        "A": "Bone marrow",
+        "B": "Spleen",
+        "C": "Tonsils",
+        "D": "Lymph nodes"
+      },
+      "options_b": {
+        "A": "Lymph nodes",
+        "B": "Bone marrow",
+        "C": "Spleen",
+        "D": "Payers patches"
+      },
+      "similarity": 0.933,
+      "tfidf": 0.817,
+      "overlap": 3,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "cvs-previous-years-p17-q39-52",
+      "b": "cvs-previous-years-p146-q32-497",
+      "stem_a": "What’s anterior to the oblique sinus?",
+      "stem_b": "What is anterior to the oblique pericardial sinus?",
+      "options_a": {
+        "A": "Pulmonary trunk",
+        "B": "Right atrium",
+        "C": "Right pulmonary artery",
+        "D": "Left atrium"
+      },
+      "options_b": {
+        "A": "Right atrium",
+        "B": "Left atrium",
+        "C": "Right ventricle",
+        "D": "Esophagus"
+      },
+      "similarity": 0.833,
+      "tfidf": 0.788,
+      "overlap": 2,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "cvs-previous-years-p28-q12-96",
+      "b": "cvs-final-recall-p5-q15-15",
+      "stem_a": "the imaging technique used to follow up a patient with aortic valve stenosis:",
+      "stem_b": "The imaging technique used to follow up a patient with aortic valve stenosis is:",
+      "options_a": {
+        "A": "Echocardiograph",
+        "B": "MRI",
+        "C": "Angiography",
+        "D": "x-ray of skull"
+      },
+      "options_b": {
+        "A": "MRI",
+        "B": "Angiography",
+        "C": "Echocardiography",
+        "D": "X-ray of skull"
+      },
+      "similarity": 0.985,
+      "tfidf": 0.96,
+      "overlap": 4,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "cvs-previous-years-p85-q51-315",
+      "b": "cvs-med23-final-p59-q8-163",
+      "stem_a": "Which is the nitrate the is taken orally only?",
+      "stem_b": "Which is the nitrate that is taken orally only?",
+      "options_a": {
+        "A": "isosorbide dinitrate",
+        "B": "isosorbide mononitrate",
+        "C": "glyceryl trinitrate"
+      },
+      "options_b": {
+        "A": "Isosorbide dinitrate",
+        "B": "Isosorbide mononitrate",
+        "C": "Glyceryl trinitrate",
+        "D": "Nitroglycerin patch"
+      },
+      "similarity": 0.96,
+      "tfidf": 0.973,
+      "overlap": 3,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "cvs-previous-years-p110-q13-388",
+      "b": "cvs-med23-final-p40-q4-105",
+      "stem_a": "Which of statement are correct about cardiac markers?",
+      "stem_b": "Which of the statements are correct about cardiac markers?",
+      "options_a": {
+        "A": "troponin L,C,I are all cardiac markers",
+        "B": "Myoglobin rises early after muscle injury but has poor cardiac specificity and is not preferred over high-sensitivity troponin for current MI evaluation"
+      },
+      "options_b": {
+        "A": "Troponin L,C,I are all cardiac markers",
+        "B": "Myoglobin rises early after muscle injury but has poor cardiac specificity and is not preferred over high-sensitivity troponin for current MI evaluation",
+        "C": "Lactate dehydrogenase (LDH) is the most specific marker for myocardial infarction",
+        "D": "Creatine kinase (CK) levels rise only after myocardial infarction and are not influenced by other conditions"
+      },
+      "similarity": 0.957,
+      "tfidf": 0.964,
+      "overlap": 2,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "cvs-previous-years-p144-q24-489",
+      "b": "cvs-final-recall-p8-q24-24",
+      "stem_a": "Which of the following junctions within the intercalated discs plays a role in spreading ionic current between cardiac myocytes?",
+      "stem_b": "Which of the following intercalated discs play a role in spreading ionic current between myocytes?",
+      "options_a": {
+        "A": "Gap junctions",
+        "B": "Fascia adherens",
+        "C": "Zonula occludens",
+        "D": "Macula adherens"
+      },
+      "options_b": {
+        "A": "Gap junctions",
+        "B": "Fascia adherens",
+        "C": "Zonula occudens",
+        "D": "Macula adherens"
+      },
+      "similarity": 0.865,
+      "tfidf": 0.865,
+      "overlap": 4,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "cvs-previous-years-p147-q38-500",
+      "b": "cvs-final-recall-p13-q38-38",
+      "stem_a": "Smoking is an important element of social history. Which of the following is a consequence or complication of smoking?",
+      "stem_b": "2)Smoking is an important element of social history. Which of the following is a consequence or complication of smoking? (ECE)",
+      "options_a": {
+        "A": "Obesity",
+        "B": "Epilepsy",
+        "C": "Premature coronary artery disease",
+        "D": "Renal calculi"
+      },
+      "options_b": {
+        "A": "Obesity",
+        "B": "Epilepsy",
+        "C": "Premature coronary artery disease"
+      },
+      "similarity": 0.98,
+      "tfidf": 0.914,
+      "overlap": 3,
+      "numbers_same": false,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "coordinator-formative-q1",
+      "b": "coordinator-formative-q41",
+      "stem_a": "Which type of hypersensitivity is mediated primarily by IgE antibodies?",
+      "stem_b": "Which type of hypersensitivity is mediated primarily by T cells rather than antibodies?",
+      "options_a": {
+        "A": "Type II",
+        "B": "Type III",
+        "C": "Type I",
+        "D": "Type IV"
+      },
+      "options_b": {
+        "A": "Type I",
+        "B": "Type III",
+        "C": "Type II",
+        "D": "Type IV"
+      },
+      "similarity": 0.874,
+      "tfidf": 0.876,
+      "overlap": 4,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "physiology-important-q29",
+      "b": "cvs-med23-final-p11-q5-30",
+      "stem_a": "Which ECG component represents ventricular depolarization?",
+      "stem_b": "What wave in the ECG represents ventricular repolarization?",
+      "options_a": {
+        "A": "P wave",
+        "B": "PR interval",
+        "C": "QRS complex",
+        "D": "T wave"
+      },
+      "options_b": {
+        "A": "Q wave",
+        "B": "R wave",
+        "C": "T wave",
+        "D": "P wave"
+      },
+      "similarity": 0.796,
+      "tfidf": 0.755,
+      "overlap": 2,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-mid-p9-q11-11",
+      "b": "rs-module3-p78-q19",
+      "stem_a": "What is cellular respiration ?",
+      "stem_b": "Cellular respiration is:",
+      "options_a": {
+        "A": "Use of O2 by mitochondria to produce energy from food metabolism.",
+        "B": "The transport of 02 in the blood circulation.",
+        "C": "O2 and CO2 exchange in the tissue level.",
+        "D": "O2 and CO2 exchange between air and lung."
+      },
+      "options_b": {
+        "A": "The transport of O₂ in the blood circulation",
+        "B": "The exchange of O₂ and CO₂ at the tissue level",
+        "C": "The movement of air into and out of the lungs",
+        "D": "The use of O₂ by mitochondria to produce energy from food metabolism"
+      },
+      "similarity": 0.826,
+      "tfidf": 0.888,
+      "overlap": 2,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-mid-p14-q12-25",
+      "b": "rs-module3-p104-q41",
+      "stem_a": "A 70-year-old man who has been a heavy smoker for nearly 50 years with possible harm to type II alveolar cells. Which of the following would probably decrease?",
+      "stem_b": "a 70 year old man who is a heavy smoker for nearly 50 years with possible harm to type II alveolar cells. Which of the following would probably decrease?",
+      "options_a": {
+        "A": "Lung compliance",
+        "B": "Filtration into the alveoli",
+        "C": "Work of breathing",
+        "D": "Surface tension in the alveoli"
+      },
+      "options_b": {
+        "A": "lung compliance",
+        "B": "Filtration into the alveoli",
+        "C": "Work of breathing",
+        "D": "Surface tension in the alveoli"
+      },
+      "similarity": 0.972,
+      "tfidf": 0.906,
+      "overlap": 4,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-mid-p21-q1-42",
+      "b": "rs-module3-p29-q16",
+      "stem_a": "Why is normal adult hemoglobin considered an efficient O2 carrier?",
+      "stem_b": "Why is the normal adult hemoglobin considered an efficient O2 carrier?",
+      "options_a": {
+        "A": "Reversible, cooperative oxygen binding supports loading in the lungs and unloading in tissues",
+        "B": "Due to highest affinity of binding to O2 compared to other gasses",
+        "C": "Due to linear relationship between PaO2 and % hemoglobin saturation",
+        "D": "Due to the stability of Hb-O2 binding"
+      },
+      "options_b": {
+        "A": "Reversible, cooperative oxygen binding supports loading in the lungs and unloading in tissues",
+        "B": "Due to highest affinity of binding to O2 compared to other gasses",
+        "C": "Due to linear relationship between PaO2 and % hemoglobin saturation",
+        "D": "Due to the stability of Hb-O2 binding"
+      },
+      "similarity": 0.974,
+      "tfidf": 0.998,
+      "overlap": 4,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-mid-p23-q5-46",
+      "b": "rs-module3-p70-q34",
+      "stem_a": "Increased acidity (lower pH) in the blood is likely to have which of the following effects?",
+      "stem_b": "increased acidity ( PH) in blood is likely to have which of the following effect?",
+      "options_a": {
+        "A": "Decreased oxygen delivery to the tissue",
+        "B": "Increased affinity of HB to oxygen",
+        "C": "Increased oxygen delivery to the tissue",
+        "D": "Decreased affinity of HB to CO2"
+      },
+      "options_b": {
+        "A": "Decreased oxygen delivery to that tissue",
+        "B": "Increased affinity of HB to oxygen",
+        "C": "Increased oxygen delivery to that tissue",
+        "D": "Decreased affinity of HB to Co2"
+      },
+      "similarity": 0.934,
+      "tfidf": 0.801,
+      "overlap": 4,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-mid-p24-q8-49",
+      "b": "rs-module3-p78-q17",
+      "stem_a": "The increase in CO₂ and acidity that lowers the affinity of hemoglobin for oxygen is known as:",
+      "stem_b": "Which effect describes how an increase in CO₂ and acidity lowers the affinity of hemoglobin for oxygen?",
+      "options_a": {
+        "A": "Bohr effect",
+        "B": "Haldane effect",
+        "C": "Hering–Breuer reflex",
+        "D": "Dalton’s law"
+      },
+      "options_b": {
+        "A": "Haldane effect",
+        "B": "Bohr effect",
+        "C": "Hering–Breuer effect",
+        "D": "Hamburger phenomenon"
+      },
+      "similarity": 0.773,
+      "tfidf": 0.749,
+      "overlap": 2,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-mid-p29-q2-58",
+      "b": "rs-module3-p173-q4",
+      "stem_a": "Which of the following diseases cause a decreased FEV1/FVC ratio?",
+      "stem_b": "Which of the following diseases cause a decreased FEV1/FVC?",
+      "options_a": {
+        "A": "Chronic Bronchitis",
+        "B": "Pneumoconiosis",
+        "C": "Acute interstitial lung disease",
+        "D": "Sarcoidosis"
+      },
+      "options_b": {
+        "A": "Chronic Bronchitis",
+        "B": "Pneumoconiosis",
+        "C": "Acute interstitial lung disease",
+        "D": "Sarcoidosis"
+      },
+      "similarity": 0.951,
+      "tfidf": 0.793,
+      "overlap": 4,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-mid-p32-q9-65",
+      "b": "rs-module3-p170-q9",
+      "stem_a": "After major chest trauma, a patient develops a large hemothorax that compresses the adjacent lung. What type of atelectasis results?",
+      "stem_b": "Major chest trauma causes a large haemothorax that compresses the adjacent lung. Which type of atelectasis results?",
+      "options_a": {
+        "A": "Resorption Atelectasis",
+        "B": "Contraction Atelectasis",
+        "C": "Compression Atelectasis",
+        "D": "Pneumoconiosis"
+      },
+      "options_b": {
+        "A": "Resorption Atelectasis",
+        "B": "Contraction Atelectasis",
+        "C": "Compression Atelectasis",
+        "D": "Pneumoconiosis"
+      },
+      "similarity": 0.87,
+      "tfidf": 0.856,
+      "overlap": 4,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-mid-p34-q15-71",
+      "b": "rs-module3-p32-q24",
+      "stem_a": "The disease that reduced the FEV1/FVC ratio?",
+      "stem_b": "The disease that has reduced FEV1/FVC ratio:",
+      "options_a": {
+        "A": "Pneumoconiosis",
+        "B": "Sarcoidosis",
+        "C": "Chronic bronchitis",
+        "D": "Idiopathic pulmonary fibrosis"
+      },
+      "options_b": {
+        "A": "pneumoconiosis",
+        "B": "sarcoidosis",
+        "C": "chronic bronchitis",
+        "D": "idiopathic pulmonary fibrosis"
+      },
+      "similarity": 0.917,
+      "tfidf": 0.82,
+      "overlap": 4,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-mid-p45-q9-90",
+      "b": "rs-module3-p67-q23",
+      "stem_a": "Which of the following have ciliated simple columnar epithelium and are devoid of cartilage and glands?",
+      "stem_b": "Which of the following have simple ciliated columnar epithelium and is devoid of cartilage and glands?",
+      "options_a": {
+        "A": "Alveolar ducts",
+        "B": "Bronchioles",
+        "C": "Secondarybronchus",
+        "D": "External bronchi"
+      },
+      "options_b": {
+        "A": "alveolar ducts",
+        "B": "Bronchioles",
+        "C": "2ry bronchus",
+        "D": "External bronchi"
+      },
+      "similarity": 0.902,
+      "tfidf": 0.991,
+      "overlap": 3,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-mid-p50-q5-100",
+      "b": "rs-module3-p138-q5",
+      "stem_a": "A 40-year-old male has an infection in the nasal cavity and also in the maxillary air sinus. This infection is making a mass in the hiatus and blocking it. Where is the block located?",
+      "stem_b": "A 40-year-old male has an infection in the nasal cavity and also in them maxillary air sinus. This infection is making a mass in the hiatus and blocking it. Where is the block located?",
+      "options_a": {
+        "A": "Superior meatus",
+        "B": "Inferior meatus",
+        "C": "Middle meatus",
+        "D": "Sphenoethmoidal recess"
+      },
+      "options_b": {
+        "A": "Superior meatus",
+        "B": "Inferior meatus",
+        "C": "Middle meatus",
+        "D": "Sphenoethmoidal recess"
+      },
+      "similarity": 0.997,
+      "tfidf": 0.986,
+      "overlap": 4,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-mid-p51-q8-103",
+      "b": "rs-module3-p63-q13",
+      "stem_a": "A 53-year-old patient has difficulty breathing through the nose. On examination, his physician finds that he has swelling of the mucous membrane of the superior nasal meatus. Which of the following paranasal sinuses is affected?",
+      "stem_b": "A 53 year old patient has difficulty breathing through nose. On examination, his physician finds that he has swelling of mucous membrane of superior nasal meatus. Which of the following paranasal sinuses is affected?",
+      "options_a": {
+        "A": "Middle ethmoidal",
+        "B": "Posterior ethmoidal",
+        "C": "Frontal",
+        "D": "Maxillary"
+      },
+      "options_b": {
+        "A": "Middle ethmoidal",
+        "B": "Posterior ethmoidal",
+        "C": "Frontal",
+        "D": "Maxillary"
+      },
+      "similarity": 0.975,
+      "tfidf": 0.946,
+      "overlap": 4,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-mid-p51-q8-103",
+      "b": "rs-module3-p75-q8",
+      "stem_a": "A 53-year-old patient has difficulty breathing through the nose. On examination, his physician finds that he has swelling of the mucous membrane of the superior nasal meatus. Which of the following paranasal sinuses is affected?",
+      "stem_b": "A 53 year old patient has difficulty breathing through nose. On examination, his physician finds that he has swelling of the mucous membrane of the superior nasal meatus. Which of the following paranasal sinuses is affected?",
+      "options_a": {
+        "A": "Middle ethmoidal",
+        "B": "Posterior ethmoidal",
+        "C": "Frontal",
+        "D": "Maxillary"
+      },
+      "options_b": {
+        "A": "Middle ethmoidal",
+        "B": "Posterior ethmoidal",
+        "C": "Frontal",
+        "D": "Maxillary"
+      },
+      "similarity": 0.992,
+      "tfidf": 0.951,
+      "overlap": 4,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-mid-p56-q4-115",
+      "b": "rs-module3-p140-q4",
+      "stem_a": "In the adult larynx, what is the narrow opening between the true vocal folds called?",
+      "stem_b": "In the adult larynx, what is the opening between the true vocal folds called?",
+      "options_a": {
+        "A": "Rima glottidis",
+        "B": "Laryngeal inlet",
+        "C": "Rima vestibule",
+        "D": "Infraglottic cavity"
+      },
+      "options_b": {
+        "A": "Rima glottidis",
+        "B": "Laryngeal inlet",
+        "C": "Rima vestibuli",
+        "D": "Infraglottic cavity"
+      },
+      "similarity": 0.954,
+      "tfidf": 0.932,
+      "overlap": 4,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-mid-p57-q6-117",
+      "b": "rs-med24-mid-p61-q18-129",
+      "stem_a": "Which of the following muscles close the laryngeal inlet?",
+      "stem_b": "Which of the following muscles widens the laryngeal inlet?",
+      "options_a": {
+        "A": "Thyroepiglottic muscle",
+        "B": "Aryepiglottic muscle",
+        "C": "Cricothyroid muscle",
+        "D": "Thyroarytenoid muscle"
+      },
+      "options_b": {
+        "A": "Thyro-epiglottic muscle",
+        "B": "Oblique arytenoid muscle",
+        "C": "Aryepiglottic muscle",
+        "D": "Cricothyroid muscle"
+      },
+      "similarity": 0.907,
+      "tfidf": 0.813,
+      "overlap": 3,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-mid-p57-q6-117",
+      "b": "rs-module3-p76-q10",
+      "stem_a": "Which of the following muscles close the laryngeal inlet?",
+      "stem_b": "Which of the following muscles widens the laryngeal inlet?",
+      "options_a": {
+        "A": "Thyroepiglottic muscle",
+        "B": "Aryepiglottic muscle",
+        "C": "Cricothyroid muscle",
+        "D": "Thyroarytenoid muscle"
+      },
+      "options_b": {
+        "A": "Thyro-epiglottic muscle",
+        "B": "Oblique arytenoid muscle",
+        "C": "Aryepiglottic muscle",
+        "D": "Lateral cricoarytenoid muscle"
+      },
+      "similarity": 0.907,
+      "tfidf": 0.813,
+      "overlap": 2,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-mid-p58-q9-120",
+      "b": "rs-module3-p64-q16",
+      "stem_a": "(Case) A patient with a benign thyroid tumor underwent thyroidectomy and then lost the ability to abduct his vocal cords. Which of the following muscles is affected?",
+      "stem_b": "(case) a patient with a benign thyroid tumor underwent thyroidectomy then he lost the ability to abduct his vocal cords . Which of the following muscles is affected ?",
+      "options_a": {
+        "A": "Posterior Cricoarytenoid",
+        "B": "Lateral Cricoarytenoid",
+        "C": "Cricothyroid",
+        "D": "Transverse Arytenoid"
+      },
+      "options_b": {
+        "A": "Posterior Cricoarytenoid",
+        "B": "Lateral Cricoarytenoid",
+        "C": "Cricothyroid",
+        "D": "Transverse arytenoid"
+      },
+      "similarity": 0.981,
+      "tfidf": 0.962,
+      "overlap": 4,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-mid-p60-q14-125",
+      "b": "rs-module3-p98-q26",
+      "stem_a": "A surgery was performed on the inferior thyroid artery, and it is suspected that nerve damage occurred. What would this nerve damage cause?",
+      "stem_b": "A surgery was performed on the inferior thyroid artery and it was suspected that nerve damage was made, what would this nerve damage cause?",
+      "options_a": {
+        "A": "Loss of Sensation Above the Vocal Cords",
+        "B": "Paralysis of Vocalis Muscle",
+        "C": "Decrease in Tension of Vocal Cords",
+        "D": "Inability to Produce High-Pitched Sounds"
+      },
+      "options_b": {
+        "A": "Loss of sense above the vocal cord",
+        "B": "Paralysis of vocalis muscle",
+        "C": "Decrease the tension of vocal cords"
+      },
+      "similarity": 0.93,
+      "tfidf": 0.879,
+      "overlap": 2,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-mid-p64-q4-135",
+      "b": "rs-med24-mid-p65-q6-137",
+      "stem_a": "In Bronchopulmonary segments, which of the following structures is intersegmental?",
+      "stem_b": "Regarding the bronchopulmonary segment. Which of the following structures is considered intersegmental?",
+      "options_a": {
+        "A": "Segmental branch of pulmonary artery",
+        "B": "Tributary pulmonary vein",
+        "C": "Segmental bronchus",
+        "D": "Lymph vessels"
+      },
+      "options_b": {
+        "A": "Segmental pulmonary artery",
+        "B": "Bronchial artery within the segment",
+        "C": "Tributary pulmonary vein",
+        "D": "Segmental bronchus"
+      },
+      "similarity": 0.87,
+      "tfidf": 0.842,
+      "overlap": 2,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-mid-p64-q4-135",
+      "b": "rs-med24-mid-p67-q13-144",
+      "stem_a": "In Bronchopulmonary segments, which of the following structures is intersegmental?",
+      "stem_b": "Regarding the bronchopulmonary segment, which of the following is intersegmental?",
+      "options_a": {
+        "A": "Segmental branch of pulmonary artery",
+        "B": "Tributary pulmonary vein",
+        "C": "Segmental bronchus",
+        "D": "Lymph vessels"
+      },
+      "options_b": {
+        "A": "Bronchial artery",
+        "B": "Segmental bronchi",
+        "C": "Tributary pulmonary vein",
+        "D": "Pulmonary artery"
+      },
+      "similarity": 0.851,
+      "tfidf": 0.833,
+      "overlap": 2,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-mid-p65-q6-137",
+      "b": "rs-med24-mid-p67-q13-144",
+      "stem_a": "Regarding the bronchopulmonary segment. Which of the following structures is considered intersegmental?",
+      "stem_b": "Regarding the bronchopulmonary segment, which of the following is intersegmental?",
+      "options_a": {
+        "A": "Segmental pulmonary artery",
+        "B": "Bronchial artery within the segment",
+        "C": "Tributary pulmonary vein",
+        "D": "Segmental bronchus"
+      },
+      "options_b": {
+        "A": "Bronchial artery",
+        "B": "Segmental bronchi",
+        "C": "Tributary pulmonary vein",
+        "D": "Pulmonary artery"
+      },
+      "similarity": 0.875,
+      "tfidf": 0.853,
+      "overlap": 2,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-mid-p68-q15-146",
+      "b": "rs-med24-mid-p69-q17-148",
+      "stem_a": "What nerve supplies the mediastinal pleura?",
+      "stem_b": "What is the nerve supply of the mediastinal pleura?",
+      "options_a": {
+        "A": "Phrenic nerve",
+        "B": "Intercostal nerve",
+        "C": "C vagus nerve",
+        "D": "D bronchial nerve"
+      },
+      "options_b": {
+        "A": "Sympathetic nerves",
+        "B": "Phrenic nerve",
+        "C": "Bronchial nerve",
+        "D": "Intercostal nerves"
+      },
+      "similarity": 0.861,
+      "tfidf": 0.857,
+      "overlap": 3,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-mid-p69-q17-148",
+      "b": "rs-module3-p97-q18",
+      "stem_a": "What is the nerve supply of the mediastinal pleura?",
+      "stem_b": "What nerve supplies the mediastinal pleura?",
+      "options_a": {
+        "A": "Sympathetic nerves",
+        "B": "Phrenic nerve",
+        "C": "Bronchial nerve",
+        "D": "Intercostal nerves"
+      },
+      "options_b": {
+        "A": "Phrenic nerve",
+        "B": "Intercostal nerve"
+      },
+      "similarity": 0.861,
+      "tfidf": 0.857,
+      "overlap": 2,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-mid-p69-q17-148",
+      "b": "rs-module3-p145-q15",
+      "stem_a": "What is the nerve supply of the mediastinal pleura?",
+      "stem_b": "What nerve supplies the mediastinal pleura?",
+      "options_a": {
+        "A": "Sympathetic nerves",
+        "B": "Phrenic nerve",
+        "C": "Bronchial nerve",
+        "D": "Intercostal nerves"
+      },
+      "options_b": {
+        "A": "Phrenic nerve",
+        "B": "Intercostal nerve",
+        "C": "vagus nerve",
+        "D": "bronchial nerve"
+      },
+      "similarity": 0.861,
+      "tfidf": 0.857,
+      "overlap": 3,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-mid-p69-q19-150",
+      "b": "rs-module3-p8-q3",
+      "stem_a": "Which of the following lymph nodes are found inside the lung?",
+      "stem_b": "Which of the following lymph nodes groups is inside the lung?",
+      "options_a": {
+        "A": "Pulmonary LNB",
+        "B": "Bronchopulmonary LN",
+        "C": "Tracheobronchial LN",
+        "D": "Paratracheal LN"
+      },
+      "options_b": {
+        "A": "pulmonary",
+        "B": "Bronchopulmonary",
+        "C": "Tracheobronchial",
+        "D": "Pretrachial"
+      },
+      "similarity": 0.9,
+      "tfidf": 0.775,
+      "overlap": 2,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-mid-p69-q19-150",
+      "b": "rs-module3-p198-q14",
+      "stem_a": "Which of the following lymph nodes are found inside the lung?",
+      "stem_b": "Which of the following lymph nodes is found inside the lungs?",
+      "options_a": {
+        "A": "Pulmonary LNB",
+        "B": "Bronchopulmonary LN",
+        "C": "Tracheobronchial LN",
+        "D": "Paratracheal LN"
+      },
+      "options_b": {
+        "A": "Tracheobronchial",
+        "B": "Bronchopulmonary",
+        "C": "Pulmonary",
+        "D": "Paratrachea"
+      },
+      "similarity": 0.94,
+      "tfidf": 0.847,
+      "overlap": 2,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-mid-p72-q4-156",
+      "b": "rs-module3-p31-q23",
+      "stem_a": "Which vessel arches over the root and grooves the medial surface of the left lung?",
+      "stem_b": "Which listed vessel arches above the root and grooves the medial surface of the left lung?",
+      "options_a": {
+        "A": "Left atrium",
+        "B": "Arch of aorta",
+        "C": "SVC",
+        "D": "Azygos"
+      },
+      "options_b": {
+        "A": "Left atrium",
+        "B": "arch of aorta",
+        "C": "SVC",
+        "D": "azygos"
+      },
+      "similarity": 0.936,
+      "tfidf": 0.911,
+      "overlap": 4,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-mid-p72-q4-156",
+      "b": "rs-module3-p92-q2",
+      "stem_a": "Which vessel arches over the root and grooves the medial surface of the left lung?",
+      "stem_b": "Which listed vessel arches above the root and grooves the medial surface of the left lung?",
+      "options_a": {
+        "A": "Left atrium",
+        "B": "Arch of aorta",
+        "C": "SVC",
+        "D": "Azygos"
+      },
+      "options_b": {
+        "A": "azygos vein",
+        "B": "arch of the aorta",
+        "C": "left atrium",
+        "D": "SVC"
+      },
+      "similarity": 0.936,
+      "tfidf": 0.911,
+      "overlap": 2,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-mid-p72-q5-157",
+      "b": "rs-module3-p39-q5",
+      "stem_a": "Which of the following is related to the medial surface of the right lung ?",
+      "stem_b": "Which of the following related to the medial surface of the right lung?",
+      "options_a": {
+        "A": "Right ventricle",
+        "B": "Left atrium",
+        "C": "Arch of azygous vein",
+        "D": "Descending aorta"
+      },
+      "options_b": {
+        "A": "Right ventricle",
+        "B": "Left atrium",
+        "C": "Arch of azygous vein",
+        "D": "Descending aorta"
+      },
+      "similarity": 0.983,
+      "tfidf": 0.937,
+      "overlap": 4,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-mid-p76-q3-163",
+      "b": "rs-med24-mid-p79-q13-173",
+      "stem_a": "During maturation of the lung, the pseudoglandular stage has?",
+      "stem_b": "During maturation of the lung the pseudoglandular stage contains?",
+      "options_a": {
+        "A": "Terminal bronchioles",
+        "B": "Respiratory bronchioles",
+        "C": "Alveolar sac",
+        "D": "Alveolar duct"
+      },
+      "options_b": {
+        "A": "Respiratory bronchioles",
+        "B": "Terminal bronchioles",
+        "C": "Alveolar sacs",
+        "D": "Alveolar ducts"
+      },
+      "similarity": 0.935,
+      "tfidf": 0.83,
+      "overlap": 4,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-mid-p77-q8-168",
+      "b": "rs-module3-p42-q20",
+      "stem_a": "Regarding the embryonic origin of the respiratory system, the epithelial lining originates from?",
+      "stem_b": "regarding the embryonic origin of respiratory system , the epithelial lining it originate from?",
+      "options_a": {
+        "A": "Splanchnic layer",
+        "B": "Mesoderm",
+        "C": "Ectoderm",
+        "D": "Endoderm"
+      },
+      "options_b": {
+        "A": "splenic layer",
+        "B": "mesoderm",
+        "C": "ectoderm",
+        "D": "endoderm"
+      },
+      "similarity": 0.963,
+      "tfidf": 0.939,
+      "overlap": 3,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-mid-p85-q5-181",
+      "b": "rs-module3-p33-q28",
+      "stem_a": "A patient comes to the clinic and has inflammation in the pharynx, tonsils, and gums with necrotic debris. Gram stains reveal a gram-negative spiral organism and gram-negative long tapering bacilli. What is the disease?",
+      "stem_b": "Patient comes to the clinic and has inflammation in the pharynx, tonsils, and gums with necrotic debris. Gram stains reveal a gram-negative spiral organism and gram-negative long tapering bacilli. What is the disease?",
+      "options_a": {
+        "A": "Streptococcal tonsillitis",
+        "B": "Epiglottitis",
+        "C": "Fever",
+        "D": "Vincent angina"
+      },
+      "options_b": {
+        "A": "Streptococcal tonsillitis",
+        "B": "Epiglottitis",
+        "C": "Fever",
+        "D": "Vincent angina"
+      },
+      "similarity": 0.997,
+      "tfidf": 1.0,
+      "overlap": 4,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-mid-p87-q1-188",
+      "b": "rs-module3-p93-q5",
+      "stem_a": "(Case) A child comes to the hospital with paroxysmal cough, cyanosis, eye congestion, high pitched sound during intaking air between bouts of coughing. He was infected with gram negative coccobacilli. What is the diagnosis?",
+      "stem_b": "(case) about a child having paroxysmal cough, cyanosis, eye congestion, high pitched sound during intaking air between bouts of coughing. He was infected with gram negative coccobacilli. What is the diagnosis?",
+      "options_a": {
+        "A": "Whooping cough",
+        "B": "Epiglottitis",
+        "C": "Severe acute respiratory syndrome (SARS)",
+        "D": "Tuberculosis"
+      },
+      "options_b": {
+        "A": "Whooping cough",
+        "B": "Epiglottis"
+      },
+      "similarity": 0.918,
+      "tfidf": 0.936,
+      "overlap": 2,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-mid-p88-q2-189",
+      "b": "rs-module3-p93-q6",
+      "stem_a": "(Case) 5 months infant with bronchiolitis ?",
+      "stem_b": "(case) 5-month infant with bronchiolitis ?",
+      "options_a": {
+        "A": "Respiratory syncytial virus",
+        "B": "Adenovirus",
+        "C": "Influenza virus",
+        "D": "Rhinovirus"
+      },
+      "options_b": {
+        "A": "Respiratory syncytial virus",
+        "B": "Adenovirus"
+      },
+      "similarity": 0.985,
+      "tfidf": 0.804,
+      "overlap": 2,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-mid-p89-q4-191",
+      "b": "rs-module3-p41-q15",
+      "stem_a": "A patient presented with lower respiratory tract symptoms, he give history of bird keeping, what is the causative organism?",
+      "stem_b": "Patient presented with lower respiratory tract symptoms, he give history of bird keeping, what is the caustive organism?",
+      "options_a": {
+        "A": "Bordetella",
+        "B": "Diphtheria",
+        "C": "SARS",
+        "D": "Chlamydia psittaci"
+      },
+      "options_b": {
+        "A": "Bordetella",
+        "B": "Diphtheria",
+        "C": "SARS",
+        "D": "Chlamydia psittaci"
+      },
+      "similarity": 0.99,
+      "tfidf": 0.925,
+      "overlap": 4,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-mid-p89-q5-192",
+      "b": "rs-module3-p43-q21",
+      "stem_a": "What is the most common cause of acute bronchitis?",
+      "stem_b": "most common cause of acute bronchitis?",
+      "options_a": {
+        "A": "Bacterial infection",
+        "B": "Viral infection",
+        "C": "Fungul infection",
+        "D": "Non-infectious cause"
+      },
+      "options_b": {
+        "A": "bacterial infection",
+        "B": "viral infection",
+        "C": "fungul infection",
+        "D": "non-infectious cause"
+      },
+      "similarity": 0.877,
+      "tfidf": 0.976,
+      "overlap": 4,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-mid-p90-q7-194",
+      "b": "rs-module3-p35-q35",
+      "stem_a": "A 60 years old male goes to Alulaa , after 2-3 days he start to complain of runny nose, cough, sore throat, and fever , also its progressed to acute pneumonia and diarrhea . What is the organism that he affected with after contact with camels ?",
+      "stem_b": "60y old male go to Alulaa , after 2-3 days he start to complain of runny nose, cough, sore throat, and fever , also its progressed to acute pneumonia and diarrhea . What is the organism that he affected with after contact with camels?",
+      "options_a": {
+        "A": "SARS",
+        "B": "MERS-COV",
+        "C": "Chlamydia pneumonia",
+        "D": "Staphylococcus aureus"
+      },
+      "options_b": {
+        "A": "SARS",
+        "B": "MERS-COV",
+        "C": "Chlamydia pneumonia",
+        "D": "Staphylococcus aureus"
+      },
+      "similarity": 0.981,
+      "tfidf": 0.939,
+      "overlap": 4,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-mid-p93-q15-202",
+      "b": "rs-module3-p40-q11",
+      "stem_a": "Case about an HIV patient; on microscope they found cup-shaped cysts in silver stain, most common likely organism?",
+      "stem_b": "case about HIV patient on microscope they found cup-shaped cysts in silver stain , most common likely organism?",
+      "options_a": {
+        "A": "Histoplasma",
+        "B": "Coccidioides",
+        "C": "Pneumocystis jiroveci",
+        "D": "Candidiasis"
+      },
+      "options_b": {
+        "A": "Histoplasma",
+        "B": "Coccioides",
+        "C": "Pneumocystis jiroveci",
+        "D": "candiases"
+      },
+      "similarity": 0.989,
+      "tfidf": 0.942,
+      "overlap": 3,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-mid-p94-q16-203",
+      "b": "rs-module3-p115-q36",
+      "stem_a": "A 74 y/o male presented to the emergency with lethargy , fever , productive cough , worsening dyspnea for a week duration . Diagnosis was demonstrate severe pneumonia. Which of the following is complication of bacterial pneumonia?",
+      "stem_b": "A 74 years old male presented to the emergency with lethargy, fever, productive cough, worsening dyspnea for a week duration. Diagnosis was demonstrate severe pneumonia. Which of the following is complication of bacterial pneumonia?",
+      "options_a": {
+        "A": "Lung cancer",
+        "B": "Heart failure",
+        "C": "Lung fibrosis",
+        "D": "Empyaema"
+      },
+      "options_b": {
+        "A": "Lung cancer",
+        "B": "Heart failure",
+        "C": "Lung fibrosis",
+        "D": "Empyema"
+      },
+      "similarity": 0.984,
+      "tfidf": 0.916,
+      "overlap": 4,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-mid-p94-q17-204",
+      "b": "rs-module3-p74-q2",
+      "stem_a": "45-year-old male with a past history of smoking and complains of fever, mild diarrhea, nonproductive cough. Gram staining of sputum shows no microorganisms. A urine test was performed and a bacterial antigen was found. The MOST recommended treatment for this infection is expected to be:",
+      "stem_b": "A 45-year-old male with a past history of smoking complains of fever, mild diarrhea, and a nonproductive cough. Gram staining of sputum shows no microorganisms. A urine test was performed, and a bacterial antigen was found. The MOST recommended treatment for this infection is expected to be:",
+      "options_a": {
+        "A": "Macrolide",
+        "B": "Metronidazole",
+        "C": "Tetracycline",
+        "D": "ceftriaxone"
+      },
+      "options_b": {
+        "A": "Macrolide",
+        "B": "Penicillin",
+        "C": "Aminoglycoside",
+        "D": "Tetracycline"
+      },
+      "similarity": 0.983,
+      "tfidf": 0.987,
+      "overlap": 2,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-mid-p101-q10-217",
+      "b": "rs-module3-p100-q31",
+      "stem_a": "A male shepherd from AlUla came complaining of hepatomegaly, upper right quadrant pain, jaundice, and a non-painful hepatic cyst was found. What is the likely causative agent?",
+      "stem_b": "A male Shepard from Al Ulla came complaining with hepatomegaly, upper right quadrant pain, jaundice, and a non painful hepatic cysts was found, what is the likely causative agent?",
+      "options_a": {
+        "A": "Echinococcus",
+        "B": "Entamoeba histolytica",
+        "C": "Schistosomiasis",
+        "D": "Ascaris lumbricoides"
+      },
+      "options_b": {
+        "A": "echinococcus",
+        "B": "Entamoeba histolytica",
+        "C": "Schistosomiasis"
+      },
+      "similarity": 0.962,
+      "tfidf": 0.826,
+      "overlap": 3,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-mid-p102-q11-218",
+      "b": "rs-module3-p100-q33",
+      "stem_a": "Where are the larval forms of Echinococcus found?",
+      "stem_b": "Where are the larva forms of echinococcus found?",
+      "options_a": {
+        "A": "Man",
+        "B": "Dog",
+        "C": "Cat",
+        "D": "Wolf"
+      },
+      "options_b": {
+        "A": "man",
+        "B": "Dog",
+        "C": "Cat",
+        "D": "Wolf"
+      },
+      "similarity": 0.988,
+      "tfidf": 0.937,
+      "overlap": 4,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-mid-p102-q13-220",
+      "b": "rs-module3-p83-q37",
+      "stem_a": "A patient comes to the clinic with a chronic cough, fever, and right-sided chest pain. Imaging shows an elevated right diaphragm, What is a likely parasitic cause?",
+      "stem_b": "Patient comes to the clinic with a chronic cough, fever, and right-sided chest pain. Imaging shows an elevated right diaphragm, What is a likely parasitic cause?",
+      "options_a": {
+        "A": "Entamoeba histolytica",
+        "B": "Schistosomiasis",
+        "C": "Toxocariasis",
+        "D": "Ascaris lumbricoides"
+      },
+      "options_b": {
+        "A": "Entamoeba histolytica",
+        "B": "Schistosomiasis",
+        "C": "Toxocariasis",
+        "D": "Ascaris lumbricoides"
+      },
+      "similarity": 0.996,
+      "tfidf": 1.0,
+      "overlap": 4,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-mid-p103-q14-221",
+      "b": "rs-module3-p191-q11",
+      "stem_a": "What’s the infective stage of entamoeba histolytica?",
+      "stem_b": "Infective stage of Entamoeba histolytica",
+      "options_a": {
+        "A": "Egg",
+        "B": "Trophozoites",
+        "C": "Cyst",
+        "D": "Cercaria"
+      },
+      "options_b": {
+        "A": "Egg",
+        "B": "Cyst",
+        "C": "Larva",
+        "D": "Trophozoite"
+      },
+      "similarity": 0.9,
+      "tfidf": 0.855,
+      "overlap": 3,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-mid-p105-q3-225",
+      "b": "rs-med24-mid-p106-q7-229",
+      "stem_a": "Which one of the following infections lead to Cor pulmonale?",
+      "stem_b": "Which of the following can lead to Cor pulmonale?",
+      "options_a": {
+        "A": "Toxocariasis",
+        "B": "Hydatid",
+        "C": "Amoebiasis",
+        "D": "Schistosomiasis"
+      },
+      "options_b": {
+        "A": "Schistosomiasis",
+        "B": "Toxocariasis",
+        "C": "Echinococcosis",
+        "D": "Ascariasis"
+      },
+      "similarity": 0.844,
+      "tfidf": 0.814,
+      "overlap": 2,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-mid-p105-q4-226",
+      "b": "rs-med24-final-p112-q12-200",
+      "stem_a": "A 42 year old man returned two weeks ago from a five month trip to Ghana. During his stay he had frequent visits to Lake which included swimming in the lake. He was present with fever, cough wheeze myalgia headache and urticaria.stool analysis revealed 2-3 eggs of schistosoma mansoni. What is the stage?",
+      "stem_b": "A 42 years old man returned two weeks ago from a five-month trip to Ghana, during which he frequently swam in a freshwater lake. He now presents with fever, cough, wheeze, myalgia, headache, and urticaria. Stool analysis revealed 2–3 eggs of Schistosoma mansoni. What is the stage of infection?",
+      "options_a": {
+        "A": "chronic schistosomiasis",
+        "B": "Cercarial penetration (invasion stage)",
+        "C": "Cercaria (migration stage)",
+        "D": "Acute Schistosomiasis (Katayama)"
+      },
+      "options_b": {
+        "A": "Chronic schistosomiasis",
+        "B": "Cercarial penetration (invasion stage)",
+        "C": "Cercarial migration stage",
+        "D": "Acute schistosomiasis (Katayama fever)"
+      },
+      "similarity": 0.793,
+      "tfidf": 0.708,
+      "overlap": 4,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-mid-p105-q4-226",
+      "b": "rs-module3-p26-q4",
+      "stem_a": "A 42 year old man returned two weeks ago from a five month trip to Ghana. During his stay he had frequent visits to Lake which included swimming in the lake. He was present with fever, cough wheeze myalgia headache and urticaria.stool analysis revealed 2-3 eggs of schistosoma mansoni. What is the stage?",
+      "stem_b": "a 42 year old man returned two weeks ago from a five month trip to Ghana . During his stay he had frequent visits to Lake which includes swimming in the lake. He present with fever, cough wheeze myalgia headache and urticaria.stool analysis revealed 2-3 eggs of schistosoma mansoni. What is the stage?",
+      "options_a": {
+        "A": "chronic schistosomiasis",
+        "B": "Cercarial penetration (invasion stage)",
+        "C": "Cercaria (migration stage)",
+        "D": "Acute Schistosomiasis (Katayama)"
+      },
+      "options_b": {
+        "A": "chronic schistosomiasis",
+        "B": "Cercarial penetration (invasion stage)",
+        "C": "cercaria (migration stage)",
+        "D": "acute Schistosomiasis (Katayama)"
+      },
+      "similarity": 0.99,
+      "tfidf": 0.972,
+      "overlap": 4,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-mid-p105-q5-227",
+      "b": "rs-module3-p40-q9",
+      "stem_a": "Which of the following is the egg that causes Ascaris infection to humans by raw vegetables and contaminated water?",
+      "stem_b": "Which of the following is the egg that cause ascaris infection to human by raw vegetables and contaminated water?",
+      "options_a": {
+        "A": "Fertilised egg",
+        "B": "Unfertilized egg",
+        "C": "Mature egg",
+        "D": "Immature egg"
+      },
+      "options_b": {
+        "A": "Fertilized egg",
+        "B": "unfertilized egg",
+        "C": "mature egg",
+        "D": "immature egg"
+      },
+      "similarity": 0.989,
+      "tfidf": 0.953,
+      "overlap": 4,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-mid-p106-q6-228",
+      "b": "rs-module3-p46-q38",
+      "stem_a": "Patient presented with 3 weeks of cough, dyspnea, CXR revealed bilateral zone patch consolidation, eosinophilia and Ascaris larva in sputum, what is this patient have ?",
+      "stem_b": "Patient presented with 3 weeks of cough, dyspnea, CXR revealed bilateral zone patch consolidation, esoinphilia and ascaris larva in sputum, what is this patient have",
+      "options_a": {
+        "A": "Katameya fever",
+        "B": "Liver abscess",
+        "C": "Lung cyst",
+        "D": "Loffler’s syndrome"
+      },
+      "options_b": {
+        "A": "Katamya fever",
+        "B": "Liver abcess",
+        "C": "lung cysct",
+        "D": "Loffler syndrome"
+      },
+      "similarity": 0.989,
+      "tfidf": 0.904,
+      "overlap": 4,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-mid-p107-q8-230",
+      "b": "rs-module3-p66-q22",
+      "stem_a": "A 6-year-old boy played with dogs on a school trip, later he came in with chest tightness,and bronchospasm. What is the possible organism?",
+      "stem_b": "A 6y/o boy played with dogs ina school trip, later he came in with chest tightness,and bronchospasm , what is the possible organism?",
+      "options_a": {
+        "A": "Toxocara",
+        "B": "Schistosoma",
+        "C": "Ascaris",
+        "D": "Ancylostoma"
+      },
+      "options_b": {
+        "A": "Toxocara",
+        "B": "Schistosoma",
+        "C": "Ascaris",
+        "D": "Ancylostoma"
+      },
+      "similarity": 0.967,
+      "tfidf": 0.876,
+      "overlap": 4,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-mid-p109-q1-232",
+      "b": "rs-module3-p63-q12",
+      "stem_a": "During surfactant synthesis, which of the following is found extra-cellular in alveolar lumen and require SP-A & SP-B for its formation and stabilization?",
+      "stem_b": "During surfactant synthesis, which of the following is found extra-cellular in alveolar lumen and repair SP-A & SP-B for its formation and stabilization?",
+      "options_a": {
+        "A": "DPPC",
+        "B": "Type II alveolar cells",
+        "C": "Lamellar body",
+        "D": "Tubular myelin"
+      },
+      "options_b": {
+        "A": "DPPC",
+        "B": "Type II alveolar cells",
+        "C": "Lamellar body",
+        "D": "Tubular myelin"
+      },
+      "similarity": 0.98,
+      "tfidf": 0.929,
+      "overlap": 4,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-mid-p110-q3-234",
+      "b": "rs-module3-p68-q27",
+      "stem_a": "A baby is born at 37 weeks with normal pulmonary function. A pulmonary test was performed; what is the likely finding?",
+      "stem_b": "A baby is born at 37 weeks with normal pulmonary function, a pulmonary test was taken, what is the likely finding?",
+      "options_a": {
+        "A": "Phosphatidylglycerol is going to make up 90% of surfactant",
+        "B": "Presence of Phosphatidylglycerol",
+        "C": "L/S ratio is below 2",
+        "D": "Sphingomyelin is the prominent surfactant"
+      },
+      "options_b": {
+        "A": "Phosphatidylglycerol is going to make up 90% of surfactant",
+        "B": "Presence of Phosphatidylglycerol",
+        "C": "L/S ratio is below 2",
+        "D": "Sphingomyelin is the prominent surfactant"
+      },
+      "similarity": 0.935,
+      "tfidf": 0.824,
+      "overlap": 4,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-mid-p110-q5-236",
+      "b": "rs-module3-p31-q21",
+      "stem_a": "A full-term newborn was brought to the hospital with pale skin and peripheral cyanosis. A genetic analysis was performed and revealed a hydrophobic protein deficiency causing respiratory distress. What is the missing protein?",
+      "stem_b": "A full term newborn came to the hospital he had pale skin peripheral cyanosis, a genetic analysis was and discovered that there a hydrophobic protein deficiency causing respiratory distress whats the messing protein?",
+      "options_a": {
+        "A": "SP-B",
+        "B": "SP-D",
+        "C": "Surfactant",
+        "D": "Dipalmitoyl phosphatidyl choline"
+      },
+      "options_b": {
+        "A": "SP-B",
+        "B": "SP-D",
+        "C": "Surfactant",
+        "D": "dipalmitoyl phosphatidyl choline"
+      },
+      "similarity": 0.857,
+      "tfidf": 0.769,
+      "overlap": 4,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-mid-p113-q10-241",
+      "b": "rs-module3-p37-q42",
+      "stem_a": "The main component of surfactant?",
+      "stem_b": "main component of surfactant:",
+      "options_a": {
+        "A": "dipalmitoyl phosphatidyl choline",
+        "B": "Phosphatidylinositol",
+        "C": "Phosphatidylglycerol",
+        "D": "Protein"
+      },
+      "options_b": {
+        "A": "dipalmitoyl phosphatidyl choline",
+        "B": "Phosphatidylinositol",
+        "C": "Phosphatidylglycerol",
+        "D": "Protein"
+      },
+      "similarity": 0.943,
+      "tfidf": 0.83,
+      "overlap": 4,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-mid-p117-q8-252",
+      "b": "rs-module3-p40-q8",
+      "stem_a": "Which of the following is the immediate effect of high-altitude climbing?",
+      "stem_b": "Which of the following is immediate of high altitude climbing",
+      "options_a": {
+        "A": "Hyperventilation",
+        "B": "Polycythemia",
+        "C": "Acidosis",
+        "D": "Increased 2,3-DPG"
+      },
+      "options_b": {
+        "A": "hyperventilation",
+        "B": "Polycythemia",
+        "C": "acidosis",
+        "D": "increase 2,3 DPG"
+      },
+      "similarity": 0.92,
+      "tfidf": 0.77,
+      "overlap": 4,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-mid-p118-q10-254",
+      "b": "rs-module3-p52-q57",
+      "stem_a": "Why is venous blood more acidic than arterial blood?",
+      "stem_b": "why venous blood is more acidic than arterial blood?",
+      "options_a": {
+        "A": "Deoxygenated hemoglobin has more affinity for H+",
+        "B": "No carbonmyl enzyme",
+        "C": "Oxygenated hemoglobin has more affinity for H+",
+        "D": "Higher CO2 content from tissue metabolism"
+      },
+      "options_b": {
+        "A": "Higher CO2 content acquired from tissue metabolism",
+        "B": "no have carbonmyl enzyme",
+        "C": "oxygenated hemoglobin have more affinity to H",
+        "D": "less oxygen"
+      },
+      "similarity": 0.953,
+      "tfidf": 1.0,
+      "overlap": 3,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-mid-p119-q12-256",
+      "b": "rs-module3-p79-q21",
+      "stem_a": "Which amino acid in hemoglobin helps buffer blood through imidazole ring?",
+      "stem_b": "Which amino acid in hemoglobin helps buffer blood through its imidazole ring?",
+      "options_a": {
+        "A": "Histidine",
+        "B": "Glycine",
+        "C": "Alanine",
+        "D": "Serine"
+      },
+      "options_b": {
+        "A": "Glycine",
+        "B": "Histidine",
+        "C": "Alanine",
+        "D": "Valine"
+      },
+      "similarity": 0.976,
+      "tfidf": 0.985,
+      "overlap": 3,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-mid-p125-q10-270",
+      "b": "rs-module3-p196-q5",
+      "stem_a": "An anxious preoperative patient hyperventilates. Arterial pH is 7.61 and PaCO2 is 22 mmHg. What primary acid–base disorder does this show?",
+      "stem_b": "An anxious preoperative patient hyperventilates and becomes dizzy. Arterial blood gas shows pH 7.61 and PaCO2 22 mmHg. What primary disorder does this show?",
+      "options_a": {
+        "A": "Metabolic acidosis",
+        "B": "Respiratory acidosis",
+        "C": "Metabolic alkalosis",
+        "D": "Respiratory alkalosis"
+      },
+      "options_b": {
+        "A": "Metabolic acidosis",
+        "B": "Respiratory acidosis",
+        "C": "Metabolic alkalosis",
+        "D": "Respiratory alkalosis"
+      },
+      "similarity": 0.835,
+      "tfidf": 0.822,
+      "overlap": 4,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-final-p6-q4-4",
+      "b": "rs-module3-p35-q36",
+      "stem_a": "Which medullary respiratory group contains expiratory neurons recruited during active, forced breathing rather than quiet passive expiration?",
+      "stem_b": "Which medullary respiratory group contains expiratory neurons recruited during forced breathing, when quiet expiration would normally be passive?",
+      "options_a": {
+        "A": "Ventral respiratory group",
+        "B": "Dorsal respiratory group",
+        "C": "Apneustic center",
+        "D": "Pneumotaxic Center"
+      },
+      "options_b": {
+        "A": "ventral respiratory group",
+        "B": "dorsal respiratory group",
+        "C": "Apneustic center",
+        "D": "Pneumotaxic Center"
+      },
+      "similarity": 0.827,
+      "tfidf": 0.858,
+      "overlap": 4,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-final-p6-q4-4",
+      "b": "rs-module3-p166-q4",
+      "stem_a": "Which medullary respiratory group contains expiratory neurons recruited during active, forced breathing rather than quiet passive expiration?",
+      "stem_b": "Which medullary respiratory group contains expiratory neurons recruited during forced breathing, when quiet expiration would normally be passive?",
+      "options_a": {
+        "A": "Ventral respiratory group",
+        "B": "Dorsal respiratory group",
+        "C": "Apneustic center",
+        "D": "Pneumotaxic Center"
+      },
+      "options_b": {
+        "A": "Ventral respiratory group",
+        "B": "Dorsal respiratory group",
+        "C": "Apneustic center",
+        "D": "Pneumotaxic Center"
+      },
+      "similarity": 0.827,
+      "tfidf": 0.858,
+      "overlap": 4,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-final-p8-q10-10",
+      "b": "rs-module3-p72-q39",
+      "stem_a": "A 24-year-old male was playing American football and collided head-to- head with another player. He was brought to the ER with cyanosis and no respiration, requiring ventilation support. Which of the following spinal levels is most likely affected?",
+      "stem_b": "(case) A 24-year old male was playing American football and went head-to-head with another player. He came to the ER with cyanosis and no respiration and had to be on ventilation . Which of the following spinal level is mostly affected?",
+      "options_a": {
+        "A": "C1",
+        "B": "C5",
+        "C": "C8",
+        "D": "T2"
+      },
+      "options_b": {
+        "A": "C1",
+        "B": "C5",
+        "C": "C8",
+        "D": "T2"
+      },
+      "similarity": 0.859,
+      "tfidf": 0.764,
+      "overlap": 4,
+      "numbers_same": true,
+      "protected_same": false,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-final-p12-q5-19",
+      "b": "rs-module3-p107-q5",
+      "stem_a": "An athletic goes to gem after training the lactic acid in his body elevate which of the following can be stimulus in response to lactic acid?",
+      "stem_b": "An athletic goes to gym after training the lactic acid in his body elevate. Which of the following can be stimulus in response to lactic acid?",
+      "options_a": {
+        "A": "Central chemoreceptors",
+        "B": "Peripheral chemoreceptors",
+        "C": "Lung irritant receptors",
+        "D": "Arterial baroreceptors"
+      },
+      "options_b": {
+        "A": "Central chemoreceptors",
+        "B": "Peripheral chemoreceptors",
+        "C": "Lung irritant receptors",
+        "D": "Arterial baroreceptors"
+      },
+      "similarity": 0.991,
+      "tfidf": 0.928,
+      "overlap": 4,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-final-p20-q8-33",
+      "b": "rs-module3-p174-q8",
+      "stem_a": "A 67 years old male, two-packed a day smoker since age 18, has had a productive cough above the last 20 years, his symptoms worsens the last 4 years, Arterial pO2 is decreased Arterial pCO2 is increased, total lung capacity is normal, these finding are most suggestive of which pulmonary disease?",
+      "stem_b": "A 67 years old male, two-pack a day smoker since age 18, has had a productive cough above the last 20 years, his symptoms worsens the last 4 years, Arterial pO2 is decreased Arterial pCO2 is increased, total lung capacity is normal, these finding are most suggestive of which pulmonary disease?",
+      "options_a": {
+        "A": "Adult respiratory distress syndrome",
+        "B": "Bronchial Asthma",
+        "C": "Chronic bronchitis",
+        "D": "Panacinar emphysema"
+      },
+      "options_b": {
+        "A": "Adult respiratory distress syndrome",
+        "B": "Bronchial Asthma",
+        "C": "Chronic bronchitis",
+        "D": "Panacinar emphysema"
+      },
+      "similarity": 0.996,
+      "tfidf": 0.985,
+      "overlap": 4,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-final-p25-q16-41",
+      "b": "rs-module3-p83-q39",
+      "stem_a": "Which of the following types of emphysema are associated with smoking?",
+      "stem_b": "Which of the following types of emphysema is associated with smoking?",
+      "options_a": {
+        "A": "Panacinar emphysema",
+        "B": "Centriacinar emphysema",
+        "C": "Irregular emphysema",
+        "D": "Paraseptal emphysema"
+      },
+      "options_b": {
+        "A": "Panacinar emphysema",
+        "B": "Centriacinar emphysema",
+        "C": "Irregular emphysema",
+        "D": "Paraseptal emphysema"
+      },
+      "similarity": 0.957,
+      "tfidf": 0.981,
+      "overlap": 4,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-final-p25-q17-42",
+      "b": "rs-module3-p83-q40",
+      "stem_a": "A 20-year-old male died. At the age of 15, he started showing shortness of breath and hepatic cirrhosis. What is the underlying cause of his condition?",
+      "stem_b": "A 20-year-old male died. At the age of 15, he started experiencing progressive shortness of breath and later developed hepatic cirrhosis. What is the underlying cause of his condition?",
+      "options_a": {
+        "A": "Decrease in α₁-antitrypsin",
+        "B": "Decrease in elastase",
+        "C": "Decrease in protease"
+      },
+      "options_b": {
+        "A": "Decreased elastase",
+        "B": "Decreased alpha-1 antitrypsin",
+        "C": "Decreased protease",
+        "D": "Increased alpha-1 antitrypsin"
+      },
+      "similarity": 0.859,
+      "tfidf": 0.821,
+      "overlap": 2,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-final-p28-q5-47",
+      "b": "rs-module3-p109-q16",
+      "stem_a": "Which description best fits status asthmaticus?",
+      "stem_b": "Which listed description best defines status asthmaticus?",
+      "options_a": {
+        "A": "Induce drug asthma",
+        "B": "Early developed asthma",
+        "C": "Rhinitis",
+        "D": "A severe, persistent asthma attack that does not respond to usual treatment"
+      },
+      "options_b": {
+        "A": "Induce drug asthma",
+        "B": "Early developed asthma",
+        "C": "Rhinitis",
+        "D": "Severe attack with no response to the drugs"
+      },
+      "similarity": 0.879,
+      "tfidf": 0.839,
+      "overlap": 3,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-final-p34-q3-57",
+      "b": "rs-module3-p17-q46.1",
+      "stem_a": "A 50-year old female patient came in with Dry cough , Bilateral hilar lymphadenopathy with Non-caseating granuloma. Which of the following is the most likely diagnosis?",
+      "stem_b": "A 50-year old female african amirecan patient came in with Dry cough , Bilateral hilar lymphadenopathy with Non-caseating granuloma. Which of the following is the most likely diagnosis?",
+      "options_a": {
+        "A": "Sarcoidosis",
+        "B": "Pneumoconiosis",
+        "C": "Emphysema",
+        "D": "Asthma"
+      },
+      "options_b": {
+        "A": "Sarcoidosis",
+        "B": "Pneumoconiosis",
+        "C": "Emphysema",
+        "D": "Asthma"
+      },
+      "similarity": 0.948,
+      "tfidf": 0.907,
+      "overlap": 4,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-final-p34-q3-57",
+      "b": "rs-module3-p37-q40",
+      "stem_a": "A 50-year old female patient came in with Dry cough , Bilateral hilar lymphadenopathy with Non-caseating granuloma. Which of the following is the most likely diagnosis?",
+      "stem_b": "50-year old female patient came with Dry cough , Bilateral hilar lymphadenopathy with Non-caseating granuloma . He had:",
+      "options_a": {
+        "A": "Sarcoidosis",
+        "B": "Pneumoconiosis",
+        "C": "Emphysema",
+        "D": "Asthma"
+      },
+      "options_b": {
+        "A": "SARCOIDOSIS",
+        "B": "PNEUMOCONIOSES",
+        "C": "Emphysema",
+        "D": "Asthma"
+      },
+      "similarity": 0.817,
+      "tfidf": 0.869,
+      "overlap": 4,
+      "numbers_same": true,
+      "protected_same": false,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-final-p35-q5-59",
+      "b": "rs-module3-p40-q10",
+      "stem_a": "Female african american has a non-caseating granuloma with skin lesion, what type of her erythema?",
+      "stem_b": "female african american has a non-ceasiting granuloma with skin lesion , what type of her erythema?",
+      "options_a": {
+        "A": "Erythema migrans",
+        "B": "Erythema multiform",
+        "C": "Erythema nodosum",
+        "D": "Erythema toxicum"
+      },
+      "options_b": {
+        "A": "Erythema migrans",
+        "B": "Erythema multiform",
+        "C": "Erythema nodosum",
+        "D": "Erythema toxicum"
+      },
+      "similarity": 0.975,
+      "tfidf": 0.845,
+      "overlap": 4,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-final-p35-q6-60",
+      "b": "rs-module3-p96-q17",
+      "stem_a": "African females have high levels of calcium and ACE + bilateral hilar lymphadenopathy. What is the diagnosis?",
+      "stem_b": "African female has high level of calcium and angiotensin converting enzyme + bilateral hilar lymphadenopathy. What is the diagnosis?",
+      "options_a": {
+        "A": "Sarcoidosis",
+        "B": "Silicosis",
+        "C": "Berylliosis",
+        "D": "Asbestosis"
+      },
+      "options_b": {
+        "A": "Sarcoidosis",
+        "B": "Silicosis"
+      },
+      "similarity": 0.856,
+      "tfidf": 0.765,
+      "overlap": 2,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-final-p45-q7-78",
+      "b": "rs-module3-p51-q55",
+      "stem_a": "An obese patient has loud snoring, witnessed obstructive apneas, daytime somnolence and recurrent nocturnal hypoxemia. Which listed disorder explains these findings and may contribute to pulmonary hypertension?",
+      "stem_b": "An obese patient has loud snoring, witnessed obstructive apnoeas, daytime sleepiness and recurrent nocturnal hypoxaemia. Which listed disorder explains this pattern and may contribute to pulmonary hypertension?",
+      "options_a": {
+        "A": "Recurrent thromboemboli",
+        "B": "Congenital or acquired heart disease",
+        "C": "Interstitial lung diseases",
+        "D": "Obstructive sleep apnea"
+      },
+      "options_b": {
+        "A": "Recurrent thromboemboli",
+        "B": "Congenital or acquired heart disease",
+        "C": "interstitial lung diseases",
+        "D": "Obstructive sleep apnea"
+      },
+      "similarity": 0.922,
+      "tfidf": 0.782,
+      "overlap": 4,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-final-p45-q7-78",
+      "b": "rs-module3-p117-q45",
+      "stem_a": "An obese patient has loud snoring, witnessed obstructive apneas, daytime somnolence and recurrent nocturnal hypoxemia. Which listed disorder explains these findings and may contribute to pulmonary hypertension?",
+      "stem_b": "An obese patient has loud snoring, witnessed obstructive apnoeas, daytime sleepiness and recurrent nocturnal hypoxaemia. Which listed disorder explains this pattern and may contribute to pulmonary hypertension?",
+      "options_a": {
+        "A": "Recurrent thromboemboli",
+        "B": "Congenital or acquired heart disease",
+        "C": "Interstitial lung diseases",
+        "D": "Obstructive sleep apnea"
+      },
+      "options_b": {
+        "A": "Recurrent thromboemboli",
+        "B": "Congenital or acquired heart disease",
+        "C": "Interstitial lung diseases",
+        "D": "Obstructive sleep apnea"
+      },
+      "similarity": 0.922,
+      "tfidf": 0.782,
+      "overlap": 4,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-final-p52-q1-88",
+      "b": "rs-module3-p132-q104",
+      "stem_a": "Which change in breath-sound quality, rather than spoken-voice transmission, may be heard over pneumonic consolidation?",
+      "stem_b": "Which listed change in breath-sound quality, rather than spoken-voice transmission, may occur over pneumonic consolidation?",
+      "options_a": {
+        "A": "Wheezing",
+        "B": "Bronchial breath sounds",
+        "C": "Egophony",
+        "D": "Friction rub"
+      },
+      "options_b": {
+        "A": "Wheezing",
+        "B": "Bronchial breath sounds",
+        "C": "Egophony",
+        "D": "Friction rub"
+      },
+      "similarity": 0.922,
+      "tfidf": 0.95,
+      "overlap": 4,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-final-p53-q2-90",
+      "b": "rs-module3-p132-q106",
+      "stem_a": "A 30 y/o woman represents with signs and symptoms of plural effusion. You decided to do diagnostic thoracocentesis. For what —- if the effusion is transudative or exudative?",
+      "stem_b": "A 30 y/o woman represents with signs and symptoms of pleural effusion. You decided to do diagnostic thoracocentesis. For what —- if the effusion is transudative or exudative?",
+      "options_a": {
+        "A": "RBCs content",
+        "B": "Protien and LDH level",
+        "C": "Cell count",
+        "D": "WBCs content"
+      },
+      "options_b": {
+        "A": "RBCs content",
+        "B": "Protein and LDH level",
+        "C": "Cell count",
+        "D": "WBCs content"
+      },
+      "similarity": 0.996,
+      "tfidf": 0.967,
+      "overlap": 4,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-final-p61-q5-102",
+      "b": "rs-module3-p137-q127",
+      "stem_a": "A patient with dyspnea has near-complete opacity of the right hemithorax and tracheal displacement to the left. Which diagnosis best explains both findings?",
+      "stem_b": "A dyspnoeic patient has near-complete right hemithorax opacity with tracheal displacement to the left. Which diagnosis best explains both findings?",
+      "options_a": {
+        "A": "Collapsed Left Lung",
+        "B": "Collapsed Right Lung",
+        "C": "Massive Pneumothorax of the right lung",
+        "D": "Massive Right lung pleural Effusion"
+      },
+      "options_b": {
+        "A": "Collapsed Left Lung",
+        "B": "Collapsed Right Lung",
+        "C": "Massive Pneumothorax of the right lung",
+        "D": "Massive Right lung pleural Effusion"
+      },
+      "similarity": 0.828,
+      "tfidf": 0.931,
+      "overlap": 4,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-final-p62-q7-104",
+      "b": "rs-module3-p56-q71",
+      "stem_a": "This x-ray show?",
+      "stem_b": "This x-ray shows ?",
+      "options_a": {
+        "A": "Miliary TB",
+        "B": "Cannon Ball Metastasis",
+        "C": "Cavities",
+        "D": "Lung consolidation"
+      },
+      "options_b": {
+        "A": "Millary TB",
+        "B": "Cannon ball metastasis",
+        "C": "Cavities"
+      },
+      "similarity": 0.96,
+      "tfidf": 0.74,
+      "overlap": 2,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": true
+    },
+    {
+      "a": "rs-med24-final-p68-q8-113",
+      "b": "rs-module3-p47-q39",
+      "stem_a": "A 4-year-old child presented with fever, runny nose, and inspiratory whoop following bouts of coughing. What is the drug of choice?",
+      "stem_b": "4yrs child presented with fever, runny nose and inspiratory whoop follows bout of coughing, what is the drug of choice ?",
+      "options_a": {
+        "A": "Erythromycin",
+        "B": "Ciprofloxacin",
+        "C": "Cephalosporin",
+        "D": "Tetracycline"
+      },
+      "options_b": {
+        "A": "Erythromycin",
+        "B": "Ciprofloxcin",
+        "C": "Cephalosporin"
+      },
+      "similarity": 0.941,
+      "tfidf": 0.745,
+      "overlap": 3,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-final-p71-q13-118",
+      "b": "rs-module3-p73-q45",
+      "stem_a": "Which drug is given to overcome the resistance of beta-lactamase-producing bacteria?",
+      "stem_b": "Which drug is given to overcome the resistance of beta lactamases producing bacteria?",
+      "options_a": {
+        "A": "Ciprofloxacin",
+        "B": "Clavulanic acid",
+        "C": "Doxycycline",
+        "D": "Piperacillin"
+      },
+      "options_b": {
+        "A": "ciprofloxacin",
+        "B": "Clavulanic acid",
+        "C": "Doxycycline",
+        "D": "Pipercellin"
+      },
+      "similarity": 0.993,
+      "tfidf": 0.83,
+      "overlap": 3,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-final-p73-q17-122",
+      "b": "rs-module3-p82-q34",
+      "stem_a": "Which adverse effect of azithromycin increases the risk of torsades de pointes?",
+      "stem_b": "Which adverse effect of azithromycin can increase susceptibility to torsades de pointes?",
+      "options_a": {
+        "A": "Prolonged QT interval",
+        "B": "Gastrointestinal problems",
+        "C": "Ototoxicity",
+        "D": "Photosensitivity"
+      },
+      "options_b": {
+        "A": "Ototoxicity",
+        "B": "QT interval prolongation",
+        "C": "Nephrotoxicity",
+        "D": "Photosensitivity"
+      },
+      "similarity": 0.853,
+      "tfidf": 0.819,
+      "overlap": 2,
+      "numbers_same": true,
+      "protected_same": false,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-final-p76-q7-129",
+      "b": "rs-module3-p19-q51",
+      "stem_a": "A 70 kg woman came to the ER with acute exacerbated asthma. After setting an oxygen cannula, what is the first appropriate drug to be used for treatment?",
+      "stem_b": "A 70 kg woman came to the ER with acute exacerbated asthma. After setting an oxygen cannula, what is the first line drug to be used for treatment?",
+      "options_a": {
+        "A": "Salbutamol nebulization",
+        "B": "Slow IV Cortisone",
+        "C": "Aminophylline slow IV infusion",
+        "D": "Ipratropium nebulization"
+      },
+      "options_b": {
+        "A": "Salbutamol nebulization",
+        "B": "Slow IV Cortisone",
+        "C": "Aminophylline slow IV infusion",
+        "D": "Ipratropium nebulization"
+      },
+      "similarity": 0.954,
+      "tfidf": 0.934,
+      "overlap": 4,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-final-p85-q2-148",
+      "b": "rs-module3-p103-q39",
+      "stem_a": "A 69 years-old man has COPD with moderate airway obstruction. Despite using salmeterol two times daily, he reports continued symptoms of shortness of breath with mild exertion. Which agent is an appropriate addition to his current therapy?",
+      "stem_b": "69 years-old man has COPD with moderate airway obstruction. Despite using salmeterol two times daily, he reports continued symptoms of shortness of breath with mild exertion. Which agent is an appropriate addition to his current therapy?",
+      "options_a": {
+        "A": "Salbutamol",
+        "B": "Tiotropium",
+        "C": "Systemic corticosteroids",
+        "D": "Theophylline"
+      },
+      "options_b": {
+        "A": "Salbutamol",
+        "B": "Tiotropium",
+        "C": "Systemic corticosteroids",
+        "D": "Theophylline"
+      },
+      "similarity": 0.997,
+      "tfidf": 1.0,
+      "overlap": 4,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-final-p86-q3-149",
+      "b": "rs-module3-p103-q39",
+      "stem_a": "A 68 year-old-male has COPD with moderate airway obstruction. Despite using salmeterol twice daily as prescribed, he reports continued symptoms of shortness of breath. Which one of the following agents would be an appropriate addition to his current therapy?",
+      "stem_b": "69 years-old man has COPD with moderate airway obstruction. Despite using salmeterol two times daily, he reports continued symptoms of shortness of breath with mild exertion. Which agent is an appropriate addition to his current therapy?",
+      "options_a": {
+        "A": "Systemic Corticosteroids",
+        "B": "Albuterol",
+        "C": "Tiotropium",
+        "D": "Theophylline"
+      },
+      "options_b": {
+        "A": "Salbutamol",
+        "B": "Tiotropium",
+        "C": "Systemic corticosteroids",
+        "D": "Theophylline"
+      },
+      "similarity": 0.842,
+      "tfidf": 0.756,
+      "overlap": 3,
+      "numbers_same": false,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-final-p89-q5-157",
+      "b": "rs-module3-p44-q30",
+      "stem_a": "A patient is taking a drug to control his TB, which results in hyperuricemia. What drug is responsible for this side effect?",
+      "stem_b": "patient is taking a drug to control his TB and this drug results in Hyperuricemia. What drug is responsible for this side effect?",
+      "options_a": {
+        "A": "Isoniazid",
+        "B": "Rifampin",
+        "C": "Pyrazinamide",
+        "D": "Streptomycin"
+      },
+      "options_b": {
+        "A": "Isoniazid",
+        "B": "Rifampin",
+        "C": "Pyrazinamide",
+        "D": "Streptomycin"
+      },
+      "similarity": 0.937,
+      "tfidf": 0.942,
+      "overlap": 4,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-final-p95-q6-168",
+      "b": "rs-module3-p4-q27",
+      "stem_a": "A 32-year old female has a valvular heart disease and takes warfarin, She decided to follow a new diet with lots of green vegetables. How would that affect her ?",
+      "stem_b": "32-year old female has a valvular heart disease and takes warfarin . She decided to follow a new diet with lots of green vegetables. How would that affect her?",
+      "options_a": {
+        "A": "Vitamin K is increased which makes warfarin less efficient",
+        "B": "Vitamin C is decreased which makes warfarin more efficient",
+        "C": "Vitamin K is decreased which makes warfarin more efficient",
+        "D": "Vitamin C is increased which makes warfarin less efficient"
+      },
+      "options_b": {
+        "A": "Vitamin k is increased which makes warfarin less efficient",
+        "B": "Vitamin c is decreased which makes warfarin more efficient",
+        "C": "Vitamin k is decreased which makes warfarin more efficient",
+        "D": "Vitamin c is increased which makes warfarin less efficient"
+      },
+      "similarity": 0.996,
+      "tfidf": 0.954,
+      "overlap": 4,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-final-p95-q7-169",
+      "b": "rs-module3-p4-q18",
+      "stem_a": "Which of the following is one of the advantages of LMWH ?",
+      "stem_b": "Which of the following is one of advantages of LMWH?",
+      "options_a": {
+        "A": "Easily monitor using INT",
+        "B": "Cheap",
+        "C": "Safe in pregnancy",
+        "D": "Fully response to sulfate"
+      },
+      "options_b": {
+        "A": "easily montir using INT",
+        "B": "cheap",
+        "C": "safe in pregnancy",
+        "D": "fully response to sulfate"
+      },
+      "similarity": 0.966,
+      "tfidf": 0.867,
+      "overlap": 4,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-final-p97-q10-172",
+      "b": "rs-module3-p99-q29",
+      "stem_a": "When would we expect to see the maximum anticoagulant effect of warfarin?",
+      "stem_b": "Which time will we expect to have the maximum anticoagulant effect of warfarin ?",
+      "options_a": {
+        "A": "One day",
+        "B": "Three days",
+        "C": "Six hours",
+        "D": "One week"
+      },
+      "options_b": {
+        "A": "one day",
+        "B": "three days",
+        "C": "6 hours",
+        "D": "one week"
+      },
+      "similarity": 0.866,
+      "tfidf": 0.798,
+      "overlap": 3,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-final-p112-q11-199",
+      "b": "rs-module3-p201-q23",
+      "stem_a": "A 42 years old farmer presents with dyspnea, chest pain, and chronic cough. Stool examination revealed no parasitic eggs. Additional tests revealed eosinophilia and leukocytosis. What is the most likely diagnosis?",
+      "stem_b": "A 42 year old farmer presents with dyspnea, chest pain, and a chronic cough. Stool examination revealed no parasitic eggs. Additional testing revealed eosinophilia and leukocytosis. Which of the following is the most likely diagnosis?",
+      "options_a": {
+        "A": "Pulmonary hydatid cyst",
+        "B": "Löffler syndrome",
+        "C": "Schistosomiasis",
+        "D": "Amoebiasis"
+      },
+      "options_b": {
+        "A": "Pulmonary hydatid cyst",
+        "B": "Loffler syndrome",
+        "C": "Schistosomiasis",
+        "D": "Amoebiasis Transient pulmonary infiltrates would make the diagnosis clearer; eosinophilia and a negative stool examination alone are not specific."
+      },
+      "similarity": 0.938,
+      "tfidf": 0.962,
+      "overlap": 3,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-med24-final-p112-q12-200",
+      "b": "rs-module3-p26-q4",
+      "stem_a": "A 42 years old man returned two weeks ago from a five-month trip to Ghana, during which he frequently swam in a freshwater lake. He now presents with fever, cough, wheeze, myalgia, headache, and urticaria. Stool analysis revealed 2–3 eggs of Schistosoma mansoni. What is the stage of infection?",
+      "stem_b": "a 42 year old man returned two weeks ago from a five month trip to Ghana . During his stay he had frequent visits to Lake which includes swimming in the lake. He present with fever, cough wheeze myalgia headache and urticaria.stool analysis revealed 2-3 eggs of schistosoma mansoni. What is the stage?",
+      "options_a": {
+        "A": "Chronic schistosomiasis",
+        "B": "Cercarial penetration (invasion stage)",
+        "C": "Cercarial migration stage",
+        "D": "Acute schistosomiasis (Katayama fever)"
+      },
+      "options_b": {
+        "A": "chronic schistosomiasis",
+        "B": "Cercarial penetration (invasion stage)",
+        "C": "cercaria (migration stage)",
+        "D": "acute Schistosomiasis (Katayama)"
+      },
+      "similarity": 0.798,
+      "tfidf": 0.712,
+      "overlap": 4,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-module3-p11-q18",
+      "b": "rs-module3-p86-q7",
+      "stem_a": "Which heart chamber produces the marked cardiac impression on the medial right lung?",
+      "stem_b": "Which chamber produces most of the cardiac impression on the medial surface of the left lung?",
+      "options_a": {
+        "A": "Right atrium",
+        "B": "Left atrium",
+        "C": "Left ventricle",
+        "D": "Right ventricle"
+      },
+      "options_b": {
+        "A": "Left ventricle",
+        "B": "Right ventricle",
+        "C": "Right atrium",
+        "D": "Left atrium"
+      },
+      "similarity": 0.784,
+      "tfidf": 0.771,
+      "overlap": 4,
+      "numbers_same": true,
+      "protected_same": false,
+      "figures": true
+    },
+    {
+      "a": "rs-module3-p11-q2",
+      "b": "rs-module3-p203-q28",
+      "stem_a": "Which air cells form the bulla ethmoidalis?",
+      "stem_b": "Which air cells open on the bulla ethmoidalis?",
+      "options_a": {
+        "A": "Frontal sinus",
+        "B": "Middle ethmoidal air cells",
+        "C": "Posterior ethmoidal air cells",
+        "D": "Sphenoidal sinus"
+      },
+      "options_b": {
+        "A": "Posterior ethmoidal air cells",
+        "B": "Sphenoidal sinus",
+        "C": "Frontal sinus",
+        "D": "Middle ethmoidal air cells"
+      },
+      "similarity": 0.892,
+      "tfidf": 0.902,
+      "overlap": 4,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": true
+    },
+    {
+      "a": "rs-module3-p44-q28",
+      "b": "rs-module3-p107-q5",
+      "stem_a": "an athletic goes to gem after training the lactic acid in his body elevate which of the following can be stimulus in response to lactic acid?",
+      "stem_b": "An athletic goes to gym after training the lactic acid in his body elevate. Which of the following can be stimulus in response to lactic acid?",
+      "options_a": {
+        "A": "Central chemoreceptors",
+        "B": "peripheral chemoreceptors",
+        "C": "lung irritate receptors",
+        "D": "arital barreceptors"
+      },
+      "options_b": {
+        "A": "Central chemoreceptors",
+        "B": "Peripheral chemoreceptors",
+        "C": "Lung irritant receptors",
+        "D": "Arterial baroreceptors"
+      },
+      "similarity": 0.991,
+      "tfidf": 0.928,
+      "overlap": 3,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-module3-p45-q32",
+      "b": "rs-module3-p133-q108",
+      "stem_a": "A man comes into the hospital with a chronic cough and take anti hypertension drug.(amlodapine). The patient has no history of cardiac problems or chronic Disease. He feels a burning feeling in the anterior aspect of his chest. What could be the cause of his cough?",
+      "stem_b": "A man comes into the hospital with a chronic cough and takes an antihypertensive drug (Amlodipine). The patient has no history of cardiac problems or chronic Diseases. He feels a burning feeling in the anterior aspect of his chest. What could be the cause of his cough?",
+      "options_a": {
+        "A": "GERD",
+        "B": "drug induce cough",
+        "C": "Chronic Bronchitis",
+        "D": "Asthma"
+      },
+      "options_b": {
+        "A": "GERD",
+        "B": "Drug-induced cough",
+        "C": "Chronic bronchitis",
+        "D": "Asthma"
+      },
+      "similarity": 0.935,
+      "tfidf": 0.847,
+      "overlap": 4,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-module3-p45-q32",
+      "b": "rs-module3-p133-q111",
+      "stem_a": "A man comes into the hospital with a chronic cough and take anti hypertension drug.(amlodapine). The patient has no history of cardiac problems or chronic Disease. He feels a burning feeling in the anterior aspect of his chest. What could be the cause of his cough?",
+      "stem_b": "A man comes into the hospital with a fever, cough, and dyspnea. The patient has no history of cardiac problems or chronic diseases. He feels a burning feeling in the anterior aspect of his chest. What could be the cause of his cough?",
+      "options_a": {
+        "A": "GERD",
+        "B": "drug induce cough",
+        "C": "Chronic Bronchitis",
+        "D": "Asthma"
+      },
+      "options_b": {
+        "A": "Bronchial asthma",
+        "B": "GERD",
+        "C": "Chronic bronchitis",
+        "D": "Lung cancer"
+      },
+      "similarity": 0.879,
+      "tfidf": 0.767,
+      "overlap": 2,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-module3-p49-q46",
+      "b": "rs-module3-p149-q8",
+      "stem_a": "Which option describes mucociliary clearance by respiratory epithelium?",
+      "stem_b": "Which option describes the mucociliary clearance function of respiratory epithelium?",
+      "options_a": {
+        "A": "Transport oxygen from capillaries into alveoli",
+        "B": "Trap inhaled particles and clear them toward the pharynx",
+        "C": "Warm inspired air"
+      },
+      "options_b": {
+        "A": "Transport oxygen from pulmonary capillaries into alveoli",
+        "B": "Trap inhaled particles in mucus and move them toward the pharynx",
+        "C": "Warm inspired air",
+        "D": "Provide immune defence"
+      },
+      "similarity": 0.891,
+      "tfidf": 0.952,
+      "overlap": 2,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-module3-p52-q57",
+      "b": "rs-module3-p156-q10",
+      "stem_a": "why venous blood is more acidic than arterial blood?",
+      "stem_b": "Why is venous blood more acidic than arterial blood?",
+      "options_a": {
+        "A": "Higher CO2 content acquired from tissue metabolism",
+        "B": "no have carbonmyl enzyme",
+        "C": "oxygenated hemoglobin have more affinity to H",
+        "D": "less oxygen"
+      },
+      "options_b": {
+        "A": "Higher CO2 content acquired from tissue metabolism",
+        "B": "No carbonmyl enzyme",
+        "C": "Oxygenated hemoglobin has more affinity for H+",
+        "D": "Less oxygen"
+      },
+      "similarity": 0.953,
+      "tfidf": 1.0,
+      "overlap": 3,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-module3-p56-q71",
+      "b": "rs-module3-p136-q121",
+      "stem_a": "This x-ray shows ?",
+      "stem_b": "This x-ray show?",
+      "options_a": {
+        "A": "Millary TB",
+        "B": "Cannon ball metastasis",
+        "C": "Cavities"
+      },
+      "options_b": {
+        "A": "Miliary TB",
+        "B": "Cannon Ball Metastasis",
+        "C": "Cavities",
+        "D": "Lung consolidation"
+      },
+      "similarity": 0.96,
+      "tfidf": 0.74,
+      "overlap": 2,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": true
+    },
+    {
+      "a": "rs-module3-p58-q79",
+      "b": "rs-module3-p59-q80",
+      "stem_a": "The following marked segment of spirogram represents(5):",
+      "stem_b": "The following marked segment of spirogram represents(6):",
+      "options_a": {
+        "A": "Vital capacity",
+        "B": "Expiratory reserve volume",
+        "C": "Inspiratory capacity",
+        "D": "Inspiratory reserve volume"
+      },
+      "options_b": {
+        "A": "Functional residual capacity",
+        "B": "Expiratory reserve volume",
+        "C": "Inspiratory capacity",
+        "D": "Inspiratory reserve volume"
+      },
+      "similarity": 0.979,
+      "tfidf": 0.781,
+      "overlap": 3,
+      "numbers_same": false,
+      "protected_same": true,
+      "figures": true
+    },
+    {
+      "a": "rs-module3-p59-q81",
+      "b": "rs-module3-p59-q82",
+      "stem_a": "the letter A represent?",
+      "stem_b": "the letter C represent?",
+      "options_a": {
+        "A": "normal",
+        "B": "obstructive",
+        "C": "restrictive"
+      },
+      "options_b": {
+        "A": "normal",
+        "B": "obstructive",
+        "C": "restrictive"
+      },
+      "similarity": 0.947,
+      "tfidf": 0.974,
+      "overlap": 3,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": true
+    },
+    {
+      "a": "rs-module3-p63-q13",
+      "b": "rs-module3-p75-q8",
+      "stem_a": "A 53 year old patient has difficulty breathing through nose. On examination, his physician finds that he has swelling of mucous membrane of superior nasal meatus. Which of the following paranasal sinuses is affected?",
+      "stem_b": "A 53 year old patient has difficulty breathing through nose. On examination, his physician finds that he has swelling of the mucous membrane of the superior nasal meatus. Which of the following paranasal sinuses is affected?",
+      "options_a": {
+        "A": "Middle ethmoidal",
+        "B": "Posterior ethmoidal",
+        "C": "Frontal",
+        "D": "Maxillary"
+      },
+      "options_b": {
+        "A": "Middle ethmoidal",
+        "B": "Posterior ethmoidal",
+        "C": "Frontal",
+        "D": "Maxillary"
+      },
+      "similarity": 0.984,
+      "tfidf": 0.998,
+      "overlap": 4,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-module3-p94-q8",
+      "b": "rs-module3-p132-q106",
+      "stem_a": "a 30 y/o woman represents with signs and symptoms of plural effusion. You decided to do diagnostic thoracocentesis. For what —- if the effusion is transudative or exudative?",
+      "stem_b": "A 30 y/o woman represents with signs and symptoms of pleural effusion. You decided to do diagnostic thoracocentesis. For what —- if the effusion is transudative or exudative?",
+      "options_a": {
+        "A": "RBCs content",
+        "B": "protien and LDH level",
+        "C": "cell count"
+      },
+      "options_b": {
+        "A": "RBCs content",
+        "B": "Protein and LDH level",
+        "C": "Cell count",
+        "D": "WBCs content"
+      },
+      "similarity": 0.996,
+      "tfidf": 0.967,
+      "overlap": 3,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    },
+    {
+      "a": "rs-module3-p101-q34",
+      "b": "rs-module3-p101-q35",
+      "stem_a": "what type of lung disease is labeled as (A)?",
+      "stem_b": "What type of lung disease is labeled as (B)?",
+      "options_a": {
+        "A": "obstructive",
+        "B": "Restrictive",
+        "C": "Normal"
+      },
+      "options_b": {
+        "A": "obstructive",
+        "B": "Restrictive",
+        "C": "Normal"
+      },
+      "similarity": 0.97,
+      "tfidf": 0.765,
+      "overlap": 3,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": true
+    },
+    {
+      "a": "rs-module3-p133-q108",
+      "b": "rs-module3-p133-q111",
+      "stem_a": "A man comes into the hospital with a chronic cough and takes an antihypertensive drug (Amlodipine). The patient has no history of cardiac problems or chronic Diseases. He feels a burning feeling in the anterior aspect of his chest. What could be the cause of his cough?",
+      "stem_b": "A man comes into the hospital with a fever, cough, and dyspnea. The patient has no history of cardiac problems or chronic diseases. He feels a burning feeling in the anterior aspect of his chest. What could be the cause of his cough?",
+      "options_a": {
+        "A": "GERD",
+        "B": "Drug-induced cough",
+        "C": "Chronic bronchitis",
+        "D": "Asthma"
+      },
+      "options_b": {
+        "A": "Bronchial asthma",
+        "B": "GERD",
+        "C": "Chronic bronchitis",
+        "D": "Lung cancer"
+      },
+      "similarity": 0.886,
+      "tfidf": 0.792,
+      "overlap": 2,
+      "numbers_same": true,
+      "protected_same": true,
+      "figures": false
+    }
+  ],
+  "cross": [
+    {
+      "past": "cvs-previous-years-p11-q31-23",
+      "ai": "ai_1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg_08",
+      "past_options": {
+        "A": "Cardiac output times peripheral resistance",
+        "B": "Stroke volume times heart rate divided by total peripheral resistance",
+        "C": "Stroke volume times heart rate",
+        "D": "Cardiac output divided by stroke volume"
+      },
+      "ai_options": {
+        "A": "Cardiac output × total peripheral resistance.",
+        "B": "Pulmonary vascular resistance is much lower.",
+        "C": "Stroke volume ÷ end-diastolic volume × 100%.",
+        "D": "End-diastolic volume − end-systolic volume."
+      },
+      "stem": "Ignoring right atrial pressure, mean arterial pressure is approximately equal to which expression?"
+    }
+  ]
+}

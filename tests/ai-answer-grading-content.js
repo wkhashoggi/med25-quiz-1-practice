@@ -1,6 +1,6 @@
 const fs=require('fs'),cp=require('child_process'),assert=require('assert/strict');
 const parse=h=>JSON.parse(h.match(/const QUESTIONS=(\[[\s\S]*?\]);\s*\n/)[1]);
-const h=fs.readFileSync('legacy-app.html','utf8'),qs=parse(h),by=new Map(qs.map(q=>[q.id,q]));
+const h=fs.readFileSync('legacy-app.html','utf8'),qs=require('./dedup-baseline').past(parse(h)),by=new Map(qs.map(q=>[q.id,q]));
 const a=JSON.parse(fs.readFileSync('ai-answer-grading-review.json'));
 const correction=JSON.parse(fs.readFileSync('bronchi-key-correction.json'));
 const retirement=JSON.parse(fs.readFileSync('rs-practical-removal.json')),retired=new Set(retirement.removed_question_ids);

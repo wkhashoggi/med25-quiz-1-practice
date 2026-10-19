@@ -1,7 +1,7 @@
 const fs=require('fs'),cp=require('child_process'),assert=require('assert/strict');
 const read=n=>JSON.parse(fs.readFileSync(n));
 const parse=h=>JSON.parse(h.match(/const QUESTIONS=(\[[\s\S]*?\]);\s*\n/)[1]);
-const m=read('rs-practical-removal.json'),h=fs.readFileSync('legacy-app.html','utf8'),now=parse(h),old=parse(cp.execFileSync('git',['show',m.previous_commit+':legacy-app.html'],{encoding:'utf8',maxBuffer:20e6}));
+const m=read('rs-practical-removal.json'),h=fs.readFileSync('legacy-app.html','utf8'),now=require('./dedup-baseline').past(parse(h)),old=parse(cp.execFileSync('git',['show',m.previous_commit+':legacy-app.html'],{encoding:'utf8',maxBuffer:20e6}));
 const review=read('medical-content-review.json'),modified=new Map(review.reviews.map(r=>[r.source+':'+r.id,r]));
 const removed=new Set(m.removed_question_ids),by=new Map(now.map(q=>[q.id,q]));
 assert.equal(removed.size,88);assert.equal(old.length,1843);assert.equal(now.length,1755);assert.equal(by.size,1755);

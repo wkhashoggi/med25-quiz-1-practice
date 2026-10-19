@@ -220,7 +220,7 @@ function gameLevelInfo(xp){
   let level=Math.min(50,Math.floor(Math.sqrt(xp/12))+1);
   const floor=12*Math.pow(level-1,2),next=level>=50?floor:12*Math.pow(level,2);
   const pct=level>=50?100:Math.max(0,Math.min(100,Math.round((xp-floor)/(next-floor)*100)));
-  const title=level>=50?'MED25 Legend':level>=40?'Professor':level>=30?'Consultant':level>=20?'Registrar':level>=10?'Resident':level>=5?'Clerk':'Med Student';
+  const title=level>=50?'MED25 Legend':level>=40?'Professor':level>=30?'Consultant':level>=20?'Fellow':level>=10?'Resident':level>=5?'Clerk':'Med Student';
   return {level,title,floor,next,pct};
 }
 function gameAchievementMarkup(p){

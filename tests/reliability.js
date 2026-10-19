@@ -64,7 +64,8 @@ async function run(){
   await page.route('https://**.supabase.co/**',fixture);
   try{
     await context.addInitScript(()=>{if(!localStorage.getItem('med25-main-section-v1'))localStorage.setItem('med25-main-section-v1','flashcards')});
-    await page.goto(base);await waitReady(page);
+    const explanationsResponse=page.waitForResponse(r=>r.url().includes('/question-explanations.json')&&r.ok());
+    await page.goto(base);await (await explanationsResponse).finished();await waitReady(page);
     assert.equal(await page.locator('#tabFlashcards,#flashcardsSection,[data-v2-mobile="flash"]').count(),0);
     assert(!/flashcard|spaced.repetition|\bAnki\b/i.test(await page.locator('body').innerText()));
     assert(await page.locator('#homeSection').isVisible());
@@ -72,7 +73,7 @@ async function run(){
 
     assert.equal(await page.evaluate(()=>window.med25GameBridge.aiQuestions().length),expectedAI.length);
     assert(await page.evaluate(()=>window.med25GameBridge.aiQuestions().every(q=>window.med25GameBridge.questionLecture('ai',q).lecture_id)));
-    assert.equal(await page.evaluate(()=>QUESTIONS.filter(window.med25ExamReadyPast).length),read('question-deduplication-audit.json').mock_ready_count);
+    assert.equal(await page.evaluate(()=>QUESTIONS.filter(window.med25ExamReadyPast).length),read('cvs-module2-import.json').mock_ready_count);
     assert.equal(await page.evaluate(()=>QUESTIONS.filter(q=>q.bank==='Coordinator Formative Quiz 2').length),30);
     assert(await page.evaluate(()=>QUESTIONS.filter(q=>q.id.startsWith('formative-quiz2-bcr-')).every(q=>window.med25GameBridge.questionLecture('past',q).quiz===2)));
     assert(await page.evaluate(()=>QUESTIONS.filter(q=>['formative-quiz2-bcr-q11','formative-quiz2-bcr-q16'].includes(q.id)).every(q=>q.source_key_status==='missing'&&(q.medical_review_status==='unresolved'?!q.answer&&q.exam_ready===false:!!q.answer))));

@@ -35,7 +35,9 @@ jobs:
           python3 -m http.server 4173 > /tmp/med25-http.log 2>&1 &
           sleep 2
       - name: Run logical content audit
-        run: node tests/content-audit.js
+        run: |
+          node tests/content-audit.js
+          node tests/cvs-module2.js
       - name: Verify account sync, retired feature removal, rankings and mocks
         run: node tests/reliability.js
       - name: Verify XP awards and mistake recovery

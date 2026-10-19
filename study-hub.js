@@ -420,6 +420,7 @@ function sgLabelVisible(root,kind){
       meta.innerHTML='<span class="pill sgSubjectPill">'+esc(g.subject||'Other')+'</span>'+
         '<span class="pill pastPaperTypePill">'+(q.source_kind==='formative'?'Coordinator formative':q.source_kind==='practice'?'Practice question':'Past paper question')+'</span>'+
         '<span class="pill lectureQuizStamp quiz'+pastQuestionQuiz(q)+'">Quiz '+pastQuestionQuiz(q)+'</span>'+
+        (['rsModule3','cvs2'].includes(quiz2PastCategory(q))?'<span class="pill pastPaperCategoryPill">'+(quiz2PastCategory(q)==='rsModule3'?'RS test bank':'CVS test bank')+'</span>':'')+
         '<span class="pill sgLecturePill">'+esc(g.title||'Unmapped lecture')+'</span>'+quality+(q.proofreading_status==='resolved'?'<span class="pill answerCheckedPill">'+(q.answer_basis==='slide-reviewed'?'Slide-checked':'Reference-checked')+'</span>':'')+hy+
         (q.mapping_review_required?'<span class="pill sourceIncompletePill">Lecture match needs review</span>':'');
       const actions=card.querySelector('.actions');
@@ -681,7 +682,8 @@ function homeSubjectRows(){
 const homeSourceFiles=[
   {id:'formative2',title:'Formative Quiz 2',description:'Coordinator formative questions',matches:q=>q.bank==='Coordinator Formative Quiz 2'||(q.bank_aliases||[]).includes('Coordinator Formative Quiz 2')},
   {id:'physiology2',title:'Physiology Quiz 2 Important',description:'Important Physiology question file',matches:q=>q.bank==='Physiology Quiz 2 Important'||(q.past_paper_sources||[]).some(ref=>ref.file==='Physiology Quiz 2 Important')},
-  {id:'rsModule3',title:'RS Previous Years',description:'Module 3 · written past papers',matches:q=>!q.practical_source&&(q.past_paper_sources||[]).some(ref=>ref.source_file==='C&B Module 3 of 3 - RS.pdf')}
+  {id:'rsModule3',title:'Quiz 2 RS test bank',description:'Quiz 2 respiratory past papers',matches:q=>quiz2PastCategory(q)==='rsModule3'},
+  {id:'cvs2',title:'Quiz 2 CVS test bank',description:'Cardiovascular past papers · includes CVS Module 2',matches:q=>quiz2PastCategory(q)==='cvs2'}
 ];
 function openHomeSourceFile(id){
   const file=homeSourceFiles.find(f=>f.id===id);if(!file)return;
@@ -704,7 +706,7 @@ function renderHomeSourceFiles(){
   let host=document.getElementById('homeSourceFiles');
   if(!host){host=document.createElement('section');host.id='homeSourceFiles';host.className='homeSourceFiles';host.setAttribute('aria-labelledby','homeSourceFilesTitle');}
   if(home.firstElementChild!==host)home.prepend(host);
-  host.innerHTML='<div class="homeSourceHeading"><h2 id="homeSourceFilesTitle">Practice a specific file</h2><p>Open the exact question set.</p></div><div class="homeSourceGrid">'+homeSourceFiles.map(file=>{
+  host.innerHTML='<div class="homeSourceHeading"><h2 id="homeSourceFilesTitle">Quiz 2 past papers</h2><p>Choose a question group and continue where you left off.</p></div><div class="homeSourceGrid">'+homeSourceFiles.map(file=>{
     const questions=QUESTIONS.filter(file.matches),total=questions.length,done=questions.filter(q=>saved[q.id]?.answered).length,pct=total?Math.round(done/total*100):0;
     const action=done===0?'Start':done===total?'Review':'Continue';
     return '<article class="hubCard homeSourceCard" data-source-file="'+file.id+'"><div><h3>'+esc(file.title)+'</h3><p>'+esc(file.description)+'</p></div><div class="homeSourceProgress"><span>'+done+' / '+total+' completed</span><b>'+pct+'%</b></div><div class="homeSourceTrack" role="progressbar" aria-label="'+esc(file.title)+' completion" aria-valuemin="0" aria-valuemax="'+total+'" aria-valuenow="'+done+'"><span style="width:'+pct+'%"></span></div><button class="homeSourceButton" type="button" data-open-source-file="'+file.id+'" aria-label="'+action+' '+esc(file.title)+'" '+(!total?'disabled':'')+'>'+action+' →</button></article>';

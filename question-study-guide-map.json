@@ -15324,6 +15324,1438 @@
       "title": "Lower respiratory tract infections",
       "quiz": 2,
       "method": "source_review"
+    },
+    "cvs-module2-p4-q10-1": {
+      "lecture_id": "anatomy-histology__normal-development-of-heart-it-s-great-vessels",
+      "subject": "Anatomy & Histology",
+      "title": "Normal Development of Heart & it’s Great Vessels",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p4-q9-2": {
+      "lecture_id": "anatomy-histology__normal-development-of-heart-it-s-great-vessels",
+      "subject": "Anatomy & Histology",
+      "title": "Normal Development of Heart & it’s Great Vessels",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p5-q3-3": {
+      "lecture_id": "anatomy-histology__normal-development-of-heart-it-s-great-vessels",
+      "subject": "Anatomy & Histology",
+      "title": "Normal Development of Heart & it’s Great Vessels",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p7-q10-1": {
+      "lecture_id": "anatomy-histology__normal-development-of-heart-it-s-great-vessels",
+      "subject": "Anatomy & Histology",
+      "title": "Normal Development of Heart & it’s Great Vessels",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p7-q1-2": {
+      "lecture_id": "anatomy-histology__congenital-anomalies-of-the-heart-it-s-great-vessels",
+      "subject": "Anatomy & Histology",
+      "title": "Congenital anomalies of the heart & it’s great Vessels",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p7-q2-3": {
+      "lecture_id": "anatomy-histology__normal-development-of-heart-it-s-great-vessels",
+      "subject": "Anatomy & Histology",
+      "title": "Normal Development of Heart & it’s Great Vessels",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p7-q3-4": {
+      "lecture_id": "anatomy-histology__congenital-anomalies-of-the-heart-it-s-great-vessels",
+      "subject": "Anatomy & Histology",
+      "title": "Congenital anomalies of the heart & it’s great Vessels",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p8-q6-3": {
+      "lecture_id": "anatomy-histology__congenital-anomalies-of-the-heart-it-s-great-vessels",
+      "subject": "Anatomy & Histology",
+      "title": "Congenital anomalies of the heart & it’s great Vessels",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p8-q7-4": {
+      "lecture_id": "anatomy-histology__congenital-anomalies-of-the-heart-it-s-great-vessels",
+      "subject": "Anatomy & Histology",
+      "title": "Congenital anomalies of the heart & it’s great Vessels",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p9-q9-2": {
+      "lecture_id": "anatomy-histology__congenital-anomalies-of-the-heart-it-s-great-vessels",
+      "subject": "Anatomy & Histology",
+      "title": "Congenital anomalies of the heart & it’s great Vessels",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p9-q11-4": {
+      "lecture_id": "anatomy-histology__congenital-anomalies-of-the-heart-it-s-great-vessels",
+      "subject": "Anatomy & Histology",
+      "title": "Congenital anomalies of the heart & it’s great Vessels",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p10-q2-4": {
+      "lecture_id": "anatomy-histology__radiological-anatomy-of-the-heart-and-its-great-vessels",
+      "subject": "Anatomy & Histology",
+      "title": "Radiological Anatomy of the heart and its great vessels",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 1
+    },
+    "cvs-module2-p11-q4-4": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p13-q9-1": {
+      "lecture_id": "physiology__abnormal-ecg-and-cardiac-arrhythmias",
+      "subject": "Physiology",
+      "title": "Abnormal ECG and cardiac arrhythmias",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p13-q11-3": {
+      "lecture_id": "physiology__abnormal-ecg-and-cardiac-arrhythmias",
+      "subject": "Physiology",
+      "title": "Abnormal ECG and cardiac arrhythmias",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p18-q10-2": {
+      "lecture_id": "physiology__cardiac-cycle",
+      "subject": "Physiology",
+      "title": "Cardiac cycle",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p19-q15-3": {
+      "lecture_id": "physiology__cardiac-cycle",
+      "subject": "Physiology",
+      "title": "Cardiac cycle",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p19-q16-4": {
+      "lecture_id": "physiology__cardiac-cycle",
+      "subject": "Physiology",
+      "title": "Cardiac cycle",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p20-q18-2": {
+      "lecture_id": "physiology__cardiac-cycle",
+      "subject": "Physiology",
+      "title": "Cardiac cycle",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p20-q20-3": {
+      "lecture_id": "physiology__physiological-organization-of-cvs",
+      "subject": "Physiology",
+      "title": "Physiological organization of CVS",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 1
+    },
+    "cvs-module2-p21-q6-3": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p22-q9-1": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p23-q16-1": {
+      "lecture_id": "physiology__cardiac-cycle",
+      "subject": "Physiology",
+      "title": "Cardiac cycle",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p24-q24-2": {
+      "lecture_id": "pathology__atherosclerosis-aneurysm",
+      "subject": "Pathology",
+      "title": "Atherosclerosis & Aneurysm",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 1
+    },
+    "cvs-module2-p24-q31-4": {
+      "lecture_id": "physiology__regulation-of-abp-cv-centers-short-term-regulation",
+      "subject": "Physiology",
+      "title": "Regulation of ABP (CV centers & short-term regulation)",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 1
+    },
+    "cvs-module2-p26-q13-1": {
+      "lecture_id": "physiology__physiology-of-vascular-endothelium",
+      "subject": "Physiology",
+      "title": "Physiology of vascular endothelium",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p26-q14-2": {
+      "lecture_id": "pathology__pathology-of-hypertension",
+      "subject": "Pathology",
+      "title": "Pathology of Hypertension",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p26-q17-3": {
+      "lecture_id": "pharmacology__antihypertensive-drugs-1",
+      "subject": "Pharmacology",
+      "title": "Antihypertensive drugs -1",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p26-q26-4": {
+      "lecture_id": "pathology__pathology-of-hypertension",
+      "subject": "Pathology",
+      "title": "Pathology of Hypertension",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p27-q36-1": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p27-q38-2": {
+      "lecture_id": "pharmacology__antihypertensive-drugs-2",
+      "subject": "Pharmacology",
+      "title": "Antihypertensive drugs -2",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p27-q23-3": {
+      "lecture_id": "pathology__valvular-heart-diseases",
+      "subject": "Pathology",
+      "title": "Valvular Heart Diseases",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p27-q12-4": {
+      "lecture_id": "pathology__cardiac-and-vascular-tumours",
+      "subject": "Pathology",
+      "title": "Cardiac and vascular tumours",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p28-q18-2": {
+      "lecture_id": "physiology__abnormal-ecg-and-cardiac-arrhythmias",
+      "subject": "Physiology",
+      "title": "Abnormal ECG and cardiac arrhythmias",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p28-q19-3": {
+      "lecture_id": "physiology__abnormal-ecg-and-cardiac-arrhythmias",
+      "subject": "Physiology",
+      "title": "Abnormal ECG and cardiac arrhythmias",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p28-q29-4": {
+      "lecture_id": "pathology__cardiac-and-vascular-tumours",
+      "subject": "Pathology",
+      "title": "Cardiac and vascular tumours",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p29-q15-4": {
+      "lecture_id": "pathology__pathology-of-hypertension",
+      "subject": "Pathology",
+      "title": "Pathology of Hypertension",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p31-q32-1": {
+      "lecture_id": "anatomy-histology__congenital-anomalies-of-the-heart-it-s-great-vessels",
+      "subject": "Anatomy & Histology",
+      "title": "Congenital anomalies of the heart & it’s great Vessels",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p31-q35-2": {
+      "lecture_id": "physiology__cardiac-cycle",
+      "subject": "Physiology",
+      "title": "Cardiac cycle",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p32-q18-3": {
+      "lecture_id": "physiology__abnormal-ecg-and-cardiac-arrhythmias",
+      "subject": "Physiology",
+      "title": "Abnormal ECG and cardiac arrhythmias",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p32-q22-4": {
+      "lecture_id": "pharmacology__antihypertensive-drugs-2",
+      "subject": "Pharmacology",
+      "title": "Antihypertensive drugs -2",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p33-q26-1": {
+      "lecture_id": "pathology__pathology-of-hypertension",
+      "subject": "Pathology",
+      "title": "Pathology of Hypertension",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p34-q37-2": {
+      "lecture_id": "anatomy-histology__congenital-anomalies-of-the-heart-it-s-great-vessels",
+      "subject": "Anatomy & Histology",
+      "title": "Congenital anomalies of the heart & it’s great Vessels",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p35-q42-1": {
+      "lecture_id": "pathology__cardiac-and-vascular-tumours",
+      "subject": "Pathology",
+      "title": "Cardiac and vascular tumours",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p35-q46-4": {
+      "lecture_id": "pathology__atherosclerosis-aneurysm",
+      "subject": "Pathology",
+      "title": "Atherosclerosis & Aneurysm",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 1
+    },
+    "cvs-module2-p35-q48-5": {
+      "lecture_id": "pathology__valvular-heart-diseases",
+      "subject": "Pathology",
+      "title": "Valvular Heart Diseases",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p36-q14-2": {
+      "lecture_id": "physiology__cardiac-cycle",
+      "subject": "Physiology",
+      "title": "Cardiac cycle",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p36-q16-3": {
+      "lecture_id": "pathology__pathology-of-heart-failure",
+      "subject": "Pathology",
+      "title": "Pathology of Heart Failure",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 1
+    },
+    "cvs-module2-p37-q24-2": {
+      "lecture_id": "pathology__atherosclerosis-aneurysm",
+      "subject": "Pathology",
+      "title": "Atherosclerosis & Aneurysm",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 1
+    },
+    "cvs-module2-p37-q31-4": {
+      "lecture_id": "anatomy-histology__congenital-anomalies-of-the-heart-it-s-great-vessels",
+      "subject": "Anatomy & Histology",
+      "title": "Congenital anomalies of the heart & it’s great Vessels",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p38-q34-1": {
+      "lecture_id": "anatomy-histology__congenital-anomalies-of-the-heart-it-s-great-vessels",
+      "subject": "Anatomy & Histology",
+      "title": "Congenital anomalies of the heart & it’s great Vessels",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p38-q38-2": {
+      "lecture_id": "physiology__cardiac-automaticity-excitability-cardiac-conductivity",
+      "subject": "Physiology",
+      "title": "Cardiac automaticity, excitability, cardiac conductivity",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 1
+    },
+    "cvs-module2-p39-q16-1": {
+      "lecture_id": "pharmacology__antihypertensive-drugs-1",
+      "subject": "Pharmacology",
+      "title": "Antihypertensive drugs -1",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p39-q19-2": {
+      "lecture_id": "pathology__cardiac-and-vascular-tumours",
+      "subject": "Pathology",
+      "title": "Cardiac and vascular tumours",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p39-q20-3": {
+      "lecture_id": "pathology__pathology-of-hypertension",
+      "subject": "Pathology",
+      "title": "Pathology of Hypertension",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p39-q21-4": {
+      "lecture_id": "anatomy-histology__normal-development-of-heart-it-s-great-vessels",
+      "subject": "Anatomy & Histology",
+      "title": "Normal Development of Heart & it’s Great Vessels",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p40-q1-1": {
+      "lecture_id": "physiology__cardiac-cycle",
+      "subject": "Physiology",
+      "title": "Cardiac cycle",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p40-q2-2": {
+      "lecture_id": "physiology__cardiac-cycle",
+      "subject": "Physiology",
+      "title": "Cardiac cycle",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p40-q4-3": {
+      "lecture_id": "physiology__cardiac-cycle",
+      "subject": "Physiology",
+      "title": "Cardiac cycle",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p40-q5-4": {
+      "lecture_id": "physiology__cardiac-cycle",
+      "subject": "Physiology",
+      "title": "Cardiac cycle",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p41-q6-1": {
+      "lecture_id": "physiology__cardiac-cycle",
+      "subject": "Physiology",
+      "title": "Cardiac cycle",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p41-q7-2": {
+      "lecture_id": "physiology__cardiac-cycle",
+      "subject": "Physiology",
+      "title": "Cardiac cycle",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p41-q8-3": {
+      "lecture_id": "physiology__cardiac-cycle",
+      "subject": "Physiology",
+      "title": "Cardiac cycle",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p41-q9-4": {
+      "lecture_id": "physiology__cardiac-cycle",
+      "subject": "Physiology",
+      "title": "Cardiac cycle",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p41-q10-5": {
+      "lecture_id": "physiology__cardiac-cycle",
+      "subject": "Physiology",
+      "title": "Cardiac cycle",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p42-q24-1": {
+      "lecture_id": "physiology__abnormal-ecg-and-cardiac-arrhythmias",
+      "subject": "Physiology",
+      "title": "Abnormal ECG and cardiac arrhythmias",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p42-q48-2": {
+      "lecture_id": "physiology__cardiac-cycle",
+      "subject": "Physiology",
+      "title": "Cardiac cycle",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p42-q49-3": {
+      "lecture_id": "physiology__physiological-organization-of-cvs",
+      "subject": "Physiology",
+      "title": "Physiological organization of CVS",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 1
+    },
+    "cvs-module2-p42-q59-4": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p43-q67-1": {
+      "lecture_id": "physiology__cardiac-cycle",
+      "subject": "Physiology",
+      "title": "Cardiac cycle",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p43-q74-2": {
+      "lecture_id": "physiology__cardiac-automaticity-excitability-cardiac-conductivity",
+      "subject": "Physiology",
+      "title": "Cardiac automaticity, excitability, cardiac conductivity",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 1
+    },
+    "cvs-module2-p43-q77-3": {
+      "lecture_id": "physiology__cardiac-cycle",
+      "subject": "Physiology",
+      "title": "Cardiac cycle",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p43-q78-4": {
+      "lecture_id": "physiology__cardiac-cycle",
+      "subject": "Physiology",
+      "title": "Cardiac cycle",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p44-q85-1": {
+      "lecture_id": "physiology__cardiac-cycle",
+      "subject": "Physiology",
+      "title": "Cardiac cycle",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p44-q86-2": {
+      "lecture_id": "physiology__cardiac-cycle",
+      "subject": "Physiology",
+      "title": "Cardiac cycle",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p44-q87-3": {
+      "lecture_id": "physiology__cardiac-cycle",
+      "subject": "Physiology",
+      "title": "Cardiac cycle",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p44-q88-4": {
+      "lecture_id": "physiology__cardiac-cycle",
+      "subject": "Physiology",
+      "title": "Cardiac cycle",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p45-q99-1": {
+      "lecture_id": "physiology__cardiac-cycle",
+      "subject": "Physiology",
+      "title": "Cardiac cycle",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p45-q102-2": {
+      "lecture_id": "physiology__cardiac-cycle",
+      "subject": "Physiology",
+      "title": "Cardiac cycle",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p45-q104-3": {
+      "lecture_id": "physiology__cardiac-cycle",
+      "subject": "Physiology",
+      "title": "Cardiac cycle",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p46-q105-1": {
+      "lecture_id": "physiology__cardiac-cycle",
+      "subject": "Physiology",
+      "title": "Cardiac cycle",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p46-q106-2": {
+      "lecture_id": "physiology__cardiac-cycle",
+      "subject": "Physiology",
+      "title": "Cardiac cycle",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p46-q114-3": {
+      "lecture_id": "physiology__cardiac-cycle",
+      "subject": "Physiology",
+      "title": "Cardiac cycle",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p46-q115-4": {
+      "lecture_id": "physiology__cardiac-cycle",
+      "subject": "Physiology",
+      "title": "Cardiac cycle",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p47-q128-1": {
+      "lecture_id": "physiology__cardiac-cycle",
+      "subject": "Physiology",
+      "title": "Cardiac cycle",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p47-q129-2": {
+      "lecture_id": "physiology__cardiac-cycle",
+      "subject": "Physiology",
+      "title": "Cardiac cycle",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p47-q139-3": {
+      "lecture_id": "physiology__abnormal-ecg-and-cardiac-arrhythmias",
+      "subject": "Physiology",
+      "title": "Abnormal ECG and cardiac arrhythmias",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p47-q140-4": {
+      "lecture_id": "physiology__abnormal-ecg-and-cardiac-arrhythmias",
+      "subject": "Physiology",
+      "title": "Abnormal ECG and cardiac arrhythmias",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p47-q141-5": {
+      "lecture_id": "physiology__abnormal-ecg-and-cardiac-arrhythmias",
+      "subject": "Physiology",
+      "title": "Abnormal ECG and cardiac arrhythmias",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p47-q142-6": {
+      "lecture_id": "physiology__abnormal-ecg-and-cardiac-arrhythmias",
+      "subject": "Physiology",
+      "title": "Abnormal ECG and cardiac arrhythmias",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p48-q160-5": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p49-q168-1": {
+      "lecture_id": "physiology__cardiac-cycle",
+      "subject": "Physiology",
+      "title": "Cardiac cycle",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p49-q169-2": {
+      "lecture_id": "physiology__cardiac-cycle",
+      "subject": "Physiology",
+      "title": "Cardiac cycle",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p50-q1-1": {
+      "lecture_id": "pharmacology__antihypertensive-drugs-1",
+      "subject": "Pharmacology",
+      "title": "Antihypertensive drugs -1",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p50-q2-2": {
+      "lecture_id": "pharmacology__antihypertensive-drugs-1",
+      "subject": "Pharmacology",
+      "title": "Antihypertensive drugs -1",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p50-q3-3": {
+      "lecture_id": "pathology__pathology-of-hypertension",
+      "subject": "Pathology",
+      "title": "Pathology of Hypertension",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p50-q4-4": {
+      "lecture_id": "pathology__valvular-heart-diseases",
+      "subject": "Pathology",
+      "title": "Valvular Heart Diseases",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p50-q5-5": {
+      "lecture_id": "pathology__cardiac-and-vascular-tumours",
+      "subject": "Pathology",
+      "title": "Cardiac and vascular tumours",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p51-q6-1": {
+      "lecture_id": "pathology__vasculitis",
+      "subject": "Pathology",
+      "title": "Vasculitis",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p51-q7-2": {
+      "lecture_id": "pathology__pathology-of-hypertension",
+      "subject": "Pathology",
+      "title": "Pathology of Hypertension",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p51-q8-3": {
+      "lecture_id": "physiology__regulation-of-abp-intermediate-and-long-term-regulation",
+      "subject": "Physiology",
+      "title": "Regulation of ABP (Intermediate and long-term Regulation)",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 1
+    },
+    "cvs-module2-p51-q9-4": {
+      "lecture_id": "pharmacology__antihypertensive-drugs-2",
+      "subject": "Pharmacology",
+      "title": "Antihypertensive drugs -2",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p51-q10-5": {
+      "lecture_id": "pathology__pathology-of-hypertension",
+      "subject": "Pathology",
+      "title": "Pathology of Hypertension",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p52-q11-1": {
+      "lecture_id": "physiology__cardiac-automaticity-excitability-cardiac-conductivity",
+      "subject": "Physiology",
+      "title": "Cardiac automaticity, excitability, cardiac conductivity",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 1
+    },
+    "cvs-module2-p52-q12-2": {
+      "lecture_id": "physiology__physiology-of-vascular-endothelium",
+      "subject": "Physiology",
+      "title": "Physiology of vascular endothelium",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p52-q13-3": {
+      "lecture_id": "pathology__pathology-of-hypertension",
+      "subject": "Pathology",
+      "title": "Pathology of Hypertension",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p52-q14-4": {
+      "lecture_id": "pharmacology__antihypertensive-drugs-2",
+      "subject": "Pharmacology",
+      "title": "Antihypertensive drugs -2",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p53-q1-1": {
+      "lecture_id": "physiology__cardiac-cycle",
+      "subject": "Physiology",
+      "title": "Cardiac cycle",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p53-q2-2": {
+      "lecture_id": "physiology__physiology-of-coronary-circulation",
+      "subject": "Physiology",
+      "title": "Physiology of coronary circulation",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 1
+    },
+    "cvs-module2-p54-q9-1": {
+      "lecture_id": "physiology__regulation-of-abp-cv-centers-short-term-regulation",
+      "subject": "Physiology",
+      "title": "Regulation of ABP (CV centers & short-term regulation)",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 1
+    },
+    "cvs-module2-p54-q10-2": {
+      "lecture_id": "physiology__regulation-of-abp-cv-centers-short-term-regulation",
+      "subject": "Physiology",
+      "title": "Regulation of ABP (CV centers & short-term regulation)",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 1
+    },
+    "cvs-module2-p54-q12-3": {
+      "lecture_id": "physiology__cardiac-cycle",
+      "subject": "Physiology",
+      "title": "Cardiac cycle",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p54-q14-4": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p54-qQ-5": {
+      "lecture_id": "pathology__infective-endocarditis",
+      "subject": "Pathology",
+      "title": "Infective Endocarditis",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p55-q23-1": {
+      "lecture_id": "pharmacology__antihypertensive-drugs-1",
+      "subject": "Pharmacology",
+      "title": "Antihypertensive drugs -1",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p55-q24-2": {
+      "lecture_id": "pharmacology__antihypertensive-drugs-2",
+      "subject": "Pharmacology",
+      "title": "Antihypertensive drugs -2",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p56-q10-2": {
+      "lecture_id": "anatomy-histology__normal-development-of-heart-it-s-great-vessels",
+      "subject": "Anatomy & Histology",
+      "title": "Normal Development of Heart & it’s Great Vessels",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p57-q21-1": {
+      "lecture_id": "pharmacology__antihypertensive-drugs-1",
+      "subject": "Pharmacology",
+      "title": "Antihypertensive drugs -1",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p57-q24-2": {
+      "lecture_id": "physiology__cardiac-cycle",
+      "subject": "Physiology",
+      "title": "Cardiac cycle",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p57-q29-4": {
+      "lecture_id": "pharmacology__antihypertensive-drugs-1",
+      "subject": "Pharmacology",
+      "title": "Antihypertensive drugs -1",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p58-q37-1": {
+      "lecture_id": "physiology__physiological-organization-of-cvs",
+      "subject": "Physiology",
+      "title": "Physiological organization of CVS",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 1
+    },
+    "cvs-module2-p58-q38-2": {
+      "lecture_id": "pharmacology__antihypertensive-drugs-1",
+      "subject": "Pharmacology",
+      "title": "Antihypertensive drugs -1",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p59-q2-1": {
+      "lecture_id": "anatomy-histology__normal-development-of-heart-it-s-great-vessels",
+      "subject": "Anatomy & Histology",
+      "title": "Normal Development of Heart & it’s Great Vessels",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p59-q1-2": {
+      "lecture_id": "anatomy-histology__internal-features-of-the-heart",
+      "subject": "Anatomy & Histology",
+      "title": "Internal Features of the Heart",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 1
+    },
+    "cvs-module2-p59-q2-3": {
+      "lecture_id": "physiology__cardiac-cycle",
+      "subject": "Physiology",
+      "title": "Cardiac cycle",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p60-q1-1": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p60-q2-2": {
+      "lecture_id": "physiology__normal-ecg",
+      "subject": "Physiology",
+      "title": "Normal ECG",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p60-q1-3": {
+      "lecture_id": "pharmacology__antihypertensive-drugs-2",
+      "subject": "Pharmacology",
+      "title": "Antihypertensive drugs -2",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p60-q2-4": {
+      "lecture_id": "pharmacology__antihypertensive-drugs-1",
+      "subject": "Pharmacology",
+      "title": "Antihypertensive drugs -1",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p61-q1-1": {
+      "lecture_id": "pathology__infective-endocarditis",
+      "subject": "Pathology",
+      "title": "Infective Endocarditis",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p61-q2-2": {
+      "lecture_id": "pathology__infective-endocarditis",
+      "subject": "Pathology",
+      "title": "Infective Endocarditis",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p61-q1-3": {
+      "lecture_id": "pathology__valvular-heart-diseases",
+      "subject": "Pathology",
+      "title": "Valvular Heart Diseases",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p61-q2-4": {
+      "lecture_id": "pathology__valvular-heart-diseases",
+      "subject": "Pathology",
+      "title": "Valvular Heart Diseases",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p62-q14-3": {
+      "lecture_id": "physiology__abnormal-ecg-and-cardiac-arrhythmias",
+      "subject": "Physiology",
+      "title": "Abnormal ECG and cardiac arrhythmias",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p63-q3-1": {
+      "lecture_id": "anatomy-histology__external-features-of-the-heart-and-its-great-vessels",
+      "subject": "Anatomy & Histology",
+      "title": "External Features of the Heart and its Great Vessels",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 1
+    },
+    "cvs-module2-p63-q4-2": {
+      "lecture_id": "anatomy-histology__internal-features-of-the-heart",
+      "subject": "Anatomy & Histology",
+      "title": "Internal Features of the Heart",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 1
+    },
+    "cvs-module2-p63-q5-3": {
+      "lecture_id": "anatomy-histology__internal-features-of-the-heart",
+      "subject": "Anatomy & Histology",
+      "title": "Internal Features of the Heart",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 1
+    },
+    "cvs-module2-p64-q21-3": {
+      "lecture_id": "anatomy-histology__congenital-anomalies-of-the-heart-it-s-great-vessels",
+      "subject": "Anatomy & Histology",
+      "title": "Congenital anomalies of the heart & it’s great Vessels",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p64-q22-4": {
+      "lecture_id": "anatomy-histology__normal-development-of-heart-it-s-great-vessels",
+      "subject": "Anatomy & Histology",
+      "title": "Normal Development of Heart & it’s Great Vessels",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p65-q25-1": {
+      "lecture_id": "anatomy-histology__normal-development-of-heart-it-s-great-vessels",
+      "subject": "Anatomy & Histology",
+      "title": "Normal Development of Heart & it’s Great Vessels",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p65-q26-2": {
+      "lecture_id": "anatomy-histology__congenital-anomalies-of-the-heart-it-s-great-vessels",
+      "subject": "Anatomy & Histology",
+      "title": "Congenital anomalies of the heart & it’s great Vessels",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p65-q28-4": {
+      "lecture_id": "physiology__cardiac-cycle",
+      "subject": "Physiology",
+      "title": "Cardiac cycle",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p66-q32-3": {
+      "lecture_id": "pathology__pathology-of-hypertension",
+      "subject": "Pathology",
+      "title": "Pathology of Hypertension",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p66-q3r-4": {
+      "lecture_id": "pathology__atherosclerosis-aneurysm",
+      "subject": "Pathology",
+      "title": "Atherosclerosis & Aneurysm",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 1
+    },
+    "cvs-module2-p67-q43-5": {
+      "lecture_id": "pathology__ischemic-heart-disease-2",
+      "subject": "Pathology",
+      "title": "Ischemic Heart Disease – 2",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 1
+    },
+    "cvs-module2-p68-q44-1": {
+      "lecture_id": "pathology__pathology-of-hypertension",
+      "subject": "Pathology",
+      "title": "Pathology of Hypertension",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p68-q45-2": {
+      "lecture_id": "pharmacology__antihypertensive-drugs-1",
+      "subject": "Pharmacology",
+      "title": "Antihypertensive drugs -1",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p68-q46-3": {
+      "lecture_id": "pharmacology__antihypertensive-drugs-1",
+      "subject": "Pharmacology",
+      "title": "Antihypertensive drugs -1",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p68-q47-4": {
+      "lecture_id": "pharmacology__antihypertensive-drugs-2",
+      "subject": "Pharmacology",
+      "title": "Antihypertensive drugs -2",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p68-q48-5": {
+      "lecture_id": "physiology__abnormal-ecg-and-cardiac-arrhythmias",
+      "subject": "Physiology",
+      "title": "Abnormal ECG and cardiac arrhythmias",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p69-q50-1": {
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "subject": "Pharmacology",
+      "title": "Antiarrhythmic drugs",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p69-q53-2": {
+      "lecture_id": "pharmacology__antihypertensive-drugs-1",
+      "subject": "Pharmacology",
+      "title": "Antihypertensive drugs -1",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p69-q62-5": {
+      "lecture_id": "pathology__pathology-of-hypertension",
+      "subject": "Pathology",
+      "title": "Pathology of Hypertension",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p70-q63-1": {
+      "lecture_id": "physiology__regulation-of-abp-intermediate-and-long-term-regulation",
+      "subject": "Physiology",
+      "title": "Regulation of ABP (Intermediate and long-term Regulation)",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 1
+    },
+    "cvs-module2-p70-q66-4": {
+      "lecture_id": "physiology__abnormal-ecg-and-cardiac-arrhythmias",
+      "subject": "Physiology",
+      "title": "Abnormal ECG and cardiac arrhythmias",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p70-q67-5": {
+      "lecture_id": "pathology__valvular-heart-diseases",
+      "subject": "Pathology",
+      "title": "Valvular Heart Diseases",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p71-q68-1": {
+      "lecture_id": "pathology__valvular-heart-diseases",
+      "subject": "Pathology",
+      "title": "Valvular Heart Diseases",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p71-q72-5": {
+      "lecture_id": "pathology__cardiac-and-vascular-tumours",
+      "subject": "Pathology",
+      "title": "Cardiac and vascular tumours",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p71-q73-6": {
+      "lecture_id": "pathology__cardiac-and-vascular-tumours",
+      "subject": "Pathology",
+      "title": "Cardiac and vascular tumours",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p72-q74-1": {
+      "lecture_id": "pathology__cardiac-and-vascular-tumours",
+      "subject": "Pathology",
+      "title": "Cardiac and vascular tumours",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p72-q75-2": {
+      "lecture_id": "physiology__physiology-of-coronary-circulation",
+      "subject": "Physiology",
+      "title": "Physiology of coronary circulation",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 1
+    },
+    "cvs-module2-p72-q80-4": {
+      "lecture_id": "pathology__pathology-of-hypertension",
+      "subject": "Pathology",
+      "title": "Pathology of Hypertension",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p73-q82-1": {
+      "lecture_id": "pharmacology__antihypertensive-drugs-1",
+      "subject": "Pharmacology",
+      "title": "Antihypertensive drugs -1",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p73-q84-2": {
+      "lecture_id": "physiology__regulation-of-abp-intermediate-and-long-term-regulation",
+      "subject": "Physiology",
+      "title": "Regulation of ABP (Intermediate and long-term Regulation)",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 1
+    },
+    "cvs-module2-p73-q86-3": {
+      "lecture_id": "anatomy-histology__histology-of-the-myocardium",
+      "subject": "Anatomy & Histology",
+      "title": "Histology of the Myocardium",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 1
+    },
+    "cvs-module2-p76-qfragment-1": {
+      "lecture_id": "physiology__abnormal-ecg-and-cardiac-arrhythmias",
+      "subject": "Physiology",
+      "title": "Abnormal ECG and cardiac arrhythmias",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p77-q18-2": {
+      "lecture_id": "anatomy-histology__congenital-anomalies-of-the-heart-it-s-great-vessels",
+      "subject": "Anatomy & Histology",
+      "title": "Congenital anomalies of the heart & it’s great Vessels",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p77-qfragment-3": {
+      "lecture_id": "physiology__physiology-approch-to-circulatory-shock",
+      "subject": "Physiology",
+      "title": "Physiology approch to circulatory shock",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 1
+    },
+    "cvs-module2-p78-q22-1": {
+      "lecture_id": "pharmacology__drugs-used-in-heart-failure",
+      "subject": "Pharmacology",
+      "title": "Drugs used in Heart failure",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 1
+    },
+    "cvs-module2-p78-q27-2": {
+      "lecture_id": "pathology__vasculitis",
+      "subject": "Pathology",
+      "title": "Vasculitis",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p80-q40-1": {
+      "lecture_id": "physiology__physiology-of-microcirculation-and-cardiac-edema",
+      "subject": "Physiology",
+      "title": "Physiology of microcirculation and cardiac edema",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 1
+    },
+    "cvs-module2-p80-q41-2": {
+      "lecture_id": "anatomy-histology__internal-features-of-the-heart",
+      "subject": "Anatomy & Histology",
+      "title": "Internal Features of the Heart",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 1
+    },
+    "cvs-module2-p80-q44-4": {
+      "lecture_id": "pathology__infective-endocarditis",
+      "subject": "Pathology",
+      "title": "Infective Endocarditis",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p81-q47-3": {
+      "lecture_id": "physiology__physiological-organization-of-cvs",
+      "subject": "Physiology",
+      "title": "Physiological organization of CVS",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 1
+    },
+    "cvs-module2-p82-q52-3": {
+      "lecture_id": "physiology__cardiac-contractility",
+      "subject": "Physiology",
+      "title": "Cardiac contractility",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 1
+    },
+    "cvs-module2-p83-q9-1": {
+      "lecture_id": "anatomy-histology__normal-development-of-heart-it-s-great-vessels",
+      "subject": "Anatomy & Histology",
+      "title": "Normal Development of Heart & it’s Great Vessels",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p83-q12-2": {
+      "lecture_id": "anatomy-histology__normal-development-of-heart-it-s-great-vessels",
+      "subject": "Anatomy & Histology",
+      "title": "Normal Development of Heart & it’s Great Vessels",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
+    },
+    "cvs-module2-p83-q13-3": {
+      "lecture_id": "anatomy-histology__radiological-anatomy-of-the-heart-and-its-great-vessels",
+      "subject": "Anatomy & Histology",
+      "title": "Radiological Anatomy of the heart and its great vessels",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 1
+    },
+    "cvs-module2-p83-q22-5": {
+      "lecture_id": "physiology__cardiac-cycle",
+      "subject": "Physiology",
+      "title": "Cardiac cycle",
+      "confidence": 1,
+      "method": "reviewed-source-content",
+      "quiz": 2
     }
   },
   "ai": {

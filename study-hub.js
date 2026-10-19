@@ -1192,17 +1192,51 @@ let med25AnalyticsBusy=false;
 function med25AnalyticsRows(items,key,label){
   return (Array.isArray(items)?items:[]).map(x=>'<tr><td>'+esc(String(x[key]||'—'))+'</td><td>'+Number(x[label]||0).toLocaleString()+'</td></tr>').join('');
 }
+let med25PrivateLeaderboard=[],med25AnalyticsOwner='',med25AnalyticsRequestId=0;
+function med25ClearPrivateAnalytics(){
+  med25PrivateLeaderboard=[];med25AnalyticsOwner='';med25AnalyticsRequestId++;
+  const body=document.getElementById('analyticsBody');if(body)body.replaceChildren();
+}
+function med25PrivateUsageMarkup(summary){
+  const count=v=>Math.max(0,Number(v)||0).toLocaleString();
+  return '<section class="box analyticsWideBox" id="privateUsageLeaderboard"><h3>Private usage leaderboard</h3><p class="small">Admin only · Includes accounts hidden from the public leaderboard. Times are shown in Saudi time.</p><div class="analyticsMetrics">'+
+    '<div class="analyticsMetric"><b>'+count(summary.accounts)+'</b><span>registered accounts</span></div>'+
+    '<div class="analyticsMetric"><b>'+count(summary.accounts_with_xp)+'</b><span>accounts with XP</span></div>'+
+    '<div class="analyticsMetric"><b>'+count(summary.active_7d)+'</b><span>active in the last 7 days</span></div>'+
+    '<div class="analyticsMetric"><b>'+count(summary.answers_7d)+'</b><span>scored answers in the last 7 days</span></div></div>'+
+    '<div class="privateUsageControls"><label>Find a student<input type="search" id="privateXpSearch" placeholder="Search name or email" autocomplete="off"></label><label>Sort by<select id="privateXpSort"><option value="points">All-time XP</option><option value="weekly_xp">This week’s XP</option><option value="monthly_xp">This month’s XP</option><option value="answers_7d">Scored answers · last 7 days</option><option value="last_active_at">Last active</option></select></label></div>'+
+    '<p class="small" id="privateXpCount"></p><div class="analyticsTableWrap"><table class="analyticsTable privateUsageTable"><thead><tr><th>Rank</th><th>Student</th><th>All-time XP</th><th>Week XP<br><small>Sun–Sat</small></th><th>Month XP</th><th>Scored answers</th><th>Answers · 7 days</th><th>Last active</th><th>Public profile</th></tr></thead><tbody id="privateXpRows"></tbody></table></div><p class="small">Scored answers count first attempts. XP also includes earned bonuses. Revision and mock activity may not earn XP; last active uses recorded signed-in activity.</p></section>';
+}
+function med25RenderPrivateLeaderboard(){
+  const host=document.getElementById('privateXpRows');if(!host||!isAdmin()||currentUser?.id!==med25AnalyticsOwner)return;
+  const query=(document.getElementById('privateXpSearch')?.value||'').trim().toLowerCase();
+  const allowed=['points','weekly_xp','monthly_xp','answers_7d','last_active_at'];
+  const requested=document.getElementById('privateXpSort')?.value,key=allowed.includes(requested)?requested:'points';
+  const value=row=>key==='last_active_at'?(Date.parse(row[key])||0):(Number(row[key])||0);
+  const rows=[...med25PrivateLeaderboard].sort((a,b)=>value(b)-value(a)||String(a.username||'').localeCompare(String(b.username||''))||String(a.email||'').localeCompare(String(b.email||''))).map((row,i)=>({row,rank:i+1})).filter(({row})=>!query||(String(row.username||'')+' '+String(row.email||'')).toLowerCase().includes(query));
+  const count=v=>Math.max(0,Number(v)||0).toLocaleString();
+  host.innerHTML=rows.map(({row,rank})=>'<tr><td>'+rank+'</td><td><b>'+esc(row.username||'Not started')+'</b><small>'+esc(row.email||'')+'</small></td><td>'+count(row.points)+'</td><td>'+count(row.weekly_xp)+'</td><td>'+count(row.monthly_xp)+'</td><td>'+count(row.answers_total)+'</td><td>'+count(row.answers_7d)+'</td><td>'+esc(row.last_active_at?fmtAdminDate(row.last_active_at):'No recorded activity')+'</td><td>'+(!row.has_profile?'Not set up':row.public_visible?'Visible':'Hidden')+'</td></tr>').join('')||'<tr><td colspan="9">No matching accounts.</td></tr>';
+  const label=document.getElementById('privateXpCount');if(label)label.textContent=rows.length+' of '+med25PrivateLeaderboard.length+' accounts';
+}
+const med25OriginalCloseAnalytics=closeAnalytics;
+closeAnalytics=function(){med25ClearPrivateAnalytics();return med25OriginalCloseAnalytics.apply(this,arguments)};
+document.getElementById('closeAnalytics').onclick=closeAnalytics;
+const med25OriginalAnalyticsAuthUI=updateAuthUI;
+updateAuthUI=function(){const out=med25OriginalAnalyticsAuthUI.apply(this,arguments);if(!isAdmin()||(med25AnalyticsOwner&&currentUser?.id!==med25AnalyticsOwner))closeAnalytics();return out;};
 async function med25LoadSitewideAnalytics(){
+  const analyticsRequest=++med25AnalyticsRequestId,viewerId=currentUser?.id;med25AnalyticsOwner=viewerId||'';med25PrivateLeaderboard=[];
   const body=document.getElementById('analyticsBody');
   if(!body)return;
   body.innerHTML='<div class="analyticsLoading"><span></span><b>Loading site-wide analytics…</b></div>';
   if(!authSession?.access_token||!isAdmin()){body.innerHTML='<div class="analyticsError">Admin access required.</div>';return}
   try{
-    let res=await fetch(SUPA_URL+'/functions/v1/admin-analytics',{headers:{apikey:SUPA_KEY,Authorization:'Bearer '+authSession.access_token}});
-    if(res.status===401&&await refreshSession())res=await fetch(SUPA_URL+'/functions/v1/admin-analytics',{headers:{apikey:SUPA_KEY,Authorization:'Bearer '+authSession.access_token}});
+    let res=await fetch(SUPA_URL+'/functions/v1/admin-analytics',{cache:'no-store',headers:{apikey:SUPA_KEY,Authorization:'Bearer '+authSession.access_token}});
+    if(res.status===401&&await refreshSession())res=await fetch(SUPA_URL+'/functions/v1/admin-analytics',{cache:'no-store',headers:{apikey:SUPA_KEY,Authorization:'Bearer '+authSession.access_token}});
     const data=await res.json().catch(()=>({}));
     if(!res.ok)throw new Error(data.error||'Could not load analytics');
+    if(analyticsRequest!==med25AnalyticsRequestId||!isAdmin()||currentUser?.id!==viewerId)return;
     const a=data.analytics||{};
+    med25PrivateLeaderboard=Array.isArray(a.private_leaderboard)?a.private_leaderboard:[];
     const emails=Array.isArray(a.registered_emails)?a.registered_emails:[];
     const topics=Array.isArray(a.top_topics)?a.top_topics:[];
     const daily=Array.isArray(a.daily)?a.daily:[];
@@ -1213,6 +1247,7 @@ async function med25LoadSitewideAnalytics(){
     const sectionRows=sections.filter(x=>x.section in sectionNames).map(x=>'<tr><td>'+esc(sectionNames[x.section]||x.section||'Unknown')+'</td><td>'+Number(x.views||0).toLocaleString()+'</td></tr>').join('');
     body.innerHTML=
       '<p class="analyticsNote"><b>Whole-site dashboard.</b> Visitor analytics began '+esc(started)+'. Feature-by-feature tracking (Home, AI and lecture checklist) is '+esc(sitewide)+', so older activity is naturally weighted toward Past Papers.</p>'+
+      med25PrivateUsageMarkup(a.private_usage_summary||{})+
       '<div class="analyticsSectionTitle"><b>Overview</b><span>Entire MED25 Study Hub</span></div>'+
       '<div class="analyticsMetrics">'+
         '<div class="analyticsMetric"><b>'+Number(a.total_visitors||0).toLocaleString()+'</b><span>unique visitors</span></div>'+
@@ -1244,7 +1279,10 @@ async function med25LoadSitewideAnalytics(){
           (emails.map(u=>'<tr><td>'+esc(u.email||'')+'</td><td>'+esc(fmtAdminDate(u.created_at))+'</td><td>'+esc(fmtAdminDate(u.last_sign_in_at))+'</td></tr>').join('')||'<tr><td colspan="3">No registered accounts.</td></tr>')+
         '</tbody></table></div></div>'+
       '</div>';
-  }catch(e){body.innerHTML='<div class="analyticsError">'+esc(e.message||String(e))+'</div>'}
+    med25RenderPrivateLeaderboard();
+    document.getElementById('privateXpSearch').oninput=med25RenderPrivateLeaderboard;
+    document.getElementById('privateXpSort').onchange=med25RenderPrivateLeaderboard;
+  }catch(e){if(analyticsRequest===med25AnalyticsRequestId&&isAdmin()&&currentUser?.id===viewerId)body.innerHTML='<div class="analyticsError">'+esc(e.message||String(e))+'</div>'}
 }
 loadAdminAnalytics=med25LoadSitewideAnalytics;
 async function med25OpenAdminAnalytics(){

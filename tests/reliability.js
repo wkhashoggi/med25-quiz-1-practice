@@ -242,7 +242,7 @@ async function run(){
     await page.evaluate(async()=>{const email=currentUser.email;currentUser.email=ADMIN_EMAILS[0];try{await loadAdminAnalytics()}finally{currentUser.email=email}});
     const analytics=await page.locator('#analyticsBody').textContent();
     assert(!/flashcard|rating/i.test(analytics));assert(analytics.includes('Past Paper answers'));assert(analytics.includes('Mock Exams'));
-    assert.equal(await page.locator('#analyticsBody .analyticsWideBox').first().locator('thead th').count(),5);
+    assert.equal(await page.locator('#analyticsBody .analyticsWideBox:not(#privateUsageLeaderboard)').first().locator('thead th').count(),5);
     console.log('PASS analytics compatibility without retired card counters');
 
     // Directly exercise a conflict: the earliest completed answer stays locked while independent maps are retained.

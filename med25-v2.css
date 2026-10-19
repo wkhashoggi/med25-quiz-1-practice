@@ -807,3 +807,11 @@ button:disabled,input:disabled,select:disabled{cursor:not-allowed!important}
 .homeSourceButton:focus-visible{outline:3px solid var(--v2-accent);outline-offset:3px}
 .homeSourceButton:disabled{opacity:.5;cursor:default}
 @media(max-width:700px){.homeSourceGrid{grid-template-columns:1fr}.homeSourceCard{gap:10px}}
+
+/* Private admin usage table; narrow screens scroll inside the table. */
+.privateUsageControls{display:flex;flex-wrap:wrap;gap:12px;margin:16px 0}
+.privateUsageControls label{display:grid;gap:6px;flex:1 1 220px;font-size:12px;font-weight:650}
+.privateUsageControls input,.privateUsageControls select{width:100%;min-width:0;min-height:44px;padding:9px 11px;border:1px solid var(--v2-line-strong);border-radius:10px;background:var(--v2-surface);color:var(--v2-text);font:inherit}
+.privateUsageTable td small{display:block;font-size:11px;color:var(--v2-muted)}
+#privateUsageLeaderboard .analyticsTableWrap{max-width:100%}
+#privateUsageLeaderboard .analyticsMetrics{margin-top:14px}

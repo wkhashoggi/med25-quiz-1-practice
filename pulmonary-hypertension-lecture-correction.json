@@ -1,0 +1,151 @@
+{
+  "date": "2026-10-19",
+  "question_id": "formative-quiz2-bcr-q16",
+  "reason": "Align the study question with the supplied female lecture slide 3.",
+  "source_quote": "pulmonary arterial pressure (PAP) of 25 mm Hg or more at rest",
+  "before": {
+    "id": "formative-quiz2-bcr-q16",
+    "bank": "Coordinator Formative Quiz 2",
+    "module": "Formative",
+    "page": 5,
+    "number": 16,
+    "section": "Formative Quiz 2",
+    "stem": "Pulmonary hypertension is currently defined by a resting mean pulmonary arterial pressure above which value on right-heart catheterization?",
+    "options": {
+      "A": "60 mmHg",
+      "B": "90 mmHg",
+      "C": "20 mmHg",
+      "D": "30 mmHg"
+    },
+    "answer": "C",
+    "answer_text": "20 mmHg",
+    "explicit_answer_text": null,
+    "source_file": "Formative 2 BCR.pdf",
+    "topic": "Pulmonary vessel diseases",
+    "concepts": [
+      "Pulmonary vessel diseases"
+    ],
+    "excluded_reason": null,
+    "high_yield": true,
+    "high_yield_reason": "formative",
+    "repeat_count": 0,
+    "question_repeat_count": 1,
+    "topic_repeat_count": 1,
+    "frequent_topic": false,
+    "explanation": "The modern definition uses mean pressure >20 mmHg. The recalled systolic-pressure question was rewritten explicitly.",
+    "explanation_status": "ai_reviewed",
+    "answer_basis": "ai-supplied",
+    "bank_source_url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=5",
+    "quiz": 2,
+    "lecture_id": "pathology__pulmonary-vessel-diseases",
+    "source_kind": "formative",
+    "tags": [
+      "Coordinator formative",
+      "Quiz 2",
+      "Pulmonary vessel diseases"
+    ],
+    "proofreading_status": "resolved",
+    "exam_ready": true,
+    "past_paper_sources": [
+      {
+        "file": "Formative 2 BCR.pdf",
+        "page": 5,
+        "number": 16,
+        "url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=5",
+        "source_question_id": "formative-quiz2-bcr-q16"
+      }
+    ],
+    "source_answer_status": "Screenshot selections are not an official answer key",
+    "source_selected_answer": "A",
+    "duplicate_question_ids": [],
+    "repeated_concepts": [],
+    "proofreading_notes": "This answer was missing from the original test-bank key. Answer supplied independently by AI; used for study grading and XP. AI-adapted study question: wording, choices or figure were repaired; original recall is retained in the source audit. ",
+    "proofreading_references": [
+      "https://academic.oup.com/eurheartj/article/43/38/3618/6673929"
+    ],
+    "source_key_status": "missing",
+    "ai_grading_note": "This answer was missing from the original test-bank key. Answer supplied independently by AI; used for study grading and XP.",
+    "reviewed_at": "2026-10-18",
+    "ai_grading_review": "20261018-v1",
+    "review_edit_kind": "adapted",
+    "review_revision": "ai-grading-20261018-v1",
+    "review_note": "This answer was missing from the original test-bank key. Answer supplied independently by AI; used for study grading and XP. AI-adapted study question: wording, choices or figure were repaired; original recall is retained in the source audit. ",
+    "review_references": [
+      {
+        "title": "Pulmonary hypertension — Merck Manual",
+        "url": "https://www.merckmanuals.com/professional/pulmonary-disorders/pulmonary-hypertension/pulmonary-hypertension"
+      }
+    ]
+  },
+  "after": {
+    "id": "formative-quiz2-bcr-q16",
+    "bank": "Coordinator Formative Quiz 2",
+    "module": "Formative",
+    "page": 5,
+    "number": 16,
+    "section": "Formative Quiz 2",
+    "stem": "According to the Pulmonary Vascular Disease lecture (female slides, slide 3), pulmonary hypertension is defined by a resting pulmonary arterial pressure of at least which value?",
+    "options": {
+      "A": "60 mmHg",
+      "B": "90 mmHg",
+      "C": "25 mmHg",
+      "D": "30 mmHg"
+    },
+    "answer": "C",
+    "answer_text": "25 mmHg",
+    "explicit_answer_text": null,
+    "source_file": "Formative 2 BCR.pdf",
+    "topic": "Pulmonary vessel diseases",
+    "concepts": [
+      "Pulmonary vessel diseases"
+    ],
+    "excluded_reason": null,
+    "high_yield": true,
+    "high_yield_reason": "formative",
+    "repeat_count": 0,
+    "question_repeat_count": 1,
+    "topic_repeat_count": 1,
+    "frequent_topic": false,
+    "explanation": "The lecture defines pulmonary hypertension as pulmonary arterial pressure of 25 mmHg or more at rest (female Pulmonary Vascular Disease lecture, slide 3). This question follows the lecture definition for your course.",
+    "explanation_status": "lecture_reviewed",
+    "answer_basis": "slide-reviewed",
+    "bank_source_url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=5",
+    "quiz": 2,
+    "lecture_id": "pathology__pulmonary-vessel-diseases",
+    "source_kind": "formative",
+    "tags": [
+      "Coordinator formative",
+      "Quiz 2",
+      "Pulmonary vessel diseases"
+    ],
+    "proofreading_status": "resolved",
+    "exam_ready": true,
+    "past_paper_sources": [
+      {
+        "file": "Formative 2 BCR.pdf",
+        "page": 5,
+        "number": 16,
+        "url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=5",
+        "source_question_id": "formative-quiz2-bcr-q16"
+      }
+    ],
+    "source_answer_status": "Screenshot selections are not an official answer key",
+    "source_selected_answer": "A",
+    "duplicate_question_ids": [],
+    "repeated_concepts": [],
+    "proofreading_notes": "Lecture-aligned study question. Option C and the inclusive threshold follow the supplied female lecture slide 3.",
+    "proofreading_references": [
+      "Female Pulmonary Vascular Disease lecture, slide 3 — supplied screenshot"
+    ],
+    "source_key_status": "missing",
+    "reviewed_at": "2026-10-19",
+    "review_edit_kind": "adapted",
+    "review_revision": "lecture-slide-ph-20261019-v1",
+    "review_note": "Corrected to match the female Pulmonary Vascular Disease lecture, slide 3, supplied in the question report: 25 mmHg or more at rest.",
+    "review_references": [
+      {
+        "title": "Female Pulmonary Vascular Disease lecture, slide 3 — screenshot supplied in question report"
+      }
+    ]
+  }
+}

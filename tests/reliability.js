@@ -9,7 +9,7 @@ const token={user,access_token:'fixture-access-token',refresh_token:'fixture-ref
 const getPeriod=(period)=>{
   const d=new Date(new Date().toLocaleString('en-US',{timeZone:'Asia/Riyadh'}));
   if(period==='month')return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-01';
-  d.setDate(d.getDate()-(d.getDay()+6)%7);return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');
+  d.setDate(d.getDate()-d.getDay());return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');
 };
 const leaders=Array.from({length:503},(_,i)=>({username:'Student'+String(i).padStart(3,'0'),avatar_url:null,points:1000-i,weekly_xp:i===502?999:i,monthly_xp:i===501?999:i,current_streak:1,best_streak:1,week_start:getPeriod('week'),month_start:getPeriod('month')}));
 leaders[0].weekly_xp=9999;leaders[0].week_start='2000-01-03';leaders[0].monthly_xp=9999;leaders[0].month_start='2000-01-01';

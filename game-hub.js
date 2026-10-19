@@ -277,7 +277,7 @@ function gameOpenPointsInfo(){
     modal.setAttribute('role','dialog');
     modal.setAttribute('aria-modal','true');
     modal.setAttribute('aria-labelledby','gamePointsInfoTitle');
-    modal.innerHTML='<div class="gamePointsInfoBackdrop" data-close-points-info></div><div class="gamePointsInfoCard"><div class="gamePointsInfoHead"><div><span class="gameMiniLabel">MED25 XP</span><h3 id="gamePointsInfoTitle">How XP works</h3></div><button class="gamePointsInfoClose" type="button" data-close-points-info aria-label="Close">×</button></div><p class="gamePointsInfoIntro">Earn XP by studying, improving and staying accurate. Repeating an already-scored question cannot be farmed for XP.</p><div class="gamePointsInfoRules"><div><b>+7 XP</b><span>Correct Past Paper</span></div><div><b>+5 XP</b><span>Correct AI question</span></div><div><b>+1 XP</b><span>Wrong first attempt</span></div><div><b>+8 XP</b><span>Recover a previous mistake</span></div></div><div class="gamePointsInfoNote"><b>🔥 Correct-answer streak multipliers</b><span>5 = 1.1× · 10 = 1.25× · 20 = 1.5× · 30 = 2×. A wrong answer resets the streak.</span></div><div class="gamePointsInfoNote"><b>🏆 Rankings</b><span>Weekly, Monthly and All-Time leaderboards. Weekly and monthly XP reset by period; your total XP and level never reset.</span></div><p class="gamePointsInfoFooter">Study. Improve. Level up. 🧠🔥</p></div>';
+    modal.innerHTML='<div class="gamePointsInfoBackdrop" data-close-points-info></div><div class="gamePointsInfoCard"><div class="gamePointsInfoHead"><div><span class="gameMiniLabel">MED25 XP</span><h3 id="gamePointsInfoTitle">How XP works</h3></div><button class="gamePointsInfoClose" type="button" data-close-points-info aria-label="Close">×</button></div><p class="gamePointsInfoIntro">Earn XP by studying, improving and staying accurate. Repeating an already-scored question cannot be farmed for XP.</p><div class="gamePointsInfoRules"><div><b>+7 XP</b><span>Correct Past Paper</span></div><div><b>+5 XP</b><span>Correct AI question</span></div><div><b>+1 XP</b><span>Wrong first attempt</span></div><div><b>+8 XP</b><span>Recover a previous mistake</span></div></div><div class="gamePointsInfoNote"><b>🔥 Correct-answer streak multipliers</b><span>5 = 1.1× · 10 = 1.25× · 20 = 1.5× · 30 = 2×. A wrong answer resets the streak.</span></div><div class="gamePointsInfoNote"><b>🏆 Rankings</b><span>Weekly, Monthly and All-Time leaderboards. Weekly XP runs Sunday–Saturday and resets Sunday at 12:00 AM Saudi time. Monthly XP resets each calendar month; your total XP and level never reset.</span></div><p class="gamePointsInfoFooter">Study. Improve. Level up. 🧠🔥</p></div>';
     document.body.appendChild(modal);
     modal.querySelectorAll('[data-close-points-info]').forEach(el=>el.addEventListener('click',gameClosePointsInfo));
   }
@@ -571,7 +571,7 @@ function gameRiyadhPeriodStart(period){
   const get=t=>parts.find(x=>x.type===t)?.value;const y=Number(get('year')),m=Number(get('month')),d=Number(get('day'));
   const today=new Date(Date.UTC(y,m-1,d));
   if(period==='month')return y+'-'+String(m).padStart(2,'0')+'-01';
-  const dow=today.getUTCDay(),back=(dow+6)%7;today.setUTCDate(today.getUTCDate()-back);
+  const dow=today.getUTCDay(),back=dow;today.setUTCDate(today.getUTCDate()-back);
   return today.toISOString().slice(0,10);
 }
 function gameLeaderboardValue(r,mode){
@@ -582,7 +582,7 @@ function gameLeaderboardValue(r,mode){
 function gameRenderLeaderboard(){
   const host=document.getElementById('gameLeaderboardList'),meta=document.getElementById('gameLeaderboardMeta');
   if(!host)return;
-  const label=gameLeaderboardMode==='weekly'?'this week':gameLeaderboardMode==='monthly'?'this month':'all-time';
+  const label=gameLeaderboardMode==='weekly'?'this week (Sun–Sat, Saudi time)':gameLeaderboardMode==='monthly'?'this month':'all-time';
   const rows=[...gameLeaderboard].sort((a,b)=>gameLeaderboardValue(b,gameLeaderboardMode)-gameLeaderboardValue(a,gameLeaderboardMode)||String(a.username).localeCompare(String(b.username)));
   if(meta)meta.textContent=rows.length+' MED25 accounts · ranked by XP '+label+' · streak bonuses included';
   if(!rows.length){host.innerHTML='<div class="gameEmpty">No ranked players yet. Be the first.</div>';return}

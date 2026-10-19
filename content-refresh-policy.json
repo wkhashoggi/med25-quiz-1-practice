@@ -179,6 +179,6 @@
     "incomplete_items": "Authentic incomplete extractions may remain visible in Past Papers with a Source incomplete warning, but are excluded from mocks.",
     "explanation_rule": "Question-specific explanations are labelled Why; broad revision hints are labelled Study note. A preserved bank key alone is labelled Source key. Missing context and unrecoverable options/keys are excluded from mock exams.",
     "preserve_source_occurrences": true,
-    "deduplication": "Publish one card per question across source papers. Merge exact stems and reviewed spelling/formatting/choice-order copies, preserving original variants, source links and ID aliases. Check images and clinical targets before merging; different mechanisms, marks, sides, conditions and concepts must remain separate. Preserve answers, stars, saved mock/retry progress and historical attempts through aliases."
+    "deduplication": "Quiz 2 only: merge reviewed duplicate question cards; preserve original source appearances and ID aliases for saved progress. Leave Quiz 1 unchanged."
   }
 }

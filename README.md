@@ -68,8 +68,6 @@ At the user’s request, all 88 questions from the RS Practical filter have been
 ### Medical content corrections · 18 October 2026
 
 Published 488 corrections to question wording, answer keys or explanations. Forty-five ambiguous/incomplete recalls are explicitly ungraded and excluded from mocks. `medical-content-review.json` retains exact before/after records and references. Written questions have been checked; 41 retained picture questions still await individual visual verification. Revised study questions archive the old attempt and allow fresh practice without rewriting previously awarded account XP. Current mock-eligible past-paper count: 1,444.
-# Duplicate cleanup — 19 October 2026
+# Quiz 2 duplicate cleanup — 19 October 2026
 
-The active bank now has 1,540 Past Papers cards after merging 215 repeated cards. One AI card that repeated a Past Paper question was also removed. Reviewed wording and reordered-choice copies share one card; distinct clinical targets and different figures remain separate. Original source variants are archived in `question-deduplication-audit.json`.
-
-Old question IDs resolve to retained cards. Answers, stars and original attempt history migrate; choice letters are translated by their text. Saved recovery queues and mock sessions also resolve merged IDs. Formative Quiz 2 and Physiology Quiz 2 Important still contain 30 and 40 questions respectively. `tests/deduplication.js` validates the active bank and migrations; historical medical/import ledgers are checked against the archived pre-merge view.
+Merged 184 duplicate Quiz 2 cards into 152 retained cards: Quiz 2 now has 803 cards, down from 987. Each retained repeated card shows “This exact question was repeated X times,” counting source appearances including the first. Original source references, saved answers, stars and history are retained through ID aliases. Quiz 1 cards are unchanged. The review and original variants are archived in `question-deduplication-audit.json`.

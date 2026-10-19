@@ -414,7 +414,7 @@ function sgLabelVisible(root,kind){
     const g=sgQuestionLecture(kind,q),meta=card.querySelector(kind==='past'?'.qtop .meta':'.aiMeta');
     if(!meta)return;
     if(kind==='past'){
-      const hy=(typeof highYieldBadge==='function'?highYieldBadge(q):'')+((q.question_repeat_count||1)>1?'<span class="pill questionRepeatPill" title="Appearances of this exact question in the supplied sources, including duplicate compilation pages">Repeated ×'+q.question_repeat_count+'</span>':'');
+      const hy=(typeof highYieldBadge==='function'?highYieldBadge(q):'')+(q.quiz===2&&(q.question_repeat_count||1)>1?'<span class="pill questionRepeatPill" title="Appearances of this exact question in the supplied sources, including duplicate compilation pages">This exact question was repeated '+q.question_repeat_count+' times</span>':'');
       const examReady=typeof window.med25ExamReadyPast==='function'?window.med25ExamReadyPast(q):true;
       const quality=examReady?'':'<span class="pill sourceIncompletePill" title="'+esc(q.incomplete_reason||'Authentic source-bank item with incomplete or duplicated choices or an unrecoverable key. Excluded from mock exams.')+'">'+(q.proofreading_status==='needs_review'?'Needs review':q.proofreading_status==='resolved'?'Limited original choices':'Source incomplete')+'</span>';
       meta.innerHTML='<span class="pill sgSubjectPill">'+esc(g.subject||'Other')+'</span>'+

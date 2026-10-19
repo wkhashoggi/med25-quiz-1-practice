@@ -5,7 +5,7 @@
   "guide_topic_entries": 106,
   "drive_folders_scanned": 94,
   "drive_files_catalogued": 211,
-  "active_ai_questions": 1308,
+  "active_ai_questions": 1309,
   "active_cases": 293,
   "new_source_ids": [
     "14ffy0MYrv6xBy7KuXBNbMvVmwmEejufR",
@@ -36,7 +36,7 @@
       "subject": "Anatomy & Histology",
       "title": "Anatomy of Mediastinum & Pericardium",
       "ai_questions": 9,
-      "past_questions": 15,
+      "past_questions": 16,
       "source_file_ids": [
         "1N29pF27p1UfkP79gdlrUFW-5WiTtgnEC"
       ],
@@ -48,7 +48,7 @@
       "subject": "Anatomy & Histology",
       "title": "Histology of the Myocardium",
       "ai_questions": 9,
-      "past_questions": 21,
+      "past_questions": 23,
       "source_file_ids": [
         "1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM"
       ],
@@ -108,7 +108,7 @@
       "subject": "Anatomy & Histology",
       "title": "Radiological Anatomy of the heart and its great vessels",
       "ai_questions": 11,
-      "past_questions": 7,
+      "past_questions": 11,
       "source_file_ids": [
         "1pY-VpkKh7ONAQ9j3JsjJcwXoN5NGnSJZ"
       ],
@@ -212,7 +212,7 @@
       "subject": "Anatomy & Histology",
       "title": "Histology of the mucosal immune system",
       "ai_questions": 9,
-      "past_questions": 8,
+      "past_questions": 9,
       "source_file_ids": [
         "1E1fFLdmFakH_wQzOA6iid1gO7Dmy4KTC"
       ],
@@ -224,7 +224,7 @@
       "subject": "Anatomy & Histology",
       "title": "Histology of the Lymphatic system",
       "ai_questions": 9,
-      "past_questions": 38,
+      "past_questions": 41,
       "source_file_ids": [
         "1tktL6El76XzdSl3H9meqCkgYArLLaty7"
       ],
@@ -296,7 +296,7 @@
       "lecture_id": "physiology__physiological-organization-of-cvs",
       "subject": "Physiology",
       "title": "Physiological organization of CVS",
-      "ai_questions": 8,
+      "ai_questions": 9,
       "past_questions": 14,
       "source_file_ids": [
         "1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg"
@@ -358,7 +358,7 @@
       "subject": "Physiology",
       "title": "Regulation of ABP (CV centers & short-term regulation)",
       "ai_questions": 19,
-      "past_questions": 31,
+      "past_questions": 33,
       "source_file_ids": [
         "1hUhRX6NQW4vC0QZctlopDFzZB_vh7U3h"
       ],
@@ -550,7 +550,7 @@
       "subject": "Biochemistry",
       "title": "Haem synthesis",
       "ai_questions": 18,
-      "past_questions": 19,
+      "past_questions": 20,
       "source_file_ids": [
         "1akREae-VDZN_QNeQlrnBruB1ML_EVnFr"
       ],
@@ -610,7 +610,7 @@
       "subject": "Biochemistry",
       "title": "Diagnostic cardiac markers",
       "ai_questions": 15,
-      "past_questions": 17,
+      "past_questions": 19,
       "source_file_ids": [
         "1p7J3Q5VmQpu8_boCUGB1i9UsPJwTHzrl"
       ],
@@ -642,7 +642,7 @@
       "subject": "Pathology",
       "title": "Atherosclerosis & Aneurysm",
       "ai_questions": 20,
-      "past_questions": 16,
+      "past_questions": 17,
       "source_file_ids": [
         "1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR"
       ],
@@ -864,7 +864,7 @@
       "subject": "Pathology",
       "title": "Lymphadenopathy",
       "ai_questions": 20,
-      "past_questions": 12,
+      "past_questions": 13,
       "source_file_ids": [
         "10eghX6fl3OUlolsZzAxrVMJZxX8rpsIh"
       ],
@@ -984,7 +984,7 @@
       "subject": "Pharmacology",
       "title": "Anti-anginal drugs",
       "ai_questions": 20,
-      "past_questions": 11,
+      "past_questions": 12,
       "source_file_ids": [
         "1d6_PoF0KWoNaRDvlZcDC3w18JYF3rjb8"
       ],
@@ -1018,7 +1018,7 @@
       "subject": "Pharmacology",
       "title": "Treatment of anemia",
       "ai_questions": 11,
-      "past_questions": 15,
+      "past_questions": 16,
       "source_file_ids": [
         "1K5cvnGh2SN7nXYym3rRbb-3kAFCBP_XY"
       ],
@@ -1042,7 +1042,7 @@
       "subject": "Pharmacology",
       "title": "Drugs affecting hemostasis",
       "ai_questions": 9,
-      "past_questions": 19,
+      "past_questions": 28,
       "source_file_ids": [
         "11QGtE4ZQ1EDfmezkJv3x5STjxudrAvHP"
       ],
@@ -1102,7 +1102,7 @@
       "subject": "Microbiology",
       "title": "Malaria",
       "ai_questions": 20,
-      "past_questions": 18,
+      "past_questions": 19,
       "source_file_ids": [
         "11cWsUNkzbZzr4m5aaS-W4-WHrBInyxhI"
       ],
@@ -1240,7 +1240,7 @@
       "subject": "Microbiology",
       "title": "Immunodeficiency Disorders",
       "ai_questions": 9,
-      "past_questions": 5,
+      "past_questions": 6,
       "source_file_ids": [
         "1MPsUE7W8NW5sPlaUX9JC1r8MhNAH8cFp"
       ],

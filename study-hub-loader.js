@@ -1,16 +1,17 @@
 (async function(){
 'use strict';
 try{
-  const res=await fetch('legacy-app.html?v=20261020xpstatus',{cache:'no-store'});
+  const res=await fetch('legacy-app.html?v=20261020xpeverywhere',{cache:'no-store'});
   if(!res.ok)throw new Error('Could not load the MED25 app (HTTP '+res.status+').');
   let html=await res.text();
   // Preserve revision history during legacy progress cleanup and merge newest practice.
   html=html.replace("['__flashcards__','__ai_questions__','__lecture_study__','__quiz_retries__']", "['__flashcards__','__ai_questions__','__lecture_study__','__quiz_retries__','__revision_practice__']");
   html=html.replace("if('studied' in a||'studied' in b||", "if('revision_attempt' in a||'revision_attempt' in b||'studied' in a||'studied' in b||");
+  html=html.replace('const result={...other,...latest};',"const result={...other,...latest};if(a.xp_first_attempt||b.xp_first_attempt){const aa=a.xp_first_attempt,bb=b.xp_first_attempt;result.xp_first_attempt=!aa?bb:!bb?aa:Date.parse(bb.locked_at)<Date.parse(aa.locked_at)?bb:aa}");
   const preferredTheme=localStorage.getItem('med25-theme')||'light';
   html=html.replace('<html lang="en">','<html lang="en" data-theme="'+preferredTheme+'">');
 
-  html=html.replace('</head>','<link rel="stylesheet" href="study-hub.css?v=20261020xpstatus"><link rel="stylesheet" href="game-hub.css?v=20261020xpstatus"><link rel="stylesheet" href="med25-v2.css?v=20261020xpstatus"><link rel="stylesheet" href="revision-hub.css?v=20261016r3"></head>');
+  html=html.replace('</head>','<link rel="stylesheet" href="study-hub.css?v=20261020xpeverywhere"><link rel="stylesheet" href="game-hub.css?v=20261020xpeverywhere"><link rel="stylesheet" href="med25-v2.css?v=20261020xpeverywhere"><link rel="stylesheet" href="revision-hub.css?v=20261016r3"></head>');
 
   const oldTabs='<div class="studyTabs" id="studyTabs"><button class="studyTab active" id="tabQuestions" type="button">Past Papers / Practice Questions</button></div>';
   const newTabs='<div class="studyTabs appNav" id="studyTabs"><div class="appBrand"><span class="appBrandMark">M25</span><span class="appBrandText"><b>MED25</b><small>Study Hub</small></span></div><div class="appNavLinks"><button class="studyTab active" id="tabHome" type="button"><span class="navIcon">⌂</span><span>Home</span></button><button class="studyTab" id="tabQuestions" type="button"><span class="navIcon">▤</span><span>Past Papers</span></button><button class="studyTab" id="tabAI" type="button"><span class="navIcon">✦</span><span>AI Questions</span></button></div><div class="appNavActions"><button class="themeToggle" id="themeToggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">☾</button></div></div>';
@@ -30,8 +31,8 @@ try{
   const close=html.lastIndexOf('</script>');
   if(close<0)throw new Error('Main application script not found.');
   const insert=close+9;
-  const extra='<script src="study-hub.js?v=20261020xpstatus"></'+'script>\n<script src="game-hub.js?v=20261020xpstatus"></'+'script>\n<script src="xp-reliability.js?v=20261020xpstatus"></'+'script>\n<script src="live-question-stats.js?v=20261020xpstatus"></'+'script>\n<script src="assets/cohort-logo-part-1.js?v=20261013"></'+'script>\n<script src="assets/cohort-logo-part-2.js?v=20261013"></'+'script>\n<script src="assets/cohort-logo-part-3.js?v=20261013"></'+'script>\n<script src="assets/cohort-logo-part-4.js?v=20261013"></'+'script>\n<script src="med25-v2.js?v=20261018top"></'+'script>';
-  html=html.slice(0,insert)+'\n'+extra+'<script src="revision-hub.js?v=20261020xpstatus"></'+'script>'+html.slice(insert);
+  const extra='<script src="study-hub.js?v=20261020xpeverywhere"></'+'script>\n<script src="game-hub.js?v=20261020xpeverywhere"></'+'script>\n<script src="xp-reliability.js?v=20261020xpeverywhere"></'+'script>\n<script src="live-question-stats.js?v=20261020xpeverywhere"></'+'script>\n<script src="assets/cohort-logo-part-1.js?v=20261013"></'+'script>\n<script src="assets/cohort-logo-part-2.js?v=20261013"></'+'script>\n<script src="assets/cohort-logo-part-3.js?v=20261013"></'+'script>\n<script src="assets/cohort-logo-part-4.js?v=20261013"></'+'script>\n<script src="med25-v2.js?v=20261018top"></'+'script>';
+  html=html.slice(0,insert)+'\n'+extra+'<script src="revision-hub.js?v=20261020xpeverywhere"></'+'script>'+html.slice(insert);
 
   document.open();document.write(html);document.close();
 }catch(err){

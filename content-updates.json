@@ -2,8 +2,8 @@
   "entries": [
     {
       "date": "20 October 2026",
-      "title": "Clear XP confirmation on every scored answer",
-      "summary": "Past Paper and AI answers now keep an XP status beside the feedback: earned, already awarded, or pending. Answers queued during a slow sync are retried promptly, and an interrupted confirmation cannot silently hide credited XP. The popup stays visible longer."
+      "title": "XP across all question practice",
+      "summary": "Previously unscored questions now earn XP in revision and submitted mock exams as well as Past Paper and AI practice. XP is awarded once per question across sections. Answer feedback shows earned, already awarded, or pending XP, and queued answers retry automatically."
     },
     {
       "date": "20 October 2026",

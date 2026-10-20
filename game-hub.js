@@ -44,9 +44,9 @@ function gameMockRestore(){
       }
       if(!Object.hasOwn(answers,item.key)&&Object.hasOwn(item.q.options,pick))answers[item.key]=pick;
     }
-    gameMockState.exam={...e,questions,answers,index:Math.min(questions.length-1,Math.max(0,Math.trunc(e.index)||0))};
+    gameMockState.exam={...e,...(!e.submitted&&!e.xpEnabled?{xpEnabled:true,xpOwner:currentUser?.id||'guest'}:{}),questions,answers,index:Math.min(questions.length-1,Math.max(0,Math.trunc(e.index)||0))};
     if(stored.config)gameMockState.config=stored.config;
-    if(!e.submitted){if(Date.now()>=e.endsAt)gameMockSubmit(true);else gameMockStartTimer()}
+    if(!e.submitted){if(Date.now()>=e.endsAt)gameMockSubmit(true);else gameMockStartTimer()}else gameMockScoreXP();
   }catch(e){sessionStorage.removeItem(GAME_MOCK_KEY);console.warn('Saved mock could not be restored',e)}
 }
 
@@ -297,7 +297,7 @@ function gameOpenPointsInfo(){
     modal.setAttribute('role','dialog');
     modal.setAttribute('aria-modal','true');
     modal.setAttribute('aria-labelledby','gamePointsInfoTitle');
-    modal.innerHTML='<div class="gamePointsInfoBackdrop" data-close-points-info></div><div class="gamePointsInfoCard"><div class="gamePointsInfoHead"><div><span class="gameMiniLabel">MED25 XP</span><h3 id="gamePointsInfoTitle">How XP works</h3></div><button class="gamePointsInfoClose" type="button" data-close-points-info aria-label="Close">×</button></div><p class="gamePointsInfoIntro">Earn XP by studying, improving and staying accurate. Repeating an already-scored question cannot be farmed for XP.</p><div class="gamePointsInfoRules"><div><b>+7 XP</b><span>Correct Past Paper</span></div><div><b>+5 XP</b><span>Correct AI question</span></div><div><b>+1 XP</b><span>Wrong first attempt</span></div><div><b>+8 XP</b><span>Recover a previous mistake</span></div></div><div class="gamePointsInfoNote"><b>🔥 Correct-answer streak multipliers</b><span>5 = 1.1× · 10 = 1.25× · 20 = 1.5× · 30 = 2×. A wrong answer resets the streak.</span></div><div class="gamePointsInfoNote"><b>🏆 Rankings</b><span>Weekly, Monthly and All-Time leaderboards. Weekly XP runs Sunday–Saturday and resets Sunday at 12:00 AM Saudi time. Monthly XP resets each calendar month; your total XP and level never reset.</span></div><p class="gamePointsInfoFooter">Study. Improve. Level up. 🧠🔥</p></div>';
+    modal.innerHTML='<div class="gamePointsInfoBackdrop" data-close-points-info></div><div class="gamePointsInfoCard"><div class="gamePointsInfoHead"><div><span class="gameMiniLabel">MED25 XP</span><h3 id="gamePointsInfoTitle">How XP works</h3></div><button class="gamePointsInfoClose" type="button" data-close-points-info aria-label="Close">×</button></div><p class="gamePointsInfoIntro">Earn XP by studying, improving and staying accurate. Every section can earn XP, including revision and submitted mocks. Each question earns its first-attempt XP once across all sections. Repeated answers do not earn duplicate XP.</p><div class="gamePointsInfoRules"><div><b>+7 XP</b><span>Correct Past Paper</span></div><div><b>+5 XP</b><span>Correct AI question</span></div><div><b>+1 XP</b><span>Wrong first attempt</span></div><div><b>+8 XP</b><span>Recover a previous mistake</span></div></div><div class="gamePointsInfoNote"><b>🔥 Correct-answer streak multipliers</b><span>5 = 1.1× · 10 = 1.25× · 20 = 1.5× · 30 = 2×. A wrong answer resets the streak.</span></div><div class="gamePointsInfoNote"><b>🏆 Rankings</b><span>Weekly, Monthly and All-Time leaderboards. Weekly XP runs Sunday–Saturday and resets Sunday at 12:00 AM Saudi time. Monthly XP resets each calendar month; your total XP and level never reset.</span></div><p class="gamePointsInfoFooter">Study. Improve. Level up. 🧠🔥</p></div>';
     document.body.appendChild(modal);
     modal.querySelectorAll('[data-close-points-info]').forEach(el=>el.addEventListener('click',gameClosePointsInfo));
   }
@@ -496,20 +496,33 @@ async function gameUploadAvatar(e){
 
 function gameHistoricalAttempts(){
   if(!currentUser)return [];
-  const rows=[];
-  for(const q of QUESTIONS){
-    const p=saved[q.id];
-    if(typeof p?.correct==='boolean')rows.push({user_id:currentUser.id,source:'past',question_id:q.id,correct:p.correct});
-  }
+  const candidates=[];
+  for(const q of QUESTIONS){const p=saved[q.id];if(typeof p?.correct==='boolean')candidates.push({source:'past',question_id:q.id,correct:p.correct,at:p.locked_at||''})}
   try{
     const p=window.med25GameBridge?.aiProgress?.()||{};
-    const qs=window.med25GameBridge?.aiQuestions?.()||[];
-    for(const q of qs){
-      if(typeof p[q.id]?.correct==='boolean')rows.push({user_id:currentUser.id,source:'ai',question_id:q.id,correct:p[q.id].correct});
-    }
+    for(const q of window.med25GameBridge?.aiQuestions?.()||[]){if(typeof p[q.id]?.correct==='boolean')candidates.push({source:'ai',question_id:q.id,correct:p[q.id].correct,at:p[q.id].locked_at||''})}
   }catch{}
-  return rows;
+  for(const [key,history] of Object.entries(saved.__revision_practice__||{})){
+    const p=history.xp_first_attempt,[source,id]=key.split(':');
+    if(!p||!GAME_SCOREABLE_SOURCES.has(source)||typeof p.correct!=='boolean'||(p.owner&&p.owner!=='guest'&&p.owner!==currentUser.id))continue;
+    candidates.push({source,question_id:id,correct:p.correct,at:p.locked_at||''});
+  }
+  const unique=new Map();
+  for(const row of candidates.sort((a,b)=>String(a.at).localeCompare(String(b.at)))){const key=row.source+':'+row.question_id;if(!unique.has(key))unique.set(key,{user_id:currentUser.id,source:row.source,question_id:row.question_id,correct:row.correct})}
+  return [...unique.values()];
 }
+
+// Revision and submitted mocks share the same question identity and durable XP queue as bank practice.
+function gameRecordPracticeAttempt(source,id,selected,mode){
+  const item=gameResolveQuizKey(source+':'+id);
+  if(!item||!Object.hasOwn(item.q.options||{},selected)||!item.q.answer)return;
+  const key=item.key,history=saved.__revision_practice__||(saved.__revision_practice__={}),old=history[key]||{};
+  if(!old.xp_first_attempt){history[key]={...old,revision_attempt:true,xp_first_attempt:{selected,correct:selected===item.q.answer,locked_at:new Date().toISOString(),owner:currentUser?.id||'guest',mode}};save()}
+  const first=history[key].xp_first_attempt;
+  if(first.owner&&first.owner!=='guest'&&first.owner!==currentUser?.id)return;
+  return (window.med25GameRecordAttempt||gameRecordAttempt)(item.source,item.q.id,first.correct);
+}
+window.med25GameRecordPracticeAttempt=gameRecordPracticeAttempt;
 
 async function gameBackfillAttempts(){
   if(!currentUser||!authSession?.access_token)return;
@@ -536,14 +549,16 @@ function gameSetQuestionXP(source,id,state,userId=currentUser?.id||'guest'){
   if((currentUser?.id||'guest')===userId)gameRenderQuestionXP();
 }
 function gameRenderQuestionXP(root=document){
-  root.querySelectorAll('#list .qcard,#aiQuestionList .aiCard').forEach(card=>{
-    const source=card.classList.contains('aiCard')?'ai':'past',p=source==='past'?saved[card.id]:window.med25GameBridge?.aiProgress?.()[card.id];
-    let status=gameXPStates.get(gameXPIdentity(source,card.id));
+  root.querySelectorAll('#list .qcard,#aiQuestionList .aiCard,[data-xp-source][data-xp-question]').forEach(card=>{
+    const source=card.dataset.xpSource||(card.classList.contains('aiCard')?'ai':'past'),id=card.dataset.xpQuestion||card.id;
+    const p=source==='past'?saved[id]:window.med25GameBridge?.aiProgress?.()[id];
+    let status=gameXPStates.get(gameXPIdentity(source,id));
+    const practice=saved.__revision_practice__?.[source+':'+id]?.xp_first_attempt;
     if(!status&&p?.revealed)status={kind:'info',text:'Answer revealed · no XP'};
-    if(!status&&!currentUser&&typeof p?.correct==='boolean')status={kind:'info',text:'Sign in to save your XP'};
+    if(!status&&!currentUser&&(typeof p?.correct==='boolean'||practice))status={kind:'info',text:'Sign in to save your XP'};
     let badge=card.querySelector('.questionXPStatus');
     if(!status){badge?.remove();return}
-    if(!badge){badge=document.createElement('p');badge.className='questionXPStatus';badge.setAttribute('role','status');(card.querySelector('.feedback')||card.querySelector('.options')||card).after(badge)}
+    if(!badge){badge=document.createElement('p');badge.className='questionXPStatus';badge.setAttribute('role','status');const anchor=card.querySelector('.feedback')||card.querySelector('.options')||card.querySelector('[data-xp-anchor]');if(anchor)anchor.after(badge);else card.append(badge)}
     badge.dataset.xpStatus=status.kind;
     if(badge.textContent!==status.text)badge.textContent=status.text;
   });
@@ -1003,7 +1018,7 @@ function gameMockRenderSetup(){
   host.innerHTML=
     '<div class="mockBuilder">'+
       '<section class="mockSetupTop">'+
-        '<div><div class="homeCardLabel">CUSTOM MOCK EXAM</div><h2>Build your exam exactly how you want.</h2><p>Set your own time, choose the question source, then choose exact question counts by subject and/or by a specific lecture or topic. IBLS/CVS/Formative are treated only as provenance, never as subjects. Answers stay hidden until you submit.</p><p class="mockNoPoints">Mock Exam is practice only: it does not award or deduct XP and does not affect the leaderboard.</p></div>'+
+        '<div><div class="homeCardLabel">CUSTOM MOCK EXAM</div><h2>Build your exam exactly how you want.</h2><p>Set your own time, choose the question source, then choose exact question counts by subject and/or by a specific lecture or topic. IBLS/CVS/Formative are treated only as provenance, never as subjects. Answers stay hidden until you submit.</p><p class="mockNoPoints">Answered questions earn their first XP on submission. Each question earns XP once across all sections; unanswered questions earn none.</p></div>'+
       '</section>'+
       '<section class="mockControls">'+
         '<label class="mockField"><span>Exam time</span><div class="mockTimeInput"><input id="mockMinutes" type="number" min="1" max="240" step="1" value="'+Number(gameMockState.config.minutes||30)+'"><b>minutes</b></div></label>'+
@@ -1076,7 +1091,7 @@ function gameMockStart(){
     return;
   }
   const now=Date.now(),minutes=Number(gameMockState.config.minutes||30);
-  gameMockState.exam={questions,answers:{},index:0,startedAt:now,endsAt:now+minutes*60000,submitted:false,submittedAt:null};
+  gameMockState.exam={xpEnabled:true,xpOwner:currentUser?.id||'guest',questions,answers:{},index:0,startedAt:now,endsAt:now+minutes*60000,submitted:false,submittedAt:null};
   gameMockSave();
   gameMockStartTimer();
   gameMockRenderExam();
@@ -1139,12 +1154,20 @@ function gameMockSubmit(auto=false){
     const msg=unanswered?'You still have '+unanswered+' unanswered question'+(unanswered===1?'':'s')+'. Finish anyway?':'Submit this mock exam?';
     if(!confirm(msg))return;
   }
+  if(exam.xpOwner==='guest')exam.xpOwner=currentUser?.id||'guest';
   exam.submitted=true;exam.submittedAt=Date.now();exam.autoSubmitted=auto;
   clearInterval(gameMockState.timer);
   exam.bonusXp=0;
   gameMockSave();
   gameMockRenderResults();
+  gameMockScoreXP();
   try{trackEvent('section_view',{metadata:{section:'mock_exam_finished',questions:exam.questions.length,score:gameMockScore().correct,auto_submit:auto}})}catch{}
+}
+function gameMockScoreXP(){
+  const exam=gameMockState.exam;
+  if(!exam?.submitted||!exam.xpEnabled||exam.xpOwner!==(currentUser?.id||'guest'))return;
+  for(const item of exam.questions){const pick=exam.answers[item.key];if(pick)gameRecordPracticeAttempt(item.source,item.q.id,pick,'mock')}
+  gameRenderQuestionXP();
 }
 function gameMockScore(){
   const exam=gameMockState.exam;if(!exam)return {correct:0,wrong:0,unanswered:0,total:0,pct:0};
@@ -1164,11 +1187,11 @@ function gameMockRenderResults(){
       '<section class="mockResultHero"><div><span class="mockExamLabel">RESULT</span><h2>'+sc.pct+'%</h2><p>'+sc.correct+' correct · '+sc.wrong+' wrong · '+sc.unanswered+' unanswered'+(exam.autoSubmitted?' · time expired':'')+'</p></div>'+
       '<button id="mockBuildAnother" type="button">Build another exam</button></section>'+
       '<div class="mockResultStats"><div><b>'+sc.correct+'</b><span>Correct</span></div><div><b>'+sc.wrong+'</b><span>Wrong</span></div><div><b>'+sc.unanswered+'</b><span>Unanswered</span></div><div><b>'+sc.total+'</b><span>Total</span></div></div>'+
-      '<p class="mockNoPoints">Mock exams do not award XP. Individual Past Paper and AI practice questions award XP in their normal sections.</p>'+
+      '<p class="mockNoPoints">Previously unscored answers earn XP after submission. Questions already credited in another section do not earn duplicate XP. Unanswered questions earn none.</p>'+
       '<section class="mockReview"><div class="homeCardLabel">REVIEW</div>'+
       exam.questions.map((item,i)=>{
         const q=item.q,pick=exam.answers[item.key]||'',ok=pick===q.answer;
-        return '<article class="mockReviewCard '+(pick?(ok?'correct':'wrong'):'unanswered')+'">'+
+        return '<article class="mockReviewCard '+(pick?(ok?'correct':'wrong'):'unanswered')+'"'+(pick?' data-xp-source="'+esc(item.source)+'" data-xp-question="'+esc(q.id)+'"':'')+'>'+
           '<div class="mockReviewTop"><b>Q'+(i+1)+' · '+(item.source==='ai'?'AI':'Past Paper')+'</b><span>'+esc(item.lectureTitle)+'</span></div>'+
           '<h3>'+esc(q.stem||'')+'</h3>'+
         (typeof pastQuestionFigure==='function'?pastQuestionFigure(q):'')+
@@ -1180,6 +1203,7 @@ function gameMockRenderResults(){
       }).join('')+'</section>'+
     '</div>';
   window.med25Revision?.mockReview(exam);
+  gameRenderQuestionXP();
   document.getElementById('mockBuildAnother').onclick=()=>{gameMockState.exam=null;gameMockSave();gameMockRenderSetup()};
 }
 function gameInstallMockSection(){
@@ -1315,7 +1339,7 @@ function gamePatchAuth(){
     const wrapped=function(){
       const out=base.apply(this,arguments);
       gameRenderQuestionXP();
-      setTimeout(()=>gameSyncAuth(),0);
+      setTimeout(()=>{gameSyncAuth();window.med25RetryPendingXP?.()},0);
       return out;
     };
     wrapped.__gameWrapped=true;updateAuthUI=wrapped;

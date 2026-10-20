@@ -598,3 +598,9 @@
 }
 
 .questionXPStatus{display:block;width:fit-content;margin:12px 0;padding:7px 11px;border-radius:9px;font-size:13px;font-weight:700;background:#dcfce7;color:#166534}.questionXPStatus[data-xp-status="pending"],.questionXPStatus[data-xp-status="info"]{background:#e0e7ff;color:#3730a3}[data-theme="dark"] .questionXPStatus{background:#153d2a;color:#bbf7d0}[data-theme="dark"] .questionXPStatus[data-xp-status="pending"],[data-theme="dark"] .questionXPStatus[data-xp-status="info"]{background:#252b51;color:#c7d2fe}
+
+/* Keep mock results and their XP feedback within narrow screens; tables scroll inside their panel. */
+.mockResults{grid-template-columns:minmax(0,1fr);width:100%;min-width:0}
+.mockResults>*,.mockReview,.mockReviewCard{min-width:0;box-sizing:border-box}
+.mockResults .revisionTableWrap{max-width:100%;overflow-x:auto}
+.mockResults .questionXPStatus{font-size:13px;line-height:1.5}

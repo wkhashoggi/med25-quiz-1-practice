@@ -91,6 +91,8 @@ async function run(){
     await page.locator('#revisionCount').fill('1');
     const originalProgress=await page.evaluate(()=>JSON.stringify(saved));
     await page.locator('#revisionStart').click();
+    const explainedAI=expectedAI.find(q=>map.ai[q.id].lecture_id===thoracic&&(q.option_explanations||read('question-explanations.json')[q.id]?.options));assert(explainedAI);
+    await page.evaluate(key=>window.med25Revision.startKeys([key],'Explanation and XP check'),'ai:'+explainedAI.id);
     assert.equal(await page.locator('.revisionExplanation').count(),0);
     await page.locator('[data-revision-answer]').first().click();
     assert.equal(await page.locator('[data-revision-answer]:disabled').count(),4);
@@ -210,14 +212,14 @@ async function run(){
     console.log('PASS lecture-level mock results, unanswered filter, and exact exam-specific remedial queue');
     assert(ended.exam.submitted);assert.equal(ended.exam.bonusXp,0);assert.equal(await page.evaluate(()=>localStorage.getItem('med25-pending-xp-v3')),xpBefore);
     await page.reload();await waitReady(page);await page.locator('.mockResults').waitFor();await page.locator('#mockBuildAnother').click();
-    // Build an expired exam and verify automatic submission includes unanswered items, still with zero XP.
+    // Build an expired exam and verify automatic submission includes unanswered items, with no XP for unanswered items.
     await page.locator('[data-mock-source="past"]').click();await page.locator('#mockClearCounts').click();await page.locator('[data-mock-subject-count]').first().fill('2');
     await page.locator('#mockStartBtn').click();await page.locator('.mockExamShell').waitFor();
     assert((await page.evaluate(()=>JSON.parse(sessionStorage.getItem('med25-active-mock-v1')).exam.questions)).every(k=>k.startsWith('past:')));
     await page.evaluate(()=>{const s=JSON.parse(sessionStorage.getItem('med25-active-mock-v1'));s.exam.endsAt=Date.now()-1;sessionStorage.setItem('med25-active-mock-v1',JSON.stringify(s))});
     await page.reload();await waitReady(page);await page.locator('.mockResults').waitFor();
     assert(await page.evaluate(()=>JSON.parse(sessionStorage.getItem('med25-active-mock-v1')).exam.autoSubmitted));
-    console.log('PASS mock validation, exact unique mix, concealment, reload recovery, timed submission, and zero XP');
+    console.log('PASS mock validation, exact unique mix, concealment, reload recovery, timed submission, and deferred mock XP');
 
     // Verify sign-in/sync integration with an isolated API fixture, including nested offline/cloud progress.
     const localQ=qs[1],remoteQ=qs[2];
@@ -233,11 +235,11 @@ async function run(){
     await page.locator('#tabHome').click();await page.locator('[data-xp-board="weekly"]').click();
     await page.waitForSelector('.gameLeaderboardRow.me.outsideTop');
     const apiAttemptsBefore=attempts.size;await page.locator('#tabMock').click();await page.locator('#mockBuildAnother').click();await page.locator('#mockClearCounts').click();await page.locator('[data-mock-subject-count]').first().fill('1');await page.locator('#mockStartBtn').click();await page.locator('.mockOption').first().click();await page.locator('#mockFinishBtn').click();await page.locator('.mockResults').waitFor();
-    assert.equal(attempts.size,apiAttemptsBefore);
+    const scoredMock=await page.evaluate(()=>{const e=window.med25CompletedMock();return e.questions.find(x=>e.answers[x.key]).key});await page.evaluate(()=>window.med25RetryPendingXP());assert(attempts.has(scoredMock),'Submitted mock answer uses its ordinary past/AI identity');assert(attempts.size>=apiAttemptsBefore);
     assert(!requests.some(r=>r.path.endsWith('/game_attempts')&&[].concat(r.body||[]).some(b=>b.source==='mock')));
     await page.locator('#tabHome').click();await page.locator('.gameLeaderboardPrivacyToggle').click();await page.waitForFunction(()=>document.querySelector('#gameLeaderboardHiddenHome')?.checked);
     assert.equal(profile.leaderboard_visible,false);await page.locator('.gameLeaderboardPrivacyToggle').click();await page.waitForFunction(()=>document.querySelector('#gameLeaderboardHiddenHome')?.checked===false);
-    console.log('PASS account sync, offline nested progress merge, own rank, privacy toggle, and mock XP exclusion');
+    console.log('PASS account sync, offline nested progress merge, own rank, privacy toggle, and shared mock XP identity');
 
     // Historical analytics payloads must remain usable without rendering retired counters or sections.
     await page.evaluate(async()=>{const email=currentUser.email;currentUser.email=ADMIN_EMAILS[0];try{await loadAdminAnalytics()}finally{currentUser.email=email}});

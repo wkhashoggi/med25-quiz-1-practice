@@ -38,6 +38,7 @@ jobs:
         run: |
           node tests/content-audit.js
           node tests/cvs-module2.js
+          node tests/default-icon-colors.js
       - name: Verify account sync, retired feature removal, rankings and mocks
         run: node tests/reliability.js
       - name: Verify XP awards and mistake recovery

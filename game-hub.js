@@ -216,13 +216,22 @@ async function gameSetLeaderboardVisibility(visible,source='home'){
   await gameLoadLeaderboard(true);
 }
 
+function gameDefaultIconColor(profile){
+  const palette=['#315bd6','#7c3aed','#be185d','#0f766e','#b45309','#334155'];
+  const name=String(profile?.username||'MED25').normalize('NFKC').toLowerCase();
+  let hash=2166136261;
+  for(const letter of name)hash=Math.imul(hash^letter.codePointAt(0),16777619)>>>0;
+  return palette[hash%palette.length];
+}
+
 function gameAvatarMarkup(profile,size='normal'){
   const username=profile?.username||'MED25';
   const initials=(username.replace(/[^A-Za-z0-9]/g,'').slice(0,2)||'M').toUpperCase();
   if(profile?.avatar_url){
     return '<span class="gameAvatar '+size+'"><img src="'+esc(profile.avatar_url)+'" alt="" loading="lazy" decoding="async"></span>';
   }
-  return '<span class="gameAvatar '+size+'"><span>'+esc(initials)+'</span></span>';
+  const color=gameDefaultIconColor(profile);
+  return '<span class="gameAvatar '+size+'" style="background:'+color+';color:'+gameIconTextColor(color)+'"><span>'+esc(initials)+'</span></span>';
 }
 
 function gameLevelInfo(xp){
@@ -257,7 +266,7 @@ function gameRenderProfile(){
   }
   host.innerHTML=
     '<div class="gameProfileTop">'+
-      '<button class="gameAvatarButton" id="gameAvatarButton" type="button" aria-label="Customize account icon">'+gameAvatarMarkup(gameProfile,'large')+'<span>Change</span></button>'+
+      '<button class="gameAvatarButton" id="gameAvatarButton" type="button" aria-label="Customize account icon">'+gameAvatarMarkup(gameProfile,'large')+'<span>Customize</span></button>'+
       '<input id="gameAvatarInput" type="file" accept="image/jpeg,image/png,image/webp" hidden>'+
       '<div class="gameIdentity"><span class="gameMiniLabel">USERNAME</span><div class="gameUsernameRow"><input id="gameUsernameInput" maxlength="24" value="'+esc(gameProfile.username||'')+'" aria-label="Username"><button id="gameSaveProfile" type="button">Save</button></div><small>3–24 characters: letters, numbers, . _ -</small></div>'+
       '<div class="gamePoints"><div class="gamePointsLabel"><span>XP</span><button class="gamePointsInfoBtn" id="gamePointsInfoBtn" type="button" aria-label="How MED25 XP works" aria-haspopup="dialog">i</button></div><b>'+Number(gameProfile.points||0).toLocaleString()+'</b></div>'+
@@ -393,7 +402,7 @@ function gameIconSettings(profile){
     const data=JSON.parse(new URLSearchParams(new URL(profile?.avatar_url).hash.slice(1)).get('med25-icon'));
     if(/^[\p{L}\p{N}]{1,3}$/u.test(data.letters)&&/^#[a-f\d]{6}$/i.test(data.color))return data;
   }catch{}
-  return {letters:Array.from((profile?.username||'M').replace(/[^\p{L}\p{N}]/gu,'')).slice(0,2).join('').toUpperCase()||'M',color:'#315bd6'};
+  return {letters:Array.from((profile?.username||'M').replace(/[^\p{L}\p{N}]/gu,'')).slice(0,2).join('').toUpperCase()||'M',color:gameDefaultIconColor(profile)};
 }
 function gameAvatarEditorStatus(message,error=false){
   gameSetProfileStatus(message,error);

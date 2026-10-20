@@ -865,3 +865,7 @@ html[data-theme="dark"] .revisionTableWrap th,html[data-theme="dark"] .revisionT
 .gameIconDialog :is(button,input):focus-visible{outline:3px solid var(--v2-accent);outline-offset:4px}
 @media(max-width:480px){.gameIconDialog{padding:20px}.gameIconDialog h2{font-size:22px}.gameIconActions{flex-direction:column}}
 .aiStat span{color:var(--v2-muted)}
+
+/* Initials use the icon background, never the surrounding page theme. */
+.gameAvatar[data-letter-icon]{background:var(--icon-bg)!important;color:var(--icon-text)!important}
+.gameAvatar[data-letter-icon]>.gameAvatarLetters{color:var(--icon-text)!important;font:inherit;letter-spacing:inherit}

@@ -227,11 +227,12 @@ function gameDefaultIconColor(profile){
 function gameAvatarMarkup(profile,size='normal'){
   const username=profile?.username||'MED25';
   const initials=(username.replace(/[^A-Za-z0-9]/g,'').slice(0,2)||'M').toUpperCase();
-  if(profile?.avatar_url){
+  const custom=gameSavedIconSettings(profile);
+  if(profile?.avatar_url&&!custom){
     return '<span class="gameAvatar '+size+'"><img src="'+esc(profile.avatar_url)+'" alt="" loading="lazy" decoding="async"></span>';
   }
-  const color=gameDefaultIconColor(profile);
-  return '<span class="gameAvatar '+size+'" style="background:'+color+';color:'+gameIconTextColor(color)+'"><span>'+esc(initials)+'</span></span>';
+  const color=custom?.color||gameDefaultIconColor(profile),letters=custom?.letters||initials,textColor=gameIconTextColor(color);
+  return '<span class="gameAvatar '+size+'" data-letter-icon style="--icon-bg:'+color+';--icon-text:'+textColor+';background:'+color+';color:'+textColor+'"><span class="gameAvatarLetters">'+esc(letters)+'</span></span>';
 }
 
 function gameLevelInfo(xp){
@@ -397,12 +398,15 @@ function gameIconTextColor(hex){
   const l=rgb.map(v=>v<=.04045?v/12.92:((v+.055)/1.055)**2.4).reduce((a,v,i)=>a+v*[.2126,.7152,.0722][i],0);
   return (l+.05)/.05>=1.05/(l+.05)?'#000000':'#ffffff';
 }
-function gameIconSettings(profile){
+function gameSavedIconSettings(profile){
   try{
     const data=JSON.parse(new URLSearchParams(new URL(profile?.avatar_url).hash.slice(1)).get('med25-icon'));
     if(/^[\p{L}\p{N}]{1,3}$/u.test(data.letters)&&/^#[a-f\d]{6}$/i.test(data.color))return data;
   }catch{}
-  return {letters:Array.from((profile?.username||'M').replace(/[^\p{L}\p{N}]/gu,'')).slice(0,2).join('').toUpperCase()||'M',color:gameDefaultIconColor(profile)};
+  return null;
+}
+function gameIconSettings(profile){
+  return gameSavedIconSettings(profile)||{letters:Array.from((profile?.username||'M').replace(/[^\p{L}\p{N}]/gu,'')).slice(0,2).join('').toUpperCase()||'M',color:gameDefaultIconColor(profile)};
 }
 function gameAvatarEditorStatus(message,error=false){
   gameSetProfileStatus(message,error);

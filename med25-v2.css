@@ -815,3 +815,53 @@ button:disabled,input:disabled,select:disabled{cursor:not-allowed!important}
 .privateUsageTable td small{display:block;font-size:11px;color:var(--v2-muted)}
 #privateUsageLeaderboard .analyticsTableWrap{max-width:100%}
 #privateUsageLeaderboard .analyticsMetrics{margin-top:14px}
+
+/* Share semantic surfaces with the older controls and revision dialogs. */
+:root{
+  --panel:var(--v2-surface);--card:var(--v2-surface);--bg:var(--v2-bg);
+  --text:var(--v2-text);--muted:var(--v2-muted);--line:var(--v2-line);
+  --med-bg:var(--v2-bg);--med-ink:var(--v2-text);--med-amber:var(--v2-warning);--med-amber-soft:var(--v2-warning-soft);
+  --v2-action:#315bd6;--v2-on-action:#fff;
+}
+html[data-theme="dark"]{
+  color-scheme:dark;
+  --v2-bg:#0c121b;--v2-surface:#151f2e;--v2-surface-2:#1d2a3b;
+  --v2-text:#f0f4fa;--v2-muted:#b0bed0;--v2-subtle:#99a9bd;
+  --v2-line:#33445b;--v2-line-strong:#4a607c;--v2-accent:#9abbff;--v2-accent-soft:#213553;
+}
+html[data-theme="dark"] button{color:var(--v2-text);background-color:var(--v2-surface-2);border-color:var(--v2-line-strong)}
+html[data-theme="dark"] input,html[data-theme="dark"] select,html[data-theme="dark"] textarea{color-scheme:dark}
+html[data-theme="dark"] input::placeholder,html[data-theme="dark"] textarea::placeholder{color:var(--v2-subtle);opacity:1}
+html[data-theme="dark"] select option{background:var(--v2-surface);color:var(--v2-text)}
+html[data-theme="dark"] .revisionActions button,html[data-theme="dark"] .revisionActions a{background:var(--v2-surface-2);color:var(--v2-text);border-color:var(--v2-line-strong)}
+html[data-theme="dark"] :is(.btn,.chip:not(.active),.aiChip:not(.active),.revisionActions button,.revisionDialog button):hover:not(:disabled){background:var(--v2-accent-soft)!important;color:var(--v2-text)!important;border-color:var(--v2-accent)!important}
+html[data-theme="dark"] :is(.gameUsernameRow button,.quizStartBtn,.mockExamNav button:last-child,.mockQuestionMap button.current,.homeSourceButton:hover),html[data-theme="dark"] #profileAuthSlot #authSignIn{
+  background:var(--v2-action)!important;border-color:var(--v2-action)!important;color:var(--v2-on-action)!important;
+}
+html[data-theme="dark"] :is(.option,.aiOption,.quizOption):disabled{opacity:1!important}
+html[data-theme="dark"] .quizOption.correct .quizLetter,html[data-theme="dark"] .quizOption.wrong .quizLetter,html[data-theme="dark"] .mockOption.selected>span{color:#0c121b!important}
+html[data-theme="dark"] :is(.explain,.empty,.slidemodal,.analyticsMetric,.analyticsTable th,.v2LegalSheet){background:var(--v2-surface-2)!important;color:var(--v2-text)!important;border-color:var(--v2-line)!important}
+html[data-theme="dark"] :is(.topicrow,.weakhead) button{color:var(--v2-text)!important}
+html[data-theme="dark"] .gameAvatar{background:linear-gradient(135deg,#315bd6,#6533b8);color:#fff}
+html[data-theme="dark"] .revisionDialog{background:var(--v2-surface);color:var(--v2-text)}
+html[data-theme="dark"] .revisionTableWrap th,html[data-theme="dark"] .revisionTableWrap td{border-color:var(--v2-line)}
+
+/* Account initials and color editor, with the same surfaces in either theme. */
+.gameIconDialog{box-sizing:border-box;width:min(470px,calc(100vw - 28px));max-height:90dvh;overflow:auto;padding:26px;border:1px solid var(--v2-line-strong);border-radius:22px;background:var(--v2-surface);color:var(--v2-text);box-shadow:var(--v2-shadow-lg);font-size:14px;line-height:1.55}
+.gameIconDialog::backdrop{background:#070e1bc2;backdrop-filter:blur(4px)}
+.gameIconDialog h2{margin:0 0 8px;font-size:24px;color:inherit}.gameIconDialog p{margin:8px 0 16px;color:var(--v2-muted)}
+.gameIconDialog label{display:block;font-weight:700;margin:18px 0 7px}.gameIconDialog small{display:block;font-size:12px;color:var(--v2-muted);margin-top:7px}
+.gameIconPreview{display:grid;place-items:center;width:120px;height:120px;border-radius:50%;margin:24px auto;font-size:44px;font-weight:800;border:3px solid var(--v2-line);letter-spacing:-.03em}
+#gameIconLetters{width:100%;padding:11px 13px;background:var(--v2-surface-2);color:var(--v2-text);border:1px solid var(--v2-line-strong);border-radius:10px;font:inherit;font-size:19px;text-transform:uppercase}
+#gameIconLetters[aria-invalid="true"]{border-color:var(--v2-danger)}
+.gameIconColors{display:flex;gap:12px;align-items:center;flex-wrap:wrap}#gameIconSwatches{display:flex;gap:9px;flex-wrap:wrap}
+#gameIconSwatches button{width:31px;height:31px;padding:0;border:2px solid var(--v2-surface);border-radius:50%;background:var(--icon-swatch)!important;cursor:pointer;box-shadow:0 0 0 1px var(--v2-line-strong)}
+#gameIconSwatches button[aria-pressed="true"]{box-shadow:0 0 0 3px var(--v2-accent)}
+#gameIconColor{width:48px;height:38px;border:1px solid var(--v2-line-strong);border-radius:9px;background:var(--v2-surface-2);padding:3px;cursor:pointer}
+.gameIconActions{display:flex;gap:10px;margin:18px 0}.gameIconActions button,.gameIconPhoto button{min-height:44px;padding:10px 14px;border:1px solid var(--v2-line-strong);border-radius:10px;background:var(--v2-surface-2);color:var(--v2-text);font:inherit;font-weight:650;cursor:pointer}
+.gameIconActions button{flex:1}#gameIconSave{background:var(--v2-action);color:#fff;border-color:var(--v2-action)}
+#gameIconSave:disabled{opacity:.55;cursor:not-allowed}.gameIconPhoto{border-top:1px solid var(--v2-line);padding-top:18px;display:grid;gap:10px}.gameIconPhoto>span{font-weight:650}.gameIconPhoto small{margin:0}
+#gameIconStatus{min-height:22px;font-size:13px}#gameIconStatus.error{color:var(--v2-danger)}
+.gameIconDialog :is(button,input):focus-visible{outline:3px solid var(--v2-accent);outline-offset:4px}
+@media(max-width:480px){.gameIconDialog{padding:20px}.gameIconDialog h2{font-size:22px}.gameIconActions{flex-direction:column}}
+.aiStat span{color:var(--v2-muted)}

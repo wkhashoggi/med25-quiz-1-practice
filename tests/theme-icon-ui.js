@@ -1,0 +1,34 @@
+const {chromium}=require('playwright'),fs=require('fs'),http=require('http'),path=require('path'),assert=require('assert/strict');
+(async()=>{
+ const root=process.cwd(),server=http.createServer((q,r)=>{const url=new URL(q.url,'http://local'),f=path.join(root,url.pathname==='/'?'index.html':url.pathname);fs.readFile(f,(e,b)=>{if(e)r.statusCode=404;r.setHeader('Content-Type',({'.js':'text/javascript','.html':'text/html','.css':'text/css','.json':'application/json'})[path.extname(f)]||'application/octet-stream');r.end(e?'':b)})});await new Promise(r=>server.listen(0,'127.0.0.1',r));
+ const browser=await chromium.launch({headless:true}),user={id:'00000000-0000-4000-8000-000000000001',email:'icon-test@example.com'};
+ try{for(const width of [390,1440]){
+  let profile={user_id:user.id,username:'IconTester',avatar_url:null,points:120,weekly_xp:0,monthly_xp:0,leaderboard_visible:true},uploads=[],patches=[],failUpload=false;
+  const c=await browser.newContext({viewport:{width,height:950}});await c.addInitScript(()=>localStorage.setItem('med25-theme','dark'));const p=await c.newPage(),errors=[];p.on('pageerror',e=>errors.push(e.message));
+  await p.route('https://**.supabase.co/**',async route=>{const req=route.request(),u=new URL(req.url());let body=[];
+   if(u.pathname.includes('/auth/v1/token'))body={user,access_token:'fake-test-token',refresh_token:'fake-refresh'};
+   else if(u.pathname.endsWith('/game_profiles')){if(req.method()==='PATCH'){const patch=req.postDataJSON();patches.push(patch);Object.assign(profile,patch)}body=[profile]}
+   else if(u.pathname.endsWith('/leaderboard_entries'))body=[profile];
+   else if(u.pathname.includes('/storage/v1/object/avatars/')&&req.method()==='POST'){uploads.push(req.postDataBuffer());if(failUpload){await route.fulfill({status:500,body:'fixture failure'});return}body={Key:'fixture/avatar'}}
+   else if(u.pathname.includes('/storage/v1/object/public/avatars/')){await route.fulfill({status:200,contentType:'image/png',body:uploads.at(-1)||Buffer.from('')});return}
+   await route.fulfill({status:200,contentType:'application/json',body:JSON.stringify(body)});
+  });
+  const base='http://127.0.0.1:'+server.address().port;await p.goto(base);await p.waitForFunction(()=>window.med25GameBridge?.studyLibrariesReady?.());const close=p.locator('#updateNoticeClose');if(await close.isVisible())await close.click();
+  const contrast=async selector=>p.locator(selector).evaluate(el=>{const s=getComputedStyle(el),lum=c=>{const a=c.match(/[\d.]+/g).slice(0,3).map(Number).map(v=>v/255).map(v=>v<=.04045?v/12.92:((v+.055)/1.055)**2.4);return a.reduce((x,v,i)=>x+v*[.2126,.7152,.0722][i],0)};return(Math.max(lum(s.color),lum(s.backgroundColor))+.05)/(Math.min(lum(s.color),lum(s.backgroundColor))+.05)});
+  assert(await contrast('#openQuiz2')>=4.5);await p.locator('#openQuiz2').click();assert(await contrast('#revisionStart')>=4.5);await p.locator('#revisionDialog').press('Escape');
+  await p.evaluate(()=>document.getElementById('tabProfile').click());assert(await contrast('#authSignIn')>=4.5);await p.locator('#authEmail').fill(user.email);await p.locator('#authPassword').fill('fixture-password');await p.locator('#authSignIn').click();await p.waitForSelector('#gameAvatarButton');assert(await contrast('#gameSaveProfile')>=4.5);
+  await p.locator('#gameAvatarButton').click();await p.locator('#gameIconLetters').fill('AB');await p.locator('[data-icon-color="#0f766e"]').click();assert.equal(await p.locator('#gameIconPreview').innerText(),'AB');assert(await contrast('#gameIconPreview')>=4.5);
+  const original=profile.avatar_url;await p.locator('#gameIconCancel').click();assert.equal(profile.avatar_url,original);assert.equal(uploads.length,0);
+  await p.locator('#gameAvatarButton').click();await p.locator('#gameIconLetters').fill('AB');await p.locator('[data-icon-color="#0f766e"]').click();await p.locator('#gameIconSave').click();await p.waitForSelector('#gameIconDialog:not([open])',{state:'attached'});
+  assert.equal(uploads.length,1);assert.equal(uploads[0].subarray(1,4).toString(),'PNG');assert(profile.avatar_url.includes('#med25-icon='));assert(patches.every(x=>!('username'in x)&&!('points'in x)));assert.equal(profile.username,'IconTester');
+  await p.reload();await p.waitForFunction(()=>window.med25GameBridge?.studyLibrariesReady?.());await p.evaluate(()=>document.getElementById('tabProfile').click());await p.waitForSelector('#gameAvatarButton');await p.locator('#gameAvatarButton').click();assert.equal(await p.locator('#gameIconLetters').inputValue(),'AB');assert.equal(await p.locator('#gameIconColor').inputValue(),'#0f766e');
+  await p.locator('#gameIconLetters').fill('');assert(await p.locator('#gameIconSave').isDisabled());await p.locator('#gameIconLetters').fill('WK');await p.locator('#gameIconColor').fill('#eeeeee');await p.locator('#gameIconColor').dispatchEvent('input');assert(await contrast('#gameIconPreview')>=4.5);
+  failUpload=true;await p.locator('#gameIconSave').click();await p.waitForFunction(()=>document.getElementById('gameIconStatus').textContent.includes('Could not upload'));assert(await p.locator('#gameIconDialog').isVisible());assert(!await p.locator('#gameIconSave').isDisabled());assert(profile.avatar_url.includes('med25-icon'));failUpload=false;
+  await p.locator('#gameIconCancel').click();await p.locator('#gameAvatarButton').click();assert.equal(await p.locator('#gameIconLetters').inputValue(),'AB');
+  for(const theme of ['dark','light']){await p.evaluate(t=>document.documentElement.dataset.theme=t,theme);assert(await contrast('#gameIconSave')>=4.5);assert(await p.evaluate(()=>document.getElementById('gameIconDialog').scrollWidth<=document.getElementById('gameIconDialog').clientWidth));await p.locator('#gameIconDialog').screenshot({path:'/tmp/med25-icon-'+theme+'-'+width+'.png'})}
+  await p.locator('#gameIconCancel').click();await p.evaluate(()=>document.documentElement.dataset.theme='dark');
+  // The existing photo route remains available and clears the initials metadata.
+  const png=uploads[0];await p.locator('#gameAvatarButton').click();await p.locator('#gameAvatarInput').setInputFiles({name:'fixture.png',mimeType:'image/png',buffer:png});await p.waitForSelector('#gameIconDialog:not([open])',{state:'attached'});assert(!profile.avatar_url.includes('#med25-icon'));assert.equal(profile.points,120);assert.deepEqual(errors,[]);
+  await c.close();console.log('PASS '+width+'px: dark-mode action contrast, live letters/color preview, cancellation, PNG upload/profile round trip, persistence, failure recovery, light/dark layouts and photo compatibility');
+ }}finally{await browser.close();await new Promise(r=>server.close(r))}
+})().catch(e=>{console.error(e);process.exit(1)});

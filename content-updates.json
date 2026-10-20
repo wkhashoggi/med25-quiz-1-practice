@@ -1,6 +1,11 @@
 {
   "entries": [
     {
+      "date": "20 October 2026",
+      "title": "Clearer dark mode, custom icons and safer resets",
+      "summary": "Dark mode now keeps controls and supporting text readable. In Profile, tap your icon to choose 1–3 letters and a color, or upload a photo. Reset progress now explains exactly what will be erased and kept, with a Cancel option before anything changes."
+    },
+    {
       "date": "19 October 2026",
       "title": "Quiz 2 CVS test bank added; past papers organized",
       "summary": "Imported and reviewed all 308 entries from the CVS Module 2 test bank. Duplicate questions share source links and repetition counts. Clear key errors corrected; ambiguous or incomplete recalls remain ungraded. Quiz 2 is organized into Formative, Physiology Important, RS test bank and CVS test bank; Formative and Physiology Important question records are unchanged."

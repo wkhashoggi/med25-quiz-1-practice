@@ -257,7 +257,7 @@ function gameRenderProfile(){
   }
   host.innerHTML=
     '<div class="gameProfileTop">'+
-      '<button class="gameAvatarButton" id="gameAvatarButton" type="button" aria-label="Change profile picture">'+gameAvatarMarkup(gameProfile,'large')+'<span>Change</span></button>'+
+      '<button class="gameAvatarButton" id="gameAvatarButton" type="button" aria-label="Customize account icon">'+gameAvatarMarkup(gameProfile,'large')+'<span>Change</span></button>'+
       '<input id="gameAvatarInput" type="file" accept="image/jpeg,image/png,image/webp" hidden>'+
       '<div class="gameIdentity"><span class="gameMiniLabel">USERNAME</span><div class="gameUsernameRow"><input id="gameUsernameInput" maxlength="24" value="'+esc(gameProfile.username||'')+'" aria-label="Username"><button id="gameSaveProfile" type="button">Save</button></div><small>3–24 characters: letters, numbers, . _ -</small></div>'+
       '<div class="gamePoints"><div class="gamePointsLabel"><span>XP</span><button class="gamePointsInfoBtn" id="gamePointsInfoBtn" type="button" aria-label="How MED25 XP works" aria-haspopup="dialog">i</button></div><b>'+Number(gameProfile.points||0).toLocaleString()+'</b></div>'+
@@ -272,7 +272,7 @@ function gameRenderProfile(){
     '<div class="gameProfileStatus" id="gameProfileStatus"></div>';
   document.getElementById('gameSaveProfile').onclick=gameSaveProfile;
   document.getElementById('gameLeaderboardVisible').onchange=gameSaveProfile;
-  document.getElementById('gameAvatarButton').onclick=()=>document.getElementById('gameAvatarInput')?.click();
+  document.getElementById('gameAvatarButton').onclick=gameOpenAvatarEditor;
   document.getElementById('gameAvatarInput').onchange=gameUploadAvatar;
   document.getElementById('gamePointsInfoBtn')?.addEventListener('click',gameOpenPointsInfo);
   gameRenderLeaderboardPrivacy();
@@ -382,34 +382,103 @@ async function gameSaveProfile(){
   gameLoadLeaderboard(true);
 }
 
+
+function gameIconTextColor(hex){
+  const rgb=hex.match(/[a-f\d]{2}/gi).map(v=>parseInt(v,16)/255);
+  const l=rgb.map(v=>v<=.04045?v/12.92:((v+.055)/1.055)**2.4).reduce((a,v,i)=>a+v*[.2126,.7152,.0722][i],0);
+  return (l+.05)/.05>=1.05/(l+.05)?'#000000':'#ffffff';
+}
+function gameIconSettings(profile){
+  try{
+    const data=JSON.parse(new URLSearchParams(new URL(profile?.avatar_url).hash.slice(1)).get('med25-icon'));
+    if(/^[\p{L}\p{N}]{1,3}$/u.test(data.letters)&&/^#[a-f\d]{6}$/i.test(data.color))return data;
+  }catch{}
+  return {letters:Array.from((profile?.username||'M').replace(/[^\p{L}\p{N}]/gu,'')).slice(0,2).join('').toUpperCase()||'M',color:'#315bd6'};
+}
+function gameAvatarEditorStatus(message,error=false){
+  gameSetProfileStatus(message,error);
+  const el=document.getElementById('gameIconStatus');if(el){el.textContent=message;el.classList.toggle('error',error)}
+}
+function gameOpenAvatarEditor(){
+  if(!currentUser||!gameProfile)return;
+  let dialog=document.getElementById('gameIconDialog');
+  if(!dialog){
+    dialog=document.createElement('dialog');dialog.id='gameIconDialog';dialog.className='gameIconDialog';
+    dialog.setAttribute('aria-labelledby','gameIconTitle');
+    dialog.innerHTML=`<h2 id="gameIconTitle">Customize your icon</h2><p>Choose letters and a color, or use a photo.</p>
+      <div id="gameIconPreview" class="gameIconPreview" aria-label="Icon preview"></div>
+      <label for="gameIconLetters">Icon letters</label><input id="gameIconLetters" type="text" maxlength="3" autocomplete="off" spellcheck="false" aria-describedby="gameIconHint">
+      <small id="gameIconHint">Use 1–3 letters or numbers. Your username stays the same.</small>
+      <label for="gameIconColor">Icon color</label><div class="gameIconColors"><div id="gameIconSwatches"></div><input id="gameIconColor" type="color" aria-label="Choose a custom icon color"></div>
+      <small>Letter color adjusts automatically for readability.</small>
+      <p id="gameIconStatus" role="status" aria-live="polite"></p>
+      <div class="gameIconActions"><button type="button" id="gameIconCancel">Cancel</button><button type="button" id="gameIconSave">Save initials icon</button></div>
+      <div class="gameIconPhoto"><span>Prefer a picture?</span><button type="button" id="gameIconPhoto">Choose a photo</button><small>JPG, PNG or WebP · up to 2 MB</small></div>`;
+    document.body.appendChild(dialog);
+    const swatches=[['Blue','#315bd6'],['Purple','#7c3aed'],['Rose','#be185d'],['Teal','#0f766e'],['Amber','#b45309'],['Slate','#334155']];
+    document.getElementById('gameIconSwatches').innerHTML=swatches.map(([name,color])=>'<button type="button" data-icon-color="'+color+'" style="--icon-swatch:'+color+'" aria-label="'+name+' icon" aria-pressed="false"></button>').join('');
+    dialog.addEventListener('cancel',e=>{if(dialog.dataset.saving==='true')e.preventDefault()});
+    document.getElementById('gameIconCancel').onclick=()=>dialog.close();
+    const preview=()=>{
+      const letters=document.getElementById('gameIconLetters').value.trim().toUpperCase(),color=document.getElementById('gameIconColor').value;
+      const valid=/^[\p{L}\p{N}]{1,3}$/u.test(letters),el=document.getElementById('gameIconPreview');
+      el.textContent=letters||'M';el.style.background=color;el.style.color=gameIconTextColor(color);
+      document.getElementById('gameIconSave').disabled=!valid||dialog.dataset.saving==='true';
+      document.getElementById('gameIconLetters').setAttribute('aria-invalid',String(!valid));
+      dialog.querySelectorAll('[data-icon-color]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.iconColor===color)));
+    };
+    document.getElementById('gameIconLetters').oninput=preview;document.getElementById('gameIconColor').oninput=preview;
+    dialog.querySelectorAll('[data-icon-color]').forEach(b=>b.onclick=()=>{document.getElementById('gameIconColor').value=b.dataset.iconColor;preview()});
+    document.getElementById('gameIconPhoto').onclick=()=>document.getElementById('gameAvatarInput')?.click();
+    document.getElementById('gameIconSave').onclick=async()=>{
+      const letters=document.getElementById('gameIconLetters').value.trim().toUpperCase(),color=document.getElementById('gameIconColor').value;
+      if(!/^[\p{L}\p{N}]{1,3}$/u.test(letters))return;
+      gameSetIconBusy(true);
+      try{
+        const canvas=document.createElement('canvas');canvas.width=canvas.height=512;
+        const ctx=canvas.getContext('2d');ctx.fillStyle=color;ctx.fillRect(0,0,512,512);ctx.fillStyle=gameIconTextColor(color);
+        ctx.font='700 '+(Array.from(letters).length===3?190:230)+'px system-ui, sans-serif';ctx.textAlign='center';ctx.textBaseline='middle';ctx.fillText(letters,256,270,440);
+        const blob=await new Promise(resolve=>canvas.toBlob(resolve,'image/png'));if(!blob)throw new Error('Could not create the icon. Please try again.');
+        await gameStoreAvatar(blob,'#med25-icon='+encodeURIComponent(JSON.stringify({letters,color})));
+      }catch(e){gameAvatarEditorStatus(e.message||'Could not save icon. Please try again.',true)}finally{gameSetIconBusy(false)}
+    };
+    dialog.updateIconPreview=preview;
+  }
+  const settings=gameIconSettings(gameProfile);
+  document.getElementById('gameIconLetters').value=settings.letters;document.getElementById('gameIconColor').value=settings.color;
+  document.getElementById('gameIconStatus').textContent='';gameSetIconBusy(false);dialog.updateIconPreview();
+  if(!dialog.open)dialog.showModal();document.getElementById('gameIconLetters').focus();
+}
+function gameSetIconBusy(busy){
+  const dialog=document.getElementById('gameIconDialog');if(!dialog)return;
+  dialog.dataset.saving=String(busy);dialog.setAttribute('aria-busy',String(busy));
+  dialog.querySelectorAll('button,input').forEach(el=>el.disabled=busy);
+  if(!busy)dialog.updateIconPreview?.();
+}
+async function gameStoreAvatar(file,suffix=''){
+  if(!currentUser||!authSession?.access_token)throw new Error('Please sign in again to save your icon.');
+  const owner=currentUser.id;gameAvatarEditorStatus('Saving icon…');
+  const objectPath=encodeURIComponent(owner)+'/avatar';
+  const res=await fetch(SUPA_URL+'/storage/v1/object/avatars/'+objectPath,{
+    method:'POST',headers:{apikey:SUPA_KEY,Authorization:'Bearer '+authSession.access_token,'Content-Type':file.type,'x-upsert':'true','cache-control':'3600'},body:file
+  });
+  if(!res.ok)throw new Error('Could not upload your icon. Please try again.');
+  if(currentUser?.id!==owner)throw new Error('Your account changed. Open your profile again.');
+  const avatarUrl=SUPA_URL+'/storage/v1/object/public/avatars/'+objectPath+'?v='+Date.now()+suffix;
+  const saveRes=await supaFetch('/rest/v1/game_profiles?user_id=eq.'+encodeURIComponent(owner),{method:'PATCH',headers:{Prefer:'return=representation'},body:JSON.stringify({avatar_url:avatarUrl,updated_at:new Date().toISOString()})});
+  if(!saveRes.ok)throw new Error('Icon uploaded, but your profile could not be updated. Please try saving again.');
+  const rows=await saveRes.json();if(currentUser?.id!==owner)return;
+  if(!rows[0])throw new Error('Your profile could not be updated. Please sign in again.');
+  gameProfile=rows[0];document.getElementById('gameIconDialog')?.close();gameRenderProfile();document.getElementById('gameAvatarButton')?.focus();gameSetProfileStatus('Icon saved ✓');gameLoadLeaderboard(true);
+}
+
 async function gameUploadAvatar(e){
   const file=e.target.files?.[0];
   if(!file||!currentUser||!authSession?.access_token)return;
-  if(file.size>2*1024*1024){gameSetProfileStatus('Profile picture must be 2 MB or smaller.',true);return}
-  if(!['image/jpeg','image/png','image/webp'].includes(file.type)){gameSetProfileStatus('Use a JPG, PNG or WebP image.',true);return}
-  gameSetProfileStatus('Uploading photo…');
-  const path=encodeURIComponent(currentUser.id)+'/avatar';
-  const res=await fetch(SUPA_URL+'/storage/v1/object/avatars/'+path,{
-    method:'POST',
-    headers:{
-      apikey:SUPA_KEY,
-      Authorization:'Bearer '+authSession.access_token,
-      'Content-Type':file.type,
-      'x-upsert':'true',
-      'cache-control':'3600'
-    },
-    body:file
-  });
-  if(!res.ok){gameSetProfileStatus('Could not upload profile picture.',true);console.warn(await res.text());return}
-  const avatarUrl=SUPA_URL+'/storage/v1/object/public/avatars/'+path+'?v='+Date.now();
-  const saveRes=await supaFetch('/rest/v1/game_profiles?user_id=eq.'+encodeURIComponent(currentUser.id),{
-    method:'PATCH',
-    headers:{Prefer:'return=representation'},
-    body:JSON.stringify({avatar_url:avatarUrl,updated_at:new Date().toISOString()})
-  });
-  if(!saveRes.ok){gameSetProfileStatus('Photo uploaded, but profile could not update.',true);return}
-  const rows=await saveRes.json();if(rows[0])gameProfile=rows[0];
-  gameRenderProfile();gameLoadLeaderboard(true);
+  if(file.size>2*1024*1024){gameAvatarEditorStatus('Profile picture must be 2 MB or smaller.',true);return}
+  if(!['image/jpeg','image/png','image/webp'].includes(file.type)){gameAvatarEditorStatus('Use a JPG, PNG or WebP image.',true);return}
+  gameSetIconBusy(true);
+  try{await gameStoreAvatar(file)}catch(error){gameAvatarEditorStatus(error.message||'Could not upload profile picture.',true)}finally{gameSetIconBusy(false);e.target.value=''}
 }
 
 function gameHistoricalAttempts(){

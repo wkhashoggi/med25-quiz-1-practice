@@ -45,6 +45,7 @@ jobs:
           node tests/xp-awards.js
           node tests/mistake-recovery.js
           node tests/reset-progress-ui.js
+          node tests/theme-icon-ui.js
       - name: Run phone, iPad and desktop interaction suite
         run: node tests/ui-regression.js
       - name: Upload screenshots and results

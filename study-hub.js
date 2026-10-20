@@ -12,6 +12,7 @@ let studyLibrariesLoaded=false;
 let sourceCoverageAudit=null;
 let aiState={subject:'',lecture:'',search:'',filter:'all',page:1,pageSize:20,shuffle:false};
 let aiUnansweredPagePins=new Set();
+window.med25PastUnansweredPins=new Set();
 function aiClearUnansweredPins(){aiUnansweredPagePins.clear()}
 function aiIsUnansweredMode(){return aiState.filter==='unanswered'||aiAdvanced.status==='unanswered'}
 let aiAdvanced={status:'all',subject:'',lectures:new Set()};
@@ -70,7 +71,7 @@ function aiFiltered(){
     return true;
   });
   if(aiState.shuffle)qs=qs.slice().sort((a,b)=>hubHash(a.id)-hubHash(b.id));
-  return qs;
+  return window.med25SortByLiveSuccess?.(qs,'ai',document.getElementById('aiLiveSort')?.value)||qs;
 }
 function hubHash(s){let h=7;for(let i=0;i<String(s).length;i++)h=(h*31+String(s).charCodeAt(i))|0;return Math.abs(h)}
 function aiCard(q){
@@ -110,7 +111,7 @@ function answerAI(id,opt){
     }
     window.med25GameUpdateQuizBadge?.();
   }catch(e){console.warn('Game AI hook unavailable',e)}
-  renderAI();
+  if(!window.med25RefreshAnsweredCard?.(id,'ai'))renderAI();
 }
 function starAI(id){const p=aiProgress();p[id]={...(p[id]||{}),starred:!p[id]?.starred};aiSave();renderAI()}
 function openAISource(id){
@@ -184,7 +185,7 @@ function setupAIControls(){
   if(subject)subject.onchange=()=>{aiClearUnansweredPins();aiState.subject=subject.value;aiState.lecture='';aiState.page=1;populateAIFilters();renderAI()};
   if(lecture)lecture.onchange=()=>{aiClearUnansweredPins();aiState.lecture=lecture.value;aiState.page=1;renderAI()};
   document.querySelectorAll('[data-ai-filter]').forEach(b=>b.onclick=()=>{aiClearUnansweredPins();aiState.filter=b.dataset.aiFilter;aiState.page=1;document.querySelectorAll('[data-ai-filter]').forEach(x=>x.classList.toggle('active',x===b));renderAI()});
-  const sh=document.getElementById('aiShuffle');if(sh)sh.onclick=()=>{aiState.shuffle=!aiState.shuffle;sh.classList.toggle('active',aiState.shuffle);aiState.page=1;renderAI()};
+  const sh=document.getElementById('aiShuffle');if(sh)sh.onclick=()=>{aiClearUnansweredPins();aiState.shuffle=!aiState.shuffle;if(aiState.shuffle){const liveSort=document.getElementById('aiLiveSort');if(liveSort)liveSort.value='';}sh.classList.toggle('active',aiState.shuffle);aiState.page=1;renderAI()};
 }
 
 
@@ -335,6 +336,7 @@ function qaClearUnified(prefix,model){
     resetUnansweredSnapshot();
   }else{
     aiState.filter='all';aiState.shuffle=false;
+    const liveSort=document.getElementById('aiLiveSort');if(liveSort)liveSort.value='';
     document.getElementById('aiShuffle')?.classList.remove('active');
   }
   qaRenderLecturePicker(prefix,model);qaApply(prefix);responsiveUpdateFilterLabels();
@@ -363,7 +365,7 @@ function qaRenderLecturePicker(prefix,model){
 }
 function qaApply(prefix){
   if(prefix==='past'){state.page=1;resetUnansweredSnapshot();render()}
-  else{aiState.page=1;renderAI()}
+  else{aiClearUnansweredPins();aiState.page=1;renderAI()}
 }
 function qaResetLegacyStatus(prefix){
   if(prefix==='past'){
@@ -768,15 +770,16 @@ function hubSetupNavigation(){
 const qaBasePastFiltered=filtered;
 filtered=function(){
   let qs=qaBasePastFiltered.apply(this,arguments);
-  return qs.filter(q=>{
+  qs=qs.filter(q=>{
     const p=saved[q.id]||{},g=sgQuestionLecture('past',q);
     if(window.med25RevisionScope&&pastQuestionQuiz(q)!==Number(window.med25RevisionScope))return false;
     if(pastAdvanced.quiz&&pastQuestionQuiz(q)!==Number(pastAdvanced.quiz))return false;
-    if(!qaStatusPass(p,pastAdvanced.status))return false;
+    if(!(pastAdvanced.status==='unanswered'&&window.med25PastUnansweredPins.has(q.id))&&!qaStatusPass(p,pastAdvanced.status))return false;
     if(pastAdvanced.subject&&g.subject!==pastAdvanced.subject)return false;
     if(pastAdvanced.lectures.size&&!pastAdvanced.lectures.has(g.lecture_id))return false;
     return true;
   });
+  return window.med25SortByLiveSuccess?.(qs,'past',document.getElementById('sort')?.value)||qs;
 };
 
 let switchStudySection=hubSwitch;
@@ -940,12 +943,14 @@ function responsiveScrollToFirst(mode){
 function responsivePageStep(direction){
   const data=responsivePagerData();if(!data)return;
   if(data.mode==='past'){
+    resetUnansweredSnapshot();
     if(direction==='prev'&&state.page>1)state.page--;
     if(direction==='next'&&state.page<data.pages)state.page++;
     try{saveViewState()}catch{}
     render();
     responsiveScrollToFirst('past');
   }else{
+    aiClearUnansweredPins();
     if(direction==='prev'&&aiState.page>1)aiState.page--;
     if(direction==='next'&&aiState.page<data.pages)aiState.page++;
     renderAI();
@@ -1119,6 +1124,28 @@ function med25RenderHomePolish(){
 
 }
 
+// Answer in place: retain the surrounding cards, page membership and viewport.
+window.med25RefreshAnsweredCard=function(id,kind){
+  const node=document.getElementById(id),host=document.getElementById(kind==='ai'?'aiQuestionList':'list');
+  if(!node||!host?.contains(node))return false;
+  const q=kind==='ai'?aiAllQuestions().find(q=>q.id===id):QUESTIONS.find(q=>q.id===id);
+  if(!q)return false;
+  const top=node.getBoundingClientRect().top,scroll=window.scrollY;
+  const template=document.createElement('template');template.innerHTML=kind==='ai'?aiCard(q):card(q);
+  node.replaceWith(template.content.firstElementChild);
+  if(kind==='ai')bindAI();else bindCards();
+  sgLabelVisible(host,kind);med25EnhanceQuestionCards();
+  window.applyLiveQuestionStats?.(host);
+  const current=document.getElementById(id);
+  if(current)window.scrollTo({top:Math.max(0,scroll+current.getBoundingClientRect().top-top),behavior:'instant'});
+  med25ScheduleResponsiveRefresh();
+  return true;
+};
+window.med25ApplyLiveSort=function(kind){
+  if(kind==='ai'){aiState.shuffle=false;aiState.page=1;aiClearUnansweredPins();document.getElementById('aiShuffle')?.classList.remove('active');renderAI()}
+  else{state.page=1;state.shuffled=false;resetUnansweredSnapshot();document.getElementById('shuffle')?.classList.remove('active');saveViewState();render()}
+};
+
 function med25ScrollToNextCard(card,kind){
   const list=Array.from(document.querySelectorAll(kind==='ai'?'.aiCard':'.qcard'));
   const i=list.indexOf(card),next=list[i+1];
@@ -1163,6 +1190,7 @@ renderHome=function(){
 const med25BaseHubSwitch=hubSwitch;
 let med25LastTrackedSection='';
 hubSwitch=function(mode){
+  if(mode!==med25LastTrackedSection){resetUnansweredSnapshot();aiClearUnansweredPins()}
   const out=med25BaseHubSwitch.apply(this,arguments);
   document.body.classList.toggle('homeMode',mode==='home');
   if(mode==='home')med25HomeDirty=false;

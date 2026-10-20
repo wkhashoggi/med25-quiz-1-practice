@@ -1166,3 +1166,8 @@ body{background:var(--med-bg)!important;color:var(--med-text)!important;font-fea
 [data-theme="dark"] .resetProgressDialog{background:#161e29;color:#edf2f9;border-color:#354153}
 [data-theme="dark"] .resetProgressWarning{background:#442220;color:#ffc5be}
 @media(max-width:480px){.resetProgressDialog{padding:20px}.resetProgressDialog h2{font-size:21px}}
+
+/* Keep the viewport anchored to the current question when feedback expands. */
+#list, #aiQuestionList { overflow-anchor: none; }
+.liveSortControl { display: grid; gap: 6px; margin: 8px 0; }
+.liveSortControl select { max-width: 100%; color: var(--text); background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 9px; }

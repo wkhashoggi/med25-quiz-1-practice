@@ -117961,6 +117961,42 @@ const state={
 };
 let unansweredSnapshot=null;
 function resetUnansweredSnapshot(){unansweredSnapshot=null}
+
+function openResetProgressDialog(){
+  let dialog=document.getElementById('resetProgressDialog');
+  if(!dialog){
+    dialog=document.createElement('dialog');
+    dialog.id='resetProgressDialog';dialog.className='resetProgressDialog';
+    dialog.setAttribute('aria-labelledby','resetProgressTitle');
+    dialog.setAttribute('aria-describedby','resetProgressDetails');
+    dialog.innerHTML=`<h2 id="resetProgressTitle">Are you sure you want to reset your progress?</h2>
+      <div id="resetProgressDetails">
+        <p>This resets <strong>all past papers in Quiz 1 and Quiz 2</strong>, including Formative, Physiology Important, RS and CVS. Your current filters do not limit the reset.</p>
+        <h3>What will be erased</h3>
+        <ul><li>Saved past-paper answers and completion progress</li><li>Past-paper correct/wrong history and accuracy</li><li>Starred past-paper questions</li></ul>
+        <h3>What will be kept</h3>
+        <p>Your AI-question progress and lectures marked as studied.</p>
+        <p id="resetProgressSync"></p>
+        <p class="resetProgressWarning"><strong>This cannot be undone.</strong></p>
+      </div>
+      <div class="resetProgressActions"><button type="button" id="resetProgressCancel" autofocus>Cancel — keep my progress</button><button type="button" id="resetProgressConfirm">Yes, reset all past-paper progress</button></div>`;
+    document.body.appendChild(dialog);
+    document.getElementById('resetProgressCancel').onclick=()=>dialog.close();
+    document.getElementById('resetProgressConfirm').onclick=()=>{
+      if(!dialog.open)return;
+      document.getElementById('resetProgressConfirm').disabled=true;
+      resetUnansweredSnapshot();
+      QUESTIONS.forEach(q=>delete saved[q.id]);
+      save();render();dialog.close();
+    };
+  }
+  document.getElementById('resetProgressSync').textContent=currentUser
+    ? 'You are signed in: this reset will also sync to your account and other devices.'
+    : 'You are not signed in: this clears the past-paper progress saved in this browser.';
+  document.getElementById('resetProgressConfirm').disabled=false;
+  if(!dialog.open)dialog.showModal();
+}
+
 function saveViewState(){
   try{
     sessionStorage.setItem(VIEW_STATE_KEY,JSON.stringify({
@@ -118307,7 +118343,7 @@ function init(){
   document.querySelectorAll('.chip[data-filter]').forEach(b=>b.onclick=()=>{resetUnansweredSnapshot();document.querySelectorAll('.chip[data-filter]').forEach(x=>x.classList.remove('active'));b.classList.add('active');state.filter=b.dataset.filter;if(state.filter==='smart'){state.shuffled=false;$('#shuffle').classList.remove('active');$('#sort').value=''}state.page=1;saveViewState();render()});
   $('#shuffle').classList.toggle('active',state.shuffled);
   $('#shuffle').onclick=()=>{resetUnansweredSnapshot();state.shuffled=!state.shuffled;if(state.shuffled)$('#sort').value='';$('#shuffle').classList.toggle('active',state.shuffled);state.page=1;saveViewState();render()};
-  $('#reset').onclick=()=>{if(confirm('Clear all saved answers, wrong/right history and stars?')){resetUnansweredSnapshot();Object.keys(saved).forEach(k=>delete saved[k]);save();render()}};
+  $('#reset').onclick=openResetProgressDialog;
   $('#modePractice').onclick=()=>{state.review=false;$('#modePractice').classList.add('primary');$('#modeReview').classList.remove('primary');saveViewState();render()};
   $('#modeReview').onclick=()=>{state.review=true;$('#modeReview').classList.add('primary');$('#modePractice').classList.remove('primary');saveViewState();render()};
   render(); updateStats(); renderWeakTopics(); renderTopicStats();

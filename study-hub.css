@@ -1151,3 +1151,18 @@ body{background:var(--med-bg)!important;color:var(--med-text)!important;font-fea
 
 /* Reviewed past-paper figures and transparent wording changes. */
 .pastQuestionFigure{margin:16px 0;max-width:100%;text-align:center}.pastQuestionFigure img{display:block;max-width:100%;max-height:570px;width:auto;height:auto;margin:auto;background:white;border-radius:8px}.pastQuestionFigure figcaption{font-size:12px;color:var(--muted,#6b7280);margin-top:7px}.pastAnswerReview{margin:12px 0;padding:10px 12px;border:1px solid var(--line,#dce2e8);border-radius:10px;font-size:13px;line-height:1.6}.pastAnswerReview summary{cursor:pointer;font-weight:600}.pastAnswerReview p{margin:8px 0 0}.pastAnswerReview a{color:var(--accent,#2563eb);overflow-wrap:anywhere}.answerCheckedPill{background:#e8f5ef;color:#166544}[data-theme="dark"] .answerCheckedPill{background:#19382d;color:#a7e7c9}
+
+/* Explicit confirmation before clearing past-paper progress. */
+.resetProgressDialog{box-sizing:border-box;width:min(560px,calc(100vw - 28px));max-height:90dvh;overflow:auto;padding:26px;border:1px solid #d0d5dd;border-radius:20px;background:#fff;color:#172033;box-shadow:0 24px 80px #0004;font-size:14px;line-height:1.6}
+.resetProgressDialog::backdrop{background:#101828a6}
+.resetProgressDialog h2{font-size:23px;line-height:1.3;margin:0 0 18px;color:inherit}
+.resetProgressDialog h3{font-size:14px;margin:18px 0 5px;color:inherit}
+.resetProgressDialog p{margin:8px 0}.resetProgressDialog ul{padding-left:21px;margin:6px 0}
+.resetProgressWarning{color:#b42318;padding:12px;border-radius:10px;background:#fff0ed}
+.resetProgressActions{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+.resetProgressActions button{flex:1 1 210px;min-height:46px;border:1px solid #98a2b3;border-radius:10px;padding:11px 14px;font:inherit;font-weight:650;cursor:pointer;color:inherit;background:transparent}
+#resetProgressConfirm{background:#b42318;border-color:#b42318;color:#fff}
+.resetProgressActions button:focus-visible{outline:3px solid #5186ff;outline-offset:3px}
+[data-theme="dark"] .resetProgressDialog{background:#161e29;color:#edf2f9;border-color:#354153}
+[data-theme="dark"] .resetProgressWarning{background:#442220;color:#ffc5be}
+@media(max-width:480px){.resetProgressDialog{padding:20px}.resetProgressDialog h2{font-size:21px}}

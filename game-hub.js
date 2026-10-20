@@ -528,16 +528,41 @@ async function gameBackfillAttempts(){
   await gameLoadLeaderboard(true);
 }
 
+// Account-scoped confirmations stay beside their question after the brief toast fades.
+const gameXPStates=new Map();
+function gameXPIdentity(source,id,userId=currentUser?.id||'guest'){return userId+':'+source+':'+id}
+function gameSetQuestionXP(source,id,state,userId=currentUser?.id||'guest'){
+  gameXPStates.set(gameXPIdentity(source,id,userId),state);
+  if((currentUser?.id||'guest')===userId)gameRenderQuestionXP();
+}
+function gameRenderQuestionXP(root=document){
+  root.querySelectorAll('#list .qcard,#aiQuestionList .aiCard').forEach(card=>{
+    const source=card.classList.contains('aiCard')?'ai':'past',p=source==='past'?saved[card.id]:window.med25GameBridge?.aiProgress?.()[card.id];
+    let status=gameXPStates.get(gameXPIdentity(source,card.id));
+    if(!status&&p?.revealed)status={kind:'info',text:'Answer revealed · no XP'};
+    if(!status&&!currentUser&&typeof p?.correct==='boolean')status={kind:'info',text:'Sign in to save your XP'};
+    let badge=card.querySelector('.questionXPStatus');
+    if(!status){badge?.remove();return}
+    if(!badge){badge=document.createElement('p');badge.className='questionXPStatus';badge.setAttribute('role','status');(card.querySelector('.feedback')||card.querySelector('.options')||card).after(badge)}
+    badge.dataset.xpStatus=status.kind;
+    if(badge.textContent!==status.text)badge.textContent=status.text;
+  });
+}
+window.med25SetQuestionXP=gameSetQuestionXP;
+window.med25RenderQuestionXP=gameRenderQuestionXP;
+
 function gameScoreToast(delta){
   let t=document.getElementById('gameScoreToast');
   if(!t){
     t=document.createElement('div');t.id='gameScoreToast';t.className='gameScoreToast';document.body.appendChild(t);
   }
+  const surface=document.querySelector('dialog[open]')||document.body;if(t.parentElement!==surface)surface.append(t);
+  t.setAttribute('role','status');t.setAttribute('aria-live','polite');
   t.className='gameScoreToast '+(delta>0?'plus':'minus');
   t.textContent=(delta>0?'+':'')+delta+' XP';
   requestAnimationFrame(()=>t.classList.add('show'));
   clearTimeout(gameScoreToast._timer);
-  gameScoreToast._timer=setTimeout(()=>t.classList.remove('show'),1300);
+  gameScoreToast._timer=setTimeout(()=>t.classList.remove('show'),2800);
 }
 
 async function gameAwardBonus(eventKey,eventType,xp){
@@ -603,7 +628,8 @@ async function gameRecordAttempt(source,questionId,correct){
   source=String(source||'').toLowerCase();
   if(!GAME_SCOREABLE_SOURCES.has(source)||!questionId||typeof correct!=='boolean')return {ok:false};
   const userId=currentUser?.id;
-  if(!userId||!authSession?.access_token)return {ok:false};
+  if(!userId||!authSession?.access_token){gameSetQuestionXP(source,questionId,{kind:'info',text:'Sign in to save your XP'});return {ok:false}}
+  gameSetQuestionXP(source,questionId,{kind:'pending',text:'XP syncing…'},userId);
   try{
     await gameEnsureProfile();
     if(currentUser?.id!==userId)return {ok:false};
@@ -615,22 +641,21 @@ async function gameRecordAttempt(source,questionId,correct){
     if(!res.ok)throw new Error('XP save returned HTTP '+res.status);
     const rows=await res.json();
     if(currentUser?.id!==userId)return {ok:true};
-    if(rows.length){
-      // AFTER INSERT scoring updates the stored row after RETURNING has captured its default 0.
-      // Read the committed award, including its server-calculated streak multiplier.
-      let delta=Number(rows[0]?.points_delta||0);
-      if(delta<=0){
-        const award=await supaFetch('/rest/v1/game_attempts?'+filter+'&select=points_delta&limit=1');
-        if(!award.ok)throw new Error('XP confirmation returned HTTP '+award.status);
-        const scored=await award.json();delta=Number(scored[0]?.points_delta||0);
-      }
-      if(currentUser?.id!==userId)return {ok:true};
-      if(delta>0)gameScoreToast(delta);
-      else gameSetProfileStatus('Answer saved. XP confirmation is pending.');
+    let delta=Number(rows[0]?.points_delta||0);
+    // Confirm both new and duplicate inserts: an earlier request or login backfill may already have credited this answer.
+    if(delta<=0){
+      const award=await supaFetch('/rest/v1/game_attempts?'+filter+'&select=points_delta&limit=1');
+      if(!award.ok)throw new Error('XP confirmation returned HTTP '+award.status);
+      const scored=await award.json();delta=Number(scored[0]?.points_delta||0);
     }
+    if(currentUser?.id!==userId)return {ok:true};
+    if(delta<=0)throw new Error('XP award is not confirmed yet');
+    gameSetQuestionXP(source,questionId,{kind:'awarded',text:rows.length?'+'+delta+' XP earned':'XP already awarded · '+delta+' XP'},userId);
+    if(rows.length)gameScoreToast(delta);
     await gameRefreshProfile();gameLoadLeaderboard(true);
-    return {ok:true,inserted:rows.length>0};
+    return {ok:true,inserted:rows.length>0,delta};
   }catch(e){
+    gameSetQuestionXP(source,questionId,{kind:'pending',text:'XP pending · your answer is saved; retrying automatically'},userId);
     if(currentUser?.id===userId)gameSetProfileStatus('XP sync pending — your answer is saved and will retry.',true);
     console.warn('Game score sync pending',e);
     return {ok:false};
@@ -1289,6 +1314,7 @@ function gamePatchAuth(){
     const base=updateAuthUI;
     const wrapped=function(){
       const out=base.apply(this,arguments);
+      gameRenderQuestionXP();
       setTimeout(()=>gameSyncAuth(),0);
       return out;
     };

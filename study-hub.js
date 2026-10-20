@@ -1185,6 +1185,7 @@ function med25EnhanceQuestionCards(){
       const btn=document.createElement('button');btn.type='button';btn.className='questionNextBtn';btn.textContent='Next question →';btn.onclick=()=>med25ScrollToNextCard(card,'ai');card.appendChild(btn);
     }
   });
+  window.med25RenderQuestionXP?.();
 }
 
 const med25BaseRenderHome=renderHome;

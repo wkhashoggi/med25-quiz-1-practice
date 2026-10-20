@@ -2,6 +2,11 @@
   "entries": [
     {
       "date": "20 October 2026",
+      "title": "Clear XP confirmation on every scored answer",
+      "summary": "Past Paper and AI answers now keep an XP status beside the feedback: earned, already awarded, or pending. Answers queued during a slow sync are retried promptly, and an interrupted confirmation cannot silently hide credited XP. The popup stays visible longer."
+    },
+    {
+      "date": "20 October 2026",
       "title": "AI answers for ungraded student-bank questions",
       "summary": "Completed 79 previously ungraded student-bank entries with clearly labelled AI-based answers. Where context or choices were missing, complete AI-adapted practice versions now include the original wording for comparison. Formative questions remain unchanged."
     },

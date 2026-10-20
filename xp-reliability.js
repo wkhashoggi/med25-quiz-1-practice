@@ -1,7 +1,7 @@
 (function(){
 'use strict';
 const KEY='med25-pending-xp-v4';
-let original=null,busy=false;
+let original=null,inFlight=null;
 function read(){try{const rows=JSON.parse(localStorage.getItem(KEY)||'[]');return Array.isArray(rows)?rows:[]}catch{return []}}
 function write(rows){try{localStorage.setItem(KEY,JSON.stringify(rows))}catch{}}
 function owner(){return typeof currentUser!=='undefined'?currentUser?.id:null}
@@ -10,21 +10,26 @@ function add(source,questionId,correct){
   const userId=owner();if(!userId||!['past','ai'].includes(source)||!questionId||typeof correct!=='boolean')return false;
   const rows=read(),row={userId,source,questionId,correct,addedAt:Date.now()};
   if(!rows.some(x=>identity(x)===identity(row)))rows.push(row);
-  write(rows);return true;
+  write(rows);window.med25SetQuestionXP?.(source,questionId,{kind:'pending',text:'XP queued · syncing…'},userId);return true;
 }
-async function retry(){
-  if(busy||typeof original!=='function'||!owner())return;
-  busy=true;
-  try{
-    const userId=owner();
-    for(const row of read().filter(x=>x.userId===userId)){
-      if(owner()!==userId)break;
-      let result;try{result=await original(row.source,row.questionId,row.correct)}catch{break}
-      if(!result?.ok)break;
-      write(read().filter(x=>identity(x)!==identity(row)));
+function retry(){
+  if(inFlight)return inFlight;
+  if(typeof original!=='function'||!owner())return Promise.resolve();
+  const userId=owner();
+  inFlight=(async()=>{
+    const tried=new Set();
+    while(owner()===userId){
+      // Read again after each request so answers added during a slow sync are drained immediately.
+      const row=read().find(x=>x.userId===userId&&!tried.has(identity(x)));
+      if(!row)break;
+      tried.add(identity(row));
+      let result;try{result=await original(row.source,row.questionId,row.correct)}catch{continue}
+      if(result?.ok)write(read().filter(x=>identity(x)!==identity(row)));
     }
-  }finally{busy=false}
+  })().finally(()=>{inFlight=null});
+  return inFlight;
 }
+
 function install(){
   const base=window.med25GameRecordAttempt;
   if(typeof base!=='function')return false;

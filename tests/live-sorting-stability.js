@@ -56,10 +56,11 @@ async function checkStable(page,kind){
  const host=kind==='past'?'#list':'#aiQuestionList',cards=page.locator(host+' > .qcard'),target=cards.nth(5),id=await target.getAttribute('id');
  await page.evaluate(({host,id})=>{window.__neighbor=document.querySelector(host+' > .qcard');document.getElementById(id).scrollIntoView({block:'start',behavior:'instant'});window.scrollBy({top:-230,behavior:'instant'})}, {host,id});
  await target.locator('.option').first().scrollIntoViewIfNeeded();await page.waitForTimeout(500);await target.locator('.option').first().scrollIntoViewIfNeeded();
- const before=await page.evaluate(id=>({y:scrollY,top:document.getElementById(id).getBoundingClientRect().top}),id);
+ await page.evaluate(id=>document.getElementById(id).addEventListener('pointerdown',()=>{window.__answerViewport={y:scrollY,top:document.getElementById(id).getBoundingClientRect().top}},{once:true}),id);
  await target.locator('.option').first().click();await page.waitForTimeout(300);
  assert.equal(await target.getAttribute('id'),id,'Card stays in the same position');
  assert(await page.evaluate(()=>window.__neighbor.isConnected),'Do not rebuild neighboring cards on answer');
+ const before=await page.evaluate(()=>window.__answerViewport);
  const after=await page.evaluate(id=>({y:scrollY,top:document.getElementById(id).getBoundingClientRect().top,feedback:!!document.getElementById(id).querySelector('.feedback.show')}),id);
  assert(after.feedback);assert(Math.abs(after.y-before.y)<5,JSON.stringify({kind,before,after}));assert(Math.abs(after.top-before.top)<5);
  if(kind==='past'){

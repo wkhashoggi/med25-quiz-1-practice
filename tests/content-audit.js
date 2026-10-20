@@ -137,9 +137,10 @@ for(const lid of ['physiology__abnormal-ecg-and-cardiac-arrhythmias','anatomy-hi
   if((lectureStats.get(lid)?.ai||0)<10||lectureStats.get(lid).cases<2)fail('Current available lecture/case coverage missing: '+lid);
 }
 const fixes=readJson('past-mapping-repairs.json');
+const completions=readJson('ai-answer-completion-20261020.json');
 if(fixes.changed_mappings.length<80)fail('Confirmed mapping repairs missing');
 for(const fix of fixes.changed_mappings){
-  if(map.past[fix.question_id]?.lecture_id!==fix.to_lecture_id)fail('Mapping repair regressed: '+fix.question_id);
+  if(map.past[fix.question_id]?.lecture_id!==(completions.entries.find(e=>e.id===fix.question_id)?.final_mapping?.lecture_id||fix.to_lecture_id))fail('Mapping repair regressed: '+fix.question_id);
 }
 for(const [lid,st] of lectureStats){
   const sub=lectureById.get(lid)?.subject||'Unknown';

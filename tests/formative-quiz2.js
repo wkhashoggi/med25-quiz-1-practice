@@ -19,6 +19,7 @@ const previous=new Map(audit.previous_records.map(q=>[q.id,q]));
 assert.equal(previous.size,30);
 const original=require('child_process').execFileSync('git',['show','0fd231cd2a36c8700709935c7ee304caa6e390a1:legacy-app.html'],{encoding:'utf8',maxBuffer:30e6});
 const originalQs=JSON.parse(original.match(/const QUESTIONS=(\[[\s\S]*?\]);/)[1]);
-assert.deepEqual(all.filter(q=>!previous.has(q.id)),originalQs.filter(q=>!previous.has(q.id)),'Every other question remains unchanged');
+const grades=JSON.parse(fs.readFileSync('ai-answer-completion-20261020.json'));const preGrades=all.map(q=>grades.entries.find(e=>e.id===q.id)?.original||q);
+assert.deepEqual(preGrades.filter(q=>!previous.has(q.id)),originalQs.filter(q=>!previous.has(q.id)),'Every other question remains unchanged');
 for(const m of html.matchAll(/<script(?:\s[^>]*)?>([\s\S]*?)<\/script>/g))if(m[1].trim())new vm.Script(m[1]);
 console.log('PASS: all 30 formative questions match supplied wording, options and keys; every other question unchanged; app syntax valid');

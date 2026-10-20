@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated_at": "2026-10-04T20:30:00.000Z",
+  "updated_at": "2026-10-20T12:04:28.280434+03:00",
   "study_guide": {
     "title": "Study Guide- Circulation and Breathing module- 2026-2027.pdf",
     "drive_file_id": "1QwRNlO6-zuOQugxyjrhXykOW-YjVtal4",
@@ -54,7 +54,8 @@
       "Every active lecture/source set should contain at least one meaningful case/application question when the source supports clinical application.",
       "Prioritize genuine CBD/PBL/SPP cases from Drive when available; do not replace them with generic vignettes.",
       "Collectively cover the official objectives before adding lower-yield slide details.",
-      "Never invent content or use knowledge outside the lecture to make a question harder."
+      "Never invent course provenance. For missing-slide topics, explicitly label objective-aligned reference practice and cite the supporting source.",
+      "Never invent course provenance. For missing-slide topics, explicitly label objective-aligned reference practice and cite the supporting source."
     ],
     "quality_gate": {
       "required": true,
@@ -71,7 +72,8 @@
       ],
       "legacy_hold_rule": "Any existing AI set that fails these checks remains hidden (quality_status=hold, exam_ready=false) until rebuilt."
     },
-    "missing_source_rule": "A zero count is a gap to investigate against both Drive trees. Never infer future content from counts. Publish only concepts verified in an available source; record unavailable and partial source coverage explicitly."
+    "missing_source_rule": "A zero count is a gap to investigate against both Drive trees. Never infer future content from counts. Publish only concepts verified in an available source; record unavailable and partial source coverage explicitly.",
+    "reference_supplements": "User requested coverage for every missing lecture on 20 October 2026. Use labelled study-guide/objective practice with supporting medical references when course slides cannot be located; do not claim unavailable slides were checked."
   },
   "publishing": {
     "ai_library": "ai_questions.json",

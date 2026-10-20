@@ -1,12 +1,12 @@
 {
-  "audited_at": "2026-10-16T03:51:17.851585+00:00",
+  "audited_at": "2026-10-20T12:04:28.280434+03:00",
   "guide_url": "https://drive.google.com/file/d/1kIGOvteslYLGp7cnREnQu4y0Ct1psqMK/view?usp=drivesdk",
   "guide_lecture_deliveries": 88,
   "guide_topic_entries": 106,
   "drive_folders_scanned": 94,
   "drive_files_catalogued": 211,
-  "active_ai_questions": 1309,
-  "active_cases": 293,
+  "active_ai_questions": 1564,
+  "active_cases": 396,
   "new_source_ids": [
     "14ffy0MYrv6xBy7KuXBNbMvVmwmEejufR",
     "19RLtCE2SpkaJyPgws-3_0WVQZq2fjful",
@@ -48,7 +48,7 @@
       "subject": "Anatomy & Histology",
       "title": "Histology of the Myocardium",
       "ai_questions": 9,
-      "past_questions": 23,
+      "past_questions": 24,
       "source_file_ids": [
         "1eCdQ7cvdD-urX0SujWXSM0mH3knA7WGM"
       ],
@@ -60,7 +60,7 @@
       "subject": "Anatomy & Histology",
       "title": "External Features of the Heart and its Great Vessels",
       "ai_questions": 9,
-      "past_questions": 17,
+      "past_questions": 18,
       "source_file_ids": [
         "1wsoTpxTw6_QhMHqxYdLuxwHOvwXokQV5"
       ],
@@ -72,7 +72,7 @@
       "subject": "Anatomy & Histology",
       "title": "Internal Features of the Heart",
       "ai_questions": 9,
-      "past_questions": 27,
+      "past_questions": 29,
       "source_file_ids": [
         "1NCRD8jp124VR1jxrnCxtoTaJRJMtkx4w"
       ],
@@ -84,7 +84,7 @@
       "subject": "Anatomy & Histology",
       "title": "Normal Development of Heart & it’s Great Vessels",
       "ai_questions": 20,
-      "past_questions": 13,
+      "past_questions": 18,
       "source_file_ids": [
         "1eMomfPTXyjMgtqvpaiCPZGp1jEr7vXx9"
       ],
@@ -96,7 +96,7 @@
       "subject": "Anatomy & Histology",
       "title": "Congenital anomalies of the heart & it’s great Vessels",
       "ai_questions": 20,
-      "past_questions": 14,
+      "past_questions": 15,
       "source_file_ids": [
         "1kzyEG0I68hx0vfkMf44Uhj1XUZHhftXK"
       ],
@@ -120,7 +120,7 @@
       "subject": "Anatomy & Histology",
       "title": "Anatomy of the nose and paranasal sinuses",
       "ai_questions": 15,
-      "past_questions": 31,
+      "past_questions": 28,
       "source_file_ids": [
         "1IHaztgsdJiEeeyRqEtCjeQUIPcCXDXIZ"
       ],
@@ -143,11 +143,17 @@
       "lecture_id": "anatomy-histology__anatomy-of-the-pleura-and-lungs",
       "subject": "Anatomy & Histology",
       "title": "Anatomy of the pleura and lungs",
-      "ai_questions": 0,
-      "past_questions": 36,
-      "source_file_ids": [],
-      "status": "source_not_found",
-      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+      "ai_questions": 15,
+      "past_questions": 35,
+      "source_file_ids": [
+        "1GbS1i9k0u71-WmSR2ZZ22Bpy3XAfEiB0__coverage20261020_pleura"
+      ],
+      "status": "course_and_reference_questions",
+      "note": "15 objective-aligned questions, including clinical applications. Based on the linked course material; additional references are identified where used.",
+      "source_drive_file_ids": [
+        "1GbS1i9k0u71-WmSR2ZZ22Bpy3XAfEiB0"
+      ],
+      "source_kind": "course_plus_reference"
     },
     {
       "lecture_id": "anatomy-histology__anatomical-relations-of-the-lungs",
@@ -201,11 +207,15 @@
       "lecture_id": "anatomy-histology__haematopoiesis",
       "subject": "Anatomy & Histology",
       "title": "Haematopoiesis",
-      "ai_questions": 0,
+      "ai_questions": 15,
       "past_questions": 3,
-      "source_file_ids": [],
-      "status": "source_not_found",
-      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+      "source_file_ids": [
+        "study-guide-reference__haematopoiesis"
+      ],
+      "status": "objective_reference_questions",
+      "note": "15 objective-aligned questions, including clinical applications. Course slides were not located; these questions use the linked medical references and do not claim slide-specific coverage.",
+      "source_drive_file_ids": [],
+      "source_kind": "study_guide_reference"
     },
     {
       "lecture_id": "anatomy-histology__histology-of-the-mucosal-immune-system",
@@ -297,7 +307,7 @@
       "subject": "Physiology",
       "title": "Physiological organization of CVS",
       "ai_questions": 9,
-      "past_questions": 14,
+      "past_questions": 18,
       "source_file_ids": [
         "1U1EZzsDG7FDmtInODKHC4o43Ywk2OJeg"
       ],
@@ -309,7 +319,7 @@
       "subject": "Physiology",
       "title": "Cardiac automaticity, excitability, cardiac conductivity",
       "ai_questions": 18,
-      "past_questions": 36,
+      "past_questions": 37,
       "source_file_ids": [
         "1AiL9egeQP7HNIyUVLNYBT-4xbhxXMxv2"
       ],
@@ -346,7 +356,7 @@
       "subject": "Physiology",
       "title": "Cardiac cycle",
       "ai_questions": 25,
-      "past_questions": 23,
+      "past_questions": 57,
       "source_file_ids": [
         "19Nw2sCjFRwsAJOW1SUgfUKllPE6et4m5"
       ],
@@ -358,7 +368,7 @@
       "subject": "Physiology",
       "title": "Regulation of ABP (CV centers & short-term regulation)",
       "ai_questions": 19,
-      "past_questions": 33,
+      "past_questions": 36,
       "source_file_ids": [
         "1hUhRX6NQW4vC0QZctlopDFzZB_vh7U3h"
       ],
@@ -370,7 +380,7 @@
       "subject": "Physiology",
       "title": "Regulation of ABP (Intermediate and long-term Regulation)",
       "ai_questions": 9,
-      "past_questions": 18,
+      "past_questions": 20,
       "source_file_ids": [
         "1xPY3hUZmeJGCYsDWrEBt-ua75n9j4OZX"
       ],
@@ -394,7 +404,7 @@
       "subject": "Physiology",
       "title": "Abnormal ECG and cardiac arrhythmias",
       "ai_questions": 21,
-      "past_questions": 15,
+      "past_questions": 24,
       "source_file_ids": [
         "1i6a0dvP5Hwncst-9gdl1Vot89OYithH2"
       ],
@@ -405,28 +415,36 @@
       "lecture_id": "physiology__physiology-approch-to-circulatory-shock",
       "subject": "Physiology",
       "title": "Physiology approch to circulatory shock",
-      "ai_questions": 0,
-      "past_questions": 9,
-      "source_file_ids": [],
-      "status": "source_not_found",
-      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+      "ai_questions": 15,
+      "past_questions": 10,
+      "source_file_ids": [
+        "study-guide-reference__shock"
+      ],
+      "status": "objective_reference_questions",
+      "note": "15 objective-aligned questions, including clinical applications. Course slides were not located; these questions use the linked medical references and do not claim slide-specific coverage.",
+      "source_drive_file_ids": [],
+      "source_kind": "study_guide_reference"
     },
     {
       "lecture_id": "physiology__physiology-of-microcirculation-and-cardiac-edema",
       "subject": "Physiology",
       "title": "Physiology of microcirculation and cardiac edema",
-      "ai_questions": 0,
-      "past_questions": 12,
-      "source_file_ids": [],
-      "status": "source_not_found",
-      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+      "ai_questions": 15,
+      "past_questions": 13,
+      "source_file_ids": [
+        "study-guide-reference__microcirculation"
+      ],
+      "status": "objective_reference_questions",
+      "note": "15 objective-aligned questions, including clinical applications. Course slides were not located; these questions use the linked medical references and do not claim slide-specific coverage.",
+      "source_drive_file_ids": [],
+      "source_kind": "study_guide_reference"
     },
     {
       "lecture_id": "physiology__physiology-of-coronary-circulation",
       "subject": "Physiology",
       "title": "Physiology of coronary circulation",
       "ai_questions": 16,
-      "past_questions": 17,
+      "past_questions": 16,
       "source_file_ids": [
         "13Is5Xv7NQYDr18MnRPn864UvxLQ1bRd0"
       ],
@@ -438,7 +456,7 @@
       "subject": "Physiology",
       "title": "Physiology of vascular endothelium",
       "ai_questions": 31,
-      "past_questions": 6,
+      "past_questions": 8,
       "source_file_ids": [
         "1CUGCFFqKfWoTKbWYep9nOZ-coecHOZlf"
       ],
@@ -450,7 +468,7 @@
       "subject": "Physiology",
       "title": "Mechanics of breathing",
       "ai_questions": 12,
-      "past_questions": 39,
+      "past_questions": 37,
       "source_file_ids": [
         "1aZHufKAFdasy96wvvunzBSWX58cOJcYv"
       ],
@@ -497,41 +515,65 @@
       "lecture_id": "physiology__transport-of-carbon-dioxide-in-blood",
       "subject": "Physiology",
       "title": "Transport of carbon dioxide in blood",
-      "ai_questions": 0,
+      "ai_questions": 15,
       "past_questions": 12,
-      "source_file_ids": [],
-      "status": "source_not_found",
-      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+      "source_file_ids": [
+        "1zyqvDzyKz0wNyD5tznQpfiVQbUUbhf6g__coverage20261020_co2-transport"
+      ],
+      "status": "source_backed_questions",
+      "note": "15 objective-aligned questions, including clinical applications. Based on the linked course material; additional references are identified where used.",
+      "source_drive_file_ids": [
+        "1zyqvDzyKz0wNyD5tznQpfiVQbUUbhf6g"
+      ],
+      "source_kind": "course_material"
     },
     {
       "lecture_id": "physiology__neural-control-of-breathing",
       "subject": "Physiology",
       "title": "Neural control of breathing",
-      "ai_questions": 0,
+      "ai_questions": 15,
       "past_questions": 18,
-      "source_file_ids": [],
-      "status": "source_not_found",
-      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+      "source_file_ids": [
+        "1Fr1LzVh6Wj2mab5v1ltJqFSZlFou78vX__coverage20261020_neural-breathing"
+      ],
+      "status": "source_backed_questions",
+      "note": "15 objective-aligned questions, including clinical applications. Based on the linked course material; additional references are identified where used.",
+      "source_drive_file_ids": [
+        "1Fr1LzVh6Wj2mab5v1ltJqFSZlFou78vX"
+      ],
+      "source_kind": "course_material"
     },
     {
       "lecture_id": "physiology__chemical-control-of-breathing",
       "subject": "Physiology",
       "title": "Chemical control of breathing",
-      "ai_questions": 0,
+      "ai_questions": 15,
       "past_questions": 13,
-      "source_file_ids": [],
-      "status": "source_not_found",
-      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+      "source_file_ids": [
+        "1Fr1LzVh6Wj2mab5v1ltJqFSZlFou78vX__coverage20261020_chemical-breathing"
+      ],
+      "status": "source_backed_questions",
+      "note": "15 objective-aligned questions, including clinical applications. Based on the linked course material; additional references are identified where used.",
+      "source_drive_file_ids": [
+        "1Fr1LzVh6Wj2mab5v1ltJqFSZlFou78vX"
+      ],
+      "source_kind": "course_material"
     },
     {
       "lecture_id": "physiology__hypoxia-and-cyanosis",
       "subject": "Physiology",
       "title": "Hypoxia and cyanosis",
-      "ai_questions": 0,
+      "ai_questions": 15,
       "past_questions": 14,
-      "source_file_ids": [],
-      "status": "source_not_found",
-      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+      "source_file_ids": [
+        "1zyqvDzyKz0wNyD5tznQpfiVQbUUbhf6g__coverage20261020_hypoxia-cyanosis"
+      ],
+      "status": "course_and_reference_questions",
+      "note": "15 objective-aligned questions, including clinical applications. Based on the linked course material; additional references are identified where used.",
+      "source_drive_file_ids": [
+        "1zyqvDzyKz0wNyD5tznQpfiVQbUUbhf6g"
+      ],
+      "source_kind": "course_plus_reference"
     },
     {
       "lecture_id": "biochemistry__plasma-proteins",
@@ -621,28 +663,40 @@
       "lecture_id": "biochemistry__metabolic-functions-of-the-lung-and-pulmonary-surfactant",
       "subject": "Biochemistry",
       "title": "Metabolic functions of the lung and Pulmonary Surfactant",
-      "ai_questions": 0,
+      "ai_questions": 15,
       "past_questions": 21,
-      "source_file_ids": [],
-      "status": "source_not_found",
-      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+      "source_file_ids": [
+        "1KUis4gdjiSuO6zeoMl5c2ujKwkrOx1Xb__coverage20261020_surfactant-biochemistry"
+      ],
+      "status": "source_backed_questions",
+      "note": "15 objective-aligned questions, including clinical applications. Based on the linked course material; additional references are identified where used.",
+      "source_drive_file_ids": [
+        "1KUis4gdjiSuO6zeoMl5c2ujKwkrOx1Xb"
+      ],
+      "source_kind": "course_material"
     },
     {
       "lecture_id": "biochemistry__acid-base-homeostasis-and-the-role-of-the-respiratory-system",
       "subject": "Biochemistry",
       "title": "Acid-base homeostasis and the role of the respiratory system",
-      "ai_questions": 0,
+      "ai_questions": 15,
       "past_questions": 29,
-      "source_file_ids": [],
-      "status": "source_not_found",
-      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+      "source_file_ids": [
+        "1nW6VVDDOq79AJTBbgR6jOvY7UcaULqit__coverage20261020_acid-base"
+      ],
+      "status": "source_backed_questions",
+      "note": "15 objective-aligned questions, including clinical applications. Based on the linked course material; additional references are identified where used.",
+      "source_drive_file_ids": [
+        "1nW6VVDDOq79AJTBbgR6jOvY7UcaULqit"
+      ],
+      "source_kind": "course_material"
     },
     {
       "lecture_id": "pathology__atherosclerosis-aneurysm",
       "subject": "Pathology",
       "title": "Atherosclerosis & Aneurysm",
       "ai_questions": 20,
-      "past_questions": 17,
+      "past_questions": 20,
       "source_file_ids": [
         "1HuadbEkb2Ea66jmKsCkYVF0LForHkTlR"
       ],
@@ -654,7 +708,7 @@
       "subject": "Pathology",
       "title": "Pathology of Hypertension",
       "ai_questions": 16,
-      "past_questions": 3,
+      "past_questions": 15,
       "source_file_ids": [
         "1oHjiD6p9Sg4V_RemBam8r-4PJQVdPcUP"
       ],
@@ -666,7 +720,7 @@
       "subject": "Pathology",
       "title": "Vasculitis",
       "ai_questions": 14,
-      "past_questions": 8,
+      "past_questions": 7,
       "source_file_ids": [
         "1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6"
       ],
@@ -678,7 +732,7 @@
       "subject": "Pathology",
       "title": "Ischemic Heart Disease – 1",
       "ai_questions": 9,
-      "past_questions": 22,
+      "past_questions": 23,
       "source_file_ids": [
         "12RXyb80ciEfihQ-258N_uk1EwrjTTI83"
       ],
@@ -690,7 +744,7 @@
       "subject": "Pathology",
       "title": "Ischemic Heart Disease – 2",
       "ai_questions": 9,
-      "past_questions": 5,
+      "past_questions": 6,
       "source_file_ids": [
         "1BGE-IVLFHVGQEsxGu1bLfqSrsSY63V31"
       ],
@@ -702,7 +756,7 @@
       "subject": "Pathology",
       "title": "Valvular Heart Diseases",
       "ai_questions": 16,
-      "past_questions": 11,
+      "past_questions": 17,
       "source_file_ids": [
         "1ljhCg9ogPp1uuoNRWjaFQZhw0kmQLqsc"
       ],
@@ -714,7 +768,7 @@
       "subject": "Pathology",
       "title": "Infective Endocarditis",
       "ai_questions": 18,
-      "past_questions": 10,
+      "past_questions": 14,
       "source_file_ids": [
         "libfile_6e646046c4ac81918406ddf5ca74067d"
       ],
@@ -725,11 +779,15 @@
       "lecture_id": "pathology__pathology-of-heart-failure",
       "subject": "Pathology",
       "title": "Pathology of Heart Failure",
-      "ai_questions": 0,
-      "past_questions": 15,
-      "source_file_ids": [],
-      "status": "source_not_found",
-      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+      "ai_questions": 15,
+      "past_questions": 16,
+      "source_file_ids": [
+        "study-guide-reference__heart-failure-pathology"
+      ],
+      "status": "objective_reference_questions",
+      "note": "15 objective-aligned questions, including clinical applications. Course slides were not located; these questions use the linked medical references and do not claim slide-specific coverage.",
+      "source_drive_file_ids": [],
+      "source_kind": "study_guide_reference"
     },
     {
       "lecture_id": "pathology__myocarditis-and-pericardial-diseases",
@@ -747,18 +805,22 @@
       "lecture_id": "pathology__cardiomyopathies",
       "subject": "Pathology",
       "title": "Cardiomyopathies",
-      "ai_questions": 0,
+      "ai_questions": 15,
       "past_questions": 0,
-      "source_file_ids": [],
-      "status": "source_not_found",
-      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+      "source_file_ids": [
+        "study-guide-reference__cardiomyopathies"
+      ],
+      "status": "objective_reference_questions",
+      "note": "15 objective-aligned questions, including clinical applications. Course slides were not located; these questions use the linked medical references and do not claim slide-specific coverage.",
+      "source_drive_file_ids": [],
+      "source_kind": "study_guide_reference"
     },
     {
       "lecture_id": "pathology__cardiac-and-vascular-tumours",
       "subject": "Pathology",
       "title": "Cardiac and vascular tumours",
       "ai_questions": 10,
-      "past_questions": 2,
+      "past_questions": 10,
       "source_file_ids": [
         "1aRRpg4P8q5P6HY0nsyVWqAc9fCAP2dl6"
       ],
@@ -782,7 +844,7 @@
       "subject": "Pathology",
       "title": "Atelactasis & acute lung injury",
       "ai_questions": 15,
-      "past_questions": 23,
+      "past_questions": 22,
       "source_file_ids": [
         "1fk9vVjYqldmZYAjlwWB5NrfTqdzhO0nb"
       ],
@@ -793,18 +855,24 @@
       "lecture_id": "pathology__pathology-of-bronchial-asthma",
       "subject": "Pathology",
       "title": "Pathology of bronchial Asthma",
-      "ai_questions": 0,
+      "ai_questions": 15,
       "past_questions": 15,
-      "source_file_ids": [],
-      "status": "source_not_found",
-      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+      "source_file_ids": [
+        "1GSwvZ_of6kWjCrJSUGs_1L9J_zrfm-Ub__coverage20261020_asthma-pathology"
+      ],
+      "status": "source_backed_questions",
+      "note": "15 objective-aligned questions, including clinical applications. Based on the linked course material; additional references are identified where used.",
+      "source_drive_file_ids": [
+        "1GSwvZ_of6kWjCrJSUGs_1L9J_zrfm-Ub"
+      ],
+      "source_kind": "course_study_material"
     },
     {
       "lecture_id": "pathology__obstructive-airway-diseases",
       "subject": "Pathology",
       "title": "Obstructive airway diseases",
       "ai_questions": 16,
-      "past_questions": 32,
+      "past_questions": 31,
       "source_file_ids": [
         "1K8y3B4Uayu64dRGAXdVO8cA-Kghv0mkJ"
       ],
@@ -828,7 +896,7 @@
       "subject": "Pathology",
       "title": "Pulmonary vessel diseases",
       "ai_questions": 15,
-      "past_questions": 7,
+      "past_questions": 8,
       "source_file_ids": [
         "1gnmzZAqrBCQwzLoSehPuwK1PBTDre41V"
       ],
@@ -840,7 +908,7 @@
       "subject": "Pathology",
       "title": "Pulmonary infection",
       "ai_questions": 15,
-      "past_questions": 14,
+      "past_questions": 15,
       "source_file_ids": [
         "1B2Q4rBuD8P8U1hs_FEEl0XjGrYzojmbG"
       ],
@@ -912,7 +980,7 @@
       "subject": "Pharmacology",
       "title": "Drug therapy of respiratory infections",
       "ai_questions": 15,
-      "past_questions": 20,
+      "past_questions": 21,
       "source_file_ids": [
         "19RLtCE2SpkaJyPgws-3_0WVQZq2fjful"
       ],
@@ -936,7 +1004,7 @@
       "subject": "Pharmacology",
       "title": "Drug therapy of cough and COPD 1",
       "ai_questions": 15,
-      "past_questions": 10,
+      "past_questions": 12,
       "source_file_ids": [
         "1h3OMuRqdkly1CelYccrfK9YYu6A2hngW"
       ],
@@ -960,7 +1028,7 @@
       "subject": "Pharmacology",
       "title": "Antihypertensive drugs -1",
       "ai_questions": 9,
-      "past_questions": 1,
+      "past_questions": 12,
       "source_file_ids": [
         "11ZztQA_d1F4x9wB69Olsoc-d823jwFqm"
       ],
@@ -972,7 +1040,7 @@
       "subject": "Pharmacology",
       "title": "Antihypertensive drugs -2",
       "ai_questions": 15,
-      "past_questions": 0,
+      "past_questions": 7,
       "source_file_ids": [
         "11ZztQA_d1F4x9wB69Olsoc-d823jwFqm"
       ],
@@ -995,11 +1063,15 @@
       "lecture_id": "pharmacology__drugs-used-in-heart-failure",
       "subject": "Pharmacology",
       "title": "Drugs used in Heart failure",
-      "ai_questions": 0,
-      "past_questions": 7,
-      "source_file_ids": [],
-      "status": "source_not_found",
-      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+      "ai_questions": 15,
+      "past_questions": 8,
+      "source_file_ids": [
+        "study-guide-reference__heart-failure-drugs"
+      ],
+      "status": "objective_reference_questions",
+      "note": "15 objective-aligned questions, including clinical applications. Course slides were not located; these questions use the linked medical references and do not claim slide-specific coverage.",
+      "source_drive_file_ids": [],
+      "source_kind": "study_guide_reference"
     },
     {
       "lecture_id": "pharmacology__antiarrhythmic-drugs",
@@ -1125,11 +1197,15 @@
       "lecture_id": "microbiology__visceral-leishmaniasis",
       "subject": "Microbiology",
       "title": "Visceral leishmaniasis",
-      "ai_questions": 0,
+      "ai_questions": 15,
       "past_questions": 0,
-      "source_file_ids": [],
-      "status": "source_not_found",
-      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+      "source_file_ids": [
+        "study-guide-reference__visceral-leishmaniasis"
+      ],
+      "status": "objective_reference_questions",
+      "note": "15 objective-aligned questions, including clinical applications. Course slides were not located; these questions use the linked medical references and do not claim slide-specific coverage.",
+      "source_drive_file_ids": [],
+      "source_kind": "study_guide_reference"
     },
     {
       "lecture_id": "microbiology__lymphatic-filariasis",
@@ -1160,7 +1236,7 @@
       "subject": "Microbiology",
       "title": "Cystic parasitic diseases of the lung",
       "ai_questions": 15,
-      "past_questions": 22,
+      "past_questions": 24,
       "source_file_ids": [
         "1uOZsrmlbwkatcdPlJpIpxqnyvLyWbm3J"
       ],
@@ -1171,11 +1247,15 @@
       "lecture_id": "microbiology__upper-respiratory-tract-infections",
       "subject": "Microbiology",
       "title": "Upper respiratory tract infections",
-      "ai_questions": 0,
-      "past_questions": 18,
-      "source_file_ids": [],
-      "status": "source_not_found",
-      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+      "ai_questions": 15,
+      "past_questions": 19,
+      "source_file_ids": [
+        "study-guide-reference__urti-microbiology"
+      ],
+      "status": "objective_reference_questions",
+      "note": "15 objective-aligned questions, including clinical applications. Course slides were not located; these questions use the linked medical references and do not claim slide-specific coverage.",
+      "source_drive_file_ids": [],
+      "source_kind": "study_guide_reference"
     },
     {
       "lecture_id": "microbiology__lower-respiratory-tract-infections",
@@ -1193,11 +1273,17 @@
       "lecture_id": "microbiology__lung-immunology-innate-acquired-immune-responses-in-respiratory-infections",
       "subject": "Microbiology",
       "title": "Lung immunology:Innate & acquired immune responses in respiratory infections",
-      "ai_questions": 0,
+      "ai_questions": 15,
       "past_questions": 2,
-      "source_file_ids": [],
-      "status": "source_not_found",
-      "note": "No source establishing complete lecture coverage was found in the retrieved Drive trees. This is an unresolved source gap, not a future-content designation."
+      "source_file_ids": [
+        "1ZPOgOTqNPwhysLzsRYcZwIWLiAgz8LIL__coverage20261020_lung-immunity"
+      ],
+      "status": "source_backed_questions",
+      "note": "15 objective-aligned questions, including clinical applications. Based on the linked course material; additional references are identified where used.",
+      "source_drive_file_ids": [
+        "1ZPOgOTqNPwhysLzsRYcZwIWLiAgz8LIL"
+      ],
+      "source_kind": "course_material"
     },
     {
       "lecture_id": "microbiology__immune-dysregulation-in-sepsis",
@@ -1274,5 +1360,8 @@
   ],
   "refresh_method": "Incremental Drive modified-file check since the October 4 full inventory, plus respiratory and pathology folder verification. Updated source versions reuse existing question and card IDs.",
   "refresh_folders_scanned": 31,
-  "refresh_inventory": "drive-inventory-2026-10-16.json"
+  "refresh_inventory": "drive-inventory-2026-10-16.json",
+  "coverage_expansion": "ai-coverage-expansion-20261020.json",
+  "topics_with_ai_questions": 106,
+  "topics_without_ai_questions": []
 }

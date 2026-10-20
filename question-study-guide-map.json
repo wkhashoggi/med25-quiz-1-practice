@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-16T04:00:00Z",
+  "generated_at": "2026-10-20T12:04:28.280434+03:00",
   "study_guide_file_id": "1QwRNlO6-zuOQugxyjrhXykOW-YjVtal4",
   "past": {
     "ibls-previous-years-p4-q3-1": {
@@ -3012,12 +3012,11 @@
       "quiz": 1
     },
     "cvs-previous-years-p19-q19-62": {
-      "lecture_id": "pathology__vasculitis",
+      "lecture_id": "pathology__cardiac-and-vascular-tumours",
       "subject": "Pathology",
-      "title": "Vasculitis",
-      "confidence": 0.99,
-      "method": "objectives",
-      "quiz": 2
+      "title": "Cardiac and vascular tumours",
+      "confidence": 1,
+      "method": "ai-completion-objective-review-20261020"
     },
     "cvs-previous-years-p20-q22-63": {
       "lecture_id": "pathology__atherosclerosis-aneurysm",
@@ -4287,12 +4286,11 @@
       "quiz": 1
     },
     "cvs-previous-years-p78-q11-290": {
-      "lecture_id": "physiology__cardiac-automaticity-excitability-cardiac-conductivity",
+      "lecture_id": "physiology__cardiac-cycle",
       "subject": "Physiology",
-      "title": "Cardiac automaticity, excitability, cardiac conductivity",
+      "title": "Cardiac cycle",
       "confidence": 1,
-      "method": "manual-source-audit-2026-10-04",
-      "quiz": 1
+      "method": "ai-completion-objective-review-20261020"
     },
     "cvs-previous-years-p78-q12-291": {
       "lecture_id": "physiology__cardiac-contractility",
@@ -4498,12 +4496,11 @@
       "quiz": 1
     },
     "cvs-previous-years-p90-q71-332": {
-      "lecture_id": "pathology__vasculitis",
+      "lecture_id": "pathology__cardiac-and-vascular-tumours",
       "subject": "Pathology",
-      "title": "Vasculitis",
-      "confidence": 0.99,
-      "method": "objectives",
-      "quiz": 2
+      "title": "Cardiac and vascular tumours",
+      "confidence": 1,
+      "method": "ai-completion-objective-review-20261020"
     },
     "cvs-previous-years-p90-q74-335": {
       "lecture_id": "pathology__vasculitis",
@@ -8204,12 +8201,11 @@
       "quiz": 2
     },
     "cvs-final-recall-p3-q10-10": {
-      "lecture_id": "physiology__normal-ecg",
+      "lecture_id": "physiology__cardiac-automaticity-excitability-cardiac-conductivity",
       "subject": "Physiology",
-      "title": "Normal ECG",
-      "confidence": 0.95,
-      "method": "source-heading-and-stem-reviewed",
-      "quiz": 2
+      "title": "Cardiac automaticity, excitability, cardiac conductivity",
+      "confidence": 1,
+      "method": "ai-completion-objective-review-20261020"
     },
     "cvs-final-recall-p3-q11-11": {
       "lecture_id": "pathology__ischemic-heart-disease-1",
@@ -9084,12 +9080,11 @@
       "quiz": 2
     },
     "rs-med24-mid-p35-q16-72": {
-      "lecture_id": "pathology__atelactasis-acute-lung-injury",
+      "lecture_id": "pathology__pulmonary-infection",
       "subject": "Pathology",
-      "title": "Atelactasis & acute lung injury",
-      "confidence": 0.95,
-      "method": "source-heading-and-stem-reviewed",
-      "quiz": 2
+      "title": "Pulmonary infection",
+      "confidence": 1,
+      "method": "ai-completion-objective-review-20261020"
     },
     "rs-med24-mid-p35-q17-73": {
       "lecture_id": "pathology__obstructive-airway-diseases",
@@ -10932,12 +10927,11 @@
       "quiz": 2
     },
     "rs-med24-final-p23-q12-37": {
-      "lecture_id": "pathology__obstructive-airway-diseases",
-      "subject": "Pathology",
-      "title": "Obstructive airway diseases",
-      "confidence": 0.95,
-      "method": "source-heading-and-stem-reviewed",
-      "quiz": 2
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "subject": "Physiology",
+      "title": "Mechanics of breathing",
+      "confidence": 1,
+      "method": "ai-completion-objective-review-20261020"
     },
     "rs-med24-final-p23-q13-38": {
       "lecture_id": "pathology__obstructive-airway-diseases",
@@ -11460,12 +11454,11 @@
       "quiz": 2
     },
     "rs-med24-final-p65-q2-107": {
-      "lecture_id": "pharmacology__drug-therapy-of-respiratory-infections",
-      "subject": "Pharmacology",
-      "title": "Drug therapy of respiratory infections",
-      "confidence": 0.95,
-      "method": "source-heading-and-stem-reviewed",
-      "quiz": 2
+      "lecture_id": "microbiology__upper-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Upper respiratory tract infections",
+      "confidence": 1,
+      "method": "ai-completion-objective-review-20261020"
     },
     "rs-med24-final-p66-q3-108": {
       "lecture_id": "pharmacology__drug-therapy-of-respiratory-infections",
@@ -12813,11 +12806,11 @@
       "method": "stem_topic"
     },
     "rs-module3-p23-q70": {
-      "lecture_id": "anatomy-histology__anatomy-of-the-nose-and-paranasal-sinuses",
-      "subject": "Anatomy & Histology",
-      "title": "Anatomy of the nose and paranasal sinuses",
-      "quiz": 2,
-      "method": "stem_topic"
+      "lecture_id": "pathology__pulmonary-vessel-diseases",
+      "subject": "Pathology",
+      "title": "Pulmonary vessel diseases",
+      "confidence": 1,
+      "method": "ai-completion-objective-review-20261020"
     },
     "rs-module3-p23-q71": {
       "lecture_id": "physiology__chemical-control-of-breathing",
@@ -13674,11 +13667,11 @@
       "method": "existing_question_match"
     },
     "rs-module3-p71-q35": {
-      "lecture_id": "microbiology__lower-respiratory-tract-infections",
-      "subject": "Microbiology",
-      "title": "Lower respiratory tract infections",
-      "quiz": 2,
-      "method": "stem_topic"
+      "lecture_id": "pharmacology__drug-therapy-of-respiratory-infections",
+      "subject": "Pharmacology",
+      "title": "Drug therapy of respiratory infections",
+      "confidence": 1,
+      "method": "ai-completion-objective-review-20261020"
     },
     "rs-module3-p71-q36": {
       "lecture_id": "physiology__neural-control-of-breathing",
@@ -14640,18 +14633,18 @@
       "method": "source_review"
     },
     "rs-module3-p133-q110": {
-      "lecture_id": "physiology__mechanics-of-breathing",
-      "subject": "Physiology",
-      "title": "Mechanics of breathing",
-      "quiz": 2,
-      "method": "stem_topic"
+      "lecture_id": "pharmacology__drug-therapy-of-cough-and-copd-1",
+      "subject": "Pharmacology",
+      "title": "Drug therapy of cough and COPD 1",
+      "confidence": 1,
+      "method": "ai-completion-objective-review-20261020"
     },
     "rs-module3-p133-q111": {
-      "lecture_id": "physiology__mechanics-of-breathing",
-      "subject": "Physiology",
-      "title": "Mechanics of breathing",
-      "quiz": 2,
-      "method": "stem_topic"
+      "lecture_id": "pharmacology__drug-therapy-of-cough-and-copd-1",
+      "subject": "Pharmacology",
+      "title": "Drug therapy of cough and COPD 1",
+      "confidence": 1,
+      "method": "ai-completion-objective-review-20261020"
     },
     "rs-module3-p134-q112": {
       "lecture_id": "physiology__hypoxia-and-cyanosis",
@@ -14962,18 +14955,18 @@
       "method": "existing_question_match"
     },
     "rs-module3-p179-q12": {
-      "lecture_id": "anatomy-histology__anatomy-of-the-nose-and-paranasal-sinuses",
-      "subject": "Anatomy & Histology",
-      "title": "Anatomy of the nose and paranasal sinuses",
-      "quiz": 2,
-      "method": "stem_topic"
+      "lecture_id": "microbiology__lower-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Lower respiratory tract infections",
+      "confidence": 1,
+      "method": "ai-completion-objective-review-20261020"
     },
     "rs-module3-p180-q3": {
-      "lecture_id": "anatomy-histology__anatomy-of-the-pleura-and-lungs",
-      "subject": "Anatomy & Histology",
-      "title": "Anatomy of the pleura and lungs",
-      "quiz": 2,
-      "method": "stem_topic"
+      "lecture_id": "microbiology__cystic-parasitic-diseases-of-the-lung",
+      "subject": "Microbiology",
+      "title": "Cystic parasitic diseases of the lung",
+      "confidence": 1,
+      "method": "ai-completion-objective-review-20261020"
     },
     "rs-module3-p180-q5": {
       "lecture_id": "microbiology__cystic-parasitic-diseases-of-the-lung",
@@ -14983,11 +14976,11 @@
       "method": "existing_question_match"
     },
     "rs-module3-p185-q5": {
-      "lecture_id": "anatomy-histology__anatomy-of-the-nose-and-paranasal-sinuses",
-      "subject": "Anatomy & Histology",
-      "title": "Anatomy of the nose and paranasal sinuses",
-      "quiz": 2,
-      "method": "stem_topic"
+      "lecture_id": "pharmacology__drug-therapy-of-respiratory-infections",
+      "subject": "Pharmacology",
+      "title": "Drug therapy of respiratory infections",
+      "confidence": 1,
+      "method": "ai-completion-objective-review-20261020"
     },
     "rs-module3-p186-q10": {
       "lecture_id": "microbiology__lower-respiratory-tract-infections",
@@ -15123,11 +15116,11 @@
       "method": "existing_question_match"
     },
     "rs-module3-p193-q19": {
-      "lecture_id": "physiology__mechanics-of-breathing",
-      "subject": "Physiology",
-      "title": "Mechanics of breathing",
-      "quiz": 2,
-      "method": "stem_topic"
+      "lecture_id": "microbiology__cystic-parasitic-diseases-of-the-lung",
+      "subject": "Microbiology",
+      "title": "Cystic parasitic diseases of the lung",
+      "confidence": 1,
+      "method": "ai-completion-objective-review-20261020"
     },
     "rs-module3-p193-q20": {
       "lecture_id": "anatomy-histology__histology-of-the-respiratory-system",
@@ -16558,12 +16551,11 @@
       "quiz": 1
     },
     "cvs-module2-p70-q66-4": {
-      "lecture_id": "physiology__abnormal-ecg-and-cardiac-arrhythmias",
-      "subject": "Physiology",
-      "title": "Abnormal ECG and cardiac arrhythmias",
+      "lecture_id": "pathology__ischemic-heart-disease-1",
+      "subject": "Pathology",
+      "title": "Ischemic Heart Disease – 1",
       "confidence": 1,
-      "method": "reviewed-source-content",
-      "quiz": 2
+      "method": "ai-completion-objective-review-20261020"
     },
     "cvs-module2-p70-q67-5": {
       "lecture_id": "pathology__valvular-heart-diseases",
@@ -16654,12 +16646,11 @@
       "quiz": 2
     },
     "cvs-module2-p77-q18-2": {
-      "lecture_id": "anatomy-histology__congenital-anomalies-of-the-heart-it-s-great-vessels",
+      "lecture_id": "anatomy-histology__normal-development-of-heart-it-s-great-vessels",
       "subject": "Anatomy & Histology",
-      "title": "Congenital anomalies of the heart & it’s great Vessels",
+      "title": "Normal Development of Heart & it’s Great Vessels",
       "confidence": 1,
-      "method": "reviewed-source-content",
-      "quiz": 2
+      "method": "ai-completion-objective-review-20261020"
     },
     "cvs-module2-p77-qfragment-3": {
       "lecture_id": "physiology__physiology-approch-to-circulatory-shock",
@@ -26627,6 +26618,2046 @@
       "confidence": 1,
       "method": "lecture-content-and-official-objectives",
       "quiz": 2
+    },
+    "ai_gap20261020_pleura_01": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-pleura-and-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the pleura and lungs",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_pleura_02": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-pleura-and-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the pleura and lungs",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_pleura_03": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-pleura-and-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the pleura and lungs",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_pleura_04": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-pleura-and-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the pleura and lungs",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_pleura_05": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-pleura-and-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the pleura and lungs",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_pleura_06": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-pleura-and-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the pleura and lungs",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_pleura_07": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-pleura-and-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the pleura and lungs",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_pleura_08": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-pleura-and-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the pleura and lungs",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_pleura_09": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-pleura-and-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the pleura and lungs",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_pleura_10": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-pleura-and-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the pleura and lungs",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_pleura_11": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-pleura-and-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the pleura and lungs",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_pleura_12": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-pleura-and-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the pleura and lungs",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_pleura_13": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-pleura-and-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the pleura and lungs",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_pleura_14": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-pleura-and-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the pleura and lungs",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_pleura_15": {
+      "lecture_id": "anatomy-histology__anatomy-of-the-pleura-and-lungs",
+      "subject": "Anatomy & Histology",
+      "title": "Anatomy of the pleura and lungs",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_haematopoiesis_01": {
+      "lecture_id": "anatomy-histology__haematopoiesis",
+      "subject": "Anatomy & Histology",
+      "title": "Haematopoiesis",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_haematopoiesis_02": {
+      "lecture_id": "anatomy-histology__haematopoiesis",
+      "subject": "Anatomy & Histology",
+      "title": "Haematopoiesis",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_haematopoiesis_03": {
+      "lecture_id": "anatomy-histology__haematopoiesis",
+      "subject": "Anatomy & Histology",
+      "title": "Haematopoiesis",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_haematopoiesis_04": {
+      "lecture_id": "anatomy-histology__haematopoiesis",
+      "subject": "Anatomy & Histology",
+      "title": "Haematopoiesis",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_haematopoiesis_05": {
+      "lecture_id": "anatomy-histology__haematopoiesis",
+      "subject": "Anatomy & Histology",
+      "title": "Haematopoiesis",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_haematopoiesis_06": {
+      "lecture_id": "anatomy-histology__haematopoiesis",
+      "subject": "Anatomy & Histology",
+      "title": "Haematopoiesis",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_haematopoiesis_07": {
+      "lecture_id": "anatomy-histology__haematopoiesis",
+      "subject": "Anatomy & Histology",
+      "title": "Haematopoiesis",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_haematopoiesis_08": {
+      "lecture_id": "anatomy-histology__haematopoiesis",
+      "subject": "Anatomy & Histology",
+      "title": "Haematopoiesis",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_haematopoiesis_09": {
+      "lecture_id": "anatomy-histology__haematopoiesis",
+      "subject": "Anatomy & Histology",
+      "title": "Haematopoiesis",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_haematopoiesis_10": {
+      "lecture_id": "anatomy-histology__haematopoiesis",
+      "subject": "Anatomy & Histology",
+      "title": "Haematopoiesis",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_haematopoiesis_11": {
+      "lecture_id": "anatomy-histology__haematopoiesis",
+      "subject": "Anatomy & Histology",
+      "title": "Haematopoiesis",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_haematopoiesis_12": {
+      "lecture_id": "anatomy-histology__haematopoiesis",
+      "subject": "Anatomy & Histology",
+      "title": "Haematopoiesis",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_haematopoiesis_13": {
+      "lecture_id": "anatomy-histology__haematopoiesis",
+      "subject": "Anatomy & Histology",
+      "title": "Haematopoiesis",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_haematopoiesis_14": {
+      "lecture_id": "anatomy-histology__haematopoiesis",
+      "subject": "Anatomy & Histology",
+      "title": "Haematopoiesis",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_haematopoiesis_15": {
+      "lecture_id": "anatomy-histology__haematopoiesis",
+      "subject": "Anatomy & Histology",
+      "title": "Haematopoiesis",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_shock_01": {
+      "lecture_id": "physiology__physiology-approch-to-circulatory-shock",
+      "subject": "Physiology",
+      "title": "Physiology approch to circulatory shock",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_shock_02": {
+      "lecture_id": "physiology__physiology-approch-to-circulatory-shock",
+      "subject": "Physiology",
+      "title": "Physiology approch to circulatory shock",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_shock_03": {
+      "lecture_id": "physiology__physiology-approch-to-circulatory-shock",
+      "subject": "Physiology",
+      "title": "Physiology approch to circulatory shock",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_shock_04": {
+      "lecture_id": "physiology__physiology-approch-to-circulatory-shock",
+      "subject": "Physiology",
+      "title": "Physiology approch to circulatory shock",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_shock_05": {
+      "lecture_id": "physiology__physiology-approch-to-circulatory-shock",
+      "subject": "Physiology",
+      "title": "Physiology approch to circulatory shock",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_shock_06": {
+      "lecture_id": "physiology__physiology-approch-to-circulatory-shock",
+      "subject": "Physiology",
+      "title": "Physiology approch to circulatory shock",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_shock_07": {
+      "lecture_id": "physiology__physiology-approch-to-circulatory-shock",
+      "subject": "Physiology",
+      "title": "Physiology approch to circulatory shock",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_shock_08": {
+      "lecture_id": "physiology__physiology-approch-to-circulatory-shock",
+      "subject": "Physiology",
+      "title": "Physiology approch to circulatory shock",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_shock_09": {
+      "lecture_id": "physiology__physiology-approch-to-circulatory-shock",
+      "subject": "Physiology",
+      "title": "Physiology approch to circulatory shock",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_shock_10": {
+      "lecture_id": "physiology__physiology-approch-to-circulatory-shock",
+      "subject": "Physiology",
+      "title": "Physiology approch to circulatory shock",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_shock_11": {
+      "lecture_id": "physiology__physiology-approch-to-circulatory-shock",
+      "subject": "Physiology",
+      "title": "Physiology approch to circulatory shock",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_shock_12": {
+      "lecture_id": "physiology__physiology-approch-to-circulatory-shock",
+      "subject": "Physiology",
+      "title": "Physiology approch to circulatory shock",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_shock_13": {
+      "lecture_id": "physiology__physiology-approch-to-circulatory-shock",
+      "subject": "Physiology",
+      "title": "Physiology approch to circulatory shock",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_shock_14": {
+      "lecture_id": "physiology__physiology-approch-to-circulatory-shock",
+      "subject": "Physiology",
+      "title": "Physiology approch to circulatory shock",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_shock_15": {
+      "lecture_id": "physiology__physiology-approch-to-circulatory-shock",
+      "subject": "Physiology",
+      "title": "Physiology approch to circulatory shock",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_microcirculation_01": {
+      "lecture_id": "physiology__physiology-of-microcirculation-and-cardiac-edema",
+      "subject": "Physiology",
+      "title": "Physiology of microcirculation and cardiac edema",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_microcirculation_02": {
+      "lecture_id": "physiology__physiology-of-microcirculation-and-cardiac-edema",
+      "subject": "Physiology",
+      "title": "Physiology of microcirculation and cardiac edema",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_microcirculation_03": {
+      "lecture_id": "physiology__physiology-of-microcirculation-and-cardiac-edema",
+      "subject": "Physiology",
+      "title": "Physiology of microcirculation and cardiac edema",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_microcirculation_04": {
+      "lecture_id": "physiology__physiology-of-microcirculation-and-cardiac-edema",
+      "subject": "Physiology",
+      "title": "Physiology of microcirculation and cardiac edema",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_microcirculation_05": {
+      "lecture_id": "physiology__physiology-of-microcirculation-and-cardiac-edema",
+      "subject": "Physiology",
+      "title": "Physiology of microcirculation and cardiac edema",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_microcirculation_06": {
+      "lecture_id": "physiology__physiology-of-microcirculation-and-cardiac-edema",
+      "subject": "Physiology",
+      "title": "Physiology of microcirculation and cardiac edema",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_microcirculation_07": {
+      "lecture_id": "physiology__physiology-of-microcirculation-and-cardiac-edema",
+      "subject": "Physiology",
+      "title": "Physiology of microcirculation and cardiac edema",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_microcirculation_08": {
+      "lecture_id": "physiology__physiology-of-microcirculation-and-cardiac-edema",
+      "subject": "Physiology",
+      "title": "Physiology of microcirculation and cardiac edema",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_microcirculation_09": {
+      "lecture_id": "physiology__physiology-of-microcirculation-and-cardiac-edema",
+      "subject": "Physiology",
+      "title": "Physiology of microcirculation and cardiac edema",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_microcirculation_10": {
+      "lecture_id": "physiology__physiology-of-microcirculation-and-cardiac-edema",
+      "subject": "Physiology",
+      "title": "Physiology of microcirculation and cardiac edema",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_microcirculation_11": {
+      "lecture_id": "physiology__physiology-of-microcirculation-and-cardiac-edema",
+      "subject": "Physiology",
+      "title": "Physiology of microcirculation and cardiac edema",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_microcirculation_12": {
+      "lecture_id": "physiology__physiology-of-microcirculation-and-cardiac-edema",
+      "subject": "Physiology",
+      "title": "Physiology of microcirculation and cardiac edema",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_microcirculation_13": {
+      "lecture_id": "physiology__physiology-of-microcirculation-and-cardiac-edema",
+      "subject": "Physiology",
+      "title": "Physiology of microcirculation and cardiac edema",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_microcirculation_14": {
+      "lecture_id": "physiology__physiology-of-microcirculation-and-cardiac-edema",
+      "subject": "Physiology",
+      "title": "Physiology of microcirculation and cardiac edema",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_microcirculation_15": {
+      "lecture_id": "physiology__physiology-of-microcirculation-and-cardiac-edema",
+      "subject": "Physiology",
+      "title": "Physiology of microcirculation and cardiac edema",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_co2-transport_01": {
+      "lecture_id": "physiology__transport-of-carbon-dioxide-in-blood",
+      "subject": "Physiology",
+      "title": "Transport of carbon dioxide in blood",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_co2-transport_02": {
+      "lecture_id": "physiology__transport-of-carbon-dioxide-in-blood",
+      "subject": "Physiology",
+      "title": "Transport of carbon dioxide in blood",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_co2-transport_03": {
+      "lecture_id": "physiology__transport-of-carbon-dioxide-in-blood",
+      "subject": "Physiology",
+      "title": "Transport of carbon dioxide in blood",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_co2-transport_04": {
+      "lecture_id": "physiology__transport-of-carbon-dioxide-in-blood",
+      "subject": "Physiology",
+      "title": "Transport of carbon dioxide in blood",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_co2-transport_05": {
+      "lecture_id": "physiology__transport-of-carbon-dioxide-in-blood",
+      "subject": "Physiology",
+      "title": "Transport of carbon dioxide in blood",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_co2-transport_06": {
+      "lecture_id": "physiology__transport-of-carbon-dioxide-in-blood",
+      "subject": "Physiology",
+      "title": "Transport of carbon dioxide in blood",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_co2-transport_07": {
+      "lecture_id": "physiology__transport-of-carbon-dioxide-in-blood",
+      "subject": "Physiology",
+      "title": "Transport of carbon dioxide in blood",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_co2-transport_08": {
+      "lecture_id": "physiology__transport-of-carbon-dioxide-in-blood",
+      "subject": "Physiology",
+      "title": "Transport of carbon dioxide in blood",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_co2-transport_09": {
+      "lecture_id": "physiology__transport-of-carbon-dioxide-in-blood",
+      "subject": "Physiology",
+      "title": "Transport of carbon dioxide in blood",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_co2-transport_10": {
+      "lecture_id": "physiology__transport-of-carbon-dioxide-in-blood",
+      "subject": "Physiology",
+      "title": "Transport of carbon dioxide in blood",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_co2-transport_11": {
+      "lecture_id": "physiology__transport-of-carbon-dioxide-in-blood",
+      "subject": "Physiology",
+      "title": "Transport of carbon dioxide in blood",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_co2-transport_12": {
+      "lecture_id": "physiology__transport-of-carbon-dioxide-in-blood",
+      "subject": "Physiology",
+      "title": "Transport of carbon dioxide in blood",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_co2-transport_13": {
+      "lecture_id": "physiology__transport-of-carbon-dioxide-in-blood",
+      "subject": "Physiology",
+      "title": "Transport of carbon dioxide in blood",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_co2-transport_14": {
+      "lecture_id": "physiology__transport-of-carbon-dioxide-in-blood",
+      "subject": "Physiology",
+      "title": "Transport of carbon dioxide in blood",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_co2-transport_15": {
+      "lecture_id": "physiology__transport-of-carbon-dioxide-in-blood",
+      "subject": "Physiology",
+      "title": "Transport of carbon dioxide in blood",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_neural-breathing_01": {
+      "lecture_id": "physiology__neural-control-of-breathing",
+      "subject": "Physiology",
+      "title": "Neural control of breathing",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_neural-breathing_02": {
+      "lecture_id": "physiology__neural-control-of-breathing",
+      "subject": "Physiology",
+      "title": "Neural control of breathing",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_neural-breathing_03": {
+      "lecture_id": "physiology__neural-control-of-breathing",
+      "subject": "Physiology",
+      "title": "Neural control of breathing",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_neural-breathing_04": {
+      "lecture_id": "physiology__neural-control-of-breathing",
+      "subject": "Physiology",
+      "title": "Neural control of breathing",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_neural-breathing_05": {
+      "lecture_id": "physiology__neural-control-of-breathing",
+      "subject": "Physiology",
+      "title": "Neural control of breathing",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_neural-breathing_06": {
+      "lecture_id": "physiology__neural-control-of-breathing",
+      "subject": "Physiology",
+      "title": "Neural control of breathing",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_neural-breathing_07": {
+      "lecture_id": "physiology__neural-control-of-breathing",
+      "subject": "Physiology",
+      "title": "Neural control of breathing",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_neural-breathing_08": {
+      "lecture_id": "physiology__neural-control-of-breathing",
+      "subject": "Physiology",
+      "title": "Neural control of breathing",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_neural-breathing_09": {
+      "lecture_id": "physiology__neural-control-of-breathing",
+      "subject": "Physiology",
+      "title": "Neural control of breathing",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_neural-breathing_10": {
+      "lecture_id": "physiology__neural-control-of-breathing",
+      "subject": "Physiology",
+      "title": "Neural control of breathing",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_neural-breathing_11": {
+      "lecture_id": "physiology__neural-control-of-breathing",
+      "subject": "Physiology",
+      "title": "Neural control of breathing",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_neural-breathing_12": {
+      "lecture_id": "physiology__neural-control-of-breathing",
+      "subject": "Physiology",
+      "title": "Neural control of breathing",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_neural-breathing_13": {
+      "lecture_id": "physiology__neural-control-of-breathing",
+      "subject": "Physiology",
+      "title": "Neural control of breathing",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_neural-breathing_14": {
+      "lecture_id": "physiology__neural-control-of-breathing",
+      "subject": "Physiology",
+      "title": "Neural control of breathing",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_neural-breathing_15": {
+      "lecture_id": "physiology__neural-control-of-breathing",
+      "subject": "Physiology",
+      "title": "Neural control of breathing",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_chemical-breathing_01": {
+      "lecture_id": "physiology__chemical-control-of-breathing",
+      "subject": "Physiology",
+      "title": "Chemical control of breathing",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_chemical-breathing_02": {
+      "lecture_id": "physiology__chemical-control-of-breathing",
+      "subject": "Physiology",
+      "title": "Chemical control of breathing",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_chemical-breathing_03": {
+      "lecture_id": "physiology__chemical-control-of-breathing",
+      "subject": "Physiology",
+      "title": "Chemical control of breathing",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_chemical-breathing_04": {
+      "lecture_id": "physiology__chemical-control-of-breathing",
+      "subject": "Physiology",
+      "title": "Chemical control of breathing",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_chemical-breathing_05": {
+      "lecture_id": "physiology__chemical-control-of-breathing",
+      "subject": "Physiology",
+      "title": "Chemical control of breathing",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_chemical-breathing_06": {
+      "lecture_id": "physiology__chemical-control-of-breathing",
+      "subject": "Physiology",
+      "title": "Chemical control of breathing",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_chemical-breathing_07": {
+      "lecture_id": "physiology__chemical-control-of-breathing",
+      "subject": "Physiology",
+      "title": "Chemical control of breathing",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_chemical-breathing_08": {
+      "lecture_id": "physiology__chemical-control-of-breathing",
+      "subject": "Physiology",
+      "title": "Chemical control of breathing",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_chemical-breathing_09": {
+      "lecture_id": "physiology__chemical-control-of-breathing",
+      "subject": "Physiology",
+      "title": "Chemical control of breathing",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_chemical-breathing_10": {
+      "lecture_id": "physiology__chemical-control-of-breathing",
+      "subject": "Physiology",
+      "title": "Chemical control of breathing",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_chemical-breathing_11": {
+      "lecture_id": "physiology__chemical-control-of-breathing",
+      "subject": "Physiology",
+      "title": "Chemical control of breathing",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_chemical-breathing_12": {
+      "lecture_id": "physiology__chemical-control-of-breathing",
+      "subject": "Physiology",
+      "title": "Chemical control of breathing",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_chemical-breathing_13": {
+      "lecture_id": "physiology__chemical-control-of-breathing",
+      "subject": "Physiology",
+      "title": "Chemical control of breathing",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_chemical-breathing_14": {
+      "lecture_id": "physiology__chemical-control-of-breathing",
+      "subject": "Physiology",
+      "title": "Chemical control of breathing",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_chemical-breathing_15": {
+      "lecture_id": "physiology__chemical-control-of-breathing",
+      "subject": "Physiology",
+      "title": "Chemical control of breathing",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_hypoxia-cyanosis_01": {
+      "lecture_id": "physiology__hypoxia-and-cyanosis",
+      "subject": "Physiology",
+      "title": "Hypoxia and cyanosis",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_hypoxia-cyanosis_02": {
+      "lecture_id": "physiology__hypoxia-and-cyanosis",
+      "subject": "Physiology",
+      "title": "Hypoxia and cyanosis",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_hypoxia-cyanosis_03": {
+      "lecture_id": "physiology__hypoxia-and-cyanosis",
+      "subject": "Physiology",
+      "title": "Hypoxia and cyanosis",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_hypoxia-cyanosis_04": {
+      "lecture_id": "physiology__hypoxia-and-cyanosis",
+      "subject": "Physiology",
+      "title": "Hypoxia and cyanosis",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_hypoxia-cyanosis_05": {
+      "lecture_id": "physiology__hypoxia-and-cyanosis",
+      "subject": "Physiology",
+      "title": "Hypoxia and cyanosis",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_hypoxia-cyanosis_06": {
+      "lecture_id": "physiology__hypoxia-and-cyanosis",
+      "subject": "Physiology",
+      "title": "Hypoxia and cyanosis",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_hypoxia-cyanosis_07": {
+      "lecture_id": "physiology__hypoxia-and-cyanosis",
+      "subject": "Physiology",
+      "title": "Hypoxia and cyanosis",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_hypoxia-cyanosis_08": {
+      "lecture_id": "physiology__hypoxia-and-cyanosis",
+      "subject": "Physiology",
+      "title": "Hypoxia and cyanosis",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_hypoxia-cyanosis_09": {
+      "lecture_id": "physiology__hypoxia-and-cyanosis",
+      "subject": "Physiology",
+      "title": "Hypoxia and cyanosis",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_hypoxia-cyanosis_10": {
+      "lecture_id": "physiology__hypoxia-and-cyanosis",
+      "subject": "Physiology",
+      "title": "Hypoxia and cyanosis",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_hypoxia-cyanosis_11": {
+      "lecture_id": "physiology__hypoxia-and-cyanosis",
+      "subject": "Physiology",
+      "title": "Hypoxia and cyanosis",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_hypoxia-cyanosis_12": {
+      "lecture_id": "physiology__hypoxia-and-cyanosis",
+      "subject": "Physiology",
+      "title": "Hypoxia and cyanosis",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_hypoxia-cyanosis_13": {
+      "lecture_id": "physiology__hypoxia-and-cyanosis",
+      "subject": "Physiology",
+      "title": "Hypoxia and cyanosis",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_hypoxia-cyanosis_14": {
+      "lecture_id": "physiology__hypoxia-and-cyanosis",
+      "subject": "Physiology",
+      "title": "Hypoxia and cyanosis",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_hypoxia-cyanosis_15": {
+      "lecture_id": "physiology__hypoxia-and-cyanosis",
+      "subject": "Physiology",
+      "title": "Hypoxia and cyanosis",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_surfactant-biochemistry_01": {
+      "lecture_id": "biochemistry__metabolic-functions-of-the-lung-and-pulmonary-surfactant",
+      "subject": "Biochemistry",
+      "title": "Metabolic functions of the lung and Pulmonary Surfactant",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_surfactant-biochemistry_02": {
+      "lecture_id": "biochemistry__metabolic-functions-of-the-lung-and-pulmonary-surfactant",
+      "subject": "Biochemistry",
+      "title": "Metabolic functions of the lung and Pulmonary Surfactant",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_surfactant-biochemistry_03": {
+      "lecture_id": "biochemistry__metabolic-functions-of-the-lung-and-pulmonary-surfactant",
+      "subject": "Biochemistry",
+      "title": "Metabolic functions of the lung and Pulmonary Surfactant",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_surfactant-biochemistry_04": {
+      "lecture_id": "biochemistry__metabolic-functions-of-the-lung-and-pulmonary-surfactant",
+      "subject": "Biochemistry",
+      "title": "Metabolic functions of the lung and Pulmonary Surfactant",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_surfactant-biochemistry_05": {
+      "lecture_id": "biochemistry__metabolic-functions-of-the-lung-and-pulmonary-surfactant",
+      "subject": "Biochemistry",
+      "title": "Metabolic functions of the lung and Pulmonary Surfactant",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_surfactant-biochemistry_06": {
+      "lecture_id": "biochemistry__metabolic-functions-of-the-lung-and-pulmonary-surfactant",
+      "subject": "Biochemistry",
+      "title": "Metabolic functions of the lung and Pulmonary Surfactant",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_surfactant-biochemistry_07": {
+      "lecture_id": "biochemistry__metabolic-functions-of-the-lung-and-pulmonary-surfactant",
+      "subject": "Biochemistry",
+      "title": "Metabolic functions of the lung and Pulmonary Surfactant",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_surfactant-biochemistry_08": {
+      "lecture_id": "biochemistry__metabolic-functions-of-the-lung-and-pulmonary-surfactant",
+      "subject": "Biochemistry",
+      "title": "Metabolic functions of the lung and Pulmonary Surfactant",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_surfactant-biochemistry_09": {
+      "lecture_id": "biochemistry__metabolic-functions-of-the-lung-and-pulmonary-surfactant",
+      "subject": "Biochemistry",
+      "title": "Metabolic functions of the lung and Pulmonary Surfactant",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_surfactant-biochemistry_10": {
+      "lecture_id": "biochemistry__metabolic-functions-of-the-lung-and-pulmonary-surfactant",
+      "subject": "Biochemistry",
+      "title": "Metabolic functions of the lung and Pulmonary Surfactant",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_surfactant-biochemistry_11": {
+      "lecture_id": "biochemistry__metabolic-functions-of-the-lung-and-pulmonary-surfactant",
+      "subject": "Biochemistry",
+      "title": "Metabolic functions of the lung and Pulmonary Surfactant",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_surfactant-biochemistry_12": {
+      "lecture_id": "biochemistry__metabolic-functions-of-the-lung-and-pulmonary-surfactant",
+      "subject": "Biochemistry",
+      "title": "Metabolic functions of the lung and Pulmonary Surfactant",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_surfactant-biochemistry_13": {
+      "lecture_id": "biochemistry__metabolic-functions-of-the-lung-and-pulmonary-surfactant",
+      "subject": "Biochemistry",
+      "title": "Metabolic functions of the lung and Pulmonary Surfactant",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_surfactant-biochemistry_14": {
+      "lecture_id": "biochemistry__metabolic-functions-of-the-lung-and-pulmonary-surfactant",
+      "subject": "Biochemistry",
+      "title": "Metabolic functions of the lung and Pulmonary Surfactant",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_surfactant-biochemistry_15": {
+      "lecture_id": "biochemistry__metabolic-functions-of-the-lung-and-pulmonary-surfactant",
+      "subject": "Biochemistry",
+      "title": "Metabolic functions of the lung and Pulmonary Surfactant",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_acid-base_01": {
+      "lecture_id": "biochemistry__acid-base-homeostasis-and-the-role-of-the-respiratory-system",
+      "subject": "Biochemistry",
+      "title": "Acid-base homeostasis and the role of the respiratory system",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_acid-base_02": {
+      "lecture_id": "biochemistry__acid-base-homeostasis-and-the-role-of-the-respiratory-system",
+      "subject": "Biochemistry",
+      "title": "Acid-base homeostasis and the role of the respiratory system",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_acid-base_03": {
+      "lecture_id": "biochemistry__acid-base-homeostasis-and-the-role-of-the-respiratory-system",
+      "subject": "Biochemistry",
+      "title": "Acid-base homeostasis and the role of the respiratory system",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_acid-base_04": {
+      "lecture_id": "biochemistry__acid-base-homeostasis-and-the-role-of-the-respiratory-system",
+      "subject": "Biochemistry",
+      "title": "Acid-base homeostasis and the role of the respiratory system",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_acid-base_05": {
+      "lecture_id": "biochemistry__acid-base-homeostasis-and-the-role-of-the-respiratory-system",
+      "subject": "Biochemistry",
+      "title": "Acid-base homeostasis and the role of the respiratory system",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_acid-base_06": {
+      "lecture_id": "biochemistry__acid-base-homeostasis-and-the-role-of-the-respiratory-system",
+      "subject": "Biochemistry",
+      "title": "Acid-base homeostasis and the role of the respiratory system",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_acid-base_07": {
+      "lecture_id": "biochemistry__acid-base-homeostasis-and-the-role-of-the-respiratory-system",
+      "subject": "Biochemistry",
+      "title": "Acid-base homeostasis and the role of the respiratory system",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_acid-base_08": {
+      "lecture_id": "biochemistry__acid-base-homeostasis-and-the-role-of-the-respiratory-system",
+      "subject": "Biochemistry",
+      "title": "Acid-base homeostasis and the role of the respiratory system",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_acid-base_09": {
+      "lecture_id": "biochemistry__acid-base-homeostasis-and-the-role-of-the-respiratory-system",
+      "subject": "Biochemistry",
+      "title": "Acid-base homeostasis and the role of the respiratory system",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_acid-base_10": {
+      "lecture_id": "biochemistry__acid-base-homeostasis-and-the-role-of-the-respiratory-system",
+      "subject": "Biochemistry",
+      "title": "Acid-base homeostasis and the role of the respiratory system",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_acid-base_11": {
+      "lecture_id": "biochemistry__acid-base-homeostasis-and-the-role-of-the-respiratory-system",
+      "subject": "Biochemistry",
+      "title": "Acid-base homeostasis and the role of the respiratory system",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_acid-base_12": {
+      "lecture_id": "biochemistry__acid-base-homeostasis-and-the-role-of-the-respiratory-system",
+      "subject": "Biochemistry",
+      "title": "Acid-base homeostasis and the role of the respiratory system",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_acid-base_13": {
+      "lecture_id": "biochemistry__acid-base-homeostasis-and-the-role-of-the-respiratory-system",
+      "subject": "Biochemistry",
+      "title": "Acid-base homeostasis and the role of the respiratory system",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_acid-base_14": {
+      "lecture_id": "biochemistry__acid-base-homeostasis-and-the-role-of-the-respiratory-system",
+      "subject": "Biochemistry",
+      "title": "Acid-base homeostasis and the role of the respiratory system",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_acid-base_15": {
+      "lecture_id": "biochemistry__acid-base-homeostasis-and-the-role-of-the-respiratory-system",
+      "subject": "Biochemistry",
+      "title": "Acid-base homeostasis and the role of the respiratory system",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_lung-immunity_01": {
+      "lecture_id": "microbiology__lung-immunology-innate-acquired-immune-responses-in-respiratory-infections",
+      "subject": "Microbiology",
+      "title": "Lung immunology:Innate & acquired immune responses in respiratory infections",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_lung-immunity_02": {
+      "lecture_id": "microbiology__lung-immunology-innate-acquired-immune-responses-in-respiratory-infections",
+      "subject": "Microbiology",
+      "title": "Lung immunology:Innate & acquired immune responses in respiratory infections",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_lung-immunity_03": {
+      "lecture_id": "microbiology__lung-immunology-innate-acquired-immune-responses-in-respiratory-infections",
+      "subject": "Microbiology",
+      "title": "Lung immunology:Innate & acquired immune responses in respiratory infections",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_lung-immunity_04": {
+      "lecture_id": "microbiology__lung-immunology-innate-acquired-immune-responses-in-respiratory-infections",
+      "subject": "Microbiology",
+      "title": "Lung immunology:Innate & acquired immune responses in respiratory infections",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_lung-immunity_05": {
+      "lecture_id": "microbiology__lung-immunology-innate-acquired-immune-responses-in-respiratory-infections",
+      "subject": "Microbiology",
+      "title": "Lung immunology:Innate & acquired immune responses in respiratory infections",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_lung-immunity_06": {
+      "lecture_id": "microbiology__lung-immunology-innate-acquired-immune-responses-in-respiratory-infections",
+      "subject": "Microbiology",
+      "title": "Lung immunology:Innate & acquired immune responses in respiratory infections",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_lung-immunity_07": {
+      "lecture_id": "microbiology__lung-immunology-innate-acquired-immune-responses-in-respiratory-infections",
+      "subject": "Microbiology",
+      "title": "Lung immunology:Innate & acquired immune responses in respiratory infections",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_lung-immunity_08": {
+      "lecture_id": "microbiology__lung-immunology-innate-acquired-immune-responses-in-respiratory-infections",
+      "subject": "Microbiology",
+      "title": "Lung immunology:Innate & acquired immune responses in respiratory infections",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_lung-immunity_09": {
+      "lecture_id": "microbiology__lung-immunology-innate-acquired-immune-responses-in-respiratory-infections",
+      "subject": "Microbiology",
+      "title": "Lung immunology:Innate & acquired immune responses in respiratory infections",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_lung-immunity_10": {
+      "lecture_id": "microbiology__lung-immunology-innate-acquired-immune-responses-in-respiratory-infections",
+      "subject": "Microbiology",
+      "title": "Lung immunology:Innate & acquired immune responses in respiratory infections",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_lung-immunity_11": {
+      "lecture_id": "microbiology__lung-immunology-innate-acquired-immune-responses-in-respiratory-infections",
+      "subject": "Microbiology",
+      "title": "Lung immunology:Innate & acquired immune responses in respiratory infections",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_lung-immunity_12": {
+      "lecture_id": "microbiology__lung-immunology-innate-acquired-immune-responses-in-respiratory-infections",
+      "subject": "Microbiology",
+      "title": "Lung immunology:Innate & acquired immune responses in respiratory infections",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_lung-immunity_13": {
+      "lecture_id": "microbiology__lung-immunology-innate-acquired-immune-responses-in-respiratory-infections",
+      "subject": "Microbiology",
+      "title": "Lung immunology:Innate & acquired immune responses in respiratory infections",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_lung-immunity_14": {
+      "lecture_id": "microbiology__lung-immunology-innate-acquired-immune-responses-in-respiratory-infections",
+      "subject": "Microbiology",
+      "title": "Lung immunology:Innate & acquired immune responses in respiratory infections",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_lung-immunity_15": {
+      "lecture_id": "microbiology__lung-immunology-innate-acquired-immune-responses-in-respiratory-infections",
+      "subject": "Microbiology",
+      "title": "Lung immunology:Innate & acquired immune responses in respiratory infections",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_heart-failure-pathology_01": {
+      "lecture_id": "pathology__pathology-of-heart-failure",
+      "subject": "Pathology",
+      "title": "Pathology of Heart Failure",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_heart-failure-pathology_02": {
+      "lecture_id": "pathology__pathology-of-heart-failure",
+      "subject": "Pathology",
+      "title": "Pathology of Heart Failure",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_heart-failure-pathology_03": {
+      "lecture_id": "pathology__pathology-of-heart-failure",
+      "subject": "Pathology",
+      "title": "Pathology of Heart Failure",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_heart-failure-pathology_04": {
+      "lecture_id": "pathology__pathology-of-heart-failure",
+      "subject": "Pathology",
+      "title": "Pathology of Heart Failure",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_heart-failure-pathology_05": {
+      "lecture_id": "pathology__pathology-of-heart-failure",
+      "subject": "Pathology",
+      "title": "Pathology of Heart Failure",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_heart-failure-pathology_06": {
+      "lecture_id": "pathology__pathology-of-heart-failure",
+      "subject": "Pathology",
+      "title": "Pathology of Heart Failure",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_heart-failure-pathology_07": {
+      "lecture_id": "pathology__pathology-of-heart-failure",
+      "subject": "Pathology",
+      "title": "Pathology of Heart Failure",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_heart-failure-pathology_08": {
+      "lecture_id": "pathology__pathology-of-heart-failure",
+      "subject": "Pathology",
+      "title": "Pathology of Heart Failure",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_heart-failure-pathology_09": {
+      "lecture_id": "pathology__pathology-of-heart-failure",
+      "subject": "Pathology",
+      "title": "Pathology of Heart Failure",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_heart-failure-pathology_10": {
+      "lecture_id": "pathology__pathology-of-heart-failure",
+      "subject": "Pathology",
+      "title": "Pathology of Heart Failure",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_heart-failure-pathology_11": {
+      "lecture_id": "pathology__pathology-of-heart-failure",
+      "subject": "Pathology",
+      "title": "Pathology of Heart Failure",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_heart-failure-pathology_12": {
+      "lecture_id": "pathology__pathology-of-heart-failure",
+      "subject": "Pathology",
+      "title": "Pathology of Heart Failure",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_heart-failure-pathology_13": {
+      "lecture_id": "pathology__pathology-of-heart-failure",
+      "subject": "Pathology",
+      "title": "Pathology of Heart Failure",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_heart-failure-pathology_14": {
+      "lecture_id": "pathology__pathology-of-heart-failure",
+      "subject": "Pathology",
+      "title": "Pathology of Heart Failure",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_heart-failure-pathology_15": {
+      "lecture_id": "pathology__pathology-of-heart-failure",
+      "subject": "Pathology",
+      "title": "Pathology of Heart Failure",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_cardiomyopathies_01": {
+      "lecture_id": "pathology__cardiomyopathies",
+      "subject": "Pathology",
+      "title": "Cardiomyopathies",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_cardiomyopathies_02": {
+      "lecture_id": "pathology__cardiomyopathies",
+      "subject": "Pathology",
+      "title": "Cardiomyopathies",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_cardiomyopathies_03": {
+      "lecture_id": "pathology__cardiomyopathies",
+      "subject": "Pathology",
+      "title": "Cardiomyopathies",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_cardiomyopathies_04": {
+      "lecture_id": "pathology__cardiomyopathies",
+      "subject": "Pathology",
+      "title": "Cardiomyopathies",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_cardiomyopathies_05": {
+      "lecture_id": "pathology__cardiomyopathies",
+      "subject": "Pathology",
+      "title": "Cardiomyopathies",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_cardiomyopathies_06": {
+      "lecture_id": "pathology__cardiomyopathies",
+      "subject": "Pathology",
+      "title": "Cardiomyopathies",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_cardiomyopathies_07": {
+      "lecture_id": "pathology__cardiomyopathies",
+      "subject": "Pathology",
+      "title": "Cardiomyopathies",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_cardiomyopathies_08": {
+      "lecture_id": "pathology__cardiomyopathies",
+      "subject": "Pathology",
+      "title": "Cardiomyopathies",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_cardiomyopathies_09": {
+      "lecture_id": "pathology__cardiomyopathies",
+      "subject": "Pathology",
+      "title": "Cardiomyopathies",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_cardiomyopathies_10": {
+      "lecture_id": "pathology__cardiomyopathies",
+      "subject": "Pathology",
+      "title": "Cardiomyopathies",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_cardiomyopathies_11": {
+      "lecture_id": "pathology__cardiomyopathies",
+      "subject": "Pathology",
+      "title": "Cardiomyopathies",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_cardiomyopathies_12": {
+      "lecture_id": "pathology__cardiomyopathies",
+      "subject": "Pathology",
+      "title": "Cardiomyopathies",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_cardiomyopathies_13": {
+      "lecture_id": "pathology__cardiomyopathies",
+      "subject": "Pathology",
+      "title": "Cardiomyopathies",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_cardiomyopathies_14": {
+      "lecture_id": "pathology__cardiomyopathies",
+      "subject": "Pathology",
+      "title": "Cardiomyopathies",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_cardiomyopathies_15": {
+      "lecture_id": "pathology__cardiomyopathies",
+      "subject": "Pathology",
+      "title": "Cardiomyopathies",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_asthma-pathology_01": {
+      "lecture_id": "pathology__pathology-of-bronchial-asthma",
+      "subject": "Pathology",
+      "title": "Pathology of bronchial Asthma",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_asthma-pathology_02": {
+      "lecture_id": "pathology__pathology-of-bronchial-asthma",
+      "subject": "Pathology",
+      "title": "Pathology of bronchial Asthma",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_asthma-pathology_03": {
+      "lecture_id": "pathology__pathology-of-bronchial-asthma",
+      "subject": "Pathology",
+      "title": "Pathology of bronchial Asthma",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_asthma-pathology_04": {
+      "lecture_id": "pathology__pathology-of-bronchial-asthma",
+      "subject": "Pathology",
+      "title": "Pathology of bronchial Asthma",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_asthma-pathology_05": {
+      "lecture_id": "pathology__pathology-of-bronchial-asthma",
+      "subject": "Pathology",
+      "title": "Pathology of bronchial Asthma",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_asthma-pathology_06": {
+      "lecture_id": "pathology__pathology-of-bronchial-asthma",
+      "subject": "Pathology",
+      "title": "Pathology of bronchial Asthma",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_asthma-pathology_07": {
+      "lecture_id": "pathology__pathology-of-bronchial-asthma",
+      "subject": "Pathology",
+      "title": "Pathology of bronchial Asthma",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_asthma-pathology_08": {
+      "lecture_id": "pathology__pathology-of-bronchial-asthma",
+      "subject": "Pathology",
+      "title": "Pathology of bronchial Asthma",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_asthma-pathology_09": {
+      "lecture_id": "pathology__pathology-of-bronchial-asthma",
+      "subject": "Pathology",
+      "title": "Pathology of bronchial Asthma",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_asthma-pathology_10": {
+      "lecture_id": "pathology__pathology-of-bronchial-asthma",
+      "subject": "Pathology",
+      "title": "Pathology of bronchial Asthma",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_asthma-pathology_11": {
+      "lecture_id": "pathology__pathology-of-bronchial-asthma",
+      "subject": "Pathology",
+      "title": "Pathology of bronchial Asthma",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_asthma-pathology_12": {
+      "lecture_id": "pathology__pathology-of-bronchial-asthma",
+      "subject": "Pathology",
+      "title": "Pathology of bronchial Asthma",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_asthma-pathology_13": {
+      "lecture_id": "pathology__pathology-of-bronchial-asthma",
+      "subject": "Pathology",
+      "title": "Pathology of bronchial Asthma",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_asthma-pathology_14": {
+      "lecture_id": "pathology__pathology-of-bronchial-asthma",
+      "subject": "Pathology",
+      "title": "Pathology of bronchial Asthma",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_asthma-pathology_15": {
+      "lecture_id": "pathology__pathology-of-bronchial-asthma",
+      "subject": "Pathology",
+      "title": "Pathology of bronchial Asthma",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_heart-failure-drugs_01": {
+      "lecture_id": "pharmacology__drugs-used-in-heart-failure",
+      "subject": "Pharmacology",
+      "title": "Drugs used in Heart failure",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_heart-failure-drugs_02": {
+      "lecture_id": "pharmacology__drugs-used-in-heart-failure",
+      "subject": "Pharmacology",
+      "title": "Drugs used in Heart failure",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_heart-failure-drugs_03": {
+      "lecture_id": "pharmacology__drugs-used-in-heart-failure",
+      "subject": "Pharmacology",
+      "title": "Drugs used in Heart failure",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_heart-failure-drugs_04": {
+      "lecture_id": "pharmacology__drugs-used-in-heart-failure",
+      "subject": "Pharmacology",
+      "title": "Drugs used in Heart failure",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_heart-failure-drugs_05": {
+      "lecture_id": "pharmacology__drugs-used-in-heart-failure",
+      "subject": "Pharmacology",
+      "title": "Drugs used in Heart failure",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_heart-failure-drugs_06": {
+      "lecture_id": "pharmacology__drugs-used-in-heart-failure",
+      "subject": "Pharmacology",
+      "title": "Drugs used in Heart failure",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_heart-failure-drugs_07": {
+      "lecture_id": "pharmacology__drugs-used-in-heart-failure",
+      "subject": "Pharmacology",
+      "title": "Drugs used in Heart failure",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_heart-failure-drugs_08": {
+      "lecture_id": "pharmacology__drugs-used-in-heart-failure",
+      "subject": "Pharmacology",
+      "title": "Drugs used in Heart failure",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_heart-failure-drugs_09": {
+      "lecture_id": "pharmacology__drugs-used-in-heart-failure",
+      "subject": "Pharmacology",
+      "title": "Drugs used in Heart failure",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_heart-failure-drugs_10": {
+      "lecture_id": "pharmacology__drugs-used-in-heart-failure",
+      "subject": "Pharmacology",
+      "title": "Drugs used in Heart failure",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_heart-failure-drugs_11": {
+      "lecture_id": "pharmacology__drugs-used-in-heart-failure",
+      "subject": "Pharmacology",
+      "title": "Drugs used in Heart failure",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_heart-failure-drugs_12": {
+      "lecture_id": "pharmacology__drugs-used-in-heart-failure",
+      "subject": "Pharmacology",
+      "title": "Drugs used in Heart failure",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_heart-failure-drugs_13": {
+      "lecture_id": "pharmacology__drugs-used-in-heart-failure",
+      "subject": "Pharmacology",
+      "title": "Drugs used in Heart failure",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_heart-failure-drugs_14": {
+      "lecture_id": "pharmacology__drugs-used-in-heart-failure",
+      "subject": "Pharmacology",
+      "title": "Drugs used in Heart failure",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_heart-failure-drugs_15": {
+      "lecture_id": "pharmacology__drugs-used-in-heart-failure",
+      "subject": "Pharmacology",
+      "title": "Drugs used in Heart failure",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_visceral-leishmaniasis_01": {
+      "lecture_id": "microbiology__visceral-leishmaniasis",
+      "subject": "Microbiology",
+      "title": "Visceral leishmaniasis",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_visceral-leishmaniasis_02": {
+      "lecture_id": "microbiology__visceral-leishmaniasis",
+      "subject": "Microbiology",
+      "title": "Visceral leishmaniasis",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_visceral-leishmaniasis_03": {
+      "lecture_id": "microbiology__visceral-leishmaniasis",
+      "subject": "Microbiology",
+      "title": "Visceral leishmaniasis",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_visceral-leishmaniasis_04": {
+      "lecture_id": "microbiology__visceral-leishmaniasis",
+      "subject": "Microbiology",
+      "title": "Visceral leishmaniasis",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_visceral-leishmaniasis_05": {
+      "lecture_id": "microbiology__visceral-leishmaniasis",
+      "subject": "Microbiology",
+      "title": "Visceral leishmaniasis",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_visceral-leishmaniasis_06": {
+      "lecture_id": "microbiology__visceral-leishmaniasis",
+      "subject": "Microbiology",
+      "title": "Visceral leishmaniasis",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_visceral-leishmaniasis_07": {
+      "lecture_id": "microbiology__visceral-leishmaniasis",
+      "subject": "Microbiology",
+      "title": "Visceral leishmaniasis",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_visceral-leishmaniasis_08": {
+      "lecture_id": "microbiology__visceral-leishmaniasis",
+      "subject": "Microbiology",
+      "title": "Visceral leishmaniasis",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_visceral-leishmaniasis_09": {
+      "lecture_id": "microbiology__visceral-leishmaniasis",
+      "subject": "Microbiology",
+      "title": "Visceral leishmaniasis",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_visceral-leishmaniasis_10": {
+      "lecture_id": "microbiology__visceral-leishmaniasis",
+      "subject": "Microbiology",
+      "title": "Visceral leishmaniasis",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_visceral-leishmaniasis_11": {
+      "lecture_id": "microbiology__visceral-leishmaniasis",
+      "subject": "Microbiology",
+      "title": "Visceral leishmaniasis",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_visceral-leishmaniasis_12": {
+      "lecture_id": "microbiology__visceral-leishmaniasis",
+      "subject": "Microbiology",
+      "title": "Visceral leishmaniasis",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_visceral-leishmaniasis_13": {
+      "lecture_id": "microbiology__visceral-leishmaniasis",
+      "subject": "Microbiology",
+      "title": "Visceral leishmaniasis",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_visceral-leishmaniasis_14": {
+      "lecture_id": "microbiology__visceral-leishmaniasis",
+      "subject": "Microbiology",
+      "title": "Visceral leishmaniasis",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_visceral-leishmaniasis_15": {
+      "lecture_id": "microbiology__visceral-leishmaniasis",
+      "subject": "Microbiology",
+      "title": "Visceral leishmaniasis",
+      "quiz": 1,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_urti-microbiology_01": {
+      "lecture_id": "microbiology__upper-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Upper respiratory tract infections",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_urti-microbiology_02": {
+      "lecture_id": "microbiology__upper-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Upper respiratory tract infections",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_urti-microbiology_03": {
+      "lecture_id": "microbiology__upper-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Upper respiratory tract infections",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_urti-microbiology_04": {
+      "lecture_id": "microbiology__upper-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Upper respiratory tract infections",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_urti-microbiology_05": {
+      "lecture_id": "microbiology__upper-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Upper respiratory tract infections",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_urti-microbiology_06": {
+      "lecture_id": "microbiology__upper-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Upper respiratory tract infections",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_urti-microbiology_07": {
+      "lecture_id": "microbiology__upper-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Upper respiratory tract infections",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_urti-microbiology_08": {
+      "lecture_id": "microbiology__upper-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Upper respiratory tract infections",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_urti-microbiology_09": {
+      "lecture_id": "microbiology__upper-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Upper respiratory tract infections",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_urti-microbiology_10": {
+      "lecture_id": "microbiology__upper-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Upper respiratory tract infections",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_urti-microbiology_11": {
+      "lecture_id": "microbiology__upper-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Upper respiratory tract infections",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_urti-microbiology_12": {
+      "lecture_id": "microbiology__upper-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Upper respiratory tract infections",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_urti-microbiology_13": {
+      "lecture_id": "microbiology__upper-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Upper respiratory tract infections",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_urti-microbiology_14": {
+      "lecture_id": "microbiology__upper-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Upper respiratory tract infections",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
+    },
+    "ai_gap20261020_urti-microbiology_15": {
+      "lecture_id": "microbiology__upper-respiratory-tract-infections",
+      "subject": "Microbiology",
+      "title": "Upper respiratory tract infections",
+      "quiz": 2,
+      "confidence": 1,
+      "method": "objective-aligned-source-reviewed-20261020"
     }
   },
   "audit_note": "IBLS/CVS/Formative are provenance only. Past and AI questions are organized by official Study Guide subject and lecture. New combined antihypertensive content is split across official lecture 1/2 by objectives. Visible formative-style AI cases inherit the already-audited parent lecture mapping."

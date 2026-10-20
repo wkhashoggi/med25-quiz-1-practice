@@ -1171,3 +1171,5 @@ body{background:var(--med-bg)!important;color:var(--med-text)!important;font-fea
 #list, #aiQuestionList { overflow-anchor: none; }
 .liveSortControl { display: grid; gap: 6px; margin: 8px 0; }
 .liveSortControl select { max-width: 100%; color: var(--text); background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 9px; }
+
+.aiSourceNote,.aiSourceDetails{color:var(--text);background:var(--card);font-size:12px;line-height:1.6;padding:10px;border:1px solid var(--line);border-radius:10px;margin:10px 0}.aiSourceDetails a{color:var(--v2-accent,var(--text))}.aiSourceDetails summary{cursor:pointer}

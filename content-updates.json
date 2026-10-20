@@ -2,6 +2,16 @@
   "entries": [
     {
       "date": "20 October 2026",
+      "title": "AI answers for ungraded student-bank questions",
+      "summary": "Completed 79 previously ungraded student-bank entries with clearly labelled AI-based answers. Where context or choices were missing, complete AI-adapted practice versions now include the original wording for comparison. Formative questions remain unchanged."
+    },
+    {
+      "date": "20 October 2026",
+      "title": "AI practice now covers every study-guide topic",
+      "summary": "Added 255 questions across the 17 previously empty topics, bringing AI practice to 1,564 questions across all 106 study-guide topics. Each new topic has 15 questions with clinical applications and mechanism questions. Reference-backed practice is clearly identified where course slides are unavailable. Existing questions and saved progress IDs are preserved."
+    },
+    {
+      "date": "20 October 2026",
       "title": "Clearer dark mode, custom icons and safer resets",
       "summary": "Dark mode now keeps controls and supporting text readable. In Profile, tap your icon to choose 1–3 letters and a color, or upload a photo. Reset progress now explains exactly what will be erased and kept, with a Cancel option before anything changes."
     },

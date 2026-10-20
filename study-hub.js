@@ -74,6 +74,12 @@ function aiFiltered(){
   return window.med25SortByLiveSuccess?.(qs,'ai',document.getElementById('aiLiveSort')?.value)||qs;
 }
 function hubHash(s){let h=7;for(let i=0;i<String(s).length;i++)h=(h*31+String(s).charCodeAt(i))|0;return Math.abs(h)}
+function aiSourceInfo(q){
+  if(!q.source_kind)return '';
+  const note=q.source_kind==='study_guide_reference'?'Study-guide practice with medical references. Course slides were not available for this topic.':q.source_kind==='course_plus_reference'?'Based on course material and supporting medical references.':q.source_kind==='course_study_material'?'Based on the linked course study material.':'';
+  const refs=q.source_references||[];
+  return (note?'<p class="aiSourceNote">'+esc(note)+'</p>':'')+(refs.length?'<details class="aiSourceDetails"><summary>Supporting sources</summary><ul>'+refs.map(r=>'<li><a href="'+esc(r.url)+'" target="_blank" rel="noopener noreferrer">'+esc(r.title)+' ↗</a></li>').join('')+'</ul></details>':'');
+}
 function aiCard(q){
   const p=aiProgress()[q.id]||{},answered=!!p.answered,selected=p.selected;
   const opts=Object.entries(q.options||{}).map(([k,v])=>{
@@ -88,8 +94,8 @@ function aiCard(q){
   return '<article class="qcard aiCard" id="'+q.id+'">'+
     '<span class="reviewmark aiStar" data-ai-star="'+q.id+'" title="Star for review">'+(p.starred?'★':'☆')+'</span>'+
     '<div class="qtop aiTop"><div class="meta aiMeta">'+(q.case_style==='formative_short_case'?'<span class="pill caseStamp">CASE</span>':'')+'<span class="pill aiPill">'+esc(q.difficulty||'core')+'</span><span class="pill aiPill sgLecturePill">'+lectureLabel+'</span></div><span class="qnum examQuestionNumber">Question</span></div>'+
-    '<div class="stem aiStem">'+esc(q.stem)+'</div>'+(q.medical_review_date&&typeof pastReviewDetails==='function'?pastReviewDetails(q,answered):'')+'<div class="options aiOptions">'+opts+'</div>'+feedback+
-    '<div class="actions aiActions">'+(q.source_url?'<button class="btn aiBtn sourcebtn" data-ai-source="'+q.id+'">Open source lecture ↗</button>':'')+'<button class="btn aiBtn" data-ai-copy="'+q.id+'">Copy question</button></div></article>';
+    '<div class="stem aiStem">'+esc(q.stem)+'</div>'+aiSourceInfo(q)+(q.medical_review_date&&typeof pastReviewDetails==='function'?pastReviewDetails(q,answered):'')+'<div class="options aiOptions">'+opts+'</div>'+feedback+
+    '<div class="actions aiActions">'+(q.source_url?'<button class="btn aiBtn sourcebtn" data-ai-source="'+q.id+'">'+(q.source_kind==='study_guide_reference'?'Open supporting reference':q.source_kind?'Open course source':'Open source lecture')+' ↗</button>':'')+'<button class="btn aiBtn" data-ai-copy="'+q.id+'">Copy question</button></div></article>';
 }
 function bindAI(){
   document.querySelectorAll('[data-ai-answer]').forEach(b=>b.onclick=()=>answerAI(b.dataset.aiAnswer,b.dataset.aiOpt));
@@ -420,10 +426,10 @@ function sgLabelVisible(root,kind){
       const examReady=typeof window.med25ExamReadyPast==='function'?window.med25ExamReadyPast(q):true;
       const quality=examReady?'':'<span class="pill sourceIncompletePill" title="'+esc(q.incomplete_reason||'Authentic source-bank item with incomplete or duplicated choices or an unrecoverable key. Excluded from mock exams.')+'">'+(q.proofreading_status==='needs_review'?'Needs review':q.proofreading_status==='resolved'?'Limited original choices':'Source incomplete')+'</span>';
       meta.innerHTML='<span class="pill sgSubjectPill">'+esc(g.subject||'Other')+'</span>'+
-        '<span class="pill pastPaperTypePill">'+(q.source_kind==='formative'?'Coordinator formative':q.source_kind==='practice'?'Practice question':'Past paper question')+'</span>'+
+        '<span class="pill pastPaperTypePill">'+(q.source_kind==='formative'?'Coordinator formative':q.ai_completion_20261020&&q.review_edit_kind==='adapted'?'AI-adapted bank practice':q.source_kind==='practice'?'Practice question':'Past paper question')+'</span>'+
         '<span class="pill lectureQuizStamp quiz'+pastQuestionQuiz(q)+'">Quiz '+pastQuestionQuiz(q)+'</span>'+
         (['rsModule3','cvs2'].includes(quiz2PastCategory(q))?'<span class="pill pastPaperCategoryPill">'+(quiz2PastCategory(q)==='rsModule3'?'RS test bank':'CVS test bank')+'</span>':'')+
-        '<span class="pill sgLecturePill">'+esc(g.title||'Unmapped lecture')+'</span>'+quality+(q.proofreading_status==='resolved'?'<span class="pill answerCheckedPill">'+(q.answer_basis==='slide-reviewed'?'Slide-checked':'Reference-checked')+'</span>':'')+hy+
+        '<span class="pill sgLecturePill">'+esc(g.title||'Unmapped lecture')+'</span>'+quality+(q.proofreading_status==='resolved'?'<span class="pill answerCheckedPill">'+(q.answer_basis==='ai-supplied'?'AI-based answer':q.answer_basis==='slide-reviewed'?'Slide-checked':'Reference-checked')+'</span>':'')+hy+
         (q.mapping_review_required?'<span class="pill sourceIncompletePill">Lecture match needs review</span>':'');
       const actions=card.querySelector('.actions');
       if(actions&&!actions.querySelector('.pastPaperOriginal')){
@@ -636,8 +642,9 @@ function renderLectureDashboard(){
   if(sourceCoverageAudit){
     let audit=document.getElementById('lectureSourceAudit');
     if(!audit){audit=document.createElement('details');audit.id='lectureSourceAudit';audit.className='lectureSourceAudit';summary?.after(audit)}
-    const missing=sourceCoverageAudit.lectures.filter(l=>l.status==='source_not_found'),partial=sourceCoverageAudit.lectures.filter(l=>l.status==='partial_source_coverage');
-    audit.innerHTML='<summary>Source coverage · audited 16 October 2026</summary><p>'+sourceCoverageAudit.guide_topic_entries+' study-guide topics · '+sourceCoverageAudit.lectures.filter(l=>l.ai_questions>0).length+' with AI questions. '+missing.length+' topics still need a source, and '+partial.length+' have partial source coverage. A missing source does not mean future content. Completion below refers to published questions.</p><ul>'+[...partial,...missing].map(l=>'<li><b>'+esc(l.subject)+' · '+esc(l.title)+'</b><span>'+esc(l.note)+'</span></li>').join('')+'</ul>';
+    const missing=sourceCoverageAudit.lectures.filter(l=>l.status==='source_not_found'),partial=sourceCoverageAudit.lectures.filter(l=>l.status==='partial_source_coverage'),reference=sourceCoverageAudit.lectures.filter(l=>l.status==='objective_reference_questions');
+    const date=new Date(sourceCoverageAudit.audited_at).toLocaleDateString('en-GB',{day:'numeric',month:'long',year:'numeric',timeZone:'Asia/Riyadh'});
+    audit.innerHTML='<summary>Source coverage · audited '+esc(date)+'</summary><p>'+sourceCoverageAudit.guide_topic_entries+' study-guide topics · '+sourceCoverageAudit.lectures.filter(l=>l.ai_questions>0).length+' with AI questions. '+reference.length+' topics use labelled reference-backed practice while course slides are unavailable. '+missing.length+' topics have no question source, and '+partial.length+' have partial course-source coverage. Completion below refers to published questions.</p><ul>'+[...reference,...partial,...missing].map(l=>'<li><b>'+esc(l.subject)+' · '+esc(l.title)+'</b><span>'+esc(l.note)+'</span></li>').join('')+'</ul>';
   }
   setupLectureDashboardControls();
   const all=lectureDashboardRows(),rows=lectureDashFiltered();
@@ -746,9 +753,9 @@ function hubSwitch(mode){
   document.getElementById('stats')?.classList.toggle('hidden',!past);
   document.getElementById('questionProgressBar')?.classList.toggle('hidden',!past);
   const h=document.getElementById('heroTitle'),p=document.getElementById('heroDescription');
-  if(home){if(h)h.textContent='MED25 Study Hub';if(p)p.textContent='Your progress across past papers and lecture-grounded AI questions.';renderHome()}
+  if(home){if(h)h.textContent='MED25 Study Hub';if(p)p.textContent='Your progress across past papers and AI study questions.';renderHome()}
   if(past){if(h)h.textContent='MED25 Past Papers';if(p)p.textContent='Previous-year questions and the coordinator formative, with repeated-concept sorting and source-lecture links.'}
-  if(ai){if(h)h.textContent='MED25 AI-Generated Questions';if(p)p.textContent='KAU-style MCQs generated lecture-by-lecture from the official MED25 Drive, kept separate from past papers.';renderAI()}
+  if(ai){if(h)h.textContent='MED25 AI-Generated Questions';if(p)p.textContent='Practice by study-guide topic, based on course material and clearly labelled supporting medical references.';renderAI()}
   try{localStorage.setItem(HUB_SECTION_KEY,mode)}catch{}
 }
 function hubSetupNavigation(){

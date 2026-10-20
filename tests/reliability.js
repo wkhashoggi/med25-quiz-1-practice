@@ -73,7 +73,7 @@ async function run(){
 
     assert.equal(await page.evaluate(()=>window.med25GameBridge.aiQuestions().length),expectedAI.length);
     assert(await page.evaluate(()=>window.med25GameBridge.aiQuestions().every(q=>window.med25GameBridge.questionLecture('ai',q).lecture_id)));
-    assert.equal(await page.evaluate(()=>QUESTIONS.filter(window.med25ExamReadyPast).length),read('cvs-module2-import.json').mock_ready_count);
+    assert.equal(await page.evaluate(()=>QUESTIONS.filter(window.med25ExamReadyPast).length),read('content-coverage-manifest.json').current_counts.past_mock_ready);
     assert.equal(await page.evaluate(()=>QUESTIONS.filter(q=>q.bank==='Coordinator Formative Quiz 2').length),30);
     assert(await page.evaluate(()=>QUESTIONS.filter(q=>q.id.startsWith('formative-quiz2-bcr-')).every(q=>window.med25GameBridge.questionLecture('past',q).quiz===2)));
     assert(await page.evaluate(()=>QUESTIONS.filter(q=>['formative-quiz2-bcr-q11','formative-quiz2-bcr-q16'].includes(q.id)).every(q=>q.source_content_locked&&q.answer===q.source_selected_answer&&q.exam_ready)));
@@ -175,7 +175,7 @@ async function run(){
     assert.equal(await row.locator('.lectureAutoCheck.checked').count(),1);assert.equal(await row.locator('.lectureStatus.questions-complete').count(),1);
     await row.locator('[data-lecture-study]').click();assert.equal(await row.locator('.lectureStatus.complete').count(),1);
     await row.locator('[data-lecture-study]').click();assert.equal(await row.locator('.lectureStatus.questions-complete').count(),1);
-    await page.locator('#lectureSourceAudit').evaluate(el=>el.open=true);assert((await page.locator('#lectureSourceAudit').innerText()).includes(read('source-coverage-audit.json').lectures.filter(l=>l.ai_questions===0).length+' topics still need a source'));
+    await page.locator('#lectureSourceAudit').evaluate(el=>el.open=true);assert((await page.locator('#lectureSourceAudit').innerText()).includes(read('source-coverage-audit.json').lectures.filter(l=>l.status==='objective_reference_questions').length+' topics use labelled reference-backed practice'));
     console.log('PASS AI locking, lecture automatic/manual completion, and honest coverage gaps');
 
     // Invalid numeric inputs must stay editable and block Start. Valid exact mixes survive reload without leaking answers.

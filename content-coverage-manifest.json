@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T04:00:00Z",
+  "generated_at": "2026-10-20T12:04:28.280434+03:00",
   "purpose": "Current MED25 Drive sources that must never silently fall to zero AI coverage.",
   "current_drive_sources": [
     {
@@ -823,7 +823,8 @@
       "ai_source_file_id": "1GbS1i9k0u71-WmSR2ZZ22Bpy3XAfEiB0",
       "title": "Anatomical relations of the lungs",
       "lecture_ids": [
-        "anatomy-histology__anatomical-relations-of-the-lungs"
+        "anatomy-histology__anatomical-relations-of-the-lungs",
+        "anatomy-histology__anatomy-of-the-pleura-and-lungs"
       ],
       "minimum_ai_questions": 12,
       "minimum_cases_per_lecture": 4
@@ -998,9 +999,158 @@
       ],
       "minimum_ai_questions": 12,
       "minimum_cases_per_lecture": 4
+    },
+    {
+      "subject": "Physiology",
+      "title": "Transport of carbon dioxide in blood",
+      "drive_file_id": "1zyqvDzyKz0wNyD5tznQpfiVQbUUbhf6g",
+      "ai_source_file_id": "1zyqvDzyKz0wNyD5tznQpfiVQbUUbhf6g__coverage20261020_co2-transport",
+      "lecture_ids": [
+        "physiology__transport-of-carbon-dioxide-in-blood",
+        "physiology__hypoxia-and-cyanosis"
+      ],
+      "minimum_ai_questions": 15,
+      "minimum_cases_per_lecture": 6
+    },
+    {
+      "subject": "Physiology",
+      "title": "Neural control of breathing",
+      "drive_file_id": "1Fr1LzVh6Wj2mab5v1ltJqFSZlFou78vX",
+      "ai_source_file_id": "1Fr1LzVh6Wj2mab5v1ltJqFSZlFou78vX__coverage20261020_neural-breathing",
+      "lecture_ids": [
+        "physiology__neural-control-of-breathing",
+        "physiology__chemical-control-of-breathing"
+      ],
+      "minimum_ai_questions": 15,
+      "minimum_cases_per_lecture": 6
+    },
+    {
+      "subject": "Biochemistry",
+      "title": "Metabolic functions of the lung and Pulmonary Surfactant",
+      "drive_file_id": "1KUis4gdjiSuO6zeoMl5c2ujKwkrOx1Xb",
+      "ai_source_file_id": "1KUis4gdjiSuO6zeoMl5c2ujKwkrOx1Xb__coverage20261020_surfactant-biochemistry",
+      "lecture_ids": [
+        "biochemistry__metabolic-functions-of-the-lung-and-pulmonary-surfactant"
+      ],
+      "minimum_ai_questions": 15,
+      "minimum_cases_per_lecture": 6
+    },
+    {
+      "subject": "Biochemistry",
+      "title": "Acid-base homeostasis and the role of the respiratory system",
+      "drive_file_id": "1nW6VVDDOq79AJTBbgR6jOvY7UcaULqit",
+      "ai_source_file_id": "1nW6VVDDOq79AJTBbgR6jOvY7UcaULqit__coverage20261020_acid-base",
+      "lecture_ids": [
+        "biochemistry__acid-base-homeostasis-and-the-role-of-the-respiratory-system"
+      ],
+      "minimum_ai_questions": 15,
+      "minimum_cases_per_lecture": 6
+    },
+    {
+      "subject": "Microbiology",
+      "title": "Lung immunology:Innate & acquired immune responses in respiratory infections",
+      "drive_file_id": "1ZPOgOTqNPwhysLzsRYcZwIWLiAgz8LIL",
+      "ai_source_file_id": "1ZPOgOTqNPwhysLzsRYcZwIWLiAgz8LIL__coverage20261020_lung-immunity",
+      "lecture_ids": [
+        "microbiology__lung-immunology-innate-acquired-immune-responses-in-respiratory-infections"
+      ],
+      "minimum_ai_questions": 15,
+      "minimum_cases_per_lecture": 6
+    },
+    {
+      "subject": "Pathology",
+      "title": "Pathology of bronchial Asthma",
+      "drive_file_id": "1GSwvZ_of6kWjCrJSUGs_1L9J_zrfm-Ub",
+      "ai_source_file_id": "1GSwvZ_of6kWjCrJSUGs_1L9J_zrfm-Ub__coverage20261020_asthma-pathology",
+      "lecture_ids": [
+        "pathology__pathology-of-bronchial-asthma"
+      ],
+      "minimum_ai_questions": 15,
+      "minimum_cases_per_lecture": 6
     }
   ],
-  "current_non_drive_sources": [],
+  "current_non_drive_sources": [
+    {
+      "title": "Haematopoiesis",
+      "source_file_id": "study-guide-reference__haematopoiesis",
+      "lecture_ids": [
+        "anatomy-histology__haematopoiesis"
+      ],
+      "minimum_ai_questions": 15,
+      "minimum_cases_per_lecture": 6,
+      "source_kind": "study_guide_reference"
+    },
+    {
+      "title": "Physiology approch to circulatory shock",
+      "source_file_id": "study-guide-reference__shock",
+      "lecture_ids": [
+        "physiology__physiology-approch-to-circulatory-shock"
+      ],
+      "minimum_ai_questions": 15,
+      "minimum_cases_per_lecture": 6,
+      "source_kind": "study_guide_reference"
+    },
+    {
+      "title": "Physiology of microcirculation and cardiac edema",
+      "source_file_id": "study-guide-reference__microcirculation",
+      "lecture_ids": [
+        "physiology__physiology-of-microcirculation-and-cardiac-edema"
+      ],
+      "minimum_ai_questions": 15,
+      "minimum_cases_per_lecture": 6,
+      "source_kind": "study_guide_reference"
+    },
+    {
+      "title": "Pathology of Heart Failure",
+      "source_file_id": "study-guide-reference__heart-failure-pathology",
+      "lecture_ids": [
+        "pathology__pathology-of-heart-failure"
+      ],
+      "minimum_ai_questions": 15,
+      "minimum_cases_per_lecture": 6,
+      "source_kind": "study_guide_reference"
+    },
+    {
+      "title": "Cardiomyopathies",
+      "source_file_id": "study-guide-reference__cardiomyopathies",
+      "lecture_ids": [
+        "pathology__cardiomyopathies"
+      ],
+      "minimum_ai_questions": 15,
+      "minimum_cases_per_lecture": 6,
+      "source_kind": "study_guide_reference"
+    },
+    {
+      "title": "Drugs used in Heart failure",
+      "source_file_id": "study-guide-reference__heart-failure-drugs",
+      "lecture_ids": [
+        "pharmacology__drugs-used-in-heart-failure"
+      ],
+      "minimum_ai_questions": 15,
+      "minimum_cases_per_lecture": 6,
+      "source_kind": "study_guide_reference"
+    },
+    {
+      "title": "Visceral leishmaniasis",
+      "source_file_id": "study-guide-reference__visceral-leishmaniasis",
+      "lecture_ids": [
+        "microbiology__visceral-leishmaniasis"
+      ],
+      "minimum_ai_questions": 15,
+      "minimum_cases_per_lecture": 6,
+      "source_kind": "study_guide_reference"
+    },
+    {
+      "title": "Upper respiratory tract infections",
+      "source_file_id": "study-guide-reference__urti-microbiology",
+      "lecture_ids": [
+        "microbiology__upper-respiratory-tract-infections"
+      ],
+      "minimum_ai_questions": 15,
+      "minimum_cases_per_lecture": 6,
+      "source_kind": "study_guide_reference"
+    }
+  ],
   "refresh_2026_10_16": {
     "new_lecture_sets": 22,
     "new_questions": 330,
@@ -1030,5 +1180,183 @@
       "microbiology__verminous-pneumonia-parasitic-larvae-invading-lung",
       "microbiology__cystic-parasitic-diseases-of-the-lung"
     ]
+  },
+  "all_official_topics_require_ai": true,
+  "objective_topic_supplements": [
+    {
+      "title": "Anatomy of the pleura and lungs",
+      "source_file_id": "1GbS1i9k0u71-WmSR2ZZ22Bpy3XAfEiB0__coverage20261020_pleura",
+      "lecture_ids": [
+        "anatomy-histology__anatomy-of-the-pleura-and-lungs"
+      ],
+      "minimum_ai_questions": 15,
+      "minimum_cases_per_lecture": 6,
+      "source_kind": "course_plus_reference"
+    },
+    {
+      "title": "Haematopoiesis",
+      "source_file_id": "study-guide-reference__haematopoiesis",
+      "lecture_ids": [
+        "anatomy-histology__haematopoiesis"
+      ],
+      "minimum_ai_questions": 15,
+      "minimum_cases_per_lecture": 6,
+      "source_kind": "study_guide_reference"
+    },
+    {
+      "title": "Physiology approch to circulatory shock",
+      "source_file_id": "study-guide-reference__shock",
+      "lecture_ids": [
+        "physiology__physiology-approch-to-circulatory-shock"
+      ],
+      "minimum_ai_questions": 15,
+      "minimum_cases_per_lecture": 6,
+      "source_kind": "study_guide_reference"
+    },
+    {
+      "title": "Physiology of microcirculation and cardiac edema",
+      "source_file_id": "study-guide-reference__microcirculation",
+      "lecture_ids": [
+        "physiology__physiology-of-microcirculation-and-cardiac-edema"
+      ],
+      "minimum_ai_questions": 15,
+      "minimum_cases_per_lecture": 6,
+      "source_kind": "study_guide_reference"
+    },
+    {
+      "title": "Transport of carbon dioxide in blood",
+      "source_file_id": "1zyqvDzyKz0wNyD5tznQpfiVQbUUbhf6g__coverage20261020_co2-transport",
+      "lecture_ids": [
+        "physiology__transport-of-carbon-dioxide-in-blood"
+      ],
+      "minimum_ai_questions": 15,
+      "minimum_cases_per_lecture": 6,
+      "source_kind": "course_material"
+    },
+    {
+      "title": "Neural control of breathing",
+      "source_file_id": "1Fr1LzVh6Wj2mab5v1ltJqFSZlFou78vX__coverage20261020_neural-breathing",
+      "lecture_ids": [
+        "physiology__neural-control-of-breathing"
+      ],
+      "minimum_ai_questions": 15,
+      "minimum_cases_per_lecture": 6,
+      "source_kind": "course_material"
+    },
+    {
+      "title": "Chemical control of breathing",
+      "source_file_id": "1Fr1LzVh6Wj2mab5v1ltJqFSZlFou78vX__coverage20261020_chemical-breathing",
+      "lecture_ids": [
+        "physiology__chemical-control-of-breathing"
+      ],
+      "minimum_ai_questions": 15,
+      "minimum_cases_per_lecture": 6,
+      "source_kind": "course_material"
+    },
+    {
+      "title": "Hypoxia and cyanosis",
+      "source_file_id": "1zyqvDzyKz0wNyD5tznQpfiVQbUUbhf6g__coverage20261020_hypoxia-cyanosis",
+      "lecture_ids": [
+        "physiology__hypoxia-and-cyanosis"
+      ],
+      "minimum_ai_questions": 15,
+      "minimum_cases_per_lecture": 6,
+      "source_kind": "course_plus_reference"
+    },
+    {
+      "title": "Metabolic functions of the lung and Pulmonary Surfactant",
+      "source_file_id": "1KUis4gdjiSuO6zeoMl5c2ujKwkrOx1Xb__coverage20261020_surfactant-biochemistry",
+      "lecture_ids": [
+        "biochemistry__metabolic-functions-of-the-lung-and-pulmonary-surfactant"
+      ],
+      "minimum_ai_questions": 15,
+      "minimum_cases_per_lecture": 6,
+      "source_kind": "course_material"
+    },
+    {
+      "title": "Acid-base homeostasis and the role of the respiratory system",
+      "source_file_id": "1nW6VVDDOq79AJTBbgR6jOvY7UcaULqit__coverage20261020_acid-base",
+      "lecture_ids": [
+        "biochemistry__acid-base-homeostasis-and-the-role-of-the-respiratory-system"
+      ],
+      "minimum_ai_questions": 15,
+      "minimum_cases_per_lecture": 6,
+      "source_kind": "course_material"
+    },
+    {
+      "title": "Lung immunology:Innate & acquired immune responses in respiratory infections",
+      "source_file_id": "1ZPOgOTqNPwhysLzsRYcZwIWLiAgz8LIL__coverage20261020_lung-immunity",
+      "lecture_ids": [
+        "microbiology__lung-immunology-innate-acquired-immune-responses-in-respiratory-infections"
+      ],
+      "minimum_ai_questions": 15,
+      "minimum_cases_per_lecture": 6,
+      "source_kind": "course_material"
+    },
+    {
+      "title": "Pathology of Heart Failure",
+      "source_file_id": "study-guide-reference__heart-failure-pathology",
+      "lecture_ids": [
+        "pathology__pathology-of-heart-failure"
+      ],
+      "minimum_ai_questions": 15,
+      "minimum_cases_per_lecture": 6,
+      "source_kind": "study_guide_reference"
+    },
+    {
+      "title": "Cardiomyopathies",
+      "source_file_id": "study-guide-reference__cardiomyopathies",
+      "lecture_ids": [
+        "pathology__cardiomyopathies"
+      ],
+      "minimum_ai_questions": 15,
+      "minimum_cases_per_lecture": 6,
+      "source_kind": "study_guide_reference"
+    },
+    {
+      "title": "Pathology of bronchial Asthma",
+      "source_file_id": "1GSwvZ_of6kWjCrJSUGs_1L9J_zrfm-Ub__coverage20261020_asthma-pathology",
+      "lecture_ids": [
+        "pathology__pathology-of-bronchial-asthma"
+      ],
+      "minimum_ai_questions": 15,
+      "minimum_cases_per_lecture": 6,
+      "source_kind": "course_study_material"
+    },
+    {
+      "title": "Drugs used in Heart failure",
+      "source_file_id": "study-guide-reference__heart-failure-drugs",
+      "lecture_ids": [
+        "pharmacology__drugs-used-in-heart-failure"
+      ],
+      "minimum_ai_questions": 15,
+      "minimum_cases_per_lecture": 6,
+      "source_kind": "study_guide_reference"
+    },
+    {
+      "title": "Visceral leishmaniasis",
+      "source_file_id": "study-guide-reference__visceral-leishmaniasis",
+      "lecture_ids": [
+        "microbiology__visceral-leishmaniasis"
+      ],
+      "minimum_ai_questions": 15,
+      "minimum_cases_per_lecture": 6,
+      "source_kind": "study_guide_reference"
+    },
+    {
+      "title": "Upper respiratory tract infections",
+      "source_file_id": "study-guide-reference__urti-microbiology",
+      "lecture_ids": [
+        "microbiology__upper-respiratory-tract-infections"
+      ],
+      "minimum_ai_questions": 15,
+      "minimum_cases_per_lecture": 6,
+      "source_kind": "study_guide_reference"
+    }
+  ],
+  "current_counts": {
+    "ai_questions": 1564,
+    "past_questions": 1691,
+    "past_mock_ready": 1436
   }
 }

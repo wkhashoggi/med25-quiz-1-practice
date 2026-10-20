@@ -1,0 +1,805 @@
+{
+  "date": "2026-10-20",
+  "baseline_commit": "23fa34d048476025dcf2b3381a7e9380f999aa89",
+  "added_questions": 255,
+  "previous_active_questions": 1309,
+  "active_questions": 1564,
+  "guide_topics": 106,
+  "covered_topics": 106,
+  "previously_empty_topics": [
+    "anatomy-histology__anatomy-of-the-pleura-and-lungs",
+    "anatomy-histology__haematopoiesis",
+    "physiology__physiology-approch-to-circulatory-shock",
+    "physiology__physiology-of-microcirculation-and-cardiac-edema",
+    "physiology__transport-of-carbon-dioxide-in-blood",
+    "physiology__neural-control-of-breathing",
+    "physiology__chemical-control-of-breathing",
+    "physiology__hypoxia-and-cyanosis",
+    "biochemistry__metabolic-functions-of-the-lung-and-pulmonary-surfactant",
+    "biochemistry__acid-base-homeostasis-and-the-role-of-the-respiratory-system",
+    "microbiology__lung-immunology-innate-acquired-immune-responses-in-respiratory-infections",
+    "pathology__pathology-of-heart-failure",
+    "pathology__cardiomyopathies",
+    "pathology__pathology-of-bronchial-asthma",
+    "pharmacology__drugs-used-in-heart-failure",
+    "microbiology__visceral-leishmaniasis",
+    "microbiology__upper-respiratory-tract-infections"
+  ],
+  "sets": [
+    {
+      "lecture_id": "anatomy-histology__anatomy-of-the-pleura-and-lungs",
+      "set_id": "ai_set_gap20261020_pleura",
+      "title": "Anatomy of the pleura and lungs",
+      "quiz": 2,
+      "subject": "Anatomy & Histology",
+      "question_count": 15,
+      "case_count": 6,
+      "objective_numbers": [
+        1,
+        2,
+        3
+      ],
+      "source_kind": "course_plus_reference",
+      "source_file_id": "1GbS1i9k0u71-WmSR2ZZ22Bpy3XAfEiB0__coverage20261020_pleura",
+      "source_drive_file_id": "1GbS1i9k0u71-WmSR2ZZ22Bpy3XAfEiB0",
+      "references": [
+        {
+          "title": "Course material: Anatomy of the pleura and lungs",
+          "url": "https://drive.google.com/file/d/1GbS1i9k0u71-WmSR2ZZ22Bpy3XAfEiB0/view"
+        },
+        {
+          "title": "NCBI Bookshelf: Anatomy of the pleurae",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK541079/"
+        }
+      ],
+      "question_ids": [
+        "ai_gap20261020_pleura_01",
+        "ai_gap20261020_pleura_02",
+        "ai_gap20261020_pleura_03",
+        "ai_gap20261020_pleura_04",
+        "ai_gap20261020_pleura_05",
+        "ai_gap20261020_pleura_06",
+        "ai_gap20261020_pleura_07",
+        "ai_gap20261020_pleura_08",
+        "ai_gap20261020_pleura_09",
+        "ai_gap20261020_pleura_10",
+        "ai_gap20261020_pleura_11",
+        "ai_gap20261020_pleura_12",
+        "ai_gap20261020_pleura_13",
+        "ai_gap20261020_pleura_14",
+        "ai_gap20261020_pleura_15"
+      ]
+    },
+    {
+      "lecture_id": "anatomy-histology__haematopoiesis",
+      "set_id": "ai_set_gap20261020_haematopoiesis",
+      "title": "Haematopoiesis",
+      "quiz": 1,
+      "subject": "Anatomy & Histology",
+      "question_count": 15,
+      "case_count": 6,
+      "objective_numbers": [
+        1,
+        2
+      ],
+      "source_kind": "study_guide_reference",
+      "source_file_id": "study-guide-reference__haematopoiesis",
+      "source_drive_file_id": null,
+      "references": [
+        {
+          "title": "NCBI Bookshelf: Embryology, Hematopoiesis",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK544245/"
+        },
+        {
+          "title": "NCBI Clinical Methods: Reticulocytes",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK264/"
+        }
+      ],
+      "question_ids": [
+        "ai_gap20261020_haematopoiesis_01",
+        "ai_gap20261020_haematopoiesis_02",
+        "ai_gap20261020_haematopoiesis_03",
+        "ai_gap20261020_haematopoiesis_04",
+        "ai_gap20261020_haematopoiesis_05",
+        "ai_gap20261020_haematopoiesis_06",
+        "ai_gap20261020_haematopoiesis_07",
+        "ai_gap20261020_haematopoiesis_08",
+        "ai_gap20261020_haematopoiesis_09",
+        "ai_gap20261020_haematopoiesis_10",
+        "ai_gap20261020_haematopoiesis_11",
+        "ai_gap20261020_haematopoiesis_12",
+        "ai_gap20261020_haematopoiesis_13",
+        "ai_gap20261020_haematopoiesis_14",
+        "ai_gap20261020_haematopoiesis_15"
+      ]
+    },
+    {
+      "lecture_id": "physiology__physiology-approch-to-circulatory-shock",
+      "set_id": "ai_set_gap20261020_shock",
+      "title": "Physiology approch to circulatory shock",
+      "quiz": 1,
+      "subject": "Physiology",
+      "question_count": 15,
+      "case_count": 7,
+      "objective_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "source_kind": "study_guide_reference",
+      "source_file_id": "study-guide-reference__shock",
+      "source_drive_file_id": null,
+      "references": [
+        {
+          "title": "MSD Manual Professional: Shock",
+          "url": "https://www.msdmanuals.com/professional/critical-care-medicine/shock-and-fluid-resuscitation/shock"
+        },
+        {
+          "title": "MSD Manual Professional: Overview of Heart Failure",
+          "url": "https://www.msdmanuals.com/professional/cardiovascular-disorders/heart-failure/overview-of-heart-failure"
+        }
+      ],
+      "question_ids": [
+        "ai_gap20261020_shock_01",
+        "ai_gap20261020_shock_02",
+        "ai_gap20261020_shock_03",
+        "ai_gap20261020_shock_04",
+        "ai_gap20261020_shock_05",
+        "ai_gap20261020_shock_06",
+        "ai_gap20261020_shock_07",
+        "ai_gap20261020_shock_08",
+        "ai_gap20261020_shock_09",
+        "ai_gap20261020_shock_10",
+        "ai_gap20261020_shock_11",
+        "ai_gap20261020_shock_12",
+        "ai_gap20261020_shock_13",
+        "ai_gap20261020_shock_14",
+        "ai_gap20261020_shock_15"
+      ]
+    },
+    {
+      "lecture_id": "physiology__physiology-of-microcirculation-and-cardiac-edema",
+      "set_id": "ai_set_gap20261020_microcirculation",
+      "title": "Physiology of microcirculation and cardiac edema",
+      "quiz": 1,
+      "subject": "Physiology",
+      "question_count": 15,
+      "case_count": 6,
+      "objective_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "source_kind": "study_guide_reference",
+      "source_file_id": "study-guide-reference__microcirculation",
+      "source_drive_file_id": null,
+      "references": [
+        {
+          "title": "NCBI Bookshelf: Physiology, Edema",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK537065/"
+        },
+        {
+          "title": "NCBI Bookshelf: Pathophysiology of Edema Formation",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK53445/"
+        },
+        {
+          "title": "MSD Manual Professional: Overview of Heart Failure",
+          "url": "https://www.msdmanuals.com/professional/cardiovascular-disorders/heart-failure/overview-of-heart-failure"
+        }
+      ],
+      "question_ids": [
+        "ai_gap20261020_microcirculation_01",
+        "ai_gap20261020_microcirculation_02",
+        "ai_gap20261020_microcirculation_03",
+        "ai_gap20261020_microcirculation_04",
+        "ai_gap20261020_microcirculation_05",
+        "ai_gap20261020_microcirculation_06",
+        "ai_gap20261020_microcirculation_07",
+        "ai_gap20261020_microcirculation_08",
+        "ai_gap20261020_microcirculation_09",
+        "ai_gap20261020_microcirculation_10",
+        "ai_gap20261020_microcirculation_11",
+        "ai_gap20261020_microcirculation_12",
+        "ai_gap20261020_microcirculation_13",
+        "ai_gap20261020_microcirculation_14",
+        "ai_gap20261020_microcirculation_15"
+      ]
+    },
+    {
+      "lecture_id": "physiology__transport-of-carbon-dioxide-in-blood",
+      "set_id": "ai_set_gap20261020_co2-transport",
+      "title": "Transport of carbon dioxide in blood",
+      "quiz": 2,
+      "subject": "Physiology",
+      "question_count": 15,
+      "case_count": 6,
+      "objective_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "source_kind": "course_material",
+      "source_file_id": "1zyqvDzyKz0wNyD5tznQpfiVQbUUbhf6g__coverage20261020_co2-transport",
+      "source_drive_file_id": "1zyqvDzyKz0wNyD5tznQpfiVQbUUbhf6g",
+      "references": [
+        {
+          "title": "Course material: Transport of carbon dioxide in blood",
+          "url": "https://drive.google.com/file/d/1zyqvDzyKz0wNyD5tznQpfiVQbUUbhf6g/view"
+        }
+      ],
+      "question_ids": [
+        "ai_gap20261020_co2-transport_01",
+        "ai_gap20261020_co2-transport_02",
+        "ai_gap20261020_co2-transport_03",
+        "ai_gap20261020_co2-transport_04",
+        "ai_gap20261020_co2-transport_05",
+        "ai_gap20261020_co2-transport_06",
+        "ai_gap20261020_co2-transport_07",
+        "ai_gap20261020_co2-transport_08",
+        "ai_gap20261020_co2-transport_09",
+        "ai_gap20261020_co2-transport_10",
+        "ai_gap20261020_co2-transport_11",
+        "ai_gap20261020_co2-transport_12",
+        "ai_gap20261020_co2-transport_13",
+        "ai_gap20261020_co2-transport_14",
+        "ai_gap20261020_co2-transport_15"
+      ]
+    },
+    {
+      "lecture_id": "physiology__neural-control-of-breathing",
+      "set_id": "ai_set_gap20261020_neural-breathing",
+      "title": "Neural control of breathing",
+      "quiz": 2,
+      "subject": "Physiology",
+      "question_count": 15,
+      "case_count": 6,
+      "objective_numbers": [
+        1,
+        2,
+        3
+      ],
+      "source_kind": "course_material",
+      "source_file_id": "1Fr1LzVh6Wj2mab5v1ltJqFSZlFou78vX__coverage20261020_neural-breathing",
+      "source_drive_file_id": "1Fr1LzVh6Wj2mab5v1ltJqFSZlFou78vX",
+      "references": [
+        {
+          "title": "Course material: Neural control of breathing",
+          "url": "https://drive.google.com/file/d/1Fr1LzVh6Wj2mab5v1ltJqFSZlFou78vX/view"
+        }
+      ],
+      "question_ids": [
+        "ai_gap20261020_neural-breathing_01",
+        "ai_gap20261020_neural-breathing_02",
+        "ai_gap20261020_neural-breathing_03",
+        "ai_gap20261020_neural-breathing_04",
+        "ai_gap20261020_neural-breathing_05",
+        "ai_gap20261020_neural-breathing_06",
+        "ai_gap20261020_neural-breathing_07",
+        "ai_gap20261020_neural-breathing_08",
+        "ai_gap20261020_neural-breathing_09",
+        "ai_gap20261020_neural-breathing_10",
+        "ai_gap20261020_neural-breathing_11",
+        "ai_gap20261020_neural-breathing_12",
+        "ai_gap20261020_neural-breathing_13",
+        "ai_gap20261020_neural-breathing_14",
+        "ai_gap20261020_neural-breathing_15"
+      ]
+    },
+    {
+      "lecture_id": "physiology__chemical-control-of-breathing",
+      "set_id": "ai_set_gap20261020_chemical-breathing",
+      "title": "Chemical control of breathing",
+      "quiz": 2,
+      "subject": "Physiology",
+      "question_count": 15,
+      "case_count": 6,
+      "objective_numbers": [
+        1,
+        2
+      ],
+      "source_kind": "course_material",
+      "source_file_id": "1Fr1LzVh6Wj2mab5v1ltJqFSZlFou78vX__coverage20261020_chemical-breathing",
+      "source_drive_file_id": "1Fr1LzVh6Wj2mab5v1ltJqFSZlFou78vX",
+      "references": [
+        {
+          "title": "Course material: Chemical control of breathing",
+          "url": "https://drive.google.com/file/d/1Fr1LzVh6Wj2mab5v1ltJqFSZlFou78vX/view"
+        }
+      ],
+      "question_ids": [
+        "ai_gap20261020_chemical-breathing_01",
+        "ai_gap20261020_chemical-breathing_02",
+        "ai_gap20261020_chemical-breathing_03",
+        "ai_gap20261020_chemical-breathing_04",
+        "ai_gap20261020_chemical-breathing_05",
+        "ai_gap20261020_chemical-breathing_06",
+        "ai_gap20261020_chemical-breathing_07",
+        "ai_gap20261020_chemical-breathing_08",
+        "ai_gap20261020_chemical-breathing_09",
+        "ai_gap20261020_chemical-breathing_10",
+        "ai_gap20261020_chemical-breathing_11",
+        "ai_gap20261020_chemical-breathing_12",
+        "ai_gap20261020_chemical-breathing_13",
+        "ai_gap20261020_chemical-breathing_14",
+        "ai_gap20261020_chemical-breathing_15"
+      ]
+    },
+    {
+      "lecture_id": "physiology__hypoxia-and-cyanosis",
+      "set_id": "ai_set_gap20261020_hypoxia-cyanosis",
+      "title": "Hypoxia and cyanosis",
+      "quiz": 2,
+      "subject": "Physiology",
+      "question_count": 15,
+      "case_count": 6,
+      "objective_numbers": [
+        1,
+        2,
+        3
+      ],
+      "source_kind": "course_plus_reference",
+      "source_file_id": "1zyqvDzyKz0wNyD5tznQpfiVQbUUbhf6g__coverage20261020_hypoxia-cyanosis",
+      "source_drive_file_id": "1zyqvDzyKz0wNyD5tznQpfiVQbUUbhf6g",
+      "references": [
+        {
+          "title": "Course material: Hypoxia and cyanosis",
+          "url": "https://drive.google.com/file/d/1zyqvDzyKz0wNyD5tznQpfiVQbUUbhf6g/view"
+        },
+        {
+          "title": "NCBI Bookshelf: Hypoxia",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK482316/"
+        },
+        {
+          "title": "NCBI Bookshelf: Central and Peripheral Cyanosis",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK559167/"
+        }
+      ],
+      "question_ids": [
+        "ai_gap20261020_hypoxia-cyanosis_01",
+        "ai_gap20261020_hypoxia-cyanosis_02",
+        "ai_gap20261020_hypoxia-cyanosis_03",
+        "ai_gap20261020_hypoxia-cyanosis_04",
+        "ai_gap20261020_hypoxia-cyanosis_05",
+        "ai_gap20261020_hypoxia-cyanosis_06",
+        "ai_gap20261020_hypoxia-cyanosis_07",
+        "ai_gap20261020_hypoxia-cyanosis_08",
+        "ai_gap20261020_hypoxia-cyanosis_09",
+        "ai_gap20261020_hypoxia-cyanosis_10",
+        "ai_gap20261020_hypoxia-cyanosis_11",
+        "ai_gap20261020_hypoxia-cyanosis_12",
+        "ai_gap20261020_hypoxia-cyanosis_13",
+        "ai_gap20261020_hypoxia-cyanosis_14",
+        "ai_gap20261020_hypoxia-cyanosis_15"
+      ]
+    },
+    {
+      "lecture_id": "biochemistry__metabolic-functions-of-the-lung-and-pulmonary-surfactant",
+      "set_id": "ai_set_gap20261020_surfactant-biochemistry",
+      "title": "Metabolic functions of the lung and Pulmonary Surfactant",
+      "quiz": 2,
+      "subject": "Biochemistry",
+      "question_count": 15,
+      "case_count": 6,
+      "objective_numbers": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "source_kind": "course_material",
+      "source_file_id": "1KUis4gdjiSuO6zeoMl5c2ujKwkrOx1Xb__coverage20261020_surfactant-biochemistry",
+      "source_drive_file_id": "1KUis4gdjiSuO6zeoMl5c2ujKwkrOx1Xb",
+      "references": [
+        {
+          "title": "Course material: Metabolic functions of the lung and Pulmonary Surfactant",
+          "url": "https://drive.google.com/file/d/1KUis4gdjiSuO6zeoMl5c2ujKwkrOx1Xb/view"
+        }
+      ],
+      "question_ids": [
+        "ai_gap20261020_surfactant-biochemistry_01",
+        "ai_gap20261020_surfactant-biochemistry_02",
+        "ai_gap20261020_surfactant-biochemistry_03",
+        "ai_gap20261020_surfactant-biochemistry_04",
+        "ai_gap20261020_surfactant-biochemistry_05",
+        "ai_gap20261020_surfactant-biochemistry_06",
+        "ai_gap20261020_surfactant-biochemistry_07",
+        "ai_gap20261020_surfactant-biochemistry_08",
+        "ai_gap20261020_surfactant-biochemistry_09",
+        "ai_gap20261020_surfactant-biochemistry_10",
+        "ai_gap20261020_surfactant-biochemistry_11",
+        "ai_gap20261020_surfactant-biochemistry_12",
+        "ai_gap20261020_surfactant-biochemistry_13",
+        "ai_gap20261020_surfactant-biochemistry_14",
+        "ai_gap20261020_surfactant-biochemistry_15"
+      ]
+    },
+    {
+      "lecture_id": "biochemistry__acid-base-homeostasis-and-the-role-of-the-respiratory-system",
+      "set_id": "ai_set_gap20261020_acid-base",
+      "title": "Acid-base homeostasis and the role of the respiratory system",
+      "quiz": 2,
+      "subject": "Biochemistry",
+      "question_count": 15,
+      "case_count": 6,
+      "objective_numbers": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "source_kind": "course_material",
+      "source_file_id": "1nW6VVDDOq79AJTBbgR6jOvY7UcaULqit__coverage20261020_acid-base",
+      "source_drive_file_id": "1nW6VVDDOq79AJTBbgR6jOvY7UcaULqit",
+      "references": [
+        {
+          "title": "Course material: Acid-base homeostasis and the role of the respiratory system",
+          "url": "https://drive.google.com/file/d/1nW6VVDDOq79AJTBbgR6jOvY7UcaULqit/view"
+        }
+      ],
+      "question_ids": [
+        "ai_gap20261020_acid-base_01",
+        "ai_gap20261020_acid-base_02",
+        "ai_gap20261020_acid-base_03",
+        "ai_gap20261020_acid-base_04",
+        "ai_gap20261020_acid-base_05",
+        "ai_gap20261020_acid-base_06",
+        "ai_gap20261020_acid-base_07",
+        "ai_gap20261020_acid-base_08",
+        "ai_gap20261020_acid-base_09",
+        "ai_gap20261020_acid-base_10",
+        "ai_gap20261020_acid-base_11",
+        "ai_gap20261020_acid-base_12",
+        "ai_gap20261020_acid-base_13",
+        "ai_gap20261020_acid-base_14",
+        "ai_gap20261020_acid-base_15"
+      ]
+    },
+    {
+      "lecture_id": "microbiology__lung-immunology-innate-acquired-immune-responses-in-respiratory-infections",
+      "set_id": "ai_set_gap20261020_lung-immunity",
+      "title": "Lung immunology:Innate & acquired immune responses in respiratory infections",
+      "quiz": 2,
+      "subject": "Microbiology",
+      "question_count": 15,
+      "case_count": 6,
+      "objective_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "source_kind": "course_material",
+      "source_file_id": "1ZPOgOTqNPwhysLzsRYcZwIWLiAgz8LIL__coverage20261020_lung-immunity",
+      "source_drive_file_id": "1ZPOgOTqNPwhysLzsRYcZwIWLiAgz8LIL",
+      "references": [
+        {
+          "title": "Course material: Lung immunology:Innate & acquired immune responses in respiratory infections",
+          "url": "https://drive.google.com/file/d/1ZPOgOTqNPwhysLzsRYcZwIWLiAgz8LIL/view"
+        }
+      ],
+      "question_ids": [
+        "ai_gap20261020_lung-immunity_01",
+        "ai_gap20261020_lung-immunity_02",
+        "ai_gap20261020_lung-immunity_03",
+        "ai_gap20261020_lung-immunity_04",
+        "ai_gap20261020_lung-immunity_05",
+        "ai_gap20261020_lung-immunity_06",
+        "ai_gap20261020_lung-immunity_07",
+        "ai_gap20261020_lung-immunity_08",
+        "ai_gap20261020_lung-immunity_09",
+        "ai_gap20261020_lung-immunity_10",
+        "ai_gap20261020_lung-immunity_11",
+        "ai_gap20261020_lung-immunity_12",
+        "ai_gap20261020_lung-immunity_13",
+        "ai_gap20261020_lung-immunity_14",
+        "ai_gap20261020_lung-immunity_15"
+      ]
+    },
+    {
+      "lecture_id": "pathology__pathology-of-heart-failure",
+      "set_id": "ai_set_gap20261020_heart-failure-pathology",
+      "title": "Pathology of Heart Failure",
+      "quiz": 1,
+      "subject": "Pathology",
+      "question_count": 15,
+      "case_count": 6,
+      "objective_numbers": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "source_kind": "study_guide_reference",
+      "source_file_id": "study-guide-reference__heart-failure-pathology",
+      "source_drive_file_id": null,
+      "references": [
+        {
+          "title": "MSD Manual Professional: Overview of Heart Failure",
+          "url": "https://www.msdmanuals.com/professional/cardiovascular-disorders/heart-failure/overview-of-heart-failure"
+        },
+        {
+          "title": "MSD Manual Professional: Acute Heart Failure",
+          "url": "https://www.msdmanuals.com/professional/cardiovascular-disorders/heart-failure/acute-heart-failure"
+        },
+        {
+          "title": "Monash University: Brown Induration of Lung",
+          "url": "https://www.monash.edu/museumofpathology/respiratory-tract/brown-induration-of-lung"
+        },
+        {
+          "title": "Monash University: Nutmeg Liver",
+          "url": "https://www.monash.edu/museumofpathology/the-liver-biliary-system-and-exocrine-pancreas/nutmeg-liver"
+        }
+      ],
+      "question_ids": [
+        "ai_gap20261020_heart-failure-pathology_01",
+        "ai_gap20261020_heart-failure-pathology_02",
+        "ai_gap20261020_heart-failure-pathology_03",
+        "ai_gap20261020_heart-failure-pathology_04",
+        "ai_gap20261020_heart-failure-pathology_05",
+        "ai_gap20261020_heart-failure-pathology_06",
+        "ai_gap20261020_heart-failure-pathology_07",
+        "ai_gap20261020_heart-failure-pathology_08",
+        "ai_gap20261020_heart-failure-pathology_09",
+        "ai_gap20261020_heart-failure-pathology_10",
+        "ai_gap20261020_heart-failure-pathology_11",
+        "ai_gap20261020_heart-failure-pathology_12",
+        "ai_gap20261020_heart-failure-pathology_13",
+        "ai_gap20261020_heart-failure-pathology_14",
+        "ai_gap20261020_heart-failure-pathology_15"
+      ]
+    },
+    {
+      "lecture_id": "pathology__cardiomyopathies",
+      "set_id": "ai_set_gap20261020_cardiomyopathies",
+      "title": "Cardiomyopathies",
+      "quiz": 1,
+      "subject": "Pathology",
+      "question_count": 15,
+      "case_count": 6,
+      "objective_numbers": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "source_kind": "study_guide_reference",
+      "source_file_id": "study-guide-reference__cardiomyopathies",
+      "source_drive_file_id": null,
+      "references": [
+        {
+          "title": "Merck Manual Professional: Dilated Cardiomyopathy",
+          "url": "https://www.merckmanuals.com/professional/cardiovascular-disorders/cardiomyopathies/dilated-cardiomyopathy"
+        },
+        {
+          "title": "MSD Manual Professional: Hypertrophic Cardiomyopathy",
+          "url": "https://www.msdmanuals.com/professional/cardiovascular-disorders/cardiomyopathies/hypertrophic-cardiomyopathy"
+        },
+        {
+          "title": "MSD Manual Professional: Restrictive Cardiomyopathy",
+          "url": "https://www.msdmanuals.com/professional/cardiovascular-disorders/cardiomyopathies/restrictive-cardiomyopathy"
+        }
+      ],
+      "question_ids": [
+        "ai_gap20261020_cardiomyopathies_01",
+        "ai_gap20261020_cardiomyopathies_02",
+        "ai_gap20261020_cardiomyopathies_03",
+        "ai_gap20261020_cardiomyopathies_04",
+        "ai_gap20261020_cardiomyopathies_05",
+        "ai_gap20261020_cardiomyopathies_06",
+        "ai_gap20261020_cardiomyopathies_07",
+        "ai_gap20261020_cardiomyopathies_08",
+        "ai_gap20261020_cardiomyopathies_09",
+        "ai_gap20261020_cardiomyopathies_10",
+        "ai_gap20261020_cardiomyopathies_11",
+        "ai_gap20261020_cardiomyopathies_12",
+        "ai_gap20261020_cardiomyopathies_13",
+        "ai_gap20261020_cardiomyopathies_14",
+        "ai_gap20261020_cardiomyopathies_15"
+      ]
+    },
+    {
+      "lecture_id": "pathology__pathology-of-bronchial-asthma",
+      "set_id": "ai_set_gap20261020_asthma-pathology",
+      "title": "Pathology of bronchial Asthma",
+      "quiz": 2,
+      "subject": "Pathology",
+      "question_count": 15,
+      "case_count": 6,
+      "objective_numbers": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "source_kind": "course_study_material",
+      "source_file_id": "1GSwvZ_of6kWjCrJSUGs_1L9J_zrfm-Ub__coverage20261020_asthma-pathology",
+      "source_drive_file_id": "1GSwvZ_of6kWjCrJSUGs_1L9J_zrfm-Ub",
+      "references": [
+        {
+          "title": "Course material: Pathology of bronchial Asthma",
+          "url": "https://drive.google.com/file/d/1GSwvZ_of6kWjCrJSUGs_1L9J_zrfm-Ub/view"
+        }
+      ],
+      "question_ids": [
+        "ai_gap20261020_asthma-pathology_01",
+        "ai_gap20261020_asthma-pathology_02",
+        "ai_gap20261020_asthma-pathology_03",
+        "ai_gap20261020_asthma-pathology_04",
+        "ai_gap20261020_asthma-pathology_05",
+        "ai_gap20261020_asthma-pathology_06",
+        "ai_gap20261020_asthma-pathology_07",
+        "ai_gap20261020_asthma-pathology_08",
+        "ai_gap20261020_asthma-pathology_09",
+        "ai_gap20261020_asthma-pathology_10",
+        "ai_gap20261020_asthma-pathology_11",
+        "ai_gap20261020_asthma-pathology_12",
+        "ai_gap20261020_asthma-pathology_13",
+        "ai_gap20261020_asthma-pathology_14",
+        "ai_gap20261020_asthma-pathology_15"
+      ]
+    },
+    {
+      "lecture_id": "pharmacology__drugs-used-in-heart-failure",
+      "set_id": "ai_set_gap20261020_heart-failure-drugs",
+      "title": "Drugs used in Heart failure",
+      "quiz": 1,
+      "subject": "Pharmacology",
+      "question_count": 15,
+      "case_count": 6,
+      "objective_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "source_kind": "study_guide_reference",
+      "source_file_id": "study-guide-reference__heart-failure-drugs",
+      "source_drive_file_id": null,
+      "references": [
+        {
+          "title": "Merck Manual Professional: Medications for Heart Failure",
+          "url": "https://www.merckmanuals.com/professional/cardiovascular-disorders/heart-failure/medications-for-heart-failure"
+        },
+        {
+          "title": "MSD Manual Professional: Acute Heart Failure",
+          "url": "https://www.msdmanuals.com/professional/cardiovascular-disorders/heart-failure/acute-heart-failure"
+        }
+      ],
+      "question_ids": [
+        "ai_gap20261020_heart-failure-drugs_01",
+        "ai_gap20261020_heart-failure-drugs_02",
+        "ai_gap20261020_heart-failure-drugs_03",
+        "ai_gap20261020_heart-failure-drugs_04",
+        "ai_gap20261020_heart-failure-drugs_05",
+        "ai_gap20261020_heart-failure-drugs_06",
+        "ai_gap20261020_heart-failure-drugs_07",
+        "ai_gap20261020_heart-failure-drugs_08",
+        "ai_gap20261020_heart-failure-drugs_09",
+        "ai_gap20261020_heart-failure-drugs_10",
+        "ai_gap20261020_heart-failure-drugs_11",
+        "ai_gap20261020_heart-failure-drugs_12",
+        "ai_gap20261020_heart-failure-drugs_13",
+        "ai_gap20261020_heart-failure-drugs_14",
+        "ai_gap20261020_heart-failure-drugs_15"
+      ]
+    },
+    {
+      "lecture_id": "microbiology__visceral-leishmaniasis",
+      "set_id": "ai_set_gap20261020_visceral-leishmaniasis",
+      "title": "Visceral leishmaniasis",
+      "quiz": 1,
+      "subject": "Microbiology",
+      "question_count": 15,
+      "case_count": 6,
+      "objective_numbers": [
+        1,
+        2
+      ],
+      "source_kind": "study_guide_reference",
+      "source_file_id": "study-guide-reference__visceral-leishmaniasis",
+      "source_drive_file_id": null,
+      "references": [
+        {
+          "title": "CDC DPDx: Leishmaniasis",
+          "url": "https://www.cdc.gov/dpdx/leishmaniasis/"
+        },
+        {
+          "title": "CDC: Clinical Care of Leishmaniasis",
+          "url": "https://www.cdc.gov/leishmaniasis/hcp/clinical-care/index.html"
+        },
+        {
+          "title": "CDC: Clinical Overview of Leishmaniasis",
+          "url": "https://www.cdc.gov/leishmaniasis/hcp/clinical-overview/index.html"
+        }
+      ],
+      "question_ids": [
+        "ai_gap20261020_visceral-leishmaniasis_01",
+        "ai_gap20261020_visceral-leishmaniasis_02",
+        "ai_gap20261020_visceral-leishmaniasis_03",
+        "ai_gap20261020_visceral-leishmaniasis_04",
+        "ai_gap20261020_visceral-leishmaniasis_05",
+        "ai_gap20261020_visceral-leishmaniasis_06",
+        "ai_gap20261020_visceral-leishmaniasis_07",
+        "ai_gap20261020_visceral-leishmaniasis_08",
+        "ai_gap20261020_visceral-leishmaniasis_09",
+        "ai_gap20261020_visceral-leishmaniasis_10",
+        "ai_gap20261020_visceral-leishmaniasis_11",
+        "ai_gap20261020_visceral-leishmaniasis_12",
+        "ai_gap20261020_visceral-leishmaniasis_13",
+        "ai_gap20261020_visceral-leishmaniasis_14",
+        "ai_gap20261020_visceral-leishmaniasis_15"
+      ]
+    },
+    {
+      "lecture_id": "microbiology__upper-respiratory-tract-infections",
+      "set_id": "ai_set_gap20261020_urti-microbiology",
+      "title": "Upper respiratory tract infections",
+      "quiz": 2,
+      "subject": "Microbiology",
+      "question_count": 15,
+      "case_count": 6,
+      "objective_numbers": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "source_kind": "study_guide_reference",
+      "source_file_id": "study-guide-reference__urti-microbiology",
+      "source_drive_file_id": null,
+      "references": [
+        {
+          "title": "CDC: Group A Streptococcal Pharyngitis",
+          "url": "https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/strep-throat.html"
+        },
+        {
+          "title": "CDC: Clinical Guidance for Diphtheria",
+          "url": "https://www.cdc.gov/diphtheria/hcp/clinical-guidance/index.html"
+        },
+        {
+          "title": "CDC: Adult Outpatient Respiratory Infection Guidance",
+          "url": "https://www.cdc.gov/antibiotic-use/hcp/clinical-care/adult-outpatient.html"
+        },
+        {
+          "title": "CDC: About Adenovirus",
+          "url": "https://www.cdc.gov/adenovirus/about/index.html"
+        },
+        {
+          "title": "CDC: Influenza Signs and Symptoms",
+          "url": "https://www.cdc.gov/flu/hcp/clinical-signs/index.html"
+        }
+      ],
+      "question_ids": [
+        "ai_gap20261020_urti-microbiology_01",
+        "ai_gap20261020_urti-microbiology_02",
+        "ai_gap20261020_urti-microbiology_03",
+        "ai_gap20261020_urti-microbiology_04",
+        "ai_gap20261020_urti-microbiology_05",
+        "ai_gap20261020_urti-microbiology_06",
+        "ai_gap20261020_urti-microbiology_07",
+        "ai_gap20261020_urti-microbiology_08",
+        "ai_gap20261020_urti-microbiology_09",
+        "ai_gap20261020_urti-microbiology_10",
+        "ai_gap20261020_urti-microbiology_11",
+        "ai_gap20261020_urti-microbiology_12",
+        "ai_gap20261020_urti-microbiology_13",
+        "ai_gap20261020_urti-microbiology_14",
+        "ai_gap20261020_urti-microbiology_15"
+      ]
+    }
+  ],
+  "original_questions_and_progress_ids_preserved": true,
+  "formative_and_physiology_important_unchanged": true
+}

@@ -2,14 +2,9 @@
   "source": "Formative 2 BCR.pdf",
   "imported_at": "2026-10-17",
   "questions": 30,
-  "graded": 28,
-  "ungraded": [
-    11,
-    16
-  ],
-  "source_selection_discrepancy": [
-    18
-  ],
+  "graded": 30,
+  "ungraded": [],
+  "source_selection_discrepancy": [],
   "question_ids": [
     "formative-quiz2-bcr-q01",
     "formative-quiz2-bcr-q02",
@@ -42,5 +37,6 @@
     "formative-quiz2-bcr-q29",
     "formative-quiz2-bcr-q30"
   ],
-  "notes": "All nine pages visually checked. Source selections kept distinct from reviewed answers. Option C of Q11 is truncated in the original. Q16 uses a non-current definition. Q4 answer hint removed. Only spelling/formatting normalized; incomplete text not reconstructed."
+  "notes": "All nine pages visually checked against formative-quiz2-source.json. Wording, option order, original answer hint and supplied selections preserved at user request. Q11 truncated option retained as supplied. No medical corrections applied.",
+  "restored_at": "2026-10-20"
 }

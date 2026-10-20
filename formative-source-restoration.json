@@ -1,0 +1,1810 @@
+{
+  "date": "2026-10-20",
+  "reason": "User requires formative to match supplied source exactly",
+  "restored_ids": [
+    "formative-quiz2-bcr-q01",
+    "formative-quiz2-bcr-q02",
+    "formative-quiz2-bcr-q03",
+    "formative-quiz2-bcr-q04",
+    "formative-quiz2-bcr-q05",
+    "formative-quiz2-bcr-q06",
+    "formative-quiz2-bcr-q07",
+    "formative-quiz2-bcr-q08",
+    "formative-quiz2-bcr-q09",
+    "formative-quiz2-bcr-q10",
+    "formative-quiz2-bcr-q11",
+    "formative-quiz2-bcr-q12",
+    "formative-quiz2-bcr-q13",
+    "formative-quiz2-bcr-q14",
+    "formative-quiz2-bcr-q15",
+    "formative-quiz2-bcr-q16",
+    "formative-quiz2-bcr-q17",
+    "formative-quiz2-bcr-q18",
+    "formative-quiz2-bcr-q19",
+    "formative-quiz2-bcr-q20",
+    "formative-quiz2-bcr-q21",
+    "formative-quiz2-bcr-q22",
+    "formative-quiz2-bcr-q23",
+    "formative-quiz2-bcr-q24",
+    "formative-quiz2-bcr-q25",
+    "formative-quiz2-bcr-q26",
+    "formative-quiz2-bcr-q27",
+    "formative-quiz2-bcr-q28",
+    "formative-quiz2-bcr-q29",
+    "formative-quiz2-bcr-q30"
+  ],
+  "previous_records": [
+    {
+      "id": "formative-quiz2-bcr-q01",
+      "bank": "Coordinator Formative Quiz 2",
+      "module": "Formative",
+      "page": 1,
+      "number": 1,
+      "section": "Formative Quiz 2",
+      "stem": "A 64-year-old man with COPD has persistent exertional dyspnoea despite appropriate inhaled therapy. Which non-pharmacological intervention is most likely to improve his exercise capacity and quality of life?",
+      "options": {
+        "A": "Routine prophylactic antibiotics",
+        "B": "Pulmonary rehabilitation",
+        "C": "Fluid restriction",
+        "D": "Long-term bed rest"
+      },
+      "answer": "B",
+      "answer_text": "Pulmonary rehabilitation",
+      "explicit_answer_text": null,
+      "source_file": "Formative 2 BCR.pdf",
+      "topic": "Drug therapy of cough and COPD 2",
+      "concepts": [
+        "Drug therapy of cough and COPD 2"
+      ],
+      "excluded_reason": null,
+      "high_yield": true,
+      "high_yield_reason": "formative",
+      "repeat_count": 0,
+      "question_repeat_count": 1,
+      "topic_repeat_count": 1,
+      "frequent_topic": false,
+      "explanation": "Pulmonary rehabilitation combines exercise training, education and support to improve functional capacity and quality of life. Bed rest causes deconditioning; antibiotics are pharmacological, and fluid restriction is not the indicated intervention.",
+      "explanation_status": "study_note",
+      "answer_basis": "ai",
+      "bank_source_url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=1",
+      "quiz": 2,
+      "lecture_id": "pharmacology__drug-therapy-of-cough-and-copd-2",
+      "source_kind": "formative",
+      "tags": [
+        "Coordinator formative",
+        "Quiz 2",
+        "Drug therapy of cough and COPD 2"
+      ],
+      "proofreading_status": "reviewed",
+      "exam_ready": true,
+      "past_paper_sources": [
+        {
+          "file": "Formative 2 BCR.pdf",
+          "page": 1,
+          "number": 1,
+          "url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=1",
+          "source_question_id": "formative-quiz2-bcr-q01"
+        }
+      ],
+      "source_answer_status": "Screenshot selections are not an official answer key",
+      "source_selected_answer": "B",
+      "duplicate_question_ids": [],
+      "repeated_concepts": []
+    },
+    {
+      "id": "formative-quiz2-bcr-q02",
+      "bank": "Coordinator Formative Quiz 2",
+      "module": "Formative",
+      "page": 1,
+      "number": 2,
+      "section": "Formative Quiz 2",
+      "stem": "A child born at 26 weeks survives with intensive care but develops respiratory distress due to insufficient surfactant. This condition is due to improper function of which one of the following cells?",
+      "options": {
+        "A": "Type (II) pneumocytes",
+        "B": "Endothelial cells",
+        "C": "Type (I) pneumocytes",
+        "D": "Clara cells"
+      },
+      "answer": "A",
+      "answer_text": "Type (II) pneumocytes",
+      "explicit_answer_text": null,
+      "source_file": "Formative 2 BCR.pdf",
+      "topic": "Histology of the respiratory system",
+      "concepts": [
+        "Histology of the respiratory system"
+      ],
+      "excluded_reason": null,
+      "high_yield": true,
+      "high_yield_reason": "formative",
+      "repeat_count": 0,
+      "question_repeat_count": 1,
+      "topic_repeat_count": 1,
+      "frequent_topic": false,
+      "explanation": "Type II pneumocytes produce pulmonary surfactant. Type I cells form the thin gas-exchange surface, endothelial cells line vessels, and club (Clara) cells are bronchiolar secretory cells.",
+      "explanation_status": "study_note",
+      "answer_basis": "ai",
+      "bank_source_url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=1",
+      "quiz": 2,
+      "lecture_id": "anatomy-histology__histology-of-the-respiratory-system",
+      "source_kind": "formative",
+      "tags": [
+        "Coordinator formative",
+        "Quiz 2",
+        "Histology of the respiratory system"
+      ],
+      "proofreading_status": "reviewed",
+      "exam_ready": true,
+      "past_paper_sources": [
+        {
+          "file": "Formative 2 BCR.pdf",
+          "page": 1,
+          "number": 2,
+          "url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=1",
+          "source_question_id": "formative-quiz2-bcr-q02"
+        }
+      ],
+      "source_answer_status": "Screenshot selections are not an official answer key",
+      "source_selected_answer": "A",
+      "duplicate_question_ids": [],
+      "repeated_concepts": []
+    },
+    {
+      "id": "formative-quiz2-bcr-q03",
+      "bank": "Coordinator Formative Quiz 2",
+      "module": "Formative",
+      "page": 1,
+      "number": 3,
+      "section": "Formative Quiz 2",
+      "stem": "A 58-year-old woman who has never smoked presents with persistent cough and weight loss. CT scan reveals a peripheral lung mass. Histology shows malignant glandular cells containing mucin. What is the most likely diagnosis?",
+      "options": {
+        "A": "Small cell carcinoma",
+        "B": "Large cell carcinoma",
+        "C": "Squamous cell carcinoma",
+        "D": "Adenocarcinoma"
+      },
+      "answer": "D",
+      "answer_text": "Adenocarcinoma",
+      "explicit_answer_text": null,
+      "source_file": "Formative 2 BCR.pdf",
+      "topic": "Pulmonary Neoplasia",
+      "concepts": [
+        "Pulmonary Neoplasia"
+      ],
+      "excluded_reason": null,
+      "high_yield": true,
+      "high_yield_reason": "formative",
+      "repeat_count": 0,
+      "question_repeat_count": 1,
+      "topic_repeat_count": 1,
+      "frequent_topic": false,
+      "explanation": "Gland formation and mucin production indicate adenocarcinoma. A peripheral lesion in a nonsmoker also supports this diagnosis; squamous carcinoma instead shows squamous differentiation.",
+      "explanation_status": "study_note",
+      "answer_basis": "ai",
+      "bank_source_url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=1",
+      "quiz": 2,
+      "lecture_id": "pathology__pulmonary-neoplasia",
+      "source_kind": "formative",
+      "tags": [
+        "Coordinator formative",
+        "Quiz 2",
+        "Pulmonary Neoplasia"
+      ],
+      "proofreading_status": "reviewed",
+      "exam_ready": true,
+      "past_paper_sources": [
+        {
+          "file": "Formative 2 BCR.pdf",
+          "page": 1,
+          "number": 3,
+          "url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=1",
+          "source_question_id": "formative-quiz2-bcr-q03"
+        }
+      ],
+      "source_answer_status": "Screenshot selections are not an official answer key",
+      "source_selected_answer": "D",
+      "duplicate_question_ids": [],
+      "repeated_concepts": []
+    },
+    {
+      "id": "formative-quiz2-bcr-q04",
+      "bank": "Coordinator Formative Quiz 2",
+      "module": "Formative",
+      "page": 2,
+      "number": 4,
+      "section": "Formative Quiz 2",
+      "stem": "Which cell is primarily responsible for killing virus-infected respiratory epithelial cells through recognition of antigen presented on MHC class I molecules?",
+      "options": {
+        "A": "B-lymphocyte",
+        "B": "CD8+ cytotoxic T cell",
+        "C": "CD4+ T helper cell",
+        "D": "Alveolar macrophage"
+      },
+      "answer": "B",
+      "answer_text": "CD8+ cytotoxic T cell",
+      "explicit_answer_text": null,
+      "source_file": "Formative 2 BCR.pdf",
+      "topic": "Lung immunology:Innate & acquired immune responses in respiratory infections",
+      "concepts": [
+        "Lung immunology:Innate & acquired immune responses in respiratory infections"
+      ],
+      "excluded_reason": null,
+      "high_yield": true,
+      "high_yield_reason": "formative",
+      "repeat_count": 0,
+      "question_repeat_count": 1,
+      "topic_repeat_count": 1,
+      "frequent_topic": false,
+      "explanation": "CD8-positive cytotoxic T cells recognize peptide on MHC class I and kill infected cells. CD4 cells recognize MHC class II. The answer-revealing parenthetical annotation in the PDF has been omitted from the option.",
+      "explanation_status": "study_note",
+      "answer_basis": "ai",
+      "bank_source_url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=2",
+      "quiz": 2,
+      "lecture_id": "microbiology__lung-immunology-innate-acquired-immune-responses-in-respiratory-infections",
+      "source_kind": "formative",
+      "tags": [
+        "Coordinator formative",
+        "Quiz 2",
+        "Lung immunology:Innate & acquired immune responses in respiratory infections"
+      ],
+      "proofreading_status": "reviewed",
+      "exam_ready": true,
+      "past_paper_sources": [
+        {
+          "file": "Formative 2 BCR.pdf",
+          "page": 2,
+          "number": 4,
+          "url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=2",
+          "source_question_id": "formative-quiz2-bcr-q04"
+        }
+      ],
+      "source_answer_status": "Screenshot selections are not an official answer key",
+      "source_selected_answer": "B",
+      "duplicate_question_ids": [],
+      "repeated_concepts": []
+    },
+    {
+      "id": "formative-quiz2-bcr-q05",
+      "bank": "Coordinator Formative Quiz 2",
+      "module": "Formative",
+      "page": 2,
+      "number": 5,
+      "section": "Formative Quiz 2",
+      "stem": "Most common etiologic factor implicated in chronic bronchitis is:",
+      "options": {
+        "A": "Atmospheric pollution",
+        "B": "Cotton mills",
+        "C": "Cigarette smoking",
+        "D": "Mycoplasma infection"
+      },
+      "answer": "C",
+      "answer_text": "Cigarette smoking",
+      "explicit_answer_text": null,
+      "source_file": "Formative 2 BCR.pdf",
+      "topic": "Obstructive airway diseases",
+      "concepts": [
+        "Obstructive airway diseases"
+      ],
+      "excluded_reason": null,
+      "high_yield": true,
+      "high_yield_reason": "repeated_concept",
+      "repeat_count": 8,
+      "question_repeat_count": 1,
+      "topic_repeat_count": 1,
+      "frequent_topic": false,
+      "explanation": "Cigarette smoking is the major etiologic factor in chronic bronchitis, promoting airway inflammation and mucus hypersecretion. Pollution can contribute but is not the best answer among these choices.",
+      "explanation_status": "study_note",
+      "answer_basis": "ai",
+      "bank_source_url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=2",
+      "quiz": 2,
+      "lecture_id": "pathology__obstructive-airway-diseases",
+      "source_kind": "formative",
+      "tags": [
+        "Coordinator formative",
+        "Quiz 2",
+        "Obstructive airway diseases"
+      ],
+      "proofreading_status": "reviewed",
+      "exam_ready": true,
+      "past_paper_sources": [
+        {
+          "file": "Formative 2 BCR.pdf",
+          "page": 2,
+          "number": 5,
+          "url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=2",
+          "source_question_id": "formative-quiz2-bcr-q05"
+        }
+      ],
+      "source_answer_status": "Screenshot selections are not an official answer key",
+      "source_selected_answer": "C",
+      "duplicate_question_ids": [],
+      "repeated_concepts": [
+        "Chronic bronchitis diagnostic pattern"
+      ]
+    },
+    {
+      "id": "formative-quiz2-bcr-q06",
+      "bank": "Coordinator Formative Quiz 2",
+      "module": "Formative",
+      "page": 2,
+      "number": 6,
+      "section": "Formative Quiz 2",
+      "stem": "Which part of the ECG corresponds to the plateau phase (Phase 2) of the ventricular action potential?",
+      "options": {
+        "A": "QRS complex",
+        "B": "T wave",
+        "C": "ST segment",
+        "D": "PR interval"
+      },
+      "answer": "C",
+      "answer_text": "ST segment",
+      "explicit_answer_text": null,
+      "source_file": "Formative 2 BCR.pdf",
+      "topic": "Normal ECG",
+      "concepts": [
+        "Normal ECG"
+      ],
+      "excluded_reason": null,
+      "high_yield": true,
+      "high_yield_reason": "formative",
+      "repeat_count": 0,
+      "question_repeat_count": 1,
+      "topic_repeat_count": 1,
+      "frequent_topic": false,
+      "explanation": "During the ventricular plateau the ventricles are broadly depolarized, corresponding to the ST segment. QRS reflects ventricular depolarization and the T wave reflects ventricular repolarization.",
+      "explanation_status": "study_note",
+      "answer_basis": "ai",
+      "bank_source_url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=2",
+      "quiz": 2,
+      "lecture_id": "physiology__normal-ecg",
+      "source_kind": "formative",
+      "tags": [
+        "Coordinator formative",
+        "Quiz 2",
+        "Normal ECG"
+      ],
+      "proofreading_status": "reviewed",
+      "exam_ready": true,
+      "past_paper_sources": [
+        {
+          "file": "Formative 2 BCR.pdf",
+          "page": 2,
+          "number": 6,
+          "url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=2",
+          "source_question_id": "formative-quiz2-bcr-q06"
+        }
+      ],
+      "source_answer_status": "Screenshot selections are not an official answer key",
+      "source_selected_answer": "C",
+      "duplicate_question_ids": [],
+      "repeated_concepts": []
+    },
+    {
+      "id": "formative-quiz2-bcr-q07",
+      "bank": "Coordinator Formative Quiz 2",
+      "module": "Formative",
+      "page": 3,
+      "number": 7,
+      "section": "Formative Quiz 2",
+      "stem": "Which of the following is the correct drug–clinical use combination?",
+      "options": {
+        "A": "Albuterol — used as monotherapy in persistent asthma",
+        "B": "Theophylline — has strong anti-inflammatory effects in chronic asthma",
+        "C": "Salmeterol — used alone for acute asthma attacks",
+        "D": "Cromolyn — inhibits mast cell degranulation and is used as prophylactic control therapy"
+      },
+      "answer": "D",
+      "answer_text": "Cromolyn — inhibits mast cell degranulation and is used as prophylactic control therapy",
+      "explicit_answer_text": null,
+      "source_file": "Formative 2 BCR.pdf",
+      "topic": "Drugs used in the treatment of bronchial asthma",
+      "concepts": [
+        "Drugs used in the treatment of bronchial asthma"
+      ],
+      "excluded_reason": null,
+      "high_yield": true,
+      "high_yield_reason": "formative",
+      "repeat_count": 0,
+      "question_repeat_count": 1,
+      "topic_repeat_count": 1,
+      "frequent_topic": false,
+      "explanation": "Cromolyn is a mast-cell stabilizer used prophylactically, not for immediate relief. Salmeterol is not an acute rescue drug and must not be used alone in asthma. The other options misstate the drugs’ roles.",
+      "explanation_status": "study_note",
+      "answer_basis": "ai",
+      "bank_source_url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=3",
+      "quiz": 2,
+      "lecture_id": "pharmacology__drugs-used-in-the-treatment-of-bronchial-asthma",
+      "source_kind": "formative",
+      "tags": [
+        "Coordinator formative",
+        "Quiz 2",
+        "Drugs used in the treatment of bronchial asthma"
+      ],
+      "proofreading_status": "reviewed",
+      "exam_ready": true,
+      "past_paper_sources": [
+        {
+          "file": "Formative 2 BCR.pdf",
+          "page": 3,
+          "number": 7,
+          "url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=3",
+          "source_question_id": "formative-quiz2-bcr-q07"
+        }
+      ],
+      "source_answer_status": "Screenshot selections are not an official answer key",
+      "source_selected_answer": "D",
+      "duplicate_question_ids": [],
+      "repeated_concepts": []
+    },
+    {
+      "id": "formative-quiz2-bcr-q08",
+      "bank": "Coordinator Formative Quiz 2",
+      "module": "Formative",
+      "page": 3,
+      "number": 8,
+      "section": "Formative Quiz 2",
+      "stem": "Which anti-TB drug–adverse effect pair is correctly matched?",
+      "options": {
+        "A": "Rifampin — optic neuritis",
+        "B": "Ethambutol — enzyme induction",
+        "C": "Pyrazinamide — orange body fluids",
+        "D": "Isoniazid — peripheral neuropathy"
+      },
+      "answer": "D",
+      "answer_text": "Isoniazid — peripheral neuropathy",
+      "explicit_answer_text": null,
+      "source_file": "Formative 2 BCR.pdf",
+      "topic": "Treatment of TB",
+      "concepts": [
+        "Treatment of TB"
+      ],
+      "excluded_reason": null,
+      "high_yield": true,
+      "high_yield_reason": "formative",
+      "repeat_count": 0,
+      "question_repeat_count": 1,
+      "topic_repeat_count": 1,
+      "frequent_topic": false,
+      "explanation": "Isoniazid can cause peripheral neuropathy associated with pyridoxine deficiency. Ethambutol is associated with optic toxicity; rifampin induces enzymes and can discolor body fluids orange.",
+      "explanation_status": "study_note",
+      "answer_basis": "ai",
+      "bank_source_url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=3",
+      "quiz": 2,
+      "lecture_id": "pharmacology__treatment-of-tb",
+      "source_kind": "formative",
+      "tags": [
+        "Coordinator formative",
+        "Quiz 2",
+        "Treatment of TB"
+      ],
+      "proofreading_status": "reviewed",
+      "exam_ready": true,
+      "past_paper_sources": [
+        {
+          "file": "Formative 2 BCR.pdf",
+          "page": 3,
+          "number": 8,
+          "url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=3",
+          "source_question_id": "formative-quiz2-bcr-q08"
+        }
+      ],
+      "source_answer_status": "Screenshot selections are not an official answer key",
+      "source_selected_answer": "D",
+      "duplicate_question_ids": [],
+      "repeated_concepts": []
+    },
+    {
+      "id": "formative-quiz2-bcr-q09",
+      "bank": "Coordinator Formative Quiz 2",
+      "module": "Formative",
+      "page": 3,
+      "number": 9,
+      "section": "Formative Quiz 2",
+      "stem": "What is the earliest classic ECG change in hyperkalemia?",
+      "options": {
+        "A": "Prolonged QT interval",
+        "B": "Tall, peaked T waves",
+        "C": "Wide QRS complex",
+        "D": "ST-segment elevation"
+      },
+      "answer": "B",
+      "answer_text": "Tall, peaked T waves",
+      "explicit_answer_text": null,
+      "source_file": "Formative 2 BCR.pdf",
+      "topic": "Abnormal ECG and cardiac arrhythmias",
+      "concepts": [
+        "Abnormal ECG and cardiac arrhythmias"
+      ],
+      "excluded_reason": null,
+      "high_yield": true,
+      "high_yield_reason": "formative",
+      "repeat_count": 0,
+      "question_repeat_count": 1,
+      "topic_repeat_count": 1,
+      "frequent_topic": false,
+      "explanation": "Tall, peaked T waves are the classic early ECG finding. QRS widening is generally a later manifestation. Actual ECG changes are variable and do not reliably track potassium concentration in every patient.",
+      "explanation_status": "study_note",
+      "answer_basis": "ai",
+      "bank_source_url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=3",
+      "quiz": 2,
+      "lecture_id": "physiology__abnormal-ecg-and-cardiac-arrhythmias",
+      "source_kind": "formative",
+      "tags": [
+        "Coordinator formative",
+        "Quiz 2",
+        "Abnormal ECG and cardiac arrhythmias"
+      ],
+      "proofreading_status": "reviewed",
+      "exam_ready": true,
+      "past_paper_sources": [
+        {
+          "file": "Formative 2 BCR.pdf",
+          "page": 3,
+          "number": 9,
+          "url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=3",
+          "source_question_id": "formative-quiz2-bcr-q09"
+        }
+      ],
+      "source_answer_status": "Screenshot selections are not an official answer key",
+      "source_selected_answer": "B",
+      "duplicate_question_ids": [],
+      "repeated_concepts": []
+    },
+    {
+      "id": "formative-quiz2-bcr-q10",
+      "bank": "Coordinator Formative Quiz 2",
+      "module": "Formative",
+      "page": 4,
+      "number": 10,
+      "section": "Formative Quiz 2",
+      "stem": "The maximum decrease in ventricular pressure occurs during:",
+      "options": {
+        "A": "Slow ejection phase",
+        "B": "Isovolumetric relaxation phase",
+        "C": "Isovolumetric contraction phase",
+        "D": "Rapid ejection phase"
+      },
+      "answer": "B",
+      "answer_text": "Isovolumetric relaxation phase",
+      "explicit_answer_text": null,
+      "source_file": "Formative 2 BCR.pdf",
+      "topic": "Cardiac cycle",
+      "concepts": [
+        "Cardiac cycle"
+      ],
+      "excluded_reason": null,
+      "high_yield": true,
+      "high_yield_reason": "formative",
+      "repeat_count": 0,
+      "question_repeat_count": 1,
+      "topic_repeat_count": 1,
+      "frequent_topic": false,
+      "explanation": "During isovolumetric relaxation ventricular pressure falls rapidly while both valve sets are closed and ventricular volume remains constant. Isovolumetric contraction instead raises pressure.",
+      "explanation_status": "study_note",
+      "answer_basis": "ai",
+      "bank_source_url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=4",
+      "quiz": 2,
+      "lecture_id": "physiology__cardiac-cycle",
+      "source_kind": "formative",
+      "tags": [
+        "Coordinator formative",
+        "Quiz 2",
+        "Cardiac cycle"
+      ],
+      "proofreading_status": "reviewed",
+      "exam_ready": true,
+      "past_paper_sources": [
+        {
+          "file": "Formative 2 BCR.pdf",
+          "page": 4,
+          "number": 10,
+          "url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=4",
+          "source_question_id": "formative-quiz2-bcr-q10"
+        }
+      ],
+      "source_answer_status": "Screenshot selections are not an official answer key",
+      "source_selected_answer": "B",
+      "duplicate_question_ids": [],
+      "repeated_concepts": []
+    },
+    {
+      "id": "formative-quiz2-bcr-q11",
+      "bank": "Coordinator Formative Quiz 2",
+      "module": "Formative",
+      "page": 4,
+      "number": 11,
+      "section": "Formative Quiz 2",
+      "stem": "Which drug–indication combination is correct?",
+      "options": {
+        "A": "Adenosine — unstable polymorphic ventricular tachycardia",
+        "B": "Flecainide — atrial fibrillation with significant ischaemic structural heart disease",
+        "C": "IV magnesium — torsades de pointes",
+        "D": "Verapamil — pre-excited atrial fibrillation in WPW"
+      },
+      "answer": "C",
+      "answer_text": "IV magnesium — torsades de pointes",
+      "explicit_answer_text": null,
+      "source_file": "Formative 2 BCR.pdf",
+      "topic": "Antiarrhythmic drugs",
+      "concepts": [
+        "Antiarrhythmic drugs"
+      ],
+      "excluded_reason": null,
+      "high_yield": true,
+      "high_yield_reason": "formative",
+      "repeat_count": 0,
+      "question_repeat_count": 1,
+      "topic_repeat_count": 1,
+      "frequent_topic": false,
+      "explanation": "IV magnesium is the standard pharmacological treatment for torsades. The truncated and ambiguous alternatives were reconstructed.",
+      "explanation_status": "ai_reviewed",
+      "answer_basis": "ai-supplied",
+      "bank_source_url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=4",
+      "quiz": 2,
+      "lecture_id": "pharmacology__antiarrhythmic-drugs",
+      "source_kind": "formative",
+      "tags": [
+        "Coordinator formative",
+        "Quiz 2",
+        "Antiarrhythmic drugs"
+      ],
+      "proofreading_status": "resolved",
+      "exam_ready": true,
+      "past_paper_sources": [
+        {
+          "file": "Formative 2 BCR.pdf",
+          "page": 4,
+          "number": 11,
+          "url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=4",
+          "source_question_id": "formative-quiz2-bcr-q11"
+        }
+      ],
+      "source_answer_status": "Screenshot selections are not an official answer key",
+      "source_selected_answer": "D",
+      "duplicate_question_ids": [],
+      "repeated_concepts": [],
+      "proofreading_notes": "This answer was missing from the original test-bank key. Answer supplied independently by AI; used for study grading and XP. AI-adapted study question: wording, choices or figure were repaired; original recall is retained in the source audit. ",
+      "source_key_status": "missing",
+      "ai_grading_note": "This answer was missing from the original test-bank key. Answer supplied independently by AI; used for study grading and XP.",
+      "reviewed_at": "2026-10-18",
+      "ai_grading_review": "20261018-v1",
+      "review_edit_kind": "adapted",
+      "review_revision": "ai-grading-20261018-v1",
+      "review_note": "This answer was missing from the original test-bank key. Answer supplied independently by AI; used for study grading and XP. AI-adapted study question: wording, choices or figure were repaired; original recall is retained in the source audit. ",
+      "review_references": [
+        {
+          "title": "Torsades de pointes — NCBI Bookshelf",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK459388/"
+        }
+      ]
+    },
+    {
+      "id": "formative-quiz2-bcr-q12",
+      "bank": "Coordinator Formative Quiz 2",
+      "module": "Formative",
+      "page": 4,
+      "number": 12,
+      "section": "Formative Quiz 2",
+      "stem": "Which of the following portions of the respiratory tract lack smooth muscle?",
+      "options": {
+        "A": "Bronchi",
+        "B": "Trachea",
+        "C": "Alveoli",
+        "D": "Bronchioles"
+      },
+      "answer": "C",
+      "answer_text": "Alveoli",
+      "explicit_answer_text": null,
+      "source_file": "Formative 2 BCR.pdf",
+      "topic": "Histology of the respiratory system",
+      "concepts": [
+        "Histology of the respiratory system"
+      ],
+      "excluded_reason": null,
+      "high_yield": true,
+      "high_yield_reason": "formative",
+      "repeat_count": 0,
+      "question_repeat_count": 1,
+      "topic_repeat_count": 1,
+      "frequent_topic": false,
+      "explanation": "Alveolar walls lack the smooth-muscle layer present in conducting airways. The trachea has trachealis muscle, and bronchi and bronchioles contain smooth muscle.",
+      "explanation_status": "study_note",
+      "answer_basis": "ai",
+      "bank_source_url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=4",
+      "quiz": 2,
+      "lecture_id": "anatomy-histology__histology-of-the-respiratory-system",
+      "source_kind": "formative",
+      "tags": [
+        "Coordinator formative",
+        "Quiz 2",
+        "Histology of the respiratory system"
+      ],
+      "proofreading_status": "reviewed",
+      "exam_ready": true,
+      "past_paper_sources": [
+        {
+          "file": "Formative 2 BCR.pdf",
+          "page": 4,
+          "number": 12,
+          "url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=4",
+          "source_question_id": "formative-quiz2-bcr-q12"
+        }
+      ],
+      "source_answer_status": "Screenshot selections are not an official answer key",
+      "source_selected_answer": "C",
+      "duplicate_question_ids": [],
+      "repeated_concepts": []
+    },
+    {
+      "id": "formative-quiz2-bcr-q13",
+      "bank": "Coordinator Formative Quiz 2",
+      "module": "Formative",
+      "page": 5,
+      "number": 13,
+      "section": "Formative Quiz 2",
+      "stem": "After birth, increased arterial oxygen and reduced prostaglandin effects promote functional constriction of which fetal vascular connection?",
+      "options": {
+        "A": "Umbilical vein",
+        "B": "Ductus arteriosus",
+        "C": "Umbilical artery",
+        "D": "Ductus venosus"
+      },
+      "answer": "B",
+      "answer_text": "Ductus arteriosus",
+      "explicit_answer_text": null,
+      "source_file": "Formative 2 BCR.pdf",
+      "topic": "Normal Development of Heart & it’s Great Vessels",
+      "concepts": [
+        "Normal Development of Heart & it’s Great Vessels"
+      ],
+      "excluded_reason": null,
+      "high_yield": true,
+      "high_yield_reason": "formative",
+      "repeat_count": 0,
+      "question_repeat_count": 1,
+      "topic_repeat_count": 1,
+      "frequent_topic": false,
+      "explanation": "The ductus arteriosus constricts as oxygen tension rises and prostaglandin-mediated relaxation falls after birth. Falling pulmonary vascular resistance accompanies the transition but does not by itself explain ductal constriction.",
+      "explanation_status": "reviewed",
+      "answer_basis": "reference-reviewed",
+      "bank_source_url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=5",
+      "quiz": 2,
+      "lecture_id": "anatomy-histology__normal-development-of-heart-it-s-great-vessels",
+      "source_kind": "formative",
+      "tags": [
+        "Coordinator formative",
+        "Quiz 2",
+        "Normal Development of Heart & it’s Great Vessels"
+      ],
+      "proofreading_status": "resolved",
+      "exam_ready": true,
+      "past_paper_sources": [
+        {
+          "file": "Formative 2 BCR.pdf",
+          "page": 5,
+          "number": 13,
+          "url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=5",
+          "source_question_id": "formative-quiz2-bcr-q13"
+        }
+      ],
+      "source_answer_status": "Screenshot selections are not an official answer key",
+      "source_selected_answer": "B",
+      "duplicate_question_ids": [],
+      "repeated_concepts": [],
+      "medical_review_date": "2026-10-18",
+      "medical_review_status": "corrected",
+      "review_note": "Ductal constriction is driven chiefly by increased oxygen and reduced prostaglandin effects, not by pulmonary pressure alone.",
+      "review_references": [
+        {
+          "title": "Normal development of heart and great vessels",
+          "url": "https://drive.google.com/file/d/1eMomfPTXyjMgtqvpaiCPZGp1jEr7vXx9/view"
+        }
+      ],
+      "original_bank_answer": "B",
+      "proofreading_notes": "Ductal constriction is driven chiefly by increased oxygen and reduced prostaglandin effects, not by pulmonary pressure alone.",
+      "review_edit_kind": "adapted",
+      "review_revision": "medical-review-20261018-v1"
+    },
+    {
+      "id": "formative-quiz2-bcr-q14",
+      "bank": "Coordinator Formative Quiz 2",
+      "module": "Formative",
+      "page": 5,
+      "number": 14,
+      "section": "Formative Quiz 2",
+      "stem": "Which of the following is considered to be a major revised Jones criterion?",
+      "options": {
+        "A": "Fever",
+        "B": "Polyarthritis",
+        "C": "Erythema multiforme",
+        "D": "Leukocytosis"
+      },
+      "answer": "B",
+      "answer_text": "Polyarthritis",
+      "explicit_answer_text": null,
+      "source_file": "Formative 2 BCR.pdf",
+      "topic": "Valvular Heart Diseases",
+      "concepts": [
+        "Valvular Heart Diseases"
+      ],
+      "excluded_reason": null,
+      "high_yield": true,
+      "high_yield_reason": "formative",
+      "repeat_count": 0,
+      "question_repeat_count": 1,
+      "topic_repeat_count": 1,
+      "frequent_topic": false,
+      "explanation": "Polyarthritis is a major Jones manifestation. Fever is a minor manifestation, and the characteristic major rash is erythema marginatum, not erythema multiforme. Joint criteria vary with population risk, but polyarthritis remains the best option here.",
+      "explanation_status": "study_note",
+      "answer_basis": "ai",
+      "bank_source_url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=5",
+      "quiz": 2,
+      "lecture_id": "pathology__valvular-heart-diseases",
+      "source_kind": "formative",
+      "tags": [
+        "Coordinator formative",
+        "Quiz 2",
+        "Valvular Heart Diseases"
+      ],
+      "proofreading_status": "reviewed",
+      "exam_ready": true,
+      "past_paper_sources": [
+        {
+          "file": "Formative 2 BCR.pdf",
+          "page": 5,
+          "number": 14,
+          "url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=5",
+          "source_question_id": "formative-quiz2-bcr-q14"
+        }
+      ],
+      "source_answer_status": "Screenshot selections are not an official answer key",
+      "source_selected_answer": "B",
+      "duplicate_question_ids": [],
+      "repeated_concepts": []
+    },
+    {
+      "id": "formative-quiz2-bcr-q15",
+      "bank": "Coordinator Formative Quiz 2",
+      "module": "Formative",
+      "page": 5,
+      "number": 15,
+      "section": "Formative Quiz 2",
+      "stem": "Which of the following is the main action of the transverse arytenoid muscle?",
+      "options": {
+        "A": "Abduct the vocal cords",
+        "B": "Dilate the laryngeal inlet",
+        "C": "Close the laryngeal inlet",
+        "D": "Adduct the vocal cords"
+      },
+      "answer": "D",
+      "answer_text": "Adduct the vocal cords",
+      "explicit_answer_text": null,
+      "source_file": "Formative 2 BCR.pdf",
+      "topic": "Anatomy of the larynx",
+      "concepts": [
+        "Anatomy of the larynx"
+      ],
+      "excluded_reason": null,
+      "high_yield": true,
+      "high_yield_reason": "formative",
+      "repeat_count": 0,
+      "question_repeat_count": 1,
+      "topic_repeat_count": 1,
+      "frequent_topic": false,
+      "explanation": "The transverse arytenoid approximates the arytenoid cartilages, closing the posterior part of the rima glottidis and contributing to vocal-fold adduction. Posterior cricoarytenoid is the abductor.",
+      "explanation_status": "study_note",
+      "answer_basis": "ai",
+      "bank_source_url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=5",
+      "quiz": 2,
+      "lecture_id": "anatomy-histology__anatomy-of-the-larynx",
+      "source_kind": "formative",
+      "tags": [
+        "Coordinator formative",
+        "Quiz 2",
+        "Anatomy of the larynx"
+      ],
+      "proofreading_status": "reviewed",
+      "exam_ready": true,
+      "past_paper_sources": [
+        {
+          "file": "Formative 2 BCR.pdf",
+          "page": 5,
+          "number": 15,
+          "url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=5",
+          "source_question_id": "formative-quiz2-bcr-q15"
+        }
+      ],
+      "source_answer_status": "Screenshot selections are not an official answer key",
+      "source_selected_answer": "D",
+      "duplicate_question_ids": [],
+      "repeated_concepts": []
+    },
+    {
+      "id": "formative-quiz2-bcr-q16",
+      "bank": "Coordinator Formative Quiz 2",
+      "module": "Formative",
+      "page": 5,
+      "number": 16,
+      "section": "Formative Quiz 2",
+      "stem": "According to the Pulmonary Vascular Disease lecture (female slides, slide 3), pulmonary hypertension is defined by a resting pulmonary arterial pressure of at least which value?",
+      "options": {
+        "A": "60 mmHg",
+        "B": "90 mmHg",
+        "C": "25 mmHg",
+        "D": "30 mmHg"
+      },
+      "answer": "C",
+      "answer_text": "25 mmHg",
+      "explicit_answer_text": null,
+      "source_file": "Formative 2 BCR.pdf",
+      "topic": "Pulmonary vessel diseases",
+      "concepts": [
+        "Pulmonary vessel diseases"
+      ],
+      "excluded_reason": null,
+      "high_yield": true,
+      "high_yield_reason": "formative",
+      "repeat_count": 0,
+      "question_repeat_count": 1,
+      "topic_repeat_count": 1,
+      "frequent_topic": false,
+      "explanation": "The lecture defines pulmonary hypertension as pulmonary arterial pressure of 25 mmHg or more at rest (female Pulmonary Vascular Disease lecture, slide 3). This question follows the lecture definition for your course.",
+      "explanation_status": "lecture_reviewed",
+      "answer_basis": "slide-reviewed",
+      "bank_source_url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=5",
+      "quiz": 2,
+      "lecture_id": "pathology__pulmonary-vessel-diseases",
+      "source_kind": "formative",
+      "tags": [
+        "Coordinator formative",
+        "Quiz 2",
+        "Pulmonary vessel diseases"
+      ],
+      "proofreading_status": "resolved",
+      "exam_ready": true,
+      "past_paper_sources": [
+        {
+          "file": "Formative 2 BCR.pdf",
+          "page": 5,
+          "number": 16,
+          "url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=5",
+          "source_question_id": "formative-quiz2-bcr-q16"
+        }
+      ],
+      "source_answer_status": "Screenshot selections are not an official answer key",
+      "source_selected_answer": "A",
+      "duplicate_question_ids": [],
+      "repeated_concepts": [],
+      "proofreading_notes": "Lecture-aligned study question. Option C and the inclusive threshold follow the supplied female lecture slide 3.",
+      "proofreading_references": [
+        "Female Pulmonary Vascular Disease lecture, slide 3 — supplied screenshot"
+      ],
+      "source_key_status": "missing",
+      "reviewed_at": "2026-10-19",
+      "review_edit_kind": "adapted",
+      "review_revision": "lecture-slide-ph-20261019-v1",
+      "review_note": "Corrected to match the female Pulmonary Vascular Disease lecture, slide 3, supplied in the question report: 25 mmHg or more at rest.",
+      "review_references": [
+        {
+          "title": "Female Pulmonary Vascular Disease lecture, slide 3 — screenshot supplied in question report"
+        }
+      ]
+    },
+    {
+      "id": "formative-quiz2-bcr-q17",
+      "bank": "Coordinator Formative Quiz 2",
+      "module": "Formative",
+      "page": 6,
+      "number": 17,
+      "section": "Formative Quiz 2",
+      "stem": "Which pleural fluid color/appearance is most suggestive of a chylothorax?",
+      "options": {
+        "A": "Turbid",
+        "B": "Red (bloody)",
+        "C": "White (milky)",
+        "D": "Pale yellow (straw-colored)"
+      },
+      "answer": "C",
+      "answer_text": "White (milky)",
+      "explicit_answer_text": null,
+      "source_file": "Formative 2 BCR.pdf",
+      "topic": "Anatomy of the pleura and lungs",
+      "concepts": [
+        "Anatomy of the pleura and lungs"
+      ],
+      "excluded_reason": null,
+      "high_yield": true,
+      "high_yield_reason": "formative",
+      "repeat_count": 0,
+      "question_repeat_count": 1,
+      "topic_repeat_count": 1,
+      "frequent_topic": false,
+      "explanation": "Chyle can give pleural fluid a milky white appearance. Appearance alone does not establish the diagnosis; pleural fluid lipid analysis is needed to distinguish chylothorax from other causes of cloudy or milky fluid.",
+      "explanation_status": "study_note",
+      "answer_basis": "ai",
+      "bank_source_url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=6",
+      "quiz": 2,
+      "lecture_id": "anatomy-histology__anatomy-of-the-pleura-and-lungs",
+      "source_kind": "formative",
+      "tags": [
+        "Coordinator formative",
+        "Quiz 2",
+        "Anatomy of the pleura and lungs"
+      ],
+      "proofreading_status": "reviewed",
+      "exam_ready": true,
+      "past_paper_sources": [
+        {
+          "file": "Formative 2 BCR.pdf",
+          "page": 6,
+          "number": 17,
+          "url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=6",
+          "source_question_id": "formative-quiz2-bcr-q17"
+        }
+      ],
+      "source_answer_status": "Screenshot selections are not an official answer key",
+      "source_selected_answer": "C",
+      "duplicate_question_ids": [],
+      "repeated_concepts": []
+    },
+    {
+      "id": "formative-quiz2-bcr-q18",
+      "bank": "Coordinator Formative Quiz 2",
+      "module": "Formative",
+      "page": 6,
+      "number": 18,
+      "section": "Formative Quiz 2",
+      "stem": "Which of the following is the most common type of cardiac tumor?",
+      "options": {
+        "A": "Angiosarcoma",
+        "B": "Metastatic tumor",
+        "C": "Rhabdomyoma",
+        "D": "Cardiac myxoma"
+      },
+      "answer": "B",
+      "answer_text": "Metastatic tumor",
+      "explicit_answer_text": null,
+      "source_file": "Formative 2 BCR.pdf",
+      "topic": "Cardiac and vascular tumours",
+      "concepts": [
+        "Cardiac and vascular tumours"
+      ],
+      "excluded_reason": null,
+      "high_yield": true,
+      "high_yield_reason": "formative",
+      "repeat_count": 0,
+      "question_repeat_count": 1,
+      "topic_repeat_count": 1,
+      "frequent_topic": false,
+      "explanation": "As written, the question includes secondary tumors: metastatic involvement is more common than primary cardiac tumors. The PDF selects D, but myxoma would fit the most common primary cardiac tumor in adults. The stem does not specify “primary”, so B is keyed with this distinction made explicit.",
+      "explanation_status": "study_note",
+      "answer_basis": "reference-reviewed",
+      "bank_source_url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=6",
+      "quiz": 2,
+      "lecture_id": "pathology__cardiac-and-vascular-tumours",
+      "source_kind": "formative",
+      "tags": [
+        "Coordinator formative",
+        "Quiz 2",
+        "Cardiac and vascular tumours"
+      ],
+      "proofreading_status": "reviewed",
+      "exam_ready": true,
+      "past_paper_sources": [
+        {
+          "file": "Formative 2 BCR.pdf",
+          "page": 6,
+          "number": 18,
+          "url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=6",
+          "source_question_id": "formative-quiz2-bcr-q18"
+        }
+      ],
+      "source_answer_status": "Screenshot selections are not an official answer key",
+      "source_selected_answer": "D",
+      "duplicate_question_ids": [],
+      "repeated_concepts": [],
+      "proofreading_notes": "Selected D in the source; B is appropriate for the wording as printed. Myxoma refers to primary adult cardiac tumors.",
+      "proofreading_references": [
+        "https://pubmed.ncbi.nlm.nih.gov/14728061/",
+        "https://www.cancer.gov/types/metastatic-cancer/research/cardiac-tumors"
+      ]
+    },
+    {
+      "id": "formative-quiz2-bcr-q19",
+      "bank": "Coordinator Formative Quiz 2",
+      "module": "Formative",
+      "page": 6,
+      "number": 19,
+      "section": "Formative Quiz 2",
+      "stem": "Which of the following rib(s) articulates with the 4th thoracic vertebra?",
+      "options": {
+        "A": "Third",
+        "B": "Fourth",
+        "C": "4th and 5th ribs",
+        "D": "3rd and 4th ribs"
+      },
+      "answer": "C",
+      "answer_text": "4th and 5th ribs",
+      "explicit_answer_text": null,
+      "source_file": "Formative 2 BCR.pdf",
+      "topic": "Anatomy of thoracic Wall",
+      "concepts": [
+        "Anatomy of thoracic Wall"
+      ],
+      "excluded_reason": null,
+      "high_yield": true,
+      "high_yield_reason": "formative",
+      "repeat_count": 0,
+      "question_repeat_count": 1,
+      "topic_repeat_count": 1,
+      "frequent_topic": false,
+      "explanation": "T4 articulates with the heads of ribs 4 and 5 through its costal facets. Rib 4 also articulates with the T4 transverse process. The question asks about the whole vertebra, not only its transverse process.",
+      "explanation_status": "study_note",
+      "answer_basis": "ai",
+      "bank_source_url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=6",
+      "quiz": 2,
+      "lecture_id": "anatomy-histology__anatomy-of-thoracic-wall",
+      "source_kind": "formative",
+      "tags": [
+        "Coordinator formative",
+        "Quiz 2",
+        "Anatomy of thoracic Wall"
+      ],
+      "proofreading_status": "reviewed",
+      "exam_ready": true,
+      "past_paper_sources": [
+        {
+          "file": "Formative 2 BCR.pdf",
+          "page": 6,
+          "number": 19,
+          "url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=6",
+          "source_question_id": "formative-quiz2-bcr-q19"
+        }
+      ],
+      "source_answer_status": "Screenshot selections are not an official answer key",
+      "source_selected_answer": "C",
+      "duplicate_question_ids": [],
+      "repeated_concepts": []
+    },
+    {
+      "id": "formative-quiz2-bcr-q20",
+      "bank": "Coordinator Formative Quiz 2",
+      "module": "Formative",
+      "page": 6,
+      "number": 20,
+      "section": "Formative Quiz 2",
+      "stem": "Primary atelectasis is defined as:",
+      "options": {
+        "A": "Reduction in size of a previously expanded lung due to compression",
+        "B": "Reduction in lung size due to contraction",
+        "C": "Reduction in size of a lung due to obstruction",
+        "D": "Incomplete expansion of a previously unexpanded lung"
+      },
+      "answer": "D",
+      "answer_text": "Incomplete expansion of a previously unexpanded lung",
+      "explicit_answer_text": null,
+      "source_file": "Formative 2 BCR.pdf",
+      "topic": "Atelactasis & acute lung injury",
+      "concepts": [
+        "Atelactasis & acute lung injury"
+      ],
+      "excluded_reason": null,
+      "high_yield": true,
+      "high_yield_reason": "formative",
+      "repeat_count": 0,
+      "question_repeat_count": 1,
+      "topic_repeat_count": 1,
+      "frequent_topic": false,
+      "explanation": "Primary atelectasis is failure of a previously unexpanded lung to expand. The other options describe mechanisms of acquired collapse in a previously expanded lung.",
+      "explanation_status": "study_note",
+      "answer_basis": "ai",
+      "bank_source_url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=6",
+      "quiz": 2,
+      "lecture_id": "pathology__atelactasis-acute-lung-injury",
+      "source_kind": "formative",
+      "tags": [
+        "Coordinator formative",
+        "Quiz 2",
+        "Atelactasis & acute lung injury"
+      ],
+      "proofreading_status": "reviewed",
+      "exam_ready": true,
+      "past_paper_sources": [
+        {
+          "file": "Formative 2 BCR.pdf",
+          "page": 6,
+          "number": 20,
+          "url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=6",
+          "source_question_id": "formative-quiz2-bcr-q20"
+        }
+      ],
+      "source_answer_status": "Screenshot selections are not an official answer key",
+      "source_selected_answer": "D",
+      "duplicate_question_ids": [],
+      "repeated_concepts": []
+    },
+    {
+      "id": "formative-quiz2-bcr-q21",
+      "bank": "Coordinator Formative Quiz 2",
+      "module": "Formative",
+      "page": 7,
+      "number": 21,
+      "section": "Formative Quiz 2",
+      "stem": "Under normal resting conditions, intrapleural pressure is:",
+      "options": {
+        "A": "Equal to alveolar pressure",
+        "B": "Positive",
+        "C": "Negative relative to atmospheric pressure",
+        "D": "Zero"
+      },
+      "answer": "C",
+      "answer_text": "Negative relative to atmospheric pressure",
+      "explicit_answer_text": null,
+      "source_file": "Formative 2 BCR.pdf",
+      "topic": "Mechanics of breathing",
+      "concepts": [
+        "Mechanics of breathing"
+      ],
+      "excluded_reason": null,
+      "high_yield": true,
+      "high_yield_reason": "formative",
+      "repeat_count": 0,
+      "question_repeat_count": 1,
+      "topic_repeat_count": 1,
+      "frequent_topic": false,
+      "explanation": "Opposing inward lung recoil and outward chest-wall recoil produce subatmospheric intrapleural pressure during normal quiet breathing. At end-expiration alveolar pressure can equal atmospheric pressure while pleural pressure remains negative.",
+      "explanation_status": "study_note",
+      "answer_basis": "ai",
+      "bank_source_url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=7",
+      "quiz": 2,
+      "lecture_id": "physiology__mechanics-of-breathing",
+      "source_kind": "formative",
+      "tags": [
+        "Coordinator formative",
+        "Quiz 2",
+        "Mechanics of breathing"
+      ],
+      "proofreading_status": "reviewed",
+      "exam_ready": true,
+      "past_paper_sources": [
+        {
+          "file": "Formative 2 BCR.pdf",
+          "page": 7,
+          "number": 21,
+          "url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=7",
+          "source_question_id": "formative-quiz2-bcr-q21"
+        }
+      ],
+      "source_answer_status": "Screenshot selections are not an official answer key",
+      "source_selected_answer": "C",
+      "duplicate_question_ids": [],
+      "repeated_concepts": []
+    },
+    {
+      "id": "formative-quiz2-bcr-q22",
+      "bank": "Coordinator Formative Quiz 2",
+      "module": "Formative",
+      "page": 7,
+      "number": 22,
+      "section": "Formative Quiz 2",
+      "stem": "What impressions can we find on the mediastinal surface of the left lung?",
+      "options": {
+        "A": "The groove for the descending aorta",
+        "B": "The groove for the azygos vein",
+        "C": "Impression for the left atrium",
+        "D": "The groove of the superior vena cava"
+      },
+      "answer": "A",
+      "answer_text": "The groove for the descending aorta",
+      "explicit_answer_text": null,
+      "source_file": "Formative 2 BCR.pdf",
+      "topic": "Anatomical relations of the lungs",
+      "concepts": [
+        "Anatomical relations of the lungs"
+      ],
+      "excluded_reason": null,
+      "high_yield": true,
+      "high_yield_reason": "formative",
+      "repeat_count": 0,
+      "question_repeat_count": 1,
+      "topic_repeat_count": 1,
+      "frequent_topic": false,
+      "explanation": "A descending-aortic groove is a characteristic left-lung relation. The azygos arch and superior vena cava are characteristic right-sided relations; the dominant left cardiac impression is related to the left ventricle.",
+      "explanation_status": "study_note",
+      "answer_basis": "ai",
+      "bank_source_url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=7",
+      "quiz": 2,
+      "lecture_id": "anatomy-histology__anatomical-relations-of-the-lungs",
+      "source_kind": "formative",
+      "tags": [
+        "Coordinator formative",
+        "Quiz 2",
+        "Anatomical relations of the lungs"
+      ],
+      "proofreading_status": "reviewed",
+      "exam_ready": true,
+      "past_paper_sources": [
+        {
+          "file": "Formative 2 BCR.pdf",
+          "page": 7,
+          "number": 22,
+          "url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=7",
+          "source_question_id": "formative-quiz2-bcr-q22"
+        }
+      ],
+      "source_answer_status": "Screenshot selections are not an official answer key",
+      "source_selected_answer": "A",
+      "duplicate_question_ids": [],
+      "repeated_concepts": []
+    },
+    {
+      "id": "formative-quiz2-bcr-q23",
+      "bank": "Coordinator Formative Quiz 2",
+      "module": "Formative",
+      "page": 7,
+      "number": 23,
+      "section": "Formative Quiz 2",
+      "stem": "A patient has a short respiratory illness with eosinophilia and transient migratory pulmonary infiltrates. During early helminth larval migration, stool testing shows no eggs. Which listed syndrome best fits?",
+      "options": {
+        "A": "Schistosomiasis",
+        "B": "Loeffler’s syndrome",
+        "C": "Pulmonary hydatid cyst",
+        "D": "Amoebic lung abscess"
+      },
+      "answer": "B",
+      "answer_text": "Loeffler’s syndrome",
+      "explicit_answer_text": null,
+      "source_file": "Formative 2 BCR.pdf",
+      "topic": "Verminous pneumonia (Parasitic larvae invading lung)",
+      "concepts": [
+        "Verminous pneumonia (Parasitic larvae invading lung)"
+      ],
+      "excluded_reason": null,
+      "high_yield": true,
+      "high_yield_reason": "formative",
+      "repeat_count": 0,
+      "question_repeat_count": 1,
+      "topic_repeat_count": 1,
+      "frequent_topic": false,
+      "explanation": "Loeffler syndrome is transient pulmonary eosinophilia associated with migrating helminth larvae. Stool eggs may be absent before intestinal adult maturation; eosinophilia and a negative stool test alone are not diagnostic.",
+      "explanation_status": "reviewed",
+      "answer_basis": "reference-reviewed",
+      "bank_source_url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=7",
+      "quiz": 2,
+      "lecture_id": "microbiology__verminous-pneumonia-parasitic-larvae-invading-lung",
+      "source_kind": "formative",
+      "tags": [
+        "Coordinator formative",
+        "Quiz 2",
+        "Verminous pneumonia (Parasitic larvae invading lung)"
+      ],
+      "proofreading_status": "resolved",
+      "exam_ready": true,
+      "past_paper_sources": [
+        {
+          "file": "Formative 2 BCR.pdf",
+          "page": 7,
+          "number": 23,
+          "url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=7",
+          "source_question_id": "formative-quiz2-bcr-q23"
+        }
+      ],
+      "source_answer_status": "Screenshot selections are not an official answer key",
+      "source_selected_answer": "B",
+      "duplicate_question_ids": [],
+      "repeated_concepts": [],
+      "medical_review_date": "2026-10-18",
+      "medical_review_status": "corrected",
+      "review_note": "Include the transient migratory infiltrates needed to identify Loeffler syndrome.",
+      "review_references": [
+        {
+          "title": "Verminous pneumonia and larval migration",
+          "url": "https://drive.google.com/file/d/1NaSyePamNq3a_ytDzHRZ6XHoKqm4s2Yw/view"
+        }
+      ],
+      "original_bank_answer": "B",
+      "proofreading_notes": "Include the transient migratory infiltrates needed to identify Loeffler syndrome.",
+      "review_edit_kind": "adapted",
+      "review_revision": "medical-review-20261018-v1"
+    },
+    {
+      "id": "formative-quiz2-bcr-q24",
+      "bank": "Coordinator Formative Quiz 2",
+      "module": "Formative",
+      "page": 7,
+      "number": 24,
+      "section": "Formative Quiz 2",
+      "stem": "Serum IgE levels are elevated in:",
+      "options": {
+        "A": "Intrinsic bronchial asthma",
+        "B": "Extrinsic bronchial asthma",
+        "C": "Predominant chronic bronchitis",
+        "D": "Predominant emphysema"
+      },
+      "answer": "B",
+      "answer_text": "Extrinsic bronchial asthma",
+      "explicit_answer_text": null,
+      "source_file": "Formative 2 BCR.pdf",
+      "topic": "Obstructive airway diseases",
+      "concepts": [
+        "Obstructive airway diseases"
+      ],
+      "excluded_reason": null,
+      "high_yield": true,
+      "high_yield_reason": "formative",
+      "repeat_count": 0,
+      "question_repeat_count": 1,
+      "topic_repeat_count": 1,
+      "frequent_topic": false,
+      "explanation": "Extrinsic (atopic) asthma is associated with IgE-mediated sensitization. Increased IgE is not the defining mechanism of intrinsic asthma, chronic bronchitis or emphysema.",
+      "explanation_status": "study_note",
+      "answer_basis": "ai",
+      "bank_source_url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=7",
+      "quiz": 2,
+      "lecture_id": "pathology__obstructive-airway-diseases",
+      "source_kind": "formative",
+      "tags": [
+        "Coordinator formative",
+        "Quiz 2",
+        "Obstructive airway diseases"
+      ],
+      "proofreading_status": "reviewed",
+      "exam_ready": true,
+      "past_paper_sources": [
+        {
+          "file": "Formative 2 BCR.pdf",
+          "page": 7,
+          "number": 24,
+          "url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=7",
+          "source_question_id": "formative-quiz2-bcr-q24"
+        }
+      ],
+      "source_answer_status": "Screenshot selections are not an official answer key",
+      "source_selected_answer": "B",
+      "duplicate_question_ids": [],
+      "repeated_concepts": []
+    },
+    {
+      "id": "formative-quiz2-bcr-q25",
+      "bank": "Coordinator Formative Quiz 2",
+      "module": "Formative",
+      "page": 8,
+      "number": 25,
+      "section": "Formative Quiz 2",
+      "stem": "Which of the following cardiac structures represents the caudal end of the primitive heart tube?",
+      "options": {
+        "A": "Sinus venosus",
+        "B": "Primitive ventricle",
+        "C": "Bulbus cordis",
+        "D": "Primitive atrium"
+      },
+      "answer": "A",
+      "answer_text": "Sinus venosus",
+      "explicit_answer_text": null,
+      "source_file": "Formative 2 BCR.pdf",
+      "topic": "Normal Development of Heart & it’s Great Vessels",
+      "concepts": [
+        "Normal Development of Heart & it’s Great Vessels"
+      ],
+      "excluded_reason": null,
+      "high_yield": true,
+      "high_yield_reason": "formative",
+      "repeat_count": 0,
+      "question_repeat_count": 1,
+      "topic_repeat_count": 1,
+      "frequent_topic": false,
+      "explanation": "The sinus venosus is the caudal inflow region of the primitive heart tube. The primitive atrium lies cranial to it, followed by more cranial ventricular and outflow components.",
+      "explanation_status": "study_note",
+      "answer_basis": "ai",
+      "bank_source_url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=8",
+      "quiz": 2,
+      "lecture_id": "anatomy-histology__normal-development-of-heart-it-s-great-vessels",
+      "source_kind": "formative",
+      "tags": [
+        "Coordinator formative",
+        "Quiz 2",
+        "Normal Development of Heart & it’s Great Vessels"
+      ],
+      "proofreading_status": "reviewed",
+      "exam_ready": true,
+      "past_paper_sources": [
+        {
+          "file": "Formative 2 BCR.pdf",
+          "page": 8,
+          "number": 25,
+          "url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=8",
+          "source_question_id": "formative-quiz2-bcr-q25"
+        }
+      ],
+      "source_answer_status": "Screenshot selections are not an official answer key",
+      "source_selected_answer": "A",
+      "duplicate_question_ids": [],
+      "repeated_concepts": []
+    },
+    {
+      "id": "formative-quiz2-bcr-q26",
+      "bank": "Coordinator Formative Quiz 2",
+      "module": "Formative",
+      "page": 8,
+      "number": 26,
+      "section": "Formative Quiz 2",
+      "stem": "A 68-year-old man with a history of a prosthetic aortic valve presents with fever and a new heart murmur. Blood cultures grow Staphylococcus aureus. Which of the following is the most likely type of infective endocarditis?",
+      "options": {
+        "A": "Non-bacterial thrombotic endocarditis (NBTE)",
+        "B": "Subacute infective endocarditis",
+        "C": "Libman–Sacks endocarditis",
+        "D": "Acute infective endocarditis"
+      },
+      "answer": "D",
+      "answer_text": "Acute infective endocarditis",
+      "explicit_answer_text": null,
+      "source_file": "Formative 2 BCR.pdf",
+      "topic": "Infective Endocarditis",
+      "concepts": [
+        "Infective Endocarditis"
+      ],
+      "excluded_reason": null,
+      "high_yield": true,
+      "high_yield_reason": "formative",
+      "repeat_count": 0,
+      "question_repeat_count": 1,
+      "topic_repeat_count": 1,
+      "frequent_topic": false,
+      "explanation": "Staphylococcus aureus is a virulent organism classically associated with acute destructive infective endocarditis. NBTE and Libman–Sacks vegetations are sterile; subacute disease is more typically associated with less virulent organisms.",
+      "explanation_status": "study_note",
+      "answer_basis": "ai",
+      "bank_source_url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=8",
+      "quiz": 2,
+      "lecture_id": "pathology__infective-endocarditis",
+      "source_kind": "formative",
+      "tags": [
+        "Coordinator formative",
+        "Quiz 2",
+        "Infective Endocarditis"
+      ],
+      "proofreading_status": "reviewed",
+      "exam_ready": true,
+      "past_paper_sources": [
+        {
+          "file": "Formative 2 BCR.pdf",
+          "page": 8,
+          "number": 26,
+          "url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=8",
+          "source_question_id": "formative-quiz2-bcr-q26"
+        }
+      ],
+      "source_answer_status": "Screenshot selections are not an official answer key",
+      "source_selected_answer": "D",
+      "duplicate_question_ids": [],
+      "repeated_concepts": []
+    },
+    {
+      "id": "formative-quiz2-bcr-q27",
+      "bank": "Coordinator Formative Quiz 2",
+      "module": "Formative",
+      "page": 8,
+      "number": 27,
+      "section": "Formative Quiz 2",
+      "stem": "Which clinical setting increases the risk of nosocomial pneumonia?",
+      "options": {
+        "A": "Brief admission for minor elective surgery",
+        "B": "Short-term outpatient analgesic treatment",
+        "C": "Controlled hypertension without complications",
+        "D": "Prolonged antibiotic therapy and mechanical ventilation"
+      },
+      "answer": "D",
+      "answer_text": "Prolonged antibiotic therapy and mechanical ventilation",
+      "explicit_answer_text": null,
+      "source_file": "Formative 2 BCR.pdf",
+      "topic": "Pulmonary infection",
+      "concepts": [
+        "Pulmonary infection"
+      ],
+      "excluded_reason": null,
+      "high_yield": true,
+      "high_yield_reason": "formative",
+      "repeat_count": 0,
+      "question_repeat_count": 1,
+      "topic_repeat_count": 1,
+      "frequent_topic": false,
+      "explanation": "Mechanical ventilation compromises airway defenses, and prolonged antibiotic exposure can select resistant hospital flora. This setting carries substantially greater nosocomial-pneumonia risk than the alternatives.",
+      "explanation_status": "study_note",
+      "answer_basis": "ai",
+      "bank_source_url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=8",
+      "quiz": 2,
+      "lecture_id": "pathology__pulmonary-infection",
+      "source_kind": "formative",
+      "tags": [
+        "Coordinator formative",
+        "Quiz 2",
+        "Pulmonary infection"
+      ],
+      "proofreading_status": "reviewed",
+      "exam_ready": true,
+      "past_paper_sources": [
+        {
+          "file": "Formative 2 BCR.pdf",
+          "page": 8,
+          "number": 27,
+          "url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=8",
+          "source_question_id": "formative-quiz2-bcr-q27"
+        }
+      ],
+      "source_answer_status": "Screenshot selections are not an official answer key",
+      "source_selected_answer": "D",
+      "duplicate_question_ids": [],
+      "repeated_concepts": []
+    },
+    {
+      "id": "formative-quiz2-bcr-q28",
+      "bank": "Coordinator Formative Quiz 2",
+      "module": "Formative",
+      "page": 9,
+      "number": 28,
+      "section": "Formative Quiz 2",
+      "stem": "Which of the following paranasal sinuses opens into the nasal cavity through the superior meatus?",
+      "options": {
+        "A": "Posterior ethmoidal",
+        "B": "Maxillary",
+        "C": "Middle ethmoidal",
+        "D": "Anterior ethmoidal"
+      },
+      "answer": "A",
+      "answer_text": "Posterior ethmoidal",
+      "explicit_answer_text": null,
+      "source_file": "Formative 2 BCR.pdf",
+      "topic": "Anatomy of the nose and paranasal sinuses",
+      "concepts": [
+        "Anatomy of the nose and paranasal sinuses"
+      ],
+      "excluded_reason": null,
+      "high_yield": true,
+      "high_yield_reason": "formative",
+      "repeat_count": 0,
+      "question_repeat_count": 1,
+      "topic_repeat_count": 1,
+      "frequent_topic": false,
+      "explanation": "Posterior ethmoidal air cells open into the superior meatus. Maxillary and anterior/middle ethmoidal drainage pathways relate to the middle meatus.",
+      "explanation_status": "study_note",
+      "answer_basis": "ai",
+      "bank_source_url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=9",
+      "quiz": 2,
+      "lecture_id": "anatomy-histology__anatomy-of-the-nose-and-paranasal-sinuses",
+      "source_kind": "formative",
+      "tags": [
+        "Coordinator formative",
+        "Quiz 2",
+        "Anatomy of the nose and paranasal sinuses"
+      ],
+      "proofreading_status": "reviewed",
+      "exam_ready": true,
+      "past_paper_sources": [
+        {
+          "file": "Formative 2 BCR.pdf",
+          "page": 9,
+          "number": 28,
+          "url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=9",
+          "source_question_id": "formative-quiz2-bcr-q28"
+        }
+      ],
+      "source_answer_status": "Screenshot selections are not an official answer key",
+      "source_selected_answer": "A",
+      "duplicate_question_ids": [],
+      "repeated_concepts": []
+    },
+    {
+      "id": "formative-quiz2-bcr-q29",
+      "bank": "Coordinator Formative Quiz 2",
+      "module": "Formative",
+      "page": 9,
+      "number": 29,
+      "section": "Formative Quiz 2",
+      "stem": "Which of the following is a route of administration for the BCG vaccine?",
+      "options": {
+        "A": "Intradermal",
+        "B": "Oral",
+        "C": "Subcutaneous",
+        "D": "Intramuscular"
+      },
+      "answer": "A",
+      "answer_text": "Intradermal",
+      "explicit_answer_text": null,
+      "source_file": "Formative 2 BCR.pdf",
+      "topic": "Lower respiratory tract infections",
+      "concepts": [
+        "Lower respiratory tract infections"
+      ],
+      "excluded_reason": null,
+      "high_yield": true,
+      "high_yield_reason": "formative",
+      "repeat_count": 0,
+      "question_repeat_count": 1,
+      "topic_repeat_count": 1,
+      "frequent_topic": false,
+      "explanation": "BCG is administered intradermally. The other listed routes are not the standard route for BCG vaccination.",
+      "explanation_status": "study_note",
+      "answer_basis": "ai",
+      "bank_source_url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=9",
+      "quiz": 2,
+      "lecture_id": "microbiology__lower-respiratory-tract-infections",
+      "source_kind": "formative",
+      "tags": [
+        "Coordinator formative",
+        "Quiz 2",
+        "Lower respiratory tract infections"
+      ],
+      "proofreading_status": "reviewed",
+      "exam_ready": true,
+      "past_paper_sources": [
+        {
+          "file": "Formative 2 BCR.pdf",
+          "page": 9,
+          "number": 29,
+          "url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=9",
+          "source_question_id": "formative-quiz2-bcr-q29"
+        }
+      ],
+      "source_answer_status": "Screenshot selections are not an official answer key",
+      "source_selected_answer": "A",
+      "duplicate_question_ids": [],
+      "repeated_concepts": []
+    },
+    {
+      "id": "formative-quiz2-bcr-q30",
+      "bank": "Coordinator Formative Quiz 2",
+      "module": "Formative",
+      "page": 9,
+      "number": 30,
+      "section": "Formative Quiz 2",
+      "stem": "What is the primary function of pulmonary surfactant?",
+      "options": {
+        "A": "Reduce alveolar surface tension and prevent alveolar collapse",
+        "B": "Increase mucus production",
+        "C": "Increase alveolar surface tension",
+        "D": "Reduce airway resistance"
+      },
+      "answer": "A",
+      "answer_text": "Reduce alveolar surface tension and prevent alveolar collapse",
+      "explicit_answer_text": null,
+      "source_file": "Formative 2 BCR.pdf",
+      "topic": "Pressure-volume relationship and lung compliance",
+      "concepts": [
+        "Pressure-volume relationship and lung compliance"
+      ],
+      "excluded_reason": null,
+      "high_yield": true,
+      "high_yield_reason": "formative",
+      "repeat_count": 0,
+      "question_repeat_count": 1,
+      "topic_repeat_count": 1,
+      "frequent_topic": false,
+      "explanation": "Surfactant lowers surface tension at the alveolar air–liquid interface, stabilizing alveoli and reducing the tendency to collapse. It improves compliance rather than acting primarily as a bronchodilator.",
+      "explanation_status": "study_note",
+      "answer_basis": "ai",
+      "bank_source_url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=9",
+      "quiz": 2,
+      "lecture_id": "physiology__pressure-volume-relationship-and-lung-compliance",
+      "source_kind": "formative",
+      "tags": [
+        "Coordinator formative",
+        "Quiz 2",
+        "Pressure-volume relationship and lung compliance"
+      ],
+      "proofreading_status": "reviewed",
+      "exam_ready": true,
+      "past_paper_sources": [
+        {
+          "file": "Formative 2 BCR.pdf",
+          "page": 9,
+          "number": 30,
+          "url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=9",
+          "source_question_id": "formative-quiz2-bcr-q30"
+        }
+      ],
+      "source_answer_status": "Screenshot selections are not an official answer key",
+      "source_selected_answer": "A",
+      "duplicate_question_ids": [],
+      "repeated_concepts": []
+    }
+  ],
+  "other_question_records_unchanged": true
+}

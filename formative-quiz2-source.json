@@ -1,0 +1,396 @@
+{
+  "source": "assets/past-papers/formative-quiz-2-bcr.pdf",
+  "policy": "Preserve formative wording, option order and supplied answers. Medical corrections apply only to student test banks.",
+  "questions": [
+    {
+      "id": "formative-quiz2-bcr-q01",
+      "number": 1,
+      "page": 1,
+      "stem": "A 64-year-old man with COPD has persistent exertional dyspnoea despite appropriate inhaled therapy. Which non-pharmacological intervention is most likely to improve his exercise capacity and quality of life?",
+      "options": {
+        "A": "Routine prophylactic antibiotics",
+        "B": "Pulmonary rehabilitation",
+        "C": "Fluid restriction",
+        "D": "Long term bed rest"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "formative-quiz2-bcr-q02",
+      "number": 2,
+      "page": 1,
+      "stem": "A child born at 26 weeks survives with intensive care but develops respiratory distress due to insufficient surfactant. This condition is due to improper function of which one of the following cells?",
+      "options": {
+        "A": "Type (II) pneumocytes.",
+        "B": "Endothelial cells.",
+        "C": "Type (I) pneumocytes.",
+        "D": "Clara cells"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "formative-quiz2-bcr-q03",
+      "number": 3,
+      "page": 1,
+      "stem": "A 58-year-old woman who has never smoked presents with persistent cough and weight loss. CT scan reveals a peripheral lung mass. Histology shows malignant glandular cells containing mucin. What is the most likely diagnosis?",
+      "options": {
+        "A": "Small cell carcinoma",
+        "B": "Large cell carcinoma",
+        "C": "Squamous cell carcinoma",
+        "D": "Adenocarcinoma"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "formative-quiz2-bcr-q04",
+      "number": 4,
+      "page": 2,
+      "stem": "Which cell is primarily responsible for killing virus-infected respiratory epithelial cells through recognition of antigen presented on MHC class I molecules?",
+      "options": {
+        "A": "B-lymphocyte",
+        "B": "CD8+ cytotoxic T cell ( correct answer)",
+        "C": "CD4+ T helper cell",
+        "D": "Alveolar macrophage"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "formative-quiz2-bcr-q05",
+      "number": 5,
+      "page": 2,
+      "stem": "Most common etiologic factor implicated in chronic bronchitis is",
+      "options": {
+        "A": "Atmospheric pollution",
+        "B": "Cotton mills",
+        "C": "Cigarette smoking",
+        "D": "Mycoplasma infection"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "formative-quiz2-bcr-q06",
+      "number": 6,
+      "page": 2,
+      "stem": "Which part of the ECG corresponds to the plateau phase (Phase 2) of the ventricular action potential?",
+      "options": {
+        "A": "QRS complex",
+        "B": "T wave",
+        "C": "ST segment",
+        "D": "PR interval"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "formative-quiz2-bcr-q07",
+      "number": 7,
+      "page": 3,
+      "stem": "Which of the following is the correct drug–clinical use combination?",
+      "options": {
+        "A": "Albuterol — used as monotherapy in persistent asthma",
+        "B": "Theophylline — has strong anti-inflammatory effects in chronic asthma",
+        "C": "Salmeterol— used alone for acute asthma attacks",
+        "D": "Cromolyn — inhibits mast cell degranulation and is used as prophylactic control therapy"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "formative-quiz2-bcr-q08",
+      "number": 8,
+      "page": 3,
+      "stem": "Which anti-TB drug–adverse effect pair is correctly matched?",
+      "options": {
+        "A": "Rifampin — optic neuritis",
+        "B": "Ethambutol — enzyme induction",
+        "C": "Pyrazinamide — orange body fluids",
+        "D": "Isoniazid — peripheral neuropathy"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "formative-quiz2-bcr-q09",
+      "number": 9,
+      "page": 3,
+      "stem": "What is the earliest classic ECG change in hyperkalemia?",
+      "options": {
+        "A": "Prolonged QT interval",
+        "B": "Tall, peaked T waves",
+        "C": "Wide QRS complex",
+        "D": "ST-segment elevation"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "formative-quiz2-bcr-q10",
+      "number": 10,
+      "page": 4,
+      "stem": "The maximum decrease in ventricular pressure occurs during:",
+      "options": {
+        "A": "Slow ejection phase.",
+        "B": "Isovolumetric relaxation phase.",
+        "C": "Isovolumetric contraction phase.",
+        "D": "Rapid ejection phase."
+      },
+      "answer": "B"
+    },
+    {
+      "id": "formative-quiz2-bcr-q11",
+      "number": 11,
+      "page": 4,
+      "stem": "Which of the following drug–indication combinations is correct?",
+      "options": {
+        "A": "Verapamil — WPW with pre-excited atrial fibrillation",
+        "B": "Adenosine — stable monomorphic ventricular tachycardia",
+        "C": "Flecainide — atrial",
+        "D": "IV magnesium — torsades de pointes"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "formative-quiz2-bcr-q12",
+      "number": 12,
+      "page": 4,
+      "stem": "Which of the following portions of the respiratory tract lack smooth muscle?",
+      "options": {
+        "A": "Bronchi.",
+        "B": "Trachea.",
+        "C": "Alveoli.",
+        "D": "Bronchioles."
+      },
+      "answer": "C"
+    },
+    {
+      "id": "formative-quiz2-bcr-q13",
+      "number": 13,
+      "page": 5,
+      "stem": "When a baby is born and takes its first breath, the change in pulmonary pressure causes which embryonic vessel to constrict?",
+      "options": {
+        "A": "Umbilical vein.",
+        "B": "Ductus arteriosus.",
+        "C": "Umbilical artery",
+        "D": "Ductus venosus."
+      },
+      "answer": "B"
+    },
+    {
+      "id": "formative-quiz2-bcr-q14",
+      "number": 14,
+      "page": 5,
+      "stem": "Which of the following is considered to be a major revised Jones criteria?",
+      "options": {
+        "A": "Fever",
+        "B": "Polyarthritis",
+        "C": "Erythema Multiforme",
+        "D": "Leukocytosis"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "formative-quiz2-bcr-q15",
+      "number": 15,
+      "page": 5,
+      "stem": "Which of the following is the main action of the transverse arytenoid muscle?",
+      "options": {
+        "A": "Abduct the vocal cords",
+        "B": "Dilate the laryngeal inlet.",
+        "C": "Close the laryngeal inlet.",
+        "D": "Adduct the vocal cords."
+      },
+      "answer": "D"
+    },
+    {
+      "id": "formative-quiz2-bcr-q16",
+      "number": 16,
+      "page": 5,
+      "stem": "Pulmonary hypertension is defined as systolic blood pressure in the pulmonary arterial circulation above the following cut off figure:",
+      "options": {
+        "A": "30 mmHg",
+        "B": "60 mmHg",
+        "C": "90 mmHg",
+        "D": "120 mmHg"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "formative-quiz2-bcr-q17",
+      "number": 17,
+      "page": 6,
+      "stem": "Which pleural fluid color/appearance is most suggestive of a chylothorax?",
+      "options": {
+        "A": "Turbid",
+        "B": "Red (bloody)",
+        "C": "White (milky)",
+        "D": "Pale yellow (straw colored)"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "formative-quiz2-bcr-q18",
+      "number": 18,
+      "page": 6,
+      "stem": "Which of the following is the most common type of cardiac tumor?",
+      "options": {
+        "A": "Angiosarcoma",
+        "B": "Metastatic tumor",
+        "C": "Rhabdomyoma",
+        "D": "Cardiac myxoma"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "formative-quiz2-bcr-q19",
+      "number": 19,
+      "page": 6,
+      "stem": "Which of the following rib (s) articulates with the 4th thoracic vertebra?",
+      "options": {
+        "A": "Third.",
+        "B": "Fourth.",
+        "C": "4th & 5th ribs.",
+        "D": "3rd & 4th ribs."
+      },
+      "answer": "C"
+    },
+    {
+      "id": "formative-quiz2-bcr-q20",
+      "number": 20,
+      "page": 6,
+      "stem": "Primary atelectasis is defined as:",
+      "options": {
+        "A": "Reduction in size of a previously expanded lung due to compression",
+        "B": "Reduction in lung size due to contraction",
+        "C": "Reduction in size of a lung due to obstruction",
+        "D": "Incomplete expansion of a previously unexpanded lung"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "formative-quiz2-bcr-q21",
+      "number": 21,
+      "page": 7,
+      "stem": "Under normal resting conditions, intrapleural pressure is:",
+      "options": {
+        "A": "Equal to alveolar pressure",
+        "B": "Positive",
+        "C": "Negative relative to atmospheric pressure",
+        "D": "Zero"
+      },
+      "answer": "C"
+    },
+    {
+      "id": "formative-quiz2-bcr-q22",
+      "number": 22,
+      "page": 7,
+      "stem": "What impressions can we find on the mediastinal surface of the left lung?",
+      "options": {
+        "A": "The groove for the descending aorta.",
+        "B": "The groove for the azygos vein",
+        "C": "Impression for the left atrium.",
+        "D": "The groove of the superior vena cava."
+      },
+      "answer": "A"
+    },
+    {
+      "id": "formative-quiz2-bcr-q23",
+      "number": 23,
+      "page": 7,
+      "stem": "A 45-year-old farmer presents with a six-day history of cough, dyspnea, and fever. Stool examination reveals no parasitic eggs. Further investigations demonstrate eosinophilia and leukocytosis. What is the most likely diagnosis?",
+      "options": {
+        "A": "Schistosomiasis",
+        "B": "Loeffler’s syndrome",
+        "C": "Pulmonary hydatid cyst",
+        "D": "Amoebic lung abscess"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "formative-quiz2-bcr-q24",
+      "number": 24,
+      "page": 7,
+      "stem": "Serum IgE levels are elevated in:",
+      "options": {
+        "A": "Intrinsic bronchial asthma",
+        "B": "Extrinsic bronchial asthma",
+        "C": "Predominant chronic bronchitis",
+        "D": "Predominant emphysema"
+      },
+      "answer": "B"
+    },
+    {
+      "id": "formative-quiz2-bcr-q25",
+      "number": 25,
+      "page": 8,
+      "stem": "Which of the following cardiac structures represents the caudal end of the primitive heart tube?",
+      "options": {
+        "A": "Sinus venosus.",
+        "B": "Primitive ventricle.",
+        "C": "Bulbus cordis.",
+        "D": "Primitive atrium."
+      },
+      "answer": "A"
+    },
+    {
+      "id": "formative-quiz2-bcr-q26",
+      "number": 26,
+      "page": 8,
+      "stem": "A 68-year-old man with a history of a prosthetic aortic valve presents with fever and a new heart murmur. Blood cultures grow Staphylococcus aureus. Which of the following is the most likely type of infective endocarditis?",
+      "options": {
+        "A": "Non-bacterial thrombotic endocarditis (NBTE)",
+        "B": "Subacute infective endocarditis",
+        "C": "Libman-Sacks endocarditis",
+        "D": "Acute infective endocarditis"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "formative-quiz2-bcr-q27",
+      "number": 27,
+      "page": 8,
+      "stem": "Which clinical setting increases the risk of nosocomial pneumonia?",
+      "options": {
+        "A": "Brief admission for minor elective surgery",
+        "B": "Short-term outpatient analgesic treatment",
+        "C": "Controlled hypertension without complications",
+        "D": "Prolonged antibiotic therapy and mechanical ventilation"
+      },
+      "answer": "D"
+    },
+    {
+      "id": "formative-quiz2-bcr-q28",
+      "number": 28,
+      "page": 9,
+      "stem": "Which of the following paranasal sinuses opens into the nasal cavity through superior meatus?",
+      "options": {
+        "A": "Posterior ethmoidal.",
+        "B": "Maxillary.",
+        "C": "Middle ethmoidal.",
+        "D": "Anterior ethmoidal."
+      },
+      "answer": "A"
+    },
+    {
+      "id": "formative-quiz2-bcr-q29",
+      "number": 29,
+      "page": 9,
+      "stem": "Which of the following is a route of administration for the BCG vaccine?",
+      "options": {
+        "A": "Intradermal",
+        "B": "Oral",
+        "C": "Subcutaneous",
+        "D": "Intramuscular"
+      },
+      "answer": "A"
+    },
+    {
+      "id": "formative-quiz2-bcr-q30",
+      "number": 30,
+      "page": 9,
+      "stem": "What is the primary function of pulmonary surfactant?",
+      "options": {
+        "A": "Reduce alveolar surface tension and prevent alveolar collapse",
+        "B": "Increase mucus production",
+        "C": "Increase alveolar surface tension",
+        "D": "Reduce airway resistance"
+      },
+      "answer": "A"
+    }
+  ]
+}

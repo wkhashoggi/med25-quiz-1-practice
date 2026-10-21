@@ -222,7 +222,11 @@ function qaSubjectLectures(subject,prefix){
   const s=(studyGuideCatalog.subjects||[]).find(x=>x.name===subject);
   const lectures=(s?.lectures||[]).slice();
   if(!prefix)return lectures;
-  const available=new Set(qaAvailableGuideRows(prefix).map(g=>g.lecture_id));
+  const quiz=prefix==='past'?(pastAdvanced.quiz||window.med25RevisionScope):window.med25RevisionScope;
+  const rows=prefix==='past'&&quiz
+    ? QUESTIONS.filter(q=>pastQuestionQuiz(q)===Number(quiz)).map(q=>sgQuestionLecture('past',q))
+    : qaAvailableGuideRows(prefix).filter(g=>!quiz||Number(g.quiz)===Number(quiz));
+  const available=new Set(rows.map(g=>g.lecture_id));
   return lectures.filter(l=>available.has(l.id));
 }
 const qaPastLectureCache=new Map();
@@ -354,6 +358,8 @@ function qaRenderLecturePicker(prefix,model){
     btn.disabled=true;btn.textContent='Select subject first';panel.classList.add('hidden');panel.innerHTML='';return;
   }
   const lectures=qaSubjectLectures(model.subject,prefix);
+  const available=new Set(lectures.map(l=>l.id));
+  for(const id of model.lectures)if(!available.has(id))model.lectures.delete(id);
   btn.disabled=false;
   if(model.lectures.size===1){
     const one=lectures.find(x=>model.lectures.has(x.id));btn.textContent=one?.title||'1 lecture selected';
@@ -392,7 +398,7 @@ function qaSetupOne(prefix,model,host){
   if(model.subject&&!availableSubjects.includes(model.subject)){model.subject='';model.lectures.clear()}
   subject.value=model.subject||'';status.value=model.status||'all';
   const quiz=document.getElementById(qaIds(prefix,'Quiz'));
-  if(quiz){quiz.value=model.quiz||'';quiz.onchange=()=>{model.quiz=quiz.value;qaApply(prefix);responsiveUpdateFilterLabels()}}
+  if(quiz){quiz.value=model.quiz||'';quiz.onchange=()=>{model.quiz=quiz.value;qaRenderLecturePicker(prefix,model);qaApply(prefix);responsiveUpdateFilterLabels()}}
   status.onchange=()=>{if(prefix==='ai')aiClearUnansweredPins();model.status=status.value;qaResetLegacyStatus(prefix);qaApply(prefix);responsiveUpdateFilterLabels()};
   subject.onchange=()=>{model.subject=subject.value;model.lectures.clear();qaRenderLecturePicker(prefix,model);qaApply(prefix);responsiveUpdateFilterLabels()};
   btn.onclick=e=>{e.stopPropagation();if(!btn.disabled)panel.classList.toggle('hidden')};

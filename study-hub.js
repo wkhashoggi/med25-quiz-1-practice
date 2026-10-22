@@ -727,6 +727,7 @@ function renderHomeSourceFiles(){
     return '<article class="hubCard homeSourceCard" data-source-file="'+file.id+'"><div><h3>'+esc(file.title)+'</h3><p>'+esc(file.description)+'</p></div><div class="homeSourceProgress"><span>'+done+' / '+total+' completed</span><b>'+pct+'%</b></div><div class="homeSourceTrack" role="progressbar" aria-label="'+esc(file.title)+' completion" aria-valuemin="0" aria-valuemax="'+total+'" aria-valuenow="'+done+'"><span style="width:'+pct+'%"></span></div><button class="homeSourceButton" type="button" data-open-source-file="'+file.id+'" aria-label="'+action+' '+esc(file.title)+'" '+(!total?'disabled':'')+'>'+action+' →</button></article>';
   }).join('')+'</div>';
   host.querySelectorAll('[data-open-source-file]').forEach(button=>button.onclick=()=>openHomeSourceFile(button.dataset.openSourceFile));
+  window.med25PrequizMount?.();
 }
 function renderHome(){
   const home=document.getElementById('homeSection');if(!home)return;

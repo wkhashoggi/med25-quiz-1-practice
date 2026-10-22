@@ -1,0 +1,2025 @@
+{
+  "version": "quiz2-prequiz-20261022-v1",
+  "title": "Quiz 2 · High-yield pre-quiz",
+  "description": "Two selected questions per Quiz 2 lecture entry. Prioritized from the formative, test banks and important physiology MCQs. Actual exam questions may differ.",
+  "selection_method": "Manual selection of core mechanisms, recognisable clinical patterns and source-emphasized concepts; no prediction guarantee. Three clearly labelled lecture-based supplements fill source-bank gaps.",
+  "source_counts": {
+    "formative": 26,
+    "test-bank": 53,
+    "lecture-supplement": 3,
+    "physiology": 16
+  },
+  "question_count": 98,
+  "lecture_count": 49,
+  "lectures": [
+    {
+      "id": "anatomy-histology__normal-development-of-heart-it-s-great-vessels",
+      "title": "Normal Development of Heart & it’s Great Vessels",
+      "subject": "Anatomy & Histology",
+      "questions": [
+        {
+          "id": "formative-quiz2-bcr-q13",
+          "stem": "When a baby is born and takes its first breath, the change in pulmonary pressure causes which embryonic vessel to constrict?",
+          "options": {
+            "A": "Umbilical vein.",
+            "B": "Ductus arteriosus.",
+            "C": "Umbilical artery",
+            "D": "Ductus venosus."
+          },
+          "answer": "B",
+          "explanation": "Supplied formative answer: B — Ductus arteriosus.",
+          "source_kind": "formative",
+          "source_label": "Formative 2 BCR",
+          "source_url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=5",
+          "source_locked": true,
+          "selection_reason": "Fetal circulation at birth and primitive heart-tube derivatives."
+        },
+        {
+          "id": "formative-quiz2-bcr-q25",
+          "stem": "Which of the following cardiac structures represents the caudal end of the primitive heart tube?",
+          "options": {
+            "A": "Sinus venosus.",
+            "B": "Primitive ventricle.",
+            "C": "Bulbus cordis.",
+            "D": "Primitive atrium."
+          },
+          "answer": "A",
+          "explanation": "Supplied formative answer: A — Sinus venosus.",
+          "source_kind": "formative",
+          "source_label": "Formative 2 BCR",
+          "source_url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=8",
+          "source_locked": true,
+          "selection_reason": "Fetal circulation at birth and primitive heart-tube derivatives."
+        }
+      ]
+    },
+    {
+      "id": "anatomy-histology__congenital-anomalies-of-the-heart-it-s-great-vessels",
+      "title": "Congenital anomalies of the heart & it’s great Vessels",
+      "subject": "Anatomy & Histology",
+      "questions": [
+        {
+          "id": "cvs-med23-final-p5-q2-12",
+          "stem": "During normal atrial septation, the ostium secundum forms by resorption in which region?",
+          "options": {
+            "A": "Upper part of septum primum",
+            "B": "Lower part of septum primuim",
+            "C": "Upper part of septum secundum",
+            "D": "Lower part of septum secundum"
+          },
+          "answer": "A",
+          "explanation": "Perforations in the upper septum primum coalesce to form the ostium secundum. A secundum ASD is a separate abnormal persistence or deficiency that may involve excessive primum resorption or inadequate secundum development.",
+          "source_kind": "test-bank",
+          "source_label": "Final  2.pdf",
+          "source_url": "assets/past-papers/cvs-med23-final.pdf#page=5",
+          "source_locked": false,
+          "selection_reason": "Atrial septation and conotruncal defects."
+        },
+        {
+          "id": "cvs-med23-final-p6-q6-16",
+          "stem": "A newborn has a single arterial trunk that overrides a ventricular septal defect and supplies both the systemic and pulmonary circulations. Which developmental failure explains this?",
+          "options": {
+            "A": "Interventricular septal fail to develop",
+            "B": "Conotruncal septal fail to develop",
+            "C": "Valvular defect",
+            "D": "open ductus arteriosus"
+          },
+          "answer": "B",
+          "explanation": "Persistent truncus arteriosus results from failure of conotruncal separation into aorta and pulmonary trunk. A single trunk supplies both circulations and usually overlies a VSD.",
+          "source_kind": "test-bank",
+          "source_label": "Final  2.pdf",
+          "source_url": "assets/past-papers/cvs-med23-final.pdf#page=6",
+          "source_locked": false,
+          "selection_reason": "Atrial septation and conotruncal defects."
+        }
+      ]
+    },
+    {
+      "id": "anatomy-histology__anatomy-of-the-nose-and-paranasal-sinuses",
+      "title": "Anatomy of the nose and paranasal sinuses",
+      "subject": "Anatomy & Histology",
+      "questions": [
+        {
+          "id": "formative-quiz2-bcr-q28",
+          "stem": "Which of the following paranasal sinuses opens into the nasal cavity through superior meatus?",
+          "options": {
+            "A": "Posterior ethmoidal.",
+            "B": "Maxillary.",
+            "C": "Middle ethmoidal.",
+            "D": "Anterior ethmoidal."
+          },
+          "answer": "A",
+          "explanation": "Supplied formative answer: A — Posterior ethmoidal.",
+          "source_kind": "formative",
+          "source_label": "Formative 2 BCR",
+          "source_url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=9",
+          "source_locked": true,
+          "selection_reason": "Paranasal sinus drainage and the poorly draining maxillary sinus."
+        },
+        {
+          "id": "rs-module3-p13-q31",
+          "stem": "Which paranasal sinus is classically prone to poor drainage because its ostium lies high on its medial wall?",
+          "options": {
+            "A": "Maxillary sinus",
+            "B": "Frontal sinus",
+            "C": "Sphenoidal sinus",
+            "D": "Posterior ethmoidal sinus"
+          },
+          "answer": "A",
+          "explanation": "The maxillary ostium is high relative to the sinus floor; the stem now tests drainage anatomy explicitly.",
+          "source_kind": "test-bank",
+          "source_label": "RS Previous Years · Module 3",
+          "source_url": "assets/past-papers/rs-module-3.pdf#page=13",
+          "source_locked": false,
+          "selection_reason": "Paranasal sinus drainage and the poorly draining maxillary sinus."
+        }
+      ]
+    },
+    {
+      "id": "anatomy-histology__anatomy-of-the-larynx",
+      "title": "Anatomy of the larynx",
+      "subject": "Anatomy & Histology",
+      "questions": [
+        {
+          "id": "formative-quiz2-bcr-q15",
+          "stem": "Which of the following is the main action of the transverse arytenoid muscle?",
+          "options": {
+            "A": "Abduct the vocal cords",
+            "B": "Dilate the laryngeal inlet.",
+            "C": "Close the laryngeal inlet.",
+            "D": "Adduct the vocal cords."
+          },
+          "answer": "D",
+          "explanation": "Supplied formative answer: D — Adduct the vocal cords.",
+          "source_kind": "formative",
+          "source_label": "Formative 2 BCR",
+          "source_url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=5",
+          "source_locked": true,
+          "selection_reason": "Vocal-cord adductors versus the sole abductor."
+        },
+        {
+          "id": "rs-module3-p80-q28",
+          "stem": "During thyroidectomy, a surgeon accidentally damages a nerve supplying a muscle that opens the vocal cords. Which muscle is affected?",
+          "options": {
+            "A": "Lateral cricoarytenoid",
+            "B": "Cricothyroid",
+            "C": "Posterior cricoarytenoid",
+            "D": "Thyroarytenoid"
+          },
+          "answer": "C",
+          "explanation": "Source-bank key: Posterior cricoarytenoid. This is the supplied past-paper key; a detailed explanation has not yet been reviewed.",
+          "source_kind": "test-bank",
+          "source_label": "RS Previous Years · Module 3",
+          "source_url": "assets/past-papers/rs-module-3.pdf#page=80",
+          "source_locked": false,
+          "selection_reason": "Vocal-cord adductors versus the sole abductor."
+        }
+      ]
+    },
+    {
+      "id": "anatomy-histology__anatomy-of-the-pleura-and-lungs",
+      "title": "Anatomy of the pleura and lungs",
+      "subject": "Anatomy & Histology",
+      "questions": [
+        {
+          "id": "formative-quiz2-bcr-q17",
+          "stem": "Which pleural fluid color/appearance is most suggestive of a chylothorax?",
+          "options": {
+            "A": "Turbid",
+            "B": "Red (bloody)",
+            "C": "White (milky)",
+            "D": "Pale yellow (straw colored)"
+          },
+          "answer": "C",
+          "explanation": "Supplied formative answer: C — White (milky)",
+          "source_kind": "formative",
+          "source_label": "Formative 2 BCR",
+          "source_url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=6",
+          "source_locked": true,
+          "selection_reason": "Pleural-fluid appearance and the causes of a transudate."
+        },
+        {
+          "id": "rs-med24-final-p54-q4-92",
+          "stem": "Which of the following will yield a transudate fluid?",
+          "options": {
+            "A": "Malignancy",
+            "B": "Heart failure",
+            "C": "Tuberculosis",
+            "D": "Pneumonia"
+          },
+          "answer": "B",
+          "explanation": "Answer preserved from the supplied past paper; consult the source page and current lecture when reviewing.",
+          "source_kind": "test-bank",
+          "source_label": "FinalNight RS - MED24.pdf",
+          "source_url": "assets/past-papers/rs-med24-final.pdf#page=54",
+          "source_locked": false,
+          "selection_reason": "Pleural-fluid appearance and the causes of a transudate."
+        }
+      ]
+    },
+    {
+      "id": "anatomy-histology__anatomical-relations-of-the-lungs",
+      "title": "Anatomical relations of the lungs",
+      "subject": "Anatomy & Histology",
+      "questions": [
+        {
+          "id": "formative-quiz2-bcr-q22",
+          "stem": "What impressions can we find on the mediastinal surface of the left lung?",
+          "options": {
+            "A": "The groove for the descending aorta.",
+            "B": "The groove for the azygos vein",
+            "C": "Impression for the left atrium.",
+            "D": "The groove of the superior vena cava."
+          },
+          "answer": "A",
+          "explanation": "Supplied formative answer: A — The groove for the descending aorta.",
+          "source_kind": "formative",
+          "source_label": "Formative 2 BCR",
+          "source_url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=7",
+          "source_locked": true,
+          "selection_reason": "Right-versus-left mediastinal lung impressions."
+        },
+        {
+          "id": "rs-module3-p188-q3",
+          "stem": "Which chamber of the heart mainly forms the cardiac impression on the medial surface of the right lung?",
+          "options": {
+            "A": "Right atrium",
+            "B": "Right ventricle",
+            "C": "Left atrium",
+            "D": "Left ventricle"
+          },
+          "answer": "A",
+          "explanation": "Source-bank key: Right atrium. This is the supplied past-paper key; a detailed explanation has not yet been reviewed.",
+          "source_kind": "test-bank",
+          "source_label": "RS Previous Years · Module 3",
+          "source_url": "assets/past-papers/rs-module-3.pdf#page=188",
+          "source_locked": false,
+          "selection_reason": "Right-versus-left mediastinal lung impressions."
+        }
+      ]
+    },
+    {
+      "id": "anatomy-histology__development-of-the-respiratory-system",
+      "title": "Development of the respiratory system",
+      "subject": "Anatomy & Histology",
+      "questions": [
+        {
+          "id": "rs-module3-p85-q4",
+          "stem": "The commonest congenital anomaly of trachea and esophagus is:",
+          "options": {
+            "A": "Isolated tracheoesophageal fistula without atresia",
+            "B": "Esophageal atresia alone",
+            "C": "Congenital tracheal stenosis",
+            "D": "Esophageal atresia and tracheo-esophageal fistula"
+          },
+          "answer": "D",
+          "explanation": "Source-bank key: Esophageal atresia and tracheo-esophageal fistula. This is the supplied past-paper key; a detailed explanation has not yet been reviewed.",
+          "source_kind": "test-bank",
+          "source_label": "RS Previous Years · Module 3",
+          "source_url": "assets/past-papers/rs-module-3.pdf#page=85",
+          "source_locked": false,
+          "selection_reason": "Tracheoesophageal abnormalities and embryonic tissue origins."
+        },
+        {
+          "id": "rs-med24-mid-p78-q10-170",
+          "stem": "The epithelium of the respiratory tract comes from which of the following?",
+          "options": {
+            "A": "Endoderm",
+            "B": "Ectoderm",
+            "C": "Splanchnic mesoderm",
+            "D": "Somatic mesoderm"
+          },
+          "answer": "A",
+          "explanation": "Answer preserved from the supplied past paper; consult the source page and current lecture when reviewing.",
+          "source_kind": "test-bank",
+          "source_label": "Popcorn24,Mid🍿.pdf",
+          "source_url": "assets/past-papers/rs-med24-mid.pdf#page=78",
+          "source_locked": false,
+          "selection_reason": "Tracheoesophageal abnormalities and embryonic tissue origins."
+        }
+      ]
+    },
+    {
+      "id": "anatomy-histology__histology-of-the-respiratory-system",
+      "title": "Histology of the respiratory system",
+      "subject": "Anatomy & Histology",
+      "questions": [
+        {
+          "id": "formative-quiz2-bcr-q02",
+          "stem": "A child born at 26 weeks survives with intensive care but develops respiratory distress due to insufficient surfactant. This condition is due to improper function of which one of the following cells?",
+          "options": {
+            "A": "Type (II) pneumocytes.",
+            "B": "Endothelial cells.",
+            "C": "Type (I) pneumocytes.",
+            "D": "Clara cells"
+          },
+          "answer": "A",
+          "explanation": "Supplied formative answer: A — Type (II) pneumocytes.",
+          "source_kind": "formative",
+          "source_label": "Formative 2 BCR",
+          "source_url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=1",
+          "source_locked": true,
+          "selection_reason": "Type II pneumocytes and structural differences along the airways."
+        },
+        {
+          "id": "formative-quiz2-bcr-q12",
+          "stem": "Which of the following portions of the respiratory tract lack smooth muscle?",
+          "options": {
+            "A": "Bronchi.",
+            "B": "Trachea.",
+            "C": "Alveoli.",
+            "D": "Bronchioles."
+          },
+          "answer": "C",
+          "explanation": "Supplied formative answer: C — Alveoli.",
+          "source_kind": "formative",
+          "source_label": "Formative 2 BCR",
+          "source_url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=4",
+          "source_locked": true,
+          "selection_reason": "Type II pneumocytes and structural differences along the airways."
+        }
+      ]
+    },
+    {
+      "id": "anatomy-histology__anatomy-of-thoracic-wall",
+      "title": "Anatomy of thoracic Wall",
+      "subject": "Anatomy & Histology",
+      "questions": [
+        {
+          "id": "formative-quiz2-bcr-q19",
+          "stem": "Which of the following rib (s) articulates with the 4th thoracic vertebra?",
+          "options": {
+            "A": "Third.",
+            "B": "Fourth.",
+            "C": "4th & 5th ribs.",
+            "D": "3rd & 4th ribs."
+          },
+          "answer": "C",
+          "explanation": "Supplied formative answer: C — 4th & 5th ribs.",
+          "source_kind": "formative",
+          "source_label": "Formative 2 BCR",
+          "source_url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=6",
+          "source_locked": true,
+          "selection_reason": "Rib articulations and the intercostal neurovascular bundle."
+        },
+        {
+          "id": "ai_1jct-Sh-SgYJryjB_PJetNM7Kkk8a4Xpk_refresh20261016_01",
+          "stem": "An instrument damages the main neurovascular bundle in a rib's costal groove. What is its order from superior to inferior?",
+          "options": {
+            "A": "Vein, artery, nerve",
+            "B": "Artery, vein, nerve",
+            "C": "Nerve, artery, vein",
+            "D": "Vein, nerve, artery"
+          },
+          "answer": "A",
+          "explanation": "The main intercostal bundle lies in the costal groove in VAN order from above downward.",
+          "source_kind": "lecture-supplement",
+          "source_label": "Lecture-based supplement",
+          "source_url": "https://drive.google.com/file/d/1jct-Sh-SgYJryjB_PJetNM7Kkk8a4Xpk/view",
+          "source_locked": false,
+          "selection_reason": "Rib articulations and the intercostal neurovascular bundle."
+        }
+      ]
+    },
+    {
+      "id": "physiology__cardiac-cycle",
+      "title": "Cardiac cycle",
+      "subject": "Physiology",
+      "questions": [
+        {
+          "id": "formative-quiz2-bcr-q10",
+          "stem": "The maximum decrease in ventricular pressure occurs during:",
+          "options": {
+            "A": "Slow ejection phase.",
+            "B": "Isovolumetric relaxation phase.",
+            "C": "Isovolumetric contraction phase.",
+            "D": "Rapid ejection phase."
+          },
+          "answer": "B",
+          "explanation": "Supplied formative answer: B — Isovolumetric relaxation phase.",
+          "source_kind": "formative",
+          "source_label": "Formative 2 BCR",
+          "source_url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=4",
+          "source_locked": true,
+          "selection_reason": "Isovolumetric phases, valve position and ventricular pressure."
+        },
+        {
+          "id": "phys-cvs-q19-39",
+          "stem": "During the isovolumetric contraction phase of the cardiac cycle, which of the following best describes the change in ventricular pressure?",
+          "options": {
+            "A": "Ventricular pressure remains unchanged while ventricular volume increases rapidly.",
+            "B": "Ventricular pressure increases rapidly while ventricular volume remains constant.",
+            "C": "Ventricular pressure decreases rapidly while ventricular volume remains constant.",
+            "D": "Ventricular pressure increases gradually while ventricular volume decreases."
+          },
+          "answer": "B",
+          "explanation": "Ventricular pressure rises while all valves are closed; ventricular volume remains constant during isovolumetric contraction.",
+          "source_kind": "physiology",
+          "source_label": "Physiology Quiz 2 Important",
+          "source_url": "assets/past-papers/physiology-quiz-2-important.pdf#page=1",
+          "source_locked": false,
+          "selection_reason": "Isovolumetric phases, valve position and ventricular pressure."
+        }
+      ]
+    },
+    {
+      "id": "physiology__normal-ecg",
+      "title": "Normal ECG",
+      "subject": "Physiology",
+      "questions": [
+        {
+          "id": "formative-quiz2-bcr-q06",
+          "stem": "Which part of the ECG corresponds to the plateau phase (Phase 2) of the ventricular action potential?",
+          "options": {
+            "A": "QRS complex",
+            "B": "T wave",
+            "C": "ST segment",
+            "D": "PR interval"
+          },
+          "answer": "C",
+          "explanation": "Supplied formative answer: C — ST segment",
+          "source_kind": "formative",
+          "source_label": "Formative 2 BCR",
+          "source_url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=2",
+          "source_locked": true,
+          "selection_reason": "ECG segments and heart-rate calculation."
+        },
+        {
+          "id": "physiology-important-q31",
+          "stem": "An ECG shows a regular rhythm with 4 large squares between consecutive R waves. Assuming standard ECG paper speed, what is the approximate heart rate?",
+          "options": {
+            "A": "50 beats/min",
+            "B": "75 beats/min",
+            "C": "100 beats/min",
+            "D": "150 beats/min"
+          },
+          "answer": "B",
+          "explanation": "For a regular rhythm at standard paper speed, heart rate is approximately 300 divided by the number of large squares between R waves: 300/4 = 75 beats/min.",
+          "source_kind": "physiology",
+          "source_label": "Physiology Quiz 2 Important",
+          "source_url": "assets/past-papers/physiology-quiz-2-important.pdf#page=2",
+          "source_locked": false,
+          "selection_reason": "ECG segments and heart-rate calculation."
+        }
+      ]
+    },
+    {
+      "id": "physiology__abnormal-ecg-and-cardiac-arrhythmias",
+      "title": "Abnormal ECG and cardiac arrhythmias",
+      "subject": "Physiology",
+      "questions": [
+        {
+          "id": "formative-quiz2-bcr-q09",
+          "stem": "What is the earliest classic ECG change in hyperkalemia?",
+          "options": {
+            "A": "Prolonged QT interval",
+            "B": "Tall, peaked T waves",
+            "C": "Wide QRS complex",
+            "D": "ST-segment elevation"
+          },
+          "answer": "B",
+          "explanation": "Supplied formative answer: B — Tall, peaked T waves",
+          "source_kind": "formative",
+          "source_label": "Formative 2 BCR",
+          "source_url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=3",
+          "source_locked": true,
+          "selection_reason": "Hyperkalemia and recognition of atrial fibrillation."
+        },
+        {
+          "id": "physiology-important-q33",
+          "stem": "Which feature is characteristic of atrial fibrillation?",
+          "options": {
+            "A": "Regular rhythm with identical P waves before every QRS",
+            "B": "Absence of organized P waves with an irregularly irregular ventricular rhythm",
+            "C": "Complete absence of ventricular activity",
+            "D": "Prolonged PR interval with progressively dropped QRS complexes"
+          },
+          "answer": "B",
+          "explanation": "Atrial fibrillation causes loss of organized P waves and an irregularly irregular ventricular rhythm.",
+          "source_kind": "physiology",
+          "source_label": "Physiology Quiz 2 Important",
+          "source_url": "assets/past-papers/physiology-quiz-2-important.pdf#page=2",
+          "source_locked": false,
+          "selection_reason": "Hyperkalemia and recognition of atrial fibrillation."
+        }
+      ]
+    },
+    {
+      "id": "physiology__physiology-of-vascular-endothelium",
+      "title": "Physiology of vascular endothelium",
+      "subject": "Physiology",
+      "questions": [
+        {
+          "id": "phys-cvs-q43-63",
+          "stem": "A 55-year-old man has had poorly controlled hypertension for several years. Recent investigations suggest impaired endothelial function in his systemic arteries. Which endothelial change would most likely contribute to increased vascular tone in this patient?",
+          "options": {
+            "A": "Increased nitric oxide bioavailability",
+            "B": "Reduced nitric oxide-mediated vasodilation",
+            "C": "Increased endothelial antithrombotic activity",
+            "D": "Increased inhibition of smooth muscle contraction"
+          },
+          "answer": "B",
+          "explanation": "Reduced nitric oxide availability impairs endothelium-dependent vasodilation and contributes to increased vascular resistance.",
+          "source_kind": "physiology",
+          "source_label": "Physiology Quiz 2 Important",
+          "source_url": "assets/past-papers/physiology-quiz-2-important.pdf#page=4",
+          "source_locked": false,
+          "selection_reason": "Endothelial nitric oxide and antithrombotic function."
+        },
+        {
+          "id": "phys-cvs-q42-62",
+          "stem": "A healthy blood vessel is exposed to normal blood flow without any vascular injury. Which endothelial response is most important for preventing unnecessary thrombus formation?",
+          "options": {
+            "A": "Release of mediators that reduce platelet adhesion.",
+            "B": "Release of mediators that supress fibrinolysis.",
+            "C": "Expression of surface proteins that enhance thrombin generation.",
+            "D": "Secretion of factors that promote coagulation."
+          },
+          "answer": "A",
+          "explanation": "Healthy endothelium releases antiplatelet mediators such as nitric oxide and prostacyclin, limiting platelet adhesion and aggregation.",
+          "source_kind": "physiology",
+          "source_label": "Physiology Quiz 2 Important",
+          "source_url": "assets/past-papers/physiology-quiz-2-important.pdf#page=3",
+          "source_locked": false,
+          "selection_reason": "Endothelial nitric oxide and antithrombotic function."
+        }
+      ]
+    },
+    {
+      "id": "physiology__mechanics-of-breathing",
+      "title": "Mechanics of breathing",
+      "subject": "Physiology",
+      "questions": [
+        {
+          "id": "physiology-quiz2-resp-q03",
+          "stem": "A 24-year-old man is brought to the emergency department after sustaining a penetrating injury to the right side of his chest. On examination, breath sounds are markedly reduced on the right side, and a chest X-ray shows a right-sided pneumothorax. Which pressure change most likely caused the collapse of the affected lung?",
+          "options": {
+            "A": "Increased atmospheric pressure",
+            "B": "Loss of the normal negative intrapleural pressure",
+            "C": "Increased intra-alveolar pressure",
+            "D": "More negative intrapleural pressure"
+          },
+          "answer": "B",
+          "explanation": "The supplied question bank marks B: Loss of the normal negative intrapleural pressure",
+          "source_kind": "physiology",
+          "source_label": "Physiology Quiz 2 Important",
+          "source_url": "assets/past-papers/physiology-quiz-2-important.pdf#page=5",
+          "source_locked": false,
+          "selection_reason": "Pressure changes in inspiration and pneumothorax."
+        },
+        {
+          "id": "physiology-quiz2-resp-q04",
+          "stem": "A healthy person takes a deep inspiration. Which combination of changes occurs?",
+          "options": {
+            "A": "Diaphragm contracts, thoracic volume increases, alveolar pressure decreases",
+            "B": "External intercostals relax, thoracic volume increases, alveolar pressure increases",
+            "C": "Diaphragm relaxes, thoracic volume decreases, alveolar pressure increases",
+            "D": "Diaphragm contracts, thoracic volume decreases, alveolar pressure increases"
+          },
+          "answer": "A",
+          "explanation": "The supplied question bank marks A: Diaphragm contracts, thoracic volume increases, alveolar pressure decreases",
+          "source_kind": "physiology",
+          "source_label": "Physiology Quiz 2 Important",
+          "source_url": "assets/past-papers/physiology-quiz-2-important.pdf#page=5",
+          "source_locked": false,
+          "selection_reason": "Pressure changes in inspiration and pneumothorax."
+        }
+      ]
+    },
+    {
+      "id": "physiology__pressure-volume-relationship-and-lung-compliance",
+      "title": "Pressure-volume relationship and lung compliance",
+      "subject": "Physiology",
+      "questions": [
+        {
+          "id": "physiology-quiz2-resp-q07",
+          "stem": "A 62-year-old woman with progressive shortness of breath is diagnosed with pulmonary fibrosis. Pulmonary function tests were performed. Which combination of changes would most likely be present?",
+          "options": {
+            "A": "Increased compliance and increased lung volumes",
+            "B": "Normal compliance with markedly increased airway resistance",
+            "C": "Decreased compliance and increased work of breathing",
+            "D": "Increased compliance and reduced elastic recoil"
+          },
+          "answer": "C",
+          "explanation": "The supplied question bank marks C: Decreased compliance and increased work of breathing",
+          "source_kind": "physiology",
+          "source_label": "Physiology Quiz 2 Important",
+          "source_url": "assets/past-papers/physiology-quiz-2-important.pdf#page=5",
+          "source_locked": false,
+          "selection_reason": "Fibrosis, compliance and surfactant function."
+        },
+        {
+          "id": "formative-quiz2-bcr-q30",
+          "stem": "What is the primary function of pulmonary surfactant?",
+          "options": {
+            "A": "Reduce alveolar surface tension and prevent alveolar collapse",
+            "B": "Increase mucus production",
+            "C": "Increase alveolar surface tension",
+            "D": "Reduce airway resistance"
+          },
+          "answer": "A",
+          "explanation": "Supplied formative answer: A — Reduce alveolar surface tension and prevent alveolar collapse",
+          "source_kind": "formative",
+          "source_label": "Formative 2 BCR",
+          "source_url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=9",
+          "source_locked": true,
+          "selection_reason": "Fibrosis, compliance and surfactant function."
+        }
+      ]
+    },
+    {
+      "id": "physiology__gas-diffusion-and-plumonary-blood-flow",
+      "title": "Gas diffusion and plumonary blood flow",
+      "subject": "Physiology",
+      "questions": [
+        {
+          "id": "physiology-quiz2-resp-q09",
+          "stem": "According to Fick’s law of diffusion, gas diffusion across the respiratory membrane increases when:",
+          "options": {
+            "A": "The partial-pressure gradient increases",
+            "B": "The diffusion coefficient decreases",
+            "C": "Surface area decreases",
+            "D": "Membrane thickness increases"
+          },
+          "answer": "A",
+          "explanation": "The supplied question bank marks A: The partial-pressure gradient increases",
+          "source_kind": "physiology",
+          "source_label": "Physiology Quiz 2 Important",
+          "source_url": "assets/past-papers/physiology-quiz-2-important.pdf#page=6",
+          "source_locked": false,
+          "selection_reason": "Fick’s law and matching perfusion to ventilation."
+        },
+        {
+          "id": "physiology-quiz2-resp-q11",
+          "stem": "As part of regulating pulmonary blood flow, hypoxic pulmonary vasoconstriction (HPV) due to local alveolar collapse will result in:",
+          "options": {
+            "A": "Decrease perfusion to well-ventilated segment.",
+            "B": "Decrease ventilation/ perfusion (V/Q) ratio.",
+            "C": "Decrease perfusion to non-ventilated segment.",
+            "D": "Decrease total pulmonary blood flow."
+          },
+          "answer": "C",
+          "explanation": "The supplied question bank marks C: Decrease perfusion to non-ventilated segment.",
+          "source_kind": "physiology",
+          "source_label": "Physiology Quiz 2 Important",
+          "source_url": "assets/past-papers/physiology-quiz-2-important.pdf#page=6",
+          "source_locked": false,
+          "selection_reason": "Fick’s law and matching perfusion to ventilation."
+        }
+      ]
+    },
+    {
+      "id": "physiology__transport-of-oxygen-in-blood",
+      "title": "Transport of oxygen in blood",
+      "subject": "Physiology",
+      "questions": [
+        {
+          "id": "physiology-quiz2-resp-q13",
+          "stem": "The oxygen-haemoglobin (O2-Hb) dissociation curve demonstrate that:",
+          "options": {
+            "A": "Hb binds irreversibly to oxygen when O_{2} partial pressure is low.",
+            "B": "Hb releases more O_{2} when the O_{2} partial pressure is lower than 40 mmHg.",
+            "C": "Hb releases more O_{2} when the O_{2} partial pressure is higher than 90 mmHg.",
+            "D": "Hb binds irreversibly to oxygen when O_{2} partial pressure is high."
+          },
+          "answer": "B",
+          "explanation": "The supplied question bank marks B: Hb releases more O_{2} when the O_{2} partial pressure is lower than 40 mmHg.",
+          "source_kind": "physiology",
+          "source_label": "Physiology Quiz 2 Important",
+          "source_url": "assets/past-papers/physiology-quiz-2-important.pdf#page=7",
+          "source_locked": false,
+          "selection_reason": "Oxygen unloading and the rightward shift during exercise."
+        },
+        {
+          "id": "physiology-quiz2-resp-q16",
+          "stem": "During vigorous exercise, skeletal muscle temperature and CO_{2} production increase. What happens to the oxyhemoglobin dissociation curve?",
+          "options": {
+            "A": "Shifts to the right, increasing oxygen affinity",
+            "B": "Shifts to the left, facilitating oxygen delivery",
+            "C": "Shifts to the right, facilitating oxygen delivery",
+            "D": "Shifts to the left, increasing oxygen affinity"
+          },
+          "answer": "C",
+          "explanation": "The supplied question bank marks C: Shifts to the right, facilitating oxygen delivery",
+          "source_kind": "physiology",
+          "source_label": "Physiology Quiz 2 Important",
+          "source_url": "assets/past-papers/physiology-quiz-2-important.pdf#page=7",
+          "source_locked": false,
+          "selection_reason": "Oxygen unloading and the rightward shift during exercise."
+        }
+      ]
+    },
+    {
+      "id": "physiology__transport-of-carbon-dioxide-in-blood",
+      "title": "Transport of carbon dioxide in blood",
+      "subject": "Physiology",
+      "questions": [
+        {
+          "id": "physiology-quiz2-resp-q17",
+          "stem": "The largest proportion of CO_{2} in blood is transported in the form of:",
+          "options": {
+            "A": "Carbonic acid",
+            "B": "Bicarbonate ions",
+            "C": "Carbaminohemoglobin",
+            "D": "Dissolved CO_{2}"
+          },
+          "answer": "B",
+          "explanation": "The supplied question bank marks B: Bicarbonate ions",
+          "source_kind": "physiology",
+          "source_label": "Physiology Quiz 2 Important",
+          "source_url": "assets/past-papers/physiology-quiz-2-important.pdf#page=7",
+          "source_locked": false,
+          "selection_reason": "Bicarbonate transport and the Haldane effect."
+        },
+        {
+          "id": "physiology-quiz2-resp-q20",
+          "stem": "As blood reaches the pulmonary capillaries, oxygen binds to hemoglobin. How does this facilitate CO_{2} unloading?",
+          "options": {
+            "A": "Oxygen binding prevents bicarbonate conversion",
+            "B": "Oxygen binding causes chloride to remain permanently inside RBCs",
+            "C": "Oxygen binding promotes release of CO_{2} and H from hemoglobin",
+            "D": "Oxygen binding increases hemoglobin’s ability to bind CO_{2}"
+          },
+          "answer": "C",
+          "explanation": "The supplied question bank marks C: Oxygen binding promotes release of CO_{2} and H from hemoglobin",
+          "source_kind": "physiology",
+          "source_label": "Physiology Quiz 2 Important",
+          "source_url": "assets/past-papers/physiology-quiz-2-important.pdf#page=8",
+          "source_locked": false,
+          "selection_reason": "Bicarbonate transport and the Haldane effect."
+        }
+      ]
+    },
+    {
+      "id": "physiology__neural-control-of-breathing",
+      "title": "Neural control of breathing",
+      "subject": "Physiology",
+      "questions": [
+        {
+          "id": "physiology-quiz2-resp-q21",
+          "stem": "Which region of the brainstem contains the major respiratory centers responsible for generating the basic respiratory rhythm?",
+          "options": {
+            "A": "Hypothalamus",
+            "B": "Spinal cord only",
+            "C": "Medulla",
+            "D": "Cerebellum"
+          },
+          "answer": "C",
+          "explanation": "The supplied question bank marks C: Medulla",
+          "source_kind": "physiology",
+          "source_label": "Physiology Quiz 2 Important",
+          "source_url": "assets/past-papers/physiology-quiz-2-important.pdf#page=8",
+          "source_locked": false,
+          "selection_reason": "Medullary rhythm generation and lung stretch reflexes."
+        },
+        {
+          "id": "rs-module3-p90-q21",
+          "stem": "Hering-Breuer reflex from:",
+          "options": {
+            "A": "J-receptors in pulmonary capillaries",
+            "B": "Irritant receptors in airway epithelium",
+            "C": "Lung stretch receptor",
+            "D": "Central chemoreceptors in the medulla oblongata"
+          },
+          "answer": "C",
+          "explanation": "Source-bank key: Lung stretch receptor. This is the supplied past-paper key; a detailed explanation has not yet been reviewed.",
+          "source_kind": "test-bank",
+          "source_label": "RS Previous Years · Module 3",
+          "source_url": "assets/past-papers/rs-module-3.pdf#page=90",
+          "source_locked": false,
+          "selection_reason": "Medullary rhythm generation and lung stretch reflexes."
+        }
+      ]
+    },
+    {
+      "id": "physiology__chemical-control-of-breathing",
+      "title": "Chemical control of breathing",
+      "subject": "Physiology",
+      "questions": [
+        {
+          "id": "physiology-quiz2-resp-q23",
+          "stem": "A person voluntarily holds their breath. After a period of time, the increasing urge to breathe becomes difficult to suppress. Which change contributes most strongly to this response?",
+          "options": {
+            "A": "Increased arterial O_{2} stimulating pulmonary stretch receptors",
+            "B": "Increased arterial CO_{2} and H concentration stimulating chemoreceptors",
+            "C": "Increase plasma H⁺ which stimulates Hering-Breuer reflex.",
+            "D": "Decreased arterial O_{2} which stimulate central chemoreceptors."
+          },
+          "answer": "B",
+          "explanation": "The supplied question bank marks B: Increased arterial CO_{2} and H concentration stimulating chemoreceptors",
+          "source_kind": "physiology",
+          "source_label": "Physiology Quiz 2 Important",
+          "source_url": "assets/past-papers/physiology-quiz-2-important.pdf#page=9",
+          "source_locked": false,
+          "selection_reason": "Carbon dioxide drive and the peripheral oxygen threshold."
+        },
+        {
+          "id": "rs-med24-final-p11-q1-15",
+          "stem": "Peripheral chemoreceptors are most sensitive when partial pressure of oxygen falls below?",
+          "options": {
+            "A": "100",
+            "B": "60",
+            "C": "0",
+            "D": "30"
+          },
+          "answer": "B",
+          "explanation": "Answer preserved from the supplied past paper; consult the source page and current lecture when reviewing.",
+          "source_kind": "test-bank",
+          "source_label": "FinalNight RS - MED24.pdf",
+          "source_url": "assets/past-papers/rs-med24-final.pdf#page=11",
+          "source_locked": false,
+          "selection_reason": "Carbon dioxide drive and the peripheral oxygen threshold."
+        }
+      ]
+    },
+    {
+      "id": "physiology__hypoxia-and-cyanosis",
+      "title": "Hypoxia and cyanosis",
+      "subject": "Physiology",
+      "questions": [
+        {
+          "id": "rs-module3-p108-q9",
+          "stem": "A patient has normal arterial PaO2 but tissue hypoxia, elevated venous oxygen and impaired cellular oxygen utilization. Which listed mechanism is responsible?",
+          "options": {
+            "A": "Congenital anomalies",
+            "B": "Histotoxic",
+            "C": "High altitude",
+            "D": "Ventilation / perfusion ratio mismatch"
+          },
+          "answer": "B",
+          "explanation": "Histotoxic hypoxia is failure of cellular oxygen utilization, such as mitochondrial enzyme inhibition. The original failure-to-improve-with-oxygen clue alone could also suggest a shunt and was insufficient.",
+          "source_kind": "test-bank",
+          "source_label": "RS Previous Years · Module 3",
+          "source_url": "assets/past-papers/rs-module-3.pdf#page=108",
+          "source_locked": false,
+          "selection_reason": "Histotoxic hypoxia and shunt-related hypoxemia."
+        },
+        {
+          "id": "rs-module3-p43-q24",
+          "stem": "A patient remains hypoxaemic despite 100% inspired oxygen because venous blood bypasses ventilated alveoli. Which mechanism explains this?",
+          "options": {
+            "A": "Low inspired oxygen at altitude",
+            "B": "Isolated hypoventilation",
+            "C": "Simple diffusion limitation",
+            "D": "Right-to-left shunting"
+          },
+          "answer": "D",
+          "explanation": "Shunted blood does not contact ventilated alveoli, limiting the response to oxygen. The original nonspecific stem was ambiguous.",
+          "source_kind": "test-bank",
+          "source_label": "RS Previous Years · Module 3",
+          "source_url": "assets/past-papers/rs-module-3.pdf#page=43",
+          "source_locked": false,
+          "selection_reason": "Histotoxic hypoxia and shunt-related hypoxemia."
+        }
+      ]
+    },
+    {
+      "id": "biochemistry__metabolic-functions-of-the-lung-and-pulmonary-surfactant",
+      "title": "Metabolic functions of the lung and Pulmonary Surfactant",
+      "subject": "Biochemistry",
+      "questions": [
+        {
+          "id": "rs-module3-p154-q11",
+          "stem": "A premature newborn develops respiratory distress due to deficient pulmonary surfactant. Which listed phospholipid is its main surface-active constituent?",
+          "options": {
+            "A": "Dipalmitoyl phosphatidylcholine (DPPC)",
+            "B": "Phosphatidic acid",
+            "C": "Angiotensin-converting enzyme",
+            "D": "Cholesterol"
+          },
+          "answer": "A",
+          "explanation": "Source-bank key: Dipalmitoyl phosphatidyl chloride. This is the supplied past-paper key; a detailed explanation has not yet been reviewed.",
+          "source_kind": "test-bank",
+          "source_label": "RS Previous Years · Module 3",
+          "source_url": "assets/past-papers/rs-module-3.pdf#page=154",
+          "source_locked": false,
+          "selection_reason": "DPPC and the metabolic role of pulmonary ACE."
+        },
+        {
+          "id": "rs-module3-p155-q12",
+          "stem": "How does the pulmonary vascular endothelium help inactivate circulating bradykinin?",
+          "options": {
+            "A": "Degradation by angiotensin-converting enzyme (kininase II)",
+            "B": "Synthesis of surfactant",
+            "C": "Release of bradykinin and norepinephrine",
+            "D": "Synthesis and release of norepinephrine"
+          },
+          "answer": "A",
+          "explanation": "ACE on pulmonary endothelial surfaces degrades bradykinin. The original key describing histamine release did not answer the intended metabolic-clearance question.",
+          "source_kind": "test-bank",
+          "source_label": "RS Previous Years · Module 3",
+          "source_url": "assets/past-papers/rs-module-3.pdf#page=155",
+          "source_locked": false,
+          "selection_reason": "DPPC and the metabolic role of pulmonary ACE."
+        }
+      ]
+    },
+    {
+      "id": "biochemistry__acid-base-homeostasis-and-the-role-of-the-respiratory-system",
+      "title": "Acid-base homeostasis and the role of the respiratory system",
+      "subject": "Biochemistry",
+      "questions": [
+        {
+          "id": "rs-module3-p34-q33",
+          "stem": "A diabetic patient with glucose 600 mg/dL and confirmed ketoacidosis has pH 7.27, PaCO2 25 mmHg and bicarbonate 11 mmol/L. Which respiratory response compensates for the metabolic acidosis?",
+          "options": {
+            "A": "increase H+ to buffer HCO3-",
+            "B": "hypoventilate",
+            "C": "decrease HCO3- reabsorption",
+            "D": "hyperventilate"
+          },
+          "answer": "D",
+          "explanation": "Metabolic acidosis stimulates hyperventilation, lowering PaCO2. These values are mutually consistent and PaCO2 is near the expected compensatory range (1.5 × 11 + 8, approximately 24.5 ± 2 mmHg).",
+          "source_kind": "test-bank",
+          "source_label": "RS Previous Years · Module 3",
+          "source_url": "assets/past-papers/rs-module-3.pdf#page=34",
+          "source_locked": false,
+          "selection_reason": "ABG interpretation and respiratory compensation."
+        },
+        {
+          "id": "rs-module3-p50-q52",
+          "stem": "a 24 year old women came to ER with SOB , the result of ABG shows ph=7.27, pco2= 60, po2= 65, HCO3=26, base excess +1 . what is the diagnosis?",
+          "options": {
+            "A": "Acute respiratory acidosis with only a small bicarbonate rise",
+            "B": "uncompensated respiratory alkalosis",
+            "C": "compensated respiratory acidosis",
+            "D": "uncompensated metabolic acidosis"
+          },
+          "answer": "A",
+          "explanation": "Elevated PaCO2 with acidemia indicates acute respiratory acidosis. Bicarbonate can rise slightly from immediate buffering before substantial renal compensation develops.",
+          "source_kind": "test-bank",
+          "source_label": "RS Previous Years · Module 3",
+          "source_url": "assets/past-papers/rs-module-3.pdf#page=50",
+          "source_locked": false,
+          "selection_reason": "ABG interpretation and respiratory compensation."
+        }
+      ]
+    },
+    {
+      "id": "pathology__pathology-of-hypertension",
+      "title": "Pathology of Hypertension",
+      "subject": "Pathology",
+      "questions": [
+        {
+          "id": "cvs-module2-p51-q7-2",
+          "stem": "Which is included in the pathogenesis of primary hypertension?",
+          "options": {
+            "A": "Chronic renal disease",
+            "B": "Neurogenic disease",
+            "C": "Adrenal tumor",
+            "D": "Defective sodium excretion"
+          },
+          "answer": "D",
+          "explanation": "Impaired natriuresis can sustain volume expansion and contribute to essential hypertension; renal or adrenal diseases are secondary causes.",
+          "source_kind": "test-bank",
+          "source_label": "Quiz 2 CVS test bank",
+          "source_url": "assets/past-papers/cvs-module-2-test-bank.pdf#page=51",
+          "source_locked": false,
+          "selection_reason": "Sodium handling and pressure-overload hypertrophy."
+        },
+        {
+          "id": "cvs-module2-p52-q13-3",
+          "stem": "Which listed condition produces chronic left ventricular pressure overload and concentric hypertrophy?",
+          "options": {
+            "A": "Isolated chronic mitral regurgitation",
+            "B": "Systemic hypertension",
+            "C": "An uncomplicated atrial septal defect",
+            "D": "Isolated pulmonary valve stenosis"
+          },
+          "answer": "B",
+          "explanation": "Systemic hypertension raises left ventricular afterload. The incomplete preload option was replaced with an explicit volume-overload distractor.",
+          "source_kind": "test-bank",
+          "source_label": "Quiz 2 CVS test bank",
+          "source_url": "assets/past-papers/cvs-module-2-test-bank.pdf#page=52",
+          "source_locked": false,
+          "selection_reason": "Sodium handling and pressure-overload hypertrophy."
+        }
+      ]
+    },
+    {
+      "id": "pathology__vasculitis",
+      "title": "Vasculitis",
+      "subject": "Pathology",
+      "questions": [
+        {
+          "id": "cvs-previous-years-p40-q43-146",
+          "stem": "A patient over 50 has new temporal headache, scalp tenderness and visual symptoms. Which vascular disease should be suspected?",
+          "options": {
+            "A": "kaposi sarcoma",
+            "B": "malignant hypertension",
+            "C": "giant cell arteritis",
+            "D": "Kawasaki disease"
+          },
+          "answer": "C",
+          "explanation": "New temporal headache in an older adult, especially with jaw claudication or visual symptoms, suggests giant cell arteritis.",
+          "source_kind": "test-bank",
+          "source_label": "CVS Previous Years",
+          "source_url": "https://drive.google.com/file/d/1qLoc2JzSgmJmtpVh6cQPIMdWxpqWu7Pw/view",
+          "source_locked": false,
+          "selection_reason": "Clinical recognition of large-vessel vasculitis."
+        },
+        {
+          "id": "cvs-previous-years-p70-q23-264",
+          "stem": "Vasculitis of the aorta and its branches?",
+          "options": {
+            "A": "Takayasu's arteritis",
+            "B": "Polyarteritis nodosa",
+            "C": "Kawasaki",
+            "D": "Microscopic polyangiitis"
+          },
+          "answer": "A",
+          "explanation": "The keyed answer follows from the characteristic vessel layer, lesion morphology, or disease association described in the stem.",
+          "source_kind": "test-bank",
+          "source_label": "CVS Previous Years",
+          "source_url": "https://drive.google.com/file/d/1qLoc2JzSgmJmtpVh6cQPIMdWxpqWu7Pw/view",
+          "source_locked": false,
+          "selection_reason": "Clinical recognition of large-vessel vasculitis."
+        }
+      ]
+    },
+    {
+      "id": "pathology__valvular-heart-diseases",
+      "title": "Valvular Heart Diseases",
+      "subject": "Pathology",
+      "questions": [
+        {
+          "id": "formative-quiz2-bcr-q14",
+          "stem": "Which of the following is considered to be a major revised Jones criteria?",
+          "options": {
+            "A": "Fever",
+            "B": "Polyarthritis",
+            "C": "Erythema Multiforme",
+            "D": "Leukocytosis"
+          },
+          "answer": "B",
+          "explanation": "Supplied formative answer: B — Polyarthritis",
+          "source_kind": "formative",
+          "source_label": "Formative 2 BCR",
+          "source_url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=5",
+          "source_locked": true,
+          "selection_reason": "Jones criteria and the consequence of aortic stenosis."
+        },
+        {
+          "id": "cvs-module2-p61-q2-4",
+          "stem": "Long-standing severe aortic stenosis produces pressure overload of which chamber, leading to which listed change?",
+          "options": {
+            "A": "Left ventricular hypertrophy",
+            "B": "Aneurysm of abdominal aorta",
+            "C": "Brown atrophy of the heart",
+            "D": "Right ventricular hypertrophy"
+          },
+          "answer": "A",
+          "explanation": "Aortic stenosis raises left ventricular afterload and causes concentric left ventricular hypertrophy. The valve lesion is explicitly supplied rather than inferred from a small photograph.",
+          "source_kind": "test-bank",
+          "source_label": "Quiz 2 CVS test bank",
+          "source_url": "assets/past-papers/cvs-module-2-test-bank.pdf#page=61",
+          "source_locked": false,
+          "selection_reason": "Jones criteria and the consequence of aortic stenosis."
+        }
+      ]
+    },
+    {
+      "id": "pathology__infective-endocarditis",
+      "title": "Infective Endocarditis",
+      "subject": "Pathology",
+      "questions": [
+        {
+          "id": "formative-quiz2-bcr-q26",
+          "stem": "A 68-year-old man with a history of a prosthetic aortic valve presents with fever and a new heart murmur. Blood cultures grow Staphylococcus aureus. Which of the following is the most likely type of infective endocarditis?",
+          "options": {
+            "A": "Non-bacterial thrombotic endocarditis (NBTE)",
+            "B": "Subacute infective endocarditis",
+            "C": "Libman-Sacks endocarditis",
+            "D": "Acute infective endocarditis"
+          },
+          "answer": "D",
+          "explanation": "Supplied formative answer: D — Acute infective endocarditis",
+          "source_kind": "formative",
+          "source_label": "Formative 2 BCR",
+          "source_url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=8",
+          "source_locked": true,
+          "selection_reason": "Acute infection and systemic embolic complications."
+        },
+        {
+          "id": "cvs-med23-final-p52-qunnumbered-146",
+          "stem": "36 year old woman , blood cultures are positive for gram positive bacteria. Urine analysis show hematuria. An echocardiogram shows a 1.5 cm vegetation on the mitral valve. Which of the following conditions is this patient most likely to develop?",
+          "options": {
+            "A": "cerebral arterial mycotic aneurysm",
+            "B": "dilated cardiomyopathy",
+            "C": "myxomatous mitral valve degeneration",
+            "D": "pulmonary abscess"
+          },
+          "answer": "A",
+          "explanation": "Left-sided infective endocarditis can send septic emboli into systemic arteries and cause cerebral infected aneurysms. Hematuria may reflect immune-complex glomerulonephritis.",
+          "source_kind": "test-bank",
+          "source_label": "Final  2.pdf",
+          "source_url": "assets/past-papers/cvs-med23-final.pdf#page=52",
+          "source_locked": false,
+          "selection_reason": "Acute infection and systemic embolic complications."
+        }
+      ]
+    },
+    {
+      "id": "pathology__cardiac-and-vascular-tumours",
+      "title": "Cardiac and vascular tumours",
+      "subject": "Pathology",
+      "questions": [
+        {
+          "id": "cvs-module2-p28-q29-4",
+          "stem": "An immunocompromised patient has violaceous vascular nodules on the feet with spindle cells and slit-like vascular spaces. Which virus is associated with this lesion?",
+          "options": {
+            "A": "Human herpesvirus-8 (HHV-8)",
+            "B": "Epstein–Barr virus",
+            "C": "Cytomegalovirus",
+            "D": "Hepatitis B virus"
+          },
+          "answer": "A",
+          "explanation": "HHV-8 causes Kaposi sarcoma, which can form violaceous nodules on the feet. Nodules alone are nonspecific.",
+          "source_kind": "test-bank",
+          "source_label": "Quiz 2 CVS test bank",
+          "source_url": "assets/past-papers/cvs-module-2-test-bank.pdf#page=28",
+          "source_locked": false,
+          "selection_reason": "HHV-8 vascular tumors and cardiac metastases."
+        },
+        {
+          "id": "cvs-module2-p27-q12-4",
+          "stem": "Which of the following are common primary sites of cancer that can metastasize to the heart?",
+          "options": {
+            "A": "Lung and breast",
+            "B": "Thyroid and skin",
+            "C": "Kidney and pancreas",
+            "D": "Brain and bone"
+          },
+          "answer": "A",
+          "explanation": "Lung and breast cancers commonly metastasize to the heart, particularly the pericardium.",
+          "source_kind": "test-bank",
+          "source_label": "Quiz 2 CVS test bank",
+          "source_url": "assets/past-papers/cvs-module-2-test-bank.pdf#page=27",
+          "source_locked": false,
+          "selection_reason": "HHV-8 vascular tumors and cardiac metastases."
+        }
+      ]
+    },
+    {
+      "id": "pathology__upper-respiratory-tract-neoplasms",
+      "title": "Upper respiratory tract Neoplasms",
+      "subject": "Pathology",
+      "questions": [
+        {
+          "id": "ai_1L8CUz1EVw5NL600tpxRoTSqKUZLtHEqB_refresh20261016_02",
+          "stem": "A small glottic cancer is detected early because it changes the voice. What additional feature favors its prognosis?",
+          "options": {
+            "A": "Obligatory benign histology",
+            "B": "Sparse true vocal-cord lymphatics",
+            "C": "Exceptionally rich cord lymphatic drainage",
+            "D": "Universal absence of invasion"
+          },
+          "answer": "B",
+          "explanation": "Early hoarseness and limited true-cord lymphatics support earlier diagnosis and less early nodal spread.",
+          "source_kind": "lecture-supplement",
+          "source_label": "Lecture-based supplement",
+          "source_url": "https://drive.google.com/file/d/1L8CUz1EVw5NL600tpxRoTSqKUZLtHEqB/view",
+          "source_locked": false,
+          "selection_reason": "Glottic prognosis and EBV-associated nasopharyngeal carcinoma."
+        },
+        {
+          "id": "ai_1L8CUz1EVw5NL600tpxRoTSqKUZLtHEqB_refresh20261016_05",
+          "stem": "A nasopharyngeal biopsy shows large undifferentiated epithelial cells in a dense lymphoid background and EBER positivity. What is the diagnosis?",
+          "options": {
+            "A": "Nonkeratinizing nasopharyngeal carcinoma",
+            "B": "Benign vocal-cord polyp",
+            "C": "Pulmonary hamartoma",
+            "D": "Acute bacterial pharyngitis"
+          },
+          "answer": "A",
+          "explanation": "The lymphoepithelioma pattern of NPC has malignant epithelial cells with reactive lymphocytes and a strong EBV association.",
+          "source_kind": "lecture-supplement",
+          "source_label": "Lecture-based supplement",
+          "source_url": "https://drive.google.com/file/d/1L8CUz1EVw5NL600tpxRoTSqKUZLtHEqB/view",
+          "source_locked": false,
+          "selection_reason": "Glottic prognosis and EBV-associated nasopharyngeal carcinoma."
+        }
+      ]
+    },
+    {
+      "id": "pathology__atelactasis-acute-lung-injury",
+      "title": "Atelactasis & acute lung injury",
+      "subject": "Pathology",
+      "questions": [
+        {
+          "id": "formative-quiz2-bcr-q20",
+          "stem": "Primary atelectasis is defined as:",
+          "options": {
+            "A": "Reduction in size of a previously expanded lung due to compression",
+            "B": "Reduction in lung size due to contraction",
+            "C": "Reduction in size of a lung due to obstruction",
+            "D": "Incomplete expansion of a previously unexpanded lung"
+          },
+          "answer": "D",
+          "explanation": "Supplied formative answer: D — Incomplete expansion of a previously unexpanded lung",
+          "source_kind": "formative",
+          "source_label": "Formative 2 BCR",
+          "source_url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=6",
+          "source_locked": true,
+          "selection_reason": "Primary versus obstructive/resorption atelectasis."
+        },
+        {
+          "id": "rs-module3-p168-q1",
+          "stem": "Bronchial obstruction by mucus in bronchiectasis can cause which type of atelectasis?",
+          "options": {
+            "A": "Resorption atelectasis",
+            "B": "Compression atelectasis",
+            "C": "Contraction atelectasis",
+            "D": "Restrictive airway disease"
+          },
+          "answer": "A",
+          "explanation": "Mucus obstruction associated with bronchiectasis can lead to resorption atelectasis.",
+          "source_kind": "test-bank",
+          "source_label": "RS Previous Years · Module 3",
+          "source_url": "assets/past-papers/rs-module-3.pdf#page=168",
+          "source_locked": false,
+          "selection_reason": "Primary versus obstructive/resorption atelectasis."
+        }
+      ]
+    },
+    {
+      "id": "pathology__pathology-of-bronchial-asthma",
+      "title": "Pathology of bronchial Asthma",
+      "subject": "Pathology",
+      "questions": [
+        {
+          "id": "formative-quiz2-bcr-q24",
+          "stem": "Serum IgE levels are elevated in:",
+          "options": {
+            "A": "Intrinsic bronchial asthma",
+            "B": "Extrinsic bronchial asthma",
+            "C": "Predominant chronic bronchitis",
+            "D": "Predominant emphysema"
+          },
+          "answer": "B",
+          "explanation": "Supplied formative answer: B — Extrinsic bronchial asthma",
+          "source_kind": "formative",
+          "source_label": "Formative 2 BCR",
+          "source_url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=7",
+          "source_locked": true,
+          "selection_reason": "Atopic asthma and airway remodeling."
+        },
+        {
+          "id": "rs-module3-p21-q60",
+          "stem": "Which structural change contributes to persistent airflow obstruction in chronic asthma?",
+          "options": {
+            "A": "Destruction of alveolar septa with loss of elastic recoil",
+            "B": "Raised pulmonary capillary hydrostatic pressure",
+            "C": "Subepithelial fibrosis with smooth-muscle hypertrophy",
+            "D": "Diffuse intra-alveolar hyaline membrane formation"
+          },
+          "answer": "C",
+          "explanation": "Subepithelial fibrosis and smooth-muscle hypertrophy are components of airway remodelling that can make obstruction less reversible.",
+          "source_kind": "test-bank",
+          "source_label": "RS Previous Years · Module 3",
+          "source_url": "assets/past-papers/rs-module-3.pdf#page=21",
+          "source_locked": false,
+          "selection_reason": "Atopic asthma and airway remodeling."
+        }
+      ]
+    },
+    {
+      "id": "pathology__obstructive-airway-diseases",
+      "title": "Obstructive airway diseases",
+      "subject": "Pathology",
+      "questions": [
+        {
+          "id": "rs-med24-final-p23-q13-38",
+          "stem": "A patient with confirmed alpha-1 antitrypsin deficiency has cirrhosis and emphysema. Which emphysema pattern is classically associated with this inherited disorder?",
+          "options": {
+            "A": "Centriacinar emphysema",
+            "B": "Panacinar emphysema",
+            "C": "Paraseptal emphysema",
+            "D": "Irregular emphysema"
+          },
+          "answer": "B",
+          "explanation": "Answer preserved from the supplied past paper; consult the source page and current lecture when reviewing.",
+          "source_kind": "test-bank",
+          "source_label": "FinalNight RS - MED24.pdf",
+          "source_url": "assets/past-papers/rs-med24-final.pdf#page=23",
+          "source_locked": false,
+          "selection_reason": "Alpha-1 antitrypsin deficiency and the Reid index."
+        },
+        {
+          "id": "rs-module3-p14-q37",
+          "stem": "What does the Reid index measure?",
+          "options": {
+            "A": "Submucosal mucus-gland thickness divided by bronchial wall thickness from epithelium to cartilage",
+            "B": "Cartilage thickness divided by total bronchial wall thickness",
+            "C": "Mucosal thickness divided by total bronchial wall thickness",
+            "D": "Muscle thickness divided by total bronchial wall thickness"
+          },
+          "answer": "A",
+          "explanation": "The Reid index compares the thickness of bronchial submucosal mucus glands with bronchial wall thickness.",
+          "source_kind": "test-bank",
+          "source_label": "RS Previous Years · Module 3",
+          "source_url": "assets/past-papers/rs-module-3.pdf#page=14",
+          "source_locked": false,
+          "selection_reason": "Alpha-1 antitrypsin deficiency and the Reid index."
+        }
+      ]
+    },
+    {
+      "id": "pathology__restrictive-airway-diseases",
+      "title": "Restrictive airway diseases",
+      "subject": "Pathology",
+      "questions": [
+        {
+          "id": "rs-module3-p37-q40",
+          "stem": "50-year old female patient came with Dry cough , Bilateral hilar lymphadenopathy with Non-caseating granuloma . He had:",
+          "options": {
+            "A": "SARCOIDOSIS",
+            "B": "PNEUMOCONIOSES",
+            "C": "Emphysema",
+            "D": "Asthma"
+          },
+          "answer": "A",
+          "explanation": "Source-bank key: SARCOIDOSIS. This is the supplied past-paper key; a detailed explanation has not yet been reviewed.",
+          "source_kind": "test-bank",
+          "source_label": "RS Previous Years · Module 3",
+          "source_url": "assets/past-papers/rs-module-3.pdf#page=37",
+          "source_locked": false,
+          "selection_reason": "Sarcoidosis and restrictive spirometry."
+        },
+        {
+          "id": "rs-med24-mid-p30-q5-61",
+          "stem": "(Case) A patient came in with interstitial fibrosis. What may be the result of the pulmonary function test?",
+          "options": {
+            "A": "FVC reduced",
+            "B": "TLC normal",
+            "C": "FEV1/FVC decreased",
+            "D": "TLC increased"
+          },
+          "answer": "A",
+          "explanation": "Answer preserved from the supplied past paper; consult the source page and current lecture when reviewing.",
+          "source_kind": "test-bank",
+          "source_label": "Popcorn24,Mid🍿.pdf",
+          "source_url": "assets/past-papers/rs-med24-mid.pdf#page=30",
+          "source_locked": false,
+          "selection_reason": "Sarcoidosis and restrictive spirometry."
+        }
+      ]
+    },
+    {
+      "id": "pathology__pulmonary-vessel-diseases",
+      "title": "Pulmonary vessel diseases",
+      "subject": "Pathology",
+      "questions": [
+        {
+          "id": "rs-module3-p115-q39",
+          "stem": "Lines of Zahn help distinguish a thrombus formed in flowing blood from a postmortem clot. Where may they occur?",
+          "options": {
+            "A": "Normal circulating plasma",
+            "B": "Both arterial and venous thrombi",
+            "C": "Postmortem clots only",
+            "D": "Pulmonary oedema fluid"
+          },
+          "answer": "B",
+          "explanation": "Alternating platelet/fibrin and red-cell layers form in flowing blood; both arterial and venous thrombi may show them.",
+          "source_kind": "test-bank",
+          "source_label": "RS Previous Years · Module 3",
+          "source_url": "assets/past-papers/rs-module-3.pdf#page=115",
+          "source_locked": false,
+          "selection_reason": "Antemortem thrombi and pulmonary vascular remodeling."
+        },
+        {
+          "id": "rs-med24-final-p46-q8-79",
+          "stem": "A 57-year-old patient came to the ER with pulmonary hypertension. What is the most common change that occurs in his arteries?",
+          "options": {
+            "A": "Elastic degeneration",
+            "B": "Medial hypertrophy",
+            "C": "Thinning of the vessel wall",
+            "D": "Arterial dilation"
+          },
+          "answer": "B",
+          "explanation": "Answer preserved from the supplied past paper; consult the source page and current lecture when reviewing.",
+          "source_kind": "test-bank",
+          "source_label": "FinalNight RS - MED24.pdf",
+          "source_url": "assets/past-papers/rs-med24-final.pdf#page=46",
+          "source_locked": false,
+          "selection_reason": "Antemortem thrombi and pulmonary vascular remodeling."
+        }
+      ]
+    },
+    {
+      "id": "pathology__pulmonary-infection",
+      "title": "Pulmonary infection",
+      "subject": "Pathology",
+      "questions": [
+        {
+          "id": "formative-quiz2-bcr-q27",
+          "stem": "Which clinical setting increases the risk of nosocomial pneumonia?",
+          "options": {
+            "A": "Brief admission for minor elective surgery",
+            "B": "Short-term outpatient analgesic treatment",
+            "C": "Controlled hypertension without complications",
+            "D": "Prolonged antibiotic therapy and mechanical ventilation"
+          },
+          "answer": "D",
+          "explanation": "Supplied formative answer: D — Prolonged antibiotic therapy and mechanical ventilation",
+          "source_kind": "formative",
+          "source_label": "Formative 2 BCR",
+          "source_url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=8",
+          "source_locked": true,
+          "selection_reason": "Hospital-acquired infection and aspiration lung abscess."
+        },
+        {
+          "id": "rs-module3-p18-q47",
+          "stem": "An alcohol-dependent patient with impaired consciousness develops foul-smelling sputum and a lung abscess in the posterior upper-lobe segment after aspiration while supine. Which listed mechanism best explains it?",
+          "options": {
+            "A": "Aspiration of bacteria-containing oropharyngeal material during impaired consciousness",
+            "B": "Pulmonary embolism",
+            "C": "Viral pneumonia",
+            "D": "Tuberculosis"
+          },
+          "answer": "A",
+          "explanation": "Aspiration of contaminated oropharyngeal material can cause a lung abscess, often in dependent segments. Gastric aspiration may initially cause chemical pneumonitis, with secondary infection possible.",
+          "source_kind": "test-bank",
+          "source_label": "RS Previous Years · Module 3",
+          "source_url": "assets/past-papers/rs-module-3.pdf#page=18",
+          "source_locked": false,
+          "selection_reason": "Hospital-acquired infection and aspiration lung abscess."
+        }
+      ]
+    },
+    {
+      "id": "pathology__pulmonary-neoplasia",
+      "title": "Pulmonary Neoplasia",
+      "subject": "Pathology",
+      "questions": [
+        {
+          "id": "formative-quiz2-bcr-q03",
+          "stem": "A 58-year-old woman who has never smoked presents with persistent cough and weight loss. CT scan reveals a peripheral lung mass. Histology shows malignant glandular cells containing mucin. What is the most likely diagnosis?",
+          "options": {
+            "A": "Small cell carcinoma",
+            "B": "Large cell carcinoma",
+            "C": "Squamous cell carcinoma",
+            "D": "Adenocarcinoma"
+          },
+          "answer": "D",
+          "explanation": "Supplied formative answer: D — Adenocarcinoma",
+          "source_kind": "formative",
+          "source_label": "Formative 2 BCR",
+          "source_url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=1",
+          "source_locked": true,
+          "selection_reason": "Adenocarcinoma versus squamous cell carcinoma."
+        },
+        {
+          "id": "rs-module3-p25-q79",
+          "stem": "A smoker has a cavitating lung tumour with keratin pearls. What is the diagnosis?",
+          "options": {
+            "A": "Adenocarcinoma",
+            "B": "Carcinoid tumour",
+            "C": "Malignant mesothelioma",
+            "D": "Squamous cell carcinoma"
+          },
+          "answer": "D",
+          "explanation": "Keratin pearls and intercellular bridges support squamous cell carcinoma, often associated with smoking and central cavitation.",
+          "source_kind": "test-bank",
+          "source_label": "RS Previous Years · Module 3",
+          "source_url": "assets/past-papers/rs-module-3.pdf#page=25",
+          "source_locked": false,
+          "selection_reason": "Adenocarcinoma versus squamous cell carcinoma."
+        }
+      ]
+    },
+    {
+      "id": "pharmacology__drugs-used-in-the-treatment-of-bronchial-asthma",
+      "title": "Drugs used in the treatment of bronchial asthma",
+      "subject": "Pharmacology",
+      "questions": [
+        {
+          "id": "formative-quiz2-bcr-q07",
+          "stem": "Which of the following is the correct drug–clinical use combination?",
+          "options": {
+            "A": "Albuterol — used as monotherapy in persistent asthma",
+            "B": "Theophylline — has strong anti-inflammatory effects in chronic asthma",
+            "C": "Salmeterol— used alone for acute asthma attacks",
+            "D": "Cromolyn — inhibits mast cell degranulation and is used as prophylactic control therapy"
+          },
+          "answer": "D",
+          "explanation": "Supplied formative answer: D — Cromolyn — inhibits mast cell degranulation and is used as prophylactic control therapy",
+          "source_kind": "formative",
+          "source_label": "Formative 2 BCR",
+          "source_url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=3",
+          "source_locked": true,
+          "selection_reason": "Controller mechanisms and inhaled corticosteroid adverse effects."
+        },
+        {
+          "id": "rs-med24-final-p78-q11-133",
+          "stem": "Which of the following drugs are used in asthma and cause hoarseness of voice and candidiasis ?",
+          "options": {
+            "A": "Theophylline",
+            "B": "Ipratropium bromide",
+            "C": "Zileuton",
+            "D": "Beclomethasone"
+          },
+          "answer": "D",
+          "explanation": "Answer preserved from the supplied past paper; consult the source page and current lecture when reviewing.",
+          "source_kind": "test-bank",
+          "source_label": "FinalNight RS - MED24.pdf",
+          "source_url": "assets/past-papers/rs-med24-final.pdf#page=78",
+          "source_locked": false,
+          "selection_reason": "Controller mechanisms and inhaled corticosteroid adverse effects."
+        }
+      ]
+    },
+    {
+      "id": "pharmacology__drug-therapy-of-respiratory-infections",
+      "title": "Drug therapy of respiratory infections",
+      "subject": "Pharmacology",
+      "questions": [
+        {
+          "id": "rs-med24-final-p66-q4-109",
+          "stem": "In case of Mycoplasma pneumoniae infection, the suggested treatment will be?",
+          "options": {
+            "A": "Vancomycin",
+            "B": "Cephalosporins",
+            "C": "Penicillin",
+            "D": "Erythromycin"
+          },
+          "answer": "D",
+          "explanation": "Answer preserved from the supplied past paper; consult the source page and current lecture when reviewing.",
+          "source_kind": "test-bank",
+          "source_label": "FinalNight RS - MED24.pdf",
+          "source_url": "assets/past-papers/rs-med24-final.pdf#page=66",
+          "source_locked": false,
+          "selection_reason": "Atypical organisms and beta-lactamase inhibition."
+        },
+        {
+          "id": "rs-med24-final-p71-q13-118",
+          "stem": "Which drug is given to overcome the resistance of beta-lactamase-producing bacteria?",
+          "options": {
+            "A": "Ciprofloxacin",
+            "B": "Clavulanic acid",
+            "C": "Doxycycline",
+            "D": "Piperacillin"
+          },
+          "answer": "B",
+          "explanation": "Answer preserved from the supplied past paper; consult the source page and current lecture when reviewing.",
+          "source_kind": "test-bank",
+          "source_label": "FinalNight RS - MED24.pdf",
+          "source_url": "assets/past-papers/rs-med24-final.pdf#page=71",
+          "source_locked": false,
+          "selection_reason": "Atypical organisms and beta-lactamase inhibition."
+        }
+      ]
+    },
+    {
+      "id": "pharmacology__drug-therapy-of-cough-and-copd-1",
+      "title": "Drug therapy of cough and COPD 1",
+      "subject": "Pharmacology",
+      "questions": [
+        {
+          "id": "rs-module3-p191-q10",
+          "stem": "Which listed long-acting muscarinic antagonist is used as maintenance bronchodilator therapy in COPD?",
+          "options": {
+            "A": "Montelukast",
+            "B": "Cromolyn",
+            "C": "Tiotropium",
+            "D": "Salbutamol"
+          },
+          "answer": "C",
+          "explanation": "Tiotropium provides long-acting muscarinic blockade; no COPD medication is free of adverse effects.",
+          "source_kind": "test-bank",
+          "source_label": "RS Previous Years · Module 3",
+          "source_url": "assets/past-papers/rs-module-3.pdf#page=191",
+          "source_locked": false,
+          "selection_reason": "LAMA therapy and mucolytic effects."
+        },
+        {
+          "id": "rs-med24-final-p87-q5-151",
+          "stem": "Which effect describes a mucolytic drug?",
+          "options": {
+            "A": "Stimulates the mucociliary activity of the respiratory epithelium",
+            "B": "Reduces the mucous secretions",
+            "C": "Increases the mucous secretions",
+            "D": "Reduces the viscosity of respiratory secretions"
+          },
+          "answer": "D",
+          "explanation": "Answer preserved from the supplied past paper; consult the source page and current lecture when reviewing.",
+          "source_kind": "test-bank",
+          "source_label": "FinalNight RS - MED24.pdf",
+          "source_url": "assets/past-papers/rs-med24-final.pdf#page=87",
+          "source_locked": false,
+          "selection_reason": "LAMA therapy and mucolytic effects."
+        }
+      ]
+    },
+    {
+      "id": "pharmacology__drug-therapy-of-cough-and-copd-2",
+      "title": "Drug therapy of cough and COPD 2",
+      "subject": "Pharmacology",
+      "questions": [
+        {
+          "id": "formative-quiz2-bcr-q01",
+          "stem": "A 64-year-old man with COPD has persistent exertional dyspnoea despite appropriate inhaled therapy. Which non-pharmacological intervention is most likely to improve his exercise capacity and quality of life?",
+          "options": {
+            "A": "Routine prophylactic antibiotics",
+            "B": "Pulmonary rehabilitation",
+            "C": "Fluid restriction",
+            "D": "Long term bed rest"
+          },
+          "answer": "B",
+          "explanation": "Supplied formative answer: B — Pulmonary rehabilitation",
+          "source_kind": "formative",
+          "source_label": "Formative 2 BCR",
+          "source_url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=1",
+          "source_locked": true,
+          "selection_reason": "Pulmonary rehabilitation and adding a second long-acting bronchodilator."
+        },
+        {
+          "id": "rs-med24-final-p85-q2-148",
+          "stem": "A 69 years-old man has COPD with moderate airway obstruction. Despite using salmeterol two times daily, he reports continued symptoms of shortness of breath with mild exertion. Which agent is an appropriate addition to his current therapy?",
+          "options": {
+            "A": "Salbutamol",
+            "B": "Tiotropium",
+            "C": "Systemic corticosteroids",
+            "D": "Theophylline"
+          },
+          "answer": "B",
+          "explanation": "Answer preserved from the supplied past paper; consult the source page and current lecture when reviewing.",
+          "source_kind": "test-bank",
+          "source_label": "FinalNight RS - MED24.pdf",
+          "source_url": "assets/past-papers/rs-med24-final.pdf#page=85",
+          "source_locked": false,
+          "selection_reason": "Pulmonary rehabilitation and adding a second long-acting bronchodilator."
+        }
+      ]
+    },
+    {
+      "id": "pharmacology__antihypertensive-drugs-1",
+      "title": "Antihypertensive drugs -1",
+      "subject": "Pharmacology",
+      "questions": [
+        {
+          "id": "cvs-module2-p57-q21-1",
+          "stem": "A diabetic patient receiving antihypertensive treatment has recurrent hypoglycemia. Which listed drug class can mask adrenergic warning signs such as tachycardia?",
+          "options": {
+            "A": "Beta blockers",
+            "B": "Diuretics",
+            "C": "Calcium-channel blocker",
+            "D": "Prazosin"
+          },
+          "answer": "A",
+          "explanation": "Beta blockers can mask adrenergic hypoglycemia symptoms. Diabetes or peripheral arterial disease alone is not a blanket absolute contraindication to the entire class.",
+          "source_kind": "test-bank",
+          "source_label": "Quiz 2 CVS test bank",
+          "source_url": "assets/past-papers/cvs-module-2-test-bank.pdf#page=57",
+          "source_locked": false,
+          "selection_reason": "Beta-blocker adverse effects and clonidine withdrawal."
+        },
+        {
+          "id": "cvs-module2-p69-q53-2",
+          "stem": "Abruptly stopping which centrally acting antihypertensive can cause marked rebound sympathetic activation and severe hypertension?",
+          "options": {
+            "A": "Methyldopa",
+            "B": "Clonidine",
+            "C": "Pindolol",
+            "D": "Hydralazine"
+          },
+          "answer": "B",
+          "explanation": "Clonidine withdrawal can cause rebound hypertension. The drug is an antihypertensive; the original antianginal description was misleading.",
+          "source_kind": "test-bank",
+          "source_label": "Quiz 2 CVS test bank",
+          "source_url": "assets/past-papers/cvs-module-2-test-bank.pdf#page=69",
+          "source_locked": false,
+          "selection_reason": "Beta-blocker adverse effects and clonidine withdrawal."
+        }
+      ]
+    },
+    {
+      "id": "pharmacology__antihypertensive-drugs-2",
+      "title": "Antihypertensive drugs -2",
+      "subject": "Pharmacology",
+      "questions": [
+        {
+          "id": "cvs-module2-p32-q22-4",
+          "stem": "Which drug should be avoided in a hypertensive patient with bilateral renal artery stenosis or stenosis affecting a solitary functioning kidney?",
+          "options": {
+            "A": "Lisinoprel",
+            "B": "Clonidine",
+            "C": "Hydralazine",
+            "D": "Diltiazem"
+          },
+          "answer": "A",
+          "explanation": "ACE inhibition can markedly reduce GFR in bilateral renal artery stenosis or stenosis of the artery to a solitary functioning kidney. Unilateral stenosis is not an automatic contraindication.",
+          "source_kind": "test-bank",
+          "source_label": "Quiz 2 CVS test bank",
+          "source_url": "assets/past-papers/cvs-module-2-test-bank.pdf#page=32",
+          "source_locked": false,
+          "selection_reason": "RAAS-blocker contraindications and hydralazine compensation."
+        },
+        {
+          "id": "cvs-module2-p27-q38-2",
+          "stem": "Which combination counters hydralazine-induced reflex tachycardia and sodium/fluid retention?",
+          "options": {
+            "A": "Digoxin + Diuretic",
+            "B": "β-blocker + Hydrochlorothiazide",
+            "C": "ACE inhibitor + Digoxin",
+            "D": "Calcium-channel blocker + Nitrate"
+          },
+          "answer": "B",
+          "explanation": "Hydralazine can provoke reflex tachycardia and sodium retention; a beta blocker and diuretic counter these effects. This is the conventional hydralazine combination, not a complete modern heart failure regimen.",
+          "source_kind": "test-bank",
+          "source_label": "Quiz 2 CVS test bank",
+          "source_url": "assets/past-papers/cvs-module-2-test-bank.pdf#page=27",
+          "source_locked": false,
+          "selection_reason": "RAAS-blocker contraindications and hydralazine compensation."
+        }
+      ]
+    },
+    {
+      "id": "pharmacology__antiarrhythmic-drugs",
+      "title": "Antiarrhythmic drugs",
+      "subject": "Pharmacology",
+      "questions": [
+        {
+          "id": "formative-quiz2-bcr-q11",
+          "stem": "Which of the following drug–indication combinations is correct?",
+          "options": {
+            "A": "Verapamil — WPW with pre-excited atrial fibrillation",
+            "B": "Adenosine — stable monomorphic ventricular tachycardia",
+            "C": "Flecainide — atrial",
+            "D": "IV magnesium — torsades de pointes"
+          },
+          "answer": "D",
+          "explanation": "Supplied formative answer: D — IV magnesium — torsades de pointes",
+          "source_kind": "formative",
+          "source_label": "Formative 2 BCR",
+          "source_url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=4",
+          "source_locked": true,
+          "selection_reason": "Torsades treatment and antiarrhythmic mechanisms."
+        },
+        {
+          "id": "cvs-med23-final-p55-q4-152",
+          "stem": "Which drug acts on Na+ and K+ channels to control arrhythmia?",
+          "options": {
+            "A": "Beta blockers",
+            "B": "Amiodarone",
+            "C": "Lidocaine",
+            "D": "Digoxin"
+          },
+          "answer": "B",
+          "explanation": "Answer preserved from the supplied past paper; consult the source page and current lecture when reviewing.",
+          "source_kind": "test-bank",
+          "source_label": "Final  2.pdf",
+          "source_url": "assets/past-papers/cvs-med23-final.pdf#page=55",
+          "source_locked": false,
+          "selection_reason": "Torsades treatment and antiarrhythmic mechanisms."
+        }
+      ]
+    },
+    {
+      "id": "pharmacology__treatment-of-tb",
+      "title": "Treatment of TB",
+      "subject": "Pharmacology",
+      "questions": [
+        {
+          "id": "formative-quiz2-bcr-q08",
+          "stem": "Which anti-TB drug–adverse effect pair is correctly matched?",
+          "options": {
+            "A": "Rifampin — optic neuritis",
+            "B": "Ethambutol — enzyme induction",
+            "C": "Pyrazinamide — orange body fluids",
+            "D": "Isoniazid — peripheral neuropathy"
+          },
+          "answer": "D",
+          "explanation": "Supplied formative answer: D — Isoniazid — peripheral neuropathy",
+          "source_kind": "formative",
+          "source_label": "Formative 2 BCR",
+          "source_url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=3",
+          "source_locked": true,
+          "selection_reason": "Isoniazid toxicity and the initial four-drug regimen."
+        },
+        {
+          "id": "rs-module3-p48-q45",
+          "stem": "An adult has confirmed drug-susceptible pulmonary tuberculosis. In the standard six-month regimen, which combination is used during the initial two-month phase?",
+          "options": {
+            "A": "Pyrazinamide, ethambutol and isoniazid only",
+            "B": "Isoniazid, rifampicin, pyrazinamide and ethambutol",
+            "C": "Para-aminosalicylic acid, pyrazinamide and rifampicin",
+            "D": "Streptomycin and rifampicin only"
+          },
+          "answer": "B",
+          "explanation": "The standard six-month regimen begins with two months of HRZE, followed by four months of isoniazid and rifampicin. Other recommended regimens exist for eligible patients; the stem specifically asks about the six-month regimen.",
+          "source_kind": "test-bank",
+          "source_label": "RS Previous Years · Module 3",
+          "source_url": "assets/past-papers/rs-module-3.pdf#page=48",
+          "source_locked": false,
+          "selection_reason": "Isoniazid toxicity and the initial four-drug regimen."
+        }
+      ]
+    },
+    {
+      "id": "microbiology__verminous-pneumonia-parasitic-larvae-invading-lung",
+      "title": "Verminous pneumonia (Parasitic larvae invading lung)",
+      "subject": "Microbiology",
+      "questions": [
+        {
+          "id": "formative-quiz2-bcr-q23",
+          "stem": "A 45-year-old farmer presents with a six-day history of cough, dyspnea, and fever. Stool examination reveals no parasitic eggs. Further investigations demonstrate eosinophilia and leukocytosis. What is the most likely diagnosis?",
+          "options": {
+            "A": "Schistosomiasis",
+            "B": "Loeffler’s syndrome",
+            "C": "Pulmonary hydatid cyst",
+            "D": "Amoebic lung abscess"
+          },
+          "answer": "B",
+          "explanation": "Supplied formative answer: B — Loeffler’s syndrome",
+          "source_kind": "formative",
+          "source_label": "Formative 2 BCR",
+          "source_url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=7",
+          "source_locked": true,
+          "selection_reason": "Loeffler syndrome versus acute schistosomiasis."
+        },
+        {
+          "id": "rs-med24-mid-p105-q4-226",
+          "stem": "A 42 year old man returned two weeks ago from a five month trip to Ghana. During his stay he had frequent visits to Lake which included swimming in the lake. He was present with fever, cough wheeze myalgia headache and urticaria.stool analysis revealed 2-3 eggs of schistosoma mansoni. What is the stage?",
+          "options": {
+            "A": "chronic schistosomiasis",
+            "B": "Cercarial penetration (invasion stage)",
+            "C": "Cercaria (migration stage)",
+            "D": "Acute Schistosomiasis (Katayama)"
+          },
+          "answer": "D",
+          "explanation": "Answer preserved from the supplied past paper; consult the source page and current lecture when reviewing.",
+          "source_kind": "test-bank",
+          "source_label": "Popcorn24,Mid🍿.pdf",
+          "source_url": "assets/past-papers/rs-med24-mid.pdf#page=105",
+          "source_locked": false,
+          "selection_reason": "Loeffler syndrome versus acute schistosomiasis."
+        }
+      ]
+    },
+    {
+      "id": "microbiology__cystic-parasitic-diseases-of-the-lung",
+      "title": "Cystic parasitic diseases of the lung",
+      "subject": "Microbiology",
+      "questions": [
+        {
+          "id": "rs-module3-p91-q25",
+          "stem": "Hydatid disease through:",
+          "options": {
+            "A": "Direct skin penetration by filariform larvae",
+            "B": "Eating raw vegetables contaminated by Echinococcus eggs",
+            "C": "Drinking water containing only hookworm filariform larvae",
+            "D": "Transmission through mosquito bites"
+          },
+          "answer": "B",
+          "explanation": "Hydatid disease follows ingestion of Echinococcus eggs from canid-faecal contamination of hands, food or water. It does not follow hookworm larvae or mosquito bites.",
+          "source_kind": "test-bank",
+          "source_label": "RS Previous Years · Module 3",
+          "source_url": "assets/past-papers/rs-module-3.pdf#page=91",
+          "source_locked": false,
+          "selection_reason": "Hydatid transmission and cyst rupture."
+        },
+        {
+          "id": "rs-module3-p193-q19",
+          "stem": "A farmer with dog exposure has a pulmonary cyst that ruptures, and imaging shows floating detached membranes. Which listed parasite causes this hydatid lesion?",
+          "options": {
+            "A": "Ascaris lumbricoides",
+            "B": "Ancylostoma duodenale",
+            "C": "Echinococcus granulosus",
+            "D": "Toxocara cati"
+          },
+          "answer": "C",
+          "explanation": "Detached cyst membranes support pulmonary echinococcosis; a homogeneous opacity alone did not establish hydatid disease.",
+          "source_kind": "test-bank",
+          "source_label": "RS Previous Years · Module 3",
+          "source_url": "assets/past-papers/rs-module-3.pdf#page=193",
+          "source_locked": false,
+          "selection_reason": "Hydatid transmission and cyst rupture."
+        }
+      ]
+    },
+    {
+      "id": "microbiology__upper-respiratory-tract-infections",
+      "title": "Upper respiratory tract infections",
+      "subject": "Microbiology",
+      "questions": [
+        {
+          "id": "rs-med24-mid-p83-q1-177",
+          "stem": "What is the virulence factor of Corynebacterium diphtheriae?",
+          "options": {
+            "A": "Enterotoxin",
+            "B": "Exotoxin",
+            "C": "Enzyme",
+            "D": "Capsule"
+          },
+          "answer": "B",
+          "explanation": "Answer preserved from the supplied past paper; consult the source page and current lecture when reviewing.",
+          "source_kind": "test-bank",
+          "source_label": "Popcorn24,Mid🍿.pdf",
+          "source_url": "assets/past-papers/rs-med24-mid.pdf#page=83",
+          "source_locked": false,
+          "selection_reason": "Diphtheria toxin and streptococcal pharyngitis."
+        },
+        {
+          "id": "rs-module3-p75-q7",
+          "stem": "What is the first-line treatment for streptococcal pharyngitis?",
+          "options": {
+            "A": "Ceftriaxone",
+            "B": "Ampicillin",
+            "C": "Penicillin",
+            "D": "Metronidazole"
+          },
+          "answer": "C",
+          "explanation": "Source-bank key: Penicillin. This is the supplied past-paper key; a detailed explanation has not yet been reviewed.",
+          "source_kind": "test-bank",
+          "source_label": "RS Previous Years · Module 3",
+          "source_url": "assets/past-papers/rs-module-3.pdf#page=75",
+          "source_locked": false,
+          "selection_reason": "Diphtheria toxin and streptococcal pharyngitis."
+        }
+      ]
+    },
+    {
+      "id": "microbiology__lower-respiratory-tract-infections",
+      "title": "Lower respiratory tract infections",
+      "subject": "Microbiology",
+      "questions": [
+        {
+          "id": "formative-quiz2-bcr-q29",
+          "stem": "Which of the following is a route of administration for the BCG vaccine?",
+          "options": {
+            "A": "Intradermal",
+            "B": "Oral",
+            "C": "Subcutaneous",
+            "D": "Intramuscular"
+          },
+          "answer": "A",
+          "explanation": "Supplied formative answer: A — Intradermal",
+          "source_kind": "formative",
+          "source_label": "Formative 2 BCR",
+          "source_url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=9",
+          "source_locked": true,
+          "selection_reason": "BCG administration and bird-associated pneumonia."
+        },
+        {
+          "id": "rs-module3-p20-q55",
+          "stem": "A patient presents with fever and features of lower respiratory tract infection. He gives the history of keeping birds and parrots. What is the causative organism?",
+          "options": {
+            "A": "Chlamydia psittaci",
+            "B": "Legionella pneumophila",
+            "C": "Mycoplasma pneumoniae",
+            "D": "Respiratory syncytial virus"
+          },
+          "answer": "A",
+          "explanation": "Bird exposure with pneumonia suggests Chlamydia psittaci. The corrupted merged alternative was separated.",
+          "source_kind": "test-bank",
+          "source_label": "RS Previous Years · Module 3",
+          "source_url": "assets/past-papers/rs-med24-mid.pdf#page=95",
+          "source_locked": false,
+          "selection_reason": "BCG administration and bird-associated pneumonia."
+        }
+      ]
+    },
+    {
+      "id": "microbiology__lung-immunology-innate-acquired-immune-responses-in-respiratory-infections",
+      "title": "Lung immunology:Innate & acquired immune responses in respiratory infections",
+      "subject": "Microbiology",
+      "questions": [
+        {
+          "id": "formative-quiz2-bcr-q04",
+          "stem": "Which cell is primarily responsible for killing virus-infected respiratory epithelial cells through recognition of antigen presented on MHC class I molecules?",
+          "options": {
+            "A": "B-lymphocyte",
+            "B": "CD8+ cytotoxic T cell ( correct answer)",
+            "C": "CD4+ T helper cell",
+            "D": "Alveolar macrophage"
+          },
+          "answer": "B",
+          "explanation": "Supplied formative answer: B — CD8+ cytotoxic T cell ( correct answer)",
+          "source_kind": "formative",
+          "source_label": "Formative 2 BCR",
+          "source_url": "assets/past-papers/formative-quiz-2-bcr.pdf#page=2",
+          "source_locked": true,
+          "selection_reason": "CD8/MHC I antiviral immunity and IL-5/eosinophils."
+        },
+        {
+          "id": "rs-module3-p24-q76",
+          "stem": "Which Th2 cytokine promotes eosinophil production and activation?",
+          "options": {
+            "A": "IL-5",
+            "B": "IL-4",
+            "C": "IL-10",
+            "D": "TNF-a"
+          },
+          "answer": "A",
+          "explanation": "IL-5 promotes eosinophil differentiation, survival and activation. Chemokines such as eotaxin also regulate eosinophil recruitment into tissues.",
+          "source_kind": "test-bank",
+          "source_label": "RS Previous Years · Module 3",
+          "source_url": "assets/past-papers/rs-module-3.pdf#page=24",
+          "source_locked": false,
+          "selection_reason": "CD8/MHC I antiviral immunity and IL-5/eosinophils."
+        }
+      ]
+    }
+  ]
+}

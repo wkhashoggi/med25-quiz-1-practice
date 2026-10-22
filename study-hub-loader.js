@@ -31,7 +31,7 @@ try{
   const close=html.lastIndexOf('</script>');
   if(close<0)throw new Error('Main application script not found.');
   const insert=close+9;
-  const extra='<script src="study-hub.js?v=20261020xpeverywhere"></'+'script>\n<script src="game-hub.js?v=20261020xpeverywhere"></'+'script>\n<script src="xp-reliability.js?v=20261020xpeverywhere"></'+'script>\n<script src="live-question-stats.js?v=20261020xpeverywhere"></'+'script>\n<script src="assets/cohort-logo-part-1.js?v=20261013"></'+'script>\n<script src="assets/cohort-logo-part-2.js?v=20261013"></'+'script>\n<script src="assets/cohort-logo-part-3.js?v=20261013"></'+'script>\n<script src="assets/cohort-logo-part-4.js?v=20261013"></'+'script>\n<script src="med25-v2.js?v=20261018top"></'+'script>';
+  const extra='<script src="study-hub.js?v=20261022prequiz"></'+'script>\n<script src="game-hub.js?v=20261020xpeverywhere"></'+'script>\n<script src="xp-reliability.js?v=20261020xpeverywhere"></'+'script>\n<script src="live-question-stats.js?v=20261020xpeverywhere"></'+'script>\n<script src="assets/cohort-logo-part-1.js?v=20261013"></'+'script>\n<script src="assets/cohort-logo-part-2.js?v=20261013"></'+'script>\n<script src="assets/cohort-logo-part-3.js?v=20261013"></'+'script>\n<script src="assets/cohort-logo-part-4.js?v=20261013"></'+'script>\n<script src="med25-v2.js?v=20261018top"></'+'script>';
   html=html.slice(0,insert)+'\n'+extra+'<script src="revision-hub.js?v=20261020xpeverywhere"></'+'script><script src="quiz2-prequiz.js?v=20261022a"></'+'script>'+html.slice(insert);
 
   document.open();document.write(html);document.close();
